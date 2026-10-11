@@ -1,10 +1,8 @@
 {
  "attempted": 24,
- "succeeded": 23,
- "failed": 1,
- "failed_sources": [
-  "Kalshi (public market API)"
- ],
+ "succeeded": 24,
+ "failed": 0,
+ "failed_sources": [],
  "items": [
   {
    "id": "wiki_senate_ratings",
@@ -13,7 +11,7 @@
    "detail": "35 races, 10 forecasters",
    "count": 35,
    "status": 200,
-   "seconds": 0.28
+   "seconds": 0.84
   },
   {
    "id": "wiki_house_ratings",
@@ -22,7 +20,7 @@
    "detail": "146 races, 10 forecasters",
    "count": 146,
    "status": 200,
-   "seconds": 0.09
+   "seconds": 0.38
   },
   {
    "id": "votehub_polls",
@@ -31,7 +29,7 @@
    "detail": "556 polls since 2026-06-13 (of 5810)",
    "count": 556,
    "status": 200,
-   "seconds": 6.91
+   "seconds": 6.98
   },
   {
    "id": "polymarket",
@@ -40,16 +38,16 @@
    "detail": "3/3 events",
    "count": 3,
    "status": null,
-   "seconds": 0.44
+   "seconds": 0.42
   },
   {
    "id": "kalshi",
    "name": "Kalshi (public market API)",
-   "ok": false,
-   "detail": "0 priced markets (best effort; not required)",
+   "ok": true,
+   "detail": "0 priced markets (optional source, no priced markets today)",
    "count": 0,
    "status": null,
-   "seconds": 0.54
+   "seconds": 0.33
   },
   {
    "id": "nyt_politics",
@@ -58,25 +56,25 @@
    "detail": "9 relevant of 20 in last 3d",
    "count": 9,
    "status": 200,
-   "seconds": 0.25
+   "seconds": 0.26
   },
   {
    "id": "wsj_politics",
    "name": "Wall Street Journal Politics",
    "ok": true,
-   "detail": "13 relevant of 21 in last 3d",
-   "count": 13,
+   "detail": "11 relevant of 21 in last 3d",
+   "count": 11,
    "status": 200,
-   "seconds": 0.11
+   "seconds": 0.2
   },
   {
    "id": "npr_politics",
    "name": "NPR Politics",
    "ok": true,
-   "detail": "3 relevant of 10 in last 3d",
-   "count": 3,
+   "detail": "4 relevant of 10 in last 3d",
+   "count": 4,
    "status": 200,
-   "seconds": 0.27
+   "seconds": 0.31
   },
   {
    "id": "national_review",
@@ -85,7 +83,7 @@
    "detail": "1 relevant of 20 in last 3d",
    "count": 1,
    "status": 200,
-   "seconds": 0.17
+   "seconds": 0.51
   },
   {
    "id": "the_dispatch",
@@ -94,7 +92,7 @@
    "detail": "2 relevant of 10 in last 3d",
    "count": 2,
    "status": 200,
-   "seconds": 0.46
+   "seconds": 0.54
   },
   {
    "id": "silver_bulletin",
@@ -103,7 +101,7 @@
    "detail": "4 relevant of 20 in last 3d",
    "count": 4,
    "status": 200,
-   "seconds": 0.23
+   "seconds": 0.28
   },
   {
    "id": "split_ticket",
@@ -121,7 +119,7 @@
    "detail": "3 relevant of 1200 in last 7d",
    "count": 3,
    "status": 200,
-   "seconds": 0.3
+   "seconds": 0.47
   },
   {
    "id": "ezra_klein",
@@ -130,7 +128,7 @@
    "detail": "2 relevant of 5 in last 7d",
    "count": 2,
    "status": 200,
-   "seconds": 0.18
+   "seconds": 0.16
   },
   {
    "id": "the_daily",
@@ -139,7 +137,7 @@
    "detail": "5 relevant of 66 in last 7d",
    "count": 5,
    "status": 200,
-   "seconds": 0.22
+   "seconds": 0.21
   },
   {
    "id": "npr_politics_podcast",
@@ -148,7 +146,7 @@
    "detail": "5 relevant of 1750 in last 7d",
    "count": 5,
    "status": 200,
-   "seconds": 0.77
+   "seconds": 0.81
   },
   {
    "id": "gd_politics",
@@ -157,7 +155,7 @@
    "detail": "3 relevant of 159 in last 7d",
    "count": 3,
    "status": 200,
-   "seconds": 0.2
+   "seconds": 0.24
   },
   {
    "id": "hacks_on_tap",
@@ -166,7 +164,7 @@
    "detail": "1 relevant of 396 in last 7d",
    "count": 1,
    "status": 200,
-   "seconds": 0.33
+   "seconds": 0.29
   },
   {
    "id": "ruthless",
@@ -175,7 +173,7 @@
    "detail": "4 relevant of 745 in last 7d",
    "count": 4,
    "status": 200,
-   "seconds": 0.43
+   "seconds": 0.72
   },
   {
    "id": "the_remnant",
@@ -184,7 +182,7 @@
    "detail": "3 relevant of 1182 in last 7d",
    "count": 3,
    "status": 200,
-   "seconds": 0.66
+   "seconds": 0.47
   },
   {
    "id": "megyn_kelly",
@@ -193,7 +191,7 @@
    "detail": "10 relevant of 1975 in last 7d",
    "count": 10,
    "status": 200,
-   "seconds": 1.03
+   "seconds": 1.06
   },
   {
    "id": "honestly",
@@ -211,19 +209,19 @@
    "detail": "1 relevant of 392 in last 7d",
    "count": 1,
    "status": 200,
-   "seconds": 0.25
+   "seconds": 0.37
   },
   {
    "id": "google_news",
    "name": "Google News race searches",
    "ok": true,
-   "detail": "75 races + 3 national queries, 401 items; 5 errors",
-   "count": 401,
+   "detail": "54 races + 3 national queries, 290 items",
+   "count": 290,
    "status": null,
-   "seconds": 128.32
+   "seconds": 59.91
   }
  ],
  "run_date": "2026-10-11",
- "started_at": "2026-10-11T16:39:36.348434+00:00",
- "finished_at": "2026-10-11T16:42:02.677306+00:00"
+ "started_at": "2026-10-11T17:46:33.563604+00:00",
+ "finished_at": "2026-10-11T17:47:53.253155+00:00"
 }

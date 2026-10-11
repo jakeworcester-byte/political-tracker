@@ -954,11 +954,9 @@
  ],
  "coverage": {
   "attempted": 24,
-  "succeeded": 23,
-  "failed": 1,
-  "failed_sources": [
-   "Kalshi (public market API)"
-  ]
+  "succeeded": 24,
+  "failed": 0,
+  "failed_sources": []
  },
  "national": {
   "generic_ballot": {
@@ -1042,14 +1040,14 @@
     "R": 36.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
     "source": "Polymarket",
-    "volume": 6292764.901925001
+    "volume": 6298644.973953001
    },
    "house": {
     "D": 90.5,
     "R": 9.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
     "source": "Polymarket",
-    "volume": 16406317.874333002
+    "volume": 16407234.437621001
    },
    "balance": {
     "combos": {
@@ -1061,7 +1059,7 @@
     },
     "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
     "source": "Polymarket",
-    "volume": 21392007.446707
+    "volume": 21403901.921127997
    },
    "kalshi": []
   }
@@ -1072,14 +1070,14 @@
    "R": 36.5,
    "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
    "source": "Polymarket",
-   "volume": 6292764.901925001
+   "volume": 6298644.973953001
   },
   "house": {
    "D": 90.5,
    "R": 9.5,
    "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
    "source": "Polymarket",
-   "volume": 16406317.874333002
+   "volume": 16407234.437621001
   },
   "balance": {
    "combos": {
@@ -1091,9 +1089,9 @@
    },
    "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
    "source": "Polymarket",
-   "volume": 21392007.446707
+   "volume": 21403901.921127997
   },
   "kalshi": []
  },
- "signal_count": 257
+ "signal_count": 171
 }
