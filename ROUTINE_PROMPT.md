@@ -1,12 +1,12 @@
 # Routine prompt: Midterm Tracker morning run
 
-This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-10-11d.
+This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-10-11e.
 
 ## How the routines are wired
 
 Two routines, because a fresh routine session has no repository credential and no connectors, while a persistent session keeps both:
 
-1. **Midterm Tracker morning run** (5:07 a.m. Central) fires into the persistent runner session `session_01DfgwjsFRTn4HqAT89fuSzh`, which was created with the repository as its source (push access to `main`) and carries the Notion connector. It does everything below.
+1. **Midterm Tracker morning run** (5:07 a.m. Central) fires into the persistent runner session `session_01Ck3jX417QeWHBSEtBAA7PR` (model: Claude Opus 5.5, Jake's choice), which was created with the repository as its source (push access to `main`) and carries the Notion connector. It does everything below. An earlier runner, `session_01DfgwjsFRTn4HqAT89fuSzh`, ran the verification tests on 2026-10-11 and is retired.
 2. **Midterm Tracker brief to phone** (5:47 a.m. Central) is a fresh-session routine with push and email notifications on. It only fetches `docs/data/briefs/<today>.md` from raw GitHub and outputs it verbatim, so its completion notification on Jake's phone *is* the brief. If no brief is published by then, it notifies Jake of the failure instead.
 
 If the runner session is ever archived or expires, create a new session with `source_url` = the repository and `outcome_branch` = `main`, then rebind the morning routine to its id (`persistent_session_id`).
@@ -22,6 +22,7 @@ Today's date is the current date in America/Chicago.
 If the repository is not already in your working directory (a fresh routine session may start empty), clone it first: `git clone https://github.com/jakeworcester-byte/political-tracker && cd political-tracker`. If a later push is refused for lack of credentials, call the `add_repo` tool with owner `jakeworcester-byte`, repo `political-tracker`, access `push`, then retry the push.
 
 ```bash
+git stash push -u -m "leftover before run" || true   # never git clean / checkout -- . / reset --hard: the permission classifier denies those
 git checkout main && git pull --ff-only origin main
 python3 scripts/collect.py
 python3 scripts/analyze.py
