@@ -1,6 +1,6 @@
 # Jake's Political Tracker
 
-A daily, automated intelligence feed on the 2026 midterms for Jake Worcester. One cloud Routine runs every morning: collect, analyze, write the brief, publish the site, update Notion, notify Jake. This repository is the system of record. Notion is a reading layer so any Claude chat on Jake's phone or desktop can answer questions from current data.
+A daily, automated intelligence feed on the 2026 midterms for Jake Worcester. A cloud Routine runs every morning in a persistent runner session: collect, analyze, write the brief, publish the site, update Notion. A second, tiny Routine then pushes the published brief to Jake's phone. See `ROUTINE_PROMPT.md` for how they are wired. This repository is the system of record. Notion is a reading layer so any Claude chat on Jake's phone or desktop can answer questions from current data.
 
 **Firm rules.** Not a forecast: synthesize what forecasters, polls, markets, and reporting say; never predict. Every claim in a brief carries a source URL. Paraphrase only; never store or reproduce paywalled text. Never bypass a bot challenge, paywall, or terms of service. If a source fails, say so. Read `config/rubric.md` before writing anything for Jake.
 

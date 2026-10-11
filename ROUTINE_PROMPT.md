@@ -1,6 +1,15 @@
 # Routine prompt: Midterm Tracker morning run
 
-This is the exact prompt the cloud Routine runs every morning. Keep it in sync with the Routine at https://claude.ai/code/routines. Version: 2026-10-11b.
+This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-10-11c.
+
+## How the routines are wired
+
+Two routines, because a fresh routine session has no repository credential and no connectors, while a persistent session keeps both:
+
+1. **Midterm Tracker morning run** (5:07 a.m. Central) fires into the persistent runner session `session_01DfgwjsFRTn4HqAT89fuSzh`, which was created with the repository as its source (push access to `main`) and carries the Notion connector. It does everything below.
+2. **Midterm Tracker brief to phone** (5:47 a.m. Central) is a fresh-session routine with push and email notifications on. It only fetches `docs/data/briefs/<today>.md` from raw GitHub and outputs it verbatim, so its completion notification on Jake's phone *is* the brief. If no brief is published by then, it notifies Jake of the failure instead.
+
+If the runner session is ever archived or expires, create a new session with `source_url` = the repository and `outcome_branch` = `main`, then rebind the morning routine to its id (`persistent_session_id`).
 
 ---
 
@@ -55,7 +64,7 @@ Push directly to `main`; do not create a `claude/` branch or a pull request. Git
 Use the Notion connector. Database IDs are in `CLAUDE.md`. If no Notion tools (`mcp__Notion__*`) are available in this session, skip this step entirely and say "Notion not updated (connector not attached to the routine)" in the final coverage line. Jake's Claude chats fall back to the raw GitHub data, so a skipped Notion update is a degradation, not a failure.
 
 1. **Daily Briefs**: query for a page whose Date is today. If none, create one titled `Midterm brief <today>` with the full brief as the page body and these properties: Date, Bottom line (the first section's text), Top movers (one line per mover, or "none"), Senate control (markets), House control (markets), Generic ballot, Presidential approval, Coverage (`<ok>/<attempted> sources; failed: ...`), Signals written, Site link, Run status (OK if the core steps succeeded, Degraded if sources failed, Failed otherwise). If a page already exists for today, update its properties and replace its body.
-2. **Signals**: create one row per source you cited in the brief (typically 10 to 20). Fields: Headline, Date, Race key or `National`, Type, Source, Source lean, Quality (per rubric), URL, Summary (your own words, one or two sentences), Why it matters (one line).
+2. **Signals**: create one row per source you cited in the brief (typically 10 to 20), skipping any URL that already has a Signals row dated today. Fields: Headline, Date, Race key or `National`, Type, Source, Source lean, Quality (per rubric), URL, Summary (your own words, one or two sentences), Why it matters (one line).
 3. **Races**: using `notion_race_rows` from the bundle JSON, update rows whose Key matches and whose Consensus rating, Polling average, or Trend changed since the stored value; create rows for tracked races that do not exist yet. Write a one-line `State of the race` for races that appear in What moved or Races to watch.
 4. **Inbox**: query rows where Processed is unchecked. For each, create a Signal of type `jake inbox`, lean `jake`, Summary = Jake's takeaway (never the article text), then check Processed. Mention these in the brief's spectrum section only if they are relevant today.
 
@@ -63,6 +72,6 @@ Keep Notion calls bounded: batch page creations where the tool allows it, and ne
 
 ## 6. Finish
 
-Your final message is what Jake receives as a push notification on his phone, so it must be the brief itself. Output the full text of `data/briefs/<today>.md` followed by one line: `Coverage: <ok>/<attempted> sources. Site updated. Notion updated.` (or the honest equivalent if a step failed).
+Output the full text of `data/briefs/<today>.md` followed by one line: `Coverage: <ok>/<attempted> sources. Site updated. Notion updated.` (or the honest equivalent if a step failed). The notifier routine delivers the published brief to Jake's phone about 40 minutes later, so the push to `main` is the deliverable.
 
 If the run failed at a core step (no ratings, no brief, or the push failed twice), your final message is instead a short failure notice: what failed, the error text, and what Jake can do (open the run, or press Run now after the fix). Never end silently.
