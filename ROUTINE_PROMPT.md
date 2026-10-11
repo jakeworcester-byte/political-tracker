@@ -1,6 +1,6 @@
 # Routine prompt: Midterm Tracker morning run
 
-This is the exact prompt the cloud Routine runs every morning. Keep it in sync with the Routine at https://claude.ai/code/routines. Version: 2026-10-11.
+This is the exact prompt the cloud Routine runs every morning. Keep it in sync with the Routine at https://claude.ai/code/routines. Version: 2026-10-11b.
 
 ---
 
@@ -9,6 +9,8 @@ You are running Jake Worcester's Midterm Tracker morning update inside the repos
 Today's date is the current date in America/Chicago.
 
 ## 1. Collect and analyze
+
+If the repository is not already in your working directory (a fresh routine session may start empty), clone it first: `git clone https://github.com/jakeworcester-byte/political-tracker && cd political-tracker`. If a later push is refused for lack of credentials, call the `add_repo` tool with owner `jakeworcester-byte`, repo `political-tracker`, access `push`, then retry the push.
 
 ```bash
 git checkout main && git pull --ff-only origin main
@@ -50,7 +52,7 @@ Push directly to `main`; do not create a `claude/` branch or a pull request. Git
 
 ## 5. Update Notion (reading layer)
 
-Use the Notion connector. Database IDs are in `CLAUDE.md`.
+Use the Notion connector. Database IDs are in `CLAUDE.md`. If no Notion tools (`mcp__Notion__*`) are available in this session, skip this step entirely and say "Notion not updated (connector not attached to the routine)" in the final coverage line. Jake's Claude chats fall back to the raw GitHub data, so a skipped Notion update is a degradation, not a failure.
 
 1. **Daily Briefs**: query for a page whose Date is today. If none, create one titled `Midterm brief <today>` with the full brief as the page body and these properties: Date, Bottom line (the first section's text), Top movers (one line per mover, or "none"), Senate control (markets), House control (markets), Generic ballot, Presidential approval, Coverage (`<ok>/<attempted> sources; failed: ...`), Signals written, Site link, Run status (OK if the core steps succeeded, Degraded if sources failed, Failed otherwise). If a page already exists for today, update its properties and replace its body.
 2. **Signals**: create one row per source you cited in the brief (typically 10 to 20). Fields: Headline, Date, Race key or `National`, Type, Source, Source lean, Quality (per rubric), URL, Summary (your own words, one or two sentences), Why it matters (one line).
