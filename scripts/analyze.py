@@ -494,7 +494,7 @@ def write_bundle(run_date, races, national, markets, movers, signals, coverage, 
     for r in sorted(tracked, key=lambda r: (r["chamber"] != "Senate", r["consensus_score"], r["key"])):
         rt = ", ".join(f"{SHORT.get(k, k)} {v['rating']}" for k, v in r["ratings"].items())
         poll = r.get("poll")
-        ps = f"{poll['average_label']} avg of {poll['n_polls']} ({poll['window_days']}d); latest {poll['latest']['pollster']} {poll['latest']['margin_label']} {poll['latest']['end_date']}" if poll else "no resolvable polls"
+        ps = f"{poll['average_label']} avg of {poll['n_polls']} poll{'s' if poll['n_polls'] != 1 else ''} ({poll['window_days']}d); latest {poll['latest']['pollster']} {poll['latest']['margin_label']} {poll['latest']['end_date']}" if poll else "no resolvable polls"
         flag = " DISAGREEMENT" if r["disagreement"] else ""
         L(f"- {r['key']} {r['name']} | inc {r['incumbent']} ({r['incumbent_party']}{', open' if r['open_seat'] else ''}) | {r['consensus']}{flag} | {rt} | polls: {ps} | trend {r['trend']}")
     L("")
@@ -531,7 +531,7 @@ def write_bundle(run_date, races, national, markets, movers, signals, coverage, 
             "Incumbent": r["incumbent"], "Incumbent party": "Open" if r["open_seat"] else (r["incumbent_party"] or "I"),
             "Consensus rating": r["consensus"], "Tracked": True, "Forecaster disagreement": r["disagreement"],
             "Ratings by forecaster": "; ".join(f"{v['name']}: {v['rating']} ({v['as_of']})" for v in r["ratings"].values()),
-            "Polling average": f"{poll['average_label']} ({poll['n_polls']} polls, {poll['window_days']}d)" if poll else "no resolvable polls",
+            "Polling average": f"{poll['average_label']} ({poll['n_polls']} poll{'s' if poll['n_polls'] != 1 else ''}, {poll['window_days']}d)" if poll else "no resolvable polls",
             "Market odds": "", "Trend": r["trend"], "Site link": SITE_URL + f"#race/{r['key']}",
         })
     dump({"run_date": run_date, "movers": movers, "unresolved_candidates": unresolved, "notion_race_rows": notion_rows,
