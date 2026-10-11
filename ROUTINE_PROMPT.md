@@ -57,7 +57,7 @@ git commit -m "Daily update <today>"
 git push origin HEAD:main
 ```
 
-Push directly to `main`; do not create a `claude/` branch or a pull request. GitHub Pages redeploys from `main:/docs` automatically. If the push is rejected because `main` moved, run `git pull --rebase origin main` and push again.
+Push directly to `main`; do not create a `claude/` branch or a pull request. A workflow mirrors `docs/` to the `gh-pages` branch, which GitHub Pages serves, so the site updates a minute or two after the push. If the push is rejected because `main` moved, run `git pull --rebase origin main` and push again.
 
 ## 5. Update Notion (reading layer)
 

@@ -19,15 +19,12 @@ python3 scripts/publish.py      # fold the brief into the site data
 
 Standard library only; no installs needed.
 
-## One-time GitHub settings (owner only)
+## Hosting
 
-Two settings cannot be changed through the automation and need one click each in the repository's **Settings**:
-
-1. **Pages:** Settings → Pages → Build and deployment → Source: **GitHub Actions**. The `Deploy site to GitHub Pages` workflow then publishes `docs/` on every push to `main`.
-2. **Default branch:** Settings → General → Default branch: **main**. Scheduled workflows (the dead man's switch) only run from the default branch.
+The site is served by GitHub Pages from the `gh-pages` branch, which the `Publish site to gh-pages` workflow mirrors from `docs/` on every push to `main`. No Pages settings are required. Optional tidiness: Settings → General → Default branch: **main** (the dead man's switch already runs from the current default branch, which is kept identical to `main`).
 
 ## Reliability
 
-- `.github/workflows/pages.yml` deploys the site on every push to `main`.
+- `.github/workflows/pages.yml` mirrors `docs/` to the `gh-pages` branch on every push to `main`, which GitHub Pages serves.
 - `.github/workflows/deadman.yml` runs at 7:20 a.m. Central and opens an issue (which emails the owner) if no brief landed that day.
 - Every run writes a coverage report; failed sources are named in the brief rather than worked around.

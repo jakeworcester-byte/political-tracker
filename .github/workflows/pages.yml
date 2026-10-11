@@ -1,5 +1,8 @@
-name: Deploy site to GitHub Pages
+name: Publish site to gh-pages
 
+# GitHub Pages for this repository serves the gh-pages branch (Pages auto-enabled when that
+# branch was first pushed). This workflow mirrors docs/ from main into gh-pages on every push,
+# so the daily routine's push to main republishes the site without any Pages settings.
 on:
   push:
     branches: [main]
@@ -9,30 +12,28 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: gh-pages
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Configure Pages (creates the site on first run)
-        uses: actions/configure-pages@v5
         with:
-          enablement: true
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+          fetch-depth: 0
+      - name: Push docs/ to gh-pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          touch docs/.nojekyll
+          git add docs/.nojekyll
+          git -c user.name=github-actions[bot] -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -q -m "nojekyll" || true
+          SPLIT=$(git subtree split --prefix docs HEAD)
+          git push --force origin "$SPLIT:refs/heads/gh-pages"
+          echo "published $SPLIT to gh-pages"

@@ -16,8 +16,8 @@ scripts/publish.py      data/briefs/<date>.md -> docs/data/latest.json brief + d
 data/raw/<date>/        raw pulls, kept for diagnosis
 data/bundle/<date>.md   the digest Claude reads before writing the brief (movers, tracked races, signals by lean)
 data/briefs/<date>.md   the brief Claude writes
-docs/                   the GitHub Pages site (index.html + assets/ + data/). Pages serves main:/docs
-.github/workflows/      pages.yml deploys docs/ on push to main; deadman.yml opens an issue if no brief landed by 7:20 CT
+docs/                   the GitHub Pages site (index.html + assets/ + data/). A workflow mirrors it to the gh-pages branch, which Pages serves
+.github/workflows/      pages.yml mirrors docs/ to gh-pages on push to main; deadman.yml opens an issue if no brief landed by 7:20 CT
 ROUTINE_PROMPT.md       the exact prompt the cloud Routine runs, version-controlled
 ```
 
