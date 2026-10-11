@@ -19,11 +19,16 @@
   function md(src) {
     const lines = (src || "").split(/\r?\n/);
     let out = "", inList = false;
-    const inline = s => esc(s)
-      .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
-      .replace(/(^|[^\w])(https?:\/\/[^\s<)]+)/g, (m, pre, url) => `${pre}<a href="${url}" target="_blank" rel="noopener">${url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40)}${url.length > 48 ? "…" : ""}</a>`)
-      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-      .replace(/(^|\s)\*([^*]+)\*/g, "$1<em>$2</em>");
+    const inline = s => {
+      const links = [];
+      const hold = html => { links.push(html); return `\u0000${links.length - 1}\u0000`; };
+      let t = esc(s)
+        .replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g, (m, text, url) => hold(`<a href="${url}" target="_blank" rel="noopener">${text}</a>`))
+        .replace(/(^|[^\w"=])(https?:\/\/[^\s<)]+)/g, (m, pre, url) => pre + hold(`<a href="${url}" target="_blank" rel="noopener">${url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 40)}${url.length > 48 ? "…" : ""}</a>`))
+        .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+        .replace(/(^|\s)\*([^*]+)\*/g, "$1<em>$2</em>");
+      return t.replace(/\u0000(\d+)\u0000/g, (m, i) => links[+i]);
+    };
     for (const raw of lines) {
       const line = raw.trimEnd();
       if (/^\s*[-*]\s+/.test(line)) { if (!inList) { out += "<ul>"; inList = true; } out += `<li>${inline(line.replace(/^\s*[-*]\s+/, ""))}</li>`; continue; }
