@@ -54,7 +54,7 @@ Parent page "Midterms 2026": https://app.notion.com/p/3f63eda98b27817492f1f2b157
 | Signals | `collection://e4e75cb8-ed2e-4929-ae2e-fd68f432ca4b` | only the signals cited in that day's brief (10 to 20 rows) |
 | Inbox | `collection://57747927-9f76-4d52-8565-e7d42a78f56c` | Jake's reading inbox; process rows where Processed is unchecked |
 
-Keep Notion writes small: the brief page, the cited signals, and only the Races rows whose consensus, polling label, or trend changed (plus all tracked rows on the first run).
+Keep Notion writes small and **create-only** (new Daily Briefs page, new Signals rows). Update, delete, and move calls raise an approval prompt that blocks the unattended runner session, so the routine never issues them; the Races rows are a seeded baseline and the current race state lives in each day's brief page, on the site, and in the raw JSON.
 
 ## Conventions
 

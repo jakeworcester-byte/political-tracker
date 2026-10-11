@@ -1,6 +1,6 @@
 # Routine prompt: Midterm Tracker morning run
 
-This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-10-11c.
+This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-10-11d.
 
 ## How the routines are wired
 
@@ -61,14 +61,14 @@ Push directly to `main`; do not create a `claude/` branch or a pull request. Git
 
 ## 5. Update Notion (reading layer)
 
-Use the Notion connector. Database IDs are in `CLAUDE.md`. If no Notion tools (`mcp__Notion__*`) are available in this session, skip this step entirely and say "Notion not updated (connector not attached to the routine)" in the final coverage line. Jake's Claude chats fall back to the raw GitHub data, so a skipped Notion update is a degradation, not a failure.
+Use the Notion connector tools. Database IDs are in `CLAUDE.md`. **Create-only rule:** call only page-creation tools (`notion-create-pages`). Never call `notion-update-page`, `notion-update-data-source`, delete, or move: in the runner session those calls raise an approval prompt that blocks the whole session until a human clicks, and nobody is watching. Every Notion write below is a create.
 
-1. **Daily Briefs**: query for a page whose Date is today. If none, create one titled `Midterm brief <today>` with the full brief as the page body and these properties: Date, Bottom line (the first section's text), Top movers (one line per mover, or "none"), Senate control (markets), House control (markets), Generic ballot, Presidential approval, Coverage (`<ok>/<attempted> sources; failed: ...`), Signals written, Site link, Run status (OK if the core steps succeeded, Degraded if sources failed, Failed otherwise). If a page already exists for today, update its properties and replace its body.
-2. **Signals**: create one row per source you cited in the brief (typically 10 to 20), skipping any URL that already has a Signals row dated today. Fields: Headline, Date, Race key or `National`, Type, Source, Source lean, Quality (per rubric), URL, Summary (your own words, one or two sentences), Why it matters (one line).
-3. **Races**: using `notion_race_rows` from the bundle JSON, update rows whose Key matches and whose Consensus rating, Polling average, or Trend changed since the stored value; create rows for tracked races that do not exist yet. Write a one-line `State of the race` for races that appear in What moved or Races to watch.
-4. **Inbox**: query rows where Processed is unchecked. For each, create a Signal of type `jake inbox`, lean `jake`, Summary = Jake's takeaway (never the article text), then check Processed. Mention these in the brief's spectrum section only if they are relevant today.
+1. **Daily Briefs**: query the data source for a page whose Date is today. If none exists, create one titled `Midterm brief <today>` with the full brief as the page body, followed by a `## Tracked races today` section listing every tracked race as one line: key, name, consensus rating, polling average, trend, and the site link (from `notion_race_rows` in the bundle JSON). Properties: Date, Bottom line, Top movers (one line per mover, or "none"), Senate control (markets), House control (markets), Generic ballot, Presidential approval, Coverage (`<ok>/<attempted> sources; failed: ...`), Signals written, Site link, Run status (OK, Degraded if sources failed, Failed otherwise). If a page for today already exists (a same-day rerun), create nothing and move on.
+2. **Signals**: query Signals for rows dated today, then create one row per source cited in the brief whose URL is not already present (typically 10 to 20). Fields: Headline, Date, Race key or `National`, Type, Source, Source lean, Quality (per rubric), URL, Summary (your own words, one or two sentences), Why it matters (one line).
+3. **Races**: the Races rows are a baseline snapshot seeded on 2026-10-11 and are not updated by the routine (that would need update calls). Current race state lives in the Daily Briefs page's tracked-races section, on the site, and in the raw JSON. When a tracked race's consensus rating changes, also create a Signal of type `rating change` for it so the change is visible in Notion.
+4. **Inbox**: query rows where Processed is unchecked. For each whose URL does not already have a Signals row, create a Signal of type `jake inbox`, lean `jake`, Summary = Jake's takeaway (never the article text). Do not try to check Processed (an update call); the URL check prevents duplicates. Mention these in the brief's spectrum section only if they are relevant today.
 
-Keep Notion calls bounded: batch page creations where the tool allows it, and never write more than 60 pages in one run.
+Keep Notion calls bounded: batch page creations in one call where the tool allows it, and never create more than 60 pages in one run. If any Notion call fails, continue; Notion is a reading layer, and the site plus raw GitHub data are the source of truth.
 
 ## 6. Finish
 
