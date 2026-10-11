@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T18:08:10.125618+00:00",
+ "generated_at": "2026-10-11T20:04:41.218182+00:00",
  "run_date": "2026-10-11",
  "site_title": "Jake's Political Tracker",
  "disclaimer": "Not a forecast. A daily synthesis of what credible forecasters, public polls, prediction markets, and reporting say about the 2026 midterms, with movement over time.",
@@ -131,26 +131,26 @@
     "R": 36.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
     "source": "Polymarket",
-    "volume": 6298644.973953002
+    "volume": 6315691.061405002
    },
    "house": {
     "D": 90.5,
     "R": 9.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
     "source": "Polymarket",
-    "volume": 16407234.437621
+    "volume": 16411067.351342998
    },
    "balance": {
     "combos": {
      "D Senate, D House": 61.5,
      "D Senate, R House": 0.9,
-     "R Senate, D House": 29.5,
+     "R Senate, D House": 28.5,
      "R Senate, R House": 8.5,
      "Other": 0.1
     },
     "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
     "source": "Polymarket",
-    "volume": 21405821.992417
+    "volume": 21508881.052092
    },
    "kalshi": []
   }
@@ -1796,7 +1796,7 @@
      "url": "https://www.washingtonpost.com/tablet/2026/10/09/sept-30-oct-5-2026-washington-post-schar-school-poll-maine-voters"
     }
    },
-   "signal_count": 7
+   "signal_count": 8
   },
   {
    "key": "SEN-MA",
@@ -5949,7 +5949,7 @@
    "flip_votes": 7,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 3
+   "signal_count": 4
   },
   {
    "key": "HOU-FL-02",
@@ -9504,7 +9504,7 @@
    "flip_votes": 1,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-MI-07",
@@ -14653,7 +14653,7 @@
      "url": "https://www.politico.com/newsletters/playbook/2026/06/26/wes-moores-vision-for-america-00977774"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-PA-10",
@@ -18884,10 +18884,10 @@
     "National"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "Newsweek",
    "lean": "unrated",
-   "title": "Tracking Competitive Races in the House and Senate",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+   "title": "Democrat Chances of Winning House, Senate Hit New High—Nate Silver Forecast",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUzBoYlYwV2RaUklXWG5jSTFVWE5NWFlvd3FmWElWSm5vZFNJZ3JkcDFwQk05cFZKRTlqc0FTQVVYUm1WNUJreGZYblNnc1ROejY3bldPR3JxaVhmY2RlaFczNFhmTXdBZjI5RVdlS3ZNMEFJVld5R2VQRXJuQjZybWJ0RDZDaGhSWEdVdy1ELXVOYlJ4b3JXT1dxQ18tOWdFb3NRUzRaV25td19O?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -19027,6 +19027,21 @@
     "National"
    ],
    "type": "reporting",
+   "source": "Marist Poll",
+   "lean": "unrated",
+   "title": "Polls, Analysis, Learning, and More",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMHhldS1NbEx6eFd5ZFM5OWd3aDFTYkFkdzliYTFEczhCQ1RiRkxGcmtnQWg0NkRsYTY3R1RJM2FhVXVqOVdTQ2llWkh5aEJScDhUSXZiX0dzVExLOWRmQ3RYTmtlY0M5RUhtLUd1eVNCVEVMbVFUX0VUZDBKcFhSYXctYWxfUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-07",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
    "source": "Quantus Insights",
    "lean": "unrated",
    "title": "2026 Senate Forecast October Update",
@@ -19090,21 +19105,6 @@
    "url": "",
    "summary": "Ruthless breaks down the chaos in Minnesota, Rahm Emanuel’s awkward Abdul El-Sayed endorsement, and the latest developments in Iran. Plus, Joe Lonsdale joins the progrum to talk AI, American manufacturing, defense tech, and the race with China. #RuthlessPodcast #AI #Midterms 0:00:00 Intro 0:02:14 Mi",
    "relevant": true
-  },
-  {
-   "date": "2026-10-06",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "The Conversation",
-   "lean": "unrated",
-   "title": "Republicans continue to slide in US polls, four weeks before midterm elections",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSEdadDlqcTFBOG9UejdWa3BLRUhiVGNNeW5tRGlkSWNYTlh1bFQ4cFRqZDRSSjZ1VXpCSjdVSll1bVlVVmxvb0hpZldLNHBPdVVhSFJZVWJlUmdLTXZHSTBKUUd5aERtSTIyUkdGSVBMU1NoUk1jTzV6TnowYWhSMWU0cmZoUlJtbGVndTE5Y1R4ck9VSVNPOXhpSG8xVEozZmVLX2tsQlBoYk4ydUpCVjBB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "coverage": {
@@ -19116,8 +19116,8 @@
  "brief": {
   "date": "2026-10-11",
   "title": "Midterm brief: Sunday, October 11",
-  "markdown": "# Midterm brief: Sunday, October 11\n\n## Bottom line\n\nTwenty-three days out, forecasters and markets agree on the shape of the race but not the outcome. The House leans Democratic: nine of ten forecasters on the Wikipedia ratings table project more Democratic than Republican seats before tossups, and Polymarket prices a Democratic House at 90.5% ([ratings](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings), [market](https://polymarket.com/event/which-party-will-win-the-house-in-2026)). The Senate is the contest: consensus ratings put Democrats at 46 seats solid or likely and Republicans at 45, with nine Lean-to-Tossup races deciding a 51-seat majority ([Senate ratings](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Polymarket prices Democratic Senate control at 63.5% and a split Congress, Republican Senate with Democratic House, at 29.5% ([Senate](https://polymarket.com/event/which-party-will-win-the-senate-in-2026), [balance of power](https://polymarket.com/event/balance-of-power-2026-midterms)).\n\n## What moved\n\nNothing crossed a movement threshold. This is a same-day rerun against this morning's baseline, so day-over-day tracking starts tomorrow.\n\n## Races to watch today\n\n- **Maine Senate (Tossup).** Troy Jackson leads Susan Collins 50 to 45 among likely voters in a Washington Post/George Mason poll, Sept. 30 to Oct. 5 (n=800); the 21-day average is D+2.1 across nine polls ([WaPo](https://www.washingtonpost.com/tablet/2026/10/09/sept-30-oct-5-2026-washington-post-schar-school-poll-maine-voters)). The New York Times reports Collins often defies Trump but rarely stops him ([NYT](https://www.nytimes.com/2026/10/11/us/politics/in-the-senate-collins-often-defies-trump-but-rarely-stops-him.html)).\n- **Ohio Senate special (Tossup).** CNN/SSRS has Sherrod Brown 49, Jon Husted 43 among likely voters through Oct. 5 (n=760); a Republican-sponsored co/efficient poll through Oct. 6 has Husted up one. Average: D+2.5 across eight polls ([CNN](https://www.cnn.com/2026/10/08/politics/cnn-polls-ohio-iowa-senate-governor-midterms), [co/efficient, partisan sponsor](https://battlegrounds.coefficient.org/oh)). Statehouse News Bureau reports the tight race is forcing a Republican resource surge ([SNB](https://news.google.com/rss/articles/CBMivAFBVV95cUxQSXRITnM0MUhLS3NGeXlyRENrX1NjTG5TTWV2UkFid1dUTjJqSHRGVVBWVmpPRndRc3ZTaWZRLWtYcjFaZ1Uyci05dnlETjBLNEFfb2hQSXV3UFdWbllndEROQ0NJTmhiYjFjYzBNSWQ1dTd3UDdHQ2JERXhuOWdTajd3b1RSZFY5NUNDenZPVVNTMkdiWW5UNFlnZUIwVWJJd3hmQ0xTS2x2ZXpNMjY0Z2JWaUZSYmNMcnlHRA?oc=5)).\n- **Iowa Senate (Tossup).** Emerson has Ashley Hinson 46.6, Josh Turek 45.0 among likely voters through Oct. 6 (n=650); CNN/SSRS has Hinson up two. Average: D+0.5 across five polls ([Emerson](https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit?rtpof=true&sd=true), [CNN](https://www.cnn.com/2026/10/08/politics/cnn-polls-ohio-iowa-senate-governor-midterms)).\n- **Kansas Senate (Tossup).** Two public polls, Wedgewood Sept. 24 and Emerson Sept. 16, both show Adam Hamilton up two on Roger Marshall ([Emerson](https://emersoncollegepolling.com/kansas-2026/)). NYT calls it a surprisingly competitive race in a deep-red state ([NYT](https://www.nytimes.com/2026/10/09/us/politics/kansas-senate-race-2026-marshall-hamilton.html)).\n- **Michigan Senate (Lean D).** Polling averages D+3.9 over 11 polls; Mitchell Research has El-Sayed 46, Rogers 41 among likely voters, Oct. 1 (n=682) ([Mitchell](https://wwmt.com/news/michigan-politics/mitchell-poll-michigan-us-senate-election-abdul-el-sayed-mike-rogers-politics-government-vote-polls-state)). NBC News reports AIPAC's super PAC has resumed spending; the Detroit News reports the race is the most expensive in state history ([NBC](https://news.google.com/rss/articles/CBMirwFBVV95cUxQcUdhUXdHb1RmOHJMUmFPWjhwN3U2OVN6bHdyYW8zdWRtVk5qVkN1Z0FqMDhIYVJFNnNaaDhfVm1TZ0FyVjlvYzNFSGFiQ3U3Mm9MelY0dERTSkp2Znl5RFVRQy1vanV5aW84SzZQTzl2TTlNLVAzdVFmRzNmMkRwRjFKaVBZU3FzdVVXRThJYkFydWFNNk14MFZ1ZjhzYVJUOGVyTmN6aEZDTHQ4ekQ4?oc=5), [Detroit News](https://news.google.com/rss/articles/CBMizwFBVV95cUxOY1dqYTNCNWRYUjVpVWp0c1p3azB5a2hGMzRSaGMzMTFRb3dFa0pOay0wQmtTNzJIWGZMR3pySjdXeVdZeHNHUXF5VlRpakRmODFxdkNJT09PVnAzVEd4RVpKSE9Vb0tXNzBqdzFpV2JHbkJCRnpsbXU4c21NeE5qQmF0eVE5VVNEdlJPZlJVeTdFTXFhRVVmMFlsR1F0SlJZQnhFcUdtdjBxMlRDdVVuQ0l6Vk4xMDMyd2tvam9NNzJoZmNhZjNNcE14ZUdXQXc?oc=5)).\n\n## What the spectrum is saying\n\n- **Center-left (NYT and NPR reporting):** some Republicans are rejecting Trump's move to import Russian diesel before the midterms ([NYT](https://www.nytimes.com/2026/10/10/us/politics/republicans-midterms-trump-diesel-russia.html)). NPR reports from Ohio's 9th, where a DCCC internal shows Marcy Kaptur in a dead heat ([NPR](https://www.npr.org/2026/10/10/nx-s1-5965798/on-the-ground-in-ohios-9th-district-the-battleground-shaping-next-months-midterms)).\n- **Center-right (WSJ reporting):** a growing group of Republicans are warning, privately and publicly, that the party will perform poorly in November ([WSJ](https://www.wsj.com/politics/elections/trump-midterm-election-strategy-e4cfea75)).\n- **Right (Ruthless, opinion):** the hosts argue El-Sayed's deleted posts and DSA ties are a hidden liability in Michigan, and that Tim Walz's fraud problem could cost Democrats a Minnesota seat ([feed](https://feeds.megaphone.fm/FOXM5875505224)).\n- **Left (Pod Save America, opinion):** David Axelrod frames the Democrats' closing argument around affordability ([episode](https://audioboom.com/posts/8962811)).\n- **Center (Silver Bulletin, opinion):** Nate Silver's FLIPR midterm forecast is live alongside his generic-ballot tracker ([forecast](https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model)).\n\n## Talking points\n\n- The generic ballot averages D+7.2 across four polls, led by Pew at D+8 among registered voters (Oct. 4) and CBS/YouGov at D+9 among likely voters (Oct. 2); presidential approval averages 36.5 approve, 62.0 disapprove ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms), [CBS](https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/04/0957ee32-a848-4872-b659-14303d3d3734/cbsnews_20261004_sun.pdf)).\n- The Senate runs through six Republican-held consensus Tossups: Alaska, Iowa, Kansas, Maine, Texas, and the Ohio special. Democrats need a net gain of four ([Senate ratings](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)).\n- Data centers are arguably the top issue in Ohio and Michigan races, per WSJ, and Sherrod Brown has put them at the center of his populist pitch, per the Guardian ([WSJ](https://www.wsj.com/politics/elections/will-voters-punish-politicians-for-data-centers-ask-ohio-and-michigan-1923848b), [Guardian](https://news.google.com/rss/articles/CBMifkFVX3lxTE1aRGswaVVSTjVWUFNzOGdYZnNmd3BfVkRFTjRhcWJaeF92dHBxLWp4THpoNUdCeUM2bUtIRjc0ZjhoRUFVelNhcmdWQUR2QTNoVXZDU2dDNk5wS3YxaDFsNV8yUlc5eDdLeU5DblBZLXVkQnJxV0hocnRlcHhpQQ?oc=5)).\n\n## Coverage note\n\nAll 24 sources reported. Kalshi returned no priced markets (optional source). Four House races have polls whose candidate parties could not be resolved from today's headlines: FL-22, MT-01, SC-01, TX-35.\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
-  "published_at": "2026-10-11T18:09:15.892263+00:00",
+  "markdown": "# Midterm brief: Sunday, October 11\n\n## Bottom line\nForecasters rate the House as leaning Democratic: 9 of 10 House forecasters have more seats rated for Democrats than for Republicans, and Inside Elections is the exception at 209 D / 210 R, as of Oct 11 ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 9 competitive seats, with 7 rated Tossup or Lean R by forecaster consensus ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 90.5% for the House ([Polymarket](https://polymarket.com/event/which-party-will-win-the-house-in-2026)) and 63.5% for the Senate ([Polymarket](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), Oct 11.\n\n## What moved\nNothing crossed a movement threshold since the last run.\n\n## Races to watch today\n- **Maine Senate (Tossup):** Washington Post/Schar School shows Jackson 50, Collins 45, likely voters, ending Oct 5 ([WaPo](https://www.washingtonpost.com/tablet/2026/10/09/sept-30-oct-5-2026-washington-post-schar-school-poll-maine-voters)); 21-day average D+2.1.\n- **Iowa Senate (Tossup):** Emerson/Nexstar shows Hinson 46.6, Turek 45.0, ending Oct 6 ([Emerson](https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit?rtpof=true&sd=true)); average D+0.5.\n- **Ohio Senate special (Tossup):** co/efficient, a Republican-aligned pollster, shows Husted 46, Brown 45, ending Oct 6 ([co/efficient](https://battlegrounds.coefficient.org/oh)); average D+2.5. Trump rallied for Husted ([ABC News via Google News](https://news.google.com/rss/articles/CBMingFBVV95cUxPUVpOYVNRSDB1YnhBZy1VU3p0Z0VJYU5GNXhFU1pHNE9PSlpaNktKaXFubDhPMUtZY1BDcXAxVzhOb2xGcFVEOWF2WHZXbzdSUjFSUUVNVmdDNC1PakxhVTEwalZXUE0xanJWV2tQc1hZMi1FVjlPa0tRbEZ3NWF4MVBOVFBONUo0YUdhNjRFck9sU1NzTjAxNWpMVUlod9IBowFBVV95cUxQbVp0S25IUG42S0ZqOFl2VENqRjlBR1RCREpQbFZkTEkwTWYzdXQtVWp6MWY0QzFrcnVGb2xHdUFVeUhrQzZ6endWVC1aOWgxNDgwLWFnYTZWMExPMXEtc1NSMm5kU0ljQVkybjhselJ6MWVRTGFabnBWcUF3Nnpnd2liQmFhOXpVeDZkU3FsMlNYblFobU0xaXRHVi0tZXpaaHJv?oc=5)).\n- **Kansas Senate (Tossup):** Wedgewood shows Hamilton 50, Marshall 48, ending Sep 24 ([Wedgewood](https://drive.google.com/drive/u/0/folders/1VKLmawSn60cr7L9HCx9mtZDvATC20N5u)); the NYT reports an unexpectedly competitive race ([NYT](https://www.nytimes.com/2026/10/09/us/politics/kansas-senate-race-2026-marshall-hamilton.html)).\n- **Michigan Senate (Lean D):** El-Sayed and Rogers held their first debate ([WSJ](https://www.wsj.com/politics/policy/abdul-el-sayed-and-mike-rogers-agree-on-virtually-nothing-in-michigan-debate-d974bf2b?mod=rss_socialpoliticsfeed)); Mitchell shows El-Sayed 46, Rogers 41, ending Oct 1 ([WWMT](https://wwmt.com/news/michigan-politics/mitchell-poll-michigan-us-senate-election-abdul-el-sayed-mike-rogers-politics-government-vote-polls-state)).\n\n## What the spectrum is saying\n- **Left:** Pod Save America's latest episode, with David Axelrod, centers on Democrats' closing argument ([Pod Save America](https://audioboom.com/posts/8962811)).\n- **Center-left:** The NYT argues Collins often breaks with Trump but rarely blocks him, a framing aimed at her crossover appeal ([NYT](https://www.nytimes.com/2026/10/11/us/politics/in-the-senate-collins-often-defies-trump-but-rarely-stops-him.html)).\n- **Center:** Silver Bulletin updated its generic-ballot and approval trackers ([Silver Bulletin](https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls)).\n- **Center-right:** The WSJ reports a growing number of Republicans warning, in private and in public, of a weak midterm showing ([WSJ](https://www.wsj.com/politics/elections/trump-midterm-election-strategy-e4cfea75?mod=rss_socialpoliticsfeed)); The Dispatch frames diesel prices as a political problem for Trump ([The Dispatch](https://thedispatch.com/newsletter/morning/trumps-diesel-price-problem/)).\n- **Right:** Nothing relevant with a citable link today; the one dated right-leaning item with a URL (National Review) was off-topic.\n\n## Talking points\n- The generic ballot averages D+7.2 across 4 polls; Pew has D+8, ending Oct 4 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n- Presidential approval averages 36.5% approve / 62.0% disapprove across 2 polls; RMG has 43/56, ending Oct 6 ([RMG](https://napolitannews.org/jobapproval#10-06-2026)), and Pew has 30/68 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n- Polymarket's most likely combination is a Democratic House and Senate, at 61.5%; second is a Republican Senate with a Democratic House, at 28.5% ([Polymarket](https://polymarket.com/event/balance-of-power-2026-midterms)).\n\n## Coverage note\nAll 24 sources reported. Kalshi had no priced markets. Candidate parties remain unresolved for FL-22, MT-01, SC-01 and TX-35, so polls in those races are excluded from averages.\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
+  "published_at": "2026-10-11T20:05:32.909298+00:00",
   "checks": []
  },
  "_previous_snapshot": null
