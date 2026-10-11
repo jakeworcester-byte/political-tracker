@@ -1,0 +1,170 @@
+{
+ "chamber": "House",
+ "label": "Pennsylvania 1",
+ "ratings": {
+  "cook": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+1",
+ "incumbent": "Brian Fitzpatrick",
+ "last_result": "56.4% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Pennsylvania",
+ "state_abbr": "PA",
+ "special": false,
+ "district": "01",
+ "key": "HOU-PA-01",
+ "name": "PA-01",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": true,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 1,
+ "candidates": {
+  "D": [
+   "Bob Harvie"
+  ],
+  "R": [
+   "Brian Fitzpatrick"
+  ]
+ },
+ "poll": {
+  "average_margin": 1.0,
+  "average_label": "R+1.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "GQR",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-08-19",
+   "end_date": "2026-08-23",
+   "sample_size": 400,
+   "population": "lv",
+   "margin": 1.0,
+   "margin_label": "R+1.0",
+   "answers": [
+    {
+     "choice": "Bob Harvie",
+     "pct": 48.0
+    },
+    {
+     "choice": "Brian Fitzpatrick",
+     "pct": 49.0
+    }
+   ],
+   "url": "https://x.com/cjwarnke/status/2094396860207088039?s=20"
+  },
+  "polls": [
+   {
+    "pollster": "GQR",
+    "end_date": "2026-08-23",
+    "margin": 1.0,
+    "n": 400,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2094396860207088039?s=20",
+    "answers": [
+     {
+      "choice": "Bob Harvie",
+      "pct": 48.0
+     },
+     {
+      "choice": "Brian Fitzpatrick",
+      "pct": 49.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-08",
+   "race": "HOU-PA-01",
+   "races": [
+    "HOU-PA-01"
+   ],
+   "type": "reporting",
+   "source": "WHYY",
+   "lean": "unrated",
+   "title": "Midterms 2026: Bob Harvie vs. Brian Fitzpatrick in PA-01",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOTUta1RsRG9iYW8xa3pBRF9lTmQ3LWdVTF96bXNnVTJRdzdhZkxxb2RmODd5amFTdHFmWFlqbWFjRmxsQkJjUkU5ZTlkaEdMVUFZN3BONzJoS0M1UXZlcXBPNnZnZjBIQXlocDZVeTJfX09DcHFGNDNPUzhsUVBleUUxMnRXOWVn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-01",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": 1.0
+  }
+ ]
+}

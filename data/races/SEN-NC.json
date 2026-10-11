@@ -1,0 +1,176 @@
+{
+ "chamber": "Senate",
+ "label": "North Carolina",
+ "ratings": {
+  "cook": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+1",
+ "incumbent": "Thom Tillis",
+ "last_result": "48.69% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "North Carolina",
+ "state_abbr": "NC",
+ "special": false,
+ "district": null,
+ "key": "SEN-NC",
+ "name": "North Carolina Senate",
+ "incumbent_note": "",
+ "consensus_score": -3,
+ "consensus": "Likely D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 10,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 17,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-10",
+   "race": "SEN-NC",
+   "races": [
+    "SEN-NC"
+   ],
+   "type": "reporting",
+   "source": "Raleigh News & Observer",
+   "lean": "unrated",
+   "title": "We asked four candidates for NC’s Senate seat what they’d do if they win",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUC1KM2pDN1hyTEJGbTJoWlNsbkFxbWxaRDNrRm00OWdrMXkyRlNMcEJ6OUQwSkRHR3pERlpWcl90LVJ0cElnd3lDa0dKQS0zYUk3NEtwNlhham1GVWVOc2t4WTY5Y0Y4aVdNV1VHbVMxOEgtdzNMWFQtT24tZEJVWDZEZk1hR2RVd0x2ddIBjAFBVV95cUxNVThKbjFBVUxiVE5tQWJHRVUyQjE3d05YUkR1NndUY0pvT1RCUGtDN0RKMER1SmpPS0pRejkzUzFRdXpSX2tEazJUSGlWd2k0OUlKNldVYnpOQlVwQVJQNnJjNldzdlhPSDlDLUtORUhFcVRqYkY4b3dGVWF1TXJ2Q2ZxZVZoNldCdWRYZA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-NC",
+   "races": [
+    "SEN-NC"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "North Carolina U.S. Senate Election 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcG0yWVJ4b1FCblhNSEdUeDZTb1BHUEh2TjItUTN6MjlsV09ZYlA0aHZ4R0V0b2ZjRTA0SHJkTGJxaDJPaXh0OEIxZFhIVWhsd0t2bFBRYTdrc3p1cHZCTmp4UC1UR183S0loRDU2QmE4cGVMZWt4LVA2T05wUHhJQTJ0Q1d3d1M2Q180dWpHTHVFblVaV3c?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "SEN-NC",
+   "races": [
+    "SEN-NC"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "South Carolina Senate Primary Special Runoff Election 2026 Live Results: Darline Graham vs. Ralph Norman",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOallJcHA5VmNxQzFIV1ozV3pmN2VGV1N3UjJXRnRaLXNLeE1ycFBndnJRQ3h1QWM4em5maGhHeXA0U1VBczRjam5jZFo3blVQWFF6NDZTTnJ1eTg5Ukl3TDljTk9aV2pPRi1UNEYzbTBJbS1nWkJNdWpQcjZtbndUUy1wYTZGRVhzQzhvQ1FpbGJ0TTFYOFpMQXNSaWVyakJFRWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "SEN-NC",
+   "races": [
+    "SEN-NC"
+   ],
+   "type": "reporting",
+   "source": "WRAL",
+   "lean": "unrated",
+   "title": "‘We have the resources’: Whatley campaign retreats from airwaves while trailing in US Senate polls",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVWt2V2JZTTlmejN6RjBzSzJDWHA1RXlXSy1mMGIxZWRnSHluTy1yR2Vjd2RweDVJc1FMemgzUi1RRldDWnk0cFlINnY4Z2NjRDNyQmxPZk9KV3JId1ZONXM3T1Qxbnl6a0FtWnVuM2NnQTBUSk1EQkxwZXFhZGdzRlZQTG5CWmdQemYxNDBlTmc3SzV5cmt3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "SEN-NC",
+   "races": [
+    "SEN-NC"
+   ],
+   "type": "reporting",
+   "source": "Elon University",
+   "lean": "unrated",
+   "title": "Jason Husser analyzes campaign spending in North Carolina Senate race for WFMY News 2",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZkVkdWt5RzFXbnRMU3RXY2NZN1htbnVWTnkyQU9DVXlCbjJfNDcxZklhMXFwMEVzanRNTGVVUTNNLU8yTWxnSXBlUEplOEVDQ0ZSdEl2dV9aSzRCQjBQYWgwZFl1bElIX3FPa2tMMk4yaHhnVERGV2RDQmtCZVh2TzdXSWU1aV9FZFhtMkZieEloRmV4SUZyLVVjNHFTZWFlQWlCZ1JKdWlTWi01dG5JQlZPZW5OWXpVVUV3UkJfbFQ5Vk0?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NC",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -3,
+   "p": null
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "chamber": "House",
+ "label": "Virginia 7",
+ "ratings": {
+  "cook": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+2",
+ "incumbent": "Eugene Vindman",
+ "last_result": "51.3% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "Virginia",
+ "state_abbr": "VA",
+ "special": false,
+ "district": "07",
+ "key": "HOU-VA-07",
+ "name": "VA-07",
+ "incumbent_note": "",
+ "consensus_score": -3,
+ "consensus": "Likely D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-07",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -3,
+   "p": null
+  }
+ ]
+}

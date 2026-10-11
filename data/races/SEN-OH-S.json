@@ -1,0 +1,408 @@
+{
+ "chamber": "Senate",
+ "label": "Ohio (special)",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+5",
+ "incumbent": "Jon Husted",
+ "last_result": "Appointed (2025)",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Ohio",
+ "state_abbr": "OH",
+ "special": true,
+ "district": null,
+ "key": "SEN-OH-S",
+ "name": "Ohio Senate (special)",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 4,
+ "candidates": {
+  "D": [
+   "Sherrod Brown"
+  ],
+  "R": [
+   "Jon Husted"
+  ]
+ },
+ "poll": {
+  "average_margin": -2.5,
+  "average_label": "D+2.5",
+  "n_polls": 8,
+  "window_days": 21,
+  "latest": {
+   "pollster": "co/efficient",
+   "sponsors": [],
+   "partisan": "REP",
+   "start_date": "2026-10-05",
+   "end_date": "2026-10-06",
+   "sample_size": 925,
+   "population": "lv",
+   "margin": 1.0,
+   "margin_label": "R+1.0",
+   "answers": [
+    {
+     "choice": "Sherrod Brown",
+     "pct": 45.0
+    },
+    {
+     "choice": "Jon Husted",
+     "pct": 46.0
+    }
+   ],
+   "url": "https://battlegrounds.coefficient.org/oh"
+  },
+  "polls": [
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-10-06",
+    "margin": 1.0,
+    "n": 925,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://battlegrounds.coefficient.org/oh",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 45.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 46.0
+     }
+    ]
+   },
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-10-06",
+    "margin": 1.0,
+    "n": 925,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://battlegrounds.coefficient.org/oh",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 43.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 44.0
+     },
+     {
+      "choice": "Gregory Levy",
+      "pct": 3.0
+     },
+     {
+      "choice": "Bill Redpath",
+      "pct": 1.0
+     }
+    ]
+   },
+   {
+    "pollster": "CNN/SSRS",
+    "end_date": "2026-10-05",
+    "margin": -6.0,
+    "n": 760,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.cnn.com/2026/10/08/politics/cnn-polls-ohio-iowa-senate-governor-midterms",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 49.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 43.0
+     }
+    ]
+   },
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-09-29",
+    "margin": -1.0,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/insideradvantage-ohio-senate-race-narrows-to-brown-up-by-one",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 44.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 43.0
+     },
+     {
+      "choice": "Bill Redpath",
+      "pct": 4.0
+     },
+     {
+      "choice": "Greg Levy",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "Marist University",
+    "end_date": "2026-09-27",
+    "margin": -8.0,
+    "n": 1298,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-september-2026/",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 51.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 43.0
+     }
+    ]
+   },
+   {
+    "pollster": "Big Data Poll",
+    "end_date": "2026-09-27",
+    "margin": -3.7,
+    "n": 680,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.bigdatapoll.com/blog/buckeye-state-poll-sherrod-brown-leads-jon-husted-for-us-senate-in-ohio/",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 46.3
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 42.6
+     }
+    ]
+   },
+   {
+    "pollster": "Quantus Insights",
+    "end_date": "2026-09-23",
+    "margin": -0.5,
+    "n": 695,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://quantusinsights.org/polling/f/brown-and-husted-deadlocked-in-ohio-senate-race",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 47.8
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 47.3
+     }
+    ]
+   },
+   {
+    "pollster": "Trafalgar Group",
+    "end_date": "2026-09-16",
+    "margin": -3.0,
+    "n": 1085,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/OH-Midterms-Full-Report-0917.pdf",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 45.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 42.0
+     }
+    ]
+   },
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-09-09",
+    "margin": -5.4,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/top-line-tabs-ohio/",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 47.3
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 41.9
+     }
+    ]
+   },
+   {
+    "pollster": "Wedgewood Polls",
+    "end_date": "2026-08-13",
+    "margin": -4.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://drive.google.com/file/u/1/d/1rP-26-yqNx9jy_gRqoLDmgJgzm5X8a4O/view",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 48.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 44.0
+     }
+    ]
+   },
+   {
+    "pollster": "Beacon Research/Shaw & Co. Research",
+    "end_date": "2026-08-10",
+    "margin": -8.0,
+    "n": 1008,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://www.foxnews.com/politics/fox-news-poll-economic-anxiety-candidate-concerns-define-ohio-senate-race",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 53.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-06-28",
+    "margin": 3.0,
+    "n": 601,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-ohio-poll-crosstabs.html",
+    "answers": [
+     {
+      "choice": "Jon Husted",
+      "pct": 50.0
+     },
+     {
+      "choice": "Sherrod Brown",
+      "pct": 47.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 13,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-08",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Brown holds 6-point lead over Husted in Ohio Senate race survey",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQemNsY0NJMUdFSTh1bXhsWWZFeHdEVUp1dXRSSzBrQVJ0bklJNHd1cnMzcnV4QWp6Sno3b3JsdzMwV0ZreDF4emRGLXJFZDBTemE0ZXU4bUpmTU1na05WemhiUGEzMFBLekpENkxwa2hpZzg0QS02dzVSZElPQUNwcdIBhgFBVV95cUxOM1RvdVlKSTNFVlNuV050dDRzM1lESXZreFVBQkswQ183VDF6aXBSblk4Z3VFNU92dW5mNXRUWnhkTkpzY3pWVzZqbkRkU3BGUkRMVFE2eUR4R0t5OUdib1pkcy1NYU82T3hreHhtazVsWnVDMFVTODMyb1U0OHFmd2ZCNmxnUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-07",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "FOX 8 News",
+   "lean": "unrated",
+   "title": "Who will win the US Senate race in Ohio?",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qSFdWcG1GVnh2bXZMUmJlNzdDdGs4X2d0N0Zqck81Szg1emVHODdueWlEcG9ScmI4QlFzYXRkdW83MXpVeUtkVHRKeXNSX3VhX0pmNE1Ra0tPNTJnRndRNkxieGRpSm9LNnBRQXl1SdIBdEFVX3lxTE12eGc5T2ZOYTAwalB6dDJyM1M2NXJmdzJGTXlKZXI3U183WTI4UFRiVkFzOUZyU0t1RG9MTi1QbGJqZkhWV091VGdFWnc3M3A3WHd4R1Y1ZVA2c0MyS3Y0Vno3RW1zVk4wV1VCaE5WNnJhTjVz?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-OH-S",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -2.5
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "chamber": "House",
+ "label": "California 22",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+1",
+ "incumbent": "David Valadao",
+ "last_result": "53.4% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "California",
+ "state_abbr": "CA",
+ "special": false,
+ "district": "22",
+ "key": "HOU-CA-22",
+ "name": "CA-22",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 7,
+ "candidates": {
+  "D": [
+   "Randy Villegas"
+  ],
+  "R": [
+   "David Valadao"
+  ]
+ },
+ "poll": {
+  "average_margin": -4.0,
+  "average_label": "D+4.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Tulchin Research",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-06-15",
+   "end_date": "2026-06-21",
+   "sample_size": 800,
+   "population": "lv",
+   "margin": -4.0,
+   "margin_label": "D+4.0",
+   "answers": [
+    {
+     "choice": "Randy Villegas",
+     "pct": 48.0
+    },
+    {
+     "choice": "David Valadao",
+     "pct": 44.0
+    }
+   ],
+   "url": "https://www.politico.com/newsletters/playbook/2026/07/21/trump-to-hill-im-not-that-into-you-01005915"
+  },
+  "polls": [
+   {
+    "pollster": "Tulchin Research",
+    "end_date": "2026-06-21",
+    "margin": -4.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.politico.com/newsletters/playbook/2026/07/21/trump-to-hill-im-not-that-into-you-01005915",
+    "answers": [
+     {
+      "choice": "Randy Villegas",
+      "pct": 48.0
+     },
+     {
+      "choice": "David Valadao",
+      "pct": 44.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-CA-22",
+   "races": [
+    "HOU-CA-22"
+   ],
+   "type": "reporting",
+   "source": "FOX40",
+   "lean": "unrated",
+   "title": "California’s 22nd Congressional District candidates face off in debate",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTl9SclRHcHVaYmRSOXhmT1lGdlJUUDlUTHlfTEZIOGEzV3h4NDBmQlJTSXNYUkNtVVNEYVFxcEJLb1VGY3hzREROLXhSbG4xZUxUdFhkR3duWnJFSm9OdmZFUFpXVnBacFFwQ2FLR0RZRm1tVm5iclkyR0dCdTFwZFJOVm51R25sYVVKRmVpbFBRcVc3MU9LaWxicHVPdmRnaXQ3dy1R?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-22",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": -4.0
+  }
+ ]
+}

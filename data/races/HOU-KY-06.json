@@ -1,0 +1,230 @@
+{
+ "chamber": "House",
+ "label": "Kentucky 6",
+ "ratings": {
+  "cook": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+7",
+ "incumbent": "Andy Barr",
+ "last_result": "63.0% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "Kentucky",
+ "state_abbr": "KY",
+ "special": false,
+ "district": "06",
+ "key": "HOU-KY-06",
+ "name": "KY-06",
+ "incumbent_note": "",
+ "consensus_score": 2,
+ "consensus": "Lean R",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Zach Dembo"
+  ],
+  "R": [
+   "Ralph Alvarado"
+  ]
+ },
+ "poll": {
+  "average_margin": -3.0,
+  "average_label": "D+3.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Lake Research Partners",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-04",
+   "sample_size": 400,
+   "population": "lv",
+   "margin": -3.0,
+   "margin_label": "D+3.0",
+   "answers": [
+    {
+     "choice": "Zach Dembo",
+     "pct": 48.0
+    },
+    {
+     "choice": "Ralph Alvarado",
+     "pct": 45.0
+    }
+   ],
+   "url": "https://x.com/cjwarnke/status/2108282466733818029"
+  },
+  "polls": [
+   {
+    "pollster": "Lake Research Partners",
+    "end_date": "2026-10-04",
+    "margin": -3.0,
+    "n": 400,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2108282466733818029",
+    "answers": [
+     {
+      "choice": "Zach Dembo",
+      "pct": 48.0
+     },
+     {
+      "choice": "Ralph Alvarado",
+      "pct": 45.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Kentucky 6th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLTY1c3dTYVVEcFNlbl96TjJkN2xzWVlMbjVHZUVHaWZJWHZlRk54R1Q3dUxrWHJkUDRfMFkySUxXQkk3YUNFdzl2NEswWkNoQWw3RzgxSmdKY3FaMmFJLXBKTFNkUHo0LTUwVnNXRk93eW5qdUkzclowdER4azZvandCcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "Forward Kentucky",
+   "lean": "unrated",
+   "title": "New poll shows Democrats with 9-point lead in Kentucky 6th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcHNlc1ZjWmlLWmJqQklIcVFYakFtcFlSSmFoZnMyQ2ZfSEpPQVFYZlJEUnpJQVNXWXRveUx5UXhoM0xXdWMxaUZQSzJNWXhoZWdpY2tnU2FzaXA1MEZJT3pGN3g2QlFYelBQX0tXREVQZlN3endxV1JYTmhybzU4VzZYX1ZIZGxJWXNPTDRDWUN3Z21RU1NTbjNJZnBDRUd6bHk1ZldQTFhhdm9wY2U0ZHplNA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "FOX 56 News",
+   "lean": "unrated",
+   "title": "New poll shows Democrats with 9-point lead in Kentucky 6th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbzJOeThZQUFxNDJiLWVLTWpEWEJZTnQ3dmlUbDRfMENwNW5UZnM4Rl8tcDlMN0tLX0JkVjFkelNZMkFud3FyazRMMFNteFp0TWFrM3didlBCc1ZKX3ZjZWNLNVdOeFZCbDgtYTh3eXlNdk1RM0VOam9uMndrTVBtVHVxT1h2MEpvYkV4Q1dYTG1aampsTUlGV2p5NzVKLUFHZ0hqaHpLSGoySkt6Yjk3ZWhaQ2lsejhlcHp0ZHdvYTjSAcYBQVVfeXFMTWlvM2lKMi1zZ1p5MGkzWGNuTi1pamp5bDlxOXJDaWVncmEtMnoyTGNNX2YwLWk2QmdtenUzcDhOU0hfSllNZjdUOExhUkJxMnNoUm9PVTc4Z1dFd2ZfN2dPQnJ3SGpidHg0QVdteXZvbG9NZjEyUWtFNG5OY0Z4MWZ3UVpSQUN5QjNKUzZxeVRSeHVxZndWdzE5R0RHMWNjZFBmVTBLaGx0RXFCOVc2RkM1ZGJMYnppQ0w5MWlBMWN0eXBIc0ln?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-07",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "Spectrum News",
+   "lean": "unrated",
+   "title": "Analysts shift Kentucky's 6th district race from 'Likely' to 'Leans Republican'",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUkdudU1mb3psQnNqNXFhWkxELS1Ja2hiaEtyOGJZYVUtUXFBdnRnVWw4bGp6YzBQT29RVFVzeTJDVVF3RmhqSU5wcVM4UXliOTRBd0NRNnk4MWRwY0FMWmFqNm1DRlBJZ0l1SmJjUERkRzc3SkVZclJ0ZHdUVU9jcUM1dUh5OTg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-06",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "Louisville Public Media",
+   "lean": "unrated",
+   "title": "Election 2026: Ralph Alvarado, Zach Dembo face off in Kentucky's 6th district",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcHVncXlJY3cwZnV5bkVHSlktSDhicy12OFJTTXNOdmFWUlR0dnJDSi1FcnhSWGFyS2lqNVJPSklERC00djJHalM2NGRzWlhJandTWDg4Wl9PcTE4VFVHYkpoZDdBbnRtTGkwcVotMmRzbDdxOWZEMUJyWVpvUEtDd08yZFZNTldEdFY2eXFMU2hqSXdweVNIQjhEenFoVlluRjd4d214MG5vZXMtMWlv?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-KY-06",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 2,
+   "p": -3.0
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "chamber": "House",
+ "label": "Iowa 3",
+ "ratings": {
+  "cook": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+2",
+ "incumbent": "Zach Nunn",
+ "last_result": "51.9% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Iowa",
+ "state_abbr": "IA",
+ "special": false,
+ "district": "03",
+ "key": "HOU-IA-03",
+ "name": "IA-03",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 8,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-03",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": null
+  }
+ ]
+}

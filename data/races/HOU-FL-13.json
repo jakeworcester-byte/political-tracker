@@ -1,0 +1,181 @@
+{
+ "chamber": "House",
+ "label": "Florida 13",
+ "ratings": {
+  "cook": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+6",
+ "incumbent": "Anna Paulina Luna",
+ "last_result": "54.8% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Florida",
+ "state_abbr": "FL",
+ "special": false,
+ "district": "13",
+ "key": "HOU-FL-13",
+ "name": "FL-13",
+ "incumbent_note": "",
+ "consensus_score": 2,
+ "consensus": "Lean R",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Leela Gray"
+  ],
+  "R": [
+   "Anna Paulina Luna"
+  ]
+ },
+ "poll": {
+  "average_margin": 3.5,
+  "average_label": "R+3.5",
+  "n_polls": 2,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Hart Research Associates",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-08-25",
+   "end_date": "2026-08-27",
+   "sample_size": 500,
+   "population": "lv",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
+   "answers": [
+    {
+     "choice": "Anna Paulina Luna",
+     "pct": 43.0
+    },
+    {
+     "choice": "Leela Gray",
+     "pct": 44.0
+    },
+    {
+     "choice": "Tony D'Arrigo",
+     "pct": 7.0
+    }
+   ],
+   "url": "https://www.thehousemajoritypac.com/news/hmp-poll-leela-gray-leads-anna-paulina-luna-in-fl-13"
+  },
+  "polls": [
+   {
+    "pollster": "Hart Research Associates",
+    "end_date": "2026-08-27",
+    "margin": -1.0,
+    "n": 500,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.thehousemajoritypac.com/news/hmp-poll-leela-gray-leads-anna-paulina-luna-in-fl-13",
+    "answers": [
+     {
+      "choice": "Anna Paulina Luna",
+      "pct": 43.0
+     },
+     {
+      "choice": "Leela Gray",
+      "pct": 44.0
+     },
+     {
+      "choice": "Tony D'Arrigo",
+      "pct": 7.0
+     }
+    ]
+   },
+   {
+    "pollster": "Fabrizio, Lee & Associates",
+    "end_date": "2026-07-22",
+    "margin": 8.0,
+    "n": 400,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://floridapolitics.com/archives/814114-anna-paulina-luna-leads-leela-gray-in-likely-general-election-matchup-clouding-dems-hope-for-a-flip/",
+    "answers": [
+     {
+      "choice": "Anna Paulina Luna",
+      "pct": 49.0
+     },
+     {
+      "choice": "Leela Gray",
+      "pct": 41.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 2,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-13",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 2,
+   "p": 3.5
+  }
+ ]
+}

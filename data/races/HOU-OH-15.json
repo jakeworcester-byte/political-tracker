@@ -1,0 +1,223 @@
+{
+ "chamber": "House",
+ "label": "Ohio 15",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+5",
+ "incumbent": "Mike Carey",
+ "last_result": "56.5% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Ohio",
+ "state_abbr": "OH",
+ "special": false,
+ "district": "15",
+ "key": "HOU-OH-15",
+ "name": "OH-15",
+ "incumbent_note": "",
+ "consensus_score": 3,
+ "consensus": "Likely R",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Don Leonard"
+  ],
+  "R": [
+   "Mike Carey"
+  ]
+ },
+ "poll": {
+  "average_margin": -1.0,
+  "average_label": "D+1.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Hart Research Associates",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-24",
+   "sample_size": 500,
+   "population": "lv",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
+   "answers": [
+    {
+     "choice": "Mike Carey",
+     "pct": 45.0
+    },
+    {
+     "choice": "Don Leonard",
+     "pct": 46.0
+    }
+   ],
+   "url": "https://x.com/cjwarnke/status/2104619061556457603"
+  },
+  "polls": [
+   {
+    "pollster": "Hart Research Associates",
+    "end_date": "2026-09-24",
+    "margin": -1.0,
+    "n": 500,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2104619061556457603",
+    "answers": [
+     {
+      "choice": "Mike Carey",
+      "pct": 45.0
+     },
+     {
+      "choice": "Don Leonard",
+      "pct": 46.0
+     }
+    ]
+   },
+   {
+    "pollster": "Hart Research Associates",
+    "end_date": "2026-06-25",
+    "margin": 5.0,
+    "n": 550,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.thehousemajoritypac.com/news/hmp-poll-don-leonard-within-striking-distance-of-mike-carey-in-oh-15",
+    "answers": [
+     {
+      "choice": "Mike Carey",
+      "pct": 45.0
+     },
+     {
+      "choice": "Don Leonard",
+      "pct": 40.0
+     },
+     {
+      "choice": "Brennan Barrington",
+      "pct": 3.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 2,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-OH-15",
+   "races": [
+    "HOU-OH-15"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Ohio 15th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlWWF2aXMwMlpzaFlUdlc3UF9sckRfLVJyMnQyWHRxU0d4Q1BqN2ROZV9nZ0l4dVdqWk5xM2E4ZFY4aHJRNnMwQ2NNT05BUlNVcHJoVHpKcXBpR3RWTXFidlN6WXhEeEUxNGp2ZGRsYU9ULU9RMi1PMGYwMDNPWlU?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-OH-15",
+   "races": [
+    "HOU-OH-15"
+   ],
+   "type": "reporting",
+   "source": "Yahoo",
+   "lean": "unrated",
+   "title": "What to know about the candidates running for Ohio’s 15th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0lqcE52NDJYTWVGRWVtVHhRNkF1amFkQ3J2eEMtajhYZk9HZnhiazg1NkxwQ3hPVXA1REY4ZWR1dFU1OHhQRmQtRTc2TUhWTkZPdjZ5MXduN04wRFJ4TENOWjZyS01paGFOWWFkREZVXzVUcFhZTFpGRFVYOHRDVU94QmxZN29FRHozRTkwTmRnZGx0cEdpTg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-OH-15",
+   "races": [
+    "HOU-OH-15"
+   ],
+   "type": "reporting",
+   "source": "The Columbus Dispatch",
+   "lean": "unrated",
+   "title": "Could GOP troubles put Carey's seat in play? It'd take a giant blue wave",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUGgtZVBNYkFSWWFMcUFBWlNhOHZvb0VVUWYteDNyRU5hZlFfcW5CSXdPanpmSU9Dc1BQcE1fN0VCVXdScVpacEMxX0lFYUh1T3BpTzlUSlJPVVRuRHlJYkpOVkhTajMyRC1kRzZuSXAxR05qeW9XOUxDRTNyaW9USnducnhjckhRTHVrSGFJYWpWNkhvS3MwckhEcXZsYkFoN2xKVWFNX1JPNmhuNTdQeEtzZXRGRUg0eW5jUG1fRXZUMWFueFh0NmtvZDZxdTctVjJ2RHl0YTZRbHN3TnA4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-15",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 3,
+   "p": -1.0
+  }
+ ]
+}

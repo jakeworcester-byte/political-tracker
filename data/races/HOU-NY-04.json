@@ -1,0 +1,146 @@
+{
+ "chamber": "House",
+ "label": "New York 4",
+ "ratings": {
+  "cook": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt D",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+2",
+ "incumbent": "Laura Gillen",
+ "last_result": "51.1% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "New York",
+ "state_abbr": "NY",
+ "special": false,
+ "district": "04",
+ "key": "HOU-NY-04",
+ "name": "NY-04",
+ "incumbent_note": "",
+ "consensus_score": -3,
+ "consensus": "Likely D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-NY-04",
+   "races": [
+    "HOU-NY-04"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Illinois 4th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX2J0djg0UnlCMlZlTElMam1IVTZhSU9WdHY0TlFzdjl2LWVudC1kY0dzWGl4MWNxM1N0Vk9oN1RHeXo0blB0MUFzWjJMdmhBMEdLSEtMcUxpa1dOLXU5Z2pDNzVIb1JlTUwwdmFtZ0NvM2lTMWFBcVZNeVByZGwzMnNQMA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-NY-04",
+   "races": [
+    "HOU-NY-04"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Texas 15th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM1pBV3hQd0RyNElpT1I3X3lfN3ZudExnYThDMzR3a0dzcThpQ095azdpTnZTb0R3Z2YwT25TRjF5M0xyT25PRkNWVzM2NGprMUtHRG5xcHZoS0ZkZVdxMkJxTmRzZTFLampOV0NpcWZVNVdncFpqcnp6dk5PdkMyVg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-NY-04",
+   "races": [
+    "HOU-NY-04"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Florida 20th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQemp0eU1rUVhLV0JyNGlkWm80SGFEOGVqdFNzVGJNeDEyMHE4cllLczgzQmNoNjk1X3duWE05ZkZqQThVcDY5ckpHeUxRemNwNFNFejJ1dTlJRkNQd2VFRW1vWGxuNWFXSlFLNWwyMzFNVHA5YzNiMHMyaE50c25vcGppYw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-04",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -3,
+   "p": null
+  }
+ ]
+}

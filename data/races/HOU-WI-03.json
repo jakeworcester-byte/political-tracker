@@ -1,0 +1,170 @@
+{
+ "chamber": "House",
+ "label": "Wisconsin 3",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+3",
+ "incumbent": "Derrick Van Orden",
+ "last_result": "51.4% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Wisconsin",
+ "state_abbr": "WI",
+ "special": false,
+ "district": "03",
+ "key": "HOU-WI-03",
+ "name": "WI-03",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 6,
+ "candidates": {
+  "D": [
+   "Rebecca Cooke"
+  ],
+  "R": [
+   "Derrick Van Orden"
+  ]
+ },
+ "poll": {
+  "average_margin": -4.0,
+  "average_label": "D+4.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "FM3 Research",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-06-20",
+   "end_date": "2026-06-25",
+   "sample_size": 535,
+   "population": "lv",
+   "margin": -4.0,
+   "margin_label": "D+4.0",
+   "answers": [
+    {
+     "choice": "Derrick Van Orden",
+     "pct": 46.0
+    },
+    {
+     "choice": "Rebecca Cooke",
+     "pct": 50.0
+    }
+   ],
+   "url": "https://x.com/cjwarnke/status/2074099699020128352?s=20"
+  },
+  "polls": [
+   {
+    "pollster": "FM3 Research",
+    "end_date": "2026-06-25",
+    "margin": -4.0,
+    "n": 535,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2074099699020128352?s=20",
+    "answers": [
+     {
+      "choice": "Derrick Van Orden",
+      "pct": 46.0
+     },
+     {
+      "choice": "Rebecca Cooke",
+      "pct": 50.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-07",
+   "race": "HOU-WI-03",
+   "races": [
+    "HOU-WI-03"
+   ],
+   "type": "reporting",
+   "source": "WPR",
+   "lean": "unrated",
+   "title": "'I gotta have him': US House Speaker Mike Johnson visits Wisconsin to stump for Derrick Van Orden",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS0lpN0VEc2Nnak85NmdfcWN2RWFySFQ1R056dkVnNm92TWpWa0Qtd0MzejJBRzJVRmM4ZTlmZGxrRkJvUEJrbUV4Uk12b082THpJMDJjNFZHREM3V2NkZl93ZFloZnB3VnVpS1RoTWVGcmhRb3ZfNkw1b1k1bHdreXZ0Sm15SnpsSFJJZ1dQSXM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WI-03",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": -4.0
+  }
+ ]
+}

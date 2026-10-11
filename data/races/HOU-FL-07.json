@@ -1,0 +1,131 @@
+{
+ "chamber": "House",
+ "label": "Florida 7",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+5",
+ "incumbent": "Cory Mills",
+ "last_result": "56.5% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Florida",
+ "state_abbr": "FL",
+ "special": false,
+ "district": "07",
+ "key": "HOU-FL-07",
+ "name": "FL-07",
+ "incumbent_note": "lost renomination",
+ "consensus_score": 2,
+ "consensus": "Lean R",
+ "disagreement": true,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 1,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-FL-07",
+   "races": [
+    "HOU-FL-07"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Florida 7th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2RoZE42TXVIUkY3MHoxN1F2RGl1YWszYXRLdU9sRGpLZTRQbk01U2JtM3hMd1hBTzlNM3RxZFp1eVhISFRGM0x1X3BiS1NqejNmVTJuVWVDSkExSnNWaWFsRTYyZGNWbFp0ekowZy1QbGhPVG4xZ0VTOTkwY1MyckNn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-FL-07",
+   "races": [
+    "HOU-FL-07"
+   ],
+   "type": "reporting",
+   "source": "WESH",
+   "lean": "unrated",
+   "title": "Interview with Florida's 7th congressional district libertarian candidate",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQnEzSVlBOW1qbTVOV2I1WDR3bHZVY0hpUkktazIyUkN6WlpZR2wwUllpVW43WV9iOWZkSzQzcmZpVXpfYkxyNnpkV3RpVGJEcWJQNDZHUlQ2czh5SGxEczFpZXBFX0ozSjlKNlptazZRcUZIQWJVeXFmaUZQTTNsNC1PRENTbUk3ZUZtM0NtemJxVTlWNHBGUXNza1VUTXE0TWk3a2J1ZFNUVXFmMU4w?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-07",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 2,
+   "p": null
+  }
+ ]
+}

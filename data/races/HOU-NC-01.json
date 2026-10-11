@@ -1,0 +1,168 @@
+{
+ "chamber": "House",
+ "label": "North Carolina 1",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt R",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+5",
+ "incumbent": "Don Davis",
+ "last_result": "49.5% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "North Carolina",
+ "state_abbr": "NC",
+ "special": false,
+ "district": "01",
+ "key": "HOU-NC-01",
+ "name": "NC-01",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 1,
+ "candidates": {
+  "D": [
+   "Don Davis"
+  ],
+  "R": [
+   "Laurie Buckhout"
+  ]
+ },
+ "poll": {
+  "average_margin": -10.0,
+  "average_label": "D+10.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Neighborhood Research and Media",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-01",
+   "end_date": "2026-10-06",
+   "sample_size": 303,
+   "population": "lv",
+   "margin": -10.0,
+   "margin_label": "D+10.0",
+   "answers": [
+    {
+     "choice": "Don Davis",
+     "pct": 51.0
+    },
+    {
+     "choice": "Laurie Buckhout",
+     "pct": 41.0
+    }
+   ],
+   "url": "https://x.com/Shaftan/status/2107772933322277266"
+  },
+  "polls": [
+   {
+    "pollster": "Neighborhood Research and Media",
+    "end_date": "2026-10-06",
+    "margin": -10.0,
+    "n": 303,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://x.com/Shaftan/status/2107772933322277266",
+    "answers": [
+     {
+      "choice": "Don Davis",
+      "pct": 51.0
+     },
+     {
+      "choice": "Laurie Buckhout",
+      "pct": 41.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-NC-01",
+   "races": [
+    "HOU-NC-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "North Carolina 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWNJdjZRNGF4Z2pXRWJROUdlU0VwaC1KbXk2VjhUWW5WczB5N0dpeG01OVpEYkM2M0dTZ21GYmo1UXIyalVaX21WaWYxM2JMeTg0TEJWck5jYVNpOFZ5V1lQMXdNT2gzcENkOUFYUmRfX043dzI3Y01PaFlKS1R2clpZcUtsSWxzc09r?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NC-01",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -10.0
+  }
+ ]
+}

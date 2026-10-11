@@ -1,0 +1,170 @@
+{
+ "chamber": "House",
+ "label": "Michigan 10",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+3",
+ "incumbent": "John James",
+ "last_result": "51.1% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "Michigan",
+ "state_abbr": "MI",
+ "special": false,
+ "district": "10",
+ "key": "HOU-MI-10",
+ "name": "MI-10",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": true,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 5,
+ "candidates": {
+  "D": [
+   "Christina Hines"
+  ],
+  "R": [
+   "Michael Bouchard"
+  ]
+ },
+ "poll": {
+  "average_margin": 0.0,
+  "average_label": "Even",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Global Strategy Group",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-08-10",
+   "end_date": "2026-08-13",
+   "sample_size": 600,
+   "population": "lv",
+   "margin": 0.0,
+   "margin_label": "Even",
+   "answers": [
+    {
+     "choice": "Christina Hines",
+     "pct": 45.0
+    },
+    {
+     "choice": "Michael Bouchard",
+     "pct": 45.0
+    }
+   ],
+   "url": "https://hub.nationaljournal.com/welcome-to-the-trump-midterms"
+  },
+  "polls": [
+   {
+    "pollster": "Global Strategy Group",
+    "end_date": "2026-08-13",
+    "margin": 0.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://hub.nationaljournal.com/welcome-to-the-trump-midterms",
+    "answers": [
+     {
+      "choice": "Christina Hines",
+      "pct": 45.0
+     },
+     {
+      "choice": "Michael Bouchard",
+      "pct": 45.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-MI-10",
+   "races": [
+    "HOU-MI-10"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Michigan 10th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLUtfVUhPOWRPVDBDZXFKLUNzQmw1ak9KNnZ0Uk5yWC13NFFaYk5DSS1idUZFZ1k2NFNTRC1ZOW1LRk5FLUtaOUVHc1VfVjdEYkJaWjliWlZoSmx4a1hRb2FGQ0dRZl9yQ2tJZmhVSmh2Wmdqei1BMGpjUHpaZEt0MEVkaWk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-10",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": 0.0
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "chamber": "House",
+ "label": "Virginia 2",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "EVEN",
+ "incumbent": "Jen Kiggans",
+ "last_result": "50.8% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Virginia",
+ "state_abbr": "VA",
+ "special": false,
+ "district": "02",
+ "key": "HOU-VA-02",
+ "name": "VA-02",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 8,
+ "candidates": {
+  "D": [
+   "Elaine Luria"
+  ],
+  "R": [
+   "Jen Kiggans"
+  ]
+ },
+ "poll": {
+  "average_margin": 0.0,
+  "average_label": "Even",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Tulchin Research",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-07-09",
+   "end_date": "2026-07-13",
+   "sample_size": 700,
+   "population": "lv",
+   "margin": 0.0,
+   "margin_label": "Even",
+   "answers": [
+    {
+     "choice": "Elaine Luria",
+     "pct": 47.0
+    },
+    {
+     "choice": "Jen Kiggans",
+     "pct": 47.0
+    }
+   ],
+   "url": "https://www.politico.com/f/?id=0000019f-918b-d49c-ad9f-9fbb88d00000"
+  },
+  "polls": [
+   {
+    "pollster": "Tulchin Research",
+    "end_date": "2026-07-13",
+    "margin": 0.0,
+    "n": 700,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.politico.com/f/?id=0000019f-918b-d49c-ad9f-9fbb88d00000",
+    "answers": [
+     {
+      "choice": "Elaine Luria",
+      "pct": 47.0
+     },
+     {
+      "choice": "Jen Kiggans",
+      "pct": 47.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Virginia 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0RzSmlxM2FXU1NWMzdkTGk0c19PM2ZLVG1lNHdJX3BUSVhQUHBZQnFvbUhfN1hrUWs1a2ItSUFtUGdwZVRzd3VsMm5qUGs5cG9CSHE5c0x3Uy1DbWRPN3hsRnp4bTlPU3R3bWVyZUI3bWs1bk9BbEoxSkNneWUwdGJkSQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-06",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "13newsnow.com",
+   "lean": "unrated",
+   "title": "Jen Kiggans, Elaine Luria face off again in Virginia’s 2nd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOM3ZybUFUbEdKTnRVLW5QbENGS21hdFdLclpvbEpoYS13bHVyeWpsRmgySDFjZUdRSVVVRDFESHZ2VHExdHpGUlFyMlhLSkVVZF9IUzJVZzVNNEJPQTB5MGlVbFNCMi1HbTFWemFsSkctRjdieUdQd21aMkY3MmZuZFBUZm83ZHlJLTdXeGU3RzhXTGh0R2VoTXNKOEo0T1NwWlkxQV9hZUpPRC1EVTJuSkNhRmllVWNSeGtsWWZWSGQtTXd3c2hyenlia2ZkSmdHVlpRWEJaVjFMU0ZpNGNEd1FR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-02",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": 0.0
+  }
+ ]
+}

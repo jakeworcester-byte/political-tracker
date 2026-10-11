@@ -1,0 +1,387 @@
+{
+ "chamber": "Senate",
+ "label": "Georgia",
+ "ratings": {
+  "cook": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+1",
+ "incumbent": "Jon Ossoff",
+ "last_result": "50.62% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "Georgia",
+ "state_abbr": "GA",
+ "special": false,
+ "district": null,
+ "key": "SEN-GA",
+ "name": "Georgia Senate",
+ "incumbent_note": "",
+ "consensus_score": -3,
+ "consensus": "Likely D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Jon Ossoff"
+  ],
+  "R": [
+   "Mike Collins"
+  ]
+ },
+ "poll": {
+  "average_margin": -9.6,
+  "average_label": "D+9.6",
+  "n_polls": 3,
+  "window_days": 21,
+  "latest": {
+   "pollster": "Wedgewood Polls",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-02",
+   "end_date": "2026-10-03",
+   "sample_size": 600,
+   "population": "lv",
+   "margin": -10.0,
+   "margin_label": "D+10.0",
+   "answers": [
+    {
+     "choice": "Jon Ossoff",
+     "pct": 55.0
+    },
+    {
+     "choice": "Mike Collins",
+     "pct": 45.0
+    }
+   ],
+   "url": "https://drive.google.com/file/d/1ztqd_FYClBh1OknXwKOqi6zJXxECcqDK/view?usp=sharing"
+  },
+  "polls": [
+   {
+    "pollster": "Wedgewood Polls",
+    "end_date": "2026-10-03",
+    "margin": -10.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://drive.google.com/file/d/1ztqd_FYClBh1OknXwKOqi6zJXxECcqDK/view?usp=sharing",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 55.0
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "Big Data Poll",
+    "end_date": "2026-09-23",
+    "margin": -10.8,
+    "n": 678,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.bigdatapoll.com/blog/peach-state-poll-jon-ossoff-opens-up-lead-over-mike-collins-in-georgia/",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 55.4
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 44.6
+     }
+    ]
+   },
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-09-23",
+    "margin": -8.0,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/insideradvantage-georgia-survey-jackson-leads-by-two-in-race-for-governor-ossoff-leads-by-eight-in-senate-contest/",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 50.0
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 42.0
+     }
+    ]
+   },
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-08-17",
+    "margin": -7.5,
+    "n": 800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://jamesmagazinega.com/2026/08/18/exclusive-jmo-insideradvantage-georgia-survey-ossoff-leads-jackson-lance-bottoms-tied/",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 50.1
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 42.6
+     }
+    ]
+   },
+   {
+    "pollster": "Fabrizio, Lee & Associates/Impact Research",
+    "end_date": "2026-07-16",
+    "margin": -9.0,
+    "n": 1060,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-georgia/",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 52.0
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 43.0
+     }
+    ]
+   },
+   {
+    "pollster": "Wick",
+    "end_date": "2026-06-30",
+    "margin": -3.8,
+    "n": 1175,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://wick.io/research-georgia-election-survey-june-2026",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 46.7
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 42.9
+     }
+    ]
+   },
+   {
+    "pollster": "Beacon Research/Shaw & Co. Research",
+    "end_date": "2026-06-27",
+    "margin": -13.0,
+    "n": 1002,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://www.foxnews.com/politics/fox-news-poll-early-look-georgia-senate-race",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 56.0
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 43.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 7,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "SEN-GA",
+   "races": [
+    "SEN-GA"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "First Georgia Senate debate spotlights fight over Trump- and Biden-era policies",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUU1uTmJJcEwyX0kxLWE5Z2NvR0lQMEZuSnJWLVRTd1BLMGxrN1c3VGM2LUpKSWFDQ0dzeE1HaHlwRDI2WEJCeTk1dUpneGlha2t4ZGZfaEhBUlhucndRVVNlMXhaVWdkWVJIaGJQRVY1TEdwbmhKS1NsRGVBUTRCblFHWHBjNHU1ajFTekEwNkIzaHRBSzNwUzhjMDRKd2E2R2IzYWxRLXlaN2NCTzdTcVpKcTR2TGl1Z1kxczIxVXU0TWs?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-GA",
+   "races": [
+    "SEN-GA"
+   ],
+   "type": "reporting",
+   "source": "WCAX",
+   "lean": "unrated",
+   "title": "Ossoff, Collins take the stage as Georgia Senate race heats up",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZlFrN2VFbEFnZGY3MXFCZjUxaDBPbWY3aXRDUU9SMWRWdE85WVFGdkpjOVVaMjBoSkpMc3lIT2dPTzNJVHAzYnBTU1M0WUhuTWZ0bUlKUWFzZHdYZTEzRU1xbV9fTk5TMEQtS0dFZWNuS1RXT3c4TG5MRjFjcjlYcVJhamZuRHozUk9UT2gtb2FGQXdWck5CYw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-GA",
+   "races": [
+    "SEN-GA"
+   ],
+   "type": "reporting",
+   "source": "The Guardian",
+   "lean": "unrated",
+   "title": "US midterms: key takeaways from Senate debates in Michigan, Georgia and Maine",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWHJjX0xLYnJ0Q2I3TWwwbWlPcUhtMkk5VVo2MU9FTk96ZmE3dkpoU05ZNVpSQ2owN3lra29TTDZKMDZpUGZZQk1pRzFZR09KaDYxN21iY0xCbG1EOWNlRDVBajF0RGtOZ0VQTkxZRldLUjdfdzAycnU1OTRsajhCM0E3SG1IbUNwcGQtQTBHdFdiLURWeVJMTXluY2ZBVVl2T0dRMjNzOTkwRjJ6cG0w?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-GA",
+   "races": [
+    "SEN-GA"
+   ],
+   "type": "reporting",
+   "source": "USAFacts",
+   "lean": "unrated",
+   "title": "How much money are candidates raising for the 2026 midterm?",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdjVIdHpfLVNsVFNIbktia3JUN1BkMHlGN2JZd1NQR2xXUlJjZDBTcF9lckV5SG5ESEs0VGFPWXZXZnNXLUs2dEktNzBaUU13aG9tVkJIRkRrWUs4b25rTWpBcEpHSG9TdjNaY2x0R0RWdTUyUXN1UVNVVm9tRkQ2SzVBVERjZTlnLVJ0NEE2clpKeXFlVG54ZWRwcTg4VUJScGc2WnpMTVo?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-GA",
+   "races": [
+    "SEN-GA"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Fiery Georgia Senate debate gets personal: 4 takeaways",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTDZFWC1jcXFmZzYxOTBTcmZMSDMzcEQ4TXlRWXhPWk8wVmlTTHFzVTl4Sk8zZ0tQNzNadjkzMWU4V0UyUlZISGh2Z0FCeXpoNml3eGtDcVRJZWEzVjFBd0I2SXM1cnJELWw3X3RXcXFjaURiQ29zeVZ4c2xJMGdENFY3VjRvWEFqRTJUMU5hZFdGUEZ4bWk5SdIBngFBVV95cUxOQlhrTmY2MmhOSGNjQ0tkSFp5cWEybFNhMnlsQTdOTDU3MXgydG81Z1gxTTNreWY3ZTV5UWI0NkFZSjFpblRseGpFZlJGbzZ6QkZmWGh0TXBJSXVVWldWYTFHb3FJdURvZGM1Q2hXTGpXZlRhZnV3TEtWWmE1T0ppeXJ2cXRmNHNOQlBJZ01nSVVMOFY0R2c2WUYzZ0tWZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-GA",
+   "races": [
+    "SEN-GA"
+   ],
+   "type": "reporting",
+   "source": "WECT",
+   "lean": "unrated",
+   "title": "Ossoff, Collins take the stage as Georgia Senate race heats up",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSk1aWm94bFlCSEhLaG84ZTFNaVJPYk54ZTNhaEM5VkFOaDN5cVMxMTlmNTZKOGpucHRNSzIzQkYxOUVYUTJ1alhid3N6X054V0RqU2NkR1VhbkpCTHhmVm1YSzQ4VWk3aElVWlBhMFNYWUptMFdRZUZlVUQzRzhLODh0WkY4NnEtczJBOGpjbTRiS3p2U1hHZQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "SEN-GA",
+   "races": [
+    "SEN-GA"
+   ],
+   "type": "reporting",
+   "source": "C-SPAN",
+   "lean": "unrated",
+   "title": "Georgia U.S. Senate Debate - C-SPAN",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbUlfVFBkb2ZvZXFZZHhmRlJNLUd1bEp4V3lYWnItTDBxVHJRVUtkZEVMSlplU3c4dmpjcFNTRTk2LWpaNWhqeDZCbGFCTTZfUmpFQ25FSUVjNVpBRjBVY0lRUTBtYzJXWThhZmxuYzBIR1JhMFdjSS1rb0JsdE5rOEFR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "SEN-GA",
+   "races": [
+    "SEN-GA"
+   ],
+   "type": "reporting",
+   "source": "WEAU",
+   "lean": "unrated",
+   "title": "Live tonight: Ossoff, Collins take the stage as Georgia Senate race heats up",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZHBKZ18yajJ2dE9rdW1xOUowY3RUcHJ0VDM5ZGljVDdmVW5XcGZidFY4eERvTG1IYWxoNXNadUs0WUJTMVpRWkVuck5FbUxuaXRuT0RoVmtxd3g2YXdkUGVtamR6cWQ4bzh3cE5fVS1KUlFSR0lkWW5jeThvVDlaT1FPTFVHSld0M1RMRTJaOG95VDNnal93SXhPSGZIcmNFZmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-GA",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -3,
+   "p": -9.6
+  }
+ ]
+}

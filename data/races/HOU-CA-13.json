@@ -1,0 +1,146 @@
+{
+ "chamber": "House",
+ "label": "California 13",
+ "ratings": {
+  "cook": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt D",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+2",
+ "incumbent": "Adam Gray",
+ "last_result": "50.0% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "California",
+ "state_abbr": "CA",
+ "special": false,
+ "district": "13",
+ "key": "HOU-CA-13",
+ "name": "CA-13",
+ "incumbent_note": "",
+ "consensus_score": -3,
+ "consensus": "Likely D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-CA-13",
+   "races": [
+    "HOU-CA-13"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "New York 13th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTFZuQlg5RHlVcWtaaUlsMWFtWmxaMDBaQ2hwbG92UHVobkJzNmV6TGM2Y1Z6WU9ULWVobzBUeWhzMVJXOWRZQVhxVmE2YnlvX2N3WnMzUExDX0hPcy12LXF6bTBhV1JLeGVyb1NFbjIyemdsZjY0cXpIX3lrRWRYZGRxUjE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-CA-13",
+   "races": [
+    "HOU-CA-13"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Michigan 13th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb29JLTVzSDlvdVNQWnNwakYxc2JWbERsVEoyVG9FSExoNVZCUERWZE94UWFyUU5hV1JfczZGNnR4WElqX0FrZVd0LXFwUXJPTlBOeUV4NXVvNjFhYnNKRmRQUVNsTHVtRnBYNmIwU0dMZGZnUkZHaUQtaGtmSXhGYWt4ZFI?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-06",
+   "race": "HOU-CA-13",
+   "races": [
+    "HOU-CA-13"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "2026 midterm election races to watch",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fM0tjOXRhTlFDWE14WWZTcGZxSUJPZGxjcG1ldlgyMC0tT1M2VWZadXVIMWZHUmNWTExKUmRsT0RHSjRYUTFycjRqMlVma0dOTEd6cTRXTUdqUGtmZ01lSVlrd0VCb0RZ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-13",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -3,
+   "p": null
+  }
+ ]
+}

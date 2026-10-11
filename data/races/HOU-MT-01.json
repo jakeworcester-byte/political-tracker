@@ -1,0 +1,131 @@
+{
+ "chamber": "House",
+ "label": "Montana 1",
+ "ratings": {
+  "cook": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+5",
+ "incumbent": "Ryan Zinke",
+ "last_result": "52.3% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "Montana",
+ "state_abbr": "MT",
+ "special": false,
+ "district": "01",
+ "key": "HOU-MT-01",
+ "name": "MT-01",
+ "incumbent_note": "",
+ "consensus_score": 2,
+ "consensus": "Lean R",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-MT-01",
+   "races": [
+    "HOU-MT-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Montana 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOUZ5NE55WHJackNPakZZbm5GS2ZpMWpQMHlhbVE0YkE5akVqU1hpNFNHMVVDMlBVbWREY2RoRjVFV2dxdDhUQm1Kd2VrQVhXSEhzNUtEc21VOTRyYmQyUml2U1VZZ2ZKUW9HcVB3ci1Ya3V3N1RITGk4WnlDUkdXMDVR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-MT-01",
+   "races": [
+    "HOU-MT-01"
+   ],
+   "type": "reporting",
+   "source": "IAM Union",
+   "lean": "unrated",
+   "title": "NFFE-IAM’s Sam Forstag Campaigns for Montana’s 1st Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaG1TQTBDTG9BYVNCUDd6MGFCeVRjaERZdHUwenZoU0JjS3hac0s4QTlTaGlUZjdHQVBUWnNqaW9XdzA5Tms1Tjg3T1lVR3VHN0I4ZHFtS1ltUGY1RUVCYlFaQjNzeVBHdlB4R1V1bjBWY05fOWhFbmtrV2FHQWtoUlpJamtlbVRBWmp5VkNwcnhqa3hpNWRlWHRXQ2pOcUdI?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 2,
+   "p": null
+  }
+ ]
+}

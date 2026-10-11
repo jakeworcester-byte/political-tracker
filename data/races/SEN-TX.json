@@ -1,0 +1,412 @@
+{
+ "chamber": "Senate",
+ "label": "Texas",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Tilt R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+6",
+ "incumbent": "John Cornyn",
+ "last_result": "53.51% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Texas",
+ "state_abbr": "TX",
+ "special": false,
+ "district": null,
+ "key": "SEN-TX",
+ "name": "Texas Senate",
+ "incumbent_note": "lost renomination",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 3,
+ "candidates": {
+  "D": [
+   "James Talarico"
+  ],
+  "R": [
+   "Ken Paxton"
+  ]
+ },
+ "poll": {
+  "average_margin": -2.2,
+  "average_label": "D+2.2",
+  "n_polls": 8,
+  "window_days": 21,
+  "latest": {
+   "pollster": "Beacon Research/Shaw & Co. Research",
+   "sponsors": [
+    "Fox News"
+   ],
+   "partisan": null,
+   "start_date": "2026-09-24",
+   "end_date": "2026-09-28",
+   "sample_size": 881,
+   "population": "lv",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
+   "answers": [
+    {
+     "choice": "James Talarico",
+     "pct": 51.0
+    },
+    {
+     "choice": "Ken Paxton",
+     "pct": 49.0
+    }
+   ],
+   "url": "https://www.foxnews.com/politics/fox-news-poll-its-lone-star-senate-showdown-between-talarico-paxton"
+  },
+  "polls": [
+   {
+    "pollster": "Beacon Research/Shaw & Co. Research",
+    "end_date": "2026-09-28",
+    "margin": -2.0,
+    "n": 881,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.foxnews.com/politics/fox-news-poll-its-lone-star-senate-showdown-between-talarico-paxton",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 51.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 49.0
+     }
+    ]
+   },
+   {
+    "pollster": "Guidant Polling and Strategy",
+    "end_date": "2026-09-28",
+    "margin": -2.4,
+    "n": 800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://x.com/burgessev/status/2107923538392776875?s=20",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 46.6
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 44.2
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 4.0
+     }
+    ]
+   },
+   {
+    "pollster": "University of Massachusetts Lowell Center for Public Opinion/YouGov",
+    "end_date": "2026-09-28",
+    "margin": 0.0,
+    "n": 850,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.uml.edu/news/press-releases/2026/10092026-texas-poll.aspx",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 45.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 45.0
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "Slingshot Strategies",
+    "end_date": "2026-09-22",
+    "margin": -4.0,
+    "n": 1007,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://texaspublicopinionresearch.substack.com/p/new-poll-in-texas-general-election-662",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 49.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 45.0
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 3.0
+     }
+    ]
+   },
+   {
+    "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+    "end_date": "2026-09-19",
+    "margin": -1.0,
+    "n": 1800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.jordanresearchcenter.org/publications/tsusept2026-txsenate-governor-statewideraces",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 47.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 46.0
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 3.0
+     }
+    ]
+   },
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-09-14",
+    "margin": -1.0,
+    "n": 1000,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 47.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 46.0
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "ReconMR/Siena University",
+    "end_date": "2026-09-11",
+    "margin": -6.0,
+    "n": 614,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://sri.siena.edu/2026/09/17/hinojosa-now-leads-abbott-by-4-points-talarico-widens-lead-to-6-points/",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 49.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 43.0
+     }
+    ]
+   },
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-09-09",
+    "margin": -1.5,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/top-line-tabs-texas/",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 47.1
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 45.6
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 2.2
+     }
+    ]
+   },
+   {
+    "pollster": "YouGov",
+    "end_date": "2026-09-04",
+    "margin": -5.0,
+    "n": 1000,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://www.univision.com/noticias/politica/poll-univision-texas-2026",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 48.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 43.0
+     }
+    ]
+   },
+   {
+    "pollster": "Fabrizio Ward/Impact Research",
+    "end_date": "2026-09-01",
+    "margin": -4.0,
+    "n": 895,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-texas",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 48.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 44.0
+     }
+    ]
+   },
+   {
+    "pollster": "Slingshot Strategies",
+    "end_date": "2026-08-24",
+    "margin": -6.0,
+    "n": 1000,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://texaspublicopinionresearch.substack.com/p/new-poll-in-texas-general-election",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 48.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 42.0
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 1.0
+     }
+    ]
+   },
+   {
+    "pollster": "The Texas Politics Project at the University of Texas at Austin/YouGov",
+    "end_date": "2026-08-13",
+    "margin": -3.0,
+    "n": 1218,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://texaspolitics.utexas.edu/blog/new-ut-texas-politics-project-poll-finds-talarico-leading-paxton-abbott-leading-hinojosa-continued-resistance-to-data-centers-2",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 42.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 39.0
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 3.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 22,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-07",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME",
+    "SEN-MI",
+    "SEN-TX"
+   ],
+   "type": "podcast",
+   "source": "Ruthless",
+   "lean": "right",
+   "title": "El-Sayed's Deleted Tweets: The DSA Ties He's Hiding From Voters + AG Blanche Joins the Progrum",
+   "url": "",
+   "summary": "Ruthless breaks down the latest Senate battlegrounds in Michigan, Maine, and Texas and exposes Abdul El-Sayed’s past ties to the DSA. Attorney General Todd Blanche joins the progrum to discuss parental rights, election integrity, crime, and the DOJ. #RuthlessPodcast #Midterms #Politics 0:00:00 Intro",
+   "relevant": true
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TX",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -2.2
+  }
+ ]
+}

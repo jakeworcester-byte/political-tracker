@@ -1,0 +1,162 @@
+{
+ "chamber": "House",
+ "label": "Iowa 1",
+ "ratings": {
+  "cook": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+4",
+ "incumbent": "Mariannette Miller-Meeks",
+ "last_result": "50.1% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Iowa",
+ "state_abbr": "IA",
+ "special": false,
+ "district": "01",
+ "key": "HOU-IA-01",
+ "name": "IA-01",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 9,
+ "candidates": {
+  "D": [
+   "Christina Bohannan"
+  ],
+  "R": [
+   "Mariannette Miller-Meeks"
+  ]
+ },
+ "poll": {
+  "average_margin": -5.0,
+  "average_label": "D+5.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "The Bullfinch Group",
+   "sponsors": [
+    "The Independent Center"
+   ],
+   "partisan": null,
+   "start_date": "2026-07-13",
+   "end_date": "2026-07-16",
+   "sample_size": 705,
+   "population": "lv",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
+   "answers": [
+    {
+     "choice": "Mariannette Miller-Meeks",
+     "pct": 35.0
+    },
+    {
+     "choice": "Christina Bohannan",
+     "pct": 40.0
+    },
+    {
+     "choice": "Michael Bridgford",
+     "pct": 11.0
+    }
+   ],
+   "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat"
+  },
+  "polls": [
+   {
+    "pollster": "The Bullfinch Group",
+    "end_date": "2026-07-16",
+    "margin": -5.0,
+    "n": 705,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat",
+    "answers": [
+     {
+      "choice": "Mariannette Miller-Meeks",
+      "pct": 35.0
+     },
+     {
+      "choice": "Christina Bohannan",
+      "pct": 40.0
+     },
+     {
+      "choice": "Michael Bridgford",
+      "pct": 11.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-01",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": -5.0
+  }
+ ]
+}

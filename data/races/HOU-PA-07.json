@@ -1,0 +1,187 @@
+{
+ "chamber": "House",
+ "label": "Pennsylvania 7",
+ "ratings": {
+  "cook": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+1",
+ "incumbent": "Ryan Mackenzie",
+ "last_result": "50.5% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Pennsylvania",
+ "state_abbr": "PA",
+ "special": false,
+ "district": "07",
+ "key": "HOU-PA-07",
+ "name": "PA-07",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 8,
+ "candidates": {
+  "D": [
+   "Bob Brooks"
+  ],
+  "R": [
+   "Ryan Mackenzie"
+  ]
+ },
+ "poll": {
+  "average_margin": -5.0,
+  "average_label": "D+5.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Franklin & Marshall College",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-09",
+   "end_date": "2026-09-20",
+   "sample_size": 357,
+   "population": "rv",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
+   "answers": [
+    {
+     "choice": "Ryan Mackenzie",
+     "pct": 40.0
+    },
+    {
+     "choice": "Bob Brooks",
+     "pct": 45.0
+    }
+   ],
+   "url": "https://www.fandmpoll.org/franklin-marshall-college-poll-release-pa-7th-and-10th-congressional-districts-september-2026/?ref=franklin-marshall-college-poll-newsletter"
+  },
+  "polls": [
+   {
+    "pollster": "Franklin & Marshall College",
+    "end_date": "2026-09-20",
+    "margin": -5.0,
+    "n": 357,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://www.fandmpoll.org/franklin-marshall-college-poll-release-pa-7th-and-10th-congressional-districts-september-2026/?ref=franklin-marshall-college-poll-newsletter",
+    "answers": [
+     {
+      "choice": "Ryan Mackenzie",
+      "pct": 40.0
+     },
+     {
+      "choice": "Bob Brooks",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "GBAO Strategies",
+    "end_date": "2026-07-02",
+    "margin": -4.0,
+    "n": 550,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2075190984107872361?s=20",
+    "answers": [
+     {
+      "choice": "Ryan Mackenzie",
+      "pct": 43.0
+     },
+     {
+      "choice": "Bob Brooks",
+      "pct": 47.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 2,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-PA-07",
+   "races": [
+    "HOU-PA-07"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Pennsylvania 7th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcDVoV0doRlRMMlRva1FUUDBJUGtaSmFvcV9qNDVqb3ZSa3Z0LXh2UEJ6QTlISHk1MU8tb3V5dTJadnZzMTYwMDBfM2Y3SThQUXcyRTVhR3Y0dkNpd2xvUlpCR0lGenpDekE5TlBYZGxLb1ZaZXM2bnNXbU1QVVNhTzhQYzM5WmRI?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-07",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": -5.0
+  }
+ ]
+}

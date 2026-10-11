@@ -1,0 +1,183 @@
+{
+ "chamber": "Senate",
+ "label": "Arkansas",
+ "ratings": {
+  "cook": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+15",
+ "incumbent": "Tom Cotton",
+ "last_result": "66.53% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Arkansas",
+ "state_abbr": "AR",
+ "special": false,
+ "district": null,
+ "key": "SEN-AR",
+ "name": "Arkansas Senate",
+ "incumbent_note": "",
+ "consensus_score": 4,
+ "consensus": "Solid R",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Hallie Shoffner"
+  ],
+  "R": [
+   "Tom Cotton"
+  ]
+ },
+ "poll": {
+  "average_margin": 11.0,
+  "average_label": "R+11.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Grayhouse",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-04",
+   "sample_size": 550,
+   "population": "lv",
+   "margin": 11.0,
+   "margin_label": "R+11.0",
+   "answers": [
+    {
+     "choice": "Hallie Shoffner",
+     "pct": 40.0
+    },
+    {
+     "choice": "Tom Cotton",
+     "pct": 51.0
+    },
+    {
+     "choice": "Jeff Wadlin",
+     "pct": 4.0
+    }
+   ],
+   "url": "https://x.com/LandonWall_/status/2108601370580332749"
+  },
+  "polls": [
+   {
+    "pollster": "Grayhouse",
+    "end_date": "2026-10-04",
+    "margin": 11.0,
+    "n": 550,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://x.com/LandonWall_/status/2108601370580332749",
+    "answers": [
+     {
+      "choice": "Hallie Shoffner",
+      "pct": 40.0
+     },
+     {
+      "choice": "Tom Cotton",
+      "pct": 51.0
+     },
+     {
+      "choice": "Jeff Wadlin",
+      "pct": 4.0
+     }
+    ]
+   },
+   {
+    "pollster": "J.L. Partners",
+    "end_date": "2026-08-18",
+    "margin": 16.0,
+    "n": 803,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://static1.squarespace.com/static/663253f0bc87b7070102f41f/t/6a84d771481c4817e92f0eee/1787090801301/AR+Aug+26+Polling+Memo.pdf",
+    "answers": [
+     {
+      "choice": "Tom Cotton",
+      "pct": 51.0
+     },
+     {
+      "choice": "Hallie Shoffner",
+      "pct": 35.0
+     },
+     {
+      "choice": "Jeff Wadlin",
+      "pct": 4.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 2,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-AR",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 4,
+   "p": 11.0
+  }
+ ]
+}

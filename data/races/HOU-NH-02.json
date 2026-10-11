@@ -1,0 +1,198 @@
+{
+ "chamber": "House",
+ "label": "New Hampshire 2",
+ "ratings": {
+  "cook": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+2",
+ "incumbent": "Maggie Goodlander",
+ "last_result": "53.0% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "New Hampshire",
+ "state_abbr": "NH",
+ "special": false,
+ "district": "02",
+ "key": "HOU-NH-02",
+ "name": "NH-02",
+ "incumbent_note": "",
+ "consensus_score": -4,
+ "consensus": "Solid D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Maggie Goodlander"
+  ],
+  "R": [
+   "Lily Tang Williams"
+  ]
+ },
+ "poll": {
+  "average_margin": -18.0,
+  "average_label": "D+18.0",
+  "n_polls": 2,
+  "window_days": 45,
+  "latest": {
+   "pollster": "University of New Hampshire",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-17",
+   "end_date": "2026-09-21",
+   "sample_size": 702,
+   "population": "lv",
+   "margin": -21.0,
+   "margin_label": "D+21.0",
+   "answers": [
+    {
+     "choice": "Maggie Goodlander",
+     "pct": 56.0
+    },
+    {
+     "choice": "Lily Tang Williams",
+     "pct": 35.0
+    },
+    {
+     "choice": "Robbie Mahrou",
+     "pct": 3.0
+    }
+   ],
+   "url": "https://scholars.unh.edu/survey_center_polls/1005/"
+  },
+  "polls": [
+   {
+    "pollster": "University of New Hampshire",
+    "end_date": "2026-09-21",
+    "margin": -21.0,
+    "n": 702,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://scholars.unh.edu/survey_center_polls/1005/",
+    "answers": [
+     {
+      "choice": "Maggie Goodlander",
+      "pct": 56.0
+     },
+     {
+      "choice": "Lily Tang Williams",
+      "pct": 35.0
+     },
+     {
+      "choice": "Robbie Mahrou",
+      "pct": 3.0
+     }
+    ]
+   },
+   {
+    "pollster": "Saint Anselm College Survey Center",
+    "end_date": "2026-08-18",
+    "margin": -15.0,
+    "n": 701,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-republicans-facing-midterm-headwinds-democratic-lead-widens",
+    "answers": [
+     {
+      "choice": "Maggie Goodlander",
+      "pct": 50.0
+     },
+     {
+      "choice": "Lily Tang Williams",
+      "pct": 35.0
+     }
+    ]
+   },
+   {
+    "pollster": "Saint Anselm",
+    "end_date": "2026-06-25",
+    "margin": -19.0,
+    "n": 1614,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://www.anselm.edu/about/anselmian-hub/news/saint-anselm-college-survey-center-june-poll-finds-democrats-expand-generic-ballot-lead",
+    "answers": [
+     {
+      "choice": "Maggie Goodlander",
+      "pct": 50.0
+     },
+     {
+      "choice": "Lily Tang Williams",
+      "pct": 31.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 3,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NH-02",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -4,
+   "p": -18.0
+  }
+ ]
+}

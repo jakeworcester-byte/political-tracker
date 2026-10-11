@@ -1,0 +1,168 @@
+{
+ "chamber": "House",
+ "label": "Missouri 2",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+4",
+ "incumbent": "Ann Wagner",
+ "last_result": "54.5% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Missouri",
+ "state_abbr": "MO",
+ "special": false,
+ "district": "02",
+ "key": "HOU-MO-02",
+ "name": "MO-02",
+ "incumbent_note": "",
+ "consensus_score": 2,
+ "consensus": "Lean R",
+ "disagreement": true,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Fred Wellman"
+  ],
+  "R": [
+   "Ann Wagner"
+  ]
+ },
+ "poll": {
+  "average_margin": 1.0,
+  "average_label": "R+1.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Remington Research Group",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-15",
+   "sample_size": 565,
+   "population": "lv",
+   "margin": 1.0,
+   "margin_label": "R+1.0",
+   "answers": [
+    {
+     "choice": "Ann Wagner",
+     "pct": 43.0
+    },
+    {
+     "choice": "Fred Wellman",
+     "pct": 42.0
+    }
+   ],
+   "url": "https://x.com/MarkMaxwellTV/status/2103501820840534440?s=20"
+  },
+  "polls": [
+   {
+    "pollster": "Remington Research Group",
+    "end_date": "2026-09-15",
+    "margin": 1.0,
+    "n": 565,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://x.com/MarkMaxwellTV/status/2103501820840534440?s=20",
+    "answers": [
+     {
+      "choice": "Ann Wagner",
+      "pct": 43.0
+     },
+     {
+      "choice": "Fred Wellman",
+      "pct": 42.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-MO-02",
+   "races": [
+    "HOU-MO-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Missouri 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONE5hMXVWZEU1bzMyekhYSWZVQ2NFYnhScTUxQ0NkcG10dk9HLW1MU1pZRWREZ2MyRDYtTUlMUjZaMnNSVGVES2l4aFdySDc1ajh3SnNOX3NaYk9MZ05ic1B6R3NJZE5uQ29WdlF2dEc2bF9KX05zNWpiQ09nWTZ6UjdKcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MO-02",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 2,
+   "p": 1.0
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "chamber": "Senate",
+ "label": "Mississippi",
+ "ratings": {
+  "cook": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+11",
+ "incumbent": "Cindy Hyde-Smith",
+ "last_result": "54.11% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Mississippi",
+ "state_abbr": "MS",
+ "special": false,
+ "district": null,
+ "key": "SEN-MS",
+ "name": "Mississippi Senate",
+ "incumbent_note": "",
+ "consensus_score": 4,
+ "consensus": "Solid R",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Scott Colom"
+  ],
+  "R": [
+   "Cindy Hyde-Smith"
+  ]
+ },
+ "poll": {
+  "average_margin": 6.0,
+  "average_label": "R+6.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Data for Progress",
+   "sponsors": [
+    "Way to Lead PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-08-05",
+   "end_date": "2026-08-15",
+   "sample_size": 1018,
+   "population": "lv",
+   "margin": 6.0,
+   "margin_label": "R+6.0",
+   "answers": [
+    {
+     "choice": "Cindy Hyde-Smith",
+     "pct": 47.0
+    },
+    {
+     "choice": "Scott Colom",
+     "pct": 41.0
+    }
+   ],
+   "url": "https://chartingthewayforward.substack.com/p/research-release-fresh-polling-from"
+  },
+  "polls": [
+   {
+    "pollster": "Data for Progress",
+    "end_date": "2026-08-15",
+    "margin": 6.0,
+    "n": 1018,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://chartingthewayforward.substack.com/p/research-release-fresh-polling-from",
+    "answers": [
+     {
+      "choice": "Cindy Hyde-Smith",
+      "pct": 47.0
+     },
+     {
+      "choice": "Scott Colom",
+      "pct": 41.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MS",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 4,
+   "p": 6.0
+  }
+ ]
+}
