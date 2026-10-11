@@ -6,6 +6,12 @@
   const $footMeta = document.getElementById("foot-meta");
   let DATA = null, HISTORY = null;
   const raceCache = {};
+  // Data lives in the tracker repo. When this page is served from the project path (or locally), read it
+  // relatively; when served from the user site root (jakeworcester-byte.github.io/), read the raw files on main.
+  const ON_PROJECT_PATH = location.pathname.indexOf("/political-tracker") === 0;
+  const ON_GITHUB_USER_SITE = /\.github\.io$/.test(location.hostname) && !ON_PROJECT_PATH;
+  const DATA_BASE = ON_GITHUB_USER_SITE ? "https://raw.githubusercontent.com/jakeworcester-byte/political-tracker/main/docs/data/" : "data/";
+  const dataUrl = p => DATA_BASE + p;
 
   const SIDE = r => r === "Tossup" ? "T" : r.endsWith(" D") ? "D" : "R";
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -45,10 +51,10 @@
 
   async function load() {
     try {
-      const r = await fetch("data/latest.json", { cache: "no-store" });
+      const r = await fetch(dataUrl("latest.json"), { cache: "no-store" });
       if (!r.ok) throw new Error(`latest.json ${r.status}`);
       DATA = await r.json();
-      fetch("data/history.json", { cache: "no-store" }).then(x => x.ok ? x.json() : []).then(h => { HISTORY = h; if (location.hash.startsWith("#national") || !location.hash || location.hash === "#overview") route(); }).catch(() => {});
+      fetch(dataUrl("history.json"), { cache: "no-store" }).then(x => x.ok ? x.json() : []).then(h => { HISTORY = h; if (location.hash.startsWith("#national") || !location.hash || location.hash === "#overview") route(); }).catch(() => {});
       $footMeta.textContent = `Data as of ${new Date(DATA.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}. Ratings compiled from the forecasters' published tables via Wikipedia; polls from VoteHub; markets from Polymarket. Built with Claude Code.`;
       route();
     } catch (e) {
@@ -184,7 +190,7 @@
     $app.innerHTML = `<a class="back" href="#${r.chamber === "Senate" ? "senate" : "house"}">← ${r.chamber}</a><h1>${esc(r.name)} ${pill(r.consensus)}</h1><div class="loading">Loading detail…</div>`;
     let d = raceCache[key];
     if (!d) {
-      try { const resp = await fetch(`data/races/${key}.json`, { cache: "no-store" }); d = resp.ok ? await resp.json() : null; raceCache[key] = d; } catch (e) { d = null; }
+      try { const resp = await fetch(dataUrl(`races/${key}.json`), { cache: "no-store" }); d = resp.ok ? await resp.json() : null; raceCache[key] = d; } catch (e) { d = null; }
     }
     if (location.hash !== `#race/${key}`) return;
     const ratings = Object.entries(r.ratings).map(([k, v]) => `<li><div class="item-title">${esc(v.name)} ${pill(v.rating, "sm")}${v.flip ? ' <span class="pill gray sm">flip</span>' : ""}</div><div class="item-meta">as of ${fmtDate(v.as_of)}</div></li>`).join("");
@@ -260,9 +266,9 @@
   async function renderBriefArchive(date) {
     $app.innerHTML = `<h1>Past briefs</h1><div class="loading">Loading…</div>`;
     let idx = { dates: [] };
-    try { const r = await fetch("data/briefs/index.json", { cache: "no-store" }); if (r.ok) idx = await r.json(); } catch (e) { /* no archive yet */ }
+    try { const r = await fetch(dataUrl("briefs/index.json"), { cache: "no-store" }); if (r.ok) idx = await r.json(); } catch (e) { /* no archive yet */ }
     if (date) {
-      try { const r = await fetch(`data/briefs/${date}.md`, { cache: "no-store" }); const txt = r.ok ? await r.text() : "Brief not found."; $app.innerHTML = `<a class="back" href="#briefs">← All briefs</a><div class="brief">${md(txt)}</div>`; } catch (e) { $app.innerHTML = `<div class="error">Could not load that brief.</div>`; }
+      try { const r = await fetch(dataUrl(`briefs/${date}.md`), { cache: "no-store" }); const txt = r.ok ? await r.text() : "Brief not found."; $app.innerHTML = `<a class="back" href="#briefs">← All briefs</a><div class="brief">${md(txt)}</div>`; } catch (e) { $app.innerHTML = `<div class="error">Could not load that brief.</div>`; }
       return;
     }
     $app.innerHTML = `<h1>Past briefs</h1>${idx.dates.length ? `<div class="card"><ul class="list">${idx.dates.map(d => `<li><a href="#briefs/${d}" class="item-title">${fmtDate(d)}</a></li>`).join("")}</ul></div>` : '<div class="callout">No briefs archived yet.</div>'}`;
