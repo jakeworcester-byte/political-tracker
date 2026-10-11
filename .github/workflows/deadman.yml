@@ -1,0 +1,79 @@
+name: Dead man's switch
+
+# Runs after the morning routine should have finished. If today's data has not landed,
+# it opens (or updates) a GitHub issue, which emails Jake. No secrets required.
+# 12:20 UTC = 7:20 a.m. Central Daylight Time; 13:20 UTC = 7:20 a.m. Central Standard Time.
+on:
+  schedule:
+    - cron: "20 12 * * *"
+    - cron: "20 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check that today's data landed
+        id: check
+        shell: bash
+        run: |
+          set -euo pipefail
+          TODAY=$(TZ=America/Chicago date +%F)
+          HOUR_UTC=$(date -u +%H)
+          # Only one of the two cron firings is "7:20 Central"; the other is an hour off. Skip the early one when DST is active.
+          CENTRAL_HOUR=$(TZ=America/Chicago date +%H)
+          if [ "$CENTRAL_HOUR" != "07" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"; echo "Not 7 a.m. Central (it is $CENTRAL_HOUR); skipping."; exit 0
+          fi
+          RUN_DATE=$(python3 -c "import json;print(json.load(open('docs/data/latest.json')).get('run_date',''))" 2>/dev/null || echo "")
+          BRIEF_DATE=$(python3 -c "import json;b=json.load(open('docs/data/latest.json')).get('brief') or {};print(b.get('date',''))" 2>/dev/null || echo "")
+          echo "today=$TODAY run_date=$RUN_DATE brief_date=$BRIEF_DATE"
+          echo "today=$TODAY" >> "$GITHUB_OUTPUT"
+          echo "run_date=$RUN_DATE" >> "$GITHUB_OUTPUT"
+          echo "brief_date=$BRIEF_DATE" >> "$GITHUB_OUTPUT"
+          if [ "$RUN_DATE" = "$TODAY" ] && [ "$BRIEF_DATE" = "$TODAY" ]; then
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Open an issue if stale
+        if: steps.check.outputs.skip != 'true' && steps.check.outputs.stale == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = '${{ steps.check.outputs.today }}';
+            const runDate = '${{ steps.check.outputs.run_date }}' || 'none';
+            const briefDate = '${{ steps.check.outputs.brief_date }}' || 'none';
+            const title = `Morning routine did not publish for ${today}`;
+            const body = [
+              `The dead man's switch found no fresh data at 7:20 a.m. Central on ${today}.`,
+              '',
+              `- Last data run: ${runDate}`,
+              `- Last brief: ${briefDate}`,
+              '',
+              'Check the routine runs at https://claude.ai/code/routines and the latest session transcript.',
+              'Fix path: open the failed run session and ask Claude to rerun, or trigger the routine with Run now.',
+            ].join('\n');
+            const { data: issues } = await github.rest.issues.listForRepo({ owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'routine-failure' });
+            if (issues.length) {
+              await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: issues[0].number, body });
+            } else {
+              await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['routine-failure'] });
+            }
+      - name: Close stale-failure issues when healthy
+        if: steps.check.outputs.skip != 'true' && steps.check.outputs.stale == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({ owner: context.repo.owner, repo: context.repo.repo, state: 'open', labels: 'routine-failure' });
+            for (const i of issues) {
+              await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: i.number, body: 'Fresh data landed today. Closing.' });
+              await github.rest.issues.update({ owner: context.repo.owner, repo: context.repo.repo, issue_number: i.number, state: 'closed' });
+            }

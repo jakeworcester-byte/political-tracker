@@ -1,0 +1,272 @@
+{
+ "chamber": "Senate",
+ "label": "Kansas",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+8",
+ "incumbent": "Roger Marshall",
+ "last_result": "53.22% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Kansas",
+ "state_abbr": "KS",
+ "special": false,
+ "district": null,
+ "key": "SEN-KS",
+ "name": "Kansas Senate",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Adam Hamilton"
+  ],
+  "R": [
+   "Roger Marshall"
+  ]
+ },
+ "poll": {
+  "average_margin": -2.0,
+  "average_label": "D+2.0",
+  "n_polls": 2,
+  "window_days": 21,
+  "latest": {
+   "pollster": "Wedgewood Polls",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-24",
+   "sample_size": 500,
+   "population": "lv",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
+   "answers": [
+    {
+     "choice": "Roger Marshall",
+     "pct": 48.0
+    },
+    {
+     "choice": "Adam Hamilton",
+     "pct": 50.0
+    },
+    {
+     "choice": "David Graham",
+     "pct": 2.0
+    }
+   ],
+   "url": "https://drive.google.com/drive/u/0/folders/1VKLmawSn60cr7L9HCx9mtZDvATC20N5u"
+  },
+  "polls": [
+   {
+    "pollster": "Wedgewood Polls",
+    "end_date": "2026-09-24",
+    "margin": -2.0,
+    "n": 500,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://drive.google.com/drive/u/0/folders/1VKLmawSn60cr7L9HCx9mtZDvATC20N5u",
+    "answers": [
+     {
+      "choice": "Roger Marshall",
+      "pct": 48.0
+     },
+     {
+      "choice": "Adam Hamilton",
+      "pct": 50.0
+     },
+     {
+      "choice": "David Graham",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-09-16",
+    "margin": -2.0,
+    "n": 750,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://emersoncollegepolling.com/kansas-2026/",
+    "answers": [
+     {
+      "choice": "Roger Marshall",
+      "pct": 43.0
+     },
+     {
+      "choice": "Adam Hamilton",
+      "pct": 45.0
+     },
+     {
+      "choice": "David Graham",
+      "pct": 4.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 2,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-11",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Roger Marshall, a Kansas Senator Facing Re-Election, Settles a Bakery Bill 6 Years Later",
+   "url": "https://www.nytimes.com/2026/10/10/us/politics/marshall-kansas-baker-bill-senate-midterms.html",
+   "summary": "Senator Roger Marshall, a Kansas Republican in a difficult race, paid an old campaign debt for cookies, muffins and brownies after a baker’s story went viral online.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "In Deep-Red Kansas, a Surprisingly Competitive Senate Race Takes Shape",
+   "url": "https://www.nytimes.com/2026/10/09/us/politics/kansas-senate-race-2026-marshall-hamilton.html",
+   "summary": "Adam Hamilton wants to be the first Democrat to win a Senate seat there in nearly 100 years.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Kansas Senate Race Is a Surprising New Midterm Fight",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeW1fcjRjWTFhVnd5QzdKZTVhcHRKYXJLMmcxNktsbk1Bd25ldzN0Ylp5bVphNDk5ODBkV0NIQ0prRHlpRmhGWDNpS1dyd3EtU0phS2VFUU5IbWJfWFRSbVVvbmdzUVBWTm9Kamt3aGQ0cC0xcVZ1anFuTnczMlZzeTNQV3FLeExBdkJHSE5JZDJlSlh2TDBrNUxaclFnSFdP?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "FOX4KC.com",
+   "lean": "unrated",
+   "title": "Kansas Senate race heats up as Marshall, Hamilton clash in increasingly competitive contest",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM09zbVBDUmdGaHNmR2pyX295b0tlTUhMYk5sZk1Gd3g4elcza09CdGdzNHRsUE0yUE5SQTdPWVBaY2NoRzBiU2xHeVRuaGdzS1RFTEkwcEpfRjIxNHBSTEl3NGlka2RGVndGalhRNXZiRHBwZ3VmUE1YRktCSFhiS3B1QkdSV25GbUVSYVExRDhpRmNweV9RMDZZREtabElNSjhQY0ZjRkpYREVrUnh2Q2RmeFNBUdIBuwFBVV95cUxPN0U4cTFHXy1IX3lNbzR3Uzd2RnJIaXAyYi0wOGlsZ002ai1iUEdHeTF6dndVXzR0TkhIQ2pUak1Oc2ZpV1NjX3Q0S2xvcmxtWmxFZTlpUkhmYlhNNkNUd0puQ1g4UzdsQ2YzLTFNLV9DVGVIalp2M3YwZHdjVWxBZ1VkTV9nMkpBN1N2Q0dBX3pOYzJTTTBkX09talM2WVA1R0VyUUlZUUdqYlBfdmtrV3JpOW15enVQZE5v?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "Forbes",
+   "lean": "unrated",
+   "title": "Who Is Adam Hamilton? Pastor Could Be Kansas’ First Democratic Senator Since 1932",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeERtaFV4aGlWOXFCRmI4WGpud1p3cVpRRndRZnk4Qjh0ZXNYUzRJZFpWN2Z2NUczQTVFaEhDb21EVWxSeHN4bEU0WWgxNWlINU94WGJZYVVnZGRLSXFweFR6clluMlU4UnBrTnMteWtVd2RHWENlNHExSmRiRk5xM3dDUklnTnJ0M19RbHNyQU9PNkhKWGhFYzZseDl1bW54elBySnhaMUI5OVZTQ2p5Z0hzWHE0ZFIxNUNvSzNxZm1FbUJGQkJobmd3SlNjSUY0aXNXSEUtamRDRjdtU1IxSWdhRGJnOXlu?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-06",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "KMBC",
+   "lean": "unrated",
+   "title": "Cook Political Report: Kansas Senate race between Roger Marshall, Adam Hamilton a 'toss up'",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc3lmYTFhRlZEXzZKT2szY3F0VzNvVGM4X2NvZng0cjJvY3dQMmxiUjZ0bDVGN3VQS010QXQ2WnMzQnhRT19wMWdJUk9RV0Zja25INGNYaUhrMV81OEZBNEdHRDJsTVM2WTNmTHI4elpvMnJwYTM2Vm84MlMzOFcyTVJINGN5M2xOUkFraTVqUjI0c0FMQWN3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-KS",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -2.0
+  }
+ ]
+}

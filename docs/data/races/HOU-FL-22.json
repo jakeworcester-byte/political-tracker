@@ -1,0 +1,131 @@
+{
+ "chamber": "House",
+ "label": "Florida 22",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt R",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean R",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean R",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+4",
+ "incumbent": "New seat",
+ "last_result": "–",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "Florida",
+ "state_abbr": "FL",
+ "special": false,
+ "district": "22",
+ "key": "HOU-FL-22",
+ "name": "FL-22",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": true,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 3,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-FL-22",
+   "races": [
+    "HOU-FL-22"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Florida 22nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUkJ4eHR2aXZYTnpIbUNTaFZuYm1KeEQ0LUxHYVl2bkJVNS01S1pVeFlxOGRrdVB1UmlmWGtEODNOMlE5NlRoMURFWUVDWUdrQ0dfdkptNmJ5cGRXaHEzWnZfU3F2dnVQWFRrTDhoajRTbnhJeHdYQXdlNkhvV3Jud1VHSQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-FL-22",
+   "races": [
+    "HOU-FL-22"
+   ],
+   "type": "reporting",
+   "source": "Firstpost",
+   "lean": "unrated",
+   "title": "US Midterms 2026: Indian-American educator Pia Dandiya sets eyes on Congress seat from Florida",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOY0NHMWZqRWROLTNfa25BZW5ZdmRWekZmekxYbXB1RFB4NjFsaEJMS0lQUU9ra3pQTXpScFpuczJWMjF4bmFWVE03SEZsVWxnRXRpcVZndkpEcFMyNEZkQTlKT0N0NGJXOFBtVDBBUXphRTFBXzJvczBVMy1GR0c5NWNfdTZ5aTdvS3hiVnpPVmFTWnVKYmF6S0FmYTI2eEM2YnpnRS15TFF0a2xZQzhSSm9rejI3b1BYVGd5SmxkTTAwbzlIdE41RVQwUzdnZm96Z1U2MkRR0gHbAUFVX3lxTE5ta0hLWkl1SGhxU29scS1yOXZLZ0pUb285UDk5bFZpQU16ekhjMEp0MTQxbElpdlpFc0U0c2ZxQzNJWXExRDlqOURsMkQ0M3RjNEdjNVQtSGRSNmhSZk5LdVdvNjF5MjJCU2V3SGpMRU1fZHZtQmJJY01RX19aR0trNGc0dE5NdWRnMFdVZnNQYjd2NE1ibGwzNEQxX3F5b1lxTy1Ob3FVX3o1Wjc3bzlNQXdUUjNkNTN4MllSVzlpY2JpYkJZbEJfeUQ5VWRBVDNHcXo4TjlkQU81QQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-22",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": null
+  }
+ ]
+}

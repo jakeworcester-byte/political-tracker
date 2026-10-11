@@ -1,0 +1,19 @@
+{
+  "_comment": "Party map for races where VoteHub poll answers cannot be resolved automatically (open seats, multi-candidate fields). Keys are race keys from the ratings tables. The routine may add entries here when a headline makes a candidate's party unambiguous; cite the source in _sources.",
+  "_sources": {
+    "SEN-IA": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Iowa",
+    "SEN-MI": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan",
+    "SEN-NH": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
+    "SEN-TX": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+    "HOU-KY-06": "WHAS11: Dembo vs. Alvarado: Democrats seek flip in U.S. House race"
+  },
+  "SEN-IA": {"D": ["Josh Turek"], "R": ["Ashley Hinson"]},
+  "SEN-MI": {"D": ["Abdul El-Sayed"], "R": ["Mike Rogers"]},
+  "SEN-NH": {"D": ["Chris Pappas"], "R": ["John Sununu", "John E. Sununu"]},
+  "SEN-TX": {"D": ["James Talarico"], "R": ["Ken Paxton"]},
+  "HOU-KY-06": {"D": ["Zach Dembo"], "R": ["Ralph Alvarado"]},
+  "HOU-AZ-01": {"D": ["Amish Shah"], "R": ["Jay Feely"]},
+  "HOU-CA-48": {"D": ["Marni von Wilpert"], "R": ["Jim Desmond"]},
+  "HOU-IA-02": {"D": ["Lindsay James"], "R": ["Joe Mitchell"]},
+  "HOU-MI-10": {"D": ["Christina Hines"], "R": ["Michael Bouchard"]}
+}

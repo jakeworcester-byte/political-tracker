@@ -1,0 +1,161 @@
+{
+ "chamber": "House",
+ "label": "Colorado 8",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "EVEN",
+ "incumbent": "Gabe Evans",
+ "last_result": "49.0% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Colorado",
+ "state_abbr": "CO",
+ "special": false,
+ "district": "08",
+ "key": "HOU-CO-08",
+ "name": "CO-08",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 7,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Colorado 8th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa2tpM3AzMTg4SE9aSzJHZHhDMDBHUzgyaGFNNHlCay1Ccl8tN2JPaHZXTVNIWmNWRVU1RHZ3aWl2WjJIa0VmVTc1a0F2cHVKOXhOcWFvd2pJdmlsNlFzTHNyU3BBS0NJT1ltRWpJTUdHY2V5aFhXMlZpTEpvTV9nTHFWRQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "Colorado Public Radio",
+   "lean": "unrated",
+   "title": "Gabe Evans and Manny Rutinel hold fiery debate in Colorado congressional swing seat race",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUm1Na3VDNE1CZy1aMWFvQlAyMnJJdWswTmV1aExrWnNVTmUySUpVVkRPaE9jOGJiUl9oelFyM2tzZ0plQjViNDE5VFBBWC1ueXlaYTNYVWt4bDQyN0Z3TXpqTmtfbHRWTk5lTzNSaTNmalo1TDFhZjRQTGhTZUVLVUpIRGp5dw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "The Denver Post",
+   "lean": "unrated",
+   "title": "Barbed comments, and sharper rejoinders, dominate debate in Colorado’s 8th District",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORHdQN0kzOG44OVpXU1p0UklmVkFLY180emxzcjhQaDB4S0YzNE1rWktrQjlDWVRVWk12ZzYzUlg3dnNaOHNfT3JEbjB0M2lST1dFZmN1OHdJTHRiTzcyYnZCaWFhdDdCVllRNm9rdUhhamJvc0dYWWJpejBnTzE2Ql9DdWd5dw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "Axios",
+   "lean": "unrated",
+   "title": "Evans, Rutinel bicker in Colorado's tightest congressional race",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRmFjYnM2a0VjVGwya1pVZC1PUUJMdUpLUFpVV3FEVV9SQUZZUEJGT3RyTlNIZmNKXzlfRVJKcHBGd2NrMnZZbHhxNWEzS2kyb191SS1KR29NQmZWa1JrbnQwaUtZTjVId016VWFFMUNQeFFHenhQc1J1bEFIWFJkemoxUEV5QQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-08",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": null
+  }
+ ]
+}

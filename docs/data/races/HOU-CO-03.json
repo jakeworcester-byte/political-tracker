@@ -1,0 +1,161 @@
+{
+ "chamber": "House",
+ "label": "Colorado 3",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+5",
+ "incumbent": "Jeff Hurd",
+ "last_result": "50.8% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Colorado",
+ "state_abbr": "CO",
+ "special": false,
+ "district": "03",
+ "key": "HOU-CO-03",
+ "name": "CO-03",
+ "incumbent_note": "",
+ "consensus_score": 2,
+ "consensus": "Lean R",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Colorado 3rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeTQwM1ByRWFyd1c1VTZLaExGcVJ1NXBSWFlIT0FGU0hKZ1k2RmRHWUhZRzZrRG9iMHM2V0c5dUt1YVN0VXNvQ19wTXN1bmtTQkRIa2VyaVphOF9UQzBCckhKT1lPOVd1SWFjWjd2QjNNRnJQVkpWYVJKRmdZNTJzQTh4RQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "The Colorado Sun",
+   "lean": "unrated",
+   "title": "Where Jeff Hurd and Dwayne Romero stand on the top issues in Colorado’s 3rd Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV3kyRF9FOF9aanplY3NteTd6YnFfR2puOUZhZl9iUTN4TkFRY25WNUZZRUFnQk41U3FrVDJwLWhsZjR0NmJoa2haN2dIVmFVTTFEdEdOVW0xR1BoT3YzYUFVU0tKMjBSV1R5ZHdSYlM3Wk96NkppWktrNEJFNjdZMHZsT1pncDc4QjEtRmtUODZKUWRFOWlSa2ZMaEhTRFFBSDM0?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "PostIndependent.com",
+   "lean": "unrated",
+   "title": "Q&A: Meet the candidates running for Colorado’s 3rd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUk4yaGE4WFgxSjJ6c3dXbGRkZ0JvRE5PMm82NU5fZXhUZU9LQl9QMWZWNlE3bmlReGU2REN6UnduRVJZNFhFd29BWks2N0lnbHduZEtCU1BUWE5oLUNJM19XS3ZZUEotNFJtZ1hnNlJZQmg5VHByZmk5ZUJ5aF9vX3BVZjJleU1ObkVwd3E4N0VPLUdocGZKU2lSa2NFaGxqMTRtb1JGaw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "montrosepress.com",
+   "lean": "unrated",
+   "title": "Attention from national Democrats, Republicans signals Colorado’s 3rd Congressional District race is in play; The Democratic Congressional Campaign Committee on Monday added the district to their list of top 2026 targets, and a super PAC tied to President",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNMm9GeGhNc2RQcXhqNjdYWFBKSmsyM1hhUnBiNWNTSVRGSXBGZ3ZzRFh1dlN1dUFhb2VMdkE5YVNKeERUQUJfNHp4OTB4RDctVWlRU2xiTzdobXBUa2FJNGtEcy1uS1JLamZQbXMzb0ZnTmtYTnBDZzExLVdVUzBpOUxjNDVEMnFvUGs1blNfc293MmFzR2g1LUI5d2JYeVY3MVJBUDZUTkNoMVRiMVlsVnZGUGxIQ2c3U083YjVkUVg3bi16TjVJNnRnMnpTOE1rODhESUlBbFdyQ2VHQmZSMGkzXzVycTlQZWQ4LU1PYnBxalhtR2FzQjZsLVdMZVlZRjVrUURjNFo5SjlETzNZVnZtczRKZHVFbUJPYw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-03",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 2,
+   "p": null
+  }
+ ]
+}

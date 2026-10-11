@@ -1,0 +1,171 @@
+{
+ "chamber": "House",
+ "label": "California 48",
+ "ratings": {
+  "cook": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+2",
+ "incumbent": "Darrell Issa",
+ "last_result": "59.3% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "California",
+ "state_abbr": "CA",
+ "special": false,
+ "district": "48",
+ "key": "HOU-CA-48",
+ "name": "CA-48",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 10,
+ "candidates": {
+  "D": [
+   "Marni von Wilpert"
+  ],
+  "R": [
+   "Jim Desmond"
+  ]
+ },
+ "poll": {
+  "average_margin": -3.0,
+  "average_label": "D+3.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "SurveyUSA",
+   "sponsors": [
+    "KGTV (San Diego)",
+    "The San Diego Union Tribune"
+   ],
+   "partisan": null,
+   "start_date": "2026-08-27",
+   "end_date": "2026-09-01",
+   "sample_size": 522,
+   "population": "lv",
+   "margin": -3.0,
+   "margin_label": "D+3.0",
+   "answers": [
+    {
+     "choice": "Marni von Wilpert",
+     "pct": 45.0
+    },
+    {
+     "choice": "Jim Desmond",
+     "pct": 42.0
+    }
+   ],
+   "url": "https://results.surveyusa.com/client/PollReport.aspx?g=0877c725-6e44-47fe-9856-dcf799865671"
+  },
+  "polls": [
+   {
+    "pollster": "SurveyUSA",
+    "end_date": "2026-09-01",
+    "margin": -3.0,
+    "n": 522,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://results.surveyusa.com/client/PollReport.aspx?g=0877c725-6e44-47fe-9856-dcf799865671",
+    "answers": [
+     {
+      "choice": "Marni von Wilpert",
+      "pct": 45.0
+     },
+     {
+      "choice": "Jim Desmond",
+      "pct": 42.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-CA-48",
+   "races": [
+    "HOU-CA-48"
+   ],
+   "type": "reporting",
+   "source": "10News.com",
+   "lean": "unrated",
+   "title": "Marni von Wilpert leads race for California's redrawn 48th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMVo0QVJFWV9fRjFFa0JTQXNNcm1HWEN1cHU5bG5WNWpjMFkxNG5qWWxubGViRjlPR3dKZ204N1V5dkNuNTdVYUp3WnNIbmppbHlZVlRxc2FGX1VqenJVSkEyaXdiYWpiZ0tUdTRJMTk4VXlPbnc5VmFtVDNueWJyb0ZhU0tFWUlQVURndzU4bEdsMXgtejY3d3lhRUdVdzZEUXFzSUNNQ3oybkdJbjY3eXNxMFRzUXlSZGhBdjhWNG1XbWZmc2YxWWZnLUY4aGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-48",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": -3.0
+  }
+ ]
+}

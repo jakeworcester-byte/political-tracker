@@ -1,0 +1,176 @@
+{
+ "chamber": "House",
+ "label": "Texas 23",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+7",
+ "incumbent": "Vacant",
+ "last_result": "62.3% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "Texas",
+ "state_abbr": "TX",
+ "special": false,
+ "district": "23",
+ "key": "HOU-TX-23",
+ "name": "TX-23",
+ "incumbent_note": "",
+ "consensus_score": 3,
+ "consensus": "Likely R",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-TX-23",
+   "races": [
+    "HOU-TX-23"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Texas 23rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWnNSclFrTzgtejNIdi1NdlpBMnYxUVV4dGlCUi05cENtZzA5MWNRYVluNVRMY2doU0tpTHNFbWRfZjVHemN4Q2tJRlZ4aEY0Rkk0ekwzMW5JbGh3ZTFPRUJtdVU4RUhTcUNFa2ppV0duN3NLY3djcGdOMHV5STRqbw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-TX-23",
+   "races": [
+    "HOU-TX-23"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "New York 23rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPU3NKQkhDM1NOLTNNQ09FdmxKNlZuUHdISThHeks2Q1ZBWkNpUU9KM2duX1EydXE0TXpJWlBxZmhGZ2lYM1B5b2ItYk9IcnBHZmtQRFJzNS1JVlVzYjY3cWExakVwZFo0S25lMEhlRTlNNUQ5eHZlQXhyd1duQ1ZVYjFoREw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-TX-23",
+   "races": [
+    "HOU-TX-23"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Texas 18th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOa1o4TWZETjB0dHNPbFp2MU5iMXRxQk1xZl91ZmdmdXRWQjh4Zm9UTHNxQjZCbS1HMXBlS1c2Yk5SZm9yb1BVYkZRS214clNTWVFjckV5aFV6R3JHRVdsLVNfQ3lmSnBwLWY0N0hjTzBPZk5DU1RTN2dwQ3gwVk9oUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-TX-23",
+   "races": [
+    "HOU-TX-23"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "South Carolina 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWHRXVExmWEIwZDZETVozQ2dhTUVwQU9hVTZ5aEtZQU5uX1g3Mm5vSEpDd1UxaEs2OUM4N3V5Mm1zSEVnaGEtdWIzeGVLYnYwOGg2c2lZTzN4R1lYRVpCWGozbC03RDdJcXN2SFNPNVVpMmxqM18tZVZYM0dvenZObnRia0Y3cjQ4dGtB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-TX-23",
+   "races": [
+    "HOU-TX-23"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "California 40th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOamdYcWpUeENlcU81V1EzMHJjQ0xqWG8yaUpPWjZxdTlVN3d6aFhLalFXSHZ4LWNJX1JpMV8tcmhBRmg3QVIwM2dqUTJtaS1sM3FTWm5rLTVVazNmeWdOdWE1R19saE5HNEdiTGJzLW55Q0R0MzlBbXlBdUlaVDh5V3JSRENQelE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-23",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 3,
+   "p": null
+  }
+ ]
+}

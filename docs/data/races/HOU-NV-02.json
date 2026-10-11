@@ -1,0 +1,131 @@
+{
+ "chamber": "House",
+ "label": "Nevada 2",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+7",
+ "incumbent": "Mark Amodei",
+ "last_result": "55.0% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "Nevada",
+ "state_abbr": "NV",
+ "special": false,
+ "district": "02",
+ "key": "HOU-NV-02",
+ "name": "NV-02",
+ "incumbent_note": "",
+ "consensus_score": 3,
+ "consensus": "Likely R",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-NV-02",
+   "races": [
+    "HOU-NV-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Nevada 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ0lzQTQ2cHQ5anJZb3lMajljTWxTcV91bEFWNjJ3U2FMQWNlYzd0UWlibVdiTzliTXVUNjJNTEtNMEY4RzFJTmRxRWFUMXRDTHlZaUc3OGF6cU9GUkdPUTc2UFN6eldxQUFweDc1WGppcWg3d05uY1lNdFNiN3hlRA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-07",
+   "race": "HOU-NV-02",
+   "races": [
+    "HOU-NV-02"
+   ],
+   "type": "reporting",
+   "source": "NPR",
+   "lean": "unrated",
+   "title": "Carpetbagger allegation, misplaced valor make Nevada's safe red House seat competitive",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRUQ4V3BNOVh4SnFNSkhLVHlSSUhLWVVOT09IZURSSkQtODVpbWgxeF9TOXVNSUFQUTVBX1JoVjJhcTd6bF9LNVZhOXZNNi1ocWxaS2hiejJZRjNiYURoTjc0RUI3eWJqSHFYTXRucExWN3lyR2xwMGNKaWVHQjJSckF6VkU5dE1TbW9ubmJ0V2dwUXFObnZR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NV-02",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 3,
+   "p": null
+  }
+ ]
+}

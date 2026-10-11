@@ -1,0 +1,116 @@
+{
+ "chamber": "House",
+ "label": "Nevada 3",
+ "ratings": {
+  "cook": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+1",
+ "incumbent": "Susie Lee",
+ "last_result": "51.4% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "Nevada",
+ "state_abbr": "NV",
+ "special": false,
+ "district": "03",
+ "key": "HOU-NV-03",
+ "name": "NV-03",
+ "incumbent_note": "",
+ "consensus_score": -3,
+ "consensus": "Likely D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 0,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-NV-03",
+   "races": [
+    "HOU-NV-03"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "California 3rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3JSQ0hwUVJqb3k1dEZyUHFLUEJNaDJiWThHSHN3TldBSTNTa2V0Rmp5b1RNSVFaMXcyLWZZdWNfenplQkJFMUFSUlh1Uk14ME9yNy1JQXpHMzFWRmtxTFVTYVNNcTBaYl9acm1ub3NLVXJCVkhKLW1Fa3lMVm4zUDVYdnJ0QQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NV-03",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -3,
+   "p": null
+  }
+ ]
+}

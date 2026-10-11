@@ -1,0 +1,200 @@
+{
+ "chamber": "House",
+ "label": "Minnesota 1",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+6",
+ "incumbent": "Brad Finstad",
+ "last_result": "58.6% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Minnesota",
+ "state_abbr": "MN",
+ "special": false,
+ "district": "01",
+ "key": "HOU-MN-01",
+ "name": "MN-01",
+ "incumbent_note": "",
+ "consensus_score": 3,
+ "consensus": "Likely R",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Jake Johnson"
+  ],
+  "R": [
+   "Brad Finstad"
+  ]
+ },
+ "poll": {
+  "average_margin": -1.0,
+  "average_label": "D+1.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "GBAO Strategies",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-09-18",
+   "end_date": "2026-09-21",
+   "sample_size": 500,
+   "population": "lv",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
+   "answers": [
+    {
+     "choice": "Brad Finstad",
+     "pct": 46.0
+    },
+    {
+     "choice": "Jake Johnson",
+     "pct": 47.0
+    }
+   ],
+   "url": "https://bsky.app/profile/the-downballot.com/post/3mwbqbuzrn22f"
+  },
+  "polls": [
+   {
+    "pollster": "GBAO Strategies",
+    "end_date": "2026-09-21",
+    "margin": -1.0,
+    "n": 500,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://bsky.app/profile/the-downballot.com/post/3mwbqbuzrn22f",
+    "answers": [
+     {
+      "choice": "Brad Finstad",
+      "pct": 46.0
+     },
+     {
+      "choice": "Jake Johnson",
+      "pct": 47.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-MN-01",
+   "races": [
+    "HOU-MN-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Minnesota 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-MN-01",
+   "races": [
+    "HOU-MN-01"
+   ],
+   "type": "reporting",
+   "source": "MPR News",
+   "lean": "unrated",
+   "title": "GOP Rep. Brad Finstad, DFLer Jake Johnson debate in congressional race drawing big spending",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTTB6a3lmWU9zOTFBclRrdkw1OUFOaEZTYjJMNzZGYTN0Sl9ZVG1IRERrMHZmdUtickhkQWh5NkJiQVhlM1M3WFpnbjFRekZuaFpMTmp5MW5yWlJEM3haNk9OQnFhbU9DVldLSG5vZkI3MVBCYUoxRnF1Tm80NGtPbkVuQ0piejYxR2ZSdmRFVi02TVFqR0J2T21jSnd4TUdqaUpjWkhQa0RJci1n?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-MN-01",
+   "races": [
+    "HOU-MN-01"
+   ],
+   "type": "reporting",
+   "source": "KTTC | Rochester, MN",
+   "lean": "unrated",
+   "title": "TV ad in Minnesota’s 1st District race draws deep fake accusations",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT0t0UnQwMFVjVTN1S1N4QXFIQ0gya1pCX21STUxzOUVMUXYwT3NKTzVYMnJWdzlwRjQ3UzVDWXhCVGUteDdyaVV3eUd0MlhMNVdMY2Y1WGxFRjVYWEZDa0lSQ3NmbVRpX3JKcFNLNUtRTlBxZFFXV3FIZHNpQjVBYmhndGcwNjNIQlJqV0lUNnJSaVNNQ0VnZzRWMNIBrwFBVV95cUxPZUwtOXFVREFDVU5WdXR3M0c3dnM2b3A4NkJSMWZSOElaQTBUSXZqZ0ZmZFZwcVRDMHZNQ1ByUTVCUjBXeGgyMkgyZUVURk1WcF9QOVB0blE2MUlhaVNTRGV5THBqYm5fYV9TX2xlTWpXYk45cXVEdFJQY2I3Z3FVNFRDdlppR24yRWUxZFBFVU5ZRS1lTHRqaDVHXzNZTHdENkhSOFZVUUtpYUtjUlZj?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MN-01",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 3,
+   "p": -1.0
+  }
+ ]
+}

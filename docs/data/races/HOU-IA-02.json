@@ -1,0 +1,154 @@
+{
+ "chamber": "House",
+ "label": "Iowa 2",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+4",
+ "incumbent": "Ashley Hinson",
+ "last_result": "57.1% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "Iowa",
+ "state_abbr": "IA",
+ "special": false,
+ "district": "02",
+ "key": "HOU-IA-02",
+ "name": "IA-02",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 3,
+ "candidates": {
+  "D": [
+   "Lindsay James"
+  ],
+  "R": [
+   "Joe Mitchell"
+  ]
+ },
+ "poll": {
+  "average_margin": -1.0,
+  "average_label": "D+1.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Global Strategy Group",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-07-14",
+   "end_date": "2026-07-19",
+   "sample_size": null,
+   "population": "lv",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
+   "answers": [
+    {
+     "choice": "Joe Mitchell",
+     "pct": 45.0
+    },
+    {
+     "choice": "Lindsay James",
+     "pct": 46.0
+    }
+   ],
+   "url": "https://static.notus.org/27/58/c93f2d1946c0814f583fa25c7a31/hmp-ia-02-poll.pdf"
+  },
+  "polls": [
+   {
+    "pollster": "Global Strategy Group",
+    "end_date": "2026-07-19",
+    "margin": -1.0,
+    "n": null,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://static.notus.org/27/58/c93f2d1946c0814f583fa25c7a31/hmp-ia-02-poll.pdf",
+    "answers": [
+     {
+      "choice": "Joe Mitchell",
+      "pct": 45.0
+     },
+     {
+      "choice": "Lindsay James",
+      "pct": 46.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-02",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -1.0
+  }
+ ]
+}

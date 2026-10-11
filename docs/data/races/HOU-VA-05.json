@@ -1,0 +1,152 @@
+{
+ "chamber": "House",
+ "label": "Virginia 5",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+6",
+ "incumbent": "John McGuire",
+ "last_result": "57.5% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Virginia",
+ "state_abbr": "VA",
+ "special": false,
+ "district": "05",
+ "key": "HOU-VA-05",
+ "name": "VA-05",
+ "incumbent_note": "",
+ "consensus_score": 2,
+ "consensus": "Lean R",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Tom Perriello"
+  ],
+  "R": [
+   "John McGuire"
+  ]
+ },
+ "poll": {
+  "average_margin": 5.0,
+  "average_label": "R+5.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-23",
+   "end_date": "2026-09-28",
+   "sample_size": 600,
+   "population": "lv",
+   "margin": 5.0,
+   "margin_label": "R+5.0",
+   "answers": [
+    {
+     "choice": "John McGuire",
+     "pct": 51.0
+    },
+    {
+     "choice": "Tom Perriello",
+     "pct": 46.0
+    }
+   ],
+   "url": "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/"
+  },
+  "polls": [
+   {
+    "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
+    "end_date": "2026-09-28",
+    "margin": 5.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/",
+    "answers": [
+     {
+      "choice": "John McGuire",
+      "pct": 51.0
+     },
+     {
+      "choice": "Tom Perriello",
+      "pct": 46.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-05",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 2,
+   "p": 5.0
+  }
+ ]
+}

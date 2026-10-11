@@ -1,0 +1,599 @@
+{
+ "chamber": "Senate",
+ "label": "Michigan",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Tilt D",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "EVEN",
+ "incumbent": "Gary Peters",
+ "last_result": "49.90% D",
+ "incumbent_party": "D",
+ "open_seat": true,
+ "state": "Michigan",
+ "state_abbr": "MI",
+ "special": false,
+ "district": null,
+ "key": "SEN-MI",
+ "name": "Michigan Senate",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Abdul El-Sayed"
+  ],
+  "R": [
+   "Mike Rogers"
+  ]
+ },
+ "poll": {
+  "average_margin": -3.9,
+  "average_label": "D+3.9",
+  "n_polls": 11,
+  "window_days": 21,
+  "latest": {
+   "pollster": "Mitchell Research & Communications",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-01",
+   "end_date": "2026-10-01",
+   "sample_size": 682,
+   "population": "lv",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
+   "answers": [
+    {
+     "choice": "Abdul El-Sayed",
+     "pct": 46.0
+    },
+    {
+     "choice": "Mike Rogers",
+     "pct": 41.0
+    },
+    {
+     "choice": "Lydia Christensen",
+     "pct": 3.0
+    },
+    {
+     "choice": "Tim Long",
+     "pct": 1.0
+    },
+    {
+     "choice": "Douglas P. Marsh",
+     "pct": 1.0
+    },
+    {
+     "choice": "Walter P. Kristy",
+     "pct": 2.0
+    }
+   ],
+   "url": "https://wwmt.com/news/michigan-politics/mitchell-poll-michigan-us-senate-election-abdul-el-sayed-mike-rogers-politics-government-vote-polls-state"
+  },
+  "polls": [
+   {
+    "pollster": "Mitchell Research & Communications",
+    "end_date": "2026-10-01",
+    "margin": -5.0,
+    "n": 682,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://wwmt.com/news/michigan-politics/mitchell-poll-michigan-us-senate-election-abdul-el-sayed-mike-rogers-politics-government-vote-polls-state",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 46.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 41.0
+     },
+     {
+      "choice": "Lydia Christensen",
+      "pct": 3.0
+     },
+     {
+      "choice": "Tim Long",
+      "pct": 1.0
+     },
+     {
+      "choice": "Douglas P. Marsh",
+      "pct": 1.0
+     },
+     {
+      "choice": "Walter P. Kristy",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "Z to A Research",
+    "end_date": "2026-10-01",
+    "margin": -7.0,
+    "n": 483,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/rbrtraining/status/2108302504446337272",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 49.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 42.0
+     },
+     {
+      "choice": "Lydia Christensen",
+      "pct": 3.0
+     }
+    ]
+   },
+   {
+    "pollster": "Trafalgar Group",
+    "end_date": "2026-09-30",
+    "margin": -2.0,
+    "n": 1085,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://www.thetrafalgargroup.org/news/mi-senate-general-1001/",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 47.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 45.0
+     },
+     {
+      "choice": "Lydia Christensen",
+      "pct": 2.0
+     },
+     {
+      "choice": "Tim Long",
+      "pct": 1.0
+     },
+     {
+      "choice": "Douglas P. Marsh",
+      "pct": 0.0
+     },
+     {
+      "choice": "Walter P. Kristy",
+      "pct": 0.0
+     }
+    ]
+   },
+   {
+    "pollster": "Beacon Research/Shaw & Co. Research",
+    "end_date": "2026-09-28",
+    "margin": -1.0,
+    "n": 1028,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.foxnews.com/politics/fox-news-poll-michigan-voters-split-between-el-sayed-rogers",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 50.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 49.0
+     }
+    ]
+   },
+   {
+    "pollster": "Guidant Polling and Strategy",
+    "end_date": "2026-09-27",
+    "margin": -5.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://x.com/burgessev/status/2107923538392776875?s=20",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 48.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 43.0
+     },
+     {
+      "choice": "Lydia Christensen",
+      "pct": 1.0
+     },
+     {
+      "choice": "Tim Long",
+      "pct": 1.0
+     },
+     {
+      "choice": "Douglas P. Marsh",
+      "pct": 0.0
+     },
+     {
+      "choice": "Walter P. Kristy",
+      "pct": 0.0
+     }
+    ]
+   },
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-09-23",
+    "margin": 0.0,
+    "n": 843,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://battlegrounds.coefficient.org/mi/",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 50.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 50.0
+     }
+    ]
+   },
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-09-22",
+    "margin": -5.0,
+    "n": 605,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/2026/09/24/us/politics/democrats-show-strength-in-michigan-senate-race-but-trail-in-maine-polls-find.html",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 49.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 44.0
+     }
+    ]
+   },
+   {
+    "pollster": "Cygnal/Beacon Research",
+    "end_date": "2026-09-21",
+    "margin": -5.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://enjoyer.com/michigan-poll-fall-2026/",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 45.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 40.0
+     },
+     {
+      "choice": "Lydia Christensen",
+      "pct": 1.0
+     },
+     {
+      "choice": "Tim Long",
+      "pct": 0.0
+     },
+     {
+      "choice": "Douglas P. Marsh",
+      "pct": 0.0
+     },
+     {
+      "choice": "Walter P. Kristy",
+      "pct": 0.0
+     }
+    ]
+   },
+   {
+    "pollster": "Suffolk University",
+    "end_date": "2026-09-20",
+    "margin": -7.0,
+    "n": 500,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states#collapse-September-22-2026-Michigan-Governor-and-US-Senate-Statewide-and-Bellwether",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 47.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 40.0
+     },
+     {
+      "choice": "Lydia Christensen",
+      "pct": 1.0
+     },
+     {
+      "choice": "Tim Long",
+      "pct": 0.0
+     },
+     {
+      "choice": "Douglas P. Marsh",
+      "pct": 0.0
+     },
+     {
+      "choice": "Walter P. Kristy",
+      "pct": 1.0
+     }
+    ]
+   },
+   {
+    "pollster": "The Washington Post/George Mason University School of Policy and Government",
+    "end_date": "2026-09-14",
+    "margin": -3.0,
+    "n": 803,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.washingtonpost.com/documents/08fa9b5e-43ac-456c-a706-4c33ec6506dc.pdf",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 48.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-09-14",
+    "margin": -2.5,
+    "n": 1000,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://emersoncollegepolling.com/michigan-2026-poll-el-sayed-and-rogers-locked-in-close-election/",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 48.2
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 45.7
+     },
+     {
+      "choice": "Lydia Christensen",
+      "pct": 0.5
+     },
+     {
+      "choice": "Tim Long",
+      "pct": 0.6
+     },
+     {
+      "choice": "Douglas P. Marsh",
+      "pct": 3.0
+     },
+     {
+      "choice": "Walter P. Kristy",
+      "pct": 0.3
+     }
+    ]
+   },
+   {
+    "pollster": "Trafalgar Group",
+    "end_date": "2026-09-09",
+    "margin": -1.5,
+    "n": 1079,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://www.thetrafalgargroup.org/news/mi-sen-general-0910/",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 46.3
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 44.8
+     },
+     {
+      "choice": "Lydia Christensen",
+      "pct": 0.8
+     },
+     {
+      "choice": "Tim Long",
+      "pct": 0.7
+     },
+     {
+      "choice": "Douglas P. Marsh",
+      "pct": 0.4
+     },
+     {
+      "choice": "Walter P. Kristy",
+      "pct": 0.2
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 34,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-10",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Washington Post",
+   "lean": "unrated",
+   "title": "Ocasio-Cortez will stump for Abdul El-Sayed in Michigan’s Senate race",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYzJ1bTF2SlhqYWhIOW1SVnV6R1JtSXd4ejdTUzNZZjlxQUVoRkRMQk9EeEVkMG9DUTQ4bmk0MDJybU5hMW10TVlaMlotdGkxZ2RYR1hsLW5GMG5vYnM0LThSOTNOa0lZNTVUTDhLVXBaYWgwc2E4X18wbGdpLUFpajQ5UHlRYXhQTUFFS29nemVINWNuN3NtTzU0UFVVVFpNNDFVMFF6dzRhaE5uTGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Democrat Abdul El-Sayed and Republican Mike Rogers clashed Thursday over policies involving the Middle East, healthcare, immigration and more in their first debate in the race for Senate in Michigan",
+   "url": "https://www.wsj.com/politics/policy/abdul-el-sayed-and-mike-rogers-agree-on-virtually-nothing-in-michigan-debate-d974bf2b?mod=rss_socialpoliticsfeed",
+   "summary": "The race is one of the most competitive in the nation and could determine Senate control.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "FOX 2 Detroit",
+   "lean": "unrated",
+   "title": "Special coverage: Michigan Senate race debate in Grand Rapids",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeTJTRjBEOERJTUF6QnFQaHEzdTFpaFJ1QkJvU1B3ZTZrN3R0a0k5MlRjWTU4clc4YTRwN2ZRSWJqckNhTWk4N0V1RFJtT3lQODY5NTUwOEZlX0hUaUdFaks5ZGgxcVJ6bHNSajZGeUVibHBoR01wU1N1Q2pGdUFFME1zdVItaS1ZR2NENEZJWU1hZ1dYbnIyYkpKYnZvRmtkc1E?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Michigan Senate Race Live Updates: El-Sayed and Rogers Clash in First Debate",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzZFJSaHk0aUNDNWp2ZklNLUpfUHpqbGtqUmFBOG9zMUw2VHJkTkthQi15SHh6Qm0td3BDMlc3UTEtUHdWbTR4NVZ3LXB2UmpZWTJPcUh0SC1yNFIyZ25Rb1A3Q3ZvMjk1ZG1nN25kbGtCQ29adGpENnlKTFdXOTg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "AIPAC’s super PAC starts spending again in the Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcUdhUXdHb1RmOHJMUmFPWjhwN3U2OVN6bHdyYW8zdWRtVk5qVkN1Z0FqMDhIYVJFNnNaaDhfVm1TZ0FyVjlvYzNFSGFiQ3U3Mm9MelY0dERTSkp2Znl5RFVRQy1vanV5aW84SzZQTzl2TTlNLVAzdVFmRzNmMkRwRjFKaVBZU3FzdVVXRThJYkFydWFNNk14MFZ1ZjhzYVJUOGVyTmN6aEZDTHQ4ekQ4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "Politico",
+   "lean": "unrated",
+   "title": "Mike Rogers opens the door for AIPAC support in Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3BLdHNtVHRfcHVJUDJlMmR2MmRuUDV0RFVBTXNXYzhkOE5NSzRZSnZEYzBza2ctZURkb2tWNzV2ODlrQ1VkWGc1TDl4NUlFdF94VmI1ZU51Nnpob3cxWWQxNEg3UGV4a1ZKY1VlQUhBX0lHd0R4Y0p4NWs2QkM0Mzd5WHJnb25Ldi1tTWJsX0pNUzhiVjIzWjlEWVRqUmFOb0g4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-07",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME",
+    "SEN-MI",
+    "SEN-TX"
+   ],
+   "type": "podcast",
+   "source": "Ruthless",
+   "lean": "right",
+   "title": "El-Sayed's Deleted Tweets: The DSA Ties He's Hiding From Voters + AG Blanche Joins the Progrum",
+   "url": "",
+   "summary": "Ruthless breaks down the latest Senate battlegrounds in Michigan, Maine, and Texas and exposes Abdul El-Sayed’s past ties to the DSA. Attorney General Todd Blanche joins the progrum to discuss parental rights, election integrity, crime, and the DOJ. #RuthlessPodcast #Midterms #Politics 0:00:00 Intro",
+   "relevant": true
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MI",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": -3.9
+  }
+ ]
+}

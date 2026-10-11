@@ -1,0 +1,154 @@
+{
+ "chamber": "Senate",
+ "label": "Tennessee",
+ "ratings": {
+  "cook": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+14",
+ "incumbent": "Bill Hagerty",
+ "last_result": "62.20% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Tennessee",
+ "state_abbr": "TN",
+ "special": false,
+ "district": null,
+ "key": "SEN-TN",
+ "name": "Tennessee Senate",
+ "incumbent_note": "",
+ "consensus_score": 4,
+ "consensus": "Solid R",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Marquita Bradshaw"
+  ],
+  "R": [
+   "Bill Hagerty"
+  ]
+ },
+ "poll": {
+  "average_margin": 20.0,
+  "average_label": "R+20.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Targoz Market Research",
+   "sponsors": [
+    "Beacon Center of Tennessee"
+   ],
+   "partisan": null,
+   "start_date": "2026-08-15",
+   "end_date": "2026-08-26",
+   "sample_size": 1157,
+   "population": "rv",
+   "margin": 20.0,
+   "margin_label": "R+20.0",
+   "answers": [
+    {
+     "choice": "Bill Hagerty",
+     "pct": 51.0
+    },
+    {
+     "choice": "Marquita Bradshaw",
+     "pct": 31.0
+    }
+   ],
+   "url": "https://tennsight.com/polls/august-2026/"
+  },
+  "polls": [
+   {
+    "pollster": "Targoz Market Research",
+    "end_date": "2026-08-26",
+    "margin": 20.0,
+    "n": 1157,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://tennsight.com/polls/august-2026/",
+    "answers": [
+     {
+      "choice": "Bill Hagerty",
+      "pct": 51.0
+     },
+     {
+      "choice": "Marquita Bradshaw",
+      "pct": 31.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TN",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 4,
+   "p": 20.0
+  }
+ ]
+}

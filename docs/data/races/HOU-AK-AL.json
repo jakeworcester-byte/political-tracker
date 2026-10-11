@@ -1,0 +1,210 @@
+{
+ "chamber": "House",
+ "label": "Alaska at-large",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Solid R",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+6",
+ "incumbent": "Nick Begich III",
+ "last_result": "51.3% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Alaska",
+ "state_abbr": "AK",
+ "special": false,
+ "district": "AL",
+ "key": "HOU-AK-AL",
+ "name": "AK-AL",
+ "incumbent_note": "",
+ "consensus_score": 3,
+ "consensus": "Likely R",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Nick Begich"
+  ],
+  "R": [
+   "Nick Begich III"
+  ]
+ },
+ "poll": null,
+ "raw_poll_count": 8,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-10",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "lean": "unrated",
+   "title": "Primaries: Trump-endorsed Mills of Florida loses, as candidates vie for final 2 spots in Alaska Senate race - ABC News",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbXh2Tkt2RGlzQTRQekdYVU1GMXd2MXotbTVraC1hNEVtX0huelhpRTRadHY4SDdhUlR5b19lVGsyZHZYdVRZUTZFcW1TZDU2czAyMDFjcW5tZ2ZDbGxFYk9IYWxTNmwta1ZGbGEyXzE4UGlEbmNSVjRCZDFMNkNndmxlX29PVm9LMlN2dHJIZ0VNYzlPNmlxS1JoallHSUXSAaQBQVVfeXFMT2pLdkhjMjI3UnZxZmNEU3hvTDdXLXRLUVZURF93QnRVYkpYMWp1SXV2eElDcXhHZFBEVko4NzluSWYwbThTWktILTl4U2g0Mmo0QUpneW91Tm9MT2NUWkNJMDNXa2k5QkNfUGlWbkFTRzNBTndhSDJRYnJLTTRadjlPUFZFSnA5bmIwSndhMlZsU3pHcTJrZ0tTdVZhTWVmVTFzYng?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Alaska At-Large Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOczJRTWVvXzFLWkFQYUszemZISEgwWWRyTE5SbFdlYzJyVnAtaVVieUVaVHBudnVFaGpYblZ0SFRuVThGaHZ0bHdUUjBoLWJUZmJwOVVXY2JjNkJDY3hOb19MdnhpaWlPZlNISWtrRzZ4a1BwakNoSmNHOUt0VXdhTnotNGpLNmUzWGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Alaska U.S. Senate Election 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcEJLeDV1U0FWYjhHM2tyaWJmeTM2TWpqMWROWnVGMnZkazJMODlHQi1ub212SEZYWmdLc2hRT0tPbkhlMGxsNEItNTlIQlVsdUhjTXlwWllNczZ4M3U5dTIycmtSZzJpMFFrTlVQOTRZaDBobFNxeF9PczJCcUFvMHpzVXdvM3Y2RzlZ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Alaska Governor Election 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWTZ6Q3BUbXVkYlI4MDN2al9nQXhIU0M3Z2pkTFdQakMzOHRqVWV1N3VRYnBfRXVNclNWOFFCZ2N5Q0RldXh5Mnc3eTJXR1BwYkZKeUxBUE4xUVliNF80bFFDT25rekZjTnlvTUg1T2tuTFp4X1k0c0RfUkh1akMtYUN4aU40TTczY1E?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "New Hampshire 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaXlxbVlpa2VuazZ3R2h0NkhVVzg1NlNyX3BYVnFDalBic3NFTGtFX3RKTkdEM2hsQ1hQU21aRmxRNHltc1BOdUh2aFlPMnd2NERxdmNzY0Y1WURjbkdPVHRHaDBLd0pSX015ODlQYmhLODNCNkttV3RTOGhYSFpQZXppQ0lYakw1SlE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Nebraska 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeWtCTl92RHlGbC03Z2RKNmUweTFnZnFUVUhRVlNfUF9zMHRrSTJmYlJVSEtsNGYyMldJSUNhNXFLVEZ2Q0FLZWtMVXRRam9TaXJpNk5tdHpFYnkxNk1CODlmNUg5ZzZ5QVk3WC13LURBb1BpTzlJY05VUFNLYzdlN0NDQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Michigan U.S. Senate Election 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AK-AL",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 3,
+   "p": null
+  }
+ ]
+}

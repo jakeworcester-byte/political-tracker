@@ -1,0 +1,421 @@
+{
+ "chamber": "Senate",
+ "label": "Iowa",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Tilt R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+6",
+ "incumbent": "Joni Ernst",
+ "last_result": "51.74% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "Iowa",
+ "state_abbr": "IA",
+ "special": false,
+ "district": null,
+ "key": "SEN-IA",
+ "name": "Iowa Senate",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Josh Turek"
+  ],
+  "R": [
+   "Ashley Hinson"
+  ]
+ },
+ "poll": {
+  "average_margin": -0.5,
+  "average_label": "D+0.5",
+  "n_polls": 5,
+  "window_days": 21,
+  "latest": {
+   "pollster": "Emerson College",
+   "sponsors": [
+    "Nexstar Media"
+   ],
+   "partisan": null,
+   "start_date": "2026-10-05",
+   "end_date": "2026-10-06",
+   "sample_size": 650,
+   "population": "lv",
+   "margin": 1.6,
+   "margin_label": "R+1.6",
+   "answers": [
+    {
+     "choice": "Josh Turek",
+     "pct": 45.0
+    },
+    {
+     "choice": "Ashley Hinson",
+     "pct": 46.6
+    },
+    {
+     "choice": "Thomas Laehn",
+     "pct": 1.5
+    }
+   ],
+   "url": "https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit?rtpof=true&sd=true"
+  },
+  "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-06",
+    "margin": 1.6,
+    "n": 650,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit?rtpof=true&sd=true",
+    "answers": [
+     {
+      "choice": "Josh Turek",
+      "pct": 45.0
+     },
+     {
+      "choice": "Ashley Hinson",
+      "pct": 46.6
+     },
+     {
+      "choice": "Thomas Laehn",
+      "pct": 1.5
+     }
+    ]
+   },
+   {
+    "pollster": "CNN/SSRS",
+    "end_date": "2026-10-05",
+    "margin": 2.0,
+    "n": 801,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.cnn.com/2026/10/08/politics/cnn-polls-ohio-iowa-senate-governor-midterms",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 45.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 43.0
+     }
+    ]
+   },
+   {
+    "pollster": "Beacon Research/Shaw & Co. Research",
+    "end_date": "2026-09-28",
+    "margin": -2.0,
+    "n": 1008,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.foxnews.com/politics/fox-news-poll-turek-hinson-close-iowa-senate-race",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 47.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 49.0
+     }
+    ]
+   },
+   {
+    "pollster": "Marist University",
+    "end_date": "2026-09-20",
+    "margin": -8.0,
+    "n": 1050,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-september-2026/",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 42.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 50.0
+     }
+    ]
+   },
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-09-16",
+    "margin": 4.0,
+    "n": 831,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://battlegrounds.coefficient.org/ia/",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 46.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 42.0
+     },
+     {
+      "choice": "Thomas Laehn",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "YouGov",
+    "end_date": "2026-09-08",
+    "margin": -1.0,
+    "n": 2166,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/iowa_election_20260903.pdf",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 43.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 44.0
+     }
+    ]
+   },
+   {
+    "pollster": "YouGov",
+    "end_date": "2026-09-08",
+    "margin": -4.0,
+    "n": 2041,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/iowa_election_20260903.pdf",
+    "answers": [
+     {
+      "choice": "Josh Turek",
+      "pct": 47.0
+     },
+     {
+      "choice": "Ashley Hinson",
+      "pct": 43.0
+     }
+    ]
+   },
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-09-01",
+    "margin": 5.0,
+    "n": 750,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://emersoncollegepolling.com/iowa-2026-poll-hinson-leads-turek/",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 50.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "Suffolk University",
+    "end_date": "2026-08-23",
+    "margin": 4.6,
+    "n": 500,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states#collapse-August-26-2026-Iowa-Governor-and-US-Senate-General-Election",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 45.4
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 40.8
+     }
+    ]
+   },
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-08-04",
+    "margin": 3.0,
+    "n": 712,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://emersoncollegepolling.com/iowa-2026-poll/",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 48.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-06-27",
+    "margin": 2.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-iowa-poll-crosstabs.html",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 48.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 46.0
+     }
+    ]
+   },
+   {
+    "pollster": "Beacon Research/Shaw & Co. Research",
+    "end_date": "2026-06-27",
+    "margin": -4.0,
+    "n": 1003,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://www.foxnews.com/politics/fox-news-poll-close-senate-contest-brewing-iowa",
+    "answers": [
+     {
+      "choice": "Josh Turek",
+      "pct": 50.0
+     },
+     {
+      "choice": "Ashley Hinson",
+      "pct": 46.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 13,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "Forbes",
+   "lean": "unrated",
+   "title": "Hottest 2026 Midterm Races—Jackson Leads In Maine, Hinson Ahead In Iowa (Updated Daily)",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVEpVa2lyNnExT25LM0hjMmtqallxNXdDU25GZWZXWUg0WGd0Yi1WX1ctcG5FS0ZXQi1FSHRkMXNFVWktY3F0TjQ2YXRGY0tWdnBQeWZWVEVRUUc2QTd5T2NzbTdyWUpYZkUxV2h2Wk1kNERUZ1c0RUl0U2lFVU4yOXh6RVBicFdaeG5iWkJBQUJsNnpFT251Y3dScEg4TVBVa3JWdC1oNHNwSTFOVzdKak9iNmlDSmU2ZUJ0cFp1QjlNa2plR01PSG5uaVFGOE80SXZFM0plNjFPdGE4d1VDcVRNQ1ZXWDMtVkZSWXd5ZF8wbXJ3MDlMRDBB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Hinson leads Iowa Senate contest as Sand holds edge for governor: Poll",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRURzZG1GYU84Ty1IR3dVYnFmSk8xWDJOSWlpX1AtSkttNEF5SHhrMlVPTXhhUjdEWjdXeHZBaks5ZlhKcERoWEdDcUlZcWZqZ1VPRXQ2ODRkVHpKU1dlR3pIZlJ0NS1hRHFla0pfSG9qa3hNMjBvT0hhY2ctTDFLOEFoNWw3UdIBiwFBVV95cUxNR0xaTkEtZFpVb3V3S3BaMEdUYkg5VVB2Z3ByT2hfQzFrZU9wd2dvVk1OOC1QdUhNaUcxcUFmWmpNNGZraTNIT2hUUVJTVFNlS1lvd3VrcTJtcHFHX0I5cmhPd2wwMDJLRmdGSnllYjN1empmUVc3eTFhdmxfRTRqai1weklyaWIyUlhV?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-07",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Sand holds 12-point lead over Lahn for Iowa governor while Hinson trails Turek in Senate race: Poll",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XbF9YSW9EckxhMGtfaWF3Mk9IZ0VLZGZQa3R0OWNtNlBSTXgzeVBfM05QRV9UV050V1NHbjFacFhkZVktMHBnUldnYUhzYm4zekh6QTBYZWZzZlptdWZqX0R1cFprVDUyYU90WXJpdF9lNVpLODJGZ2xCZmTSAYIBQVVfeXFMUE0tSjZraUJhRTV4UG1KbGRxcjQ3QnZ5NmhkRmY3SkJCc0RkUTRHVHZSTklmSHdQRUNaYndHX0VwVHFJelpEcjJ6YWQzbks0SkEyTWY0Y3BCWWp4WExiRzRuNkVONWhRWlBXOEpqVzVLWXR3VUpTejAwZENPMFV2Q053dw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -0.5
+  }
+ ]
+}

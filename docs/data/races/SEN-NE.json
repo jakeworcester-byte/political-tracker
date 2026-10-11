@@ -1,0 +1,154 @@
+{
+ "chamber": "Senate",
+ "label": "Nebraska",
+ "ratings": {
+  "cook": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+10",
+ "incumbent": "Pete Ricketts",
+ "last_result": "62.58% R (2024 sp.)",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Nebraska",
+ "state_abbr": "NE",
+ "special": false,
+ "district": null,
+ "key": "SEN-NE",
+ "name": "Nebraska Senate",
+ "incumbent_note": "",
+ "consensus_score": 2,
+ "consensus": "Lean R",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Dan Osborn"
+  ],
+  "R": [
+   "Pete Ricketts"
+  ]
+ },
+ "poll": {
+  "average_margin": -1.0,
+  "average_label": "D+1.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "GBAO Strategies",
+   "sponsors": [
+    "Working Class Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-08",
+   "sample_size": 800,
+   "population": "lv",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
+   "answers": [
+    {
+     "choice": "Pete Ricketts",
+     "pct": 46.0
+    },
+    {
+     "choice": "Dan Osborn",
+     "pct": 47.0
+    }
+   ],
+   "url": "https://www.washingtonsun.com/newsletters/panic-week"
+  },
+  "polls": [
+   {
+    "pollster": "GBAO Strategies",
+    "end_date": "2026-09-08",
+    "margin": -1.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.washingtonsun.com/newsletters/panic-week",
+    "answers": [
+     {
+      "choice": "Pete Ricketts",
+      "pct": 46.0
+     },
+     {
+      "choice": "Dan Osborn",
+      "pct": 47.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NE",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 2,
+   "p": -1.0
+  }
+ ]
+}

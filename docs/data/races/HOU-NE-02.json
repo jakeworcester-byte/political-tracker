@@ -1,0 +1,146 @@
+{
+ "chamber": "House",
+ "label": "Nebraska 2",
+ "ratings": {
+  "cook": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+3",
+ "incumbent": "Don Bacon",
+ "last_result": "50.9% R",
+ "incumbent_party": "R",
+ "open_seat": true,
+ "state": "Nebraska",
+ "state_abbr": "NE",
+ "special": false,
+ "district": "02",
+ "key": "HOU-NE-02",
+ "name": "NE-02",
+ "incumbent_note": "",
+ "consensus_score": -3,
+ "consensus": "Likely D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 10,
+ "candidates": {
+  "D": [],
+  "R": []
+ },
+ "poll": null,
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-NE-02",
+   "races": [
+    "HOU-NE-02"
+   ],
+   "type": "reporting",
+   "source": "Nebraska Examiner",
+   "lean": "unrated",
+   "title": "Update: Lindstrom reports $16,049.50 spent in 2026 NE gubernatorial campaign",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTzVkLTk4ZlJPdU51cDFpRENTcnNwYlpvWXFoaDhZMVh1WUEzX2lWZXBiYmRnLXZKVTg0RURVWWEtMEJ2aFl2VjRvd2RkandhX0VMbHA3LU9SZVg5cmlYTjFwN0p5dUpfWTQ3Y2J1T1ZPejN5Q3dJOURFZVJtNHk2RWllQkVtSnRHa0JTaDFFR2pwNDJlNHlYU2V0S2oyZ1A3eGVTNXBXVUxTNXA5Rm8yWFJwTkVjNDVBWFk2Zkp6NHA0TWNMNkNN?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-NE-02",
+   "races": [
+    "HOU-NE-02"
+   ],
+   "type": "reporting",
+   "source": "KETV",
+   "lean": "unrated",
+   "title": "KETV to host first face-off between Congressional candidates Brinker Harding and Denise Powell",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdldtZEN4TjBlY0oxWmdocjVocU1fLTdlSTJBX2Z5dTh2LV9WVHRJZk9saXVLSWZBYVo4cEw1b1hsNmQxUE5vRFlwalpDb2ZYV0ZTOGlIYUw2UzIwb3QtSS13V0hMVzFBTGUxQXVlTHg2eF8wTV9DMnMxLXlSSndjcS1rekk1akd0SWdtSVF4MVdFWWpETVJKUGMtTUlTQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-06",
+   "race": "HOU-NE-02",
+   "races": [
+    "HOU-NE-02"
+   ],
+   "type": "reporting",
+   "source": "WOWT",
+   "lean": "unrated",
+   "title": "Reports: Super PACs pull back spending in Nebraska 2nd District race",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOVI1aG1IWUJMaFdLMkNHck0xamNRTHVKTGhCQ0NSNVhISDNZeklLaUlKNkR0R1Q1SWxmYWlUeElBQkw4dXRWb2dyeUdmSF9QWUFkeW9NWG5LMkZfLTRCZHdnVGxpbGZURGFrQlJNZ3JITUs4N3pLNUcydjEtQ3ZJSkNxZnNEY2dsNFByV0ZEQ0tFWEJGTWJNZ25CU25tZ0NVa0HSAbYBQVVfeXFMTUhXeVlmaV9ocWxxb3BxNF9Cem1KWVZNSDJlMFNqM0hfYWpkQkhfTXpPTEQ4blpQelJ0TGFNbTJFOXF1TUtPY1pweE5OdEFzS0wxMU5VeVJfVU1kTE8zNHhoSkVvWWl2enNMVjlZVkRkYldlUWIwS3lQVVNIeGpHS0xuVmVyWUh5WHdEU1RENkJTMXd2cGc5eUd5UzFrSVpNY01MN2x2THN1NVF4bVhXdWctMlBtdmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NE-02",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -3,
+   "p": null
+  }
+ ]
+}

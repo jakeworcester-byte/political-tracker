@@ -1,0 +1,154 @@
+{
+ "chamber": "House",
+ "label": "California 6",
+ "ratings": {
+  "cook": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Solid D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+5",
+ "incumbent": "Kevin Kiley",
+ "last_result": "55.5% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "California",
+ "state_abbr": "CA",
+ "special": false,
+ "district": "06",
+ "key": "HOU-CA-06",
+ "name": "CA-06",
+ "incumbent_note": "",
+ "consensus_score": -4,
+ "consensus": "Solid D",
+ "disagreement": false,
+ "tracked": false,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 10,
+ "candidates": {
+  "D": [
+   "Richard Pan"
+  ],
+  "R": [
+   "Kevin Kiley"
+  ]
+ },
+ "poll": {
+  "average_margin": -4.0,
+  "average_label": "D+4.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "The Bullfinch Group",
+   "sponsors": [
+    "The Independent Center"
+   ],
+   "partisan": null,
+   "start_date": "2026-07-13",
+   "end_date": "2026-07-16",
+   "sample_size": 741,
+   "population": "lv",
+   "margin": -4.0,
+   "margin_label": "D+4.0",
+   "answers": [
+    {
+     "choice": "Richard Pan",
+     "pct": 39.0
+    },
+    {
+     "choice": "Kevin Kiley",
+     "pct": 35.0
+    }
+   ],
+   "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat"
+  },
+  "polls": [
+   {
+    "pollster": "The Bullfinch Group",
+    "end_date": "2026-07-16",
+    "margin": -4.0,
+    "n": 741,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat",
+    "answers": [
+     {
+      "choice": "Richard Pan",
+      "pct": 39.0
+     },
+     {
+      "choice": "Kevin Kiley",
+      "pct": 35.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-06",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -4,
+   "p": -4.0
+  }
+ ]
+}

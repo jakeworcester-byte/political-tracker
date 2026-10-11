@@ -1,0 +1,209 @@
+{
+ "chamber": "House",
+ "label": "Ohio 7",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+5",
+ "incumbent": "Max Miller",
+ "last_result": "51.1% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Ohio",
+ "state_abbr": "OH",
+ "special": false,
+ "district": "07",
+ "key": "HOU-OH-07",
+ "name": "OH-07",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 2,
+ "candidates": {
+  "D": [
+   "Brian Poindexter"
+  ],
+  "R": [
+   "Max Miller"
+  ]
+ },
+ "poll": {
+  "average_margin": -7.0,
+  "average_label": "D+7.0",
+  "n_polls": 3,
+  "window_days": 21,
+  "latest": {
+   "pollster": "Bedrock Polling",
+   "sponsors": [
+    "The Next 50",
+    "Iron Workers International"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-08-07",
+   "end_date": "2026-08-10",
+   "sample_size": 866,
+   "population": "lv",
+   "margin": -8.0,
+   "margin_label": "D+8.0",
+   "answers": [
+    {
+     "choice": "Max Miller",
+     "pct": 35.0
+    },
+    {
+     "choice": "Brian Poindexter",
+     "pct": 43.0
+    }
+   ],
+   "url": "https://www.axios.com/2026/08/11/max-miller-ohio-brian-poindexter-democrats-2026"
+  },
+  "polls": [
+   {
+    "pollster": "Bedrock Polling",
+    "end_date": "2026-08-10",
+    "margin": -8.0,
+    "n": 866,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.axios.com/2026/08/11/max-miller-ohio-brian-poindexter-democrats-2026",
+    "answers": [
+     {
+      "choice": "Max Miller",
+      "pct": 35.0
+     },
+     {
+      "choice": "Brian Poindexter",
+      "pct": 43.0
+     }
+    ]
+   },
+   {
+    "pollster": "Tavern Research",
+    "end_date": "2026-08-05",
+    "margin": -8.0,
+    "n": 560,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://242750075.fs1.hubspotusercontent-na2.net/hubfs/242750075/Toplines%20-%20OH-07%20General%2008_03%20Cint.pdf",
+    "answers": [
+     {
+      "choice": "Max Miller",
+      "pct": 46.0
+     },
+     {
+      "choice": "Brian Poindexter",
+      "pct": 54.0
+     }
+    ]
+   },
+   {
+    "pollster": "Unknown (Reported by NOTUS)",
+    "end_date": "2026-07-30",
+    "margin": -5.0,
+    "n": null,
+    "population": null,
+    "partisan": "REP",
+    "url": "https://x.com/IAPolls2022/status/2083970139574129144",
+    "answers": [
+     {
+      "choice": "Max Miller",
+      "pct": 39.0
+     },
+     {
+      "choice": "Brian Poindexter",
+      "pct": 44.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 3,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Ohio 7th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YYk9IZnBTTW41UWRXUVFYdEZBOWI3NkMwZ3ItLUtoTk9CQ3pmRnZvVURnOFMyczBsaTJWNVRueTN3QjhLOHp6OFpoZ2FYWUFNRDVkYmc3cEUyR09kT3pFaXdxUUZGRmVMNFN1NU1ISFFaa0VxWUl5eE40LU5tdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-07",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -7.0
+  }
+ ]
+}

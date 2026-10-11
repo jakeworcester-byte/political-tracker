@@ -1,0 +1,183 @@
+{
+ "chamber": "House",
+ "label": "Virginia 1",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean R",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+3",
+ "incumbent": "Rob Wittman",
+ "last_result": "56.4% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Virginia",
+ "state_abbr": "VA",
+ "special": false,
+ "district": "01",
+ "key": "HOU-VA-01",
+ "name": "VA-01",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": true,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 1,
+ "candidates": {
+  "D": [
+   "Shannon Taylor"
+  ],
+  "R": [
+   "Rob Wittman"
+  ]
+ },
+ "poll": {
+  "average_margin": -4.0,
+  "average_label": "D+4.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-23",
+   "end_date": "2026-09-28",
+   "sample_size": 609,
+   "population": "lv",
+   "margin": -4.0,
+   "margin_label": "D+4.0",
+   "answers": [
+    {
+     "choice": "Rob Wittman",
+     "pct": 46.0
+    },
+    {
+     "choice": "Shannon Taylor",
+     "pct": 50.0
+    }
+   ],
+   "url": "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/"
+  },
+  "polls": [
+   {
+    "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
+    "end_date": "2026-09-28",
+    "margin": -4.0,
+    "n": 609,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/",
+    "answers": [
+     {
+      "choice": "Rob Wittman",
+      "pct": 46.0
+     },
+     {
+      "choice": "Shannon Taylor",
+      "pct": 50.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-VA-01",
+   "races": [
+    "HOU-VA-01"
+   ],
+   "type": "reporting",
+   "source": "VPM",
+   "lean": "unrated",
+   "title": "WATCH: VPM News interviews Virginia 1st District’s Shannon Taylor",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY2tDUUZ5N0FyOV92bXZGZTVsM19ScjltN3VNWGE5d0dmODNqOTV1eHR5bXVKNEtrQXNyRmw4bERlYkhGWG5sR1M3V1c4cUVGYm0zT3k5M2pRblU3aEZnd3E1aUlSNlpoX2tYN1Y0Vl9KMlJ6ODBaV2oyeWxBdTBuRXI2UkNZcmppYzRzVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-07",
+   "race": "HOU-VA-01",
+   "races": [
+    "HOU-VA-01"
+   ],
+   "type": "reporting",
+   "source": "Instagram",
+   "lean": "unrated",
+   "title": "Virginia’s 1st Congressional District will present one of this year's starkest tests for Democratic attempts to turn their anti-corruption message into a winning campaign issue, as Shannon Taylor tries to overcome Rob Wittman's deep experience and down-to-eart",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2cE9qaS0yeFJPWWpYS29FRUtqTjdLUWpVd0Z3cVFJMHNoNHNpeFVTYjJweEE0QVhhM29BR2Z1VTRUa2N3SGwzY09NOVBveWMwZXc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-01",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -4.0
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+{
+ "chamber": "Senate",
+ "label": "New Hampshire",
+ "ratings": {
+  "cook": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "D+2",
+ "incumbent": "Jeanne Shaheen",
+ "last_result": "56.64% D",
+ "incumbent_party": "D",
+ "open_seat": true,
+ "state": "New Hampshire",
+ "state_abbr": "NH",
+ "special": false,
+ "district": null,
+ "key": "SEN-NH",
+ "name": "New Hampshire Senate",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Chris Pappas"
+  ],
+  "R": [
+   "John Sununu",
+   "John E. Sununu"
+  ]
+ },
+ "poll": {
+  "average_margin": -7.0,
+  "average_label": "D+7.0",
+  "n_polls": 3,
+  "window_days": 21,
+  "latest": {
+   "pollster": "The New York Times/Siena University",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-22",
+   "sample_size": 613,
+   "population": "lv",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
+   "answers": [
+    {
+     "choice": "Chris Pappas",
+     "pct": 50.0
+    },
+    {
+     "choice": "John Sununu",
+     "pct": 45.0
+    }
+   ],
+   "url": "https://www.nytimes.com/2026/09/24/us/politics/democrats-show-strength-in-michigan-senate-race-but-trail-in-maine-polls-find.html"
+  },
+  "polls": [
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-09-22",
+    "margin": -5.0,
+    "n": 613,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/2026/09/24/us/politics/democrats-show-strength-in-michigan-senate-race-but-trail-in-maine-polls-find.html",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 50.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "University of New Hampshire",
+    "end_date": "2026-09-21",
+    "margin": -8.0,
+    "n": 1418,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://scholars.unh.edu/survey_center_polls/1005/",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 50.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 42.0
+     },
+     {
+      "choice": "Edmond Laplante",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-09-17",
+    "margin": -8.0,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/insideradvantage-national-u-s-senate-surveys-n-c-cooper-48-whatley-43-mi-elsayed-47-rogers-45-nh-pappas-48-sununu-40/",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 48.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 40.0
+     }
+    ]
+   },
+   {
+    "pollster": "University of New Hampshire",
+    "end_date": "2026-08-24",
+    "margin": 2.0,
+    "n": 1878,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://scholars.unh.edu/survey_center_polls/988/",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 43.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "Saint Anselm College Survey Center",
+    "end_date": "2026-08-18",
+    "margin": -7.0,
+    "n": 1411,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-republicans-facing-midterm-headwinds-democratic-lead-widens",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 48.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 41.0
+     }
+    ]
+   },
+   {
+    "pollster": "Saint Anselm",
+    "end_date": "2026-06-25",
+    "margin": -6.0,
+    "n": 1614,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://www.anselm.edu/about/anselmian-hub/news/saint-anselm-college-survey-center-june-poll-finds-democrats-expand-generic-ballot-lead",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 47.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 41.0
+     }
+    ]
+   },
+   {
+    "pollster": "University of New Hampshire",
+    "end_date": "2026-06-23",
+    "margin": -3.0,
+    "n": 2232,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://scholars.unh.edu/survey_center_polls/974/",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 47.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 44.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 11,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-07",
+   "race": "SEN-NH",
+   "races": [
+    "SEN-NH"
+   ],
+   "type": "reporting",
+   "source": "Ballotpedia News",
+   "lean": "unrated",
+   "title": "New Hampshire U.S. Senate race between Chris Pappas (D) and John Sununu (R) will help determine control of the chamber",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUGJ1QzFaOU5TLUtYS3RWVnRMMldoX1lNWUR2bFFOdW40TlN5V3FvVC1XVjNXMEI3bHVRVHdjU1FyTTRYMkJoejFVdkFFeXhkRmxXTmVUYmk2UjV4a2lWd0tUellhXzhLREJRajA1RGwwOFZhVkxJbktFb2FPdDZuRWUtNW1ReE8wc2dnZGdldzUwYjI4cC12THBVLThUZXJoNThGS2R1dzZ3X1M1QVFuX2oxZ3lnWmg1Z1ZnNGtxNG44ck5hTnBCSmNxOTNLN2FGX1hnOGMzX3BUOURyemxGWjI4MGpjNk1odHc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-06",
+   "race": "SEN-NH",
+   "races": [
+    "SEN-NH"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Pappas leads Sununu by 7 points in New Hampshire Senate race: Poll",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02dzFUcXhNcGlxU2lkWk9LMWlQbnRsdU9RUGU4MjBuUks3ZW9kZFFxSmVSZ2FuWVZhbXRCT2tKWmdIR29KeXZ2bzI4V2g2OGtTdHRXTTYxV3dldkd0cWV4VFpCMlEtaERnRXhMMkQzaGJxTmJoRWVfdWpQZ2FFRTjSAYQBQVVfeXFMUFNXM01mTUJndEJ1cVpWUng3eEZwZFJpUU16QVNtdnc4OXlCYWNPRlhMek1XS0Vtb1VxTWJrMTJkRzBfMWhaU0FqdW1scWFRZkxsb1gzcF84anpnUXExSS1lN0VTTDlFUkNDTUllb2I3R2s4czlfRnBSYXlkSU1ycHNYYm9V?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NH",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": -7.0
+  }
+ ]
+}

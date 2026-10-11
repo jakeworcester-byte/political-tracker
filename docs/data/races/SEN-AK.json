@@ -1,0 +1,278 @@
+{
+ "chamber": "Senate",
+ "label": "Alaska",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Cook Political Report"
+  },
+  "ddhq": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Decision Desk HQ"
+  },
+  "econ": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "The Economist"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-06",
+   "name": "Fox News Power Rankings"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-05",
+   "name": "RealClearPolling"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-06",
+   "name": "Sabato's Crystal Ball"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-09",
+   "name": "Silver Bulletin"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "Split Ticket"
+  }
+ },
+ "pvi": "R+6",
+ "incumbent": "Dan Sullivan",
+ "last_result": "53.90% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "Alaska",
+ "state_abbr": "AK",
+ "special": false,
+ "district": null,
+ "key": "SEN-AK",
+ "name": "Alaska Senate",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "flip_votes": 5,
+ "candidates": {
+  "D": [
+   "Mary Peltola"
+  ],
+  "R": [
+   "Dan Sullivan"
+  ]
+ },
+ "poll": {
+  "average_margin": -0.8,
+  "average_label": "D+0.8",
+  "n_polls": 3,
+  "window_days": 21,
+  "latest": {
+   "pollster": "Quantus Insights",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-09-28",
+   "end_date": "2026-09-30",
+   "sample_size": 758,
+   "population": "lv",
+   "margin": 0.6,
+   "margin_label": "R+0.6",
+   "answers": [
+    {
+     "choice": "Mary Peltola",
+     "pct": 47.2
+    },
+    {
+     "choice": "Dan Sullivan",
+     "pct": 47.8
+    }
+   ],
+   "url": "https://quantusinsights.org/polling/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska"
+  },
+  "polls": [
+   {
+    "pollster": "Quantus Insights",
+    "end_date": "2026-09-30",
+    "margin": 0.6,
+    "n": 758,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://quantusinsights.org/polling/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 47.2
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 47.8
+     }
+    ]
+   },
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-09-17",
+    "margin": 3.0,
+    "n": 799,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://battlegrounds.coefficient.org/ak/",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 46.0
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 49.0
+     }
+    ]
+   },
+   {
+    "pollster": "Fabrizio, Lee & Associates/Impact Research",
+    "end_date": "2026-09-11",
+    "margin": -6.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-alaska/",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 53.0
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 47.0
+     }
+    ]
+   },
+   {
+    "pollster": "Alaska Survey Research",
+    "end_date": "2026-08-23",
+    "margin": -1.2,
+    "n": 1495,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://x.com/The_Real_ASR/status/2095186398882287632",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 50.6
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 49.4
+     }
+    ]
+   },
+   {
+    "pollster": "Alaska Survey Research",
+    "end_date": "2026-08-05",
+    "margin": -1.6,
+    "n": 1371,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://x.com/The_Real_ASR/status/2087253230548107640?s=20",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 50.8
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 49.2
+     }
+    ]
+   },
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-06-29",
+    "margin": 2.0,
+    "n": 593,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-alaska-poll-crosstabs.html",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 45.0
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 47.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 6,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Action Network",
+   "lean": "unrated",
+   "title": "Alaska Senate Race 2026 Odds | Peltola vs Sullivan Polls & Kalshi & Polymarket Alaska Senate Race Prices",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX1dkUFdZbV95VXpoemhGRy0yamlJMG5zZmE5N3Jza01MdlhpaG1LS0VUWFdQOWptc1FrS2lMQkRidU9mZFdIckpEeUk0X0ZQRWJLOGJtZUMtRG16b25tdm0xeUlxN05Uelg3VzNCU1dnNlRNdVhuRVNlQkJjUVExUThudWRMeTdGVW1NWmpyS3BvSHUzNjVMTzBRV1JJTl9mQUhWWEFMZHEyTGlGZm5TemdaZzBLbVBPMEtFbkJZTGNzU1pBREFNSWdxXzh3QQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Alaska Senate Primary Election 2026 Live Results",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOV9vLUFvb3Z2Y2Fjb0pUd0Q2RHQwcU55ZVk5SEJXM3J2RWdhZ3FlZWVqc3BaYlV1RHN3ZWhROU1ZUy1icXBQSTVwcVdXcTZVMWZRR2dfT00ydVZsdDVGekkyMHlpM08yTi0xN2FpaDh2eDFRUHhRYjVLUlB6WEhmWUlwdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-AK",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -0.8
+  }
+ ]
+}

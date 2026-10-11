@@ -1,0 +1,176 @@
+{
+ "chamber": "House",
+ "label": "Texas 28",
+ "ratings": {
+  "cook": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt D",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Solid D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+3",
+ "incumbent": "Henry Cuellar",
+ "last_result": "52.8% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "Texas",
+ "state_abbr": "TX",
+ "special": false,
+ "district": "28",
+ "key": "HOU-TX-28",
+ "name": "TX-28",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 0,
+ "candidates": {
+  "D": [
+   "Henry Cuellar"
+  ],
+  "R": [
+   "Tano Tijerina"
+  ]
+ },
+ "poll": {
+  "average_margin": -11.0,
+  "average_label": "D+11.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-07-27",
+   "end_date": "2026-07-30",
+   "sample_size": 600,
+   "population": "lv",
+   "margin": -11.0,
+   "margin_label": "D+11.0",
+   "answers": [
+    {
+     "choice": "Henry Cuellar",
+     "pct": 45.0
+    },
+    {
+     "choice": "Tano Tijerina",
+     "pct": 34.0
+    },
+    {
+     "choice": "Marlón Durán",
+     "pct": 6.0
+    }
+   ],
+   "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf"
+  },
+  "polls": [
+   {
+    "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+    "end_date": "2026-07-30",
+    "margin": -11.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf",
+    "answers": [
+     {
+      "choice": "Henry Cuellar",
+      "pct": 45.0
+     },
+     {
+      "choice": "Tano Tijerina",
+      "pct": 34.0
+     },
+     {
+      "choice": "Marlón Durán",
+      "pct": 6.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-TX-28",
+   "races": [
+    "HOU-TX-28"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Texas 28th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLTBPa2ZoZWNPYTk2STJlc0txLWgxQS04RUFxRGlCMWZFZVVvajFYQlQ1bzdpRll5dnFxV0FMN0tyU1dlem5PbGRIazhGZ0MwMFdZTmtwc3ZiczR1RS1acTltdlQ3azJaYUVWNG9aRnBJLUFOREFJOXpiR08xeXJfRQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-28",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": -11.0
+  }
+ ]
+}

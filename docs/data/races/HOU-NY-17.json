@@ -1,0 +1,223 @@
+{
+ "chamber": "House",
+ "label": "New York 17",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "D+1",
+ "incumbent": "Mike Lawler",
+ "last_result": "52.2% R",
+ "incumbent_party": "R",
+ "open_seat": false,
+ "state": "New York",
+ "state_abbr": "NY",
+ "special": false,
+ "district": "17",
+ "key": "HOU-NY-17",
+ "name": "NY-17",
+ "incumbent_note": "",
+ "consensus_score": 0,
+ "consensus": "Tossup",
+ "disagreement": false,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 5,
+ "candidates": {
+  "D": [
+   "Cait Conley"
+  ],
+  "R": [
+   "Mike Lawler"
+  ]
+ },
+ "poll": {
+  "average_margin": -2.0,
+  "average_label": "D+2.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Emerson College",
+   "sponsors": [
+    "WPIX"
+   ],
+   "partisan": null,
+   "start_date": "2026-09-27",
+   "end_date": "2026-09-29",
+   "sample_size": 400,
+   "population": "lv",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
+   "answers": [
+    {
+     "choice": "Cait Conley",
+     "pct": 48.0
+    },
+    {
+     "choice": "Mike Lawler",
+     "pct": 46.0
+    }
+   ],
+   "url": "https://emersoncollegepolling.com/ny-17-2026-poll/"
+  },
+  "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-09-29",
+    "margin": -2.0,
+    "n": 400,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://emersoncollegepolling.com/ny-17-2026-poll/",
+    "answers": [
+     {
+      "choice": "Cait Conley",
+      "pct": 48.0
+     },
+     {
+      "choice": "Mike Lawler",
+      "pct": 46.0
+     }
+    ]
+   },
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-07-22",
+    "margin": 5.0,
+    "n": 1292,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://coefficient.org/b96b92b3.pdf",
+    "answers": [
+     {
+      "choice": "Cait Conley",
+      "pct": 45.0
+     },
+     {
+      "choice": "Mike Lawler",
+      "pct": 50.0
+     }
+    ]
+   },
+   {
+    "pollster": "FM3 Research",
+    "end_date": "2026-07-01",
+    "margin": -6.0,
+    "n": 509,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.politico.com/newsletters/playbook/2026/07/08/inside-the-battle-for-maine-00989731",
+    "answers": [
+     {
+      "choice": "Cait Conley",
+      "pct": 51.0
+     },
+     {
+      "choice": "Mike Lawler",
+      "pct": 45.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 3,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "New York 17th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkJpUm1ZaDNTMWtIVjNhaWl0R3M4UmEwY2tPQllTRGEtaFFVaGl1SlZEVFNaRmtwVDBYTW8ySzU4am1WT0tVWHZrclJZVWlMMVVQZDR5dWNfYktjbUVKSERRUldCSlFEa1U0RXE5dHJsWDlhWTM1aU1lemNYMjhWVVFHclA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-06",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "ABC7 New York",
+   "lean": "unrated",
+   "title": "Lawler vs. Conley: NY-17 race turns combative",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVF5VDRqTXRFSXhHZVo0aS1wQVctZ1J1ajVpOXNfVllvdC16eThrc01ldXZseU85MUhDRkt3djhUSEw4NVZUQ0NLdmdndmdSamR0djRlTFpQa0wtLXB5djJXZE12V2NDNlNEcGFNZWZtMkd6NklCMEE4UmMzYk1Ock9Od0VRU2hHZjBHWFY4QmJwb0ttY0M5U29jb3JFMDdWM0FF0gGoAUFVX3lxTFBTSmc3NHU1cXhkSU5nM0UwQzBubzhIeGNVLVR3dEJjalFNUDhWWFMwQ1U5RmlyQXBPQzdsTVMwRWtqSEowN1RXdWVJdWVaYXB4WnFOWER0TGFlblB4ZHExTXJJSHFMSmdGclp6R19lbUlmMTFtMGRKZ0lkUG5QMldvVWYtdmo1aU9aMElnN0dVVzdGeXhsd1dfeFRnQkZlNmc1elNiYWZ1cA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-17",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": 0,
+   "p": -2.0
+  }
+ ]
+}

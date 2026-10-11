@@ -1,0 +1,197 @@
+{
+ "chamber": "House",
+ "label": "Ohio 9",
+ "ratings": {
+  "cook": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-09",
+   "name": "Cook Political Report"
+  },
+  "ie": {
+   "rating": "Tilt R",
+   "flip": true,
+   "as_of": "2026-10-01",
+   "name": "Inside Elections"
+  },
+  "sabato": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Sabato's Crystal Ball"
+  },
+  "econ": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "The Economist"
+  },
+  "st": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Split Ticket"
+  },
+  "ddhq": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "Decision Desk HQ"
+  },
+  "fpo": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-08",
+   "name": "FiftyPlusOne"
+  },
+  "fox": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-09-22",
+   "name": "Fox News Power Rankings"
+  },
+  "silver": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-09-10",
+   "name": "Silver Bulletin"
+  },
+  "rcp": {
+   "rating": "Lean D",
+   "flip": false,
+   "as_of": "2026-10-07",
+   "name": "RealClearPolling"
+  }
+ },
+ "pvi": "R+5",
+ "incumbent": "Marcy Kaptur",
+ "last_result": "48.3% D",
+ "incumbent_party": "D",
+ "open_seat": false,
+ "state": "Ohio",
+ "state_abbr": "OH",
+ "special": false,
+ "district": "09",
+ "key": "HOU-OH-09",
+ "name": "OH-09",
+ "incumbent_note": "",
+ "consensus_score": -2,
+ "consensus": "Lean D",
+ "disagreement": true,
+ "tracked": true,
+ "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+ "flip_votes": 1,
+ "candidates": {
+  "D": [
+   "Marcy Kaptur"
+  ],
+  "R": [
+   "Derek Merrin"
+  ]
+ },
+ "poll": {
+  "average_margin": 0.0,
+  "average_label": "Even",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "DCCC Targeting and Analytics Department",
+   "sponsors": [],
+   "partisan": "DEM",
+   "start_date": "2026-09-22",
+   "end_date": "2026-09-23",
+   "sample_size": 481,
+   "population": "lv",
+   "margin": 0.0,
+   "margin_label": "Even",
+   "answers": [
+    {
+     "choice": "Marcy Kaptur",
+     "pct": 48.0
+    },
+    {
+     "choice": "Derek Merrin",
+     "pct": 48.0
+    }
+   ],
+   "url": "https://dccc.org/dccc-polling-memo-oh-09-is-a-dead-heat/"
+  },
+  "polls": [
+   {
+    "pollster": "DCCC Targeting and Analytics Department",
+    "end_date": "2026-09-23",
+    "margin": 0.0,
+    "n": 481,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://dccc.org/dccc-polling-memo-oh-09-is-a-dead-heat/",
+    "answers": [
+     {
+      "choice": "Marcy Kaptur",
+      "pct": 48.0
+     },
+     {
+      "choice": "Derek Merrin",
+      "pct": 48.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-10",
+   "race": "HOU-OH-09",
+   "races": [
+    "HOU-OH-09"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "On the ground in Ohio's 9th District: The battleground shaping next month's midterms",
+   "url": "https://www.npr.org/2026/10/10/nx-s1-5965798/on-the-ground-in-ohios-9th-district-the-battleground-shaping-next-months-midterms",
+   "summary": "Ohio is a critical battleground in next month's midterms elections. NPR's Scott Simon traveled to the state's 9th Congressional District to hear from voters about their priorities.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-09",
+   "race": "HOU-OH-09",
+   "races": [
+    "HOU-OH-09"
+   ],
+   "type": "reporting",
+   "source": "Toledo Blade",
+   "lean": "unrated",
+   "title": "House Speaker Johnson stumps for Merrin, prepares to invest more money in Ohio's 9th congressional district",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNTTVDZ3FIT0ZGZUFIUTNTNjRnOVI3ZHY4VXFXWldSa2ptMkZSVWY3NXFSUU1uNVpheXBpaXVKQlhZaTZybnZYaHF3eFJXYTF2RHpvSEhxZExQWF8zaDVmbWsyUmM1ODNLTV9QaUJHUzBoUmtSZlJUZ01JY1BGR1lZZElnWkhoWGNSYWp1Sno4MUlud1U1ZWdjeTJ3UFBvYjB0SXVabldYNlZWQjNaWXpyYzFEemc0Q05tZFlISmE5Ry14Z2pOVU1WZ3pHRkpubG51enliNmVOMENCMk42MGgybnlnUjVDZ1liUEE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-08",
+   "race": "HOU-OH-09",
+   "races": [
+    "HOU-OH-09"
+   ],
+   "type": "reporting",
+   "source": "Breitbart",
+   "lean": "unrated",
+   "title": "Exclusive – Derek Merrin: Ohio’s 9th Gives GOP ‘Best Opportunity’ in Nation to Defeat Incumbent Democrat",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMGNkSWhmek51VWZna0stZkh6YVBUVnc1cGw0cDZPMmw1My00blF0SWlUVFJCMnhkNFdyUHhVYS1Sa256UjNET1RKMzRmSW5FUlVVMXZhckV1dURVZUxGc2g4MlJEQmhIOEFid2FhMEJZa1pfSGhkNHY4aFlQc0NTYWhHd2x5ZW5LNWxLR3lDZVQ4bnJEWFpfUXIyaThORkhaRkxkQmg5cVRhbGx0V1NTYWhHT2dJSDNZTUtJRUFMTFdEN0p2cDh6X0sxcnF3VzdKd202ZFlB0gHbAUFVX3lxTE9aSEQ4OW03RFVaSUNocFVkc0t2blAwWXdGWXd6RnhnazBuYXNHNU90UlJLYllrZHM0X1VCM2wzSDJ2NThTVGN3dXFKR1pobVF5bGlTU0E1c3lxYjY4NWpMczFhZzdUbjRyQThidUxMVmN3VG9ZWnQyLTFjZHJaRGVWdEI3b3cybjY0TGhfSWdsZlpZM0l1bXJLTnJDYnlRc0RmdDNLZnpWcHU4ajYzZjE3QUhvOGJWYkpuaEg5SFQ0MlVQcnE3NzcxZ3huYmNYcUJubkJLbkdRb1hqRQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
+ "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-09",
+ "history": [
+  {
+   "date": "2026-10-11",
+   "c": -2,
+   "p": 0.0
+  }
+ ]
+}

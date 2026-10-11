@@ -1,0 +1,49 @@
+{
+  "_comment": "Every source carries a lean tag. Lean values: left, center-left, center, center-right, right, nonpartisan data, market. Set enabled=false to pause a source without deleting it. All fetching is one request per source per run with an identifying user agent; nothing here bypasses paywalls, bot checks, or terms.",
+  "user_agent": "JakesPoliticalTracker/0.1 (+https://github.com/jakeworcester-byte/political-tracker; jake.worcester@gmail.com)",
+  "structured": [
+    {"id": "wiki_senate_ratings", "name": "Wikipedia 2026 Senate ratings table", "type": "ratings", "lean": "nonpartisan data",
+     "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections", "enabled": true,
+     "note": "Compiles Cook, Sabato, Inside Elections, DDHQ, Economist, Split Ticket, Fox, RCP, Silver Bulletin, FiftyPlusOne with dates. The forecaster sites themselves block automated fetching."},
+    {"id": "wiki_house_ratings", "name": "Wikipedia 2026 House ratings table", "type": "ratings", "lean": "nonpartisan data",
+     "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings", "enabled": true},
+    {"id": "votehub_polls", "name": "VoteHub polls API", "type": "polls", "lean": "nonpartisan data",
+     "url": "https://api.votehub.com/polls", "enabled": true},
+    {"id": "polymarket", "name": "Polymarket (Gamma API)", "type": "market", "lean": "market",
+     "events": ["which-party-will-win-the-senate-in-2026", "which-party-will-win-the-house-in-2026", "balance-of-power-2026-midterms"],
+     "url": "https://gamma-api.polymarket.com/events", "enabled": true},
+    {"id": "kalshi", "name": "Kalshi (public market API)", "type": "market", "lean": "market",
+     "url": "https://api.elections.kalshi.com/trade-api/v2", "series": ["KXSENATE", "KXAPCALLHOUSE"], "enabled": true, "optional": true,
+     "note": "Best effort. Public endpoint often returns markets without prices; only priced markets are used."}
+  ],
+  "feeds": [
+    {"id": "nyt_politics", "name": "New York Times Politics", "lean": "center-left", "kind": "reporting", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml", "enabled": true},
+    {"id": "wsj_politics", "name": "Wall Street Journal Politics", "lean": "center-right", "kind": "reporting", "url": "https://feeds.content.dowjones.io/public/rss/socialpoliticsfeed", "enabled": true},
+    {"id": "npr_politics", "name": "NPR Politics", "lean": "center-left", "kind": "reporting", "url": "https://feeds.npr.org/1014/rss.xml", "enabled": true},
+    {"id": "national_review", "name": "National Review", "lean": "right", "kind": "punditry", "url": "https://www.nationalreview.com/feed/", "enabled": true},
+    {"id": "the_dispatch", "name": "The Dispatch", "lean": "center-right", "kind": "punditry", "url": "https://thedispatch.com/feed/", "enabled": true},
+    {"id": "silver_bulletin", "name": "Silver Bulletin", "lean": "center", "kind": "punditry", "url": "https://www.natesilver.net/feed", "enabled": true},
+    {"id": "split_ticket", "name": "Split Ticket", "lean": "center", "kind": "punditry", "url": "https://split-ticket.org/feed/", "enabled": true},
+    {"id": "pod_save_america", "name": "Pod Save America", "lean": "left", "kind": "podcast", "url": "https://audioboom.com/channels/5166624.rss", "enabled": true},
+    {"id": "ezra_klein", "name": "The Ezra Klein Show", "lean": "center-left", "kind": "podcast", "url": "https://feeds.simplecast.com/kEKXbjuJ", "enabled": true},
+    {"id": "the_daily", "name": "The Daily (NYT)", "lean": "center-left", "kind": "podcast", "url": "https://feeds.simplecast.com/Sl5CSM3S", "enabled": true},
+    {"id": "npr_politics_podcast", "name": "The NPR Politics Podcast", "lean": "center-left", "kind": "podcast", "url": "https://feeds.npr.org/510310/podcast.xml", "enabled": true},
+    {"id": "gd_politics", "name": "GD Politics (Galen Druke)", "lean": "center", "kind": "podcast", "url": "https://api.substack.com/feed/podcast/1603893/s/200151.rss", "enabled": true},
+    {"id": "hacks_on_tap", "name": "Hacks on Tap", "lean": "center", "kind": "podcast", "url": "https://feeds.megaphone.fm/VMP7545057845", "enabled": true},
+    {"id": "ruthless", "name": "Ruthless", "lean": "right", "kind": "podcast", "url": "https://feeds.megaphone.fm/FOXM5875505224", "enabled": true},
+    {"id": "the_remnant", "name": "The Remnant (The Dispatch)", "lean": "center-right", "kind": "podcast", "url": "https://feeds.megaphone.fm/DISPME4897766830", "enabled": true},
+    {"id": "megyn_kelly", "name": "The Megyn Kelly Show", "lean": "right", "kind": "podcast", "url": "https://feeds.simplecast.com/RV1USAfC", "enabled": true},
+    {"id": "honestly", "name": "Honestly with Bari Weiss", "lean": "center-right", "kind": "podcast", "url": "https://feeds.megaphone.fm/RSV2347142881", "enabled": true},
+    {"id": "politics_war_room", "name": "Politics War Room", "lean": "left", "kind": "podcast", "url": "https://audioboom.com/channels/5033739.rss", "enabled": true}
+  ],
+  "google_news": {
+    "_comment": "Race-specific reporting via Google News RSS search. One query per tracked race per run, built from the template. Local outlets surface here without hand-curating feeds.",
+    "enabled": true,
+    "template": "https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en",
+    "max_items_per_race": 8,
+    "national_queries": ["2026 midterms generic ballot poll", "Senate control 2026 forecast", "House majority 2026 forecast"]
+  },
+  "keywords": {
+    "midterm_relevance": ["senate", "house", "midterm", "midterms", "congress", "congressional", "governor", "ballot", "poll", "polls", "election", "campaign", "primary", "incumbent", "district", "gerrymander", "redistricting", "turnout", "approval", "generic ballot", "candidate", "debate", "endorse"]
+  }
+}
