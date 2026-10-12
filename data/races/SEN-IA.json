@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -408,12 +408,32 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
+  },
+  {
+   "date": "2026-10-07",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Sand holds 12-point lead over Lahn for Iowa governor while Hinson trails Turek in Senate race: Poll",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XbF9YSW9EckxhMGtfaWF3Mk9IZ0VLZGZQa3R0OWNtNlBSTXgzeVBfM05QRV9UV050V1NHbjFacFhkZVktMHBnUldnYUhzYm4zekh6QTBYZWZzZlptdWZqX0R1cFprVDUyYU90WXJpdF9lNVpLODJGZ2xCZmTSAYIBQVVfeXFMUE0tSjZraUJhRTV4UG1KbGRxcjQ3QnZ5NmhkRmY3SkJCc0RkUTRHVHZSTklmSHdQRUNaYndHX0VwVHFJelpEcjJ6YWQzbks0SkEyTWY0Y3BCWWp4WExiRzRuNkVONWhRWlBXOEpqVzVLWXR3VUpTejAwZENPMFV2Q053dw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
  "history": [
   {
    "date": "2026-10-11",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-12",
    "c": 0,
    "p": -0.5
   }

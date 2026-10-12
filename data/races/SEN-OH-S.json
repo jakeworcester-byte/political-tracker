@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -367,21 +367,6 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-10",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "ABC News - Breaking News, Latest News and Videos",
-   "lean": "unrated",
-   "title": "Trump rallies in Ohio to boost Jon Husted in a tight Senate race against Sherrod Brown - ABC News",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUVpOYVNRSDB1YnhBZy1VU3p0Z0VJYU5GNXhFU1pHNE9PSlpaNktKaXFubDhPMUtZY1BDcXAxVzhOb2xGcFVEOWF2WHZXbzdSUjFSUUVNVmdDNC1PakxhVTEwalZXUE0xanJWV2tQc1hZMi1FVjlPa0tRbEZ3NWF4MVBOVFBONUo0YUdhNjRFck9sU1NzTjAxNWpMVUlod9IBowFBVV95cUxQbVp0S25IUG42S0ZqOFl2VENqRjlBR1RCREpQbFZkTEkwTWYzdXQtVWp6MWY0QzFrcnVGb2xHdUFVeUhrQzZ6endWVC1aOWgxNDgwLWFnYTZWMExPMXEtc1NSMm5kU0ljQVkybjhselJ6MWVRTGFabnBWcUF3Nnpnd2liQmFhOXpVeDZkU3FsMlNYblFobU0xaXRHVi0tZXpaaHJv?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-08",
    "race": "SEN-OH-S",
    "races": [
@@ -401,6 +386,11 @@
  "history": [
   {
    "date": "2026-10-11",
+   "c": 0,
+   "p": -2.5
+  },
+  {
+   "date": "2026-10-12",
    "c": 0,
    "p": -2.5
   }

@@ -156,11 +156,32 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-TX-34",
+   "races": [
+    "HOU-TX-34"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Texas 34th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTzRnMkhKbGcwUmRNY0hvU3lEVGpCYWMxeGFNdkpkUzg2M1pvVm1BVUlyWFBrQjFGUHRuRGRlb1F0V0hZZlZrQVlyU3l3TFlZRkFfdmZFOGVoR3UwRmN3TV9nYUZ1dzRIbTc5V1FNd0tjRm5ZX3ZnaFVlZ04wb2xzcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-34",
  "history": [
   {
    "date": "2026-10-11",
+   "c": -2,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-12",
    "c": -2,
    "p": -3.0
   }
