@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -180,6 +180,11 @@
  "history": [
   {
    "date": "2026-10-11",
+   "c": 3,
+   "p": 1.4
+  },
+  {
+   "date": "2026-10-12",
    "c": 3,
    "p": 1.4
   }

@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -385,6 +385,20 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-12",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX"
+   ],
+   "type": "podcast",
+   "source": "The Megyn Kelly Show",
+   "lean": "right",
+   "title": "Talarico's Mystery \"Flu\" Absence, NYC ICE Shooting, New White House Press Secretary: AM Update 10/12",
+   "url": "https://www.siriusxm.com",
+   "summary": "Democratic U.S. Senate candidate James Talarico of Texas is facing questions about his extended absence from the campaign trail after a controversial audio recording fuels speculation about his whereabouts, drawing denials from Talarico and an Ohio mental health facility. An ICE shooting in New York",
+   "relevant": true
+  },
+  {
    "date": "2026-10-07",
    "race": "SEN-ME",
    "races": [
@@ -405,6 +419,11 @@
  "history": [
   {
    "date": "2026-10-11",
+   "c": 0,
+   "p": -2.2
+  },
+  {
+   "date": "2026-10-12",
    "c": 0,
    "p": -2.2
   }

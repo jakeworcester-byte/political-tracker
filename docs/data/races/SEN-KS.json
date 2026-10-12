@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-11",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -173,6 +173,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-12",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "KMBC",
+   "lean": "unrated",
+   "title": "Kansas Senate race: U.S. Sen. Roger Marshall, Adam Hamilton separated by less than 1 point in new poll",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWHpwaDJ3bGdQMmllLVl4QVZKNXI3c1pDaWlvQ3ZKZkQ3V09oU1QzclVUT25XNE9xYm1COUFzRlY1SVlNVFZzSXBOaUUydHV4d0tUaTN5WWRlRDkwZGx0OTFWNzIzOUZxeGRtRFliRS1XTU42M0xvSWRHLUx0NXdfM1dHSC13cFlJWUFWaGhDRENEd1h0ellJeGxkazByLVU?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "Kansas Reflector",
+   "lean": "unrated",
+   "title": "Opinion: A beginner's guide to the strange stories swirling around U.S. Sen. Roger Marshall of Kansas",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTndwdFZ5bkZaZFVXRHZsbl9iVjYzSThHaVpwLWV6dk5ZRERFaU1Qd2dpN0pXWFdoczZYVlhWSkZSVnlRY0gzZFZERUxpVkNJbFM5d2pzcnJBcFdqRDA1Ukx1QURLNmxhQVpfV1QxcWNqTTFLZVpGc2lXRW9RMGpZdDREazQyQkFudGtmWWJFZnhGWXpPV05JVkMzQTlVNmtQcHBBa1VoNG51dlhkQ1NURmtrX2ZoLUJOcU9Od213LTF6Yy00Q3hLaw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-11",
    "race": "SEN-KS",
    "races": [
@@ -185,35 +215,6 @@
    "url": "https://www.nytimes.com/2026/10/10/us/politics/marshall-kansas-baker-bill-senate-midterms.html",
    "summary": "Senator Roger Marshall, a Kansas Republican in a difficult race, paid an old campaign debt for cookies, muffins and brownies after a baker’s story went viral online.",
    "relevant": true
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "In Deep-Red Kansas, a Surprisingly Competitive Senate Race Takes Shape",
-   "url": "https://www.nytimes.com/2026/10/09/us/politics/kansas-senate-race-2026-marshall-hamilton.html",
-   "summary": "Adam Hamilton wants to be the first Democrat to win a Senate seat there in nearly 100 years.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Kansas Senate Race Is a Surprising New Midterm Fight",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeW1fcjRjWTFhVnd5QzdKZTVhcHRKYXJLMmcxNktsbk1Bd25ldzN0Ylp5bVphNDk5ODBkV0NIQ0prRHlpRmhGWDNpS1dyd3EtU0phS2VFUU5IbWJfWFRSbVVvbmdzUVBWTm9Kamt3aGQ0cC0xcVZ1anFuTnczMlZzeTNQV3FLeExBdkJHSE5JZDJlSlh2TDBrNUxaclFnSFdP?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   },
   {
    "date": "2026-10-08",
@@ -244,27 +245,17 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-06",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "KMBC",
-   "lean": "unrated",
-   "title": "Cook Political Report: Kansas Senate race between Roger Marshall, Adam Hamilton a 'toss up'",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc3lmYTFhRlZEXzZKT2szY3F0VzNvVGM4X2NvZng0cjJvY3dQMmxiUjZ0bDVGN3VQS010QXQ2WnMzQnhRT19wMWdJUk9RV0Zja25INGNYaUhrMV81OEZBNEdHRDJsTVM2WTNmTHI4elpvMnJwYTM2Vm84MlMzOFcyTVJINGN5M2xOUkFraTVqUjI0c0FMQWN3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-KS",
  "history": [
   {
    "date": "2026-10-11",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-12",
    "c": 0,
    "p": -2.0
   }
