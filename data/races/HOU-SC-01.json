@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-07",
-   "race": "HOU-SC-01",
-   "races": [
-    "HOU-SC-01"
-   ],
-   "type": "reporting",
-   "source": "WCBD News 2",
-   "lean": "unrated",
-   "title": "Who’s on the ballot? Get to know South Carolina’s 1st Congressional District candidates",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQWp6ekdHb2xsdmZ0ZFVXVUMwdVl3UmpKREFJdDlLUjhwOXpFSmtVUzhrc3N3N0RTY25nLTVVei1ITFNRTlVseXd2R3RmSEZFUllBbC1SUkVGRUFKV2E4NTJLazNFb2VSLTdPcWxzVVFxUjBUVWE2ZmppTG05aWN0dHBvQlhWMEJnd096UjJoY0w0WUNiTTJnaFMwd28wMV9UR1BmZTFQVWtKeUY0RWttV3RwN0NZX28tZTZuTWxRUVZMQmxQM1BDb1FwNGNkeU1CUFV0atIB2gFBVV95cUxNMkRoVXdaYlFiM19CZExNRjlFUGNLdHBzTXdvNjNMdGJnTkI2dGxfUkhYaV9EMXJydlh3WmZrWjVQWURSV2k4dmFWMXJWLUdKUGczcW54RVlObmdSWThOREYwNVBFMW9FU3hfQ1RfeTFzM2NGTURwQ05QTjFCVndrQmU2dEJyZDNsNHRFcTZ6VnVWTFFtNUNFTnVmNzBuY3kxN3B5SUhIb0JMbUs0ckZTdjl0X3hxbW5JS3RKUHh0bjl5V1IzaEtFZHRUdXF2T05wYXg5TDd2Rmg0QQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-SC-01",
  "history": [
   {
@@ -114,6 +98,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-13",
    "c": 2,
    "p": null
   }

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-12T10:09:52.090418+00:00",
- "run_date": "2026-10-12",
+ "generated_at": "2026-10-13T10:10:27.056317+00:00",
+ "run_date": "2026-10-13",
  "site_title": "Jake's Political Tracker",
  "disclaimer": "Not a forecast. A daily synthesis of what credible forecasters, public polls, prediction markets, and reporting say about the 2026 midterms, with movement over time.",
  "sources": {
@@ -31,7 +31,7 @@
    "fpo": "2026-10-11",
    "fox": "2026-10-06",
    "ie": "2026-10-01",
-   "rcp": "2026-10-05",
+   "rcp": "2026-10-12",
    "sabato": "2026-10-06",
    "silver": "2026-10-09",
    "st": "2026-10-07"
@@ -131,26 +131,26 @@
     "R": 36.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
     "source": "Polymarket",
-    "volume": 6329232.251021002
+    "volume": 6378285.9101690035
    },
    "house": {
     "D": 90.5,
     "R": 9.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
     "source": "Polymarket",
-    "volume": 16442119.431815
+    "volume": 16592762.780588001
    },
    "balance": {
     "combos": {
      "D Senate, D House": 61.5,
      "D Senate, R House": 0.9,
      "R Senate, D House": 28.5,
-     "R Senate, R House": 8.5,
-     "Other": 0.1
+     "R Senate, R House": 9.5,
+     "Other": 0.2
     },
     "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
     "source": "Polymarket",
-    "volume": 22298763.694502
+    "volume": 22568111.151353
    },
    "kalshi": []
   }
@@ -285,12 +285,12 @@
  "movers": [
   {
    "type": "rating change",
-   "race": "SEN-LA",
-   "name": "Louisiana Senate",
-   "text": "Silver Bulletin: Likely R -> Solid R (as of 2026-10-09)",
-   "delta": 1,
+   "race": "SEN-NE",
+   "name": "Nebraska Senate",
+   "text": "RealClearPolling: Tossup -> Lean R (as of 2026-10-12)",
+   "delta": 2,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "Silver Bulletin"
+   "source": "RealClearPolling"
   }
  ],
  "races": [
@@ -351,7 +351,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -440,7 +440,7 @@
     "rcp": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -501,7 +501,7 @@
      "url": "https://quantusinsights.org/polling/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska"
     }
    },
-   "signal_count": 2
+   "signal_count": 3
   },
   {
    "key": "SEN-AR",
@@ -560,7 +560,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -684,7 +684,7 @@
     "rcp": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -773,7 +773,7 @@
     "rcp": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -862,7 +862,7 @@
     "rcp": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -894,7 +894,7 @@
     ]
    },
    "flip_votes": 0,
-   "raw_poll_count": 13,
+   "raw_poll_count": 11,
    "poll": {
     "average_margin": 6.3,
     "average_label": "R+6.3",
@@ -984,7 +984,7 @@
     "rcp": {
      "rating": "Lean D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1104,7 +1104,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1228,7 +1228,7 @@
     "rcp": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1317,7 +1317,7 @@
     "rcp": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1384,7 +1384,7 @@
      "url": "https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit?rtpof=true&sd=true"
     }
    },
-   "signal_count": 4
+   "signal_count": 1
   },
   {
    "key": "SEN-KS",
@@ -1443,7 +1443,7 @@
     "rcp": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1567,7 +1567,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1656,7 +1656,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1745,7 +1745,7 @@
     "rcp": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1777,7 +1777,7 @@
     ]
    },
    "flip_votes": 4,
-   "raw_poll_count": 16,
+   "raw_poll_count": 15,
    "poll": {
     "average_margin": -2.1,
     "average_label": "D+2.1",
@@ -1806,7 +1806,7 @@
      "url": "https://www.washingtonpost.com/tablet/2026/10/09/sept-30-oct-5-2026-washington-post-schar-school-poll-maine-voters"
     }
    },
-   "signal_count": 8
+   "signal_count": 9
   },
   {
    "key": "SEN-MA",
@@ -1865,7 +1865,7 @@
     "rcp": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1958,7 +1958,7 @@
     "rcp": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -1990,7 +1990,7 @@
     ]
    },
    "flip_votes": 0,
-   "raw_poll_count": 34,
+   "raw_poll_count": 31,
    "poll": {
     "average_margin": -3.9,
     "average_label": "D+3.9",
@@ -2035,7 +2035,7 @@
      "url": "https://wwmt.com/news/michigan-politics/mitchell-poll-michigan-us-senate-election-abdul-el-sayed-mike-rogers-politics-government-vote-polls-state"
     }
    },
-   "signal_count": 5
+   "signal_count": 6
   },
   {
    "key": "SEN-MN",
@@ -2094,7 +2094,7 @@
     "rcp": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2183,7 +2183,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2305,7 +2305,7 @@
     "rcp": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2392,9 +2392,9 @@
      "name": "Inside Elections"
     },
     "rcp": {
-     "rating": "Tossup",
+     "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2457,7 +2457,7 @@
      "url": "https://www.washingtonsun.com/newsletters/panic-week"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "SEN-NH",
@@ -2516,7 +2516,7 @@
     "rcp": {
      "rating": "Lean D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2637,7 +2637,7 @@
     "rcp": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2726,7 +2726,7 @@
     "rcp": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2848,7 +2848,7 @@
     "rcp": {
      "rating": "Likely D",
      "flip": true,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2937,7 +2937,7 @@
     "rcp": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -2998,7 +2998,7 @@
      "url": "https://battlegrounds.coefficient.org/oh"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "SEN-OK",
@@ -3057,7 +3057,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -3146,7 +3146,7 @@
     "rcp": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -3235,7 +3235,7 @@
     "rcp": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -3359,7 +3359,7 @@
     "rcp": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -3487,7 +3487,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -3576,7 +3576,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -3698,7 +3698,7 @@
     "rcp": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -3761,7 +3761,7 @@
      "url": "https://www.foxnews.com/politics/fox-news-poll-its-lone-star-senate-showdown-between-talarico-paxton"
     }
    },
-   "signal_count": 2
+   "signal_count": 3
   },
   {
    "key": "SEN-VA",
@@ -3820,7 +3820,7 @@
     "rcp": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -3944,7 +3944,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -4033,7 +4033,7 @@
     "rcp": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-05",
+     "as_of": "2026-10-12",
      "name": "RealClearPolling"
     },
     "sabato": {
@@ -4365,7 +4365,7 @@
      "url": "https://s3.documentcloud.org/documents/28722214/shahfeeley-poll-release.pdf"
     }
    },
-   "signal_count": 3
+   "signal_count": 2
   },
   {
    "key": "HOU-AZ-02",
@@ -5566,7 +5566,7 @@
      "url": "https://results.surveyusa.com/client/PollReport.aspx?g=0877c725-6e44-47fe-9856-dcf799865671"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-CO-03",
@@ -5655,7 +5655,7 @@
    "flip_votes": 0,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 3
   },
   {
    "key": "HOU-CO-04",
@@ -5959,7 +5959,7 @@
    "flip_votes": 7,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 1
   },
   {
    "key": "HOU-FL-02",
@@ -6886,7 +6886,7 @@
      "url": "https://www.thehousemajoritypac.com/news/hmp-poll-leela-gray-leads-anna-paulina-luna-in-fl-13"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-FL-14",
@@ -7420,7 +7420,7 @@
    "flip_votes": 3,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 2
+   "signal_count": 1
   },
   {
    "key": "HOU-FL-25",
@@ -7720,7 +7720,7 @@
      "url": "https://x.com/cjwarnke/status/2100648029678170342"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-GA-01",
@@ -8558,7 +8558,7 @@
      "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat"
     }
    },
-   "signal_count": 2
+   "signal_count": 0
   },
   {
    "key": "HOU-IA-02",
@@ -8680,7 +8680,7 @@
      "url": "https://static.notus.org/27/58/c93f2d1946c0814f583fa25c7a31/hmp-ia-02-poll.pdf"
     }
    },
-   "signal_count": 5
+   "signal_count": 6
   },
   {
    "key": "HOU-IA-03",
@@ -8769,7 +8769,7 @@
    "flip_votes": 8,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 2
+   "signal_count": 0
   },
   {
    "key": "HOU-KS-02",
@@ -9158,7 +9158,7 @@
    "flip_votes": 6,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 3
   },
   {
    "key": "HOU-MD-01",
@@ -9514,7 +9514,7 @@
    "flip_votes": 1,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 0
   },
   {
    "key": "HOU-MI-07",
@@ -9847,7 +9847,7 @@
      "url": "https://hub.nationaljournal.com/welcome-to-the-trump-midterms"
     }
    },
-   "signal_count": 1
+   "signal_count": 0
   },
   {
    "key": "HOU-MN-01",
@@ -11314,7 +11314,7 @@
    "flip_votes": 10,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 0
   },
   {
    "key": "HOU-NJ-09",
@@ -12390,7 +12390,7 @@
      "url": "https://x.com/Shaftan/status/2107772933322277266"
     }
    },
-   "signal_count": 1
+   "signal_count": 0
   },
   {
    "key": "HOU-NC-03",
@@ -13732,7 +13732,7 @@
      "url": "https://dccc.org/dccc-polling-memo-oh-09-is-a-dead-heat/"
     }
    },
-   "signal_count": 3
+   "signal_count": 4
   },
   {
    "key": "HOU-OH-10",
@@ -14752,7 +14752,7 @@
    "flip_votes": 7,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 2
+   "signal_count": 1
   },
   {
    "key": "HOU-PA-11",
@@ -14930,7 +14930,7 @@
    "flip_votes": 0,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 0
   },
   {
    "key": "HOU-SC-02",
@@ -15853,7 +15853,7 @@
      "url": "https://x.com/PatrickSvitek/status/2105651406627561762?s=20"
     }
    },
-   "signal_count": 1
+   "signal_count": 3
   },
   {
    "key": "HOU-TX-17",
@@ -17115,7 +17115,7 @@
      "url": "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/"
     }
    },
-   "signal_count": 3
+   "signal_count": 2
   },
   {
    "key": "HOU-VA-02",
@@ -17991,7 +17991,7 @@
      "url": "https://x.com/cjwarnke/status/2074099699020128352?s=20"
     }
    },
-   "signal_count": 2
+   "signal_count": 1
   },
   {
    "key": "HOU-WI-06",
@@ -18263,6 +18263,250 @@
  ],
  "national_signals": [
   {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "The New Affordability Fight in the Midterms: Home Insurance Prices",
+   "url": "https://www.nytimes.com/2026/10/13/us/politics/home-insurance-extreme-weather-elections.html",
+   "summary": "Extreme weather is driving up insurance rates, impacting races from California to the nation’s central Tornado Alley.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Federal Agents Search Home of Rep. Ilhan Omar",
+   "url": "https://www.nytimes.com/2026/10/12/us/politics/ilhan-omar-home-searched.html",
+   "summary": "The search takes place within the 60-day window of the midterm elections, when the Justice Department has historically avoided such investigative steps related to political candidates.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "More damaging revelations about Ken Paxton: A previously unreported New Year’s Eve 2024 celebration where Paxton partied in Dubai with two fugitives from U.S. justice and a woman who wasn’t his wife",
+   "url": "https://www.wsj.com/politics/policy/ken-paxton-texas-senate-dubai-trip-b54292c3?mod=rss_socialpoliticsfeed",
+   "summary": "President Trump backed the scandal-plagued Paxton in one of the riskiest bets of the midterms.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Win or lose, independent candidates want to meet voters in the middle",
+   "url": "https://www.npr.org/2026/10/13/nx-s1-5994388/2026-elections-midterm-independent-candidates",
+   "summary": "Nearly 200 independent candidates in more than 100 congressional races are trying to prove there's an alternative to the two party system — even though the chance of winning is very low.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Polls are a snapshot, and other helpful things to remember during the midterm elections",
+   "url": "https://www.npr.org/2026/10/13/nx-s1-5996916/2026-election-midterms-polls-horse-race",
+   "summary": "With Election Day just a few weeks away — and millions of votes already cast — midterm polls are everywhere. While polling can be a helpful tool to understand the electorate, it's not a crystal ball.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Should states force cities to build cheaper houses? Voters here will decide",
+   "url": "https://www.npr.org/2026/10/13/nx-s1-5979839/massachusetts-starter-homes-ballot-affordability",
+   "summary": "Voters in Massachusetts will decide whether to require cities and towns to allow smaller homes on smaller lots. A growing number of states are doing the same to help ease a housing shortage.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Montana ballot measure could undo ruling on corporate spending in state politics",
+   "url": "https://www.npr.org/2026/10/13/nx-s1-5991925/montana-ballot-measure-could-undo-ruling-on-corporate-spending-in-state-politics",
+   "summary": "Montana voters will have a chance to speak out on the boom of corporate and anonymous money in politics that has been the result of the Citizens United court ruling.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "The Dispatch",
+   "lean": "center-right",
+   "title": "Polls Aren’t the Problem. It’s How We Use Them.",
+   "url": "https://thedispatch.com/article/political-polling-2026-midterms-confusion/",
+   "summary": "How to interpret polling for the midterms.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "Pod Save America",
+   "lean": "left",
+   "title": "One Flu Over the Cuckoo's Nest",
+   "url": "https://audioboom.com/posts/8963609",
+   "summary": "A right-wing conspiracy theory claiming that James Talarico, who has been off the campaign trail with the flu, was actually at a mental institution in Ohio is immediately debunked in humiliating fashion. Jon, Lovett, and Tommy react to the idiocy and all the other developments in the race to flip th",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Daily (NYT)",
+   "lean": "center-left",
+   "title": "Mathematicians’ Latest Problem: What if A.I. Can Do Our Job?",
+   "url": "https://www.nytimes.com/the-daily",
+   "summary": "Artificial intelligence has gone from struggling with basic arithmetic to helping solve some of mathematics’ most famous open problems — and the field is reckoning with what that means. Steven Strogatz, a professor of mathematics at Cornell University, describes the excitement and grief of watching ",
+   "relevant": false
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "Ruthless",
+   "lean": "right",
+   "title": "Is This The End For Ilhan Omar? Feds Raid Congresswoman's House",
+   "url": "",
+   "summary": "Is this the end for Ilhan Omar? The Ruthless Progrum breaks down the reported federal immigration fraud investigation, Abdul El-Sayed’s Muslim Brotherhood controversy, Scott Bessent’s takedown of Elizabeth Warren, and wild stories from Peru and the airport. Plus, Airbnb co-founder Joe Gebbia joins t",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Democrats hold 7-point lead on generic congressional ballot: NewsNation-DDHQ poll",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRXUtUjlLZFNUcm8xd29yUnZlUE1WbF9Qa0F2QWUtaTl2dkRzNmhnTTc2TXRQeGdJM0lrTHBXYUcxOXFybjRGMmgwQVBGSWFGdTFCOFE3VVlRWHdDNVczTGVHQ1djY0doOHYyS1owQmxJTEQyWWIwRUp0bzkzbU51cU0tamVMek5tS0xSdjgxZGLSAZYBQVVfeXFMUFpZSUltV2JXdUpvNFU5QVBGZXhMOXoyTVhORG1PSHV4Z2oyTjlPQUpTQlE4SS1jdVdMWmFfRW1qSUdMXy1WWU0zekFJWjZ0TE1kQjR5NU8wMHFxenM1QnJTWjR4Njc4dVhsN3ZvY09kc29GdmFKWHNsUkxNVmtGeHNHNk5iMVpRLTJicVNpaWFSZ25yQUV3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "46 percent believe midterm vote will be counted accurately: NewsNation-DDHQ poll",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmt0OGVTRnFsXzk4SE9ldTRDQlZmbzVqZHZZYV9YZDBYUXpuTXR6RU5SLTRlUkFXSnI0XzZqcDlTY1J5RFFGRFMxY0RweVdFMlg2eE5MN0dBdC1xcWFXRkFhUWtJek0xM0dVamZ3YVJIVFF0LV82YkZSQkdWdjJmQVJPbjdqREtv0gGOAUFVX3lxTFBiVmV6RW5icVc1bzhUeXlqMEh5MVpzelJiYnVuaFM2X2JteWVFMGQwNjAzTnZ5eFprcUJ6ZlNzT3A3RExfbTN0NmZCNU13UTB4VVBvSlFqR2MyOVBadVZHRTdXUVk5RElRTm5PVWUyWVFJUEFRdm1fX1k3aWwwRnVXQTZYVjhEQnpwakwzOWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "MassLive",
+   "lean": "unrated",
+   "title": "Trump’s midterm chances may not be as dire, pollsters say",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU0ZQa2pvX2doUTdwVW5PSkNDOG8zLWI0TWtkWEM4U3Fvc2RSRWtlU29IUW9vMmlOZ1FsaVJyTUFpczlfRERhb1NvOTdiNzJESE5nMm1faG0xZkRQLWhZTFljRm1IV2NHQUhDT18wMWxrV3htMjAydEJDTGZKM2tZSHNDR2RlLTN3c0FHeXAxTUVUN2pZMnc5OGVkeHVrNEFnN3FUUA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Rasmussen Reports",
+   "lean": "unrated",
+   "title": "Generic Congressional Ballot",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa0cwVXBBU1BNTmkzekhfSkVjek45VjBEem9BekZuQlRlSHFJZ01kQTdxdXROSkZJV3BvYWZYUnV4OHpHRXNoWkxIa0VXaHI2NHZxQkc5UHdxNjdVOUp2amxtbmVOaC1SalhUN1N5M0t4RjUxSGJfNGVjRWtIYmw2QmNhRTByRnllUkY3OFZIWU1GaGhKOTN0emJkRGRMLU0zQlFLWEYyMVNaT0k?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Silver Bulletin",
+   "lean": "unrated",
+   "title": "FLIPR 2026 midterm election forecast",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Times",
+   "lean": "unrated",
+   "title": "Who will win the 2026 midterm elections? Polls and predictions",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-12",
    "race": "National",
    "races": [
@@ -18299,6 +18543,34 @@
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
+   "title": "Ten megadonors accounted for more than half of the $300 million that President Trump raised for the new White House ballroom and legacy projects around Washington",
+   "url": "https://www.wsj.com/politics/a-300-million-windfall-for-trust-collecting-funds-for-trump-projects-4a9022a2?mod=rss_socialpoliticsfeed",
+   "summary": "Ten megadonors are behind the bulk of donations to the nonprofit Trump is using to manage funds for the White House ballroom and other legacy projects.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Congressional candidates from across the country and the political spectrum tell The Wall Street Journal how they want to tackle affordability",
+   "url": "https://www.wsj.com/politics/policy/seven-midterm-candidates-tell-us-their-fixes-for-the-economy-44ac9e70?mod=rss_socialpoliticsfeed",
+   "summary": "Watch how congressional candidates from across the country and the political spectrum want to tackle affordability.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
    "title": "Minnesota is a Republican punchline, and Amy Klobuchar says she can fix it",
    "url": "https://www.wsj.com/politics/policy/amy-klobuchar-minnesota-governor-race-b3c19293?mod=rss_socialpoliticsfeed",
    "summary": "The Senate’s third highest-ranking Democrat says she will inherit a “mess” if she wins governor’s race.",
@@ -18311,11 +18583,53 @@
     "National"
    ],
    "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "In this podcast series, we examine Gen Z’s impact on the midterms and whether this elusive voting group will become the swing vote once more",
+   "url": "https://www.wsj.com/politics/elections/the-new-youth-vote-db0a61e4?mod=rss_socialpoliticsfeed",
+   "summary": "President Trump did well with young voters in 2024, but this year looks very different. This podcast series examines Gen Z’s impact on the midterms.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
    "source": "NPR Politics",
    "lean": "center-left",
-   "title": "Republican strategist on how Trump's personal grievances could affect the GOP",
-   "url": "https://www.npr.org/2026/10/12/nx-s1-5996646/republican-strategist-on-how-trumps-personal-grievances-could-affect-the-gop",
-   "summary": "NPR's Steve Inskeep speaks with Republican strategist Rina Shah about how President Trump's personal grievances and projects are affecting the chances of GOP candidates in the upcoming election.",
+   "title": "New White House press secretary a 'devoted fan' of Trump and MAGA",
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5998948/new-white-house-press-secretary-a-devoted-fan-of-trump-and-maga",
+   "summary": "Katie Zacharia worked for one of Trump's companies and raised her profile appearing on conservative-leaning talk shows. She also amplified right-wing conspiracy theories. Now she'll be the president's chief spokesperson.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Government spent $10 million on pro-Trump ads after president said super PAC would fund",
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5998976/pro-trump-ads-taxpayer-funds-federal-judge",
+   "summary": "Nearly $22 million in taxpayers funds has been spent to air the ads, with nearly half spent after Trump promised to fund what the White House calls public service announcements through his super PAC.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Political strategist on how Trump's personal grievances could affect the GOP",
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5996646/political-strategist-on-how-trumps-personal-grievances-could-affect-the-gop",
+   "summary": "NPR's Steve Inskeep speaks with political strategist and former senior Republican congressional adviser Rina Shah about how President Trump's personal grievances and projects are affecting the chances of GOP candidates in the upcoming election.",
    "relevant": true
   },
   {
@@ -18338,12 +18652,110 @@
    "races": [
     "National"
    ],
+   "type": "punditry",
+   "source": "National Review",
+   "lean": "right",
+   "title": "El-Sayed’s Trouble with Minority Voters",
+   "url": "https://www.nationalreview.com/2026/10/el-sayeds-trouble-with-minority-voters/",
+   "summary": "It’s not just Jewish voters who have concerns about the Senate candidate’s judgment and loyalties.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "National Review",
+   "lean": "right",
+   "title": "Congress’s $2 Trillion Problem",
+   "url": "https://www.nationalreview.com/2026/10/congresss-2-trillion-problem/",
+   "summary": "While lawmakers were out campaigning, Americans received grim news on the federal deficit.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 midterm election forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+   "summary": "Silver Bulletin's prediction for every Senate, House, and gubernatorial election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "How popular is Donald Trump?",
+   "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+   "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "Who’s ahead on the generic congressional ballot?",
+   "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+   "summary": "Our constantly-updating tracker of polls for the most important indicator in the race for Congress.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "How popular is the Iran War?",
+   "url": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
+   "summary": "Silver Bulletin approval ratings for the ongoing conflict.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
    "type": "podcast",
-   "source": "The Daily (NYT)",
+   "source": "The NPR Politics Podcast",
    "lean": "center-left",
-   "title": "The Israeli Film Directors Pushing for a Reckoning in Their Home Country",
-   "url": "https://www.nytimes.com/the-daily",
-   "summary": "The documentary film “NAZA,” which investigates the methods the Israeli military has used in the war in Gaza since the Hamas-led attacks on Oct. 7, 2023, received a record-breaking standing ovation at the Venice Film Festival last month. Just a few days later, Prime Minister Benjamin Netanyahu said ",
+   "title": "What does the U.S. withdrawal from Iraq mean for the region? | Sources & Methods",
+   "url": "https://www.npr.org/2026/10/12/nx-s1-5996601/what-does-the-u-s-withdrawal-from-iraq-mean-for-the-region-sources-methods",
+   "summary": "Earlier this month, American forces fully withdrew from Iraq for the second time since the 2003 invasion. In this episode of NPR's national security podcast Sources & Methods, host Mary Louise Kelly speaks with NPR International Correspondent Jane Arraf who is in Baghdad to see how Iraqis are greeti",
+   "relevant": false
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "GD Politics (Galen Druke)",
+   "lean": "center",
+   "title": "Alex Bores Puts The Odds Of AI Doom At 20%",
+   "url": "https://www.gdpolitics.com/p/alex-bores-puts-the-odds-of-ai-doom",
+   "summary": "If you thought there was a 20 percent chance that artificial intelligence could wipe out humanity, what would you do about it? That’s my guest’s estimate of the risk if we continue on our current trajectory with AI. And he’s trying to write the laws that could change it. Alex Bores is a Democratic N",
    "relevant": false
   },
   {
@@ -18367,10 +18779,40 @@
     "National"
    ],
    "type": "reporting",
-   "source": "Silver Bulletin",
+   "source": "Northeastern Global News",
    "lean": "unrated",
-   "title": "FLIPR 2026 midterm election forecast",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+   "title": "The midterms could bring a blue wave. Here are the forces at play",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSTRxNFpzeFc1eklhS240eU42VWZJQU05MVZYOUZBd2J3UmItZVljVVJkU0lFVmtzeXlFVElZQ1JlZ2FkNk9PQzY1TWZSWklrNlp0YkdCeXZPQVJXcWExMmNKY1BmUTFIcmVZbXJaLXZYelVFcC02YW85bE1HZm96b0Q3Qkc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "270toWin.com",
+   "lean": "unrated",
+   "title": "FiftyPlusOne 2026 Senate Forecast",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhSSzR0UU1sLVVHLU1BMUlWbExHYmdRNU9Jd2g5VEQ0OXB2ckxBT3dXcDQ0aWFOd1B3MVR3Snk3eld5MkxuaThPTy1tU2FjdGd6N0wzenFOY0JVbGk4RWxqbk9JY09NOW9SLWg0ZlplWUZKMFk1ZFRzMk1vTkhJeHRUdGJxdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "The Senate races most likely to flip less than a month from Election Day",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX3p0QW9sa0hTODRac01yUm04TGE4eW1SQTJXRmNjSkNnSGRtcWZpRlJGZG5OVnp1bnZYNTFWbWJ6WjM0SEdybm15YVRxekl0bFBzekh0c093RmdJd090TzlKa3dCLWprVjV4ZUtDWlVpQVBETkFzYTZzMEpEekhscUxTONIBiAFBVV95cUxQeXJFU2FhU3BmeVhlUHBiYXNPVjh1MHJ1OTRoRGNUckx2RmtFekxKWU9qRmY1b3MwZno3QVExbFVmRlpQdG1Ndmp3bnZ0RGRlb3o4S2k0OU5RaU5xcV9OeU1lOEYzaEVWY0xsMEtmOEVjV3dzS055dWZJUy05TENzOEVMVU9NN1ky?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -18465,96 +18907,12 @@
    "races": [
     "National"
    ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Justice Department investigates TV networks, citing possible anti-trust violations",
-   "url": "https://www.npr.org/2026/10/11/nx-s1-5997574/the-doj-is-investigating-5-tv-networks-for-suspending-pool-coverage-of-trump",
-   "summary": "The move escalates Trump's fight with the press amid court battle over barring CNN, Politico and MS NOW from the White House.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-11",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "In one of the country's most competitive districts, a Democrat tries to keep her seat",
-   "url": "https://www.npr.org/2026/10/11/nx-s1-5968691/midterm-elections-washington-congressional-district",
-   "summary": "In a highly competitive Washington congressional race, the incumbent Democrat has angered part of her party base and the Trump-backed Republican challenger faces backlash against the party in power.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-11",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "punditry",
    "source": "National Review",
    "lean": "right",
    "title": "Xi ‘Sinicizes’ China’s Catholic Church, with Vatican Approval",
    "url": "https://www.nationalreview.com/2026/10/xi-sinicizes-chinas-catholic-church-with-vatican-approval/",
    "summary": "China’s clerics are becoming propagandists for the government.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-11",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 midterm election forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
-   "summary": "Silver Bulletin's prediction for every Senate, House, and gubernatorial election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-11",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "How popular is Donald Trump?",
-   "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
-   "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-11",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "Who’s ahead on the generic congressional ballot?",
-   "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
-   "summary": "Our constantly-updating tracker of polls for the most important indicator in the race for Congress.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-11",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "How popular is the Iran War?",
-   "url": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
-   "summary": "Silver Bulletin approval ratings for the ongoing conflict.",
    "relevant": true
   },
   {
@@ -18578,10 +18936,10 @@
     "National"
    ],
    "type": "reporting",
-   "source": "PhillyBurbs",
+   "source": "Focal Data",
    "lean": "unrated",
-   "title": "Who do latest polls show winning 2026 midterms? See odds, forecasts",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2Nfblo5eFdnLXhoMUw3UERjOXNub0xVLXFJME5QdDJHVFhJejlMUVRucW9RdVNpbzR0VEI0aDBmLThJbEJlRGNiNmpuYmpLZThydVlSSkNtb21yOTgzU3pFcFJuTGpoTlN3NHBhcHlkNnNWdXFlUlJxYUFYcEZ0anlveE83ano4OU5RLWpXWmxySU9zNjFYRjNSYlhvTnRyRGktZF91TFd1WWxXWlJKaWVrbi1fYXlTelllZVhkRE9HQ1VXamU0Y3MxZS05STlYVG95MVExMUwwV0tqNlE?oc=5",
+   "title": "Democrats further extend generic ballot lead as midterms approach",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTFJRTXpOcjlWdG56YWNSSGs3T1kwUUtaUjNoem9QVWhWSURqdmpGcFJ1X0g3TW5ZZVVrRkJiU2dwT29oZENmc0o0anMyOV9lc0VCWE1WdDRVVzlSb0VZUFB3MEo4bms3Z3otd05WZXJxS1lJaFM2a3RlR2RnR2gzTnlzRWZKWWFMYW1xOW1mcjN3N2trUHZndFlMbnE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -18593,69 +18951,13 @@
     "National"
    ],
    "type": "reporting",
-   "source": "270toWin.com",
+   "source": "PhillyBurbs",
    "lean": "unrated",
-   "title": "FiftyPlusOne 2026 Senate Forecast",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhSSzR0UU1sLVVHLU1BMUlWbExHYmdRNU9Jd2g5VEQ0OXB2ckxBT3dXcDQ0aWFOd1B3MVR3Snk3eld5MkxuaThPTy1tU2FjdGd6N0wzenFOY0JVbGk4RWxqbk9JY09NOW9SLWg0ZlplWUZKMFk1ZFRzMk1vTkhJeHRUdGJxdw?oc=5",
+   "title": "Who do latest polls show winning 2026 midterms? See odds, forecasts",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQN2Nfblo5eFdnLXhoMUw3UERjOXNub0xVLXFJME5QdDJHVFhJejlMUVRucW9RdVNpbzR0VEI0aDBmLThJbEJlRGNiNmpuYmpLZThydVlSSkNtb21yOTgzU3pFcFJuTGpoTlN3NHBhcHlkNnNWdXFlUlJxYUFYcEZ0anlveE83ano4OU5RLWpXWmxySU9zNjFYRjNSYlhvTnRyRGktZF91TFd1WWxXWlJKaWVrbi1fYXlTelllZVhkRE9HQ1VXamU0Y3MxZS05STlYVG95MVExMUwwV0tqNlE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-10",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Conor Kennedy and Giulia Be Married in Rio",
-   "url": "https://www.nytimes.com/2026/10/10/style/conor-kennedy-and-giulia-be-married-rio-brazil.html",
-   "summary": "The couple’s three-day wedding celebration in Rio de Janeiro brought together two families with political ties as rising tensions surround Brazil’s presidential election.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-10",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Some Republicans Reject Trump’s Move to Import Diesel Fuel From Russia",
-   "url": "https://www.nytimes.com/2026/10/10/us/politics/republicans-midterms-trump-diesel-russia.html",
-   "summary": "High diesel costs have posed a problem for Republicans in the midterms, but President Trump’s decision did not satisfy some candidates in key Senate races.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-10",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "California Gov. Gavin Newsom has long opposed a ballot measure that would tax billionaires’ wealth. Now he’s endorsing a different measure aimed at prohibiting wealth taxes.",
-   "url": "https://www.wsj.com/politics/newsom-backs-measure-that-could-invalidate-billionaire-tax-2357a6b3?mod=rss_socialpoliticsfeed",
-   "summary": "The California governor opposes the proposed levy on ultrawealthy that goes before voters on Nov. 3.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-10",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "President Trump said his administration has reached an agreement with Russian President Vladimir Putin for Russia to supply hundreds of thousands of tons of diesel fuel in the coming months",
-   "url": "https://www.wsj.com/politics/policy/trump-strikes-deal-with-putin-for-russian-diesel-15751436?mod=rss_socialpoliticsfeed",
-   "summary": "The president said Russia agreed to supply large amounts of the refined fuel, marking a major policy shift that eases U.S. pressure on Moscow in hopes of lowering fuel prices ahead of the midterm elections.",
-   "relevant": true
   },
   {
    "date": "2026-10-10",
@@ -18677,48 +18979,6 @@
    "races": [
     "National"
    ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "A growing group of Republicans are privately—and publicly—sounding the alarm that the party will perform poorly in next month’s midterms",
-   "url": "https://www.wsj.com/politics/elections/trump-midterm-election-strategy-e4cfea75?mod=rss_socialpoliticsfeed",
-   "summary": "Nonpartisan forecasters have shifted a number of congressional contests in Democrats’ favor in recent days.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-10",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "As Kamala Harris lays groundwork for a potential third presidential bid, her husband has privately told some people he would prefer she didn’t run, according to people familiar with the conversations",
-   "url": "https://www.wsj.com/politics/elections/kamala-harriss-husband-privately-says-he-doesnt-want-her-to-run-for-president-again-4329fba6?mod=rss_socialpoliticsfeed",
-   "summary": "The former vice president has taken steps that would enable a third White House run, and some donors have told her another bid would be a long shot.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-10",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "The Dispatch",
-   "lean": "center-right",
-   "title": "Our Best Stuff on the Debate Over AI",
-   "url": "https://thedispatch.com/newsletter/weekly/artificial-intelligence-danger-catholic-church/",
-   "summary": "And whether it will kill us.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-10",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "podcast",
    "source": "The Remnant (The Dispatch)",
    "lean": "center-right",
@@ -18726,63 +18986,6 @@
    "url": "",
    "summary": "Happy Saddam Saturday! Just kidding, we don’t do that kinda thing around here. But you know who does? That’s right, Jack Posobiec and his fellow alt-right goons. And while today’s Ruminant features more than enough of such nonsense, Jonah Goldberg doesn’t leave the high-minded among you hanging. Tun",
    "relevant": false
-  },
-  {
-   "date": "2026-10-10",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "270toWin.com",
-   "lean": "unrated",
-   "title": "2022 Senate Election Live Results",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOGdHa3BNdk83djV1ZFFoR3U5U1JBMnVzelhaNWF1S0tCQUo1ZzZ2c0RNZHdzYzQ5OUVGdDFlMS1JNWFfdHU3b2c2Q205RDd5R2NVYkpoc0NhTDk2dWRaZGhOWTBxM1VhVkFQX09uMXVJSWtWc21ZVmlPc004aDdSa2xKYWlvbDludzhhVFZmOU9mMjNI?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "President Trump has appointed Katie Zacharia, a conservative commentator, as the new White House press secretary",
-   "url": "https://www.wsj.com/politics/policy/katie-zacharia-white-house-press-secretary-e504d1b6?mod=rss_socialpoliticsfeed",
-   "summary": "The political commentator and adviser to the Trump Media & Technology Group will succeed Karoline Leavitt as administration’s top spokeswoman.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-09",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The balance of power in the House is on the line in the 2026 elections. Here are the races that could determine House control.",
-   "url": "https://www.wsj.com/politics/elections/the-2026-races-that-could-determine-house-control-9500c90d?mod=rss_socialpoliticsfeed",
-   "summary": "The balance of power in the House is on the line in the 2026 elections.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-09",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The planned execution of Nidal Hasan has sparked a national debate after the Pentagon announced that his death by firing squad would be livestreamed. Here’s what to know.",
-   "url": "https://www.wsj.com/politics/national-security/hegseths-plans-to-livestream-an-execution-are-getting-pushback-heres-what-to-know-2ed542da?mod=rss_socialpoliticsfeed",
-   "summary": "Vance questioned whether the Pentagon would really livestream Nidal Hasan’s execution. He also said he wouldn’t watch.",
-   "relevant": true
   },
   {
    "date": "2026-10-09",
@@ -18877,36 +19080,6 @@
     "National"
    ],
    "type": "reporting",
-   "source": "The Times",
-   "lean": "unrated",
-   "title": "Who will win the 2026 midterm elections? Polls and predictions",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Newsweek",
-   "lean": "unrated",
-   "title": "Democrat Chances of Winning House, Senate Hit New High—Nate Silver Forecast",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUzBoYlYwV2RaUklXWG5jSTFVWE5NWFlvd3FmWElWSm5vZFNJZ3JkcDFwQk05cFZKRTlqc0FTQVVYUm1WNUJreGZYblNnc1ROejY3bldPR3JxaVhmY2RlaFczNFhmTXdBZjI5RVdlS3ZNMEFJVld5R2VQRXJuQjZybWJ0RDZDaGhSWEdVdy1ELXVOYlJ4b3JXT1dxQ18tOWdFb3NRUzRaV25td19O?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
    "source": "The Economist",
    "lean": "unrated",
    "title": "US House of Representatives 2026 forecast",
@@ -18931,190 +19104,19 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-08",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The NPR Politics Podcast",
-   "lean": "center-left",
-   "title": "What is the Protect College Sports Act?",
-   "url": "https://www.npr.org/2026/10/08/nx-s1-5994996/what-is-the-protect-college-sports-act",
-   "summary": "During many college sports events recently, ads have run encouraging people to call their congressmembers to support the Protect College Sports Act. But what exactly would be protected, and how would it impact athletes? We explain the legislation, and why Congress is showing interest in regulating c",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-08",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "GD Politics (Galen Druke)",
-   "lean": "center",
-   "title": "The Fight For The Right After Trump",
-   "url": "https://www.gdpolitics.com/p/the-fight-for-the-right-after-trump",
-   "summary": "This is a free preview of a paid episode. To hear more, visit www.gdpolitics.com Heads up: The GD POLITICS merch store is back for election season! We’ve got super comfy “Good Data, Bad Data, Not Data” T-shirts, baseball caps, and totes. Paid subscribers can find a discount code in the paid-subscrib",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-08",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "Politics War Room",
-   "lean": "left",
-   "title": "391: How Russia Owns Trump with David Corn",
-   "url": "https://audioboom.com/posts/8961859",
-   "summary": "James and Al celebrate the election polls giving Dems a strong advantage going into the midterms, the effect of immigration policies on the country, and the motivations of MAGA while Trump is floundering. Then, they welcome journalist and author of “How Russia Won”, David Corn, to discuss the salien",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-08",
+   "date": "2026-10-09",
    "race": "National",
    "races": [
     "National"
    ],
    "type": "reporting",
-   "source": "Pew Research Center",
+   "source": "Decision Desk HQ | Substack",
    "lean": "unrated",
-   "title": "Midterm Vote Preferences by Race and Ethnicity, Age and Other Demographics",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSFc2TzFvZm9KUFdmQWVEZElJOWlCc3ZGcjVYRU91YkkzdXFxYU1Ya3FPUnRUUmF0X0lHOS1MMFBQUkh4ZHppdnBSWjNrT19xWWlTR21uZHJJU3M4OHpiVWhpYWFOZlY5cHIzdVVFSFBVOUNEX3c0NzRCNW1OdEU2MXVDdlFVTTFrV3JuNm9weGtjYXVoZ2FXc2h4dTVhbXpwWVVROHNJQjFFby1zS0tKbi1IaXJZZDJQN3dNOFd0Yw?oc=5",
+   "title": "📈 Could Democrats actually flip Kansas’s Senate seat?",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMU1NQWVLS2FMeVoydWZqZnVqVVdJUDRQRkQ3bVZadGRhVmVYTGN6dzU1UVFRNl9URmtzSlI4QlY3QkczcjgtZGJuWEFmVk50N3REanozbU1aczJvdzl3ZnZUdjU5TkFYN2k1MThKemFzT0VYaUpsZUx6NHdtNFRWLUFLTkdrbkhMWWxZVm9TSkhNMXNkbzZ0d0JQbTdkRXJRSUNVTndCcktaRk93ZTh1MjdGYw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-08",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "The Conversation",
-   "lean": "unrated",
-   "title": "Meet the ‘independent voters’ who will likely decide which party triumphs in the 2026 midterm elections",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUDU4TkVCS2pCVHp6NEs1eTJxN2NPZVRIaDl4bVRBekNHdlpIVDF6V21xOERvcWxYNXZ3d2JJZDItcEhhd3dOTUxtUHpwaVJjT2VqVlNnenBOWms2SFJJUlNKejNTaHZXLWNJVmZtbmZGd18xYk85ekRkb1pLb0dLd2J1RG1GOThpM0JVaWFya096Q3FVRm9lc1lLLUFPX19QalpMbVY0MGE3MjFLZkx6WUJYemNpRDQxRVBRRzlIUnkyczNxXzRRWmwxaU16Y2htdUE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-08",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Casino.org",
-   "lean": "unrated",
-   "title": "Do Prediction Markets Beat Polls? A 2026 Midterm Preview",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5Nkh4NlBVWEtRRHhtd3lZOW1MVXVXbFVqdXV1ZDhBUnhtVUUtVVViNHFiT0lhYU9wdUp0S05KN29DUDd2NVUwT2tUTjdORWRocW5GUl91cVA0d0Q1ZXVlWmlMTUtTUk0?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-08",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "inkl",
-   "lean": "unrated",
-   "title": "Meet the ‘independent voters’ who will likely decide which party triumphs in the 2026 midterm elections",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTFhaeER0RmFVamM4UXRHQVpGS1Z0V01nWXYwZjdRN2JNeUJpQXFJZHFnMktvYVRsbXR0VDBVbEI1YnE2dEtNOWotNWlJSElTVnVYRHNad20ySXZJdWdVZTdFRURzQXBIcFVRZGdMRVdYdkdGTEE2aGhITWxtMjZDR2toWWdQbTJWYzVkOXBiNzRZS056ZzE2R0Q1ZUh0NmJBSUxrVGlEZzBrN1A0WXg5WHlOTjlZMEY5bkZKMmxKcVRKR3UwaGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The Ezra Klein Show",
-   "lean": "center-left",
-   "title": "‘This Is Nuts.’ An OpenAI Insider Explains Why He Quit.",
-   "url": "https://www.nytimes.com/2026/10/06/opinion/ezra-klein-podcast-david-robinson.html",
-   "summary": "Last week, David Robinson resigned from OpenAI. He’d been in charge of writing the safety reports for new models and came to believe that OpenAI and the broader artificial intelligence industry lack the safety culture necessary to protect the world from what they’re building. Robinson has an unusual",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The NPR Politics Podcast",
-   "lean": "center-left",
-   "title": "California considers a wealth tax on billionaires",
-   "url": "https://www.npr.org/2026/10/07/nx-s1-5993586/california-considers-a-wealth-tax-on-billionaires",
-   "summary": "California has more billionaires than any other state in the U.S. On the state's ballot this election cycle is a proposition to levy a one-time wealth tax on its resident billionaires. We explain what the tax would do, and why the groups & figures opposing the initiative make for strange bedfellows.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "GD Politics (Galen Druke)",
-   "lean": "center",
-   "title": "Your Midterms Questions, Debated Over Drinks",
-   "url": "https://www.gdpolitics.com/p/the-next-swing-state-debated-over",
-   "summary": "This is a free preview of a paid episode. To hear more, visit www.gdpolitics.com The full episode is available to paid subscribers. Once you become a paid subscriber, you can connect your account to your preferred podcast player here . What’s the next swing state: Texas, Kansas or Minnesota? And how",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The Remnant (The Dispatch)",
-   "lean": "center-right",
-   "title": "‘Friendship on the Knife’s Edge’ | Interview: Roger Berkowitz",
-   "url": "",
-   "summary": "Notorious misanthrope Jonah Goldberg is skeptical of the power of friendship in politics. Winning him over will be no easy task, but if anyone is up to the job, it’s friend of the Remnant and Hannah Arendt scholar Roger Berkowitz. Listen in as Roger and Jonah duke it out over friends, enemies, Zioni",
-   "relevant": false
-  },
-  {
-   "date": "2026-10-06",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "Pod Save America",
-   "lean": "left",
-   "title": "Trump Plans to Shove What Where?",
-   "url": "https://audioboom.com/posts/8960837",
-   "summary": "With less than 30 days until the midterms, Trump hits the campaign trail, promising Republican voters that they're going to \"win big\" and \"shove it up their ass.\" (Whose? He didn't specify.) Meanwhile, the polls tell a different story, showing Democratic Senate candidates leading in five Republican ",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-06",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The NPR Politics Podcast",
-   "lean": "center-left",
-   "title": "Why Democrats and Republicans have hope in the Midwest",
-   "url": "https://www.npr.org/2026/10/06/nx-s1-5992624/why-democrats-and-republicans-have-hope-in-the-midwest",
-   "summary": "Democrats see opportunity in Iowa to flip a Senate seat, while Republicans see a chance in Minnesota. We break down the state of play across those states and in Nebraska, where an independent Senate candidate squares off against an incumbent Republican. This episode: voting correspondent Miles Parks",
-   "relevant": true
   }
  ],
  "coverage": {
@@ -19124,14 +19126,14 @@
   "failed_sources": []
  },
  "brief": {
-  "date": "2026-10-12",
-  "title": "Midterm brief: Monday, October 12",
-  "markdown": "# Midterm brief: Monday, October 12\n\n## Bottom line\nForecasters rate the House as leaning Democratic: 9 of 10 House forecasters have more seats rated for Democrats than for Republicans, and Inside Elections is the exception at 209 D / 210 R ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 46 D and 45 R seats are solid or likely, with 9 competitive ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 90.5% for the House ([Polymarket](https://polymarket.com/event/which-party-will-win-the-house-in-2026)) and 63.5% for the Senate ([Polymarket](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), as of Oct 12. All of these are unchanged from yesterday.\n\n## What moved\n- **Louisiana Senate:** Silver Bulletin moved its rating from Likely R to Solid R, as of Oct 9 ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). The race was already outside the competitive band, so the consensus doesn't change. Nothing else crossed a threshold.\n\n## Races to watch today\n- **Kansas Senate (Tossup):** KMBC reports a new poll with Marshall and Hamilton less than a point apart ([KMBC via Google News](https://news.google.com/rss/articles/CBMinwFBVV95cUxQWHpwaDJ3bGdQMmllLVl4QVZKNXI3c1pDaWlvQ3ZKZkQ3V09oU1QzclVUT25XNE9xYm1COUFzRlY1SVlNVFZzSXBOaUUydHV4d0tUaTN5WWRlRDkwZGx0OTFWNzIzOUZxeGRtRFliRS1XTU42M0xvSWRHLUx0NXdfM1dHSC13cFlJWUFWaGhDRENEd1h0ellJeGxkazByLVU?oc=5)). The poll isn't in the tracker's average yet; the two-poll average is D+2.0.\n- **Maine Senate (Tossup):** The NYT reports anxious Democrats bringing in Bernie Sanders to energize Troy Jackson's campaign ([NYT](https://www.nytimes.com/2026/10/11/us/politics/maine-bernie-sanders-troy-jackson-seante-democrats.html)). The latest poll, Washington Post/Schar School, shows Jackson 50, Collins 45, ending Oct 5 ([WaPo](https://www.washingtonpost.com/tablet/2026/10/09/sept-30-oct-5-2026-washington-post-schar-school-poll-maine-voters)).\n- **Iowa Senate (Tossup):** Emerson/Nexstar shows Hinson 46.6, Turek 45.0, ending Oct 6 ([Emerson](https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit?rtpof=true&sd=true)); average D+0.5.\n- **Ohio Senate special (Tossup):** co/efficient, a Republican-aligned pollster, shows Husted 46, Brown 45, ending Oct 6 ([co/efficient](https://battlegrounds.coefficient.org/oh)); average D+2.5.\n- **Texas Senate (Tossup):** Beacon/Shaw for Fox News shows Talarico 51, Paxton 49, ending Sep 28 ([Fox News](https://www.foxnews.com/politics/fox-news-poll-its-lone-star-senate-showdown-between-talarico-paxton)); average D+2.2.\n\n## What the spectrum is saying\n- **Left:** Pod Save America's latest episode, with David Axelrod, centers on Democrats' closing argument ([Pod Save America](https://audioboom.com/posts/8962811)).\n- **Center-left:** The NYT reports Elon Musk has put $276 million into an effort to rescue Republicans in the midterms ([NYT](https://www.nytimes.com/2026/10/12/us/politics/elon-musk-midterms.html)). NPR reports Trump struggling to convince voters he is focused on the cost of living ([NPR](https://www.npr.org/2026/10/12/nx-s1-5998073/trump-struggles-to-show-voters-hes-focused-on-the-cost-of-living)).\n- **Center-right:** The WSJ reports a growing number of Republicans warning of a weak midterm showing ([WSJ](https://www.wsj.com/politics/elections/trump-midterm-election-strategy-e4cfea75?mod=rss_socialpoliticsfeed)).\n- **Right:** The Megyn Kelly Show's Oct 12 update questions Talarico's absence from the campaign trail, which he attributed to the flu (the episode's link goes to the show's general page, not the episode: [Megyn Kelly Show](https://www.siriusxm.com)). This is opinion, not reporting.\n\n## Talking points\n- The generic ballot averages D+7.2 across 4 polls; Pew has D+8, ending Oct 4 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n- Presidential approval averages 36.5% approve / 62.0% disapprove across 2 polls; RMG has 43/56, ending Oct 6 ([RMG](https://napolitannews.org/jobapproval#10-06-2026)), and Pew has 30/68 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n- Polymarket's most likely combination is a Democratic House and Senate, at 61.5%; second is a Republican Senate with a Democratic House, at 28.5% ([Polymarket](https://polymarket.com/event/balance-of-power-2026-midterms)).\n\n## Coverage note\nAll 24 sources reported. Kalshi had no priced markets. Candidate parties remain unresolved for FL-22, MT-01, SC-01 and TX-35, so polls in those races are excluded from averages.\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
-  "published_at": "2026-10-12T10:10:34.997392+00:00",
+  "date": "2026-10-13",
+  "title": "Midterm brief: Tuesday, October 13",
+  "markdown": "# Midterm brief: Tuesday, October 13\n\n## Bottom line\nForecasters rate the House as leaning Democratic: 9 of 10 House forecasters have more seats rated for Democrats than for Republicans, and Inside Elections is the exception at 209 D / 210 R ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 46 D and 45 R seats are solid or likely, with 9 competitive ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 90.5% for the House ([Polymarket](https://polymarket.com/event/which-party-will-win-the-house-in-2026)) and 63.5% for the Senate ([Polymarket](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), as of Oct 13.\n\n## What moved\n- **Nebraska Senate:** RealClearPolling moved its rating from Tossup to Lean R, as of Oct 12 ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). The consensus stays Lean R, and RCP had been the only forecaster rating the race a Tossup. Nothing else crossed a threshold.\n\n## Races to watch today\n- **Texas Senate (Tossup):** The WSJ reports new damaging details about Ken Paxton, including a 2024 New Year's Eve trip to Dubai ([WSJ](https://www.wsj.com/politics/policy/ken-paxton-texas-senate-dubai-trip-b54292c3?mod=rss_socialpoliticsfeed)). The NYT reports Republicans spread a false rumor that Talarico was in Ohio ([NYT](https://www.nytimes.com/2026/10/12/us/politics/james-talarico-ohio-texas-senate-race.html)). Polling average: D+2.2.\n- **Kansas Senate (Tossup):** KMBC reports a new poll with Marshall and Hamilton less than a point apart ([KMBC via Google News](https://news.google.com/rss/articles/CBMinwFBVV95cUxQWHpwaDJ3bGdQMmllLVl4QVZKNXI3c1pDaWlvQ3ZKZkQ3V09oU1QzclVUT25XNE9xYm1COUFzRlY1SVlNVFZzSXBOaUUydHV4d0tUaTN5WWRlRDkwZGx0OTFWNzIzOUZxeGRtRFliRS1XTU42M0xvSWRHLUx0NXdfM1dHSC13cFlJWUFWaGhDRENEd1h0ellJeGxkazByLVU?oc=5)). The poll isn't in the tracker's average yet, which is D+2.0.\n- **Alaska Senate (Tossup):** Trump will campaign for Sen. Sullivan ([WMBF via Google News](https://news.google.com/rss/articles/CBMiggFBVV95cUxPYVM0RzBEeWd1QnljZGhRdTl4M1dmVE1hUjVZbHFIT0lLRzhIOGJsVGR5VXI5ZENjOGl6cmJNSnJROHg5OF9YZzFQUFZEMzFhdjlJSDRoYXpkdVdnUGdTUXF1VzlWNVdlNWQ2cC1UbXRYa0xZTHlpRFMtRmpFLXEzMGFR0gGWAUFVX3lxTE1VUVR6Zkh5MkR0UUxDdUFIVE9Qa1cxYUx0TEpuYU5IWmFfUzhRSFpGSjlJZ28xSTVVVjBSUm83cFpBU3d3T1FhbUozbi03am4wOW5vcEw1MDR2Qk5XNlZwZzhZWW1FNHVpVE9lUEZHVE94NTNjVGdjRkNZOFF6TGJjR1JnQ0FRdzVJS3pJTi0yNVJmQjJQUQ?oc=5)). The latest poll, Quantus, shows Sullivan 47.8, Peltola 47.2, ending Sep 30 ([Quantus](https://quantusinsights.org/polling/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska)); average D+0.8.\n- **Maine Senate (Tossup):** A GOP-aligned ad attacking Troy Jackson aired in Portland, Oregon, instead of Portland, Maine ([NYT](https://www.nytimes.com/2026/10/12/us/politics/maine-troy-jackson-ad-portland-oregon.html)). Average: D+2.1.\n\n## What the spectrum is saying\n- **Left:** Pod Save America's newest episode is titled \"One Flu Over the Cuckoo's Nest\" ([Pod Save America](https://audioboom.com/posts/8963609)); the feed gives only the title, so its content isn't summarized here.\n- **Center:** Silver Bulletin updated its forecast and its approval and generic-ballot trackers ([Silver Bulletin](https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model)).\n- **Center-right:** The Dispatch argues the trouble with polls lies in how people read them, not in the polls themselves ([The Dispatch](https://thedispatch.com/article/political-polling-2026-midterms-confusion/)).\n- **Right:** National Review argues Abdul El-Sayed is struggling with minority voters in Michigan ([National Review](https://www.nationalreview.com/2026/10/el-sayeds-trouble-with-minority-voters/)). This is opinion, not reporting.\n\n## Talking points\n- A new NewsNation/DDHQ poll shows Democrats with a 7-point generic-ballot lead ([The Hill via Google News](https://news.google.com/rss/articles/CBMikAFBVV95cUxQRXUtUjlLZFNUcm8xd29yUnZlUE1WbF9Qa0F2QWUtaTl2dkRzNmhnTTc2TXRQeGdJM0lrTHBXYUcxOXFybjRGMmgwQVBGSWFGdTFCOFE3VVlRWHdDNVczTGVHQ1djY0doOHYyS1owQmxJTEQyWWIwRUp0bzkzbU51cU0tamVMek5tS0xSdjgxZGLSAZYBQVVfeXFMUFpZSUltV2JXdUpvNFU5QVBGZXhMOXoyTVhORG1PSHV4Z2oyTjlPQUpTQlE4SS1jdVdMWmFfRW1qSUdMXy1WWU0zekFJWjZ0TE1kQjR5NU8wMHFxenM1QnJTWjR4Njc4dVhsN3ZvY09kc29GdmFKWHNsUkxNVmtGeHNHNk5iMVpRLTJicVNpaWFSZ25yQUV3?oc=5)), in line with the tracker's 4-poll average of D+7.2. Pew has D+8, ending Oct 4 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n- Presidential approval averages 36.5% approve / 62.0% disapprove across 2 polls; RMG has 43/56, ending Oct 6 ([RMG](https://napolitannews.org/jobapproval#10-06-2026)).\n- Polymarket's most likely combination is a Democratic House and Senate, at 61.5%; second is a Republican Senate with a Democratic House, at 28.5% ([Polymarket](https://polymarket.com/event/balance-of-power-2026-midterms)).\n\n## Coverage note\nAll 24 sources reported. Kalshi had no priced markets. Candidate parties remain unresolved for FL-22, MT-01, SC-01 and TX-35. In MT-01, a headline identifies Aaron Flint as the Republican, but nothing identifies the Democrat yet, so those polls still can't be averaged.\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
+  "published_at": "2026-10-13T10:11:22.999985+00:00",
   "checks": []
  },
  "_previous_snapshot": {
-  "run_date": "2026-10-11",
+  "run_date": "2026-10-12",
   "national": {
    "generic_ballot": {
     "average_margin": -7.2,
@@ -19214,14 +19216,14 @@
      "R": 36.5,
      "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
      "source": "Polymarket",
-     "volume": 6315691.061405002
+     "volume": 6329232.251021002
     },
     "house": {
      "D": 90.5,
      "R": 9.5,
      "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
      "source": "Polymarket",
-     "volume": 16411067.351342998
+     "volume": 16442119.431815
     },
     "balance": {
      "combos": {
@@ -19233,7 +19235,7 @@
      },
      "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
      "source": "Polymarket",
-     "volume": 21508881.052092
+     "volume": 22298763.694502
     },
     "kalshi": []
    }
@@ -19253,19 +19255,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19321,19 +19323,19 @@
      "ddhq": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19416,19 +19418,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19515,19 +19517,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19583,19 +19585,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19651,19 +19653,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19748,19 +19750,19 @@
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19843,19 +19845,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19942,19 +19944,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20010,19 +20012,19 @@
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20111,19 +20113,19 @@
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20210,19 +20212,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20278,19 +20280,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20318,7 +20320,7 @@
       "name": "Sabato's Crystal Ball"
      },
      "silver": {
-      "rating": "Likely R",
+      "rating": "Solid R",
       "flip": false,
       "as_of": "2026-10-09",
       "name": "Silver Bulletin"
@@ -20346,19 +20348,19 @@
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20441,19 +20443,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20509,19 +20511,19 @@
      "ddhq": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20620,19 +20622,19 @@
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20688,19 +20690,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20785,19 +20787,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20853,19 +20855,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20950,19 +20952,19 @@
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21045,19 +21047,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21113,19 +21115,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21210,19 +21212,19 @@
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21278,19 +21280,19 @@
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21373,19 +21375,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21441,19 +21443,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21509,19 +21511,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21608,19 +21610,19 @@
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21711,19 +21713,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21779,19 +21781,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21876,19 +21878,19 @@
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21973,19 +21975,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22072,19 +22074,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22140,19 +22142,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-09",
+      "as_of": "2026-10-11",
       "name": "FiftyPlusOne"
      },
      "fox": {

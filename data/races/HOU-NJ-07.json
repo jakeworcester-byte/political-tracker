@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-08",
-   "race": "HOU-NJ-07",
-   "races": [
-    "HOU-NJ-07"
-   ],
-   "type": "reporting",
-   "source": "AOL.com",
-   "lean": "unrated",
-   "title": "New Jersey’s 7th District remains a top competitive swing seat",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVGVGTUpZNndSS08xUmxnSENWQkQ0d0hvRlBmdnBYQWdLbXpsWkppZzJSRDVveUQ5YlpNbTI1ZVRrZVAwQUVSZHdXeWhjR3NTaGxmcUx2aXlZcE1hZDFPT3ZDdnpCN3JUSWZsUWdyZXVLNER6QUJHZ2xJRW1TUEVZTA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NJ-07",
  "history": [
   {
@@ -114,6 +98,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-13",
    "c": -2,
    "p": null
   }

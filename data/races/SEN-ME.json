@@ -41,7 +41,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-05",
+   "as_of": "2026-10-12",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -347,9 +347,68 @@
    }
   ]
  },
- "raw_poll_count": 16,
+ "raw_poll_count": 15,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-13",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "An Ad Targeting Susan Collins’s Opponent, Troy Jackson, Airs in the Wrong Portland",
+   "url": "https://www.nytimes.com/2026/10/12/us/politics/maine-troy-jackson-ad-portland-oregon.html",
+   "summary": "An executive with the Republican super PAC that paid for the ad attacking Troy Jackson, the Democratic Senate candidate in Maine, blamed its vendor for running the ad in Oregon.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Newsweek",
+   "lean": "unrated",
+   "title": "Susan Collins’ 2026 Polls Compared With Her 2020 Maine Victory",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV01qcEU0RlZIREEtc0psbWhsNnhkcDNYb29zZjhXRlUtRko1ZHFFOW9MaXIyM25KaG1GYkY4X1JaeHh5Rlp3WUdFNXdTSnpBLUdIUFhUUHlUdHo2X3hKN2UyNGdJMTByQXY0Q2pFNjQyVVlJMkxhT1RqZTkyUGdlMWg4N09td2t4MUE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "GOP ad buyer mixes up Portlands, spends money meant to help Maine Sen. Susan Collins in Oregon",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU1VnVFpzeDltU0x6SDFyeG4zWEcwNnVCRmhOMFdaMzZqWmFXYlg2aTVVZDdmMk9hSHVTeWFvcFdjRExLdzRGNFFRN0huOWxSUURHcWpGamp1SVJZQ0w1R2IyeW5SXzJDVjF6NUZYa1lpZ2psTGJnVWthMVBaN2wzbjlaaGdTQW1Kdk0wX3gzU0hPOGdoSWhFbU5EWEpNSlFVaWpKdXBRd2pvbC03RUtYbWJsOExzUE1yeURnakhyS3BPUVRxUExj?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Oregon Public Broadcasting - OPB",
+   "lean": "unrated",
+   "title": "Oops: GOP group mistakenly bought ad for Maine Senate candidate in wrong Portland - Oregon Public Broadcasting",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY1o5Q24yU0F1RGpVM09uLXZiYkRwMzdKVlV4UnRvNEFGRzlkTlZ5N21NS09jMTVmcjExSkd2LU9nMHBWd2JDY3FZZ0RseGdKU1NsOG1BbzZlQlVkSDFCMk5RNTlhcC10WUFHYTZmZ1FEY3FRMF9tNzB6RnotQTRXWF8xaXZzaUlfcUtkaWtEanFvVjFzSWU1WUFqT1NZdUsxelpmazA3Wmt1R184OUE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-11",
    "race": "SEN-ME",
@@ -371,40 +430,25 @@
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "The Washington Post",
-   "lean": "unrated",
-   "title": "Democrat has edge over Susan Collins in critical Maine Senate battle, poll finds",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWDJ0QU1TcDhjT2pFUmgxcnhzcnJGdnUxSWl1aEI1dnFKT1RMSk1tUmoyNDhTNnk1akpGTUw3OWp3ZThCU1VaZzgtR3F0NlZhNkIxMVZUZ29lOWNYNmRCMmNDWU9HVENYZlk1VFFleUpBdnNoOTdkTWtVbEZUUDd1Yk90TTRseEdSbndRcHRla3VDQXp0Tmw2Z1BoYzVKLU1oQ2NnRDZmV2E1dkhKODBpTmNMN21jeEFiQzJTZ1dyS1ZMcWc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "The Portland Press Herald",
-   "lean": "unrated",
-   "title": "Another poll shows Troy Jackson leading a tight Maine Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYndFajd4RV8wU2NmY0FLVkRrVU56YW85bG9lNUU0aVdqbHNzS0wydlJ5VW8wX2xNMU1PX1RFamtYeEd2eW5lZDRtSGIxWk1KR1Rzd0kxVE1qOFRPT20xV1V6eGlISl9qR3lueHRaZW0ySWYtemU1RVlfYWozNTVPazE2YnBHWEpGc3I3NUs1WEVkNnJuTVFGVjJEVlA4WGhFNzFKVXZETnJOZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
    "source": "The Hill",
    "lean": "unrated",
    "title": "Jackson holds slight lead over Collins in Maine Senate race survey",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xa2pid3FVTTNSQnJQWWxUd3NqWmxBRDgtaHUydEdvVHFza0k5T05hY1RSLXYwRjl6ZjVXVGsxa1pvdnpBSklIdWZ0LWlkTXJrdHRtZmNnT285cHVsbzhJeElJbFpUU1NWYXVZMExFMXExcFlUUnZHRVFCZkpXQdIBgwFBVV95cUxNajdkcU9ZZzJtSmVJYU5RdEd0QXdMem1KZ0JvQkVLdmNfSlZfVTRwcHdkenlmTnNxT0xFYXBncWRLbk5iNlR2R05tWnNoQzR3dUdvNTNZM2JlU0VMWW5STGNZdDZoN1JUZjNHcEZrQUVSb1NpWFcwU2tHOFdZemRrcEI1Yw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-09",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The Washington Post",
+   "lean": "unrated",
+   "title": "Democrat has edge over Susan Collins in critical Maine Senate battle, poll finds",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWDJ0QU1TcDhjT2pFUmgxcnhzcnJGdnUxSWl1aEI1dnFKT1RMSk1tUmoyNDhTNnk1akpGTUw3OWp3ZThCU1VaZzgtR3F0NlZhNkIxMVZUZ29lOWNYNmRCMmNDWU9HVENYZlk1VFFleUpBdnNoOTdkTWtVbEZUUDd1Yk90TTRseEdSbndRcHRla3VDQXp0Tmw2Z1BoYzVKLU1oQ2NnRDZmV2E1dkhKODBpTmNMN21jeEFiQzJTZ1dyS1ZMcWc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -424,21 +468,6 @@
    "relevant": true
   },
   {
-   "date": "2026-10-08",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "The 19th News",
-   "lean": "unrated",
-   "title": "As Susan Collins goes for a sixth term, Maine Democrats worry she’s a ‘Teflon candidate’",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05dXltTmR1eFZhWFo2d0tzbEZnMUxBa3FlUHRKRVhDZDV6dDJjRkdMWTBRR1JqdUJjSlhNYlVjRGFsMTZ4eXVoUXd0cURUZnFmbDVETmdLLWZCaXNwRk9vaTlGMzdtM2NZTE5vQXc2N0drQ0FzdE5QRDBMXy0?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-07",
    "race": "SEN-ME",
    "races": [
@@ -453,20 +482,6 @@
    "url": "",
    "summary": "Ruthless breaks down the latest Senate battlegrounds in Michigan, Maine, and Texas and exposes Abdul El-Sayed’s past ties to the DSA. Attorney General Todd Blanche joins the progrum to discuss parental rights, election integrity, crime, and the DOJ. #RuthlessPodcast #Midterms #Politics 0:00:00 Intro",
    "relevant": true
-  },
-  {
-   "date": "2026-10-05",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "podcast",
-   "source": "The NPR Politics Podcast",
-   "lean": "center-left",
-   "title": "The path to Senate control runs through this state",
-   "url": "https://www.npr.org/2026/10/05/nx-s1-5991467/the-path-to-senate-control-runs-through-this-state",
-   "summary": "Incumbent Sen. Susan Collins is the Republican defending a Senate seat in a state Kamala Harris won in 2024. Democrats replaced their nominee in July with Troy Jackson, a former state senator, who has struggled to make himself known to voters. We look at the candidates, their races, and what's to co",
-   "relevant": true
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-ME",
@@ -478,6 +493,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": 0,
+   "p": -2.1
+  },
+  {
+   "date": "2026-10-13",
    "c": 0,
    "p": -2.1
   }

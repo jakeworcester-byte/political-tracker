@@ -41,7 +41,7 @@
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-05",
+   "as_of": "2026-10-12",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -315,7 +315,7 @@
    }
   ]
  },
- "raw_poll_count": 13,
+ "raw_poll_count": 11,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-FL-S",
@@ -327,6 +327,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": 3,
+   "p": 6.3
+  },
+  {
+   "date": "2026-10-13",
    "c": 3,
    "p": 6.3
   }

@@ -169,7 +169,23 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-09",
+   "race": "HOU-FL-13",
+   "races": [
+    "HOU-FL-13"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Florida 13th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkdQbmJhTmdyb0hfTnBIMk95Z01rdHVGR2tpdVRYRjBWSGF6MDMyVVNqWXAwMlhFN3llTEttMmJxOExyTXk4OGJoT0gwdDNfOFNweC1SclJZZ2FJMy1BQ2hvd1FMQ2F0U0MxMk5rQ0JIcGdiSVpnRVYtVmJUbFpaVHRfTQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-13",
  "history": [
   {
@@ -179,6 +195,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": 2,
+   "p": 3.5
+  },
+  {
+   "date": "2026-10-13",
    "c": 2,
    "p": 3.5
   }
