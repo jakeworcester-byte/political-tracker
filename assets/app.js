@@ -78,6 +78,7 @@
       case "house": setTab("house"); return renderChamber("House");
       case "race": setTab(arg && arg.startsWith("SEN") ? "senate" : "house"); return renderRace(arg);
       case "national": setTab("national"); return renderNational();
+      case "early": setTab("early"); return renderEarlyVote();
       case "about": setTab("about"); return renderAbout();
       default: setTab("overview"); return renderOverview();
     }
@@ -255,6 +256,51 @@
       </div>
       <h2>National reporting and commentary</h2>
       <div class="card"><ul class="list">${(DATA.national_signals || []).slice(0, 25).map(s => `<li><div class="item-title"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></div><div class="item-meta">${esc(s.source)}${s.lean && s.lean !== "unrated" ? ` · <span class="pill gray sm">${esc(s.lean)}</span>` : ""} · ${fmtDate(s.date)} · ${esc(s.type)}</div></li>`).join("")}</ul></div>`;
+  }
+
+
+  // ------------------------------------------------------------------ early vote
+  let EARLY = null;
+  const signed = v => v == null ? "n/a" : `${v > 0 ? "+" : ""}${v.toFixed(1)}`;
+  const mlabel = m => m == null ? "n/a" : Math.abs(m) < 0.05 ? "Even" : `${m > 0 ? "D" : "R"}+${Math.abs(m).toFixed(1)}`;
+  function shareBar(label, sh) {
+    if (!sh || sh.D == null) return "";
+    const o = sh.Other != null ? sh.Other : Math.max(0, 100 - sh.D - sh.R);
+    return `<div class="ev-row"><div class="ev-lab">${label}</div><div class="bar ev-bar"><span class="d" style="width:${sh.D}%"></span><span class="t ev-o" style="width:${o}%"></span><span class="r" style="width:${sh.R}%"></span></div><div class="ev-nums"><b style="color:var(--dem)">D ${sh.D.toFixed(1)}</b> · <b style="color:var(--rep)">R ${sh.R.toFixed(1)}</b> · other ${o.toFixed(1)}</div></div>`;
+  }
+  function evCard(s, hist) {
+    const series = (hist || []).filter(h => h.ballot_margin != null);
+    const prior = s.prior || {};
+    const facts = [
+      s.total ? `<div><div class="label">Ballots</div><div class="ev-big">${s.total.toLocaleString()}</div></div>` : "",
+      s.overperformance != null ? `<div><div class="label">D–R margin vs registration</div><div class="ev-big" style="color:${s.overperformance >= 0 ? "var(--dem)" : "var(--rep)"}">${signed(s.overperformance)}</div><div class="note">${mlabel(s.ballot_margin)} among ballots vs ${mlabel(s.registration_margin)} registered</div></div>` : "",
+      s.margin_change_vs_prior != null ? `<div><div class="label">Margin vs ${esc(prior.cycle)} same point</div><div class="ev-big" style="color:${s.margin_change_vs_prior >= 0 ? "var(--dem)" : "var(--rep)"}">${signed(s.margin_change_vs_prior)}</div><div class="note">positive = more Democratic</div></div>` : "",
+      s.pace_vs_prior_pct != null ? `<div><div class="label">Volume vs ${esc(prior.cycle)} same point</div><div class="ev-big">${Math.round(s.pace_vs_prior_pct)}%</div></div>` : ""
+    ].join("");
+    return `<div class="card ev-card${s.stale ? " ev-stale" : ""}">
+      <div class="ev-head"><div class="item-title">${esc(s.name || s.state)}</div><div class="meta">${esc(s.measure || "early ballots")} · as of ${fmtDate(s.as_of)}${s.stale ? ' · <span class="pill gray sm">not updated today</span>' : ""}${s.automated ? ' · <span class="pill gray sm">automated</span>' : ""}</div></div>
+      ${shareBar("Early ballots", s.ballots_share)}
+      ${shareBar("Registration", s.registration_share)}
+      ${prior.share ? shareBar(`${esc(prior.cycle)} same point`, prior.share) : ""}
+      ${facts ? `<div class="ev-facts">${facts}</div>` : ""}
+      ${s.day_change ? `<p class="meta">Since last report: ${esc(s.day_change)}</p>` : ""}
+      ${series.length > 1 ? `<div class="label" style="margin-top:8px">D–R margin among early ballots</div>${sparkline(series.map(h => ({ x: h.as_of || h.run_date, y: -h.ballot_margin })), true)}` : ""}
+      ${s.note ? `<p class="meta">${esc(s.note)}</p>` : ""}
+      <p class="meta"><a href="${esc(s.source_url)}" target="_blank" rel="noopener">${esc(s.source || "source")}</a>${s.registration_source_url ? ` · registration: <a href="${esc(s.registration_source_url)}" target="_blank" rel="noopener">${esc(s.registration_source || "source")}</a>${s.registration_as_of ? `, ${fmtDate(s.registration_as_of)}` : ""}` : ""}</p>
+    </div>`;
+  }
+  async function renderEarlyVote() {
+    $app.innerHTML = `<h1>Early vote</h1><div class="loading">Loading…</div>`;
+    if (!EARLY) { try { const r = await fetch(dataUrl("early_vote.json"), { cache: "no-store" }); EARLY = r.ok ? await r.json() : null; } catch (e) { EARLY = null; } }
+    if (!location.hash.startsWith("#early")) return;
+    if (!EARLY || !(EARLY.states || []).length) { $app.innerHTML = `<h1>Early vote</h1><div class="callout">No early vote data yet. It updates each morning during early voting.</div>`; return; }
+    $app.innerHTML = `
+      <h1>Early vote</h1>
+      <p class="sub">Early ballots by party registration, compared with each state's registration and, where reported, the same point in a prior cycle. Updated each morning through Election Day.</p>
+      <div class="callout"><strong>Read with care.</strong> ${esc(EARLY.caveat)} Mail ballots have skewed Democratic since 2020, so the change versus a prior cycle says more about enthusiasm than the raw gap.</div>
+      <div class="ev-grid">${EARLY.states.map(s => evCard(s, (EARLY.history || {})[s.state])).join("")}</div>
+      ${(EARLY.problems || []).length ? `<h2>Not available today</h2><div class="card"><ul class="list">${EARLY.problems.map(p => `<li class="meta">${esc(p)}</li>`).join("")}</ul></div>` : ""}
+      <p class="meta" style="margin-top:12px">Updated ${new Date(EARLY.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}.</p>`;
   }
 
   // ------------------------------------------------------------------ brief
