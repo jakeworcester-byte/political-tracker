@@ -41,7 +41,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-05",
+   "as_of": "2026-10-12",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -385,17 +385,32 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-12",
+   "date": "2026-10-13",
    "race": "SEN-TX",
    "races": [
+    "SEN-TX"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Republicans Promoted a False Rumor That James Talarico Was in Ohio",
+   "url": "https://www.nytimes.com/2026/10/12/us/politics/james-talarico-ohio-texas-senate-race.html",
+   "summary": "The Democratic nominee for Senate in Texas spent nine days off the trail with what he and his campaign said was a bad case of the flu. His opponents fueled rumors, including one that spread widely before it was debunked.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS",
     "SEN-TX"
    ],
    "type": "podcast",
    "source": "The Megyn Kelly Show",
    "lean": "right",
-   "title": "Talarico's Mystery \"Flu\" Absence, NYC ICE Shooting, New White House Press Secretary: AM Update 10/12",
+   "title": "Crucial KS Senate Race, Elon's $366M Midterm Spree, Trump Weighs Firing Guilfoyle: AM Update 10/13",
    "url": "https://www.siriusxm.com",
-   "summary": "Democratic U.S. Senate candidate James Talarico of Texas is facing questions about his extended absence from the campaign trail after a controversial audio recording fuels speculation about his whereabouts, drawing denials from Talarico and an Ohio mental health facility. An ICE shooting in New York",
+   "summary": "Democrats pour millions into Kansas as new polling shows Republican Senator Roger Marshall locked in a tight race against Democrat Adam Hamilton, raising the possibility of a historic upset - Kansas Reflector politics reporter Tim Carpenter weighs in. Elon Musk emerges as the largest known donor of ",
    "relevant": true
   },
   {
@@ -424,6 +439,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": 0,
+   "p": -2.2
+  },
+  {
+   "date": "2026-10-13",
    "c": 0,
    "p": -2.2
   }

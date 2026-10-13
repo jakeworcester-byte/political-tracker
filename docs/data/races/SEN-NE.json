@@ -39,9 +39,9 @@
    "name": "Inside Elections"
   },
   "rcp": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-05",
+   "as_of": "2026-10-12",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-12",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Politico",
+   "lean": "unrated",
+   "title": "Crypto megadonors to boost Ricketts in Nebraska Senate race",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdWJ2dzFNZlZDU1ZmMEFRVHAzdDFLYVhsSVlkOEgtWjU0ZDEtYmxhWDBBa20zTmRIR1RyMkR3LWJPQUtXaElRR3d3cFl5N0diaGRWSkl5b2VJTmdTMXJnY3pCazRzbEU3NXl3b0hIbzNrQk5BcUVEcmJXcEd4b0VpelY5ZWQ5cWZvdUZMRTJ1aDNCSk5SaVhPOXhlUTc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NE",
  "history": [
   {
@@ -152,6 +168,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-13",
    "c": 2,
    "p": -1.0
   }

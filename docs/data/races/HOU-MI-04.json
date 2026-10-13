@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-09",
-   "race": "HOU-MI-04",
-   "races": [
-    "HOU-MI-04"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Michigan 4th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQanVMOTFkUWdwdVpWZEVHSXNyZ21JXy1uNW81eVFEaDFRSGRmUC1HR2RMYndSM2FicUdLbTFRbFVycUk5T3dBUHlMTkxUOEU1X1EteEd0OU52Yk9oTjllWFdTNURLeDlsTVZ4S3dBWmNuRTJMcjVkbFhJZmo4UlVMSmc5TQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-04",
  "history": [
   {
@@ -114,6 +98,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-13",
    "c": 0,
    "p": null
   }

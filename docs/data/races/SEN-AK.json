@@ -41,7 +41,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-05",
+   "as_of": "2026-10-12",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -237,6 +237,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-13",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "WMBF",
+   "lean": "unrated",
+   "title": "Pres. Trump to campaign for Alaska Sen. Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYVM0RzBEeWd1QnljZGhRdTl4M1dmVE1hUjVZbHFIT0lLRzhIOGJsVGR5VXI5ZENjOGl6cmJNSnJROHg5OF9YZzFQUFZEMzFhdjlJSDRoYXpkdVdnUGdTUXF1VzlWNVdlNWQ2cC1UbXRYa0xZTHlpRFMtRmpFLXEzMGFR0gGWAUFVX3lxTE1VUVR6Zkh5MkR0UUxDdUFIVE9Qa1cxYUx0TEpuYU5IWmFfUzhRSFpGSjlJZ28xSTVVVjBSUm83cFpBU3d3T1FhbUozbi03am4wOW5vcEw1MDR2Qk5XNlZwZzhZWW1FNHVpVE9lUEZHVE94NTNjVGdjRkNZOFF6TGJjR1JnQ0FRdzVJS3pJTi0yNVJmQjJQUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Newsweek",
+   "lean": "unrated",
+   "title": "Mary Peltola Leads Alaska Polls as Trump Schedules Rally for Dan Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ0pfSHVRRl9Ea0JaWlJHY1h6UHVnWlpodm5HU1VxMnJBd2VHS21YSTROZzljNTBpYXpLbjBvaHhOU1RUcDFzUTFpSnpDNzNKd05UdmtiQURQWnpTVGMwOEVPRGxEMDVBRUtmUXM2R3dINFFENWczUnd0dlVnOHQ2WUl3a2wtRXRSX3VxbnEzVmk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-09",
    "race": "SEN-AK",
    "races": [
@@ -247,21 +277,6 @@
    "lean": "unrated",
    "title": "Alaska Senate Race 2026 Odds | Peltola vs Sullivan Polls & Kalshi & Polymarket Alaska Senate Race Prices",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX1dkUFdZbV95VXpoemhGRy0yamlJMG5zZmE5N3Jza01MdlhpaG1LS0VUWFdQOWptc1FrS2lMQkRidU9mZFdIckpEeUk0X0ZQRWJLOGJtZUMtRG16b25tdm0xeUlxN05Uelg3VzNCU1dnNlRNdVhuRVNlQkJjUVExUThudWRMeTdGVW1NWmpyS3BvSHUzNjVMTzBRV1JJTl9mQUhWWEFMZHEyTGlGZm5TemdaZzBLbVBPMEtFbkJZTGNzU1pBREFNSWdxXzh3QQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-08",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "Alaska Senate Primary Election 2026 Live Results",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOV9vLUFvb3Z2Y2Fjb0pUd0Q2RHQwcU55ZVk5SEJXM3J2RWdhZ3FlZWVqc3BaYlV1RHN3ZWhROU1ZUy1icXBQSTVwcVdXcTZVMWZRR2dfT00ydVZsdDVGekkyMHlpM08yTi0xN2FpaDh2eDFRUHhRYjVLUlB6WEhmWUlwdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -276,6 +291,11 @@
   },
   {
    "date": "2026-10-12",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-13",
    "c": 0,
    "p": -0.8
   }
