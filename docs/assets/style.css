@@ -119,3 +119,17 @@ table.ratings th { color: var(--muted); font-weight: 600; font-size: 12.5px; }
 .back { display: inline-block; margin-bottom: 10px; color: var(--muted); text-decoration: none; font-size: 14px; }
 .callout { background: var(--surface-2); border-radius: var(--radius); padding: 12px 14px; font-size: 14px; color: var(--muted); }
 code { font-family: var(--mono); font-size: 13px; background: var(--surface-2); padding: 1px 5px; border-radius: 5px; }
+
+/* early vote */
+.ev-grid { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
+@media (min-width: 720px) { .ev-grid { grid-template-columns: 1fr 1fr; } }
+.ev-head { margin-bottom: 6px; }
+.ev-row { margin: 8px 0; }
+.ev-lab { font-size: 12.5px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.ev-bar { margin: 4px 0 3px; height: 12px; }
+.bar .ev-o { background: var(--surface-2); background: color-mix(in srgb, var(--muted) 30%, var(--surface)); }
+.ev-nums { font-size: 13px; color: var(--muted); }
+.ev-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 10px 0 4px; padding-top: 10px; border-top: 1px solid var(--line); }
+.ev-facts .label { color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; font-weight: 600; }
+.ev-big { font-size: 22px; font-weight: 700; }
+.ev-stale { opacity: .75; }

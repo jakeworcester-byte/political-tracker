@@ -43,6 +43,12 @@ Markets
 - A material race event: candidate withdrawal, major scandal, debate, large ad buy, high-profile endorsement, court ruling affecting the ballot, or a redistricting change.
 - Generic ballot or presidential approval moving 1.5 points or more in the average since the last run.
 
+## Early vote
+
+- Early ballots by party registration are participation signals, never vote counts. Never write that a party is "winning" the early vote.
+- Mail ballots have skewed Democratic since 2020, so the change versus the same point in a prior cycle is the headline; the raw gap versus registration is context.
+- Every early vote number carries its state, source link, and as-of date. Sources are state election offices, the UF Election Lab, or major outlets reporting official numbers; never social media accounts.
+
 ## Hard guardrails
 
 1. Every factual claim in a brief traces to a stored signal with a URL. No unsourced claims. If you cannot cite it, cut it.
@@ -60,7 +66,8 @@ Markets
 1. Bottom line: two or three sentences on the state of both chambers.
 2. What moved: rating changes, poll shifts, market swings since yesterday, each with a number and a source.
 3. Races to watch today: three to five, one line each.
-4. What the spectrum is saying: a short left / center / right read of commentary, labeled by lean.
-5. Talking points: two or three things worth being able to say in conversation today.
-6. Coverage note: one line on sources that failed, or "all sources reported."
-7. Link to the site.
+4. Early vote (through Election Day): two to four lines on early ballots by party versus registration and versus the same point in a prior cycle, sourced and dated. Party registration is not party vote; say so.
+5. What the spectrum is saying: a short left / center / right read of commentary, labeled by lean.
+6. Talking points: two or three things worth being able to say in conversation today.
+7. Coverage note: one line on sources that failed, or "all sources reported."
+8. Link to the site.

@@ -1,0 +1,67 @@
+{
+ "generated_at": "2026-10-13T22:34:54.352845+00:00",
+ "run_date": "2026-10-13",
+ "season": {
+  "start": "2026-09-18",
+  "end": "2026-11-03"
+ },
+ "caveat": "Party registration is not party vote. These are participation signals: who is returning early ballots compared with who is registered, and with the same point in a prior cycle when reported.",
+ "states": [
+  {
+   "state": "NC",
+   "name": "North Carolina",
+   "as_of": "2026-10-11",
+   "measure": "absentee by mail + in-person early ballots cast (accepted)",
+   "total": 28304,
+   "in_person": 0,
+   "ballots_share": {
+    "D": 44.68,
+    "R": 16.73,
+    "Other": 38.6
+   },
+   "registration_share": {
+    "D": 29.58,
+    "R": 29.57,
+    "Other": 40.85
+   },
+   "registration_from_source": true,
+   "turnout_pct": {
+    "D": 0.54,
+    "R": 0.2,
+    "Other": 0.34
+   },
+   "source": "NC State Board of Elections daily absentee and early voting statistics (PDF)",
+   "source_url": "https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-12%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf",
+   "prior": {
+    "cycle": "2022",
+    "total": 36763
+   },
+   "automated": true,
+   "gap_vs_registration": {
+    "D": 15.1,
+    "R": -12.8,
+    "Other": -2.2
+   },
+   "ballot_margin": 27.9,
+   "registration_margin": 0.0,
+   "overperformance": 27.9,
+   "pace_vs_prior_pct": 77.0
+  }
+ ],
+ "problems": [],
+ "history": {
+  "NC": [
+   {
+    "run_date": "2026-10-13",
+    "as_of": "2026-10-11",
+    "total": 28304,
+    "ballot_margin": 27.9,
+    "overperformance": 27.9,
+    "margin_change_vs_prior": null,
+    "share_D": 44.68,
+    "share_R": 16.73,
+    "share_Other": 38.6
+   }
+  ]
+ }
+}

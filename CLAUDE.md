@@ -9,9 +9,11 @@ A daily, automated intelligence feed on the 2026 midterms for Jake Worcester. A 
 ```
 config/sources.json     every source with a lean tag and an enabled flag; feeds, APIs, Google News template
 config/candidates.json  party map for candidates the analyzer cannot resolve from the incumbent (open seats)
+config/early_vote.json  early vote season, research states, registration baselines with sources
 config/rubric.md        scoring, thresholds, guardrails, brief shape (versioned; the routine reads it)
 scripts/collect.py      fetch everything -> data/raw/<date>/*.json + coverage.json   (stdlib only)
 scripts/analyze.py      raw -> docs/data/latest.json, history.json, races/*.json, data/bundle/<date>.md|json
+scripts/early_vote.py   NC daily report + routine research -> docs/data/early_vote.json + Early vote digest section
 scripts/publish.py      data/briefs/<date>.md -> docs/data/latest.json brief + docs/data/briefs/
 data/raw/<date>/        raw pulls, kept for diagnosis
 data/bundle/<date>.md   the digest Claude reads before writing the brief (movers, tracked races, signals by lean)
@@ -26,6 +28,8 @@ ROUTINE_PROMPT.md       the exact prompt the cloud Routine runs, version-control
 ```bash
 python3 scripts/collect.py            # ~2-4 min; exit 2 if either ratings table failed (core failure)
 python3 scripts/analyze.py            # instant; prints movers/tracked/unresolved counts
+# Claude researches other states' early vote -> data/early_vote/research/<date>.json (through Election Day)
+python3 scripts/early_vote.py         # NC auto-fetch + merge; appends the Early vote section to the digest
 # Claude reads data/bundle/<date>.md and config/rubric.md, writes data/briefs/<date>.md
 python3 scripts/publish.py            # validates the brief, folds it into docs/data
 git add -A && git commit -m "Daily update <date>" && git push origin HEAD:main

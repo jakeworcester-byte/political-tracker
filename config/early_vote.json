@@ -1,0 +1,73 @@
+{
+  "_comment": "Early vote tracker settings. Party registration is not party vote: these are participation signals only. The routine reads this before its research step. Registration baselines carry their source and as-of date; refresh a baseline only from an official state election office (or a named voter-file vendor when the state publishes none), and update its as_of and source_url when you do.",
+  "season": {
+    "start": "2026-09-18",
+    "end": "2026-11-03"
+  },
+  "auto_sources": {
+    "NC": {
+      "name": "NC State Board of Elections daily absentee and early voting statistics (PDF)",
+      "url_template": "https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/{date}%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf",
+      "note": "Published daily. Contains registration by party, ballots cast by party, and the same-point 2022 total. Fetched by scripts/early_vote.py; no research needed."
+    }
+  },
+  "research_states": {
+    "_comment": "States the routine researches each morning (bounded). Only states with party registration (or primary-based affiliation, labeled as such) can be compared to registration. Find each state's official early-vote report by search; do not guess URLs.",
+    "FL": {
+      "name": "Florida"
+    },
+    "PA": {
+      "name": "Pennsylvania"
+    },
+    "ME": {
+      "name": "Maine"
+    },
+    "IA": {
+      "name": "Iowa"
+    },
+    "NV": {
+      "name": "Nevada"
+    },
+    "NJ": {
+      "name": "New Jersey"
+    },
+    "OH": {
+      "name": "Ohio",
+      "affiliation_note": "Ohio has no party registration; affiliation is the party of the last primary voted in. Label it that way."
+    },
+    "AZ": {
+      "name": "Arizona"
+    },
+    "CA": {
+      "name": "California"
+    }
+  },
+  "registration": {
+    "NC": {
+      "D": 29.58,
+      "R": 29.57,
+      "Other": 40.85,
+      "as_of": "2026-10-11",
+      "source": "NC State Board of Elections daily absentee report",
+      "source_url": "https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-12%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf",
+      "note": "Overwritten automatically from each day's NC report."
+    },
+    "FL": {
+      "D": 30.12,
+      "R": 41.54,
+      "Other": 28.34,
+      "as_of": "2026-07-31",
+      "source": "Florida Division of Elections, active voters by party",
+      "source_url": "https://dos.fl.gov/elections/data-statistics/voter-registration-statistics/voter-registration-reports/voter-registration-by-party-affiliation/"
+    },
+    "PA": {
+      "D": 42.59,
+      "R": 41.07,
+      "Other": 16.34,
+      "as_of": "2026-10-13",
+      "source": "L2 voter file via Independent Voter Project (vendor, not the state)",
+      "source_url": "https://independentvoterproject.org/voter-stats/pa",
+      "note": "Replace with Pennsylvania Department of State weekly registration figures when the routine can reach them."
+    }
+  }
+}
