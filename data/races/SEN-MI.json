@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-13",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -483,6 +483,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-13",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Why an El-Sayed win in Michigan is important for Ocasio-Cortez",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcUNGcVhPa1d6NHI0OEY1amVIM1l6V1ZoUklQeGFHRzJKdEtvTm1tSnZpS21TSVZJS1hWZF84T1duMXZVYURwTFBmR2IxVElkRzBXYXNjcWdVemFjdXI4dE85WFRfVlZjYVl3cWwtbFhQM0Y5cU9td3k1VXBrMjQ3N3pYMkJGRzVX?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "JNS.org",
+   "lean": "unrated",
+   "title": "Israeli, Lebanese leaders keep asking about Michigan Senate race, US senator says",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMzVVSXJkd2RCWWNSR2x3VWdNNzBRRUdKdnBnRWgzbTFkVTJNdDhlblpoYjlmVGRVUmt6Z1JteVRMSGNHLW9DWEdtRFNVNWN1WExQWHk1ZDNtT25NZThNUFlXblpKNFg0QUtoOXBuX01VRmFpUnhZYzJlT0FxVWMzUGpmVG9IRFdqWS1heEEzUGhQdFQxSm12ckxUMzUyXzdFdkc3M1NOR3diUi1qWmVRNjBRNA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-12",
    "race": "SEN-MI",
    "races": [
@@ -496,82 +526,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-12",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Jewish Insider",
-   "lean": "unrated",
-   "title": "Israeli, Lebanese leaders expressed interest in Michigan Senate race, Sen. Lankford says",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY0NfVUlBZllPVVBOWnNoYXVYWF9pTzNIblhuRDB5T2d0VVN1MjdiMUJDUUZPLWRfS0lCaWIyc0dwbnN2XzF4RGl3ZzNzTHlaSEs0MWF3azB6QXdWQVU4UUd0SC1RV05hOHZYUWp0TDhVWTluTUNaVktVeGpvOXdNQk5MVnJJdURVWWVNdTFPYlVvblB1Q0FiWWxLVkdYMXpSNW8tcFlSVENydHRo?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Politico",
-   "lean": "unrated",
-   "title": "Mike Rogers opens the door for AIPAC support in Michigan Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3BLdHNtVHRfcHVJUDJlMmR2MmRuUDV0RFVBTXNXYzhkOE5NSzRZSnZEYzBza2ctZURkb2tWNzV2ODlrQ1VkWGc1TDl4NUlFdF94VmI1ZU51Nnpob3cxWWQxNEg3UGV4a1ZKY1VlQUhBX0lHd0R4Y0p4NWs2QkM0Mzd5WHJnb25Ldi1tTWJsX0pNUzhiVjIzWjlEWVRqUmFOb0g4?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "FOX 2 Detroit",
-   "lean": "unrated",
-   "title": "Special coverage: Michigan Senate race debate in Grand Rapids",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeTJTRjBEOERJTUF6QnFQaHEzdTFpaFJ1QkJvU1B3ZTZrN3R0a0k5MlRjWTU4clc4YTRwN2ZRSWJqckNhTWk4N0V1RFJtT3lQODY5NTUwOEZlX0hUaUdFaks5ZGgxcVJ6bHNSajZGeUVibHBoR01wU1N1Q2pGdUFFME1zdVItaS1ZR2NENEZJWU1hZ1dYbnIyYkpKYnZvRmtkc1E?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Al Jazeera",
-   "lean": "unrated",
-   "title": "Key takeaways from US Senate debate in Michigan between El-Sayed, Rogers",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaFViVVBNRTJGQW1qTndiQ3Z5RG1BQlJIU19LcUVOaWlERGUydWxtZ0Y0XzRSTWxhOTJJTWMyN3NHYmdXT1NENWVvNjdDU01VWGttY2FYMUJzdVA3OFZDLWo3NWhhZGtpSUJhUS1ad0ZGRzJnbDlVN1E1UHhRVFVkVUZJbUJoaC1uTUNOVXJqYlVMYWp6ZXJZZkNuSHFLbFd0cnREN1Ixcks5NU9jT01kOXpR0gG3AUFVX3lxTE5MVzJ6Yl9iX3hqM3QzTUNjcEtPalVVVUFHZlZObUw3QWJUQ1ROdnZXa0JXR2VfSzJsQUFSQlg1Nm1sVi1kTk82NGdjWjA2OTU4SjdwX2h4RWtrcjJnYlZ5aFpXb1BnWm5ueWVSZ19YUWZ5LXZlYmc5R1lKU2puNVE5SWgzQkhQZ1NmdlZjbHJJa1ppdXhfRWpSdnFGaVpLejJucm4zZFNfWDROM1hnZzY5eGlESnk4OA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-07",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME",
-    "SEN-MI",
-    "SEN-TX"
-   ],
-   "type": "podcast",
-   "source": "Ruthless",
-   "lean": "right",
-   "title": "El-Sayed's Deleted Tweets: The DSA Ties He's Hiding From Voters + AG Blanche Joins the Progrum",
-   "url": "",
-   "summary": "Ruthless breaks down the latest Senate battlegrounds in Michigan, Maine, and Texas and exposes Abdul El-Sayed’s past ties to the DSA. Attorney General Todd Blanche joins the progrum to discuss parental rights, election integrity, crime, and the DOJ. #RuthlessPodcast #Midterms #Politics 0:00:00 Intro",
-   "relevant": true
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MI",
@@ -588,6 +542,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": -2,
+   "p": -3.9
+  },
+  {
+   "date": "2026-10-14",
    "c": -2,
    "p": -3.9
   }

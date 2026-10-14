@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-13",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -365,6 +365,66 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-14",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "Rutland Herald",
+   "lean": "unrated",
+   "title": "Election 2026 Iowa Senate",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2VXUVhNYWtrUEhwdWRJVWtrZmt0VW5lT0xoTUhoT0cwZ3VUcEZTUHhFNWhuTGVGQjJTYXl3eWtvTWlTQkFKUGU0ZUhaY291eF9NdEZKa1dmSmtGa1U2WHo0VkdxTnRxdk9RQmpsOFVzcFN0alFWX0h1cE82ZmJ3OV90YlRyaTk5bFVRNEVDTC1TdkJLREctLU9CS3EwR21FSG9zbTVmNnlQNG5WT1Q2V1BMd0ZMUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Election Dispatches: Protests Interrupt Trump’s Texas Rally, and Iowa Senate Candidates Spar at Debate",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lR0lSS3VaTWhHaUEyOExfZEJnZC02Qzk5ckRBUF9DRVd0VVFkeDNjb0IzQkFpVlEtdUlSbjY5VnBDNmZOc3p3VXNVRkI3VXVvQnhfblZHRXZkVmdsYnhkVzliUFV2b2pVb2E2U1ZnRnF4OG1C?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Hinson, Turek tangle in fierce final Iowa Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOREYteXBWNXJSZ1lCR3FiTk04OXN4c0xwUHd1UDhRY0xKS0tCNUdMekpqclAtRjFyVXJBdjdwWVRpXzJ1ZGZPZkhTbjh4VFdzSDJDU0tjdS1wMmlza0JIR1dFcTVSMHl6d05Ga1RaeXktWU4tY2ticWJhWTl4a21ycWFvVS3SAYoBQVVfeXFMTm9BQW5fdnEzR1pMakFvTWFDWURWNUZ3eEJESWgyVzlQazcxX1ZKWE1ndzQ0dTN6YlRBX3BJajhHWnRHRWh3bWxnd2ZhOEZNZ09OQ2ptcW5KSzdOakdMV0hRUWdOUTEtNnNpU0VxeXo0Mzc4S1BsNkhGbUIwQ0hPWE5FYmhnaWRydGlB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "NewsNation",
+   "lean": "unrated",
+   "title": "Iowa Senate candidates face off in second debate",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZWRjTDZjaUFQZzR0dzc0QmZHSTVWRlQ0cU1mbjA2QmUxVlQ5aWZuYk1GRmNxdlpUMnpvTUQ1cW5yZjgtRjl2VW5Qd05Gc2sxNnBiNUhzc2J6dWFDUG93bzMzMTJHQzhYc3pPOFlxQV9lSDBYbjZrQ2FtbjVEdWVzVHlEMEd4cGRLaXF4ZUFkTTZZR0lKSlhlSWREUmYyTUkw0gGmAUFVX3lxTE11Sk1vVGdNNHE4WW0zM29jd2w5TVBHTVdLbEZxTzNkaVJtUHJhT2tRNkhsWTRHMDg5SXBrb1FOblVfNDdsbU1iN2tKWFlCM2hnc3E4d1pndkFyazN5UGItSF9mV0N5VGYxSVdSdVAtMFJ3QWN6anBfNHFNM3lQU3EzVVdxMXNaMU9ZdGlxTVN2VkRoZUxKQnZta1BWSTRpWXZuVWZIYmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-09",
    "race": "SEN-IA",
    "races": [
@@ -394,6 +454,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-14",
    "c": 0,
    "p": -0.5
   }

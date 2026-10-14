@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-13",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -90,35 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": -1.0,
-  "average_label": "D+1.0",
-  "n_polls": 1,
+  "average_margin": 1.0,
+  "average_label": "R+1.0",
+  "n_polls": 2,
   "window_days": 45,
   "latest": {
-   "pollster": "GBAO Strategies",
-   "sponsors": [
-    "Working Class Majority PAC"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-09-03",
-   "end_date": "2026-09-08",
+   "pollster": "National Public Affairs",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-02",
+   "end_date": "2026-10-05",
    "sample_size": 800,
    "population": "lv",
-   "margin": -1.0,
-   "margin_label": "D+1.0",
+   "margin": 3.0,
+   "margin_label": "R+3.0",
    "answers": [
     {
      "choice": "Pete Ricketts",
-     "pct": 46.0
+     "pct": 49.0
     },
     {
      "choice": "Dan Osborn",
-     "pct": 47.0
+     "pct": 46.0
     }
    ],
-   "url": "https://www.washingtonsun.com/newsletters/panic-week"
+   "url": "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_100926.pdf"
   },
   "polls": [
+   {
+    "pollster": "National Public Affairs",
+    "end_date": "2026-10-05",
+    "margin": 3.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_100926.pdf",
+    "answers": [
+     {
+      "choice": "Pete Ricketts",
+      "pct": 49.0
+     },
+     {
+      "choice": "Dan Osborn",
+      "pct": 46.0
+     }
+    ]
+   },
    {
     "pollster": "GBAO Strategies",
     "end_date": "2026-09-08",
@@ -140,9 +157,24 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
+ "raw_poll_count": 2,
+ "trend": "Toward R",
  "signals": [
+  {
+   "date": "2026-10-13",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Nebraska Examiner",
+   "lean": "unrated",
+   "title": "Cost of living looms over Nebraska Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1jSHYyeUVxaTdpeG5lLXlILUNKYUdBWWREZU4wRFFhdkxXUnM1cFFBUXJaUy1JakRudXN1UzNCdnFqTldnUG9kSDBoT1ZCUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-12",
    "race": "SEN-NE",
@@ -175,6 +207,11 @@
    "date": "2026-10-13",
    "c": 2,
    "p": -1.0
+  },
+  {
+   "date": "2026-10-14",
+   "c": 2,
+   "p": 1.0
   }
  ]
 }

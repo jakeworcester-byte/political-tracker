@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-13T22:34:54.352845+00:00",
- "run_date": "2026-10-13",
+ "generated_at": "2026-10-14T10:10:11.070449+00:00",
+ "run_date": "2026-10-14",
  "season": {
   "start": "2026-09-18",
   "end": "2026-11-03"
@@ -10,45 +10,57 @@
   {
    "state": "NC",
    "name": "North Carolina",
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "measure": "absentee by mail + in-person early ballots cast (accepted)",
-   "total": 28304,
+   "total": 29469,
    "in_person": 0,
    "ballots_share": {
-    "D": 44.68,
-    "R": 16.73,
-    "Other": 38.6
+    "D": 44.63,
+    "R": 16.66,
+    "Other": 38.71
    },
    "registration_share": {
-    "D": 29.58,
-    "R": 29.57,
+    "D": 29.59,
+    "R": 29.56,
     "Other": 40.85
    },
    "registration_from_source": true,
    "turnout_pct": {
-    "D": 0.54,
-    "R": 0.2,
-    "Other": 0.34
+    "D": 0.56,
+    "R": 0.21,
+    "Other": 0.36
    },
    "source": "NC State Board of Elections daily absentee and early voting statistics (PDF)",
-   "source_url": "https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-12%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf",
+   "source_url": "https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-13%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf",
    "prior": {
     "cycle": "2022",
-    "total": 36763
+    "total": 41672
    },
    "automated": true,
    "gap_vs_registration": {
-    "D": 15.1,
-    "R": -12.8,
-    "Other": -2.2
+    "D": 15.0,
+    "R": -12.9,
+    "Other": -2.1
    },
-   "ballot_margin": 27.9,
+   "ballot_margin": 28.0,
    "registration_margin": 0.0,
-   "overperformance": 27.9,
-   "pace_vs_prior_pct": 77.0
+   "overperformance": 28.0,
+   "pace_vs_prior_pct": 71.0,
+   "day_change": "D-R ballot margin +0.1 pts since 2026-10-11, +1,165 ballots"
   }
  ],
- "problems": [],
+ "problems": [
+  "FL: No 2026 general-election mail or early ballot returns by party found from the Division of Elections or a major outlet; latest party figures found are from the August primary.",
+  "PA: Department of State's daily report not yet found for the general election; only primary-period mail data located.",
+  "IA: Secretary of State absentee-by-party PDFs located only for the June primary; no general-election file found.",
+  "ME: No official general-election absentee returns by party found.",
+  "NV: No official general-election ballot returns by party found.",
+  "AZ: No official general-election early ballot returns by party found.",
+  "CA: No official general-election ballot returns by party found.",
+  "NJ: No official general-election ballot returns by party found.",
+  "OH: No official general-election absentee returns by primary affiliation found.",
+  "ALL: UF Election Lab 2026 tracker (election.lab.ufl.edu/early-vote/2026-early-voting/) renders its state data in-browser; the fetch returned placeholders only (page last updated Oct 13, 10:41pm ET)."
+ ],
  "history": {
   "NC": [
    {
@@ -61,6 +73,17 @@
     "share_D": 44.68,
     "share_R": 16.73,
     "share_Other": 38.6
+   },
+   {
+    "run_date": "2026-10-14",
+    "as_of": "2026-10-12",
+    "total": 29469,
+    "ballot_margin": 28.0,
+    "overperformance": 28.0,
+    "margin_change_vs_prior": null,
+    "share_D": 44.63,
+    "share_R": 16.66,
+    "share_Other": 38.71
    }
   ]
  }

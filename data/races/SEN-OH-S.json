@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-13",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -367,6 +367,35 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-14",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "podcast",
+   "source": "Ruthless",
+   "lean": "right",
+   "title": "The Early Vote Totals Are Not What You Expect: Midterm Update",
+   "url": "",
+   "summary": "What do the early votes tell us about Republicans' chances in November? Ruthless breaks down the latest early voting numbers in Ohio, Michigan, North Carolina, and Florida, revealing what they mean for the midterms. Plus, new polling on the economy, Vicente Gonzalez’s questionable campaign spending,",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "WKYC",
+   "lean": "unrated",
+   "title": "President Trump returns to Ohio as Brown-Husted Senate race draws national attention",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbERRYk14Nlc5UEdnTVhQYjB2d0xVRXdtblprMjNwTVRWaTFyTVJnR1NmMmxaaDZUM1ZueUxic0RsLTVXNzY2Y3RaNmUtdzZTSEpNVzRscDJhS2oxdkdZN1FuYXFOblpJZmpsMHVLMW9KaFA2b3MzOUZ2Q2lYVDItQ1pfa1k4aEZHeTNRSF96WlkwRm8tV0JNZFZVUDY3X195YXRvRWVjRkZfZ0hTdXBrT0JEZGFjZnVmeHV5eFFxcF9LaG5fdWdzazFaZGdmd2xjYmdWaFItNWEwTGVWMTNyczk1bTc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-12",
    "race": "SEN-OH-S",
    "races": [
@@ -377,21 +406,6 @@
    "lean": "unrated",
    "title": "Mailers promoting a socialist candidate in Ohio Senate race have links to MAGA super PAC vendor",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONVRNcHI5b3A0eUpOM1pKTFM2RElOODZmS1BzTW1fSEhxdF9TUldZbDZEMG5WRHY5SEw3cFVaT1poTUpCNmdyckstTWpNb0paNDF1dGNPWUJ5czY4LTdfN3R4bHE0eFBkNWoxZWluR3NTTXJqenU4NUFfWUJrZkg5THIyQlhZM3owZ3hRQXF0SVhTbmxtUDA4TF9tUWdSX293enF2dTA0SGtDVk5wdGdWZFZXSEg0UTVWOVZ4RzlsWG40SzBLeU1rNVcxc0lpZ9IB0wFBVV95cUxPUDZwanNZalZ0WXFVTzN3YTAzaldmbktfdnNmazJmOU9YV0M5a2d5RGNKSDBOVGNTbnJIT001MXBEb1lOYUx5US03T25iTGtVSlFDZVU3cUdCbmNONFdYQUptQnZWTk9ZOEJaYzZJOG1rTHJGcl9KSmpVeFFRWTA1Z0dfNEdaOTNqbEt5Z1VqM3ZBcmdKSDNQX1lSTU1PX3l3VU96LUcyNVVuRk5Td0RKYzlHOEkwLUNJS0pqOHltcVpKdHZKTjl1eXhvcWxZVDdrRFFv?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-08",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Brown holds 6-point lead over Husted in Ohio Senate race survey",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQemNsY0NJMUdFSTh1bXhsWWZFeHdEVUp1dXRSSzBrQVJ0bklJNHd1cnMzcnV4QWp6Sno3b3JsdzMwV0ZreDF4emRGLXJFZDBTemE0ZXU4bUpmTU1na05WemhiUGEzMFBLekpENkxwa2hpZzg0QS02dzVSZElPQUNwcdIBhgFBVV95cUxOM1RvdVlKSTNFVlNuV050dDRzM1lESXZreFVBQkswQ183VDF6aXBSblk4Z3VFNU92dW5mNXRUWnhkTkpzY3pWVzZqbkRkU3BGUkRMVFE2eUR4R0t5OUdib1pkcy1NYU82T3hreHhtazVsWnVDMFVTODMyb1U0OHFmd2ZCNmxnUQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -411,6 +425,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": 0,
+   "p": -2.5
+  },
+  {
+   "date": "2026-10-14",
    "c": 0,
    "p": -2.5
   }

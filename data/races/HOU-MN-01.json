@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-09-22",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -1.0,
-  "average_label": "D+1.0",
-  "n_polls": 1,
-  "window_days": 45,
+  "average_margin": -1.5,
+  "average_label": "D+1.5",
+  "n_polls": 2,
+  "window_days": 21,
   "latest": {
-   "pollster": "GBAO Strategies",
+   "pollster": "SurveyUSA",
    "sponsors": [
-    "House Majority PAC"
+    "KAAL-TV"
    ],
-   "partisan": "DEM",
-   "start_date": "2026-09-18",
-   "end_date": "2026-09-21",
-   "sample_size": 500,
+   "partisan": null,
+   "start_date": "2026-10-04",
+   "end_date": "2026-10-09",
+   "sample_size": 565,
    "population": "lv",
-   "margin": -1.0,
-   "margin_label": "D+1.0",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
    "answers": [
     {
      "choice": "Brad Finstad",
-     "pct": 46.0
+     "pct": 44.0
     },
     {
      "choice": "Jake Johnson",
-     "pct": 47.0
+     "pct": 46.0
     }
    ],
-   "url": "https://bsky.app/profile/the-downballot.com/post/3mwbqbuzrn22f"
+   "url": "https://results.surveyusa.com/client/PollReport.aspx?g=3605b38b-d541-4db4-9d70-f6d4875faeb8"
   },
   "polls": [
+   {
+    "pollster": "SurveyUSA",
+    "end_date": "2026-10-09",
+    "margin": -2.0,
+    "n": 565,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://results.surveyusa.com/client/PollReport.aspx?g=3605b38b-d541-4db4-9d70-f6d4875faeb8",
+    "answers": [
+     {
+      "choice": "Brad Finstad",
+      "pct": 44.0
+     },
+     {
+      "choice": "Jake Johnson",
+      "pct": 46.0
+     }
+    ]
+   },
    {
     "pollster": "GBAO Strategies",
     "end_date": "2026-09-21",
@@ -140,7 +159,7 @@
    }
   ]
  },
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MN-01",
@@ -159,6 +178,11 @@
    "date": "2026-10-13",
    "c": 3,
    "p": -1.0
+  },
+  {
+   "date": "2026-10-14",
+   "c": 3,
+   "p": -1.5
   }
  ]
 }
