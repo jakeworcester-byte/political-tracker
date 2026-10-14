@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-13",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -237,16 +237,31 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-14",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "The Guardian",
+   "lean": "unrated",
+   "title": "Trump urges Alaskans to vote for the ‘real’ Dan Sullivan in tight midterms battle",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTnF4M0J4eHVzQW5HWjl0amh2SW8tcWNlQUZMTmduTy15ZTFmd05rSnpMUTl2Y1J1Y1BfZm1xRmN2aGxRVThSUUZPX3FqbFR3NUtwTlZ3UEM5Ym5heGU1V1hycWtLTzd2ZUU4UWMxY1N6UVdzR1Jub1hOV25KaUJ1VmFLWDBWbEg5TWx6b3paeFI4Q1p6QldhQTdfZWRQYnZLQzk4NGpwWXdsOE5TRE4xYg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-13",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "WMBF",
+   "source": "Politico",
    "lean": "unrated",
-   "title": "Pres. Trump to campaign for Alaska Sen. Sullivan",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYVM0RzBEeWd1QnljZGhRdTl4M1dmVE1hUjVZbHFIT0lLRzhIOGJsVGR5VXI5ZENjOGl6cmJNSnJROHg5OF9YZzFQUFZEMzFhdjlJSDRoYXpkdVdnUGdTUXF1VzlWNVdlNWQ2cC1UbXRYa0xZTHlpRFMtRmpFLXEzMGFR0gGWAUFVX3lxTE1VUVR6Zkh5MkR0UUxDdUFIVE9Qa1cxYUx0TEpuYU5IWmFfUzhRSFpGSjlJZ28xSTVVVjBSUm83cFpBU3d3T1FhbUozbi03am4wOW5vcEw1MDR2Qk5XNlZwZzhZWW1FNHVpVE9lUEZHVE94NTNjVGdjRkNZOFF6TGJjR1JnQ0FRdzVJS3pJTi0yNVJmQjJQUQ?oc=5",
+   "title": "Mary Peltola raises $17M in Q3 in Alaska’s Senate race",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSFl0Y2Z0RUtEZUlHY294MV9LaEZDR3gyNEdXUUNYcnpwYXRTMkZibm5ld3A5c3JHeTN2RUp2N1lHUzE0U3V0QWFVTDUtZHdXSU1YX29lT0FCc3FIb01PZkVvcEtkb3lWZmF1NUFtM09oZU5oNjE3XzhNb1RvYlZHWTV3ZnljNGVFR1ByMFJQNUdLd0d6ZTJHUDVnQUh2VkF3SHVRUXFsdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -262,21 +277,6 @@
    "lean": "unrated",
    "title": "Mary Peltola Leads Alaska Polls as Trump Schedules Rally for Dan Sullivan",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ0pfSHVRRl9Ea0JaWlJHY1h6UHVnWlpodm5HU1VxMnJBd2VHS21YSTROZzljNTBpYXpLbjBvaHhOU1RUcDFzUTFpSnpDNzNKd05UdmtiQURQWnpTVGMwOEVPRGxEMDVBRUtmUXM2R3dINFFENWczUnd0dlVnOHQ2WUl3a2wtRXRSX3VxbnEzVmk?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Action Network",
-   "lean": "unrated",
-   "title": "Alaska Senate Race 2026 Odds | Peltola vs Sullivan Polls & Kalshi & Polymarket Alaska Senate Race Prices",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX1dkUFdZbV95VXpoemhGRy0yamlJMG5zZmE5N3Jza01MdlhpaG1LS0VUWFdQOWptc1FrS2lMQkRidU9mZFdIckpEeUk0X0ZQRWJLOGJtZUMtRG16b25tdm0xeUlxN05Uelg3VzNCU1dnNlRNdVhuRVNlQkJjUVExUThudWRMeTdGVW1NWmpyS3BvSHUzNjVMTzBRV1JJTl9mQUhWWEFMZHEyTGlGZm5TemdaZzBLbVBPMEtFbkJZTGNzU1pBREFNSWdxXzh3QQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -296,6 +296,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-14",
    "c": 0,
    "p": -0.8
   }

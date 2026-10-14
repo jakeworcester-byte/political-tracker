@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-09-22",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 8,
+ "flip_votes": 9,
  "candidates": {
   "D": [
    "Bob Brooks"
@@ -159,23 +159,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-09",
-   "race": "HOU-PA-07",
-   "races": [
-    "HOU-PA-07"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Pennsylvania 7th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcDVoV0doRlRMMlRva1FUUDBJUGtaSmFvcV9qNDVqb3ZSa3Z0LXh2UEJ6QTlISHk1MU8tb3V5dTJadnZzMTYwMDBfM2Y3SThQUXcyRTVhR3Y0dkNpd2xvUlpCR0lGenpDekE5TlBYZGxLb1ZaZXM2bnNXbU1QVVNhTzhQYzM5WmRI?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-07",
  "history": [
   {
@@ -190,6 +174,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-14",
    "c": -2,
    "p": -5.0
   }

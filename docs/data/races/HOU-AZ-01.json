@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-09-22",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -140,38 +140,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-09",
-   "race": "HOU-AZ-01",
-   "races": [
-    "HOU-AZ-01"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Arizona 1st Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLWV3SlZHWDBWSGRwbW8tdjJoTVE0M05NRjNmVWJqWklOVmlRcVRGT3U4MEtvNG9OYUlCSFVmaDc1bnh5eWlaZDBsUjduM0F3cVJ3S3ZLUkwzbGtjSk0xMDIyX08ybk9xRlVWYVREOWdRT2FHemFiaG5JQldva0ZkRDlR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-08",
-   "race": "HOU-AZ-01",
-   "races": [
-    "HOU-AZ-01"
-   ],
-   "type": "reporting",
-   "source": "KJZZ",
-   "lean": "unrated",
-   "title": "Arizona 1st Congressional District candidates share different views on data centers in debate",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVUxmXzVERXpsU3NoTWNjUk9ubVZqUjI2TUlUUUFXVFdVelp6Z1JRWjJlSEg1NG14OWRTY1RoMlp0S2tJTFJfLXI5ZllzZzFaRVh0NmJNVFhERnZfcU90WlFJMWhSS25qeUIwMHNQN1pYOERaU2JJZ0U0X2szd1NUby1MZWxlNWlUc2VrUklWT2tyLWlHMVhpMGdMajduZm5NdVlsSmduU0xPM01SWFZSNTVqUk42UmlVdkxuNzlGVFpjMHp1bFE2Tk13LTgyZGM?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AZ-01",
  "history": [
   {
@@ -186,6 +155,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": -2,
+   "p": -2.8
+  },
+  {
+   "date": "2026-10-14",
    "c": -2,
    "p": -2.8
   }

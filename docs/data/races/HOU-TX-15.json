@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-09-22",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -163,6 +163,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-13",
+   "race": "HOU-TX-15",
+   "races": [
+    "HOU-TX-15"
+   ],
+   "type": "reporting",
+   "source": "San Antonio Express-News",
+   "lean": "unrated",
+   "title": "Bobby Pulido to play farewell concert as South Texas congressional race heats up - San Antonio Express-News",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSktjSFBTRkdOMURwR1laQlBuMEJXa21MWDJBVzNaQ0RwQ1lua1djcFRudkhiQzZHcmlPVF9PUlJCV2pCbF9xU2JwQWs4aURXVFNoZmgzMFUtM3B1Y0JiQU5BbkdWNEliZ2JQNWdXcVNlc0xDbjMxNXBMZW5JNE5BenMtc3ptSjdzOXAyYktlY0VMdVRrUEppNzVTN3hkbzk5MWpDaVY3V21Hd2c?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-12",
    "race": "HOU-TX-15",
    "races": [
@@ -191,21 +206,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "HOU-TX-15",
-   "races": [
-    "HOU-TX-15"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Texas 15th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM1pBV3hQd0RyNElpT1I3X3lfN3ZudExnYThDMzR3a0dzcThpQ095azdpTnZTb0R3Z2YwT25TRjF5M0xyT25PRkNWVzM2NGprMUtHRG5xcHZoS0ZkZVdxMkJxTmRzZTFLampOV0NpcWZVNVdncFpqcnp6dk5PdkMyVg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-15",
@@ -222,6 +222,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": 0,
+   "p": -13.0
+  },
+  {
+   "date": "2026-10-14",
    "c": 0,
    "p": -13.0
   }

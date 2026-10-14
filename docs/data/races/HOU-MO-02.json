@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-09-22",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -142,7 +142,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-09",
+   "date": "2026-10-13",
    "race": "HOU-MO-02",
    "races": [
     "HOU-MO-02"
@@ -171,6 +171,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-14",
    "c": 2,
    "p": 1.0
   }

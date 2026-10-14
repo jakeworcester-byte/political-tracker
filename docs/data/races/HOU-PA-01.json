@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-09-22",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -144,7 +144,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-11",
+   "date": "2026-10-13",
    "race": "HOU-PA-01",
    "races": [
     "HOU-PA-01"
@@ -159,16 +159,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-08",
+   "date": "2026-10-12",
    "race": "HOU-PA-01",
    "races": [
     "HOU-PA-01"
    ],
    "type": "reporting",
-   "source": "WHYY",
+   "source": "PoliticsPA",
    "lean": "unrated",
-   "title": "Midterms 2026: Bob Harvie vs. Brian Fitzpatrick in PA-01",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOTUta1RsRG9iYW8xa3pBRF9lTmQ3LWdVTF96bXNnVTJRdzdhZkxxb2RmODd5amFTdHFmWFlqbWFjRmxsQkJjUkU5ZTlkaEdMVUFZN3BONzJoS0M1UXZlcXBPNnZnZjBIQXlocDZVeTJfX09DcHFGNDNPUzhsUVBleUUxMnRXOWVn?oc=5",
+   "title": "Internal PA-01 Poll: Fitzpatrick, Harvie Tied at 46%",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04Ymx3RFhhTnYwQUktQmc3al9TbFdyZElwdWFKX2xBb0s2TFppamhzRU9kQ3A4THk4WG5SYzg0VVlSR0RTeVFjblZjeGxkR3hGT082R3dtdHVuak5Ka3k3VFdRcjJ1MVFwWWhqWWM1cGE1S0ZJVlFRZ0pXTlQ2dFE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -188,6 +188,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": 0,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-14",
    "c": 0,
    "p": 1.0
   }

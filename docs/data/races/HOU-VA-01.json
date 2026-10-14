@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-09-22",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -140,38 +140,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-09",
-   "race": "HOU-VA-01",
-   "races": [
-    "HOU-VA-01"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Virginia 1st Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeUdsX0cwWDFiYWpwTXZXa3hPRC1uQ3FlMFRLZkY2NWhOOTdjbVN0ZFNHZE90N3BlQzQ1S1Q2djUwUGtMSHg1anJxT0hfOVhfUmlRbTRGa3huT3E5NUE2Uzh3WERMNU0xUVljQWItdEwxRnAxTElwWE10a0tzY2tnaENHQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "HOU-VA-01",
-   "races": [
-    "HOU-VA-01"
-   ],
-   "type": "reporting",
-   "source": "VPM",
-   "lean": "unrated",
-   "title": "WATCH: VPM News interviews Virginia 1st District’s Shannon Taylor",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY2tDUUZ5N0FyOV92bXZGZTVsM19ScjltN3VNWGE5d0dmODNqOTV1eHR5bXVKNEtrQXNyRmw4bERlYkhGWG5sR1M3V1c4cUVGYm0zT3k5M2pRblU3aEZnd3E1aUlSNlpoX2tYN1Y0Vl9KMlJ6ODBaV2oyeWxBdTBuRXI2UkNZcmppYzRzVQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-01",
  "history": [
   {
@@ -186,6 +155,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": 0,
+   "p": -4.0
+  },
+  {
+   "date": "2026-10-14",
    "c": 0,
    "p": -4.0
   }

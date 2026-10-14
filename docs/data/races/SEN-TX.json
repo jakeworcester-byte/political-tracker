@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-13",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-11",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-13",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-13",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 3,
+ "flip_votes": 2,
  "candidates": {
   "D": [
    "James Talarico"
@@ -90,35 +90,79 @@
   ]
  },
  "poll": {
-  "average_margin": -2.2,
-  "average_label": "D+2.2",
-  "n_polls": 8,
+  "average_margin": -2.0,
+  "average_label": "D+2.0",
+  "n_polls": 6,
   "window_days": 21,
   "latest": {
-   "pollster": "Beacon Research/Shaw & Co. Research",
-   "sponsors": [
-    "Fox News"
-   ],
+   "pollster": "Quantus Insights",
+   "sponsors": [],
    "partisan": null,
-   "start_date": "2026-09-24",
-   "end_date": "2026-09-28",
-   "sample_size": 881,
+   "start_date": "2026-10-09",
+   "end_date": "2026-10-11",
+   "sample_size": 854,
    "population": "lv",
-   "margin": -2.0,
-   "margin_label": "D+2.0",
+   "margin": 0.5,
+   "margin_label": "R+0.5",
    "answers": [
     {
      "choice": "James Talarico",
-     "pct": 51.0
+     "pct": 46.7
     },
     {
      "choice": "Ken Paxton",
-     "pct": 49.0
+     "pct": 47.2
+    },
+    {
+     "choice": "Ted Brown",
+     "pct": 2.2
     }
    ],
-   "url": "https://www.foxnews.com/politics/fox-news-poll-its-lone-star-senate-showdown-between-talarico-paxton"
+   "url": "https://quantusinsights.org/polling/f/texas-senate-paxton-and-talarico-in-a-near-tie"
   },
   "polls": [
+   {
+    "pollster": "Quantus Insights",
+    "end_date": "2026-10-11",
+    "margin": 0.5,
+    "n": 854,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://quantusinsights.org/polling/f/texas-senate-paxton-and-talarico-in-a-near-tie",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 46.7
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 47.2
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 2.2
+     }
+    ]
+   },
+   {
+    "pollster": "ReconMR/Siena University",
+    "end_date": "2026-10-08",
+    "margin": -4.0,
+    "n": 617,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://reconmr.com/wp-content/uploads/2026/10/TXP004-October-Press-Release.pdf",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 48.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 44.0
+     }
+    ]
+   },
    {
     "pollster": "Beacon Research/Shaw & Co. Research",
     "end_date": "2026-09-28",
@@ -332,56 +376,10 @@
       "pct": 44.0
      }
     ]
-   },
-   {
-    "pollster": "Slingshot Strategies",
-    "end_date": "2026-08-24",
-    "margin": -6.0,
-    "n": 1000,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://texaspublicopinionresearch.substack.com/p/new-poll-in-texas-general-election",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 48.0
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 42.0
-     },
-     {
-      "choice": "Ted Brown",
-      "pct": 1.0
-     }
-    ]
-   },
-   {
-    "pollster": "The Texas Politics Project at the University of Texas at Austin/YouGov",
-    "end_date": "2026-08-13",
-    "margin": -3.0,
-    "n": 1218,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://texaspolitics.utexas.edu/blog/new-ut-texas-politics-project-poll-finds-talarico-leading-paxton-abbott-leading-hinojosa-continued-resistance-to-data-centers-2",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 42.0
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 39.0
-     },
-     {
-      "choice": "Ted Brown",
-      "pct": 3.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 22,
+ "raw_poll_count": 24,
  "trend": "Stable",
  "signals": [
   {
@@ -393,40 +391,9 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "Republicans Promoted a False Rumor That James Talarico Was in Ohio",
+   "title": "James Talarico Was Targeted by False Rumor He Was in Ohio",
    "url": "https://www.nytimes.com/2026/10/12/us/politics/james-talarico-ohio-texas-senate-race.html",
    "summary": "The Democratic nominee for Senate in Texas spent nine days off the trail with what he and his campaign said was a bad case of the flu. His opponents fueled rumors, including one that spread widely before it was debunked.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-13",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS",
-    "SEN-TX"
-   ],
-   "type": "podcast",
-   "source": "The Megyn Kelly Show",
-   "lean": "right",
-   "title": "Crucial KS Senate Race, Elon's $366M Midterm Spree, Trump Weighs Firing Guilfoyle: AM Update 10/13",
-   "url": "https://www.siriusxm.com",
-   "summary": "Democrats pour millions into Kansas as new polling shows Republican Senator Roger Marshall locked in a tight race against Democrat Adam Hamilton, raising the possibility of a historic upset - Kansas Reflector politics reporter Tim Carpenter weighs in. Elon Musk emerges as the largest known donor of ",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-07",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME",
-    "SEN-MI",
-    "SEN-TX"
-   ],
-   "type": "podcast",
-   "source": "Ruthless",
-   "lean": "right",
-   "title": "El-Sayed's Deleted Tweets: The DSA Ties He's Hiding From Voters + AG Blanche Joins the Progrum",
-   "url": "",
-   "summary": "Ruthless breaks down the latest Senate battlegrounds in Michigan, Maine, and Texas and exposes Abdul El-Sayed’s past ties to the DSA. Attorney General Todd Blanche joins the progrum to discuss parental rights, election integrity, crime, and the DOJ. #RuthlessPodcast #Midterms #Politics 0:00:00 Intro",
    "relevant": true
   }
  ],
@@ -446,6 +413,11 @@
    "date": "2026-10-13",
    "c": 0,
    "p": -2.2
+  },
+  {
+   "date": "2026-10-14",
+   "c": 0,
+   "p": -2.0
   }
  ]
 }

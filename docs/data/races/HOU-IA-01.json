@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-09-22",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-13",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 9,
+ "flip_votes": 10,
  "candidates": {
   "D": [
    "Christina Bohannan"
@@ -150,7 +150,37 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-13",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Top G.O.P. Groups Pull Support From First House Incumbents",
+   "url": "https://www.nytimes.com/2026/10/13/us/politics/top-gop-groups-pull-support-from-first-house-incumbents.html",
+   "summary": "Two major Republican super PACs are said to be withdrawing cash from the races of the incumbent Representatives Thomas H. Kean Jr. of New Jersey and Mariannette Miller-Meeks of Iowa in an effort to triage the midterm map.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "Dispatch Argus",
+   "lean": "unrated",
+   "title": "Election 2026: Iowa’s 1st congressional district",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOTdlelZaQkdHWWktRy1Jc19WS2JOQThCdzlGS1N5MTc0VEI0el94aVBWVDA3WkZKRTZyUjFkbW1MNDlyWUM0WU51cEs3eVd2TWVOZGFXOGU5Y3ROMkhzb1VRaXdOQ3lBSy1tM1FJdjBMc195SHY3U2dLSXU0UExXbWpYVmFMb0MzWkNqMFB6UXVBX0lpdk8tNmVFZmNPRFpISG13eDZVNndRQmNUbS1rTHZHRk8?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-01",
  "history": [
   {
@@ -165,6 +195,11 @@
   },
   {
    "date": "2026-10-13",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-14",
    "c": -2,
    "p": -5.0
   }
