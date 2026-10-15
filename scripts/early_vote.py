@@ -8,8 +8,10 @@ the same point in a prior cycle when a source reports it.
 Inputs
   * North Carolina: fetched automatically from the State Board of Elections daily
     PDF (registration by party, ballots by party, and the same-point 2022 total).
-  * Other states: data/early_vote/research/<date>.json, written by the routine's
-    bounded research step (see ROUTINE_PROMPT.md). Every entry carries a source URL.
+    The State Board's raw absentee file, a day fresher, supplies the ballot counts when newer.
+  * Every other state with party data: the UF Election Lab's published CSV.
+  * data/early_vote/research/<date>.json, written by the routine's bounded research step
+    (see ROUTINE_PROMPT.md), overrides UF for a state, e.g. to add a same-point prior-cycle figure.
   * Registration baselines: config/early_vote.json.
 
 Outputs
@@ -26,7 +28,9 @@ Never fails the morning run: problems are recorded and the script exits 0.
 from __future__ import annotations
 
 import argparse
+import csv
 import datetime as dt
+import io
 import json
 import os
 import re
@@ -36,6 +40,7 @@ import sys
 import tempfile
 import urllib.error
 import urllib.request
+import zipfile
 import zlib
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -177,6 +182,94 @@ def collect_nc(cfg, run_date, raw_dir, problems):
     return None
 
 
+def collect_nc_raw(cfg, run_date, problems):
+    """Ballots by party from the State Board's raw absentee file, which runs a day ahead of the PDF.
+
+    Counts every ACCEPTED* ballot (mail and one-stop) by the voter's registered party. Only
+    aggregates are kept; the voter-level file is never written to disk.
+    """
+    src = cfg["auto_sources"].get("NC_raw")
+    if not src:
+        return None
+    try:
+        _, data = fetch(src["url"], timeout=90)
+        zf = zipfile.ZipFile(io.BytesIO(data))
+        name = next(n for n in zf.namelist() if n.lower().endswith(".csv"))
+        counts, by_day = {}, {}
+        with zf.open(name) as fh:
+            for row in csv.DictReader(io.TextIOWrapper(fh, encoding="latin-1")):
+                if not (row.get("ballot_rtn_status") or "").startswith("ACCEPTED"):
+                    continue
+                try:
+                    day = dt.datetime.strptime(row.get("ballot_rtn_dt") or "", "%m/%d/%Y").date()
+                except ValueError:
+                    continue
+                if day > run_date:  # data-entry typos dated in the future
+                    continue
+                p = {"DEM": "D", "REP": "R"}.get(row.get("voter_party_code"), "Other")
+                counts[p] = counts.get(p, 0) + 1
+                by_day[day] = by_day.get(day, 0) + 1
+    except Exception as e:
+        problems.append(f"NC raw absentee file: {e.__class__.__name__}: {e}")
+        return None
+    total = sum(counts.values())
+    if not total:
+        problems.append("NC raw absentee file: no accepted ballots found")
+        return None
+    # As-of is the latest return date with a real day's volume, not a stray single record.
+    as_of = max(d for d, n in by_day.items() if n >= max(25, total // 1000))
+    return {"as_of": as_of.isoformat(), "total": total,
+            "ballots_share": {k: round(100.0 * counts.get(k, 0) / total, 1) for k in PARTIES},
+            "source": src["name"], "source_url": src["page"]}
+
+
+def collect_uf(cfg, run_date, raw_dir, problems, skip_fetch=False):
+    """Every state's early ballots by party from the UF Election Lab's published CSV."""
+    src = cfg["auto_sources"].get("UF")
+    if not src:
+        return []
+    cached = os.path.join(raw_dir, "early_vote_uf.csv")
+    if skip_fetch:
+        if not os.path.exists(cached):
+            return []
+        data = open(cached, "rb").read()
+    else:
+        try:
+            _, data = fetch(src["url"])
+        except Exception as e:
+            problems.append(f"UF Election Lab CSV: {e.__class__.__name__}: {e}")
+            return []
+        os.makedirs(raw_dir, exist_ok=True)
+        open(cached, "wb").write(data)
+    names = {**{k: v.get("name") for k, v in cfg["research_states"].items() if isinstance(v, dict)}}
+    out = []
+    for r in csv.DictReader(io.StringIO(data.decode("utf-8", "replace"))):
+        def n(k):
+            try:
+                return int(float(r.get(k) or 0))
+            except ValueError:
+                return 0
+        st, total = r.get("state_abbv"), n("voted_all")
+        d, rep, none = n("voted_dem"), n("voted_rep"), n("voted_none")
+        if not st or total < src.get("min_ballots", 1000) or not (d + rep):
+            continue  # no party data, or too few ballots to mean anything
+        try:
+            as_of = dt.datetime.strptime(r.get("last_update") or "", "%m/%d/%Y").date().isoformat()
+        except ValueError:
+            as_of = None
+        affiliation = cfg["research_states"].get(st, {}).get("affiliation_note") if isinstance(cfg["research_states"].get(st), dict) else None
+        e = {"state": st, "name": names.get(st) or r.get("state") or st, "as_of": as_of,
+             "measure": f"early ballots cast (mail {n('accept_all'):,}, in person {n('inperson_all'):,})",
+             "total": total, "ballots_share": {"D": round(100.0 * d / total, 1), "R": round(100.0 * rep / total, 1), "Other": round(100.0 * none / total, 1)},
+             "source": f"{src['name']} (state data: {r.get('data_source') or 'state election office'})", "source_url": src["page"],
+             "share_of_2022_turnout_pct": round(100.0 * total / n("turn_2022"), 1) if n("turn_2022") else None,
+             "automated": True}
+        if affiliation:
+            e["note"] = affiliation
+        out.append(e)
+    return out
+
+
 # ---------------------------------------------------------------- merge + derive
 def derive(entry, reg):
     """Add gap-versus-registration fields. Shares are percentages of ballots."""
@@ -222,6 +315,8 @@ def bundle_section(run_date, states, problems, research_missing):
             parts.append(f"margin change vs {e['prior'].get('cycle', 'prior')} same point: {'+' if e['margin_change_vs_prior'] >= 0 else ''}{e['margin_change_vs_prior']} toward {'D' if e['margin_change_vs_prior'] >= 0 else 'R'}")
         if e.get("pace_vs_prior_pct") is not None:
             parts.append(f"volume {e['pace_vs_prior_pct']:.0f}% of {e['prior'].get('cycle', 'prior')} same point")
+        if e.get("share_of_2022_turnout_pct") is not None:
+            parts.append(f"equal to {e['share_of_2022_turnout_pct']:.1f}% of the state's total 2022 general-election turnout (not a same-point comparison)")
         if e.get("day_change"):
             parts.append(f"since yesterday: {e['day_change']}")
         if e.get("note"):
@@ -232,7 +327,7 @@ def bundle_section(run_date, states, problems, research_missing):
     for p in problems:
         lines.append(f"- Problem: {p}")
     if research_missing:
-        lines.append("- Research file for other states was missing today; only North Carolina is automated.")
+        lines.append("- No research file today; other states come from the UF Election Lab feed only (no same-point prior-cycle comparisons).")
     return "\n".join(lines) + "\n"
 
 
@@ -275,6 +370,19 @@ def main():
                  "prior": {"cycle": "2022", "total": nc["prior_same_point_total"]} if nc.get("prior_same_point_total") else None,
                  "automated": True}
         states.append(entry)
+    # The raw ballot file is usually a day fresher than the PDF; prefer its ballot counts.
+    nc_raw = None if args.skip_fetch else collect_nc_raw(cfg, run_date, problems)
+    if nc_raw and (not nc or nc_raw["as_of"] > (nc.get("as_of") or "")):
+        base = states.pop() if nc else {"state": "NC", "name": "North Carolina", "automated": True,
+                                        "registration_share": {k: cfg["registration"]["NC"].get(k) for k in PARTIES}, "registration_from_source": True}
+        if base.get("prior") and nc and nc.get("total"):
+            # The 2022 same-point total belongs to the PDF's date, so keep it only as a dated note.
+            base["note"] = f"PDF report through {nc['as_of']}: {nc['total']:,} ballots, {100.0 * nc['total'] / base['prior']['total']:.0f}% of the 2022 same point"
+        base.update({"as_of": nc_raw["as_of"], "total": nc_raw["total"], "ballots_share": nc_raw["ballots_share"], "prior": None,
+                     "measure": "accepted mail + in-person early ballots", "in_person": None,
+                     "source": nc_raw["source"], "source_url": nc_raw["source_url"]})
+        states.append(base)
+    uf = collect_uf(cfg, run_date, raw_dir, problems, skip_fetch=args.skip_fetch)
 
     # Other states, from the routine's research step
     rpath = os.path.join(ROOT, "data", "early_vote", "research", f"{ds}.json")
@@ -295,8 +403,19 @@ def main():
                 e["registration_source"], e["registration_as_of"], e["registration_source_url"] = reg.get("source"), reg.get("as_of"), reg.get("source_url")
             e.setdefault("name", cfg["research_states"].get(st, {}).get("name", st))
             states.append(e)
+    # UF Election Lab fills every state the research file did not cover (NC stays on its own source).
+    have = {e["state"] for e in states}
+    for e in uf:
+        if e["state"] not in have:
+            reg = cfg["registration"].get(e["state"])
+            if reg:
+                e["registration_source"], e["registration_as_of"], e["registration_source_url"] = reg.get("source"), reg.get("as_of"), reg.get("source_url")
+            states.append(e)
+    have = {e["state"] for e in states}
+    if not research_missing:
         for u in research.get("unavailable", []):
-            problems.append(f"{u.get('state')}: {u.get('reason', 'no party data found')}")
+            if u.get("state") not in have:  # a state UF covered is not a problem
+                problems.append(f"{u.get('state')}: {u.get('reason', 'no party data found')}")
 
     for e in states:
         derive(e, cfg["registration"].get(e["state"]))

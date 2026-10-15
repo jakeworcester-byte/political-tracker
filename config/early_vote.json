@@ -9,6 +9,19 @@
       "name": "NC State Board of Elections daily absentee and early voting statistics (PDF)",
       "url_template": "https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/{date}%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf",
       "note": "Published daily. Contains registration by party, ballots cast by party, and the same-point 2022 total. Fetched by scripts/early_vote.py; no research needed."
+    },
+    "NC_raw": {
+      "name": "NC State Board of Elections absentee data file (accepted ballots by voter party)",
+      "url": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_20261103.zip",
+      "page": "https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/",
+      "note": "Refreshed early each morning, about a day ahead of the PDF. Used for ballot counts; the PDF still supplies registration and the 2022 same-point total. Only party aggregates are kept."
+    },
+    "UF": {
+      "name": "UF Election Lab early vote tracker",
+      "url": "https://election.lab.ufl.edu/data-downloads/earlyvote/2026/US.csv",
+      "page": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+      "min_ballots": 1000,
+      "note": "Every state's early ballots (mail + in person) by party where the state reports party, with the state's own data source and last-update date. Attribution required; non-commercial use. No same-point prior-cycle figures."
     }
   },
   "research_states": {

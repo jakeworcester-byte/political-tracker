@@ -275,7 +275,8 @@
       s.total ? `<div><div class="label">Ballots</div><div class="ev-big">${s.total.toLocaleString()}</div></div>` : "",
       s.overperformance != null ? `<div><div class="label">D–R margin vs registration</div><div class="ev-big" style="color:${s.overperformance >= 0 ? "var(--dem)" : "var(--rep)"}">${signed(s.overperformance)}</div><div class="note">${mlabel(s.ballot_margin)} among ballots vs ${mlabel(s.registration_margin)} registered</div></div>` : "",
       s.margin_change_vs_prior != null ? `<div><div class="label">Margin vs ${esc(prior.cycle)} same point</div><div class="ev-big" style="color:${s.margin_change_vs_prior >= 0 ? "var(--dem)" : "var(--rep)"}">${signed(s.margin_change_vs_prior)}</div><div class="note">positive = more Democratic</div></div>` : "",
-      s.pace_vs_prior_pct != null ? `<div><div class="label">Volume vs ${esc(prior.cycle)} same point</div><div class="ev-big">${Math.round(s.pace_vs_prior_pct)}%</div></div>` : ""
+      s.pace_vs_prior_pct != null ? `<div><div class="label">Volume vs ${esc(prior.cycle)} same point</div><div class="ev-big">${Math.round(s.pace_vs_prior_pct)}%</div></div>` : "",
+      s.share_of_2022_turnout_pct != null ? `<div><div class="label">Share of total 2022 turnout</div><div class="ev-big">${s.share_of_2022_turnout_pct}%</div><div class="note">whole-election total, not same point</div></div>` : ""
     ].join("");
     return `<div class="card ev-card${s.stale ? " ev-stale" : ""}">
       <div class="ev-head"><div class="item-title">${esc(s.name || s.state)}</div><div class="meta">${esc(s.measure || "early ballots")} · as of ${fmtDate(s.as_of)}${s.stale ? ' · <span class="pill gray sm">not updated today</span>' : ""}${s.automated ? ' · <span class="pill gray sm">automated</span>' : ""}</div></div>

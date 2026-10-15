@@ -1,6 +1,6 @@
 # Routine prompt: Midterm Tracker morning run
 
-This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-10-13a (adds the daily early vote tracker, steps 1b and 1c).
+This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-10-15a (early vote: UF Election Lab feed and NC raw ballot file automated; research step is now a short supplement).
 
 ## How the routines are wired
 
@@ -30,9 +30,9 @@ python3 scripts/analyze.py
 
 If `collect.py` exits with code 2, both ratings tables failed. Retry once after 60 seconds. If it fails again, skip to step 6 and write a failure notice instead of a brief.
 
-## 1b. Early vote research (bounded, about 10 minutes)
+## 1b. Early vote research (optional supplement, about 5 minutes)
 
-Through Election Day (`config/early_vote.json` → `season.end`), research today's early-vote party breakdown for the states listed under `research_states` in `config/early_vote.json`. North Carolina is automated in step 1c; do not research it.
+Through Election Day (`config/early_vote.json` → `season.end`), step 1c already pulls every state's early ballots by party from the UF Election Lab's published CSV and North Carolina from the State Board's raw ballot file. Do not re-research those numbers. Research is only for what the feed lacks: a **same-point prior-cycle comparison** (for example a state report or major outlet giving the 2022 figure at the same point) for a `research_states` state. If you find nothing in a few searches, skip this step; a missing research file is fine. Do not try to scrape the tracker page itself or any page behind a bot challenge.
 
 - Use WebSearch and WebFetch. At most about 15 fetches in total. If those tools are not available in this session, write the file below with `"states": []` and one `unavailable` entry saying so, and move on.
 - Allowed sources, in order of preference: the state election office's own report or data file; the UF Election Lab tracker (election.lab.ufl.edu); major outlets reporting the official numbers (AP, Reuters, CNN, NBC, ABC, CBS, NYT, WSJ, Washington Post, Politico, or the leading local outlet in that state). Never use social media posts, partisan blogs, or campaign press releases as the source of a number.
@@ -57,7 +57,7 @@ Through Election Day (`config/early_vote.json` → `season.end`), research today
 python3 scripts/early_vote.py
 ```
 
-This fetches North Carolina's daily State Board of Elections report, merges your research file, computes each state's gap versus registration and versus the prior cycle, updates `docs/data/early_vote.json` (the site's Early vote tab), and appends an "Early vote" section to today's digest. It never fails the run; problems are listed in the digest.
+This fetches North Carolina's daily State Board of Elections report and raw ballot file, the UF Election Lab's state-by-state CSV, merges your research file (which overrides UF for a state), computes each state's gap versus registration and versus the prior cycle, updates `docs/data/early_vote.json` (the site's Early vote tab), and appends an "Early vote" section to today's digest. It never fails the run; problems are listed in the digest.
 
 ## 2. Read the digest
 
@@ -71,7 +71,7 @@ Write `data/briefs/<today>.md` following the brief shape in `config/rubric.md`. 
 
 - Title line: `# Midterm brief: <Weekday, Month D>`.
 - Sections, in order, as `## ` headings: Bottom line; What moved; Races to watch today; Early vote (through Election Day); What the spectrum is saying; Talking points; Coverage note. End with a line linking the site: https://jakeworcester-byte.github.io/political-tracker/
-- **Early vote**: two to four lines from the digest's Early vote section. Lead with the change versus the same point in a prior cycle where one exists, then the gap versus registration, each with its source link and as-of date. Always say these are party registrations, not votes. Name a large day-over-day move only if the digest lists it. If no state reported today, write one line saying so.
+- **Early vote**: two to four lines from the digest's Early vote section. Lead with the change versus the same point in a prior cycle where one exists, then the gap versus registration, each with its source link and as-of date. Always say these are party registrations, not votes. Name a large day-over-day move only if the digest lists it. If no state reported today, write one line saying so. With many states reporting, pick the large states and the states with tracked Senate races (one combined line is fine), and name the original state source when the figure came through the UF Election Lab.
 - Under 600 words. Readable in two minutes on a phone.
 - Every number carries its source and date; every factual claim is followed by a link in parentheses or Markdown link form. Use the URLs from the digest. No unsourced claims.
 - "What moved" uses only the movers the digest lists. If the digest says nothing crossed a threshold, write one line saying so and move on. Do not manufacture drama.
