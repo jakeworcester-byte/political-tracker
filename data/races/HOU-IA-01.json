@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -152,18 +152,19 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-13",
+   "date": "2026-10-14",
    "race": "HOU-IA-01",
    "races": [
     "HOU-IA-01"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Top G.O.P. Groups Pull Support From First House Incumbents",
-   "url": "https://www.nytimes.com/2026/10/13/us/politics/top-gop-groups-pull-support-from-first-house-incumbents.html",
-   "summary": "Two major Republican super PACs are said to be withdrawing cash from the races of the incumbent Representatives Thomas H. Kean Jr. of New Jersey and Mariannette Miller-Meeks of Iowa in an effort to triage the midterm map.",
-   "relevant": true
+   "source": "WQAD",
+   "lean": "unrated",
+   "title": "Iowa's 1st Congressional District race tightens ahead of midterm election",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOYlRqenhlVFAxclMwMTJwSnptc3M3N09yOWM3el9WV203SEhENHp4c2RhUHZqV0J3aWJBRnFzNHp6TkxrVkdSdnAxekRQZ3A1VW1Oc1ZUbDA2akxIYUNJaHRFUm9NdW4wTURTaTA4SUhYY2VfQUpHMnZVMFYyRWpmb09QcVNJbld5M19fSFpYSlJENTlfdlZZSnJwZnM4dmZNdE1fQm1tQk5yNjdJdGVmRUd5akpXNndJYWVBd2pydVVjSnp3UGItVnVFQWJtdzhsaTFNQTduOUxZdUs1Q2RncHpSemtqRUdKMHBQQzVRLUtQR1NGNW5ZQ1VJdDlBS2lsUzFXSmNR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-13",
@@ -200,6 +201,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-15",
    "c": -2,
    "p": -5.0
   }

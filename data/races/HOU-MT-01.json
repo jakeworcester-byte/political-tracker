@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -150,7 +150,53 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-13",
+   "race": "HOU-MT-01",
+   "races": [
+    "HOU-MT-01"
+   ],
+   "type": "reporting",
+   "source": "Montana Free Press",
+   "lean": "unrated",
+   "title": "Montana’s 1st Congressional District U.S. House Debate",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSnl4ZllLUzBzd0NZaFJRdzBmMVVpUE1MWUJVMzNqekdjd3UxYjFnSTIxLXJQRnBoMnIzMmhTQXVtaUcyWjNHYnQzc2hJMTZCWG5HV1ItZm9oUUlLOHlndFFucGFvcVl0S3lycGpPeGZqNnFXbnJUSUdudkpWRUpaaVNWX1dxSnhWRXZpbHVKY0Ytd3JDTHM2dlVIclIzaHc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "HOU-MT-01",
+   "races": [
+    "HOU-MT-01"
+   ],
+   "type": "reporting",
+   "source": "C-SPAN",
+   "lean": "unrated",
+   "title": "Montana 1st Congressional District Debate - C-SPAN",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTExhSFRmSTJ6VEJ5N2YwTDY2U0tnME9xOEE1NWVhSXpXVE11V3Fla3VJdHd5OWVCeERMamVHU3o2c1RwZVY1ak1lbnd2TTZKYURDdlIwRkRodEVXNVNzZnc4eWZIN1UzUjhWS0ZIa2h6ZUVNVkNxMm9fMmhadnlJVVdnVGY1em5XSVVvYnpTNjN2eGo0dEE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "HOU-MT-01",
+   "races": [
+    "HOU-MT-01"
+   ],
+   "type": "reporting",
+   "source": "KTVH",
+   "lean": "unrated",
+   "title": "Republican Aaron Flint touts Montana roots in western congressional district race",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU0xFQW45TTFxdlFja2cweGE1d1RFYkRxeXNZaHk0eGk3c19SNWdhNzVxQnJNdEZURkZNaHlNcjVWZk5IU09qV1cwUEVCUmIzNFhlMGFSa3Q0WUN2Wk5uOFNEdHJ5YTIzbHd5ZG9ILUE4VnFiVWlMN1VXc1JTOXNWN0xMUkd0M3BVamM5QV8zT0hiZGJROHFVOW1GekM5b2hTT3VIMzYxTV9ESTVpRkExTVQzckZxcmhENHg5ZVo5ZGEtdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
   {
@@ -170,6 +216,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": 2,
+   "p": 0.5
+  },
+  {
+   "date": "2026-10-15",
    "c": 2,
    "p": 0.5
   }

@@ -45,9 +45,9 @@
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-14",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-14",
    "name": "Split Ticket"
   }
  },
@@ -75,10 +75,10 @@
  "key": "SEN-NH",
  "name": "New Hampshire Senate",
  "incumbent_note": "",
- "consensus_score": -2,
- "consensus": "Lean D",
+ "consensus_score": -3,
+ "consensus": "Likely D",
  "disagreement": false,
- "tracked": true,
+ "tracked": false,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
@@ -258,7 +258,7 @@
   ]
  },
  "raw_poll_count": 11,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NH",
  "history": [
@@ -280,6 +280,11 @@
   {
    "date": "2026-10-14",
    "c": -2,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-15",
+   "c": -3,
    "p": -7.0
   }
  ]

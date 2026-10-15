@@ -47,7 +47,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-14",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-14",
    "name": "Split Ticket"
   }
  },
@@ -383,7 +383,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-13",
+   "date": "2026-10-15",
    "race": "SEN-TX",
    "races": [
     "SEN-TX"
@@ -391,9 +391,23 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "James Talarico Was Targeted by False Rumor He Was in Ohio",
-   "url": "https://www.nytimes.com/2026/10/12/us/politics/james-talarico-ohio-texas-senate-race.html",
-   "summary": "The Democratic nominee for Senate in Texas spent nine days off the trail with what he and his campaign said was a bad case of the flu. His opponents fueled rumors, including one that spread widely before it was debunked.",
+   "title": "Vance’s Talarico Attacks Show His Penchant for Personal Broadsides",
+   "url": "https://www.nytimes.com/2026/10/14/us/politics/vance-talarico-attacks.html",
+   "summary": "At a rally in Texas, the vice president suggested the Democratic Senate nominee is gay, a comment criticized as homophobic.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Texas Democrat and Senate hopeful James Talarico faced off with friendly, undecided and skeptical voters during a CNN town hall Wednesday night, five days before early voting starts in Texas",
+   "url": "https://www.wsj.com/politics/elections/five-takeaways-from-james-talaricos-cnn-town-hall-with-texas-voters-971ae916?mod=rss_socialpoliticsfeed",
+   "summary": "The Democratic Senate candidate was pressed on rising costs, religion and trans issues.",
    "relevant": true
   }
  ],
@@ -416,6 +430,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-15",
    "c": 0,
    "p": -2.0
   }

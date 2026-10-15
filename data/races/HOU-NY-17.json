@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -180,7 +180,23 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-15",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "New York Post",
+   "lean": "unrated",
+   "title": "Rep. Mike Lawler rips Cait Conley’s support of sanctuary policies, portrays her as phony New Yorker in fiery final debate",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUG9HYnRSSTg3OGtOR1dLMllzWEJnS3NUdW1RUGIzT3psQ1ZQZmdVUGlCVDF5NURYTWR3UGY3b0ZmdmZncjlVM0E2ZHJEQ0dsM0RQUlpVcmZtbWpvMXR6djVndUNZQzIxeWkwemhKV0VHX2Y5VVJOc3lvc2szcUJ5U21zQ2RGRldPNmhXdGFmaVVvWXVIZUdFRGVmRWd0R0VfSU10MVRtNFg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-17",
  "history": [
   {
@@ -200,6 +216,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-15",
    "c": 0,
    "p": -2.0
   }

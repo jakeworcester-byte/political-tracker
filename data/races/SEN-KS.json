@@ -45,9 +45,9 @@
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-14",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-14",
    "name": "Split Ticket"
   }
  },
@@ -173,22 +173,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-13",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Kansas City Star",
-   "lean": "unrated",
-   "title": "Trump scheduled to visit Kansas amid tight Marshall-Hamilton Senate race",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE00enBQMU9VTjlSZFM4ZDRDdFE1eWowamFxeEN0MVBuTlZtSzFNcHJhV3VCbFh1MExEZTI5NlhWTEF5WGZDbU82M0JxOTlnVEtaQ0ZzMTdLY19SQmhIVXJPSmRvenlodjdWWGVpTHEyS0JlQktjVm1XczllVTZNQdIBfkFVX3lxTE1GZ2JvdUFGdTB3NGJXbEVaNjlidVM1aV9uZTVSMGUxd1VqTUN4c1FVQWtXVUpqVlRqMzhteDlvNzJ2YUpocnRmYW9ETDhGdFJQaTMyeS1aa1NuUG1rQVJpZ0JvRlRHNEl2aE0zay1UUTl1cUNpNW9YNU5sR0hZUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-12",
+   "date": "2026-10-15",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
@@ -196,8 +181,53 @@
    "type": "reporting",
    "source": "KMBC",
    "lean": "unrated",
-   "title": "Kansas Senate race: U.S. Sen. Roger Marshall, Adam Hamilton separated by less than 1 point in new poll",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWHpwaDJ3bGdQMmllLVl4QVZKNXI3c1pDaWlvQ3ZKZkQ3V09oU1QzclVUT25XNE9xYm1COUFzRlY1SVlNVFZzSXBOaUUydHV4d0tUaTN5WWRlRDkwZGx0OTFWNzIzOUZxeGRtRFliRS1XTU42M0xvSWRHLUx0NXdfM1dHSC13cFlJWUFWaGhDRENEd1h0ellJeGxkazByLVU?oc=5",
+   "title": "Sen. Roger Marshall vs. Adam Hamilton: 10 Kansas counties to watch on Election Night",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUTJXUWxES2o2ekg1RzljdlRIUG41R0VyajlrQTVScEl6NDZJcDEtTXdOQjFhR3c3dkw3aTBneHhSYngwWTI1YzU4TmFnRE50cm90VXh1ZFkxMVI1dE0ydFM3akRMNlcwR21mN0dFN014QWRCZmduX1dydm9XbnR0Y3Ria1otSi1wMkdvVVg0N1lCQVBNSThRb0pTUXN3UUxBS09hOC1n?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Sabato’s Crystal Ball shifts Kansas Senate to toss-up",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TODdZSzlBc0tUU19oS2RTOWZ3NkhvcmZtYUpORjZhNkJqTG9jZ2hnMVhRMDJlUHFwbC1aMU9HN1Znb3VyQmdoRU90RUpVZy0wck1fNk11Ynp2QmZrVlFHQ0w4aFJlanRFRHFGRGwwM1JCc1dJblMzbVljNUzSAYIBQVVfeXFMT2Nia2c4YVdZc20wM2lGN2xUR2xqYW14ZW5JYlZCc3FSTVozUUp1QlJjS0ZBTEZKakRMcFF1VHRuUWx4c3lNbU85S09vb3NSLV9Jb2dwcE1ObS02ZW9HYmplZmdrZUtacUNnNE43dEtVamZSR1hPbTBjS0pHaFQtN3lXUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "Kansas City Star",
+   "lean": "unrated",
+   "title": "Marshall enlists veteran GOP strategist as Democrat keeps Kansas Senate race close",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rMi1tdFFGcWlieTlQLW9Bc01zZHN3OG9EN2ZsQ09QWng3b3BEekZSVjNjZjJOR29qWjU3Uksxakx2S1g0QlM5bVFoMTBCQlVjMS1kSEt4anJhdS1yTjdSMHB5VTdPLWxYSXR5TF9ndnBmMlpFMjVYR21pNllWd9IBfkFVX3lxTE9uc2RYWWRKY2MtWGltVVYwd0h3SzMwcmJ4bVVBUE5TYlR5bWRhVlFGZ2ZFb1NxYl9mRmlwNmRZOEZXV2hQZmNCRUN6Q2h5V21VN0xyYktNX0xEUXhremhTOFNsZ0NGSmM4SlpXM2QtTTZObHpkMGhqcnYyQUZBUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "KSN-TV",
+   "lean": "unrated",
+   "title": "Marshall, Hamilton stump in Kansas as midterm election nears - KSN-TV",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdnEzUXdIT0RSb3dzN1lSRGRxTTFYd2ttY3l4Vi04b3FBak5OcjV0c3Q0ak5fUFdjZjZwb3ZNOG1nRldXWkVQeXNhQzdqb2JITTV3eWFUVDNaeUNmYkJqWUE0Vm1US0VYbTZKcllYdzBWRHJhYU01VHBTRUg5TmFNQnoxcHZVOFd5VWI5UEs1bkI4bFVRWFk1UndNYlZua3RrdV9TcUFVYzZfOGFm0gGyAUFVX3lxTE9UVGN6OHl1UmliaVRpcl90YXF3YlV2WWdmNEUxR3lMellPVm1UNjBOWUdpUGJzRGtxRWZSOG4yWG1JUFZraVVrS0FmQ0NfRnlwSnJrT1JubDRyVFFoVjMxcDlXb2dFaEFOdWZ4bFJEWjlwT1VPZGRlQ0xVcUxOcGRHTWNROWtjODVmM2oyUXNSbTg3RzNWM0ZzT3pJMGFlUE5jLW8yVHJXSW5BZTMwNUFmYmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -222,6 +252,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-15",
    "c": 0,
    "p": -2.0
   }

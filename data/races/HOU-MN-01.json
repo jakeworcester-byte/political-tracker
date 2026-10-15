@@ -33,15 +33,15 @@
    "name": "Split Ticket"
   },
   "ddhq": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -75,10 +75,10 @@
  "key": "HOU-MN-01",
  "name": "MN-01",
  "incumbent_note": "",
- "consensus_score": 3,
- "consensus": "Likely R",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
@@ -160,8 +160,39 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-14",
+   "race": "HOU-MN-01",
+   "races": [
+    "HOU-MN-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Minnesota 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "HOU-MN-01",
+   "races": [
+    "HOU-MN-01"
+   ],
+   "type": "reporting",
+   "source": "kaaltv.com",
+   "lean": "unrated",
+   "title": "6 INSIDE: Fact-checking the Minnesota 1st Congressional District debate",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVm9LQlpUSDJIMUoyZ3JNQ3NPNWxvTkdaNkVWMXYxb1JwUDJ3a2JaeFZCT2VhbTJkS09VMkhUN3dscHpYR1doUHA3WE4wVWduNzdKUGpEWXk1emk1ckI3UWdEcVhsNTRFX2JnTVVsZzhMSHUyWDNkTDJCTlVxekhlNklkYXZ3bWNCZVJrTEg4U3NXRmhfWl96WmF1M3djMEto?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MN-01",
  "history": [
   {
@@ -182,6 +213,11 @@
   {
    "date": "2026-10-14",
    "c": 3,
+   "p": -1.5
+  },
+  {
+   "date": "2026-10-15",
+   "c": 2,
    "p": -1.5
   }
  ]

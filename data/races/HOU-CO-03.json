@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,7 +90,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-13",
+   "date": "2026-10-14",
    "race": "HOU-CO-03",
    "races": [
     "HOU-CO-03"
@@ -124,6 +124,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-15",
    "c": 2,
    "p": null
   }

@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,7 +90,22 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-13",
+   "date": "2026-10-15",
+   "race": "HOU-FL-09",
+   "races": [
+    "HOU-FL-09"
+   ],
+   "type": "reporting",
+   "source": "Lakeland Ledger",
+   "lean": "unrated",
+   "title": "In Florida's 9th Congressional District, Darren Soto is a GOP target",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSFI3dnFQR2hyNGhtd0diSHA3cVdKYWlNYjZOejJNZi1vSUM3eW1NNkJNRzFRdlNHUUZDa2pCT0poR3hhQUlZOEc0V0dJc3BJSW5IaEtmMVBCOTQwRUVuNXlPUkhGVVBGcXVHQmJjQjk2VUtMZ1ZDd2czRzFwRWU0TWVnU0JjMGRzN0p1Vm9WdlhsLXZjRDhHcUVPdmtvd005ZnFmZUs1Q1h0THlCYzYxdzJhaFRCRXBnS1F5Z0N2N3BxMTlwNk1Ea3ZCcHV6T0RJcjZKNDAyR0VVcTFfMHRldHJhSXcxVTBnWnVZWWlMbnpWelp6Ymc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
    "race": "HOU-FL-09",
    "races": [
     "HOU-FL-09"
@@ -124,6 +139,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-15",
    "c": 2,
    "p": null
   }

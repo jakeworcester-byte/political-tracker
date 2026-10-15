@@ -47,7 +47,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-14",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-14",
    "name": "Split Ticket"
   }
  },
@@ -351,17 +351,17 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-14",
+   "date": "2026-10-15",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "A Trump Backlash Endangers Susan Collins in the Maine Senate Race",
-   "url": "https://www.nytimes.com/2026/10/14/us/politics/susan-collins-trump-maine-senate.html",
-   "summary": "The race in Maine, which could decide Senate control, is testing whether there is still room for Ms. Collins’s brand of moderation during a sharply polarizing presidency.",
+   "type": "podcast",
+   "source": "The Megyn Kelly Show",
+   "lean": "right",
+   "title": "Maine Senate Race Tightens, OpenAI Engineer Arrested, Diddy's Alleged Prison Fight: AM Update 10/15",
+   "url": "https://www.siriusxm.com",
+   "summary": "Republican Senator Susan Collins is gaining ground in her closely contested reelection race against Democrat Troy Jackson, despite President Trump's low approval rating in Maine and improving Democratic prospects nationwide. A Saudi engineer at OpenAI faces federal criminal charges after allegedly h",
    "relevant": true
   },
   {
@@ -371,12 +371,28 @@
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "5 Takeaways From a Heated and Personal Maine Senate Debate",
-   "url": "https://www.nytimes.com/2026/10/13/us/politics/maine-senate-debate-collins-jackson.html",
-   "summary": "Senator Susan Collins, a Republican, and her Democratic challenger, Troy Jackson, disagreed over the war in Iran and President Trump in the third of four debates in a key race.",
-   "relevant": true
+   "source": "USA Today",
+   "lean": "unrated",
+   "title": "New Maine Senate poll reveals a coin toss between Collins, Jackson",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdmtPb3JaWUE0V0ZHUXpFTTF1bjRSQW5xQkgxS1VBUVptczBrQXdyNTQ1ZlZHcDcyeWk4N3R0SFJnaFJaZ1U5WXczajRwSFdaVTFOck83NEFsNVNzN0lWdktFWS1FOFFSQkRZc20yMTJjNFVPN21GbmFJMFFhNG14dlR3ZURZMlJISjYzdk1XZVkxUEx2US1fc21TVnFjbEJMVjBCdW1rU3F2LVBEWElERWFSNElfZnFQeW1kQ0xSREY?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "A Trump Backlash Endangers Susan Collins in the Maine Senate Race",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNUdRN1djaFhWOEZwaEZYbDRsSmRnOC1LWFdmNGY2UXJCdUxESHhIUl9sZXVIS1VXYndqRjBkTzBVVklxVEN4Z3ZTaFFhdG1FOHh6bFBBWm53eThuQnJaVjlQc3BTU1ZwaWJnbzhhR3lJalZxTGFJd295RURRVmhlMG1xck12TGMzb25FeA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-14",
@@ -394,63 +410,19 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-13",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "newscentermaine.com",
-   "lean": "unrated",
-   "title": "How to watch the Susan Collins-Troy Jackson Senate debate in Maine",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPOXc0ZWtjREhsQmcxSUx2eWYwcW9rTnBZajNVdGJvRkFKcjR0d2U4Rkh3MDVaeG1PVDJqRUp0MUtsQmNHWktHQVFZLWdzbmZhTXREY3JvMDQtYk9nY2ppb3FtaXk5cWlhcm03NFJ4dWYzeURiY1k0ZFE3TFQ3SHhaYzVTNlpwNnV0NEhLN0YycGxMemJPTlRncTFfN0luVlY4emlIYUlNcEs0bWYyVlRLdWFVUDhKNzNsMmgtWlpzWHRyMjR2UkVvTzdSTmp3MHNFeXprZzVoeEVtVzBBV0RmWnRnMzA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-12",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "NBC News",
+   "source": "Oregon Public Broadcasting - OPB",
    "lean": "unrated",
-   "title": "GOP ad buyer mixes up Portlands, spends money meant to help Maine Sen. Susan Collins in Oregon",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU1VnVFpzeDltU0x6SDFyeG4zWEcwNnVCRmhOMFdaMzZqWmFXYlg2aTVVZDdmMk9hSHVTeWFvcFdjRExLdzRGNFFRN0huOWxSUURHcWpGamp1SVJZQ0w1R2IyeW5SXzJDVjF6NUZYa1lpZ2psTGJnVWthMVBaN2wzbjlaaGdTQW1Kdk0wX3gzU0hPOGdoSWhFbU5EWEpNSlFVaWpKdXBRd2pvbC03RUtYbWJsOExzUE1yeURnakhyS3BPUVRxUExj?oc=5",
+   "title": "Oops: GOP group mistakenly bought ad for Maine Senate candidate in wrong Portland - Oregon Public Broadcasting",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY1o5Q24yU0F1RGpVM09uLXZiYkRwMzdKVlV4UnRvNEFGRzlkTlZ5N21NS09jMTVmcjExSkd2LU9nMHBWd2JDY3FZZ0RseGdKU1NsOG1BbzZlQlVkSDFCMk5RNTlhcC10WUFHYTZmZ1FEY3FRMF9tNzB6RnotQTRXWF8xaXZzaUlfcUtkaWtEanFvVjFzSWU1WUFqT1NZdUsxelpmazA3Wmt1R184OUE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-09",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "The Washington Post",
-   "lean": "unrated",
-   "title": "Democrat has edge over Susan Collins in critical Maine Senate battle, poll finds",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWDJ0QU1TcDhjT2pFUmgxcnhzcnJGdnUxSWl1aEI1dnFKT1RMSk1tUmoyNDhTNnk1akpGTUw3OWp3ZThCU1VaZzgtR3F0NlZhNkIxMVZUZ29lOWNYNmRCMmNDWU9HVENYZlk1VFFleUpBdnNoOTdkTWtVbEZUUDd1Yk90TTRseEdSbndRcHRla3VDQXp0Tmw2Z1BoYzVKLU1oQ2NnRDZmV2E1dkhKODBpTmNMN21jeEFiQzJTZ1dyS1ZMcWc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-08",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "podcast",
-   "source": "Ruthless",
-   "lean": "right",
-   "title": "How the Cornell 7 Case Exposed the Media",
-   "url": "",
-   "summary": "Ruthless takes on the media frenzy surrounding the disputed Cornell 7 allegations, AOC’s response, and the growing politicization of justice. Plus, Susan Collins faces Troy Jackson in a heated Maine Senate debate, and Steve Schmidt challenges Adam Kinzinger in King of the Hill. #RuthlessPodcast #Pol",
-   "relevant": true
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-ME",
@@ -472,6 +444,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": 0,
+   "p": -2.1
+  },
+  {
+   "date": "2026-10-15",
    "c": 0,
    "p": -2.1
   }

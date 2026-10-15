@@ -47,7 +47,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-14",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-14",
    "name": "Split Ticket"
   }
  },
@@ -363,7 +363,7 @@
    }
   ]
  },
- "raw_poll_count": 13,
+ "raw_poll_count": 12,
  "trend": "Stable",
  "signals": [
   {
@@ -391,6 +391,21 @@
    "lean": "unrated",
    "title": "President Trump returns to Ohio as Brown-Husted Senate race draws national attention",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbERRYk14Nlc5UEdnTVhQYjB2d0xVRXdtblprMjNwTVRWaTFyTVJnR1NmMmxaaDZUM1ZueUxic0RsLTVXNzY2Y3RaNmUtdzZTSEpNVzRscDJhS2oxdkdZN1FuYXFOblpJZmpsMHVLMW9KaFA2b3MzOUZ2Q2lYVDItQ1pfa1k4aEZHeTNRSF96WlkwRm8tV0JNZFZVUDY3X195YXRvRWVjRkZfZ0hTdXBrT0JEZGFjZnVmeHV5eFFxcF9LaG5fdWdzazFaZGdmd2xjYmdWaFItNWEwTGVWMTNyczk1bTc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "MS NOW",
+   "lean": "unrated",
+   "title": "Opinion | This eye-wateringly expensive Ohio Senate race is the story of the midterm election",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnZmZXlnWTNNOVJfT1FLRTM2emltNnFHNXVqeTlWZ1AzSTdidkp2eG1KNnU1ejl1dDRQNllCbC12dW82N2ZTRTlIdkx6dm82YmJDNDUwWVlZWWZrQTVocnMtaTlRWTFaY3JFUXRhXzVMc01zdzdYT3c5RmRhQXAwZDltcEVDcy14?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -430,6 +445,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": 0,
+   "p": -2.5
+  },
+  {
+   "date": "2026-10-15",
    "c": 0,
    "p": -2.5
   }
