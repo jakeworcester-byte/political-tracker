@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -143,23 +143,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-09",
-   "race": "HOU-CA-48",
-   "races": [
-    "HOU-CA-48"
-   ],
-   "type": "reporting",
-   "source": "10News.com",
-   "lean": "unrated",
-   "title": "Marni von Wilpert leads race for California's redrawn 48th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMVo0QVJFWV9fRjFFa0JTQXNNcm1HWEN1cHU5bG5WNWpjMFkxNG5qWWxubGViRjlPR3dKZ204N1V5dkNuNTdVYUp3WnNIbmppbHlZVlRxc2FGX1VqenJVSkEyaXdiYWpiZ0tUdTRJMTk4VXlPbnc5VmFtVDNueWJyb0ZhU0tFWUlQVURndzU4bEdsMXgtejY3d3lhRUdVdzZEUXFzSUNNQ3oybkdJbjY3eXNxMFRzUXlSZGhBdjhWNG1XbWZmc2YxWWZnLUY4aGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-48",
  "history": [
   {
@@ -179,6 +163,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": -2,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-15",
    "c": -2,
    "p": -3.0
   }

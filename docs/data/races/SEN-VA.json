@@ -47,7 +47,7 @@
   "sabato": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-14",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "st": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-14",
    "name": "Split Ticket"
   }
  },
@@ -82,94 +82,11 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
-  "D": [
-   "Mark Warner"
-  ],
-  "R": [
-   "Bert Mizusawa"
-  ]
+  "D": [],
+  "R": []
  },
- "poll": {
-  "average_margin": -16.5,
-  "average_label": "D+16.5",
-  "n_polls": 2,
-  "window_days": 21,
-  "latest": {
-   "pollster": "The Public Sentiment Institute",
-   "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-06-12",
-   "end_date": "2026-06-16",
-   "sample_size": 996,
-   "population": "rv",
-   "margin": -16.0,
-   "margin_label": "D+16.0",
-   "answers": [
-    {
-     "choice": "Mark Warner",
-     "pct": 48.0
-    },
-    {
-     "choice": "Bert Mizusawa",
-     "pct": 32.0
-    },
-    {
-     "choice": "Mark Moran",
-     "pct": 4.0
-    }
-   ],
-   "url": "https://tpsiofficial.substack.com/p/tpsi-new-tpsi-senate-poll-confirms"
-  },
-  "polls": [
-   {
-    "pollster": "The Public Sentiment Institute",
-    "end_date": "2026-06-16",
-    "margin": -16.0,
-    "n": 996,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://tpsiofficial.substack.com/p/tpsi-new-tpsi-senate-poll-confirms",
-    "answers": [
-     {
-      "choice": "Mark Warner",
-      "pct": 48.0
-     },
-     {
-      "choice": "Bert Mizusawa",
-      "pct": 32.0
-     },
-     {
-      "choice": "Mark Moran",
-      "pct": 4.0
-     }
-    ]
-   },
-   {
-    "pollster": "The Public Sentiment Institute",
-    "end_date": "2026-06-16",
-    "margin": -17.0,
-    "n": null,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://tpsiofficial.substack.com/p/tpsi-new-tpsi-senate-poll-confirms",
-    "answers": [
-     {
-      "choice": "Mark Warner",
-      "pct": 50.0
-     },
-     {
-      "choice": "Bert Mizusawa",
-      "pct": 33.0
-     },
-     {
-      "choice": "Mark Moran",
-      "pct": 3.0
-     }
-    ]
-   }
-  ]
- },
- "raw_poll_count": 6,
+ "poll": null,
+ "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-VA",
@@ -193,6 +110,11 @@
    "date": "2026-10-14",
    "c": -4,
    "p": -16.5
+  },
+  {
+   "date": "2026-10-15",
+   "c": -4,
+   "p": null
   }
  ]
 }

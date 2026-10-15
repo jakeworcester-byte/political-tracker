@@ -45,9 +45,9 @@
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-14",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-14",
    "name": "Split Ticket"
   }
  },
@@ -75,20 +75,232 @@
  "key": "SEN-MN",
  "name": "Minnesota Senate",
  "incumbent_note": "",
- "consensus_score": -3,
- "consensus": "Likely D",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Peggy Flanagan"
+  ],
+  "R": [
+   "Michele Tafoya"
+  ]
  },
- "poll": null,
+ "poll": {
+  "average_margin": -3.3,
+  "average_label": "D+3.3",
+  "n_polls": 3,
+  "window_days": 21,
+  "latest": {
+   "pollster": "GQR",
+   "sponsors": [
+    "Senate Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-10-01",
+   "end_date": "2026-10-04",
+   "sample_size": 800,
+   "population": "lv",
+   "margin": -8.0,
+   "margin_label": "D+8.0",
+   "answers": [
+    {
+     "choice": "Peggy Flanagan",
+     "pct": 50.0
+    },
+    {
+     "choice": "Michele Tafoya",
+     "pct": 42.0
+    },
+    {
+     "choice": "Marisa Simonetti",
+     "pct": 4.0
+    },
+    {
+     "choice": "Rebecca Whiting",
+     "pct": 2.0
+    }
+   ],
+   "url": "https://x.com/DrewSav/status/2108502733045334207"
+  },
+  "polls": [
+   {
+    "pollster": "GQR",
+    "end_date": "2026-10-04",
+    "margin": -8.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/DrewSav/status/2108502733045334207",
+    "answers": [
+     {
+      "choice": "Peggy Flanagan",
+      "pct": 50.0
+     },
+     {
+      "choice": "Michele Tafoya",
+      "pct": 42.0
+     },
+     {
+      "choice": "Marisa Simonetti",
+      "pct": 4.0
+     },
+     {
+      "choice": "Rebecca Whiting",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "Big Data Poll",
+    "end_date": "2026-09-30",
+    "margin": -2.0,
+    "n": 622,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.bigdatapoll.com/blog/lone-star-state-poll-peggy-flanagan-holds-slight-lead-over-michele-tafoya-for-us-senate-in-minnesota/",
+    "answers": [
+     {
+      "choice": "Peggy Flanagan",
+      "pct": 46.0
+     },
+     {
+      "choice": "Michele Tafoya",
+      "pct": 44.0
+     },
+     {
+      "choice": "Rebecca Whiting",
+      "pct": 5.0
+     }
+    ]
+   },
+   {
+    "pollster": "SurveyUSA",
+    "end_date": "2026-09-14",
+    "margin": 0.0,
+    "n": 654,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-governor-senate-races-tightening-days-before-early-voting-starts-in-minnesota/",
+    "answers": [
+     {
+      "choice": "Peggy Flanagan",
+      "pct": 42.0
+     },
+     {
+      "choice": "Michele Tafoya",
+      "pct": 42.0
+     },
+     {
+      "choice": "Marisa Simonetti",
+      "pct": 2.0
+     },
+     {
+      "choice": "Rebecca Whiting",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "Quantus Insights",
+    "end_date": "2026-09-10",
+    "margin": -3.8,
+    "n": 720,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://quantusinsights.org/f/new-quantus-polls-moody-leads-in-florida-flanagan-in-minnesota",
+    "answers": [
+     {
+      "choice": "Peggy Flanagan",
+      "pct": 48.2
+     },
+     {
+      "choice": "Michele Tafoya",
+      "pct": 44.4
+     }
+    ]
+   },
+   {
+    "pollster": "SurveyUSA",
+    "end_date": "2026-08-17",
+    "margin": -5.0,
+    "n": 661,
+    "population": "lv",
+    "partisan": null,
+    "url": "KSTP-TV (St. Paul, Minn.), KAAL-TV (Austin, Minn.), WDIO-DT (Duluth, Minn.)",
+    "answers": [
+     {
+      "choice": "Peggy Flanagan",
+      "pct": 46.0
+     },
+     {
+      "choice": "Michele Tafoya",
+      "pct": 41.0
+     },
+     {
+      "choice": "Marisa Simonetti",
+      "pct": 1.0
+     },
+     {
+      "choice": "Rebecca Whiting",
+      "pct": 1.0
+     }
+    ]
+   }
+  ]
+ },
  "raw_poll_count": 5,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward R",
+ "signals": [
+  {
+   "date": "2026-10-12",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "Star Tribune",
+   "lean": "unrated",
+   "title": "Minnesota Poll: Flanagan holds narrow lead over Tafoya in U.S. Senate race",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRE4tX1NxVC1JY0JmaWNQOVl0cFBMbEtXNXRzVFF0SWF1OUc2ZDFBSXY2ZTFVT0hiUU9SMVZTQU9KSjNiUEU0YUE5enNwUW9fNFdJUGZ0clF4Zm9MaHE5MElhdlJHRFM0UXdRdndpc240U3JEeU94bTZFX1EzTnhZVw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "kare11.com",
+   "lean": "unrated",
+   "title": "Minnesota Poll: Flanagan with narrow lead over Tafoya in U.S. Senate race",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYUM1U29VUHpwU21maHFlaGdDUnhZYUJGTnJxQUFza3k3ZXI1Z3JScXJUZzRNRWhBUWNja2RsLUl6VDYwczRKdkJnOGNhZnNxdGdtVGl4MHFIZl9fWWV5MXljQ0xIbkF4UENmNjg5WENLd0lwOE9nejZEYXlONElOQWhZWDZjdDNDU0RPTkZCRzdHbmhuamM1YUJxRGZEWHBsS1hUSDh0XzF5a1dnYVZTWlpZVWdQUHNMcHJYazZzbUl1QXYySTMtZEU1TFhOUFB2UkNBY0FYT1NEWjkwOVVGMGNkTUdUY0I2QVN2RlA3QnRfY21VN3lUYg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "Forbes",
+   "lean": "unrated",
+   "title": "Hottest 2026 Midterm Races—Democrat Peggy Flanagan Narrowly Leads Republican Michele Tafoya In Minnesota (Updated Daily)",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeXNuVjcya0czLWI2SXgxU1RlOGR1X0lmcUowOEV2ZE5ILWZxMzhfTEhXYzg1RHk4WU9abFdYZW9zbUJCSkswTGFRbFAwZDlia1ZzV1YzeXd5QS1aRnAwZmZVYy0xeHlIbHdLaU9FNWxwdDlva0dDNG05QndVNG5rSzhfZUtoWFFsWXNKanFCNVp6M1o0NnhOQUhkcndYcHVJQ2tGVWEwT2ljR042LWhfUnlpOFdiV3ZiaTFxUl8ycVAxLTlzZklQNkVzU09wUXJSOHBWVGNWVW5ZX0gzNXYwcDBtc0tEM3lMb1Rhb3NKaDJOb1hnc21jX1NuNzg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MN",
  "history": [
   {
@@ -110,6 +322,11 @@
    "date": "2026-10-14",
    "c": -3,
    "p": null
+  },
+  {
+   "date": "2026-10-15",
+   "c": -2,
+   "p": -3.3
   }
  ]
 }

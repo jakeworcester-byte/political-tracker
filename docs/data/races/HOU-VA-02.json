@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-14",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -144,7 +144,22 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-13",
+   "date": "2026-10-14",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "Virginia Mercury",
+   "lean": "unrated",
+   "title": "New poll: In Virginia’s 2nd District, Luria leads Kiggans by 3 points",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWVh3RXZOYlBtTVJmQlBuQjlXWmdLZHdwNVNUejhxN1dBY0ZEN1lWREt4UVVzcUhSd3RpTFZmWFNhaFdsN2pxRlZoc1JaOE83UEtYb3Q3YVhyUVQ3Z0puOGs3Tm9zY1E4SUswblR1VktFdHhLU28xNFNIc2lBQ190OFZzeFUzdVZrUG5WbHRqMy1iWW10aV9PdkktdndjY3d1WUI0RnBGaVNZUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
    "race": "HOU-VA-02",
    "races": [
     "HOU-VA-02"
@@ -154,6 +169,21 @@
    "lean": "unrated",
    "title": "Virginia 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0RzSmlxM2FXU1NWMzdkTGk0c19PM2ZLVG1lNHdJX3BUSVhQUHBZQnFvbUhfN1hrUWs1a2ItSUFtUGdwZVRzd3VsMm5qUGs5cG9CSHE5c0x3Uy1DbWRPN3hsRnp4bTlPU3R3bWVyZUI3bWs1bk9BbEoxSkNneWUwdGJkSQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "13newsnow.com",
+   "lean": "unrated",
+   "title": "CNU survey shows Elaine Luria with 3-point lead over Jen Kiggans in Virginia’s 2nd District",
+   "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPSDZqMUNZRXZqX1N4d1R4Tm9JMWFhZEVnMmFENGZTS1FDUnRLNkVjd3VtR3pmZU1OU21yQUdoSlp0VjhsR0N1R2lsb2JxNVZ2QU9abmFDN3JSVHdNU2JnbUhOdE5lal9ob2hra2RDOWVzcTVQVFNhZVdWRG1nRnJoQ2lMT1lsRm16UlNTdXM5Z1Z4THJaVW1pTUZlNkpTREZ5TGpfYzV4cldTNnVaM2ZlTllkY3NZQmdiaDVIT0VhcGtkUXFpTGdQRmJQdHpqQ3F5ZjkzaE5VX0dpT3lteWtJZUprTGsxOFZkdV95Ri1kdlVzSmhDSF9FVWxXMjl1Mk1FdWI1T0hNUllYTGhaWkNvcm9FVGVDVWNmdHVFWVN4WXZHUFFmTDdONm56dS0xSE5Tb3NFc1N4VnFVc3J0?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -178,6 +208,11 @@
   },
   {
    "date": "2026-10-14",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-10-15",
    "c": -2,
    "p": 0.0
   }
