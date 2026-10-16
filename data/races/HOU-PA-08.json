@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-01",
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 3,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "Paige Cognetti"
@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-15",
+   "race": "HOU-PA-08",
+   "races": [
+    "HOU-PA-08"
+   ],
+   "type": "reporting",
+   "source": "Heartland Signal",
+   "lean": "unrated",
+   "title": "Bresnahan vs. Cognetti: What’s at stake in Pennsylvania’s 8th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR01zbEhfTi1wU01KN3c3blhNRTlBU09OdjFIemQtYzc0YjRVS3hkYWN1d1Y2el9pNk1JWjlxeFVfS0ljY1lyV2hHMkdqVDE2LXZzbkN0MTF1QWNIdjJQM29kcFRnaEljTUF1V0MzQmxrWXRyeXdyN2NBOWhCbFBxTzlQYmlfbFE5VjBPcmRlaTRCLVdCX1VoWnMtbTdPLVhfVVA3a2V6OWVNU0lGN2dndV9GV3JTU0l4NkVTXw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-08",
  "history": [
   {
@@ -167,6 +183,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-16",
    "c": 0,
    "p": -2.0
   }

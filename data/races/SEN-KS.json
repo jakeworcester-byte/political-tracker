@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -33,9 +33,9 @@
    "name": "Fox News Power Rankings"
   },
   "ie": {
-   "rating": "Likely R",
+   "rating": "Tilt R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -173,6 +173,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-16",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The 19th News",
+   "lean": "unrated",
+   "title": "How women’s stories are reshaping a high-stakes Kansas Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd21ESUFaendKR0N0cVlaRkNmaDZyRk9JMzdKV2MxenpBdjdWM1hfN1hFak85RmhodHFRd3lCUWg3LTRWVTYyWml6ZVZWUHBEbFlucXpjZExhbFV4czNzcWl6TGk2TXFoUXJvWi1vNU53MUhtWmtoOXFjS0J5bEZQTTlIelBnYVVr?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "Kansas Reflector",
+   "lean": "unrated",
+   "title": "Election analyst: Candidate quality key to Roger Marshall's slide, Adam Hamilton's rise in Kansas",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNekFMaGtBMDlvNk5OdThkTXlzYS1lcm9aUktzbDBPaVBsVEZQOXV6c1JDV0RSRVI2V3E5clJXQjMtN2dHYi1NQWVyRUVOd2ZYemRsek80eTQ4S2hYUWNiRTlRcHZoOUpVNkxYTVNScnBFbGdhdjlWaFBCYS1MVWxtOS02OFh5TDhxZmMtMFVsUWlKTWlPQ1Z5U3U3YlZ0SVNNdDFzaFJmQWdWcUR3UHlEaWxjVnl5b1pzeEctYS10VkFBaDFWUS1iYVdldV9LUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-15",
    "race": "SEN-KS",
    "races": [
@@ -188,6 +218,21 @@
    "via": "Google News"
   },
   {
+   "date": "2026-10-15",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "Kansas City Star",
+   "lean": "unrated",
+   "title": "Trump’s visit to Kansas could help Marshall overcome tight polls. Or it could sink him",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pdHVIVTIxQVFEelU5a0FCMDVzUU4wSDRvcHRaN2t1dzRIOUl3dnpsRmhiN2ZxRW5oLU1EYWttMnJzRWpDd3BZal9IYkoyQW1oc3lCaWR5YmpubURsTlJaS3ltWUZwWmJkRDcwT0NUamU4ZWNvVWNsZnVvSGt4QdIBfkFVX3lxTE5ORXE4UXhQaVE1R05FVGh0aUI5eFlyd2FKeVRnM2pmMkFreW16MHUyRHVGa01sSjNRQ3ppY3dvZktoUC1OMDhIcU52bUdOYTZGU1dvbVd4RDd1eDZSSVYxYXp1VVgyUkx4M3Jub3JmVzFubXRvSE45cnBsS3NZZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-14",
    "race": "SEN-KS",
    "races": [
@@ -198,36 +243,6 @@
    "lean": "unrated",
    "title": "Sabato’s Crystal Ball shifts Kansas Senate to toss-up",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TODdZSzlBc0tUU19oS2RTOWZ3NkhvcmZtYUpORjZhNkJqTG9jZ2hnMVhRMDJlUHFwbC1aMU9HN1Znb3VyQmdoRU90RUpVZy0wck1fNk11Ynp2QmZrVlFHQ0w4aFJlanRFRHFGRGwwM1JCc1dJblMzbVljNUzSAYIBQVVfeXFMT2Nia2c4YVdZc20wM2lGN2xUR2xqYW14ZW5JYlZCc3FSTVozUUp1QlJjS0ZBTEZKakRMcFF1VHRuUWx4c3lNbU85S09vb3NSLV9Jb2dwcE1ObS02ZW9HYmplZmdrZUtacUNnNE43dEtVamZSR1hPbTBjS0pHaFQtN3lXUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Kansas City Star",
-   "lean": "unrated",
-   "title": "Marshall enlists veteran GOP strategist as Democrat keeps Kansas Senate race close",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rMi1tdFFGcWlieTlQLW9Bc01zZHN3OG9EN2ZsQ09QWng3b3BEekZSVjNjZjJOR29qWjU3Uksxakx2S1g0QlM5bVFoMTBCQlVjMS1kSEt4anJhdS1yTjdSMHB5VTdPLWxYSXR5TF9ndnBmMlpFMjVYR21pNllWd9IBfkFVX3lxTE9uc2RYWWRKY2MtWGltVVYwd0h3SzMwcmJ4bVVBUE5TYlR5bWRhVlFGZ2ZFb1NxYl9mRmlwNmRZOEZXV2hQZmNCRUN6Q2h5V21VN0xyYktNX0xEUXhremhTOFNsZ0NGSmM4SlpXM2QtTTZObHpkMGhqcnYyQUZBUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-13",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "KSN-TV",
-   "lean": "unrated",
-   "title": "Marshall, Hamilton stump in Kansas as midterm election nears - KSN-TV",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdnEzUXdIT0RSb3dzN1lSRGRxTTFYd2ttY3l4Vi04b3FBak5OcjV0c3Q0ak5fUFdjZjZwb3ZNOG1nRldXWkVQeXNhQzdqb2JITTV3eWFUVDNaeUNmYkJqWUE0Vm1US0VYbTZKcllYdzBWRHJhYU01VHBTRUg5TmFNQnoxcHZVOFd5VWI5UEs1bkI4bFVRWFk1UndNYlZua3RrdV9TcUFVYzZfOGFm0gGyAUFVX3lxTE9UVGN6OHl1UmliaVRpcl90YXF3YlV2WWdmNEUxR3lMellPVm1UNjBOWUdpUGJzRGtxRWZSOG4yWG1JUFZraVVrS0FmQ0NfRnlwSnJrT1JubDRyVFFoVjMxcDlXb2dFaEFOdWZ4bFJEWjlwT1VPZGRlQ0xVcUxOcGRHTWNROWtjODVmM2oyUXNSbTg3RzNWM0ZzT3pJMGFlUE5jLW8yVHJXSW5BZTMwNUFmYmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -257,6 +272,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-16",
    "c": 0,
    "p": -2.0
   }

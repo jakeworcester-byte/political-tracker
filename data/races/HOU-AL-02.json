@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -75,10 +75,10 @@
  "key": "HOU-AL-02",
  "name": "AL-02",
  "incumbent_note": "",
- "consensus_score": 3,
- "consensus": "Likely R",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 9,
  "candidates": {
@@ -87,8 +87,24 @@
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-15",
+   "race": "HOU-AL-02",
+   "races": [
+    "HOU-AL-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Alabama 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM3hvQlU3aXliaTVBUzJZTkk0SWl2dWZqYVZRM0xWMG1SN284TGZFYXh4b25SU214cEVBMFVaSlBNWXM3ZElmcTU5eElGTi1CQnBfeG1zQkdRejZ2SWhFWlAxbHVuR3c5dk55Y0lGa0Y5Q1hTSDBGUlRiMTBBREU2Vmpn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AL-02",
  "history": [
   {
@@ -114,6 +130,11 @@
   {
    "date": "2026-10-15",
    "c": 3,
+   "p": null
+  },
+  {
+   "date": "2026-10-16",
+   "c": 2,
    "p": null
   }
  ]

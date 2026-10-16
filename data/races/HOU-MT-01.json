@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Lean R",
+   "rating": "Tilt R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -75,8 +75,8 @@
  "key": "HOU-MT-01",
  "name": "MT-01",
  "incumbent_note": "",
- "consensus_score": 2,
- "consensus": "Lean R",
+ "consensus_score": 1,
+ "consensus": "Tilt R",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -149,7 +149,7 @@
   ]
  },
  "raw_poll_count": 1,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [
   {
    "date": "2026-10-13",
@@ -190,7 +190,7 @@
    "type": "reporting",
    "source": "KTVH",
    "lean": "unrated",
-   "title": "Republican Aaron Flint touts Montana roots in western congressional district race",
+   "title": "Republican Aaron Flint touts Montana roots in western House district race",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU0xFQW45TTFxdlFja2cweGE1d1RFYkRxeXNZaHk0eGk3c19SNWdhNzVxQnJNdEZURkZNaHlNcjVWZk5IU09qV1cwUEVCUmIzNFhlMGFSa3Q0WUN2Wk5uOFNEdHJ5YTIzbHd5ZG9ILUE4VnFiVWlMN1VXc1JTOXNWN0xMUkd0M3BVamM5QV8zT0hiZGJROHFVOW1GekM5b2hTT3VIMzYxTV9ESTVpRkExTVQzckZxcmhENHg5ZVo5ZGEtdw?oc=5",
    "summary": "",
    "relevant": true,
@@ -222,6 +222,11 @@
   {
    "date": "2026-10-15",
    "c": 2,
+   "p": 0.5
+  },
+  {
+   "date": "2026-10-16",
+   "c": 1,
    "p": 0.5
   }
  ]

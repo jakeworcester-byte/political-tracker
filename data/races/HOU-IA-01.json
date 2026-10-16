@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Tilt D",
    "flip": true,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -152,6 +152,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-15",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "WQAD",
+   "lean": "unrated",
+   "title": "Iowa's 1st Congressional District faces another tight race",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQXy02WWFNbzdWbmJzM1hTcjJzZUE5VGhrZEtWemg1ZFJESUxucl9TczYzaXcyYjVYZlowUWxka2hFOFE4S0s1cWVYWE9oN0dDdXhGM1JTNFJpY19kV3ZnUDVOUzVFMTVmT2tjV19VVHYtOWJtVXNnbm5qYUFLVWVmSHl4cWxjRTQ1WThCTFNJMkJhdEhTLW5lQWNnRldEVDJLVl92emZHbXAxQThpR0xaVHp6TkNZc2lxNW80bjJlUzU2T2VnSHE4M2VyazZ2aEg1N2c?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-14",
    "race": "HOU-IA-01",
    "races": [
@@ -206,6 +221,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-16",
    "c": -2,
    "p": -5.0
   }

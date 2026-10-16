@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -35,7 +35,7 @@
   "ie": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -351,18 +351,122 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-16",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "5 Takeaways From the Senate Debate in Maine",
+   "url": "https://www.nytimes.com/2026/10/15/us/politics/maine-senate-debate-collins-jackson.html",
+   "summary": "The race’s fourth and final debate centered around whether Senator Susan Collins, the Republican incumbent, was as independent as she claimed to be from President Trump.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Sen. Susan Collins and Troy Jackson wrapped up their fourth and final debate in Maine on Thursday, tangling over President Trump, the high cost of fuel and the Supreme Court",
+   "url": "https://www.wsj.com/politics/elections/five-takeaways-from-maines-senate-debates-f7671a31?mod=rss_socialpoliticsfeed",
+   "summary": "Sen. Susan Collins and Troy Jackson sparred over Trump, gas prices and the Supreme Court.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Trump looms as tensions flare in final Maine Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQWRNeFJYMWtCTTVyWVp0ekt3SmJFZXdWNnFCcTFPTlJvc2NnbUJTeDZJUk5HSnI2ZUhYM2pQLVFtOENfTGQxRUxZLTFJWGpLQkg5cFVjclVIbW9NbWxPVk1RQjNISlhIVWk2c0J0aTJacG9qM0VMQnhydTJ6b2lxU0tRM2ZIUm9LaXU0N3JYMld0NmJlV1dRUkJSeUdTckcwd1l0Y1AxTzhCTFluT3N3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Collins, Jackson trade jabs in final Maine Senate debate: 3 takeaways",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObVVEWFdURndrUHF1elV3VWZYVE9rY250UGI3QmEzSGJvSDhZN2VPRzY3RjktVzRRZU5ZUGRWOWQ4YlYySkRkbVREbnZYMjJDRlpXU3FfNnhCTXZ6M19NNDVBYjFwUENFNFdLVUtiYWE3ZnRoMVhQSFY5WVpvYjFlb2pLWUg5dWpPVEJLY1AxaENwNmZ50gGaAUFVX3lxTE1rUi1SVS1OMTltMEVMMEJwaVI3UFBZbkF4S1otQTFjSGoyYTloajJ0NFRUSkljM1o1YjVGeWJtaTBlM2wxcGV4MFVYbzZrclZiY09mb3RKWUZ2Z1FVUkRCZFZNN3FUaGRLdURaUnNLcGlUV2hwdHNXdnJnbVRNdlhORWl6WEZOVkZMSlk2NXUzZGwzQ256OVNxR3c?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Fox News",
+   "lean": "unrated",
+   "title": "'Oh, shut up!': Democrat snaps at Collins after heckler drives Maine Senate debate off the rails",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbXlMc2lHdW5DQUVuZWt3QzhqOWMtS2dkYnZJWHAzdnA3REgxdDVDSFpVaFBkU1NHNWEyQ3o3NVZ1dm1NdUd3S3hmRXEtR0lZYVl0N0xYLUhFVlhYLXF1MTBCdi1HbERIV0tBdVVuMnVlbkM4M0tWYm9kSlJ2YW92MDRZMVU0ck1aVjhYcVRCcExBeDdaRHJETjdnRHBrdEVSdkw00gGoAUFVX3lxTFBoSFhuZEJSZTU4WDNYQW5XN0lOaVAxMG5WOFdVT28wOVFUUTZPdlVzZ2NEUFFENzJmRm1zWHdPQjlPSEFET29MOGpBZE5KemtFRnNXRnNUNDBmZ2tSREZQckV4TkhCeEZoYklZQlZUS1JfQVBoT25EVTl3aDk2STd6dzJhcWVMZjJSSjdWdURXWjJlOGp0UXlfZ29ZYzhpTlVmTWFyZFplNA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-15",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
-   "type": "podcast",
-   "source": "The Megyn Kelly Show",
-   "lean": "right",
-   "title": "Maine Senate Race Tightens, OpenAI Engineer Arrested, Diddy's Alleged Prison Fight: AM Update 10/15",
-   "url": "https://www.siriusxm.com",
-   "summary": "Republican Senator Susan Collins is gaining ground in her closely contested reelection race against Democrat Troy Jackson, despite President Trump's low approval rating in Maine and improving Democratic prospects nationwide. A Saudi engineer at OpenAI faces federal criminal charges after allegedly h",
-   "relevant": true
+   "type": "reporting",
+   "source": "PBS",
+   "lean": "unrated",
+   "title": "WATCH LIVE: Collins, Jackson face off in Maine U.S. Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcDU5ZzdHT1NjcXBaX2dPNWlQNmhzSFM3eHpZbUlnMnhHS3VlRFRuR1cyUWZ6dTR1a0ZlZUpxNk0tME1qT08tYkFMb2NjcnNEemp0TElzRG1FcU4tcENkOGs3TjZWdm4tcnV2c09yWjdUaHphSUtnWkVrdGJ1MjBHdVo2bVFBNlpnTzYwRndLT0FIMzJ1NnRPWkdfWTZINVN0cnfSAacBQVVfeXFMT2NDbXBWV3Q1cjV6WHg3dXp5azdySmF1b2xhUjJaT19sMEQ0NHNuNnF0WXhOaVZlNEdXZlZ6ZDVQUERmOVBqdmg2T0V0a0tiWjdreDdWMFBaSGt3ejhid0trZGpVbGYzU3lMYXBBc0l3NWpzWmFYcFlrX01taGl1SzVYaGg2M2pEUmduZTkzVkJ6ZDFwYmE3ZW9UM0c3U2k2di1oTU1tTmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Election Dispatches: Collins and Jackson Clashed Over Trump and His Policies in Final Maine Senate Debate",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85OHNwcVZ6U3FPZXUzTVRXNktLWV9qRTc1R3dkREhaeUI0eGFSU3JQQld0NDdCc3JuVXRHNnBsWlRIS1VvMnVoRXRIT1lqa3NwWmhkX3U2dlE5dXZvY253cDlkdW5SbTFvVElzN1Vn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "newscentermaine.com",
+   "lean": "unrated",
+   "title": "DEBATE RECAP: Susan Collins and Troy Jackson clash in final Maine US Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNUGpJT09iSkhjZlRteEJsSS01NlQyeUlSbG9zQkFqZllMU0Yzdy1uRWdpOG81Ym16Ql9LcDRHWENPZU9ob1FrbnJhckJsbGVvMHdhLURsRFZWWDA5d1luNUF4RXJVWmtzOXNhU3NfWHhBYl9vZWd6X2VpdEJKclFBZkNLdV8wdDh0dTF3c2UyQXlnOTYyNVVLQVJSSzFTcWtXcl95dUZHTDBPemNFNXpEOXVWdENaRmdLdDFucDNXQXdCSXpfMFZGWWpFcFNMN2lmbk96bW56aG5iVms5ajJyUmt2cjIzSjduTWpsQnh0NGRNVlJqdnhMck9EaURQS3djYU1ncDhuWXBDakE3ME4zVkZQQ2E?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-14",
@@ -375,51 +479,6 @@
    "lean": "unrated",
    "title": "New Maine Senate poll reveals a coin toss between Collins, Jackson",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdmtPb3JaWUE0V0ZHUXpFTTF1bjRSQW5xQkgxS1VBUVptczBrQXdyNTQ1ZlZHcDcyeWk4N3R0SFJnaFJaZ1U5WXczajRwSFdaVTFOck83NEFsNVNzN0lWdktFWS1FOFFSQkRZc20yMTJjNFVPN21GbmFJMFFhNG14dlR3ZURZMlJISjYzdk1XZVkxUEx2US1fc21TVnFjbEJMVjBCdW1rU3F2LVBEWElERWFSNElfZnFQeW1kQ0xSREY?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "A Trump Backlash Endangers Susan Collins in the Maine Senate Race",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNUdRN1djaFhWOEZwaEZYbDRsSmRnOC1LWFdmNGY2UXJCdUxESHhIUl9sZXVIS1VXYndqRjBkTzBVVklxVEN4Z3ZTaFFhdG1FOHh6bFBBWm53eThuQnJaVjlQc3BTU1ZwaWJnbzhhR3lJalZxTGFJd295RURRVmhlMG1xck12TGMzb25FeA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Collins, Jackson duke it out in third Maine Senate debate: 3 takeaways",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcE1KME1DTDU1a0pnQ0FaTVFpeHh5Sk9lRkdpeTBJUDZwQXF4bGF6dG1qVG9tanREWTFjQkx4R2dyYXhHNG84ZlNFSEdNUzNKYjV3VXhRMHV6MFltV0VQVS1YNkdINnRGclI2RnVKYkVKMndqOS00SmNZdXF2Q04xc2w5S2Juc2RpbUNTUklSc0hpY3NJNFhxT3A0YjdVQ2_SAaQBQVVfeXFMUGJtNlN1dUp6OFBTRlVyb0hhVVN4MFBQTVJRWjBuVC1EYlMyYV9XRW1jQmhOWkxYbHhVeWJ3Q2hmZU81UldGVUZfRU52bGRrVHZEV3IwbWR1NVQyYU8wQmRQdWFqcVp3cGU4c3VQZmlIRVB0RW9abmxaMUo2ajdaQWdKQk9sNG1xMXFNMmtKSS1NOGdld2htTnRVd2tEUGstZ3hkQTQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-12",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "Oregon Public Broadcasting - OPB",
-   "lean": "unrated",
-   "title": "Oops: GOP group mistakenly bought ad for Maine Senate candidate in wrong Portland - Oregon Public Broadcasting",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY1o5Q24yU0F1RGpVM09uLXZiYkRwMzdKVlV4UnRvNEFGRzlkTlZ5N21NS09jMTVmcjExSkd2LU9nMHBWd2JDY3FZZ0RseGdKU1NsOG1BbzZlQlVkSDFCMk5RNTlhcC10WUFHYTZmZ1FEY3FRMF9tNzB6RnotQTRXWF8xaXZzaUlfcUtkaWtEanFvVjFzSWU1WUFqT1NZdUsxelpmazA3Wmt1R184OUE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -449,6 +508,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 0,
+   "p": -2.1
+  },
+  {
+   "date": "2026-10-16",
    "c": 0,
    "p": -2.1
   }

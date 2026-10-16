@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -35,7 +35,7 @@
   "ie": {
    "rating": "Tilt D",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -483,6 +483,35 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-16",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "In Michigan Senate Race, Ocasio-Cortez Joins El-Sayed on Trail in Trump Country",
+   "url": "https://www.nytimes.com/2026/10/15/us/politics/ocasio-cortez-el-sayed-michigan-vance-trump-senate.html",
+   "summary": "Representative Alexandria Ocasio-Cortez campaigned with Dr. Abdul El-Sayed in a swath of Michigan including areas won by President Trump, making a progressive pitch in a key Senate race.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Times",
+   "lean": "unrated",
+   "title": "Michigan Senate race polls: who will win the 2026 election?",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlBkeFVsVEVKY1hkRFVCdmxGWlpPUU1XX2NmQ0pfbzdaQ1pfZU9MalJIODJsLWotLVZUM1ZjbVFiMDlEcnZ2Q0ZUY3hhZGh6YXlSb3hVOVRIV203NVUyanZ5R3U2OWJHWkRwbUFudG4zZkZEWS1MZ1ZiMGRNR2tLM1M0NmY3VHhFNzEtTXVGTTc5YXZQdzRKc3pvSURhOHl1aENHWFZHd08xaHk0U01iN1JWZ2xHYlVQYzdMNTd6Zw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-14",
    "race": "SEN-MI",
    "races": [
@@ -513,31 +542,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-14",
+   "date": "2026-10-11",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "PolitiFact",
+   "source": "The Guardian",
    "lean": "unrated",
-   "title": "Is Abdul El-Sayed a doctor? Fact-checking Mike Rogers in Michigan Senate race",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU1MyZ1ZrRFptT28teHh1YW01eE96QmtrMVZZVFBhcGJub0I3aTFXVklwci1qWmc5SDk3VmhsbmR5ejZVMUxDWHZ4QmxYNkhiTktFak1xY3F0czVmU2VQbzFyaWtXb1dCVDhCaUZnSUw4a05jMGthTU1GRkRMVlliYUFmdHFFc0dkZ3NfYXNRYUxRcDBobHc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-13",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "JNS.org",
-   "lean": "unrated",
-   "title": "Israeli, Lebanese leaders keep asking about Michigan Senate race, US senator says",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMzVVSXJkd2RCWWNSR2x3VWdNNzBRRUdKdnBnRWgzbTFkVTJNdDhlblpoYjlmVGRVUmt6Z1JteVRMSGNHLW9DWEdtRFNVNWN1WExQWHk1ZDNtT25NZThNUFlXblpKNFg0QUtoOXBuX01VRmFpUnhZYzJlT0FxVWMzUGpmVG9IRFdqWS1heEEzUGhQdFQxSm12ckxUMzUyXzdFdkc3M1NOR3diUi1qWmVRNjBRNA?oc=5",
+   "title": "Why Abdul El-Sayed might not be winning Black voters in Michigan",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV1FTaVlHM0JUa0dMaXp1ZWJ2VUtCUVpmUkhPX3pYcTB6Nm02RzF3Yk9BNDNEd3JPRjdJVTljNnNQYUNxNEtZRXotTzctVWlrMzNkajBRYnlaaEUybHl2SFhfaUY1WGswdVo3Q1NrOElfV21KUjI0N0lwVWFscDBPZ1MzZGV3am9JSlp1WG9wbnhRS1VnSUc2bHRUMVE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -567,6 +581,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": -2,
+   "p": -3.9
+  },
+  {
+   "date": "2026-10-16",
    "c": -2,
    "p": -3.9
   }

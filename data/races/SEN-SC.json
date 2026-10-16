@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -33,9 +33,9 @@
    "name": "Fox News Power Rankings"
   },
   "ie": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -75,10 +75,10 @@
  "key": "SEN-SC",
  "name": "South Carolina Senate",
  "incumbent_note": "",
- "consensus_score": 3,
- "consensus": "Likely R",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
@@ -174,8 +174,84 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-16",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "WLOS",
+   "lean": "unrated",
+   "title": "President Trump backs Darline Graham in South Carolina Senate tele-rally",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUW9Dd2FsdVU3YWN6T0x4XzFXNTAzV0NoOGQxWWFaLWFPMnd2RmNMZTlJaGVSMmpCRzlMdmtwWTdQaExBaUpqQWM1TnE1TDVOUzZway1MSkVHT1ZRcXIxSS1KdkZGWWZ6eE11TGRETVEzeVFBY1ljNzBoN0JJSE5naE5WVmxFbVduQTFWWHlfcEtDV1d5ZklzcVFNWTFGdW5tWmxWWF82Vm5xOXJNVTJwRDFvMm1uMm1KbWYwamxEaG5EcFBxOG4yZ29R?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "WCNC",
+   "lean": "unrated",
+   "title": "Darline Graham vs. Annie Andrews: What to know about South Carolina's US Senate race",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQakcxUF9ubktOMVgwT2Qxb2VkRVh5UXJxckhMVW1iQmNaNmxMNVBsWVBMY3UyYTk3QnB6YTIxNm9pZ0NXcDJtVTJ0TzFPTVRjMmZzQ3M3SC14NnFQQUl2WDhLXzhNQXZQblBIQ09GOEJzMzJNUmlFeWtlU1NQRm1ZamtabU9YRE9rTHZfTzNJTGIwNjFNWEh0VmtEbDBSQXlkOVUta1BDTi1QU0MzdzI1UHlJN0h5cjFVT2hrWi1zcXJiXzJnWGt2MTlnSmZOLWtDYUhrMzY1cTJkN01IN2I2dHBENllGNVpR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "South Carolina Senate rivals spar over Iran war, AI and Trump in fiery debate",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUE95UU01b0RNbEhUakJyQ2JlM19LdmxKaWNyZktlY3cyaVBNMmJrRHQ4cl9RYnZhUzlWNTdoeGJqRWJtd3JDZFJNRlByM0w2LVVkYjFENGNuNjZiWEY0RnBXZDBZMUFzNE05UXNLaEVTRnNPQVhNNi1xcURjQWJpT1gwcTYzRmhwWWVlcXppSmpVQmZjZ0UyOHdieWZwMndJb0dzTlo4WFY4UzVpTW1rUGlBSElJdTRwOWduc0JSaw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Can a Democrat Beat Darline Graham? 5 Takeaways From the South Carolina Senate Debate",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GVnhWSGlZZkluSFVWZ21uV3ZDaFhLRjhRYWc0TzFvMDBxaVlCTmVlSHoxZWVSanI4SFRfNk05RVMxLVI5azlkcnBwVzVNZURVeTJoVERMdlpSSXRJZkdlY0ZDaVZHUjJCMzRqaEFWRmV5Q2pjeUc1WTFMZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-12",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "CNN",
+   "lean": "unrated",
+   "title": "Darline Graham avoids another gaffe and other takeaways from South Carolina Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeU40bmdNMGxXMExZcnlZaEo1cENrakQ5YjJPNWZPODE4Z2R1NjlMeW5WbVYyRmthRnhmUE5uMUFEem5FcVk5UlRqNkJzR1lWUkFSNkRuTzhnSGpyc3UyY0xENkxVVW52ZlN5THBQYUgxemdBWmFpc0xHTmZkdHM5blVJT0RqNjBiR01QWVVfWDE4cUdYc2E2T3RIeUpYNjNhZ2xNcGRjaVhrNWs?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-SC",
  "history": [
   {
@@ -201,6 +277,11 @@
   {
    "date": "2026-10-15",
    "c": 3,
+   "p": 1.4
+  },
+  {
+   "date": "2026-10-16",
+   "c": 2,
    "p": 1.4
   }
  ]
