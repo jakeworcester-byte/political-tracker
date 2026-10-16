@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -35,7 +35,7 @@
   "ie": {
    "rating": "Tilt R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -95,34 +95,66 @@
   "n_polls": 5,
   "window_days": 21,
   "latest": {
-   "pollster": "Emerson College",
-   "sponsors": [
-    "Nexstar Media"
-   ],
+   "pollster": "YouGov",
+   "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-06",
-   "sample_size": 650,
+   "start_date": "2026-10-06",
+   "end_date": "2026-10-12",
+   "sample_size": 2245,
    "population": "lv",
-   "margin": 1.6,
-   "margin_label": "R+1.6",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
    "answers": [
     {
-     "choice": "Josh Turek",
-     "pct": 45.0
-    },
-    {
      "choice": "Ashley Hinson",
-     "pct": 46.6
+     "pct": 46.0
     },
     {
-     "choice": "Thomas Laehn",
-     "pct": 1.5
+     "choice": "Josh Turek",
+     "pct": 47.0
     }
    ],
-   "url": "https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit?rtpof=true&sd=true"
+   "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf"
   },
   "polls": [
+   {
+    "pollster": "YouGov",
+    "end_date": "2026-10-12",
+    "margin": -1.0,
+    "n": 2245,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 46.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 47.0
+     }
+    ]
+   },
+   {
+    "pollster": "Marist University",
+    "end_date": "2026-10-11",
+    "margin": -3.0,
+    "n": 1100,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-october-2026/",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 45.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 48.0
+     }
+    ]
+   },
    {
     "pollster": "Emerson College",
     "end_date": "2026-10-06",
@@ -320,50 +352,27 @@
       "pct": 45.0
      }
     ]
-   },
-   {
-    "pollster": "The New York Times/Siena University",
-    "end_date": "2026-06-27",
-    "margin": 2.0,
-    "n": 600,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-iowa-poll-crosstabs.html",
-    "answers": [
-     {
-      "choice": "Ashley Hinson",
-      "pct": 48.0
-     },
-     {
-      "choice": "Josh Turek",
-      "pct": 46.0
-     }
-    ]
-   },
-   {
-    "pollster": "Beacon Research/Shaw & Co. Research",
-    "end_date": "2026-06-27",
-    "margin": -4.0,
-    "n": 1003,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://www.foxnews.com/politics/fox-news-poll-close-senate-contest-brewing-iowa",
-    "answers": [
-     {
-      "choice": "Josh Turek",
-      "pct": 50.0
-     },
-     {
-      "choice": "Ashley Hinson",
-      "pct": 46.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 13,
+ "raw_poll_count": 15,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-15",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "AgWeb",
+   "lean": "unrated",
+   "title": "Iowa Senate Race Plays Out Amid Tight Farm Margins",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWXJBbXNlNEk0OHlTNVhlb2dmMHJ4TDZEZHk0alBVRmFSTXFPMHI2czZ2dVVuemFNbm9lNkRiaGIxNFgxdU1LakEwSENUbGhGX0JOYmZpSnRlZ2Fjc0xiS1UtTGI5VF9wbmRSMVVqOUtDWTZVZWpSY3RxVWlmNHgtS3NTTmE2UjJWZkFZMg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-14",
    "race": "SEN-IA",
@@ -371,10 +380,10 @@
     "SEN-IA"
    ],
    "type": "reporting",
-   "source": "The Hill",
+   "source": "NewsNation",
    "lean": "unrated",
-   "title": "Hinson, Turek tangle in fierce final Iowa Senate debate",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOREYteXBWNXJSZ1lCR3FiTk04OXN4c0xwUHd1UDhRY0xKS0tCNUdMekpqclAtRjFyVXJBdjdwWVRpXzJ1ZGZPZkhTbjh4VFdzSDJDU0tjdS1wMmlza0JIR1dFcTVSMHl6d05Ga1RaeXktWU4tY2ticWJhWTl4a21ycWFvVS3SAYoBQVVfeXFMTm9BQW5fdnEzR1pMakFvTWFDWURWNUZ3eEJESWgyVzlQazcxX1ZKWE1ndzQ0dTN6YlRBX3BJajhHWnRHRWh3bWxnd2ZhOEZNZ09OQ2ptcW5KSzdOakdMV0hRUWdOUTEtNnNpU0VxeXo0Mzc4S1BsNkhGbUIwQ0hPWE5FYmhnaWRydGlB?oc=5",
+   "title": "Ashley Hinson and Josh Turek call each other liars in final Iowa Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZWRjTDZjaUFQZzR0dzc0QmZHSTVWRlQ0cU1mbjA2QmUxVlQ5aWZuYk1GRmNxdlpUMnpvTUQ1cW5yZjgtRjl2VW5Qd05Gc2sxNnBiNUhzc2J6dWFDUG93bzMzMTJHQzhYc3pPOFlxQV9lSDBYbjZrQ2FtbjVEdWVzVHlEMEd4cGRLaXF4ZUFkTTZZR0lKSlhlSWREUmYyTUkw0gGmAUFVX3lxTE11Sk1vVGdNNHE4WW0zM29jd2w5TVBHTVdLbEZxTzNkaVJtUHJhT2tRNkhsWTRHMDg5SXBrb1FOblVfNDdsbU1iN2tKWFlCM2hnc3E4d1pndkFyazN5UGItSF9mV0N5VGYxSVdSdVAtMFJ3QWN6anBfNHFNM3lQU3EzVVdxMXNaMU9ZdGlxTVN2VkRoZUxKQnZta1BWSTRpWXZuVWZIYmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -404,6 +413,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-16",
    "c": 0,
    "p": -0.5
   }

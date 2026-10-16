@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -33,9 +33,9 @@
    "name": "Fox News Power Rankings"
   },
   "ie": {
-   "rating": "Tilt R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -90,37 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": -2.0,
-  "average_label": "D+2.0",
+  "average_margin": -1.9,
+  "average_label": "D+1.9",
   "n_polls": 6,
   "window_days": 21,
   "latest": {
-   "pollster": "Quantus Insights",
+   "pollster": "ActiVote",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-09",
-   "end_date": "2026-10-11",
-   "sample_size": 854,
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-14",
+   "sample_size": 400,
    "population": "lv",
-   "margin": 0.5,
-   "margin_label": "R+0.5",
+   "margin": -3.8,
+   "margin_label": "D+3.8",
    "answers": [
     {
      "choice": "James Talarico",
-     "pct": 46.7
+     "pct": 51.9
     },
     {
      "choice": "Ken Paxton",
-     "pct": 47.2
-    },
-    {
-     "choice": "Ted Brown",
-     "pct": 2.2
+     "pct": 48.1
     }
    ],
-   "url": "https://quantusinsights.org/polling/f/texas-senate-paxton-and-talarico-in-a-near-tie"
+   "url": "https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/"
   },
   "polls": [
+   {
+    "pollster": "ActiVote",
+    "end_date": "2026-10-14",
+    "margin": -3.8,
+    "n": 400,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 51.9
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 48.1
+     }
+    ]
+   },
    {
     "pollster": "Quantus Insights",
     "end_date": "2026-10-11",
@@ -357,31 +372,26 @@
       "pct": 43.0
      }
     ]
-   },
-   {
-    "pollster": "Fabrizio Ward/Impact Research",
-    "end_date": "2026-09-01",
-    "margin": -4.0,
-    "n": 895,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-texas",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 48.0
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 44.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 24,
+ "raw_poll_count": 25,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-16",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Elon Musk Spends Heavily to Back Ken Paxton’s Senate Bid in Texas",
+   "url": "https://www.nytimes.com/2026/10/16/us/politics/elon-musk-ken-paxton-texas-senate-race.html",
+   "summary": "The world’s richest person, who has become the biggest known midterm donor, gave $158 million to a group that quickly spent that much to help Mr. Paxton’s Senate bid in Texas.",
+   "relevant": true
+  },
   {
    "date": "2026-10-15",
    "race": "SEN-TX",
@@ -391,9 +401,9 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "Vance’s Talarico Attacks Show His Penchant for Personal Broadsides",
-   "url": "https://www.nytimes.com/2026/10/14/us/politics/vance-talarico-attacks.html",
-   "summary": "At a rally in Texas, the vice president suggested the Democratic Senate nominee is gay, a comment criticized as homophobic.",
+   "title": "James Talarico Raises Quarterly Record of $64 Million in Texas Senate Race Against Ken Paxton",
+   "url": "https://www.nytimes.com/2026/10/15/us/politics/james-talarico-fundraising-texas-senate.html",
+   "summary": "The amount is the most that a Senate candidate has ever raised during that period, his campaign said, eclipsing his opponent in Texas, Ken Paxton.",
    "relevant": true
   },
   {
@@ -437,6 +447,11 @@
    "date": "2026-10-15",
    "c": 0,
    "p": -2.0
+  },
+  {
+   "date": "2026-10-16",
+   "c": 0,
+   "p": -1.9
   }
  ]
 }

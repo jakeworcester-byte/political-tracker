@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -77,7 +77,7 @@
  "incumbent_note": "",
  "consensus_score": 0,
  "consensus": "Tossup",
- "disagreement": true,
+ "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 1,
@@ -90,7 +90,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-14",
+   "date": "2026-10-15",
    "race": "HOU-NC-11",
    "races": [
     "HOU-NC-11"
@@ -100,6 +100,36 @@
    "lean": "unrated",
    "title": "North Carolina 11th Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQk1RMWJlLVJKTkxXcFJHTXQwX3h0R2hocXNaV2U4OXJwb21mdjR1Rk1ONzJJMnNnOXdmS3V2YTI0MXBKTGcySzYxS3diVjlpcjZBUkl6Yzg4bUMyeUd3eUZHcU1IQ1hSeFFzNC0wRDIxRzJGampqRGg4UjU2X3hWU0IxLTNEc2tQeFl2RA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "HOU-NC-11",
+   "races": [
+    "HOU-NC-11"
+   ],
+   "type": "reporting",
+   "source": "WLOS",
+   "lean": "unrated",
+   "title": "Know your candidate: Jamie Ager for North Carolina's 11th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE9fN3NmQjAxejk2czRLUTJyc0pSSFFLaWtPYTQ3M2pBWThXOVJwMU5ydjFiZ2doeTI2b1BabXI3MzFrbXdSQVhld2N4NHZvck9DVXBuenNUTHZnRGliWEdUUlFvLUk5cWdvNmx5ay1TbEJmMXJRYzRyTGg0ZWpXanhVOUFxS2FfU1R1QVpCRDNscWptX3FvR2RJUFBrMWZLY1JQZkpndw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "HOU-NC-11",
+   "races": [
+    "HOU-NC-11"
+   ],
+   "type": "reporting",
+   "source": "WLOS",
+   "lean": "unrated",
+   "title": "Know your candidate: Jennifer Balkcom for North Carolina's 11th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZl9iSFlhSkVLUFJ6VnVRWjhKR2JlZGVGaGFiM05mdGpHNlJCWE5jRUo1b1gwQkFqNTQxZDhrMWNySEUyMVlzLS1TMU5GTHR6VFlpV1VHY1ByS1B2eGVCQUU1MjZoNFpLaEt4aXE3bE02VmhET2w4SXVRWmVsUXU1aXFuemg2UUVpeDU5akEybGlkRVhSUVY4VGpkVGRmTGk4YlZfX01senlhMm9xZDNWc2lR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -144,6 +174,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-16",
    "c": 0,
    "p": null
   }

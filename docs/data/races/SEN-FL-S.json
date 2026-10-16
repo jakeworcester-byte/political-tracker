@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -33,9 +33,9 @@
    "name": "Fox News Power Rankings"
   },
   "ie": {
-   "rating": "Solid R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": 6.3,
-  "average_label": "R+6.3",
+  "average_margin": 7.1,
+  "average_label": "R+7.1",
   "n_polls": 7,
   "window_days": 21,
   "latest": {
-   "pollster": "St. Pete Polls",
+   "pollster": "MDW",
    "sponsors": [
-    "Florida Politics"
+    "EDGE Communications"
    ],
    "partisan": null,
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-07",
-   "sample_size": 836,
+   "start_date": "2026-10-04",
+   "end_date": "2026-10-10",
+   "sample_size": 800,
    "population": "lv",
-   "margin": 2.0,
-   "margin_label": "R+2.0",
+   "margin": 6.0,
+   "margin_label": "R+6.0",
    "answers": [
     {
      "choice": "Ashley Moody",
-     "pct": 47.0
+     "pct": 48.0
     },
     {
      "choice": "Angie Nixon",
-     "pct": 45.0
+     "pct": 42.0
     }
    ],
-   "url": "https://floridapolitics.com/archives/823921-new-st-pete-polls-survey-has-ashley-moody-at-47-angie-nixon-at-45-and-the-senate-race-still-inside-the-margin-of-error/"
+   "url": "https://www.mdwcomm.com/media/florida-statewide-poll-october-2026.html"
   },
   "polls": [
+   {
+    "pollster": "MDW",
+    "end_date": "2026-10-10",
+    "margin": 6.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.mdwcomm.com/media/florida-statewide-poll-october-2026.html",
+    "answers": [
+     {
+      "choice": "Ashley Moody",
+      "pct": 48.0
+     },
+     {
+      "choice": "Angie Nixon",
+      "pct": 42.0
+     }
+    ]
+   },
    {
     "pollster": "St. Pete Polls",
     "end_date": "2026-10-07",
@@ -315,7 +334,7 @@
    }
   ]
  },
- "raw_poll_count": 11,
+ "raw_poll_count": 12,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-FL-S",
@@ -344,6 +363,11 @@
    "date": "2026-10-15",
    "c": 3,
    "p": 6.3
+  },
+  {
+   "date": "2026-10-16",
+   "c": 3,
+   "p": 7.1
   }
  ]
 }

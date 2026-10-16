@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-15T12:01:15.442358+00:00",
- "run_date": "2026-10-15",
+ "generated_at": "2026-10-16T10:10:54.293399+00:00",
+ "run_date": "2026-10-16",
  "season": {
   "start": "2026-09-18",
   "end": "2026-11-03"
@@ -8,19 +8,35 @@
  "caveat": "Party registration is not party vote. These are participation signals: who is returning early ballots compared with who is registered, and with the same point in a prior cycle when reported.",
  "states": [
   {
+   "state": "CA",
+   "name": "California",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 903,615, in person 0)",
+   "total": 903615,
+   "ballots_share": {
+    "D": 46.0,
+    "R": 28.9,
+    "Other": 20.3
+   },
+   "source": "UF Election Lab early vote tracker (state data: https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026)",
+   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+   "share_of_2022_turnout_pct": 8.1,
+   "automated": true
+  },
+  {
    "state": "FL",
    "name": "Florida",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 669,634, in person 0)",
-   "total": 669634,
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 741,141, in person 0)",
+   "total": 741141,
    "ballots_share": {
-    "D": 42.8,
-    "R": 36.1,
-    "Other": 21.0
+    "D": 42.7,
+    "R": 36.3,
+    "Other": 21.1
    },
    "source": "UF Election Lab early vote tracker (state data: https://countyfilesvbm-ev.floridados.gov/VoteByMailEarlyVotingReports/PublicStats)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 8.6,
+   "share_of_2022_turnout_pct": 9.5,
    "automated": true,
    "registration_source": "Florida Division of Elections, active voters by party",
    "registration_as_of": "2026-07-31",
@@ -31,44 +47,29 @@
     "Other": 28.34
    },
    "gap_vs_registration": {
-    "D": 12.7,
-    "R": -5.4,
-    "Other": -7.3
+    "D": 12.6,
+    "R": -5.2,
+    "Other": -7.2
    },
-   "ballot_margin": 6.7,
+   "ballot_margin": 6.4,
    "registration_margin": -11.4,
-   "overperformance": 18.1
-  },
-  {
-   "state": "CA",
-   "name": "California",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 633,759, in person 0)",
-   "total": 633759,
-   "ballots_share": {
-    "D": 45.6,
-    "R": 28.0,
-    "Other": 20.2
-   },
-   "source": "UF Election Lab early vote tracker (state data: https://www.sos.ca.gov/elections/upcoming-elections/general-election-november-3-2026)",
-   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 5.7,
-   "automated": true
+   "overperformance": 17.8,
+   "day_change": "D-R ballot margin -0.3 pts since 2026-10-14, +71,507 ballots"
   },
   {
    "state": "PA",
    "name": "Pennsylvania",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 346,932, in person 0)",
-   "total": 346932,
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 391,195, in person 0)",
+   "total": 391195,
    "ballots_share": {
-    "D": 70.3,
-    "R": 21.5,
-    "Other": 8.2
+    "D": 69.7,
+    "R": 21.9,
+    "Other": 8.4
    },
    "source": "UF Election Lab early vote tracker (state data: https://data.pa.gov/Government-Efficiency-Citizen-Engagement/2026-General-Election-Mail-Ballot-Requests-Departm/nbwd-pfn4/about_data)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 6.4,
+   "share_of_2022_turnout_pct": 7.2,
    "automated": true,
    "registration_source": "L2 voter file via Independent Voter Project (vendor, not the state)",
    "registration_as_of": "2026-10-13",
@@ -79,76 +80,131 @@
     "Other": 16.34
    },
    "gap_vs_registration": {
-    "D": 27.7,
-    "R": -19.6,
-    "Other": -8.1
+    "D": 27.1,
+    "R": -19.2,
+    "Other": -7.9
    },
-   "ballot_margin": 48.8,
+   "ballot_margin": 47.8,
    "registration_margin": 1.5,
-   "overperformance": 47.3
+   "overperformance": 46.3,
+   "day_change": "D-R ballot margin -1.0 pts since 2026-10-14, +44,263 ballots"
   },
   {
    "state": "NJ",
    "name": "New Jersey",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 319,422, in person 0)",
-   "total": 319422,
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 332,777, in person 0)",
+   "total": 332777,
    "ballots_share": {
-    "D": 66.7,
+    "D": 66.5,
     "R": 19.0,
-    "Other": 14.3
+    "Other": 14.4
    },
    "source": "UF Election Lab early vote tracker (state data: New Jersey Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 12.1,
+   "share_of_2022_turnout_pct": 12.6,
    "automated": true
   },
   {
    "state": "CO",
    "name": "Colorado",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 253,588, in person 0)",
-   "total": 253588,
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 290,678, in person 90)",
+   "total": 290768,
    "ballots_share": {
-    "D": 33.8,
-    "R": 23.9,
+    "D": 33.6,
+    "R": 24.2,
     "Other": 42.3
    },
    "source": "UF Election Lab early vote tracker (state data: Colorado Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 10.0,
+   "share_of_2022_turnout_pct": 11.4,
    "automated": true
+  },
+  {
+   "state": "NC",
+   "name": "North Carolina",
+   "as_of": "2026-10-15",
+   "measure": "accepted mail + in-person early ballots",
+   "total": 237539,
+   "in_person": null,
+   "ballots_share": {
+    "D": 46.9,
+    "R": 19.5,
+    "Other": 33.6
+   },
+   "registration_share": {
+    "D": 29.59,
+    "R": 29.55,
+    "Other": 40.85
+   },
+   "registration_from_source": true,
+   "turnout_pct": {
+    "D": 0.63,
+    "R": 0.24,
+    "Other": 0.41
+   },
+   "source": "NC State Board of Elections absentee data file (accepted ballots by voter party)",
+   "source_url": "https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/",
+   "prior": null,
+   "automated": true,
+   "note": "PDF report through 2026-10-14: 33,448 ballots, 70% of the 2022 same point",
+   "gap_vs_registration": {
+    "D": 17.3,
+    "R": -10.1,
+    "Other": -7.2
+   },
+   "ballot_margin": 27.4,
+   "registration_margin": 0.0,
+   "overperformance": 27.4,
+   "day_change": "D-R ballot margin +0.2 pts since 2026-10-14, +204,095 ballots"
   },
   {
    "state": "MD",
    "name": "Maryland",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 158,054, in person 0)",
-   "total": 158054,
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 171,045, in person 0)",
+   "total": 171045,
    "ballots_share": {
-    "D": 67.8,
-    "R": 17.2,
-    "Other": 15.0
+    "D": 68.2,
+    "R": 16.8,
+    "Other": 14.9
    },
    "source": "UF Election Lab early vote tracker (state data: https://elections.maryland.gov/press_room/index.html)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 7.8,
+   "share_of_2022_turnout_pct": 8.4,
+   "automated": true
+  },
+  {
+   "state": "AZ",
+   "name": "Arizona",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 147,320, in person 0)",
+   "total": 147320,
+   "ballots_share": {
+    "D": 41.7,
+    "R": 36.2,
+    "Other": 22.2
+   },
+   "source": "UF Election Lab early vote tracker (state data: https://www.stealth-analytics.com/early-ballots)",
+   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+   "share_of_2022_turnout_pct": 5.7,
    "automated": true
   },
   {
    "state": "NE",
    "name": "Nebraska",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 55,511, in person 6,693)",
-   "total": 62204,
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 61,648, in person 8,003)",
+   "total": 69651,
    "ballots_share": {
-    "D": 45.9,
-    "R": 37.0,
-    "Other": 17.1
+    "D": 45.4,
+    "R": 37.6,
+    "Other": 17.0
    },
    "source": "UF Election Lab early vote tracker (state data: Data file provided by Nebraska Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 9.1,
+   "share_of_2022_turnout_pct": 10.2,
    "automated": true
   },
   {
@@ -168,105 +224,115 @@
    "automated": true
   },
   {
-   "state": "AZ",
-   "name": "Arizona",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 52,704, in person 0)",
-   "total": 52704,
+   "state": "NM",
+   "name": "New Mexico",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 12,795, in person 40,193)",
+   "total": 52988,
    "ballots_share": {
-    "D": 44.0,
-    "R": 33.9,
-    "Other": 22.2
+    "D": 58.8,
+    "R": 26.5,
+    "Other": 14.7
    },
-   "source": "UF Election Lab early vote tracker (state data: https://www.stealth-analytics.com/early-ballots)",
-   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 2.0,
-   "automated": true
-  },
-  {
-   "state": "ID",
-   "name": "Idaho",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 41,863, in person 2,229)",
-   "total": 44092,
-   "ballots_share": {
-    "D": 21.9,
-    "R": 54.6,
-    "Other": 18.4
-   },
-   "source": "UF Election Lab early vote tracker (state data: Idaho Secretary of State)",
+   "source": "UF Election Lab early vote tracker (state data: New Mexico Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
    "share_of_2022_turnout_pct": 7.4,
    "automated": true
   },
   {
-   "state": "NM",
-   "name": "New Mexico",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 8,157, in person 34,435)",
-   "total": 42592,
+   "state": "ID",
+   "name": "Idaho",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 45,971, in person 2,229)",
+   "total": 48200,
    "ballots_share": {
-    "D": 59.0,
-    "R": 26.5,
-    "Other": 14.5
+    "D": 21.6,
+    "R": 55.3,
+    "Other": 18.5
    },
-   "source": "UF Election Lab early vote tracker (state data: New Mexico Secretary of State)",
+   "source": "UF Election Lab early vote tracker (state data: Idaho Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 6.0,
+   "share_of_2022_turnout_pct": 8.1,
    "automated": true
-  },
-  {
-   "state": "NC",
-   "name": "North Carolina",
-   "as_of": "2026-10-14",
-   "measure": "accepted mail + in-person early ballots",
-   "total": 33444,
-   "in_person": null,
-   "ballots_share": {
-    "D": 44.2,
-    "R": 17.0,
-    "Other": 38.8
-   },
-   "registration_share": {
-    "D": 29.59,
-    "R": 29.56,
-    "Other": 40.85
-   },
-   "registration_from_source": true,
-   "turnout_pct": {
-    "D": 0.6,
-    "R": 0.23,
-    "Other": 0.38
-   },
-   "source": "NC State Board of Elections absentee data file (accepted ballots by voter party)",
-   "source_url": "https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/",
-   "prior": null,
-   "automated": true,
-   "note": "PDF report through 2026-10-13: 31,582 ballots, 72% of the 2022 same point",
-   "gap_vs_registration": {
-    "D": 14.6,
-    "R": -12.6,
-    "Other": -2.1
-   },
-   "ballot_margin": 27.2,
-   "registration_margin": 0.0,
-   "overperformance": 27.2,
-   "day_change": "D-R ballot margin -0.8 pts since 2026-10-12, +3,975 ballots"
   },
   {
    "state": "SD",
    "name": "South Dakota",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 23,341, in person 0)",
-   "total": 23341,
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 25,810, in person 0)",
+   "total": 25810,
    "ballots_share": {
-    "D": 32.3,
-    "R": 51.3,
+    "D": 32.1,
+    "R": 51.6,
     "Other": 16.3
    },
    "source": "UF Election Lab early vote tracker (state data: South Dakota Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 6.6,
+   "share_of_2022_turnout_pct": 7.3,
+   "automated": true
+  },
+  {
+   "state": "IA",
+   "name": "Iowa",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 1,273, in person 16,111)",
+   "total": 17384,
+   "ballots_share": {
+    "D": 56.4,
+    "R": 28.7,
+    "Other": 14.9
+   },
+   "source": "UF Election Lab early vote tracker (state data: Iowa Secretary of State)",
+   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+   "share_of_2022_turnout_pct": 1.4,
+   "automated": true
+  },
+  {
+   "state": "CT",
+   "name": "Connecticut",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 14,762, in person 0)",
+   "total": 14762,
+   "ballots_share": {
+    "D": 52.2,
+    "R": 18.8,
+    "Other": 29.0
+   },
+   "source": "UF Election Lab early vote tracker (state data: Connecticut Secretary of the State)",
+   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+   "share_of_2022_turnout_pct": 1.1,
+   "automated": true
+  },
+  {
+   "state": "NV",
+   "name": "Nevada",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 14,538, in person 51)",
+   "total": 14589,
+   "ballots_share": {
+    "D": 39.9,
+    "R": 31.8,
+    "Other": 28.3
+   },
+   "source": "UF Election Lab early vote tracker (state data: https://www.nvsos.gov/elections/election-information/vivid-project)",
+   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+   "share_of_2022_turnout_pct": 1.4,
+   "automated": true
+  },
+  {
+   "state": "KY",
+   "name": "Kentucky",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 14,098, in person 0)",
+   "total": 14098,
+   "ballots_share": {
+    "D": 57.5,
+    "R": 34.1,
+    "Other": 8.5
+   },
+   "source": "UF Election Lab early vote tracker (state data: https://elect.ky.gov/Pages/default.aspx)",
+   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
+   "share_of_2022_turnout_pct": 0.9,
    "automated": true
   },
   {
@@ -286,35 +352,35 @@
    "automated": true
   },
   {
-   "state": "KY",
-   "name": "Kentucky",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 12,483, in person 0)",
-   "total": 12483,
+   "state": "RI",
+   "name": "Rhode Island",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 2,588, in person 10,509)",
+   "total": 13097,
    "ballots_share": {
-    "D": 57.6,
-    "R": 34.1,
-    "Other": 8.3
+    "D": 48.2,
+    "R": 8.7,
+    "Other": 43.0
    },
-   "source": "UF Election Lab early vote tracker (state data: https://elect.ky.gov/Pages/default.aspx)",
+   "source": "UF Election Lab early vote tracker (state data: Rhode Island Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 0.8,
+   "share_of_2022_turnout_pct": 3.6,
    "automated": true
   },
   {
-   "state": "CT",
-   "name": "Connecticut",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 12,380, in person 0)",
-   "total": 12380,
+   "state": "WY",
+   "name": "Wyoming",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 12,081, in person 0)",
+   "total": 12081,
    "ballots_share": {
-    "D": 53.0,
-    "R": 18.3,
-    "Other": 28.7
+    "D": 19.7,
+    "R": 72.9,
+    "Other": 7.4
    },
-   "source": "UF Election Lab early vote tracker (state data: Connecticut Secretary of the State)",
+   "source": "UF Election Lab early vote tracker (state data: Wyoming Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 1.0,
+   "share_of_2022_turnout_pct": 6.1,
    "automated": true
   },
   {
@@ -334,73 +400,23 @@
    "automated": true
   },
   {
-   "state": "WY",
-   "name": "Wyoming",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 9,371, in person 0)",
-   "total": 9371,
+   "state": "KS",
+   "name": "Kansas",
+   "as_of": "2026-10-15",
+   "measure": "early ballots cast (mail 866, in person 2,741)",
+   "total": 3607,
    "ballots_share": {
-    "D": 20.5,
-    "R": 72.0,
-    "Other": 7.5
+    "D": 52.1,
+    "R": 32.2,
+    "Other": 15.6
    },
-   "source": "UF Election Lab early vote tracker (state data: Wyoming Secretary of State)",
+   "source": "UF Election Lab early vote tracker (state data: Kansas Secretary of State)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 4.7,
-   "automated": true
-  },
-  {
-   "state": "RI",
-   "name": "Rhode Island",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 2,453, in person 5,240)",
-   "total": 7693,
-   "ballots_share": {
-    "D": 50.1,
-    "R": 8.3,
-    "Other": 41.6
-   },
-   "source": "UF Election Lab early vote tracker (state data: Rhode Island Secretary of State)",
-   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 2.1,
-   "automated": true
-  },
-  {
-   "state": "NV",
-   "name": "Nevada",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 6,328, in person 47)",
-   "total": 6375,
-   "ballots_share": {
-    "D": 42.5,
-    "R": 29.0,
-    "Other": 28.4
-   },
-   "source": "UF Election Lab early vote tracker (state data: https://www.nvsos.gov/elections/election-information/vivid-project)",
-   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 0.6,
-   "automated": true
-  },
-  {
-   "state": "IA",
-   "name": "Iowa",
-   "as_of": "2026-10-14",
-   "measure": "early ballots cast (mail 1,183, in person 18)",
-   "total": 1201,
-   "ballots_share": {
-    "D": 64.1,
-    "R": 20.0,
-    "Other": 15.9
-   },
-   "source": "UF Election Lab early vote tracker (state data: Iowa Secretary of State)",
-   "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 0.1,
+   "share_of_2022_turnout_pct": 0.4,
    "automated": true
   }
  ],
- "problems": [
-  "OH: No official general-election absentee returns by primary affiliation found."
- ],
+ "problems": [],
  "history": {
   "NC": [
    {
@@ -435,6 +451,17 @@
     "share_D": 44.2,
     "share_R": 17.0,
     "share_Other": 38.8
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 237539,
+    "ballot_margin": 27.4,
+    "overperformance": 27.4,
+    "margin_change_vs_prior": null,
+    "share_D": 46.9,
+    "share_R": 19.5,
+    "share_Other": 33.6
    }
   ],
   "AZ": [
@@ -447,6 +474,17 @@
     "margin_change_vs_prior": null,
     "share_D": 44.0,
     "share_R": 33.9,
+    "share_Other": 22.2
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 147320,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 41.7,
+    "share_R": 36.2,
     "share_Other": 22.2
    }
   ],
@@ -461,6 +499,17 @@
     "share_D": 45.6,
     "share_R": 28.0,
     "share_Other": 20.2
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 903615,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 46.0,
+    "share_R": 28.9,
+    "share_Other": 20.3
    }
   ],
   "CO": [
@@ -473,6 +522,17 @@
     "margin_change_vs_prior": null,
     "share_D": 33.8,
     "share_R": 23.9,
+    "share_Other": 42.3
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 290768,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 33.6,
+    "share_R": 24.2,
     "share_Other": 42.3
    }
   ],
@@ -487,11 +547,33 @@
     "share_D": 53.0,
     "share_R": 18.3,
     "share_Other": 28.7
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 14762,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 52.2,
+    "share_R": 18.8,
+    "share_Other": 29.0
    }
   ],
   "DE": [
    {
     "run_date": "2026-10-15",
+    "as_of": "2026-10-13",
+    "total": 9970,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 65.4,
+    "share_R": 19.6,
+    "share_Other": 15.0
+   },
+   {
+    "run_date": "2026-10-16",
     "as_of": "2026-10-13",
     "total": 9970,
     "ballot_margin": null,
@@ -513,6 +595,17 @@
     "share_D": 42.8,
     "share_R": 36.1,
     "share_Other": 21.0
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 741141,
+    "ballot_margin": 6.4,
+    "overperformance": 17.8,
+    "margin_change_vs_prior": null,
+    "share_D": 42.7,
+    "share_R": 36.3,
+    "share_Other": 21.1
    }
   ],
   "ID": [
@@ -526,6 +619,17 @@
     "share_D": 21.9,
     "share_R": 54.6,
     "share_Other": 18.4
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 48200,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 21.6,
+    "share_R": 55.3,
+    "share_Other": 18.5
    }
   ],
   "IA": [
@@ -539,6 +643,17 @@
     "share_D": 64.1,
     "share_R": 20.0,
     "share_Other": 15.9
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 17384,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 56.4,
+    "share_R": 28.7,
+    "share_Other": 14.9
    }
   ],
   "KY": [
@@ -552,11 +667,33 @@
     "share_D": 57.6,
     "share_R": 34.1,
     "share_Other": 8.3
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 14098,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 57.5,
+    "share_R": 34.1,
+    "share_Other": 8.5
    }
   ],
   "ME": [
    {
     "run_date": "2026-10-15",
+    "as_of": "2026-10-13",
+    "total": 59314,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 54.8,
+    "share_R": 18.5,
+    "share_Other": 26.7
+   },
+   {
+    "run_date": "2026-10-16",
     "as_of": "2026-10-13",
     "total": 59314,
     "ballot_margin": null,
@@ -578,6 +715,17 @@
     "share_D": 67.8,
     "share_R": 17.2,
     "share_Other": 15.0
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 171045,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 68.2,
+    "share_R": 16.8,
+    "share_Other": 14.9
    }
   ],
   "NE": [
@@ -591,6 +739,17 @@
     "share_D": 45.9,
     "share_R": 37.0,
     "share_Other": 17.1
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 69651,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 45.4,
+    "share_R": 37.6,
+    "share_Other": 17.0
    }
   ],
   "NV": [
@@ -604,6 +763,17 @@
     "share_D": 42.5,
     "share_R": 29.0,
     "share_Other": 28.4
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 14589,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 39.9,
+    "share_R": 31.8,
+    "share_Other": 28.3
    }
   ],
   "NJ": [
@@ -617,6 +787,17 @@
     "share_D": 66.7,
     "share_R": 19.0,
     "share_Other": 14.3
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 332777,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 66.5,
+    "share_R": 19.0,
+    "share_Other": 14.4
    }
   ],
   "NM": [
@@ -630,11 +811,33 @@
     "share_D": 59.0,
     "share_R": 26.5,
     "share_Other": 14.5
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 52988,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 58.8,
+    "share_R": 26.5,
+    "share_Other": 14.7
    }
   ],
   "OK": [
    {
     "run_date": "2026-10-15",
+    "as_of": "2026-10-15",
+    "total": 13498,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 46.1,
+    "share_R": 42.3,
+    "share_Other": 11.6
+   },
+   {
+    "run_date": "2026-10-16",
     "as_of": "2026-10-15",
     "total": 13498,
     "ballot_margin": null,
@@ -656,6 +859,17 @@
     "share_D": 70.3,
     "share_R": 21.5,
     "share_Other": 8.2
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 391195,
+    "ballot_margin": 47.8,
+    "overperformance": 46.3,
+    "margin_change_vs_prior": null,
+    "share_D": 69.7,
+    "share_R": 21.9,
+    "share_Other": 8.4
    }
   ],
   "RI": [
@@ -669,6 +883,17 @@
     "share_D": 50.1,
     "share_R": 8.3,
     "share_Other": 41.6
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 13097,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 48.2,
+    "share_R": 8.7,
+    "share_Other": 43.0
    }
   ],
   "SD": [
@@ -681,6 +906,17 @@
     "margin_change_vs_prior": null,
     "share_D": 32.3,
     "share_R": 51.3,
+    "share_Other": 16.3
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 25810,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 32.1,
+    "share_R": 51.6,
     "share_Other": 16.3
    }
   ],
@@ -695,6 +931,30 @@
     "share_D": 20.5,
     "share_R": 72.0,
     "share_Other": 7.5
+   },
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 12081,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 19.7,
+    "share_R": 72.9,
+    "share_Other": 7.4
+   }
+  ],
+  "KS": [
+   {
+    "run_date": "2026-10-16",
+    "as_of": "2026-10-15",
+    "total": 3607,
+    "ballot_margin": null,
+    "overperformance": null,
+    "margin_change_vs_prior": null,
+    "share_D": 52.1,
+    "share_R": 32.2,
+    "share_Other": 15.6
    }
   ]
  }

@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Tilt R",
-   "flip": true,
-   "as_of": "2026-10-01",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -77,10 +77,10 @@
  "incumbent_note": "",
  "consensus_score": -2,
  "consensus": "Lean D",
- "disagreement": true,
+ "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 0,
  "candidates": {
   "D": [
    "Marcy Kaptur"
@@ -155,21 +155,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-10",
-   "race": "HOU-OH-09",
-   "races": [
-    "HOU-OH-09"
-   ],
-   "type": "reporting",
-   "source": "NPR",
-   "lean": "unrated",
-   "title": "On the ground in Ohio’s 9th District: The battleground shaping next month’s midterms",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONXhBQ0FMQ2NXdzBRU0FsaGo3RUN3UkpNRjN0dGh2MjZzSTAxZlgtN1YxLWNaSl9UOVpyb0w5Z1QxazFQRWpHUFVZczF2b2N6WWZHOGdXQ3VsbGcxRHRoRF9ZT3M2UWZQa1NNZzJ4aHRGUllzb3JaVFh5S2lGa3JPbFJOQ3FsRUk5OWFtVS03VWF6enB3WFp0TE14SlZhVnJaYTR2OXBFRmwtMUtSbU1MZ3oyeUV2d0xzcV9RYlVSZ2FneDZy?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-09",
@@ -196,6 +181,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-10-16",
    "c": -2,
    "p": 0.0
   }

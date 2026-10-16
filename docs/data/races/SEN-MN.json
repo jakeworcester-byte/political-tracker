@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -35,7 +35,7 @@
   "ie": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -90,26 +90,28 @@
   ]
  },
  "poll": {
-  "average_margin": -3.3,
-  "average_label": "D+3.3",
+  "average_margin": -4.3,
+  "average_label": "D+4.3",
   "n_polls": 3,
   "window_days": 21,
   "latest": {
-   "pollster": "GQR",
+   "pollster": "SurveyUSA",
    "sponsors": [
-    "Senate Majority PAC"
+    "KSTP-TV (St. Paul)",
+    "KAAL-TV (Austin)",
+    "WDIO-DT (Duluth)"
    ],
-   "partisan": "DEM",
-   "start_date": "2026-10-01",
-   "end_date": "2026-10-04",
-   "sample_size": 800,
+   "partisan": null,
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-12",
+   "sample_size": 718,
    "population": "lv",
-   "margin": -8.0,
-   "margin_label": "D+8.0",
+   "margin": -3.0,
+   "margin_label": "D+3.0",
    "answers": [
     {
      "choice": "Peggy Flanagan",
-     "pct": 50.0
+     "pct": 45.0
     },
     {
      "choice": "Michele Tafoya",
@@ -117,16 +119,43 @@
     },
     {
      "choice": "Marisa Simonetti",
-     "pct": 4.0
+     "pct": 2.0
     },
     {
      "choice": "Rebecca Whiting",
      "pct": 2.0
     }
    ],
-   "url": "https://x.com/DrewSav/status/2108502733045334207"
+   "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/"
   },
   "polls": [
+   {
+    "pollster": "SurveyUSA",
+    "end_date": "2026-10-12",
+    "margin": -3.0,
+    "n": 718,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/",
+    "answers": [
+     {
+      "choice": "Peggy Flanagan",
+      "pct": 45.0
+     },
+     {
+      "choice": "Michele Tafoya",
+      "pct": 42.0
+     },
+     {
+      "choice": "Marisa Simonetti",
+      "pct": 2.0
+     },
+     {
+      "choice": "Rebecca Whiting",
+      "pct": 2.0
+     }
+    ]
+   },
    {
     "pollster": "GQR",
     "end_date": "2026-10-04",
@@ -252,20 +281,20 @@
    }
   ]
  },
- "raw_poll_count": 5,
+ "raw_poll_count": 6,
  "trend": "Toward R",
  "signals": [
   {
-   "date": "2026-10-12",
+   "date": "2026-10-16",
    "race": "SEN-MN",
    "races": [
     "SEN-MN"
    ],
    "type": "reporting",
-   "source": "Star Tribune",
+   "source": "Pioneer Press",
    "lean": "unrated",
-   "title": "Minnesota Poll: Flanagan holds narrow lead over Tafoya in U.S. Senate race",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRE4tX1NxVC1JY0JmaWNQOVl0cFBMbEtXNXRzVFF0SWF1OUc2ZDFBSXY2ZTFVT0hiUU9SMVZTQU9KSjNiUEU0YUE5enNwUW9fNFdJUGZ0clF4Zm9MaHE5MElhdlJHRFM0UXdRdndpc240U3JEeU94bTZFX1EzTnhZVw?oc=5",
+   "title": "2026 Election: Minnesota Senate District 41, House 41A, 41B",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNGdaQWE5c19yS3FUWUlkV3piRWx2cjZMTjlqUEFFQnR1eGc2UjNIeEdmME9BcnQzTkx1RDRQWDd4bTB3d3ZibHZRVjJfN1Z4S3lSZ01KbG1OZHVtMk92OXhJQTBtZHJmalg2Z09HUWFZWUE4UHNxUHhjTmNuNkQ4V0YtUTM3cHR0ZlJFUWcwT2U5WmpuSmtvT0ZJZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -281,21 +310,6 @@
    "lean": "unrated",
    "title": "Minnesota Poll: Flanagan with narrow lead over Tafoya in U.S. Senate race",
    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYUM1U29VUHpwU21maHFlaGdDUnhZYUJGTnJxQUFza3k3ZXI1Z3JScXJUZzRNRWhBUWNja2RsLUl6VDYwczRKdkJnOGNhZnNxdGdtVGl4MHFIZl9fWWV5MXljQ0xIbkF4UENmNjg5WENLd0lwOE9nejZEYXlONElOQWhZWDZjdDNDU0RPTkZCRzdHbmhuamM1YUJxRGZEWHBsS1hUSDh0XzF5a1dnYVZTWlpZVWdQUHNMcHJYazZzbUl1QXYySTMtZEU1TFhOUFB2UkNBY0FYT1NEWjkwOVVGMGNkTUdUY0I2QVN2RlA3QnRfY21VN3lUYg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-12",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "Forbes",
-   "lean": "unrated",
-   "title": "Hottest 2026 Midterm Races—Democrat Peggy Flanagan Narrowly Leads Republican Michele Tafoya In Minnesota (Updated Daily)",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOeXNuVjcya0czLWI2SXgxU1RlOGR1X0lmcUowOEV2ZE5ILWZxMzhfTEhXYzg1RHk4WU9abFdYZW9zbUJCSkswTGFRbFAwZDlia1ZzV1YzeXd5QS1aRnAwZmZVYy0xeHlIbHdLaU9FNWxwdDlva0dDNG05QndVNG5rSzhfZUtoWFFsWXNKanFCNVp6M1o0NnhOQUhkcndYcHVJQ2tGVWEwT2ljR042LWhfUnlpOFdiV3ZiaTFxUl8ycVAxLTlzZklQNkVzU09wUXJSOHBWVGNWVW5ZX0gzNXYwcDBtc0tEM3lMb1Rhb3NKaDJOb1hnc21jX1NuNzg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -327,6 +341,11 @@
    "date": "2026-10-15",
    "c": -2,
    "p": -3.3
+  },
+  {
+   "date": "2026-10-16",
+   "c": -2,
+   "p": -4.3
   }
  ]
 }

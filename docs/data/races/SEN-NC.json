@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -35,7 +35,7 @@
   "ie": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -113,6 +113,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": -3,
+   "p": null
+  },
+  {
+   "date": "2026-10-16",
    "c": -3,
    "p": null
   }

@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-01",
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 8,
+ "flip_votes": 9,
  "candidates": {
   "D": [
    "Amish Shah"
@@ -165,6 +165,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": -2,
+   "p": -2.8
+  },
+  {
+   "date": "2026-10-16",
    "c": -2,
    "p": -2.8
   }

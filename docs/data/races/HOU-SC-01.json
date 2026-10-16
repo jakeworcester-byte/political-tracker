@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-16",
+   "race": "HOU-SC-01",
+   "races": [
+    "HOU-SC-01"
+   ],
+   "type": "reporting",
+   "source": "WTOC",
+   "lean": "unrated",
+   "title": "Jenny Costa Honeycutt, Nancy Lacore square off in SC-01 debate days before early voting",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNnhCNnIwZGhUUGxRSWNzaS1GZDgycjNJYy1Lb1V2NHl1X3c1WDRsczZjV1JzWDA3enNoaEFYcVZQbnNid0xJT0xDYjJ5Zzg2cS1LOWNWLUN1UmpTeFVkR2lpYkVILXlIQjVqSm03eTU4RW9TTmdad2F6TDZNSS1FX0lTSW00ekI3cXFfRzNxWUlrT0ZEczExdVV6Sm9zTG4wWWt5WFJDWE1oRl8xZTZfSVppMExEZzDSAcsBQVVfeXFMTnFlOHNkS1RDQXdNQmxjZkpJSm9lVkxrWjRGX1BiUUpHTkRLQW05YWpHdnFiMkVtMVhGNnBWNkdKVDJ6aDZrSW4tX1pWalV2eWNrOTdkWmtoZ1d3dE1jRDUtdWZoQXZTT0h1d2U5Z2duQVBvTzJQOUxXRm1acElsb1QwaEpkamxscFhCZVVsTlQ3Z0diejhLLTVCSGx6N2ZRN2RpMV9TQ0V2TW9rcUxjVGxGOVoxMUxrRzBDOHAtenFaSUY0NDVISVBRVWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-SC-01",
  "history": [
   {
@@ -113,6 +129,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-16",
    "c": 2,
    "p": null
   }

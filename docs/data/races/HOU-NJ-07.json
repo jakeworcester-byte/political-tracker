@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Tilt D",
    "flip": true,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -103,6 +103,21 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
+  },
+  {
+   "date": "2026-10-14",
+   "race": "HOU-NJ-07",
+   "races": [
+    "HOU-NJ-07"
+   ],
+   "type": "reporting",
+   "source": "WRNJ Radio",
+   "lean": "unrated",
+   "title": "Rep. Tom Kean Jr.'s office closes more than 6,000 constituent service cases in New Jersey's 7th District",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZ2U5TDdnNWEzbDRrVlExUEV4QTdFNHJ6clJlWDhYVXQ2bkZyOHBpOTkySF9qbGgyQnd1UUhCaXUzb1MxQVRWRnFkeEgwZ19xS1I3cVU1TWJpWVRDUy1yTnFFMGVjbVliMXZ5bHhmODA3U3FaTndSYzdGdV9wWDd0aUx0QXpVRnAzSllKR1Z5TmtGQXdvRVBoSUEzVGdIXy0wLXJaV0hibzhKOTNueFBWRUxpdGhFQkZXZE5KMWRiQXM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NJ-07",
@@ -129,6 +144,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-16",
    "c": -2,
    "p": null
   }

@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -35,7 +35,7 @@
   "ie": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -237,6 +237,110 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-16",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Fish, Oil and Corruption: 6 Takeaways From Alaska’s Senate Debate",
+   "url": "https://www.nytimes.com/2026/10/16/us/politics/alaska-senate-debate-peltola-sullivan.html",
+   "summary": "The Republican incumbent, Dan Sullivan, and his Democratic challenger, Mary Peltola, veered from serious discussion of high prices and economic challenges to blistering personal attacks.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Alaska's News Source",
+   "lean": "unrated",
+   "title": "Alaska Senate ‘Debate for the State’",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUEozaXU0N2gtZU1UOE05SEpBWlphZlJaYVBSWXBrdEpMSVp6c0I3NjhveUZObjRrckZvSlpjMzlJZ19ibmF1Y3JKcHhhU3QyOFFIX0xOZzBUT2pfMUIyTHZXbWJ4bWYtbDIyM21DZ0VUbmgyMjlXVWlseWtGOUFaVjVhWdIBlwFBVV95cUxNZHBhYWpMTW1TeGRlWmFCanRpLVhVUDhpVlVVdjg2bFRxSXlaR3ZYTUdpU1VDdTktMnJ4ZVplc3RuSWJyRDJXV2FVbXdsWHJRcFZWVS0wbnZTaklIaEgyT0Q4Z1lGMFczWnRJWnp2dlRidW9pd1E4OUgwMlN3aDZnUmdreTVhU2ZKc2JYcVRRa0FsSXpWM21z?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "KTVN",
+   "lean": "unrated",
+   "title": "Sullivan, Peltola clash over Iran, consumer prices in televised debate in Alaska US Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQRUdlMWhaSWhkMzJUbnZvLWJqZ2lzQ0I2YnZDcDRfNXRKT1J1bHdEZFRzQW1oTEstOWhlRDQzeEVHTHJ4Nl91WFBZZTB1dTFBdW9XbnRjVTBvZmtyNE5NNXJKbHgxcnhYelc0M1A1a2ktTzZuTUZKcy1nc2RPUE1KcDlCcW11aHVMckxFMXU1Ukg5b0JTRXV3QzBXSWJFanBWdTNLTUh1VjVRcEdvVnlET2ZINThQWkRXeVhEaThDTDFZOS1lWWpOLXVqMnJWYm84a2lVQW1ONFIzeVRyOW1OUjVmRFI2MUZBYlV3UF9ydEVhci1fekZqOXRqeFZWLWg1SnJDNWQtR3Y?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "yoursun.com",
+   "lean": "unrated",
+   "title": "Election 2026 Alaska Senate",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSVVpeFUxd3lENUUxU3EyVmFTTGJieVZrRzFFdktJcm9IVW1DckUzbG94eDlzT3ZBblFlbFUyOS1GTWdJdl9NMFBVZWhfYWZBZ25QcTdfbGxTTTJ2U3NzejFrbHA1d2R5VTBSVUtvbW5la0huWEJWMThJUUl2ckJyVkdvNV9yV29WdXl6RHhiWnhBYjBGenhjbzNjR1dxLVZMaGJQV3NxOHh6Ty1UV1ByMQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "PBS",
+   "lean": "unrated",
+   "title": "WATCH LIVE: Sullivan, Peltola face off in Alaska U.S. Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONkwwckNIQnY2eUg2Mmx4dEhVM3ByVmZkeTM4QmNGc0ZkLWQ1NjhuT3YzRGhycnNrUTVUM3dxODNneFN6eVRkcDZzdlpoWXJwUWNXUWhkbFZjSGVZUFdkTXJLaHNENG9NQVUySzY4WG1pMExPT2ZKY1dsa1RTTGxOUG4teDh2elJGd25lMmctV1IzcDkxZDluVm94QWwxNXVuT1dNUtIBqgFBVV95cUxPN0kyal9jeHFjWDkteElUdkM5MVk1SXRWdkJza2FnTExrVndEaHFsbUlEb0E3NDJYX2wtQ1cxR25GRU9zQUVFY0pPSUZNWkhpMnQ5ZXNPdnR1U01hTjhzMHNFdlRJVXY2cXdfSXFOdTVSS1RNUmFHcXhlX1ktUUpzUTRDYUtfMW9XR0d4V00xTTBZa2dJQWQ3NGwwWFJENWF4QWh0Umtrcy1iUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Norwalk Hour",
+   "lean": "unrated",
+   "title": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnMzZVowUllHLUF5a3c2Sm1LdEU1YkRjcmFQeGE1WTZSbTl0OWhUQUtHUEpFaThZQ3V6eW5pcmdnSkJKV1hwV0hfM2tyMXBBTTFfNTNzb0ttdFNIdXpqNHhhLXhfaVY4bVpZclZCdEh3aDU4cnh3S3ZFdnNSM0JNYmR0SWJtODdWY3lTVDk0d1hyMld1Y2FvMDkzTlFlM2hMMkM1SE9QWThENnM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "ClickOnDetroit | WDIV Local 4",
+   "lean": "unrated",
+   "title": "Alaska's Sullivan and Peltola clash over Iran and high prices in testy Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT2staXVCRHNkc0s2ZHZCb3B6c3dMVWpLam4wX3h3RzA0dFhlbXJtOVQ2SFhGWEVuNm8xWFlLR1A4RDFfcFA0THJfSzJ1cy1QWVNuVFZQZ0Jqb1p2RjAyUTZIWUpON1c3NmRNRHVtWVBad0hIZmtjaXVwVjYtMTNUeHRlTy1sZV9fQzdzN2dpY0NNaHJSelNTdUZrUTNPNzNEWVpiWlNRTDBQNzNBMnM5ejVBN2lpNHVlRG96dlhhUjcyZlE3QXR2U1JEMHJ5VW8tOFlNcVRPbGNVUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-14",
    "race": "SEN-AK",
    "races": [
@@ -247,81 +351,6 @@
    "lean": "unrated",
    "title": "Trump urges Alaskans to vote for the ‘real’ Dan Sullivan in tight midterms battle",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTnF4M0J4eHVzQW5HWjl0amh2SW8tcWNlQUZMTmduTy15ZTFmd05rSnpMUTl2Y1J1Y1BfZm1xRmN2aGxRVThSUUZPX3FqbFR3NUtwTlZ3UEM5Ym5heGU1V1hycWtLTzd2ZUU4UWMxY1N6UVdzR1Jub1hOV25KaUJ1VmFLWDBWbEg5TWx6b3paeFI4Q1p6QldhQTdfZWRQYnZLQzk4NGpwWXdsOE5TRE4xYg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Scripps News",
-   "lean": "unrated",
-   "title": "Trump made Alaska push for Sullivan with Senate control at stake",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEVkdlBlQ3QxV1JiekM3bC1Zby1OVWYtSS1aTkhEejBBNGR3d2VJRElHdVVvWk8zekhGdDV4Y1BnZEN1bXNKRXRoR1I0SDA2THFQQVkxRURxbGdtVVZDNDFpelJ3RFNxRDB1bmlBXzZja2ZEV0JmZjVmQ1FNWGZobmVEOEJ4bXRrcDYxOXBHMm1laE5CZ3NaZlRvTkJxbEhROUNPcy1UYm9IblVRb2NfWDJJZmpPUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "New York Post",
-   "lean": "unrated",
-   "title": "Trump vows to probe other Dan Sullivan in alleged Dem plot to sabotage 'real' Alaska GOP senator",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSVg4QlgwQ0VaNGpzS3p0U3o0Qk11ZGF4M1d5ODB2WWZrTDA1QWo3YlMyZHRzS0gxaFV6TFhCNVhrc0FiaTE4THlwa3BOd1RSWjIzOHNOZTl4ODFmWlZJa3FqcVFCNGxrdHZpMXdUeXJwelBFUVh3UENSOXlfQmdRcTNhNlJFbDBxZE43YXhyUHFyTFMxTkotUWhmeFpxdzdUOFZRb1kteldGYmZNYUZ6dG0xXzdqTEZRN3ZvTm12TGt0cHROa3Vndkt6Z1A5dw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Politico",
-   "lean": "unrated",
-   "title": "‘I think Alaska’s turning blue’: Republicans fret Sullivan’s path to reelection",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObU5TZHRldUcydUU2UUtnOG9XUC1CUlExdDl1OFVpYUQ3T2NSakMtMHFhS3VZQWgwcEx5RlNiM3FqZWdnYURDY0s1VkZ3bkFjQ1ZRdUFYVHRpU0Zza2l0aHduQ2ZsRDF2TUxidks1S0lwT0w2VHVMM25RaHo1UDNJV2RB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-13",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Politico",
-   "lean": "unrated",
-   "title": "Mary Peltola raises $17M in Q3 in Alaska’s Senate race",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSFl0Y2Z0RUtEZUlHY294MV9LaEZDR3gyNEdXUUNYcnpwYXRTMkZibm5ld3A5c3JHeTN2RUp2N1lHUzE0U3V0QWFVTDUtZHdXSU1YX29lT0FCc3FIb01PZkVvcEtkb3lWZmF1NUFtM09oZU5oNjE3XzhNb1RvYlZHWTV3ZnljNGVFR1ByMFJQNUdLd0d6ZTJHUDVnQUh2VkF3SHVRUXFsdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-12",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Newsweek",
-   "lean": "unrated",
-   "title": "Mary Peltola Leads Alaska Polls as Trump Schedules Rally for Dan Sullivan",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ0pfSHVRRl9Ea0JaWlJHY1h6UHVnWlpodm5HU1VxMnJBd2VHS21YSTROZzljNTBpYXpLbjBvaHhOU1RUcDFzUTFpSnpDNzNKd05UdmtiQURQWnpTVGMwOEVPRGxEMDVBRUtmUXM2R3dINFFENWczUnd0dlVnOHQ2WUl3a2wtRXRSX3VxbnEzVmk?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -351,6 +380,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-16",
    "c": 0,
    "p": -0.8
   }

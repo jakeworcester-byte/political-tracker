@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Lean R",
+   "rating": "Tilt R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -144,7 +144,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-14",
+   "date": "2026-10-15",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
@@ -165,10 +165,10 @@
     "HOU-KY-06"
    ],
    "type": "reporting",
-   "source": "WKYT",
+   "source": "WYMT",
    "lean": "unrated",
    "title": "Kentucky’s 6th District race tightens ahead of Nov. 3",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPamZFNDREbXZMcWFUQ3BLU2Qta0FvQkVMRzNROGxEeWFIMVB2UnVaZm8xS01ZeUV2TEFPU2hfT0hzWmlLQ012aVdGcDNLZ1dRa29MNVg2TnhHekVteG9TY1ljdGpEbUx4ajh4a0pZMVcyWTZ4UEtKdmZUb211bERsU2daT3drMjNt0gGcAUFVX3lxTE1MdHFmaTFZbnhKdUwtdXdxcW5idzZKYWp5UTlPTTdKRW5LZHJWa01acWYxMkJnVnUydWhxTFhVdWlqX0RkQjEyQmxMUFdIZFdsYm5jOURIQmlWYlpkWEN3cjg5YUhSY0FRYlJJVXhQdUNaNnlNOEx4blA0Mm1mSkQxdTgxcW9WTElKVUwyNzFRcVdteXNsVDlxbS1yMg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeVRfRTlMNHZlU1RfVktjM1I4dXN4V2VUcFpvc1l3eHpYV3NPODFQX0w3aHdYTWF1V2pZOVdCa1JnR1k4M0FzWXVoQkVENGhBQzRfd0tmWnhaM05jTVh4NkNpUjF5N1ZFUTdvbkl2YkN3ZVhNZGFVYzkyZzdnaG1Vd2ZTV3dzdW1Y0gGcAUFVX3lxTFAwbWF1bnBoZWR6ZGVxOWVOT0ZOV0liYmF6LTF5cUstaGMyV0xEN3VZWE1JTzNvNFZxTTFkRTBLS2RabExxTkJjX2VPeFdvTXZwaGhub1QySGc3TEZmd0FRUkhYNEM0QXZkUmsyT3l3cWRyUE5KX05DbmRjZHNqdFFFSFZaaEJwdzdoa2dhek9TeTc2QmFXNWhNaWd6eQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -198,6 +198,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 2,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-16",
    "c": 2,
    "p": -3.0
   }

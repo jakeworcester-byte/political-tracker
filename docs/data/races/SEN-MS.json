@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-15",
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Solid R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -35,7 +35,7 @@
   "ie": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "rcp": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-15",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -90,35 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": 6.0,
-  "average_label": "R+6.0",
+  "average_margin": 4.0,
+  "average_label": "R+4.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "Data for Progress",
-   "sponsors": [
-    "Way to Lead PAC"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-08-05",
-   "end_date": "2026-08-15",
-   "sample_size": 1018,
+   "pollster": "Wedgewood Polls",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-14",
+   "sample_size": 511,
    "population": "lv",
-   "margin": 6.0,
-   "margin_label": "R+6.0",
+   "margin": 4.0,
+   "margin_label": "R+4.0",
    "answers": [
     {
      "choice": "Cindy Hyde-Smith",
-     "pct": 47.0
+     "pct": 52.0
     },
     {
      "choice": "Scott Colom",
-     "pct": 41.0
+     "pct": 48.0
     }
    ],
-   "url": "https://chartingthewayforward.substack.com/p/research-release-fresh-polling-from"
+   "url": "https://drive.google.com/file/d/16nLOQEszQimue_N2O6G42brKUXopDLcu/view"
   },
   "polls": [
+   {
+    "pollster": "Wedgewood Polls",
+    "end_date": "2026-10-14",
+    "margin": 4.0,
+    "n": 511,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://drive.google.com/file/d/16nLOQEszQimue_N2O6G42brKUXopDLcu/view",
+    "answers": [
+     {
+      "choice": "Cindy Hyde-Smith",
+      "pct": 52.0
+     },
+     {
+      "choice": "Scott Colom",
+      "pct": 48.0
+     }
+    ]
+   },
    {
     "pollster": "Data for Progress",
     "end_date": "2026-08-15",
@@ -140,8 +157,8 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
+ "raw_poll_count": 2,
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MS",
  "history": [
@@ -169,6 +186,11 @@
    "date": "2026-10-15",
    "c": 4,
    "p": 6.0
+  },
+  {
+   "date": "2026-10-16",
+   "c": 4,
+   "p": 4.0
   }
  ]
 }

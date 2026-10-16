@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-01",
+   "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -169,7 +169,23 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-14",
+   "race": "HOU-FL-13",
+   "races": [
+    "HOU-FL-13"
+   ],
+   "type": "reporting",
+   "source": "wtsp.com",
+   "lean": "unrated",
+   "title": "Luna vs. Gray: Meet the candidates running for Congress in Florida's District 13",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNN3ViTm0tOENNVlotVUxBSDZydmI1Wjh0S1pJZURmRG52cHN3QVVyYXRhcXU1Y1NWWEhlZFo0czI5aU1FUHd1ZElnZDhiTEptTllQQ0VsRlVuaHBxYXpqNDhpNnJFRTdmaC1jaGpsa1JDQ0szdVJ1elc5YlpGWkRtMkJNdmhyMld5Z3BrUzFlRF9GS0sxOTJveWVyWFBkcXl0V3htOUt2TVViMTRpcURNNHBkYWduNWNDTlhDb3Z6Wk9SLWxsaDQ3WWdmSzFSRFYzRjFTdGFKaWZrOC1GVWN0QWlsdmFMWVVYc2l1b2ZaRjFPOU0?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-13",
  "history": [
   {
@@ -194,6 +210,11 @@
   },
   {
    "date": "2026-10-15",
+   "c": 2,
+   "p": 3.5
+  },
+  {
+   "date": "2026-10-16",
    "c": 2,
    "p": 3.5
   }
