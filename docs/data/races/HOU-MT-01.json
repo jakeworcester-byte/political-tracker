@@ -3,9 +3,9 @@
  "label": "Montana 1",
  "ratings": {
   "cook": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-16",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -75,8 +75,8 @@
  "key": "HOU-MT-01",
  "name": "MT-01",
  "incumbent_note": "",
- "consensus_score": 1,
- "consensus": "Tilt R",
+ "consensus_score": 0,
+ "consensus": "Tossup",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -180,21 +180,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-12",
-   "race": "HOU-MT-01",
-   "races": [
-    "HOU-MT-01"
-   ],
-   "type": "reporting",
-   "source": "KTVH",
-   "lean": "unrated",
-   "title": "Republican Aaron Flint touts Montana roots in western House district race",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU0xFQW45TTFxdlFja2cweGE1d1RFYkRxeXNZaHk0eGk3c19SNWdhNzVxQnJNdEZURkZNaHlNcjVWZk5IU09qV1cwUEVCUmIzNFhlMGFSa3Q0WUN2Wk5uOFNEdHJ5YTIzbHd5ZG9ILUE4VnFiVWlMN1VXc1JTOXNWN0xMUkd0M3BVamM5QV8zT0hiZGJROHFVOW1GekM5b2hTT3VIMzYxTV9ESTVpRkExTVQzckZxcmhENHg5ZVo5ZGEtdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
@@ -227,6 +212,11 @@
   {
    "date": "2026-10-16",
    "c": 1,
+   "p": 0.5
+  },
+  {
+   "date": "2026-10-17",
+   "c": 0,
    "p": 0.5
   }
  ]

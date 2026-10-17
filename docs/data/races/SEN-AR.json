@@ -90,37 +90,62 @@
   ]
  },
  "poll": {
-  "average_margin": 11.0,
-  "average_label": "R+11.0",
-  "n_polls": 1,
-  "window_days": 45,
+  "average_margin": 10.0,
+  "average_label": "R+10.0",
+  "n_polls": 2,
+  "window_days": 21,
   "latest": {
-   "pollster": "Grayhouse",
-   "sponsors": [],
+   "pollster": "Hendrix College",
+   "sponsors": [
+    "Talk Business & Politics"
+   ],
    "partisan": null,
-   "start_date": "2026-09-30",
-   "end_date": "2026-10-04",
-   "sample_size": 550,
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-13",
+   "sample_size": 709,
    "population": "lv",
-   "margin": 11.0,
-   "margin_label": "R+11.0",
+   "margin": 9.0,
+   "margin_label": "R+9.0",
    "answers": [
     {
-     "choice": "Hallie Shoffner",
-     "pct": 40.0
+     "choice": "Tom Cotton",
+     "pct": 50.0
     },
     {
-     "choice": "Tom Cotton",
-     "pct": 51.0
+     "choice": "Hallie Shoffner",
+     "pct": 41.0
     },
     {
      "choice": "Jeff Wadlin",
-     "pct": 4.0
+     "pct": 5.0
     }
    ],
-   "url": "https://x.com/LandonWall_/status/2108601370580332749"
+   "url": "https://talkbusiness.net/2026/10/poll-cotton-takes-lead-over-shoffner/"
   },
   "polls": [
+   {
+    "pollster": "Hendrix College",
+    "end_date": "2026-10-13",
+    "margin": 9.0,
+    "n": 709,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://talkbusiness.net/2026/10/poll-cotton-takes-lead-over-shoffner/",
+    "answers": [
+     {
+      "choice": "Tom Cotton",
+      "pct": 50.0
+     },
+     {
+      "choice": "Hallie Shoffner",
+      "pct": 41.0
+     },
+     {
+      "choice": "Jeff Wadlin",
+      "pct": 5.0
+     }
+    ]
+   },
    {
     "pollster": "Grayhouse",
     "end_date": "2026-10-04",
@@ -169,7 +194,7 @@
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 3,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-AR",
@@ -203,6 +228,11 @@
    "date": "2026-10-16",
    "c": 4,
    "p": 11.0
+  },
+  {
+   "date": "2026-10-17",
+   "c": 4,
+   "p": 10.0
   }
  ]
 }

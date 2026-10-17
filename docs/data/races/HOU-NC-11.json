@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-16",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -67,14 +67,14 @@
  "incumbent": "Chuck Edwards",
  "last_result": "56.8% R",
  "incumbent_party": "R",
- "open_seat": true,
+ "open_seat": false,
  "state": "North Carolina",
  "state_abbr": "NC",
  "special": false,
  "district": "11",
  "key": "HOU-NC-11",
  "name": "NC-11",
- "incumbent_note": "",
+ "incumbent_note": "withdrew",
  "consensus_score": 0,
  "consensus": "Tossup",
  "disagreement": false,
@@ -90,7 +90,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "race": "HOU-NC-11",
    "races": [
     "HOU-NC-11"
@@ -105,16 +105,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "race": "HOU-NC-11",
    "races": [
     "HOU-NC-11"
    ],
    "type": "reporting",
-   "source": "WLOS",
+   "source": "Carolina Journal",
    "lean": "unrated",
-   "title": "Know your candidate: Jamie Ager for North Carolina's 11th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE9fN3NmQjAxejk2czRLUTJyc0pSSFFLaWtPYTQ3M2pBWThXOVJwMU5ydjFiZ2doeTI2b1BabXI3MzFrbXdSQVhld2N4NHZvck9DVXBuenNUTHZnRGliWEdUUlFvLUk5cWdvNmx5ay1TbEJmMXJRYzRyTGg0ZWpXanhVOUFxS2FfU1R1QVpCRDNscWptX3FvR2RJUFBrMWZLY1JQZkpndw?oc=5",
+   "title": "Ager well outpaces Balkcom in NC-11 fundraising",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVDN6eGYwcVpIMnZlUUh3ZEZ6VmVrZWtfQTFEZ3NSczlUTDFsOVU5U0Y3Z1Z2aVA2T2VZeFczdlhBVktmMkV5QVRuZFFYMWhpcks2cWNYYkxkeHE5TElVa3N6aG1UODZXSDlwT2M3TXNzY2duMm5jeW16ek5LVlREMkJRYWJMeHc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -130,6 +130,21 @@
    "lean": "unrated",
    "title": "Know your candidate: Jennifer Balkcom for North Carolina's 11th Congressional District",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZl9iSFlhSkVLUFJ6VnVRWjhKR2JlZGVGaGFiM05mdGpHNlJCWE5jRUo1b1gwQkFqNTQxZDhrMWNySEUyMVlzLS1TMU5GTHR6VFlpV1VHY1ByS1B2eGVCQUU1MjZoNFpLaEt4aXE3bE02VmhET2w4SXVRWmVsUXU1aXFuemg2UUVpeDU5akEybGlkRVhSUVY4VGpkVGRmTGk4YlZfX01senlhMm9xZDNWc2lR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "HOU-NC-11",
+   "races": [
+    "HOU-NC-11"
+   ],
+   "type": "reporting",
+   "source": "WLOS",
+   "lean": "unrated",
+   "title": "Know your candidate: Jamie Ager for North Carolina's 11th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE9fN3NmQjAxejk2czRLUTJyc0pSSFFLaWtPYTQ3M2pBWThXOVJwMU5ydjFiZ2doeTI2b1BabXI3MzFrbXdSQVhld2N4NHZvck9DVXBuenNUTHZnRGliWEdUUlFvLUk5cWdvNmx5ay1TbEJmMXJRYzRyTGg0ZWpXanhVOUFxS2FfU1R1QVpCRDNscWptX3FvR2RJUFBrMWZLY1JQZkpndw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -179,6 +194,11 @@
   },
   {
    "date": "2026-10-16",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-17",
    "c": 0,
    "p": null
   }

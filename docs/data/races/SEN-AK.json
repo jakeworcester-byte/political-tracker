@@ -90,33 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": -0.8,
-  "average_label": "D+0.8",
-  "n_polls": 3,
+  "average_margin": -0.2,
+  "average_label": "D+0.2",
+  "n_polls": 2,
   "window_days": 21,
   "latest": {
-   "pollster": "Quantus Insights",
+   "pollster": "Public Policy Polling",
    "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-09-28",
-   "end_date": "2026-09-30",
-   "sample_size": 758,
-   "population": "lv",
-   "margin": 0.6,
-   "margin_label": "R+0.6",
+   "partisan": "DEM",
+   "start_date": "2026-10-14",
+   "end_date": "2026-10-15",
+   "sample_size": 578,
+   "population": "rv",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
    "answers": [
     {
      "choice": "Mary Peltola",
-     "pct": 47.2
+     "pct": 48.0
     },
     {
      "choice": "Dan Sullivan",
-     "pct": 47.8
+     "pct": 47.0
     }
    ],
-   "url": "https://quantusinsights.org/polling/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska"
+   "url": "https://x.com/AndrewSolender/status/2110867168892014803"
   },
   "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-15",
+    "margin": -1.0,
+    "n": 578,
+    "population": "rv",
+    "partisan": "DEM",
+    "url": "https://x.com/AndrewSolender/status/2110867168892014803",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 48.0
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "Quantus Insights",
     "end_date": "2026-09-30",
@@ -233,9 +252,24 @@
    }
   ]
  },
- "raw_poll_count": 6,
+ "raw_poll_count": 7,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-17",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Alaska Beacon",
+   "lean": "unrated",
+   "title": "Alaska’s final U.S. Senate debate devolves into mudslinging between Peltola, Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQlR0VUVWbTYxN3p4bW9yYUNtcTVVNW9jY25NWTZGRHRCMjUzTDdlX2JvVkxCcjU5N0hBa1BtaFd5bUFtaHB4V3lHRDlvT09ta3dyeWd5cERUdGlOTHFSQ1IxbmFGa2UtRnk0OGxOQmNodmVoMVV0OFE5aFROUjlxNUhBbFJKZmxmdzNkeTJNNVllclpXenhZb2w0TlRKaWlvenhTOG9KYUhFcUV5b0lNQXNoMHFDUGxtbFZn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-16",
    "race": "SEN-AK",
@@ -257,40 +291,10 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "Alaska's News Source",
+   "source": "The Washington Post",
    "lean": "unrated",
-   "title": "Alaska Senate ‘Debate for the State’",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUEozaXU0N2gtZU1UOE05SEpBWlphZlJaYVBSWXBrdEpMSVp6c0I3NjhveUZObjRrckZvSlpjMzlJZ19ibmF1Y3JKcHhhU3QyOFFIX0xOZzBUT2pfMUIyTHZXbWJ4bWYtbDIyM21DZ0VUbmgyMjlXVWlseWtGOUFaVjVhWdIBlwFBVV95cUxNZHBhYWpMTW1TeGRlWmFCanRpLVhVUDhpVlVVdjg2bFRxSXlaR3ZYTUdpU1VDdTktMnJ4ZVplc3RuSWJyRDJXV2FVbXdsWHJRcFZWVS0wbnZTaklIaEgyT0Q4Z1lGMFczWnRJWnp2dlRidW9pd1E4OUgwMlN3aDZnUmdreTVhU2ZKc2JYcVRRa0FsSXpWM21z?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "KTVN",
-   "lean": "unrated",
-   "title": "Sullivan, Peltola clash over Iran, consumer prices in televised debate in Alaska US Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQRUdlMWhaSWhkMzJUbnZvLWJqZ2lzQ0I2YnZDcDRfNXRKT1J1bHdEZFRzQW1oTEstOWhlRDQzeEVHTHJ4Nl91WFBZZTB1dTFBdW9XbnRjVTBvZmtyNE5NNXJKbHgxcnhYelc0M1A1a2ktTzZuTUZKcy1nc2RPUE1KcDlCcW11aHVMckxFMXU1Ukg5b0JTRXV3QzBXSWJFanBWdTNLTUh1VjVRcEdvVnlET2ZINThQWkRXeVhEaThDTDFZOS1lWWpOLXVqMnJWYm84a2lVQW1ONFIzeVRyOW1OUjVmRFI2MUZBYlV3UF9ydEVhci1fekZqOXRqeFZWLWg1SnJDNWQtR3Y?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "yoursun.com",
-   "lean": "unrated",
-   "title": "Election 2026 Alaska Senate",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSVVpeFUxd3lENUUxU3EyVmFTTGJieVZrRzFFdktJcm9IVW1DckUzbG94eDlzT3ZBblFlbFUyOS1GTWdJdl9NMFBVZWhfYWZBZ25QcTdfbGxTTTJ2U3NzejFrbHA1d2R5VTBSVUtvbW5la0huWEJWMThJUUl2ckJyVkdvNV9yV29WdXl6RHhiWnhBYjBGenhjbzNjR1dxLVZMaGJQV3NxOHh6Ty1UV1ByMQ?oc=5",
+   "title": "Takeaways from the Alaska Senate debate between Mary Peltola and Dan Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdm5GbjVzTVJTRWh4UXJuYVBzdUNFb0d5T3dEXzB4Z0VkODh3WHRBa1dhYTJsMkJNcVA2Y2tKWjFNcG9pLW16bDQ3SlVlOFNLNy16WkhCVmtIcUs5MTR5YllJRzVjR0syNDcxbU9Cb0h5VGpNNEdDTXU3MVAxcUhnQ09VZ0c4ZHlNeWZQX0hjQkpFWEhxM19RUGdFM2xRdmh6bHREa2lIRDhTbmdIeVFDdjhsS0JRazg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -304,38 +308,8 @@
    "type": "reporting",
    "source": "PBS",
    "lean": "unrated",
-   "title": "WATCH LIVE: Sullivan, Peltola face off in Alaska U.S. Senate debate",
+   "title": "WATCH: Sullivan, Peltola face off in Alaska U.S. Senate debate",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONkwwckNIQnY2eUg2Mmx4dEhVM3ByVmZkeTM4QmNGc0ZkLWQ1NjhuT3YzRGhycnNrUTVUM3dxODNneFN6eVRkcDZzdlpoWXJwUWNXUWhkbFZjSGVZUFdkTXJLaHNENG9NQVUySzY4WG1pMExPT2ZKY1dsa1RTTGxOUG4teDh2elJGd25lMmctV1IzcDkxZDluVm94QWwxNXVuT1dNUtIBqgFBVV95cUxPN0kyal9jeHFjWDkteElUdkM5MVk1SXRWdkJza2FnTExrVndEaHFsbUlEb0E3NDJYX2wtQ1cxR25GRU9zQUVFY0pPSUZNWkhpMnQ5ZXNPdnR1U01hTjhzMHNFdlRJVXY2cXdfSXFOdTVSS1RNUmFHcXhlX1ktUUpzUTRDYUtfMW9XR0d4V00xTTBZa2dJQWQ3NGwwWFJENWF4QWh0Umtrcy1iUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Norwalk Hour",
-   "lean": "unrated",
-   "title": "Sullivan, Peltola set to meet in televised debate in high-stakes Alaska US Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnMzZVowUllHLUF5a3c2Sm1LdEU1YkRjcmFQeGE1WTZSbTl0OWhUQUtHUEpFaThZQ3V6eW5pcmdnSkJKV1hwV0hfM2tyMXBBTTFfNTNzb0ttdFNIdXpqNHhhLXhfaVY4bVpZclZCdEh3aDU4cnh3S3ZFdnNSM0JNYmR0SWJtODdWY3lTVDk0d1hyMld1Y2FvMDkzTlFlM2hMMkM1SE9QWThENnM?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "ClickOnDetroit | WDIV Local 4",
-   "lean": "unrated",
-   "title": "Alaska's Sullivan and Peltola clash over Iran and high prices in testy Senate debate",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOT2staXVCRHNkc0s2ZHZCb3B6c3dMVWpLam4wX3h3RzA0dFhlbXJtOVQ2SFhGWEVuNm8xWFlLR1A4RDFfcFA0THJfSzJ1cy1QWVNuVFZQZ0Jqb1p2RjAyUTZIWUpON1c3NmRNRHVtWVBad0hIZmtjaXVwVjYtMTNUeHRlTy1sZV9fQzdzN2dpY0NNaHJSelNTdUZrUTNPNzNEWVpiWlNRTDBQNzNBMnM5ejVBN2lpNHVlRG96dlhhUjcyZlE3QXR2U1JEMHJ5VW8tOFlNcVRPbGNVUQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -351,6 +325,21 @@
    "lean": "unrated",
    "title": "Trump urges Alaskans to vote for the ‘real’ Dan Sullivan in tight midterms battle",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTnF4M0J4eHVzQW5HWjl0amh2SW8tcWNlQUZMTmduTy15ZTFmd05rSnpMUTl2Y1J1Y1BfZm1xRmN2aGxRVThSUUZPX3FqbFR3NUtwTlZ3UEM5Ym5heGU1V1hycWtLTzd2ZUU4UWMxY1N6UVdzR1Jub1hOV25KaUJ1VmFLWDBWbEg5TWx6b3paeFI4Q1p6QldhQTdfZWRQYnZLQzk4NGpwWXdsOE5TRE4xYg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-13",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Politico",
+   "lean": "unrated",
+   "title": "Mary Peltola raises $17M in Q3 in Alaska’s Senate race",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSFl0Y2Z0RUtEZUlHY294MV9LaEZDR3gyNEdXUUNYcnpwYXRTMkZibm5ld3A5c3JHeTN2RUp2N1lHUzE0U3V0QWFVTDUtZHdXSU1YX29lT0FCc3FIb01PZkVvcEtkb3lWZmF1NUFtM09oZU5oNjE3XzhNb1RvYlZHWTV3ZnljNGVFR1ByMFJQNUdLd0d6ZTJHUDVnQUh2VkF3SHVRUXFsdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -387,6 +376,11 @@
    "date": "2026-10-16",
    "c": 0,
    "p": -0.8
+  },
+  {
+   "date": "2026-10-17",
+   "c": 0,
+   "p": -0.2
   }
  ]
 }

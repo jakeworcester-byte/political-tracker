@@ -90,49 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -3.9,
-  "average_label": "D+3.9",
+  "average_margin": -3.3,
+  "average_label": "D+3.3",
   "n_polls": 11,
   "window_days": 21,
   "latest": {
-   "pollster": "Mitchell Research & Communications",
-   "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-10-01",
-   "end_date": "2026-10-01",
-   "sample_size": 682,
+   "pollster": "The Tyson Group",
+   "sponsors": [
+    "Alliance for a Better Future"
+   ],
+   "partisan": "REP",
+   "start_date": "2026-10-06",
+   "end_date": "2026-10-08",
+   "sample_size": 600,
    "population": "lv",
-   "margin": -5.0,
-   "margin_label": "D+5.0",
+   "margin": 2.0,
+   "margin_label": "R+2.0",
    "answers": [
     {
      "choice": "Abdul El-Sayed",
-     "pct": 46.0
+     "pct": 44.0
     },
     {
      "choice": "Mike Rogers",
-     "pct": 41.0
-    },
-    {
-     "choice": "Lydia Christensen",
-     "pct": 3.0
-    },
-    {
-     "choice": "Tim Long",
-     "pct": 1.0
-    },
-    {
-     "choice": "Douglas P. Marsh",
-     "pct": 1.0
-    },
-    {
-     "choice": "Walter P. Kristy",
-     "pct": 2.0
+     "pct": 46.0
     }
    ],
-   "url": "https://wwmt.com/news/michigan-politics/mitchell-poll-michigan-us-senate-election-abdul-el-sayed-mike-rogers-politics-government-vote-polls-state"
+   "url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/"
   },
   "polls": [
+   {
+    "pollster": "The Tyson Group",
+    "end_date": "2026-10-08",
+    "margin": 2.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 44.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 46.0
+     }
+    ]
+   },
    {
     "pollster": "Mitchell Research & Communications",
     "end_date": "2026-10-01",
@@ -242,6 +247,25 @@
      {
       "choice": "Mike Rogers",
       "pct": 49.0
+     }
+    ]
+   },
+   {
+    "pollster": "The Tyson Group",
+    "end_date": "2026-09-27",
+    "margin": -1.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 44.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 43.0
      }
     ]
    },
@@ -406,80 +430,10 @@
       "pct": 45.0
      }
     ]
-   },
-   {
-    "pollster": "Emerson College",
-    "end_date": "2026-09-14",
-    "margin": -2.5,
-    "n": 1000,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://emersoncollegepolling.com/michigan-2026-poll-el-sayed-and-rogers-locked-in-close-election/",
-    "answers": [
-     {
-      "choice": "Abdul El-Sayed",
-      "pct": 48.2
-     },
-     {
-      "choice": "Mike Rogers",
-      "pct": 45.7
-     },
-     {
-      "choice": "Lydia Christensen",
-      "pct": 0.5
-     },
-     {
-      "choice": "Tim Long",
-      "pct": 0.6
-     },
-     {
-      "choice": "Douglas P. Marsh",
-      "pct": 3.0
-     },
-     {
-      "choice": "Walter P. Kristy",
-      "pct": 0.3
-     }
-    ]
-   },
-   {
-    "pollster": "Trafalgar Group",
-    "end_date": "2026-09-09",
-    "margin": -1.5,
-    "n": 1079,
-    "population": "lv",
-    "partisan": "REP",
-    "url": "https://www.thetrafalgargroup.org/news/mi-sen-general-0910/",
-    "answers": [
-     {
-      "choice": "Abdul El-Sayed",
-      "pct": 46.3
-     },
-     {
-      "choice": "Mike Rogers",
-      "pct": 44.8
-     },
-     {
-      "choice": "Lydia Christensen",
-      "pct": 0.8
-     },
-     {
-      "choice": "Tim Long",
-      "pct": 0.7
-     },
-     {
-      "choice": "Douglas P. Marsh",
-      "pct": 0.4
-     },
-     {
-      "choice": "Walter P. Kristy",
-      "pct": 0.2
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 31,
+ "raw_poll_count": 33,
  "trend": "Stable",
  "signals": [
   {
@@ -491,10 +445,40 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "In Michigan Senate Race, Ocasio-Cortez Joins El-Sayed on Trail in Trump Country",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/ocasio-cortez-el-sayed-michigan-vance-trump-senate.html",
-   "summary": "Representative Alexandria Ocasio-Cortez campaigned with Dr. Abdul El-Sayed in a swath of Michigan including areas won by President Trump, making a progressive pitch in a key Senate race.",
+   "title": "Ocasio-Cortez Transfers $1 Million to Help El-Sayed in Michigan Senate Race",
+   "url": "https://www.nytimes.com/2026/10/16/us/politics/aoc-el-sayed-million-transfer-midterms.html",
+   "summary": "The transfer represents an unusually large amount for a House member to give to a Senate race.",
    "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "New York Post",
+   "lean": "unrated",
+   "title": "AOC sends $1M to Abdul El-Sayed in Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRGF3VU56dEZmd19KNEdLeHNnbms2aEdDVURQdThXMEJJWEpkZUlSRXg5NTBBcG91MWRIYTR3QXdWbW9GREkyMWtWYTNaYWpjT21uWnJaUUI3VDJ4dWtzQ0Z0UGNZN1dfWGFaazJGclVDTHcxa0gwRUExM3kzUVFnbFd2QVNzSHduTXlMTG01aFEyMWdTQXpyRw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "AOC transfers $1M to El-Sayed in final push for Michigan senate race",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMUFwc1R4ZVdCemhEWXAwMDNKX0JwemxvbWVHXzdGR09qYkJ3bEZ3Smwtd3NteXZ4WkY3UzByWHUtUEFFSWE3UnlqMzg5ZVhaMjUxTGZjR1hta3MxbmdKY3NiMFRVc2MwUTV4VjVWZFVJVTFTQ3VzcDdtTVp4aDNlcjNkRmE3ZlJZc29ieDlWWEx2SUk1dG5wbXBxbkRjbVI0MmVYOU5aTjg4SVpa0gGyAUFVX3lxTE9rb3hXLTZiVjkyNFNSUFItTzBGNTVwckduS0hDSGUzNjU1NmFkVlRiVlk2eHFzbVVwd09aUkpoR29IZWV5MXlMVDdiYkZzVzdHYlExS1UzNzkyVTZQSXpIYzJzRmk2aDh4WkUwVkJtRERwNnFHNVNxVzlhUDlheXV6NXZnbThHcHRFNkpyMGJPNloxNDhXM0ZVTUE1YkFIVUtoZWpXaktTX3kyamZKQzJIOVE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-15",
@@ -518,40 +502,10 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "Michigan GOP Senate nominee Mike Rogers on whether Iran war was a mistake: ‘We’ll find out’",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUVVNWEZFekJvdmpQeGZXdUowRTRHTVFLVVJCZlVYMDdHQzd6RnpLdV80LXZCdncwTzJzUU8zaWJzRl9BTHBMNlZGV3k2aTNzR0h5UVB1NmdsUENLV20yOHZBX3VwMF9hMzVuMUtEMW1DM2JZc2V6M3EwWGZXOEtvR2UwU3ZId0EzSlF0a2JINXU5cUtkUVZnLUdZT3VSU0x1SG44WEVuVktob3QyaTNMdWNycFZLejJya3RIazNjeV8?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
    "source": "ClickOnDetroit | WDIV Local 4",
    "lean": "unrated",
    "title": "NBC Nightly News anchor Tom Llamas visits Detroit as Michigan Senate race draws national attention",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOd0NYQkt2SGgxTjRIQkIzQkc1Z2E5eFBTOGUwb1Rvbm4teWtpWGdxMXd5OVRWNEYxLU9xTVNmWnpjREl3N0Iyek9hNTR5V1pFNEp0YnNxdDFCUlZ5RUR2bHJjNkotMEx3azFCRW1QTDRZTUs5a2R1azlJVmttZ0t0SUVtMlcxQTEybHhmaG92aFVnVFBfeVg4WldRTUZQS1ktNUt6TWhRSUFPeHdGZjExc0tTcEFXQlptTHplcFpwY1ZTUE1NV09UU3dqcHVqR01IMmRKOGQyeWFqZ3RzaUpvWHBicDEzelE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-11",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "The Guardian",
-   "lean": "unrated",
-   "title": "Why Abdul El-Sayed might not be winning Black voters in Michigan",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV1FTaVlHM0JUa0dMaXp1ZWJ2VUtCUVpmUkhPX3pYcTB6Nm02RzF3Yk9BNDNEd3JPRjdJVTljNnNQYUNxNEtZRXotTzctVWlrMzNkajBRYnlaaEUybHl2SFhfaUY1WGswdVo3Q1NrOElfV21KUjI0N0lwVWFscDBPZ1MzZGV3am9JSlp1WG9wbnhRS1VnSUc2bHRUMVE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -588,6 +542,11 @@
    "date": "2026-10-16",
    "c": -2,
    "p": -3.9
+  },
+  {
+   "date": "2026-10-17",
+   "c": -2,
+   "p": -3.3
   }
  ]
 }

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-16",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -140,7 +140,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-16",
+   "race": "HOU-NC-01",
+   "races": [
+    "HOU-NC-01"
+   ],
+   "type": "reporting",
+   "source": "Carolina Journal",
+   "lean": "unrated",
+   "title": "Davis outpaces Buckhout in NC-1 fundraising",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS0hHMGJ3ZmcxdGJNclhsT0ZnbU5fUENDVjJrWFkwVl84Z0g2Mm51RzVhRHdWTGY5elRLTi1PZEYyNE53dlJHRFJkbFpDYzJmNy1tM1EtQ0pUTTZ1WFVGSkV6MkpWY0NyTFZtcmh5SHpTTS13RDVyZHRnbG1ELUVzNlVn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NC-01",
  "history": [
   {
@@ -170,6 +186,11 @@
   },
   {
    "date": "2026-10-16",
+   "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-10-17",
    "c": 0,
    "p": -10.0
   }
