@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-16",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -159,7 +159,23 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-16",
+   "race": "HOU-PA-07",
+   "races": [
+    "HOU-PA-07"
+   ],
+   "type": "reporting",
+   "source": "Heartland Signal",
+   "lean": "unrated",
+   "title": "Mackenzie vs. Brooks: What’s at stake in Pennsylvania’s 7th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdlNQanpiOExOM0RYa0p4NHhDYUZJWXdGalljNEFQcHVTMzhNV1ZPd3FDMzFfM05ZekpWNnhsaS1EZEJFRUVhVHZ2ZmxqdzdZUXlmTHVQN3lRb2pkU0RlUzM2X1RLcGc1TEVra1dzZk5fWnhhb0piSEprUHFoak1HVE9QYUltUUVScGtEM0VTTGRpOEpJM2xzallWVVc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-07",
  "history": [
   {
@@ -189,6 +205,11 @@
   },
   {
    "date": "2026-10-16",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-17",
    "c": -2,
    "p": -5.0
   }

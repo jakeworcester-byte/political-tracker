@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-16",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-11",
-   "race": "HOU-CO-05",
-   "races": [
-    "HOU-CO-05"
-   ],
-   "type": "reporting",
-   "source": "CNN",
-   "lean": "unrated",
-   "title": "A Democrat has never represented Colorado’s 5th Congressional District. Will this be the cycle that changes?",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTFJBUk5zM0d6VEhUdUVWZXJudFdZVHNWR096VThOV2VzWGsxUmFqUWpIejdUQll2d0N4OEF4eURmeDJkN2xiWDRMTGVkUTBqLU1mWVhZOG5pcl9uWGNuZHhTMmM1VUh4QzJkMXJxSkFkclFqOFVEbV8xTDFNLURfZ2RQejRORVZJamd4cXIwZ1pJUzltV3hxNmxMN1N5WGFuSFhXM0QyX19Vc0dtUDF4LTRmYVIyU0N6WUhJQWQwTFJNeXEycXNXamdhMVhfbmowamVNUEhzRUY2VUh6NXUwdHVoOUpsdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-05",
  "history": [
   {
@@ -134,6 +118,11 @@
   },
   {
    "date": "2026-10-16",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-17",
    "c": 2,
    "p": null
   }

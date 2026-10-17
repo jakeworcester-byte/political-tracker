@@ -90,20 +90,20 @@
   ]
  },
  "poll": {
-  "average_margin": -2.0,
-  "average_label": "D+2.0",
+  "average_margin": -0.5,
+  "average_label": "D+0.5",
   "n_polls": 2,
   "window_days": 21,
   "latest": {
-   "pollster": "Wedgewood Polls",
+   "pollster": "InsiderAdvantage",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-09-22",
-   "end_date": "2026-09-24",
-   "sample_size": 500,
+   "start_date": "2026-10-13",
+   "end_date": "2026-10-14",
+   "sample_size": 1200,
    "population": "lv",
-   "margin": -2.0,
-   "margin_label": "D+2.0",
+   "margin": 1.0,
+   "margin_label": "R+1.0",
    "answers": [
     {
      "choice": "Roger Marshall",
@@ -111,16 +111,31 @@
     },
     {
      "choice": "Adam Hamilton",
-     "pct": 50.0
-    },
-    {
-     "choice": "David Graham",
-     "pct": 2.0
+     "pct": 47.0
     }
    ],
-   "url": "https://drive.google.com/drive/u/0/folders/1VKLmawSn60cr7L9HCx9mtZDvATC20N5u"
+   "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
   },
   "polls": [
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-10-14",
+    "margin": 1.0,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
+    "answers": [
+     {
+      "choice": "Roger Marshall",
+      "pct": 48.0
+     },
+     {
+      "choice": "Adam Hamilton",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "Wedgewood Polls",
     "end_date": "2026-09-24",
@@ -169,9 +184,39 @@
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 3,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-17",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The Topeka Capital-Journal",
+   "lean": "unrated",
+   "title": "Why the Kansas Senate race is drawing global eyes | Opinion - The Topeka Capital-Journal",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdlhqQWZ1RnJ5b3k5dWI3SWF4ck1RQ0V4c2VsMDBBWmxzaS05TEg2dzhsX1dDZkRodGxra3pCY2RMSHhZX1Z1REF5MmRWNENfTllfQlhDVzBleGlaY1hZazI2NFNRS21zREdEb0dXYUduN21HWWZZc3h6d2kyN190ZzJ6Zy1uNGdRUVk0NXRNbDBjNVhfN0Z5bXpSMW5tZFlGQVhCZ0l6U1ZBdDJKbElUSDJubnlKMFNfeWVXeDdERW93Tklsd1RaU1M2X04zRWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "KCUR",
+   "lean": "unrated",
+   "title": "In a tight Kansas U.S. Senate race, where do Marshall and Hamilton stand on the real issues?",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTVhZUF9TV3UtNTRERE9xOGtfb0k1X2pPTTBDc0p4Y0RrR0pWVE8wZC0wRWdLUGhiWC1uX1ptREZETmh6X2RseTBJOFFqWmFPTGlDNnNUcnNiSGdSRmlIajFMem5RaFV4TU1lMV92a2F3d3JDd0E4QTJjY2x0LTRlaHlVMk9xRHdhajZJNXhRZ21TN2tUWkVVUUw2azJ0YzRx?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-16",
    "race": "SEN-KS",
@@ -194,40 +239,10 @@
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "Kansas Reflector",
-   "lean": "unrated",
-   "title": "Election analyst: Candidate quality key to Roger Marshall's slide, Adam Hamilton's rise in Kansas",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNekFMaGtBMDlvNk5OdThkTXlzYS1lcm9aUktzbDBPaVBsVEZQOXV6c1JDV0RSRVI2V3E5clJXQjMtN2dHYi1NQWVyRUVOd2ZYemRsek80eTQ4S2hYUWNiRTlRcHZoOUpVNkxYTVNScnBFbGdhdjlWaFBCYS1MVWxtOS02OFh5TDhxZmMtMFVsUWlKTWlPQ1Z5U3U3YlZ0SVNNdDFzaFJmQWdWcUR3UHlEaWxjVnl5b1pzeEctYS10VkFBaDFWUS1iYVdldV9LUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
    "source": "KMBC",
    "lean": "unrated",
    "title": "Sen. Roger Marshall vs. Adam Hamilton: 10 Kansas counties to watch on Election Night",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUTJXUWxES2o2ekg1RzljdlRIUG41R0VyajlrQTVScEl6NDZJcDEtTXdOQjFhR3c3dkw3aTBneHhSYngwWTI1YzU4TmFnRE50cm90VXh1ZFkxMVI1dE0ydFM3akRMNlcwR21mN0dFN014QWRCZmduX1dydm9XbnR0Y3Ria1otSi1wMkdvVVg0N1lCQVBNSThRb0pTUXN3UUxBS09hOC1n?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Kansas City Star",
-   "lean": "unrated",
-   "title": "Trump’s visit to Kansas could help Marshall overcome tight polls. Or it could sink him",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pdHVIVTIxQVFEelU5a0FCMDVzUU4wSDRvcHRaN2t1dzRIOUl3dnpsRmhiN2ZxRW5oLU1EYWttMnJzRWpDd3BZal9IYkoyQW1oc3lCaWR5YmpubURsTlJaS3ltWUZwWmJkRDcwT0NUamU4ZWNvVWNsZnVvSGt4QdIBfkFVX3lxTE5ORXE4UXhQaVE1R05FVGh0aUI5eFlyd2FKeVRnM2pmMkFreW16MHUyRHVGa01sSjNRQ3ppY3dvZktoUC1OMDhIcU52bUdOYTZGU1dvbVd4RDd1eDZSSVYxYXp1VVgyUkx4M3Jub3JmVzFubXRvSE45cnBsS3NZZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -279,6 +294,11 @@
    "date": "2026-10-16",
    "c": 0,
    "p": -2.0
+  },
+  {
+   "date": "2026-10-17",
+   "c": 0,
+   "p": -0.5
   }
  ]
 }

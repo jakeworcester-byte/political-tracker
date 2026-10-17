@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-16",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -90,7 +90,22 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-15",
+   "date": "2026-10-16",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX",
+    "HOU-TX-35"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Elon Musk is putting a small fortune into Republicans’ effort to salvage the Senate seat in Texas, seen as critical to the party keeping control of the chamber in the fall elections",
+   "url": "https://www.wsj.com/politics/elections/elon-musk-pours-a-fortune-into-saving-texas-for-republicans-170b27df?mod=rss_socialpoliticsfeed",
+   "summary": "The world’s richest man donated $158 million to an effort backing state Attorney General Ken Paxton.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
    "race": "HOU-TX-35",
    "races": [
     "HOU-TX-35"
@@ -134,6 +149,11 @@
   },
   {
    "date": "2026-10-16",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-17",
    "c": 0,
    "p": null
   }

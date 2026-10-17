@@ -3,9 +3,9 @@
  "label": "Minnesota 1",
  "ratings": {
   "cook": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-16",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -163,7 +163,7 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "race": "HOU-MN-01",
    "races": [
     "HOU-MN-01"
@@ -178,7 +178,7 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-15",
+   "date": "2026-10-14",
    "race": "HOU-MN-01",
    "races": [
     "HOU-MN-01"
@@ -222,6 +222,11 @@
   },
   {
    "date": "2026-10-16",
+   "c": 2,
+   "p": -1.5
+  },
+  {
+   "date": "2026-10-17",
    "c": 2,
    "p": -1.5
   }

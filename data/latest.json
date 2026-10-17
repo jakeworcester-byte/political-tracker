@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-16T10:10:49.113480+00:00",
- "run_date": "2026-10-16",
+ "generated_at": "2026-10-17T10:09:28.999744+00:00",
+ "run_date": "2026-10-17",
  "site_title": "Jake's Political Tracker",
  "disclaimer": "Not a forecast. A daily synthesis of what credible forecasters, public polls, prediction markets, and reporting say about the 2026 midterms, with movement over time.",
  "sources": {
@@ -37,7 +37,7 @@
    "st": "2026-10-14"
   },
   "house": {
-   "cook": "2026-10-09",
+   "cook": "2026-10-16",
    "ie": "2026-10-15",
    "sabato": "2026-10-08",
    "econ": "2026-10-07",
@@ -118,29 +118,29 @@
   "markets": {
    "senate": {
     "D": 64.5,
-    "R": 37.5,
+    "R": 36.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
     "source": "Polymarket",
-    "volume": 6748284.200457001
+    "volume": 6954590.1462119995
    },
    "house": {
     "D": 90.5,
     "R": 9.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
     "source": "Polymarket",
-    "volume": 17883358.800124
+    "volume": 18205524.775597002
    },
    "balance": {
     "combos": {
      "D Senate, D House": 62.5,
      "D Senate, R House": 0.9,
-     "R Senate, D House": 28.5,
+     "R Senate, D House": 27.5,
      "R Senate, R House": 8.5,
      "Other": 0.1
     },
     "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
     "source": "Polymarket",
-    "volume": 23976333.273683995
+    "volume": 24444902.097782
    },
    "kalshi": []
   }
@@ -182,25 +182,25 @@
     "Likely D": 14,
     "Lean D": 18,
     "Tilt D": 0,
-    "Tossup": 14,
-    "Tilt R": 1,
-    "Lean R": 14,
-    "Likely R": 27,
+    "Tossup": 15,
+    "Tilt R": 0,
+    "Lean R": 15,
+    "Likely R": 26,
     "Solid R": 45
    },
    "seats_up_by_incumbent_party": {
     "D": 38,
     "R": 106
    },
-   "tracked": 47
+   "tracked": 48
   },
   "house_forecasters": {
    "cook": {
     "name": "Cook Political Report",
-    "D": 213,
-    "R": 201,
+    "D": 214,
+    "R": 200,
     "tossups": 21,
-    "as_of": "2026-10-09"
+    "as_of": "2026-10-16"
    },
    "ie": {
     "name": "Inside Elections",
@@ -275,171 +275,45 @@
  "movers": [
   {
    "type": "rating change",
-   "race": "SEN-FL-S",
-   "name": "Florida Senate (special)",
-   "text": "Inside Elections: Solid R -> Likely R (as of 2026-10-15)",
+   "race": "HOU-FL-16",
+   "name": "FL-16",
+   "text": "Cook Political Report: Solid R -> Likely R (as of 2026-10-16)",
    "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "Inside Elections"
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
-   "race": "SEN-ID",
-   "name": "Idaho Senate",
-   "text": "The Economist: Likely R -> Solid R (as of 2026-10-15)",
-   "delta": 1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "The Economist"
-  },
-  {
-   "type": "rating change",
-   "race": "SEN-IA",
-   "name": "Iowa Senate",
-   "text": "The Economist: Tossup -> Lean R (as of 2026-10-15)",
-   "delta": 2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "The Economist"
-  },
-  {
-   "type": "rating change",
-   "race": "SEN-KS",
-   "name": "Kansas Senate",
-   "text": "Inside Elections: Likely R -> Tilt R (as of 2026-10-15)",
+   "race": "HOU-FL-25",
+   "name": "FL-25",
+   "text": "Cook Political Report: Tossup -> Lean D (as of 2026-10-16)",
    "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "Inside Elections"
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
-   "race": "SEN-MS",
-   "name": "Mississippi Senate",
-   "text": "FiftyPlusOne: Solid R -> Likely R (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "FiftyPlusOne"
-  },
-  {
-   "type": "poll shift",
-   "race": "SEN-MS",
-   "name": "Mississippi Senate",
-   "text": "Polling average R+6.0 -> R+4.0 (1 polls, 45d)",
-   "delta": -2.0,
-   "url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MS",
-   "source": "VoteHub polls"
-  },
-  {
-   "type": "rating change",
-   "race": "SEN-NH",
-   "name": "New Hampshire Senate",
-   "text": "Inside Elections: Tossup -> Tilt D (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "SEN-SC",
-   "name": "South Carolina Senate",
-   "text": "Consensus moved Likely R -> Lean R",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "Forecaster consensus (Wikipedia compilation)"
-  },
-  {
-   "type": "rating change",
-   "race": "SEN-SC",
-   "name": "South Carolina Senate",
-   "text": "Inside Elections: Likely R -> Lean R (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "SEN-TX",
-   "name": "Texas Senate",
-   "text": "Inside Elections: Tilt R -> Tossup (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-AL-02",
-   "name": "AL-02",
-   "text": "Consensus moved Likely R -> Lean R",
+   "race": "HOU-KS-02",
+   "name": "KS-02",
+   "text": "Cook Political Report: Solid R -> Likely R (as of 2026-10-16)",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Forecaster consensus (Wikipedia compilation)"
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
-   "race": "HOU-AL-02",
-   "name": "AL-02",
-   "text": "Inside Elections: Likely R -> Lean R (as of 2026-10-15)",
+   "race": "HOU-MN-01",
+   "name": "MN-01",
+   "text": "Cook Political Report: Likely R -> Lean R (as of 2026-10-16)",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-AZ-01",
-   "name": "AZ-01",
-   "text": "Inside Elections: Tossup -> Tilt D (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-AR-02",
-   "name": "AR-02",
-   "text": "Inside Elections: Solid R -> Likely R (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-IN-05",
-   "name": "IN-05",
-   "text": "Inside Elections: Solid R -> Likely R (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-IA-02",
-   "name": "IA-02",
-   "text": "Inside Elections: Tilt R -> Tossup (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-KY-06",
-   "name": "KY-06",
-   "text": "Inside Elections: Lean R -> Tilt R (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-ME-02",
-   "name": "ME-02",
-   "text": "Inside Elections: Likely R -> Lean R (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
    "race": "HOU-MT-01",
    "name": "MT-01",
-   "text": "Consensus moved Lean R -> Tilt R",
+   "text": "Consensus moved Tilt R -> Tossup",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
    "source": "Forecaster consensus (Wikipedia compilation)"
@@ -448,127 +322,73 @@
    "type": "rating change",
    "race": "HOU-MT-01",
    "name": "MT-01",
-   "text": "Inside Elections: Lean R -> Tilt R (as of 2026-10-15)",
-   "delta": -1,
+   "text": "Cook Political Report: Lean R -> Tossup (as of 2026-10-16)",
+   "delta": -2,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
    "race": "HOU-NE-01",
    "name": "NE-01",
-   "text": "Inside Elections: Solid R -> Likely R (as of 2026-10-15)",
+   "text": "Cook Political Report: Solid R -> Likely R (as of 2026-10-16)",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-NE-02",
-   "name": "NE-02",
-   "text": "Inside Elections: Tilt D -> Lean D (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-NV-02",
-   "name": "NV-02",
-   "text": "Inside Elections: Likely R -> Lean R (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-NJ-09",
-   "name": "NJ-09",
-   "text": "Inside Elections: Likely D -> Solid D (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-NY-19",
-   "name": "NY-19",
-   "text": "Inside Elections: Likely D -> Solid D (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
    "race": "HOU-NY-21",
    "name": "NY-21",
-   "text": "Inside Elections: Likely R -> Lean R (as of 2026-10-15)",
+   "text": "Cook Political Report: Likely R -> Lean R (as of 2026-10-16)",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
-   "race": "HOU-NC-01",
-   "name": "NC-01",
-   "text": "Inside Elections: Tilt R -> Tossup (as of 2026-10-15)",
+   "race": "HOU-OH-01",
+   "name": "OH-01",
+   "text": "Cook Political Report: Lean D -> Likely D (as of 2026-10-16)",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
-   "race": "HOU-NC-11",
-   "name": "NC-11",
-   "text": "Inside Elections: Lean R -> Tossup (as of 2026-10-15)",
-   "delta": -2,
+   "race": "HOU-OH-10",
+   "name": "OH-10",
+   "text": "Cook Political Report: Likely R -> Lean R (as of 2026-10-16)",
+   "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
-   "race": "HOU-OH-09",
-   "name": "OH-09",
-   "text": "Inside Elections: Tilt R -> Tossup (as of 2026-10-15)",
+   "race": "HOU-OH-15",
+   "name": "OH-15",
+   "text": "Consensus moved Likely R -> Lean R",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Forecaster consensus (Wikipedia compilation)"
   },
   {
    "type": "rating change",
-   "race": "HOU-PA-07",
-   "name": "PA-07",
-   "text": "Inside Elections: Tossup -> Tilt D (as of 2026-10-15)",
+   "race": "HOU-OH-15",
+   "name": "OH-15",
+   "text": "Cook Political Report: Likely R -> Lean R (as of 2026-10-16)",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-PA-08",
-   "name": "PA-08",
-   "text": "Inside Elections: Tossup -> Tilt D (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Cook Political Report"
   },
   {
    "type": "rating change",
    "race": "HOU-SC-01",
    "name": "SC-01",
-   "text": "Inside Elections: Likely R -> Lean R (as of 2026-10-15)",
+   "text": "Cook Political Report: Likely R -> Lean R (as of 2026-10-16)",
    "delta": -1,
    "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-TX-15",
-   "name": "TX-15",
-   "text": "Inside Elections: Tilt R -> Tossup (as of 2026-10-15)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Inside Elections"
+   "source": "Cook Political Report"
   }
  ],
  "races": [
@@ -750,36 +570,36 @@
     ]
    },
    "flip_votes": 5,
-   "raw_poll_count": 6,
+   "raw_poll_count": 7,
    "poll": {
-    "average_margin": -0.8,
-    "average_label": "D+0.8",
-    "n_polls": 3,
+    "average_margin": -0.2,
+    "average_label": "D+0.2",
+    "n_polls": 2,
     "window_days": 21,
     "latest": {
-     "pollster": "Quantus Insights",
+     "pollster": "Public Policy Polling",
      "sponsors": [],
-     "partisan": null,
-     "start_date": "2026-09-28",
-     "end_date": "2026-09-30",
-     "sample_size": 758,
-     "population": "lv",
-     "margin": 0.6,
-     "margin_label": "R+0.6",
+     "partisan": "DEM",
+     "start_date": "2026-10-14",
+     "end_date": "2026-10-15",
+     "sample_size": 578,
+     "population": "rv",
+     "margin": -1.0,
+     "margin_label": "D+1.0",
      "answers": [
       {
        "choice": "Mary Peltola",
-       "pct": 47.2
+       "pct": 48.0
       },
       {
        "choice": "Dan Sullivan",
-       "pct": 47.8
+       "pct": 47.0
       }
      ],
-     "url": "https://quantusinsights.org/polling/f/quantus-insights-survey-sullivan-peltola-deadlocked-in-alaska"
+     "url": "https://x.com/AndrewSolender/status/2110867168892014803"
     }
    },
-   "signal_count": 8
+   "signal_count": 6
   },
   {
    "key": "SEN-AR",
@@ -870,37 +690,39 @@
     ]
    },
    "flip_votes": 0,
-   "raw_poll_count": 2,
+   "raw_poll_count": 3,
    "poll": {
-    "average_margin": 11.0,
-    "average_label": "R+11.0",
-    "n_polls": 1,
-    "window_days": 45,
+    "average_margin": 10.0,
+    "average_label": "R+10.0",
+    "n_polls": 2,
+    "window_days": 21,
     "latest": {
-     "pollster": "Grayhouse",
-     "sponsors": [],
+     "pollster": "Hendrix College",
+     "sponsors": [
+      "Talk Business & Politics"
+     ],
      "partisan": null,
-     "start_date": "2026-09-30",
-     "end_date": "2026-10-04",
-     "sample_size": 550,
+     "start_date": "2026-10-08",
+     "end_date": "2026-10-13",
+     "sample_size": 709,
      "population": "lv",
-     "margin": 11.0,
-     "margin_label": "R+11.0",
+     "margin": 9.0,
+     "margin_label": "R+9.0",
      "answers": [
       {
-       "choice": "Hallie Shoffner",
-       "pct": 40.0
+       "choice": "Tom Cotton",
+       "pct": 50.0
       },
       {
-       "choice": "Tom Cotton",
-       "pct": 51.0
+       "choice": "Hallie Shoffner",
+       "pct": 41.0
       },
       {
        "choice": "Jeff Wadlin",
-       "pct": 4.0
+       "pct": 5.0
       }
      ],
-     "url": "https://x.com/LandonWall_/status/2108601370580332749"
+     "url": "https://talkbusiness.net/2026/10/poll-cotton-takes-lead-over-shoffner/"
     }
    },
    "signal_count": 0
@@ -1656,7 +1478,7 @@
      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf"
     }
    },
-   "signal_count": 2
+   "signal_count": 1
   },
   {
    "key": "SEN-KS",
@@ -1747,22 +1569,22 @@
     ]
    },
    "flip_votes": 0,
-   "raw_poll_count": 2,
+   "raw_poll_count": 3,
    "poll": {
-    "average_margin": -2.0,
-    "average_label": "D+2.0",
+    "average_margin": -0.5,
+    "average_label": "D+0.5",
     "n_polls": 2,
     "window_days": 21,
     "latest": {
-     "pollster": "Wedgewood Polls",
+     "pollster": "InsiderAdvantage",
      "sponsors": [],
      "partisan": null,
-     "start_date": "2026-09-22",
-     "end_date": "2026-09-24",
-     "sample_size": 500,
+     "start_date": "2026-10-13",
+     "end_date": "2026-10-14",
+     "sample_size": 1200,
      "population": "lv",
-     "margin": -2.0,
-     "margin_label": "D+2.0",
+     "margin": 1.0,
+     "margin_label": "R+1.0",
      "answers": [
       {
        "choice": "Roger Marshall",
@@ -1770,14 +1592,10 @@
       },
       {
        "choice": "Adam Hamilton",
-       "pct": 50.0
-      },
-      {
-       "choice": "David Graham",
-       "pct": 2.0
+       "pct": 47.0
       }
      ],
-     "url": "https://drive.google.com/drive/u/0/folders/1VKLmawSn60cr7L9HCx9mtZDvATC20N5u"
+     "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
     }
    },
    "signal_count": 5
@@ -2049,36 +1867,36 @@
     ]
    },
    "flip_votes": 4,
-   "raw_poll_count": 15,
+   "raw_poll_count": 16,
    "poll": {
-    "average_margin": -2.1,
-    "average_label": "D+2.1",
-    "n_polls": 9,
+    "average_margin": -2.6,
+    "average_label": "D+2.6",
+    "n_polls": 5,
     "window_days": 21,
     "latest": {
-     "pollster": "The Washington Post/George Mason University School of Policy and Government",
+     "pollster": "InsiderAdvantage",
      "sponsors": [],
      "partisan": null,
-     "start_date": "2026-09-30",
-     "end_date": "2026-10-05",
-     "sample_size": 800,
+     "start_date": "2026-10-13",
+     "end_date": "2026-10-14",
+     "sample_size": 1200,
      "population": "lv",
-     "margin": -5.0,
-     "margin_label": "D+5.0",
+     "margin": -2.0,
+     "margin_label": "D+2.0",
      "answers": [
       {
        "choice": "Troy Jackson",
-       "pct": 50.0
+       "pct": 49.0
       },
       {
        "choice": "Susan Collins",
-       "pct": 45.0
+       "pct": 47.0
       }
      ],
-     "url": "https://www.washingtonpost.com/tablet/2026/10/09/sept-30-oct-5-2026-washington-post-schar-school-poll-maine-voters"
+     "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
     }
    },
-   "signal_count": 9
+   "signal_count": 5
   },
   {
    "key": "SEN-MA",
@@ -2262,49 +2080,35 @@
     ]
    },
    "flip_votes": 0,
-   "raw_poll_count": 31,
+   "raw_poll_count": 33,
    "poll": {
-    "average_margin": -3.9,
-    "average_label": "D+3.9",
+    "average_margin": -3.3,
+    "average_label": "D+3.3",
     "n_polls": 11,
     "window_days": 21,
     "latest": {
-     "pollster": "Mitchell Research & Communications",
-     "sponsors": [],
-     "partisan": null,
-     "start_date": "2026-10-01",
-     "end_date": "2026-10-01",
-     "sample_size": 682,
+     "pollster": "The Tyson Group",
+     "sponsors": [
+      "Alliance for a Better Future"
+     ],
+     "partisan": "REP",
+     "start_date": "2026-10-06",
+     "end_date": "2026-10-08",
+     "sample_size": 600,
      "population": "lv",
-     "margin": -5.0,
-     "margin_label": "D+5.0",
+     "margin": 2.0,
+     "margin_label": "R+2.0",
      "answers": [
       {
        "choice": "Abdul El-Sayed",
-       "pct": 46.0
+       "pct": 44.0
       },
       {
        "choice": "Mike Rogers",
-       "pct": 41.0
-      },
-      {
-       "choice": "Lydia Christensen",
-       "pct": 3.0
-      },
-      {
-       "choice": "Tim Long",
-       "pct": 1.0
-      },
-      {
-       "choice": "Douglas P. Marsh",
-       "pct": 1.0
-      },
-      {
-       "choice": "Walter P. Kristy",
-       "pct": 2.0
+       "pct": 46.0
       }
      ],
-     "url": "https://wwmt.com/news/michigan-politics/mitchell-poll-michigan-us-senate-election-abdul-el-sayed-mike-rogers-politics-government-vote-polls-state"
+     "url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/"
     }
    },
    "signal_count": 5
@@ -2439,7 +2243,7 @@
      "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/"
     }
    },
-   "signal_count": 2
+   "signal_count": 1
   },
   {
    "key": "SEN-MS",
@@ -3280,36 +3084,44 @@
     ]
    },
    "flip_votes": 4,
-   "raw_poll_count": 12,
+   "raw_poll_count": 13,
    "poll": {
-    "average_margin": -2.5,
-    "average_label": "D+2.5",
+    "average_margin": -2.9,
+    "average_label": "D+2.9",
     "n_polls": 8,
     "window_days": 21,
     "latest": {
-     "pollster": "co/efficient",
+     "pollster": "Bowling Green State University/YouGov",
      "sponsors": [],
-     "partisan": "REP",
-     "start_date": "2026-10-05",
-     "end_date": "2026-10-06",
-     "sample_size": 925,
+     "partisan": null,
+     "start_date": "2026-09-29",
+     "end_date": "2026-10-09",
+     "sample_size": 1000,
      "population": "lv",
-     "margin": 1.0,
-     "margin_label": "R+1.0",
+     "margin": -6.0,
+     "margin_label": "D+6.0",
      "answers": [
       {
        "choice": "Sherrod Brown",
-       "pct": 45.0
+       "pct": 48.0
       },
       {
        "choice": "Jon Husted",
-       "pct": 46.0
+       "pct": 42.0
+      },
+      {
+       "choice": "Bill Redpath",
+       "pct": 3.0
+      },
+      {
+       "choice": "Greg Levy",
+       "pct": 5.0
       }
      ],
-     "url": "https://battlegrounds.coefficient.org/oh"
+     "url": "https://scholarworks.bgsu.edu/cgi/viewcontent.cgi?article=1030&context=depo"
     }
    },
-   "signal_count": 2
+   "signal_count": 6
   },
   {
    "key": "SEN-OK",
@@ -3739,7 +3551,7 @@
      "url": "https://insideradvantage.com/insideradvantage-south-carolina-senate-graham-leads-by-one-point/"
     }
    },
-   "signal_count": 5
+   "signal_count": 3
   },
   {
    "key": "SEN-SD",
@@ -4041,36 +3853,36 @@
     ]
    },
    "flip_votes": 2,
-   "raw_poll_count": 25,
+   "raw_poll_count": 26,
    "poll": {
-    "average_margin": -1.9,
-    "average_label": "D+1.9",
-    "n_polls": 6,
+    "average_margin": -1.5,
+    "average_label": "D+1.5",
+    "n_polls": 7,
     "window_days": 21,
     "latest": {
-     "pollster": "ActiVote",
+     "pollster": "InsiderAdvantage",
      "sponsors": [],
      "partisan": null,
-     "start_date": "2026-09-30",
+     "start_date": "2026-10-13",
      "end_date": "2026-10-14",
-     "sample_size": 400,
+     "sample_size": 1200,
      "population": "lv",
-     "margin": -3.8,
-     "margin_label": "D+3.8",
+     "margin": 1.0,
+     "margin_label": "R+1.0",
      "answers": [
       {
        "choice": "James Talarico",
-       "pct": 51.9
+       "pct": 48.0
       },
       {
        "choice": "Ken Paxton",
-       "pct": 48.1
+       "pct": 49.0
       }
      ],
-     "url": "https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/"
+     "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
     }
    },
-   "signal_count": 3
+   "signal_count": 2
   },
   {
    "key": "SEN-VA",
@@ -4360,7 +4172,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -4449,7 +4261,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -4542,7 +4354,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -4662,7 +4474,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -4751,7 +4563,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -4840,7 +4652,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -4929,7 +4741,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5018,7 +4830,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5140,7 +4952,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5229,7 +5041,7 @@
     "cook": {
      "rating": "Solid D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5351,7 +5163,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5440,7 +5252,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5529,7 +5341,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5651,7 +5463,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5740,7 +5552,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5863,7 +5675,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -5952,7 +5764,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6078,7 +5890,7 @@
     "cook": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6144,7 +5956,7 @@
    "flip_votes": 0,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 0
   },
   {
    "key": "HOU-CO-08",
@@ -6167,7 +5979,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6256,7 +6068,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6345,7 +6157,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6434,7 +6246,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6523,7 +6335,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6612,7 +6424,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6701,7 +6513,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6790,7 +6602,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6879,7 +6691,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -6968,7 +6780,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7057,7 +6869,7 @@
     "cook": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7183,7 +6995,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7272,7 +7084,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7359,9 +7171,9 @@
    "tracked": false,
    "ratings": {
     "cook": {
-     "rating": "Solid R",
+     "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7450,7 +7262,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7539,7 +7351,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7628,7 +7440,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7715,9 +7527,9 @@
    "tracked": true,
    "ratings": {
     "cook": {
-     "rating": "Tossup",
+     "rating": "Lean D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7783,7 +7595,7 @@
    "flip_votes": 0,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 0
+   "signal_count": 2
   },
   {
    "key": "HOU-FL-26",
@@ -7806,7 +7618,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7895,7 +7707,7 @@
     "cook": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -7994,7 +7806,7 @@
      "url": "https://x.com/cjwarnke/status/2100648029678170342"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-GA-01",
@@ -8017,7 +7829,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8106,7 +7918,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8195,7 +8007,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8284,7 +8096,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8373,7 +8185,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8462,7 +8274,7 @@
     "cook": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8551,7 +8363,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8640,7 +8452,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8729,7 +8541,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8832,7 +8644,7 @@
      "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat"
     }
    },
-   "signal_count": 3
+   "signal_count": 4
   },
   {
    "key": "HOU-IA-02",
@@ -8855,7 +8667,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -8954,7 +8766,7 @@
      "url": "https://static.notus.org/27/58/c93f2d1946c0814f583fa25c7a31/hmp-ia-02-poll.pdf"
     }
    },
-   "signal_count": 3
+   "signal_count": 5
   },
   {
    "key": "HOU-IA-03",
@@ -8977,7 +8789,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9064,9 +8876,9 @@
    "tracked": false,
    "ratings": {
     "cook": {
-     "rating": "Solid R",
+     "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9155,7 +8967,7 @@
     "cook": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9244,7 +9056,7 @@
     "cook": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9343,7 +9155,7 @@
      "url": "https://x.com/cjwarnke/status/2108282466733818029"
     }
    },
-   "signal_count": 2
+   "signal_count": 3
   },
   {
    "key": "HOU-ME-02",
@@ -9366,7 +9178,7 @@
     "cook": {
      "rating": "Lean R",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9455,7 +9267,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9544,7 +9356,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9633,7 +9445,7 @@
     "cook": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9722,7 +9534,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9811,7 +9623,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -9933,7 +9745,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10022,7 +9834,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10142,9 +9954,9 @@
    "tracked": true,
    "ratings": {
     "cook": {
-     "rating": "Likely R",
+     "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10266,7 +10078,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10355,7 +10167,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10444,7 +10256,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10556,15 +10368,15 @@
    "open_seat": true,
    "pvi": "R+5",
    "last_result": "52.3% R",
-   "consensus": "Tilt R",
-   "consensus_score": 1,
+   "consensus": "Tossup",
+   "consensus_score": 0,
    "disagreement": false,
    "tracked": true,
    "ratings": {
     "cook": {
-     "rating": "Lean R",
+     "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10667,7 +10479,7 @@
      "url": "https://www.montanarightnow.com/elections/aaron-flint-sam-forstag-nearly-tied-for-montana-congressional-district-1/article_96a2f7e1-334a-46c7-9a92-84ccc4c44171.html"
     }
    },
-   "signal_count": 3
+   "signal_count": 2
   },
   {
    "key": "HOU-NE-01",
@@ -10688,9 +10500,9 @@
    "tracked": false,
    "ratings": {
     "cook": {
-     "rating": "Solid R",
+     "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10812,7 +10624,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10901,7 +10713,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -10990,7 +10802,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11079,7 +10891,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11168,7 +10980,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11257,7 +11069,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11346,7 +11158,7 @@
     "cook": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11470,7 +11282,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11559,7 +11371,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11648,7 +11460,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11737,7 +11549,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11859,7 +11671,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -11948,7 +11760,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12037,7 +11849,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12126,7 +11938,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12215,7 +12027,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12314,7 +12126,7 @@
      "url": "https://emersoncollegepolling.com/ny-17-2026-poll/"
     }
    },
-   "signal_count": 1
+   "signal_count": 3
   },
   {
    "key": "HOU-NY-19",
@@ -12337,7 +12149,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12424,9 +12236,9 @@
    "tracked": false,
    "ratings": {
     "cook": {
-     "rating": "Likely R",
+     "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12515,7 +12327,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12612,7 +12424,7 @@
      "url": "https://x.com/Shaftan/status/2107772933322277266"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-NC-03",
@@ -12635,7 +12447,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12724,7 +12536,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12813,7 +12625,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12902,7 +12714,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -12991,7 +12803,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13080,7 +12892,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13169,7 +12981,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13247,7 +13059,7 @@
    "special": false,
    "incumbent": "Chuck Edwards",
    "incumbent_party": "R",
-   "open_seat": true,
+   "open_seat": false,
    "pvi": "R+5",
    "last_result": "56.8% R",
    "consensus": "Tossup",
@@ -13258,7 +13070,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13324,7 +13136,7 @@
    "flip_votes": 1,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 5
   },
   {
    "key": "HOU-NC-13",
@@ -13347,7 +13159,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13436,7 +13248,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13523,9 +13335,9 @@
    "tracked": false,
    "ratings": {
     "cook": {
-     "rating": "Lean D",
+     "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13645,7 +13457,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13745,7 +13557,7 @@
      "url": "https://www.axios.com/2026/08/11/max-miller-ohio-brian-poindexter-democrats-2026"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-OH-08",
@@ -13768,7 +13580,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13857,7 +13669,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -13975,9 +13787,9 @@
    "tracked": false,
    "ratings": {
     "cook": {
-     "rating": "Likely R",
+     "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14066,7 +13878,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14147,15 +13959,15 @@
    "open_seat": false,
    "pvi": "R+5",
    "last_result": "56.5% R",
-   "consensus": "Likely R",
-   "consensus_score": 3,
+   "consensus": "Lean R",
+   "consensus_score": 2,
    "disagreement": false,
-   "tracked": false,
+   "tracked": true,
    "ratings": {
     "cook": {
-     "rating": "Likely R",
+     "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14213,7 +14025,7 @@
      "name": "RealClearPolling"
     }
    },
-   "trend": "Stable",
+   "trend": "Toward D",
    "candidates": {
     "D": [
      "Don Leonard"
@@ -14254,7 +14066,7 @@
      "url": "https://x.com/cjwarnke/status/2104619061556457603"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-OK-01",
@@ -14277,7 +14089,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14366,7 +14178,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14455,7 +14267,7 @@
     "cook": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14544,7 +14356,7 @@
     "cook": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14666,7 +14478,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14763,7 +14575,7 @@
      "url": "https://www.fandmpoll.org/franklin-marshall-college-poll-release-pa-7th-and-10th-congressional-districts-september-2026/?ref=franklin-marshall-college-poll-newsletter"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-PA-08",
@@ -14786,7 +14598,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14908,7 +14720,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -14974,7 +14786,7 @@
    "flip_votes": 8,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 3
   },
   {
    "key": "HOU-PA-11",
@@ -14997,7 +14809,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15084,9 +14896,9 @@
    "tracked": true,
    "ratings": {
     "cook": {
-     "rating": "Likely R",
+     "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15175,7 +14987,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15264,7 +15076,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15353,7 +15165,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15442,7 +15254,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15531,7 +15343,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15620,7 +15432,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15709,7 +15521,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15798,7 +15610,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15887,7 +15699,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -15976,7 +15788,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16075,7 +15887,7 @@
      "url": "https://x.com/PatrickSvitek/status/2105651406627561762?s=20"
     }
    },
-   "signal_count": 3
+   "signal_count": 1
   },
   {
    "key": "HOU-TX-21",
@@ -16098,7 +15910,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16187,7 +15999,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16276,7 +16088,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16365,7 +16177,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16454,7 +16266,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16543,7 +16355,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16644,7 +16456,7 @@
      "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf"
     }
    },
-   "signal_count": 2
+   "signal_count": 1
   },
   {
    "key": "HOU-TX-32",
@@ -16667,7 +16479,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16756,7 +16568,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16861,7 +16673,7 @@
      "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-TX-35",
@@ -16884,7 +16696,7 @@
     "cook": {
      "rating": "Lean R",
      "flip": true,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -16950,7 +16762,7 @@
    "flip_votes": 5,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-TX-38",
@@ -16973,7 +16785,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17062,7 +16874,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17182,7 +16994,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17304,7 +17116,7 @@
     "cook": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17424,7 +17236,7 @@
     "cook": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17513,7 +17325,7 @@
     "cook": {
      "rating": "Lean D",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17635,7 +17447,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17724,7 +17536,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17813,7 +17625,7 @@
     "cook": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -17936,7 +17748,7 @@
     "cook": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -18058,7 +17870,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -18147,7 +17959,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -18236,7 +18048,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -18325,7 +18137,7 @@
     "cook": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-09",
+     "as_of": "2026-10-16",
      "name": "Cook Political Report"
     },
     "ie": {
@@ -18396,6 +18208,218 @@
  ],
  "national_signals": [
   {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Trump Revives 2020 Election Conspiracies, With Help From the Federal Government",
+   "url": "https://www.nytimes.com/2026/10/17/us/politics/election-fraud-conspiracies-trump.html",
+   "summary": "Voting rights advocates fear the Trump administration may use the federal government to cast doubt on the election, discourage participation or try to delegitimize results.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "How Pennsylvania Explains the Forces Shaping the Midterms",
+   "url": "https://www.nytimes.com/2026/10/17/us/politics/how-pennsylvania-explains-the-forces-shaping-the-midterms.html",
+   "summary": "Four battleground congressional districts in the state reveal fault lines that are echoing nationwide.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "What Pennsylvania Reveals About the Midterms",
+   "url": "https://www.nytimes.com/video/us/politics/100000011200802/what-pennsylvania-reveals-about-the-midterms.html",
+   "summary": "In Pennsylvania, four congressional districts exemplify the types of seats that Democrats are aiming to flip. Our national political correspondent Shane Goldmacher explains.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Congressional Staff Open Letters Containing Suspicious Substances",
+   "url": "https://www.nytimes.com/2026/10/16/us/politics/congressional-staff-letters-suspicious-substances.html",
+   "summary": "The incidents, the first of which was reported on Thursday, came as election officials have reported a growing number of threats directed at them.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Appeals Court Questions Justice Dept. Claim That Trump Owns White House Records",
+   "url": "https://www.nytimes.com/2026/10/16/us/politics/appeals-court-trump-presidential-records.html",
+   "summary": "A three-judge panel appeared unconvinced by claims that a federal law requiring the president to preserve and hand over his presidential papers was unconstitutional.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "As European nationalist parties have been rising in the polls, they have come to see President Trump as a liability and have distanced themselves from him",
+   "url": "https://www.wsj.com/politics/elections/europe-trump-right-wing-populists-d91734af?mod=rss_socialpoliticsfeed",
+   "summary": "Nationalist parties have come to see President Trump as a liability and distanced themselves from him as they have been rising in the polls.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "In a Wall Street Journal interview, Katie Zacharia said she didn’t fault the White House for her brief and rocky tenure",
+   "url": "https://www.wsj.com/politics/policy/katie-zacharia-white-house-press-secretary-b216743d?mod=rss_socialpoliticsfeed",
+   "summary": "In a Wall Street Journal interview, she said that she didn’t fault the White House for her brief and rocky tenure.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Katie Zacharia is out as White House press secretary, just a week after President Trump announced her appointment to the high-profile role",
+   "url": "https://www.wsj.com/politics/policy/trump-gives-new-white-house-press-secretary-option-to-quit-af349452?mod=rss_socialpoliticsfeed",
+   "summary": "Katie Zacharia will be transitioning to a new role that will be announced at a later date, a person familiar with the plans said.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Trump promised a swing district blitz. He's going to a lot of very red states",
+   "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms",
+   "summary": "President Trump's midterm travel blitz ahead of Election Day includes several red states he won easily 2 years ago, showing the electoral landscape is more challenging for Republicans.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Daily (NYT)",
+   "lean": "center-left",
+   "title": "50 Years In, What's the Point of U2? Bono and the Edge Have Answers.",
+   "url": "https://www.nytimes.com/the-daily",
+   "summary": "The longtime friends and creative partners on what U2 still means — and what would make them call it quits. Thoughts? Email us at theinterview@nytimes.com Watch our show on YouTube: youtube.com/@TheInterviewPodcast For transcripts and more, visit: nytimes.com/theinterview For more information on tod",
+   "relevant": false
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Remnant (The Dispatch)",
+   "lean": "center-right",
+   "title": "Our Populist Hissy Fit Needs to Stop | Ruminant",
+   "url": "",
+   "summary": "Dear listener: There are few places Jonah Goldberg hates more than O’Hare International Airport. Yet, in a sad irony, he has spent a significant percentage of his life sitting in a Chicago terminal waiting on a plane. Though Jonah is not generally inclined to process his life through song, today’s R",
+   "relevant": false
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Tracking Competitive Races in the House and Senate",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-17",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Times",
+   "lean": "unrated",
+   "title": "Who will win the 2026 midterm elections? Polls and predictions",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Trump Returns to Dalton for a Rescue Mission in Georgia",
+   "url": "https://www.nytimes.com/2026/10/16/us/politics/trump-rally-dalton-georgia.html",
+   "summary": "Plus, Katie Zacharia’s ouster, A.O.C. on the trail, and another tense debate in Maine.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Russia Appears to Step Up Efforts to Influence U.S. Voters",
+   "url": "https://www.nytimes.com/2026/10/16/us/politics/russian-influence-campaigns-midterms.html",
+   "summary": "One campaign has created social media posts focusing on U.S. support for Israel to sow discord ahead of the midterm elections.",
+   "relevant": true
+  },
+  {
    "date": "2026-10-16",
    "race": "National",
    "races": [
@@ -18416,11 +18440,11 @@
     "National"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Trump Ally, Paolo Zampolli, Leaves State Department",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/zampolli-trump-ally-state-department.html",
-   "summary": "Paolo Zampolli, a longtime Trump associate, gained attention earlier this year with a report that his ex-wife had been detained by ICE after his request.",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Defense Secretary Pete Hegseth said the execution of a soldier who went on a 20009 shooting spree would be livestreamed—setting off a dayslong debate within the White House",
+   "url": "https://www.wsj.com/politics/national-security/how-hegseths-plan-to-livestream-an-execution-sent-the-white-house-scrambling-f9030ee5?mod=rss_socialpoliticsfeed",
+   "summary": "The livestream proposal triggered internal White House debate as well as public skepticism from GOP leaders.",
    "relevant": true
   },
   {
@@ -18430,11 +18454,25 @@
     "National"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
+   "source": "NPR Politics",
    "lean": "center-left",
-   "title": "A Bitter White House Feud, Even by Trump-Era Standards: Alina Mildon and Richard Grenell",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/alina-habba-mildon-richard-grenell-trump.html",
-   "summary": "Two Trump allies — Alina Habba Mildon and Richard Grenell — are locked in a raging dispute that has its roots in the battle for a share of the spoils in Venezuela.",
+   "title": "Katie Zacharia is out as press secretary, White House says",
+   "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
+   "summary": "Katie Zacharia is \"transitioning out\" of her role as press secretary, according to a White House official not authorized to speak on the record, marking a stunning turn of events for the spokeswoman.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
+   "url": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future",
+   "summary": "Katie Zacharia's first official day was on Monday.",
    "relevant": true
   },
   {
@@ -18458,11 +18496,151 @@
     "National"
    ],
    "type": "punditry",
+   "source": "National Review",
+   "lean": "right",
+   "title": "Is It the Return of Woke?",
+   "url": "https://www.nationalreview.com/2026/10/is-it-the-return-of-woke/",
+   "summary": "Today’s vibe resembles the environment prior to Trump’s return to the White House.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "National Review",
+   "lean": "right",
+   "title": "How the 2028 Primaries Could Cripple America’s AI Buildout",
+   "url": "https://www.nationalreview.com/2026/10/how-the-2028-primaries-could-cripple-americas-ai-buildout/",
+   "summary": "With designs on the White House, some Democratic governors are one-upping each other with costly regulations.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "The Dispatch",
+   "lean": "center-right",
+   "title": "A Blessing in Disguise",
+   "url": "https://thedispatch.com/newsletter/boilingfrogs/midterms-trump-republicans-benefit-losing/",
+   "summary": "Would partisan Republicans benefit from a midterm blue wave?",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
    "source": "The Dispatch",
    "lean": "center-right",
    "title": "A Blue Wave or an Anti-Incumbent Wave?",
    "url": "https://thedispatch.com/podcast/dispatch-podcast/a-blue-wave-or-an-anti-incumbent-wave/",
    "summary": "Plus: What’s a lawyer?",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 Governors forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-governors-model",
+   "summary": "Silver Bulletin's prediction for every gubernatorial election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 House forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-house-model",
+   "summary": "Silver Bulletin's prediction for every House election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 Senate forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-senate-model",
+   "summary": "Silver Bulletin's prediction for every Senate election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 midterm election forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+   "summary": "Silver Bulletin's prediction for every Senate, House, and gubernatorial election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "How popular is Donald Trump?",
+   "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+   "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "Who’s ahead on the generic congressional ballot?",
+   "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+   "summary": "Our constantly-updating tracker of polls for the most important indicator in the race for Congress.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "How popular is the Iran War?",
+   "url": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
+   "summary": "Silver Bulletin approval ratings for the ongoing conflict.",
    "relevant": true
   },
   {
@@ -18486,11 +18664,11 @@
     "National"
    ],
    "type": "podcast",
-   "source": "The Daily (NYT)",
+   "source": "The NPR Politics Podcast",
    "lean": "center-left",
-   "title": "MAGA's Midterm Defectors",
-   "url": "https://www.nytimes.com/the-daily",
-   "summary": "Perhaps no American feels the domestic effects of the war, tariffs and inflation more than the Iowa farmer. The political environment stirred up by those farmers’ strife could allow the Democrats to seize the moment and elect one of theirs to the Senate or the governor’s mansion for the first time i",
+   "title": "A week of warning signs for the GOP?",
+   "url": "https://www.npr.org/2026/10/16/nx-s1-6003684/a-week-of-warning-signs-for-the-gop",
+   "summary": "This week saw staffing changes at the White House, the president hitting the road to campaign in Republican strongholds, and backlash to a deal to buy diesel fuel from Russia. We break down what it all means as we enter the final sprint before the midterm elections. Plus, President Trump made inroad",
    "relevant": true
   },
   {
@@ -18516,10 +18694,10 @@
    "type": "podcast",
    "source": "The Megyn Kelly Show",
    "lean": "right",
-   "title": "Tense Testimony at Russell Brand Trial, Trump Cancels Ft. Hood Execution Livestream: AM Update 10/16",
+   "title": "New Press Secretary Already Fired, Kelly Clarkson Security Footage, and Casey Anthony Has Thoughts on Shane Gillis, with Maureen Callahan | Ep. 1420",
    "url": "https://www.siriusxm.com",
-   "summary": "A woman accusing Russell Brand of rape delivers emotional testimony during a tense cross-examination in his London criminal trial, where he faces seven charges involving six women. Democrat James Talarico announces a record-breaking fundraising haul as he returns to the campaign trail, faces renewed",
-   "relevant": true
+   "summary": "Megyn Kelly discusses how Ilhan Omar has apparently gone missing after the raid at her home this week, the serious questions about whether Rep. Ilhan Omar is even a U.S. citizen, how the citizenship of Ilhan Omar’s father couldn’t be confirmed, shocking photos of Ilhan Omar’s alleged “brusband” that",
+   "relevant": false
   },
   {
    "date": "2026-10-16",
@@ -18528,125 +18706,58 @@
     "National"
    ],
    "type": "reporting",
-   "source": "The Times",
+   "source": "Silver Bulletin",
    "lean": "unrated",
-   "title": "Who will win the 2026 midterm elections? Polls and predictions",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+   "title": "FLIPR 2026 House forecast",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLR3dDbnB0MURGUWFrdWctekhITHp4MW0zUjBjZC1Jbm90bndWNUl5c0t5WlFfQi1leFRsVDZka2J4N1gtNW45WXMxSzAzZkJkaWpBUEUweWlYdjdTcTBYVlQ3YXUyX0hLYXcyR2s3cUlXcnoyNFJ4YUN3N0NybUk?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "race": "National",
    "races": [
     "National"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "A Guide to State Legislature Elections and Where Partisan Control Is at Stake",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/state-local-elections-midterms.html",
-   "summary": "A guide to the states where legislatures are up for grabs.",
-   "relevant": true
+   "source": "270toWin.com",
+   "lean": "unrated",
+   "title": "FiftyPlusOne 2026 Senate Forecast",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhSSzR0UU1sLVVHLU1BMUlWbExHYmdRNU9Jd2g5VEQ0OXB2ckxBT3dXcDQ0aWFOd1B3MVR3Snk3eld5MkxuaThPTy1tU2FjdGd6N0wzenFOY0JVbGk4RWxqbk9JY09NOW9SLWg0ZlplWUZKMFk1ZFRzMk1vTkhJeHRUdGJxdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "race": "National",
    "races": [
     "National"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "More Trump Allies Aided Pro-Russian Balkan Government",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/trump-russia-srpska-elections-wiles.html",
-   "summary": "The daughter of the president’s chief of staff joined an American businessman in Republika Srpska as he explored a gas pipeline. And six current and former campaign advisers recently traveled there for an election.",
-   "relevant": true
+   "source": "Silver Bulletin",
+   "lean": "unrated",
+   "title": "FLIPR 2026 Senate forecast",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjdtTENfOTI3YnEtMWExbmNVOElpaTRqTUxGQTBBRGpILTMzdmE1bmtEMlZ6VHZXTDNoMVZvSHFOaVhaeXBmRkJTSE5WQlZrLUhNeUlnR0tHOEYyQTR5WW5JMldBam11Tk5DcS16YTZZSWE5WFI2S0Joa3FhS2xVWA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "race": "National",
    "races": [
     "National"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Trump Administration Sues California Over Voter Rolls",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/trump-administration-california-voter-rolls.html",
-   "summary": "The lawsuit seeks to temporarily block the state from counting mail ballots of voters it claims are likely noncitizens, opening a new front in the administration’s legal fights with election officials.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Trump’s Attacks on Voting Raise Fears He Will Try to Challenge Midterm Results",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/trumps-attacks-voting-midterms.html",
-   "summary": "Election officials say they worry the administration could use its own unsubstantiated claims to contest the vote in November.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Democratic Senators Move to Block U.S.-Saudi Nuclear Deal",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/senators-saudi-nuclear-deal.html",
-   "summary": "The move will force a vote on the agreement after the midterm elections, though it faces steep odds in the Republican-controlled Congress even amid bipartisan concern about the deal.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Democrats Worry About Tight Midterm Races in Maine, Michigan and Minnesota",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/peggy-flanagan-abdul-el-sayed-troy-jackson.html",
-   "summary": "Despite hopes for a blue wave, Democratic candidates in Minnesota, Maine and Michigan are facing local political headwinds and have struggled to open up clear daylight in the polls.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Elon Musk and Other Donors Pile $94 Million Into House Republican Effort",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/elon-musk-timothy-mellon-house-republicans.html",
-   "summary": "The party’s top super PAC for House candidates said it had raised more this summer than ever before in a third quarter, but acknowledged the challenges Republicans are facing.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The Justice Department sued California to try to block the state from counting mail-in ballots it receives from 20,000 people the Trump administration says may not be U.S. citizens",
-   "url": "https://www.wsj.com/politics/elections/doj-sues-california-to-block-ballots-from-20-000-voters-00d1e6f1?mod=rss_socialpoliticsfeed",
-   "summary": "The lawsuit, which comes as the administration aims to expand federal control over elections, says it has determined the voters it identified may not be citizens.",
-   "relevant": true
+   "source": "Kalshi News",
+   "lean": "unrated",
+   "title": "2026 Midterm Predictions: Polls vs. Prediction Markets",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wT2RLcGdLOHozRkRQM0MzdWRBTWJpajVKbGpfelczbnhjbmEyT1lBWnNJd1NmUVBBUkdkYktnUm54dDdhNzZ1RkJsUUdlbTBQd1E1bGJfNGVycmUzQzRR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-15",
@@ -18660,20 +18771,6 @@
    "title": "Ukraine resumed strikes on Russian refineries after a dayslong truce, Trump canceled plans to livestream the firing squad execution of the Fort Hood shooter and the FBI is investigating suspicious mailings sent to elections offices across the country. Read more in today’s What’s News newsletter:",
    "url": "https://www.wsj.com/politics/policy/ukraine-resumes-strikes-on-russian-refineries-516c0072?mod=rss_socialpoliticsfeed",
    "summary": "Plus, Trump canceled plans to livestream the execution of the Fort Hood shooter, and the FBI is investigating suspicious mailings sent to elections offices.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The balance of power in the Senate is on the line in the 2026 elections. Our tracker digs into the most competitive and emerging Senate battlegrounds",
-   "url": "https://www.wsj.com/politics/elections/senate-seats-2026-midterm-election-tracker-04778377?mod=rss_socialpoliticsfeed",
-   "summary": "Our tracker digs into this cycle’s most competitive and emerging Senate battlegrounds.",
    "relevant": true
   },
   {
@@ -18713,9 +18810,9 @@
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
-   "title": "Florida’s Democratic Senate nominee Angie Nixon gets more love on TikTok than big-name Democrats, and Senate Democratic leader Chuck Schumer gets more grief, a WSJ analysis found",
-   "url": "https://www.wsj.com/politics/elections/the-internets-favorite-democrat-is-a-far-left-long-shot-from-florida-6752e357?mod=rss_socialpoliticsfeed",
-   "summary": "Angie Nixon drew the warmest reception of Democrats on TikTok and political podcasts, and Chuck Schumer got the coldest, a WSJ analysis found.",
+   "title": "The Justice Department sued California to try to block the state from counting mail-in ballots it receives from 20,000 people the Trump administration says may not be U.S. citizens",
+   "url": "https://www.wsj.com/politics/elections/doj-sues-california-to-block-ballots-from-20-000-voters-00d1e6f1?mod=rss_socialpoliticsfeed",
+   "summary": "The lawsuit, which comes as the administration aims to expand federal control over elections, says it has determined the voters it identified may not be citizens.",
    "relevant": true
   },
   {
@@ -18727,9 +18824,23 @@
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
-   "title": "Republicans are playing defense on an expanding electoral map",
-   "url": "https://www.wsj.com/politics/elections/midterm-anxiety-mounts-for-gop-as-democrats-try-to-expand-battleground-04c31f0b?mod=rss_socialpoliticsfeed",
-   "summary": "With economic concerns weighing on candidates, Republicans turn to heavy spending and President Trump to rally voters.",
+   "title": "The balance of power in the Senate is on the line in the 2026 elections. Our tracker digs into the most competitive and emerging Senate battlegrounds",
+   "url": "https://www.wsj.com/politics/elections/senate-seats-2026-midterm-election-tracker-04778377?mod=rss_socialpoliticsfeed",
+   "summary": "Our tracker digs into this cycle’s most competitive and emerging Senate battlegrounds.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-15",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Florida’s Democratic Senate nominee Angie Nixon gets more love on TikTok than big-name Democrats, and Senate Democratic leader Chuck Schumer gets more grief, a WSJ analysis found",
+   "url": "https://www.wsj.com/politics/elections/the-internets-favorite-democrat-is-a-far-left-long-shot-from-florida-6752e357?mod=rss_socialpoliticsfeed",
+   "summary": "Angie Nixon drew the warmest reception of Democrats on TikTok and political podcasts, and Chuck Schumer got the coldest, a WSJ analysis found.",
    "relevant": true
   },
   {
@@ -18758,20 +18869,6 @@
    "title": "U.S. historic preservation law faces the most serious threat in its 60-year history",
    "url": "https://www.npr.org/2026/10/15/nx-s1-6001504/section-106-historic-preservation-act-threats-anniversary",
    "summary": "Congress and a federal agency are threatening to weaken the country's historic preservation law, fueling a backlash that critics say is as fiery as the one that led to the law's creation 60 years ago.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "These swing voters regret voting for Trump and it's influencing their midterm choices",
-   "url": "https://www.npr.org/2026/10/15/nx-s1-6001714/georgia-swing-voters-focus-groups",
-   "summary": "Some key voters in Georgia say deep frustration and disappointment with President Trump are motivating their election plans just weeks before Election Day.",
    "relevant": true
   },
   {
@@ -18809,123 +18906,11 @@
     "National"
    ],
    "type": "punditry",
-   "source": "The Dispatch",
-   "lean": "center-right",
-   "title": "Construction’s Data Center Boom",
-   "url": "https://thedispatch.com/newsletter/morning/constructions-data-center-boom/",
-   "summary": "Plus: Ukraine says Starlink is partly back after an outage, inflation hits 3.7 percent ahead of the midterms, and a huge dachshund.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
    "source": "Silver Bulletin",
    "lean": "center",
    "title": "Welcome to midterm silly season 🤡",
    "url": "https://www.natesilver.net/p/welcome-to-midterm-silly-season",
    "summary": "Still Couting EP 5",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 midterm election forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
-   "summary": "Silver Bulletin's prediction for every Senate, House, and gubernatorial election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 Governors forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-governors-model",
-   "summary": "Silver Bulletin's prediction for every gubernatorial election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 House forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-house-model",
-   "summary": "Silver Bulletin's prediction for every House election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 Senate forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-senate-model",
-   "summary": "Silver Bulletin's prediction for every Senate election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "How popular is Donald Trump?",
-   "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
-   "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "Who’s ahead on the generic congressional ballot?",
-   "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
-   "summary": "Our constantly-updating tracker of polls for the most important indicator in the race for Congress.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "How popular is the Iran War?",
-   "url": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
-   "summary": "Silver Bulletin approval ratings for the ongoing conflict.",
    "relevant": true
   },
   {
@@ -19021,21 +19006,6 @@
     "National"
    ],
    "type": "reporting",
-   "source": "Marist Poll",
-   "lean": "unrated",
-   "title": "Polls, Analysis, Learning, and More",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclZpZ3F6dDg0WVpVU1dOUlpMdGZFRjJaWi1PcWE2M1VhOTdLMTdFbXdzakRYMjJONE9MMFNZSkhkVHVkSkJxbGhpRXJnQXUyZHg2bkxWRHVUTUNLNnhFeThDd2R1eVlhQ0R0RzdZOTlZUGlJT3ptNkVsS0VRZWpfY0JLaVRuNkk?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
    "source": "The Hill",
    "lean": "unrated",
    "title": "Democrats hold 3-point lead on generic ballot: AARP poll",
@@ -19051,10 +19021,10 @@
     "National"
    ],
    "type": "reporting",
-   "source": "Silver Bulletin",
+   "source": "Marist Poll",
    "lean": "unrated",
-   "title": "FLIPR 2026 Senate forecast",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjdtTENfOTI3YnEtMWExbmNVOElpaTRqTUxGQTBBRGpILTMzdmE1bmtEMlZ6VHZXTDNoMVZvSHFOaVhaeXBmRkJTSE5WQlZrLUhNeUlnR0tHOEYyQTR5WW5JMldBam11Tk5DcS16YTZZSWE5WFI2S0Joa3FhS2xVWA?oc=5",
+   "title": "Polls, Analysis, Learning, and More",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNclZpZ3F6dDg0WVpVU1dOUlpMdGZFRjJaWi1PcWE2M1VhOTdLMTdFbXdzakRYMjJONE9MMFNZSkhkVHVkSkJxbGhpRXJnQXUyZHg2bkxWRHVUTUNLNnhFeThDd2R1eVlhQ0R0RzdZOTlZUGlJT3ptNkVsS0VRZWpfY0JLaVRuNkk?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -19066,25 +19036,10 @@
     "National"
    ],
    "type": "reporting",
-   "source": "270toWin.com",
+   "source": "Action Network",
    "lean": "unrated",
-   "title": "FiftyPlusOne 2026 Senate Forecast",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhSSzR0UU1sLVVHLU1BMUlWbExHYmdRNU9Jd2g5VEQ0OXB2ckxBT3dXcDQ0aWFOd1B3MVR3Snk3eld5MkxuaThPTy1tU2FjdGd6N0wzenFOY0JVbGk4RWxqbk9JY09NOW9SLWg0ZlplWUZKMFk1ZFRzMk1vTkhJeHRUdGJxdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Silver Bulletin",
-   "lean": "unrated",
-   "title": "FLIPR 2026 midterm election forecast",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+   "title": "2026 Midterm Predictions: What Prediction Markets Say vs. the Polls",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd21ZXzB6VTlFVjc0U2Z0QWZtdzI0M2k0YjFZX3Vkb1hBOXZJeWdOMTdFREJlUVpNSnpiTXgtZnlIQWpQMTVLYVRFWUtVdzlsb1lYMXRTQVZHalZmVVl5X1BlTVVmeVVtNFVYakxoRzFJS01rVWJ3cW9HS0pScnBUQTdPalJxd3RWYnFla0pSNkg4ZThBamtBMDlsY0tIdHQ2MUJ2dXZWcw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -19103,148 +19058,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The federal investigation into Rep. Ilhan Omar aims to build a case to strip her of her U.S. citizenship and ultimately deport her, according to U.S. officials and others familiar with the probe",
-   "url": "https://www.wsj.com/politics/policy/ilhan-omar-investigation-aims-to-build-case-for-stripping-her-citizenship-6adf1edc?mod=rss_socialpoliticsfeed",
-   "summary": "Authorities have subpoenaed members of the Democratic congresswoman’s family as part of a broader look at their immigration paperwork.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Georgia’s Democratic senator Jon Ossoff says he has ‘zero interest’ in running for president and is focused on being re-elected to the Senate in the midterms",
-   "url": "https://www.wsj.com/politics/elections/jon-ossoff-says-he-has-zero-interest-in-running-for-president-7ec51f1c?mod=rss_socialpoliticsfeed",
-   "summary": "Georgia’s Democratic senator says he is focused on getting re-elected to a six-year Senate term in the midterms not 2028.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Kelly Ayotte, a Republican Bright Spot Pulling Ahead in a Battleground State",
-   "url": "https://www.wsj.com/politics/elections/kelly-ayotte-a-republican-bright-spot-pulling-ahead-in-a-battleground-state-712515f1?mod=rss_socialpoliticsfeed",
-   "summary": "The New Hampshire governor is leading her Democratic opponent in the polls, offering a path for a GOP victory in a tough election cycle.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Trump's ambassador to Greece, Kimberly Guilfoyle, resigns after allegations of improper conduct",
-   "url": "https://www.npr.org/2026/10/14/g-s1-148027/trump-ambassador-greece-resignation",
-   "summary": "The White House publicly asked for U.S. Ambassador to Greece Kimberly Guilfoyle's resignation on Tuesday as she faced mounting accusations of improper conduct.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "National Review",
-   "lean": "right",
-   "title": "Breaking Slowly in the Governors’ Races",
-   "url": "https://www.nationalreview.com/2026/10/breaking-slowly-in-the-governors-races/",
-   "summary": "Only a few of the big races look seriously out of reach, but Republicans are in a perilous position.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The Ezra Klein Show",
-   "lean": "center-left",
-   "title": "Is It a Relationship if No One’s on the Other Side?",
-   "url": "https://www.nytimes.com/2026/10/14/opinion/ezra-klein-podcast-sherry-turkle.html",
-   "summary": "Roughly half of American adults are using chatbots. Nearly one in five U.S. adults has chatted with an A.I. that simulates a romantic partner. And some children now struggle to distinguish between talking to chatbots and humans. What does this mean for the future of our relationships? Turkle has bee",
-   "relevant": false
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The NPR Politics Podcast",
-   "lean": "center-left",
-   "title": "AI chatbots: the new voter guides?",
-   "url": "https://www.npr.org/2026/10/14/nx-s1-6001537/ai-chatbots-the-new-voter-guides",
-   "summary": "Voters have many ways to learn about the candidates and issues they'll vote on each election cycle. Some are now turning to AI chatbots to get that info, asking the tools to tell them about who they should vote for. We look at the trend, and why voters are doing it. This episode: senior political co",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The Remnant (The Dispatch)",
-   "lean": "center-right",
-   "title": "What’s Wrong With Kids These Days? | Interview: Daniel A. Cox",
-   "url": "",
-   "summary": "Old men griping about the new generation is an old, venerable tradition, and Jonah Goldberg can grouse with the best of them. Unlike the other old men, however, Jonah gets to talk to one of the few people who can actually answer the question, “What’s wrong with the kids these days?” and back it up w",
-   "relevant": false
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "USA Today",
-   "lean": "unrated",
-   "title": "For Republicans, the 2026 midterms look a lot like 2006 | Opinion",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPalhOdHZ0ZHFOSFIzYlNUQXJIY1NqdU4tdjJWM1c1ejN4X0lrSW4tbnJ0ZVdfLWtzMW1PZW5sUTNUR2V2UWpzMEZIQlVnbElmQlNEQ3NzQ3luQzRnbUI1cTRubnFvZ0N3ZmszTzVFak1QT2dodEhhcWt0Z1lIVHdmeTFPRU1PVGIwSzcwZzZ1c1BsOTFmNExfUHhXMk5YeDJ3amd2WmFXU2VIOGRVQVZTUDBoU0VRQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "Midterms 2026: Congress Polls and More",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "coverage": {
@@ -19254,14 +19067,14 @@
   "failed_sources": []
  },
  "brief": {
-  "date": "2026-10-16",
-  "title": "Midterm brief: Friday, October 16",
-  "markdown": "# Midterm brief: Friday, October 16\n\n## Bottom line\nForecasters rate the House as leaning Democratic; after Inside Elections' update, all 10 forecasters have more seats rated for Democrats ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 46 D and 44 R seats are solid or likely, with 10 competitive ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 90.5% for the House and 64.5% for the Senate ([Polymarket House](https://polymarket.com/event/which-party-will-win-the-house-in-2026), [Senate](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), as of Oct 16.\n\n## What moved\n- **Inside Elections (Oct 15):** It now rates the House 212 D / 205 R / 18 Tossup, up from 209 / 210 / 16. All 26 of its House and Senate changes moved toward Democrats. In the House, AZ-01, PA-07 and PA-08 moved to Tilt D, and IA-02, NC-01, NC-11, OH-09 and TX-15 to Tossup ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)).\n- **Senate (Inside Elections):** Texas moved from Tilt R to Tossup, Kansas from Likely R to Tilt R, and New Hampshire from Tossup to Tilt D ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)).\n- **Iowa Senate:** The Economist moved the other way, from Tossup to Lean R.\n- **South Carolina Senate:** The consensus moved from Likely R to Lean R, so the race is now tracked. InsiderAdvantage shows Graham +1, ending Sep 29 ([InsiderAdvantage](https://insideradvantage.com/insideradvantage-south-carolina-senate-graham-leads-by-one-point/)).\n- **House consensus:** MT-01 moved from Lean R to Tilt R, and AL-02 from Likely R to Lean R.\n\n## Races to watch today\n- **Texas Senate (Tossup):** The NYT reports Elon Musk is spending heavily for Paxton ([NYT](https://www.nytimes.com/2026/10/16/us/politics/elon-musk-ken-paxton-texas-senate-race.html)), and Talarico raised a record $64 million last quarter ([NYT](https://www.nytimes.com/2026/10/15/us/politics/james-talarico-fundraising-texas-senate.html)). Average: D+1.9.\n- **Alaska Senate (Tossup):** Sullivan and Peltola clashed over fishing, oil and corruption in their debate ([NYT](https://www.nytimes.com/2026/10/16/us/politics/alaska-senate-debate-peltola-sullivan.html)). Average: D+0.8.\n- **Maine Senate (Tossup):** Collins and Jackson held their final debate ([The Hill via Google News](https://news.google.com/rss/articles/CBMilAFBVV95cUxObVVEWFdURndrUHF1elV3VWZYVE9rY250UGI3QmEzSGJvSDhZN2VPRzY3RjktVzRRZU5ZUGRWOWQ4YlYySkRkbVREbnZYMjJDRlpXU3FfNnhCTXZ6M19NNDVBYjFwUENFNFdLVUtiYWE3ZnRoMVhQSFY5WVpvYjFlb2pLWUg5dWpPVEJLY1AxaENwNmZ50gGaAUFVX3lxTE1rUi1SVS1OMTltMEVMMEJwaVI3UFBZbkF4S1otQTFjSGoyYTloajJ0NFRUSkljM1o1YjVGeWJtaTBlM2wxcGV4MFVYbzZrclZiY09mb3RKWUZ2Z1FVUkRCZFZNN3FUaGRLdURaUnNLcGlUV2hwdHNXdnJnbVRNdlhORWl6WEZOVkZMSlk2NXUzZGwzQ256OVNxR3c?oc=5)). Average: D+2.1.\n- **Minnesota Senate (Lean D):** SurveyUSA for KSTP shows Flanagan +3, ending Oct 12 ([KSTP](https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/)); average D+4.3. The NYT reports Democrats worrying about Minnesota, Maine and Michigan ([NYT](https://www.nytimes.com/2026/10/15/us/politics/peggy-flanagan-abdul-el-sayed-troy-jackson.html)).\n\n## Early vote\nThese are ballots by party registration, not votes, and mail ballots have leaned Democratic since 2020.\n- **North Carolina:** In-person early voting opened Oct 15 with 201,609 ballots cast that day, bringing the total from 33,444 to 237,539. The shares are D 46.9% / R 19.5% / other 33.6%, against an even registration split ([NCSBE data file](https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/)).\n- **Florida and Pennsylvania (Oct 15):** Florida has 741,141 mail ballots at D 42.7% / R 36.3%, against registration of D 30.1% / R 41.5% ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/), state data). Pennsylvania has 391,195 at D 69.7% / R 21.9% ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/), state data).\n- **Arizona and Iowa (Oct 15):** Arizona has 147,320 at D 41.7% / R 36.2%, via a private compiler; Iowa has 17,384 at D 56.4% / R 28.7% ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/)).\n\n## What the spectrum is saying\n- **Left:** Pod Save America's new episode is titled \"Donald Trump: Ass Man\"; the feed gives only the title ([Pod Save America](https://audioboom.com/posts/8965578)).\n- **Center:** Silver Bulletin calls this stretch \"midterm silly season\" ([Silver Bulletin](https://www.natesilver.net/p/welcome-to-midterm-silly-season)).\n- **Center-right:** The Dispatch asks whether 2026 is a blue wave or an anti-incumbent wave ([The Dispatch](https://thedispatch.com/podcast/dispatch-podcast/a-blue-wave-or-an-anti-incumbent-wave/)).\n- **Right:** National Review warns of price controls creeping in after the midterms ([National Review](https://www.nationalreview.com/2026/10/beware-the-post-midterm-price-control-creep/)). This is opinion, not reporting.\n\n## Talking points\n- The generic ballot averages D+6.3 across 3 polls; Pew has D+8, ending Oct 4 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n\n## Coverage note\nAll 24 sources reported, and early vote covered 22 states. Kalshi had no priced markets. FL-22, SC-01 and TX-35 candidate parties remain unresolved.\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
-  "published_at": "2026-10-16T10:13:34.827208+00:00",
+  "date": "2026-10-17",
+  "title": "Midterm brief: Saturday, October 17",
+  "markdown": "# Midterm brief: Saturday, October 17\n\n## Bottom line\nForecasters rate the House as leaning Democratic; all 10 forecasters have more seats rated for Democrats ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 46 D and 44 R seats are solid or likely, with 10 competitive ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 90.5% for the House and 64.5% for the Senate ([Polymarket House](https://polymarket.com/event/which-party-will-win-the-house-in-2026), [Senate](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), as of Oct 17.\n\n## What moved\n- **Cook Political Report (Oct 16):** All 11 of its House changes moved toward Democrats. FL-25 moved from Tossup to Lean D, and MT-01 from Lean R to Tossup; MN-01, NY-21, OH-10, OH-15 and SC-01 moved from Likely R to Lean R. Cook's count went from 213 D / 201 R to 214 / 200 ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)).\n- **Consensus changes:** MT-01 is now a Tossup, and OH-15 moved from Likely R to Lean R and is now tracked.\n\n## Races to watch today\n- **Texas, Kansas and Maine Senate (Tossups):** InsiderAdvantage polls ending Oct 14 show Paxton 49, Talarico 48; Marshall 48, Hamilton 47; and Jackson 49, Collins 47 ([InsiderAdvantage](https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/)). Averages: TX D+1.5, KS D+0.5, ME D+2.6.\n- **Ohio Senate special (Tossup):** Bowling Green State/YouGov shows Brown +6, ending Oct 9 ([BGSU](https://scholarworks.bgsu.edu/cgi/viewcontent.cgi?article=1030&context=depo)); average D+2.9.\n- **Minnesota Senate (Lean D):** Flanagan and Tafoya held their only debate ([Washington Post via Google News](https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXJaV0hNc2F5YWtPeHMweTZORXBLTFBsajdtbmxHSW1oZGlzVkRqWTdyWmZfeDltN1pqbXo5c0kzZ1MwdFg5MEVXU0NQOUR3MGcydHZEOE1Qb29ZNmtjbUJEUHkyekxtNkxzYlVEM0xGRlBrVjlDSm5QUjktNjlnbS1NRU0zRHBrQUV6X1RGczVLNGZTZ1ZJUmlFRzdwblA0OXFXa1IwR013LTVGSFE?oc=5)). Average: D+4.3.\n- **Michigan Senate (Lean D):** Ocasio-Cortez moved $1 million to El-Sayed ([NYT](https://www.nytimes.com/2026/10/16/us/politics/aoc-el-sayed-million-transfer-midterms.html)). Average: D+3.3, down from D+3.9 after a Republican-sponsored Tyson Group poll.\n\n## Early vote\nThese are ballots by party registration, not votes, and mail ballots have leaned Democratic since 2020.\n- **North Carolina:** Through Oct 15, 237,541 ballots were cast, 125% of the 2022 total at the same point (189,375) ([NCSBE](https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-16%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf)). By Oct 16 the total reached 437,214, at D 45.4% / R 20.6% / other 34.0% against an even registration split; the Republican share is rising as in-person voting grows ([NCSBE data file](https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/)).\n- **Florida and Pennsylvania (Oct 16):** Florida has 816,890 mail ballots at D 42.5% / R 36.3%, against registration of D 30.1% / R 41.5%. Pennsylvania has 456,065 at D 68.7% / R 22.8% ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/), state data).\n- **Senate battlegrounds (Oct 16):** Maine has 101,403 ballots at D 53.2% / R 19.4%; Iowa 33,417 at D 53.9% / R 30.0%; Arizona 165,881 at D 40.7% / R 37.1% (via a private compiler) ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/)).\n\n## What the spectrum is saying\n- **Left:** No new left-leaning episode today beyond yesterday's Pod Save America ([Pod Save America](https://audioboom.com/posts/8965578)).\n- **Center-left:** NPR reports Trump promised a swing-district blitz but is mostly visiting deep-red states ([NPR](https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms)).\n- **Center-right:** The Dispatch argues a midterm loss could be a blessing in disguise for Republicans ([The Dispatch](https://thedispatch.com/newsletter/boilingfrogs/midterms-trump-republicans-benefit-losing/)).\n- **Right:** National Review asks whether \"woke\" politics is returning ([National Review](https://www.nationalreview.com/2026/10/is-it-the-return-of-woke/)). This is opinion, not reporting.\n\n## Talking points\n- The generic ballot averages D+6.3 across 3 polls; Pew has D+8, ending Oct 4 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n\n## Coverage note\nAll 24 sources reported, and early vote covered 22 states. Kalshi had no priced markets. FL-22, SC-01 and TX-35 candidate parties remain unresolved.\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
+  "published_at": "2026-10-17T10:10:34.457759+00:00",
   "checks": []
  },
  "_previous_snapshot": {
-  "run_date": "2026-10-15",
+  "run_date": "2026-10-16",
   "national": {
    "generic_ballot": {
     "average_margin": -6.3,
@@ -19330,30 +19143,30 @@
    },
    "markets": {
     "senate": {
-     "D": 63.5,
-     "R": 36.5,
+     "D": 64.5,
+     "R": 37.5,
      "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
      "source": "Polymarket",
-     "volume": 6568600.402059999
+     "volume": 6748284.200457001
     },
     "house": {
      "D": 90.5,
      "R": 9.5,
      "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
      "source": "Polymarket",
-     "volume": 17510397.363161
+     "volume": 17883358.800124
     },
     "balance": {
      "combos": {
       "D Senate, D House": 62.5,
-      "D Senate, R House": 1.0,
+      "D Senate, R House": 0.9,
       "R Senate, D House": 28.5,
       "R Senate, R House": 8.5,
       "Other": 0.1
      },
      "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
      "source": "Polymarket",
-     "volume": 23429658.411577
+     "volume": 23976333.273683995
     },
     "kalshi": []
    }
@@ -19373,19 +19186,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19397,7 +19210,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -19415,7 +19228,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -19441,19 +19254,19 @@
      "ddhq": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19465,7 +19278,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -19483,7 +19296,7 @@
      "silver": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -19536,19 +19349,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19560,7 +19373,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -19578,7 +19391,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -19635,19 +19448,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19659,7 +19472,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -19677,7 +19490,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -19703,19 +19516,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19727,7 +19540,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -19745,7 +19558,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -19771,19 +19584,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19793,9 +19606,9 @@
       "name": "Fox News Power Rankings"
      },
      "ie": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -19813,7 +19626,7 @@
      "silver": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -19824,33 +19637,33 @@
      }
     },
     "poll": {
-     "average_margin": 6.3,
-     "average_label": "R+6.3",
+     "average_margin": 7.1,
+     "average_label": "R+7.1",
      "n_polls": 7,
      "window_days": 21,
      "latest": {
-      "pollster": "St. Pete Polls",
+      "pollster": "MDW",
       "sponsors": [
-       "Florida Politics"
+       "EDGE Communications"
       ],
       "partisan": null,
-      "start_date": "2026-10-05",
-      "end_date": "2026-10-07",
-      "sample_size": 836,
+      "start_date": "2026-10-04",
+      "end_date": "2026-10-10",
+      "sample_size": 800,
       "population": "lv",
-      "margin": 2.0,
-      "margin_label": "R+2.0",
+      "margin": 6.0,
+      "margin_label": "R+6.0",
       "answers": [
        {
         "choice": "Ashley Moody",
-        "pct": 47.0
+        "pct": 48.0
        },
        {
         "choice": "Angie Nixon",
-        "pct": 45.0
+        "pct": 42.0
        }
       ],
-      "url": "https://floridapolitics.com/archives/823921-new-st-pete-polls-survey-has-ashley-moody-at-47-angie-nixon-at-45-and-the-senate-race-still-inside-the-margin-of-error/"
+      "url": "https://www.mdwcomm.com/media/florida-statewide-poll-october-2026.html"
      }
     }
    },
@@ -19868,19 +19681,19 @@
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19892,7 +19705,7 @@
      "ie": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -19910,7 +19723,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -19963,19 +19776,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
-      "rating": "Likely R",
+      "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19987,7 +19800,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20005,7 +19818,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20062,19 +19875,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20086,7 +19899,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20104,7 +19917,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20130,19 +19943,19 @@
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
-      "rating": "Tossup",
+      "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20154,7 +19967,7 @@
      "ie": {
       "rating": "Tilt R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20172,7 +19985,7 @@
      "silver": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20188,32 +20001,26 @@
      "n_polls": 5,
      "window_days": 21,
      "latest": {
-      "pollster": "Emerson College",
-      "sponsors": [
-       "Nexstar Media"
-      ],
+      "pollster": "YouGov",
+      "sponsors": [],
       "partisan": null,
-      "start_date": "2026-10-05",
-      "end_date": "2026-10-06",
-      "sample_size": 650,
+      "start_date": "2026-10-06",
+      "end_date": "2026-10-12",
+      "sample_size": 2245,
       "population": "lv",
-      "margin": 1.6,
-      "margin_label": "R+1.6",
+      "margin": -1.0,
+      "margin_label": "D+1.0",
       "answers": [
        {
-        "choice": "Josh Turek",
-        "pct": 45.0
-       },
-       {
         "choice": "Ashley Hinson",
-        "pct": 46.6
+        "pct": 46.0
        },
        {
-        "choice": "Thomas Laehn",
-        "pct": 1.5
+        "choice": "Josh Turek",
+        "pct": 47.0
        }
       ],
-      "url": "https://docs.google.com/spreadsheets/d/1mKToIlrAwY0ehEA60PVFemP5WjwxsTxN/edit?rtpof=true&sd=true"
+      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf"
      }
     }
    },
@@ -20231,19 +20038,19 @@
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20253,9 +20060,9 @@
       "name": "Fox News Power Rankings"
      },
      "ie": {
-      "rating": "Likely R",
+      "rating": "Tilt R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20273,7 +20080,7 @@
      "silver": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20330,19 +20137,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20354,7 +20161,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20372,7 +20179,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20398,19 +20205,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20422,7 +20229,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20440,7 +20247,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20466,19 +20273,19 @@
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20490,7 +20297,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20508,7 +20315,7 @@
      "silver": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20561,19 +20368,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20585,7 +20392,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20603,7 +20410,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20629,19 +20436,19 @@
      "ddhq": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20653,7 +20460,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20671,7 +20478,7 @@
      "silver": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20740,19 +20547,19 @@
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20764,7 +20571,7 @@
      "ie": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20782,7 +20589,7 @@
      "silver": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20793,26 +20600,28 @@
      }
     },
     "poll": {
-     "average_margin": -3.3,
-     "average_label": "D+3.3",
+     "average_margin": -4.3,
+     "average_label": "D+4.3",
      "n_polls": 3,
      "window_days": 21,
      "latest": {
-      "pollster": "GQR",
+      "pollster": "SurveyUSA",
       "sponsors": [
-       "Senate Majority PAC"
+       "KSTP-TV (St. Paul)",
+       "KAAL-TV (Austin)",
+       "WDIO-DT (Duluth)"
       ],
-      "partisan": "DEM",
-      "start_date": "2026-10-01",
-      "end_date": "2026-10-04",
-      "sample_size": 800,
+      "partisan": null,
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-12",
+      "sample_size": 718,
       "population": "lv",
-      "margin": -8.0,
-      "margin_label": "D+8.0",
+      "margin": -3.0,
+      "margin_label": "D+3.0",
       "answers": [
        {
         "choice": "Peggy Flanagan",
-        "pct": 50.0
+        "pct": 45.0
        },
        {
         "choice": "Michele Tafoya",
@@ -20820,14 +20629,14 @@
        },
        {
         "choice": "Marisa Simonetti",
-        "pct": 4.0
+        "pct": 2.0
        },
        {
         "choice": "Rebecca Whiting",
         "pct": 2.0
        }
       ],
-      "url": "https://x.com/DrewSav/status/2108502733045334207"
+      "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/"
      }
     }
    },
@@ -20845,19 +20654,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20869,7 +20678,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20887,7 +20696,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -20898,33 +20707,31 @@
      }
     },
     "poll": {
-     "average_margin": 6.0,
-     "average_label": "R+6.0",
+     "average_margin": 4.0,
+     "average_label": "R+4.0",
      "n_polls": 1,
      "window_days": 45,
      "latest": {
-      "pollster": "Data for Progress",
-      "sponsors": [
-       "Way to Lead PAC"
-      ],
-      "partisan": "DEM",
-      "start_date": "2026-08-05",
-      "end_date": "2026-08-15",
-      "sample_size": 1018,
+      "pollster": "Wedgewood Polls",
+      "sponsors": [],
+      "partisan": null,
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-14",
+      "sample_size": 511,
       "population": "lv",
-      "margin": 6.0,
-      "margin_label": "R+6.0",
+      "margin": 4.0,
+      "margin_label": "R+4.0",
       "answers": [
        {
         "choice": "Cindy Hyde-Smith",
-        "pct": 47.0
+        "pct": 52.0
        },
        {
         "choice": "Scott Colom",
-        "pct": 41.0
+        "pct": 48.0
        }
       ],
-      "url": "https://chartingthewayforward.substack.com/p/research-release-fresh-polling-from"
+      "url": "https://drive.google.com/file/d/16nLOQEszQimue_N2O6G42brKUXopDLcu/view"
      }
     }
    },
@@ -20942,19 +20749,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20966,7 +20773,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -20984,7 +20791,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21010,19 +20817,19 @@
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21034,7 +20841,7 @@
      "ie": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21052,7 +20859,7 @@
      "silver": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21105,19 +20912,19 @@
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21127,9 +20934,9 @@
       "name": "Fox News Power Rankings"
      },
      "ie": {
-      "rating": "Tossup",
+      "rating": "Tilt D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21147,7 +20954,7 @@
      "silver": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21200,19 +21007,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21224,7 +21031,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21242,7 +21049,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21268,19 +21075,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21292,7 +21099,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21310,7 +21117,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21365,19 +21172,19 @@
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21389,7 +21196,7 @@
      "ie": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21407,7 +21214,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21433,19 +21240,19 @@
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21457,7 +21264,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21475,7 +21282,7 @@
      "silver": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21528,19 +21335,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21552,7 +21359,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21570,7 +21377,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21596,19 +21403,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21620,7 +21427,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21638,7 +21445,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21664,19 +21471,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21688,7 +21495,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21706,7 +21513,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21751,8 +21558,8 @@
    },
    {
     "key": "SEN-SC",
-    "consensus": "Likely R",
-    "consensus_score": 3,
+    "consensus": "Lean R",
+    "consensus_score": 2,
     "ratings": {
      "cook": {
       "rating": "Likely R",
@@ -21763,19 +21570,19 @@
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21785,9 +21592,9 @@
       "name": "Fox News Power Rankings"
      },
      "ie": {
-      "rating": "Likely R",
+      "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21805,7 +21612,7 @@
      "silver": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21866,19 +21673,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21890,7 +21697,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21908,7 +21715,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -21934,19 +21741,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21958,7 +21765,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -21976,7 +21783,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -22031,19 +21838,19 @@
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22053,9 +21860,9 @@
       "name": "Fox News Power Rankings"
      },
      "ie": {
-      "rating": "Tilt R",
+      "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -22073,7 +21880,7 @@
      "silver": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -22084,35 +21891,31 @@
      }
     },
     "poll": {
-     "average_margin": -2.0,
-     "average_label": "D+2.0",
+     "average_margin": -1.9,
+     "average_label": "D+1.9",
      "n_polls": 6,
      "window_days": 21,
      "latest": {
-      "pollster": "Quantus Insights",
+      "pollster": "ActiVote",
       "sponsors": [],
       "partisan": null,
-      "start_date": "2026-10-09",
-      "end_date": "2026-10-11",
-      "sample_size": 854,
+      "start_date": "2026-09-30",
+      "end_date": "2026-10-14",
+      "sample_size": 400,
       "population": "lv",
-      "margin": 0.5,
-      "margin_label": "R+0.5",
+      "margin": -3.8,
+      "margin_label": "D+3.8",
       "answers": [
        {
         "choice": "James Talarico",
-        "pct": 46.7
+        "pct": 51.9
        },
        {
         "choice": "Ken Paxton",
-        "pct": 47.2
-       },
-       {
-        "choice": "Ted Brown",
-        "pct": 2.2
+        "pct": 48.1
        }
       ],
-      "url": "https://quantusinsights.org/polling/f/texas-senate-paxton-and-talarico-in-a-near-tie"
+      "url": "https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/"
      }
     }
    },
@@ -22130,19 +21933,19 @@
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22154,7 +21957,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -22172,7 +21975,7 @@
      "silver": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -22198,19 +22001,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22222,7 +22025,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -22240,7 +22043,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -22266,19 +22069,19 @@
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Decision Desk HQ"
      },
      "econ": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-15",
       "name": "The Economist"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22290,7 +22093,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "rcp": {
@@ -22308,7 +22111,7 @@
      "silver": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-13",
+      "as_of": "2026-10-15",
       "name": "Silver Bulletin"
      },
      "st": {
@@ -22322,8 +22125,8 @@
    },
    {
     "key": "HOU-AL-02",
-    "consensus": "Likely R",
-    "consensus_score": 3,
+    "consensus": "Lean R",
+    "consensus_score": 2,
     "ratings": {
      "cook": {
       "rating": "Likely R",
@@ -22332,9 +22135,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Likely R",
+      "rating": "Lean R",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -22402,7 +22205,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -22468,9 +22271,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Tossup",
-      "flip": false,
-      "as_of": "2026-10-01",
+      "rating": "Tilt D",
+      "flip": true,
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -22565,7 +22368,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -22633,7 +22436,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -22701,7 +22504,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -22769,7 +22572,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -22835,9 +22638,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -22934,7 +22737,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23002,7 +22805,7 @@
      "ie": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23099,7 +22902,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23167,7 +22970,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23235,7 +23038,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23332,7 +23135,7 @@
      "ie": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23400,7 +23203,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23498,7 +23301,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23566,7 +23369,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23667,7 +23470,7 @@
      "ie": {
       "rating": "Tilt R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23735,7 +23538,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23803,7 +23606,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23871,7 +23674,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -23939,7 +23742,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24007,7 +23810,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24075,7 +23878,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24143,7 +23946,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24211,7 +24014,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24279,7 +24082,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24347,7 +24150,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24415,7 +24218,7 @@
      "ie": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24516,7 +24319,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24584,7 +24387,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24652,7 +24455,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24720,7 +24523,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24788,7 +24591,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24856,7 +24659,7 @@
      "ie": {
       "rating": "Tilt R",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24924,7 +24727,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -24992,7 +24795,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25060,7 +24863,7 @@
      "ie": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25157,7 +24960,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25225,7 +25028,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25293,7 +25096,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25361,7 +25164,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25429,7 +25232,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25497,7 +25300,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25565,7 +25368,7 @@
      "ie": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25631,9 +25434,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25701,7 +25504,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25800,9 +25603,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Tilt R",
+      "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25899,7 +25702,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -25967,7 +25770,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26035,7 +25838,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26101,9 +25904,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Lean R",
+      "rating": "Tilt R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26198,9 +26001,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Likely R",
+      "rating": "Lean R",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26268,7 +26071,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26336,7 +26139,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26404,7 +26207,7 @@
      "ie": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26472,7 +26275,7 @@
      "ie": {
       "rating": "Tilt R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26540,7 +26343,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26637,7 +26440,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26705,7 +26508,7 @@
      "ie": {
       "rating": "Tilt R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26802,7 +26605,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26899,7 +26702,7 @@
      "ie": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -26967,7 +26770,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27035,7 +26838,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27118,8 +26921,8 @@
    },
    {
     "key": "HOU-MT-01",
-    "consensus": "Lean R",
-    "consensus_score": 2,
+    "consensus": "Tilt R",
+    "consensus_score": 1,
     "ratings": {
      "cook": {
       "rating": "Lean R",
@@ -27128,9 +26931,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Lean R",
+      "rating": "Tilt R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27229,9 +27032,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27326,9 +27129,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Tilt D",
+      "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27396,7 +27199,7 @@
      "ie": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27462,9 +27265,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Likely R",
+      "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27532,7 +27335,7 @@
      "ie": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27600,7 +27403,7 @@
      "ie": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27668,7 +27471,7 @@
      "ie": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27736,7 +27539,7 @@
      "ie": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27835,7 +27638,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27903,7 +27706,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -27969,9 +27772,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Likely D",
+      "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28039,7 +27842,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28136,7 +27939,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28204,7 +28007,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28272,7 +28075,7 @@
      "ie": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28340,7 +28143,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28408,7 +28211,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28503,9 +28306,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Likely D",
+      "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28571,9 +28374,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Likely R",
+      "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28628,74 +28431,6 @@
     "poll": null
    },
    {
-    "key": "HOU-NY-23",
-    "consensus": "Solid R",
-    "consensus_score": 4,
-    "ratings": {
-     "cook": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-09",
-      "name": "Cook Political Report"
-     },
-     "ie": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-01",
-      "name": "Inside Elections"
-     },
-     "sabato": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-08",
-      "name": "Sabato's Crystal Ball"
-     },
-     "econ": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-07",
-      "name": "The Economist"
-     },
-     "st": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-08",
-      "name": "Split Ticket"
-     },
-     "ddhq": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-14",
-      "name": "Decision Desk HQ"
-     },
-     "fpo": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-14",
-      "name": "FiftyPlusOne"
-     },
-     "fox": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-13",
-      "name": "Fox News Power Rankings"
-     },
-     "silver": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-09-10",
-      "name": "Silver Bulletin"
-     },
-     "rcp": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-07",
-      "name": "RealClearPolling"
-     }
-    },
-    "poll": null
-   },
-   {
     "key": "HOU-NC-01",
     "consensus": "Tossup",
     "consensus_score": 0,
@@ -28707,9 +28442,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Tilt R",
-      "flip": true,
-      "as_of": "2026-10-01",
+      "rating": "Tossup",
+      "flip": false,
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28804,7 +28539,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28872,7 +28607,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -28940,7 +28675,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29008,7 +28743,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29076,7 +28811,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29144,7 +28879,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29212,7 +28947,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29278,9 +29013,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Lean R",
+      "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29348,7 +29083,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29416,7 +29151,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29484,7 +29219,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29579,7 +29314,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29677,7 +29412,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29743,9 +29478,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Tilt R",
-      "flip": true,
-      "as_of": "2026-10-01",
+      "rating": "Tossup",
+      "flip": false,
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29840,7 +29575,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29908,7 +29643,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -29976,7 +29711,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30073,7 +29808,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30141,7 +29876,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30209,7 +29944,7 @@
      "ie": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30277,7 +30012,7 @@
      "ie": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30372,9 +30107,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Tossup",
-      "flip": false,
-      "as_of": "2026-10-01",
+      "rating": "Tilt D",
+      "flip": true,
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30467,9 +30202,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Tossup",
-      "flip": false,
-      "as_of": "2026-10-01",
+      "rating": "Tilt D",
+      "flip": true,
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30566,7 +30301,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30634,7 +30369,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30700,9 +30435,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Likely R",
+      "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30770,7 +30505,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30838,7 +30573,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30906,7 +30641,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -30974,7 +30709,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31042,7 +30777,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31110,7 +30845,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31178,7 +30913,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31246,7 +30981,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31314,7 +31049,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31380,9 +31115,9 @@
       "name": "Cook Political Report"
      },
      "ie": {
-      "rating": "Tilt R",
+      "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31466,74 +31201,6 @@
     }
    },
    {
-    "key": "HOU-TX-17",
-    "consensus": "Solid R",
-    "consensus_score": 4,
-    "ratings": {
-     "cook": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-09",
-      "name": "Cook Political Report"
-     },
-     "ie": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-01",
-      "name": "Inside Elections"
-     },
-     "sabato": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-08",
-      "name": "Sabato's Crystal Ball"
-     },
-     "econ": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-07",
-      "name": "The Economist"
-     },
-     "st": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-08",
-      "name": "Split Ticket"
-     },
-     "ddhq": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-14",
-      "name": "Decision Desk HQ"
-     },
-     "fpo": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-14",
-      "name": "FiftyPlusOne"
-     },
-     "fox": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-13",
-      "name": "Fox News Power Rankings"
-     },
-     "silver": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-09-10",
-      "name": "Silver Bulletin"
-     },
-     "rcp": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-07",
-      "name": "RealClearPolling"
-     }
-    },
-    "poll": null
-   },
-   {
     "key": "HOU-TX-21",
     "consensus": "Solid R",
     "consensus_score": 4,
@@ -31547,7 +31214,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31615,7 +31282,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31683,7 +31350,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31751,7 +31418,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31819,7 +31486,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31887,7 +31554,7 @@
      "ie": {
       "rating": "Tilt D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -31973,74 +31640,6 @@
     }
    },
    {
-    "key": "HOU-TX-31",
-    "consensus": "Solid R",
-    "consensus_score": 4,
-    "ratings": {
-     "cook": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-09",
-      "name": "Cook Political Report"
-     },
-     "ie": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-01",
-      "name": "Inside Elections"
-     },
-     "sabato": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-08",
-      "name": "Sabato's Crystal Ball"
-     },
-     "econ": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-07",
-      "name": "The Economist"
-     },
-     "st": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-08",
-      "name": "Split Ticket"
-     },
-     "ddhq": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-14",
-      "name": "Decision Desk HQ"
-     },
-     "fpo": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-14",
-      "name": "FiftyPlusOne"
-     },
-     "fox": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-13",
-      "name": "Fox News Power Rankings"
-     },
-     "silver": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-09-10",
-      "name": "Silver Bulletin"
-     },
-     "rcp": {
-      "rating": "Solid R",
-      "flip": false,
-      "as_of": "2026-10-07",
-      "name": "RealClearPolling"
-     }
-    },
-    "poll": null
-   },
-   {
     "key": "HOU-TX-32",
     "consensus": "Likely R",
     "consensus_score": 3,
@@ -32054,7 +31653,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32122,7 +31721,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32225,7 +31824,7 @@
      "ie": {
       "rating": "Lean R",
       "flip": true,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32293,7 +31892,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32361,7 +31960,7 @@
      "ie": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32456,7 +32055,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32553,7 +32152,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32648,7 +32247,7 @@
      "ie": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32716,7 +32315,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32813,7 +32412,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32881,7 +32480,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -32949,7 +32548,7 @@
      "ie": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -33046,7 +32645,7 @@
      "ie": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -33143,7 +32742,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -33211,7 +32810,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -33279,7 +32878,7 @@
      "ie": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-01",
+      "as_of": "2026-10-15",
       "name": "Inside Elections"
      },
      "sabato": {
@@ -33308,6 +32907,74 @@
      },
      "fpo": {
       "rating": "Likely R",
+      "flip": false,
+      "as_of": "2026-10-14",
+      "name": "FiftyPlusOne"
+     },
+     "fox": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-13",
+      "name": "Fox News Power Rankings"
+     },
+     "silver": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-09-10",
+      "name": "Silver Bulletin"
+     },
+     "rcp": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-07",
+      "name": "RealClearPolling"
+     }
+    },
+    "poll": null
+   },
+   {
+    "key": "HOU-WY-AL",
+    "consensus": "Solid R",
+    "consensus_score": 4,
+    "ratings": {
+     "cook": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-09",
+      "name": "Cook Political Report"
+     },
+     "ie": {
+      "rating": "Likely R",
+      "flip": false,
+      "as_of": "2026-10-15",
+      "name": "Inside Elections"
+     },
+     "sabato": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-08",
+      "name": "Sabato's Crystal Ball"
+     },
+     "econ": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-07",
+      "name": "The Economist"
+     },
+     "st": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-08",
+      "name": "Split Ticket"
+     },
+     "ddhq": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-14",
+      "name": "Decision Desk HQ"
+     },
+     "fpo": {
+      "rating": "Solid R",
       "flip": false,
       "as_of": "2026-10-14",
       "name": "FiftyPlusOne"

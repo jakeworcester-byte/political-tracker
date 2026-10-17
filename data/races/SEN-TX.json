@@ -90,33 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": -1.9,
-  "average_label": "D+1.9",
-  "n_polls": 6,
+  "average_margin": -1.5,
+  "average_label": "D+1.5",
+  "n_polls": 7,
   "window_days": 21,
   "latest": {
-   "pollster": "ActiVote",
+   "pollster": "InsiderAdvantage",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-09-30",
+   "start_date": "2026-10-13",
    "end_date": "2026-10-14",
-   "sample_size": 400,
+   "sample_size": 1200,
    "population": "lv",
-   "margin": -3.8,
-   "margin_label": "D+3.8",
+   "margin": 1.0,
+   "margin_label": "R+1.0",
    "answers": [
     {
      "choice": "James Talarico",
-     "pct": 51.9
+     "pct": 48.0
     },
     {
      "choice": "Ken Paxton",
-     "pct": 48.1
+     "pct": 49.0
     }
    ],
-   "url": "https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/"
+   "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
   },
   "polls": [
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-10-14",
+    "margin": 1.0,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 48.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 49.0
+     }
+    ]
+   },
    {
     "pollster": "ActiVote",
     "end_date": "2026-10-14",
@@ -353,29 +372,10 @@
       "pct": 2.2
      }
     ]
-   },
-   {
-    "pollster": "YouGov",
-    "end_date": "2026-09-04",
-    "margin": -5.0,
-    "n": 1000,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://www.univision.com/noticias/politica/poll-univision-texas-2026",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 48.0
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 43.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 25,
+ "raw_poll_count": 26,
  "trend": "Stable",
  "signals": [
   {
@@ -393,31 +393,18 @@
    "relevant": true
   },
   {
-   "date": "2026-10-15",
+   "date": "2026-10-16",
    "race": "SEN-TX",
    "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "James Talarico Raises Quarterly Record of $64 Million in Texas Senate Race Against Ken Paxton",
-   "url": "https://www.nytimes.com/2026/10/15/us/politics/james-talarico-fundraising-texas-senate.html",
-   "summary": "The amount is the most that a Senate candidate has ever raised during that period, his campaign said, eclipsing his opponent in Texas, Ken Paxton.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
+    "SEN-TX",
+    "HOU-TX-35"
    ],
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
-   "title": "Texas Democrat and Senate hopeful James Talarico faced off with friendly, undecided and skeptical voters during a CNN town hall Wednesday night, five days before early voting starts in Texas",
-   "url": "https://www.wsj.com/politics/elections/five-takeaways-from-james-talaricos-cnn-town-hall-with-texas-voters-971ae916?mod=rss_socialpoliticsfeed",
-   "summary": "The Democratic Senate candidate was pressed on rising costs, religion and trans issues.",
+   "title": "Elon Musk is putting a small fortune into Republicans’ effort to salvage the Senate seat in Texas, seen as critical to the party keeping control of the chamber in the fall elections",
+   "url": "https://www.wsj.com/politics/elections/elon-musk-pours-a-fortune-into-saving-texas-for-republicans-170b27df?mod=rss_socialpoliticsfeed",
+   "summary": "The world’s richest man donated $158 million to an effort backing state Attorney General Ken Paxton.",
    "relevant": true
   }
  ],
@@ -452,6 +439,11 @@
    "date": "2026-10-16",
    "c": 0,
    "p": -1.9
+  },
+  {
+   "date": "2026-10-17",
+   "c": 0,
+   "p": -1.5
   }
  ]
 }

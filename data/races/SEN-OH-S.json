@@ -90,33 +90,68 @@
   ]
  },
  "poll": {
-  "average_margin": -2.5,
-  "average_label": "D+2.5",
+  "average_margin": -2.9,
+  "average_label": "D+2.9",
   "n_polls": 8,
   "window_days": 21,
   "latest": {
-   "pollster": "co/efficient",
+   "pollster": "Bowling Green State University/YouGov",
    "sponsors": [],
-   "partisan": "REP",
-   "start_date": "2026-10-05",
-   "end_date": "2026-10-06",
-   "sample_size": 925,
+   "partisan": null,
+   "start_date": "2026-09-29",
+   "end_date": "2026-10-09",
+   "sample_size": 1000,
    "population": "lv",
-   "margin": 1.0,
-   "margin_label": "R+1.0",
+   "margin": -6.0,
+   "margin_label": "D+6.0",
    "answers": [
     {
      "choice": "Sherrod Brown",
-     "pct": 45.0
+     "pct": 48.0
     },
     {
      "choice": "Jon Husted",
-     "pct": 46.0
+     "pct": 42.0
+    },
+    {
+     "choice": "Bill Redpath",
+     "pct": 3.0
+    },
+    {
+     "choice": "Greg Levy",
+     "pct": 5.0
     }
    ],
-   "url": "https://battlegrounds.coefficient.org/oh"
+   "url": "https://scholarworks.bgsu.edu/cgi/viewcontent.cgi?article=1030&context=depo"
   },
   "polls": [
+   {
+    "pollster": "Bowling Green State University/YouGov",
+    "end_date": "2026-10-09",
+    "margin": -6.0,
+    "n": 1000,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://scholarworks.bgsu.edu/cgi/viewcontent.cgi?article=1030&context=depo",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 48.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 42.0
+     },
+     {
+      "choice": "Bill Redpath",
+      "pct": 3.0
+     },
+     {
+      "choice": "Greg Levy",
+      "pct": 5.0
+     }
+    ]
+   },
    {
     "pollster": "co/efficient",
     "end_date": "2026-10-06",
@@ -341,29 +376,10 @@
       "pct": 45.0
      }
     ]
-   },
-   {
-    "pollster": "The New York Times/Siena University",
-    "end_date": "2026-06-28",
-    "margin": 3.0,
-    "n": 601,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-ohio-poll-crosstabs.html",
-    "answers": [
-     {
-      "choice": "Jon Husted",
-      "pct": 50.0
-     },
-     {
-      "choice": "Sherrod Brown",
-      "pct": 47.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 12,
+ "raw_poll_count": 13,
  "trend": "Stable",
  "signals": [
   {
@@ -381,6 +397,51 @@
    "relevant": true
   },
   {
+   "date": "2026-10-16",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Brown, Acton both up 6 points in Ohio races: Poll",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUb2xwRzRvMnFqbmo4X01pSHVkQWI3c2xYbDdqT1VfWnZlTVJBZ3NvVWdnbWhPdUhRbi1kYXctVG9DNkczcDNuSU5zRWdDMEVMaE1jQnNwOS0wczdjWXF1X3kxZXdRV2RCam5mWGdWQjMtQ011Rk1ONXRqTlrSAYIBQVVfeXFMTkNiYzNBRW9QNk1HbXdMT2kwWk1lczItVlJOVE9TQndZYnQ3ejlGMmFRUU9VY1FubTlNNU1lbWFqSXNUSDVIYWkxZUx0bkNuNVFWNzRfNnhKOURZQUtLTUdvdU5tenUyZDMySnZIWTlJV0pJQ2hYMkJraGNtY2FhNGVzZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "Cleveland.com",
+   "lean": "unrated",
+   "title": "Brown continues to outraise Husted as Ohio Senate race nears record-level spending",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdkRjTXhibmNJSC10LW91MHNJaVoyRUxYSWZtZFJfbjhVZlNjaTkzbFNwR2VON0NvbDJQVTgyX2N4bEowcHM3MDZqaDMzblBZbFdLWTZBdDBUaEhBVUFRcm9JakxORkpxSndlYVlubWVxaEhIcWNTMTBlUlVidVRWRkxDdUhmaW83dDVKVUFwVTVQYWdkUU9sRV9vYW9ZZE5WMDEtSHktZmZ3Wm5xTVRQZS1rbE9KTE82NVRGOVFaYmcxbU5B0gHYAUFVX3lxTE42TTBoZGJQbHpMdEZldm45RUpFNjlLYTNCNW1FWnhZR0FyazdPUjdPLXEwVS1jMnhfMmxqSTNxU0tCbTdxV183RnpQcEhlcHN0bWZHVHYwVFF1WmhNUTVTQVN6SHZ5clA2OFFPclBqTXY5ZzluQ1djUzlHUXB0VzZicXR0U0kwVW9WanZvZkpGdmRIWlYwdEstcndhemZGLXdtM0htNkhBOFJNZTZfZ0ZXWTB5QW9HLVN0WnJ2R0RURUdFY0VrZXhVTl9SMUxWOUlfaDRMX1hhYg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-15",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "GLAAD",
+   "lean": "unrated",
+   "title": "Fact Sheet: Ohio Senate Race – 2026 Midterm Elections",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ndE9lRUVOckRiaHNXNUV0ODlpUGFXd3lxM2tMYkc4a2NqcmpUdVlLRHBYZF9qeEVBZkpSeVRzai1XdmlyU08xcF81RzI3d3M3WFhDN3h3LUU2ajI5LThSa2JPVWxFNmt5TWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-14",
    "race": "SEN-OH-S",
    "races": [
@@ -393,6 +454,21 @@
    "url": "",
    "summary": "What do the early votes tell us about Republicans' chances in November? Ruthless breaks down the latest early voting numbers in Ohio, Michigan, North Carolina, and Florida, revealing what they mean for the midterms. Plus, new polling on the economy, Vicente Gonzalez’s questionable campaign spending,",
    "relevant": true
+  },
+  {
+   "date": "2026-10-13",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "WKYC",
+   "lean": "unrated",
+   "title": "President Trump returns to Ohio as Brown-Husted Senate race draws national attention",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbERRYk14Nlc5UEdnTVhQYjB2d0xVRXdtblprMjNwTVRWaTFyTVJnR1NmMmxaaDZUM1ZueUxic0RsLTVXNzY2Y3RaNmUtdzZTSEpNVzRscDJhS2oxdkdZN1FuYXFOblpJZmpsMHVLMW9KaFA2b3MzOUZ2Q2lYVDItQ1pfa1k4aEZHeTNRSF96WlkwRm8tV0JNZFZVUDY3X195YXRvRWVjRkZfZ0hTdXBrT0JEZGFjZnVmeHV5eFFxcF9LaG5fdWdzazFaZGdmd2xjYmdWaFItNWEwTGVWMTNyczk1bTc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-OH-S",
@@ -426,6 +502,11 @@
    "date": "2026-10-16",
    "c": 0,
    "p": -2.5
+  },
+  {
+   "date": "2026-10-17",
+   "c": 0,
+   "p": -2.9
   }
  ]
 }

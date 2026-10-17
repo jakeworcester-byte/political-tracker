@@ -3,9 +3,9 @@
  "label": "Florida 25",
  "ratings": {
   "cook": {
-   "rating": "Tossup",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-09",
+   "as_of": "2026-10-16",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -88,7 +88,38 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-16",
+   "race": "HOU-FL-25",
+   "races": [
+    "HOU-FL-25"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Florida 25th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOHhCMFFHZDlXSHNRdHJQNHVKcTVucUN5aDg5b003aU1BeGdHdDkwenl5bWxzTlB5QkkwVEE3MFZ6QmhHdzhCdEFfSlNPQ2d6LTIwY25kUC1LQm1pZl9pN2R6allMNHBreXdGeWxZMmN5dE5SVDBFYkNMU01SMTNPc1pIcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "HOU-FL-25",
+   "races": [
+    "HOU-FL-25"
+   ],
+   "type": "reporting",
+   "source": "WPLG Local 10",
+   "lean": "unrated",
+   "title": "Competitive race for Florida’s 25th Congressional District features 2 familiar faces",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcHFSVmpCNDEzMy1UMW5jM05YSWJDQ3BPaHlvOXhrM25SWlhUYmNTcDFUWjE0ZVp0XzNXc0tKU2lNTXBKMWtOVEZlYUlaeG1SaW5naHRUX181TGNsUkhzSURfTzVYNkhVdmxmaEZobEp3SXlIT2RuWVJfWC05eDNPTTFyd2QzSDBiaTJvVkJvMUM3NnEybWpzb2RSRmllSWowSUJLRW41NkdLaVM4M1NMS29faVNraVc1X3ljOTlyVXhVRWtyWWltbnE4Vnhpdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-25",
  "history": [
   {
@@ -118,6 +149,11 @@
   },
   {
    "date": "2026-10-16",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-17",
    "c": -2,
    "p": null
   }
