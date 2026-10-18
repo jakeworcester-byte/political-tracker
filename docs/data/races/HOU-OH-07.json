@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -183,6 +183,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-18",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "Cleveland.com",
+   "lean": "unrated",
+   "title": "Toss-up race between Max Miller and Brian Poindexter puts Ohio’s 7th District in spotlight",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQODcwRFVjSFBlU3pHbGZaWTNIQjgxNmtlblZMU0t4UkQ2VExlS1RRSE9ESWhLb1Z3TUVMdjZrZkp6dlRJZFlQS210MHBzenV6R2xFQUVKdU5fUHFaeTdSX2RIYWhRbmIzSjZ3Snltb2pRa1ZZc3BTTElZZ2Y3N092RFAwUU5KLUFXSUxHRXVJSWpCS24tYWthdEY4NG1SWUV2N0h3SDE4OUNCeXBmWjJkTnlFMDFWVVBFcURpRHpIMW55UktKS3dXc3Y2WlRmd9IB4gFBVV95cUxPem11TUVXZ3o0LXlTZ0NTOHhGV1ZRSVp4NkNEUWFuYTA2VDA2ZjE5RTJrOW9FWXBDTlQwWTZKQm9LZGFXVlZRVkJwbE5NNXpnODBmZmFPdEx2NlpPRndHNEU5b01XTWl6bElmWTR0aVhHVGRPWHRzdk9GUjhxRmVpOURzTmF0cU1qcFFOOW13SHB3ck9tLUVWNkYtbjNCaWt0TE93S0lULUhsUnhDRS1KdWlEWVVYWk1ZblFYRVJ5b1RNT0lhQndvYUUyWEM3TWtHRDhtOTlEOXhzRThFbnVaWlFR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-16",
    "race": "HOU-OH-07",
    "races": [
@@ -247,6 +262,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-18",
    "c": 0,
    "p": -7.0
   }

@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -90,6 +90,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-17",
+   "race": "HOU-PA-10",
+   "races": [
+    "HOU-PA-10"
+   ],
+   "type": "reporting",
+   "source": "ABC27",
+   "lean": "unrated",
+   "title": "Janelle Stelson leading Scott Perry in new Pennsylvania 10th District poll",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcE1LWlRJX3oyc0s4SUdVVEdiTkUzT0ZZaXhyLVZScDNmdG9XVnhzb0RrR0tXdVQtLUl2aXpIc2xOUzRWVDh4XzJUR1ZId09uLWFXWEdYcjc2cURzeEFYWXhTbm5zYjZHd21SNzhhSmFxNW9TQkR4OXR6NUxheWdwZkJmOGhFdDktSnNQbkhHZ0F1clVhMzdlYU50N1RLUnpSYlRyZ0o4OGlIdk5XWG800gGvAUFVX3lxTE9wTUtaVElfejJzSzhJR1VUR2JORTNPRllpeHItVlJwM2Z0b1dWeHNvRGtHS1d1VC0tSXZpekhzbE5TNFZUOHhfMlRHVkh3T24tYVdYR1hyNzZxRHN4QVhZeFNubnNiNkd3bVI3OGFKYXE1b1NCRHg5dHo1TGF5Z3BmQmY4aEV0OS1Kc1BuSEdnQXVyVWEzN2VhTnQ3VEtSelJiVHJnSjg4aUh2TldYbzQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-16",
    "race": "HOU-PA-10",
    "races": [
@@ -115,21 +130,6 @@
    "lean": "unrated",
    "title": "PA-10 debate night: Scott Perry and Janelle Stelson spar over the economy, the Iran war and elections",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNS0ZPU2FVSGFPbkN4cGJkX290MTlINkZtLTB1VnRHbWRWY0xVbTBxWF9yUFBTWkxaYldjbExiVFlVU05QQ0FwSDh4YlU0LVg4c01FelJfQThHWEY0TndXX3R3djNHNFR6WE1OcEloRHVUeUFJQXdIMWNwVTFfaDJuZXRWemRxeFozN1ZUdFBfSHllSGVVY0lLVk5MVWdNb01zVC1mLVlzSnBlb1ZiN1NKS09YNl8xb05aWElOUG10ZnhIU2tETlVNczRjMDFuNGlRRFB5VllFc1BOQmF3bzY5UQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "HOU-PA-10",
-   "races": [
-    "HOU-PA-10"
-   ],
-   "type": "reporting",
-   "source": "ABC27",
-   "lean": "unrated",
-   "title": "Pennsylvania 10th District race: How to rewatch Janelle Stelson, Scott Perry debate",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQ0hqLWJpNFp3YjVFTGdYN2pNN3lBcjlJWExtMTh0alM0OUlYVldfbE81dXl1MHdySUVzT01JeUNmWTUyVmVFbkotRlIwWTVqR3pPbjc4S3B4QWUydFZ1Wl9NZmVhUWhMc3R0NU13enR2RG4xRTdxVUlHWjhNUEJNTlBsbDFQRkRoSm50MVJ2R0hvUVpIbkg0aTh6OGlOVkMzMTE5aGd0S2UxX0FwVlhocnNkVEJaQ2t0aWJGOVBWN1lEd9IBxwFBVV95cUxOWU9zWE16UlNjclE2VTVidUNLcFhwM09qNkpNREIyQjdpdFBuT0h5U0JPMHphU3BFcXRjalMyZ3NtcEhUSnNYeDNJWlI5d0F1R1FGY2pLbkNuQkw2R2xNbVRuZkhEVTkxQkhST2pzcTVsMkNIbmRYenFXTDA2UkozVjJaWFNNc0VxS09DQ04tU1BXRzVwWndSVEtVVlRIV21JX0RFanFodTRJbHdxU3ExaFFKZEhNbGFXSk4wRUlMOS12V25mTGdB?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -169,6 +169,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-18",
    "c": -2,
    "p": null
   }

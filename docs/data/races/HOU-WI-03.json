@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -187,21 +187,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-12",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "Channel 3000",
-   "lean": "unrated",
-   "title": "Wisconsin’s 3rd Congressional District race could determine control of U.S. House",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPUEFJSmxaZEpGNVNvam9EejdXa3ZBRE8xbFRweTNqMlQ1WHU0c3J1bDA1NzdZX3BxNjVxaTRlOG00alYyUGJhdC1HbDBDLWJtSC1ydlNrMHRqbFVlV0VwbDhHRVFVVzZ0d2NZSzh0SlRyOFVXU053ckd6OGFicl9ZWTJ1SGxzWnhDWlRfR0IxSHFiMmVZbTNXMnhjbmlSQ2tscmstNUJUQ0xTbVR0elRtaFZUcUo0akJsRHpIendDWEplTlB5QUJrSEtZNW5nYmZpQnNXWlFJMGY1Y0w1bzFHSVV3ZXdvN1B1eG1VYVdPTnZFN0ZWbHc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WI-03",
@@ -238,6 +223,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": -2,
+   "p": -4.0
+  },
+  {
+   "date": "2026-10-18",
    "c": -2,
    "p": -4.0
   }

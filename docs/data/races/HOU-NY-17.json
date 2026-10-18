@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -182,16 +182,31 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-17",
+   "date": "2026-10-16",
    "race": "HOU-NY-17",
    "races": [
     "HOU-NY-17"
    ],
    "type": "reporting",
-   "source": "The Jerusalem Post",
+   "source": "The New York Times",
    "lean": "unrated",
-   "title": "Lawler, Conley battle for Jewish voters in pivotal New York race that could decide House control",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11NjJsUUpMaWpWS0pvOWZDSEVEaml0T2FOUEF4LWZELXdFenBEeWVtdGNfaE5RendJMWxwRGZlUUhOZ3hEUzFOWDNvaXRGQTQ2YmQ1UlhqS1p5b0VWaWdYaFlvVXo?oc=5",
+   "title": "New York 17th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkJpUm1ZaDNTMWtIVjNhaWl0R3M4UmEwY2tPQllTRGEtaFFVaGl1SlZEVFNaRmtwVDBYTW8ySzU4am1WT0tVWHZrclJZVWlMMVVQZDR5dWNfYktjbUVKSERRUldCSlFEa1U0RXE5dHJsWDlhWTM1aU1lemNYMjhWVVFHclA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "Jewish Telegraphic Agency",
+   "lean": "unrated",
+   "title": "GOP incumbent Lawler and Democratic challenger Conley compete for Jewish vote in NY-17",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbnluOFlsMWRDWjNBakNxclNCd0piRm5kVkU2QW12XzZkdF9vY19mX25LeWd6RTZrS0FqWjVIN2V5NDQ3dUlNeVZhLWRCOXNmZDB2T2NCR0pQc2dyaGpBZkFITVY4VHBWVUJrWkE3eUxhTXhSUk1rZWFBTXFQeXMtWnVRWUJXNmczNmpORWlqQlUwWFFlQzRvSkhpNThqX2ZxTlpnaXJUc2NwUWlLeWNCRzl6Z2UyRzFoZUlHRg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -261,6 +276,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-18",
    "c": 0,
    "p": -2.0
   }

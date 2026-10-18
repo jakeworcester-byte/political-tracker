@@ -27,21 +27,21 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean R",
-   "flip": true,
-   "as_of": "2026-10-08",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -77,10 +77,10 @@
  "incumbent_note": "",
  "consensus_score": 0,
  "consensus": "Tossup",
- "disagreement": true,
+ "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 2,
+ "flip_votes": 1,
  "candidates": {
   "D": [],
   "R": []
@@ -154,6 +154,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-18",
    "c": 0,
    "p": null
   }

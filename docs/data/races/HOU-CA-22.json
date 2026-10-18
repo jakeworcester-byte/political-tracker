@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-17",
+   "race": "HOU-CA-22",
+   "races": [
+    "HOU-CA-22"
+   ],
+   "type": "reporting",
+   "source": "Latin Times",
+   "lean": "unrated",
+   "title": "ICE raids + a broken Medicaid pledge: Can Valadao survive CA-22? 🗳️",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZUNYWHpPVWMwY01KMWNLTDQxYnAxZ3pTY041eTUwdlJneTRDSUlpc2hacXdYUW14NG51QV9rVl9oeV9NWi1FUVpFd29hYVVmWWVUVVlLUHZiRDBzT1E0bmR4bVVScF9SZ3FCTkdJQVlrYUZ4R1Z4RFJCU21lOG95ZGI0X0YtQ1p0RnpQMGt4d0VCc1dkYjJTNFdYekQtYzlQS1QzY3lJek5FTlkyeEhpX1RR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-22",
  "history": [
   {
@@ -177,6 +193,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": -2,
+   "p": -4.0
+  },
+  {
+   "date": "2026-10-18",
    "c": -2,
    "p": -4.0
   }

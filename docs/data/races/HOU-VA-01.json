@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -140,7 +140,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-17",
+   "race": "HOU-VA-01",
+   "races": [
+    "HOU-VA-01"
+   ],
+   "type": "reporting",
+   "source": "Daily Press",
+   "lean": "unrated",
+   "title": "Commentary: Virginia’s 1st District 250 years ago and today",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQl9WOVdZaV9JVjQ2dUNhOHNfSjhPWklMRXlrRHllcHJ4M0dnSXZRSFl3aHNiTy1RcVhrWUF3V29LdEpHR2tqMDJ0eTZLVWNMaENqeWl3ZGZaam9FRS14cHFEYzI3cmVlR3RocTFUSElwcGNyWWVuNzExcXE2Rmd0ZnBUa3Q1V2cwSTd4akJKSnRWelVEYUs1Zm9JNUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-01",
  "history": [
   {
@@ -175,6 +191,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": 0,
+   "p": -4.0
+  },
+  {
+   "date": "2026-10-18",
    "c": 0,
    "p": -4.0
   }

@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -351,6 +351,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-17",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Federal News Network",
+   "lean": "unrated",
+   "title": "Maine Senate Odds Show Seat Up for Grabs in Midterms: Trade Elections on Kalshi",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPam92M3dDQkY4Rmg3ZzdGSldFOF8tc1EtWUpjWVpWakd4MXk3aGhNZXdJTjlYUTAzaHRaNzdrZm1IanFzSjFsS3p5djNCMS1HenZnS3FINU4xRktNcmRfUDBEckd3SDJoalRsaWQyOVYtRk9BeVRlaE9EbEtpTGJNcjA3cnYydzNqMXQwRHRnNnJWU1pSTnBjSlppbXBrWG1zOWdRTWxuRThqSldNcHFjSDFhWWxyUEhPT3FiMGVjU0lSa09RRG5ZOHRENA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-16",
    "race": "SEN-ME",
    "races": [
@@ -408,21 +423,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "USA Today",
-   "lean": "unrated",
-   "title": "New Maine Senate poll reveals a coin toss between Collins, Jackson",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdmtPb3JaWUE0V0ZHUXpFTTF1bjRSQW5xQkgxS1VBUVptczBrQXdyNTQ1ZlZHcDcyeWk4N3R0SFJnaFJaZ1U5WXczajRwSFdaVTFOck83NEFsNVNzN0lWdktFWS1FOFFSQkRZc20yMTJjNFVPN21GbmFJMFFhNG14dlR3ZURZMlJISjYzdk1XZVkxUEx2US1fc21TVnFjbEJMVjBCdW1rU3F2LVBEWElERWFSNElfZnFQeW1kQ0xSREY?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-ME",
@@ -459,6 +459,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": 0,
+   "p": -2.6
+  },
+  {
+   "date": "2026-10-18",
    "c": 0,
    "p": -2.6
   }

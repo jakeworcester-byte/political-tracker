@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -177,16 +177,31 @@
  "trend": "Toward D",
  "signals": [
   {
+   "date": "2026-10-17",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "WSOC TV",
+   "lean": "unrated",
+   "title": "South Carolina Senate race narrows as early voting approaches",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLTRGODBKbFZqNUNmSzBVOWpPeUNHNUp2d1V3VXlLMTMzMV9oRTdLY3RQalJLRzRZMzdoZElvam40TUpZYjlXSkhyVkNzZWNtV28tUGtiWTZabmZtTTkzWlU4dVhQeWRtQTFDZi1zbzhKX1g0V2lLMFlOM3VJanN1ZUZWZldVR2lnMHJ3RFBQMTFEclFRaDdSZlNlenRGN1pIU1JDcmNxRGN5ZWptbWFqcUZWcWJ5QTkzN2xYN9IB0AFBVV95cUxNUjRKOFVqYmVwaDNQZXBuWmpUOHJQa3JiTlVWTmw1WGRQZzVyUEZLQ21kUlpwZ3Z4QXpxTGtuYzdEQ3lMRS1WdzZXWWhvdXdtajJjQ0lXcVBiM0Voa243ckhBM0k4YWdweE41R1NkdVBYdGMwa1ZZQ202UnZEbHJDNjM5QnVUT0Z2QVpvU21kakpIbDRWeDJGTlhIbG9CckN4LWZCZWVZcDRxUFdMUWdYdHZfQVZrWXFaTFJPeWRvbnRYMDdOSGV0bzlhZ2xZeV8z?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-16",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "WLOS",
+   "source": "South Carolina Public Radio",
    "lean": "unrated",
-   "title": "President Trump backs Darline Graham in South Carolina Senate tele-rally",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUW9Dd2FsdVU3YWN6T0x4XzFXNTAzV0NoOGQxWWFaLWFPMnd2RmNMZTlJaGVSMmpCRzlMdmtwWTdQaExBaUpqQWM1TnE1TDVOUzZway1MSkVHT1ZRcXIxSS1KdkZGWWZ6eE11TGRETVEzeVFBY1ljNzBoN0JJSE5naE5WVmxFbVduQTFWWHlfcEtDV1d5ZklzcVFNWTFGdW5tWmxWWF82Vm5xOXJNVTJwRDFvMm1uMm1KbWYwamxEaG5EcFBxOG4yZ29R?oc=5",
+   "title": "South Carolina's Senate race more competitive than years past. It's giving Dems hope",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQazZLMi1vNkc0b1VFX0NWWDJhZjhVT2swUFVSRTVWYVNHZzZmTU15bDFCRnRkN2l4SWVwMmM5dDh2OEtROWtfckRGbGNOMUVIcDhDZmlCOVNuSDllN0pUNVZ1UkVqUlhMcnlNeHNyWm9KUEFkMnpXeXBacUlxN0E0V0kwbjZyYTI2R0pCamdHa1Y1SThvMWRWU2VuMk9fWkM2eGlkSjlqYjNIeTBFWldTaHpTcWhkbHNoeDZYakF2SnFzTWtzRS14NnpydnFVRF9EaTZ3eExsQXQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -213,10 +228,10 @@
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "MS NOW",
+   "source": "WJCL",
    "lean": "unrated",
-   "title": "Trump plans to rally with Sen. Darline Graham as GOP focus on South Carolina intensifies",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwN1hsSlZOVnFxZF9MSFBYaHdMZGxtNWZtZ1N0Qk5fd1BpUmJvNmFGc2JmZWFRcF94V0NQYnhkNTl4eUpwOTJTc0ozZ1hZeWIzdzlaY2Jtck1IY2k4YlgwMUFVNUF0TEdxRVdvVnhGUmM0TFh2WmtVUFNpU2R3UQ?oc=5",
+   "title": "Annie Andrews, Darline Graham clash in tense South Carolina Senate debate over experience, Iran",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeklqQ2ZOMTgwRDVISThFaTlFdmJiajdldmVjVm1UenNEWmxCTHZIUF9hVFhCRUV4X2JRbXd6VTU1aVFSMVJ5cWRvdFN3VGg3SmJZMjN0VHd3ZFdSRVlvTkxIbi10bzJVMzJBRUZnV3hsNnRNTDhBa3R1eG9JNWx2SFQxdk1CcFBCNnhpakRKSWJQdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -256,6 +271,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": 2,
+   "p": 1.4
+  },
+  {
+   "date": "2026-10-18",
    "c": 2,
    "p": 1.4
   }

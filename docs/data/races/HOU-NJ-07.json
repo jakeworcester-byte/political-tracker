@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-17",
+   "race": "HOU-NJ-07",
+   "races": [
+    "HOU-NJ-07"
+   ],
+   "type": "reporting",
+   "source": "Latin Times",
+   "lean": "unrated",
+   "title": "GOP abandons Tom Kean as Bennett closes in on flipping NJ-07 🏛️",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMkJmTjh2SUxLN0ZhcGhjSE55RHZMZ05ybE1wQTdsbF9sMlEzbjNyM3ZjUU81LUI5WGl3djRWUEVTdDh2clM0OHNfYzBtcTlVc1pSRm1Oalh1R0tnQTgyYkdmMVRnZDFQQzduSnZTejBYM1ZVaTZlZXlBZUh1cVpya3d3M1ZiamlDNjJuR0xHSThJcjItbll1T1NZWEdPdmYwWmFBZA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-14",
    "race": "HOU-NJ-07",
@@ -154,6 +169,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-18",
    "c": -2,
    "p": null
   }
