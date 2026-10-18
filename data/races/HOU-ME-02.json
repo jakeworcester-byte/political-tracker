@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
-   "rating": "Lean R",
-   "flip": true,
-   "as_of": "2026-10-14",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -75,19 +75,19 @@
  "key": "HOU-ME-02",
  "name": "ME-02",
  "incumbent_note": "",
- "consensus_score": 2,
- "consensus": "Lean R",
+ "consensus_score": 0,
+ "consensus": "Tossup",
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 6,
+ "flip_votes": 5,
  "candidates": {
   "D": [],
   "R": []
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [
   {
    "date": "2026-10-16",
@@ -100,36 +100,6 @@
    "lean": "unrated",
    "title": "Maine 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-13",
-   "race": "HOU-ME-02",
-   "races": [
-    "HOU-ME-02"
-   ],
-   "type": "reporting",
-   "source": "Maine Public",
-   "lean": "unrated",
-   "title": "This week is stacked with debates in Maine's high-stakes races for Senate, 2nd District and governor",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcWxidVZPazdwMVJLd1pTZzJXNHJlZlVNVDI2bk9URkZVdzB1ZmNReHdWazVMUnZkQnhJUzRaVFV1ZjdVSmdROFpGM0lBNEtuY20wMDV3WjhtaUpJbWROcGN3RURta2RHSUVhS1I4NXpVTmcwZTBqMU5wUm95LTZBWGNDVVBKM3lJaTNkWmYyRFZORzVIbnhsQVJQUzd6Q2xKdnpxeUNmTFptUklQMXF0bDlTbktfbGV0aEtBMDVDNmJPNXQ3UkRlYUVpUUc3Q3dHdndnRVBpTUV0RWk4Qlhr?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-13",
-   "race": "HOU-ME-02",
-   "races": [
-    "HOU-ME-02"
-   ],
-   "type": "reporting",
-   "source": "Bangor Daily News",
-   "lean": "unrated",
-   "title": "Opinion: Candidates for Maine’s 2nd Congressional District answer your questions",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUXFQUElNUkVzb0VjVHVoNDFXSGhSSWNJQzZlck90cHRmWHV6dDlrekFNd3NBd2lkcnhlR19wWFE0VE1PS2Y3UUkwYmY0bDVMeU54dFQ0OFRoaDJDbmhkU2lsempPV0w2ODZKeFVJdXZlSGtUcWM0eHV0Y0ptbllzYWltemExWVc3WmZuRnpPSkUydmw3WkwxcmlOWnNoRFpvUF9ObjZQRXhNUm9pb1JOaEpsTEpaOGwwMWJacG1Lb3RTTDZOZGJKci1uZXozMC1fVXZualpUZk1tQUhhZy1GUk9rcTh3SEh6?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -170,6 +140,11 @@
   {
    "date": "2026-10-17",
    "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-18",
+   "c": 0,
    "p": null
   }
  ]

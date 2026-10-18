@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -355,25 +355,9 @@
    }
   ]
  },
- "raw_poll_count": 15,
+ "raw_poll_count": 14,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-15",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "AgWeb",
-   "lean": "unrated",
-   "title": "Iowa Senate Race Plays Out Amid Tight Farm Margins",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWXJBbXNlNEk0OHlTNVhlb2dmMHJ4TDZEZHk0alBVRmFSTXFPMHI2czZ2dVVuemFNbm9lNkRiaGIxNFgxdU1LakEwSENUbGhGX0JOYmZpSnRlZ2Fjc0xiS1UtTGI5VF9wbmRSMVVqOUtDWTZVZWpSY3RxVWlmNHgtS3NTTmE2UjJWZkFZMg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
  "history": [
   {
@@ -408,6 +392,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-18",
    "c": 0,
    "p": -0.5
   }

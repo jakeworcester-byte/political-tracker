@@ -27,21 +27,21 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-17",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-17",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-17",
    "name": "RealClearPolling"
   }
  },
@@ -172,21 +172,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-13",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "WKYT",
-   "lean": "unrated",
-   "title": "Kentucky’s 6th District race tightens ahead of Nov. 3",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPamZFNDREbXZMcWFUQ3BLU2Qta0FvQkVMRzNROGxEeWFIMVB2UnVaZm8xS01ZeUV2TEFPU2hfT0hzWmlLQ012aVdGcDNLZ1dRa29MNVg2TnhHekVteG9TY1ljdGpEbUx4ajh4a0pZMVcyWTZ4UEtKdmZUb211bERsU2daT3drMjNt0gGcAUFVX3lxTE1MdHFmaTFZbnhKdUwtdXdxcW5idzZKYWp5UTlPTTdKRW5LZHJWa01acWYxMkJnVnUydWhxTFhVdWlqX0RkQjEyQmxMUFdIZFdsYm5jOURIQmlWYlpkWEN3cjg5YUhSY0FRYlJJVXhQdUNaNnlNOEx4blA0Mm1mSkQxdTgxcW9WTElKVUwyNzFRcVdteXNsVDlxbS1yMg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-KY-06",
@@ -223,6 +208,11 @@
   },
   {
    "date": "2026-10-17",
+   "c": 2,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-18",
    "c": 2,
    "p": -3.0
   }
