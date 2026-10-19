@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-18T10:09:26.049252+00:00",
- "run_date": "2026-10-18",
+ "generated_at": "2026-10-19T10:10:01.549109+00:00",
+ "run_date": "2026-10-19",
  "site_title": "Jake's Political Tracker",
  "disclaimer": "Not a forecast. A daily synthesis of what credible forecasters, public polls, prediction markets, and reporting say about the 2026 midterms, with movement over time.",
  "sources": {
@@ -34,7 +34,7 @@
    "rcp": "2026-10-12",
    "sabato": "2026-10-14",
    "silver": "2026-10-15",
-   "st": "2026-10-14"
+   "st": "2026-10-18"
   },
   "house": {
    "cook": "2026-10-16",
@@ -118,17 +118,17 @@
   "markets": {
    "senate": {
     "D": 64.5,
-    "R": 37.5,
+    "R": 36.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
     "source": "Polymarket",
-    "volume": 7094454.609592
+    "volume": 7140046.780129
    },
    "house": {
     "D": 90.5,
     "R": 9.5,
     "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
     "source": "Polymarket",
-    "volume": 18356500.375644002
+    "volume": 18512125.715127
    },
    "balance": {
     "combos": {
@@ -140,7 +140,7 @@
     },
     "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
     "source": "Polymarket",
-    "volume": 24803816.224472
+    "volume": 25054833.949217
    },
    "kalshi": []
   }
@@ -275,174 +275,12 @@
  "movers": [
   {
    "type": "rating change",
-   "race": "SEN-SD",
-   "name": "South Dakota Senate",
-   "text": "FiftyPlusOne: Solid R -> Likely R (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
-   "source": "FiftyPlusOne"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-AL-02",
-   "name": "AL-02",
-   "text": "FiftyPlusOne: Lean R -> Tossup (as of 2026-10-17)",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "FiftyPlusOne"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-CO-05",
-   "name": "CO-05",
-   "text": "FiftyPlusOne: Tossup -> Lean D (as of 2026-10-17)",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "FiftyPlusOne"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-FL-22",
-   "name": "FL-22",
-   "text": "Split Ticket: Lean R -> Tossup (as of 2026-10-17)",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Split Ticket"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-GA-07",
-   "name": "GA-07",
-   "text": "FiftyPlusOne: Solid R -> Likely R (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "FiftyPlusOne"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-KY-06",
-   "name": "KY-06",
-   "text": "Split Ticket: Lean R -> Tossup (as of 2026-10-17)",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Split Ticket"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-KY-06",
-   "name": "KY-06",
-   "text": "FiftyPlusOne: Lean R -> Tossup (as of 2026-10-17)",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "FiftyPlusOne"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-ME-02",
-   "name": "ME-02",
-   "text": "Consensus moved Lean R -> Tossup",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Forecaster consensus (Wikipedia compilation)"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-ME-02",
-   "name": "ME-02",
-   "text": "Decision Desk HQ: Lean R -> Tossup (as of 2026-10-17)",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Decision Desk HQ"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-MD-01",
-   "name": "MD-01",
-   "text": "Decision Desk HQ: Solid R -> Likely R (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Decision Desk HQ"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-MI-07",
-   "name": "MI-07",
-   "text": "Decision Desk HQ: Lean D -> Likely D (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Decision Desk HQ"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-MN-01",
-   "name": "MN-01",
-   "text": "FiftyPlusOne: Lean R -> Tossup (as of 2026-10-17)",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "FiftyPlusOne"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-MO-02",
-   "name": "MO-02",
-   "text": "RealClearPolling: Lean R -> Tossup (as of 2026-10-17)",
-   "delta": -2,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "RealClearPolling"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-NY-21",
-   "name": "NY-21",
-   "text": "Split Ticket: Solid R -> Likely R (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Split Ticket"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-NC-10",
-   "name": "NC-10",
-   "text": "FiftyPlusOne: Solid R -> Likely R (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "FiftyPlusOne"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-OK-01",
-   "name": "OK-01",
-   "text": "Decision Desk HQ: Solid R -> Likely R (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Decision Desk HQ"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-PA-07",
-   "name": "PA-07",
-   "text": "Decision Desk HQ: Lean D -> Likely D (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Decision Desk HQ"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-VA-05",
-   "name": "VA-05",
-   "text": "Decision Desk HQ: Likely R -> Lean R (as of 2026-10-17)",
-   "delta": -1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Decision Desk HQ"
-  },
-  {
-   "type": "rating change",
-   "race": "HOU-WA-05",
-   "name": "WA-05",
-   "text": "Decision Desk HQ: Likely R -> Solid R (as of 2026-10-17)",
+   "race": "SEN-NC",
+   "name": "North Carolina Senate",
+   "text": "Split Ticket: Solid D -> Likely D (as of 2026-10-18)",
    "delta": 1,
-   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
-   "source": "Decision Desk HQ"
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+   "source": "Split Ticket"
   }
  ],
  "races": [
@@ -521,7 +359,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -543,7 +381,7 @@
    "state_abbr": "AK",
    "district": null,
    "special": false,
-   "incumbent": "Dan Sullivan",
+   "incumbent": "Dan S. Sullivan",
    "incumbent_party": "R",
    "open_seat": false,
    "pvi": "R+6",
@@ -610,7 +448,7 @@
     "st": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -653,7 +491,7 @@
      "url": "https://x.com/AndrewSolender/status/2110867168892014803"
     }
    },
-   "signal_count": 5
+   "signal_count": 4
   },
   {
    "key": "SEN-AR",
@@ -730,7 +568,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -856,7 +694,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -945,7 +783,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1034,7 +872,7 @@
     "st": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1156,7 +994,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1276,7 +1114,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1400,7 +1238,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1489,7 +1327,7 @@
     "st": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1532,7 +1370,7 @@
      "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf"
     }
    },
-   "signal_count": 0
+   "signal_count": 2
   },
   {
    "key": "SEN-KS",
@@ -1609,7 +1447,7 @@
     "st": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1652,7 +1490,7 @@
      "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
     }
    },
-   "signal_count": 5
+   "signal_count": 6
   },
   {
    "key": "SEN-KY",
@@ -1729,7 +1567,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1818,7 +1656,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1907,7 +1745,7 @@
     "st": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -1950,7 +1788,7 @@
      "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
     }
    },
-   "signal_count": 5
+   "signal_count": 3
   },
   {
    "key": "SEN-MA",
@@ -2027,7 +1865,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -2120,7 +1958,7 @@
     "st": {
      "rating": "Lean D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -2165,7 +2003,7 @@
      "url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/"
     }
    },
-   "signal_count": 4
+   "signal_count": 7
   },
   {
    "key": "SEN-MN",
@@ -2242,7 +2080,7 @@
     "st": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -2297,7 +2135,7 @@
      "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/"
     }
    },
-   "signal_count": 2
+   "signal_count": 3
   },
   {
    "key": "SEN-MS",
@@ -2374,7 +2212,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -2494,7 +2332,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -2583,7 +2421,7 @@
     "st": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -2626,7 +2464,7 @@
      "url": "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_100926.pdf"
     }
    },
-   "signal_count": 5
+   "signal_count": 3
   },
   {
    "key": "SEN-NH",
@@ -2703,7 +2541,7 @@
     "st": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -2824,7 +2662,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -2913,7 +2751,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3033,9 +2871,9 @@
      "name": "Silver Bulletin"
     },
     "st": {
-     "rating": "Solid D",
+     "rating": "Likely D",
      "flip": true,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3124,7 +2962,7 @@
     "st": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3175,7 +3013,7 @@
      "url": "https://scholarworks.bgsu.edu/cgi/viewcontent.cgi?article=1030&context=depo"
     }
    },
-   "signal_count": 7
+   "signal_count": 9
   },
   {
    "key": "SEN-OK",
@@ -3252,7 +3090,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3341,7 +3179,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3430,7 +3268,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3554,7 +3392,7 @@
     "st": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3682,7 +3520,7 @@
     "st": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3771,7 +3609,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -3893,7 +3731,7 @@
     "st": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -4013,7 +3851,7 @@
     "st": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -4102,7 +3940,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -4191,7 +4029,7 @@
     "st": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-10-14",
+     "as_of": "2026-10-18",
      "name": "Split Ticket"
     }
    },
@@ -4772,7 +4610,7 @@
    "flip_votes": 7,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-AZ-08",
@@ -5494,7 +5332,7 @@
      "url": "https://www.politico.com/newsletters/playbook/2026/07/21/trump-to-hill-im-not-that-into-you-01005915"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-CA-45",
@@ -5706,7 +5544,7 @@
      "url": "https://results.surveyusa.com/client/PollReport.aspx?g=0877c725-6e44-47fe-9856-dcf799865671"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-CO-03",
@@ -6099,7 +5937,7 @@
    "flip_votes": 7,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-FL-02",
@@ -7026,7 +6864,7 @@
      "url": "https://www.thehousemajoritypac.com/news/hmp-poll-leela-gray-leads-anna-paulina-luna-in-fl-13"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-FL-14",
@@ -7560,7 +7398,7 @@
    "flip_votes": 1,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 2
+   "signal_count": 1
   },
   {
    "key": "HOU-FL-25",
@@ -7649,7 +7487,7 @@
    "flip_votes": 0,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-FL-26",
@@ -7860,7 +7698,7 @@
      "url": "https://x.com/cjwarnke/status/2100648029678170342"
     }
    },
-   "signal_count": 2
+   "signal_count": 3
   },
   {
    "key": "HOU-GA-01",
@@ -8820,7 +8658,7 @@
      "url": "https://static.notus.org/27/58/c93f2d1946c0814f583fa25c7a31/hmp-ia-02-poll.pdf"
     }
    },
-   "signal_count": 3
+   "signal_count": 4
   },
   {
    "key": "HOU-IA-03",
@@ -8909,7 +8747,7 @@
    "flip_votes": 9,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-KS-02",
@@ -9654,7 +9492,7 @@
    "flip_votes": 1,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-MI-07",
@@ -9987,7 +9825,7 @@
      "url": "https://hub.nationaljournal.com/welcome-to-the-trump-midterms"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-MN-01",
@@ -10533,7 +10371,7 @@
      "url": "https://www.montanarightnow.com/elections/aaron-flint-sam-forstag-nearly-tied-for-montana-congressional-district-1/article_96a2f7e1-334a-46c7-9a92-84ccc4c44171.html"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-NE-01",
@@ -11491,7 +11329,7 @@
    "flip_votes": 10,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 3
+   "signal_count": 2
   },
   {
    "key": "HOU-NJ-09",
@@ -13279,7 +13117,7 @@
    "flip_votes": 1,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 6
   },
   {
    "key": "HOU-NC-13",
@@ -13700,7 +13538,7 @@
      "url": "https://www.axios.com/2026/08/11/max-miller-ohio-brian-poindexter-democrats-2026"
     }
    },
-   "signal_count": 3
+   "signal_count": 4
   },
   {
    "key": "HOU-OH-08",
@@ -14718,7 +14556,7 @@
      "url": "https://www.fandmpoll.org/franklin-marshall-college-poll-release-pa-7th-and-10th-congressional-districts-september-2026/?ref=franklin-marshall-college-poll-newsletter"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-PA-08",
@@ -14929,7 +14767,7 @@
    "flip_votes": 8,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 3
+   "signal_count": 4
   },
   {
    "key": "HOU-PA-11",
@@ -16905,7 +16743,7 @@
      "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-TX-35",
@@ -17203,7 +17041,7 @@
      "url": "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "HOU-VA-02",
@@ -18079,7 +17917,7 @@
      "url": "https://x.com/cjwarnke/status/2074099699020128352?s=20"
     }
    },
-   "signal_count": 3
+   "signal_count": 2
   },
   {
    "key": "HOU-WI-06",
@@ -18440,6 +18278,234 @@
  ],
  "national_signals": [
   {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "That Huge Republican Cash Edge? It’s in Senate Races, Not House Races.",
+   "url": "https://www.nytimes.com/2026/10/19/us/politics/midterms-republican-spending-edge.html",
+   "summary": "With Republicans seen as less likely to hold their majority in the House, the party is focusing more on the battle for the Senate, where it is vastly outspending Democrats on ads.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Vital Early Voting Period Begins in Texas",
+   "url": "https://www.nytimes.com/2026/10/19/us/politics/texas-early-voting-midterm-elections.html",
+   "summary": "Early voting in Texas, where the outcome of the Senate race could determine which party controls the chamber, will run through Oct. 30.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Who’s Winning the Race for Congress?",
+   "url": "https://www.nytimes.com/2026/10/19/us/politics/whos-winning-the-race-for-congress.html",
+   "summary": "It’s Oct. 19 — 15 days from the midterms. Here’s the state of play.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Polls Show Democrats Ahead. Are They ‘Right’ This Time?",
+   "url": "https://www.nytimes.com/2026/10/19/upshot/polling-midterm-elections-senate.html",
+   "summary": "Polls are inherently imprecise, but they don’t have a record of systematically overestimating Democrats in recent nonpresidential elections.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "2028 Presidential ‘Shadow Primary’ Descends on the Midterm Elections",
+   "url": "https://www.nytimes.com/2026/10/18/us/politics/midterms-2028-presidential-race-democrats-republicans.html",
+   "summary": "The schedule is especially packed in New Hampshire, an early presidential nominating state where there is a competitive Senate race Democrats are flocking to this month.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Trump administration officials are lawyering up, preparing for the possibility that Democrats could launch probes if the party takes back Congress",
+   "url": "https://www.wsj.com/politics/policy/trump-administration-democrat-investigation-caa25bf7?mod=rss_socialpoliticsfeed",
+   "summary": "Cabinet officials and ordinary staffers are preparing for the possibility that Democrats could launch probes if the party takes back Congress.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "The real reason it's going to take a while to know who won in some midterm races",
+   "url": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins",
+   "summary": "Hint: It's not only because California counts slowly.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "What does a White House press secretary do?",
+   "url": "https://www.npr.org/2026/10/18/nx-s1-6006807/what-does-a-white-house-press-secretary-do",
+   "summary": "Katie Zacharia's short time as White House press secretary has brought renewed attention to the high-profile role.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Daily (NYT)",
+   "lean": "center-left",
+   "title": "Inside Putin’s Plan to Cripple Ukraine This Winter",
+   "url": "https://www.nytimes.com/the-daily",
+   "summary": "President Trump said he was making an energy deal with President Vladimir V. Putin of Russia and waiving new sanctions on Moscow. Now, he’s feuding with Ukraine’s leader, Volodymyr Zelensky. Russia is taking advantage of the moment by relentlessly striking Kyiv, killing civilians and cutting off pow",
+   "relevant": false
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Remnant (The Dispatch)",
+   "lean": "center-right",
+   "title": "A Modest Defense of Lulu Lenin | Interview: Tyler Austin Harper",
+   "url": "",
+   "summary": "Conventional wisdom will tell you to be well rested and sober before an interview to ensure peak performance. Jonah Goldberg, however, discovered long ago that he’s at his best on three minutes of sleep, a couple shots of Fireball, and a fistful of Alka-Seltzer tablets. Today, Jonah has prepared him",
+   "relevant": false
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Megyn Kelly Show",
+   "lean": "right",
+   "title": "GOP Midterm Warning Signs, Violent Riots in France, Oregon Shooting Hero Identified: AM Update 10/19",
+   "url": "https://www.siriusxm.com",
+   "summary": "New polling shows Democrats widening their lead over Republicans ahead of the midterms as President Trump's approval rating hits a new low. Violent riots devastate cities across France, leaving historic landmarks destroyed and thousands under arrest. An Air Force service member dies following a rapp",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Silver Bulletin",
+   "lean": "unrated",
+   "title": "FLIPR 2026 midterm election forecast",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Latest Polls: 2026 Elections, Trump Approval and More",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13dUthYmI5ZUtKY2YzQ2F6Z1RUVHhzXzRwcGdZN3ktUDdmQTNXY0xOR2FFbEZSSzhvMTRZNWNfS1Y2NGs2eV9WNmhPa0Q5UkU3WE1WQUZTendZcjNOQ0JGYlU2VHdMaTd3MXI0?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Conversation",
+   "lean": "unrated",
+   "title": "Democrats remain clear favourites to gain control of Congress at midterms",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUS02N3h0dzJzd1VLYWtpQ2ZPM2NxNUk5dG5ib21rLUZDd2k5NjQ4YkUtdlFlT1cyWXUzLVdUamd1cDk0eXc5UEI3QVZLbHpvYl9Zb3NJVlJ6RnB1dk1jNFhQWk5ORU9ENm0tUjVtVVl6WG44SWdwOGpTMUswZTdtVGpQdmpoZGlNeGRVQzEteGJ1T1lzaFo4d1NyS1RKd1A0OVgwZGo2SVVpWWJs?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-19",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Times",
+   "lean": "unrated",
+   "title": "Who will win the 2026 midterm elections? Polls and predictions",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Trump Endorses Netanyahu as Best U.S. Partner in Tight Israeli Election",
+   "url": "https://www.nytimes.com/2026/10/18/us/politics/trump-endorses-netanyahu-election-israel.html",
+   "summary": "The president praised the embattled prime minister for his endurance, saying any other candidate would be the “wrong Leader.”",
+   "relevant": true
+  },
+  {
    "date": "2026-10-18",
    "race": "National",
    "races": [
@@ -18474,11 +18540,25 @@
     "National"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Graham Breaks With Trump Over Russia Sanctions Law Her Brother Championed",
-   "url": "https://www.nytimes.com/2026/10/17/us/politics/graham-trump-russia-sanctions-law.html",
-   "summary": "Senator Darline Graham, appointed to fill the Senate seat of her late brother, Lindsey, gently disagreed with the president’s decision to exempt Russia from the sanctions legislation.",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "President Trump’s surprise diesel deal with Russia and decision to waive sanctions on Moscow have become a headache for Republican candidates with just two weeks to go before the midterms",
+   "url": "https://www.wsj.com/politics/policy/trumps-overtures-to-putin-put-republican-candidates-in-hot-seat-3ac6ffc8?mod=rss_socialpoliticsfeed",
+   "summary": "GOP politicians in a number of tight races are breaking with Trump on Russia policy ahead of midterms.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "From firehouses to farms, Pennsylvania locals are one test of whether Democrats can solve their biggest weakness: the loss of blue-collar white voters",
+   "url": "https://www.wsj.com/politics/elections/pennsylvania-testing-whether-gops-working-class-coalition-is-cracking-02e07c2f?mod=rss_socialpoliticsfeed",
+   "summary": "From firehouses to farms, locals offer a glimpse into whether Democrats in midterms can overcome their main weakness: a loss of blue-collar voters.",
    "relevant": true
   },
   {
@@ -18504,9 +18584,177 @@
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
+   "title": "In this podcast series, we examine Gen Z’s impact on the midterms and whether this elusive voting group will become the swing vote once more",
+   "url": "https://www.wsj.com/politics/elections/the-new-youth-vote-db0a61e4?mod=rss_socialpoliticsfeed",
+   "summary": "President Trump did well with young voters in 2024, but this year looks very different. This podcast series examines Gen Z’s impact on the midterms.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
    "title": "Republicans across the most competitive House and Senate races have settled on a closing pitch ahead of Election Day: Democrats are too extreme to be given control of Congress",
    "url": "https://www.wsj.com/politics/elections/republican-midterm-election-strategy-culture-war-8a128efa?mod=rss_socialpoliticsfeed",
    "summary": "The GOP sees transgender athletes in women’s sports, border security and socialism as keys to convincing voters that Democrats are too extreme.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Congress reacts to executive order exempting Russia from economic sanctions",
+   "url": "https://www.npr.org/2026/10/18/nx-s1-6007363/congress-reacts-to-executive-order-exempting-russia-from-economic-sanctions",
+   "summary": "NPR's Eric McDaniel reports on how Congress has reacted to President Trump's executive order exempting Russia from economic sanctions.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "What role does the White House Press Secretary play in the Trump era?",
+   "url": "https://www.npr.org/2026/10/18/nx-s1-6005279/what-role-does-the-white-house-press-secretary-play-in-the-trump-era",
+   "summary": "NPR's Ayesha Rascoe asks Adm. John Kirby, who had spokesperson roles in the Obama and Biden administrations, about the utility of the role of the White House Press Secretary.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Politics chat: Zelenskyy on Trump, Democrats bring in the money for midterms",
+   "url": "https://www.npr.org/2026/10/18/nx-s1-6005192/politics-chat-zelenskyy-on-trump-democrats-bring-in-the-money-for-midterms",
+   "summary": "From Russia to AI to Iran, President Trump has taken political stances that put him at odds with much of the electorate.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "National Review",
+   "lean": "right",
+   "title": "Andy Beshear’s Perilous Invocation of Faith",
+   "url": "https://www.nationalreview.com/2026/10/andy-beshears-perilous-invocation-of-faith/",
+   "summary": "The Kentucky governor uses Scripture to justify political beliefs that belie biblical teachings.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 midterm election forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+   "summary": "Silver Bulletin's prediction for every Senate, House, and gubernatorial election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 Governors forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-governors-model",
+   "summary": "Silver Bulletin's prediction for every gubernatorial election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 Senate forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-senate-model",
+   "summary": "Silver Bulletin's prediction for every Senate election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "FLIPR 2026 House forecast",
+   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-house-model",
+   "summary": "Silver Bulletin's prediction for every House election in 2026.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "How popular is Donald Trump?",
+   "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+   "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "Who’s ahead on the generic congressional ballot?",
+   "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
+   "summary": "Our constantly-updating tracker of polls for the most important indicator in the race for Congress.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Silver Bulletin",
+   "lean": "center",
+   "title": "How popular is the Iran War?",
+   "url": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
+   "summary": "Silver Bulletin approval ratings for the ongoing conflict.",
    "relevant": true
   },
   {
@@ -18522,20 +18770,6 @@
    "url": "https://audioboom.com/posts/8965958",
    "summary": "With two weeks until the midterms, Amy Walter, publisher and editor-in-chief of the Cook Political Report, sits down with Dan to break down what she calls the most brutal political environment Republicans have faced in twenty years. They discuss whether the numbers indicate a \"blue wave\" or a \"red u",
    "relevant": true
-  },
-  {
-   "date": "2026-10-18",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The Daily (NYT)",
-   "lean": "center-left",
-   "title": "Elizabeth Holmes and Nathan Fielder Keep Us Guessing",
-   "url": "https://www.nytimes.com/the-daily",
-   "summary": "The comedian Nathan Fielder came to fame as the creator and host of the Comedy Central series “Nathan for You.” The show followed Fielder as he devised outrageous schemes, ostensibly with the aim of helping various small businesses. What became clear, though, was that Fielder was less interested in ",
-   "relevant": false
   },
   {
    "date": "2026-10-18",
@@ -18559,10 +18793,10 @@
     "National"
    ],
    "type": "reporting",
-   "source": "Silver Bulletin",
+   "source": "270toWin.com",
    "lean": "unrated",
-   "title": "FLIPR 2026 midterm election forecast",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5",
+   "title": "FiftyPlusOne 2026 Senate Forecast",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhSSzR0UU1sLVVHLU1BMUlWbExHYmdRNU9Jd2g5VEQ0OXB2ckxBT3dXcDQ0aWFOd1B3MVR3Snk3eld5MkxuaThPTy1tU2FjdGd6N0wzenFOY0JVbGk4RWxqbk9JY09NOW9SLWg0ZlplWUZKMFk1ZFRzMk1vTkhJeHRUdGJxdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -18574,10 +18808,10 @@
     "National"
    ],
    "type": "reporting",
-   "source": "The Times",
+   "source": "Fox News",
    "lean": "unrated",
-   "title": "Who will win the 2026 midterm elections? Polls and predictions",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5",
+   "title": "The nine key races that will decide who controls the Senate, and where they stand",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb2dKMXJGWjBROGU5eW8wZ3p2VjdTOFd5MGFSa1M3NDFiRjZGMnBuZzgyTWs5VHhvc0dqN3Y2S2NuYjVOMEhoSVJfRy1jeVhvVzZXMlc1S3ExZUNBNVdhRENCYlVvdHBaeWNkODlHS0ZlcGIzLVdCSFl5WGtnMG5PQzRmbzVUN09FWTd0QS1UWmF1MHZ3SUdn0gGcAUFVX3lxTE8zUDJ2WTFhMDB1NzNINWlZc0FCTnBPQmI3d0dDZ1ZLbzVyNHJLemZkbWItLWJfZDFXLVMxOVZnSFRjT0hlZjJWX3ZhSWYzQUc0aWNrR2pvb3lYR21fV0hCaFBUTWZwSUwydHNac0VFTDRuc21QSElsRE5hTDhHNVhQYW9pcFBBeElUVWxpSm4yRUxRbERVdnJrSXh4Rg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -18598,6 +18832,21 @@
    "via": "Google News"
   },
   {
+   "date": "2026-10-18",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Silver Bulletin",
+   "lean": "unrated",
+   "title": "FLIPR 2026 Senate forecast",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjdtTENfOTI3YnEtMWExbmNVOElpaTRqTUxGQTBBRGpILTMzdmE1bmtEMlZ6VHZXTDNoMVZvSHFOaVhaeXBmRkJTSE5WQlZrLUhNeUlnR0tHOEYyQTR5WW5JMldBam11Tk5DcS16YTZZSWE5WFI2S0Joa3FhS2xVWA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-17",
    "race": "National",
    "races": [
@@ -18609,132 +18858,6 @@
    "title": "In Midterm Campaign’s Final Stretch, Trump Can’t Stop Praising Men’s Bodies",
    "url": "https://www.nytimes.com/2026/10/17/us/politics/trump-men-physical-appearance-comments.html",
    "summary": "As he stumps for midterm candidates, the president has been especially eager to talk about the physical appearance of some men.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Dispute Between Trump Allies Centers on Millions Transferred From Congo",
-   "url": "https://www.nytimes.com/2026/10/17/us/politics/trump-allies-grenell-mildon-congo.html",
-   "summary": "The White House inquiry is focused on diverging accounts from Richard Grenell and Alina Habba Mildon about a $17 million transfer from a government account in the African country to a Texas defense firm.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Susan Collins Criticizes Rival’s ‘Oh, Shut Up’ Comment as ‘Very Telling’",
-   "url": "https://www.nytimes.com/2026/10/17/us/politics/susan-collins-troy-jackson-shut-up-debate.html",
-   "summary": "Ms. Collins, a Republican running in a crucial race, said the debate remark by Troy Jackson reflected how he treated women. Mr. Jackson defended his comment.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Trump Revives 2020 Election Conspiracy Theories as Midterms Loom",
-   "url": "https://www.nytimes.com/2026/10/17/us/politics/election-fraud-conspiracies-trump.html",
-   "summary": "Voting rights advocates fear the Trump administration may use the federal government to cast doubt on the election, discourage participation or try to delegitimize results.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "How Pennsylvania Explains the Forces Shaping the Midterms",
-   "url": "https://www.nytimes.com/2026/10/17/us/politics/pennsylvania-midterm-elections-house-races.html",
-   "summary": "Four battleground congressional districts in the state reveal fault lines that are echoing nationwide.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "What Pennsylvania Reveals About the Midterms",
-   "url": "https://www.nytimes.com/video/us/politics/100000011200802/what-pennsylvania-reveals-about-the-midterms.html",
-   "summary": "In Pennsylvania, four congressional districts exemplify the types of seats that Democrats are aiming to flip. Our national political correspondent Shane Goldmacher explains.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Congressional Staff Open Letters Containing Suspicious Substances",
-   "url": "https://www.nytimes.com/2026/10/16/us/politics/congressional-staff-letters-suspicious-substances.html",
-   "summary": "The incidents, the first of which was reported on Thursday, came as election officials have reported a growing number of threats directed at them.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Appeals Court Questions Justice Dept. Claim That Trump Owns White House Records",
-   "url": "https://www.nytimes.com/2026/10/16/us/politics/appeals-court-trump-presidential-records.html",
-   "summary": "A three-judge panel appeared unconvinced by claims that a federal law requiring the president to preserve and hand over his presidential papers was unconstitutional.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Dr. Sean Barbabella, Trump’s primary physician, is tasked with staying no more than three minutes away from the oldest president ever elected",
-   "url": "https://www.wsj.com/politics/trump-white-house-physician-sean-barbabella-8debfed1?mod=rss_socialpoliticsfeed",
-   "summary": "Dr. Sean Barbabella is tasked with staying no more than three minutes away from the oldest president ever elected.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "As European nationalist parties have been rising in the polls, they have come to see President Trump as a liability and have distanced themselves from him",
-   "url": "https://www.wsj.com/politics/elections/europe-trump-right-wing-populists-d91734af?mod=rss_socialpoliticsfeed",
-   "summary": "Nationalist parties have come to see President Trump as a liability and distanced themselves from him as they have been rising in the polls.",
    "relevant": true
   },
   {
@@ -18772,11 +18895,11 @@
     "National"
    ],
    "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Trump promised a swing district blitz. He's going to a lot of very red states",
-   "url": "https://www.npr.org/2026/10/17/nx-s1-6004276/trump-travel-midterms",
-   "summary": "President Trump's midterm travel blitz ahead of Election Day includes several red states he won easily 2 years ago, showing the electoral landscape is more challenging for Republicans.",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "As European nationalist parties have been rising in the polls, they have come to see President Trump as a liability and have distanced themselves from him",
+   "url": "https://www.wsj.com/politics/elections/europe-trump-right-wing-populists-d91734af?mod=rss_socialpoliticsfeed",
+   "summary": "Nationalist parties have come to see President Trump as a liability and distanced themselves from him as they have been rising in the polls.",
    "relevant": true
   },
   {
@@ -18813,62 +18936,6 @@
    "races": [
     "National"
    ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 Governors forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-governors-model",
-   "summary": "Silver Bulletin's prediction for every gubernatorial election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 Senate forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-senate-model",
-   "summary": "Silver Bulletin's prediction for every Senate election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 House forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-house-model",
-   "summary": "Silver Bulletin's prediction for every House election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "FLIPR 2026 midterm election forecast",
-   "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
-   "summary": "Silver Bulletin's prediction for every Senate, House, and gubernatorial election in 2026.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "podcast",
    "source": "The Remnant (The Dispatch)",
    "lean": "center-right",
@@ -18876,50 +18943,6 @@
    "url": "",
    "summary": "Dear listener: There are few places Jonah Goldberg hates more than O’Hare International Airport. Yet, in a sad irony, he has spent a significant percentage of his life sitting in a Chicago terminal waiting on a plane. Though Jonah is not generally inclined to process his life through song, today’s R",
    "relevant": false
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "270toWin.com",
-   "lean": "unrated",
-   "title": "FiftyPlusOne 2026 Senate Forecast",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUhSSzR0UU1sLVVHLU1BMUlWbExHYmdRNU9Jd2g5VEQ0OXB2ckxBT3dXcDQ0aWFOd1B3MVR3Snk3eld5MkxuaThPTy1tU2FjdGd6N0wzenFOY0JVbGk4RWxqbk9JY09NOW9SLWg0ZlplWUZKMFk1ZFRzMk1vTkhJeHRUdGJxdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-17",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Silver Bulletin",
-   "lean": "unrated",
-   "title": "FLIPR 2026 Senate forecast",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTjdtTENfOTI3YnEtMWExbmNVOElpaTRqTUxGQTBBRGpILTMzdmE1bmtEMlZ6VHZXTDNoMVZvSHFOaVhaeXBmRkJTSE5WQlZrLUhNeUlnR0tHOEYyQTR5WW5JMldBam11Tk5DcS16YTZZSWE5WFI2S0Joa3FhS2xVWA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Trump Returns to Dalton for a Rescue Mission in Georgia",
-   "url": "https://www.nytimes.com/2026/10/16/us/politics/trump-rally-dalton-georgia.html",
-   "summary": "Plus, Katie Zacharia’s ouster, A.O.C. on the trail, and another tense debate in Maine.",
-   "relevant": true
   },
   {
    "date": "2026-10-16",
@@ -18933,48 +18956,6 @@
    "title": "Defense Secretary Pete Hegseth said the execution of a soldier who went on a 20009 shooting spree would be livestreamed—setting off a dayslong debate within the White House",
    "url": "https://www.wsj.com/politics/national-security/how-hegseths-plan-to-livestream-an-execution-sent-the-white-house-scrambling-f9030ee5?mod=rss_socialpoliticsfeed",
    "summary": "The livestream proposal triggered internal White House debate as well as public skepticism from GOP leaders.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Katie Zacharia is out as press secretary, White House says",
-   "url": "https://www.npr.org/2026/10/16/nx-s1-6005302/katie-zacharia-is-out-as-press-secretary-white-house-says",
-   "summary": "Katie Zacharia is \"transitioning out\" of her role as press secretary, according to a White House official not authorized to speak on the record, marking a stunning turn of events for the spokeswoman.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
-   "url": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future",
-   "summary": "Katie Zacharia's first official day was on Monday.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Do Americans own the president's papers? Appeals court to weigh in",
-   "url": "https://www.npr.org/2026/10/16/nx-s1-5996836/trump-who-owns-presidential-records-act-appeals-court",
-   "summary": "The administration says papers created in the White House belong to Donald Trump, not to the American people. The case could ultimately end up at the conservative-leaning Supreme Court.",
    "relevant": true
   },
   {
@@ -19025,62 +19006,6 @@
    "races": [
     "National"
    ],
-   "type": "punditry",
-   "source": "The Dispatch",
-   "lean": "center-right",
-   "title": "A Blue Wave or an Anti-Incumbent Wave?",
-   "url": "https://thedispatch.com/podcast/dispatch-podcast/a-blue-wave-or-an-anti-incumbent-wave/",
-   "summary": "Plus: What’s a lawyer?",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "How popular is Donald Trump?",
-   "url": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
-   "summary": "Silver Bulletin approval ratings for President Trump — and all presidents since Truman.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "Who’s ahead on the generic congressional ballot?",
-   "url": "https://www.natesilver.net/p/generic-ballot-average-2026-nate-silver-bulletin-congress-polls",
-   "summary": "Our constantly-updating tracker of polls for the most important indicator in the race for Congress.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "How popular is the Iran War?",
-   "url": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
-   "summary": "Silver Bulletin approval ratings for the ongoing conflict.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "podcast",
    "source": "The Ezra Klein Show",
    "lean": "center-left",
@@ -19123,50 +19048,6 @@
    "races": [
     "National"
    ],
-   "type": "podcast",
-   "source": "The Megyn Kelly Show",
-   "lean": "right",
-   "title": "New Press Secretary Already Fired, Kelly Clarkson Security Footage, and Casey Anthony Has Thoughts on Shane Gillis, with Maureen Callahan | Ep. 1420",
-   "url": "https://www.siriusxm.com",
-   "summary": "Megyn Kelly discusses how Ilhan Omar has apparently gone missing after the raid at her home this week, the serious questions about whether Rep. Ilhan Omar is even a U.S. citizen, how the citizenship of Ilhan Omar’s father couldn’t be confirmed, shocking photos of Ilhan Omar’s alleged “brusband” that",
-   "relevant": false
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "The Race for Congress: Latest 2026 Polls",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5EdUZXTXBzRFFLOGZJR2hWaHlFUUw0em5XbTZQYTRNbnNmdkVOaXBRcEtuUDhQWnhxNUVsckIwTERBUUplcWtOSWtzY09Yb3FDVzBJY05kU04wb0dZc1d5LXlLbm1jZi1wckVUcjFoSTI1WDQ3R2FxRHZ3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Silver Bulletin",
-   "lean": "unrated",
-   "title": "Who’s ahead on the generic congressional ballot?",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT2JLaXpfb3Vrd3gzTWJtNmtmWnVrVUJBdmFER0JTdlBabkFwdXZ3NFktUGtfeHZuMlhYZC1mdHpvdGNUczR4SEpXWW9FRF92V0otQ2Q2NTBnVzFGa0tmT0V0N2cxa1Y2cUtOeHQ5STNMbWlhQVA0eUtQa0dvR3A4bzdtWkZFOHZvMDdIbklZQ2NoN1lyZ1JV?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "reporting",
    "source": "Pew Research Center",
    "lean": "unrated",
@@ -19183,10 +19064,25 @@
     "National"
    ],
    "type": "reporting",
-   "source": "Kalshi News",
+   "source": "Democrat and Chronicle",
    "lean": "unrated",
-   "title": "Who Will Control the Senate in 2026? Midterm Odds and Key Races",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kdWpVTVBxbnFMc3FES2ppU2xIZUhzVld0VlVseHJQa1djMHY0alNLVUIya18yQmVNOG4tckxCbkhYaklMVTRZQm5iX1ZETm1MX01JcVdUNGFQanZDT2kwRDh3MTVUWm1pRnc?oc=5",
+   "title": "When does early voting start in New York? Key 2026 election dates to know",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV2R3ejhFN2J0ZVAwY0YzbUN2ZGtYeThOMjNiX1FKazZiMDdtMzJrSUZ5aURQTWtxcWNEdHh6R1Z0b1FMWXllY2pja090S0ZNY2ZYMVZ6bHZnbnoxTi1zMTdzR2xsSDFFenZpdmlDcHpCZTZKcVhGYzFHQS1nMnlHTWxfNzVFajdJSVNZZ2RDVnRZNXc0d1Mxa0JySHYwSExaSFM2SEdqbHJ3QXdPbVlyaUZnT2YteTd2U1lvR05QRkVrSHNPLVBaUnJn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-16",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Economist",
+   "lean": "unrated",
+   "title": "US House of Representatives 2026 forecast",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRUVXa291eEFCRVRTdllBZnRYb2tmN2lBeGphUmU5aHlZdkN6WUlwcDQ0SFlTa0lMMi1vZVhZUWVGWW83c18xSzdtMEQ2alYzZWFqem1XVHA3S1cxWW1MYzBqSzduazdIMUkwdjUxQ0lrTkdqQkRWYXltcms1U2ViSmt3aw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -19212,12 +19108,12 @@
    "races": [
     "National"
    ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Ukraine resumed strikes on Russian refineries after a dayslong truce, Trump canceled plans to livestream the firing squad execution of the Fort Hood shooter and the FBI is investigating suspicious mailings sent to elections offices across the country. Read more in today’s What’s News newsletter:",
-   "url": "https://www.wsj.com/politics/policy/ukraine-resumes-strikes-on-russian-refineries-516c0072?mod=rss_socialpoliticsfeed",
-   "summary": "Plus, Trump canceled plans to livestream the execution of the Fort Hood shooter, and the FBI is investigating suspicious mailings sent to elections offices.",
+   "type": "podcast",
+   "source": "The NPR Politics Podcast",
+   "lean": "center-left",
+   "title": "They voted for Trump in 2024. Now, they regret it.",
+   "url": "https://www.npr.org/2026/10/15/nx-s1-6003521/they-voted-for-trump-in-2024-now-they-regret-it",
+   "summary": "As part of our monthly series of focus groups with swing voters, we head to Georgia, where many voters say they regret giving Trump a second run at the White House in 2024. That regret also threatens Republicans running in local and statewide races, they say. What's behind their change of heart? Thi",
    "relevant": true
   },
   {
@@ -19226,68 +19122,12 @@
    "races": [
     "National"
    ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The FBI said it is investigating suspicious mailings—some containing an “unknown substance”—sent to election offices across the country, just weeks before midterm elections.",
-   "url": "https://www.wsj.com/politics/policy/fbi-investigates-mailings-with-unknown-substance-sent-to-election-offices-48c41a05?mod=rss_socialpoliticsfeed",
-   "summary": "The letters appear to have been sent to state election offices and related locations, the bureau said.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The Justice Department sued California to try to block the state from counting mail-in ballots it receives from 20,000 people the Trump administration says may not be U.S. citizens",
-   "url": "https://www.wsj.com/politics/elections/doj-sues-california-to-block-ballots-from-20-000-voters-00d1e6f1?mod=rss_socialpoliticsfeed",
-   "summary": "The lawsuit, which comes as the administration aims to expand federal control over elections, says it has determined the voters it identified may not be citizens.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The balance of power in the Senate is on the line in the 2026 elections. Our tracker digs into the most competitive and emerging Senate battlegrounds",
-   "url": "https://www.wsj.com/politics/elections/senate-seats-2026-midterm-election-tracker-04778377?mod=rss_socialpoliticsfeed",
-   "summary": "Our tracker digs into this cycle’s most competitive and emerging Senate battlegrounds.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Florida’s Democratic Senate nominee Angie Nixon gets more love on TikTok than big-name Democrats, and Senate Democratic leader Chuck Schumer gets more grief, a WSJ analysis found",
-   "url": "https://www.wsj.com/politics/elections/the-internets-favorite-democrat-is-a-far-left-long-shot-from-florida-6752e357?mod=rss_socialpoliticsfeed",
-   "summary": "Angie Nixon drew the warmest reception of Democrats on TikTok and political podcasts, and Chuck Schumer got the coldest, a WSJ analysis found.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-15",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "National Review",
-   "lean": "right",
-   "title": "Beware the Post-Midterm Price Control Creep",
-   "url": "https://www.nationalreview.com/2026/10/beware-the-post-midterm-price-control-creep/",
-   "summary": "Democrats may find a receptive audience in an administration that has already demonstrated an appetite for manipulating market forces for medicine.",
+   "type": "podcast",
+   "source": "GD Politics (Galen Druke)",
+   "lean": "center",
+   "title": "Inside The Fight For The House",
+   "url": "https://www.gdpolitics.com/p/inside-the-fight-for-the-house",
+   "summary": "This is a free preview of a paid episode. To hear more, visit www.gdpolitics.com Heads up: The GD POLITICS merch store is back for election season! We’ve got super comfy “Good Data, Bad Data, Not Data” T-shirts, baseball caps, and totes. Paid subscribers can find a discount code in the paid-subscrib",
    "relevant": true
   }
  ],
@@ -19298,14 +19138,14 @@
   "failed_sources": []
  },
  "brief": {
-  "date": "2026-10-18",
-  "title": "Midterm brief: Sunday, October 18",
-  "markdown": "# Midterm brief: Sunday, October 18\n\n## Bottom line\nForecasters rate the House as leaning Democratic; all 10 House forecasters have more seats rated for Democrats, from Inside Elections' 212 D / 205 R to FiftyPlusOne's and Silver Bulletin's 230 / 196 ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 46 D and 44 R seats are solid or likely, with 10 competitive ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 90.5% for the House and 64.5% for the Senate ([Polymarket House](https://polymarket.com/event/which-party-will-win-the-house-in-2026), [Senate](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), as of Oct 18.\n\n## What moved\n- **Forecaster updates (Oct 17):** 18 rating changes from DDHQ, FiftyPlusOne, Split Ticket and RealClearPolling; 17 moved toward Democrats, and only WA-05 moved the other way, from Likely R to Solid R at DDHQ ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)).\n- **ME-02:** DDHQ moved it from Lean R to Tossup, which moved the consensus to Tossup.\n- **Toward Tossup:** KY-06 moved from Lean R to Tossup at both Split Ticket and FiftyPlusOne; FL-22 moved at Split Ticket; MO-02 moved at RCP; AL-02 and MN-01 moved at FiftyPlusOne.\n- **Senate:** FiftyPlusOne moved South Dakota from Solid R to Likely R ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)).\n\n## Races to watch today\n- **Kansas Senate (Tossup):** The WSJ reports that Marshall is now in a tossup race in a state Trump won by 16 points ([WSJ](https://www.wsj.com/politics/elections/kansas-senate-election-trump-roger-marshall-d17319e5?mod=rss_socialpoliticsfeed)). Average: D+0.5.\n- **Ohio Senate special (Tossup):** Trump rallied for Husted against Brown ([ABC News via Google News](https://news.google.com/rss/articles/CBMingFBVV95cUxPUVpOYVNRSDB1YnhBZy1VU3p0Z0VJYU5GNXhFU1pHNE9PSlpaNktKaXFubDhPMUtZY1BDcXAxVzhOb2xGcFVEOWF2WHZXbzdSUjFSUUVNVmdDNC1PakxhVTEwalZXUE0xanJWV2tQc1hZMi1FVjlPa0tRbEZ3NWF4MVBOVFBONUo0YUdhNjRFck9sU1NzTjAxNWpMVUlod9IBowFBVV95cUxQbVp0S25IUG42S0ZqOFl2VENqRjlBR1RCREpQbFZkTEkwTWYzdXQtVWp6MWY0QzFrcnVGb2xHdUFVeUhrQzZ6endWVC1aOWgxNDgwLWFnYTZWMExPMXEtc1NSMm5kU0ljQVkybjhselJ6MWVRTGFabnBWcUF3Nnpnd2liQmFhOXpVeDZkU3FsMlNYblFobU0xaXRHVi0tZXpaaHJv?oc=5)). Average: D+2.9.\n- **Maine Senate (Tossup):** Collins called Jackson's \"oh, shut up\" remark in their debate very telling ([NYT](https://www.nytimes.com/2026/10/17/us/politics/susan-collins-troy-jackson-shut-up-debate.html)). Average: D+2.6.\n- **Minnesota Senate (Lean D):** NPR reports that fraud, affordability and Trump policies drove friction in the debate ([NPR](https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race)). Average: D+4.3, trending toward Republicans.\n\n## Early vote\nThese are ballots by party registration, not votes, and mail ballots have leaned Democratic since 2020.\n- **North Carolina:** Through Oct 16, 437,217 ballots were cast, 134% of the 2022 total at the same point (326,248) ([NCSBE](https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-17%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf)). By Oct 17 the total reached 501,318, at D 45.4% / R 20.1% / other 34.6% against an even registration split ([NCSBE data file](https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/)).\n- **Large states (Oct 16–17):** California has 1,313,465 mail ballots at D 43.7% / R 27.0%; Florida has 833,488 at D 42.5% / R 36.4%, against registration of D 30.1% / R 41.5%; Pennsylvania has 456,065 at D 68.7% / R 22.8% ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/), from secretary of state data).\n- **Senate battlegrounds:** Maine has 101,403 ballots at D 53.2% / R 19.4%; Nebraska 77,291 at D 44.8% / R 38.3%; Arizona 283,356 at D 40.1% / R 37.6%, via a private compiler ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/)).\n\n## What the spectrum is saying\n- **Left:** Pod Save America's new episode asks whether Republicans have already blown the midterms; the feed gives only the title ([Pod Save America](https://audioboom.com/posts/8965958)).\n- **Center:** Silver Bulletin lays out good, bad and ugly Senate outcomes ([Silver Bulletin](https://www.natesilver.net/p/the-good-bad-and-ugly-outcomes-in)).\n- **Center-right:** The WSJ reports that Republicans in competitive races have settled on a closing pitch that Democrats are too extreme ([WSJ](https://www.wsj.com/politics/elections/republican-midterm-election-strategy-culture-war-8a128efa?mod=rss_socialpoliticsfeed)).\n- **Right:** National Review calls for Congress to investigate Trump's aid to Putin ([National Review](https://www.nationalreview.com/2026/10/congress-must-investigate-trumps-aid-and-comfort-to-putin/)). This is opinion, not reporting.\n\n## Talking points\n- The generic ballot averages D+6.3 across 3 polls; Pew has D+8, ending Oct 4 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)). A new ABC/Post/Ipsos poll shows Democrats leading House vote choice and Trump's approval at a record low ([ABC News via Google News](https://news.google.com/rss/articles/CBMirAFBVV95cUxNbVQ4WHhoaXRBWDZvaHJwc2JQQzJudWdjZFc0MG5NSzVyaU51c0RpOFRKRXpXN3Y1VjQ4T3ZTT3JRM0ZiWWRPVGRjdW9VSDZRSEZZZFpab3dvQnJJR3pidHVFYjdQazZ3RTJMX2RlZjdUWXdCWXQ4YnVVeGtWRk5vbWQ3UUwwX3ZTaS1zbFU4cWwyM20td3BwM2VxcDNRSlVpV2g4REp4aW4zMlR5?oc=5)); it is not yet in the averages.\n\n## Coverage note\nAll 24 sources reported, and early vote covered 23 states. Kalshi had no priced markets. FL-22, SC-01 and TX-35 candidate parties remain unresolved; today's headlines do not name the parties.\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
-  "published_at": "2026-10-18T10:10:34.212761+00:00",
+  "date": "2026-10-19",
+  "title": "Midterm brief: Monday, October 19",
+  "markdown": "# Midterm brief: Monday, October 19\n\n## Bottom line\nForecasters rate the House as leaning Democratic; all 10 House forecasters have more seats rated for Democrats, from Inside Elections' 212 D / 205 R to FiftyPlusOne's and Silver Bulletin's 230 / 196 ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 46 D and 44 R seats are solid or likely, with 10 competitive ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 90.5% for the House and 64.5% for the Senate ([Polymarket House](https://polymarket.com/event/which-party-will-win-the-house-in-2026), [Senate](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), as of Oct 19.\n\n## What moved\n- **North Carolina Senate:** Split Ticket moved it from Solid D to Likely D, as of Oct 18 ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). This is the only change since yesterday, and it does not change the consensus or put the race in the tracked band.\n\n## Races to watch today\n- **Texas Senate (Tossup):** The early voting period begins today ([NYT](https://www.nytimes.com/2026/10/19/us/politics/texas-early-voting-midterm-elections.html)). Average: D+1.5.\n- **Ohio Senate special (Tossup):** The NYT reports Ohio Republicans are worried about turnout and describes their response ([NYT](https://www.nytimes.com/2026/10/19/us/politics/republicans-ohio-turnout-election.html)). Average: D+2.9.\n- **Kansas Senate (Tossup):** The Topeka Capital-Journal reports that Hamilton outraised Marshall ([Topeka Capital-Journal via Google News](https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ1g0dHpoVkZSZXdhd1ZabzVqdWRXVFlaWXVSc3BSNHhPLUVnMEdIV1NzamYyQ29wcTRaOGJsWE90YS01SjFnTVQ3a24yMkdoenVtUlhDNzNZcXhkNHJWVS10blpZcmppcVo4YmhuaTZrR1dXbGN1RzNZaERfZGQ1Xy0zWHZ0MmMxakZvOHNJRmt2MGtGMFpCNmtTYlFpOUFYWWd0Wkx0RndqWTZwMFU3M3JIODFkS3I2MXF2UXlWYjlvMHJRaFRtUkdmdWhCWkxzMkRnSk9QVUNLZw?oc=5)). Average: D+0.5.\n- **Senate money:** The NYT reports that Republicans' large spending edge is concentrated in Senate races rather than House races ([NYT](https://www.nytimes.com/2026/10/19/us/politics/midterms-republican-spending-edge.html)).\n\n## Early vote\nThese are ballots by party registration, not votes, and mail ballots have leaned Democratic since 2020.\n- **North Carolina:** Through Oct 17, 501,321 ballots were cast, 138% of the 2022 total at the same point (362,643) ([NCSBE](https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-18%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf)). By Oct 18 the total reached 525,967, at D 45.7% / R 19.6% / other 34.8% against an even registration split ([NCSBE data file](https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/)).\n- **Large states:** California has 1,391,278 mail ballots at D 41.8% / R 26.1% (Oct 18); Florida 833,489 at D 42.5% / R 36.4% (Oct 18), against registration of D 30.1% / R 41.5%; Pennsylvania 456,065 at D 68.7% / R 22.8% (Oct 16) ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/), from secretary of state data).\n- **Senate battlegrounds:** Arizona has 318,750 at D 40.2% / R 37.6% (Oct 18, via a private compiler). Maine (101,403, D 53.2% / R 19.4%) and Nebraska (77,291, D 44.8% / R 38.3%) have not updated since Oct 16 ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/)).\n\n## What the spectrum is saying\n- **Left:** No new left-leaning episode today; Pod Save America's latest asks whether Republicans have already blown the midterms ([Pod Save America](https://audioboom.com/posts/8965958)).\n- **Center-left:** The NYT's Upshot asks whether polls showing Democrats ahead are right this time ([NYT](https://www.nytimes.com/2026/10/19/upshot/polling-midterm-elections-senate.html)).\n- **Center-right:** The WSJ reports that Trump's diesel deal with Russia and sanctions waiver have become a headache for Republican candidates ([WSJ](https://www.wsj.com/politics/policy/trumps-overtures-to-putin-put-republican-candidates-in-hot-seat-3ac6ffc8?mod=rss_socialpoliticsfeed)).\n- **Right:** National Review criticizes Andy Beshear's use of faith in his messaging ([National Review](https://www.nationalreview.com/2026/10/andy-beshears-perilous-invocation-of-faith/)). This is opinion, not reporting.\n\n## Talking points\n- The generic ballot averages D+6.3 across 3 polls; Pew has D+8, ending Oct 4 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n\n## Coverage note\nAll 24 sources reported, and early vote covered 24 states; Maine, Nebraska and Pennsylvania figures are from Oct 16. Kalshi had no priced markets. FL-22, SC-01 and TX-35 candidate parties remain unresolved.\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
+  "published_at": "2026-10-19T10:10:59.753460+00:00",
   "checks": []
  },
  "_previous_snapshot": {
-  "run_date": "2026-10-17",
+  "run_date": "2026-10-18",
   "national": {
    "generic_ballot": {
     "average_margin": -6.3,
@@ -19375,17 +19215,17 @@
    "markets": {
     "senate": {
      "D": 64.5,
-     "R": 36.5,
+     "R": 37.5,
      "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
      "source": "Polymarket",
-     "volume": 6954590.1462119995
+     "volume": 7094454.609592
     },
     "house": {
      "D": 90.5,
      "R": 9.5,
      "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
      "source": "Polymarket",
-     "volume": 18205524.775597002
+     "volume": 18356500.375644002
     },
     "balance": {
      "combos": {
@@ -19397,7 +19237,7 @@
      },
      "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
      "source": "Polymarket",
-     "volume": 24444902.097782
+     "volume": 24803816.224472
     },
     "kalshi": []
    }
@@ -19429,7 +19269,7 @@
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19497,7 +19337,7 @@
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19592,7 +19432,7 @@
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19693,7 +19533,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19761,7 +19601,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19829,7 +19669,7 @@
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -19926,7 +19766,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20021,7 +19861,7 @@
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20120,7 +19960,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20188,7 +20028,7 @@
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20283,7 +20123,7 @@
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20378,7 +20218,7 @@
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20446,7 +20286,7 @@
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20514,7 +20354,7 @@
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20609,7 +20449,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20677,7 +20517,7 @@
      "fpo": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20774,7 +20614,7 @@
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20881,7 +20721,7 @@
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -20976,7 +20816,7 @@
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21044,7 +20884,7 @@
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21139,7 +20979,7 @@
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21234,7 +21074,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21302,7 +21142,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21399,7 +21239,7 @@
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21467,7 +21307,7 @@
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21570,7 +21410,7 @@
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21638,7 +21478,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21706,7 +21546,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21805,7 +21645,7 @@
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21906,9 +21746,9 @@
       "name": "The Economist"
      },
      "fpo": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -21976,7 +21816,7 @@
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22073,7 +21913,7 @@
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22168,7 +22008,7 @@
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22236,7 +22076,7 @@
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22304,7 +22144,7 @@
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-15",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22378,19 +22218,19 @@
      "st": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
-      "rating": "Lean R",
-      "flip": true,
-      "as_of": "2026-10-14",
+      "rating": "Tossup",
+      "flip": false,
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22408,7 +22248,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -22446,19 +22286,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22476,7 +22316,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -22514,19 +22354,19 @@
      "st": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22544,7 +22384,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -22609,19 +22449,19 @@
      "st": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22639,7 +22479,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -22677,19 +22517,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22707,7 +22547,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -22745,19 +22585,19 @@
      "st": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22775,7 +22615,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -22813,19 +22653,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22843,7 +22683,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -22881,19 +22721,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -22911,7 +22751,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -22978,19 +22818,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23008,7 +22848,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23046,19 +22886,19 @@
      "st": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23076,7 +22916,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23143,19 +22983,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23173,7 +23013,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23211,19 +23051,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23241,7 +23081,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23279,19 +23119,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23309,7 +23149,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23376,19 +23216,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23406,7 +23246,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23444,19 +23284,19 @@
      "st": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23474,7 +23314,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23542,19 +23382,19 @@
      "st": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23572,7 +23412,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23610,19 +23450,19 @@
      "st": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23640,7 +23480,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23711,19 +23551,19 @@
      "st": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
-      "rating": "Tossup",
-      "flip": false,
-      "as_of": "2026-10-14",
+      "rating": "Lean D",
+      "flip": true,
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23741,7 +23581,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23779,19 +23619,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23809,7 +23649,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23847,19 +23687,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23877,7 +23717,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23915,19 +23755,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -23945,7 +23785,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -23983,19 +23823,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24013,7 +23853,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24051,19 +23891,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24081,7 +23921,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24119,19 +23959,19 @@
      "st": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24149,7 +23989,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24187,19 +24027,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24217,7 +24057,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24255,19 +24095,19 @@
      "st": {
       "rating": "Lean R",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24285,7 +24125,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24323,19 +24163,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24353,7 +24193,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24391,19 +24231,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24421,7 +24261,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24459,19 +24299,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24489,7 +24329,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24560,19 +24400,19 @@
      "st": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24590,7 +24430,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24628,19 +24468,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24658,7 +24498,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24696,19 +24536,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24726,7 +24566,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24764,19 +24604,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24794,7 +24634,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24832,19 +24672,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24862,7 +24702,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24898,21 +24738,21 @@
       "name": "The Economist"
      },
      "st": {
-      "rating": "Lean R",
-      "flip": true,
-      "as_of": "2026-10-08",
+      "rating": "Tossup",
+      "flip": false,
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24930,7 +24770,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -24968,19 +24808,19 @@
      "st": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -24998,7 +24838,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25036,19 +24876,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25066,7 +24906,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25104,19 +24944,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25134,7 +24974,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25201,19 +25041,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25231,7 +25071,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25269,19 +25109,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25299,7 +25139,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25337,19 +25177,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25367,7 +25207,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25405,19 +25245,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25435,7 +25275,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25473,19 +25313,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25503,7 +25343,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25541,19 +25381,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25571,7 +25411,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25609,19 +25449,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25639,7 +25479,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25677,19 +25517,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25707,7 +25547,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25745,19 +25585,19 @@
      "st": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25775,7 +25615,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25846,19 +25686,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25876,7 +25716,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -25943,19 +25783,19 @@
      "st": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -25973,7 +25813,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26011,19 +25851,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26041,7 +25881,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26079,19 +25919,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26109,7 +25949,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26145,21 +25985,21 @@
       "name": "The Economist"
      },
      "st": {
-      "rating": "Lean R",
+      "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
-      "rating": "Lean R",
+      "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26177,7 +26017,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26214,8 +26054,8 @@
    },
    {
     "key": "HOU-ME-02",
-    "consensus": "Lean R",
-    "consensus_score": 2,
+    "consensus": "Tossup",
+    "consensus_score": 0,
     "ratings": {
      "cook": {
       "rating": "Lean R",
@@ -26244,19 +26084,19 @@
      "st": {
       "rating": "Lean R",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
-      "rating": "Lean R",
-      "flip": true,
-      "as_of": "2026-10-14",
+      "rating": "Tossup",
+      "flip": false,
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26274,7 +26114,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26312,19 +26152,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26342,7 +26182,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26380,19 +26220,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26410,7 +26250,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26448,19 +26288,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26478,7 +26318,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26516,19 +26356,19 @@
      "st": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26546,7 +26386,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26584,19 +26424,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
-      "rating": "Lean D",
+      "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26614,7 +26454,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26681,19 +26521,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26711,7 +26551,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26749,19 +26589,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26779,7 +26619,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26846,19 +26686,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
-      "rating": "Lean R",
+      "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26876,7 +26716,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -26943,19 +26783,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -26973,7 +26813,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27011,19 +26851,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27041,7 +26881,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27079,19 +26919,19 @@
      "st": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27107,9 +26947,9 @@
       "name": "Silver Bulletin"
      },
      "rcp": {
-      "rating": "Lean R",
+      "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27174,19 +27014,19 @@
      "st": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27204,7 +27044,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27275,19 +27115,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27305,7 +27145,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27372,19 +27212,19 @@
      "st": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27402,7 +27242,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27440,19 +27280,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27470,7 +27310,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27508,19 +27348,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27538,7 +27378,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27576,19 +27416,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27606,7 +27446,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27644,19 +27484,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27674,7 +27514,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27712,19 +27552,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27742,7 +27582,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27780,19 +27620,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27810,7 +27650,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27879,19 +27719,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27909,7 +27749,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -27947,19 +27787,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -27977,7 +27817,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28015,19 +27855,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28045,7 +27885,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28083,19 +27923,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28113,7 +27953,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28180,19 +28020,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28210,7 +28050,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28248,19 +28088,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28278,7 +28118,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28316,19 +28156,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28346,7 +28186,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28384,19 +28224,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28414,7 +28254,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28452,19 +28292,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28482,7 +28322,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28549,19 +28389,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28579,7 +28419,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28615,21 +28455,21 @@
       "name": "The Economist"
      },
      "st": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28647,7 +28487,75 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
+      "as_of": "2026-10-17",
+      "name": "RealClearPolling"
+     }
+    },
+    "poll": null
+   },
+   {
+    "key": "HOU-NY-23",
+    "consensus": "Solid R",
+    "consensus_score": 4,
+    "ratings": {
+     "cook": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-16",
+      "name": "Cook Political Report"
+     },
+     "ie": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-15",
+      "name": "Inside Elections"
+     },
+     "sabato": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-08",
+      "name": "Sabato's Crystal Ball"
+     },
+     "econ": {
+      "rating": "Solid R",
+      "flip": false,
       "as_of": "2026-10-07",
+      "name": "The Economist"
+     },
+     "st": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-17",
+      "name": "Split Ticket"
+     },
+     "ddhq": {
+      "rating": "Likely R",
+      "flip": false,
+      "as_of": "2026-10-17",
+      "name": "Decision Desk HQ"
+     },
+     "fpo": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-17",
+      "name": "FiftyPlusOne"
+     },
+     "fox": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-13",
+      "name": "Fox News Power Rankings"
+     },
+     "silver": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-09-10",
+      "name": "Silver Bulletin"
+     },
+     "rcp": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28685,19 +28593,19 @@
      "st": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28715,7 +28623,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28780,19 +28688,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28810,7 +28718,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28848,19 +28756,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28878,7 +28786,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28916,19 +28824,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -28946,7 +28854,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -28984,19 +28892,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29014,7 +28922,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29052,19 +28960,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29082,7 +28990,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29120,19 +29028,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29150,7 +29058,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29188,19 +29096,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29218,7 +29126,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29256,19 +29164,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29286,7 +29194,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29324,19 +29232,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29354,7 +29262,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29392,19 +29300,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29422,7 +29330,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29460,19 +29368,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29490,7 +29398,7 @@
      "rcp": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29555,19 +29463,19 @@
      "st": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29585,7 +29493,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29653,19 +29561,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29683,7 +29591,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29721,19 +29629,19 @@
      "st": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29751,7 +29659,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29816,19 +29724,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29846,7 +29754,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29884,19 +29792,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29914,7 +29822,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -29952,19 +29860,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -29982,7 +29890,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30049,19 +29957,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
-      "rating": "Solid R",
+      "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30079,7 +29987,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30117,19 +30025,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30147,7 +30055,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30185,19 +30093,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30215,7 +30123,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30253,19 +30161,19 @@
      "st": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30283,7 +30191,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30350,19 +30258,19 @@
      "st": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
-      "rating": "Lean D",
+      "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30380,7 +30288,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30445,19 +30353,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30475,7 +30383,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30542,19 +30450,19 @@
      "st": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30572,7 +30480,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30610,19 +30518,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30640,7 +30548,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30678,19 +30586,19 @@
      "st": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30708,7 +30616,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30746,19 +30654,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30776,7 +30684,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30814,19 +30722,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30844,7 +30752,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30882,19 +30790,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30912,7 +30820,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -30950,19 +30858,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -30980,7 +30888,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31018,19 +30926,19 @@
      "st": {
       "rating": "Solid R",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31048,7 +30956,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31086,19 +30994,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31116,7 +31024,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31154,19 +31062,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31184,7 +31092,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31222,19 +31130,19 @@
      "st": {
       "rating": "Solid R",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31252,7 +31160,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31290,19 +31198,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31320,7 +31228,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31358,19 +31266,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31388,7 +31296,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31455,19 +31363,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31485,7 +31393,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31523,19 +31431,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31553,7 +31461,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31591,19 +31499,19 @@
      "st": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31621,7 +31529,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31659,19 +31567,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31689,7 +31597,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31727,19 +31635,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31757,7 +31665,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31795,19 +31703,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31825,7 +31733,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31863,6 +31771,74 @@
     }
    },
    {
+    "key": "HOU-TX-31",
+    "consensus": "Solid R",
+    "consensus_score": 4,
+    "ratings": {
+     "cook": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-16",
+      "name": "Cook Political Report"
+     },
+     "ie": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-15",
+      "name": "Inside Elections"
+     },
+     "sabato": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-08",
+      "name": "Sabato's Crystal Ball"
+     },
+     "econ": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-07",
+      "name": "The Economist"
+     },
+     "st": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-17",
+      "name": "Split Ticket"
+     },
+     "ddhq": {
+      "rating": "Likely R",
+      "flip": false,
+      "as_of": "2026-10-17",
+      "name": "Decision Desk HQ"
+     },
+     "fpo": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-17",
+      "name": "FiftyPlusOne"
+     },
+     "fox": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-13",
+      "name": "Fox News Power Rankings"
+     },
+     "silver": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-09-10",
+      "name": "Silver Bulletin"
+     },
+     "rcp": {
+      "rating": "Solid R",
+      "flip": false,
+      "as_of": "2026-10-17",
+      "name": "RealClearPolling"
+     }
+    },
+    "poll": null
+   },
+   {
     "key": "HOU-TX-32",
     "consensus": "Likely R",
     "consensus_score": 3,
@@ -31894,19 +31870,19 @@
      "st": {
       "rating": "Solid R",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31924,7 +31900,7 @@
      "rcp": {
       "rating": "Likely R",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -31962,19 +31938,19 @@
      "st": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -31992,7 +31968,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32065,19 +32041,19 @@
      "st": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32095,7 +32071,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32133,19 +32109,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32163,7 +32139,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32201,19 +32177,19 @@
      "st": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32231,7 +32207,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32296,19 +32272,19 @@
      "st": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32326,7 +32302,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32393,19 +32369,19 @@
      "st": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
-      "rating": "Likely R",
+      "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32423,7 +32399,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32488,19 +32464,19 @@
      "st": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32518,7 +32494,7 @@
      "rcp": {
       "rating": "Solid D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32556,19 +32532,19 @@
      "st": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32586,7 +32562,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32653,19 +32629,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32683,7 +32659,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32721,19 +32697,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
-      "rating": "Likely R",
+      "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32751,7 +32727,7 @@
      "rcp": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32789,19 +32765,19 @@
      "st": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Lean R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32819,7 +32795,7 @@
      "rcp": {
       "rating": "Tossup",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32886,19 +32862,19 @@
      "st": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely D",
       "flip": true,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -32916,7 +32892,7 @@
      "rcp": {
       "rating": "Lean D",
       "flip": true,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -32983,19 +32959,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -33013,7 +32989,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -33051,19 +33027,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -33081,7 +33057,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -33119,19 +33095,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Likely R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -33149,7 +33125,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },
@@ -33187,19 +33163,19 @@
      "st": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-08",
+      "as_of": "2026-10-17",
       "name": "Split Ticket"
      },
      "ddhq": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "Decision Desk HQ"
      },
      "fpo": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-14",
+      "as_of": "2026-10-17",
       "name": "FiftyPlusOne"
      },
      "fox": {
@@ -33217,7 +33193,7 @@
      "rcp": {
       "rating": "Solid R",
       "flip": false,
-      "as_of": "2026-10-07",
+      "as_of": "2026-10-17",
       "name": "RealClearPolling"
      }
     },

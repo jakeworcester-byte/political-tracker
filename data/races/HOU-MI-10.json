@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-18",
+   "race": "HOU-MI-10",
+   "races": [
+    "HOU-MI-10"
+   ],
+   "type": "reporting",
+   "source": "Michigan Advance",
+   "lean": "unrated",
+   "title": "Jeffries joins Hines for roundtable on community concerns in Michigan’s 10th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYnh4UWRpWDNVdlFJaWlBR0ZtVlVKTzVDQUZ3UnZSb3NnUE5ISFBEMWRKVzdZbV91UThkWDNWM2RwMGFBRXlJUVlLUmRVQmRLSE95U3NsZ1V1T2oxQ3V0aEdsa1NGNEZ2ckdOTWdoNlJpczFGQXcyZzNWY3VTUkpVMVA0TkZNX0ZrYlpWWVhTdFV4Nk01RTlURE5MQ09qaWZTejJacUZrcV9Kb2Y1QkNxRy1oYldmWHg2WDlyaWRmLWxqUXRkNW5RWWJRMWtQTmVhTkNncw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-10",
  "history": [
   {
@@ -182,6 +198,11 @@
   },
   {
    "date": "2026-10-18",
+   "c": 0,
+   "p": 0.0
+  },
+  {
+   "date": "2026-10-19",
    "c": 0,
    "p": 0.0
   }
