@@ -59,7 +59,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-18",
    "name": "Split Ticket"
   }
  },
@@ -188,6 +188,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-19",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The Topeka Capital-Journal",
+   "lean": "unrated",
+   "title": "Adam Hamilton outraises Roger Marshall in Senate race in Kansas - The Topeka Capital-Journal",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ1g0dHpoVkZSZXdhd1ZabzVqdWRXVFlaWXVSc3BSNHhPLUVnMEdIV1NzamYyQ29wcTRaOGJsWE90YS01SjFnTVQ3a24yMkdoenVtUlhDNzNZcXhkNHJWVS10blpZcmppcVo4YmhuaTZrR1dXbGN1RzNZaERfZGQ1Xy0zWHZ0MmMxakZvOHNJRmt2MGtGMFpCNmtTYlFpOUFYWWd0Wkx0RndqWTZwMFU3M3JIODFkS3I2MXF2UXlWYjlvMHJRaFRtUkdmdWhCWkxzMkRnSk9QVUNLZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-17",
    "race": "SEN-KS",
    "races": [
@@ -301,6 +316,11 @@
   },
   {
    "date": "2026-10-18",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-19",
    "c": 0,
    "p": -0.5
   }
