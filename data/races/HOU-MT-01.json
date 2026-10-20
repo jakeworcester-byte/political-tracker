@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -150,23 +150,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Toward D",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-MT-01",
-   "races": [
-    "HOU-MT-01"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Montana 1st Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOUZ5NE55WHJackNPakZZbm5GS2ZpMWpQMHlhbVE0YkE5akVqU1hpNFNHMVVDMlBVbWREY2RoRjVFV2dxdDhUQm1Kd2VrQVhXSEhzNUtEc21VOTRyYmQyUml2U1VZZ2ZKUW9HcVB3ci1Ya3V3N1RITGk4WnlDUkdXMDVR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
   {
@@ -211,6 +195,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 0,
+   "p": 0.5
+  },
+  {
+   "date": "2026-10-20",
    "c": 0,
    "p": 0.5
   }

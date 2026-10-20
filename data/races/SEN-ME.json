@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-19",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -37,6 +37,12 @@
    "flip": false,
    "as_of": "2026-10-15",
    "name": "Inside Elections"
+  },
+  "nbc": {
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-19",
+   "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
@@ -53,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-19",
    "name": "Split Ticket"
   }
  },
@@ -80,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 4,
+ "flip_votes": 5,
  "candidates": {
   "D": [
    "Troy Jackson"
@@ -351,6 +357,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-19",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "A blue-collar bellwether weighs ousting longtime GOP Sen. Susan Collins in Maine",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdXQzTFl0TFZ1UHVGYXZtNEZBVkVkaERMR1VGQTFiZVZaVmd4SjJJNm52aXVESGxOWXh1Rk9KNUs4RzBMSDBGdmZiRUhCVHBQV01wRG5XU1V1MXhCWVc2QnBKQXpiSm9XaE5wRERuNGtmS1J4cmdKR25lb2NqY0pJdzloUThxc3BrVURPb3c1MnhVb2h5UHI3RHRFbE1tdFhjMW85dkxnQUFTQjlwczE2UU4yeGhsSGJkSllwUTh5NzRxd2tWamVV?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-18",
    "race": "SEN-ME",
    "races": [
@@ -387,10 +408,10 @@
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "Spectrum News",
+   "source": "Kalshi News",
    "lean": "unrated",
-   "title": "Maine Senate foes spar in final debate; Vance, Ocasio-Cortez rally in Michigan",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ1dkaDEzVENoWWFzUHBwTTVFN29CLXF6Rm5KTlJrZWR4M0toWjlLYkZGUldnREEyeHNZVnBpNV9LU0xPRlJoSklGZmcyX0E4aURselkyS3paYlQyWHhDc3RDRzVrRnhWa0hlbTRNaTRGdU9ORC0wcDdYZnEwUUdhdTJJU2hJN0MtZkN0TnBTSVZFdzMxc1lJNGtjZmlobTU5a2ZleTM0TGh4ekZRMkdEX2tPakM4c0NQY2NoSUNWMmhzWDFPZHIwczI4MA?oc=5",
+   "title": "Maine Senate Race Odds and Predictions 2026",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jd2FSbVlrN0pRODdPRTI4Umdpam56eHhEMnBDQ3NoXy03M2dndS1nU29PNEpmMmFiQWJfOWVfN3RMYXUydFdQQUEtS1c5OEs5cjhWZDY2V2JUWndz?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -440,6 +461,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 0,
+   "p": -2.6
+  },
+  {
+   "date": "2026-10-20",
    "c": 0,
    "p": -2.6
   }

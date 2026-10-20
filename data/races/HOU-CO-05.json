@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-CO-05",
-   "races": [
-    "HOU-CO-05"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Colorado 5th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYjFDMW5zbHVRZ0o2ajZKSFJPSkxCQ3B4Mm5YdTdnSkNMeGd4eklaSVVTX0czalFFVDB2YzdQVUVJRzlnWFZNc0xXeFB3TENSZHRjTVk3a0xONkVxMWFvUG9nWVVvc3hlNGVEZ3ZvSXFoMWFOeUM3UWQ4eDNUNm9KNHdnSQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-05",
  "history": [
   {
@@ -149,6 +133,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-20",
    "c": 2,
    "p": null
   }

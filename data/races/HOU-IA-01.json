@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -152,6 +152,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-20",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "Heartland Signal",
+   "lean": "unrated",
+   "title": "Iowa’s Miller-Meeks seeks reelection in a district where she neither lives nor votes",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaE0wejNQaTRLcFVQTjA0NUh0RUU5WWF6Ymo5VnNsTTA5YmNsU1pQd0hGZGhzQmJzakdIY3QwdS1TX0IzQklDbnJuZXFkU1dvWFBLRmdjYXdYUGpweXB1UjJZTFAydGxHTEZEVUtWLVlBdnB3YjRSdUhZTVB6VDZ4QnQxZEhBM0doaVg5T2FNNDNUWUdZVDM4NjN3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-16",
    "race": "HOU-IA-01",
    "races": [
@@ -177,36 +192,6 @@
    "lean": "unrated",
    "title": "Miller-Meeks, Bohannan Congress rematch unfolds amid rocky Iowa economy",
    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNOHo3c1BuX2JIc0ozR2V1M2pFUTEyQ3FTOGdfS2lQUkM1QUwtcUFZeUVQbzFwTUxJZ3JiZHg5NWxzSXpZcnVQOE1mTUhXR2s3RFFrZGphb2Y0S0hBX3I3QlFRR29JR1BxYWRzT2MwMDUxUGdkWHA4TGxMWkdIcEVsYUlwQV9fZ21kNmdCUHUxMjAxMlpOSkFBajdWeGlqdUtKLXd3a1ZueHl4ZlpIU0pHaUJIMW8zT1FWYm9MV1Z5R2twcjhpRkNnNllRUFZ2bGJfWjF5TkZQTXpxY2NHR3BxcmxUSGpleEVuZnhBS2hLVDRnTmotTkVlQ2ZISXBKNlUt?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "HOU-IA-01",
-   "races": [
-    "HOU-IA-01"
-   ],
-   "type": "reporting",
-   "source": "WQAD",
-   "lean": "unrated",
-   "title": "Iowa's 1st Congressional District faces another tight race",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQXy02WWFNbzdWbmJzM1hTcjJzZUE5VGhrZEtWemg1ZFJESUxucl9TczYzaXcyYjVYZlowUWxka2hFOFE4S0s1cWVYWE9oN0dDdXhGM1JTNFJpY19kV3ZnUDVOUzVFMTVmT2tjV19VVHYtOWJtVXNnbm5qYUFLVWVmSHl4cWxjRTQ1WThCTFNJMkJhdEhTLW5lQWNnRldEVDJLVl92emZHbXAxQThpR0xaVHp6TkNZc2lxNW80bjJlUzU2T2VnSHE4M2VyazZ2aEg1N2c?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "HOU-IA-01",
-   "races": [
-    "HOU-IA-01"
-   ],
-   "type": "reporting",
-   "source": "WQAD",
-   "lean": "unrated",
-   "title": "Iowa's 1st Congressional District race tightens ahead of midterm election",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOYlRqenhlVFAxclMwMTJwSnptc3M3N09yOWM3el9WV203SEhENHp4c2RhUHZqV0J3aWJBRnFzNHp6TkxrVkdSdnAxekRQZ3A1VW1Oc1ZUbDA2akxIYUNJaHRFUm9NdW4wTURTaTA4SUhYY2VfQUpHMnZVMFYyRWpmb09QcVNJbld5M19fSFpYSlJENTlfdlZZSnJwZnM4dmZNdE1fQm1tQk5yNjdJdGVmRUd5akpXNndJYWVBd2pydVVjSnp3UGItVnVFQWJtdzhsaTFNQTduOUxZdUs1Q2RncHpSemtqRUdKMHBQQzVRLUtQR1NGNW5ZQ1VJdDlBS2lsUzFXSmNR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -256,6 +241,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-20",
    "c": -2,
    "p": -5.0
   }

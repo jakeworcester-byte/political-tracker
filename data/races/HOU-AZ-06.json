@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-AZ-06",
-   "races": [
-    "HOU-AZ-06"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Arizona 6th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXhuYkU0SnZaOXBLaVZWcGVZWnRHMUN2aFVYTVR2ZE5sUWo3TXRTUEt4QWl3bUpvQU40OWlIWHh0aTBYaDFfR2RwUEhCbkpSd2FDTUJwaXFMb3RiamMzdndWanFHMUtCWW1xVlo2bndVN3cwUFlXX1BIb3EtT1lsWUVR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AZ-06",
  "history": [
   {
@@ -149,6 +133,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-20",
    "c": -2,
    "p": null
   }

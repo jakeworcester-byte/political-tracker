@@ -21,9 +21,9 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-07",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 2,
  "candidates": {
   "D": [],
   "R": []
@@ -96,25 +96,25 @@
     "HOU-NC-11"
    ],
    "type": "reporting",
-   "source": "NC Newsline",
+   "source": "The New York Times",
    "lean": "unrated",
-   "title": "A tale of two farmers: Ager, Balkcom compete for NC-11 seat",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM2l4ZjYyd3lYNlMwM2hudTVNckN4QnpTMkl4cV9iSy1WWG4tNU4xU0dXMGpoZG4wTmwyd3IweHNmQTZXbHpqbUpmeU1nOU80NU9kWmxPMjRKX01rdFhnMC1BLWlOTkl1TzFQRFBwVERVZG40eHVLZHFQTmI0LThsazIzTENvS2l3OWZFbVQ1Tk0tazNDT0Rr?oc=5",
+   "title": "North Carolina 11th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQk1RMWJlLVJKTkxXcFJHTXQwX3h0R2hocXNaV2U4OXJwb21mdjR1Rk1ONzJJMnNnOXdmS3V2YTI0MXBKTGcySzYxS3diVjlpcjZBUkl6Yzg4bUMyeUd3eUZHcU1IQ1hSeFFzNC0wRDIxRzJGampqRGg4UjU2X3hWU0IxLTNEc2tQeFl2RA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-16",
+   "date": "2026-10-19",
    "race": "HOU-NC-11",
    "races": [
     "HOU-NC-11"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "NC Newsline",
    "lean": "unrated",
-   "title": "North Carolina 11th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQk1RMWJlLVJKTkxXcFJHTXQwX3h0R2hocXNaV2U4OXJwb21mdjR1Rk1ONzJJMnNnOXdmS3V2YTI0MXBKTGcySzYxS3diVjlpcjZBUkl6Yzg4bUMyeUd3eUZHcU1IQ1hSeFFzNC0wRDIxRzJGampqRGg4UjU2X3hWU0IxLTNEc2tQeFl2RA?oc=5",
+   "title": "A tale of two farmers: Ager, Balkcom compete for NC-11 seat",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM2l4ZjYyd3lYNlMwM2hudTVNckN4QnpTMkl4cV9iSy1WWG4tNU4xU0dXMGpoZG4wTmwyd3IweHNmQTZXbHpqbUpmeU1nOU80NU9kWmxPMjRKX01rdFhnMC1BLWlOTkl1TzFQRFBwVERVZG40eHVLZHFQTmI0LThsazIzTENvS2l3OWZFbVQ1Tk0tazNDT0Rr?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -224,6 +224,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-20",
    "c": 0,
    "p": null
   }
