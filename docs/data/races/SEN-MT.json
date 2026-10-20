@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Decision Desk HQ"
   },
   "econ": {
-   "rating": "Solid R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-19",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -38,6 +38,12 @@
    "as_of": "2026-10-15",
    "name": "Inside Elections"
   },
+  "nbc": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-19",
+   "name": "NBC News"
+  },
   "rcp": {
    "rating": "Likely R",
    "flip": false,
@@ -51,15 +57,15 @@
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Solid R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-19",
    "name": "Split Ticket"
   }
  },
@@ -75,8 +81,8 @@
  "key": "SEN-MT",
  "name": "Montana Senate",
  "incumbent_note": "",
- "consensus_score": 4,
- "consensus": "Solid R",
+ "consensus_score": 3,
+ "consensus": "Likely R",
  "disagreement": false,
  "tracked": false,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
@@ -87,7 +93,7 @@
  },
  "poll": null,
  "raw_poll_count": 17,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MT",
  "history": [
@@ -134,6 +140,11 @@
   {
    "date": "2026-10-19",
    "c": 4,
+   "p": null
+  },
+  {
+   "date": "2026-10-20",
+   "c": 3,
    "p": null
   }
  ]

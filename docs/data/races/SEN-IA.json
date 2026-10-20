@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-19",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -37,6 +37,12 @@
    "flip": false,
    "as_of": "2026-10-15",
    "name": "Inside Elections"
+  },
+  "nbc": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-19",
+   "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
@@ -53,13 +59,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-19",
    "name": "Split Ticket"
   }
  },
@@ -359,6 +365,20 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-20",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "podcast",
+   "source": "The Megyn Kelly Show",
+   "lean": "right",
+   "title": "Tight Iowa Senate Race, Trump's Women's Health Initiative, Elon's Billions Giveaway: AM Update 10/20",
+   "url": "https://www.siriusxm.com",
+   "summary": "Republican Ashley Hinson and Democrat Josh Turek are locked in a tight Iowa Senate race as early voting begins and President Trump prepares for a visit to the state he won by a wide margin in 2024. President Trump and First Lady Melania Trump announce a major women's health initiative that establish",
+   "relevant": true
+  },
+  {
    "date": "2026-10-19",
    "race": "SEN-IA",
    "races": [
@@ -367,23 +387,23 @@
    "type": "reporting",
    "source": "Newsweek",
    "lean": "unrated",
-   "title": "Why Some Iowa Voters Back Rob Sand but Not Josh Turek in the 2026 Midterms",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVThaVUZOc2xRNG1ZMlRYQmVnUEN5cnYxeGV3N1MwWGNTUDEtVllNYWFvMy1wTHJISmhrWFMyTkY5eU12dFpOVk54VENWcVBxS2hKeXZQamZsOEhZbkpBODIxWU9tMDUzd3J3YlFmMENxNTRFTlBGTEtvUDNWdDZwN2tDa1N3Yk83Snc?oc=5",
+   "title": "Undecided Iowa Voters Are Making Up Their Minds in Tight Hinson-Turek Race",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeHZ6NXJIWVpCdUJuRVExcUd6cEdxZm1vZFdnTVFaRlAwSENxd2p6UHBvZ2xFbFd3SXJ3N2s4TFY4Ym56NlprMTVEbThoaC1TaXBmWFBSVHNibmtKY0dHeklLajJjcll2QmxpUGZBUk1lS3pZaGE4YWVNZUI4OXB0MWxVTEFSZHdyam1qU3Fn?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-15",
+   "date": "2026-10-18",
    "race": "SEN-IA",
    "races": [
     "SEN-IA"
    ],
    "type": "reporting",
-   "source": "Forbes",
+   "source": "Newsweek",
    "lean": "unrated",
-   "title": "Hottest 2026 Midterm Races—Democrats Turek and Flanagan Lead In Iowa, Minnesota (Updated Daily)",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTFoNy1FZmtGZmRNbFR3elFXUVJoY2JOSFJvdW8tU1gtLTlRRzBfU3Znd0NfT2tRRFpNYlV6ZzAtcGdPQ19qMEk3SXItNlY4MHRLM1Y1VlI5OTFRLXNKVW55c0d0dGprV2RvT0hvdjhtcFVPdlphVmd2V2NpeVBwTjVtdE1FeVYyYWsxWmxiWVhkR0tPbWpjVF9nXzQtdU9Jd0F1anBnM1dkU3FpaW9RWGl0MlZBVkNibVg3Sm5pcXFIbWRXVW5KanU4amVTWWNzS1E?oc=5",
+   "title": "Ashley Hinson Asks for Gas Money in Iowa Senate Race Against Josh Turek",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS2dNNURmVzd2R09USXo2RWFqeTc1dFhvSG43bVpobFEwUElXbUoyMGY2NUpvTmdFMmNwUm5IMXo5TzgyZUNXUGl0Q0w0Y1ZsME16RGdIb1gwRVRhUnpwczhDR2l5OC1SdmpnTndkSGF5ZkI0cGlZSWdyOFNUSkdpUzNDbGFIVVA3NmswemMtNWJvM2stTElNal9mcnQyaVVMbDNERkN5RzI?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -433,6 +453,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-20",
    "c": 0,
    "p": -0.5
   }

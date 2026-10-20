@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -169,38 +169,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-FL-13",
-   "races": [
-    "HOU-FL-13"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Florida 13th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkdQbmJhTmdyb0hfTnBIMk95Z01rdHVGR2tpdVRYRjBWSGF6MDMyVVNqWXAwMlhFN3llTEttMmJxOExyTXk4OGJoT0gwdDNfOFNweC1SclJZZ2FJMy1BQ2hvd1FMQ2F0U0MxMk5rQ0JIcGdiSVpnRVYtVmJUbFpaVHRfTQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "HOU-FL-13",
-   "races": [
-    "HOU-FL-13"
-   ],
-   "type": "reporting",
-   "source": "wtsp.com",
-   "lean": "unrated",
-   "title": "Luna vs. Gray: Meet the candidates running for Congress in Florida's District 13",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNN3ViTm0tOENNVlotVUxBSDZydmI1Wjh0S1pJZURmRG52cHN3QVVyYXRhcXU1Y1NWWEhlZFo0czI5aU1FUHd1ZElnZDhiTEptTllQQ0VsRlVuaHBxYXpqNDhpNnJFRTdmaC1jaGpsa1JDQ0szdVJ1elc5YlpGWkRtMkJNdmhyMld5Z3BrUzFlRF9GS0sxOTJveWVyWFBkcXl0V3htOUt2TVViMTRpcURNNHBkYWduNWNDTlhDb3Z6Wk9SLWxsaDQ3WWdmSzFSRFYzRjFTdGFKaWZrOC1GVWN0QWlsdmFMWVVYc2l1b2ZaRjFPOU0?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-13",
  "history": [
   {
@@ -245,6 +214,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 2,
+   "p": 3.5
+  },
+  {
+   "date": "2026-10-20",
    "c": 2,
    "p": 3.5
   }

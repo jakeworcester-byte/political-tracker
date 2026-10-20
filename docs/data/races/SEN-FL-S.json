@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-19",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -37,6 +37,12 @@
    "flip": false,
    "as_of": "2026-10-15",
    "name": "Inside Elections"
+  },
+  "nbc": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-19",
+   "name": "NBC News"
   },
   "rcp": {
    "rating": "Lean R",
@@ -53,13 +59,13 @@
   "silver": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-19",
    "name": "Split Ticket"
   }
  },
@@ -381,6 +387,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 3,
+   "p": 7.1
+  },
+  {
+   "date": "2026-10-20",
    "c": 3,
    "p": 7.1
   }

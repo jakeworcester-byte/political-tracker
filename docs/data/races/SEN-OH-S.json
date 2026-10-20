@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-19",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -37,6 +37,12 @@
    "flip": false,
    "as_of": "2026-10-15",
    "name": "Inside Elections"
+  },
+  "nbc": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-19",
+   "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
@@ -53,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-19",
    "name": "Split Ticket"
   }
  },
@@ -383,18 +389,34 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-20",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "The Columbus Dispatch",
+   "lean": "unrated",
+   "title": "Husted vs. Brown ads flood Ohio airwaves. Is any of it true?",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ3Radll2UFFpX01ZRHlxNjhqTjF3cUVzNHpDZnN3anBWNmpRVWZFeXhaUzdMOHFSYnhzRW5OSWtyd2szdkV0Rko2V09mTFNHWFhacE5oZGp1cTRubnBmakk0MGVTVXJjOTlsNHYwVUs5U0tBbUh2b2FzVFRxZm9hRHprYUZhYlE2WTF5NnppZ1NOQldla2pMbEN5X0doUXJjMkFmQkFsOVp4M3c5S0JpVURpR2ZlTHdBVkhZX0RZb24xaFpjTjBEUVExNGhiZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-19",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Republicans in Ohio Are Worried About Turnout. Here’s What They’re Doing About it.",
-   "url": "https://www.nytimes.com/2026/10/19/us/politics/republicans-ohio-turnout-election.html",
-   "summary": "To boost Senator Jon Husted, who is in a tight race to keep his seat, some Republicans who were making a jobs pitch have pivoted to focus on socialism.",
-   "relevant": true
+   "source": "The Nation",
+   "lean": "unrated",
+   "title": "Will the GOP’s Big Money Save Jon Husted in Ohio?",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSkJGel9ya2hzbXZ4M00zT2lsOC1lMWFsZjc4cExEU3ZvSERJazljMm1VaXBZSElMZTNwUFZkc3pFV1V4N2g1YU1nd0hKMU91MEFiYmFheHNIcHd2OFNyb0w0QXYtS2pMQ0NXaHlBc2c5ZG9ZME5VX0J4VTV3Z2xKUVo4aU54dHQzYjBZSUtB0gGWAUFVX3lxTE90YWhRekRMSVZqUG1uNldSVnVUWGg5c21Rd3hTTWJ6ZElzbzEwcDcyRExEcEpNYlMwQ2NQaVA2OXpCRHNaQlA4dmVyM2p5SjcyblBBR09ldW9FUzZ5ZnJLVXhJNC1yc2dTVDE3UXpSbFhfS0dSU25MZ1BqTVpRUmlIb3o2cmttNjJZSmh6X1B5T3R5SC1udw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-18",
@@ -407,21 +429,6 @@
    "lean": "unrated",
    "title": "Husted Narrowly Ahead in Ohio Senate Race · Oct 18, 2026",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nQnhEZEh1Ty03VEMyNFJGa21OaHVmMFdveEFtQ2lvRld6R3hfcmRhczl0RVdrX1BqNzFLLTdWa0dZV3ZYUE5pb2QzSlVjMDhUWnAtWEpnVHJrZlRadWd6RnlaNXo3VFBMcklnVWF3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-17",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "ABC News - Breaking News, Latest News and Videos",
-   "lean": "unrated",
-   "title": "Trump rallies in Ohio to boost Jon Husted in a tight Senate race against Sherrod Brown - ABC News",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUVpOYVNRSDB1YnhBZy1VU3p0Z0VJYU5GNXhFU1pHNE9PSlpaNktKaXFubDhPMUtZY1BDcXAxVzhOb2xGcFVEOWF2WHZXbzdSUjFSUUVNVmdDNC1PakxhVTEwalZXUE0xanJWV2tQc1hZMi1FVjlPa0tRbEZ3NWF4MVBOVFBONUo0YUdhNjRFck9sU1NzTjAxNWpMVUlod9IBowFBVV95cUxQbVp0S25IUG42S0ZqOFl2VENqRjlBR1RCREpQbFZkTEkwTWYzdXQtVWp6MWY0QzFrcnVGb2xHdUFVeUhrQzZ6endWVC1aOWgxNDgwLWFnYTZWMExPMXEtc1NSMm5kU0ljQVkybjhselJ6MWVRTGFabnBWcUF3Nnpnd2liQmFhOXpVeDZkU3FsMlNYblFobU0xaXRHVi0tZXpaaHJv?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -466,21 +473,6 @@
    "lean": "unrated",
    "title": "Brown, Acton both up 6 points in Ohio races: Poll",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUb2xwRzRvMnFqbmo4X01pSHVkQWI3c2xYbDdqT1VfWnZlTVJBZ3NvVWdnbWhPdUhRbi1kYXctVG9DNkczcDNuSU5zRWdDMEVMaE1jQnNwOS0wczdjWXF1X3kxZXdRV2RCam5mWGdWQjMtQ011Rk1ONXRqTlrSAYIBQVVfeXFMTkNiYzNBRW9QNk1HbXdMT2kwWk1lczItVlJOVE9TQndZYnQ3ejlGMmFRUU9VY1FubTlNNU1lbWFqSXNUSDVIYWkxZUx0bkNuNVFWNzRfNnhKOURZQUtLTUdvdU5tenUyZDMySnZIWTlJV0pJQ2hYMkJraGNtY2FhNGVzZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "Cleveland.com",
-   "lean": "unrated",
-   "title": "Brown continues to outraise Husted as Ohio Senate race nears record-level spending",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdkRjTXhibmNJSC10LW91MHNJaVoyRUxYSWZtZFJfbjhVZlNjaTkzbFNwR2VON0NvbDJQVTgyX2N4bEowcHM3MDZqaDMzblBZbFdLWTZBdDBUaEhBVUFRcm9JakxORkpxSndlYVlubWVxaEhIcWNTMTBlUlVidVRWRkxDdUhmaW83dDVKVUFwVTVQYWdkUU9sRV9vYW9ZZE5WMDEtSHktZmZ3Wm5xTVRQZS1rbE9KTE82NVRGOVFaYmcxbU5B0gHYAUFVX3lxTE42TTBoZGJQbHpMdEZldm45RUpFNjlLYTNCNW1FWnhZR0FyazdPUjdPLXEwVS1jMnhfMmxqSTNxU0tCbTdxV183RnpQcEhlcHN0bWZHVHYwVFF1WmhNUTVTQVN6SHZ5clA2OFFPclBqTXY5ZzluQ1djUzlHUXB0VzZicXR0U0kwVW9WanZvZkpGdmRIWlYwdEstcndhemZGLXdtM0htNkhBOFJNZTZfZ0ZXWTB5QW9HLVN0WnJ2R0RURUdFY0VrZXhVTl9SMUxWOUlfaDRMX1hhYg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -559,6 +551,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 0,
+   "p": -2.9
+  },
+  {
+   "date": "2026-10-20",
    "c": 0,
    "p": -2.9
   }

@@ -21,9 +21,9 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-07",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -75,12 +75,12 @@
  "key": "HOU-MI-07",
  "name": "MI-07",
  "incumbent_note": "",
- "consensus_score": 0,
- "consensus": "Tossup",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 5,
+ "flip_votes": 6,
  "candidates": {
   "D": [
    "William Lawrence"
@@ -141,24 +141,8 @@
   ]
  },
  "raw_poll_count": 1,
- "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-MI-07",
-   "races": [
-    "HOU-MI-07"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Michigan 7th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcTBSWXNQRTFManJxeEE2czZuRGVQbGIzaWlhVVZ4SzRzS2Q4cVJwWklZeW4yUDliMHdYUGdSamRFbWZrRU5iMjJzM3BoVXlydkxjWmVPekU0YzlRZG9oYVFMUVhtZVlDTlRJZlNGVkw0OVNNY2d1M2xYTTFpdFdZYWFvOA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "trend": "Toward D",
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-07",
  "history": [
   {
@@ -204,6 +188,11 @@
   {
    "date": "2026-10-19",
    "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-20",
+   "c": -2,
    "p": -2.0
   }
  ]

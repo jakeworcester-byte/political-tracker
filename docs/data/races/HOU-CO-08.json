@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-CO-08",
-   "races": [
-    "HOU-CO-08"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Colorado 8th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa2tpM3AzMTg4SE9aSzJHZHhDMDBHUzgyaGFNNHlCay1Ccl8tN2JPaHZXTVNIWmNWRVU1RHZ3aWl2WjJIa0VmVTc1a0F2cHVKOXhOcWFvd2pJdmlsNlFzTHNyU3BBS0NJT1ltRWpJTUdHY2V5aFhXMlZpTEpvTV9nTHFWRQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-08",
  "history": [
   {
@@ -149,6 +133,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-20",
    "c": -2,
    "p": null
   }

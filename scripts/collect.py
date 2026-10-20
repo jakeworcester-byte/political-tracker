@@ -58,7 +58,7 @@ FORECASTERS = {
     "cook": "Cook Political Report", "ddhq": "Decision Desk HQ", "econ": "The Economist",
     "econ.": "The Economist", "fpo": "FiftyPlusOne", "fox": "Fox News Power Rankings",
     "ie": "Inside Elections", "rcp": "RealClearPolling", "sabato": "Sabato's Crystal Ball",
-    "silver": "Silver Bulletin", "st": "Split Ticket",
+    "silver": "Silver Bulletin", "st": "Split Ticket", "nbc": "NBC News",
 }
 
 

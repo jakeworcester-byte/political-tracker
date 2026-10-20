@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-19",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -37,6 +37,12 @@
    "flip": false,
    "as_of": "2026-10-15",
    "name": "Inside Elections"
+  },
+  "nbc": {
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-19",
+   "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
@@ -53,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-19",
    "name": "Split Ticket"
   }
  },
@@ -375,22 +381,21 @@
    }
   ]
  },
- "raw_poll_count": 26,
+ "raw_poll_count": 25,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-16",
+   "date": "2026-10-20",
    "race": "SEN-TX",
    "races": [
-    "SEN-TX",
-    "HOU-TX-35"
+    "SEN-TX"
    ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Elon Musk is putting a small fortune into Republicans’ effort to salvage the Senate seat in Texas, seen as critical to the party keeping control of the chamber in the fall elections",
-   "url": "https://www.wsj.com/politics/elections/elon-musk-pours-a-fortune-into-saving-texas-for-republicans-170b27df?mod=rss_socialpoliticsfeed",
-   "summary": "The world’s richest man donated $158 million to an effort backing state Attorney General Ken Paxton.",
+   "type": "podcast",
+   "source": "The Daily (NYT)",
+   "lean": "center-left",
+   "title": "James Talarico on His Plan to Turn Texas Blue",
+   "url": "https://www.nytimes.com/the-daily",
+   "summary": "James Talarico is asking Texas to do something it hasn’t done in nearly 40 years: Elect a Democrat to the U.S. Senate. It won’t be easy. It will take a vast coalition of Democrats, independents and Republicans in a bright red state that President Trump won by about 14 percentage points in 2024 — and",
    "relevant": true
   }
  ],
@@ -438,6 +443,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 0,
+   "p": -1.5
+  },
+  {
+   "date": "2026-10-20",
    "c": 0,
    "p": -1.5
   }

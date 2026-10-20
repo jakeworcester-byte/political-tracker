@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -143,23 +143,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-CA-48",
-   "races": [
-    "HOU-CA-48"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "California 48th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUkZla1QwbXF3VjZUbWFCYWxwV3l4Q3RVR2Jyd2sxcXNDUDk0THZKd2tiUWV3ajJPSU9QY00wajFORFA2eVBkeTNhTVZDVGVMLTh5RVdEY19ON04tMExrdmotRlZETlRUX2ZKWUI2YU1FRk9uLUVhT0lNbFFCWUg0Y1hJS05ZM1E?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-48",
  "history": [
   {
@@ -204,6 +188,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": -2,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-20",
    "c": -2,
    "p": -3.0
   }

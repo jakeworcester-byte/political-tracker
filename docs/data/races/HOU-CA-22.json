@@ -21,9 +21,9 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Likely D",
+   "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -77,70 +77,16 @@
  "incumbent_note": "",
  "consensus_score": -2,
  "consensus": "Lean D",
- "disagreement": false,
+ "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 7,
  "candidates": {
-  "D": [
-   "Randy Villegas"
-  ],
-  "R": [
-   "David Valadao"
-  ]
+  "D": [],
+  "R": []
  },
- "poll": {
-  "average_margin": -4.0,
-  "average_label": "D+4.0",
-  "n_polls": 1,
-  "window_days": 45,
-  "latest": {
-   "pollster": "Tulchin Research",
-   "sponsors": [
-    "House Majority PAC"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-06-15",
-   "end_date": "2026-06-21",
-   "sample_size": 800,
-   "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
-   "answers": [
-    {
-     "choice": "Randy Villegas",
-     "pct": 48.0
-    },
-    {
-     "choice": "David Valadao",
-     "pct": 44.0
-    }
-   ],
-   "url": "https://www.politico.com/newsletters/playbook/2026/07/21/trump-to-hill-im-not-that-into-you-01005915"
-  },
-  "polls": [
-   {
-    "pollster": "Tulchin Research",
-    "end_date": "2026-06-21",
-    "margin": -4.0,
-    "n": 800,
-    "population": "lv",
-    "partisan": "DEM",
-    "url": "https://www.politico.com/newsletters/playbook/2026/07/21/trump-to-hill-im-not-that-into-you-01005915",
-    "answers": [
-     {
-      "choice": "Randy Villegas",
-      "pct": 48.0
-     },
-     {
-      "choice": "David Valadao",
-      "pct": 44.0
-     }
-    ]
-   }
-  ]
- },
- "raw_poll_count": 1,
+ "poll": null,
+ "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
   {
@@ -154,21 +100,6 @@
    "lean": "unrated",
    "title": "ICE raids + a broken Medicaid pledge: Can Valadao survive CA-22? 🗳️",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZUNYWHpPVWMwY01KMWNLTDQxYnAxZ3pTY041eTUwdlJneTRDSUlpc2hacXdYUW14NG51QV9rVl9oeV9NWi1FUVpFd29hYVVmWWVUVVlLUHZiRDBzT1E0bmR4bVVScF9SZ3FCTkdJQVlrYUZ4R1Z4RFJCU21lOG95ZGI0X0YtQ1p0RnpQMGt4d0VCc1dkYjJTNFdYekQtYzlQS1QzY3lJek5FTlkyeEhpX1RR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "HOU-CA-22",
-   "races": [
-    "HOU-CA-22"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "California 22nd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONU9iSUZJQmFONXgzLTRiX2dOenFncVZXdW5ZRzNwWHNpcHBwdW52Y29vemtfNV9mXzR3VF9CWkRqN2FPRnBuZXpBZjduRXVvTlVJcllESm9vTVkxTFZkWGhETlVnQno3WnQwTWhNWklsaUs3WWtnalJmZHNWdW02cENXQ0xnTWc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -220,6 +151,11 @@
    "date": "2026-10-19",
    "c": -2,
    "p": -4.0
+  },
+  {
+   "date": "2026-10-20",
+   "c": -2,
+   "p": null
   }
  ]
 }

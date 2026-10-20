@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-19",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -37,6 +37,12 @@
    "flip": false,
    "as_of": "2026-10-15",
    "name": "Inside Elections"
+  },
+  "nbc": {
+   "rating": "Likely R",
+   "flip": false,
+   "as_of": "2026-10-19",
+   "name": "NBC News"
   },
   "rcp": {
    "rating": "Lean R",
@@ -53,13 +59,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-19",
    "name": "Split Ticket"
   }
  },
@@ -189,21 +195,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "SEN-NE",
-   "races": [
-    "SEN-NE"
-   ],
-   "type": "reporting",
-   "source": "KETV",
-   "lean": "unrated",
-   "title": "'Nebraska is not for sale': Dan Osborn's campaign for U.S. Senate",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBEVTE2cFh2ek1UWGdPa3l2c1hFS01zNHJydGlMUDk5WVVhRUxVa0p6NDJxNlJPZHZDWFNlMnhLXzJubHJhMWFhanVsYzhsR1N4eDB0SlFlRW5hRHcyVDJXZVc4dXQ2azNJOWxnVGt6bjR4cjZ6QVVNOURxNVI?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NE",
@@ -250,6 +241,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-20",
    "c": 2,
    "p": 1.0
   }

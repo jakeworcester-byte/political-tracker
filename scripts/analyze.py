@@ -30,7 +30,7 @@ RATING_SCORE = {"Solid D": -4, "Likely D": -3, "Lean D": -2, "Tilt D": -1, "Toss
                 "Tilt R": 1, "Lean R": 2, "Likely R": 3, "Solid R": 4}
 SCORE_RATING = {v: k for k, v in RATING_SCORE.items()}
 SHORT = {"cook": "Cook", "ddhq": "DDHQ", "econ": "Economist", "fpo": "FiftyPlusOne", "fox": "Fox", "ie": "Inside Elections",
-         "rcp": "RCP", "sabato": "Sabato", "silver": "Silver", "st": "Split Ticket"}
+         "rcp": "RCP", "sabato": "Sabato", "silver": "Silver", "st": "Split Ticket", "nbc": "NBC"}
 TRACK_BAND = (-2, 2)  # Lean D through Lean R, per Jake
 
 # Senate composition going into the 2026 cycle (seats not on the ballot are inferred from this).

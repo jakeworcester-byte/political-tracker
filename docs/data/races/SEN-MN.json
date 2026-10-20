@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-19",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -37,6 +37,12 @@
    "flip": false,
    "as_of": "2026-10-15",
    "name": "Inside Elections"
+  },
+  "nbc": {
+   "rating": "Likely D",
+   "flip": false,
+   "as_of": "2026-10-19",
+   "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
@@ -53,13 +59,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-19",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-19",
    "name": "Split Ticket"
   }
  },
@@ -75,10 +81,10 @@
  "key": "SEN-MN",
  "name": "Minnesota Senate",
  "incumbent_note": "",
- "consensus_score": -2,
- "consensus": "Lean D",
+ "consensus_score": -3,
+ "consensus": "Likely D",
  "disagreement": false,
- "tracked": true,
+ "tracked": false,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
@@ -282,53 +288,8 @@
   ]
  },
  "raw_poll_count": 6,
- "trend": "Toward R",
- "signals": [
-  {
-   "date": "2026-10-17",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
-   "url": "https://www.npr.org/2026/10/17/nx-s1-6004910/minn-us-senate-race",
-   "summary": "The major party candidates for Minnesota's U.S. Senate seat faced off in an hourlong debate Friday on MPR News with fraud, affordability and fallout from the Trump administration's policies as key points of friction.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "NPR",
-   "lean": "unrated",
-   "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CVnE2LTEybkRwTi0xMjlfV3FBMkJCdVJLSkdVNF9xSnQ5UVRoZndTa0Nrc3V3WmQxeFBYSDJrTXp6c0FfREhEQW54am1aZWhOdFhNSmZ3X3ZJbHVJclN2RjZyNHRRN1lJODBGT3ZRMThUdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-17",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "The Washington Post",
-   "lean": "unrated",
-   "title": "Takeaways from the only Minnesota Senate debate between Peggy Flanagan, Michelle Tafoya",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaXJaV0hNc2F5YWtPeHMweTZORXBLTFBsajdtbmxHSW1oZGlzVkRqWTdyWmZfeDltN1pqbXo5c0kzZ1MwdFg5MEVXU0NQOUR3MGcydHZEOE1Qb29ZNmtjbUJEUHkyekxtNkxzYlVEM0xGRlBrVjlDSm5QUjktNjlnbS1NRU0zRHBrQUV6X1RGczVLNGZTZ1ZJUmlFRzdwblA0OXFXa1IwR013LTVGSFE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "trend": "Stable",
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MN",
  "history": [
   {
@@ -374,6 +335,11 @@
   {
    "date": "2026-10-19",
    "c": -2,
+   "p": -4.3
+  },
+  {
+   "date": "2026-10-20",
+   "c": -3,
    "p": -4.3
   }
  ]

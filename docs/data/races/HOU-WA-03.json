@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -142,38 +142,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-WA-03",
-   "races": [
-    "HOU-WA-03"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Washington 3rd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV1JHbUpna085SzJrZHNQdllVa2p0dkJ5N0tTcTVFZkViQnBKaW40eDF5UEJmMmppekQ2TnUwdnZYODY3blR4ODJueVVHUVhhaWZ0cEQtWXRrN3RSWUFEQTNJTXhVYzFONG1aRnI4cFlBazQ5WVhJU3lkb1NuZEs2RHczQmdXUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "HOU-WA-03",
-   "races": [
-    "HOU-WA-03"
-   ],
-   "type": "reporting",
-   "source": "KGW",
-   "lean": "unrated",
-   "title": "Washington's 3rd District is once again a battleground heading into the November election",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaVBNM24xSmh5dUJxV3I2bXRFN2lfdjZxZzctdjZCb0tTemtDU0w3VE92SUVOOC1ia2lUU2NxZXdLc19ycVRxUkNIekphWVNzbFFzRDVPdlVDNzl6NDhNVTBDV1RjYUJTdVlMRTJxemNDa0Z3NUh5M1lmb1BIbzlySkxXcTZjcVpHOW9YTFAxZFZWX1hWWVRPODh1eFlpMmhMMjkxMVY5dXNrTlJVd19RRklMbFAtcHA3TlJQY1pYSS1mS01wTnVrLWJpSkZnX3p2dnZEZ1AwX2xRdXA1U25HNw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WA-03",
  "history": [
   {
@@ -218,6 +187,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": -2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-20",
    "c": -2,
    "p": 1.0
   }

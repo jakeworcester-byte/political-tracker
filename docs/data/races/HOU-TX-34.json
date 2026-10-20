@@ -23,7 +23,7 @@
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-07",
+   "as_of": "2026-10-19",
    "name": "The Economist"
   },
   "st": {
@@ -156,38 +156,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-TX-34",
-   "races": [
-    "HOU-TX-34"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Texas 34th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTzRnMkhKbGcwUmRNY0hvU3lEVGpCYWMxeGFNdkpkUzg2M1pvVm1BVUlyWFBrQjFGUHRuRGRlb1F0V0hZZlZrQVlyU3l3TFlZRkFfdmZFOGVoR3UwRmN3TV9nYUZ1dzRIbTc5V1FNd0tjRm5ZX3ZnaFVlZ04wb2xzcw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-14",
-   "race": "HOU-TX-34",
-   "races": [
-    "HOU-TX-34"
-   ],
-   "type": "reporting",
-   "source": "Spectrum News",
-   "lean": "unrated",
-   "title": "In Texas' 34th District, GOP tries again to flip seat held by moderate Democrat",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOFU4TFZEOFRaRVJ2VE1LV1I3M19kYlZIYzl0bFBEQ04zWXBFQjlOWGN1RG5GVHFLUmU2TlkxcDMzVFUwU3JuNWtvYTd5QzlvQ3k0RTZKQ3YyRGN6blNXck5udVhnRVoxNWJDQUgzQ2pUWjNhem5odWx1RmFvUE11STFZTHVrU2o3cS1Ec2xZZjNUU2pWaFpzQ09QTzZYSEJHa1c1dDFWTGhsbzZQNXY5YmdPN240ZTdYNkE2NllmQ1dDdFc5TWFtZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-34",
  "history": [
   {
@@ -232,6 +201,11 @@
   },
   {
    "date": "2026-10-19",
+   "c": -2,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-20",
    "c": -2,
    "p": -3.0
   }
