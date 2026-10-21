@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -75,10 +75,10 @@
  "key": "HOU-TX-23",
  "name": "TX-23",
  "incumbent_note": "",
- "consensus_score": 3,
- "consensus": "Likely R",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
@@ -87,8 +87,39 @@
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "HOU-TX-23",
+   "races": [
+    "HOU-TX-23"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Texas 23rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWnNSclFrTzgtejNIdi1NdlpBMnYxUVV4dGlCUi05cENtZzA5MWNRYVluNVRMY2doU0tpTHNFbWRfZjVHemN4Q2tJRlZ4aEY0Rkk0ekwzMW5JbGh3ZTFPRUJtdVU4RUhTcUNFa2ppV0duN3NLY3djcGdOMHV5STRqbw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "HOU-TX-23",
+   "races": [
+    "HOU-TX-23"
+   ],
+   "type": "reporting",
+   "source": "KVIA",
+   "lean": "unrated",
+   "title": "Your Voice, Your Vote: Texas’ 23rd Congressional District Candidates sit down with ABC-7",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQU8tRTEyR0VhQll4MXFIZzFLelpWc3Vmb0hKUFAyRUw4S2tpa28yRFltN3czd2I0d0RUbkE4R3lGcWxvU2VBWWU2RUJCVHFMNFV2RnVMekpYSC1xZ2JBcXg0dURLb1o0aHVNV3R1Q1h5NlBOQ2hsNUpKZG5VZHVRWFpxeHNVNnIxanlMS3hkZ05MakJ3RlM4SUw5VHBSMmdpN2poS0gwTk5wa2RIeFJTeTBBcnJaWEloTnBCM2Z0ZjBIRFVKckc1dEVkSWN5VUst?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-23",
  "history": [
   {
@@ -139,6 +170,11 @@
   {
    "date": "2026-10-20",
    "c": 3,
+   "p": null
+  },
+  {
+   "date": "2026-10-21",
+   "c": 2,
    "p": null
   }
  ]

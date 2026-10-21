@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-08",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 3,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "Lindsay James"
@@ -142,53 +142,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-IA-02",
-   "races": [
-    "HOU-IA-02"
-   ],
-   "type": "reporting",
-   "source": "News From The States",
-   "lean": "unrated",
-   "title": "Two Iowa 2nd Congressional District candidates announce accepting debates",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWU0wdjhFdmc3a2FLa21rcFF6NzNUcnN0NDZ6Yy1yVXprN0dqeEFsem5DWDE5RmxVdTZwalBoTy1DLU5xS0ROc3o3ZS1kMTJkZ1VtcTRKeS1SNzAyVlc5YnZ6UHR1NkpWeEVwb0FWdGpxM1B6X3NBV2dETTRuLTRSR2RiLUlXQlNSVHV3aE8tWW15UlUtSkg0VHNhUmxKM3FBVjFzZ1F6WURpWl9zU2U1SjFvejN5UQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "HOU-IA-02",
-   "races": [
-    "HOU-IA-02"
-   ],
-   "type": "reporting",
-   "source": "KCRG",
-   "lean": "unrated",
-   "title": "Candidate Profile: Bushaw rejects pressure to step aside in Iowa’s 2nd District race",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTkxtZktmTmdaOXlRRHI1QU1scW5hemVoTlRPczdTSDQyRkxkNXlyRzVCSkZPNUFxa3p4ZzdWcjEwLTNiazFsQ2RabWNHdlc4eDRsWWliNENDdHJQTWFSMW5NeEhiX1BIdktpanRCcVJ3OXBBelVvTURDVzhVaEpMRWtfWmRCUGJHbXZZcG9yS2ZnRjJ3dVc1RHMzNHV2N3l5TGEtM0hhdVczbklTaEHSAcIBQVVfeXFMTzNINGF0ZEdCSUFJdTBrdXZVQmNLblkxS1dQX3VRaWd0enh4eXFaVEhGUnpwZE1GR24tMVR6TUpPMGowaFNpMXhqbTZVamxGMER1UGpaRV9mbmtJM3V1M3BUbDBZNFpZeEFUNTM3cmZHcDhWZnAtYkdiU2FTQ1l5R1BQX3FlallmUmlobGFtMVdQNFo4MzFYb01CSUhFLUJnaVdzcTVxNVBMZXlnaXJnWTlHUjNPSkZjeVVyazFVUTRuS2c?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "HOU-IA-02",
-   "races": [
-    "HOU-IA-02"
-   ],
-   "type": "reporting",
-   "source": "KCRG",
-   "lean": "unrated",
-   "title": "Candidate Profile: Bushaw rejects pressure to step aside in Iowa’s 2nd District race",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaFZzSkdoUXNrSHlnVFZ3T1EyQXlBS2g5ZWRfZy1zNW1MSG5uQV90dWRwS2xuTjFWQUFSTW5lcUF4Y05BaGxUYWhuRF94U0gxTzNwRzZOTGdKT2l2SDRla2JFR19PMDZJSUsxY1YxUXg0OXN1VlFVQTFmYjE5ZkhleWN5Z0ZuV2VZUTNFOFJITDdwY3NxaWUyWU4xY3BFR05fWkhsSzBXWnNZSXQzbm1pYXZyY1dTUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-02",
  "history": [
   {
@@ -238,6 +192,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 0,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-21",
    "c": 0,
    "p": -1.0
   }

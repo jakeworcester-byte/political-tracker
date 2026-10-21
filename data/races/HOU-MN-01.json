@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -163,7 +163,7 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-19",
+   "date": "2026-10-21",
    "race": "HOU-MN-01",
    "races": [
     "HOU-MN-01"
@@ -173,21 +173,6 @@
    "lean": "unrated",
    "title": "Minnesota 1st Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "HOU-MN-01",
-   "races": [
-    "HOU-MN-01"
-   ],
-   "type": "reporting",
-   "source": "kaaltv.com",
-   "lean": "unrated",
-   "title": "6 INSIDE: Fact-checking the Minnesota 1st Congressional District debate",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVm9LQlpUSDJIMUoyZ3JNQ3NPNWxvTkdaNkVWMXYxb1JwUDJ3a2JaeFZCT2VhbTJkS09VMkhUN3dscHpYR1doUHA3WE4wVWduNzdKUGpEWXk1emk1ckI3UWdEcVhsNTRFX2JnTVVsZzhMSHUyWDNkTDJCTlVxekhlNklkYXZ3bWNCZVJrTEg4U3NXRmhfWl96WmF1M3djMEto?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -242,6 +227,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 2,
+   "p": -1.5
+  },
+  {
+   "date": "2026-10-21",
    "c": 2,
    "p": -1.5
   }

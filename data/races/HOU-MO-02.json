@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -142,7 +142,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-19",
+   "date": "2026-10-21",
    "race": "HOU-MO-02",
    "races": [
     "HOU-MO-02"
@@ -206,6 +206,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-21",
    "c": 2,
    "p": 1.0
   }

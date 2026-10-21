@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -75,10 +75,10 @@
  "key": "HOU-NV-02",
  "name": "NV-02",
  "incumbent_note": "",
- "consensus_score": 3,
- "consensus": "Likely R",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
@@ -87,8 +87,39 @@
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-20",
+   "race": "HOU-NV-02",
+   "races": [
+    "HOU-NV-02"
+   ],
+   "type": "reporting",
+   "source": "Reno Gazette Journal",
+   "lean": "unrated",
+   "title": "Nevada’s U.S. House race for 2nd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbHJRb3FKbXBfMWVuWW9GLU4waXZhM3R1Zm5VdlRWQm9kQmFteWI4UG54cFROVmVZeFZhaEV3MmlEOVpSbS11ZnhCa3hRb3E2ajIyM0R0bmt4ZnV3ZXlaNGQ3TjZaSGJMR2stSklsa0I3WGs2WW8wQ0FOTWlQRkUyZUdtaGNXSGltWFpLNDJKRGFUU3doRzU4Z05WekZtTVhCdXNlbDVzWjNGN2toRHE2djh5NXd2dw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-19",
+   "race": "HOU-NV-02",
+   "races": [
+    "HOU-NV-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Nevada 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ0lzQTQ2cHQ5anJZb3lMajljTWxTcV91bEFWNjJ3U2FMQWNlYzd0UWlibVdiTzliTXVUNjJNTEtNMEY4RzFJTmRxRWFUMXRDTHlZaUc3OGF6cU9GUkdPUTc2UFN6eldxQUFweDc1WGppcWg3d05uY1lNdFNiN3hlRA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NV-02",
  "history": [
   {
@@ -139,6 +170,11 @@
   {
    "date": "2026-10-20",
    "c": 3,
+   "p": null
+  },
+  {
+   "date": "2026-10-21",
+   "c": 2,
    "p": null
   }
  ]

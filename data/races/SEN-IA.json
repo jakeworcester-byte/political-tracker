@@ -5,31 +5,31 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-20",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-20",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   }
  },
@@ -96,33 +96,60 @@
   ]
  },
  "poll": {
-  "average_margin": -0.5,
-  "average_label": "D+0.5",
-  "n_polls": 5,
+  "average_margin": 0.5,
+  "average_label": "R+0.5",
+  "n_polls": 7,
   "window_days": 21,
   "latest": {
-   "pollster": "YouGov",
+   "pollster": "co/efficient",
    "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-10-06",
-   "end_date": "2026-10-12",
-   "sample_size": 2245,
+   "partisan": "REP",
+   "start_date": "2026-10-15",
+   "end_date": "2026-10-19",
+   "sample_size": 863,
    "population": "lv",
-   "margin": -1.0,
-   "margin_label": "D+1.0",
+   "margin": 3.0,
+   "margin_label": "R+3.0",
    "answers": [
     {
      "choice": "Ashley Hinson",
-     "pct": 46.0
+     "pct": 48.0
     },
     {
      "choice": "Josh Turek",
-     "pct": 47.0
+     "pct": 45.0
+    },
+    {
+     "choice": "Thomas Laehn",
+     "pct": 2.0
     }
    ],
-   "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_ia_20261006_lv.pdf"
+   "url": "https://battlegrounds.coefficient.org/ia/"
   },
   "polls": [
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-10-19",
+    "margin": 3.0,
+    "n": 863,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://battlegrounds.coefficient.org/ia/",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 48.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 45.0
+     },
+     {
+      "choice": "Thomas Laehn",
+      "pct": 2.0
+     }
+    ]
+   },
    {
     "pollster": "YouGov",
     "end_date": "2026-10-12",
@@ -139,6 +166,29 @@
      {
       "choice": "Josh Turek",
       "pct": 47.0
+     }
+    ]
+   },
+   {
+    "pollster": "National Public Affairs",
+    "end_date": "2026-10-12",
+    "margin": 3.0,
+    "n": 678,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://backend.natpublicaffairs.com/media/Iowa_General_Election_Memo_101526.3.pdf",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 47.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 44.0
+     },
+     {
+      "choice": "Thomas Laehn",
+      "pct": 4.0
      }
     ]
    },
@@ -320,48 +370,10 @@
       "pct": 45.0
      }
     ]
-   },
-   {
-    "pollster": "Suffolk University",
-    "end_date": "2026-08-23",
-    "margin": 4.6,
-    "n": 500,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.suffolk.edu/academics/research-at-suffolk/political-research-center/polls/other-states#collapse-August-26-2026-Iowa-Governor-and-US-Senate-General-Election",
-    "answers": [
-     {
-      "choice": "Ashley Hinson",
-      "pct": 45.4
-     },
-     {
-      "choice": "Josh Turek",
-      "pct": 40.8
-     }
-    ]
-   },
-   {
-    "pollster": "Emerson College",
-    "end_date": "2026-08-04",
-    "margin": 3.0,
-    "n": 712,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://emersoncollegepolling.com/iowa-2026-poll/",
-    "answers": [
-     {
-      "choice": "Ashley Hinson",
-      "pct": 48.0
-     },
-     {
-      "choice": "Josh Turek",
-      "pct": 45.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 14,
+ "raw_poll_count": 16,
  "trend": "Stable",
  "signals": [
   {
@@ -370,13 +382,43 @@
    "races": [
     "SEN-IA"
    ],
-   "type": "podcast",
-   "source": "The Megyn Kelly Show",
-   "lean": "right",
-   "title": "Tight Iowa Senate Race, Trump's Women's Health Initiative, Elon's Billions Giveaway: AM Update 10/20",
-   "url": "https://www.siriusxm.com",
-   "summary": "Republican Ashley Hinson and Democrat Josh Turek are locked in a tight Iowa Senate race as early voting begins and President Trump prepares for a visit to the state he won by a wide margin in 2024. President Trump and First Lady Melania Trump announce a major women's health initiative that establish",
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Republican Women Hail Working-Mom Credentials to Boost Hinson in Iowa Senate Race",
+   "url": "https://www.nytimes.com/2026/10/20/us/politics/republican-women-iowa-senate-race.html",
+   "summary": "Senator Katie Britt of Alabama was the latest national Republican to visit Iowa to campaign for Representative Ashley Hinson. President Trump will follow on Thursday.",
    "relevant": true
+  },
+  {
+   "date": "2026-10-20",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "WOWT",
+   "lean": "unrated",
+   "title": "Election 2026: Josh Turek campaigns in Council Bluffs for Iowa Senate seat",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM0RZM2FqN0ZMMTFtNWFRNHRLOXJkWDByZ25BbUM1STQ3cGlKMUlxNjN5TnlrSFlDdkJQMl8tMklmcldnSHBxMDYzeklhZkpma2RSVDNoX0dINS1ncXF2R3FWRlRwQTV0eVpyd0VIbEdCZ0Q4MkdidEcyNE8ydDRpOUxmM1pOR3B6NjMtMUtLRlR6QzBBUkdLc2hoTjZSUlpn0gG0AUFVX3lxTE12ZVBpUmxTYzZwcm1JU1hSdGJRV3N1NExuVGx1N1Jvb0RRdS15US1JS1VDSVJwZnJTd0VLb05IR3M3ZEJybE5FazVPZWpDVzBheVpXQUFrMF9CS25GLURZYnIzMnRnMGFvUGIwNzYtUGZ0Z1M1b1E3cUFvZXZrSkdYS2lzZ1dGWGFqa0R1Ti1TVDRnaEZ3LW1ENi1HMzgtRzFBYlNKazNGaHYxNzdsMlZ1VHNqeg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "The Des Moines Register",
+   "lean": "unrated",
+   "title": "Outside spending hits $137M in Iowa Senate race. See the top spenders",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYlBRUG41cEFickx5ejZyS19LVTczem9ickdtUUZobnZxTEMtSE9TR3Q3RWRuRFBSQ2tiVUFITjExcEFmTnQ5bU4ydHdSaG41WVFjY2ozbmcydkFtSXpncmJtQkdRTGMtYV9Ea2NOZHJjQVRIeEJYSUp2aTNMQXNSMDY3blpjUy1wc1k1RkJISGp1QVpsWk0yNWV3WXFtRmNZellaaXZqcGYxdEFvb2RpMlpfMnNIYUtNYjVnZFRJYjlDTFRUdXdtY2V3WkxDWVJFY29mUjBaQUlDMzNLRXpBUXE1WmtuZWxpTlNLWQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-19",
@@ -460,6 +502,11 @@
    "date": "2026-10-20",
    "c": 0,
    "p": -0.5
+  },
+  {
+   "date": "2026-10-21",
+   "c": 0,
+   "p": 0.5
   }
  ]
 }

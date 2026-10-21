@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-17",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 4,
+ "flip_votes": 5,
  "candidates": {
   "D": [
    "Paige Cognetti"
@@ -142,23 +142,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-15",
-   "race": "HOU-PA-08",
-   "races": [
-    "HOU-PA-08"
-   ],
-   "type": "reporting",
-   "source": "Heartland Signal",
-   "lean": "unrated",
-   "title": "Bresnahan vs. Cognetti: What’s at stake in Pennsylvania’s 8th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR01zbEhfTi1wU01KN3c3blhNRTlBU09OdjFIemQtYzc0YjRVS3hkYWN1d1Y2el9pNk1JWjlxeFVfS0ljY1lyV2hHMkdqVDE2LXZzbkN0MTF1QWNIdjJQM29kcFRnaEljTUF1V0MzQmxrWXRyeXdyN2NBOWhCbFBxTzlQYmlfbFE5VjBPcmRlaTRCLVdCX1VoWnMtbTdPLVhfVVA3a2V6OWVNU0lGN2dndV9GV3JTU0l4NkVTXw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-08",
  "history": [
   {
@@ -208,6 +192,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-21",
    "c": 0,
    "p": -2.0
   }

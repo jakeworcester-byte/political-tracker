@@ -5,31 +5,31 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-20",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-20",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   }
  },
@@ -443,18 +443,64 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-21",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Jerusalem Post",
+   "lean": "unrated",
+   "title": "Abdul El-Sayed faces Michigan Senate race controversy over Hamas remarks by Democratic activist",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3YkFtQzhTdUJxYVNNWkdUNDNhNkNMRTdSNElXWU4wS2pBM3g2cG91UjhaZDMxY01jcXBLYmEzc3Nob0lmaUFVNFZwaEdzRFVlQ3Bxd2tpd3BzdEFsazQwa3IyMFg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Times of Israel",
+   "lean": "unrated",
+   "title": "Michigan Senate race puts Jewish voters at center of Rogers-El-Sayed battle",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXpEdzZoelFSWFE2dWNEaWw1Wm11cS1YNlpfSlZ6MmZMcTJONHNEMnpBM3VyV0RSMl95dVA5LTZRSmg2OFc2ZktoR1J0Y2QxdVgtOXJmVVVESk1tVEt5dFhGX1FYbDc0aHpPUTRNbWczdFFjbEEyRzJHUy1TaU5TQTk1QXFVb1llTVdCa3B0VDc3NkNaZXFvZ1hlZXNvMl9LY0ZGM080SENxUdIBrwFBVV95cUxPQnJLYWRhVkhQS2tiQzltRGJDclluZzR2VkFVT3d2dENPNXRvTjlSREsyYUdxQlExa083ZjZVQjVmTWtWUF9UZXhLLUxoeGlmTTBWSXk0NHRzbUxvYjdpcHc3U1VHb05yMkRLX3FiNEtHNmRNZ1lEa0N2eVVDVGVBN3lQd2xJMHk0WXZqUE5VR0pkTGVEZy03dWx1T29HTG9kUXpRYlVjY1ZXTFZJTHlJ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "CNN",
+   "lean": "unrated",
+   "title": "Democrats fear slippage with Black voters makes Michigan Senate race feel ‘far closer than it should’",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWUVQcmVOM3FtRnREakxpTDRDY1k3ZmRBWXhhX0NDRE5qbU14SUtnRUZCUnZkMVpTSG1Rd2JDMEdOb2UyYlZNNHJYZ3RaeUQ2MWljVWRONGZGUk4tcjJON0dyckt6R1FwVVFRS2VWV0VmRk8wTW9BUUtsZXJ2V1JpQVhETWN6LUlmcDhQYWN3YTZETlk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-19",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Michigan's Democratic Senate candidate Abdul El-Sayed campaigns in GOP stronghold",
-   "url": "https://www.npr.org/2026/10/19/nx-s1-6005195/michigans-democratic-senate-candidate-abdul-el-sayed-campaigns-in-gop-stronghold",
-   "summary": "Michigan's Democratic U.S. Senate candidate Abdul El-Sayed is campaigning in the GOP stronghold of Michigan's Upper Peninsula, an area that hasn't voted for a Democrat in Congress in over a decade.",
-   "relevant": true
+   "source": "Detroit Free Press",
+   "lean": "unrated",
+   "title": "Who's winning Michigan Senate race? Latest polls show tightening race",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYVpNUGRFNDlsY2NyZ0EzdTBMaWlCY2l0V3JLakxXM2djQ1JlZzZpemlERlRxVENGSERWM3RlUThlMFVmTE43ZjQ5ZWpaNlh1cVhkMG9UUGlqUFVwS2ZidlE2QndJaHlwNkh2VWdneXNMVXNQWnVaZWgxRDBMQm5KeDM5Q0R6bnFsUFJkOWRLcUQxVEVydHBBSUExaTZpbjAxLUFPeVUybGpPS28xZXlTMTdNZU9qYUE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-19",
@@ -478,55 +524,10 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "Yahoo",
-   "lean": "unrated",
-   "title": "Who's winning Michigan Senate race? Latest polls show tightening race",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWVpUcXVFNnFmT3Q0MkNhMEpYM0VjdDdWZkx0bmxhbEEzRjY4WExvd1FTUmNCMnJYUm9uTkFYYnJPMHAtREhUZHJKdzJNZ3I1TjVIN1p0MUJudjNxRUhySFFidE01NzhXM050dTFKZDZsQXpwZ2lVVTI0M2Z1UXJxTElHV09kNDNqMkk5aFVpMTJoY2Q1cEw4NQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
    "source": "The New York Sun",
    "lean": "unrated",
    "title": "Republican Group Invests Another $4.7 Million in Michigan Senate Race as El-Sayed and Rogers Contest Narrows",
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSjdwbWQwWFhkMDFsQ25rb1Mtb0RRVmhuZF84cllRWEgyVXljYUJ6bXp0dnNLS3EtMW14c05xSGZCLUJ2RG5YSHpOWVo3THZNSlVXaGxLZC04WXVDVXFseWhEcmpxd0stLTRoVmNfZ2xyMV9UVHMzX1UzUm96dUYzZ3dfbEVIR1BwWXJPX2JEeTN4dkRMblJCVkF5Wi1KNlgwZXd1VVNBVHhkV1NjVG5mTFVBNXFOVVlIcXVtNGEyVHh4V1IxN0JMSkc3RExiNnc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Grand Haven Tribune",
-   "lean": "unrated",
-   "title": "Bitter Michigan Senate race rattles Jewish and Muslim voters already on edge over the war in Gaza",
-   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNU3E2M1hqb0NjQ0xydWhOc3pHcm8wSW0xTVp1NXdOZm5YTTEtaG9BLXNSUWhmb3R6RTIzdmFkZ1A1aG5NY3kwNG9PWE55TUF0RjBiRV9jdjRUeUlLMmFWOVVhajRZdTBXNnFsWG9LYUFodkNNVXJydHhaSmJFNFlVUktxdUt3elNRbFdLRFh0SVozd3JycHhkQnZLNi1DSXUtaTdmcTYzejVIWDNaTURCNDNwOHk5QzAwV3NNZVROWlM5MF9uTHhkVFVCdl9jNEpISHpPN2lzX2JKM2xfZjQ2ZVQ4VzU3MzlSbHptSFJGSUJJdTJVWU5VUWFkQk5BeG1xZzQ3UkxrTHhxMTBwaHdWWGFTMTV5UQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "The Times",
-   "lean": "unrated",
-   "title": "Michigan Senate race polls: who will win the 2026 election?",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlBkeFVsVEVKY1hkRFVCdmxGWlpPUU1XX2NmQ0pfbzdaQ1pfZU9MalJIODJsLWotLVZUM1ZjbVFiMDlEcnZ2Q0ZUY3hhZGh6YXlSb3hVOVRIV203NVUyanZ5R3U2OWJHWkRwbUFudG4zZkZEWS1MZ1ZiMGRNR2tLM1M0NmY3VHhFNzEtTXVGTTc5YXZQdzRKc3pvSURhOHl1aENHWFZHd08xaHk0U01iN1JWZ2xHYlVQYzdMNTd6Zw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -581,6 +582,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": -2,
+   "p": -3.3
+  },
+  {
+   "date": "2026-10-21",
    "c": -2,
    "p": -3.3
   }

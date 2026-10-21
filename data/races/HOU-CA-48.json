@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -75,10 +75,10 @@
  "key": "HOU-CA-48",
  "name": "CA-48",
  "incumbent_note": "",
- "consensus_score": -2,
- "consensus": "Lean D",
+ "consensus_score": -3,
+ "consensus": "Likely D",
  "disagreement": false,
- "tracked": true,
+ "tracked": false,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 10,
  "candidates": {
@@ -142,7 +142,7 @@
   ]
  },
  "raw_poll_count": 1,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-48",
  "history": [
@@ -194,6 +194,11 @@
   {
    "date": "2026-10-20",
    "c": -2,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-21",
+   "c": -3,
    "p": -3.0
   }
  ]

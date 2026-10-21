@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-08",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 8,
+ "flip_votes": 9,
  "candidates": {
   "D": [],
   "R": []
@@ -89,6 +89,36 @@
  "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-20",
+   "race": "HOU-PA-10",
+   "races": [
+    "HOU-PA-10"
+   ],
+   "type": "reporting",
+   "source": "Heartland Signal",
+   "lean": "unrated",
+   "title": "Perry vs. Stelson: What’s at stake in Pennsylvania’s 10th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM2diU0ozbkVyeUdEZzNUYmtSY2NoWXQ0VmNjUmdfc0pOb01fSTZLZW1Xa0pPdkVOM1J0ZDdBZWdxdm93SGNiNGJpTl94cFFOX3RRNG1PRV9KOUt6Y1FtZU1IbUVvNHpIV2w1SGxyRHhfZmV3YUZvdm41N0d5V29XVG95VllNYVE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-18",
+   "race": "HOU-PA-10",
+   "races": [
+    "HOU-PA-10"
+   ],
+   "type": "reporting",
+   "source": "Foreign Policy Journal",
+   "lean": "unrated",
+   "title": "Poll Shows Democrat Janelle Stelson Leading Republican Rep. Scott Perry In Pennsylvania's 10th District Race",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWHplYkVTWVRWbTBTcXZsdV9VMW5PZHhrN0FsYXg0a2JyRENuZS1ERm9MQmxHYVZwUjU1UGNacWZmc05UR291bWJ3VkJIejgzUEk3eVVHblNrT0FfV1VTZXRfVWFSYmw4YWU3SEt1X0Y5Q2FmSno5MGxuNWxlLXFRMmNPdmRCWEM4Vk9YWWVNRE53ODZjeXBHcnJPZy1XRGt5MmUxYm5XbnYwYndVeVh1XzNzaFplY25YUm53cTV0R0thY2VSbEVFNDc2YnlJZFRfaWxmUllGcVFDQ1YtRGoxcUFlNHEtcmthNVE4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-17",
    "race": "HOU-PA-10",
@@ -184,6 +214,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-21",
    "c": -2,
    "p": null
   }

@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -157,21 +157,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "HOU-FL-27",
-   "races": [
-    "HOU-FL-27"
-   ],
-   "type": "reporting",
-   "source": "CBS News",
-   "lean": "unrated",
-   "title": "Maria Elvira Salazar, Eliott Rodriguez and the issues they campaign for in race for Florida's 27th District",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON0JwRTFLRG5RQVBlNHFVenZUQTQzYzktRU5UQU1KMHZkalB5d2lnR0VJTjZ3NDA5RVBqWlhqTExTVzdGQjF4UUpNSGlXd3NZYXlBR1hmTkR4Y1BYUWpRaWs5Rklac05WeEFIRXZ4d3JLR1luTkZEa0FqNmVJbkZjQUNTTkpIc0tVZ2lJSHNIWjYzbFpncjJMeTMxT2FVUnpsVHF6aXYwb19BeVkydURrQ09RT3ZVNWJaS1dN?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-27",
@@ -223,6 +208,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-21",
    "c": 2,
    "p": 1.0
   }

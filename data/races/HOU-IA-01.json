@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -152,46 +152,91 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-21",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "KWQC",
+   "lean": "unrated",
+   "title": "Iowa 1st Congressional District debate: Healthcare",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR1JVQ0FYRXhpbC0xZXVPNEhoUUcyd0t0eUhKd21NcjZiT0g3VGRjNWhWcmdUZVIwYUVEZ2xuN3pRWlFqdDJzeEFrcUFramlGS1JwVzQzWFd3blVOSWxJdTBsS29RMTgyb0hZQ0JSNGkyLTMzVlhLR0ZrY1JlOTN2d2x3TEZnQzd1aGlJSngzMEpGUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "WQAD",
+   "lean": "unrated",
+   "title": "Miller-Meeks, Bohannan debate ahead of much-watched House race in Iowa's 1st Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNWU13T1hrQ0dHLU9PYmRDdkYxMGEwbHZsX0FBb0tPUlhmRFd6SmpDTklMR3plU3NqNm02NW10clVMNTE3dWtiVDNPUzMzNzdhMERleU5wdjM3SUdydFpaOWlZZHlOb2VyZDdfLWZoYjJNWWNNYkU5aHpJU3RWemVrRW1yT0pTTWxoNDFaYWJjaHFzZVZsZ1FiMkhheVgzSFBZbFQyUUt0Y2VBU1BaczFONEEySnEwZnZ4Nk1EZUtRbm1jUFF4YXdidTdpaUV3SVp5ZDlVYkZFU0ctaUJ5N2RrMFhSb0RjSkNfWkVlemlEU0I2MlNLeEtNVDZ6SnE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "Radio Iowa",
+   "lean": "unrated",
+   "title": "Two candidates in Iowa’s 1st congressional district debate",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb1l5RDFMeDJ1cktsTEtBcnhzYTU5ZHhhZjhZNFpZMWhQYnRIVzZZYzdCTHZSTm1TSm1RWTl6NW9lcWVsbGJJVkx2WWhQbDNadFlMd0h1UkpTVEFIajJtSDdmNGJWR2dLMDVoWGxHeEdEb0FqUnRiRlNXZmI3TDVVWm9pczlGRGhUSXR6cmVoS0lFOGV0RWV6OFFiQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "KCCI",
+   "lean": "unrated",
+   "title": "Mariannette Miller-Meeks and Christina Bohannan debate for Iowa's 1st Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYnVZWWREbkhSdDV0MTdibmhXUV9IcFJ6U3pzZV8yM2JmejNGeWpQOHEwVFJ3dFd4dUdxckdRaUNHVjBfU1FTcS1Wb1NhSVROZ056YUljRTlzN3hWOEx3YnM3OGV6WVhPQWkyVUpXUl9fRDc1c3hveGYwNnh1VGU2eFg0NkdUdmJudzVLb3I1RkRCbjFWUm9KeXBVdUJCNTBNRHRIRDhoZkRGNUYtRDBKZlZEd3pNQlBPV0hfc05rWVlwZnkyR2s3UA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "WGEM",
+   "lean": "unrated",
+   "title": "Iowa 1st Congressional District debate: Opening statements",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcU1BWUdHeTVvZ2FWb0tFZ0JqV2xLTkZrdHBFS1d3QjdQdjZrbHFGYlZZUzVjV2VTU21WZnp6aFVOd2dqSEhXN3dYaEk0TkRnbTJmVTNpckwxV2FLZmh0TzZ3eUxRdkpXN2ljaWZpem5TSHhmZUlBUHROTnd0eDBlMlpxMVV0UW9DeVd1MVJPOW9pYy02SS1xZnFnUVU?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-20",
    "race": "HOU-IA-01",
    "races": [
     "HOU-IA-01"
    ],
    "type": "reporting",
-   "source": "Heartland Signal",
+   "source": "Iowa Public Radio",
    "lean": "unrated",
-   "title": "Iowa’s Miller-Meeks seeks reelection in a district where she neither lives nor votes",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaE0wejNQaTRLcFVQTjA0NUh0RUU5WWF6Ymo5VnNsTTA5YmNsU1pQd0hGZGhzQmJzakdIY3QwdS1TX0IzQklDbnJuZXFkU1dvWFBLRmdjYXdYUGpweXB1UjJZTFAydGxHTEZEVUtWLVlBdnB3YjRSdUhZTVB6VDZ4QnQxZEhBM0doaVg5T2FNNDNUWUdZVDM4NjN3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "HOU-IA-01",
-   "races": [
-    "HOU-IA-01"
-   ],
-   "type": "reporting",
-   "source": "The Quad-City Times",
-   "lean": "unrated",
-   "title": "Election 2026: Iowa’s 1st congressional district - The Quad-City Times",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYlFrVmNtWFBPa0IzU2JuUXlLVF9PdEMwUU04LXhUY0xrSHEzRUJZVnpwNXg0WWZJdWhHOGYtVDB0aTc0R21uek5iMTdoUDl2SDdkU1NjbDJabDlFQTNSZ3JVY2M3TjVmcGlWd0JqQVB3QjhKOWlLVlBQZ2g2R2M1b3l0SS12SVAtSXVFN1BQUUNFblo3dnJrYXM1blh6Tnpod2ZWd3cyYmVlSjJPSk5xSzBlVQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "HOU-IA-01",
-   "races": [
-    "HOU-IA-01"
-   ],
-   "type": "reporting",
-   "source": "The Des Moines Register",
-   "lean": "unrated",
-   "title": "Miller-Meeks, Bohannan Congress rematch unfolds amid rocky Iowa economy",
-   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNOHo3c1BuX2JIc0ozR2V1M2pFUTEyQ3FTOGdfS2lQUkM1QUwtcUFZeUVQbzFwTUxJZ3JiZHg5NWxzSXpZcnVQOE1mTUhXR2s3RFFrZGphb2Y0S0hBX3I3QlFRR29JR1BxYWRzT2MwMDUxUGdkWHA4TGxMWkdIcEVsYUlwQV9fZ21kNmdCUHUxMjAxMlpOSkFBajdWeGlqdUtKLXd3a1ZueHl4ZlpIU0pHaUJIMW8zT1FWYm9MV1Z5R2twcjhpRkNnNllRUFZ2bGJfWjF5TkZQTXpxY2NHR3BxcmxUSGpleEVuZnhBS2hLVDRnTmotTkVlQ2ZISXBKNlUt?oc=5",
+   "title": "Rematch for Iowa's 1st Congressional District sees fresh obstacles, third candidate",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSEV5OEUtRG5XelZiSzBsQ093bFl6Z3YzU0ZtWThTWGplcm04TU1zclJPUWJtdkdFRksxVXBsME9XNGs1UDIzLUZHZ1ZTMEUxek9hRkk3Z2dRMm51UDFrY2RUZy01UjcyMllhTU9qLUtKRE1EVnlrZTJlYnVBNllDd0dCbzJTUU9MRWpEUVRpb2RmSUZvTDZRMVVNSE1vdm1kZGI3am1zS0VSTzIwVjUxSTh4ZkJlb2dOaUwyckt3Y1Zudi1uMVN5Tl9PdE1BREl1M1VyT3RsTQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -246,6 +291,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-21",
    "c": -2,
    "p": -5.0
   }

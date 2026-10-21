@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-19",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Colorado 3rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeTQwM1ByRWFyd1c1VTZLaExGcVJ1NXBSWFlIT0FGU0hKZ1k2RmRHWUhZRzZrRG9iMHM2V0c5dUt1YVN0VXNvQ19wTXN1bmtTQkRIa2VyaVphOF9UQzBCckhKT1lPOVd1SWFjWjd2QjNNRnJQVkpWYVJKRmdZNTJzQTh4RQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-03",
  "history": [
   {
@@ -138,6 +154,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-21",
    "c": 2,
    "p": null
   }

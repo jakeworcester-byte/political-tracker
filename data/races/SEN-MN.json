@@ -3,33 +3,33 @@
  "label": "Minnesota",
  "ratings": {
   "cook": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-20",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-20",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   }
  },
@@ -81,10 +81,10 @@
  "key": "SEN-MN",
  "name": "Minnesota Senate",
  "incumbent_note": "",
- "consensus_score": -3,
- "consensus": "Likely D",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
@@ -288,8 +288,69 @@
   ]
  },
  "raw_poll_count": 6,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward R",
+ "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "The Washington Post",
+   "lean": "unrated",
+   "title": "U.S. Senate race in Minnesota moves toward GOP in new Cook rating",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnB1RGJieHVvWGxMV2RjOXhqOWpaN3cyV1NIYm10TGRaTkZkeFR2cFdiNjhOUklqUEFFRlB2aG9JamRKRTZYWHVVekY5dGF1MmRXeDZzTThqX09ZSW1xWFRDXzNBSGVCUkZhczVNdW01Wm5LaTBvU2RKbzhUdjJzWXFkYXZEeHQ2d1kxc3FQQlBrYmNraXdCS3loOUZFUU1PMHhnYzdqTGdOdmhYUVE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "MPR News",
+   "lean": "unrated",
+   "title": "Mining, labor, partisan shifts collide in critical northeast Minnesota Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRV8wYk5jV2VGLXllSjRDbUREYm1PNmQ5WEVvcFhEX09ISm5fWk9kQ2QxWHNHeW1Sa2lHTzlXcENBY1lnaXZpSno1MWhwYTVfVjQteTlOQ3dfcGJTc1B5STdDR0JyTVhxN2NsMzU3eWl2bjJHUHJSSmhVa2VqSEtxbWpXb0xyT0Jubk1CLVp6NFpvUzgxUFctZDBCdTIzVF84dmt4b1J3UUJyMzNZNnpKeVJrd29UQXFiRXV3dEtBZ1A?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Minnesota Senate Primary Election 2026 Live Results: Tafoya, Craig, Flanagan and More",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmFiQnRuLWtOaW1sZ010dkpyd2NyN19pNkU0SFhlcXBSeWs4SkFrbUFibHE4MF9MNVliLTZ6QWJkM2N0OVZZYjY1andZLW1ZeFlqSlFQWTRYZlJXODFpOFhKalJxNHA2V2JuSjgyUmpyd1dWNTdlVmxtaDRSVE5KM05PSHVqREE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-17",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "NPR",
+   "lean": "unrated",
+   "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CVnE2LTEybkRwTi0xMjlfV3FBMkJCdVJLSkdVNF9xSnQ5UVRoZndTa0Nrc3V3WmQxeFBYSDJrTXp6c0FfREhEQW54am1aZWhOdFhNSmZ3X3ZJbHVJclN2RjZyNHRRN1lJODBGT3ZRMThUdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MN",
  "history": [
   {
@@ -340,6 +401,11 @@
   {
    "date": "2026-10-20",
    "c": -3,
+   "p": -4.3
+  },
+  {
+   "date": "2026-10-21",
+   "c": -2,
    "p": -4.3
   }
  ]

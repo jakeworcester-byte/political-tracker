@@ -5,31 +5,31 @@
   "cook": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-20",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-20",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Likely D",
+   "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   }
  },
@@ -92,7 +92,7 @@
   "R": []
  },
  "poll": null,
- "raw_poll_count": 19,
+ "raw_poll_count": 20,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NC",
@@ -144,6 +144,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": -3,
+   "p": null
+  },
+  {
+   "date": "2026-10-21",
    "c": -3,
    "p": null
   }

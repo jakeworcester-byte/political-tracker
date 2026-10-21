@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-17",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 2,
  "candidates": {
   "D": [],
   "R": []
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-20",
+   "race": "HOU-MI-04",
+   "races": [
+    "HOU-MI-04"
+   ],
+   "type": "reporting",
+   "source": "Heartland Signal",
+   "lean": "unrated",
+   "title": "Huizenga v. McCann: What’s at stake in Michigan’s 4th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa3UwN0t5WWV4emdHVzBGV2dOSDFYdThGNWlrbDhIdlgyWFM2NDBtNUt3RC1KcmNQMllTTGhSR1ZMU3FCLWFiTHNhZ0J1ZmtVQ0phYk9rSkR4WWxtaU1xdjJJeWRwMk9zNnR1NEVRVFhYUUJlenRNVWxCMzYyQ2w5VGhMOWhTN1E3RmpaNW5OcjJtQWVpUXc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-04",
  "history": [
   {
@@ -138,6 +154,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-21",
    "c": 0,
    "p": null
   }
