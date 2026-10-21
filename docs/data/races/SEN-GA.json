@@ -5,31 +5,31 @@
   "cook": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-20",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-20",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   }
  },
@@ -96,33 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -9.6,
-  "average_label": "D+9.6",
-  "n_polls": 3,
+  "average_margin": -8.4,
+  "average_label": "D+8.4",
+  "n_polls": 2,
   "window_days": 21,
   "latest": {
-   "pollster": "Wedgewood Polls",
+   "pollster": "Quantus Insights",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-02",
-   "end_date": "2026-10-03",
-   "sample_size": 600,
+   "start_date": "2026-10-15",
+   "end_date": "2026-10-17",
+   "sample_size": 755,
    "population": "lv",
-   "margin": -10.0,
-   "margin_label": "D+10.0",
+   "margin": -6.9,
+   "margin_label": "D+6.9",
    "answers": [
     {
      "choice": "Jon Ossoff",
-     "pct": 55.0
+     "pct": 51.8
     },
     {
      "choice": "Mike Collins",
-     "pct": 45.0
+     "pct": 44.9
     }
    ],
-   "url": "https://drive.google.com/file/d/1ztqd_FYClBh1OknXwKOqi6zJXxECcqDK/view?usp=sharing"
+   "url": "https://quantusinsights.org/polling/f/georgia-two-weeks-out-ossoff-ahead-down-ballot-near-even"
   },
   "polls": [
+   {
+    "pollster": "Quantus Insights",
+    "end_date": "2026-10-17",
+    "margin": -6.9,
+    "n": 755,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://quantusinsights.org/polling/f/georgia-two-weeks-out-ossoff-ahead-down-ballot-near-even",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 51.8
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 44.9
+     }
+    ]
+   },
    {
     "pollster": "Wedgewood Polls",
     "end_date": "2026-10-03",
@@ -258,7 +277,7 @@
    }
   ]
  },
- "raw_poll_count": 7,
+ "raw_poll_count": 8,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-GA",
@@ -312,6 +331,11 @@
    "date": "2026-10-20",
    "c": -3,
    "p": -9.6
+  },
+  {
+   "date": "2026-10-21",
+   "c": -3,
+   "p": -8.4
   }
  ]
 }

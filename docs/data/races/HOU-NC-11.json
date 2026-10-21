@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-08",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 2,
+ "flip_votes": 3,
  "candidates": {
   "D": [],
   "R": []
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-20",
+   "race": "HOU-NC-11",
+   "races": [
+    "HOU-NC-11"
+   ],
+   "type": "reporting",
+   "source": "The Mountaineer",
+   "lean": "unrated",
+   "title": "A tale of two farmers: Ager, Balkcom compete for NC-11 seat",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlpnSVpVREt1Z3ZKd1MxazhhOUhUWWF0UXZnNVBURGFGaGFNMldqRTZBZjFieGIxNXRNVlM2alM2eF9GLVVORUk5QnVxblJERzM1RDgzQm85T1RsbS1qbzZYdFJzWS1vOE85NkRNVExSS2Rxb0NMb0lCX1pLSjR6NGtVVVMtUklEM2lrZ0lVN2dWSnhDWFBqS2tNOTFBSEdBSklOSGViSWdhdzZuVW1weTBCVnhmenROcUEzOEJJTGFDdkhWYXhkTzVGX05tazFpWnBNZ3k2MFIxVjg1RmsxMG9sbw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-19",
    "race": "HOU-NC-11",
@@ -130,51 +145,6 @@
    "lean": "unrated",
    "title": "Ager well outpaces Balkcom in NC-11 fundraising",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVDN6eGYwcVpIMnZlUUh3ZEZ6VmVrZWtfQTFEZ3NSczlUTDFsOVU5U0Y3Z1Z2aVA2T2VZeFczdlhBVktmMkV5QVRuZFFYMWhpcks2cWNYYkxkeHE5TElVa3N6aG1UODZXSDlwT2M3TXNzY2duMm5jeW16ek5LVlREMkJRYWJMeHc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "HOU-NC-11",
-   "races": [
-    "HOU-NC-11"
-   ],
-   "type": "reporting",
-   "source": "WLOS",
-   "lean": "unrated",
-   "title": "Know your candidate: Jennifer Balkcom for North Carolina's 11th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZl9iSFlhSkVLUFJ6VnVRWjhKR2JlZGVGaGFiM05mdGpHNlJCWE5jRUo1b1gwQkFqNTQxZDhrMWNySEUyMVlzLS1TMU5GTHR6VFlpV1VHY1ByS1B2eGVCQUU1MjZoNFpLaEt4aXE3bE02VmhET2w4SXVRWmVsUXU1aXFuemg2UUVpeDU5akEybGlkRVhSUVY4VGpkVGRmTGk4YlZfX01senlhMm9xZDNWc2lR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "HOU-NC-11",
-   "races": [
-    "HOU-NC-11"
-   ],
-   "type": "reporting",
-   "source": "WLOS",
-   "lean": "unrated",
-   "title": "Know your candidate: Jamie Ager for North Carolina's 11th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE9fN3NmQjAxejk2czRLUTJyc0pSSFFLaWtPYTQ3M2pBWThXOVJwMU5ydjFiZ2doeTI2b1BabXI3MzFrbXdSQVhld2N4NHZvck9DVXBuenNUTHZnRGliWEdUUlFvLUk5cWdvNmx5ay1TbEJmMXJRYzRyTGg0ZWpXanhVOUFxS2FfU1R1QVpCRDNscWptX3FvR2RJUFBrMWZLY1JQZkpndw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-15",
-   "race": "HOU-NC-11",
-   "races": [
-    "HOU-NC-11"
-   ],
-   "type": "reporting",
-   "source": "WLOS",
-   "lean": "unrated",
-   "title": "Know your candidate: Travis Groo for North Carolina's 11th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTnNiNzVzb1lqaDFIdVNIemhHYlVZY3BaLVpyczZDdnN2a3BCY2tFcUpHang2RVpsaUpLT2paUzhSNGQyTHo0UjNGTEJ0Rm1LUkdNdWlHT2VQU25IWVA5UzZVdmVlLWlDYmhLcTRITEJuSVNJODBuYjFMMldhSWtuUXFpTnc5Mm81OGNuekxSUG56TTJEeWVrWVFmRVd0Qi0zX1JPd29YUkx0eUM2?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -229,6 +199,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-21",
    "c": 0,
    "p": null
   }

@@ -5,31 +5,31 @@
   "cook": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-20",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-20",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   }
  },
@@ -96,37 +96,62 @@
   ]
  },
  "poll": {
-  "average_margin": -20.0,
-  "average_label": "D+20.0",
+  "average_margin": -21.5,
+  "average_label": "D+21.5",
   "n_polls": 2,
-  "window_days": 45,
+  "window_days": 21,
   "latest": {
-   "pollster": "University of New Hampshire",
-   "sponsors": [],
+   "pollster": "Embold Research",
+   "sponsors": [
+    "Salve Regina University Pell Center for International Relations and Public Policy"
+   ],
    "partisan": null,
-   "start_date": "2026-09-17",
-   "end_date": "2026-09-21",
-   "sample_size": 598,
+   "start_date": "2026-10-05",
+   "end_date": "2026-10-08",
+   "sample_size": 815,
    "population": "lv",
-   "margin": -20.0,
-   "margin_label": "D+20.0",
+   "margin": -23.0,
+   "margin_label": "D+23.0",
    "answers": [
     {
      "choice": "Jack Reed",
-     "pct": 53.0
+     "pct": 55.0
     },
     {
      "choice": "Raymond McKay",
-     "pct": 33.0
+     "pct": 32.0
     },
     {
      "choice": "Michael Bahry",
-     "pct": 5.0
+     "pct": 4.0
     }
    ],
-   "url": "https://scholars.unh.edu/survey_center_polls/1009/"
+   "url": "https://salve.edu/news/news-listing/pell-center-survey-foulkes-leads-governors-race-11-points-lieutenant-governor-contest-deadlocked"
   },
   "polls": [
+   {
+    "pollster": "Embold Research",
+    "end_date": "2026-10-08",
+    "margin": -23.0,
+    "n": 815,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://salve.edu/news/news-listing/pell-center-survey-foulkes-leads-governors-race-11-points-lieutenant-governor-contest-deadlocked",
+    "answers": [
+     {
+      "choice": "Jack Reed",
+      "pct": 55.0
+     },
+     {
+      "choice": "Raymond McKay",
+      "pct": 32.0
+     },
+     {
+      "choice": "Michael Bahry",
+      "pct": 4.0
+     }
+    ]
+   },
    {
     "pollster": "University of New Hampshire",
     "end_date": "2026-09-21",
@@ -194,7 +219,7 @@
    }
   ]
  },
- "raw_poll_count": 3,
+ "raw_poll_count": 4,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-RI",
@@ -248,6 +273,11 @@
    "date": "2026-10-20",
    "c": -4,
    "p": -20.0
+  },
+  {
+   "date": "2026-10-21",
+   "c": -4,
+   "p": -21.5
   }
  ]
 }

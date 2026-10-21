@@ -5,31 +5,31 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-06",
+   "as_of": "2026-10-20",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-20",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -39,9 +39,9 @@
    "name": "Inside Elections"
   },
   "nbc": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   }
  },
@@ -194,6 +194,65 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-21",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "podcast",
+   "source": "Ruthless",
+   "lean": "right",
+   "title": "The Good, The Bad and The Ugly: Midterms Update",
+   "url": "",
+   "summary": "Ruthless breaks down the good, the bad, and the ugly of the midterm elections, from shifting Senate polls in Ohio, Iowa, Kansas, North Carolina, and Georgia to the latest controversies surrounding Adam Hamilton and Troy Jackson. Plus, Kalshi CEO Tarek Mansour joins the progrum to discuss prediction ",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The Washington Post",
+   "lean": "unrated",
+   "title": "Analysis | Here’s what’s making the Kansas Senate race so competitive",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUnlyQktfa0NpVVJ2akROb2hCdG5lV0YyT3d0T0k3S25TMGVNaEhlTGktR1QzTVZ6bEFGY0cxZk9fTk5tZE1LenFscl9yVTlSYUswSTRzXzRDY3VjZlVqVUNBNEo5QUtGV3FuV284bl9kcl9weXJXQjBqWndMVmpWUlJpNkdveWVJNW9ISVNkbV9HN2dfZEhCNjd6S2EtdXBBRzNMRkVIWUNCcUE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "PBS",
+   "lean": "unrated",
+   "title": "How the Kansas Senate race became surprisingly competitive",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tOTFaamE3STA5UHBpbmRzMG81bTRBX0JqZi10RTZEVnMyZEVDNVVmRGY5VHZjVEZNaEpfbnlud0NKWWZjZlJxQ3ExcWFKcWwtN2FRZnJab29Venc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Marshall, Hamilton set to take debate stage in tight Kansas Senate race",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR1NyWGVmN3kyczF5ZzVzNWNQU1dSVVhWcUs2NHZzanhHVTZwT21VWW9ZbXdzOVRFaEpoQjlic0lHaHBlOTR1bzVqVzVPQ2lVYWFOTG0tZDVWV2xaV3FFOHFraWd3UmVlUi1XV2NkYXlXclVrVTE3emd1bG5kVnNqRXZueDBhNlY5LXBFZTJB0gGTAUFVX3lxTE0wM1U0WHl1UVFPOEFkLTBHUlp5cE1yZWxFcVhFUFhOdHdTWmpYSXVxa0hBNHg1ckNSaVo1X3NQVkhqV1ZxSHhZWjlOalo5R1dJcXhUdzJ2TV85V3pQSGFmTV9KYmN2MmNJeXpHY3hsWHRtTVBYYWZUSnlyNE05X2xNMDZaaHBaS2RMVlBQMkZNdW41RQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-20",
    "race": "SEN-KS",
    "races": [
@@ -214,25 +273,10 @@
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "The Guardian",
+   "source": "KSN-TV",
    "lean": "unrated",
-   "title": "Kansas Senate race on a knife edge as Democrats aim to end 94 years of Republican dominance",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2p0aDR6czF0VkhTYkZRUWthZ0RZdGV3bVUwMWZZVzVuRUx6cVZjSnVocnRmME40YUd4MFZIY3Vka3dQZDFrcEJ3QVF4c2xmR0xDclc5c0dBQWI3czBxdmNBV2FESGhibGtyNUxRRFZuZ19JUW15OGFYYjNuczg2LW14VWNrRF9hMVZ5MVZwaVVBUnM?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-20",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Kansas Reflector",
-   "lean": "unrated",
-   "title": "In Kansas rally, Trump defends Marshall’s record and calls Hamilton a ‘disgrace’",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdFJtX0wtYmRpRk1GQjZtM2ZUN1gyQ3d5ZldveG5pRGhfV05GN2wxX2FfU3NJOXNvQlNCRUZ4Y1dHc0lyeE1ySzNkdXJoTk9MRVNsanhCTEJnTnFpX1dNV1JkSk9hODZTWUdjcFVUVVlWN2NHX2VuZUM5dXJLYVBEel9GQk9rZ2M4YXZRTFJ3aFBXY0FUUFltOUdScUFvRjk5M0xpYVJzTDRzUW0tSUs0SWV4cXJnd28?oc=5",
+   "title": "What polls say about Kansas Senate race before Marshall vs. Hamilton debate - KSN-TV",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd0Ezc0RXUElvaTV2ZGtMZUFScG8wbnEyb29qWlBoYWEtVWwtcjl2YUJPVVRYbEJjYUtHRThkRi1ZTEV6Q2tWU1R0Uy00T2dQeWJZNTJralFGcW5wS3hYMHB2WVJMT3lnbURsZ1lVaVpGTlV3dVV2UjdCU1dKelVzNVJqTUxUWU5aSUNyRFNQQ1VGNE9TcU5jcjZkM3k0b2NhdVdoTnhaOTNYM1hjZlFPRG5BaFNLOE5PT0RuZmRCdmjSAcYBQVVfeXFMTl9wQmU4aDM5OG9MTE9UeFA4SzFlVkxjYTAwenBTSjV6M3ZNNzJmVkJvdmRKTlMzSXAwU0FkcU1ZMDkycWlIamxGODdKU3o1RldheTF3ZFJiOG9QOFp3cjg5cDAtYzRZV3dsU01ubms2Y3VsMzJQY2VBVGpRNVVidkJyQlRUeXU1T0EzdkNWY0MtdmJ0c3c3REpFUGNIdGZmdjA5cFBfd0xLR1BHVnlRWHIyUFZkYlkxTFcya3dWOHZGQzl5TGlB?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -244,27 +288,13 @@
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "Fox News",
+   "source": "CNN",
    "lean": "unrated",
-   "title": "Kansas Senate polls show dead heat as voters cite economy, borders",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tRjBpLVR6VVJwSnZoYmFBYmJ2Vmxtd3hqVm5GWVlJdHRpeVBBRVpoYmZTbTllUWtaZEZTUzhqUXotMURRWm1WZmItMFpLMV9BbXBxMFR3?oc=5",
+   "title": "Hamilton and Marshall locked in tight Kansas Senate race",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWXpROWlUaDdtOVItQ0w2bnFVa2ZiOW02LTVPV2RIR2txVm5HMW95ajh0TUI0T3lqWmc0ZHBJSzJTVUNsaVFGTjV5ajNDR2xGV3o0YnlJaWVDbHBYdU05UHduZFZ3ajZ1VlhVakRNazZYQVFXdTRFekIyLUZ4T3l5azVqYw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-17",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "In August, Kansas GOP Sen. Roger Marshall said he was set up “quite nicely” for reelection. But now he finds himself in a tossup race in a state that President Trump won by 16 percentage points in 2024",
-   "url": "https://www.wsj.com/politics/elections/kansas-senate-election-trump-roger-marshall-d17319e5?mod=rss_socialpoliticsfeed",
-   "summary": "With Trump’s help, Kansas Sen. Roger Marshall scrambles to fend off a surprisingly strong Democratic challenger.",
-   "relevant": true
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-KS",
@@ -316,6 +346,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-21",
    "c": 0,
    "p": -0.5
   }

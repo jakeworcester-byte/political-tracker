@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -77,16 +77,76 @@
  "incumbent_note": "",
  "consensus_score": 3,
  "consensus": "Likely R",
- "disagreement": false,
+ "disagreement": true,
  "tracked": false,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Kristina Knickerbocker"
+  ],
+  "R": [
+   "Mike Turner"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": -3.0,
+  "average_label": "D+3.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "DCCC Targeting and Analytics Department",
+   "sponsors": [],
+   "partisan": "DEM",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-13",
+   "sample_size": 535,
+   "population": "lv",
+   "margin": -3.0,
+   "margin_label": "D+3.0",
+   "answers": [
+    {
+     "choice": "Mike Turner",
+     "pct": 44.0
+    },
+    {
+     "choice": "Kristina Knickerbocker",
+     "pct": 47.0
+    },
+    {
+     "choice": "Thomas McMasters",
+     "pct": 4.0
+    }
+   ],
+   "url": "https://dccc.org/dccc-polling-memo-knickerbocker-leads-turner-by-3-in-oh-10/"
+  },
+  "polls": [
+   {
+    "pollster": "DCCC Targeting and Analytics Department",
+    "end_date": "2026-10-13",
+    "margin": -3.0,
+    "n": 535,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://dccc.org/dccc-polling-memo-knickerbocker-leads-turner-by-3-in-oh-10/",
+    "answers": [
+     {
+      "choice": "Mike Turner",
+      "pct": 44.0
+     },
+     {
+      "choice": "Kristina Knickerbocker",
+      "pct": 47.0
+     },
+     {
+      "choice": "Thomas McMasters",
+      "pct": 4.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-10",
@@ -140,6 +200,11 @@
    "date": "2026-10-20",
    "c": 3,
    "p": null
+  },
+  {
+   "date": "2026-10-21",
+   "c": 3,
+   "p": -3.0
   }
  ]
 }

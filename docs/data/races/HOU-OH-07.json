@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-17",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 2,
+ "flip_votes": 1,
  "candidates": {
   "D": [
    "Brian Poindexter"
@@ -183,16 +183,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-20",
+   "date": "2026-10-19",
    "race": "HOU-OH-07",
    "races": [
     "HOU-OH-07"
    ],
    "type": "reporting",
-   "source": "Monterey Herald",
+   "source": "AP News",
    "lean": "unrated",
    "title": "Ironworker challenges Rep. Max Miller as the Ohio congressman fights to hold seat amid abuse claims",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE55T20yUVV4czRQYnJ2Q3pLR25lRERCZE1vOWJOU015ZkQ2aHFhRGliNUVhYmQ1X05uOE5remI4WFl1MzdFZlVneVNJZW51cFZMX2U4MVA1d0dxampoUVpNc0NxU3JsemNiM3BHVVJLVk1ybjhFVFFvZU9R?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQemNJU3ZUamZUVzVoSVBXYnhHZE42T1F5Q2F1T2M4TGc1NzZES0lMSWdCa1F0dnFwOFlERjJlUU04M3Q2SE9odGV0eVd3WDhjRXpVbDZWVmVGWjZrRTlIc2VWSzY1eHdfbnlsdUlRcHk2cnZvdEh6a0FmbUNXOXd5TTA4S0lHSGNSeENUUV96Y1dQQUhQbExqd0JkU3pkZW1QdUNEUg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -292,6 +292,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-21",
    "c": 0,
    "p": -7.0
   }

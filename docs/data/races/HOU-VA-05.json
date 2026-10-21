@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -142,7 +142,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-19",
+   "date": "2026-10-21",
    "race": "HOU-VA-05",
    "races": [
     "HOU-VA-05"
@@ -152,6 +152,21 @@
    "lean": "unrated",
    "title": "Virginia 5th Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnJxRlRWaDl1NnYwOU95V3VsX1Z1UllDZmFFOVkxNXZPWWRKeVNXYkxFT1RrTHIyQnJkQlhCMTdjRmhGMzdhaVltNmpUenAxM3NVNGFrMTRqODV6ektySVROcHBHUlBKMWR5R3RwTXF4OHRZdlRVS083dmpOMTBNblBwVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-17",
+   "race": "HOU-VA-05",
+   "races": [
+    "HOU-VA-05"
+   ],
+   "type": "reporting",
+   "source": "Cardinal News",
+   "lean": "unrated",
+   "title": "Perriello holds 2-1 cash advantage over McGuire. He's the only Democratic challenger in Virginia with financial edge.",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTDFyaDhQRnM0TkNTN1ZlZE9oQVV3bFV6dE40bV9PdktCQmp3dnExcWp1THdPMmt4Sm02ZUxhcUJSdE85cmR3M2tnbUV0MFFmaW9TTzBadGU4RmNGbFYxYWNleksyWDN5R0tMNkx5RmxpeEVVSm9OWnc2SmFramRQR1J2Mk1GZFNFclh3eDBZd013dEkwSUYwV2dhWHNTSGMtdkpwV1U5eUp5bnhvOXI0YUxTWHJZMVRXdEE0OUVTbnBfdkh0QmhIZmd6MFBOVzRnUmNpVEEtWjFha21FYV9jQg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -206,6 +221,11 @@
   },
   {
    "date": "2026-10-20",
+   "c": 2,
+   "p": 5.0
+  },
+  {
+   "date": "2026-10-21",
    "c": 2,
    "p": 5.0
   }

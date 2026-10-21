@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-08",
+   "as_of": "2026-10-20",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Lean D",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-17",
+   "as_of": "2026-10-20",
    "name": "RealClearPolling"
   }
  },
@@ -75,8 +75,8 @@
  "key": "HOU-FL-14",
  "name": "FL-14",
  "incumbent_note": "",
- "consensus_score": -2,
- "consensus": "Lean D",
+ "consensus_score": 0,
+ "consensus": "Tossup",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -87,8 +87,23 @@
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Stable",
+ "trend": "Toward R",
  "signals": [
+  {
+   "date": "2026-10-20",
+   "race": "HOU-FL-14",
+   "races": [
+    "HOU-FL-14"
+   ],
+   "type": "reporting",
+   "source": "wtsp.com",
+   "lean": "unrated",
+   "title": "Castor vs. Beltran: Meet the candidates running for Congress in Florida’s District 14",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbnc0RDQxZ2RQc3RyVFNjRkVPc29ObU9QVzg0Sm5hZTBjZ0kwZk1JS19FNGhQaVhBejNFM1RlSG9ZeE4xS1N1SVdQZEt4elZFNlQxSGZRWU1JZ1Nac3pqRjRjZVluSVFiZ2VQQUhpRHI4SzBEbFQwalhXZHpBODZqdU1LM1RvVHIxTnFQN3BWVXRCS0IwemE5cU5wcDBEa01fdnNqLWFHU1NtME55R045ajdVMjNlTW9fdU5ZakVfLTlid2NYZEo5cXFWV2pLZUVWTV9VNFdqMlU3VUdkdzJ4RDZSTzByb1phd3F0R2Qzbw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-19",
    "race": "HOU-FL-14",
@@ -155,6 +170,11 @@
   {
    "date": "2026-10-20",
    "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-21",
+   "c": 0,
    "p": null
   }
  ]
