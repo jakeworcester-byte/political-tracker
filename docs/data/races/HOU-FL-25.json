@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-FL-25",
-   "races": [
-    "HOU-FL-25"
-   ],
-   "type": "reporting",
-   "source": "WPLG Local 10",
-   "lean": "unrated",
-   "title": "Competitive race for Florida’s 25th Congressional District features 2 familiar faces",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcHFSVmpCNDEzMy1UMW5jM05YSWJDQ3BPaHlvOXhrM25SWlhUYmNTcDFUWjE0ZVp0XzNXc0tKU2lNTXBKMWtOVEZlYUlaeG1SaW5naHRUX181TGNsUkhzSURfTzVYNkhVdmxmaEZobEp3SXlIT2RuWVJfWC05eDNPTTFyd2QzSDBiaTJvVkJvMUM3NnEybWpzb2RSRmllSWowSUJLRW41NkdLaVM4M1NMS29faVNraVc1X3ljOTlyVXhVRWtyWWltbnE4Vnhpdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-25",
  "history": [
   {
@@ -159,6 +143,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-22",
    "c": -2,
    "p": null
   }

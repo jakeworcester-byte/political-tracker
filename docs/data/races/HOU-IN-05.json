@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -82,11 +82,65 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "JD Ford"
+  ],
+  "R": [
+   "Victoria Spartz"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": 1.0,
+  "average_label": "R+1.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Expedition Strategies",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-04",
+   "sample_size": 600,
+   "population": "lv",
+   "margin": 1.0,
+   "margin_label": "R+1.0",
+   "answers": [
+    {
+     "choice": "Victoria Spartz",
+     "pct": 48.0
+    },
+    {
+     "choice": "JD Ford",
+     "pct": 47.0
+    }
+   ],
+   "url": "https://x.com/cjwarnke/status/2112877284684341727"
+  },
+  "polls": [
+   {
+    "pollster": "Expedition Strategies",
+    "end_date": "2026-10-04",
+    "margin": 1.0,
+    "n": 600,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2112877284684341727",
+    "answers": [
+     {
+      "choice": "Victoria Spartz",
+      "pct": 48.0
+     },
+     {
+      "choice": "JD Ford",
+      "pct": 47.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IN-05",
@@ -145,6 +199,11 @@
    "date": "2026-10-21",
    "c": 3,
    "p": null
+  },
+  {
+   "date": "2026-10-22",
+   "c": 3,
+   "p": 1.0
   }
  ]
 }

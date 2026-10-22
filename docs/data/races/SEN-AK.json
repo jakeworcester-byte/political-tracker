@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -96,33 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -0.2,
-  "average_label": "D+0.2",
-  "n_polls": 2,
+  "average_margin": -0.8,
+  "average_label": "D+0.8",
+  "n_polls": 3,
   "window_days": 21,
   "latest": {
-   "pollster": "Public Policy Polling",
+   "pollster": "Data for Progress",
    "sponsors": [],
-   "partisan": "DEM",
-   "start_date": "2026-10-14",
-   "end_date": "2026-10-15",
-   "sample_size": 578,
-   "population": "rv",
-   "margin": -1.0,
-   "margin_label": "D+1.0",
+   "partisan": null,
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-16",
+   "sample_size": 671,
+   "population": "lv",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
    "answers": [
     {
      "choice": "Mary Peltola",
-     "pct": 48.0
+     "pct": 51.0
     },
     {
      "choice": "Dan Sullivan",
-     "pct": 47.0
+     "pct": 49.0
     }
    ],
-   "url": "https://x.com/AndrewSolender/status/2110867168892014803"
+   "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food"
   },
   "polls": [
+   {
+    "pollster": "Data for Progress",
+    "end_date": "2026-10-16",
+    "margin": -2.0,
+    "n": 671,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 51.0
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 49.0
+     }
+    ]
+   },
    {
     "pollster": "Public Policy Polling",
     "end_date": "2026-10-15",
@@ -258,9 +277,54 @@
    }
   ]
  },
- "raw_poll_count": 7,
+ "raw_poll_count": 8,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-22",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "ICT News",
+   "lean": "unrated",
+   "title": "Alaska’s final U.S. Senate debate devolves into mudslinging between Peltola, Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUN6UGZCb0JqcXhldmpJNkVzbUE1WXZZQTQtZTdiUGtjTUc0Rlk3WWRrRVJobDZacnF0QTl2aC1zN2dhbmpTZDQxVF8tZTVMM1N2TU53MVFUVkxWUUVUYkVsbXRTZk1Jeks1dmRlYXBITFZTT1l2MnlPZ2p1UFY2MURSR2VKY21QZGJHV1kxbW1nTW1tdmwtYmFTOHVub3ZZNmo4SnRqSEloRF9rRzJsdi05WDJVMWRqWlI2czZGMnd6UEFT?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "FOX 10 Phoenix",
+   "lean": "unrated",
+   "title": "Sullivan, Peltola advance in Alaska primary",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTWFBZkNHUHdlMk45Vm1UVTRsQ1F5dHpINzlmZjM4enlUZHRxMlBWNGU4ekRCbmRMbzdWN0VrSjc4czY3d05qRWFCaVBtMTdZVHZ5Vl9LZjEyM0FBVU93SWdhRGk1Sm1DQnMxLTV5R1h1VkVxVkJmOHd1N3Y0XzRSWVZxd3BxWE1ndV9TSHhJR3JBVjU1TDB6b1ZDVU1makltUnBJRGJB0gGrAUFVX3lxTFBmV2pOWDJ6VVJvMFhBMkx1bEVuTlYwcV92YzM3ZlRnaEpqOFZ5R2hxSkg4ejZ5NEtjdTBaNHEwWmIzeHJ2QzlFZTVjUXdjeldyY0hPR3BsRS01RU5EbHJ4Slc1clV2VVNJTWhaN0IwZ1pmUkZmU1B3aDlZRWVvWlU2WHV2T2lOdXJBTHZUeW1uaW1YYTYzSXVsU2NISVB3QURRNG5fVjdmMFFRRQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "LiveNOW from FOX",
+   "lean": "unrated",
+   "title": "Sullivan, Peltola advance in Alaska primary",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVTU3R2hsVVJpbUlhd1hJTGFudl9KWGY5LVVDTjJMUEdRa3k3emFwWW9UbldCUTNOYWlhbS1YWG9PTC1yWFVrMDF1Y3hMc2k5RS1jYzJMYVdXM3V3Z2pYTXlZWU5WMlBwREFQV0U2ZFVkQWszQTdNZ0x0SEZIcFpzQ3huNC1ReXluZ3hiNjdBWE5tTVRrY3VvTVpTNlVvUlpvWjlj0gGoAUFVX3lxTE5GTVNfcUJhdVkxQ1JzWkxLdlBOdVVqdXUtVWRTekZxZEVQODNzVjJvdmcxOVdUeENfRGdsNk5Nb2dfMmtvWXlCeGdDMlNlcng1RVRkT2RHM1Z5VTc5Y0JOeHdvWlNNNjNUOUh0S3NyTl9QVkhucmFCS1VEQ1pfYVZWU3ZUN1V1YnVSZkdvS3JjdWdUTkl4a2RramI4eUFQTGR1LV9NTm9TVA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-19",
    "race": "SEN-AK",
@@ -272,66 +336,6 @@
    "lean": "unrated",
    "title": "Election 2026: Alaska Senate",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX1o3em1tNkJEcEY1RDJSaXJILUdRcmxSMVVYMVMyNldheHp1bUoxeWJBbDJiOUtHSmJlT2xRcWVQbXBYZlZ1MlU3SW5iMUxQVnFSMWFaQUY0ZXgxeGlCbEpvMXdOUkMyOE5QekhpOEdqU1FQWWFYcmItVmM4Ry1DUHl0S0RrUVNjd0lYYk13TlpqaHJhckpKT1h1Wlk2ME1EX1c1U1JJU1lqOWg5?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-17",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Alaska Beacon",
-   "lean": "unrated",
-   "title": "Alaska’s final U.S. Senate debate devolves into mudslinging between Peltola, Sullivan",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQlR0VUVWbTYxN3p4bW9yYUNtcTVVNW9jY25NWTZGRHRCMjUzTDdlX2JvVkxCcjU5N0hBa1BtaFd5bUFtaHB4V3lHRDlvT09ta3dyeWd5cERUdGlOTHFSQ1IxbmFGa2UtRnk0OGxOQmNodmVoMVV0OFE5aFROUjlxNUhBbFJKZmxmdzNkeTJNNVllclpXenhZb2w0TlRKaWlvenhTOG9KYUhFcUV5b0lNQXNoMHFDUGxtbFZn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "Alaska Senate candidates clash over the Iran war, high prices and their times in office",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2poWWlQNW1FalpwZ1RINlFtUEN4SlBoa2xWWWlNc1NPdDIxSENTUWdYOU52aFhEVV9nQkZCaXUtbGk3Nmo4M3UxZjRFY3NfVWFja3hXZlVJM1JVWTR2dmM2aExvVnNvcjJFM0t4WFdTV3FjNGhXVElaWVp5aXVUN21Sdk1hNjFvNFQ0YUdnYVdMRktyMk1IVGEzMUhuNzF3amRTUjFjWlFsYmRaWnVPTXkwODU5dw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "The Washington Post",
-   "lean": "unrated",
-   "title": "Takeaways from the Alaska Senate debate between Mary Peltola and Dan Sullivan",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdm5GbjVzTVJTRWh4UXJuYVBzdUNFb0d5T3dEXzB4Z0VkODh3WHRBa1dhYTJsMkJNcVA2Y2tKWjFNcG9pLW16bDQ3SlVlOFNLNy16WkhCVmtIcUs5MTR5YllJRzVjR0syNDcxbU9Cb0h5VGpNNEdDTXU3MVAxcUhnQ09VZ0c4ZHlNeWZQX0hjQkpFWEhxM19RUGdFM2xRdmh6bHREa2lIRDhTbmdIeVFDdjhsS0JRazg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "MS NOW",
-   "lean": "unrated",
-   "title": "\"I'm prepared\": Peltola humbles rival Sullivan in Alaska Senate debate",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ2RYVG9MOTJrZEt6Rkp5SzdCVUNDb01LbjJCb2V0RVVKTzBTOE9lX3g1eFhYZVNQTVFKbXA5YXhqOWFGeEFVWmJLSHc3SXgta0JHZW9rQTAzSVZRaGp1b0xrZmJLRWptQmNvZm9Vd0MzQmJJYXNNUkFrYkpoZjhwVEdnNVVZQVRsNERYSUVxVkpXU2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -393,6 +397,11 @@
    "date": "2026-10-21",
    "c": 0,
    "p": -0.2
+  },
+  {
+   "date": "2026-10-22",
+   "c": 0,
+   "p": -0.8
   }
  ]
 }

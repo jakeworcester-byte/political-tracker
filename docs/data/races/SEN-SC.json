@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -39,9 +39,9 @@
    "name": "Inside Elections"
   },
   "nbc": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -181,7 +181,112 @@
  },
  "raw_poll_count": 2,
  "trend": "Toward D",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-22",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Clashes Darken Rally in South Carolina as Trump Seeks to Boost Darline Graham",
+   "url": "https://www.nytimes.com/2026/10/21/us/politics/trump-rally-south-carolina-darline-graham.html",
+   "summary": "Mr. Trump is barnstorming across conservative America this week to shore up support for Republican candidates in unexpectedly competitive races.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "WLOS",
+   "lean": "unrated",
+   "title": "President Trump urges South Carolina voters to support Darline Graham",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWjNxLVZLSmo4alhvVHR6VTdKcVlGNlhUVGJpVnM5Q0tjVGJ2ZnJGb01ER0M2Z3JOcktSeUFnazRIMUhRcnFyNVNPS0VpU2MzSHdUSU94M0RIMTNRSUw3bmxON0JxaXF4ZmVPVlBOMmNMZDdjRFVTX0JYOVNBaTdWZ0xPMUhyWF9xaHUzd0JicDV0Q0pvTTFDb1h2SXBGNUVxMjdxN3hhY0xDQzE2cVV4ZnZkUXhFQnMxaWJOUW5kZjIteUVubTI1TmhPZlVHWUtGa2pONWZ0RENEOW1JRjRvQmtuNVBpR29RSHRXN2xGTDdleEYyM0E?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "Reuters",
+   "lean": "unrated",
+   "title": "Trump campaigns in South Carolina to support Senate candidate Graham",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMHk5a3JmU3lLWWtaN3RQRDVPRUdfWVA5czZfWk5WQlBNcnFmdndzTnZQV2RZRFBrOGdXU3ByMHMtS0EtQXNSaDc1OXZ6UTl2UDZrYk8wcFlPc1FaYlFFUVVTVUd6RG5uaDZhYk55elN4TGRXNFFGeklyUzJkXzQtUzBBTzJUS0YxNGJhdF9HOE9zRzVJc1VTcE5HUEg1OVpMYS1UTGVYLWhvSXlEMU1yZW1HMA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "Al Jazeera",
+   "lean": "unrated",
+   "title": "Trump heads to South Carolina to boost Senator Darline Graham in race",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmFqTU41aE5IRmJ6TXNMUi1EbGg2R2VNcDljdWxjS1l3dC10UTRQVmU3VzJib0tDdVZxQ0pJMGxKVENmanhrbXJYeFo5Z29lTWdRWHJhcUlvNE94RE05RmM3RmJaQ2c4WWFucXZKMlpjSFhNQ3ctNGx5OTNvdFVIeXcwNGJDaE1XNHdTQjJ0SmxmRGNrQjVqM2IySFFuam01VDRpdFFCWDMwYjRyeldobtIBtgFBVV95cUxQdHJzTXhJMEtWWWV1TkY0SXc5NUdjVWFyNmMxeHpBNnZZTV9OTzBqallZUXVSM2JiODVrczBCOGNiZ0lOMW1nZ28wdGZkZXA1Y0g2bTRBRUtTR3o1LWJwYUxCSDZaT3NObWwwaFNZNXk2NzkwSGw1Y1VDZHBDSllfOHJTY1BnTm1RZ21hWmV0T0pnZEhRMEhUTHdqY216dU9CY1p4bGlrcHBXQ29FcTBPMDdMLVZIdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "South Carolina Public Radio",
+   "lean": "unrated",
+   "title": "Trump returns to South Carolina for 2nd time in 3 months to help Darline Graham in Senate race",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbVNiZFZIbDhnelVjMmFDVHhlYkJpUl9Qclo2YUU2cFNxbHBWQlVZaUNNSmQyUXR6enVvUHgwd0RlRVVJd2tNZkFLZVFjc2dUZ3M1b1FDTjJrUFJyVDlLLTJYVEFldDdiaFBFOEFheUxrMHpGVGdMenFCUWpqcDVYWml4RXowd254QWdrZ3NPUkdhRXh2T3VkQWVkZE56SEs1azhQQ2pMLVllMXhxTnlNeVpvT0k5RjBqSUFrZ1JVeTNEdGdYUldHajNMQ2djVG4yTkxDa1VR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "WTOP News",
+   "lean": "unrated",
+   "title": "Trump brings a last-minute rally boost to Darline Graham in South Carolina’s US Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUXBmZzRCbGZ3VXRjbkc3TTJVWENWMGxGMHQ1dWp2MXk2YXZsTkN6NlFYMklRQVk5ZzUtSndZdThsOElwZU9peEF3NGRaQlRTVVN6Z0ZlNDVvUFI0UHRRZzNvM1dDQnZCSUNpVEUyckoxOWZIZHdjSmRabnRyQUhfY0lGU1JXTnNmTlRHQktjV25EVm81cTZ4T0xOd19NeURSTU51SFNWXzZQLXlRTzAyVTBuRTJpQjBGLWxfY3BMWHF4ZGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "WJCL",
+   "lean": "unrated",
+   "title": "South Carolina Senate race tightens as Annie Andrews faces Darline Graham",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaHpqWGpBZ0dkODZWSDhNM09XcjZlQjdrUkxJWFF5MGpCX05BSzhBOFpDYXN4cjNPVU80WHNMRHV0b0NKa2dwNUlJYk9wSXNVekcxb3EybGxsNHloRF9yOTl0bnh3SE5kSjQtODVuQjdHVnY3QXpzb3l1N3ozWndFUkZITlBiQ2o4azhzTHotLUxJdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-SC",
  "history": [
   {
@@ -236,6 +341,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 2,
+   "p": 1.4
+  },
+  {
+   "date": "2026-10-22",
    "c": 2,
    "p": 1.4
   }

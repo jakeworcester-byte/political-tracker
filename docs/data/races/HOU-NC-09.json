@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -82,11 +82,65 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Richard Ojeda"
+  ],
+  "R": [
+   "Richard Hudson"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": 4.0,
+  "average_label": "R+4.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Public Policy Polling",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-20",
+   "sample_size": 526,
+   "population": "lv",
+   "margin": 4.0,
+   "margin_label": "R+4.0",
+   "answers": [
+    {
+     "choice": "Richard Hudson",
+     "pct": 46.0
+    },
+    {
+     "choice": "Richard Ojeda",
+     "pct": 42.0
+    }
+   ],
+   "url": "https://x.com/cjwarnke/status/2112877284684341727"
+  },
+  "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-20",
+    "margin": 4.0,
+    "n": 526,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2112877284684341727",
+    "answers": [
+     {
+      "choice": "Richard Hudson",
+      "pct": 46.0
+     },
+     {
+      "choice": "Richard Ojeda",
+      "pct": 42.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NC-09",
@@ -145,6 +199,11 @@
    "date": "2026-10-21",
    "c": 3,
    "p": null
+  },
+  {
+   "date": "2026-10-22",
+   "c": 3,
+   "p": 4.0
   }
  ]
 }

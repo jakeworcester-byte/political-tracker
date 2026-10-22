@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -194,6 +194,96 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-22",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Kansas Senate Debate Live Updates: Marshall and Hamilton Face Off as Polls Show a Dead Heat",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5vM2o4cHI1eUkwMFZXaUJ5akctSk0tVE5xVldSY1pqVUNLc3pMVUl0Ry1FaXBtZ01ORThoNm41UTFNLVZvV3BSWEt5ZmVmVlhZR21iWHZ3VjRMdkI5clpxLUdVaTRBU1l1MHVhajVxemhOQ2NyMUU0WU5JNWQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Roger Marshall and Adam Hamilton face off in fiery final Kansas Senate debate",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdmhOTktCaFMtQ3pSRm5QUXNjZkc1MzdwMC1YXzllSVpUUGlZc0tPVXhJSGwzSzZYUHJna1liNDh3c3A5Q0RHZHJGLWhvYW5yaExVcTVRS2pKSFpONkhtSW4ya2VIdGx3TW5qdEZHYzhLZE04RWpIcV92S0Ztd2FOUHFjS2h6VDdmRktPVWRtbWhzWEJxRXNKWVRjNGpBajBmVzBXdUpJQTVZWnhsV1RFUllnaTVWNUNOaVdmUUQxTkVsQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "As Kansas Senate race tightens, Marshall argues opponent is just another Democrat, while Hamilton says he's \"independent-minded\"",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNHBMVlhibGN2cVpCVVltMlpQMWxqd29sU3ZMNVF2RnBRVGY1Wlh5eU8zcTJ0dHk4SG5MV1BZWDliZVRCNW1sOXhnTUtCeTRERklEekZwZXB6elJ5emNxMUZmYkE1dmx6WmRFb2xTdUMzdEZSUkFneGpJNkRYWkxNTE5RTzFnN19kZURsUA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "KCTV",
+   "lean": "unrated",
+   "title": "Kansas Senate debate: Marshall, Hamilton spar on diesel prices, tariffs as race tightens",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaEphQ2VrMW5fck5fdWI3QV9YX0s2RDFHcUlyejRQZUZycUJlUnp1Tkk3N0xlZDhaLVlfbU9NcjVJc0VleDdvMmRBNWgxRkY2OWlpUlhsTW8xTVhVSVlzVkljaUM4dUxTSWJDMy03UnRZaGpRaE5TaFhGQW9ydXBoN0RjUkhjb0ZLRVRHeGN4SXlpSHViQ2x6dFR2bGg5LVBuanRGYlY4aE9LYkd0RC1NLVFENNIBxwFBVV95cUxOeHpxZTRrZmZpTHBmLXNuRXNRMTdXSG9LUkpGN1NfU1RvZS1leEx1VTBoLU9BcU8zc1Bma1pRZkpFRG5QcU5iTWJWVzhtZWhfU0diMUFYSDJlclhNRjExVUQtZHJzSkZ5dHBCN1F1dXllUG1WZm5xNDM5TW9SWmk5ZDBNQ1NLbXdObjNhQlhuWVFoeFJoN0M2aGVONmY2NFJOWU45d0pQUzF4MW5XbTZjTTFrcnozdzdHYUUzVEZvb1p4dWw0b19J?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "NewsNation",
+   "lean": "unrated",
+   "title": "Marshall and Hamilton take debate stage in tight Kansas Senate race",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMFR1NHZhUlRTOUk2N2Z6dlZtUWtzeHhYLURkeVpINTVBZ3AwVkRjWmtqVXFSUFZXQ3B0WVktM2RoOG9jb19kakZhVTdWRG90cW1KdjRXY1JicjZ1WnpuQTdIY1BBX255cDJtaDhaSmV4eUQ3S0FyNjdDWDY0UnFmZFUyTXJCQWx3cmlvZnN1ZVk1M1BsQmRRaHRxYkF6Yl9Md2tBVUJNaUZ2XzYzV3lVd2ZR0gG3AUFVX3lxTE52Vm51UDZ3ZTRZV3ZHTDlldklHZlp0Y0JzdG5scVU0amVTRVU0Nk8xTF9KeVl0Vm02ZDdBb2h2S1EyT1pqc21lN1dYSC1jMHVjaHN1clFHRE9iV2ZtZnlTbThfTkRYX1FTdzBrS3FJOEswYjc2UXc1b1IydUVIcUg0RXRZWTRxcHRpSHRkLTBpRHpxUkdhYkxHUlRhYkdzYUVoc3JMSkttUjJaOEQ2UVBRSlZsamZnYw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Marshall, Hamilton clash in battleground Kansas Senate debate: 4 takeaways",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejRPLWZTUHptU0w4ZGhzN3h2UmhHT0cwOWo2b3RlZmxrZ19faU5SZk9pdzE1VmEtMXNZZGd1Y3JRRGFKdlE2a2lmdC1GXzM3Ul9WR01FUGlzZzdMQ3Q0RHhIVWR1cEk3bDA5dDd4NUpMd25KcGlRUUFvMWJVUEw3aWVvWWpuUjZ6NWo3SU9QOE15UXRnMEh2WjJTSzhIRk82TlpvSjE3ZmE3RkJtS29iU2czd0N6c2JVckU40gHAAUFVX3lxTE9YZWZ0SjBBVThlZXIwai1fTkRpY3ZucXpZZGthUUlldW9vWVZJY2dBbzM0ZWVoRUUxdzdtU1hCYWwxZ1J4Qjg4U1dhVldKX2gxdS16dlNuaG5sZXJCUzUzTHZqQV9tYUpLSnduN2JQeGlmVS10NlRJb1VqSEVoYlZHRmZiNTFTVUxVSjFiVzQ0OTdWMmt1SVRaWDVuNjdfY2lNd29mSk5MTjNkNmpvMXE5aWw0SHU1QWN4VC0zeGV3WA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-21",
    "race": "SEN-KS",
    "races": [
@@ -208,51 +298,6 @@
    "relevant": true
   },
   {
-   "date": "2026-10-21",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "The Washington Post",
-   "lean": "unrated",
-   "title": "Analysis | Here’s what’s making the Kansas Senate race so competitive",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUnlyQktfa0NpVVJ2akROb2hCdG5lV0YyT3d0T0k3S25TMGVNaEhlTGktR1QzTVZ6bEFGY0cxZk9fTk5tZE1LenFscl9yVTlSYUswSTRzXzRDY3VjZlVqVUNBNEo5QUtGV3FuV284bl9kcl9weXJXQjBqWndMVmpWUlJpNkdveWVJNW9ISVNkbV9HN2dfZEhCNjd6S2EtdXBBRzNMRkVIWUNCcUE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "PBS",
-   "lean": "unrated",
-   "title": "How the Kansas Senate race became surprisingly competitive",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tOTFaamE3STA5UHBpbmRzMG81bTRBX0JqZi10RTZEVnMyZEVDNVVmRGY5VHZjVEZNaEpfbnlud0NKWWZjZlJxQ3ExcWFKcWwtN2FRZnJab29Venc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Marshall, Hamilton set to take debate stage in tight Kansas Senate race",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR1NyWGVmN3kyczF5ZzVzNWNQU1dSVVhWcUs2NHZzanhHVTZwT21VWW9ZbXdzOVRFaEpoQjlic0lHaHBlOTR1bzVqVzVPQ2lVYWFOTG0tZDVWV2xaV3FFOHFraWd3UmVlUi1XV2NkYXlXclVrVTE3emd1bG5kVnNqRXZueDBhNlY5LXBFZTJB0gGTAUFVX3lxTE0wM1U0WHl1UVFPOEFkLTBHUlp5cE1yZWxFcVhFUFhOdHdTWmpYSXVxa0hBNHg1ckNSaVo1X3NQVkhqV1ZxSHhZWjlOalo5R1dJcXhUdzJ2TV85V3pQSGFmTV9KYmN2MmNJeXpHY3hsWHRtTVBYYWZUSnlyNE05X2xNMDZaaHBaS2RMVlBQMkZNdW41RQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-20",
    "race": "SEN-KS",
    "races": [
@@ -265,36 +310,6 @@
    "url": "https://www.npr.org/2026/10/19/nx-s1-6007796/the-kansas-senate-race-is-looking-like-a-toss-up-yes-really",
    "summary": "Kansas hasn't elected a Democratic senator since the 1930s. But political headwinds against Republicans are turning this year's race between incumbent Sen. Roger Marshall and Democratic challenger Adam Hamilton into a real contest. This episode: Voting correspondent Miles Parks, political reporter S",
    "relevant": true
-  },
-  {
-   "date": "2026-10-20",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "KSN-TV",
-   "lean": "unrated",
-   "title": "What polls say about Kansas Senate race before Marshall vs. Hamilton debate - KSN-TV",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd0Ezc0RXUElvaTV2ZGtMZUFScG8wbnEyb29qWlBoYWEtVWwtcjl2YUJPVVRYbEJjYUtHRThkRi1ZTEV6Q2tWU1R0Uy00T2dQeWJZNTJralFGcW5wS3hYMHB2WVJMT3lnbURsZ1lVaVpGTlV3dVV2UjdCU1dKelVzNVJqTUxUWU5aSUNyRFNQQ1VGNE9TcU5jcjZkM3k0b2NhdVdoTnhaOTNYM1hjZlFPRG5BaFNLOE5PT0RuZmRCdmjSAcYBQVVfeXFMTl9wQmU4aDM5OG9MTE9UeFA4SzFlVkxjYTAwenBTSjV6M3ZNNzJmVkJvdmRKTlMzSXAwU0FkcU1ZMDkycWlIamxGODdKU3o1RldheTF3ZFJiOG9QOFp3cjg5cDAtYzRZV3dsU01ubms2Y3VsMzJQY2VBVGpRNVVidkJyQlRUeXU1T0EzdkNWY0MtdmJ0c3c3REpFUGNIdGZmdjA5cFBfd0xLR1BHVnlRWHIyUFZkYlkxTFcya3dWOHZGQzl5TGlB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "CNN",
-   "lean": "unrated",
-   "title": "Hamilton and Marshall locked in tight Kansas Senate race",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWXpROWlUaDdtOVItQ0w2bnFVa2ZiOW02LTVPV2RIR2txVm5HMW95ajh0TUI0T3lqWmc0ZHBJSzJTVUNsaVFGTjV5ajNDR2xGV3o0YnlJaWVDbHBYdU05UHduZFZ3ajZ1VlhVakRNazZYQVFXdTRFekIyLUZ4T3l5azVqYw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-KS",
@@ -351,6 +366,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-22",
    "c": 0,
    "p": -0.5
   }

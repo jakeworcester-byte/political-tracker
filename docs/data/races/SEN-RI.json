@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -197,29 +197,10 @@
       "pct": 2.0
      }
     ]
-   },
-   {
-    "pollster": "University of New Hampshire",
-    "end_date": "2026-06-23",
-    "margin": -18.0,
-    "n": 664,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://scholars.unh.edu/survey_center_polls/971/",
-    "answers": [
-     {
-      "choice": "Jack Reed",
-      "pct": 52.0
-     },
-     {
-      "choice": "Raymond McKay",
-      "pct": 34.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 4,
+ "raw_poll_count": 3,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-RI",
@@ -276,6 +257,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": -4,
+   "p": -21.5
+  },
+  {
+   "date": "2026-10-22",
    "c": -4,
    "p": -21.5
   }

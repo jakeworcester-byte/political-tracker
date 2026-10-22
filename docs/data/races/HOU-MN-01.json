@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -1.5,
-  "average_label": "D+1.5",
+  "average_margin": -1.0,
+  "average_label": "D+1.0",
   "n_polls": 2,
   "window_days": 21,
   "latest": {
-   "pollster": "SurveyUSA",
+   "pollster": "Public Policy Polling",
    "sponsors": [
-    "KAAL-TV"
+    "House Majority PAC"
    ],
-   "partisan": null,
-   "start_date": "2026-10-04",
-   "end_date": "2026-10-09",
-   "sample_size": 565,
+   "partisan": "DEM",
+   "start_date": "2026-10-13",
+   "end_date": "2026-10-14",
+   "sample_size": 588,
    "population": "lv",
-   "margin": -2.0,
-   "margin_label": "D+2.0",
+   "margin": 0.0,
+   "margin_label": "Even",
    "answers": [
     {
      "choice": "Brad Finstad",
-     "pct": 44.0
+     "pct": 43.0
     },
     {
      "choice": "Jake Johnson",
-     "pct": 46.0
+     "pct": 43.0
     }
    ],
-   "url": "https://results.surveyusa.com/client/PollReport.aspx?g=3605b38b-d541-4db4-9d70-f6d4875faeb8"
+   "url": "https://x.com/cjwarnke/status/2112877284684341727"
   },
   "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-14",
+    "margin": 0.0,
+    "n": 588,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2112877284684341727",
+    "answers": [
+     {
+      "choice": "Brad Finstad",
+      "pct": 43.0
+     },
+     {
+      "choice": "Jake Johnson",
+      "pct": 43.0
+     }
+    ]
+   },
    {
     "pollster": "SurveyUSA",
     "end_date": "2026-10-09",
@@ -159,8 +178,8 @@
    }
   ]
  },
- "raw_poll_count": 2,
- "trend": "Toward D",
+ "raw_poll_count": 3,
+ "trend": "Stable",
  "signals": [
   {
    "date": "2026-10-21",
@@ -173,6 +192,21 @@
    "lean": "unrated",
    "title": "Minnesota 1st Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "HOU-MN-01",
+   "races": [
+    "HOU-MN-01"
+   ],
+   "type": "reporting",
+   "source": "kare11.com",
+   "lean": "unrated",
+   "title": "In Southern Minnesota, Democratic challenger Jake Johnson makes bid to unseat GOP incumbent Congressman Brad Finstad",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNdFQ5TlRXUERsdFBtNG95S3lzbnZXRjgwYWozLWpHUGlmS1VBMXBRR1BRMjdmdXZBcjdkR1lpTkNyOWI0S3JuaE4zRVRFQmd1bEE2N2dDcnFtaEFaNnFNaXEyRk1TbUJra3RzWF9TZ1BpdFdBak9vclhKeDRsQ2NPQkNwb3hoSGt5NTBDLVIwRHppd2c1Ykg2R3JwRm9ZT25LaXZiMlFRT1ltcXFVbDcxaTRUWF9UeTJzWWhkWU1zVmpybmg5cW5TbUVsRmNEcjl2TGU0dXVBbVVTbEdkMHF2ZUFnb2UyaThlbkNMNmktWmlNN0t2bGNfSVFvd0x5MXllMjZaSlBlazRNTTh6TkZGWjlTdXI3VUhwN19RVTJn?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -234,6 +268,11 @@
    "date": "2026-10-21",
    "c": 2,
    "p": -1.5
+  },
+  {
+   "date": "2026-10-22",
+   "c": 2,
+   "p": -1.0
   }
  ]
 }

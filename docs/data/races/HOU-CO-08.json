@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -88,7 +88,38 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "Colorado Newsline",
+   "lean": "unrated",
+   "title": "Millions from Musk, pro-Trump group and party super PACs flood Colorado’s 8th District race",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeFNlZVh5SmRTQ3VFQlV3ZzEzYlhpRVJ4WnMtSE0yLVJqcmJqNVZ3a1gxYTl0bExfX1IxNDNOcTNiNHFyZUlGdmZsWEU4WlV3bkZ6dUpMaHZuenlGNFdTbjlzYkttY0RIampPS2dnb19WdnpYZURwbWdvSE15RGZsVkNhREI3aGpG?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "News From The States",
+   "lean": "unrated",
+   "title": "Millions from Musk, pro-Trump group and party super PACs flood Colorado’s 8th District race",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZUpaNEZ1UjRla3J0TmljLUx2RWxnMHJhSzhDZE9fNmNEUjdObmRHdVg5eEpsQTNBVmNlLTFpTl9tMV9XcURsVEdUVTY3c1dSX1F0MHlWS05PNmFaaTA0VFFpY0JyYm9yZEM2VTJpcktkSDJXSThzVlZpN1Eyby1jTHBwR3BLdmhTMWlTVjd6UmR3WEJUOVFYanh2Z0tuLW5IZU5YOV9tS1dMT3BHZFBMOGc5dk1VdUxlQk04Y3p3b0FhWmpu?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-08",
  "history": [
   {
@@ -143,6 +174,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-22",
    "c": -2,
    "p": null
   }

@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,22 +90,22 @@
   ]
  },
  "poll": {
-  "average_margin": -1.0,
-  "average_label": "D+1.0",
-  "n_polls": 1,
-  "window_days": 45,
+  "average_margin": -2.0,
+  "average_label": "D+2.0",
+  "n_polls": 2,
+  "window_days": 21,
   "latest": {
    "pollster": "Hart Research Associates",
    "sponsors": [
     "House Majority PAC"
    ],
    "partisan": "DEM",
-   "start_date": "2026-09-22",
-   "end_date": "2026-09-24",
-   "sample_size": 500,
+   "start_date": "2026-10-09",
+   "end_date": "2026-10-12",
+   "sample_size": 503,
    "population": "lv",
-   "margin": -1.0,
-   "margin_label": "D+1.0",
+   "margin": -3.0,
+   "margin_label": "D+3.0",
    "answers": [
     {
      "choice": "Mike Carey",
@@ -113,12 +113,31 @@
     },
     {
      "choice": "Don Leonard",
-     "pct": 46.0
+     "pct": 48.0
     }
    ],
-   "url": "https://x.com/cjwarnke/status/2104619061556457603"
+   "url": "https://x.com/cjwarnke/status/2112877284684341727"
   },
   "polls": [
+   {
+    "pollster": "Hart Research Associates",
+    "end_date": "2026-10-12",
+    "margin": -3.0,
+    "n": 503,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2112877284684341727",
+    "answers": [
+     {
+      "choice": "Mike Carey",
+      "pct": 45.0
+     },
+     {
+      "choice": "Don Leonard",
+      "pct": 48.0
+     }
+    ]
+   },
    {
     "pollster": "Hart Research Associates",
     "end_date": "2026-09-24",
@@ -163,11 +182,11 @@
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 3,
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-19",
+   "date": "2026-10-21",
    "race": "HOU-OH-15",
    "races": [
     "HOU-OH-15"
@@ -238,6 +257,11 @@
    "date": "2026-10-21",
    "c": 2,
    "p": -1.0
+  },
+  {
+   "date": "2026-10-22",
+   "c": 2,
+   "p": -2.0
   }
  ]
 }

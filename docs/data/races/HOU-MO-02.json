@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,33 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": 1.0,
-  "average_label": "R+1.0",
-  "n_polls": 1,
+  "average_margin": 0.0,
+  "average_label": "Even",
+  "n_polls": 2,
   "window_days": 45,
   "latest": {
-   "pollster": "Remington Research Group",
-   "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-15",
-   "sample_size": 565,
+   "pollster": "Public Policy Polling",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-20",
+   "sample_size": 631,
    "population": "lv",
-   "margin": 1.0,
-   "margin_label": "R+1.0",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
    "answers": [
     {
      "choice": "Ann Wagner",
-     "pct": 43.0
+     "pct": 45.0
     },
     {
      "choice": "Fred Wellman",
-     "pct": 42.0
+     "pct": 46.0
     }
    ],
-   "url": "https://x.com/MarkMaxwellTV/status/2103501820840534440?s=20"
+   "url": "https://x.com/MarkMaxwellTV/status/2112721483617464784"
   },
   "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-20",
+    "margin": -1.0,
+    "n": 631,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/MarkMaxwellTV/status/2112721483617464784",
+    "answers": [
+     {
+      "choice": "Ann Wagner",
+      "pct": 45.0
+     },
+     {
+      "choice": "Fred Wellman",
+      "pct": 46.0
+     }
+    ]
+   },
    {
     "pollster": "Remington Research Group",
     "end_date": "2026-09-15",
@@ -138,7 +159,7 @@
    }
   ]
  },
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [
   {
@@ -213,6 +234,11 @@
    "date": "2026-10-21",
    "c": 2,
    "p": 1.0
+  },
+  {
+   "date": "2026-10-22",
+   "c": 2,
+   "p": 0.0
   }
  ]
 }

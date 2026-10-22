@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-SC-01",
-   "races": [
-    "HOU-SC-01"
-   ],
-   "type": "reporting",
-   "source": "Live 5 News",
-   "lean": "unrated",
-   "title": "SC-1 Debate: Lacore, Honeycutt spar over economy, data centers, and guns",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNVNkN2tOd2NIMGJMcHlyaVMwT01Fa1NQT1VueEhIUXEzc294dnZSYWFvTXlDTUVkRjFpQk1Vejk3UlBxNl9WUU54SDdkdXZSdFJvLUlzdk5zc1FKZjB0WkpjREMweWxQRkV0cmx4djl2YjFLV2dGOV9VN1R2cl9qU1BuNVJZUTdDdjZ2VXZCU2pJc0YzV3NGQzBXVVFJNzVWOURLS9IBuAFBVV95cUxNUHg4VU5RaThJM2dhQ1cxallFSHl3LW5OdDRaRFRTNmJLUjJiZjA1bGVaUnA1a0d6MmJyWW5wOTJuUlQ4bEk5M05xZDB6b1EwXzRQMDRyTDR2bmtyQmcxcjVPVkd5bUhCUGp3aTFwcUdNOURkQ1l2UkpWQ293a2RVVjF4dG5KMTdVUkl6bnZrbGhuTFEza3Q2WHdhYkVWV2dOS3M1YTYwUDNBU1VXVTk3cWtYcWpJRDND?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-SC-01",
  "history": [
   {
@@ -159,6 +143,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-22",
    "c": 2,
    "p": null
   }

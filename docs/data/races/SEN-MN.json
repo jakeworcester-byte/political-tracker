@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -288,8 +288,22 @@
   ]
  },
  "raw_poll_count": 6,
- "trend": "Toward R",
+ "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "In a reversal, Minnesota Lt. Gov. Peggy Flanagan’s Senate campaign said the Democrat was a member of Phi Beta Kappa, and a representative of the national honor society confirmed it",
+   "url": "https://www.wsj.com/politics/policy/minnesotas-democratic-u-s-senate-nominee-inflated-academic-record-9a943662?mod=rss_socialpoliticsfeed",
+   "summary": "The day after her campaign said she couldn’t afford the fees to become member of Phi Beta Kappa, Peggy Flanagan said she was a member.",
+   "relevant": true
+  },
   {
    "date": "2026-10-21",
    "race": "SEN-MN",
@@ -306,6 +320,21 @@
    "via": "Google News"
   },
   {
+   "date": "2026-10-21",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Kornacki sees tide ‘working against’ Democrat in Minnesota Senate race",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZS05M1ByVzYyWDFwc3Vmd2lVcGI5alVqQ2pIdGJ2SjRFRFFiempPeFVvREpaVjZGYnhpcmdsRlRkOWFjcjlSOW56OFNoM1BjV0JuZ0JDTGV0bUZqV1pHcDBWMm9JUEk1WnVEaEJPOEhCejNSTUg3ZTRYckVGenI5ZzFoTjJtQdIBiwFBVV95cUxOcmtRQVA5Wm9HMTEtNmc0VHltQm5pS3dteDc2bXowZVUyMzBjYlRvb1ZlRDNlNldIOG9jazZjQTc4S09VcmVoS2xmY3BOdXo5ME94R1hzdl8xTEZfMHRZazNQQ2dwQ0YtWHZhN3hyajhjZ1R2Y0Z2ZGZlTm9VeTRGcklUbUpKaTdpLXNZ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-20",
    "race": "SEN-MN",
    "races": [
@@ -316,36 +345,6 @@
    "lean": "unrated",
    "title": "Mining, labor, partisan shifts collide in critical northeast Minnesota Senate race",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRV8wYk5jV2VGLXllSjRDbUREYm1PNmQ5WEVvcFhEX09ISm5fWk9kQ2QxWHNHeW1Sa2lHTzlXcENBY1lnaXZpSno1MWhwYTVfVjQteTlOQ3dfcGJTc1B5STdDR0JyTVhxN2NsMzU3eWl2bjJHUHJSSmhVa2VqSEtxbWpXb0xyT0Jubk1CLVp6NFpvUzgxUFctZDBCdTIzVF84dmt4b1J3UUJyMzNZNnpKeVJrd29UQXFiRXV3dEtBZ1A?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-20",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "Minnesota Senate Primary Election 2026 Live Results: Tafoya, Craig, Flanagan and More",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmFiQnRuLWtOaW1sZ010dkpyd2NyN19pNkU0SFhlcXBSeWs4SkFrbUFibHE4MF9MNVliLTZ6QWJkM2N0OVZZYjY1andZLW1ZeFlqSlFQWTRYZlJXODFpOFhKalJxNHA2V2JuSjgyUmpyd1dWNTdlVmxtaDRSVE5KM05PSHVqREE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-17",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "NPR",
-   "lean": "unrated",
-   "title": "Fraud, affordability and Trump policies drive friction in Minnesota Senate debate",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CVnE2LTEybkRwTi0xMjlfV3FBMkJCdVJLSkdVNF9xSnQ5UVRoZndTa0Nrc3V3WmQxeFBYSDJrTXp6c0FfREhEQW54am1aZWhOdFhNSmZ3X3ZJbHVJclN2RjZyNHRRN1lJODBGT3ZRMThUdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -405,6 +404,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": -2,
+   "p": -4.3
+  },
+  {
+   "date": "2026-10-22",
    "c": -2,
    "p": -4.3
   }

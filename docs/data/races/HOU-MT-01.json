@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,39 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": 0.5,
-  "average_label": "R+0.5",
-  "n_polls": 1,
-  "window_days": 45,
+  "average_margin": -1.2,
+  "average_label": "D+1.2",
+  "n_polls": 2,
+  "window_days": 21,
   "latest": {
-   "pollster": "American Pulse Research & Polling",
+   "pollster": "Public Policy Polling",
    "sponsors": [
-    "KULR-TV"
+    "House Majority PAC"
    ],
-   "partisan": null,
-   "start_date": "2026-09-19",
-   "end_date": "2026-09-24",
-   "sample_size": 314,
+   "partisan": "DEM",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-14",
+   "sample_size": 541,
    "population": "lv",
-   "margin": 0.5,
-   "margin_label": "R+0.5",
+   "margin": -3.0,
+   "margin_label": "D+3.0",
    "answers": [
     {
      "choice": "Aaron Flint",
-     "pct": 45.9
+     "pct": 45.0
     },
     {
      "choice": "Sam Forstag",
-     "pct": 45.4
-    },
-    {
-     "choice": "Nick Sheedy",
-     "pct": 5.4
+     "pct": 48.0
     }
    ],
-   "url": "https://www.montanarightnow.com/elections/aaron-flint-sam-forstag-nearly-tied-for-montana-congressional-district-1/article_96a2f7e1-334a-46c7-9a92-84ccc4c44171.html"
+   "url": "https://x.com/cjwarnke/status/2112877284684341727"
   },
   "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-14",
+    "margin": -3.0,
+    "n": 541,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2112877284684341727",
+    "answers": [
+     {
+      "choice": "Aaron Flint",
+      "pct": 45.0
+     },
+     {
+      "choice": "Sam Forstag",
+      "pct": 48.0
+     }
+    ]
+   },
    {
     "pollster": "American Pulse Research & Polling",
     "end_date": "2026-09-24",
@@ -148,7 +163,7 @@
    }
   ]
  },
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
@@ -207,6 +222,11 @@
    "date": "2026-10-21",
    "c": 0,
    "p": 0.5
+  },
+  {
+   "date": "2026-10-22",
+   "c": 0,
+   "p": -1.2
   }
  ]
 }

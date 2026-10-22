@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -390,42 +390,13 @@
    "races": [
     "SEN-TX"
    ],
-   "type": "punditry",
-   "source": "The Dispatch",
-   "lean": "center-right",
-   "title": "What Texas Media Outlets Aren’t Telling Voters About James Talarico",
-   "url": "https://thedispatch.com/article/paxton-talarico-media-coverage-progressivism/",
-   "summary": "The Democratic Senate nominee has moderated many of his progressive positions, but you wouldn’t know that from local reporting.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "podcast",
-   "source": "The Megyn Kelly Show",
-   "lean": "right",
-   "title": "Record-Breaking Texas Early Voting, Netflix Shake-Up, Indiana Dem on Drunken Rant: AM Update 10/21",
-   "url": "https://www.siriusxm.com",
-   "summary": "Record-breaking early voting in Texas comes as Republican Ken Paxton and Democrat James Talarico remain locked in a tight Senate race, with Democrats hoping to win their first statewide election in decades. Netflix overhauls its leadership amid declining viewer engagement, criticism of its programmi",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
    "type": "reporting",
-   "source": "Texarkana Gazette",
-   "lean": "unrated",
-   "title": "ELECTION 2026 | In Texas' Senate race, Paxton and Talarico converge on key battleground",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejBsVWFhb1RlS2VYTVp1X3BuOWZxdlF4NnpFY09PVkJkZkxhc1cwRkNPc3cwZURCeGtadDZUZnM3OTgwYkpxRVpZeTExeXVCMjUxZFdjZzdYUmJ4UG9TMDN2bVRSV1pHaVFjRDBsSlZRdnV2WVpEN1ROYXBSNGtnZ2JzdWNtUGtzck5tN3NTeGJQaE9aMkpWMkdVMU8?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "George W. Bush’s Brother Neil Bush Breaks G.O.P. Ranks to Vote for James Talarico in Texas",
+   "url": "https://www.nytimes.com/2026/10/21/us/politics/neil-bush-talarico-paxton-texas-senate.html",
+   "summary": "Neil M. Bush, a brother of former President George W. Bush, expressed “deep concern about Ken Paxton’s record” and said he voted for James Talarico, the Democrat running for Senate in Texas.",
+   "relevant": true
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TX",
@@ -482,6 +453,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 0,
+   "p": -1.5
+  },
+  {
+   "date": "2026-10-22",
    "c": 0,
    "p": -1.5
   }

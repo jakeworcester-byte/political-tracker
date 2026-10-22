@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-22",
+   "race": "HOU-CO-05",
+   "races": [
+    "HOU-CO-05"
+   ],
+   "type": "reporting",
+   "source": "The Colorado Sun",
+   "lean": "unrated",
+   "title": "Jessica Killin is essentially tied with Jeff Crank in Colorado Springs’ congressional district, poll shows",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FSkpfdTJMX1Fab012NWhhTFVEaU04ZWh5Qzg2RG9GUDR2em5uU2lMUWRqbjBNMHJrcXA0RGoxY2VzVExMUXRERGpkbnlFQUlhdzIxSG9QaFdHLW02OVdvZmdZZW91OUY4dWF0Nndfb1pxUUM0YnVVMkh0Yw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-05",
  "history": [
   {
@@ -143,6 +159,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-22",
    "c": 2,
    "p": null
   }

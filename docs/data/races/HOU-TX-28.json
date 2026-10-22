@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,37 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": -11.0,
-  "average_label": "D+11.0",
+  "average_margin": -20.0,
+  "average_label": "D+20.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+   "pollster": "DCCC Targeting and Analytics Department",
    "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-07-27",
-   "end_date": "2026-07-30",
-   "sample_size": 600,
+   "partisan": "DEM",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-13",
+   "sample_size": 563,
    "population": "lv",
-   "margin": -11.0,
-   "margin_label": "D+11.0",
+   "margin": -20.0,
+   "margin_label": "D+20.0",
    "answers": [
     {
      "choice": "Henry Cuellar",
-     "pct": 45.0
+     "pct": 54.0
     },
     {
      "choice": "Tano Tijerina",
      "pct": 34.0
-    },
-    {
-     "choice": "Marlón Durán",
-     "pct": 6.0
     }
    ],
-   "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf"
+   "url": "https://dccc.org/%f0%9f%9a%a8-breaking-new-dccc-poll-explains-why-republicans-abandoned-tano-tijerina/"
   },
   "polls": [
+   {
+    "pollster": "DCCC Targeting and Analytics Department",
+    "end_date": "2026-10-13",
+    "margin": -20.0,
+    "n": 563,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://dccc.org/%f0%9f%9a%a8-breaking-new-dccc-poll-explains-why-republicans-abandoned-tano-tijerina/",
+    "answers": [
+     {
+      "choice": "Henry Cuellar",
+      "pct": 54.0
+     },
+     {
+      "choice": "Tano Tijerina",
+      "pct": 34.0
+     }
+    ]
+   },
    {
     "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
     "end_date": "2026-07-30",
@@ -146,8 +161,8 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
+ "raw_poll_count": 2,
+ "trend": "Toward D",
  "signals": [
   {
    "date": "2026-10-21",
@@ -221,6 +236,11 @@
    "date": "2026-10-21",
    "c": -2,
    "p": -11.0
+  },
+  {
+   "date": "2026-10-22",
+   "c": -2,
+   "p": -20.0
   }
  ]
 }
