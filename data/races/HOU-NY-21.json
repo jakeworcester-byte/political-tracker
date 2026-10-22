@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -86,7 +86,7 @@
   "R": []
  },
  "poll": null,
- "raw_poll_count": 3,
+ "raw_poll_count": 4,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-21",
@@ -143,6 +143,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 3,
+   "p": null
+  },
+  {
+   "date": "2026-10-22",
    "c": 3,
    "p": null
   }

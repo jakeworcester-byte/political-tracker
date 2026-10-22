@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "HOU-CA-22",
+   "races": [
+    "HOU-CA-22"
+   ],
+   "type": "reporting",
+   "source": "ABC30 Fresno",
+   "lean": "unrated",
+   "title": "Valadao, Villegas pour millions into closely watched race for California's 22nd District",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSEtNR0s5SWl0ZzFZMEg3Mno2SExqNVpRNjdCeTBxcWE5UUlfNVgwWURvRjQwaW5zVkhXQ0FkX0xLV29FWFMtTUtsUG5vNnhrRDZOLVFLNnBxV0JfWnJNNWxfam9fVU84QW5qNU1IWG9kV1V1NG9QTXZqeWI3dkQ1NXB6dWFSS20wUFVVSzlhUm9qUzd1dmpEdk1IUGVZMkhGbXpJbm5xNC1YR2I3eGZV0gG0AUFVX3lxTE5MRVBVTXVySG12Y0tUY3pzUFFQSVFVSklJUDdoUEJzdUpWS1NpUm9TWTRtbjdsWEhaZ0hCOUcyRDFvbnJJR2RnbzVDWWVRMW9GY0IxWjdOZ05wUTBEcEJIMTltVXF3aUNMLTdSQVhQTXdMLTc2REFITnZPc2g5YnBfTFhpUGNYdmxZN1pmeUVYZXZhSklZUEZOal91dmdxZDR5RktieGpiWGFFOGp0VWdQNnk1Rw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-17",
    "race": "HOU-CA-22",
@@ -159,6 +174,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-22",
    "c": -2,
    "p": null
   }

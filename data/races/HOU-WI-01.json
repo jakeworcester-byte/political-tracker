@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -164,22 +164,22 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "race": "HOU-WI-01",
    "races": [
     "HOU-WI-01"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "WPR",
    "lean": "unrated",
-   "title": "Wisconsin 1st Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeURhaVlncUs4X01lb1IwTG9uQzBPTnpOYm9KWkFnZ19yU1Nua0VKQXMweUdVVkhZLWhyR2pKaVNuOTFtNlBqd1djWkxYcU9IT2twX2hERE93UFprbnc3NGpPdHNBWnM3QWRyVU04TWk2V0QxZjlKd0hPSEF1UkQ5VVYxanY?oc=5",
+   "title": "Republicans have held Wisconsin's 1st Congressional District for decades. Could this be the year it flips?",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNck85YlU3OTZlbzhuLUFZUHFUM2FLWDdBN0RCV0VRYkh0MjZhdUhReGJYb1k0UVB3S1FCUUJWNGtUMUZsNVZSNmxCUHZGNDNWX3o0NC03cjlVQ0Y0NEFZMUxienZaMkhBQTBoTWNtZzNCYWdHSmVNUm1WY2R2SlllaGhR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "race": "HOU-WI-01",
    "races": [
     "HOU-WI-01"
@@ -278,6 +278,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 2,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-22",
    "c": 2,
    "p": -0.5
   }

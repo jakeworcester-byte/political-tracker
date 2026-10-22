@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-20",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 4,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Sherrod Brown"
@@ -381,31 +381,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "The Columbus Dispatch",
+   "source": "Fox News",
    "lean": "unrated",
-   "title": "Husted vs. Brown ads flood Ohio airwaves. Is any of it true?",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ3Radll2UFFpX01ZRHlxNjhqTjF3cUVzNHpDZnN3anBWNmpRVWZFeXhaUzdMOHFSYnhzRW5OSWtyd2szdkV0Rko2V09mTFNHWFhacE5oZGp1cTRubnBmakk0MGVTVXJjOTlsNHYwVUs5U0tBbUh2b2FzVFRxZm9hRHprYUZhYlE2WTF5NnppZ1NOQldla2pMbEN5X0doUXJjMkFmQkFsOVp4M3c5S0JpVURpR2ZlTHdBVkhZX0RZb24xaFpjTjBEUVExNGhiZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-18",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "ActiVote",
-   "lean": "unrated",
-   "title": "Husted Narrowly Ahead in Ohio Senate Race · Oct 18, 2026",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nQnhEZEh1Ty03VEMyNFJGa21OaHVmMFdveEFtQ2lvRld6R3hfcmRhczl0RVdrX1BqNzFLLTdWa0dZV3ZYUE5pb2QzSlVjMDhUWnAtWEpnVHJrZlRadWd6RnlaNXo3VFBMcklnVWF3?oc=5",
+   "title": "Fox News Poll: Gender gap and pocketbook pain shape Ohio Senate race",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb3hlbEJ2YmN0bW1kWmFrYTEzZ1JfNk9QOTNkbDIzLWdNbUJCMlNQX2I5NGxuczh5bHRWbmVYWWJ6Zl96NVdDOGxTU1JWdzZ2Q2dHbkZlMkFzY094ZHhzcWFRVzZZX0hwWWtmaUZSc24yY0g4d2xudWkwMDNhR3hrMF9sZnhmS1Q4aXJSb3VpZzdYMXFGdDBwRzMxZ07SAaIBQVVfeXFMT1BIZ3RTdC1MTVlHeWc0NGJCUjNJbDYxdXFMcEw0VVNudGtBZmZTZ3hmdUhWcUVFRllvcU1UX21LSnpLNHhFOWJRa1ZXQXdYZ191NXJjMXA3MGVaTVBGeUNBclpkcHQ3QnItdW1kUGdkN3ZKNUdQVGtkT29oMENuX2V0NjFUVVhwbHhJTlJlSlc0TFhsQVREN0ZVZC1SbGZmQVB3?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -479,6 +464,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 0,
+   "p": -3.3
+  },
+  {
+   "date": "2026-10-22",
    "c": 0,
    "p": -3.3
   }

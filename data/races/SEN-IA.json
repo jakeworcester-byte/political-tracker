@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -57,15 +57,15 @@
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-20",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -83,10 +83,10 @@
  "incumbent_note": "",
  "consensus_score": 0,
  "consensus": "Tossup",
- "disagreement": false,
+ "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 0,
+ "flip_votes": 1,
  "candidates": {
   "D": [
    "Josh Turek"
@@ -377,21 +377,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-20",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Republican Women Hail Working-Mom Credentials to Boost Hinson in Iowa Senate Race",
-   "url": "https://www.nytimes.com/2026/10/20/us/politics/republican-women-iowa-senate-race.html",
-   "summary": "Senator Katie Britt of Alabama was the latest national Republican to visit Iowa to campaign for Representative Ashley Hinson. President Trump will follow on Thursday.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-20",
+   "date": "2026-10-22",
    "race": "SEN-IA",
    "races": [
     "SEN-IA"
@@ -399,8 +385,38 @@
    "type": "reporting",
    "source": "WOWT",
    "lean": "unrated",
-   "title": "Election 2026: Josh Turek campaigns in Council Bluffs for Iowa Senate seat",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM0RZM2FqN0ZMMTFtNWFRNHRLOXJkWDByZ25BbUM1STQ3cGlKMUlxNjN5TnlrSFlDdkJQMl8tMklmcldnSHBxMDYzeklhZkpma2RSVDNoX0dINS1ncXF2R3FWRlRwQTV0eVpyd0VIbEdCZ0Q4MkdidEcyNE8ydDRpOUxmM1pOR3B6NjMtMUtLRlR6QzBBUkdLc2hoTjZSUlpn0gG0AUFVX3lxTE12ZVBpUmxTYzZwcm1JU1hSdGJRV3N1NExuVGx1N1Jvb0RRdS15US1JS1VDSVJwZnJTd0VLb05IR3M3ZEJybE5FazVPZWpDVzBheVpXQUFrMF9CS25GLURZYnIzMnRnMGFvUGIwNzYtUGZ0Z1M1b1E3cUFvZXZrSkdYS2lzZ1dGWGFqa0R1Ti1TVDRnaEZ3LW1ENi1HMzgtRzFBYlNKazNGaHYxNzdsMlZ1VHNqeg?oc=5",
+   "title": "Election 2026: Analyst breaks down tight Iowa senate race",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQakttd1Rvd0tCRWhPUGlYZDJIRklQSXBORHctOElfM0hlOUhRbFhnMTBhYW1BQlBUWjlPQURjSjBnYUJhdTE5djU0U0F2cUxBMElmQW01MGVyTEhNWWJzU21IOEoxZmF2Vld4Nk5LSzUza3hxVTNndGU1dm5adEdKeE82Ri1LMFlFOUNFYXNOWHRtb0JpdDhqVGN2Yw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "KCCI",
+   "lean": "unrated",
+   "title": "Iowa Senate race narrows as Turek leads Hinson by 2 points in latest Cook Report",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEFfdUlYbGRBaV9fOUZXalFBUS1FN2MwemV1ZnZkdzRjWTg3Y1NVWWpMZTNwTUo4MnowSHBSZEFVaWhrbDgzdHNYVGFEZTM4dVFaSHpVXzdmX1RDUnBURHdUOUpYSkZFOGZPSk81NEpGZ3ZvRkMzeHBqVkdTR09uZ29xNUk0V044aGVhcF9OS1d1ZlpnUG1TdDZIRGg2cTdyOHhYTnpCZmFSQ0hUSXY2SVF4eUkycjNyRGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Republican Women Hail Working-Mom Credentials to Boost Hinson in Iowa Senate Race",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObU9Fd3lEYUdFcmNNMFZNbXdCdVI4bTFNWWhTajBhWm01ZHdYR1dydkk3d203TUhxSkVWSEFJTDU2X1c2WHUzbnl0Sk5Bc0E1ZmZnRWU1d181QXhwRUlsMHRyTFRGM3pzT2xxY0lMM0h1eHlMWTU1OHRGN3dydGctM3RIbjFDRHRTUGpYZjBR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -431,21 +447,6 @@
    "lean": "unrated",
    "title": "Undecided Iowa Voters Are Making Up Their Minds in Tight Hinson-Turek Race",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeHZ6NXJIWVpCdUJuRVExcUd6cEdxZm1vZFdnTVFaRlAwSENxd2p6UHBvZ2xFbFd3SXJ3N2s4TFY4Ym56NlprMTVEbThoaC1TaXBmWFBSVHNibmtKY0dHeklLajJjcll2QmxpUGZBUk1lS3pZaGE4YWVNZUI4OXB0MWxVTEFSZHdyam1qU3Fn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-18",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "Newsweek",
-   "lean": "unrated",
-   "title": "Ashley Hinson Asks for Gas Money in Iowa Senate Race Against Josh Turek",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS2dNNURmVzd2R09USXo2RWFqeTc1dFhvSG43bVpobFEwUElXbUoyMGY2NUpvTmdFMmNwUm5IMXo5TzgyZUNXUGl0Q0w0Y1ZsME16RGdIb1gwRVRhUnpwczhDR2l5OC1SdmpnTndkSGF5ZkI0cGlZSWdyOFNUSkdpUzNDbGFIVVA3NmswemMtNWJvM2stTElNal9mcnQyaVVMbDNERkN5RzI?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -505,6 +506,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 0,
+   "p": 0.5
+  },
+  {
+   "date": "2026-10-22",
    "c": 0,
    "p": 0.5
   }

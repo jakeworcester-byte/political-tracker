@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -3.0,
-  "average_label": "D+3.0",
-  "n_polls": 1,
-  "window_days": 45,
+  "average_margin": -4.5,
+  "average_label": "D+4.5",
+  "n_polls": 2,
+  "window_days": 21,
   "latest": {
-   "pollster": "Lake Research Partners",
+   "pollster": "Public Policy Polling",
    "sponsors": [
     "House Majority PAC"
    ],
    "partisan": "DEM",
-   "start_date": "2026-09-30",
-   "end_date": "2026-10-04",
-   "sample_size": 400,
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-20",
+   "sample_size": 572,
    "population": "lv",
-   "margin": -3.0,
-   "margin_label": "D+3.0",
+   "margin": -6.0,
+   "margin_label": "D+6.0",
    "answers": [
     {
-     "choice": "Zach Dembo",
-     "pct": 48.0
+     "choice": "Ralph Alvarado",
+     "pct": 41.0
     },
     {
-     "choice": "Ralph Alvarado",
-     "pct": 45.0
+     "choice": "Zach Dembo",
+     "pct": 47.0
     }
    ],
-   "url": "https://x.com/cjwarnke/status/2108282466733818029"
+   "url": "https://x.com/cjwarnke/status/2112877284684341727"
   },
   "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-20",
+    "margin": -6.0,
+    "n": 572,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2112877284684341727",
+    "answers": [
+     {
+      "choice": "Ralph Alvarado",
+      "pct": 41.0
+     },
+     {
+      "choice": "Zach Dembo",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "Lake Research Partners",
     "end_date": "2026-10-04",
@@ -140,11 +159,11 @@
    }
   ]
  },
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
@@ -159,6 +178,36 @@
    "via": "Google News"
   },
   {
+   "date": "2026-10-21",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "FOX 56 News",
+   "lean": "unrated",
+   "title": "Who are Kentucky voters searching for before the Alvarado-Dembo debate?",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOHZnVm5BbGk1UWtwLVZ0b3d3QUQwWmtXaXRGUm05X1ZaS1J5TGU1SkF0WjJaeHhWRF9meXpMdEVwZEtNQXFhYUFLUFo2QjVMcVJCV0h1NWdJcWJjdXVFWlM5REhKZlFLQUM1NG1Xa04tck96VGd6NkN5UmJyVEJ5clBDLVl6b01Vd2M5ZkJrT3ltZ2VPeHJCNWxzVXFXUXR4Zk1CMFJuSUx1XzVCbjBFedIBsAFBVV95cUxOOHZnVm5BbGk1UWtwLVZ0b3d3QUQwWmtXaXRGUm05X1ZaS1J5TGU1SkF0WjJaeHhWRF9meXpMdEVwZEtNQXFhYUFLUFo2QjVMcVJCV0h1NWdJcWJjdXVFWlM5REhKZlFLQUM1NG1Xa04tck96VGd6NkN5UmJyVEJ5clBDLVl6b01Vd2M5ZkJrT3ltZ2VPeHJCNWxzVXFXUXR4Zk1CMFJuSUx1XzVCbjBFeQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "FOX 56 News",
+   "lean": "unrated",
+   "title": "When does the Kentucky 6th Congressional District debate between Ralph Alvarado, Zach Dembo start?",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORW1OendoWlhVbjhwcFVseHVrLWVQakthMUJVSUxvamJWcTUxVEkyeksxQlBKZmpNWDBBaTVTMWRlUk1ib0pZZlRyeDI2WXBQTTlnRXJXamRyaUV2aE5lMGhVaUY3akdGT3JuX01vZWVCajkxWEhQd3NrOGd1Vmt3NnNpMTFSeEdBbWMtdjMwaFMzd0Q1RUJxNzFBeDZmeTEteGpCZWFWclpqYVNsNTNBMjVpWlNDd3Qyb3kwODYtRGxKYnZvTDNDT214ZGZnZ9IB0wFBVV95cUxNeHZ4NWotcVBJRGo3enQ3V0xTeV9EVnJwSnI5amdFQjdFaTNFcmpuRElKcjdNLUlyTzJnSGJScS1FZzRPczZDQlo1enVhaGlsR0FQa05rcXFfTUJwN0R5LXEtckd4a0NjNTNuekV0Um1DZlJ1eHctSGZtUG9neVVDSk9ONTc2bWpKWkhvbkJyVEp6dllNOG9QWldVay1IVV9xTmx3VnBfXy1nMldqcXF4TnMwMkdDeTdUUWRVdzZYaTBHdTBINHU1dkxmS3dqa0hlLUNv?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-20",
    "race": "HOU-KY-06",
    "races": [
@@ -167,8 +216,8 @@
    "type": "reporting",
    "source": "AOL.com",
    "lean": "unrated",
-   "title": "When does the Kentucky 6th Congressional District debate between Ralph Alvarado, Zach Dembo start?",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdDMydzYwSkFldFpNazBNRmZqbHZBT3RodWlxNG9QOFhvckZvUDdhUzVmTjNqMklfYmtSUU1NOW02UDE4bG56X3ZpX3g3amtKLXA2MnVOS2ljYTlfU2R3akdJNVNTVEwySnpvVzdjcEhsa3ZEMmNQb2RYVWVzNnE0WE1SWGdDOTdlb1M3aA?oc=5",
+   "title": "WATCH: Alvarado, Dembo to debate ahead of Election Day in race for Kentucky’s 6th Congressional District seat",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVFoMlllVWNGcTVYb3hLelNaamlnODU4aWpNdG9HWlhZMjYzcEZkakg3c0NtUEVzZW9Fb3hVNWtLTEktSERDd2k2aTZhX0hHWThzcTRUQzk4am9MWERHTC1xbnRGX09uYnZad054N09iTTl6anZZVk55eDZaQXM5UllnSQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -184,21 +233,6 @@
    "lean": "unrated",
    "title": "How to watch the Kentucky 6th Congressional District debate",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSHoxVjlnNTJtNzgwZGZmZjV5ZGJKbXRjclljclJvVV9FOFpyVXBKSWpPdlM0VzN3eXZ5V0JDZ0xSZTMwWnlsTGhKNlRQcWJfT185ZnRoZXloaEhYZFpsN3Q4TkFvNldtXzBRbUxFNUxadVY4QXhsVDZxRmNPUjMxQnNRdDZZSVBLeUJRcjFB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "Louisville Public Media",
-   "lean": "unrated",
-   "title": "Dark money, billionaires fuel campaign ads in Kentucky’s Alvarado-Dembo race",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWVTcWpNVkdZOUNEUWRPUjN4Wk9LaFJkNkl3cHhVeVR2UHJkZXEwcHk0N2Ezc1pHNTYzUTRJVUU3cHBQLVFVd3FyY2p6T0Q2dXQxa2hITWhDVmpPVW00Y2FGN1g1X2gyYXMtV0xZMFZ4aGd5N1RNVjYtUldqbm1wSXNvem5QNmNwRWQxMDg3WjMwQ3BvU01TbzByQVBzekYyWjFJdjczeTMybmVkZjZV?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -260,6 +294,11 @@
    "date": "2026-10-21",
    "c": 2,
    "p": -3.0
+  },
+  {
+   "date": "2026-10-22",
+   "c": 2,
+   "p": -4.5
   }
  ]
 }

@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -4.0,
-  "average_label": "D+4.0",
+  "average_margin": 1.0,
+  "average_label": "R+1.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "Global Strategy Group",
+   "pollster": "Public Policy Polling",
    "sponsors": [
-    "Fight for Nebraska"
+    "House Majority PAC"
    ],
    "partisan": "DEM",
-   "start_date": "2026-08-31",
-   "end_date": "2026-09-03",
-   "sample_size": 600,
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-20",
+   "sample_size": 536,
    "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
+   "margin": 1.0,
+   "margin_label": "R+1.0",
    "answers": [
     {
      "choice": "Mike Flood",
-     "pct": 45.0
+     "pct": 46.0
     },
     {
      "choice": "Chris Backemeyer",
-     "pct": 49.0
+     "pct": 45.0
     }
    ],
-   "url": "https://s3.documentcloud.org/documents/28652094/ne-01-global-strategy-group-for-retire-career-politicians-sept-2026.pdf"
+   "url": "https://x.com/cjwarnke/status/2112877284684341727"
   },
   "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-20",
+    "margin": 1.0,
+    "n": 536,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2112877284684341727",
+    "answers": [
+     {
+      "choice": "Mike Flood",
+      "pct": 46.0
+     },
+     {
+      "choice": "Chris Backemeyer",
+      "pct": 45.0
+     }
+    ]
+   },
    {
     "pollster": "Global Strategy Group",
     "end_date": "2026-09-03",
@@ -140,8 +159,8 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
+ "raw_poll_count": 2,
+ "trend": "Toward R",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NE-01",
  "history": [
@@ -199,6 +218,11 @@
    "date": "2026-10-21",
    "c": 3,
    "p": -4.0
+  },
+  {
+   "date": "2026-10-22",
+   "c": 3,
+   "p": 1.0
   }
  ]
 }

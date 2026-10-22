@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,35 +90,56 @@
   ]
  },
  "poll": {
-  "average_margin": -13.0,
-  "average_label": "D+13.0",
-  "n_polls": 1,
-  "window_days": 45,
+  "average_margin": -10.0,
+  "average_label": "D+10.0",
+  "n_polls": 2,
+  "window_days": 21,
   "latest": {
-   "pollster": "Normington, Petts & Associates",
+   "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
    "sponsors": [
-    "House Majority PAC"
+    "San Antonio Express-News",
+    "El País",
+    "Puente News Collaborative"
    ],
-   "partisan": "DEM",
-   "start_date": "2026-09-24",
-   "end_date": "2026-09-28",
-   "sample_size": 400,
+   "partisan": null,
+   "start_date": "2026-10-13",
+   "end_date": "2026-10-16",
+   "sample_size": null,
    "population": "lv",
-   "margin": -13.0,
-   "margin_label": "D+13.0",
+   "margin": -7.0,
+   "margin_label": "D+7.0",
    "answers": [
     {
      "choice": "Bobby Pulido",
-     "pct": 54.0
+     "pct": 51.0
     },
     {
      "choice": "Monica De La Cruz",
-     "pct": 41.0
+     "pct": 44.0
     }
    ],
-   "url": "https://x.com/PatrickSvitek/status/2105651406627561762?s=20"
+   "url": "https://www.expressnews.com/politics/article/bobby-pulido-monica-de-la-cruz-poll-donald-trump-22483930.php"
   },
   "polls": [
+   {
+    "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+    "end_date": "2026-10-16",
+    "margin": -7.0,
+    "n": null,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.expressnews.com/politics/article/bobby-pulido-monica-de-la-cruz-poll-donald-trump-22483930.php",
+    "answers": [
+     {
+      "choice": "Bobby Pulido",
+      "pct": 51.0
+     },
+     {
+      "choice": "Monica De La Cruz",
+      "pct": 44.0
+     }
+    ]
+   },
    {
     "pollster": "Normington, Petts & Associates",
     "end_date": "2026-09-28",
@@ -159,9 +180,24 @@
    }
   ]
  },
- "raw_poll_count": 2,
- "trend": "Stable",
+ "raw_poll_count": 3,
+ "trend": "Toward R",
  "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "HOU-TX-15",
+   "races": [
+    "HOU-TX-15"
+   ],
+   "type": "reporting",
+   "source": "Texas Standard",
+   "lean": "unrated",
+   "title": "New poll shows Tejano star Bobby Pulido is poised to flip TX-15 in battle for border voters",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYV9yZjMtS0ZsUjJkeXdKTUNOTmwtZWNYNFNqYjNnMFoxTXU4Y0tkdGF1cVQxdnF3ek5jV2xaQTZmd3BDVVpIWHhfQ1RUZG5MUHA5NTlOdW02T0pGclBtc0F1elJxdFpabHJTYmJ5azFUYUVBQ25kQzRIOXJJd2haVmRrUUpsQ1hvTEYyRy1mNThOaUwtSTlIYzRPcFYxalk5Rm10c25UamVZLWpnOTBjSG4zSVNiWG9YU0ktb0dERnhqTFpN?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-21",
    "race": "HOU-TX-15",
@@ -234,6 +270,11 @@
    "date": "2026-10-21",
    "c": 0,
    "p": -13.0
+  },
+  {
+   "date": "2026-10-22",
+   "c": 0,
+   "p": -10.0
   }
  ]
 }

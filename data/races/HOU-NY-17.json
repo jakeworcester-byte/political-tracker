@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -182,6 +182,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-21",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "Peekskill Herald",
+   "lean": "unrated",
+   "title": "For New York Congressional District 17, Cait Conley vs Mike Lawler",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMWZia29EcW9NU2RFQXcwYTU0MkJ2TEVkY0xzc3NXenpJUTdUQUoxWEQyR0lGeGlKaDgwbldKMzRFaTlyTFFyNGRoQ2p0cGlFc2V2S1M4ZDdHUEVkcUI2OXF0NUxmODJESDRHZFRPOFp0cmZSYVZFY0xfakFZS1p4ZEZsZHFsQWN3OGRsMGN0SFh1aTlUMDJhSzdwRl93ZmhaeWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-20",
    "race": "HOU-NY-17",
    "races": [
@@ -192,21 +207,6 @@
    "lean": "unrated",
    "title": "I met Lawler and Conley. This is what's at stake for NY-17 | Richter - Times Herald-Record",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3ZOYmtOQ1RtMVlCQWkya29yNi1qdnZEVnY1MEVkMFhkYk04aThnQzFsWjRqb1lrdUlNRUxjTHBjUzJoZVJLNXM3d1lxeEpGR3Q0cWNka2R4MjhLYVFsOHFZdkc5TXo3ajRQbUJPdzBmbXBEMjItNGwwTFRvdnJjd2NFRUpGdmZLd0c5bzRlcGtJTE1SMTllTEpNVEl1QmYxbVZPODZqbEJoejVISnh6NGtuWUR2RUVneTJLM1dtNkVhcDZlSWVCZlAyQlFXMThCeTJZ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "HOU-NY-17",
-   "races": [
-    "HOU-NY-17"
-   ],
-   "type": "reporting",
-   "source": "Jewish Telegraphic Agency",
-   "lean": "unrated",
-   "title": "GOP incumbent Lawler and Democratic challenger Conley compete for Jewish vote in NY-17",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbnluOFlsMWRDWjNBakNxclNCd0piRm5kVkU2QW12XzZkdF9vY19mX25LeWd6RTZrS0FqWjVIN2V5NDQ3dUlNeVZhLWRCOXNmZDB2T2NCR0pQc2dyaGpBZkFITVY4VHBWVUJrWkE3eUxhTXhSUk1rZWFBTXFQeXMtWnVRWUJXNmczNmpORWlqQlUwWFFlQzRvSkhpNThqX2ZxTlpnaXJUc2NwUWlLeWNCRzl6Z2UyRzFoZUlHRg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -266,6 +266,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-22",
    "c": 0,
    "p": -2.0
   }

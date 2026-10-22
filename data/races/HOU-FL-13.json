@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -90,39 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": 3.5,
-  "average_label": "R+3.5",
-  "n_polls": 2,
+  "average_margin": -1.0,
+  "average_label": "D+1.0",
+  "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "Hart Research Associates",
+   "pollster": "Public Policy Polling",
    "sponsors": [
     "House Majority PAC"
    ],
    "partisan": "DEM",
-   "start_date": "2026-08-25",
-   "end_date": "2026-08-27",
-   "sample_size": 500,
+   "start_date": "2026-10-14",
+   "end_date": "2026-10-15",
+   "sample_size": 603,
    "population": "lv",
    "margin": -1.0,
    "margin_label": "D+1.0",
    "answers": [
     {
      "choice": "Anna Paulina Luna",
-     "pct": 43.0
+     "pct": 46.0
     },
     {
      "choice": "Leela Gray",
-     "pct": 44.0
-    },
-    {
-     "choice": "Tony D'Arrigo",
-     "pct": 7.0
+     "pct": 47.0
     }
    ],
-   "url": "https://www.thehousemajoritypac.com/news/hmp-poll-leela-gray-leads-anna-paulina-luna-in-fl-13"
+   "url": "https://x.com/cjwarnke/status/2112877284684341727"
   },
   "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-15",
+    "margin": -1.0,
+    "n": 603,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2112877284684341727",
+    "answers": [
+     {
+      "choice": "Anna Paulina Luna",
+      "pct": 46.0
+     },
+     {
+      "choice": "Leela Gray",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "Hart Research Associates",
     "end_date": "2026-08-27",
@@ -167,8 +182,8 @@
    }
   ]
  },
- "raw_poll_count": 2,
- "trend": "Stable",
+ "raw_poll_count": 3,
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-13",
  "history": [
@@ -226,6 +241,11 @@
    "date": "2026-10-21",
    "c": 2,
    "p": 3.5
+  },
+  {
+   "date": "2026-10-22",
+   "c": 2,
+   "p": -1.0
   }
  ]
 }

@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -140,23 +140,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-16",
-   "race": "HOU-AZ-01",
-   "races": [
-    "HOU-AZ-01"
-   ],
-   "type": "reporting",
-   "source": "ABC15 Arizona",
-   "lean": "unrated",
-   "title": "Arizona CD1 candidates Jay Feely and Amish Shah clash over data centers ahead of election",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPT1J4c0EydmxubmlpZ3h6Zi1ubDVQOHZadV9LZmR1VDllaTVfaHlfY1FEQ2p4Vk5yN2trejFxbjZXdEZiQ1FfanplbVpRLTl3UlVsVzI3ckdEWEdYRVhyYnVsWGpLWkUxbGtQa3IydE50OXFmR2I0bXRyZW1LYkxEVEF5UldXN2tYNzY5TmtKNmdnSlc1WGxpSDdVVEJnRzJhQWRvbFBzZDdMc2t4cGt4dFFaa0wwd1BvUlBnNHdmejdhX04xN0dmNEc5UHdTaEhYYTBsQnloekFDM2wzVzNCNmY4TUZDQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AZ-01",
  "history": [
   {
@@ -211,6 +195,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": -2,
+   "p": -2.8
+  },
+  {
+   "date": "2026-10-22",
    "c": -2,
    "p": -2.8
   }

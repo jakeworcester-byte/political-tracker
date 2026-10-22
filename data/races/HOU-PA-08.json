@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -82,65 +82,11 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 5,
  "candidates": {
-  "D": [
-   "Paige Cognetti"
-  ],
-  "R": [
-   "Rob Bresnahan"
-  ]
+  "D": [],
+  "R": []
  },
- "poll": {
-  "average_margin": -2.0,
-  "average_label": "D+2.0",
-  "n_polls": 1,
-  "window_days": 45,
-  "latest": {
-   "pollster": "Lake Research Partners",
-   "sponsors": [
-    "House Majority PAC"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-06-18",
-   "end_date": "2026-06-23",
-   "sample_size": 400,
-   "population": "lv",
-   "margin": -2.0,
-   "margin_label": "D+2.0",
-   "answers": [
-    {
-     "choice": "Paige Cognetti",
-     "pct": 47.0
-    },
-    {
-     "choice": "Rob Bresnahan",
-     "pct": 45.0
-    }
-   ],
-   "url": "https://www.politico.com/newsletters/playbook/2026/06/26/wes-moores-vision-for-america-00977774"
-  },
-  "polls": [
-   {
-    "pollster": "Lake Research Partners",
-    "end_date": "2026-06-23",
-    "margin": -2.0,
-    "n": 400,
-    "population": "lv",
-    "partisan": "DEM",
-    "url": "https://www.politico.com/newsletters/playbook/2026/06/26/wes-moores-vision-for-america-00977774",
-    "answers": [
-     {
-      "choice": "Paige Cognetti",
-      "pct": 47.0
-     },
-     {
-      "choice": "Rob Bresnahan",
-      "pct": 45.0
-     }
-    ]
-   }
-  ]
- },
- "raw_poll_count": 1,
+ "poll": null,
+ "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-08",
@@ -199,6 +145,11 @@
    "date": "2026-10-21",
    "c": 0,
    "p": -2.0
+  },
+  {
+   "date": "2026-10-22",
+   "c": 0,
+   "p": null
   }
  ]
 }

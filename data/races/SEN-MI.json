@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Split Ticket"
   }
  },
@@ -96,35 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -3.3,
-  "average_label": "D+3.3",
-  "n_polls": 11,
+  "average_margin": -2.6,
+  "average_label": "D+2.6",
+  "n_polls": 8,
   "window_days": 21,
   "latest": {
-   "pollster": "The Tyson Group",
-   "sponsors": [
-    "Alliance for a Better Future"
-   ],
-   "partisan": "REP",
-   "start_date": "2026-10-06",
-   "end_date": "2026-10-08",
-   "sample_size": 600,
+   "pollster": "Marist University",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-15",
+   "end_date": "2026-10-18",
+   "sample_size": null,
    "population": "lv",
-   "margin": 2.0,
-   "margin_label": "R+2.0",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
    "answers": [
     {
      "choice": "Abdul El-Sayed",
-     "pct": 44.0
+     "pct": 50.0
     },
     {
      "choice": "Mike Rogers",
-     "pct": 46.0
+     "pct": 48.0
     }
    ],
-   "url": "https://www.breitbart.com/politics/2026/10/15/exclusive-poll-shows-mike-rogers-edging-out-abdul-el-sayed-in-michigan-senate-race/"
+   "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/"
   },
   "polls": [
+   {
+    "pollster": "Marist University",
+    "end_date": "2026-10-18",
+    "margin": -2.0,
+    "n": null,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-michigan-october-2026/",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 50.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 48.0
+     }
+    ]
+   },
    {
     "pollster": "The Tyson Group",
     "end_date": "2026-10-08",
@@ -417,42 +434,80 @@
       "pct": 1.0
      }
     ]
-   },
-   {
-    "pollster": "The Washington Post/George Mason University School of Policy and Government",
-    "end_date": "2026-09-14",
-    "margin": -3.0,
-    "n": 803,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.washingtonpost.com/documents/08fa9b5e-43ac-456c-a706-4c33ec6506dc.pdf",
-    "answers": [
-     {
-      "choice": "Abdul El-Sayed",
-      "pct": 48.0
-     },
-     {
-      "choice": "Mike Rogers",
-      "pct": 45.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 33,
+ "raw_poll_count": 34,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "The Jerusalem Post",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "MAGA Bingo and Questions of Loyalty: 5 Michigan Senate Debate Takeaways",
+   "url": "https://www.nytimes.com/2026/10/21/us/politics/michigan-senate-debate-takeaways-el-sayed-rogers.html",
+   "summary": "Abdul El-Sayed accused Mike Rogers of being overly devoted to President Trump. Mr. Rogers accused Dr. El-Sayed of not enough loyalty to the country. It was still more cordial than their last debate.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Democratic nominee Abdul El-Sayed and Republican Mike Rogers are competing in a highly competitive and costly Michigan Senate race",
+   "url": "https://www.wsj.com/politics/abdul-el-sayed-tests-whether-an-unapologetic-progressive-muslim-can-win-6a22338a?mod=rss_socialpoliticsfeed",
+   "summary": "The Michigan Democrat’s faith is at the center of one of the most important Senate races.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Democrat Abdul El-Sayed and former GOP Rep. Mike Rogers clashed over foreign policy, immigration and healthcare in their second and final debate in the race for U.S. Senate in Michigan",
+   "url": "https://www.wsj.com/politics/elections/abdul-el-sayed-and-mike-rogers-clash-in-michigans-final-senate-debate-6f1a6063?mod=rss_socialpoliticsfeed",
+   "summary": "The candidates faced off on healthcare, immigration, President Trump and foreign policy. It became especially heated when one accused the other of supporting terrorist groups.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
    "lean": "unrated",
-   "title": "Abdul El-Sayed faces Michigan Senate race controversy over Hamas remarks by Democratic activist",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3YkFtQzhTdUJxYVNNWkdUNDNhNkNMRTdSNElXWU4wS2pBM3g2cG91UjhaZDMxY01jcXBLYmEzc3Nob0lmaUFVNFZwaEdzRFVlQ3Bxd2tpd3BzdEFsazQwa3IyMFg?oc=5",
+   "title": "Michigan Senate Debate Live Updates: El-Sayed and Rogers Face Off After Testy First Clash",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrcmlDMmdSYXFZTFhsVm42MHZyMTk0T2tDbDZ5ZnRpeUFTWVhRcms3enltQmNtZmdBazZJc29BUmx2b05DaU5jSzc4Ymg2SHZKMExuSFo5XzhkVnVlMUVHM1haLVptVUMtRHczakdYMHZzRnlWV25NdGY4MjdTMFk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "Scripps News",
+   "lean": "unrated",
+   "title": "El-Sayed, Rogers debate in closely watched Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaGtsWlBlWUxmY2NjQkh1WDhXcFQtb2ZvdU9WSnV0czIyaTU2Vk5TYldLQWtvaW1xVVRrYXZCY3Y4bGlzQ180VDFxR3pWU1AyOXBqTEhLeExmQ3BIcVhtVm1MdnZCRXAtRmRRaWI1cEFvenRKMXJWWnViN0hnQzFiQnNvY3NVcG9HeFN2ZEhMVmN4NFVqYTk4WFEwX2pENnExQVh3djc5eXozR3Y2clUwc2o3VW5qOFhQNmZvWQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -464,10 +519,53 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "The Times of Israel",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "AIPAC Makes Last-Minute Donation to Boost Rogers in Michigan Senate Race Against El-Sayed",
+   "url": "https://www.nytimes.com/2026/10/21/us/politics/aipac-michigan-senate-rogers-donation.html",
+   "summary": "The American Israel Public Affairs Committee generally supports Democrats, but it has spent heavily against Dr. Abdul El-Sayed, a vocal critic of Israel. Its general election spending comes after initial concerns from the campaign of Mike Rogers, the Republican.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Abdul El-Sayed Confronts Attacks on His Faith and Family Ties",
+   "url": "https://www.nytimes.com/2026/10/21/us/politics/abdul-el-sayed-muslim-brotherhood-mother-half-sister.html",
+   "summary": "In the final weeks of Michigan’s Senate race, the Democratic nominee finds himself facing both ugly attacks and pointed questions about family members. He has pushed back forcefully.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "C-SPAN",
    "lean": "unrated",
-   "title": "Michigan Senate race puts Jewish voters at center of Rogers-El-Sayed battle",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXpEdzZoelFSWFE2dWNEaWw1Wm11cS1YNlpfSlZ6MmZMcTJONHNEMnpBM3VyV0RSMl95dVA5LTZRSmg2OFc2ZktoR1J0Y2QxdVgtOXJmVVVESk1tVEt5dFhGX1FYbDc0aHpPUTRNbWczdFFjbEEyRzJHUy1TaU5TQTk1QXFVb1llTVdCa3B0VDc3NkNaZXFvZ1hlZXNvMl9LY0ZGM080SENxUdIBrwFBVV95cUxPQnJLYWRhVkhQS2tiQzltRGJDclluZzR2VkFVT3d2dENPNXRvTjlSREsyYUdxQlExa083ZjZVQjVmTWtWUF9UZXhLLUxoeGlmTTBWSXk0NHRzbUxvYjdpcHc3U1VHb05yMkRLX3FiNEtHNmRNZ1lEa0N2eVVDVGVBN3lQd2xJMHk0WXZqUE5VR0pkTGVEZy03dWx1T29HTG9kUXpRYlVjY1ZXTFZJTHlJ?oc=5",
+   "title": "Michigan Senate Post-Debate Remarks to Reporters - C-SPAN",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcUp3MDNUaGN1Nm9PLUd1dk5TMDhyM08xNDNLLTd0dm9DZUotTk5idVRPbmMtckd4TmJ2NjhIS0xIY1RVY3FyVnJXU1NCUnVZRklNRUJPc1BkRG80NGZhcnlqY2dOTExDWUc2ZzlBMGRjWGdPLWR0eUxBUDllTkhjZW8wQTdBeDRIbDltYkR4LTVuLW5Rb1U3TERKZTZYWXc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Jerusalem Post",
+   "lean": "unrated",
+   "title": "Abdul El-Sayed faces Michigan Senate race controversy over Hamas remarks by Democratic activist",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3YkFtQzhTdUJxYVNNWkdUNDNhNkNMRTdSNElXWU4wS2pBM3g2cG91UjhaZDMxY01jcXBLYmEzc3Nob0lmaUFVNFZwaEdzRFVlQ3Bxd2tpd3BzdEFsazQwa3IyMFg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -494,21 +592,6 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "Detroit Free Press",
-   "lean": "unrated",
-   "title": "Who's winning Michigan Senate race? Latest polls show tightening race",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYVpNUGRFNDlsY2NyZ0EzdTBMaWlCY2l0V3JLakxXM2djQ1JlZzZpemlERlRxVENGSERWM3RlUThlMFVmTE43ZjQ5ZWpaNlh1cVhkMG9UUGlqUFVwS2ZidlE2QndJaHlwNkh2VWdneXNMVXNQWnVaZWgxRDBMQm5KeDM5Q0R6bnFsUFJkOWRLcUQxVEVydHBBSUExaTZpbjAxLUFPeVUybGpPS28xZXlTMTdNZU9qYUE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
    "source": "PBS",
    "lean": "unrated",
    "title": "A bitter Michigan Senate race rattles Jewish and Muslim voters already on edge over the war in Gaza",
@@ -524,10 +607,10 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "The New York Sun",
+   "source": "Detroit Free Press",
    "lean": "unrated",
-   "title": "Republican Group Invests Another $4.7 Million in Michigan Senate Race as El-Sayed and Rogers Contest Narrows",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSjdwbWQwWFhkMDFsQ25rb1Mtb0RRVmhuZF84cllRWEgyVXljYUJ6bXp0dnNLS3EtMW14c05xSGZCLUJ2RG5YSHpOWVo3THZNSlVXaGxLZC04WXVDVXFseWhEcmpxd0stLTRoVmNfZ2xyMV9UVHMzX1UzUm96dUYzZ3dfbEVIR1BwWXJPX2JEeTN4dkRMblJCVkF5Wi1KNlgwZXd1VVNBVHhkV1NjVG5mTFVBNXFOVVlIcXVtNGEyVHh4V1IxN0JMSkc3RExiNnc?oc=5",
+   "title": "Who's winning Michigan Senate race? Latest polls show tightening race",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYVpNUGRFNDlsY2NyZ0EzdTBMaWlCY2l0V3JLakxXM2djQ1JlZzZpemlERlRxVENGSERWM3RlUThlMFVmTE43ZjQ5ZWpaNlh1cVhkMG9UUGlqUFVwS2ZidlE2QndJaHlwNkh2VWdneXNMVXNQWnVaZWgxRDBMQm5KeDM5Q0R6bnFsUFJkOWRLcUQxVEVydHBBSUExaTZpbjAxLUFPeVUybGpPS28xZXlTMTdNZU9qYUE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -589,6 +672,11 @@
    "date": "2026-10-21",
    "c": -2,
    "p": -3.3
+  },
+  {
+   "date": "2026-10-22",
+   "c": -2,
+   "p": -2.6
   }
  ]
 }

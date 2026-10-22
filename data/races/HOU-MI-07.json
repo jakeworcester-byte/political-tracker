@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Toward D",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "HOU-MI-07",
+   "races": [
+    "HOU-MI-07"
+   ],
+   "type": "reporting",
+   "source": "WKAR",
+   "lean": "unrated",
+   "title": "Michigan's 7th District House race is nation's most expensive for political ads, outraging both candidates",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRXlUQUw2OTdGZTVGN2JtQV9LenBOajk1OE5McVk1Vk5Ta21YZzlzWnRIWk52NUxGLTFUcmdGZEt6dktxTk9MRlZQN2pOV1F2eFRaMklxV3VoNUZrOHdnX1UwR201QThrMnBKTUphM2VMZW15Z244NDV3TWFlXzB4RzBFLVp6b3hTSllBZGxuRDY2VWc4eGdWZmlrdTNKVl9IV2p0YTJyVXhmODBRUzFoWGZkT0xYQXcwR09qaXo4Z1dFdzRkWkxCV3BOMnQzZlNFYmQyeDdQMXpocjBTV2dESDBCRQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-07",
  "history": [
   {
@@ -197,6 +213,11 @@
   },
   {
    "date": "2026-10-21",
+   "c": -2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-22",
    "c": -2,
    "p": -2.0
   }
