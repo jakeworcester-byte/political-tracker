@@ -27,21 +27,21 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean R",
-   "flip": true,
-   "as_of": "2026-10-20",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Lean R",
-   "flip": true,
-   "as_of": "2026-09-10",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 5,
+ "flip_votes": 3,
  "candidates": {
   "D": [],
   "R": []
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Toward D",
  "signals": [
+  {
+   "date": "2026-10-22",
+   "race": "HOU-ME-02",
+   "races": [
+    "HOU-ME-02"
+   ],
+   "type": "reporting",
+   "source": "newscentermaine.com",
+   "lean": "unrated",
+   "title": "The race for Maine’s 2nd Congressional District seat: Here's what you need to know",
+   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeWMtaFhKZ29XWVU2Y25pd0FtY1ZiazhyQVFKTXdSbFhBN0NfbTdlY1U1SGhKX3M4QUxBYjlyT3hTVjFWbGdLVURqd1BxRkJ1ekZCdWJub19Zc3hMcnRUcy0yWnRpZlVicnpuUDUyaWRhYll0MVBwNW13Y1NuVlk2QTVjcWkzdUNfb3B2VWl2c18xNm9JUzNOVDRzcU54cXM4aHNYS0MwNUhTTk50dHdtbEdTemRtQXptczF4SzFjT05mR2ZsOXhvdFlqVDNYS215NE1hYU1KV2FMVWJSQ3JVVXRnaGJYdklSZEtkanczRUxucEQzMXlfbmotRy0tTDg3RDA0UUVXLW93ZU1S?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-21",
    "race": "HOU-ME-02",
@@ -164,6 +179,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-23",
    "c": 0,
    "p": null
   }

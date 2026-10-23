@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-09-10",
+   "rating": "Lean R",
+   "flip": true,
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 7,
+ "flip_votes": 8,
  "candidates": {
   "D": [],
   "R": []
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-21",
-   "race": "HOU-FL-09",
-   "races": [
-    "HOU-FL-09"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Florida 9th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeVplb2hBWUZtTjVSSV9EOThtQVVYUExkMzlXQnFtSHZiTTJYNVB2alBMbFY0cTh0UnBVREcxNXJxWVhDXzNkb29sdm1uZWxCN1lsNnVaSWQ4VWV2NHVnVXN4a05nLXh6UU96N3RsU0Vnd2VEaWFEc2ZMQlZPTU1mQnhB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-09",
  "history": [
   {
@@ -164,6 +148,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-23",
    "c": 2,
    "p": null
   }

@@ -27,21 +27,21 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-20",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-09-10",
+   "rating": "Likely D",
+   "flip": true,
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Brian Poindexter"
@@ -183,6 +183,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-23",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "Ashland Source",
+   "lean": "unrated",
+   "title": "Miller seeks reelection to Ohio’s 7th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaDVHX0hYYWo5bXdCS25URlRrbWdfa3BLb0czOGhqWHhqU2FxdjZfTkh1ZVV5MEtuOXBJeWkxRDU4NDQ0Tk1KY1lNVHFFaTZTQy04OWpQYUpJTjJSVUd3TnFSSGMtV0Nlb2cxejlyTUJuUjlhY29McVVNNzU4bkRXSkJiRHdnc1hCNHAyay04Y09XckNXLUtuc2NrMW1jMks3V1ZJ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-19",
    "race": "HOU-OH-07",
    "races": [
@@ -223,21 +238,6 @@
    "lean": "unrated",
    "title": "Ironworker challenges Rep. Max Miller as the Ohio congressman fights to hold seat amid abuse claims",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMzExbmhtdFpfeFdJLWNyODcyVHd0UXNNVHk5ZFB3UC0tR0tjQkZIRGNSME5UOUVQYjFnNVFlTzRFQkVBczhfY0dWTnRCZFhXMVp0dl9zT0FvR0FIdl9nWG5NM1g1RGZ1ajVKQ0VmdmMzdUJkSHlqNzVXRlp0TDZ2a01HVEk1MkZUZjVEYnQycWlVZ2Z3NklPVVBUcngxS0JMcy1meHRQUzF3NGcwbjgyNlpyWTRST3dybzR5RW9pZjRxbzBvUmRmMXhIWmRCSGdrYVlkazhib1NLV040?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-18",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "Cleveland.com",
-   "lean": "unrated",
-   "title": "Toss-up race between Max Miller and Brian Poindexter puts Ohio’s 7th District in spotlight",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQODcwRFVjSFBlU3pHbGZaWTNIQjgxNmtlblZMU0t4UkQ2VExlS1RRSE9ESWhLb1Z3TUVMdjZrZkp6dlRJZFlQS210MHBzenV6R2xFQUVKdU5fUHFaeTdSX2RIYWhRbmIzSjZ3Snltb2pRa1ZZc3BTTElZZ2Y3N092RFAwUU5KLUFXSUxHRXVJSWpCS24tYWthdEY4NG1SWUV2N0h3SDE4OUNCeXBmWjJkTnlFMDFWVVBFcURpRHpIMW55UktKS3dXc3Y2WlRmd9IB4gFBVV95cUxPem11TUVXZ3o0LXlTZ0NTOHhGV1ZRSVp4NkNEUWFuYTA2VDA2ZjE5RTJrOW9FWXBDTlQwWTZKQm9LZGFXVlZRVkJwbE5NNXpnODBmZmFPdEx2NlpPRndHNEU5b01XTWl6bElmWTR0aVhHVGRPWHRzdk9GUjhxRmVpOURzTmF0cU1qcFFOOW13SHB3ck9tLUVWNkYtbjNCaWt0TE93S0lULUhsUnhDRS1KdWlEWVVYWk1ZblFYRVJ5b1RNT0lhQndvYUUyWEM3TWtHRDhtOTlEOXhzRThFbnVaWlFR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -302,6 +302,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-23",
    "c": 0,
    "p": -7.0
   }

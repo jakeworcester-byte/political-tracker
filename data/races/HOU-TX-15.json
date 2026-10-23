@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Lean R",
-   "flip": false,
-   "as_of": "2026-09-10",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 2,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Bobby Pulido"
@@ -184,16 +184,16 @@
  "trend": "Toward R",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "race": "HOU-TX-15",
    "races": [
     "HOU-TX-15"
    ],
    "type": "reporting",
-   "source": "Texas Standard",
+   "source": "USA Today",
    "lean": "unrated",
-   "title": "New poll shows Tejano star Bobby Pulido is poised to flip TX-15 in battle for border voters",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYV9yZjMtS0ZsUjJkeXdKTUNOTmwtZWNYNFNqYjNnMFoxTXU4Y0tkdGF1cVQxdnF3ek5jV2xaQTZmd3BDVVpIWHhfQ1RUZG5MUHA5NTlOdW02T0pGclBtc0F1elJxdFpabHJTYmJ5azFUYUVBQ25kQzRIOXJJd2haVmRrUUpsQ1hvTEYyRy1mNThOaUwtSTlIYzRPcFYxalk5Rm10c25UamVZLWpnOTBjSG4zSVNiWG9YU0ktb0dERnhqTFpN?oc=5",
+   "title": "Bobby Pulido, a Tejano star, is trying to flip a South Texas seat",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUnV2RXRwVEQtZ284LS1iRW05d0o2RkRfSHBDRjI1bkZMbXpFRHItSk5JNE1wRUhpS3JLcHpYRjlTbTVsUUoyVHBGV1l1VVNUemlDV1ItcE43ZnVfdG1CVWdmdWFaeG1KOUtyR010Nko1dEd5bmVETUkySGRMa2NvSFZjdENOZmw0UkZtaW5oNVI2MEN1Sks0OWJVUkNXSkNXVHlMcVhHSEpXMXp4aHZCVXFKOXU1YWNUeHc2Y05JLXNzdDRFa1E?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -273,6 +273,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-10-23",
    "c": 0,
    "p": -10.0
   }

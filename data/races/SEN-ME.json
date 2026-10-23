@@ -11,7 +11,7 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "NBC News"
   },
   "rcp": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   }
  },
@@ -357,46 +357,60 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "The Washington Post",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "What Dueling Visits by Ocasio-Cortez and Manchin Say About Maine’s Senate Race",
+   "url": "https://www.nytimes.com/2026/10/22/us/politics/maine-aoc-jackson-collins-manchin-senate.html",
+   "summary": "Senator Susan Collins, a Republican in a tight race, is keying her closing pitch to the middle, while her progressive challenger, Troy Jackson, is seeking to excite the left.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "PBS",
    "lean": "unrated",
-   "title": "Troy Jackson lacks charisma. But in Maine’s Senate race, it may not matter.",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR2k1NXZWSG5NWUxRb0hYeWtHSzBLUjB1Y1pRbUhWb1lCRkRXYVItVlVzWFQ3cm5LdzFUMFJmakpqOHV4RTJxYlRGOU0wdUlRNVlfaVZyZUpOUFl2ZUVMQ1dMVmVJam5PRnNvOHdzQVRzdF9yUjE5QVdlNnc0OE5pQzF3UHg1cHNkVUdpTXRSOXhXTXdBdHp5ODZYM3puMDNuTkVsLUd4SGFJdw?oc=5",
+   "title": "What Maine voters are saying about the Collins-Jackson Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWEREQUVRQTdwaXZMT1lwX0xUZ1BvdWdTcWNSOThEbGhacV9nSzZvaGZjQWRDMmNxeW9SZXVKQXlaSkRFdGNGS0RycXdQam1Xa2lBS0NMemhVelhjUmhnTVJhRHc3TGgzZ1JkNkUxNnpHcEJrOThPYTBiajAzc1lGWlhCMXIyalQzNE9NdmNwQXRsTm1vYm45eWFYZEhCMGN4U3c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-20",
+   "date": "2026-10-22",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "NBC News",
+   "source": "Fox News",
    "lean": "unrated",
-   "title": "The Data Dive: Steve Kornacki on how Susan Collins could transcend Trump in Maine",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlBhdldXVW1XREthLTlwdS1kbWd5RjgwXzdVcjZJU3lWX2JOcGwyVVRydy1nWmRtUUFzSGFlUG1udk5PcDVvYkpFU1NxaDZSNFdteGFLMG9HeFZRMTgzc3hTd1JNZUdwc09HMjYxakM5b3IzVmtkWXVMWl9wWDIxMnJGNnZPRnphUFZfcmJTcEdIcVBTeC02WmpNLVlUc2JGZndWN3dZU09KVmd6bUVnaFNwelRCMnNXNFE?oc=5",
+   "title": "Fox News Poll: Nail-biter in Maine Senate race",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS0JmbXRsMlkyXzNoQTl6THNiRllxMXZEOXZEeHExQWJFcHo5MmV6VEJVUFBpTDhibjVqN1dJYTFLY2llbXplN2tUZEM4X2wtZno4NjEwdVFNOWVTdGZBd2xsLUtnM3g3OVBEWm1uQmlJRWVlal9hSnR0a1R0ZWJ4MtIBhgFBVV95cUxPN0JhWFZvVHlCMnF4MkFJSmRGbGZiN1d1MldWOEw4WlJyc1pUTnNaeFF6S3hzUF9FRnVxRUVIMEdFSGVQX3dfcFFJTEc4OHY4MC1xNnN5dTVxM3IyRzJpM2lCQzdjd0IwY0cxZHRMbzJacXZZWXdBblE5bW9hRGZfWVlvMmFsdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-19",
+   "date": "2026-10-22",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "CNBC",
    "lean": "unrated",
-   "title": "Manchin Says He Will Campaign With Collins in Maine",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaVBQSDNPM0d5eXJKbHl5aVhnWW1Ub3d0cElrSlp2aTRzME9kQlI5ak4tbFJySlJnUE05aWtGMklBWUdqak9vQXFSWlhyUF9ubXBwNERGMFI4STNmeklhZHlQeHhqUi1GU1hzX05uWnZoVTJFN3NqUC1kQjcyaHZWTXRyUVZKS28?oc=5",
+   "title": "Trump’s tariffs loom over Maine Senate race between Collins and Jackson",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zQy1vM2xpZlhpcVU1ZmtRNEhhTGtNZENvSTk3WDdxWWxOYjN6UVJuVlhvTl9faDAxZGR4cEZ1cThZOVJBd1JKVEIydllROEU4MXhFWG02R0RlSXlqaWZmNXhMU3FWLWFWQjFHQy1MOTY1anBBRXpyV0RNVTfSAYIBQVVfeXFMTzFyOW45TzR6WU44QjhRN3VORHpNWElzazRkUHQ0NXJwVXZ3d2VoMUpET0RxSjR1LThUU3hrN2NMcS1EOXhfN3FjU0VvNWYxVmp2V3BvRzdlakQxUzh0dllzdjJKR29ZWXZaQzNBbGM2QVI1TWRLa1YwSHZac25KMFB6QQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -461,6 +475,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 0,
+   "p": -2.6
+  },
+  {
+   "date": "2026-10-23",
    "c": 0,
    "p": -2.6
   }

@@ -27,21 +27,21 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -75,10 +75,10 @@
  "key": "HOU-NY-21",
  "name": "NY-21",
  "incumbent_note": "",
- "consensus_score": 3,
- "consensus": "Likely R",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
@@ -87,8 +87,24 @@
  },
  "poll": null,
  "raw_poll_count": 4,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-20",
+   "race": "HOU-NY-21",
+   "races": [
+    "HOU-NY-21"
+   ],
+   "type": "reporting",
+   "source": "Spectrum News",
+   "lean": "unrated",
+   "title": "Constantino, Gendebien vie to replace Stefanik in NY-21",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU03emh1VlJxZVFheUFNcFRqa1h4YnJaeUpYdTczOHZoZmF1X1dXV3hERkJUdzhmYUxJeDBqZllrOWFxNHJEQjBXNW1pQkRXUi1QamJ0V3REanpMY1hhbzJsaTNPb3Y2TnlPUlJqVkUyNmxSZGxFTHpyVmhELUlxeF9aeVRuMjc0czdCYV92clF2SEhnRUNuS0NpWE9Pc184WTY4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-21",
  "history": [
   {
@@ -149,6 +165,11 @@
   {
    "date": "2026-10-22",
    "c": 3,
+   "p": null
+  },
+  {
+   "date": "2026-10-23",
+   "c": 2,
    "p": null
   }
  ]

@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-09-10",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 2,
  "candidates": {
   "D": [
    "Shannon Taylor"
@@ -140,38 +140,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-18",
-   "race": "HOU-VA-01",
-   "races": [
-    "HOU-VA-01"
-   ],
-   "type": "reporting",
-   "source": "The Daily Signal",
-   "lean": "unrated",
-   "title": "Rep. Rob Wittman Makes His Case in Virginia’s 1st Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRHRyOTl0RTVvak4tVTZwUEpFdlhCQUxGTXZTQ3BTSlhBUkFPRzBVX3VjdFNoQUdwSlFFWnRmNTRxazdxYUhIenl5UFhIc2wyTEdwSEQ0emswYVBucUh2OUg2U28xd1MzdzFiTUhCdXJqX3JheWpzM0xDd0ZDUW83TzltVi1WanltTjZOZlVjeEstbmJzdkR4NGxXd3Y1WkJRbVNkYXJLRTN1ZmlSV213?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-17",
-   "race": "HOU-VA-01",
-   "races": [
-    "HOU-VA-01"
-   ],
-   "type": "reporting",
-   "source": "Daily Press",
-   "lean": "unrated",
-   "title": "Commentary: Virginia’s 1st District 250 years ago and today",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQl9WOVdZaV9JVjQ2dUNhOHNfSjhPWklMRXlrRHllcHJ4M0dnSXZRSFl3aHNiTy1RcVhrWUF3V29LdEpHR2tqMDJ0eTZLVWNMaENqeWl3ZGZaam9FRS14cHFEYzI3cmVlR3RocTFUSElwcGNyWWVuNzExcXE2Rmd0ZnBUa3Q1V2cwSTd4akJKSnRWelVEYUs1Zm9JNUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-01",
  "history": [
   {
@@ -231,6 +200,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 0,
+   "p": -4.0
+  },
+  {
+   "date": "2026-10-23",
    "c": 0,
    "p": -4.0
   }

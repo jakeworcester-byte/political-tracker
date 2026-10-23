@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": 1.0,
-  "average_label": "R+1.0",
+  "average_margin": -1.0,
+  "average_label": "D+1.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "Emerson College",
+   "pollster": "Change Research",
    "sponsors": [
     "Northwest Progressive Institute"
    ],
    "partisan": "DEM",
-   "start_date": "2026-07-08",
-   "end_date": "2026-07-10",
-   "sample_size": 500,
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-21",
+   "sample_size": 551,
    "population": "lv",
-   "margin": 1.0,
-   "margin_label": "R+1.0",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
    "answers": [
     {
      "choice": "Marie Gluesenkamp Perez",
-     "pct": 44.0
+     "pct": 45.0
     },
     {
      "choice": "John Braun",
-     "pct": 45.0
+     "pct": 44.0
     }
    ],
-   "url": "https://www.nwprogressive.org/weblog/2026/07/wa-03-is-still-washingtons-tossup-district-marie-gluesenkamp-perez-and-john-braun-are-tied-ahead-of-2026-top-two-election.html"
+   "url": "https://www.nwprogressive.org/weblog/2026/10/theyre-tied-again-in-wa-03-npis-autumn-civic-heartbeat-polling-finds-marie-gluesenkamp-perez-at-45-john-braun-at-44.html"
   },
   "polls": [
+   {
+    "pollster": "Change Research",
+    "end_date": "2026-10-21",
+    "margin": -1.0,
+    "n": 551,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.nwprogressive.org/weblog/2026/10/theyre-tied-again-in-wa-03-npis-autumn-civic-heartbeat-polling-finds-marie-gluesenkamp-perez-at-45-john-braun-at-44.html",
+    "answers": [
+     {
+      "choice": "Marie Gluesenkamp Perez",
+      "pct": 45.0
+     },
+     {
+      "choice": "John Braun",
+      "pct": 44.0
+     }
+    ]
+   },
    {
     "pollster": "Emerson College",
     "end_date": "2026-07-10",
@@ -140,9 +159,55 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
- "signals": [],
+ "raw_poll_count": 2,
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-23",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "FOX 13 Seattle",
+   "lean": "unrated",
+   "title": "Mike Johnson rallies in Chehalis as Washington's 3rd Congressional District race heats up",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MaWJVUUJENlFWbFV0bXlzd2lpWG9mUHQ3LWZfMnpUN2xDZlRrcnJiZ09GdFNzSE16SHJUdER1Z3RFSi0wbHIxZndqQk85STBjWGdfZWVnNjFWOWxPRmo0SXFJeTBoTE5mbVBJ0gFrQVVfeXFMTUxpYlVRQkQ2UVZsVXRteXN3aWlYb2ZQdDctZl8yelQ3bENmVGtycmJnT0Z0U3NITXpIclR0RHVndEVKLTBscjFmd2pCTzlJMGNYZ19lZWc2MVY5bE9GajRJcUl5MGhMTmZtUEk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "KING5.com",
+   "lean": "unrated",
+   "title": "New poll suggests 'statistical tie' in Washington's 3rd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdXlnTjBCbDFGV1NGaFBjdm84VVV3UEo3U1o5S01XMTJlNlRlZXd2eGVhY1ZNcVN2WjJTWDQzakhlVjVNWDJiTnVWRGdfdnJJampyMkpCdUprRUFqY0RWYlBFTFUwdTdfSDdZdmhpa2pvZzhOc3NDNDFYb1FOT0g3a19TcDhhVmtDMjNhbmJOLW56Yko0aWM3R3VEYjkxQTBYNXJwazJ0Ulk0cEdWN3R6T01DM1p3NndiS2ZhblVDdjA0aXYtcTNTREJ2dmhKME1uN3RGcWZyc2k4dHZQLThpU1ZxOEVZSktr?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "Northwest Progressive Institute",
+   "lean": "unrated",
+   "title": "They’re tied again in WA-03: NPI’s autumn Civic Heartbeat polling finds Marie Gluesenkamp Perez at 45%, John Braun at 44%",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbzBlcmVjbHZHb2VFRG9pWjNVRVdsclozRVhpdzZkZGh3SF83Uk9KOTNuSzgtd0lwVGtFNEp3cTc4ZExtZHVMVGQxaWFFVE1SZE02U3gxUXBjeGlueW1sYnhjOXRGcXkwS25pMVlSMkRZaHZKOHNxa1BVRVpBa3lvcmlhbVBfd21zMzlidzdkN010V0pRT0xyR2xmbFFqcXpiMUhjNGpycklUc1BxOWJNWlFsaEN1UTF3d0pMUXNrTWxYRmdTOERIWDRteXVvdTI0WlMyNTZrdUFBV2Jnb2JkTDlpQzdKVWlubzNLOHBKQlpwV2FrdDRkVA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WA-03",
  "history": [
   {
@@ -204,6 +269,11 @@
    "date": "2026-10-22",
    "c": -2,
    "p": 1.0
+  },
+  {
+   "date": "2026-10-23",
+   "c": -2,
+   "p": -1.0
   }
  ]
 }

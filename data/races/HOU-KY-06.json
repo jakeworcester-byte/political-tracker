@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Likely R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -75,8 +75,8 @@
  "key": "HOU-KY-06",
  "name": "KY-06",
  "incumbent_note": "",
- "consensus_score": 2,
- "consensus": "Lean R",
+ "consensus_score": 1,
+ "consensus": "Tilt R",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -160,19 +160,34 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-23",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "AOL.com",
    "lean": "unrated",
-   "title": "Kentucky 6th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLTY1c3dTYVVEcFNlbl96TjJkN2xzWVlMbjVHZUVHaWZJWHZlRk54R1Q3dUxrWHJkUDRfMFkySUxXQkk3YUNFdzl2NEswWkNoQWw3RzgxSmdKY3FaMmFJLXBKTFNkUHo0LTUwVnNXRk93eW5qdUkzclowdER4azZvandCcw?oc=5",
+   "title": "Poll: Who won the Kentucky 6th Congressional District debate?",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVDI3NGwzaXg1eVdrb0t3MFh3NkQzbmZhaXlNbjdrXzBBeXJJMkpJclpfME9XZ09ic2p6aUxhRUZHMFJJVHdqTGZ0eXhjUHpLeUNWQ1ktaXY3eVZLV003bWt1U1BRWC1KV1ZHSU5UOHNxTklTSk9rTkY4YjZKOV9ydl9SZXZOdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "FOX 56 News",
+   "lean": "unrated",
+   "title": "Alvarado, Dembo set for live Kentucky 6th District debate Thursday night",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnRyemc0bmJ2eDllNjc4LVB6YnJqdVE5THRyYy1HRU80eVRXZ1dtNEFZVmo0UWZmRXoycm94UXVLNnE4NmdjY3dlRGhIUTN2cEl0Ym9VNVc5Wm04VDlKeS16SlIxdXUxVWtqaVVSZllmYXlCM2ZpVjBqMjR5SGRoVUdILTVwOVpLc2ZSOTlYU0FoQzZpUC1pbkJPSUF6UGYwQzZGd3QyUlJudkQ10gGyAUFVX3lxTE93OUlGbGZCTlFJTnNFTGZnV0t6VlEzb2Y1a0dzbi1SVnFIV0ZUaWJPNWJwX3RWaFNIUzNZMHltNk81cEhsTzlnWjVENVZib3NRRUFEa3JqVk14YlhuSXJmRVRtYVFIUGk0SHhKRm81eXdaQnZBLXNDdlRzcWpZeW9fSVZ0Ym91eVQ0QkxYS2NhR1FtYTc5d1lBb0g4U1diVUVWU0Q1TkVfUVpLa2ZLblp5Q2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -184,10 +199,10 @@
     "HOU-KY-06"
    ],
    "type": "reporting",
-   "source": "FOX 56 News",
+   "source": "The New York Times",
    "lean": "unrated",
-   "title": "Who are Kentucky voters searching for before the Alvarado-Dembo debate?",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOHZnVm5BbGk1UWtwLVZ0b3d3QUQwWmtXaXRGUm05X1ZaS1J5TGU1SkF0WjJaeHhWRF9meXpMdEVwZEtNQXFhYUFLUFo2QjVMcVJCV0h1NWdJcWJjdXVFWlM5REhKZlFLQUM1NG1Xa04tck96VGd6NkN5UmJyVEJ5clBDLVl6b01Vd2M5ZkJrT3ltZ2VPeHJCNWxzVXFXUXR4Zk1CMFJuSUx1XzVCbjBFedIBsAFBVV95cUxOOHZnVm5BbGk1UWtwLVZ0b3d3QUQwWmtXaXRGUm05X1ZaS1J5TGU1SkF0WjJaeHhWRF9meXpMdEVwZEtNQXFhYUFLUFo2QjVMcVJCV0h1NWdJcWJjdXVFWlM5REhKZlFLQUM1NG1Xa04tck96VGd6NkN5UmJyVEJ5clBDLVl6b01Vd2M5ZkJrT3ltZ2VPeHJCNWxzVXFXUXR4Zk1CMFJuSUx1XzVCbjBFeQ?oc=5",
+   "title": "Kentucky 6th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLTY1c3dTYVVEcFNlbl96TjJkN2xzWVlMbjVHZUVHaWZJWHZlRk54R1Q3dUxrWHJkUDRfMFkySUxXQkk3YUNFdzl2NEswWkNoQWw3RzgxSmdKY3FaMmFJLXBKTFNkUHo0LTUwVnNXRk93eW5qdUkzclowdER4azZvandCcw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -208,31 +223,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-20",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "AOL.com",
-   "lean": "unrated",
-   "title": "WATCH: Alvarado, Dembo to debate ahead of Election Day in race for Kentucky’s 6th Congressional District seat",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbVFoMlllVWNGcTVYb3hLelNaamlnODU4aWpNdG9HWlhZMjYzcEZkakg3c0NtUEVzZW9Fb3hVNWtLTEktSERDd2k2aTZhX0hHWThzcTRUQzk4am9MWERHTC1xbnRGX09uYnZad054N09iTTl6anZZVk55eDZaQXM5UllnSQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-19",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
    ],
    "type": "reporting",
-   "source": "AOL.com",
+   "source": "FOX 56 News",
    "lean": "unrated",
    "title": "How to watch the Kentucky 6th Congressional District debate",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSHoxVjlnNTJtNzgwZGZmZjV5ZGJKbXRjclljclJvVV9FOFpyVXBKSWpPdlM0VzN3eXZ5V0JDZ0xSZTMwWnlsTGhKNlRQcWJfT185ZnRoZXloaEhYZFpsN3Q4TkFvNldtXzBRbUxFNUxadVY4QXhsVDZxRmNPUjMxQnNRdDZZSVBLeUJRcjFB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPblVMdEJudUNuYWhfb2RBLUNOTjFsSU9hd21YSkw5R013ZktGOXRWM29wd0VEcWstVk9oYVAtcS1FTTZqcHZLamlqck9CRVo5UDkwcWV0ei1OM1MxYy03Zlh4V0lNWlZra09tNUNEUF9McGtGXzJzSjN5NjQ5bEowaG9VQldIS3Zkbjc0b3JEV0VHcmlEd3FBV2Jra1XSAaIBQVVfeXFMTkcwRXNNRV9rSHRpdmVSYVljRjFjSUtNeXlieFdqVTBhbU00VXBwd1AzMjY2MTVuX1p2UTNSZlFQQVVDRlF0dHc5VFVhQkYzc0FvZ2RValdOdUpmOXA5QnhRM2ZWd1B5QjRvbk1YczRqVEpSUHI1Qi1UckJHSzNJQkc1dkUxamV4T09WaWZ0cTA1MC1jNlNYZldJMnRER1N1VmFn?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -298,6 +298,11 @@
   {
    "date": "2026-10-22",
    "c": 2,
+   "p": -4.5
+  },
+  {
+   "date": "2026-10-23",
+   "c": 1,
    "p": -4.5
   }
  ]

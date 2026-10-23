@@ -11,7 +11,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "NBC News"
   },
   "rcp": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   }
  },
@@ -180,7 +180,7 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [
   {
    "date": "2026-10-22",
@@ -189,12 +189,13 @@
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Clashes Darken Rally in South Carolina as Trump Seeks to Boost Darline Graham",
-   "url": "https://www.nytimes.com/2026/10/21/us/politics/trump-rally-south-carolina-darline-graham.html",
-   "summary": "Mr. Trump is barnstorming across conservative America this week to shore up support for Republican candidates in unexpectedly competitive races.",
-   "relevant": true
+   "source": "AP News",
+   "lean": "unrated",
+   "title": "Trump brings a last-minute rally boost to Darline Graham in South Carolina's US Senate race",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT1llS01fbFpHbUsxRGVkRmJvekRUYkpzdFN1YzJTa2hkNDhKaklhc09jR2V5OVduS1JwR2Y5TzBUN0xTcU9CNFVkTmoxR25zd3VkZG9kYjByNWt4OC1xWjJMYUYwWEZnTUNJYmtIQTdVaXBoSlA5T0R4UzExaGozWGw5cGdxQUpOSk1sRjk0cDYtTzRwVWR1ZFVURFBhbUZPdXNOQjBjYkJrSDhuekgwTUR3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-22",
@@ -203,10 +204,10 @@
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "WLOS",
+   "source": "WFAE",
    "lean": "unrated",
-   "title": "President Trump urges South Carolina voters to support Darline Graham",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWjNxLVZLSmo4alhvVHR6VTdKcVlGNlhUVGJpVnM5Q0tjVGJ2ZnJGb01ER0M2Z3JOcktSeUFnazRIMUhRcnFyNVNPS0VpU2MzSHdUSU94M0RIMTNRSUw3bmxON0JxaXF4ZmVPVlBOMmNMZDdjRFVTX0JYOVNBaTdWZ0xPMUhyWF9xaHUzd0JicDV0Q0pvTTFDb1h2SXBGNUVxMjdxN3hhY0xDQzE2cVV4ZnZkUXhFQnMxaWJOUW5kZjIteUVubTI1TmhPZlVHWUtGa2pONWZ0RENEOW1JRjRvQmtuNVBpR29RSHRXN2xGTDdleEYyM0E?oc=5",
+   "title": "Trump rallies for Graham as South Carolina Senate race tightens",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWk5VOTFlLTkxMnhDdk13N0g3TmIzdGZGMDZoQzBsY3ZwSkhQNWRSQTZDSmx4eVZZN3h1S3FiN3Mwd2ZNQ3pQS1NKSnZrNFItZTZpN3hSN3pWcVo2ckpCaDZXMnZMaWpUcjJ4WWtWSmo1c2djeV9vZ0dWV1JCRkFvR0xFOTRXeXNzaURpWmZLVTdSR0Q0b1hGbm95bk1GaFB3TVRQYU9JNA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -252,21 +253,6 @@
    "lean": "unrated",
    "title": "Trump returns to South Carolina for 2nd time in 3 months to help Darline Graham in Senate race",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbVNiZFZIbDhnelVjMmFDVHhlYkJpUl9Qclo2YUU2cFNxbHBWQlVZaUNNSmQyUXR6enVvUHgwd0RlRVVJd2tNZkFLZVFjc2dUZ3M1b1FDTjJrUFJyVDlLLTJYVEFldDdiaFBFOEFheUxrMHpGVGdMenFCUWpqcDVYWml4RXowd254QWdrZ3NPUkdhRXh2T3VkQWVkZE56SEs1azhQQ2pMLVllMXhxTnlNeVpvT0k5RjBqSUFrZ1JVeTNEdGdYUldHajNMQ2djVG4yTkxDa1VR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "WTOP News",
-   "lean": "unrated",
-   "title": "Trump brings a last-minute rally boost to Darline Graham in South Carolina’s US Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUXBmZzRCbGZ3VXRjbkc3TTJVWENWMGxGMHQ1dWp2MXk2YXZsTkN6NlFYMklRQVk5ZzUtSndZdThsOElwZU9peEF3NGRaQlRTVVN6Z0ZlNDVvUFI0UHRRZzNvM1dDQnZCSUNpVEUyckoxOWZIZHdjSmRabnRyQUhfY0lGU1JXTnNmTlRHQktjV25EVm81cTZ4T0xOd19NeURSTU51SFNWXzZQLXlRTzAyVTBuRTJpQjBGLWxfY3BMWHF4ZGc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -346,6 +332,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 2,
+   "p": 1.4
+  },
+  {
+   "date": "2026-10-23",
    "c": 2,
    "p": 1.4
   }
