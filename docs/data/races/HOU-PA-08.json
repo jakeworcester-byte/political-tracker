@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -82,12 +82,66 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 5,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Paige Cognetti"
+  ],
+  "R": [
+   "Rob Bresnahan"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
- "trend": "Stable",
+ "poll": {
+  "average_margin": -4.0,
+  "average_label": "D+4.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Emerson College",
+   "sponsors": [
+    "Poll Vault"
+   ],
+   "partisan": null,
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-14",
+   "sample_size": 396,
+   "population": "lv",
+   "margin": -4.0,
+   "margin_label": "D+4.0",
+   "answers": [
+    {
+     "choice": "Paige Cognetti",
+     "pct": 52.0
+    },
+    {
+     "choice": "Rob Bresnahan",
+     "pct": 48.0
+    }
+   ],
+   "url": "https://pollvault.substack.com/p/levee-math"
+  },
+  "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-14",
+    "margin": -4.0,
+    "n": 396,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://pollvault.substack.com/p/levee-math",
+    "answers": [
+     {
+      "choice": "Paige Cognetti",
+      "pct": 52.0
+     },
+     {
+      "choice": "Rob Bresnahan",
+      "pct": 48.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-08",
  "history": [
@@ -150,6 +204,11 @@
    "date": "2026-10-22",
    "c": 0,
    "p": null
+  },
+  {
+   "date": "2026-10-23",
+   "c": 0,
+   "p": -4.0
   }
  ]
 }

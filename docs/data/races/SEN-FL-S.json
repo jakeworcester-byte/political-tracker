@@ -11,7 +11,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "NBC News"
   },
   "rcp": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   }
  },
@@ -96,33 +96,60 @@
   ]
  },
  "poll": {
-  "average_margin": 6.8,
-  "average_label": "R+6.8",
-  "n_polls": 5,
+  "average_margin": 7.0,
+  "average_label": "R+7.0",
+  "n_polls": 6,
   "window_days": 21,
   "latest": {
-   "pollster": "University of North Florida",
+   "pollster": "co/efficient",
    "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-19",
-   "sample_size": 1414,
+   "partisan": "REP",
+   "start_date": "2026-10-18",
+   "end_date": "2026-10-20",
+   "sample_size": 1014,
    "population": "lv",
-   "margin": 4.0,
-   "margin_label": "R+4.0",
+   "margin": 8.0,
+   "margin_label": "R+8.0",
    "answers": [
     {
      "choice": "Ashley Moody",
-     "pct": 49.0
+     "pct": 48.0
     },
     {
      "choice": "Angie Nixon",
-     "pct": 45.0
+     "pct": 40.0
+    },
+    {
+     "choice": "Neil Gillespie",
+     "pct": 2.0
     }
    ],
-   "url": "https://static1.squarespace.com/static/6994d571bce3436c60d86870/t/6ad8a5ec13c20404a1f8052b/1792583148294/UNF+PORL+FALL+Statewide+2026+FLLV+-+Press+Release+1021+EMBARGO.pdf"
+   "url": "https://battlegrounds.coefficient.org/fl/"
   },
   "polls": [
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-10-20",
+    "margin": 8.0,
+    "n": 1014,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://battlegrounds.coefficient.org/fl/",
+    "answers": [
+     {
+      "choice": "Ashley Moody",
+      "pct": 48.0
+     },
+     {
+      "choice": "Angie Nixon",
+      "pct": 40.0
+     },
+     {
+      "choice": "Neil Gillespie",
+      "pct": 2.0
+     }
+    ]
+   },
    {
     "pollster": "University of North Florida",
     "end_date": "2026-10-19",
@@ -335,29 +362,10 @@
       "pct": 47.0
      }
     ]
-   },
-   {
-    "pollster": "University of North Florida",
-    "end_date": "2026-07-17",
-    "margin": 8.0,
-    "n": 848,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://floridapolitics.com/archives/808426-unf-poll-jolly-donalds/",
-    "answers": [
-     {
-      "choice": "Angie Nixon",
-      "pct": 42.0
-     },
-     {
-      "choice": "Ashley Moody",
-      "pct": 50.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 13,
+ "raw_poll_count": 14,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-FL-S",
@@ -421,6 +429,11 @@
    "date": "2026-10-22",
    "c": 3,
    "p": 6.8
+  },
+  {
+   "date": "2026-10-23",
+   "c": 3,
+   "p": 7.0
   }
  ]
 }

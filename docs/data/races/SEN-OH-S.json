@@ -11,7 +11,7 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "NBC News"
   },
   "rcp": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   }
  },
@@ -98,31 +98,87 @@
  "poll": {
   "average_margin": -3.3,
   "average_label": "D+3.3",
-  "n_polls": 8,
+  "n_polls": 9,
   "window_days": 21,
   "latest": {
-   "pollster": "Marist University",
-   "sponsors": [],
+   "pollster": "VoteHub/Verasight",
+   "sponsors": [
+    "VoteHub"
+   ],
    "partisan": null,
-   "start_date": "2026-10-15",
-   "end_date": "2026-10-18",
-   "sample_size": 1176,
+   "start_date": "2026-10-01",
+   "end_date": "2026-10-20",
+   "sample_size": 531,
    "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
+   "margin": -3.9,
+   "margin_label": "D+3.9",
    "answers": [
     {
      "choice": "Sherrod Brown",
-     "pct": 48.0
+     "pct": 47.5
     },
     {
      "choice": "Jon Husted",
-     "pct": 44.0
+     "pct": 43.6
+    },
+    {
+     "choice": "Bill Redpath",
+     "pct": 1.1
+    },
+    {
+     "choice": "Greg Levy",
+     "pct": 1.0
     }
    ],
-   "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-october-2026/"
+   "url": "https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Ohio_Report_D1CB7735.pdf"
   },
   "polls": [
+   {
+    "pollster": "VoteHub/Verasight",
+    "end_date": "2026-10-20",
+    "margin": -3.9,
+    "n": 531,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Ohio_Report_D1CB7735.pdf",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 47.5
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 43.6
+     },
+     {
+      "choice": "Bill Redpath",
+      "pct": 1.1
+     },
+     {
+      "choice": "Greg Levy",
+      "pct": 1.0
+     }
+    ]
+   },
+   {
+    "pollster": "Beacon Research/Shaw & Co. Research",
+    "end_date": "2026-10-19",
+    "margin": -5.0,
+    "n": 1592,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.foxnews.com/politics/fox-news-poll-gender-gap-pocketbook-pain-shape-ohio-senate-race",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 52.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "Marist University",
     "end_date": "2026-10-18",
@@ -139,6 +195,33 @@
      {
       "choice": "Jon Husted",
       "pct": 44.0
+     }
+    ]
+   },
+   {
+    "pollster": "New River Strategies/GS Strategy Group",
+    "end_date": "2026-10-13",
+    "margin": -6.0,
+    "n": 959,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.cookpolitical.com/analysis/survey-research/battleground-district-project/senate-battleground-district-project-october?utm_medium=email_action&utm_source=customer.io",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 49.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 43.0
+     },
+     {
+      "choice": "Bill Redpath",
+      "pct": 3.0
+     },
+     {
+      "choice": "Greg Levy",
+      "pct": 4.0
      }
     ]
    },
@@ -317,69 +400,72 @@
       "pct": 47.3
      }
     ]
-   },
-   {
-    "pollster": "Trafalgar Group",
-    "end_date": "2026-09-16",
-    "margin": -3.0,
-    "n": 1085,
-    "population": "lv",
-    "partisan": "REP",
-    "url": "https://www.thetrafalgargroup.org/wp-content/uploads/2026/09/OH-Midterms-Full-Report-0917.pdf",
-    "answers": [
-     {
-      "choice": "Sherrod Brown",
-      "pct": 45.0
-     },
-     {
-      "choice": "Jon Husted",
-      "pct": 42.0
-     }
-    ]
-   },
-   {
-    "pollster": "InsiderAdvantage",
-    "end_date": "2026-09-09",
-    "margin": -5.4,
-    "n": 1200,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://insideradvantage.com/top-line-tabs-ohio/",
-    "answers": [
-     {
-      "choice": "Sherrod Brown",
-      "pct": 47.3
-     },
-     {
-      "choice": "Jon Husted",
-      "pct": 41.9
-     }
-    ]
-   },
-   {
-    "pollster": "Wedgewood Polls",
-    "end_date": "2026-08-13",
-    "margin": -4.0,
-    "n": 800,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://drive.google.com/file/u/1/d/1rP-26-yqNx9jy_gRqoLDmgJgzm5X8a4O/view",
-    "answers": [
-     {
-      "choice": "Sherrod Brown",
-      "pct": 48.0
-     },
-     {
-      "choice": "Jon Husted",
-      "pct": 44.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 14,
+ "raw_poll_count": 17,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-23",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "The Columbus Dispatch",
+   "lean": "unrated",
+   "title": "Who's bankrolling Ohio Senate race? Trump and Elon Musk, for starters",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeUprblNZS2NnbEhiTTBwenlxa0U2SEVlS3NVTWhzQllSeTZpMF91OFE2ZXJ6OW9SWTNkWUNrdmRLX09zZ2ItVTZWUTVkNHliQTBhMDhRY2kxWmFOXzlyWTJqNXpkSVpMaFBSTDVNdy1palozV3JfcGZqTU9sdjVGcFFzSTBYcmZZbnJfT1I5TVdRNjBFcHJRMllhbm1ramd4ZU1EUzVMQ2dfQ1RQMDhqaGZWYWozRG9WTWdGSy1kSm1Wc2xRU3dr?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "CNN",
+   "lean": "unrated",
+   "title": "Conservatives funded efforts to undercut Sherrod Brown with Black voters in Ohio, filing shows",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUMtQ0VqYWx4T0NDU2VKRHpXM002RjExTm5WSkRHQVFnalMyM2ozYkpPMGxGZXhTbF9FR1JIeVRlMTR4WGZwR3d6UFVWV29DQnpsbWYtZXBDVEdHc0V6eUNhNHV2TW8ydDZ0SEtkTzk4N0tGd0F4UjB3YTc3M3otck1PcDJuMV82dEFsRm1mZ2o5Zw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "WLWT",
+   "lean": "unrated",
+   "title": "Two new polls give insight into Ohio Senate, governor races as midterms near",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOTZrSDZZMTdTSnVEZ09lQ1czUWFuZXBUQnA5enFiNERXWV9qR3Vrb19lTTFZb0VOY2o5SWgwaExURUUxZzRnOW9FelVCeHhqRVFsbW5mTG15VTJTWDYwZk16Z1hRVndLWVNwcjlIbWM5QVd3NXJ1TWhCYUlMaUxPZEtadlFYMnNwV0hqSU9lU1dPUFNYYzk0?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "Newsweek",
+   "lean": "unrated",
+   "title": "Vivek Ramaswamy Could Be Sherrod Brown’s Secret Weapon in Ohio",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFBRbjFyYng3RFQ0aTEyWlp5RlQ4dHh2b1Z4RzNEN294RWVpS2ZTalkyaXltOVV4Wm5vU20zSW1vdXJUNTNOUkZaWVZYNEFxOVhFZVg5emVYQ0p0YVI3NGE2M0pTOHlsWmhCanJZT1M2UXdEV0ctNmF3UXVQLXVoOTJUbjc4ZWJZaGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-21",
    "race": "SEN-OH-S",
@@ -394,20 +480,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-16",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "podcast",
-   "source": "Pod Save America",
-   "lean": "left",
-   "title": "Donald Trump: Ass Man",
-   "url": "https://audioboom.com/posts/8965578",
-   "summary": "Trump makes the case for Jon Husted in Ohio, praising the Republican senator's greatest asset: his athletic behind. Jon and Dan react to Trump's Ohio rally and his other messages to voters on the campaign trail, Politico reporting that Trump is considering replacing White House Chief of Staff Susie ",
-   "relevant": true
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-OH-S",
@@ -469,6 +541,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 0,
+   "p": -3.3
+  },
+  {
+   "date": "2026-10-23",
    "c": 0,
    "p": -3.3
   }

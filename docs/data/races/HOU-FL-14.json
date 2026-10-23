@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -82,15 +82,69 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Kathy Castor"
+  ],
+  "R": [
+   "Mike Beltran"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": -5.0,
+  "average_label": "D+5.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Emerson College",
+   "sponsors": [
+    "Poll Vault"
+   ],
+   "partisan": null,
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-14",
+   "sample_size": 315,
+   "population": "lv",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
+   "answers": [
+    {
+     "choice": "Kathy Castor",
+     "pct": 48.0
+    },
+    {
+     "choice": "Mike Beltran",
+     "pct": 43.0
+    }
+   ],
+   "url": "https://pollvault.substack.com/p/levee-math"
+  },
+  "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-14",
+    "margin": -5.0,
+    "n": 315,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://pollvault.substack.com/p/levee-math",
+    "answers": [
+     {
+      "choice": "Kathy Castor",
+      "pct": 48.0
+     },
+     {
+      "choice": "Mike Beltran",
+      "pct": 43.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Toward R",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "race": "HOU-FL-14",
    "races": [
     "HOU-FL-14"
@@ -181,6 +235,11 @@
    "date": "2026-10-22",
    "c": 0,
    "p": null
+  },
+  {
+   "date": "2026-10-23",
+   "c": 0,
+   "p": -5.0
   }
  ]
 }

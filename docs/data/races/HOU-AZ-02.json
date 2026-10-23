@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -75,20 +75,90 @@
  "key": "HOU-AZ-02",
  "name": "AZ-02",
  "incumbent_note": "",
- "consensus_score": 3,
- "consensus": "Likely R",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Jonathan Nez"
+  ],
+  "R": [
+   "Eli Crane"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
- "trend": "Stable",
- "signals": [],
+ "poll": {
+  "average_margin": -2.0,
+  "average_label": "D+2.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Emerson College",
+   "sponsors": [
+    "Poll Vault"
+   ],
+   "partisan": null,
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-14",
+   "sample_size": 345,
+   "population": "lv",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
+   "answers": [
+    {
+     "choice": "Eli Crane",
+     "pct": 48.0
+    },
+    {
+     "choice": "Jonathan Nez",
+     "pct": 50.0
+    }
+   ],
+   "url": "https://pollvault.substack.com/p/levee-math"
+  },
+  "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-14",
+    "margin": -2.0,
+    "n": 345,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://pollvault.substack.com/p/levee-math",
+    "answers": [
+     {
+      "choice": "Eli Crane",
+      "pct": 48.0
+     },
+     {
+      "choice": "Jonathan Nez",
+      "pct": 50.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-22",
+   "race": "HOU-AZ-02",
+   "races": [
+    "HOU-AZ-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Arizona 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPci00Ny1SUTQtenhDYlFlUXdLWjBkUlVMSzF1U24wU2h4Ulg2YXZJdmVIZTJhV1R1NktYeGdjVjQxUndjWkhxUjhKQ3JaR3hoNnFLWHoxQ05JXzVaNEVEWHBTVDRVanNxNklZYXZnVUctQ21qMlgzbFpMZEhkSW1MVi1R?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AZ-02",
  "history": [
   {
@@ -150,6 +220,11 @@
    "date": "2026-10-22",
    "c": 3,
    "p": null
+  },
+  {
+   "date": "2026-10-23",
+   "c": 2,
+   "p": -2.0
   }
  ]
 }

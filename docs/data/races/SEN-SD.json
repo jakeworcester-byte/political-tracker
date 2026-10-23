@@ -11,7 +11,7 @@
   "ddhq": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "NBC News"
   },
   "rcp": {
@@ -63,9 +63,9 @@
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Likely R",
+   "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   }
  },
@@ -88,11 +88,103 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Brian Bengs"
+  ],
+  "R": [
+   "Mike Rounds"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": 16.3,
+  "average_label": "R+16.3",
+  "n_polls": 3,
+  "window_days": 21,
+  "latest": {
+   "pollster": "Emerson College",
+   "sponsors": [
+    "KELO-TV"
+   ],
+   "partisan": null,
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-20",
+   "sample_size": 803,
+   "population": "lv",
+   "margin": 8.0,
+   "margin_label": "R+8.0",
+   "answers": [
+    {
+     "choice": "Mike Rounds",
+     "pct": 50.0
+    },
+    {
+     "choice": "Brian Bengs",
+     "pct": 42.0
+    }
+   ],
+   "url": "https://www.keloland.com/keloland-com-original/keloland-poll-rounds-leads-bengs-at-8-trump-approval-down/amp/"
+  },
+  "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-20",
+    "margin": 8.0,
+    "n": 803,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.keloland.com/keloland-com-original/keloland-poll-rounds-leads-bengs-at-8-trump-approval-down/amp/",
+    "answers": [
+     {
+      "choice": "Mike Rounds",
+      "pct": 50.0
+     },
+     {
+      "choice": "Brian Bengs",
+      "pct": 42.0
+     }
+    ]
+   },
+   {
+    "pollster": "Quantus Insights",
+    "end_date": "2026-10-19",
+    "margin": 22.0,
+    "n": 657,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.semafor.com/article/10/21/2026/poll-shows-big-lead-for-south-dakota-republican-rounds",
+    "answers": [
+     {
+      "choice": "Mike Rounds",
+      "pct": 59.0
+     },
+     {
+      "choice": "Brian Bengs",
+      "pct": 37.0
+     }
+    ]
+   },
+   {
+    "pollster": "Mason-Dixon",
+    "end_date": "2026-10-14",
+    "margin": 19.0,
+    "n": 500,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.sdnewswatch.org/south-dakota-poll-us-senate-rounds-bengs",
+    "answers": [
+     {
+      "choice": "Mike Rounds",
+      "pct": 56.0
+     },
+     {
+      "choice": "Brian Bengs",
+      "pct": 37.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 3,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-SD",
@@ -156,6 +248,11 @@
    "date": "2026-10-22",
    "c": 4,
    "p": null
+  },
+  {
+   "date": "2026-10-23",
+   "c": 4,
+   "p": 16.3
   }
  ]
 }

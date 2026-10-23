@@ -27,21 +27,21 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -90,9 +90,9 @@
   ]
  },
  "poll": {
-  "average_margin": -1.2,
-  "average_label": "D+1.2",
-  "n_polls": 2,
+  "average_margin": -2.2,
+  "average_label": "D+2.2",
+  "n_polls": 3,
   "window_days": 21,
   "latest": {
    "pollster": "Public Policy Polling",
@@ -139,6 +139,25 @@
     ]
    },
    {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-14",
+    "margin": -4.0,
+    "n": 329,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://pollvault.substack.com/p/levee-math",
+    "answers": [
+     {
+      "choice": "Aaron Flint",
+      "pct": 46.0
+     },
+     {
+      "choice": "Sam Forstag",
+      "pct": 50.0
+     }
+    ]
+   },
+   {
     "pollster": "American Pulse Research & Polling",
     "end_date": "2026-09-24",
     "margin": 0.5,
@@ -163,7 +182,7 @@
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 3,
  "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
@@ -227,6 +246,11 @@
    "date": "2026-10-22",
    "c": 0,
    "p": -1.2
+  },
+  {
+   "date": "2026-10-23",
+   "c": 0,
+   "p": -2.2
   }
  ]
 }

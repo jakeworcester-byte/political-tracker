@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -4.0,
-  "average_label": "D+4.0",
+  "average_margin": 4.0,
+  "average_label": "R+4.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "Hendrix College",
+   "pollster": "Emerson College",
    "sponsors": [
-    "Talk Business & Politics"
+    "Poll Vault"
    ],
    "partisan": null,
-   "start_date": "2026-08-12",
-   "end_date": "2026-08-13",
-   "sample_size": 1112,
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-14",
+   "sample_size": 383,
    "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
+   "margin": 4.0,
+   "margin_label": "R+4.0",
    "answers": [
+    {
+     "choice": "French Hill",
+     "pct": 52.0
+    },
     {
      "choice": "Chris Jones",
      "pct": 48.0
-    },
-    {
-     "choice": "French Hill",
-     "pct": 44.0
     }
    ],
-   "url": "https://talkbusiness.net/2026/08/poll-similar-trends-in-cd2-show-tight-race-between-hill-jones"
+   "url": "https://pollvault.substack.com/p/levee-math"
   },
   "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-14",
+    "margin": 4.0,
+    "n": 383,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://pollvault.substack.com/p/levee-math",
+    "answers": [
+     {
+      "choice": "French Hill",
+      "pct": 52.0
+     },
+     {
+      "choice": "Chris Jones",
+      "pct": 48.0
+     }
+    ]
+   },
    {
     "pollster": "Hendrix College",
     "end_date": "2026-08-13",
@@ -140,8 +159,8 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
+ "raw_poll_count": 2,
+ "trend": "Toward R",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AR-02",
  "history": [
@@ -204,6 +223,11 @@
    "date": "2026-10-22",
    "c": 3,
    "p": -4.0
+  },
+  {
+   "date": "2026-10-23",
+   "c": 3,
+   "p": 4.0
   }
  ]
 }

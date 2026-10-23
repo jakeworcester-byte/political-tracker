@@ -11,7 +11,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "NBC News"
   },
   "rcp": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   }
  },
@@ -167,30 +167,30 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-22",
-   "race": "SEN-NE",
-   "races": [
-    "SEN-NE"
-   ],
-   "type": "punditry",
-   "source": "The Dispatch",
-   "lean": "center-right",
-   "title": "Dan Osborn’s Unfrozen Caveman Politician Act",
-   "url": "https://thedispatch.com/article/dan-osborn-nebraska-senate-independent-progressive/",
-   "summary": "The independence of the Nebraska Senate candidate is mostly just shtick, and the shtick just might work.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-17",
+   "date": "2026-10-23",
    "race": "SEN-NE",
    "races": [
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "Nebraska Examiner",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Pete Ricketts’s Wealth Puts Class at the Center of Nebraska’s Senate Race",
+   "url": "https://www.nytimes.com/2026/10/22/us/politics/pete-ricketts-billionaire-nebraska-senate-race.html",
+   "summary": "In a year when the wealth of the rich soared while workers lost ground to inflation, class has become political, especially in the Nebraska Senate race.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-23",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Demokratis.co.id",
    "lean": "unrated",
-   "title": "Osborn’s independence continues to be scrutinized in Nebraska Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTkpMdjlqd3ExU0FIclp5Uldxby0ybEVJM0x2eEFNaEMyZ1czazFYTGhJWXRvVDZwWUFLTzZrZGpaejdiVXJnUDBIR1RycXUtckVSdHN0WmZJZ0lVbWE5cTI1cl9iSllrYmVSbHRsQlk5cEpnRTdDUnFYNlQ1bXZmN0pqU2Naa0RBd2ItUWtGRmFiNXlRUnluZUxjaVEyME1PM2xJWU9NTVAzZkNoNVFJeHlpTQ?oc=5",
+   "title": "Ricketts Wealth Puts Class at Center of Nebraska Senate Race",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Jc1FfcUY2SWVwcTBkRW9zLUxFTEFoLUVkWEtRZFhDZ1owaU1tbkozNzFjMDdpWDROMGNzRDFQSEFtMDdzMDhwbmhUU18yUUVuNVhYcGdsN01McVJlSVE2Y0JHN2VtaG03VXRYdWw4NEJGdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -255,6 +255,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-23",
    "c": 2,
    "p": 1.0
   }

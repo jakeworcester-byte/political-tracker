@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -2.0,
-  "average_label": "D+2.0",
+  "average_margin": -8.0,
+  "average_label": "D+8.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "Global Strategy Group",
+   "pollster": "Emerson College",
    "sponsors": [
-    "House Majority PAC"
+    "Poll Vault"
    ],
-   "partisan": "DEM",
-   "start_date": "2026-08-11",
-   "end_date": "2026-08-13",
-   "sample_size": 500,
+   "partisan": null,
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-14",
+   "sample_size": 314,
    "population": "lv",
-   "margin": -2.0,
-   "margin_label": "D+2.0",
+   "margin": -8.0,
+   "margin_label": "D+8.0",
    "answers": [
     {
      "choice": "William Lawrence",
-     "pct": 49.0
+     "pct": 53.0
     },
     {
      "choice": "Tom Barrett",
-     "pct": 47.0
+     "pct": 45.0
     }
    ],
-   "url": "https://www.thehousemajoritypac.com/news/hmp-poll-william-lawrence-leads-tom-barrett-in-mi-07"
+   "url": "https://pollvault.substack.com/p/levee-math"
   },
   "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-14",
+    "margin": -8.0,
+    "n": 314,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://pollvault.substack.com/p/levee-math",
+    "answers": [
+     {
+      "choice": "William Lawrence",
+      "pct": 53.0
+     },
+     {
+      "choice": "Tom Barrett",
+      "pct": 45.0
+     }
+    ]
+   },
    {
     "pollster": "Global Strategy Group",
     "end_date": "2026-08-13",
@@ -140,7 +159,7 @@
    }
   ]
  },
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Toward D",
  "signals": [
   {
@@ -220,6 +239,11 @@
    "date": "2026-10-22",
    "c": -2,
    "p": -2.0
+  },
+  {
+   "date": "2026-10-23",
+   "c": -2,
+   "p": -8.0
   }
  ]
 }

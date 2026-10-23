@@ -27,21 +27,21 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-20",
+   "rating": "Lean R",
+   "flip": true,
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -77,10 +77,10 @@
  "incumbent_note": "",
  "consensus_score": 0,
  "consensus": "Tossup",
- "disagreement": false,
+ "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 2,
  "candidates": {
   "D": [],
   "R": []
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-22",
+   "race": "HOU-FL-22",
+   "races": [
+    "HOU-FL-22"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Florida 22nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUkJ4eHR2aXZYTnpIbUNTaFZuYm1KeEQ0LUxHYVl2bkJVNS01S1pVeFlxOGRrdVB1UmlmWGtEODNOMlE5NlRoMURFWUVDWUdrQ0dfdkptNmJ5cGRXaHEzWnZfU3F2dnVQWFRrTDhoajRTbnhJeHdYQXdlNkhvV3Jud1VHSQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-22",
  "history": [
   {
@@ -148,6 +164,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-23",
    "c": 0,
    "p": null
   }

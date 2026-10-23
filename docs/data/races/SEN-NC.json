@@ -11,7 +11,7 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "NBC News"
   },
   "rcp": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   }
  },
@@ -92,7 +92,7 @@
   "R": []
  },
  "poll": null,
- "raw_poll_count": 21,
+ "raw_poll_count": 22,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NC",
@@ -154,6 +154,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": -3,
+   "p": null
+  },
+  {
+   "date": "2026-10-23",
    "c": -3,
    "p": null
   }

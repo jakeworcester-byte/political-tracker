@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-22",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-22",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Lean R",
-   "flip": true,
-   "as_of": "2026-10-20",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-22",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-09-10",
+   "as_of": "2026-10-22",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-21",
    "name": "RealClearPolling"
   }
  },
@@ -80,14 +80,14 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 9,
+ "flip_votes": 8,
  "candidates": {
   "D": [],
   "R": []
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [
   {
    "date": "2026-10-21",
@@ -115,21 +115,6 @@
    "lean": "unrated",
    "title": "Cory Booker to campaign for Shomari Figures at Alabama rallies",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUFFqMGlLUUNqb1ZPZHlwYjFfRTQtNE9oNEZwUlJDRFMwLWRPYU1XX2hFRjR0VTZNa1VpTTk3U1JmbS1EWVdTU0dncFNITXRyOU4xRHBydlZxVkh3eGRnRUFfYnVXckhtcjl0N0R2QUNrMDZ1RkFKZG1yUjJ4R0NZMW9aTFZ5QVdmRUJlc3pLdGw5Y0pQQ1VXNTlPd3Jyd2c0UXpmbzJB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "HOU-AL-02",
-   "races": [
-    "HOU-AL-02"
-   ],
-   "type": "reporting",
-   "source": "WTVY",
-   "lean": "unrated",
-   "title": "House Majority Leader Scalise: Alabama’s 2nd District could decide US House control",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYXg0MG9iOVgyZkhQZ0h5YzZGNnVZZkUzeVh1eWdlLThMdTZBRWQwc2RjNWVGdm05M25TS2hGaF9vY2Z3Z2EzY01RLW45d0xMY1lCNTQwZzAwMFFoSnlPUHhvVDBLNUlVUzFIVnZfQXFfVjdKUlllT2lCN2k0SDg2dU1zZjI4U1ljdkpVamdLV05oaDZ1QWhQcnAwaDJCNFJmMExXMzRNWWxqMU1CTXg2b0E1QkNXYWZnYTJwZm43Sy16RElvTnVzT9IByAFBVV95cUxOYXg0MG9iOVgyZkhQZ0h5YzZGNnVZZkUzeVh1eWdlLThMdTZBRWQwc2RjNWVGdm05M25TS2hGaF9vY2Z3Z2EzY01RLW45d0xMY1lCNTQwZzAwMFFoSnlPUHhvVDBLNUlVUzFIVnZfQXFfVjdKUlllT2lCN2k0SDg2dU1zZjI4U1ljdkpVamdLV05oaDZ1QWhQcnAwaDJCNFJmMExXMzRNWWxqMU1CTXg2b0E1QkNXYWZnYTJwZm43Sy16RElvTnVzTw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -194,6 +179,11 @@
   },
   {
    "date": "2026-10-22",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-23",
    "c": 2,
    "p": null
   }
