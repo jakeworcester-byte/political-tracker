@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -82,11 +82,65 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Jared Moskowitz"
+  ],
+  "R": [
+   "Scott Singer"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": -5.0,
+  "average_label": "D+5.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Public Policy Polling",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-10-21",
+   "end_date": "2026-10-22",
+   "sample_size": 592,
+   "population": "lv",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
+   "answers": [
+    {
+     "choice": "Jared Moskowitz",
+     "pct": 47.0
+    },
+    {
+     "choice": "Scott Singer",
+     "pct": 42.0
+    }
+   ],
+   "url": "https://floridapolitics.com/archives/826445-democrats-answer-gop-internal-with-a-poll-showing-jared-moskowitz-up-47-to-42-in-cd-25/"
+  },
+  "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-22",
+    "margin": -5.0,
+    "n": 592,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://floridapolitics.com/archives/826445-democrats-answer-gop-internal-with-a-poll-showing-jared-moskowitz-up-47-to-42-in-cd-25/",
+    "answers": [
+     {
+      "choice": "Jared Moskowitz",
+      "pct": 47.0
+     },
+     {
+      "choice": "Scott Singer",
+      "pct": 42.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-25",
@@ -155,6 +209,11 @@
    "date": "2026-10-23",
    "c": -2,
    "p": null
+  },
+  {
+   "date": "2026-10-24",
+   "c": -2,
+   "p": -5.0
   }
  ]
 }

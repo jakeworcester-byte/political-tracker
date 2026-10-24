@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -33,15 +33,15 @@
    "name": "Split Ticket"
   },
   "ddhq": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -161,16 +161,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "race": "HOU-PA-07",
    "races": [
     "HOU-PA-07"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "AOL.co.uk",
    "lean": "unrated",
-   "title": "Pennsylvania 7th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcDVoV0doRlRMMlRva1FUUDBJUGtaSmFvcV9qNDVqb3ZSa3Z0LXh2UEJ6QTlISHk1MU8tb3V5dTJadnZzMTYwMDBfM2Y3SThQUXcyRTVhR3Y0dkNpd2xvUlpCR0lGenpDekE5TlBYZGxLb1ZaZXM2bnNXbU1QVVNhTzhQYzM5WmRI?oc=5",
+   "title": "Who is running in Pennsylvania’s 7th Congressional District race?",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZzdwcWM5ZlhHNmdfMmJteEVoRC1ESFFtb0hOOU9ud1JOeWVQT0tXVnJhUWF1LXUwcTlKYnMzM2hQemRyNUF1d2NHcHVjeWdET0labHFubFVaTmgxQXFTWVlVY0hxd2Z5SlF0VUFkOEdjODdINzNCY3lmRDBGclVMVGw5dzdrc1l2Q05zN1M2ZUZjbXptNFMxaw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -240,6 +240,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-24",
    "c": -2,
    "p": -5.0
   }

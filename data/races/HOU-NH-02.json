@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,37 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": -18.0,
-  "average_label": "D+18.0",
+  "average_margin": -18.5,
+  "average_label": "D+18.5",
   "n_polls": 2,
   "window_days": 45,
   "latest": {
-   "pollster": "University of New Hampshire",
+   "pollster": "Saint Anselm",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-09-17",
-   "end_date": "2026-09-21",
-   "sample_size": 702,
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-20",
+   "sample_size": 861,
    "population": "lv",
-   "margin": -21.0,
-   "margin_label": "D+21.0",
+   "margin": -16.0,
+   "margin_label": "D+16.0",
    "answers": [
     {
      "choice": "Maggie Goodlander",
-     "pct": 56.0
+     "pct": 54.0
     },
     {
      "choice": "Lily Tang Williams",
-     "pct": 35.0
-    },
-    {
-     "choice": "Robbie Mahrou",
-     "pct": 3.0
+     "pct": 38.0
     }
    ],
-   "url": "https://scholars.unh.edu/survey_center_polls/1005/"
+   "url": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-democrats-leading-congressional-races-affordability-concerns-shape-election-landscape"
   },
   "polls": [
+   {
+    "pollster": "Saint Anselm",
+    "end_date": "2026-10-20",
+    "margin": -16.0,
+    "n": 861,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-democrats-leading-congressional-races-affordability-concerns-shape-election-landscape",
+    "answers": [
+     {
+      "choice": "Maggie Goodlander",
+      "pct": 54.0
+     },
+     {
+      "choice": "Lily Tang Williams",
+      "pct": 38.0
+     }
+    ]
+   },
    {
     "pollster": "University of New Hampshire",
     "end_date": "2026-09-21",
@@ -160,25 +175,6 @@
      {
       "choice": "Lily Tang Williams",
       "pct": 35.0
-     }
-    ]
-   },
-   {
-    "pollster": "Saint Anselm",
-    "end_date": "2026-06-25",
-    "margin": -19.0,
-    "n": 1614,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://www.anselm.edu/about/anselmian-hub/news/saint-anselm-college-survey-center-june-poll-finds-democrats-expand-generic-ballot-lead",
-    "answers": [
-     {
-      "choice": "Maggie Goodlander",
-      "pct": 50.0
-     },
-     {
-      "choice": "Lily Tang Williams",
-      "pct": 31.0
      }
     ]
    }
@@ -253,6 +249,11 @@
    "date": "2026-10-23",
    "c": -4,
    "p": -18.0
+  },
+  {
+   "date": "2026-10-24",
+   "c": -4,
+   "p": -18.5
   }
  ]
 }

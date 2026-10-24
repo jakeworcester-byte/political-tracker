@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-23",
    "name": "The Economist"
   },
   "fpo": {
@@ -99,18 +99,18 @@
  "poll": {
   "average_margin": -7.0,
   "average_label": "D+7.0",
-  "n_polls": 3,
-  "window_days": 21,
+  "n_polls": 4,
+  "window_days": 45,
   "latest": {
-   "pollster": "The New York Times/Siena University",
+   "pollster": "Saint Anselm",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-09-15",
-   "end_date": "2026-09-22",
-   "sample_size": 613,
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-20",
+   "sample_size": 1672,
    "population": "lv",
-   "margin": -5.0,
-   "margin_label": "D+5.0",
+   "margin": -7.0,
+   "margin_label": "D+7.0",
    "answers": [
     {
      "choice": "Chris Pappas",
@@ -118,12 +118,31 @@
     },
     {
      "choice": "John Sununu",
-     "pct": 45.0
+     "pct": 43.0
     }
    ],
-   "url": "https://www.nytimes.com/2026/09/24/us/politics/democrats-show-strength-in-michigan-senate-race-but-trail-in-maine-polls-find.html"
+   "url": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-democrats-leading-congressional-races-affordability-concerns-shape-election-landscape"
   },
   "polls": [
+   {
+    "pollster": "Saint Anselm",
+    "end_date": "2026-10-20",
+    "margin": -7.0,
+    "n": 1672,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.anselm.edu/about/anselmian-hub/news/new-saint-anselm-college-poll-finds-democrats-leading-congressional-races-affordability-concerns-shape-election-landscape",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 50.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 43.0
+     }
+    ]
+   },
    {
     "pollster": "The New York Times/Siena University",
     "end_date": "2026-09-22",
@@ -222,29 +241,10 @@
       "pct": 41.0
      }
     ]
-   },
-   {
-    "pollster": "Saint Anselm",
-    "end_date": "2026-06-25",
-    "margin": -6.0,
-    "n": 1614,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://www.anselm.edu/about/anselmian-hub/news/saint-anselm-college-survey-center-june-poll-finds-democrats-expand-generic-ballot-lead",
-    "answers": [
-     {
-      "choice": "Chris Pappas",
-      "pct": 47.0
-     },
-     {
-      "choice": "John Sununu",
-      "pct": 41.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 9,
+ "raw_poll_count": 8,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NH",
@@ -311,6 +311,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": -3,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-24",
    "c": -3,
    "p": -7.0
   }

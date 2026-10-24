@@ -3,9 +3,9 @@
  "label": "Nevada 2",
  "ratings": {
   "cook": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,7 +90,7 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-24",
    "race": "HOU-NV-02",
    "races": [
     "HOU-NV-02"
@@ -184,6 +184,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-24",
    "c": 2,
    "p": null
   }

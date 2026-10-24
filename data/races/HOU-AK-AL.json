@@ -3,9 +3,9 @@
  "label": "Alaska at-large",
  "ratings": {
   "cook": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -33,15 +33,15 @@
    "name": "Split Ticket"
   },
   "ddhq": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -157,6 +157,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 3,
+   "p": null
+  },
+  {
+   "date": "2026-10-24",
    "c": 3,
    "p": null
   }

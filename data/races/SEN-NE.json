@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-23",
    "name": "The Economist"
   },
   "fpo": {
@@ -96,33 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": 1.0,
-  "average_label": "R+1.0",
+  "average_margin": 3.0,
+  "average_label": "R+3.0",
   "n_polls": 2,
-  "window_days": 45,
+  "window_days": 21,
   "latest": {
    "pollster": "National Public Affairs",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-02",
-   "end_date": "2026-10-05",
-   "sample_size": 800,
+   "start_date": "2026-10-15",
+   "end_date": "2026-10-18",
+   "sample_size": 598,
    "population": "lv",
    "margin": 3.0,
    "margin_label": "R+3.0",
    "answers": [
     {
      "choice": "Pete Ricketts",
-     "pct": 49.0
+     "pct": 50.0
     },
     {
      "choice": "Dan Osborn",
-     "pct": 46.0
+     "pct": 47.0
     }
    ],
-   "url": "https://backend.natpublicaffairs.com/media/Nebraska_General_Election_Memo_100926.pdf"
+   "url": "https://backend.natpublicaffairs.com/media/NE_Tracker_R2_Trend_Memo_102226.7.pdf"
   },
   "polls": [
+   {
+    "pollster": "National Public Affairs",
+    "end_date": "2026-10-18",
+    "margin": 3.0,
+    "n": 598,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://backend.natpublicaffairs.com/media/NE_Tracker_R2_Trend_Memo_102226.7.pdf",
+    "answers": [
+     {
+      "choice": "Pete Ricketts",
+      "pct": 50.0
+     },
+     {
+      "choice": "Dan Osborn",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "National Public Affairs",
     "end_date": "2026-10-05",
@@ -163,8 +182,8 @@
    }
   ]
  },
- "raw_poll_count": 2,
- "trend": "Stable",
+ "raw_poll_count": 3,
+ "trend": "Toward R",
  "signals": [
   {
    "date": "2026-10-23",
@@ -173,12 +192,13 @@
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
+   "source": "The New York Times",
+   "lean": "unrated",
    "title": "Pete Ricketts’s Wealth Puts Class at the Center of Nebraska’s Senate Race",
-   "url": "https://www.nytimes.com/2026/10/22/us/politics/pete-ricketts-billionaire-nebraska-senate-race.html",
-   "summary": "In a year when the wealth of the rich soared while workers lost ground to inflation, class has become political, especially in the Nebraska Senate race.",
-   "relevant": true
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdkhZVFVEUHVUNGxxTWdrOGljeUdnVGJJbDdyRFhiajF2dDA1dE5EcWlTeEVlWkVmQXhKSkV5UFhOeVZETHRQS2ZOOFZMVy1WN3FYSkF0a08tLXh5blkxSDU0U05mbFpMZmhqZUV6MUFYRkh4dF9ZeFFNUVRIa1NKcUpEV1VuN1V2dFRkeFNsMkxEY0Y4Y3lyNlZQdVNPblk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-23",
@@ -187,10 +207,10 @@
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "Demokratis.co.id",
+   "source": "Action Network",
    "lean": "unrated",
-   "title": "Ricketts Wealth Puts Class at Center of Nebraska Senate Race",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Jc1FfcUY2SWVwcTBkRW9zLUxFTEFoLUVkWEtRZFhDZ1owaU1tbkozNzFjMDdpWDROMGNzRDFQSEFtMDdzMDhwbmhUU18yUUVuNVhYcGdsN01McVJlSVE2Y0JHN2VtaG03VXRYdWw4NEJGdw?oc=5",
+   "title": "Nebraska Senate Race 2026 Odds | Ricketts vs Osborn Polls + Nebraska Governor Race (Prediction Markets)",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObjZ0dW1adDBwenpXQ2FvY1JGeEs2a1IxNzNlc3RKMUFPSW9vODY0bXdvR3lDRlpZUUM2UU1hOTZwcFc0ZmJ1TWVDRGRLb0JMMFE1cUFLT0RoMWdqZEtzRUdRN3JlRDRBNWZlNTVDS0MxNmtCSlMtTmozenh5RHNCb0s0WjlqLUU5U0JrYjZNNm9DLVhnSWJVaG12ejlXOGQxV2FXVHBQcmVvQ0Ffc2huOGt6SGhEUUlla3pQZk56MVplRUdFeUR3TnBkUFI?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -262,6 +282,11 @@
    "date": "2026-10-23",
    "c": 2,
    "p": 1.0
+  },
+  {
+   "date": "2026-10-24",
+   "c": 2,
+   "p": 3.0
   }
  ]
 }

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -82,11 +82,65 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Zach Mullock"
+  ],
+  "R": [
+   "Jeff Van Drew"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": 10.0,
+  "average_label": "R+10.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Impact Research",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-10",
+   "sample_size": null,
+   "population": "lv",
+   "margin": 10.0,
+   "margin_label": "R+10.0",
+   "answers": [
+    {
+     "choice": "Jeff Van Drew",
+     "pct": 50.0
+    },
+    {
+     "choice": "Zach Mullock",
+     "pct": 40.0
+    }
+   ],
+   "url": "https://newjerseyglobe.com/congress/super-pac-putting-1-5-million-on-broadcast-tv-to-take-out-van-drew/"
+  },
+  "polls": [
+   {
+    "pollster": "Impact Research",
+    "end_date": "2026-10-10",
+    "margin": 10.0,
+    "n": null,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://newjerseyglobe.com/congress/super-pac-putting-1-5-million-on-broadcast-tv-to-take-out-van-drew/",
+    "answers": [
+     {
+      "choice": "Jeff Van Drew",
+      "pct": 50.0
+     },
+     {
+      "choice": "Zach Mullock",
+      "pct": 40.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NJ-02",
@@ -155,6 +209,11 @@
    "date": "2026-10-23",
    "c": 3,
    "p": null
+  },
+  {
+   "date": "2026-10-24",
+   "c": 3,
+   "p": 10.0
   }
  ]
 }

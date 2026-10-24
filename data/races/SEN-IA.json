@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-23",
    "name": "The Economist"
   },
   "fpo": {
@@ -96,37 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": 0.2,
-  "average_label": "R+0.2",
+  "average_margin": 0.7,
+  "average_label": "R+0.7",
   "n_polls": 8,
   "window_days": 21,
   "latest": {
-   "pollster": "co/efficient",
+   "pollster": "InsiderAdvantage",
    "sponsors": [],
-   "partisan": "REP",
-   "start_date": "2026-10-15",
-   "end_date": "2026-10-19",
-   "sample_size": 863,
+   "partisan": null,
+   "start_date": "2026-10-21",
+   "end_date": "2026-10-22",
+   "sample_size": 1200,
    "population": "lv",
-   "margin": 3.0,
-   "margin_label": "R+3.0",
+   "margin": 2.0,
+   "margin_label": "R+2.0",
    "answers": [
     {
      "choice": "Ashley Hinson",
-     "pct": 48.0
+     "pct": 47.0
     },
     {
      "choice": "Josh Turek",
      "pct": 45.0
-    },
-    {
-     "choice": "Thomas Laehn",
-     "pct": 2.0
     }
    ],
-   "url": "https://battlegrounds.coefficient.org/ia/"
+   "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/"
   },
   "polls": [
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-10-22",
+    "margin": 2.0,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 47.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 45.0
+     }
+    ]
+   },
    {
     "pollster": "co/efficient",
     "end_date": "2026-10-19",
@@ -355,29 +370,10 @@
       "pct": 44.0
      }
     ]
-   },
-   {
-    "pollster": "YouGov",
-    "end_date": "2026-09-08",
-    "margin": -4.0,
-    "n": 2041,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/iowa_election_20260903.pdf",
-    "answers": [
-     {
-      "choice": "Josh Turek",
-      "pct": 47.0
-     },
-     {
-      "choice": "Ashley Hinson",
-      "pct": 43.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 17,
+ "raw_poll_count": 18,
  "trend": "Stable",
  "signals": [
   {
@@ -417,10 +413,10 @@
     "SEN-IA"
    ],
    "type": "reporting",
-   "source": "KCCI",
+   "source": "WOWT",
    "lean": "unrated",
-   "title": "Iowa Senate race narrows as Turek leads Hinson by 2 points in latest Cook Report",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEFfdUlYbGRBaV9fOUZXalFBUS1FN2MwemV1ZnZkdzRjWTg3Y1NVWWpMZTNwTUo4MnowSHBSZEFVaWhrbDgzdHNYVGFEZTM4dVFaSHpVXzdmX1RDUnBURHdUOUpYSkZFOGZPSk81NEpGZ3ZvRkMzeHBqVkdTR09uZ29xNUk0V044aGVhcF9OS1d1ZlpnUG1TdDZIRGg2cTdyOHhYTnpCZmFSQ0hUSXY2SVF4eUkycjNyRGc?oc=5",
+   "title": "Election 2026: Iowa Senate race tightens with less than two weeks to Election Day",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmFvTGJYRlNMTU9fUUVzdTF4azdhT2h6Z3F5ejEzZnppc2hmWDdoSHd5QkdMOVhuMG4zX3NPRTItRERZcHBfZEFyUjV6SDRwMmRvR3g1QnhTTF9GMmtoWHZOUlhvdFZzMUMzV0xBWUR0REZWWHc0aTJJT1NVV3JJbmNqbUtPYklHRjVBV25tbWNzRVF2c1RES3d4cWPSAbABQVVfeXFMTTRzZ3FnUHNpbTdfZDF3a216TW5DN3pfbm1JSE5NTmVmSDloYmgzOEFEUzJfaFR2bE9IVF8yNmdzcjNxS2RHZlk1VHJ6Si0wYWNqcFprNU9XQm5WTGRTeTN2WFBTUnRSd2x1dHo3UXB5LThqb0J1YkZieVV5dEJmakloWGVOVExFdV9fcXhBb0pMQ3N0RWk2ZXVsLUJuN2wxQ2FBdWdhc3Zmc0JhaGswZHo?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -432,40 +428,10 @@
     "SEN-IA"
    ],
    "type": "reporting",
-   "source": "WOWT",
+   "source": "KCCI",
    "lean": "unrated",
-   "title": "Election 2026: Iowa Senate race tightens with less than two weeks to Election Day",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmFvTGJYRlNMTU9fUUVzdTF4azdhT2h6Z3F5ejEzZnppc2hmWDdoSHd5QkdMOVhuMG4zX3NPRTItRERZcHBfZEFyUjV6SDRwMmRvR3g1QnhTTF9GMmtoWHZOUlhvdFZzMUMzV0xBWUR0REZWWHc0aTJJT1NVV3JJbmNqbUtPYklHRjVBV25tbWNzRVF2c1RES3d4cWPSAbABQVVfeXFMTTRzZ3FnUHNpbTdfZDF3a216TW5DN3pfbm1JSE5NTmVmSDloYmgzOEFEUzJfaFR2bE9IVF8yNmdzcjNxS2RHZlk1VHJ6Si0wYWNqcFprNU9XQm5WTGRTeTN2WFBTUnRSd2x1dHo3UXB5LThqb0J1YkZieVV5dEJmakloWGVOVExFdV9fcXhBb0pMQ3N0RWk2ZXVsLUJuN2wxQ2FBdWdhc3Zmc0JhaGswZHo?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-20",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "The Des Moines Register",
-   "lean": "unrated",
-   "title": "Outside spending hits $137M in Iowa Senate race. See the top spenders",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYlBRUG41cEFickx5ejZyS19LVTczem9ickdtUUZobnZxTEMtSE9TR3Q3RWRuRFBSQ2tiVUFITjExcEFmTnQ5bU4ydHdSaG41WVFjY2ozbmcydkFtSXpncmJtQkdRTGMtYV9Ea2NOZHJjQVRIeEJYSUp2aTNMQXNSMDY3blpjUy1wc1k1RkJISGp1QVpsWk0yNWV3WXFtRmNZellaaXZqcGYxdEFvb2RpMlpfMnNIYUtNYjVnZFRJYjlDTFRUdXdtY2V3WkxDWVJFY29mUjBaQUlDMzNLRXpBUXE1WmtuZWxpTlNLWQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-20",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "WOWT",
-   "lean": "unrated",
-   "title": "Election 2026: Josh Turek campaigns in Council Bluffs for Iowa Senate seat",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPM0RZM2FqN0ZMMTFtNWFRNHRLOXJkWDByZ25BbUM1STQ3cGlKMUlxNjN5TnlrSFlDdkJQMl8tMklmcldnSHBxMDYzeklhZkpma2RSVDNoX0dINS1ncXF2R3FWRlRwQTV0eVpyd0VIbEdCZ0Q4MkdidEcyNE8ydDRpOUxmM1pOR3B6NjMtMUtLRlR6QzBBUkdLc2hoTjZSUlpn0gG0AUFVX3lxTE12ZVBpUmxTYzZwcm1JU1hSdGJRV3N1NExuVGx1N1Jvb0RRdS15US1JS1VDSVJwZnJTd0VLb05IR3M3ZEJybE5FazVPZWpDVzBheVpXQUFrMF9CS25GLURZYnIzMnRnMGFvUGIwNzYtUGZ0Z1M1b1E3cUFvZXZrSkdYS2lzZ1dGWGFqa0R1Ti1TVDRnaEZ3LW1ENi1HMzgtRzFBYlNKazNGaHYxNzdsMlZ1VHNqeg?oc=5",
+   "title": "Iowa Senate race narrows as Turek leads Hinson by 2 points in latest Cook Report",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaEFfdUlYbGRBaV9fOUZXalFBUS1FN2MwemV1ZnZkdzRjWTg3Y1NVWWpMZTNwTUo4MnowSHBSZEFVaWhrbDgzdHNYVGFEZTM4dVFaSHpVXzdmX1RDUnBURHdUOUpYSkZFOGZPSk81NEpGZ3ZvRkMzeHBqVkdTR09uZ29xNUk0V044aGVhcF9OS1d1ZlpnUG1TdDZIRGg2cTdyOHhYTnpCZmFSQ0hUSXY2SVF4eUkycjNyRGc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -537,6 +503,11 @@
    "date": "2026-10-23",
    "c": 0,
    "p": 0.2
+  },
+  {
+   "date": "2026-10-24",
+   "c": 0,
+   "p": 0.7
   }
  ]
 }

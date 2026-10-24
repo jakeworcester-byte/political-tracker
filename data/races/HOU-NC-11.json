@@ -3,9 +3,9 @@
  "label": "North Carolina 11",
  "ratings": {
   "cook": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-16",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -75,22 +75,22 @@
  "key": "HOU-NC-11",
  "name": "NC-11",
  "incumbent_note": "withdrew",
- "consensus_score": 0,
- "consensus": "Tossup",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 5,
+ "flip_votes": 6,
  "candidates": {
   "D": [],
   "R": []
  },
  "poll": null,
  "raw_poll_count": 1,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "race": "HOU-NC-11",
    "races": [
     "HOU-NC-11"
@@ -130,21 +130,6 @@
    "lean": "unrated",
    "title": "A tale of two farmers: Ager, Balkcom compete for NC-11 seat",
    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMlpnSVpVREt1Z3ZKd1MxazhhOUhUWWF0UXZnNVBURGFGaGFNMldqRTZBZjFieGIxNXRNVlM2alM2eF9GLVVORUk5QnVxblJERzM1RDgzQm85T1RsbS1qbzZYdFJzWS1vOE85NkRNVExSS2Rxb0NMb0lCX1pLSjR6NGtVVVMtUklEM2lrZ0lVN2dWSnhDWFBqS2tNOTFBSEdBSklOSGViSWdhdzZuVW1weTBCVnhmenROcUEzOEJJTGFDdkhWYXhkTzVGX05tazFpWnBNZ3k2MFIxVjg1RmsxMG9sbw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "HOU-NC-11",
-   "races": [
-    "HOU-NC-11"
-   ],
-   "type": "reporting",
-   "source": "NC Newsline",
-   "lean": "unrated",
-   "title": "A tale of two farmers: Ager, Balkcom compete for NC-11 seat",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM2l4ZjYyd3lYNlMwM2hudTVNckN4QnpTMkl4cV9iSy1WWG4tNU4xU0dXMGpoZG4wTmwyd3IweHNmQTZXbHpqbUpmeU1nOU80NU9kWmxPMjRKX01rdFhnMC1BLWlOTkl1TzFQRFBwVERVZG40eHVLZHFQTmI0LThsazIzTENvS2l3OWZFbVQ1Tk0tazNDT0Rr?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -215,6 +200,11 @@
   {
    "date": "2026-10-23",
    "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-24",
+   "c": -2,
    "p": null
   }
  ]

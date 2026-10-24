@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -173,6 +173,21 @@
     "HOU-IA-01"
    ],
    "type": "reporting",
+   "source": "weareiowa.com",
+   "lean": "unrated",
+   "title": "Miller-Meeks, Bohannan debate ahead of much-watched race in Iowa's 1st Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaTV0NkpHUGZuMlZnUTJYaFAwQm9nSmZDNGtJZlI4LUoxZ1dNSDljY010WXkzTkp1RENGcnBUMUczamFVelBHZEtJM2g1eVBiOFVlX2gyUmg3ZHhuRU5yalpzUnZiMDJHcGhLc2pWemd1ckJuX0lSZ1hnX2lkdlMwY3o0bV9nX3ZHQmtqTFVjNHZOejZDTVpKbk5faXhmdzdWOWJmeWxrdGRhOEhzR2dMX0RfX05reHRrSkZROXdtWC1jOW5NemRXc1J6NUZNVkp5QTlZYlhJclVfMEJnQkF0QzBaWUxYc1J6ZUlBUFdqS0g?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
    "source": "Radio Iowa",
    "lean": "unrated",
    "title": "Two candidates in Iowa’s 1st congressional district debate",
@@ -276,6 +291,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-24",
    "c": -2,
    "p": -5.0
   }

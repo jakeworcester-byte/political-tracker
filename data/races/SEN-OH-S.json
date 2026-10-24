@@ -15,9 +15,9 @@
    "name": "Decision Desk HQ"
   },
   "econ": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-21",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-23",
    "name": "The Economist"
   },
   "fpo": {
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 3,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "Sherrod Brown"
@@ -96,43 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -3.3,
-  "average_label": "D+3.3",
+  "average_margin": -3.5,
+  "average_label": "D+3.5",
   "n_polls": 9,
   "window_days": 21,
   "latest": {
-   "pollster": "VoteHub/Verasight",
-   "sponsors": [
-    "VoteHub"
-   ],
+   "pollster": "InsiderAdvantage",
+   "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-01",
-   "end_date": "2026-10-20",
-   "sample_size": 531,
+   "start_date": "2026-10-21",
+   "end_date": "2026-10-22",
+   "sample_size": 1200,
    "population": "lv",
-   "margin": -3.9,
-   "margin_label": "D+3.9",
+   "margin": -3.0,
+   "margin_label": "D+3.0",
    "answers": [
     {
      "choice": "Sherrod Brown",
-     "pct": 47.5
+     "pct": 47.0
     },
     {
      "choice": "Jon Husted",
-     "pct": 43.6
-    },
-    {
-     "choice": "Bill Redpath",
-     "pct": 1.1
-    },
-    {
-     "choice": "Greg Levy",
-     "pct": 1.0
+     "pct": 44.0
     }
    ],
-   "url": "https://cdn.votehub.com/pdfs/VoteHub_Verasight_Oct_2026_Ohio_Report_D1CB7735.pdf"
+   "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/"
   },
   "polls": [
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-10-22",
+    "margin": -3.0,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 47.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 44.0
+     }
+    ]
+   },
    {
     "pollster": "VoteHub/Verasight",
     "end_date": "2026-10-20",
@@ -381,29 +390,10 @@
       "pct": 42.6
      }
     ]
-   },
-   {
-    "pollster": "Quantus Insights",
-    "end_date": "2026-09-23",
-    "margin": -0.5,
-    "n": 695,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://quantusinsights.org/polling/f/brown-and-husted-deadlocked-in-ohio-senate-race",
-    "answers": [
-     {
-      "choice": "Sherrod Brown",
-      "pct": 47.8
-     },
-     {
-      "choice": "Jon Husted",
-      "pct": 47.3
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 17,
+ "raw_poll_count": 18,
  "trend": "Stable",
  "signals": [
   {
@@ -413,25 +403,10 @@
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "The Columbus Dispatch",
+   "source": "NBC4 WCMH-TV",
    "lean": "unrated",
-   "title": "Who's bankrolling Ohio Senate race? Trump and Elon Musk, for starters",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeUprblNZS2NnbEhiTTBwenlxa0U2SEVlS3NVTWhzQllSeTZpMF91OFE2ZXJ6OW9SWTNkWUNrdmRLX09zZ2ItVTZWUTVkNHliQTBhMDhRY2kxWmFOXzlyWTJqNXpkSVpMaFBSTDVNdy1palozV3JfcGZqTU9sdjVGcFFzSTBYcmZZbnJfT1I5TVdRNjBFcHJRMllhbm1ramd4ZU1EUzVMQ2dfQ1RQMDhqaGZWYWozRG9WTWdGSy1kSm1Wc2xRU3dr?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "CNN",
-   "lean": "unrated",
-   "title": "Conservatives funded efforts to undercut Sherrod Brown with Black voters in Ohio, filing shows",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUMtQ0VqYWx4T0NDU2VKRHpXM002RjExTm5WSkRHQVFnalMyM2ozYkpPMGxGZXhTbF9FR1JIeVRlMTR4WGZwR3d6UFVWV29DQnpsbWYtZXBDVEdHc0V6eUNhNHV2TW8ydDZ0SEtkTzk4N0tGd0F4UjB3YTc3M3otck1PcDJuMV82dEFsRm1mZ2o5Zw?oc=5",
+   "title": "Two Ohio polls put Amy Acton, Sherrod Brown ahead in Ohio’s Senate, governor’s races - NBC4 WCMH-TV",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcng1eHN6LVpDd09obWdZWUhHcUlKZ2xWQV94WFBLbnJqVEx0OE1xcFAtZXE2cXVRZnJ4TDByekJrazFNSlhKV1pHREVpQmNMeDRVOG94TnRkcEJ4anZ1UmVQeV9uc1lEb2UyenFJMzk3WUxMak5mUDhVVmtTaFM5V2RjNWp1VHdfTzNUenNmd1hXSWNYMk8tcFdqY0IyTzJwMEdOSGlMaVNDRnoxUjVySjRCblE3SUxqSkFNc2VucnU1QVRQMmY5LUo4QdIB0AFBVV95cUxOS3h3LThKSE9RR0VnMW4wNjYwM2RZOU5LSWszWF9SUGFjNVI0TTB3S2F5WU9QTHJuQUg2elBpSUVhWlRUckdVRldkYV9UXzhGOElCY2R3cV9PU1VlU0FvTWdQM05PamFGSXJWM19rZm9oZW8taVRrZXdqcGplbTRtVVhmd3J1ZzJ6QTN4NWZmVmVVZ0pHTUF2czFfYTJUcEFBNnRCSmI0Y3FaV3l4ZHNCdmE0NmRiQ09oOUZORjZPMVkwVTJhYzlRZVVVU1BjcEhB?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -447,36 +422,6 @@
    "lean": "unrated",
    "title": "Two new polls give insight into Ohio Senate, governor races as midterms near",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOTZrSDZZMTdTSnVEZ09lQ1czUWFuZXBUQnA5enFiNERXWV9qR3Vrb19lTTFZb0VOY2o5SWgwaExURUUxZzRnOW9FelVCeHhqRVFsbW5mTG15VTJTWDYwZk16Z1hRVndLWVNwcjlIbWM5QVd3NXJ1TWhCYUlMaUxPZEtadlFYMnNwV0hqSU9lU1dPUFNYYzk0?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "Newsweek",
-   "lean": "unrated",
-   "title": "Vivek Ramaswamy Could Be Sherrod Brown’s Secret Weapon in Ohio",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFBRbjFyYng3RFQ0aTEyWlp5RlQ4dHh2b1Z4RzNEN294RWVpS2ZTalkyaXltOVV4Wm5vU20zSW1vdXJUNTNOUkZaWVZYNEFxOVhFZVg5emVYQ0p0YVI3NGE2M0pTOHlsWmhCanJZT1M2UXdEV0ctNmF3UXVQLXVoOTJUbjc4ZWJZaGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "Fox News",
-   "lean": "unrated",
-   "title": "Fox News Poll: Gender gap and pocketbook pain shape Ohio Senate race",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb3hlbEJ2YmN0bW1kWmFrYTEzZ1JfNk9QOTNkbDIzLWdNbUJCMlNQX2I5NGxuczh5bHRWbmVYWWJ6Zl96NVdDOGxTU1JWdzZ2Q2dHbkZlMkFzY094ZHhzcWFRVzZZX0hwWWtmaUZSc24yY0g4d2xudWkwMDNhR3hrMF9sZnhmS1Q4aXJSb3VpZzdYMXFGdDBwRzMxZ07SAaIBQVVfeXFMT1BIZ3RTdC1MTVlHeWc0NGJCUjNJbDYxdXFMcEw0VVNudGtBZmZTZ3hmdUhWcUVFRllvcU1UX21LSnpLNHhFOWJRa1ZXQXdYZ191NXJjMXA3MGVaTVBGeUNBclpkcHQ3QnItdW1kUGdkN3ZKNUdQVGtkT29oMENuX2V0NjFUVVhwbHhJTlJlSlc0TFhsQVREN0ZVZC1SbGZmQVB3?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -548,6 +493,11 @@
    "date": "2026-10-23",
    "c": 0,
    "p": -3.3
+  },
+  {
+   "date": "2026-10-24",
+   "c": 0,
+   "p": -3.5
   }
  ]
 }

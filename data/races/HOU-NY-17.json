@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -182,6 +182,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-23",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "Republican incumbent Mike Lawler and Democrat Cait Conley vie for NY-17 seat in northern suburbs",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUjFBb3ZPV3JMZ3VqN3MtbDFVa1N5WHU3WHVmMUJzVU9TOGU4R1poeDNWUXQ5eVhCUmsyaUR1Q2ZDeWFDQVRYb3ZZeXhTdzNHRVhjT2lTbnJ6b1V3WVI0N0FDZFA4LU1kcUtjckZvSGZrdGNvQm92R09LMkoyaFZxMWUtMlAzNmEzVnlWeXQ2bVNqVTJLRmU2akVWUVFOci1J?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-21",
    "race": "HOU-NY-17",
    "races": [
@@ -203,10 +218,10 @@
     "HOU-NY-17"
    ],
    "type": "reporting",
-   "source": "Times Herald-Record",
+   "source": "Lohud",
    "lean": "unrated",
-   "title": "I met Lawler and Conley. This is what's at stake for NY-17 | Richter - Times Herald-Record",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3ZOYmtOQ1RtMVlCQWkya29yNi1qdnZEVnY1MEVkMFhkYk04aThnQzFsWjRqb1lrdUlNRUxjTHBjUzJoZVJLNXM3d1lxeEpGR3Q0cWNka2R4MjhLYVFsOHFZdkc5TXo3ajRQbUJPdzBmbXBEMjItNGwwTFRvdnJjd2NFRUpGdmZLd0c5bzRlcGtJTE1SMTllTEpNVEl1QmYxbVZPODZqbEJoejVISnh6NGtuWUR2RUVneTJLM1dtNkVhcDZlSWVCZlAyQlFXMThCeTJZ?oc=5",
+   "title": "I met Lawler and Conley. This is what's at stake for NY-17 | Richter",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS3FmSEliUVF1WDludjJNYkVwcUwxeUY2aGJLT3ZnTEFSbEdadl8tdU9PS3d1aVBkdGplcjNpMVVpSHE2T1ZvMnhkWVhpRURyNU5iZXowZEZQYnM0Sm9MaUxyRXVRbUhERDFwWEQtYlRuQnFoTUVseVpMM08ySkhRLUVLXzBZdWxiYVBpZDBHU044TnEzX0VqUlZNcnRUYmVEZ0t5NjdySWtHUUI4Z2JOaDZBLU0tZUZvWjk3UnYwOE52Wnd3ek5HTmF3?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -276,6 +291,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-24",
    "c": 0,
    "p": -2.0
   }

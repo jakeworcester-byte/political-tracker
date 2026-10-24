@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,6 +90,21 @@
  "trend": "Toward D",
  "signals": [
   {
+   "date": "2026-10-23",
+   "race": "HOU-ME-02",
+   "races": [
+    "HOU-ME-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Maine 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-22",
    "race": "HOU-ME-02",
    "races": [
@@ -100,21 +115,6 @@
    "lean": "unrated",
    "title": "The race for Maine’s 2nd Congressional District seat: Here's what you need to know",
    "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeWMtaFhKZ29XWVU2Y25pd0FtY1ZiazhyQVFKTXdSbFhBN0NfbTdlY1U1SGhKX3M4QUxBYjlyT3hTVjFWbGdLVURqd1BxRkJ1ekZCdWJub19Zc3hMcnRUcy0yWnRpZlVicnpuUDUyaWRhYll0MVBwNW13Y1NuVlk2QTVjcWkzdUNfb3B2VWl2c18xNm9JUzNOVDRzcU54cXM4aHNYS0MwNUhTTk50dHdtbEdTemRtQXptczF4SzFjT05mR2ZsOXhvdFlqVDNYS215NE1hYU1KV2FMVWJSQ3JVVXRnaGJYdklSZEtkanczRUxucEQzMXlfbmotRy0tTDg3RDA0UUVXLW93ZU1S?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-ME-02",
-   "races": [
-    "HOU-ME-02"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Maine 2nd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -184,6 +184,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-24",
    "c": 0,
    "p": null
   }

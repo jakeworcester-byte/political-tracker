@@ -3,9 +3,9 @@
  "label": "Kentucky 6",
  "ratings": {
   "cook": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -75,8 +75,8 @@
  "key": "HOU-KY-06",
  "name": "KY-06",
  "incumbent_note": "",
- "consensus_score": 1,
- "consensus": "Tilt R",
+ "consensus_score": 0,
+ "consensus": "Tossup",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -163,37 +163,7 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-23",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "AOL.com",
-   "lean": "unrated",
-   "title": "Poll: Who won the Kentucky 6th Congressional District debate?",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVDI3NGwzaXg1eVdrb0t3MFh3NkQzbmZhaXlNbjdrXzBBeXJJMkpJclpfME9XZ09ic2p6aUxhRUZHMFJJVHdqTGZ0eXhjUHpLeUNWQ1ktaXY3eVZLV003bWt1U1BRWC1KV1ZHSU5UOHNxTklTSk9rTkY4YjZKOV9ydl9SZXZOdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "FOX 56 News",
-   "lean": "unrated",
-   "title": "Alvarado, Dembo set for live Kentucky 6th District debate Thursday night",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnRyemc0bmJ2eDllNjc4LVB6YnJqdVE5THRyYy1HRU80eVRXZ1dtNEFZVmo0UWZmRXoycm94UXVLNnE4NmdjY3dlRGhIUTN2cEl0Ym9VNVc5Wm04VDlKeS16SlIxdXUxVWtqaVVSZllmYXlCM2ZpVjBqMjR5SGRoVUdILTVwOVpLc2ZSOTlYU0FoQzZpUC1pbkJPSUF6UGYwQzZGd3QyUlJudkQ10gGyAUFVX3lxTE93OUlGbGZCTlFJTnNFTGZnV0t6VlEzb2Y1a0dzbi1SVnFIV0ZUaWJPNWJwX3RWaFNIUzNZMHltNk81cEhsTzlnWjVENVZib3NRRUFEa3JqVk14YlhuSXJmRVRtYVFIUGk0SHhKRm81eXdaQnZBLXNDdlRzcWpZeW9fSVZ0Ym91eVQ0QkxYS2NhR1FtYTc5d1lBb0g4U1diVUVWU0Q1TkVfUVpLa2ZLblp5Q2c?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
+   "date": "2026-10-24",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
@@ -208,22 +178,22 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-20",
+   "date": "2026-10-23",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
    ],
    "type": "reporting",
-   "source": "FOX 56 News",
+   "source": "The Courier-Journal",
    "lean": "unrated",
-   "title": "When does the Kentucky 6th Congressional District debate between Ralph Alvarado, Zach Dembo start?",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORW1OendoWlhVbjhwcFVseHVrLWVQakthMUJVSUxvamJWcTUxVEkyeksxQlBKZmpNWDBBaTVTMWRlUk1ib0pZZlRyeDI2WXBQTTlnRXJXamRyaUV2aE5lMGhVaUY3akdGT3JuX01vZWVCajkxWEhQd3NrOGd1Vmt3NnNpMTFSeEdBbWMtdjMwaFMzd0Q1RUJxNzFBeDZmeTEteGpCZWFWclpqYVNsNTNBMjVpWlNDd3Qyb3kwODYtRGxKYnZvTDNDT214ZGZnZ9IB0wFBVV95cUxNeHZ4NWotcVBJRGo3enQ3V0xTeV9EVnJwSnI5amdFQjdFaTNFcmpuRElKcjdNLUlyTzJnSGJScS1FZzRPczZDQlo1enVhaGlsR0FQa05rcXFfTUJwN0R5LXEtckd4a0NjNTNuekV0Um1DZlJ1eHctSGZtUG9neVVDSk9ONTc2bWpKWkhvbkJyVEp6dllNOG9QWldVay1IVV9xTmx3VnBfXy1nMldqcXF4TnMwMkdDeTdUUWRVdzZYaTBHdTBINHU1dkxmS3dqa0hlLUNv?oc=5",
+   "title": "Kentucky's 6th District race is now a 'toss up' between Alvarado, Dembo - The Courier-Journal",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQejhCNmwzRDdrT0NTcldSeTBCMzV1TE00Z1plaTdqaGYxZ09hQ0lZRjJ4TnRHclBXRlYycWt0cl9GUnBJSW5OZzE0bXpqTE5LeVNVY3hCczdoU0xraG16bHp6MDNXWDVzUDNBbkM4R09ELUEwSHQxaGdQbVRsaXdYdkRZTmJtQW5fdWp1MTgzMWQxd2dHVnFWbEttQ2pzam13Vy1nNm1wQ01ITVBvTlFSckFYM1MzVEwteGVPdVhnaHF6d0REbjRLQ0VrbURGN2U5WlRDemtfUlg1dw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-19",
+   "date": "2026-10-23",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
@@ -231,8 +201,8 @@
    "type": "reporting",
    "source": "FOX 56 News",
    "lean": "unrated",
-   "title": "How to watch the Kentucky 6th Congressional District debate",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPblVMdEJudUNuYWhfb2RBLUNOTjFsSU9hd21YSkw5R013ZktGOXRWM29wd0VEcWstVk9oYVAtcS1FTTZqcHZLamlqck9CRVo5UDkwcWV0ei1OM1MxYy03Zlh4V0lNWlZra09tNUNEUF9McGtGXzJzSjN5NjQ5bEowaG9VQldIS3Zkbjc0b3JEV0VHcmlEd3FBV2Jra1XSAaIBQVVfeXFMTkcwRXNNRV9rSHRpdmVSYVljRjFjSUtNeXlieFdqVTBhbU00VXBwd1AzMjY2MTVuX1p2UTNSZlFQQVVDRlF0dHc5VFVhQkYzc0FvZ2RValdOdUpmOXA5QnhRM2ZWd1B5QjRvbk1YczRqVEpSUHI1Qi1UckJHSzNJQkc1dkUxamV4T09WaWZ0cTA1MC1jNlNYZldJMnRER1N1VmFn?oc=5",
+   "title": "Poll: Who won the Kentucky 6th Congressional District debate?",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVEdlRzhyZkt5cVRFWThmc2gyamtaV0dtbi1NRVI1QzUyRkZiRkRnRzZxUU9yOXliRUptQ1kzSTAwVk1pTkxkYnhPcTlUSXUxeFBzeTRtOWFJSVZkMkdjbXFoVEpiSnNZX2Z2ZF9oWnBsaTNwWEREamdtWWZJVUs0RWk2TXJsWkJNLXl5MzJ0ekU1NUlWZEdqOGxYQXVBQQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -303,6 +273,11 @@
   {
    "date": "2026-10-23",
    "c": 1,
+   "p": -4.5
+  },
+  {
+   "date": "2026-10-24",
+   "c": 0,
    "p": -4.5
   }
  ]
