@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -207,21 +207,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "HOU-WI-01",
-   "races": [
-    "HOU-WI-01"
-   ],
-   "type": "reporting",
-   "source": "Wisconsin Examiner",
-   "lean": "unrated",
-   "title": "In Wisconsin’s 1st District, after easy wins, Steil faces a challenge on his record",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRVNxWVhhaXV1QklPS0pCam95Y2ZISk1BeWIzU1Z0MmlfbHRvR0syQTg3VjRuNnlWLXBqZWJMQTR1elZrM3pqVFpMZjVzOVlKLTdwRXREVXpnTGhlbm5ZVWUyeXpGZ2NhRUlQUERhNkRzZVBmSWdZbzNkV3hXRUFtSDhRYjVUY0ItTkF3WE5DYmtMYjd0Unk1ekhOSS1jaHp4SFhvQlZXaFFTRWY4OEE3UWlkUFNPM05nT2RUaWdWZzNMRDNBM2NEYjBKS1QzN19JejJj?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WI-01",
@@ -288,6 +273,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 2,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-24",
    "c": 2,
    "p": -0.5
   }

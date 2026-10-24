@@ -1,0 +1,62 @@
+{
+ "as_of": "2026-10-22",
+ "published": "2026-10-23",
+ "total": 1269919,
+ "in_person": 1215031,
+ "prior_same_point_total": 927708,
+ "rows": {
+  "Democratic": {
+   "registered": 2335471,
+   "reg_pct": 29.61,
+   "ballots": 535972,
+   "turnout_pct": 22.95,
+   "ballot_pct": 42.21
+  },
+  "Republican": {
+   "registered": 2330207,
+   "reg_pct": 29.54,
+   "ballots": 296478,
+   "turnout_pct": 12.72,
+   "ballot_pct": 23.35
+  },
+  "Unaffiliated": {
+   "registered": 3170142,
+   "reg_pct": 40.19,
+   "ballots": 434538,
+   "turnout_pct": 13.71,
+   "ballot_pct": 34.22
+  },
+  "Libertarian": {
+   "registered": 46697,
+   "reg_pct": 0.59,
+   "ballots": 2507,
+   "turnout_pct": 5.37,
+   "ballot_pct": 0.2
+  },
+  "Green": {
+   "registered": 5031,
+   "reg_pct": 0.06,
+   "ballots": 424,
+   "turnout_pct": 8.43,
+   "ballot_pct": 0.03
+  }
+ },
+ "ballots_share": {
+  "D": 42.21,
+  "R": 23.35,
+  "Other": 34.45
+ },
+ "registration_share": {
+  "D": 29.61,
+  "R": 29.54,
+  "Other": 40.84
+ },
+ "turnout_pct": {
+  "D": 22.95,
+  "R": 12.72,
+  "Other": 13.71
+ },
+ "source": "NC State Board of Elections daily absentee and early voting statistics (PDF)",
+ "source_url": "https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-23%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf",
+ "measure": "absentee by mail + in-person early ballots cast (accepted)"
+}

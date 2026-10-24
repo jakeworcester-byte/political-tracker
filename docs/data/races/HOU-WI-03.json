@@ -3,9 +3,9 @@
  "label": "Wisconsin 3",
  "ratings": {
   "cook": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-16",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -80,86 +80,17 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 7,
+ "flip_votes": 8,
  "candidates": {
-  "D": [
-   "Rebecca Cooke"
-  ],
-  "R": [
-   "Derrick Van Orden"
-  ]
+  "D": [],
+  "R": []
  },
- "poll": {
-  "average_margin": -4.0,
-  "average_label": "D+4.0",
-  "n_polls": 1,
-  "window_days": 45,
-  "latest": {
-   "pollster": "FM3 Research",
-   "sponsors": [
-    "House Majority PAC"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-06-20",
-   "end_date": "2026-06-25",
-   "sample_size": 535,
-   "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
-   "answers": [
-    {
-     "choice": "Derrick Van Orden",
-     "pct": 46.0
-    },
-    {
-     "choice": "Rebecca Cooke",
-     "pct": 50.0
-    }
-   ],
-   "url": "https://x.com/cjwarnke/status/2074099699020128352?s=20"
-  },
-  "polls": [
-   {
-    "pollster": "FM3 Research",
-    "end_date": "2026-06-25",
-    "margin": -4.0,
-    "n": 535,
-    "population": "lv",
-    "partisan": "DEM",
-    "url": "https://x.com/cjwarnke/status/2074099699020128352?s=20",
-    "answers": [
-     {
-      "choice": "Derrick Van Orden",
-      "pct": 46.0
-     },
-     {
-      "choice": "Rebecca Cooke",
-      "pct": 50.0
-     }
-    ]
-   }
-  ]
- },
- "raw_poll_count": 1,
+ "poll": null,
+ "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-21",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "PBS Wisconsin",
-   "lean": "unrated",
-   "title": "What the race in Wisconsin's 3rd means for national politics",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZkdaemJEX3pOT1I5bFpVY2NxRk52b1dSSWFCa2NhemNZalNUSWFtMjk4dHM2emJ2WTdPZ05DTmdyanEtVzZiRklxbWVkWEdpNUZKYTNESk44clU3VXBZX0pQQWZ6Z0FtTUlhaDhUcUgwWmYtWmc5YlNnR2xGUTBxNndtVzduNG9ldFNPdVFMU1dqY0lVWUxoSk95OA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
+   "date": "2026-10-24",
    "race": "HOU-WI-03",
    "races": [
     "HOU-WI-03"
@@ -180,10 +111,10 @@
     "HOU-WI-03"
    ],
    "type": "reporting",
-   "source": "The Wisconsin Independent",
+   "source": "PBS Wisconsin",
    "lean": "unrated",
-   "title": "Lower costs? Start with healthcare, says Wisconsin candidate Rebecca Cooke",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZnFhdy05bHpoZWYzVzF0SXRFN1Z1S0MtSUQ5bGV1ZDVTd09mNWtoVUVWcnc3TFBvNTdseVpocVlEZmdyOGtTc1ZnZ3V6cktFM2VENXo1WVJUTndYdk1idHFTbXVSOVZsTGJUQkVWMVFoSWsxZlktWDZfVGVrMy1haG04WVhJRXdYTzlod080Ulc0N0NVWmhiWWxDMTdyV1VuNFJWOHNrd0V6X1ppX3JwWGdCVnBFdw?oc=5",
+   "title": "What the race in Wisconsin's 3rd means for national politics",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZkdaemJEX3pOT1I5bFpVY2NxRk52b1dSSWFCa2NhemNZalNUSWFtMjk4dHM2emJ2WTdPZ05DTmdyanEtVzZiRklxbWVkWEdpNUZKYTNESk44clU3VXBZX0pQQWZ6Z0FtTUlhaDhUcUgwWmYtWmc5YlNnR2xGUTBxNndtVzduNG9ldFNPdVFMU1dqY0lVWUxoSk95OA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -270,6 +201,11 @@
    "date": "2026-10-23",
    "c": -2,
    "p": -4.0
+  },
+  {
+   "date": "2026-10-24",
+   "c": -2,
+   "p": null
   }
  ]
 }

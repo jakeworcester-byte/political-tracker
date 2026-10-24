@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -156,37 +156,14 @@
       "pct": 46.0
      }
     ]
-   },
-   {
-    "pollster": "Hart Research Associates",
-    "end_date": "2026-06-25",
-    "margin": 5.0,
-    "n": 550,
-    "population": "lv",
-    "partisan": "DEM",
-    "url": "https://www.thehousemajoritypac.com/news/hmp-poll-don-leonard-within-striking-distance-of-mike-carey-in-oh-15",
-    "answers": [
-     {
-      "choice": "Mike Carey",
-      "pct": 45.0
-     },
-     {
-      "choice": "Don Leonard",
-      "pct": 40.0
-     },
-     {
-      "choice": "Brennan Barrington",
-      "pct": 3.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 3,
- "trend": "Toward D",
+ "raw_poll_count": 2,
+ "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-24",
    "race": "HOU-OH-15",
    "races": [
     "HOU-OH-15"
@@ -265,6 +242,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-24",
    "c": 2,
    "p": -2.0
   }

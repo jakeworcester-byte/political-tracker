@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-23",
    "name": "The Economist"
   },
   "fpo": {
@@ -96,20 +96,22 @@
   ]
  },
  "poll": {
-  "average_margin": -2.6,
-  "average_label": "D+2.6",
-  "n_polls": 5,
+  "average_margin": -2.2,
+  "average_label": "D+2.2",
+  "n_polls": 6,
   "window_days": 21,
   "latest": {
-   "pollster": "InsiderAdvantage",
-   "sponsors": [],
+   "pollster": "Beacon Research/Shaw & Co. Research",
+   "sponsors": [
+    "Fox News"
+   ],
    "partisan": null,
-   "start_date": "2026-10-13",
-   "end_date": "2026-10-14",
-   "sample_size": 1200,
+   "start_date": "2026-10-16",
+   "end_date": "2026-10-20",
+   "sample_size": 1514,
    "population": "lv",
-   "margin": -2.0,
-   "margin_label": "D+2.0",
+   "margin": 0.0,
+   "margin_label": "Even",
    "answers": [
     {
      "choice": "Troy Jackson",
@@ -117,12 +119,31 @@
     },
     {
      "choice": "Susan Collins",
-     "pct": 47.0
+     "pct": 49.0
     }
    ],
-   "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
+   "url": "https://www.foxnews.com/politics/fox-news-poll-nail-biter-maine-senate-race"
   },
   "polls": [
+   {
+    "pollster": "Beacon Research/Shaw & Co. Research",
+    "end_date": "2026-10-20",
+    "margin": 0.0,
+    "n": 1514,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.foxnews.com/politics/fox-news-poll-nail-biter-maine-senate-race",
+    "answers": [
+     {
+      "choice": "Troy Jackson",
+      "pct": 49.0
+     },
+     {
+      "choice": "Susan Collins",
+      "pct": 49.0
+     }
+    ]
+   },
    {
     "pollster": "InsiderAdvantage",
     "end_date": "2026-10-14",
@@ -331,33 +352,29 @@
       "pct": 44.0
      }
     ]
-   },
-   {
-    "pollster": "Beacon Research/Shaw & Co. Research",
-    "end_date": "2026-08-10",
-    "margin": -2.0,
-    "n": 1000,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://www.foxnews.com/politics/fox-news-poll-new-matchup-same-result-maine-senate-race-stays-locked",
-    "answers": [
-     {
-      "choice": "Troy Jackson",
-      "pct": 48.0
-     },
-     {
-      "choice": "Susan Collins",
-      "pct": 46.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 16,
+ "raw_poll_count": 17,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-22",
+   "date": "2026-10-24",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "WGME",
+   "lean": "unrated",
+   "title": "FOX News poll: Maine Senate race is a toss-up",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM3ZhMkppZUsyVXpYZGdhdVNuOWdlazNLdU5aX2tOR1FaUGhqbEszLV9qNUhlNVhYck81cmlsMUl3OW5CcEJnTzNjeHJJdHd0RHlqcWZrNnNhVWQtR0ZNYlluRHY2UEV6aERMLWV0TlJ6ZGRSNXYzMzRFYXZvNFhGbFZYUllEdVBCMmZ5NUhoMDgxU3NZQ0dLeFIwSGJQTXRZLUVISnpjbTNuSTRZTzRqT1RwVk95WlJhZlRKbGtYZUU5bklBRUE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-23",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
@@ -365,10 +382,39 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "What Dueling Visits by Ocasio-Cortez and Manchin Say About Maine’s Senate Race",
-   "url": "https://www.nytimes.com/2026/10/22/us/politics/maine-aoc-jackson-collins-manchin-senate.html",
-   "summary": "Senator Susan Collins, a Republican in a tight race, is keying her closing pitch to the middle, while her progressive challenger, Troy Jackson, is seeking to excite the left.",
+   "title": "Ahead of Tight Race, Trump Swaps Tariffs on Some Canadian Goods",
+   "url": "https://www.nytimes.com/2026/10/23/business/trump-susan-collins-canada-tariffs.html",
+   "summary": "The move was announced by Senator Susan Collins, a Maine Republican who faces a tough re-election fight amid rising prices.",
    "relevant": true
+  },
+  {
+   "date": "2026-10-23",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "The U.S. is expected to remove 50% tariffs on some Canadian products in a bid to help Maine Sen. Susan Collins and other Republicans in the upcoming midterm elections",
+   "url": "https://www.wsj.com/politics/policy/trump-expected-to-remove-some-tariffs-on-canada-in-bid-to-help-susan-collins-6a89ed1d?mod=rss_socialpoliticsfeed",
+   "summary": "The move, which could come as soon as Friday, would remove tariffs on some agricultural and forestry goods but could raise levies on other products.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-23",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "newscentermaine.com",
+   "lean": "unrated",
+   "title": "Troy Jackson and Susan Collins both vote early in Maine U.S. Senate race",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNVHZPNlJfMG10azQ3cGhrVHBsNGw3R3hDOEV5NGY0TVlsY1EzS3A1Q1hiSmRPaTFLSVNPUUYtV2hEMDJiWU9taTFVTnowMVotZmxjc0xZUWpKZmZzRERsR3hOQldvZDZSZktMaFRhMzJjX3BNN0diLW9oSmhRYzZjWkdwcmNFX2IwSVBaUVFXdTlZdEhSUmNibl9BRjJJVTlRX2JTRnFwYjd4bmxSUkI2UTdLY2NndVdFQTBfR0JHZ253UUp3Z25OV3U2VEkzRjV2bUEySmRJV0RMbzhuZ1dSTDk0LVAzN09KNFJOTERkLU1qYlJvYU16QlR5RV9vQ0dtRFlyUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-22",
@@ -401,16 +447,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-22",
+   "date": "2026-10-21",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "CNBC",
+   "source": "LiveNOW from FOX",
    "lean": "unrated",
-   "title": "Trump’s tariffs loom over Maine Senate race between Collins and Jackson",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zQy1vM2xpZlhpcVU1ZmtRNEhhTGtNZENvSTk3WDdxWWxOYjN6UVJuVlhvTl9faDAxZGR4cEZ1cThZOVJBd1JKVEIydllROEU4MXhFWG02R0RlSXlqaWZmNXhMU3FWLWFWQjFHQy1MOTY1anBBRXpyV0RNVTfSAYIBQVVfeXFMTzFyOW45TzR6WU44QjhRN3VORHpNWElzazRkUHQ0NXJwVXZ3d2VoMUpET0RxSjR1LThUU3hrN2NMcS1EOXhfN3FjU0VvNWYxVmp2V3BvRzdlakQxUzh0dllzdjJKR29ZWXZaQzNBbGM2QVI1TWRLa1YwSHZac25KMFB6QQ?oc=5",
+   "title": "2026 Midterms: Maine Senate race",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11bWJabTdzWjNWWWNzWjFuVmlES0VGNWhITzZyd01Id1RSbUZBOGVwc0hHRG0xSlRYYnhrMF9uTG1lVU51SXZCWUFiTGdhQ2NCajh3eC1QS2dHMUpnR0I0cnRQWlRHVGw5NDNIdXQzdWvSAXZBVV95cUxOSVJ3bE1FbTd3blFmOUkwRVBUd2YtOWc3YjU3Ui1zcFZNSFJpSGtHR3U2UFdWcVkzN3VPS2FoZG1vLTFVUUV4MlF5UnUyZ1g2RkpZeWdpblYxUnBMUVc4MnRKTjQ0SFRDTFpobGpLY1RMUWxlSDNR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -482,6 +528,11 @@
    "date": "2026-10-23",
    "c": 0,
    "p": -2.6
+  },
+  {
+   "date": "2026-10-24",
+   "c": 0,
+   "p": -2.2
   }
  ]
 }

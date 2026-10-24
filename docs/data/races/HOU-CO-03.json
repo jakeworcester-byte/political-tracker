@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -82,13 +82,81 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Dwayne Romero"
+  ],
+  "R": [
+   "Jeff Hurd"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": -1.0,
+  "average_label": "D+1.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "DCCC Targeting and Analytics Department",
+   "sponsors": [],
+   "partisan": "DEM",
+   "start_date": "2026-10-20",
+   "end_date": "2026-10-21",
+   "sample_size": 402,
+   "population": "lv",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
+   "answers": [
+    {
+     "choice": "Jeff Hurd",
+     "pct": 46.0
+    },
+    {
+     "choice": "Dwayne Romero",
+     "pct": 47.0
+    }
+   ],
+   "url": "https://www.cpr.org/2026/10/23/could-democrats-make-gains-3rd-congressional-district/"
+  },
+  "polls": [
+   {
+    "pollster": "DCCC Targeting and Analytics Department",
+    "end_date": "2026-10-21",
+    "margin": -1.0,
+    "n": 402,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://www.cpr.org/2026/10/23/could-democrats-make-gains-3rd-congressional-district/",
+    "answers": [
+     {
+      "choice": "Jeff Hurd",
+      "pct": 46.0
+     },
+     {
+      "choice": "Dwayne Romero",
+      "pct": 47.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-23",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "Pueblo Chieftain",
+   "lean": "unrated",
+   "title": "Jeff Hurd, CO-3 incumbent, talks affordability, energy, health care",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdkhSWmxFMUZJdVU2SUlycDZMOFg5Y3pLMmEwclBGb0diNkdEVkhOWlhpaUdhWGNIMW13MWNtNkM5dFY4YnJZN3VhUXJIZDc1akk2VUdyR3FqZXVsLUwzMW1QcHFTcmdBWk5zSXZWNGcwVENwVXJXVlczQ1FYSFY0LWFNWVFMc0owRGRlVFNKU0FNYlBodUlpdlU3Y3VsZk1sQ2FfM2dLWXFZOG1Uek9vYk1pWXBJdXpTb1dNcXBIcjUyVjNJLUtfcThFYnZvcUllaldCU3R4ZFJ3eE9TNHQzWVBHRmxOY0VFQm05Y3lBOHhQcWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-03",
  "history": [
   {
@@ -155,6 +223,11 @@
    "date": "2026-10-23",
    "c": 2,
    "p": null
+  },
+  {
+   "date": "2026-10-24",
+   "c": 2,
+   "p": -1.0
   }
  ]
 }

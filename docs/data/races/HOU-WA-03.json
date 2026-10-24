@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -163,16 +163,31 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "race": "HOU-WA-03",
    "races": [
     "HOU-WA-03"
    ],
    "type": "reporting",
-   "source": "FOX 13 Seattle",
+   "source": "KATU",
    "lean": "unrated",
-   "title": "Mike Johnson rallies in Chehalis as Washington's 3rd Congressional District race heats up",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MaWJVUUJENlFWbFV0bXlzd2lpWG9mUHQ3LWZfMnpUN2xDZlRrcnJiZ09GdFNzSE16SHJUdER1Z3RFSi0wbHIxZndqQk85STBjWGdfZWVnNjFWOWxPRmo0SXFJeTBoTE5mbVBJ0gFrQVVfeXFMTUxpYlVRQkQ2UVZsVXRteXN3aWlYb2ZQdDctZl8yelQ3bENmVGtycmJnT0Z0U3NITXpIclR0RHVndEVKLTBscjFmd2pCTzlJMGNYZ19lZWc2MVY5bE9GajRJcUl5MGhMTmZtUEk?oc=5",
+   "title": "Know Your Candidates 2026: John Braun, Washington U.S. House, District 3",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSm1UcGRyMjhWUXNHZWVRbE5LMG1NLVhXRlBobTdaVU5WUk9CcXBiZ0hRQjVsS0RjT3VZTmozenFDYUV6MU1jRFFRaGoxclFaOHRoTmhvN2ZEV1BLV3dlWVhFTTlscWt5eVRnVExtTmMwclptWlNKM1FsQUk2eWhuaE45VmpCRmN0VDdpVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-24",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "KATU",
+   "lean": "unrated",
+   "title": "Know Your Candidates 2026: Marie Gluesenkamp Perez, Washington U.S. House, District 3",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQmFGZzlKVDdoMEtzdnJLN1dfeFlXWnNJQkFoR3ZTanJuUk8xYUlVcTRHOE5KRm5KXzk1OW11SnlkN3ItX2lMdHZiUFZ4WWdtS2wtNnlGYnVPeEo5RFE1N0VPdk13OGVES2pkZW9nRHJCOFktZE9YdlcxZ3ZqOHV3U1diTXk0WDhwaW0zdUNqbnEtNDhUSmFGQkFiR1FFUQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -188,21 +203,6 @@
    "lean": "unrated",
    "title": "New poll suggests 'statistical tie' in Washington's 3rd Congressional District",
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdXlnTjBCbDFGV1NGaFBjdm84VVV3UEo3U1o5S01XMTJlNlRlZXd2eGVhY1ZNcVN2WjJTWDQzakhlVjVNWDJiTnVWRGdfdnJJampyMkpCdUprRUFqY0RWYlBFTFUwdTdfSDdZdmhpa2pvZzhOc3NDNDFYb1FOT0g3a19TcDhhVmtDMjNhbmJOLW56Yko0aWM3R3VEYjkxQTBYNXJwazJ0Ulk0cEdWN3R6T01DM1p3NndiS2ZhblVDdjA0aXYtcTNTREJ2dmhKME1uN3RGcWZyc2k4dHZQLThpU1ZxOEVZSktr?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "HOU-WA-03",
-   "races": [
-    "HOU-WA-03"
-   ],
-   "type": "reporting",
-   "source": "Northwest Progressive Institute",
-   "lean": "unrated",
-   "title": "They’re tied again in WA-03: NPI’s autumn Civic Heartbeat polling finds Marie Gluesenkamp Perez at 45%, John Braun at 44%",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbzBlcmVjbHZHb2VFRG9pWjNVRVdsclozRVhpdzZkZGh3SF83Uk9KOTNuSzgtd0lwVGtFNEp3cTc4ZExtZHVMVGQxaWFFVE1SZE02U3gxUXBjeGlueW1sYnhjOXRGcXkwS25pMVlSMkRZaHZKOHNxa1BVRVpBa3lvcmlhbVBfd21zMzlidzdkN010V0pRT0xyR2xmbFFqcXpiMUhjNGpycklUc1BxOWJNWlFsaEN1UTF3d0pMUXNrTWxYRmdTOERIWDRteXVvdTI0WlMyNTZrdUFBV2Jnb2JkTDlpQzdKVWlubzNLOHBKQlpwV2FrdDRkVA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -272,6 +272,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": -2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-24",
    "c": -2,
    "p": -1.0
   }

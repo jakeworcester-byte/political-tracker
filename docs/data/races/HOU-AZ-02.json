@@ -3,9 +3,9 @@
  "label": "Arizona 2",
  "ratings": {
   "cook": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -144,7 +144,7 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "race": "HOU-AZ-02",
    "races": [
     "HOU-AZ-02"
@@ -223,6 +223,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-24",
    "c": 2,
    "p": -2.0
   }

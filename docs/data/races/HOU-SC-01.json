@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -86,9 +86,25 @@
   "R": []
  },
  "poll": null,
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-23",
+   "race": "HOU-SC-01",
+   "races": [
+    "HOU-SC-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "South Carolina 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWHRXVExmWEIwZDZETVozQ2dhTUVwQU9hVTZ5aEtZQU5uX1g3Mm5vSEpDd1UxaEs2OUM4N3V5Mm1zSEVnaGEtdWIzeGVLYnYwOGg2c2lZTzN4R1lYRVpCWGozbC03RDdJcXN2SFNPNVVpMmxqM18tZVZYM0dvenZObnRia0Y3cjQ4dGtB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-SC-01",
  "history": [
   {
@@ -153,6 +169,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-24",
    "c": 2,
    "p": null
   }

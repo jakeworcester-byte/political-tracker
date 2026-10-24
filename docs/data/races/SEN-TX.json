@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-23",
    "name": "The Economist"
   },
   "fpo": {
@@ -96,9 +96,9 @@
   ]
  },
  "poll": {
-  "average_margin": -2.3,
-  "average_label": "D+2.3",
-  "n_polls": 9,
+  "average_margin": -2.4,
+  "average_label": "D+2.4",
+  "n_polls": 11,
   "window_days": 21,
   "latest": {
    "pollster": "ActiVote",
@@ -139,6 +139,29 @@
      {
       "choice": "Ken Paxton",
       "pct": 49.0
+     }
+    ]
+   },
+   {
+    "pollster": "VoteHub/Verasight",
+    "end_date": "2026-10-20",
+    "margin": -2.4,
+    "n": 601,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://votehub.com/2026/10/23/votehub-verasight-poll-surveys-texass-u-s-senate-and-gubernatorial-races/",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 47.6
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 45.2
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 1.4
      }
     ]
    },
@@ -200,6 +223,29 @@
      {
       "choice": "Ken Paxton",
       "pct": 43.0
+     },
+     {
+      "choice": "Ted Brown",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "Slingshot Strategies",
+    "end_date": "2026-10-18",
+    "margin": -4.0,
+    "n": 969,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 51.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 47.0
      },
      {
       "choice": "Ted Brown",
@@ -324,58 +370,28 @@
       "pct": 49.0
      }
     ]
-   },
-   {
-    "pollster": "Guidant Polling and Strategy",
-    "end_date": "2026-09-28",
-    "margin": -2.4,
-    "n": 800,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://x.com/burgessev/status/2107923538392776875?s=20",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 46.6
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 44.2
-     },
-     {
-      "choice": "Ted Brown",
-      "pct": 4.0
-     }
-    ]
-   },
-   {
-    "pollster": "University of Massachusetts Lowell Center for Public Opinion/YouGov",
-    "end_date": "2026-09-28",
-    "margin": 0.0,
-    "n": 850,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.uml.edu/news/press-releases/2026/10092026-texas-poll.aspx",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 45.0
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 45.0
-     },
-     {
-      "choice": "Ted Brown",
-      "pct": 2.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 30,
+ "raw_poll_count": 32,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-22",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX"
+   ],
+   "type": "reporting",
+   "source": "Federal News Network",
+   "lean": "unrated",
+   "title": "Texas Senate Odds Show Talarico Lead Growing in Prediction Markets: Trade on Midterm Elections",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOHFPQlFkQi11MUd6LWJXdmRfOENoR3ZRZ2tyNkJCT0VCWmp5Yi1FcHZqSHpkR2tLdGtaMUQ1bzhNc25mTVlUOEhUZ0FkbHk1RUxKcXZNX3FmSldycXRrdEFlZFA3RzFvcTd2c0tqSTBjVGxLQXhUR043M2NqRm54T05JOGZhVjliN3lNb2xJeXB4Wk9lUzRRRTVwd3pjWHd5Qk12MkhVS01PRGMteWM4dUh5UGo4MDl6QWR6VjJoNVNFUUpPdDdKdjVwMTdRSmQyY2QxT3pyYl82NVowTTRV?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TX",
  "history": [
   {
@@ -442,6 +458,11 @@
    "date": "2026-10-23",
    "c": 0,
    "p": -2.3
+  },
+  {
+   "date": "2026-10-24",
+   "c": 0,
+   "p": -2.4
   }
  ]
 }

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -142,6 +142,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-23",
+   "race": "HOU-VA-05",
+   "races": [
+    "HOU-VA-05"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Virginia 5th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnJxRlRWaDl1NnYwOU95V3VsX1Z1UllDZmFFOVkxNXZPWWRKeVNXYkxFT1RrTHIyQnJkQlhCMTdjRmhGMzdhaVltNmpUenAxM3NVNGFrMTRqODV6ektySVROcHBHUlBKMWR5R3RwTXF4OHRZdlRVS083dmpOMTBNblBwVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-22",
    "race": "HOU-VA-05",
    "races": [
@@ -152,21 +167,6 @@
    "lean": "unrated",
    "title": "Fact checking political ads: Virginia’s 5th Congressional District",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZkFyaFp6aEtjWG55emVOc2k4Mk1TbUFzNjdfLVlCMFZqTFEtWEpjOVFCZF93S2tXOVlobVVsUzlPSlQyWUtkQWpPNVI5ZWMzS0VoTzZyR0I2bEFBbVJ0bm5mWUZCeEwtWXJXWG9KTGZBcktjR3NMWnUxbl82MHFQdTJBbjB5UEt6am1WLV9RVGg1NUl2Uk8yWFZVdy1nS1FtTElEVVF1eVXSAbwBQVVfeXFMTTNBelBQaVc2R1o3YmxGeC1vNTJKUEl5aEZNMWV1UVBFYkZyNUloTnhCTlhXV3NBaU8zWXdSRUJpTWdLdlhGbU80c2FYbXNHMkhFakZPZnJRTWw5eVRBRDdvODR5UGt1VFVkcjRZWEVDdFZ0RWJ3V3NIMU9sV1l1eDhTdV9MRnJmVjlGMVBDZHlmOFl1QlRjRFJPSXEtWkdodVUzNTdXYVpwd2VXcWZXZmFBbGtWd1dsZk9Ca1g?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-VA-05",
-   "races": [
-    "HOU-VA-05"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Virginia 5th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnJxRlRWaDl1NnYwOU95V3VsX1Z1UllDZmFFOVkxNXZPWWRKeVNXYkxFT1RrTHIyQnJkQlhCMTdjRmhGMzdhaVltNmpUenAxM3NVNGFrMTRqODV6ektySVROcHBHUlBKMWR5R3RwTXF4OHRZdlRVS083dmpOMTBNblBwVQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -236,6 +236,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 2,
+   "p": 5.0
+  },
+  {
+   "date": "2026-10-24",
    "c": 2,
    "p": 5.0
   }

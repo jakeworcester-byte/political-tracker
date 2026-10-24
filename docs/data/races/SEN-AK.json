@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-23",
    "name": "The Economist"
   },
   "fpo": {
@@ -281,7 +281,50 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-22",
+   "date": "2026-10-24",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Trump Officials Seek Block on Alaska Senate Race Results if the Republican Dan Sullivan Loses",
+   "url": "https://www.nytimes.com/2026/10/23/us/politics/justice-dept-alaska-senate-race-sullivan.html",
+   "summary": "The department, in a highly unusual lawsuit, argued that confusion over candidates with similar names could taint the election result.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-24",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "The Trump administration has asked a federal court in Alaska to prevent the certification of the state’s Senate results if the Republican candidate there loses",
+   "url": "https://www.wsj.com/politics/elections/justice-department-sues-to-block-alaska-senate-results-if-gop-candidate-loses-c2597f6c?mod=rss_socialpoliticsfeed",
+   "summary": "The lawsuit asks to delay finalization of the vote if the tossup election could have been swung by having two candidates named Dan Sullivan.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-24",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Trump Officials Seek Block on Alaska Senate Race Results if the Republican Dan Sullivan Loses",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZDl5Z3RHSk9rWjFzYUZTei1SdmpSYllQaWg2WVBDbHFvVks4S05ZZHdoRWxvUFFEZEx2WTFQRWxuYWpOYjhROUhpaTZXbm44T0tTbkRkZjlJQVgtdVYxR0wzVXpfSnlLSEdLSjNtcG1jdER6LUlkYjRRR01raFBMdkhPMWpNajVCR2pnSXY0aVkyZ19fek1v?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-23",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
@@ -289,23 +332,8 @@
    "type": "reporting",
    "source": "The Guardian",
    "lean": "unrated",
-   "title": "How Democrat Mary Peltola is on the verge of flipping right-leaning Alaska",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZnE3T1RxYmlrS29NaFlycWRsNE1XdUVUNlJ0TTlrNHEwZGhFWXBfZkJyc2tqal9RTWtzZXFvVy1UM3pvTjdoRmRYM0x2RVk4V2xPVUJKOE5DdVJiakZrQkdkbW9ab3ZCN3hFNHN3ZzREWW90ZFp1MzFpcnFvZjFTb0ZPVDdERTFhYzd3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Newsweek",
-   "lean": "unrated",
-   "title": "Trump Threatens Legal Action To Remove Second Dan Sullivan From Alaska Race",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb1luS1h2QmhtVkxZc3Q4U2tWMS1xN0xSWHhZREU2Y3pSWlVtVWZtaWN0TnU2Ym02cWk3SDFkcEVrR2s4QTNzOFY2V3h1TE90QURHdC03YmpSS3gwQnlJVk1qaUNnRHRJLXNTTDdncVZKOUQxV2w2aE1zUEVITjgzR3ZFbUFEdnB4VnFaQ1Q5NldfZ2Q2X054a3RxbHRrb0hnWTRmaWpYWVVBeGlCUHE1VVlFVmdLYWFS?oc=5",
+   "title": "Trump says he ordered DoJ to file lawsuit to block Alaska Senate results certification",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdmFWVGdIS19YcFBZczhtNHZ1V1g1MUR4VEQwV0ZheEZXbk40ZEpwdlZRNkM3S2hqaGtuSnlFSkJRODcwQ0FQcG5jTmUtdmNmVkdTVVJNOUtzODRkczg1c2ctUVVBdS1HUUJvaG9fQWY1Y3F5dXRWUzg5YTl3UEZkWkRFSFpIVXBhaW5TMXFOd19YVUtQcWpN?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -375,6 +403,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-24",
    "c": 0,
    "p": -0.8
   }

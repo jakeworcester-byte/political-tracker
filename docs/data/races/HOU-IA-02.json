@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -161,7 +161,38 @@
  },
  "raw_poll_count": 2,
  "trend": "Toward D",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-24",
+   "race": "HOU-IA-02",
+   "races": [
+    "HOU-IA-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Iowa 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ndHZpd2VNNk9jMlBVU3VZMWJtZ2c5QmVJYlNYenV2TzlidUx5WFlEbDlTMGFMRGdhaDNVNGY1OFlYSmNvR2VVeXdDREJnaVF5cGUxeEtNNEFBYTZxY0piM3BXUTN2enFfYUdjSDFQQ19pdmczcnZVWWloRmFBdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-23",
+   "race": "HOU-IA-02",
+   "races": [
+    "HOU-IA-02"
+   ],
+   "type": "reporting",
+   "source": "The Des Moines Register",
+   "lean": "unrated",
+   "title": "'We don't ride bicycles in Iowa,' Joe Mitchell claims at Trump rally",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOM0lGZkQ1NkpOYm1hSWpuUnFNbkYxcWtrV3FnWjRoXy1BdndzS3RVWXJFN2FRX2pNZU1feUNORllfNTgxeF9ZTWFfMEkzbGNkcnU5S21XdzNKNW1vSjR6b2ptbWVQYzNYbmc0ZzlXNnI5SGNHN1M0N2lNN2RwVU4xSzFhNU5IVzN3clhZdXZlb01lbklycmtXa3N1ZDk2U1RYOXUtOG1oenllRkFWLXRydkhwSjRUbTcwakxHY05ZcVhmUTNUM09uV0g5ZHM2X2dYTEwwd0pB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-02",
  "history": [
   {
@@ -226,6 +257,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-24",
    "c": 0,
    "p": -3.0
   }

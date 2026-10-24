@@ -3,9 +3,9 @@
  "label": "Alabama 2",
  "ratings": {
   "cook": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,7 +90,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-24",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
@@ -100,6 +100,21 @@
    "lean": "unrated",
    "title": "Alabama 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM3hvQlU3aXliaTVBUzJZTkk0SWl2dWZqYVZRM0xWMG1SN284TGZFYXh4b25SU214cEVBMFVaSlBNWXM3ZElmcTU5eElGTi1CQnBfeG1zQkdRejZ2SWhFWlAxbHVuR3c5dk55Y0lGa0Y5Q1hTSDBGUlRiMTBBREU2Vmpn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-23",
+   "race": "HOU-AL-02",
+   "races": [
+    "HOU-AL-02"
+   ],
+   "type": "reporting",
+   "source": "wvtm",
+   "lean": "unrated",
+   "title": "Alabama's 2nd Congressional District tightens as Shomari Figures, Rhett Marques face late sprint",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNmxScEFwV1hQVElUNEg3d2Rmc3ZPT2ltVTJmbFFUN2xJMlVaNVZ2cjFEbGF5R2JPakxfa216MjRxWUhBXzZGZlUtWmY2TnRQMWxzMVJhaTR3MnY0VDFBTjdSN0VkVERjaUpsMlpRUWpIUTZrcW5xZ3RSRlEtNVpqNXZDeXZIVmhPRXJoR3U5LUNKUQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -184,6 +199,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-24",
    "c": 2,
    "p": null
   }

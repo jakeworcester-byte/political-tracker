@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "HOU-PA-01",
+   "races": [
+    "HOU-PA-01"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "In Pennsylvania's 1st District, incumbent Brian Fitzpatrick faces tough reelection fight: \"All hands on deck\"",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLThycm5QcDF3WG94NDF6dkcyUFpXb2lIU0pnUGxCT1RseVl3c0ZYZ1ZURmR5dVNRVS11THBScEtaQkI4X18xMHNfLURxR2hLd1E0RkRJbDhWYnUzQUMwanZQREpvQk5Kd0dtT3JFUUpQVG1mWmZQODVtVkdaWjdHU2h2WGNaQVZfdWt6dXhycVRQY2toNHEzUg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-01",
  "history": [
   {
@@ -207,6 +223,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 0,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-24",
    "c": 0,
    "p": 1.0
   }

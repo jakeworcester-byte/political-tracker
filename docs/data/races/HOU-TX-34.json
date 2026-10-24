@@ -3,9 +3,9 @@
  "label": "Texas 34",
  "ratings": {
   "cook": {
-   "rating": "Tossup",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,41 +90,68 @@
   ]
  },
  "poll": {
-  "average_margin": -3.0,
-  "average_label": "D+3.0",
+  "average_margin": -7.0,
+  "average_label": "D+7.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
+   "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-07-27",
-   "end_date": "2026-07-30",
-   "sample_size": 700,
+   "start_date": "2026-10-14",
+   "end_date": "2026-10-19",
+   "sample_size": 626,
    "population": "lv",
-   "margin": -3.0,
-   "margin_label": "D+3.0",
+   "margin": -7.0,
+   "margin_label": "D+7.0",
    "answers": [
     {
      "choice": "Vicente Gonzalez",
-     "pct": 45.0
+     "pct": 50.0
     },
     {
      "choice": "Eric Flores",
-     "pct": 42.0
+     "pct": 43.0
     },
     {
      "choice": "Eddie Espinoza",
-     "pct": 3.0
+     "pct": 2.0
     },
     {
      "choice": "Chris Royal",
-     "pct": 2.0
+     "pct": 1.0
     }
    ],
-   "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf"
+   "url": "https://www.washingtonpost.com/politics/2026/10/23/two-texas-districts-gop-had-counted-now-feature-tight-house-races/"
   },
   "polls": [
+   {
+    "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
+    "end_date": "2026-10-19",
+    "margin": -7.0,
+    "n": 626,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.washingtonpost.com/politics/2026/10/23/two-texas-districts-gop-had-counted-now-feature-tight-house-races/",
+    "answers": [
+     {
+      "choice": "Vicente Gonzalez",
+      "pct": 50.0
+     },
+     {
+      "choice": "Eric Flores",
+      "pct": 43.0
+     },
+     {
+      "choice": "Eddie Espinoza",
+      "pct": 2.0
+     },
+     {
+      "choice": "Chris Royal",
+      "pct": 1.0
+     }
+    ]
+   },
    {
     "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
     "end_date": "2026-07-30",
@@ -154,8 +181,8 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
+ "raw_poll_count": 2,
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-34",
  "history": [
@@ -223,6 +250,11 @@
    "date": "2026-10-23",
    "c": -2,
    "p": -3.0
+  },
+  {
+   "date": "2026-10-24",
+   "c": -2,
+   "p": -7.0
   }
  ]
 }

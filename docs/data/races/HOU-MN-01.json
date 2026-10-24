@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -182,6 +182,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-24",
+   "race": "HOU-MN-01",
+   "races": [
+    "HOU-MN-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Minnesota 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-22",
    "race": "HOU-MN-01",
    "races": [
@@ -192,21 +207,6 @@
    "lean": "unrated",
    "title": "Southern Minnesota affordability, farm pressures tighten 1st District race - FOX 9 Minneapolis-St. Paul",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeDg5T2RmQmdIMEFVWlNyMEVzN1otNDRvWDVndzhnaDFmbDkzd1pEamtkR0lqdV9udmVBRTZQb0dyckZyUm53X0JhYTdBRFM3clFmamxUcTV0SXo5cVBmOGNwQTdjd2JBN0ZqYkZ2cURrMVpVckZrRkhvTmNCdDdLVTBWM2UzUjZ4cGVTaVlON1h5dEREbEVuZWF3UXJxUG9w0gGmAUFVX3lxTE1ub1YzNVhKRzhiYm8yMVQ0cHNKTVE1M2hmbHh0S1JSREV4eUlBSUtzdDl1dVpRY3lHYVRBSUJXNnREN1pCcXFwRUlnUGppX2ozSWduLXJfSkFEUjJmb1RPbENlUTNCQVg3SVpfRUxSVmRBZU5xNHBqOU9mandyTGFiWDhwc3l0VWRPUUx1NDB0UW1peXZXVGNTMURUQ0ROMm1nQ3dDN3c?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-MN-01",
-   "races": [
-    "HOU-MN-01"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Minnesota 1st Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -291,6 +291,11 @@
   },
   {
    "date": "2026-10-23",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-24",
    "c": 2,
    "p": -1.0
   }

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,20 +90,22 @@
   ]
  },
  "poll": {
-  "average_margin": -4.0,
-  "average_label": "D+4.0",
-  "n_polls": 1,
+  "average_margin": -2.5,
+  "average_label": "D+2.5",
+  "n_polls": 2,
   "window_days": 45,
   "latest": {
-   "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
-   "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-09-23",
-   "end_date": "2026-09-28",
-   "sample_size": 609,
+   "pollster": "Public Policy Polling",
+   "sponsors": [
+    "House Majority PAC"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-10-21",
+   "end_date": "2026-10-22",
+   "sample_size": 570,
    "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
    "answers": [
     {
      "choice": "Rob Wittman",
@@ -111,12 +113,31 @@
     },
     {
      "choice": "Shannon Taylor",
-     "pct": 50.0
+     "pct": 47.0
     }
    ],
-   "url": "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/"
+   "url": "https://x.com/cjwarnke/status/2113633843999605102"
   },
   "polls": [
+   {
+    "pollster": "Public Policy Polling",
+    "end_date": "2026-10-22",
+    "margin": -1.0,
+    "n": 570,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/cjwarnke/status/2113633843999605102",
+    "answers": [
+     {
+      "choice": "Rob Wittman",
+      "pct": 46.0
+     },
+     {
+      "choice": "Shannon Taylor",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
     "end_date": "2026-09-28",
@@ -138,7 +159,7 @@
    }
   ]
  },
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-01",
@@ -207,6 +228,11 @@
    "date": "2026-10-23",
    "c": 0,
    "p": -4.0
+  },
+  {
+   "date": "2026-10-24",
+   "c": 0,
+   "p": -2.5
   }
  ]
 }

@@ -3,9 +3,9 @@
  "label": "Colorado 4",
  "ratings": {
   "cook": {
-   "rating": "Solid R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-16",
+   "as_of": "2026-10-23",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-23",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -75,10 +75,10 @@
  "key": "HOU-CO-04",
  "name": "CO-04",
  "incumbent_note": "",
- "consensus_score": 3,
- "consensus": "Likely R",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": true,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
@@ -149,8 +149,39 @@
   ]
  },
  "raw_poll_count": 1,
- "trend": "Stable",
- "signals": [],
+ "trend": "Toward D",
+ "signals": [
+  {
+   "date": "2026-10-24",
+   "race": "HOU-CO-04",
+   "races": [
+    "HOU-CO-04"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Colorado 4th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYUo4Wm1tYVR3MEh2bVZrTkNmdGRCQS1kNUl0SDdCWEFzXzAxUHJLUFVvTTZ5SmFoSTBQQXdCTlpteWl6Tnd2UjJmQjZCNzVLQkFGZFExZ1J6alM5TlZKdUV2VjN4LVA2SVRkcmhKaXZQalJTRHRaMDZ4SFZQRW1KV0hIbw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-20",
+   "race": "HOU-CO-04",
+   "races": [
+    "HOU-CO-04"
+   ],
+   "type": "reporting",
+   "source": "DU Clarion",
+   "lean": "unrated",
+   "title": "Lauren Boebert faces reelection test in Colorado’s 4th District",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNelBoWnlwcURCcjN4R1Q5Mm11TVRtd1hCcEd0dmI4cmxwU3d4RzV1MjhwdmNMOE9rVzlqRVQ3akZ4TFU5RVA1cDVQdURzaXY2ODFEanZjR2E5dW84OEprSEZHT1ZodjZZenM3bzFsdjFVWjJaQ1d1WlJ6Q04xcUlqWWRLYndjTC1qNFZBMnZkU1RObTV0YVVwdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-04",
  "history": [
   {
@@ -216,6 +247,11 @@
   {
    "date": "2026-10-23",
    "c": 3,
+   "p": 5.0
+  },
+  {
+   "date": "2026-10-24",
+   "c": 2,
    "p": 5.0
   }
  ]
