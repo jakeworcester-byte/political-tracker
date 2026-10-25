@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -182,6 +182,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-24",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "Instagram",
+   "lean": "unrated",
+   "title": "One House race. More than $40 million in ad spending. And control of Congress. New York’s 17th Congressional District is shaping up to be one of the most closely watched House races in the country. Republican incumbent Mike Lawler is fighting to hold his",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUTzFmTGk0RUk2MlVJdERsUlRyczJuZ3NkNUdXR00xWWtSaGx4QkZ3UDZZM0JWNTNNM0ZUY19VcEE0TVY4SF9VOFgtUmJ0bFJCSkE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-23",
    "race": "HOU-NY-17",
    "races": [
@@ -207,21 +222,6 @@
    "lean": "unrated",
    "title": "For New York Congressional District 17, Cait Conley vs Mike Lawler",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMWZia29EcW9NU2RFQXcwYTU0MkJ2TEVkY0xzc3NXenpJUTdUQUoxWEQyR0lGeGlKaDgwbldKMzRFaTlyTFFyNGRoQ2p0cGlFc2V2S1M4ZDdHUEVkcUI2OXF0NUxmODJESDRHZFRPOFp0cmZSYVZFY0xfakFZS1p4ZEZsZHFsQWN3OGRsMGN0SFh1aTlUMDJhSzdwRl93ZmhaeWc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-20",
-   "race": "HOU-NY-17",
-   "races": [
-    "HOU-NY-17"
-   ],
-   "type": "reporting",
-   "source": "Lohud",
-   "lean": "unrated",
-   "title": "I met Lawler and Conley. This is what's at stake for NY-17 | Richter",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS3FmSEliUVF1WDludjJNYkVwcUwxeUY2aGJLT3ZnTEFSbEdadl8tdU9PS3d1aVBkdGplcjNpMVVpSHE2T1ZvMnhkWVhpRURyNU5iZXowZEZQYnM0Sm9MaUxyRXVRbUhERDFwWEQtYlRuQnFoTUVseVpMM08ySkhRLUVLXzBZdWxiYVBpZDBHU044TnEzX0VqUlZNcnRUYmVEZ0t5NjdySWtHUUI4Z2JOaDZBLU0tZUZvWjk3UnYwOE52Wnd3ek5HTmF3?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -296,6 +296,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-25",
    "c": 0,
    "p": -2.0
   }

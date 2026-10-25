@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -89,21 +89,6 @@
  "raw_poll_count": 1,
  "trend": "Toward D",
  "signals": [
-  {
-   "date": "2026-10-24",
-   "race": "HOU-TX-23",
-   "races": [
-    "HOU-TX-23"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Texas 23rd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWnNSclFrTzgtejNIdi1NdlpBMnYxUVV4dGlCUi05cENtZzA5MWNRYVluNVRMY2doU0tpTHNFbWRfZjVHemN4Q2tJRlZ4aEY0Rkk0ekwzMW5JbGh3ZTFPRUJtdVU4RUhTcUNFa2ppV0duN3NLY3djcGdOMHV5STRqbw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
   {
    "date": "2026-10-20",
    "race": "HOU-TX-23",
@@ -189,6 +174,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-25",
    "c": 2,
    "p": null
   }

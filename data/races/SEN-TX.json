@@ -375,23 +375,7 @@
  },
  "raw_poll_count": 32,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-22",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "Federal News Network",
-   "lean": "unrated",
-   "title": "Texas Senate Odds Show Talarico Lead Growing in Prediction Markets: Trade on Midterm Elections",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOHFPQlFkQi11MUd6LWJXdmRfOENoR3ZRZ2tyNkJCT0VCWmp5Yi1FcHZqSHpkR2tLdGtaMUQ1bzhNc25mTVlUOEhUZ0FkbHk1RUxKcXZNX3FmSldycXRrdEFlZFA3RzFvcTd2c0tqSTBjVGxLQXhUR043M2NqRm54T05JOGZhVjliN3lNb2xJeXB4Wk9lUzRRRTVwd3pjWHd5Qk12MkhVS01PRGMteWM4dUh5UGo4MDl6QWR6VjJoNVNFUUpPdDdKdjVwMTdRSmQyY2QxT3pyYl82NVowTTRV?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TX",
  "history": [
   {
@@ -461,6 +445,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 0,
+   "p": -2.4
+  },
+  {
+   "date": "2026-10-25",
    "c": 0,
    "p": -2.4
   }

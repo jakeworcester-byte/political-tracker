@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -164,6 +164,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-24",
+   "race": "HOU-WI-01",
+   "races": [
+    "HOU-WI-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Wisconsin 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeURhaVlncUs4X01lb1IwTG9uQzBPTnpOYm9KWkFnZ19yU1Nua0VKQXMweUdVVkhZLWhyR2pKaVNuOTFtNlBqd1djWkxYcU9IT2twX2hERE93UFprbnc3NGpPdHNBWnM3QWRyVU04TWk2V0QxZjlKd0hPSEF1UkQ5VVYxanY?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-22",
    "race": "HOU-WI-01",
    "races": [
@@ -189,21 +204,6 @@
    "lean": "unrated",
    "title": "Steil, Berman spar on key issues ahead of Wisconsin’s 1st Congressional District election",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTnlnMDFmZDYtNk82bWEzSUR3TFdPalE5dWtHbnY1d3RxRkRIbEZuTENSdWlBaE9PTy0zQlQ3NmswYVBKT0tGMGNYcXB4WGpYT1hWbFR4aTY4Y3phekZnckZKZjNZVmgtWGJRR0FLRTF5MHhaRHJxWXozR0tHT19PQzB0R25QczF1RnNfZm1hUjBhVmo2NWpkdXB6QQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "HOU-WI-01",
-   "races": [
-    "HOU-WI-01"
-   ],
-   "type": "reporting",
-   "source": "Wisconsin Watch",
-   "lean": "unrated",
-   "title": "Wisconsin’s 1st Congressional District becomes a battleground in election",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTmFCa3hNMDB2LUpqMmVKOHdrTDBINlRYMTJnd3hXcGgwNEZFQXd0SXJxN1VXV0E4TnhNUmVlbU8yY05McmZ4ZURtb2RfRmpzYUx1ZEdGTGlfenpwdEhUdDRKMHhONm1qYXhoOXdFcjRqalhnU1hUdTNPU05TU2dBanlzUjhHNE1PSDFKb2szN3ZtdEVYRVp1cVRfVmxFTnhkMzJwWWZ2WTVqX1A4QVBSSjF1d1FqVVNRbTVKa0s3YmdTQ296T2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -278,6 +278,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 2,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-25",
    "c": 2,
    "p": -0.5
   }
