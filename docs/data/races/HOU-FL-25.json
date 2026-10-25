@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "HOU-FL-25",
+   "races": [
+    "HOU-FL-25"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "Scott Singer and Jared Moskowitz spar over attack ads at Boca Raton forum in Florida's 25th District race",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNjFnUVpGVXFJekZ5N280aXdjVEFIQ0VIcTEweGlPcTI5NXJ0QkV1enJFSmFWMWVvRWhFWllfdTNjSjlMVlRtNENZdFU3UEtFVjA2eU1jU0Z3M2NjOThhZVJrX2tFNHhYbGhzTjFqa0pvNk54Vmtwbk54a1dQdW9oaG84aXZNSUEyX2Y4UEpSLWVmaFNGdFRnd09kSGd6dGRYby1R?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-25",
  "history": [
   {
@@ -212,6 +228,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-25",
    "c": -2,
    "p": -5.0
   }

@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -148,6 +148,21 @@
     "HOU-CO-03"
    ],
    "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Colorado 3rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeTQwM1ByRWFyd1c1VTZLaExGcVJ1NXBSWFlIT0FGU0hKZ1k2RmRHWUhZRzZrRG9iMHM2V0c5dUt1YVN0VXNvQ19wTXN1bmtTQkRIa2VyaVphOF9UQzBCckhKT1lPOVd1SWFjWjd2QjNNRnJQVkpWYVJKRmdZNTJzQTh4RQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-23",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
    "source": "Pueblo Chieftain",
    "lean": "unrated",
    "title": "Jeff Hurd, CO-3 incumbent, talks affordability, energy, health care",
@@ -226,6 +241,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-25",
    "c": 2,
    "p": -1.0
   }

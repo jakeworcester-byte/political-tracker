@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-24",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "Grateful Web",
+   "lean": "unrated",
+   "title": "Grateful Web Endorses Manny Rutinel for Colorado’s 8th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaHZYVzZub1BZdHdwSTFnTGcwMlgzenRiT09VLXBZQzVZTnNiSWV5cV9jcTVSaHdvc3ZEc3hWdG5aZVljR0I0VEF5cGVkTUJqS3BCWGlfalhjZ1MwMTJ0VVRJUnktT1JVeFpwSkVTRXRiRjNuLTJvek1IaHBBdGIxZFRRNUR4N2JqaU5WaUkyU1N4RU90eVJRd0dMWkRWeDBqX2hqUC1wTi1ac0duSHQxNmt1QjE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-21",
    "race": "HOU-CO-08",
@@ -189,6 +204,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-25",
    "c": -2,
    "p": null
   }

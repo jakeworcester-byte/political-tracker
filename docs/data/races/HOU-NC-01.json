@@ -21,21 +21,21 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Tossup",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -75,8 +75,8 @@
  "key": "HOU-NC-01",
  "name": "NC-01",
  "incumbent_note": "",
- "consensus_score": 0,
- "consensus": "Tossup",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -139,7 +139,7 @@
   ]
  },
  "raw_poll_count": 1,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NC-01",
  "history": [
@@ -211,6 +211,11 @@
   {
    "date": "2026-10-24",
    "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-10-25",
+   "c": -2,
    "p": -10.0
   }
  ]

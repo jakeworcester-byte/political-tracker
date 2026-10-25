@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -157,6 +157,21 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
+  },
+  {
+   "date": "2026-10-24",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "The Virginian-Pilot",
+   "lean": "unrated",
+   "title": "Letters for Oct. 25: Former U.S. Rep Luria is no Ronald Reagan - The Virginian-Pilot",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUhLZThjbmFxUXpOV2Y3ckZYeWNOam5VbWRNMDM4cVFFMjBaUzBPZnV4UE9fME1kTGRRTWVxYmVFZER3Z0owUGdsTm5Dei1CZ3VOazM3Z2hxRXhfRC1Lcjl2RXNnMnJxWVpxSUw4eml1dU9GdzhOTy1NcmpFdURIdjdCOTVaU0lZM2paU0dXT3MxOVlrZkg3UFVGNTF6dmNO?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-02",
@@ -228,6 +243,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-10-25",
    "c": -2,
    "p": 0.0
   }

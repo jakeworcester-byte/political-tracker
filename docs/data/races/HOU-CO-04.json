@@ -21,21 +21,21 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -165,21 +165,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-20",
-   "race": "HOU-CO-04",
-   "races": [
-    "HOU-CO-04"
-   ],
-   "type": "reporting",
-   "source": "DU Clarion",
-   "lean": "unrated",
-   "title": "Lauren Boebert faces reelection test in Colorado’s 4th District",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNelBoWnlwcURCcjN4R1Q5Mm11TVRtd1hCcEd0dmI4cmxwU3d4RzV1MjhwdmNMOE9rVzlqRVQ3akZ4TFU5RVA1cDVQdURzaXY2ODFEanZjR2E5dW84OEprSEZHT1ZodjZZenM3bzFsdjFVWjJaQ1d1WlJ6Q04xcUlqWWRLYndjTC1qNFZBMnZkU1RObTV0YVVwdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-04",
@@ -251,6 +236,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 2,
+   "p": 5.0
+  },
+  {
+   "date": "2026-10-25",
    "c": 2,
    "p": 5.0
   }

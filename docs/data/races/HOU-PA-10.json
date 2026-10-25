@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-20",
-   "race": "HOU-PA-10",
-   "races": [
-    "HOU-PA-10"
-   ],
-   "type": "reporting",
-   "source": "Heartland Signal",
-   "lean": "unrated",
-   "title": "Perry vs. Stelson: What’s at stake in Pennsylvania’s 10th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM2diU0ozbkVyeUdEZzNUYmtSY2NoWXQ0VmNjUmdfc0pOb01fSTZLZW1Xa0pPdkVOM1J0ZDdBZWdxdm93SGNiNGJpTl94cFFOX3RRNG1PRV9KOUt6Y1FtZU1IbUVvNHpIV2w1SGxyRHhfZmV3YUZvdm41N0d5V29XVG95VllNYVE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-10",
  "history": [
   {
@@ -174,6 +158,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-25",
    "c": -2,
    "p": null
   }

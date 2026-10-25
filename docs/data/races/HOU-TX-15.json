@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -197,21 +197,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-TX-15",
-   "races": [
-    "HOU-TX-15"
-   ],
-   "type": "reporting",
-   "source": "KSAT",
-   "lean": "unrated",
-   "title": "Political newcomers De La Cruz and Garcia battle for redrawn Texas 35th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaUExcEt0aVRjaTcwMmN6Q28wRzhIRWRzWmI4MExEVHNBX09jQmJLd25yUW5RZmVwU0VZRmxncTdxbHdPNzJwMVA2Z1lVdmVjMFNrQVhfNkppWnlEdVRoUjlYaXJlZWJxbmtNY3QwNXNtbVp5anppX0swaFNGLUJGZW5HR1BjWThiOS0xek1UakRoYUx2RTJfajBMSHhmSm5NYi1iZ3VDUHhzMDZPdVNRbjNnNFdtalpTVThNUTkwc29kZjhUVkpvWllTZVBrcERjN0VtdA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-15",
@@ -283,6 +268,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-10-25",
    "c": 0,
    "p": -10.0
   }

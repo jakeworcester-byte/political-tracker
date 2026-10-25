@@ -21,21 +21,21 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-19",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-21",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 3,
+ "flip_votes": 5,
  "candidates": {
   "D": [
    "Brian Poindexter"
@@ -183,6 +183,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-24",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "Ashland Source",
+   "lean": "unrated",
+   "title": "Poindexter seeks to represent Ashland County in Ohio’s 7th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR2xtSGFvaFk4MUtsWEtOeDlpcFUwTzJtc1h6bmo1TlNGRm1EYTF5UU9UQkcxeGlHcEJjek9RZzM2WHBYMTNMazE3MjYzYU1oVkt0NlphT29hRmlYQk9EU3ZLYWRDMkp4aUxnQ01hTXNfclloZUduN3Fld2RtaVJRWk9LbFJNWWFweDBGcS05YnZuVmZkM3Y0ck1zYnRaaFFKcWo4NkRobm1CMlMwN0dEdC1FZmFqOFNSMWtXR29nVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-23",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "Mother Jones",
+   "lean": "unrated",
+   "title": "The “Girl Dad” Running to Oust Max Miller in Ohio’s Messiest Congressional Race",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYVdaWThoZGx3QzhiMXUwUkh4VmxPNXJxc24zVXpJMEpOd1NIcVFJbHJLT3RqTkxrWUdYNUtERGJXa2ItVjdNMmtFV3pGdzBtdmdjMGFwQmU0R2ZyazFhRDJSa0hUel9FUElLdm12cXAxR1pwSUhiSkYzYW5YMnJHZ1MtRlJLS05MVjV2ejVLbG1TanExYnQ4c2R5N2Y?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-23",
    "race": "HOU-OH-07",
    "races": [
@@ -193,66 +223,6 @@
    "lean": "unrated",
    "title": "Miller seeks reelection to Ohio’s 7th Congressional District",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaDVHX0hYYWo5bXdCS25URlRrbWdfa3BLb0czOGhqWHhqU2FxdjZfTkh1ZVV5MEtuOXBJeWkxRDU4NDQ0Tk1KY1lNVHFFaTZTQy04OWpQYUpJTjJSVUd3TnFSSGMtV0Nlb2cxejlyTUJuUjlhY29McVVNNzU4bkRXSkJiRHdnc1hCNHAyay04Y09XckNXLUtuc2NrMW1jMks3V1ZJ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "AP News",
-   "lean": "unrated",
-   "title": "Ironworker challenges Rep. Max Miller as the Ohio congressman fights to hold seat amid abuse claims",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQemNJU3ZUamZUVzVoSVBXYnhHZE42T1F5Q2F1T2M4TGc1NzZES0lMSWdCa1F0dnFwOFlERjJlUU04M3Q2SE9odGV0eVd3WDhjRXpVbDZWVmVGWjZrRTlIc2VWSzY1eHdfbnlsdUlRcHk2cnZvdEh6a0FmbUNXOXd5TTA4S0lHSGNSeENUUV96Y1dQQUhQbExqd0JkU3pkZW1QdUNEUg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "News-Press NOW",
-   "lean": "unrated",
-   "title": "Ironworker challenges Rep. Max Miller as the Ohio congressman fights to hold seat amid abuse claims - News-Press NOW",
-   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPYVpBRG1OaE1uUlpkeUVSTHZsNWFraUVJckVYZ2E1aXNhU1BaY1gyT3BSZ2ZfbFdhaGlyZkwtZElKa2J1TkNhUjBpY2Q5N0ltZ0lvRXRmaUhIUjhfemRyNC1PZ3pESlZteDdjNEptc1JCcElPRGpCR1Z2QXpxYmNzUkZxTTNBZEpOdEZ5SW9mbDBNME5zaHpaTnROaHdUZzVJQXpjQ1laRFFpNGV4R2hibFVkRHMzSzBMX1M1LWhKRkRHZVJTZGtCM0NLZDlpb1hYSElhWklWNFYtMHRtZHRxeC12RTNWZDd3c3NHQkc1UTlacUxwZGxEWmZ4RktiQzktcGZkczlhR1Fpa0FKZ0k4VjcxUTktaDZCdXR2d0JDSVJEV3BC?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "KSAT",
-   "lean": "unrated",
-   "title": "Ironworker challenges Rep. Max Miller as the Ohio congressman fights to hold seat amid abuse claims",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMzExbmhtdFpfeFdJLWNyODcyVHd0UXNNVHk5ZFB3UC0tR0tjQkZIRGNSME5UOUVQYjFnNVFlTzRFQkVBczhfY0dWTnRCZFhXMVp0dl9zT0FvR0FIdl9nWG5NM1g1RGZ1ajVKQ0VmdmMzdUJkSHlqNzVXRlp0TDZ2a01HVEk1MkZUZjVEYnQycWlVZ2Z3NklPVVBUcngxS0JMcy1meHRQUzF3NGcwbjgyNlpyWTRST3dybzR5RW9pZjRxbzBvUmRmMXhIWmRCSGdrYVlkazhib1NLV040?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-19",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "Eagle-Tribune",
-   "lean": "unrated",
-   "title": "Ironworker challenges Rep. Max Miller as the Ohio congressman fights to hold seat amid abuse claims - Eagle-Tribune",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNelVYY3A0THFTU0dGNXoyRnMtOFdYaUFld3VIUG9uWmxXelRuOVJyRFFCeDVzTmE4b3FEMDhHX2M0b1oyMDdORmxXQ0V3UHQ1RW56LV9TUUw2QlU1M25qV1FFSFk3S281NzQ5YXhzRHJOeFNXM2hJVmY0S0tfNkpTWU0xcW5XcG45NnhreDh6cjc2SmhvWlFqSFZzelpnLVJOYWEybWp3N1dRYUFyZjNUVHo1ZW9yMTJxRVF4REkyUEQ5MUQ5RG55eVNpdGNsYXRHY0d2cWJlS2pPc05CSlFnZWpIQUJ4Y00yb0hxanc5RUkxUjFieEpYUkRsTmpVa3lnbUk2S2JMamM?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -327,6 +297,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-25",
    "c": 0,
    "p": -7.0
   }

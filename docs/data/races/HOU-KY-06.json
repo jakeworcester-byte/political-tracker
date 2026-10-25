@@ -23,19 +23,19 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-19",
+   "as_of": "2026-10-24",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-24",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-24",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-24",
    "name": "RealClearPolling"
   }
  },
@@ -163,6 +163,21 @@
  "trend": "Toward D",
  "signals": [
   {
+   "date": "2026-10-25",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "LEX 18 News",
+   "lean": "unrated",
+   "title": "6th Congressional District candidates make their cases to Kentucky voters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZG1ZMWRrU1VBUGlTbjZQZTZuX0k1d2xUcTBrLWx4ak1wZGR4OURQYmU0NDNtV04tUGZKQi1CTXZNVUFOY2M2R0pZRVlmZF9VbnVUcThQb0xJajVZZUw5MGdDSUpfMXZjbWotOVlZMUF5UnNOSzkwRlJCQ1doUjZLVXFVelJGalJmQjREUDZYbVdnNjRxV3ZVQ2t6YWNBbnBPRGVScGVBN0o4LWhfbmxYMDEwUXNXUkdxSGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-24",
    "race": "HOU-KY-06",
    "races": [
@@ -203,6 +218,21 @@
    "lean": "unrated",
    "title": "Poll: Who won the Kentucky 6th Congressional District debate?",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVEdlRzhyZkt5cVRFWThmc2gyamtaV0dtbi1NRVI1QzUyRkZiRkRnRzZxUU9yOXliRUptQ1kzSTAwVk1pTkxkYnhPcTlUSXUxeFBzeTRtOWFJSVZkMkdjbXFoVEpiSnNZX2Z2ZF9oWnBsaTNwWEREamdtWWZJVUs0RWk2TXJsWkJNLXl5MzJ0ekU1NUlWZEdqOGxYQXVBQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-23",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "AOL.com",
+   "lean": "unrated",
+   "title": "Poll: Who won the Kentucky 6th Congressional District debate?",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVDI3NGwzaXg1eVdrb0t3MFh3NkQzbmZhaXlNbjdrXzBBeXJJMkpJclpfME9XZ09ic2p6aUxhRUZHMFJJVHdqTGZ0eXhjUHpLeUNWQ1ktaXY3eVZLV003bWt1U1BRWC1KV1ZHSU5UOHNxTklTSk9rTkY4YjZKOV9ydl9SZXZOdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -277,6 +307,11 @@
   },
   {
    "date": "2026-10-24",
+   "c": 0,
+   "p": -4.5
+  },
+  {
+   "date": "2026-10-25",
    "c": 0,
    "p": -4.5
   }
