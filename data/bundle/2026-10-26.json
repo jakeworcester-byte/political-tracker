@@ -1452,8 +1452,8 @@
  },
  "national": {
   "generic_ballot": {
-   "average_margin": -7.2,
-   "average_label": "D+7.2",
+   "average_margin": -8.7,
+   "average_label": "D+8.7",
    "n_polls": 4,
    "polls": [
     {
@@ -1498,7 +1498,51 @@
      "partisan": null,
      "url": "https://www.theargumentmag.com/p/the-least-popular-war-since-vietnam"
     }
-   ]
+   ],
+   "source": "aggregates",
+   "latest_poll_date": "2026-10-04",
+   "days_since_latest_poll": 22,
+   "polls_stale": true,
+   "aggregates": [
+    {
+     "aggregator": "Decision Desk HQ",
+     "updated": "2026-10-25",
+     "rep": 43.1,
+     "dem": 51.1,
+     "margin": -8.0
+    },
+    {
+     "aggregator": "FiftyPlusOne",
+     "updated": "2026-10-25",
+     "rep": 43.0,
+     "dem": 52.2,
+     "margin": -9.2
+    },
+    {
+     "aggregator": "NBC News",
+     "updated": "2026-10-25",
+     "rep": 43.0,
+     "dem": 52.0,
+     "margin": -9.0
+    },
+    {
+     "aggregator": "RealClearPolitics",
+     "updated": "2026-10-25",
+     "rep": 42.8,
+     "dem": 51.1,
+     "margin": -8.3
+    },
+    {
+     "aggregator": "Silver Bulletin",
+     "updated": "2026-10-25",
+     "rep": 41.6,
+     "dem": 50.6,
+     "margin": -9.0
+    }
+   ],
+   "aggregates_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections#Generic_congressional_ballot_aggregate_polls",
+   "n_aggregators": 5,
+   "aggregates_updated": "2026-10-25"
   },
   "approval": {
    "approve": 36.5,

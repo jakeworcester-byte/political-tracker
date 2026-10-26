@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T10:15:48.051289+00:00",
+ "generated_at": "2026-10-26T11:27:40.610052+00:00",
  "run_date": "2026-10-26",
  "season": {
   "start": "2026-09-18",
@@ -210,17 +210,17 @@
   {
    "state": "NV",
    "name": "Nevada",
-   "as_of": "2026-10-25",
-   "measure": "early ballots cast (mail 233,327, in person 154,472)",
-   "total": 387799,
+   "as_of": "2026-10-26",
+   "measure": "early ballots cast (mail 238,124, in person 157,207)",
+   "total": 395331,
    "ballots_share": {
-    "D": 39.8,
-    "R": 35.2,
+    "D": 40.1,
+    "R": 34.9,
     "Other": 25.0
    },
    "source": "UF Election Lab early vote tracker (state data: https://www.nvsos.gov/elections/election-information/vivid-project)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 37.9,
+   "share_of_2022_turnout_pct": 38.6,
    "automated": true
   },
   {
@@ -306,17 +306,17 @@
   {
    "state": "UT",
    "name": "Utah",
-   "as_of": "2026-10-24",
-   "measure": "early ballots cast (mail 191,989, in person 1,248)",
-   "total": 193237,
+   "as_of": "2026-10-26",
+   "measure": "early ballots cast (mail 193,151, in person 1,248)",
+   "total": 194399,
    "ballots_share": {
     "D": 22.2,
-    "R": 51.8,
+    "R": 51.7,
     "Other": 26.0
    },
    "source": "UF Election Lab early vote tracker (state data: Utah Lt. Governor)",
    "source_url": "https://election.lab.ufl.edu/early-vote/2026-early-voting/",
-   "share_of_2022_turnout_pct": 17.8,
+   "share_of_2022_turnout_pct": 17.9,
    "automated": true
   },
   {
@@ -2386,13 +2386,13 @@
    },
    {
     "run_date": "2026-10-26",
-    "as_of": "2026-10-25",
-    "total": 387799,
+    "as_of": "2026-10-26",
+    "total": 395331,
     "ballot_margin": null,
     "overperformance": null,
     "margin_change_vs_prior": null,
-    "share_D": 39.8,
-    "share_R": 35.2,
+    "share_D": 40.1,
+    "share_R": 34.9,
     "share_Other": 25.0
    }
   ],
@@ -3548,13 +3548,13 @@
    },
    {
     "run_date": "2026-10-26",
-    "as_of": "2026-10-24",
-    "total": 193237,
+    "as_of": "2026-10-26",
+    "total": 194399,
     "ballot_margin": null,
     "overperformance": null,
     "margin_change_vs_prior": null,
     "share_D": 22.2,
-    "share_R": 51.8,
+    "share_R": 51.7,
     "share_Other": 26.0
    }
   ],

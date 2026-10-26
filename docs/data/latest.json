@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T10:15:14.214930+00:00",
+ "generated_at": "2026-10-26T11:27:10.570975+00:00",
  "run_date": "2026-10-26",
  "site_title": "Jake's Political Tracker",
  "disclaimer": "Not a forecast. A daily synthesis of what credible forecasters, public polls, prediction markets, and reporting say about the 2026 midterms, with movement over time.",
@@ -53,8 +53,8 @@
  },
  "national": {
   "generic_ballot": {
-   "average_margin": -7.2,
-   "average_label": "D+7.2",
+   "average_margin": -8.7,
+   "average_label": "D+8.7",
    "n_polls": 4,
    "polls": [
     {
@@ -99,7 +99,51 @@
      "partisan": null,
      "url": "https://www.theargumentmag.com/p/the-least-popular-war-since-vietnam"
     }
-   ]
+   ],
+   "source": "aggregates",
+   "latest_poll_date": "2026-10-04",
+   "days_since_latest_poll": 22,
+   "polls_stale": true,
+   "aggregates": [
+    {
+     "aggregator": "Decision Desk HQ",
+     "updated": "2026-10-25",
+     "rep": 43.1,
+     "dem": 51.1,
+     "margin": -8.0
+    },
+    {
+     "aggregator": "FiftyPlusOne",
+     "updated": "2026-10-25",
+     "rep": 43.0,
+     "dem": 52.2,
+     "margin": -9.2
+    },
+    {
+     "aggregator": "NBC News",
+     "updated": "2026-10-25",
+     "rep": 43.0,
+     "dem": 52.0,
+     "margin": -9.0
+    },
+    {
+     "aggregator": "RealClearPolitics",
+     "updated": "2026-10-25",
+     "rep": 42.8,
+     "dem": 51.1,
+     "margin": -8.3
+    },
+    {
+     "aggregator": "Silver Bulletin",
+     "updated": "2026-10-25",
+     "rep": 41.6,
+     "dem": 50.6,
+     "margin": -9.0
+    }
+   ],
+   "aggregates_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections#Generic_congressional_ballot_aggregate_polls",
+   "n_aggregators": 5,
+   "aggregates_updated": "2026-10-25"
   },
   "approval": {
    "approve": 36.5,
@@ -19723,8 +19767,8 @@
  "brief": {
   "date": "2026-10-26",
   "title": "Midterm brief: Monday, October 26",
-  "markdown": "# Midterm brief: Monday, October 26\n\n## Bottom line\nForecasters rate the House as leaning Democratic; all 10 House forecasters have more seats rated for Democrats, from Inside Elections' 212 D / 205 R to 230 D at The Economist, FiftyPlusOne and Silver Bulletin ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 46 D and 44 R seats are solid or likely, with 10 competitive ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 91.5% for the House and 64.5% for the Senate, the Senate down two points ([Polymarket House](https://polymarket.com/event/which-party-will-win-the-house-in-2026), [Senate](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), as of Oct 26.\n\n## What moved\n- **Forecaster updates (Oct 25):** 36 rating changes, 19 toward Democrats and 17 toward Republicans ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). RealClearPolling made 16, 15 toward Democrats, moving MN-01, NV-02, OH-15, SC-01 and PA-10 to Tossup. FiftyPlusOne made 8, 7 toward Republicans.\n- **Split Ticket reversal:** Split Ticket's seven House changes listed yesterday (CA-22, FL-07, FL-11, FL-22, NJ-07, NC-07, NC-13) all reverted to their prior ratings, so treat that pair of moves as noise. FL-11's consensus returned to Solid R.\n- **Senate ratings:** RealClearPolling moved Nebraska and South Carolina from Lean R to Tossup; Silver Bulletin moved Iowa from Lean D to Tossup ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). No Senate consensus changed, and no poll average crossed a threshold.\n\n## Races to watch today\n- **Michigan Senate (Lean D):** NPR reports Trump escalated anti-Muslim attacks on El-Sayed ([NPR](https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks)). Average: D+2.6.\n- **Alaska Senate (Tossup):** Attorney General Blanche defended the lawsuit to block certification if the Republican loses ([NPR](https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses)), and Peltola postponed events after minor injuries in a car collision ([NYT](https://www.nytimes.com/2026/10/25/us/politics/peltola-automobile-collision-campaign-events-postponed.html)). Average: D+0.8.\n- **South Carolina Senate (Lean R):** The data center industry is helping Graham ([NYT](https://www.nytimes.com/2026/10/26/us/politics/darline-graham-data-centers-south-carolina.html)). Average: R+1.4.\n\n## Early vote\nThese are ballots by party registration, not votes, and mail ballots have leaned Democratic since 2020.\n- **North Carolina:** Through Oct 24, 1,544,673 ballots were cast, 137% of the 2022 total at the same point (1,130,865) ([NCSBE](https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-25%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf)). By Oct 25 the total reached 1,583,182 at D 41.6% / R 23.6% / other 34.8% ([NCSBE data file](https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/)).\n- **Florida (Oct 25):** 2,783,995 ballots, now about half in person, at D 39.8% / R 39.5%, against registration of D 30.1% / R 41.5% ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/), from Florida Division of Elections data).\n- **Senate battlegrounds:** Arizona 884,474 at D 38.7% / R 38.4% (Oct 25, via a private compiler); Kansas 154,074 at D 47.7% / R 39.1% and Nebraska 136,433 at D 41.4% / R 42.0% (Oct 23, from the secretaries of state) ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/)).\n\n## What the spectrum is saying\n- **Left:** No new left-leaning episode today; Pod Save America's latest features Eric Holder ([Pod Save America](https://audioboom.com/posts/8968588)).\n- **Center:** Silver Bulletin walks through every Senate race ([Silver Bulletin](https://www.natesilver.net/p/lets-talk-shop-about-every-senate)).\n- **Center-right:** The WSJ reports Trump has returned to the rally stage in force to energize supporters ([WSJ](https://www.wsj.com/politics/elections/eleven-hours-of-trump-what-we-saw-on-the-ground-at-seven-rallies-in-seven-days-5f871621?mod=rss_socialpoliticsfeed)).\n- **Right:** National Review argues the media gives El-Sayed a pass ([National Review](https://www.nationalreview.com/2026/10/abdul-el-sayeds-media-hall-pass/)). This is opinion, not reporting.\n\n## Talking points\n- The generic ballot averages D+7.2 across 4 polls, unchanged; Pew has D+8, ending Oct 4 ([Pew](https://www.pewresearch.org/politics/2026/10/08/with-americans-in-a-sour-mood-democratic-voters-are-more-engaged-in-midterms)).\n- NPR reports Republicans are spending millions and still may not win districts drawn to favor them ([NPR](https://www.npr.org/2026/10/26/nx-s1-6008167/republican-redistricting-midterms-competitive-map)).\n\n## Coverage note\nAll 24 sources reported, and early vote covered 27 states; Pennsylvania, Iowa, Kansas, Maine and Nebraska are from Oct 23. California's party shares now sum to about 90% of ballots, so they are left out. FL-17 dropped out of the House ratings table (not a tracked race). Kalshi had no priced markets. Candidate parties remain unresolved for seven House races (FL-22, NV-02, NY-21, NC-11, SC-01, TX-23, TX-35).\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
-  "published_at": "2026-10-26T10:17:05.741880+00:00",
+  "markdown": "# Midterm brief: Monday, October 26\n\n## Bottom line\nForecasters rate the House as leaning Democratic; all 10 House forecasters have more seats rated for Democrats, from Inside Elections' 212 D / 205 R to 230 D at The Economist, FiftyPlusOne and Silver Bulletin ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). The Senate is closer: 46 D and 44 R seats are solid or likely, with 10 competitive ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Markets price Democratic control at 91.5% for the House and 64.5% for the Senate, the Senate down two points ([Polymarket House](https://polymarket.com/event/which-party-will-win-the-house-in-2026), [Senate](https://polymarket.com/event/which-party-will-win-the-senate-in-2026)), as of Oct 26.\n\n## What moved\n- **Forecaster updates (Oct 25):** 36 rating changes, 19 toward Democrats and 17 toward Republicans ([Wikipedia ratings table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings)). RealClearPolling made 16, 15 toward Democrats, moving MN-01, NV-02, OH-15, SC-01 and PA-10 to Tossup. FiftyPlusOne made 8, 7 toward Republicans.\n- **Split Ticket reversal:** Split Ticket's seven House changes listed yesterday (CA-22, FL-07, FL-11, FL-22, NJ-07, NC-07, NC-13) all reverted to their prior ratings; treat both days' moves as noise.\n- **Senate ratings:** RealClearPolling moved Nebraska and South Carolina from Lean R to Tossup; Silver Bulletin moved Iowa from Lean D to Tossup ([Wikipedia](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). No Senate consensus changed, and no poll average crossed a threshold.\n\n## Races to watch today\n- **Michigan Senate (Lean D):** NPR reports Trump escalated anti-Muslim attacks on El-Sayed ([NPR](https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks)). Average: D+2.6.\n- **Alaska Senate (Tossup):** Attorney General Blanche defended the lawsuit to block certification if the Republican loses ([NPR](https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses)), and Peltola postponed events after minor injuries in a car collision ([NYT](https://www.nytimes.com/2026/10/25/us/politics/peltola-automobile-collision-campaign-events-postponed.html)). Average: D+0.8.\n- **South Carolina Senate (Lean R):** The data center industry is helping Graham ([NYT](https://www.nytimes.com/2026/10/26/us/politics/darline-graham-data-centers-south-carolina.html)). Average: R+1.4.\n\n## Early vote\nThese are ballots by party registration, not votes, and mail ballots have leaned Democratic since 2020.\n- **North Carolina:** Through Oct 24, 1,544,673 ballots were cast, 137% of the 2022 total at the same point (1,130,865) ([NCSBE](https://s3.amazonaws.com/dl.ncsbe.gov/Press/2026%20General/NC%20Absentee%20Stats%20for%202026%20General/2026-10-25%20Daily%20Absentee%20Stats%20Report%20-%202026%20General.pdf)). By Oct 25 the total reached 1,583,182 at D 41.6% / R 23.6% / other 34.8% ([NCSBE data file](https://dl.ncsbe.gov/?prefix=ENRS/2026_11_03/)).\n- **Florida (Oct 25):** 2,783,995 ballots, now about half in person, at D 39.8% / R 39.5%, against registration of D 30.1% / R 41.5% ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/), from Florida Division of Elections data).\n- **Senate battlegrounds:** Arizona 884,474 at D 38.7% / R 38.4% (Oct 25, via a private compiler); Kansas 154,074 at D 47.7% / R 39.1% and Nebraska 136,433 at D 41.4% / R 42.0% (Oct 23, from the secretaries of state) ([UF Election Lab](https://election.lab.ufl.edu/early-vote/2026-early-voting/)).\n\n## What the spectrum is saying\n- **Left:** No new left-leaning episode today; Pod Save America's latest features Eric Holder ([Pod Save America](https://audioboom.com/posts/8968588)).\n- **Center:** Silver Bulletin walks through every Senate race ([Silver Bulletin](https://www.natesilver.net/p/lets-talk-shop-about-every-senate)).\n- **Center-right:** The WSJ reports Trump has returned to the rally stage in force to energize supporters ([WSJ](https://www.wsj.com/politics/elections/eleven-hours-of-trump-what-we-saw-on-the-ground-at-seven-rallies-in-seven-days-5f871621?mod=rss_socialpoliticsfeed)).\n- **Right:** National Review argues the media gives El-Sayed a pass ([National Review](https://www.nationalreview.com/2026/10/abdul-el-sayeds-media-hall-pass/)). This is opinion, not reporting.\n\n## Talking points\n- Five generic ballot aggregators average D+8.7 as of Oct 25, from Decision Desk HQ's D+8.0 to FiftyPlusOne's D+9.2 ([Wikipedia aggregate table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections#Generic_congressional_ballot_aggregate_polls)). This replaces a poll feed stale since Oct 4; it is a source change, not movement.\n- NPR reports Republicans are spending millions and still may not win districts drawn to favor them ([NPR](https://www.npr.org/2026/10/26/nx-s1-6008167/republican-redistricting-midterms-competitive-map)).\n\n## Coverage note\nAll 24 sources reported, and early vote covered 27 states; Pennsylvania, Iowa, Kansas, Maine and Nebraska are from Oct 23. California's party shares now sum to about 90% of ballots, so they are left out. FL-17 dropped out of the House ratings table (not a tracked race). Kalshi had no priced markets. Candidate parties remain unresolved for seven House races (FL-22, NV-02, NY-21, NC-11, SC-01, TX-23, TX-35).\n\nSite: https://jakeworcester-byte.github.io/political-tracker/",
+  "published_at": "2026-10-26T11:27:56.408514+00:00",
   "checks": []
  },
  "_previous_snapshot": {
