@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   }
  },
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-20",
-   "race": "HOU-MI-04",
-   "races": [
-    "HOU-MI-04"
-   ],
-   "type": "reporting",
-   "source": "Heartland Signal",
-   "lean": "unrated",
-   "title": "Huizenga v. McCann: What’s at stake in Michigan’s 4th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa3UwN0t5WWV4emdHVzBGV2dOSDFYdThGNWlrbDhIdlgyWFM2NDBtNUt3RC1KcmNQMllTTGhSR1ZMU3FCLWFiTHNhZ0J1ZmtVQ0phYk9rSkR4WWxtaU1xdjJJeWRwMk9zNnR1NEVRVFhYUUJlenRNVWxCMzYyQ2w5VGhMOWhTN1E3RmpaNW5OcjJtQWVpUXc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-04",
  "history": [
   {
@@ -179,6 +163,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-26",
    "c": 0,
    "p": null
   }

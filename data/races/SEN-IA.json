@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -57,9 +57,9 @@
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-21",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-25",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -83,10 +83,10 @@
  "incumbent_note": "",
  "consensus_score": 0,
  "consensus": "Tossup",
- "disagreement": true,
+ "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 1,
+ "flip_votes": 0,
  "candidates": {
   "D": [
    "Josh Turek"
@@ -373,39 +373,9 @@
    }
   ]
  },
- "raw_poll_count": 18,
+ "raw_poll_count": 16,
  "trend": "Stable",
  "signals": [
-  {
-   "date": "2026-10-23",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Trump Rallies to Shore Up Iowa Senate Race for Ashley Hinson",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWGk4T0Z2eTRFR2pSM1Mzc3dqUW9JbW9nYlJOcE1pQVpQd2ozUmh3V0htYXIxUmNnc0t1VU9EZnhCOVhUWWlPWG8xT1ZuNHpMXzVHdm5wVUViMDF6WGdVY2VpVUdReFZzeXdlOFhjTGhoUjVRS2pkY2dyWmFTQXRUTndhUi1aQktR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "Bloomberg.com",
-   "lean": "unrated",
-   "title": "Trump Seeks to Boost Republicans in Razor-Thin Iowa Senate Race",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTC1ZMm9WYnBGRFh6OXdEanVsSm5EaEU2N0JsNzZzZ2tMRXNna1RzZXNNdVNiamt5N1lPd2Zfd3RKcmN0Ty1tUkUtU1dsV05SekV3Sjc4SjE3QlVJNURNOG1zV3p0M2otaXYxelhCbzFmLVJmS2dpaTJxZTZ1ZGdFT2pUOUxQQU1xejVXc05vemQ0V2tTX3RPVzhsaWpWUDRISWhBX3NCMXdHb2FDcllOXzdiX0o?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
   {
    "date": "2026-10-22",
    "race": "SEN-IA",
@@ -417,6 +387,21 @@
    "lean": "unrated",
    "title": "Election 2026: Iowa Senate race tightens with less than two weeks to Election Day",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmFvTGJYRlNMTU9fUUVzdTF4azdhT2h6Z3F5ejEzZnppc2hmWDdoSHd5QkdMOVhuMG4zX3NPRTItRERZcHBfZEFyUjV6SDRwMmRvR3g1QnhTTF9GMmtoWHZOUlhvdFZzMUMzV0xBWUR0REZWWHc0aTJJT1NVV3JJbmNqbUtPYklHRjVBV25tbWNzRVF2c1RES3d4cWPSAbABQVVfeXFMTTRzZ3FnUHNpbTdfZDF3a216TW5DN3pfbm1JSE5NTmVmSDloYmgzOEFEUzJfaFR2bE9IVF8yNmdzcjNxS2RHZlk1VHJ6Si0wYWNqcFprNU9XQm5WTGRTeTN2WFBTUnRSd2x1dHo3UXB5LThqb0J1YkZieVV5dEJmakloWGVOVExFdV9fcXhBb0pMQ3N0RWk2ZXVsLUJuN2wxQ2FBdWdhc3Zmc0JhaGswZHo?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-21",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "LiveNOW from FOX",
+   "lean": "unrated",
+   "title": "Iowa’s 2026 Senate race: What to know about Josh Turek vs Ashley Hinson",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAzM3Jkc0ZURnFVNHJ5M2FlZF9sbGM0V0ZGR3hXMnJodUk5dnJFS0ZOLWg4NWpDUm9CUy1tS195OFlfT01mMGlQMUc0ZHpvVXVvYU16dFdVUno3R3VoSWRsUEpjWGRIeW9WbUQ0dG5LT1ZvV0xIT3ZGb1hTdkUzZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -496,6 +481,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 0,
+   "p": 0.7
+  },
+  {
+   "date": "2026-10-26",
    "c": 0,
    "p": 0.7
   }

@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-24",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 6,
+ "flip_votes": 7,
  "candidates": {
   "D": [],
   "R": []
@@ -100,21 +100,6 @@
    "lean": "unrated",
    "title": "North Carolina 11th Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQk1RMWJlLVJKTkxXcFJHTXQwX3h0R2hocXNaV2U4OXJwb21mdjR1Rk1ONzJJMnNnOXdmS3V2YTI0MXBKTGcySzYxS3diVjlpcjZBUkl6Yzg4bUMyeUd3eUZHcU1IQ1hSeFFzNC0wRDIxRzJGampqRGg4UjU2X3hWU0IxLTNEc2tQeFl2RA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-NC-11",
-   "races": [
-    "HOU-NC-11"
-   ],
-   "type": "reporting",
-   "source": "WLOS",
-   "lean": "unrated",
-   "title": "NC-11 candidate Jamie Ager holds rally in Hendersonville, highlights key issues",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOdjRDVjJjb3FxNTNXNEtDQ3BvenhvRTQxWVZzMTUzdUVZMHZUdDMyc3AyNEVhSTVEeFd3Vy1CODRGZ05wS2I0Um5YTXFVNTBNSXU3VnhnMTVqYXUzdF9uWVF1YWdaTVhVcVRSMHlfSzM1ZEt6ZFFnb2VwaXlWNFhqQ19VZVR2R0FIdG1FOURQUjNSczNRS1o5UFdjT0FVX1dHOThnMzFfSGx1ckZ0NWRTMUZiMWJ4YkZRLWNzUGxNd1R0czFQV3ozcWVTVWt4U3FzU1N1b1JsX2FDek1IeU9CaTlpdm9VT3NzdTN1dmE5ekdRVTV2Q3N4Vkg0U29jTW01SUhpYUQ4MA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -194,6 +179,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-26",
    "c": -2,
    "p": null
   }

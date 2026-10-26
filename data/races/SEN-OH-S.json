@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-25",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -397,6 +397,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-23",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "NBC4 WCMH-TV",
+   "lean": "unrated",
+   "title": "Two Ohio polls put Amy Acton, Sherrod Brown ahead in Ohio’s Senate, governor’s races - NBC4 WCMH-TV",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcng1eHN6LVpDd09obWdZWUhHcUlKZ2xWQV94WFBLbnJqVEx0OE1xcFAtZXE2cXVRZnJ4TDByekJrazFNSlhKV1pHREVpQmNMeDRVOG94TnRkcEJ4anZ1UmVQeV9uc1lEb2UyenFJMzk3WUxMak5mUDhVVmtTaFM5V2RjNWp1VHdfTzNUenNmd1hXSWNYMk8tcFdqY0IyTzJwMEdOSGlMaVNDRnoxUjVySjRCblE3SUxqSkFNc2VucnU1QVRQMmY5LUo4QdIB0AFBVV95cUxOS3h3LThKSE9RR0VnMW4wNjYwM2RZOU5LSWszWF9SUGFjNVI0TTB3S2F5WU9QTHJuQUg2elBpSUVhWlRUckdVRldkYV9UXzhGOElCY2R3cV9PU1VlU0FvTWdQM05PamFGSXJWM19rZm9oZW8taVRrZXdqcGplbTRtVVhmd3J1ZzJ6QTN4NWZmVmVVZ0pHTUF2czFfYTJUcEFBNnRCSmI0Y3FaV3l4ZHNCdmE0NmRiQ09oOUZORjZPMVkwVTJhYzlRZVVVU1BjcEhB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-22",
    "race": "SEN-OH-S",
    "races": [
@@ -501,6 +516,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 0,
+   "p": -3.5
+  },
+  {
+   "date": "2026-10-26",
    "c": 0,
    "p": -3.5
   }

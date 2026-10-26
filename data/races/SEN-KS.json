@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-25",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -208,76 +208,46 @@
    "relevant": true
   },
   {
-   "date": "2026-10-22",
+   "date": "2026-10-25",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "KCUR",
+   "source": "Fox News",
    "lean": "unrated",
-   "title": "‘Control of the Senate goes through Kansas’: Marshall and Hamilton clash at last debate",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeGVEcjRIbExrR0ZxWGVZeWVESkQtT3FiYjkzenFwVGU3cG9rZ0tTSGdVMHZKNU51c1dpQXBGSWUyanZDUTVTcVRCZlBZSGY2c2RUdEx1eC1pRTdoNFJlVEI0OVNxVEhGbW1yS01CalV2YmlIWWJiMU5Pd01nR0VsNmZ4RWlvOFhzMGNFTEZTZWh1TDRqbDJXdGhkdlhjdGtJNmEwV2NoNUFnTU9SOHdPeW1LeFRTWXdkNDZqVHpYM3A4TzRQUnVkVWs5SHRYdS14UjFKSUd0TFBmSDVPdDI1M2NVbmQ?oc=5",
+   "title": "Kansas Sen Roger Marshall urges supporters to cast their ballots",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0RXZtMHh4d1oyckNwZUNoZVZqNnVJTXlDYnJIamp5NnlYYVRnRVNRaURCU01QTHpKMDNtZUtHWjI5YURxRnR1Qi1oWXp4OU9zd1d1bk1B?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "NBC News",
+   "source": "Yahoo",
    "lean": "unrated",
-   "title": "Roger Marshall and Adam Hamilton face off in fiery final Kansas Senate debate",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdmhOTktCaFMtQ3pSRm5QUXNjZkc1MzdwMC1YXzllSVpUUGlZc0tPVXhJSGwzSzZYUHJna1liNDh3c3A5Q0RHZHJGLWhvYW5yaExVcTVRS2pKSFpONkhtSW4ya2VIdGx3TW5qdEZHYzhLZE04RWpIcV92S0Ztd2FOUHFjS2h6VDdmRktPVWRtbWhzWEJxRXNKWVRjNGpBajBmVzBXdUpJQTVZWnhsV1RFUllnaTVWNUNOaVdmUUQxTkVsQQ?oc=5",
+   "title": "The church abuse allegations shaking Kansas senate race",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOempoMVYxSXU2cldTNjIyUTJjVmFfRy0wMDcxVVphaGtmRThoelNhRVFzc2xxNURfZ3ItLVE0d0htSDhwZ0hxVUxTdlhWaHVwTTNMVzVsaldYVVpzNllDSTlhdDZGQUE3djdFbzZ3ZjEzTEJrRUt6Uk9icl91cHQwVVd6WnltRm9keENuVGxPd3lzdGk4UDRhZ01pM3hvbThm?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "PBS",
+   "source": "KSNT 27 News",
    "lean": "unrated",
-   "title": "Kansas Sen. Roger Marshall in debate blames Ukraine war, not Iran war, for high diesel prices",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc21EbmNWWHhvc0JEWUhBRGczQzhCTGJTSlU4UlJOQmlRMC1uMUExNFJ5a3FkamJrMEVrWDk4WHBCYkI3RTJ1VkZpQno0SnRCTzJLVjRHVU53QnIyVzlGWUU0b0p2TzlTWG1ubWFraERzZTRoTTJiOHUxRnpMZ2JNWXRnbW1NOWdReEl0TE5ZWWF1TEMtYzAzS2lHd2h2M0JFem4tOEtyRlVIZEtmRGxtSkNhTUFQMEpJemViSGNpNTRwV0RPSUlZ0gHMAUFVX3lxTE9pYmhVNnhZUElaX0ZIem5JcnVrRUVMZkZNbkhHVHdFZU81TDhZRXEyVVVnY2JoMVFRTGNBZzJwMWpPR01KQUcwTnJrMEZmMHFwdUxqcWpMcWYzQUF4WUZJVXU5YWhlNHk5TGJmQl9kT2Q5M0NfVnJsVWtEZFBZUEZMN1BiWGtxREtqbHVmYWk5YmJRV3hJN0xERVRJeFg1OW5nUXVwZnBpcnh3MlJ5YldyX1ZPTkgwZFhJb3NxZjhXTFZITUpUNW5XZnNkaw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "KCTV",
-   "lean": "unrated",
-   "title": "Kansas Senate debate: Marshall, Hamilton spar on diesel prices, tariffs as race tightens",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaEphQ2VrMW5fck5fdWI3QV9YX0s2RDFHcUlyejRQZUZycUJlUnp1Tkk3N0xlZDhaLVlfbU9NcjVJc0VleDdvMmRBNWgxRkY2OWlpUlhsTW8xTVhVSVlzVkljaUM4dUxTSWJDMy03UnRZaGpRaE5TaFhGQW9ydXBoN0RjUkhjb0ZLRVRHeGN4SXlpSHViQ2x6dFR2bGg5LVBuanRGYlY4aE9LYkd0RC1NLVFENNIBxwFBVV95cUxOeHpxZTRrZmZpTHBmLXNuRXNRMTdXSG9LUkpGN1NfU1RvZS1leEx1VTBoLU9BcU8zc1Bma1pRZkpFRG5QcU5iTWJWVzhtZWhfU0diMUFYSDJlclhNRjExVUQtZHJzSkZ5dHBCN1F1dXllUG1WZm5xNDM5TW9SWmk5ZDBNQ1NLbXdObjNhQlhuWVFoeFJoN0M2aGVONmY2NFJOWU45d0pQUzF4MW5XbTZjTTFrcnozdzdHYUUzVEZvb1p4dWw0b19J?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "CBS News",
-   "lean": "unrated",
-   "title": "As Kansas Senate race tightens, Marshall argues opponent is just another Democrat, while Hamilton says he's \"independent-minded\"",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNHBMVlhibGN2cVpCVVltMlpQMWxqd29sU3ZMNVF2RnBRVGY1Wlh5eU8zcTJ0dHk4SG5MV1BZWDliZVRCNW1sOXhnTUtCeTRERklEekZwZXB6elJ5emNxMUZmYkE1dmx6WmRFb2xTdUMzdEZSUkFneGpJNkRYWkxNTE5RTzFnN19kZURsUA?oc=5",
+   "title": "False Google alert incorrectly declares winner in tight Kansas Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT0JLYlc5bUhOcF9wUjZ3aHprV0pkUzY3aF84Q09OTGNRbkhXaUZjY2NwdXhyZUwxZmV6N21fdzd4LV83b1FNcEV3alJmbGNuWUIxSWdXemJYS0lwR0wzZnVJOWNxQllMbUNxNktscGthY0FlazQ5Q2JJOTZJNkV1TGVrNHYzUDJ3YWZRSGw5a0NZaGdabmE4VzA4UDgtNFpyY0VveGdMcXRRZ9IBrwFBVV95cUxNekRtcVBzZ2E3bW5ndlRXQ0E1NUF5bjFDNlF0S25tYkZjdjJmay05b1BHNTBiNlB1S0YtSGtoWUZXV0ltZTNSUC1xZjhBQkhoMTU5TGJQVUpxY3RTWFFIeFFaeFBNbWtMYU50VlVRSDdWUUNxN09WQklXWGRZbFhJSVJEdlF3dHBMNmpRUVpQamJjMTdWdlV3T19FYWVOQW5VbGtfNm4wVVFpTFVodGdj?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -385,6 +355,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-26",
    "c": 0,
    "p": -0.5
   }

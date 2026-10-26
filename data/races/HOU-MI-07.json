@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   }
  },
@@ -163,6 +163,21 @@
  "trend": "Toward D",
  "signals": [
   {
+   "date": "2026-10-22",
+   "race": "HOU-MI-07",
+   "races": [
+    "HOU-MI-07"
+   ],
+   "type": "reporting",
+   "source": "Yahoo",
+   "lean": "unrated",
+   "title": "Report: Michigan's 7th congressional district now the nation's second-most expensive house race",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQUl3U3o1MUdReWhjZ3JoXzNoVW1Md0VOUFJLeF9zazFtVWRUbkoyekdfRlZ3Qi1DRHdhQXFybTk0YkszRUxKOXgtalFlWVhLNWRLdzh5a1F1dU4wNmdaNnR3V2xxM00tVmNEMzlaMW5kNkoya0l0MWtfdzFWWExLaFg1d1FBemdTY2FaSFNVR1VCUXhqMVFZ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-21",
    "race": "HOU-MI-07",
    "races": [
@@ -252,6 +267,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-10-26",
    "c": -2,
    "p": -8.0
   }
