@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-23",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   }
  },
@@ -77,10 +77,10 @@
  "incumbent_note": "",
  "consensus_score": 2,
  "consensus": "Lean R",
- "disagreement": true,
+ "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 0,
  "candidates": {
   "D": [],
   "R": []
@@ -179,6 +179,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-26",
    "c": 2,
    "p": null
   }

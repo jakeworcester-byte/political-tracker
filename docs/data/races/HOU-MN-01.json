@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -57,9 +57,9 @@
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   }
  },
@@ -210,21 +210,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-20",
-   "race": "HOU-MN-01",
-   "races": [
-    "HOU-MN-01"
-   ],
-   "type": "reporting",
-   "source": "kare11.com",
-   "lean": "unrated",
-   "title": "In Southern Minnesota, Democratic challenger Jake Johnson makes bid to unseat GOP incumbent Congressman Brad Finstad",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNdFQ5TlRXUERsdFBtNG95S3lzbnZXRjgwYWozLWpHUGlmS1VBMXBRR1BRMjdmdXZBcjdkR1lpTkNyOWI0S3JuaE4zRVRFQmd1bEE2N2dDcnFtaEFaNnFNaXEyRk1TbUJra3RzWF9TZ1BpdFdBak9vclhKeDRsQ2NPQkNwb3hoSGt5NTBDLVIwRHppd2c1Ykg2R3JwRm9ZT25LaXZiMlFRT1ltcXFVbDcxaTRUWF9UeTJzWWhkWU1zVmpybmg5cW5TbUVsRmNEcjl2TGU0dXVBbVVTbEdkMHF2ZUFnb2UyaThlbkNMNmktWmlNN0t2bGNfSVFvd0x5MXllMjZaSlBlazRNTTh6TkZGWjlTdXI3VUhwN19RVTJn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MN-01",
@@ -301,6 +286,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-26",
    "c": 2,
    "p": -1.0
   }

@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "NBC News"
   },
   "rcp": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-25",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -183,6 +183,20 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-26",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Darline Graham Gets Help From the Data Center Industry in South Carolina Senate Race",
+   "url": "https://www.nytimes.com/2026/10/26/us/politics/darline-graham-data-centers-south-carolina.html",
+   "summary": "As political fights over artificial intelligence accelerate, there is now a super PAC aligned with the data center industry. Its first bet is on Ms. Graham, a Republican in an unexpectedly tight race.",
+   "relevant": true
+  },
+  {
    "date": "2026-10-25",
    "race": "SEN-SC",
    "races": [
@@ -213,21 +227,6 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-22",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "WFAE",
-   "lean": "unrated",
-   "title": "Trump rallies for Graham as South Carolina Senate race tightens",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWk5VOTFlLTkxMnhDdk13N0g3TmIzdGZGMDZoQzBsY3ZwSkhQNWRSQTZDSmx4eVZZN3h1S3FiN3Mwd2ZNQ3pQS1NKSnZrNFItZTZpN3hSN3pWcVo2ckpCaDZXMnZMaWpUcjJ4WWtWSmo1c2djeV9vZ0dWV1JCRkFvR0xFOTRXeXNzaURpWmZLVTdSR0Q0b1hGbm95bk1GaFB3TVRQYU9JNA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-21",
    "race": "SEN-SC",
    "races": [
@@ -238,21 +237,6 @@
    "lean": "unrated",
    "title": "Trump heads to South Carolina to boost Senator Darline Graham in race",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmFqTU41aE5IRmJ6TXNMUi1EbGg2R2VNcDljdWxjS1l3dC10UTRQVmU3VzJib0tDdVZxQ0pJMGxKVENmanhrbXJYeFo5Z29lTWdRWHJhcUlvNE94RE05RmM3RmJaQ2c4WWFucXZKMlpjSFhNQ3ctNGx5OTNvdFVIeXcwNGJDaE1XNHdTQjJ0SmxmRGNrQjVqM2IySFFuam01VDRpdFFCWDMwYjRyeldobtIBtgFBVV95cUxQdHJzTXhJMEtWWWV1TkY0SXc5NUdjVWFyNmMxeHpBNnZZTV9OTzBqallZUXVSM2JiODVrczBCOGNiZ0lOMW1nZ28wdGZkZXA1Y0g2bTRBRUtTR3o1LWJwYUxCSDZaT3NObWwwaFNZNXk2NzkwSGw1Y1VDZHBDSllfOHJTY1BnTm1RZ21hWmV0T0pnZEhRMEhUTHdqY216dU9CY1p4bGlrcHBXQ29FcTBPMDdMLVZIdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "Reuters",
-   "lean": "unrated",
-   "title": "Trump campaigns in South Carolina to support Senate candidate Graham",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMHk5a3JmU3lLWWtaN3RQRDVPRUdfWVA5czZfWk5WQlBNcnFmdndzTnZQV2RZRFBrOGdXU3ByMHMtS0EtQXNSaDc1OXZ6UTl2UDZrYk8wcFlPc1FaYlFFUVVTVUd6RG5uaDZhYk55elN4TGRXNFFGeklyUzJkXzQtUzBBTzJUS0YxNGJhdF9HOE9zRzVJc1VTcE5HUEg1OVpMYS1UTGVYLWhvSXlEMU1yZW1HMA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -347,6 +331,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 2,
+   "p": 1.4
+  },
+  {
+   "date": "2026-10-26",
    "c": 2,
    "p": 1.4
   }

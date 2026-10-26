@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-25",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -425,7 +425,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-24",
+   "date": "2026-10-26",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
@@ -433,10 +433,69 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "El-Sayed Needs Black Voters in Michigan. Tensions With Arab Americans Make That Harder.",
-   "url": "https://www.nytimes.com/2026/10/24/us/politics/el-sayed-black-voters-arab-tensions.html",
-   "summary": "Conflict between Michigan’s Black and Arab communities could get in the way of Dr. Abdul El-Sayed’s pitch in the critical Senate race.",
+   "title": "In Islamophobic Rant, Trump Seeks to Stir Republican Base in Michigan",
+   "url": "https://www.nytimes.com/2026/10/25/us/elections/trump-michigan-el-sayed-rogers.html",
+   "summary": "The president contended that Dr. Abdul El-Sayed, a Muslim, would “invite hordes of jihadis to our shores” as he sought to bolster the G.O.P. candidate in a tight Senate race.",
    "relevant": true
+  },
+  {
+   "date": "2026-10-26",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan",
+   "url": "https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks",
+   "summary": "President Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed on Sunday, portraying him as a threat to national security and questioning his loyalty to the United States.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-26",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "Al Jazeera",
+   "lean": "unrated",
+   "title": "Trump dials up Islamophobia against Abdul El-Sayed at Michigan Senate rally",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcXU1WnVVaTE0c0w4NGZZMUdtbDg5UWVBdHZqQW84eFpSVGNiWDdtemxJTkljM0ZxN1d5bFFEM042ZEZDdDBEOFFwU1lzRmZZVDNjV05BbWY2MHByUUVaOUVVWHkweDk4MXloNFFGVDZCLUVzWnY3NHdHUWY4NFRqdUVyZktvQ1ozWWlNV0JfMTltVWtERlVkbV9oMVFFR2wzc21fVTN3d0RuTjRQeXNuZ0xqTEp1eGVh0gG-AUFVX3lxTFA0a2hMRVBQc3h0WUFncEw2eGpjZkNCMDJ1aVFRMGs3NFdyY2xieWdoT2lqU0RVandqLXJiMGpXaHFCVjJGZkVKTWp1TVJEeDYzSmtiU3Rwcml2UXd2QzNGekI2OFcwb3FtazZWWVVTdnFJOC1OTjd1V0N1aXdGM0YwQjRjS2JWdUdWdTJnS0ZldG92VG9LU2JHZUY5NjMxV0V6ZXVNeGxUNHZqYm5oYkZoQ0dvTmtlNm45ZVZqMnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-25",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "PBS",
+   "lean": "unrated",
+   "title": "Trump escalates rhetoric against El-Sayed as he tries to undermine Democrat in Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORkt6XzA5Rk4yVFI3U0pIWldHbEJiN0F3VUhDUnJNOVFvS0dSUzBqSjk3UU1BTmVBYnpwNXlYWkNQd20zdnMtRWZFVEg3eENjV2NQamdZcmtYUDZyOEhQd1BUWG9IOWFycHV3M04xZjdzZ1MtenJGZGlBd1ZfVXNnX2FBNzRWUE1yYjREbktsXzd3ZVdNbUpjYlJvYi14VnptTk1wWjZYZG42ODI1OGZYMUV5M1pJX0wzdHpEOUYyRkxXX3ZQV1NxUVhWQU9ZRWUyaTM00gHYAUFVX3lxTE1EWERZM0pMTlRpYjRuY1N4dzJEa254UWxLUTVRQWJuZHM3S2d5M1l3aTRoaDlidFB0RWY1aFNXTzJjM0NpVW92SFJwd09RZXF3QU4yZjJqYTRJa1UybmVmQ2FOaDkzQnlGTDBtdXg3R1dVX0plb3JNU2w2RU9Gd0k1aGhoUURRdVAyZjhKMXF4QUpHNTdIQW9Vbk9JTFpQTU5kY3B2R1I2ZEkzOVBjYVg5Sy1WM1VFWm5MLW1Qa2lYWW1VelJkTmphUUdiYWRNZjNDcWZEMzlFWA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-25",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "Anchorage Daily News",
+   "lean": "unrated",
+   "title": "Trump escalates rhetoric against El-Sayed as he tries to undermine Democrat in Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMndvQi1wc1JMcVNXWFltdS1qUTl6aEVfbWVERHhVbHd5Q08yVElORnp5NTEwMEtMdTE0b3JUUHNFTTJMY0hzRllaOVAxWVFxdjlYVmtJUGtteTNXWmgxSF9aN1ljbFQ2UmFfWnVzSWEyd3BzR0dxYkZSZEctbFQyNllORHpvMGFucGVRM2wxYldrQXlISi1Rc1V1TkFRNFFNVERhTllFc0lBU08tcHIzT190clYtQjF2M3VhYnM2SmowMGtKTGx1NW1KV1NySVhRMUdleGEwcmxWWGI1?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-23",
@@ -465,81 +524,6 @@
    "url": "https://www.natesilver.net/p/do-these-senate-governor-splits-make",
    "summary": "In Michigan, Jocelyn Benson is polling well ahead of Abdul El-Sayed. Do gaps like that tend to shrink on Election Day?",
    "relevant": true
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "WCAX",
-   "lean": "unrated",
-   "title": "Sanders donates $1M to El-Sayed campaign in Michigan Senate race",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORXZpVTRRMUxHcmU4RG5CSTBGX3B2NHlLUzZ0dVdtQlBzdlN2dlBJMVE5WlJiYmdkUV9zT05nWkN1LUZPTmRpcnNiQ3FyMWRieUdSNjNNNVZ6QUhKdm5JeF9vbG14X2lwYmFYOFZNYU1oZmZSVVpjT29XMFZ4WFRFRFROWi1CazkxMFNqVjBGTmxmRkRD0gGoAUFVX3lxTE82akNPUFpYLVoyeW5mZ1NzUDZrOVJYd1JrZEdETmwxcTZkblJwcWxVdWVURmRDNUstcVNqWEhjam4xc3RnRVJ1amttQ3ZOdURJLUtjeTJyNUZHWHFlQm9IUXh2d1VSamdzam1BeTB1V205SFcxWFhLQjY5QjFKZjlNX1JBYWhkX1RMTU9qZHJjQk8wNFdwZTJTenkzcW4zSWN5NG9iLUktcQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Federal News Network",
-   "lean": "unrated",
-   "title": "Prediction Markets Tracking Michigan Senate Odds After Debate",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN3ZTbTN5SFptVzNDaUFQTlo1V2Q3TklmWW5fRmxKa2lHQ2t0X0c4REdWX1dqd0JFa1h5OWI4dXJ3STI1cmVXajVwVy1iaWJ5a3hWTXpCN3BKZ1o5dFFnaTdnOG9PUVF6cW1vUElJZERzbG8td2pINU5jMEt5bWE3NlBhVnZXSVV4eUgwLVNIbU0yNHlNaTFDQlZ1cjUtTnA3blJudW9PNGh5QVBMZnVrS05rSGRzenozc3BaMEZtQ1hNa0pDeVNGeA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Al Jazeera",
-   "lean": "unrated",
-   "title": "Michigan Senate debate: Key takeaways from El-Sayed, Rogers clash",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZmR5eWxGMU50XzlFZWtXdTUzUzNYX3BLQjd4clR6ZFNFQjRXdlhzcGo3UFg0REMxWVhFR2VURDdRTDFJXy1nZWo4VkdEdW1SYWNLdzg3dkdnSlc3MHZCRzk4WVlSay0yYTlsc1c4dGJaNFlfMjd5T3lhSDFkenI4Ul82b0hxZDBvQ0ZGZHJONjFTQlhBSElreXBYdmhfWElWUElNYU82V2rSAa4BQVVfeXFMT2ZlRDFaSUczakI2anFJbnl0VTN2LV80bU1ZdnhqbTJhR3lObzRxZk00WE82NVdFN0llejVqMWtWZUxmWU5HalRDY1ZwYU5iU0x0YVctR19WTlBQT2hOS3JNRko2NzJ3TjZ3RnJiUjBST0RpSkMxSlp0bFVfM1NEVHRxQ2x6aXhyaW5Lc0E3ci1hWmtUcTFzY3h4Q1pqUm5nNkduVDZ3SlNRT0tfZTdn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Bloomberg.com",
-   "lean": "unrated",
-   "title": "Insults Fly Between El-Sayed, Rogers in Knife-Edge Michigan Race",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcmFDbDBsLXlxaUxsbFAwRXhpSGR0WFBQeWdEMUFnM0dJTzB0SWRGT1JmalpTeDVIVWJ0dVB3Z29BdHd4NXdGWTdXOUdNVk9YSGVBYnNBbmxQdG9OY1pjdkpOZ1ViSzlBOXpZMGxsdWVZZDRFZTVpR0t2cU9OMmdaZldINVZPcjlJZ1NVMjh5MFBmRVBzVFZMcHhBVTExNmtFa1dnOWpaQndIRWR1d2lBQlFxLVlaLTMzWnh1aWVEX1Y?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Jewish Currents",
-   "lean": "unrated",
-   "title": "In the Michigan Senate Race, Mike Rogers Is Stoking Jewish Fear. Will It Work?",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTlhnTmdjcWMwdjk3TXVYNlNhdEw4SFBJX0lCZDhQWWZ3emNYS2ZDZ216WlJ2R2ZyWE5SWXNnV3J5TFU4My1iR0U5Y2lQazlnNWo1YldtQ1E4enI5SjhqMlZCdzBVV3h5YUxoSVhuUUV5YTg5T0kyeXBON2I3bG5PTV9tdmVqOVlHREZ3QUtGRC1LMWlvbE5Ud1ZESFZjdXBNQzJj?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MI",
@@ -616,6 +600,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": -2,
+   "p": -2.6
+  },
+  {
+   "date": "2026-10-26",
    "c": -2,
    "p": -2.6
   }

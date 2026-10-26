@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   }
  },
@@ -163,6 +163,36 @@
  "trend": "Toward D",
  "signals": [
   {
+   "date": "2026-10-26",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "Spectrum News",
+   "lean": "unrated",
+   "title": "Zach Dembo campaigns to flip Kentucky’s 6th District",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VQ01zVnlRaUtmVmcxdldMU1BHTDlfbDl0RU14ZlVSSTVwUXJqZ0p0VXpIX0JYM0RPdjVBRGllZDNibDJLbEt0OE05ZXNTbnIwZWJHOTl6eVp2T2J6TGxISkJxc2FrdXJQdnBmSE81VHZMbHBh?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-26",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Kentucky 6th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLTY1c3dTYVVEcFNlbl96TjJkN2xzWVlMbjVHZUVHaWZJWHZlRk54R1Q3dUxrWHJkUDRfMFkySUxXQkk3YUNFdzl2NEswWkNoQWw3RzgxSmdKY3FaMmFJLXBKTFNkUHo0LTUwVnNXRk93eW5qdUkzclowdER4azZvandCcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-25",
    "race": "HOU-KY-06",
    "races": [
@@ -178,21 +208,6 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-24",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Kentucky 6th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLTY1c3dTYVVEcFNlbl96TjJkN2xzWVlMbjVHZUVHaWZJWHZlRk54R1Q3dUxrWHJkUDRfMFkySUxXQkk3YUNFdzl2NEswWkNoQWw3RzgxSmdKY3FaMmFJLXBKTFNkUHo0LTUwVnNXRk93eW5qdUkzclowdER4azZvandCcw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-23",
    "race": "HOU-KY-06",
    "races": [
@@ -203,21 +218,6 @@
    "lean": "unrated",
    "title": "Kentucky's 6th District race is now a 'toss up' between Alvarado, Dembo - The Courier-Journal",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQejhCNmwzRDdrT0NTcldSeTBCMzV1TE00Z1plaTdqaGYxZ09hQ0lZRjJ4TnRHclBXRlYycWt0cl9GUnBJSW5OZzE0bXpqTE5LeVNVY3hCczdoU0xraG16bHp6MDNXWDVzUDNBbkM4R09ELUEwSHQxaGdQbVRsaXdYdkRZTmJtQW5fdWp1MTgzMWQxd2dHVnFWbEttQ2pzam13Vy1nNm1wQ01ITVBvTlFSckFYM1MzVEwteGVPdVhnaHF6d0REbjRLQ0VrbURGN2U5WlRDemtfUlg1dw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "FOX 56 News",
-   "lean": "unrated",
-   "title": "Poll: Who won the Kentucky 6th Congressional District debate?",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVEdlRzhyZkt5cVRFWThmc2gyamtaV0dtbi1NRVI1QzUyRkZiRkRnRzZxUU9yOXliRUptQ1kzSTAwVk1pTkxkYnhPcTlUSXUxeFBzeTRtOWFJSVZkMkdjbXFoVEpiSnNZX2Z2ZF9oWnBsaTNwWEREamdtWWZJVUs0RWk2TXJsWkJNLXl5MzJ0ekU1NUlWZEdqOGxYQXVBQQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -312,6 +312,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 0,
+   "p": -4.5
+  },
+  {
+   "date": "2026-10-26",
    "c": 0,
    "p": -4.5
   }

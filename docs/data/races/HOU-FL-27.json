@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   }
  },
@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-21",
+   "race": "HOU-FL-27",
+   "races": [
+    "HOU-FL-27"
+   ],
+   "type": "reporting",
+   "source": "WPLG Local 10",
+   "lean": "unrated",
+   "title": "Eliott Rodriguez aims to unseat Rep. María Elvira Salazar in Florida’s 27th Congressional District election",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVHVqZHR2Y3NDc2x1T0ZkTkRtNDFibjV2UEZYOFVyTUF6cEFReThheWk5WEl4clpkbmhtTEVKTnRZei0yUGVRc0oyR0h5bGFKeENSTk1iZXVwcHB5MGs1OC1wV0RLZXlDbDNMNFhSdHpQLXRwU3BuMUhoM2NsbG9CSFBtRjNfWXJBU3JPd3lCU0tnTHhGa08tUkhSZ3JnelJ5NlJhaVNRQ1hjX09YWHhUSDhuc1hta0xLZ3FwYVJLMGxsYU9sVDJSRV9EMWxuN3VrZnBZQ0NuNUlGb21IM2UwODlHWkNxcnJwa2dJ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-27",
  "history": [
   {
@@ -217,6 +233,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-26",
    "c": 2,
    "p": 1.0
   }

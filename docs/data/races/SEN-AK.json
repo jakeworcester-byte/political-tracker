@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-25",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -287,10 +287,83 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "NBC News",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Peltola Postpones Events After ‘Minor Injuries’ in Automobile Collision, Campaign Says",
+   "url": "https://www.nytimes.com/2026/10/25/us/politics/peltola-automobile-collision-campaign-events-postponed.html",
+   "summary": "Mary Peltola, Alaska’s Democratic Senate nominee, is rescheduling stops that were planned for Sunday and Monday after the vehicle she was in was struck by another driver Saturday night, according to her campaign.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-25",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+   "url": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
+   "summary": "Attorney General Todd Blanche defended the Justice Department's suit over Alaska's Senate race in an interview on CNN.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-25",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "AP News",
    "lean": "unrated",
-   "title": "Democrats ask judge to dismiss Trump administration’s challenge to Alaska Senate race",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcFRtY2d0ODhsOVMxck1mTTNfQVZYQWpRWUw4cDlGOHdfOERLSXdscmdVYlVRaERsM1RXWGNUeUFsMjlYRlY3a1RDNEF6cDRBeUZUWm1TcjRFYTk4cXY2UWd3T0hxM3VGdTZvZllEUDNFSF8yU3psdUhPWDBWOFdCTDlZX3NNcWNnc1EwMFhHZmFsc2hyeFlxYUtDcHR1LTZkZGkzb0R5MXpGZGNLYko0eTVPM2l2aVNrcV9vREhHelFsRHI0bW00?oc=5",
+   "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDBhc2Iwdy1ROUhDWXM1VE5aVHdQU21tM1ZzOFZmT3NGZDhnWnFEajNJSm1LWl8xQmwtN2ppNjFEMXQxbU5MLU9weHo4Z3ZkbXFUUDYzYUtHUkJ6RDc0bWNXMFJ2TXZnd1JSSHNpOHVPa0FmUHRQU0txeUFwb3NFY3c4WkloNk8xMzBwdlMzeDNRY3VUMDlYeDAzNEsyNjZTWW9HS3BsNEtfV0hDSHphYVByOA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-25",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "The Guardian",
+   "lean": "unrated",
+   "title": "Blanche defends DoJ’s pre-emptive suit to block Alaska Senate results certification",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbG9YWXRFWEV3SUtKUnVmX1laM1MyaTctemEyZWlFQzVnWm5ISkh4ZlBmZEo0NHk1cHBEc1VGWENsTFgzWWtEMmtKeFlLeGdBYURkeUxNRFBzbDdYVGM0c055RGplSkhPWi1JZlo4d0x5M3FGOTVkRGU5T2NmTURtcmUxdy1vNTlhV1BWNmppQTk0Q2lQbTVRcXJQblh5TlVWRG1fVVFR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-25",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "NPR",
+   "lean": "unrated",
+   "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeTFtSVNpVEV6RTJSb3VhQ1I1WEsyYXBaaWxXV0hBZkZ0R0RkN2Nrdm9lRnM2WWhVd19xTWVMVzcyLUM2SExta29EWVI5Q2JJaWJKSmxSNmhHYmwtVUtPUngxUGhfWld0eW9BaTlQRFZjWHptbE9ocWdjQVBUdTl2Nm5wYTVDdnN4Q21DY254dGFxZ2lGQXNfY21PVG4wVjJwZi1rLWszQkFuMEpnN1A4NnZ0RVYtcTlvWlpHeFVlSXg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-25",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Al Jazeera",
+   "lean": "unrated",
+   "title": "US Attorney General Todd Blanche defends Alaska Senate election lawsuit",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaWlUTHlaNEZ4V05GQ3FWeGh0Rlc5ZlhNTl9OYks2SGVHT1ZiWlc3QXJPZVk4X01sVFB2T2lVakhXZ2FoMmZVak1sOTE3QmZ3R3dfaUZ2dzBMYkJLdnN0RTdsNTZ0TlNYUXZwWkh0VXlheENTS05yN0NfUUlvYk1qWVRQN3lCWmdwYjY2NDhUVHRqZmloTmdqMXBDSXprclZycVVQZDFRelR0bC02R1c3MnZUUdIBuAFBVV95cUxOTVhld3JnejVGRzhNODFYRWd0R1FrWXRtb1NxZU44bk5PSkpVUG4tQUJwYVZxZHltOGh0TndGMU1Keml2NnpMek1YZEdoaVRSM1M3Q2s3SFBQMmdoaDBEd3BKX3g2SW1nWXNfUzA0c29YZ050dXFlaktlaWRDSW5CZUVFbFJzME9OVjNGVjZZel9jSW84RHhaU2FwTGY0OGhzYWFuVFhXZ3J0N1JxemRZWm1uajZHckNw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -322,81 +395,6 @@
    "url": "https://www.npr.org/2026/10/24/nx-s1-6012100/week-in-politics-ramaswamys-ohio-ad-trump-greenlights-doj-to-sue-over-alaska-senate",
    "summary": "Ohio GOP gubernatorial candidate Vivek Ramaswamy refuses to withdrawal an explosive attack ad, and President Trump greenlights the DOJ to file a lawsuit about Alaska's senate race.",
    "relevant": true
-  },
-  {
-   "date": "2026-10-24",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "PBS",
-   "lean": "unrated",
-   "title": "What's going on with Dan Sullivan and Dan Sullivan? The Alaska Senate litigation, explained",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSFVIc3JwcXdJMHBwQ2duVVp4ODBDWUs0TUNmYm5JazhWelV6Zy1kcF9YTmVSNlAtbFgzakNhenRJNS1YT2otQzVJd1dGV2N4ZEJaMExSLTlpcHpveFlXOHctR0JUWUtCNjZDN0tva3FHYTc1aXZxMHhHQ2cyUUE4ME1abHd3cTgzUEx1UVFiMFNGRDY3NUFPOU9GYlpDdkEwNWFNVm5wV3ZGeTg4SmtDRHFQeUtvVHNDZGtmaENOWDFqT2130gHKAUFVX3lxTE5hWDFtRS1JSTdyOXBLc09EZkNlVnhHenhsTE5HenU0MHJGVVpuNHg5TUJuY3dSdDkxcnAyaXk1WFpsR2J1T0lVS0ZKSkVNM2R5WEFSTkwwNDBoRGJxTlJ4UmswRk9mZzFUMlB2dzdlM3RpV0hQUzZMazR0Z3dWYUVRN1BTVWpyTFg4QnRYQU5FWXVkWkRwVFNyM3FXUXNHUVNickFXdFQyS0FURFc1VjZUaHBwd0pTeG9hc1lPNGlWRkhzM1VoYm5Gb0E?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-24",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "CNBC",
-   "lean": "unrated",
-   "title": "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZktSc2RSY2JDQVNhQkI5WEhvUG15SHlWdEhGbk42WFc5THhVcWIxS3htNk9QUE42dUlUbnpFWURac3d4eTl1MVl4SHN2SlhtSUVZS3RtTjJTSHZTOEw4TXZrMmdMQTN0MERVLUdlNFo0alh4SFZQdmN4TEdHcndkellR0gGHAUFVX3lxTFBXRGhHS2Y3YUEtVHNISUV5NENROVFzN1lRNm84aDREUnBsbHhoTUstVGpTdS1QcnJZamdTczJtT0taUVc0Q1ZwSVRnWFRUcElraE1oTW9nSjhmQVNBeEtLRWhfY3BWcjlvb0daemRSS09qem1RMTk5MkRCTGxFcnpIWmxucHZwOA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Trump Officials Seek Block on Alaska Senate Race Results if the Republican Dan Sullivan Loses",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZDl5Z3RHSk9rWjFzYUZTei1SdmpSYllQaWg2WVBDbHFvVks4S05ZZHdoRWxvUFFEZEx2WTFQRWxuYWpOYjhROUhpaTZXbm44T0tTbkRkZjlJQVgtdVYxR0wzVXpfSnlLSEdLSjNtcG1jdER6LUlkYjRRR01raFBMdkhPMWpNajVCR2pnSXY0aVkyZ19fek1v?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "The Guardian",
-   "lean": "unrated",
-   "title": "Trump says he ordered DoJ to file lawsuit to block Alaska Senate results certification",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdmFWVGdIS19YcFBZczhtNHZ1V1g1MUR4VEQwV0ZheEZXbk40ZEpwdlZRNkM3S2hqaGtuSnlFSkJRODcwQ0FQcG5jTmUtdmNmVkdTVVJNOUtzODRkczg1c2ctUVVBdS1HUUJvaG9fQWY1Y3F5dXRWUzg5YTl3UEZkWkRFSFpIVXBhaW5TMXFOd19YVUtQcWpN?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Alaska Beacon",
-   "lean": "unrated",
-   "title": "Trump administration sues to block Alaska’s US Senate election result if Peltola wins",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdk9GRExLZ2ZYOXAtcUxsekd5eWU4MS1BVG01Y2FNTEQxSXdMRGZGODRScFJSV25EeFNWMUNRS2dqNjhJaldSNVZQbG5mNjdNOTZwTF9YdWw2eGFXeEp3QVNyeThDTFBSU2xJZFFGVjE1SzlybnZ2Q3B4Qk12VmRFZ2hTRmlaQ0duajBkUl9GQXJxU1JpNXRmaDdLRFc0dGpQUzNZcFhObVBvSGdBOGc2NXNlYWMwV1FwSXJhUzBn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-AK",
@@ -473,6 +471,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-26",
    "c": 0,
    "p": -0.8
   }

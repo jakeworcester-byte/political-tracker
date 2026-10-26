@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-25",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-25",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-12",
+   "as_of": "2026-10-25",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-21",
+   "as_of": "2026-10-25",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -291,16 +291,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "race": "SEN-MN",
    "races": [
     "SEN-MN"
    ],
    "type": "reporting",
-   "source": "The Washington Post",
+   "source": "Rasmussen Reports",
    "lean": "unrated",
-   "title": "U.S. Senate race in Minnesota moves toward GOP in new Cook rating",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnB1RGJieHVvWGxMV2RjOXhqOWpaN3cyV1NIYm10TGRaTkZkeFR2cFdiNjhOUklqUEFFRlB2aG9JamRKRTZYWHVVekY5dGF1MmRXeDZzTThqX09ZSW1xWFRDXzNBSGVCUkZhczVNdW01Wm5LaTBvU2RKbzhUdjJzWXFkYXZEeHQ2d1kxc3FQQlBrYmNraXdCS3loOUZFUU1PMHhnYzdqTGdOdmhYUVE?oc=5",
+   "title": "Election 2026: Minnesota Senate",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVUViN1E3OEY4Nm9PNXhZYVdub0E4b2NCaGJRcXYtUWNGR1AxaENMU0F5XzUxb3VSNDUyRW42bWVpOFpCTHlFSEZKUjI2WHB1LWF1ZGlsVG15OGZ2VndHR0xjYXkwZGJRa0NYNkhWX3hzdlBzTmtQd182bnVjMzI0eXl4S1ZicEVxOHhyb1g1ZXFNNDJvSnhpalVTNlNIV0M4OURvWXR1X1Q0Z2lYbHZXdQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -395,6 +395,11 @@
   },
   {
    "date": "2026-10-25",
+   "c": -2,
+   "p": -4.3
+  },
+  {
+   "date": "2026-10-26",
    "c": -2,
    "p": -4.3
   }
