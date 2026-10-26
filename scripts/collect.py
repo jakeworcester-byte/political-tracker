@@ -8,6 +8,8 @@ Sources (all legitimate, machine-readable, one request per source per run):
     Cook, Sabato, Inside Elections, DDHQ, The Economist, Split Ticket, Fox, RCP,
     Silver Bulletin and FiftyPlusOne with the date of each forecaster's update.
   * VoteHub public polls API (generic ballot, approval, Senate, House, governor).
+  * Wikipedia's generic congressional ballot aggregate table (DDHQ, FiftyPlusOne,
+    NBC, RCP, Silver Bulletin), since VoteHub's national poll coverage lapses.
   * Polymarket Gamma API (chamber control and balance-of-power markets).
   * Kalshi public market API (best effort; only priced markets are kept).
   * RSS feeds listed in config/sources.json with lean tags.
@@ -361,6 +363,59 @@ def collect_votehub(cov, raw_dir, since):
         return None
 
 
+def parse_generic_aggregates(html):
+    """Rows of the 'Source of poll aggregation' table. Margin is R minus D, like VoteHub margins."""
+    p = TableParser()
+    p.feed(html)
+    table = next((t for t in p.tables if t["rows"] and t["rows"][0]
+                  and t["rows"][0][0]["text"].lower().startswith("source of poll aggregation")), None)
+    if table is None:
+        raise ValueError("generic ballot aggregate table not found")
+    head = [c["text"].lower() for c in table["rows"][0]]
+    ci = {k: next(i for i, h in enumerate(head) if h.startswith(k)) for k in ("dates updated", "republicans", "democrats")}
+
+    def pct(t):
+        m = re.search(r"(\d+(?:\.\d+)?)\s*%", t)
+        return float(m.group(1)) if m else None
+
+    out = []
+    for row in table["rows"][1:]:
+        cells = [c["text"] for c in row]
+        if len(cells) != len(head) or cells[0].lower().startswith("average"):
+            continue  # the Average row spans two columns; we compute our own
+        r, d = pct(cells[ci["republicans"]]), pct(cells[ci["democrats"]])
+        if r is None or d is None:
+            continue
+        try:
+            updated = dt.datetime.strptime(cells[ci["dates updated"]], "%B %d, %Y").date().isoformat()
+        except ValueError:
+            updated = None
+        out.append({"aggregator": cells[0], "updated": updated,
+                    "rep": r, "dem": d, "margin": round(r - d, 1)})
+    return out
+
+
+def collect_generic_aggregates(cov, raw_dir):
+    src = next(s for s in CONFIG["structured"] if s["id"] == "wiki_generic_ballot")
+    t0 = time.time()
+    status = None
+    try:
+        status, body = fetch(src["url"], accept="text/html")
+        if status != 200:
+            cov.add(src["id"], src["name"], False, f"HTTP {status}", status=status, seconds=time.time() - t0)
+            return None
+        rows = parse_generic_aggregates(body.decode("utf-8", "replace"))
+        out = {"source_url": src["url"] + "#Generic_congressional_ballot_aggregate_polls",
+               "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(), "aggregates": rows}
+        json.dump(out, open(os.path.join(raw_dir, "generic_aggregates.json"), "w", encoding="utf-8"), indent=1)
+        cov.add(src["id"], src["name"], bool(rows), f"{len(rows)} aggregators", count=len(rows),
+                status=status, seconds=time.time() - t0)
+        return out
+    except Exception as e:  # noqa: BLE001
+        cov.add(src["id"], src["name"], False, f"{type(e).__name__}: {e}", status=status, seconds=time.time() - t0)
+        return None
+
+
 # --------------------------------------------------------------------------- Markets
 
 def collect_polymarket(cov, raw_dir):
@@ -607,7 +662,7 @@ def collect_google_news(cov, raw_dir, now, tracked_races):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="Run date YYYY-MM-DD (default: today, America/Chicago)")
-    ap.add_argument("--skip", default="", help="Comma list of collectors to skip: wikipedia,votehub,polymarket,kalshi,feeds,google_news")
+    ap.add_argument("--skip", default="", help="Comma list of collectors to skip: wikipedia,votehub,generic,polymarket,kalshi,feeds,google_news")
     args = ap.parse_args()
     skip = {s.strip() for s in args.skip.split(",") if s.strip()}
 
@@ -627,6 +682,9 @@ def main():
     if "votehub" not in skip:
         since = (now - dt.timedelta(days=120)).date().isoformat()
         collect_votehub(cov, raw_dir, since)
+    if "generic" not in skip:
+        time.sleep(3)  # be polite to Wikipedia
+        collect_generic_aggregates(cov, raw_dir)
     if "polymarket" not in skip:
         collect_polymarket(cov, raw_dir)
     if "kalshi" not in skip:

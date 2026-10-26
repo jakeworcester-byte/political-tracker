@@ -105,7 +105,7 @@
       <div class="cards">
         ${controlCard("Senate control", n.markets.senate)}
         ${controlCard("House control", n.markets.house)}
-        <div class="card"><div class="label">Generic ballot</div><div class="big" style="color:${(n.generic_ballot.average_margin || 0) < 0 ? "var(--dem)" : "var(--rep)"}">${esc(n.generic_ballot.average_label)}</div><div class="note">avg of ${n.generic_ballot.n_polls} polls · <a href="#national">details</a></div></div>
+        <div class="card"><div class="label">Generic ballot</div><div class="big" style="color:${(n.generic_ballot.average_margin || 0) < 0 ? "var(--dem)" : "var(--rep)"}">${esc(n.generic_ballot.average_label)}</div><div class="note">${gbBasis(n.generic_ballot)} · <a href="#national">details</a></div></div>
         <div class="card"><div class="label">Presidential approval</div><div class="big">${n.approval.approve == null ? "n/a" : n.approval.approve.toFixed(0) + "%"}</div><div class="note">${n.approval.net == null ? "" : `net ${n.approval.net > 0 ? "+" : ""}${n.approval.net.toFixed(1)} · ${n.approval.n_polls} polls`}</div></div>
       </div>
 
@@ -233,25 +233,30 @@
   }
 
   // ------------------------------------------------------------------ national
+  function gbBasis(gb) {
+    return gb.source === "aggregates" ? `avg of ${gb.n_aggregators} aggregators` : `avg of ${gb.n_polls} polls${gb.polls_stale ? " (stale)" : ""}`;
+  }
+
   function renderNational() {
     const n = DATA.national, gb = n.generic_ballot, ap = n.approval, m = n.markets;
     const hist = (HISTORY || []).filter(h => h.generic_ballot != null);
     const mh = (HISTORY || []).filter(h => h.markets && h.markets.senate != null);
     $app.innerHTML = `
       <h1>Where the electorate is</h1>
-      <p class="sub">Generic ballot, presidential approval, and prediction markets. Polls from the VoteHub public feed; markets from Polymarket.</p>
+      <p class="sub">Generic ballot, presidential approval, and prediction markets. Generic ballot from the aggregators compiled on Wikipedia; polls from the VoteHub public feed; markets from Polymarket.</p>
       <div class="cards">
-        <div class="card"><div class="label">Generic ballot</div><div class="big" style="color:${(gb.average_margin || 0) < 0 ? "var(--dem)" : "var(--rep)"}">${esc(gb.average_label)}</div><div class="note">avg of ${gb.n_polls} polls</div></div>
+        <div class="card"><div class="label">Generic ballot</div><div class="big" style="color:${(gb.average_margin || 0) < 0 ? "var(--dem)" : "var(--rep)"}">${esc(gb.average_label)}</div><div class="note">${gbBasis(gb)}</div></div>
         <div class="card"><div class="label">Approve</div><div class="big">${ap.approve == null ? "n/a" : ap.approve.toFixed(1) + "%"}</div><div class="note">${ap.n_polls} polls</div></div>
         <div class="card"><div class="label">Disapprove</div><div class="big">${ap.disapprove == null ? "n/a" : ap.disapprove.toFixed(1) + "%"}</div><div class="note">net ${ap.net == null ? "" : (ap.net > 0 ? "+" : "") + ap.net.toFixed(1)}</div></div>
         ${controlCard("Senate control", m.senate)}
         ${controlCard("House control", m.house)}
       </div>
+      ${(gb.aggregates || []).length ? `<h2>Generic ballot aggregators</h2><div class="card"><ul class="list">${gb.aggregates.map(a => `<li><div class="item-title">${esc(a.aggregator)} <span class="pill ${a.margin < 0 ? "D" : a.margin > 0 ? "R" : "T"} sm">${margin(a.margin)}</span></div><div class="item-meta">D ${a.dem}% / R ${a.rep}%${a.updated ? ` · updated ${fmtDate(a.updated)}` : ""}</div></li>`).join("")}</ul><p class="meta"><a href="${esc(gb.aggregates_url)}" target="_blank" rel="noopener">Wikipedia aggregate table</a></p></div>` : ""}
       ${hist.length > 1 ? `<h2>Generic ballot average over time</h2><div class="card">${sparkline(hist.map(h => ({ x: h.date, y: h.generic_ballot })), true)}</div>` : ""}
       ${mh.length > 1 ? `<h2>Market odds of Democratic Senate control</h2><div class="card">${sparkline(mh.map(h => ({ x: h.date, y: h.markets.senate })), false)}</div>` : ""}
       ${m.balance ? `<h2>Balance of power (Polymarket)</h2><div class="card"><ul class="list">${Object.entries(m.balance.combos).sort((a, b) => b[1] - a[1]).map(([k, v]) => `<li><div class="item-title">${esc(k)} <span class="pill gray sm">${v}%</span></div></li>`).join("")}</ul><p class="meta"><a href="${esc(m.balance.url)}" target="_blank" rel="noopener">Market page</a> · implied probabilities, labeled as market prices and never averaged with polls.</p></div>` : ""}
       <div class="two">
-        <div><h2>Recent generic ballot polls</h2><div class="card"><ul class="list">${gb.polls.map(p => `<li><div class="item-title">${esc(p.pollster)} <span class="pill ${p.margin < 0 ? "D" : p.margin > 0 ? "R" : "T"} sm">${margin(p.margin)}</span></div><div class="item-meta">${fmtDate(p.end_date)} · n=${p.n || "?"} ${esc(p.population || "")}${(p.sponsors || []).length ? ` · ${esc(p.sponsors.join(", "))}` : ""}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">source</a>` : ""}</div></li>`).join("")}</ul></div></div>
+        <div><h2>Recent generic ballot polls</h2><div class="card">${gb.polls_stale ? `<p class="meta">The VoteHub feed has no generic ballot poll newer than ${gb.latest_poll_date ? fmtDate(gb.latest_poll_date) : "the last 120 days"}.</p>` : ""}<ul class="list">${gb.polls.map(p => `<li><div class="item-title">${esc(p.pollster)} <span class="pill ${p.margin < 0 ? "D" : p.margin > 0 ? "R" : "T"} sm">${margin(p.margin)}</span></div><div class="item-meta">${fmtDate(p.end_date)} · n=${p.n || "?"} ${esc(p.population || "")}${(p.sponsors || []).length ? ` · ${esc(p.sponsors.join(", "))}` : ""}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">source</a>` : ""}</div></li>`).join("")}</ul></div></div>
         <div><h2>Recent approval polls</h2><div class="card"><ul class="list">${ap.polls.map(p => `<li><div class="item-title">${esc(p.pollster)} <span class="pill gray sm">${p.approve}/${p.disapprove}</span></div><div class="item-meta">${fmtDate(p.end_date)} · n=${p.n || "?"} ${esc(p.population || "")}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">source</a>` : ""}</div></li>`).join("")}</ul></div></div>
       </div>
       <h2>National reporting and commentary</h2>

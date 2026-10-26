@@ -42,6 +42,7 @@ Markets
 - A market move of 5 points or more in a chamber-control or tracked-race market since the last run.
 - A material race event: candidate withdrawal, major scandal, debate, large ad buy, high-profile endorsement, court ruling affecting the ballot, or a redistricting change.
 - Generic ballot or presidential approval moving 1.5 points or more in the average since the last run.
+- When the digest marks generic ballot polls STALE, never describe the average as "unchanged" or current on the strength of those polls. Cite the aggregator average when the digest has one; otherwise say the poll data is stale and give the date of the newest poll.
 
 ## Early vote
 

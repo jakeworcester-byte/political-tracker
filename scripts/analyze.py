@@ -182,7 +182,10 @@ def polling_summary(race, polls, candidates, run_date):
     }
 
 
-def national_polls(votehub, run_date):
+POLLS_STALE_DAYS = 10  # newest generic ballot poll older than this is flagged in the digest
+
+
+def national_polls(votehub, run_date, aggregates=None):
     polls = votehub.get("polls", []) if votehub else []
     today = dt.date.fromisoformat(run_date)
 
@@ -213,7 +216,23 @@ def national_polls(votehub, run_date):
         "polls": [{"pollster": p.get("pollster"), "end_date": p.get("end_date"), "margin": gb_margin(p),
                    "n": p.get("sample_size"), "population": p.get("population"), "sponsors": p.get("sponsors"),
                    "partisan": p.get("partisan"), "url": p.get("url")} for p in sorted(rows, key=lambda p: p.get("end_date") or "", reverse=True)[:10]],
+        "source": "polls",
     }
+    gb = out["generic_ballot"]
+    newest = max((p.get("end_date") or "" for p in polls if p.get("poll_type") == "generic-ballot" and not p.get("internal")), default="")
+    gb["latest_poll_date"] = newest or None
+    gb["days_since_latest_poll"] = (today - dt.date.fromisoformat(newest)).days if newest else None
+    gb["polls_stale"] = gb["days_since_latest_poll"] is None or gb["days_since_latest_poll"] > POLLS_STALE_DAYS
+
+    # Aggregator averages (Wikipedia table) are the headline number when available: they keep
+    # updating when the VoteHub feed stops carrying national polls.
+    aggs = (aggregates or {}).get("aggregates") or []
+    gb["aggregates"] = aggs
+    gb["aggregates_url"] = (aggregates or {}).get("source_url")
+    if aggs:
+        m = round(statistics.mean(a["margin"] for a in aggs), 1)
+        gb.update({"average_margin": m, "average_label": fmt_margin(m), "n_aggregators": len(aggs), "source": "aggregates",
+                   "aggregates_updated": max((a["updated"] for a in aggs if a.get("updated")), default=None)})
 
     def net(p):
         a = d = None
@@ -424,10 +443,14 @@ def detect_changes(races, prev_latest, markets, national, prev_history_entry):
                            "delta": round(cur["D"] - prev["D"], 1), "url": cur.get("url"), "source": "Polymarket"})
     prev_gb = ((prev_latest or {}).get("national", {}).get("generic_ballot") or {}).get("average_margin") if prev_latest else None
     cur_gb = national["generic_ballot"]["average_margin"]
+    prev_src = ((prev_latest or {}).get("national", {}).get("generic_ballot") or {}).get("source", "polls")
+    if prev_src != national["generic_ballot"]["source"]:
+        prev_gb = None  # switching between poll average and aggregator average is a method change, not movement
     if prev_gb is not None and cur_gb is not None and abs(cur_gb - prev_gb) >= 1.5:
         movers.append({"type": "poll shift", "race": "National", "name": "Generic ballot",
                        "text": f"Generic ballot average {fmt_margin(prev_gb)} -> {fmt_margin(cur_gb)}",
-                       "delta": round(cur_gb - prev_gb, 1), "url": SITE_URL + "#national", "source": "VoteHub polls"})
+                       "delta": round(cur_gb - prev_gb, 1), "url": SITE_URL + "#national",
+                       "source": "Generic ballot aggregators" if national["generic_ballot"]["source"] == "aggregates" else "VoteHub polls"})
     prev_ap = ((prev_latest or {}).get("national", {}).get("approval") or {}).get("net") if prev_latest else None
     cur_ap = national["approval"]["net"]
     if prev_ap is not None and cur_ap is not None and abs(cur_ap - prev_ap) >= 1.5:
@@ -467,8 +490,17 @@ def write_bundle(run_date, races, national, markets, movers, signals, coverage, 
     L("")
     L("## National")
     gb, ap = national["generic_ballot"], national["approval"]
-    L(f"- Generic ballot average: {gb['average_label']} ({gb['n_polls']} polls). Latest: " + "; ".join(
-        f"{p['pollster']} {fmt_margin(p['margin'])} ({p['end_date']})" for p in gb["polls"][:3]))
+    if gb["source"] == "aggregates":
+        L(f"- Generic ballot average: {gb['average_label']}, mean of {gb['n_aggregators']} aggregators updated {gb['aggregates_updated']}: "
+          + "; ".join(f"{a['aggregator']} {fmt_margin(a['margin'])}" for a in gb["aggregates"]) + f" ({gb['aggregates_url']})")
+    else:
+        L(f"- Generic ballot average: {gb['average_label']} ({gb['n_polls']} polls). Latest: " + "; ".join(
+            f"{p['pollster']} {fmt_margin(p['margin'])} ({p['end_date']})" for p in gb["polls"][:3]))
+    if gb["polls_stale"]:
+        L(f"- STALE: the newest generic ballot poll in the VoteHub feed ended {gb['latest_poll_date'] or 'never'}"
+          + (f" ({gb['days_since_latest_poll']} days ago)" if gb["days_since_latest_poll"] is not None else "")
+          + (". The headline number comes from the aggregators above, not those polls." if gb["source"] == "aggregates"
+             else ". The average above is frozen on old polls: do not call it unchanged or current; say the poll data is stale."))
     L(f"- Presidential approval average: {ap['approve']}% approve / {ap['disapprove']}% disapprove, net {ap['net']:+.1f} ({ap['n_polls']} polls)" if ap["net"] is not None else "- Presidential approval: no recent polls")
     for ch in ("senate", "house"):
         m = markets.get(ch)
@@ -553,6 +585,7 @@ def main():
     ratings_s = load(os.path.join(raw, "ratings_senate.json"))
     ratings_h = load(os.path.join(raw, "ratings_house.json"))
     votehub = load(os.path.join(raw, "votehub.json"), {"polls": []})
+    gb_aggs = load(os.path.join(raw, "generic_aggregates.json"), {})
     poly = load(os.path.join(raw, "polymarket.json"), {})
     kalshi = load(os.path.join(raw, "kalshi.json"), {})
     feeds = load(os.path.join(raw, "feeds.json"), {})
@@ -614,7 +647,7 @@ def main():
                 unresolved.append({"key": rec["key"], "names": names[:8]})
             races.append(rec)
 
-    national = national_polls(votehub, run_date)
+    national = national_polls(votehub, run_date, gb_aggs)
     markets = market_summary(poly, kalshi)
     national["markets"] = markets
 
