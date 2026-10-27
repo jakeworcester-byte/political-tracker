@@ -29,7 +29,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-26",
+   "race": "HOU-MI-04",
+   "races": [
+    "HOU-MI-04"
+   ],
+   "type": "reporting",
+   "source": "Native News Online",
+   "lean": "unrated",
+   "title": "Sean McCann (Citizen Potawatomi Nation) Challenges Huizenga in Competitive Michigan Congressional Race",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZ1U0YmJrSE9PdzBnR2xHQ2ZDWmxORE0zNzc4T2hUV0ItMGxsSHN3ZkllN1BEY2JOUHc3ZGtTd2RPY1Z4cW5GMEJRYms1OEVLNTExMy1FV2JtMzlaWGdtMldrVURkeU1JLXh5eXk1enVibUgxcXRjV0JubzA4RWdtQ0hGTm9LVzUweDc1NWw5RWN6Sk9IXzI3enMxSFdXYy1QUExrU3Nnb0VkNHRUZVJ2VUtYRDItU3FtSkpTUUJuRjU4alNIRDBVMHFfcjVOd1VzdEpnR3JR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-04",
  "history": [
   {
@@ -168,6 +184,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-27",
    "c": 0,
    "p": null
   }

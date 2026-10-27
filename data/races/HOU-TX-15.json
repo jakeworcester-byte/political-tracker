@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -184,6 +184,21 @@
  "trend": "Toward R",
  "signals": [
   {
+   "date": "2026-10-26",
+   "race": "HOU-TX-15",
+   "races": [
+    "HOU-TX-15"
+   ],
+   "type": "reporting",
+   "source": "Texas Monthly",
+   "lean": "unrated",
+   "title": "Dems Lost South Texas. Can Bobby Pulido Bring the Party Back?",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMERNUTgwSXQ1Q3UtcEt5dVdPZjYwR1NtWnEzZE9BS3NLV1FjTDRTVVlDMkFudkZiTHEzS0k4b3dFMjFqYnE2OW1SVnMtbzFhZWhybEVqN1pPMDIxT3gzUm11ZmtMbHJWN2NmY1VpdkZmamYtcG1zRUtSVTN5MFA0RzluN2Q?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-22",
    "race": "HOU-TX-15",
    "races": [
@@ -278,6 +293,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-10-27",
    "c": 0,
    "p": -10.0
   }

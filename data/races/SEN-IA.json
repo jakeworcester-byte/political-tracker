@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   }
  },
@@ -375,38 +375,7 @@
  },
  "raw_poll_count": 16,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-22",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "WOWT",
-   "lean": "unrated",
-   "title": "Election 2026: Iowa Senate race tightens with less than two weeks to Election Day",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmFvTGJYRlNMTU9fUUVzdTF4azdhT2h6Z3F5ejEzZnppc2hmWDdoSHd5QkdMOVhuMG4zX3NPRTItRERZcHBfZEFyUjV6SDRwMmRvR3g1QnhTTF9GMmtoWHZOUlhvdFZzMUMzV0xBWUR0REZWWHc0aTJJT1NVV3JJbmNqbUtPYklHRjVBV25tbWNzRVF2c1RES3d4cWPSAbABQVVfeXFMTTRzZ3FnUHNpbTdfZDF3a216TW5DN3pfbm1JSE5NTmVmSDloYmgzOEFEUzJfaFR2bE9IVF8yNmdzcjNxS2RHZlk1VHJ6Si0wYWNqcFprNU9XQm5WTGRTeTN2WFBTUnRSd2x1dHo3UXB5LThqb0J1YkZieVV5dEJmakloWGVOVExFdV9fcXhBb0pMQ3N0RWk2ZXVsLUJuN2wxQ2FBdWdhc3Zmc0JhaGswZHo?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "LiveNOW from FOX",
-   "lean": "unrated",
-   "title": "Iowa’s 2026 Senate race: What to know about Josh Turek vs Ashley Hinson",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAzM3Jkc0ZURnFVNHJ5M2FlZF9sbGM0V0ZGR3hXMnJodUk5dnJFS0ZOLWg4NWpDUm9CUy1tS195OFlfT01mMGlQMUc0ZHpvVXVvYU16dFdVUno3R3VoSWRsUEpjWGRIeW9WbUQ0dG5LT1ZvV0xIT3ZGb1hTdkUzZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
  "history": [
   {
@@ -486,6 +455,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 0,
+   "p": 0.7
+  },
+  {
+   "date": "2026-10-27",
    "c": 0,
    "p": 0.7
   }

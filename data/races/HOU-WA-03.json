@@ -29,7 +29,7 @@
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -163,6 +163,21 @@
  "trend": "Toward D",
  "signals": [
   {
+   "date": "2026-10-26",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "AppleValleyNewsNow.com",
+   "lean": "unrated",
+   "title": "Previewing the race for Washington's 3rd congressional district in the upcoming 2026 midterms. #wapolitics",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNVzNITlpCREYtRnoxR3daeGFjMG10bFUtaEJxbmdOeWRuWTdUbVZVWk1yZkpWWUNRQmFScU5BY0hBbWdIQWtzQUUxU3ZqSzBKUXFKa0NrT1d3SjVXQlNiSGFvQmNodmotTkMtSHhhbU9GSTJxN2F6WFZhY2wxQzlBbHc2NWhYSm9Qb3p4d2RiZTRNXzV3R0tGRGx0NlBfTXN3akwtR1EyYUJHekJaV3dIS3BQUjB4OFFhRkkzR1ZEQ3VkWWs4OHRmY2VmOGpFckNKQ3RuU3poTnM5bmhZWnZDMUo3WUdEVnV4SXpFQnhSVVk3M29oN3NzZ09lay14Z1JkTnc1bkdneUxFQlNwdjJ3aXNNdTBaRk1oc3pvRg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-24",
    "race": "HOU-WA-03",
    "races": [
@@ -173,6 +188,21 @@
    "lean": "unrated",
    "title": "Know Your Candidates 2026: John Braun, Washington U.S. House, District 3",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSm1UcGRyMjhWUXNHZWVRbE5LMG1NLVhXRlBobTdaVU5WUk9CcXBiZ0hRQjVsS0RjT3VZTmozenFDYUV6MU1jRFFRaGoxclFaOHRoTmhvN2ZEV1BLV3dlWVhFTTlscWt5eVRnVExtTmMwclptWlNKM1FsQUk2eWhuaE45VmpCRmN0VDdpVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-24",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "KATU",
+   "lean": "unrated",
+   "title": "Know Your Candidates 2026: Marie Gluesenkamp Perez, Washington U.S. House, District 3",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQmFGZzlKVDdoMEtzdnJLN1dfeFlXWnNJQkFoR3ZTanJuUk8xYUlVcTRHOE5KRm5KXzk1OW11SnlkN3ItX2lMdHZiUFZ4WWdtS2wtNnlGYnVPeEo5RFE1N0VPdk13OGVES2pkZW9nRHJCOFktZE9YdlcxZ3ZqOHV3U1diTXk0WDhwaW0zdUNqbnEtNDhUSmFGQkFiR1FFUQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -287,6 +317,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": -2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-27",
    "c": -2,
    "p": -1.0
   }

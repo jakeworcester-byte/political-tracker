@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   }
  },
@@ -194,60 +194,61 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-25",
+   "date": "2026-10-27",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "In Deep Red Kansas, a Trump Loyalist Fights to Defend a Senate Seat",
-   "url": "https://www.nytimes.com/2026/10/25/us/politics/roger-marshall-kansas-senate.html",
-   "summary": "Senator Roger Marshall was slow to recognize the steep challenge he faced in his solidly conservative state. Now he is confronting dissent among voters with deep economic worries.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Fox News",
+   "source": "Kansas Reflector",
    "lean": "unrated",
-   "title": "Kansas Sen Roger Marshall urges supporters to cast their ballots",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0RXZtMHh4d1oyckNwZUNoZVZqNnVJTXlDYnJIamp5NnlYYVRnRVNRaURCU01QTHpKMDNtZUtHWjI5YURxRnR1Qi1oWXp4OU9zd1d1bk1B?oc=5",
+   "title": "Vice President JD Vance renews call for Kansas GOP voters to back US Sen. Roger Marshall",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQmptZUp6OXJSWHZkRkZBR052aENpNG41ZDVZbmQ0R0pUR0ZVTUR0LW81U0g5S3JuallTWjBKLUFhdTg1aE5JbVZjX21uekhqaVgzaGJ0djVoaVF0YW9FVVFIWkFCWkt5cG1HcjlCOGhRWUFGT3B6NVRUQkNMNVE2a2IxNnhpVEUwaWtkZE5lZUh0NlcyQlRxb0hYMUoyUXBJcFpDUjdDSVZ3MWtLeXVLeU95LXZDd0xVVHhLYmVsZlVfTlUtMFNHbA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-23",
+   "date": "2026-10-27",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "Yahoo",
+   "source": "KCTV",
    "lean": "unrated",
-   "title": "The church abuse allegations shaking Kansas senate race",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOempoMVYxSXU2cldTNjIyUTJjVmFfRy0wMDcxVVphaGtmRThoelNhRVFzc2xxNURfZ3ItLVE0d0htSDhwZ0hxVUxTdlhWaHVwTTNMVzVsaldYVVpzNllDSTlhdDZGQUE3djdFbzZ3ZjEzTEJrRUt6Uk9icl91cHQwVVd6WnltRm9keENuVGxPd3lzdGk4UDRhZ01pM3hvbThm?oc=5",
+   "title": "Vice President Vance returns to Kansas to rally for Roger Marshall",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdkRKSklweXR6NUhjTmlpTUxVbDc0VEEzTVQyMlU5bllPQS1CZUpXaS1GRG9aOHg3V1Y5bUZnV2pMcFM2LUFFdFd3bkEtY0pUeFF1TXZJZ2ktYXVVdkZaRWVDZXB5ZWdEMWN4WUEyaERXT183WjNuMm1hTDY5Y09EdjM2SElEZ2pYbjdEZkw4NXNCd2Rv0gGoAUFVX3lxTE1kaWNJb3BqS0hlMUlkR1gzd3JGaENfOFVQd1RZcGRvNVlIQlM1THZrQllOTHpURmcxXzhjZm50RHo1WDFmTnRRTDlVcnB4WlZ5T0hNbFFwSGxaSmh2cW1Bb1M4eWo0OGROOGtudTcxUDNGRG8zenIyamdtTnhmQ2J1X3RqWjNRcENIMHFRZTc2Y1Z5Q2p6N1J0WDBQU3dRd3hZdjlKbHpFcw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-23",
+   "date": "2026-10-26",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "KSNT 27 News",
+   "source": "KMBC",
    "lean": "unrated",
-   "title": "False Google alert incorrectly declares winner in tight Kansas Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT0JLYlc5bUhOcF9wUjZ3aHprV0pkUzY3aF84Q09OTGNRbkhXaUZjY2NwdXhyZUwxZmV6N21fdzd4LV83b1FNcEV3alJmbGNuWUIxSWdXemJYS0lwR0wzZnVJOWNxQllMbUNxNktscGthY0FlazQ5Q2JJOTZJNkV1TGVrNHYzUDJ3YWZRSGw5a0NZaGdabmE4VzA4UDgtNFpyY0VveGdMcXRRZ9IBrwFBVV95cUxNekRtcVBzZ2E3bW5ndlRXQ0E1NUF5bjFDNlF0S25tYkZjdjJmay05b1BHNTBiNlB1S0YtSGtoWUZXV0ltZTNSUC1xZjhBQkhoMTU5TGJQVUpxY3RTWFFIeFFaeFBNbWtMYU50VlVRSDdWUUNxN09WQklXWGRZbFhJSVJEdlF3dHBMNmpRUVpQamJjMTdWdlV3T19FYWVOQW5VbGtfNm4wVVFpTFVodGdj?oc=5",
+   "title": "Kansas Senate race is unexpectedly competitive, polls say",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUWQ0WElLT2lBUVFmT2RGQnFKeG40aGxGTVRydC1KclVJd0NDaEVnNnBETzZ6U3owbExQNXUxdVB2SzZ0dGZTZVBNVTltRDF1R0NuTGdSY0twZ1doRkhZeFRMaWM2YU1yeWZUdWxLMEg4UmtiVEtKMGh2Z1plaGg5MWNJdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-22",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "PBS",
+   "lean": "unrated",
+   "title": "Kansas Sen. Roger Marshall in debate blames Ukraine war, not Iran war, for high diesel prices",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc21EbmNWWHhvc0JEWUhBRGczQzhCTGJTSlU4UlJOQmlRMC1uMUExNFJ5a3FkamJrMEVrWDk4WHBCYkI3RTJ1VkZpQno0SnRCTzJLVjRHVU53QnIyVzlGWUU0b0p2TzlTWG1ubWFraERzZTRoTTJiOHUxRnpMZ2JNWXRnbW1NOWdReEl0TE5ZWWF1TEMtYzAzS2lHd2h2M0JFem4tOEtyRlVIZEtmRGxtSkNhTUFQMEpJemViSGNpNTRwV0RPSUlZ0gHMAUFVX3lxTE9pYmhVNnhZUElaX0ZIem5JcnVrRUVMZkZNbkhHVHdFZU81TDhZRXEyVVVnY2JoMVFRTGNBZzJwMWpPR01KQUcwTnJrMEZmMHFwdUxqcWpMcWYzQUF4WUZJVXU5YWhlNHk5TGJmQl9kT2Q5M0NfVnJsVWtEZFBZUEZMN1BiWGtxREtqbHVmYWk5YmJRV3hJN0xERVRJeFg1OW5nUXVwZnBpcnh3MlJ5YldyX1ZPTkgwZFhJb3NxZjhXTFZITUpUNW5XZnNkaw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -264,20 +265,6 @@
    "title": "The Good, The Bad and The Ugly: Midterms Update",
    "url": "",
    "summary": "Ruthless breaks down the good, the bad, and the ugly of the midterm elections, from shifting Senate polls in Ohio, Iowa, Kansas, North Carolina, and Georgia to the latest controversies surrounding Adam Hamilton and Troy Jackson. Plus, Kalshi CEO Tarek Mansour joins the progrum to discuss prediction ",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-20",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "podcast",
-   "source": "The NPR Politics Podcast",
-   "lean": "center-left",
-   "title": "The Kansas Senate race is looking like a toss up. Yes, really.",
-   "url": "https://www.npr.org/2026/10/19/nx-s1-6007796/the-kansas-senate-race-is-looking-like-a-toss-up-yes-really",
-   "summary": "Kansas hasn't elected a Democratic senator since the 1930s. But political headwinds against Republicans are turning this year's race between incumbent Sen. Roger Marshall and Democratic challenger Adam Hamilton into a real contest. This episode: Voting correspondent Miles Parks, political reporter S",
    "relevant": true
   }
  ],
@@ -360,6 +347,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-27",
    "c": 0,
    "p": -0.5
   }

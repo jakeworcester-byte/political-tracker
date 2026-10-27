@@ -27,9 +27,9 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,7 +90,22 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-24",
+   "date": "2026-10-27",
+   "race": "HOU-FL-07",
+   "races": [
+    "HOU-FL-07"
+   ],
+   "type": "reporting",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "lean": "unrated",
+   "title": "Primaries: Trump-endorsed Mills of Florida loses, as candidates vie for final 2 spots in Alaska Senate race - ABC News",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbXh2Tkt2RGlzQTRQekdYVU1GMXd2MXotbTVraC1hNEVtX0huelhpRTRadHY4SDdhUlR5b19lVGsyZHZYdVRZUTZFcW1TZDU2czAyMDFjcW5tZ2ZDbGxFYk9IYWxTNmwta1ZGbGEyXzE4UGlEbmNSVjRCZDFMNkNndmxlX29PVm9LMlN2dHJIZ0VNYzlPNmlxS1JoallHSUXSAaQBQVVfeXFMT2pLdkhjMjI3UnZxZmNEU3hvTDdXLXRLUVZURF93QnRVYkpYMWp1SXV2eElDcXhHZFBEVko4NzluSWYwbThTWktILTl4U2g0Mmo0QUpneW91Tm9MT2NUWkNJMDNXa2k5QkNfUGlWbkFTRzNBTndhSDJRYnJLTTRadjlPUFZFSnA5bmIwSndhMlZsU3pHcTJrZ0tTdVZhTWVmVTFzYng?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-26",
    "race": "HOU-FL-07",
    "races": [
     "HOU-FL-07"
@@ -184,6 +199,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-27",
    "c": 2,
    "p": null
   }

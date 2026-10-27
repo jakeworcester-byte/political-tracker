@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   }
  },
@@ -393,50 +393,35 @@
    }
   ]
  },
- "raw_poll_count": 18,
+ "raw_poll_count": 17,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-23",
+   "date": "2026-10-26",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "NBC4 WCMH-TV",
+   "source": "Ohio Capital Journal",
    "lean": "unrated",
-   "title": "Two Ohio polls put Amy Acton, Sherrod Brown ahead in Ohio’s Senate, governor’s races - NBC4 WCMH-TV",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcng1eHN6LVpDd09obWdZWUhHcUlKZ2xWQV94WFBLbnJqVEx0OE1xcFAtZXE2cXVRZnJ4TDByekJrazFNSlhKV1pHREVpQmNMeDRVOG94TnRkcEJ4anZ1UmVQeV9uc1lEb2UyenFJMzk3WUxMak5mUDhVVmtTaFM5V2RjNWp1VHdfTzNUenNmd1hXSWNYMk8tcFdqY0IyTzJwMEdOSGlMaVNDRnoxUjVySjRCblE3SUxqSkFNc2VucnU1QVRQMmY5LUo4QdIB0AFBVV95cUxOS3h3LThKSE9RR0VnMW4wNjYwM2RZOU5LSWszWF9SUGFjNVI0TTB3S2F5WU9QTHJuQUg2elBpSUVhWlRUckdVRldkYV9UXzhGOElCY2R3cV9PU1VlU0FvTWdQM05PamFGSXJWM19rZm9oZW8taVRrZXdqcGplbTRtVVhmd3J1ZzJ6QTN4NWZmVmVVZ0pHTUF2czFfYTJUcEFBNnRCSmI0Y3FaV3l4ZHNCdmE0NmRiQ09oOUZORjZPMVkwVTJhYzlRZVVVU1BjcEhB?oc=5",
+   "title": "Commentary: Ohio incumbent US Sen. Jon Husted's campaign is trying to portray Sherrod Brown as the incumbent",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVTRBZTQyUmd0STlwM3p1Ymdxd0ZabGI1YWZHT052MnJ4TlVKU045TDJrN05jUEV4NnhBOWZRME1ndkU4b0lVRld2ZWMtcV9wc29wRTk0ZFlJLVpsUEVXTHdadzlBdlBuM2dMVlJEZFppNHVHYU9KUEpPdnp5ZUF5ZFp2SVkzLU1ON1hCSzBPY2ZtUGdHRkNyVzduWHpJU1NyYkFfRDZyM01ZTmFTZ3RXOVFXbkUzUGdsQTlYSF8tUUtxN3NnbkZZNEUtVDU3cEZYYUJN?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-22",
+   "date": "2026-10-25",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "WLWT",
+   "source": "New York Post",
    "lean": "unrated",
-   "title": "Two new polls give insight into Ohio Senate, governor races as midterms near",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOTZrSDZZMTdTSnVEZ09lQ1czUWFuZXBUQnA5enFiNERXWV9qR3Vrb19lTTFZb0VOY2o5SWgwaExURUUxZzRnOW9FelVCeHhqRVFsbW5mTG15VTJTWDYwZk16Z1hRVndLWVNwcjlIbWM5QVd3NXJ1TWhCYUlMaUxPZEtadlFYMnNwV0hqSU9lU1dPUFNYYzk0?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "Fox News",
-   "lean": "unrated",
-   "title": "Fox News Poll: Gender gap and pocketbook pain shape Ohio Senate race",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb3hlbEJ2YmN0bW1kWmFrYTEzZ1JfNk9QOTNkbDIzLWdNbUJCMlNQX2I5NGxuczh5bHRWbmVYWWJ6Zl96NVdDOGxTU1JWdzZ2Q2dHbkZlMkFzY094ZHhzcWFRVzZZX0hwWWtmaUZSc24yY0g4d2xudWkwMDNhR3hrMF9sZnhmS1Q4aXJSb3VpZzdYMXFGdDBwRzMxZ07SAaIBQVVfeXFMT1BIZ3RTdC1MTVlHeWc0NGJCUjNJbDYxdXFMcEw0VVNudGtBZmZTZ3hmdUhWcUVFRllvcU1UX21LSnpLNHhFOWJRa1ZXQXdYZ191NXJjMXA3MGVaTVBGeUNBclpkcHQ3QnItdW1kUGdkN3ZKNUdQVGtkT29oMENuX2V0NjFUVVhwbHhJTlJlSlc0TFhsQVREN0ZVZC1SbGZmQVB3?oc=5",
+   "title": "Ohio Sen. Jon Husted reveals what he really thinks of Trump’s butt comments — as prez defends anatomical crack",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMEdkN0h3eUFBRWNET0lwbk1HZEZWc1JLNERJemF3NDJoVXJvdWl4VUlzdDgtd2N5Z1IydE85ODdaZkx5MTRqYllvdGl2UU1zWVQzZ3l1c2tOa0haM3NVT3BoSTNIYTUtVkZ5NWZvRV9TZzNWYlZLb2JITjRZRW01WGhIcTYwVzl0dHBPMFYyWXVVNTJLWk9FdzRfb2JuVkotN0Izd3RRV3dETjR0Ym0yZ2ZB?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -521,6 +506,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 0,
+   "p": -3.5
+  },
+  {
+   "date": "2026-10-27",
    "c": 0,
    "p": -3.5
   }

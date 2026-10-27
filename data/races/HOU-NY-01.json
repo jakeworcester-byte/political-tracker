@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Toward D",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-26",
+   "race": "HOU-NY-01",
+   "races": [
+    "HOU-NY-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "New York 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWklBSE5oNk9KSDl4dFRsZkh3TVhHME5oemlBTXIwZVV2aDdaTml4anVKRDNqcUdYbTlVYkxTeUxZVEFWV2x5dGQ2NlA1RDB2VUh4cVFqTnlwVnRrVXFxeXY4a3N6Q0ZIX1FjaHJicnFNOG0zTndVQ2h4a0xkN1VVeFg4TQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-01",
  "history": [
   {
@@ -168,6 +184,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-27",
    "c": 2,
    "p": null
   }

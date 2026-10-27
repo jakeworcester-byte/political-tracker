@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   }
  },
@@ -359,6 +359,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-26",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Former diplomats, top foreign affairs experts back Jackson in Maine Senate race",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTmNKRmFxdEFNaFZZeDdqQmNhWndRRXhOSVoxSVhJTG5HdUlyYTRTWDN1QUpRbTZyVGtad0pqaHNnU3g5UGRxdGJHNEJaVk9HWnJhbWhJSFlrUUFrUUh0dkxyT1kyMGl1RVpEOV83VG5VOXpDUWtFYzJGSkFWTzA5dlhaalBaeVNIUUExMi1n0gGTAUFVX3lxTE96eXM5c2hoZk1samZ5X3RVd3djRkFjc2ZjcXFqVE5qQnpiVkhJQkpPUFpQVl9RcFhSd3Jab0tYbXIwSmtUMTNaX0hCRk51YjJ3emdOUGpMcEN5R0otS3pzUWQzcmp1ci1uYXI0YlBlUlJfSkFFUDJzT0RCTGQ0cEpPMmFfM1BTRkxVLTBnSTJ6cFRBOA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-25",
    "race": "SEN-ME",
    "races": [
@@ -374,60 +389,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The U.S. is expected to remove 50% tariffs on some Canadian products in a bid to help Maine Sen. Susan Collins and other Republicans in the upcoming midterm elections",
-   "url": "https://www.wsj.com/politics/policy/trump-expected-to-remove-some-tariffs-on-canada-in-bid-to-help-susan-collins-6a89ed1d?mod=rss_socialpoliticsfeed",
-   "summary": "The move, which could come as soon as Friday, would remove tariffs on some agricultural and forestry goods but could raise levies on other products.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "Crypto Briefing",
+   "source": "MS NOW",
    "lean": "unrated",
-   "title": "Maine firefighter union backs Collins in 2026 Senate race",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMlBsVnlScUdLaUtmd2M3OC1xTFZ3Zl9yUjN1N0xrc19fZDRySEhSWl8wcVhoUi1TVnhSS01tSFk3SmJXS0VROENJOVdTdnQ3ajV6YkVjeDhtSzUySFVUTU9oWlV0aWRoR3hfT2pIVGRQdGJpRllsOXM0THVrOXFaVnFpbWZvdC1hMFFQQ0RB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "Forbes",
-   "lean": "unrated",
-   "title": "Hottest 2026 Midterm Races—Maine Senate Race Tied In Latest Poll (Updated Daily)",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTHAteFJWQTViSG44TmYwZUxzVU1pN1dhRi1zWmt4SzViRDFKT2w2UkVDRUFTOWtzLVZ6RjlFem1wWXlYRldVMnQ3cVNVTi1ZX1BnLW50WVRDZGJHMkVBS21paUU5c0tTYndvd2Fyc0ZwN3VlZURIcmhlOVhCTWNMZzNJQzEtUU1sc0Q0c2Zpd0lnb3pqR2h6WlJobGtTMy11X0JNNmJZN3JVNWwxZFo0MHlDUHByemxuaFNReVo4NjFVQXBSYnRn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "CNBC",
-   "lean": "unrated",
-   "title": "Trump’s tariffs loom over Maine Senate race between Collins and Jackson",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zQy1vM2xpZlhpcVU1ZmtRNEhhTGtNZENvSTk3WDdxWWxOYjN6UVJuVlhvTl9faDAxZGR4cEZ1cThZOVJBd1JKVEIydllROEU4MXhFWG02R0RlSXlqaWZmNXhMU3FWLWFWQjFHQy1MOTY1anBBRXpyV0RNVTfSAYIBQVVfeXFMTzFyOW45TzR6WU44QjhRN3VORHpNWElzazRkUHQ0NXJwVXZ3d2VoMUpET0RxSjR1LThUU3hrN2NMcS1EOXhfN3FjU0VvNWYxVmp2V3BvRzdlakQxUzh0dllzdjJKR29ZWXZaQzNBbGM2QVI1TWRLa1YwSHZac25KMFB6QQ?oc=5",
+   "title": "Trump rolls back some Canadian tariffs with Maine Senate race on the line",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92UjgySjlNeWZtTGI4LTExemRDRVVJcW9xUnRucmozY0NVcWJfcmFQa0tnYTZpaG1vNmhoZ18tWE9jXzhPR1U0aXpYbVAxVWlJVHlhVUFpSXZEenNkYVZWQ1VlbnhUb2drUHhaM2VRc2sxVDlVbWZHLVVCSkVZZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -512,6 +483,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 0,
+   "p": -2.2
+  },
+  {
+   "date": "2026-10-27",
    "c": 0,
    "p": -2.2
   }

@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   }
  },
@@ -288,34 +288,49 @@
   ]
  },
  "raw_poll_count": 6,
- "trend": "Stable",
+ "trend": "Toward R",
  "signals": [
   {
-   "date": "2026-10-22",
+   "date": "2026-10-26",
    "race": "SEN-MN",
    "races": [
     "SEN-MN"
    ],
    "type": "reporting",
-   "source": "Rasmussen Reports",
+   "source": "Newsweek",
    "lean": "unrated",
-   "title": "Election 2026: Minnesota Senate",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVUViN1E3OEY4Nm9PNXhZYVdub0E4b2NCaGJRcXYtUWNGR1AxaENMU0F5XzUxb3VSNDUyRW42bWVpOFpCTHlFSEZKUjI2WHB1LWF1ZGlsVG15OGZ2VndHR0xjYXkwZGJRa0NYNkhWX3hzdlBzTmtQd182bnVjMzI0eXl4S1ZicEVxOHhyb1g1ZXFNNDJvSnhpalVTNlNIV0M4OURvWXR1X1Q0Z2lYbHZXdQ?oc=5",
+   "title": "Minnesota Senate Race Shaken by ICE, Fraud and Ilhan Omar Probe—What Polls Show",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMmR3OEl1b0RCTzR6NDJGLXZIRmdhVWYyRUNxdEJSN2l0LVcwMTlidXhkM0tXVER2LVYtVFpoNDhrQTRiaTQwellOblVUX2ZudW1KT2hBQUpUM3Rmd0c3cENETHRkalFIUnpCLTVJUFMtM1pyR0V4dTlOTXdvVXJ0NnNIZHNfT1ZtT0E?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-21",
+   "date": "2026-10-26",
    "race": "SEN-MN",
    "races": [
     "SEN-MN"
    ],
    "type": "reporting",
-   "source": "The Hill",
+   "source": "Minnesota Spokesman-Recorder",
    "lean": "unrated",
-   "title": "Kornacki sees tide ‘working against’ Democrat in Minnesota Senate race",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZS05M1ByVzYyWDFwc3Vmd2lVcGI5alVqQ2pIdGJ2SjRFRFFiempPeFVvREpaVjZGYnhpcmdsRlRkOWFjcjlSOW56OFNoM1BjV0JuZ0JDTGV0bUZqV1pHcDBWMm9JUEk1WnVEaEJPOEhCejNSTUg3ZTRYckVGenI5ZzFoTjJtQdIBiwFBVV95cUxOcmtRQVA5Wm9HMTEtNmc0VHltQm5pS3dteDc2bXowZVUyMzBjYlRvb1ZlRDNlNldIOG9jazZjQTc4S09VcmVoS2xmY3BOdXo5ME94R1hzdl8xTEZfMHRZazNQQ2dwQ0YtWHZhN3hyajhjZ1R2Y0Z2ZGZlTm9VeTRGcklUbUpKaTdpLXNZ?oc=5",
+   "title": "Minnesota Senate Race: Where Flanagan and Tafoya Stand - Minnesota Spokesman-Recorder",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR1NFd1ZrRUpCM2IwMUpPbUJlY1FYdVU0dGNhcWxKYnJhTmRtYWVyRDBVaUdyOTV6ZGxFR1dWY2J4UmFuWnpRWDA3MmJyR3RBVTh1U01BRVAwWFlOdkJYVFlmNU1VTGV3MHI5Rlg4amtUY2x3R2ItbE9lMlpTcjBNbkJEeVM1Ql9Nc3lLVTdaSQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-26",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "The 74",
+   "lean": "unrated",
+   "title": "Minnesota Senate Race Pits an Education and Child Advocate Against a Sportscaster",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVW5uV0VuSWNqdkItTjNycFFEWlpzd1VSWE1LRjk5Z0s4NFFBNXVUajl5N3NFclNyNVNpRk4wZGhuV3BuM083MTAxNGRiUWVGTVcwcV8wNm1pMmJrVklGUkFxd043bFFOOU1kcmxqSDhZWVBZU2o2S3hnckN3dnZxN3hHN1ljT1BKbDNXWVlZUlJtc3dSMERzUzRLbWlTX3lPcFQ3Q0tMb2NTTDJQTjJhaVpjQnM1RjViSDNn?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -400,6 +415,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": -2,
+   "p": -4.3
+  },
+  {
+   "date": "2026-10-27",
    "c": -2,
    "p": -4.3
   }
