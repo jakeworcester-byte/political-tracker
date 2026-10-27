@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   }
  },
@@ -281,6 +281,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-27",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK",
+    "SEN-MI"
+   ],
+   "type": "podcast",
+   "source": "Pod Save America",
+   "lean": "left",
+   "title": "Let Them Eat Cheesecake",
+   "url": "https://audioboom.com/posts/8969627",
+   "summary": "Campaigning in Michigan, Barack Obama says Donald Trump's White House renovations look like \"Saddam Hussein opened a Cheesecake Factory\" — touching off many rounds of fake conservative outrage. Jon, Tommy, and Lovett discuss Trump's reaction to the comparison and other news from the campaign trail, ",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-26",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "CNBC",
+   "lean": "unrated",
+   "title": "Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYW9GMHBKdVMzVnIwMFJjLVY4TEtKdnI5Z0RjcFdndXc2T0o2Tjc4TWRvNEk5OENpOE9zSzIwNVdoUTFvVG92amRuR3hLMm16Q0pjbUNxNUtJWGFxTzZlYlZMVURTeG1NNXZ6a05vakJHaTF4aE8wZFdzd24zT3lpMHlRQk5keWJ1Snh4dlFZdldGUdIBlwFBVV95cUxNTU45U2d0ZUFyc2dTSFdDOU92N3hEUDJvbDZ3ckJfZGlfUkx3ZGVGbDUxcDI3VjgzNVlTbWc0TXg0bDFjVFM4LWc0MXJpZHVWMjY1U1QwWTdsMGpDLUNkR3k3ZTd2V2hERVFKajNyNUNVdUFOS2ZxWldZWVBLTlZxTXV6c3dXcS1QY0N3NlZncEx3RmVCQURB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-25",
    "race": "SEN-AK",
    "races": [
@@ -301,50 +331,6 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
-   "url": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
-   "summary": "Attorney General Todd Blanche defended the Justice Department's suit over Alaska's Senate race in an interview on CNN.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "AP News",
-   "lean": "unrated",
-   "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDBhc2Iwdy1ROUhDWXM1VE5aVHdQU21tM1ZzOFZmT3NGZDhnWnFEajNJSm1LWl8xQmwtN2ppNjFEMXQxbU5MLU9weHo4Z3ZkbXFUUDYzYUtHUkJ6RDc0bWNXMFJ2TXZnd1JSSHNpOHVPa0FmUHRQU0txeUFwb3NFY3c4WkloNk8xMzBwdlMzeDNRY3VUMDlYeDAzNEsyNjZTWW9HS3BsNEtfV0hDSHphYVByOA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "The Guardian",
-   "lean": "unrated",
-   "title": "Blanche defends DoJ’s pre-emptive suit to block Alaska Senate results certification",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbG9YWXRFWEV3SUtKUnVmX1laM1MyaTctemEyZWlFQzVnWm5ISkh4ZlBmZEo0NHk1cHBEc1VGWENsTFgzWWtEMmtKeFlLeGdBYURkeUxNRFBzbDdYVGM0c055RGplSkhPWi1JZlo4d0x5M3FGOTVkRGU5T2NmTURtcmUxdy1vNTlhV1BWNmppQTk0Q2lQbTVRcXJQblh5TlVWRG1fVVFR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
    "source": "NPR",
    "lean": "unrated",
    "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
@@ -354,7 +340,7 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-25",
+   "date": "2026-10-24",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
@@ -362,39 +348,11 @@
    "type": "reporting",
    "source": "Al Jazeera",
    "lean": "unrated",
-   "title": "US Attorney General Todd Blanche defends Alaska Senate election lawsuit",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaWlUTHlaNEZ4V05GQ3FWeGh0Rlc5ZlhNTl9OYks2SGVHT1ZiWlc3QXJPZVk4X01sVFB2T2lVakhXZ2FoMmZVak1sOTE3QmZ3R3dfaUZ2dzBMYkJLdnN0RTdsNTZ0TlNYUXZwWkh0VXlheENTS05yN0NfUUlvYk1qWVRQN3lCWmdwYjY2NDhUVHRqZmloTmdqMXBDSXprclZycVVQZDFRelR0bC02R1c3MnZUUdIBuAFBVV95cUxOTVhld3JnejVGRzhNODFYRWd0R1FrWXRtb1NxZU44bk5PSkpVUG4tQUJwYVZxZHltOGh0TndGMU1Keml2NnpMek1YZEdoaVRSM1M3Q2s3SFBQMmdoaDBEd3BKX3g2SW1nWXNfUzA0c29YZ050dXFlaktlaWRDSW5CZUVFbFJzME9OVjNGVjZZel9jSW84RHhaU2FwTGY0OGhzYWFuVFhXZ3J0N1JxemRZWm1uajZHckNw?oc=5",
+   "title": "Dan Sullivan vs Dan Sullivan: Why is Trump’s DOJ suing in Alaska?",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ3FzY0d0clMyaUhSTGpSZ0oxdDkyOV81SnVWcHhvUF94djJFaFhhZ2pKaTA4dDRtSHdzeERDeTlXN0ZYTTc5Z1F4akF1OG8wdGNqakEwMGp5X2dHQk9hSkdLbzczRDlXYi1qOWE2LTB4YzJTcFlBekVFSURqbUQwV0pXQmtrTWlrREUycWZfUGc5ZjhpM041QW40ZFhBdVhSN3pOZzZCc9IBrAFBVV95cUxOM3h2MXl2VDJtdGxyS3FiMkNMWE1zMUc4WFl4Xy13U3dRRlBTdmZtOEV0ek4zTFY1TmFkOXBkRjMyaWtPZ2g4OVlxaVlDLTN2M0t4TnZUYTd4SmljNmRnNEd2UUtuaGtMX1RTenFBQ2xybUhNMGpCbmFwOUgwRktLbEtybFlUeGJLRkxzd0FRVllnckpvVDdBeUQwaURiMVkzSjJSQVVXZkFubVl2?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-24",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The Trump administration has asked a federal court in Alaska to prevent the certification of the state’s Senate results if the Republican candidate there loses",
-   "url": "https://www.wsj.com/politics/elections/justice-department-sues-to-block-alaska-senate-results-if-gop-candidate-loses-c2597f6c?mod=rss_socialpoliticsfeed",
-   "summary": "The lawsuit asks to delay finalization of the vote if the tossup election could have been swung by having two candidates named Dan Sullivan.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-24",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Week in Politics: Ramaswamy's Ohio ad; Trump greenlights DOJ to sue over Alaska Senate",
-   "url": "https://www.npr.org/2026/10/24/nx-s1-6012100/week-in-politics-ramaswamys-ohio-ad-trump-greenlights-doj-to-sue-over-alaska-senate",
-   "summary": "Ohio GOP gubernatorial candidate Vivek Ramaswamy refuses to withdrawal an explosive attack ad, and President Trump greenlights the DOJ to file a lawsuit about Alaska's senate race.",
-   "relevant": true
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-AK",
@@ -476,6 +434,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-27",
    "c": 0,
    "p": -0.8
   }

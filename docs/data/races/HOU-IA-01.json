@@ -29,7 +29,7 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -150,38 +150,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-25",
-   "race": "HOU-IA-01",
-   "races": [
-    "HOU-IA-01"
-   ],
-   "type": "reporting",
-   "source": "The Gazette",
-   "lean": "unrated",
-   "title": "Opinion: Support Christina Bohannan in Iowa's 1st District",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORXY5NmhDWmV0cUFDcTJCZEtwU1c1VEVmbUlZM3J1OGpIVlV2eGVmcWszUFVmR3JZQUw0YkNpc2lyUkN4emlNRW9tUXFBVlR5b3llNXJ4WkJhWW5GSE5odjE5SGp6dkQ5bGxRQUhzQnRFSzA5Wl9HX0pMQ09rM3JpeV9xalBnNDN3Z3ZaeUYzbm9Sd0p2ZEZBWDFldkx2bm1XRmluVnRGU0ZGQWdpVDZkc3gzVXV3dVhJc1AzSEp3ci1PMVNDT0tDUlVYb1dzWkVUc29fVHQxV28?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "HOU-IA-01",
-   "races": [
-    "HOU-IA-01"
-   ],
-   "type": "reporting",
-   "source": "Dispatch Argus",
-   "lean": "unrated",
-   "title": "Michael Bridgford pitches independent voice in Iowa's 1st Congressional District race",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQX0lYNGV4YzVlODBEMDNrLXZGbzJDaDZmZnpmVkRrYUIzZ2ZqYkVPWUlRaGl0R0hrUVZlNlpzVTROVzhVSWwwaTgtbWQ3SEtWRk5ZUlF0aksyTFZ1Y1dJekJxUFVzT1RRTWhXNUNISUkxQVlVWEFlVnJEd0xXcTVuZFFyTDZscWhj?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-01",
  "history": [
   {
@@ -261,6 +230,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-27",
    "c": -2,
    "p": -5.0
   }

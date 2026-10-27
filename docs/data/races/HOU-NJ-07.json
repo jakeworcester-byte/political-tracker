@@ -27,9 +27,9 @@
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -75,10 +75,10 @@
  "key": "HOU-NJ-07",
  "name": "NJ-07",
  "incumbent_note": "",
- "consensus_score": -2,
- "consensus": "Lean D",
+ "consensus_score": -3,
+ "consensus": "Likely D",
  "disagreement": false,
- "tracked": true,
+ "tracked": false,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 10,
  "candidates": {
@@ -87,7 +87,7 @@
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NJ-07",
  "history": [
@@ -169,6 +169,11 @@
   {
    "date": "2026-10-26",
    "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-27",
+   "c": -3,
    "p": null
   }
  ]

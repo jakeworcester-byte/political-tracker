@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   }
  },
@@ -373,9 +373,37 @@
    }
   ]
  },
- "raw_poll_count": 31,
+ "raw_poll_count": 30,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Ken Paxton’s State-Funded Jet-Setting Draws Campaign Scrutiny",
+   "url": "https://www.nytimes.com/2026/10/26/us/politics/ken-paxton-texas-trips.html",
+   "summary": "Mr. Paxton, the Republican candidate for Senate in Texas, has taken about 350 trips outside of the state since he was sworn in as attorney general.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-27",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Running for Senate in Texas, Democrat James Talarico must convince some voters that he isn’t too liberal to represent the state",
+   "url": "https://www.wsj.com/politics/elections/texas-senate-james-talarico-strategy-5024ef0d?mod=rss_socialpoliticsfeed",
+   "summary": "The Democrat running for Senate says he rejects the “progressive” label, but hasn’t changed his beliefs.",
+   "relevant": true
+  },
   {
    "date": "2026-10-25",
    "race": "SEN-TX",
@@ -470,6 +498,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 0,
+   "p": -2.4
+  },
+  {
+   "date": "2026-10-27",
    "c": 0,
    "p": -2.4
   }

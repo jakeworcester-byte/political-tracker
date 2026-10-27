@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -161,38 +161,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Toward D",
- "signals": [
-  {
-   "date": "2026-10-22",
-   "race": "HOU-MI-07",
-   "races": [
-    "HOU-MI-07"
-   ],
-   "type": "reporting",
-   "source": "Yahoo",
-   "lean": "unrated",
-   "title": "Report: Michigan's 7th congressional district now the nation's second-most expensive house race",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQUl3U3o1MUdReWhjZ3JoXzNoVW1Md0VOUFJLeF9zazFtVWRUbkoyekdfRlZ3Qi1DRHdhQXFybTk0YkszRUxKOXgtalFlWVhLNWRLdzh5a1F1dU4wNmdaNnR3V2xxM00tVmNEMzlaMW5kNkoya0l0MWtfdzFWWExLaFg1d1FBemdTY2FaSFNVR1VCUXhqMVFZ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-MI-07",
-   "races": [
-    "HOU-MI-07"
-   ],
-   "type": "reporting",
-   "source": "WKAR",
-   "lean": "unrated",
-   "title": "Michigan's 7th District House race is nation's most expensive for political ads, outraging both candidates",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRXlUQUw2OTdGZTVGN2JtQV9LenBOajk1OE5McVk1Vk5Ta21YZzlzWnRIWk52NUxGLTFUcmdGZEt6dktxTk9MRlZQN2pOV1F2eFRaMklxV3VoNUZrOHdnX1UwR201QThrMnBKTUphM2VMZW15Z244NDV3TWFlXzB4RzBFLVp6b3hTSllBZGxuRDY2VWc4eGdWZmlrdTNKVl9IV2p0YTJyVXhmODBRUzFoWGZkT0xYQXcwR09qaXo4Z1dFdzRkWkxCV3BOMnQzZlNFYmQyeDdQMXpocjBTV2dESDBCRQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-07",
  "history": [
   {
@@ -272,6 +241,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-10-27",
    "c": -2,
    "p": -8.0
   }

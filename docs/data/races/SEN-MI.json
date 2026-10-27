@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -65,7 +65,7 @@
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   }
  },
@@ -98,7 +98,7 @@
  "poll": {
   "average_margin": -2.6,
   "average_label": "D+2.6",
-  "n_polls": 5,
+  "n_polls": 6,
   "window_days": 21,
   "latest": {
    "pollster": "InsiderAdvantage",
@@ -139,6 +139,25 @@
      {
       "choice": "Mike Rogers",
       "pct": 46.0
+     }
+    ]
+   },
+   {
+    "pollster": "Michigan State University Institute for Public Policy and Social Research/YouGov",
+    "end_date": "2026-10-19",
+    "margin": -2.5,
+    "n": 836,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://ippsr.msu.edu/news/msu-poll-shows-benson-large-lead-while-el-sayed-roger-race-tight",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 48.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 45.5
      }
     ]
    },
@@ -383,47 +402,56 @@
       "pct": 44.0
      }
     ]
-   },
-   {
-    "pollster": "Cygnal/Beacon Research",
-    "end_date": "2026-09-21",
-    "margin": -5.0,
-    "n": 600,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://enjoyer.com/michigan-poll-fall-2026/",
-    "answers": [
-     {
-      "choice": "Abdul El-Sayed",
-      "pct": 45.0
-     },
-     {
-      "choice": "Mike Rogers",
-      "pct": 40.0
-     },
-     {
-      "choice": "Lydia Christensen",
-      "pct": 1.0
-     },
-     {
-      "choice": "Tim Long",
-      "pct": 0.0
-     },
-     {
-      "choice": "Douglas P. Marsh",
-      "pct": 0.0
-     },
-     {
-      "choice": "Walter P. Kristy",
-      "pct": 0.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 33,
+ "raw_poll_count": 34,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "punditry",
+   "source": "The Dispatch",
+   "lean": "center-right",
+   "title": "Is Anti-El-Sayed Sentiment Enough to Turn Out Michigan GOP Voters?",
+   "url": "https://thedispatch.com/article/michigan-senate-mike-rogers-el-sayed-republican-turnout/",
+   "summary": "After backing Trump in three elections, Macomb County is a spot where Mike Rogers needs to generate Republican enthusiasm.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-27",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK",
+    "SEN-MI"
+   ],
+   "type": "podcast",
+   "source": "Pod Save America",
+   "lean": "left",
+   "title": "Let Them Eat Cheesecake",
+   "url": "https://audioboom.com/posts/8969627",
+   "summary": "Campaigning in Michigan, Barack Obama says Donald Trump's White House renovations look like \"Saddam Hussein opened a Cheesecake Factory\" — touching off many rounds of fake conservative outrage. Jon, Tommy, and Lovett discuss Trump's reaction to the comparison and other news from the campaign trail, ",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-27",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "ClickOnDetroit | WDIV Local 4",
+   "lean": "unrated",
+   "title": "Democratic candidate El-Sayed leads Michigan U.S. Senate race, new poll finds",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTkU1eERSb2RxdzJKT25wUXdEN0tzM3lSQVJwVTFSem5mSXVGOHhETWtSY1hfdDhFeDNTeXRoekpNbWhqdzJBVUIzSy1tVHdWSVVYYlR1cmx6b3F3Wl9pdUZVX3ZmRUxTcmVyMDB4WGtlT3llakV2aEwzOVI5TUlfU3FKLWNZQWdKVzNtWW5sV1R4eHZUZlc5MGptcHBvVTZvMmV6d3NXTHhNN1pyVGs3ODdkT3Z3NWFLN2RpYmNjSzdFVDZLMU9v?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-26",
    "race": "SEN-MI",
@@ -451,6 +479,50 @@
    "url": "https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks",
    "summary": "President Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed on Sunday, portraying him as a threat to national security and questioning his loyalty to the United States.",
    "relevant": true
+  },
+  {
+   "date": "2026-10-26",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "punditry",
+   "source": "National Review",
+   "lean": "right",
+   "title": "Anti-Catholicism Lives with El-Sayed in Michigan",
+   "url": "https://www.nationalreview.com/2026/10/anti-catholicism-lives-with-el-sayed-in-michigan/",
+   "summary": "We could afford to be a little more outraged about the Democratic candidate’s JFK Catholicism comparison.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-26",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "Lansing State Journal",
+   "lean": "unrated",
+   "title": "Who's winning the Senate race in Michigan? What October polling shows",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc2F5TTk4VUJsNloxdEtfOUs0NmZ0U1F1T05mOHVDb2VOdklxMG5STWQtaDB0aldOZjFXNDRrcnFCV2hkMDg1RVVBdzFkYW95YmdNejBDcU55bmVGX0g4ZmdLRkwySFNZVm1YYTlGeV9nMjZGYzNIc0dzWHh4eHJ0Z3A1bWlkUEFNSEhyMmlrRzVrNnFmQ0pxU18xa1NsbmFTakZRMkJMYmRvNFdwSkF0YlMzM0dsVFhGNnNtdWhkVjZ4NzQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-26",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "BBC",
+   "lean": "unrated",
+   "title": "Watch: BBC asks Democrat El-Sayed about tight Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OdU5KcDRQOUlOWkpkVHFFWGRYQS0tajFldnBiLXN2TzQ4aDFlMnp3aFNWS0hxWnFjbXlVYUFQT3BFclJ3R1dRMnVPYWxzeG9JWUVtYzdFUm0?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-26",
@@ -489,41 +561,13 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "Anchorage Daily News",
+   "source": "DW.com",
    "lean": "unrated",
-   "title": "Trump escalates rhetoric against El-Sayed as he tries to undermine Democrat in Michigan Senate race",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMndvQi1wc1JMcVNXWFltdS1qUTl6aEVfbWVERHhVbHd5Q08yVElORnp5NTEwMEtMdTE0b3JUUHNFTTJMY0hzRllaOVAxWVFxdjlYVmtJUGtteTNXWmgxSF9aN1ljbFQ2UmFfWnVzSWEyd3BzR0dxYkZSZEctbFQyNllORHpvMGFucGVRM2wxYldrQXlISi1Rc1V1TkFRNFFNVERhTllFc0lBU08tcHIzT190clYtQjF2M3VhYnM2SmowMGtKTGx1NW1KV1NySVhRMUdleGEwcmxWWGI1?oc=5",
+   "title": "Michigan Senate race splits Arab and Jewish communities",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZG9OelJUc3JmY0JoczRuTl9kVU84dWZVdUZFZVBEUWl3RHZKOElVdXgzZlRpd1dFcW00eVlvOE4xWElTWGprUm5CSGE5czR3aEdkci0wN1ZRQ3FVZGdvYlc3WEo3bVR6bzl2dm1WU3gwU3VJSkp0YlZYU2FGSERrWjBGSnRwUVoyMUtDWG13SUd5QXdGOVZN?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "punditry",
-   "source": "National Review",
-   "lean": "right",
-   "title": "The Problem with Abdul El-Sayed’s JFK Analogy",
-   "url": "https://www.nationalreview.com/2026/10/the-problem-with-abdul-el-sayeds-jfk-analogy/",
-   "summary": "Catholicism did not shape Kennedy’s political thought in the way that Islam may inform the Michigan Senate candidate’s.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-23",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "Do these Senate-governor splits make sense?",
-   "url": "https://www.natesilver.net/p/do-these-senate-governor-splits-make",
-   "summary": "In Michigan, Jocelyn Benson is polling well ahead of Abdul El-Sayed. Do gaps like that tend to shrink on Election Day?",
-   "relevant": true
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MI",
@@ -605,6 +649,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": -2,
+   "p": -2.6
+  },
+  {
+   "date": "2026-10-27",
    "c": -2,
    "p": -2.6
   }

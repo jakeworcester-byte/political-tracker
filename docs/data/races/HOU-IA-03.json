@@ -29,7 +29,7 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -88,7 +88,38 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "HOU-IA-03",
+   "races": [
+    "HOU-IA-03"
+   ],
+   "type": "reporting",
+   "source": "KCCI",
+   "lean": "unrated",
+   "title": "See how the Iowa 3rd Congressional District candidates compare",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSmVic0hZUk5udEduUk9lT3pwQVZQcU1qbFlVeVl5emdFNE55bEM2Z2c4MHFBLU1LWEJxZl9xeV9xQXR1bWdwcDFHdkFjLV9GM2tKQ2lhaDhobUJ5VndFd3ozTDJVWUYwSkF3WFoyQkJTUjBjZERzRHpHYzVGV3Q2SmhJQ1Z4ak1BZjhsbkFmaGJTdll6WGZpVk1pSEIzTVZPTjY4cg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-26",
+   "race": "HOU-IA-03",
+   "races": [
+    "HOU-IA-03"
+   ],
+   "type": "reporting",
+   "source": "The Des Moines Register",
+   "lean": "unrated",
+   "title": "US Rep. Zach Nunn's bipartisan brand tested in Iowa battleground race",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOLW1zQVJrUGM1YjJ6Z1BpRkEzUzF0cjRSSl9GWVlGUG9DWmo0TXBOS3RuZWwyTEYtNW9wNjNrOUJsV0lxRG1GX0lfMVVtVUtKblkyRXNiX0s1QzhyTE9VTmhKUTR4TFlmdER2TkkwSnVObzBPcWFNeGFjVURMOEF3X1BSUzNHeFpjRUgzcFJDbkt6ZnpEV21qc2V0dlhmX3JFbXhHT1VndXlaZDhpb3o2RmVoclU5NHljWk5JaW9BQVRYakw0RDA2cEhwVmhya1FTdVpHV29WNnpjU3RJOHpqdQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-03",
  "history": [
   {
@@ -168,6 +199,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-27",
    "c": -2,
    "p": null
   }

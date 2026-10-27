@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -142,6 +142,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-27",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "The Colorado Sun",
+   "lean": "unrated",
+   "title": "National Democrats summoned the cavalry to Colorado’s 3rd Congressional District. It hasn’t come.",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcWpHWGh6MndWZnNGcE9JbzlPMWowaU1XOTN0eHVkcHJqaWNDbUdGNTF6dzdyMWFLcEtZQTY5S0JLWGZGcmhkWERicTByMXRKNWRlTktSYkpIU3oyeHR0cEpkaGxQQ3lrbTgwSWItSEJULUpnVWF0NGJpNWV0ZVZZLVB1eWk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "KRDO",
+   "lean": "unrated",
+   "title": "Colorado’s 3rd Congressional District Race heats up: Jeff Hurd vs. Dwayne Romero",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSENkcV9tbTd2QXNnUTNYVzVWdm5iQ183WFZmcURiZGUydzNyY2dNVERlaUd4LWJmSXlRcml2OFJybmdNY0tLWXFYNHJuOTRrY2x6b3dqMDVNNHdoa0I1bkl1d2tMdzJnNjRZang3OENob2IxTGtvZW1TdnNSQXQ5YTJ2YWNEaElfZzNlZ3R2Wk03ZlYtRWh0QQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-26",
    "race": "HOU-CO-03",
    "races": [
@@ -163,10 +193,10 @@
     "HOU-CO-03"
    ],
    "type": "reporting",
-   "source": "AspenTimes.com",
+   "source": "Aspen Times",
    "lean": "unrated",
    "title": "Incumbent Republican doubles Democratic challenger’s spending in race for Colorado’s 3rd Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdXNjYWhkSE9heW5lbXBUVGdBS05pQjBxeGxfaHpGYjQyTkVabUZVVGF3R3ZiMkdUa1NNak9VYzAwVnV6N3BxekF6Q0NBajJQOEVDRHZrYTltbmwxbDFfYW80TmRIY2xyZ2pvQi1HYm9qX1o0bkpYUVlOM2w5SUtWTUEtMktCcFU5ZnM1blhMTERkZ0QxbWdtNlN5eFh1LTg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1Z0ZXlyQV96Y1VjTTZ4bFNwWTBuTVNhTFdEdUFVRF9LU2JiV210a2poRXJZM09PVDdYRktVUjB6cU1OR19rd1JJMDRubnh5TWhnUVdDYXdPWnc2ekNKQ2EtbkZxd3lEdnB5R0NjY2lJWTB5TVdMaXFKR2VVUFlPRjJibDhYWnp0RGFnaGwyTFhnbVNYNENWX01BMzljdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -266,6 +296,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-27",
    "c": 2,
    "p": -1.0
   }

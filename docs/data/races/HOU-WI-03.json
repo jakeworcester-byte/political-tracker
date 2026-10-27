@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -41,7 +41,7 @@
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-26",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -88,68 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-24",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "Channel 3000",
-   "lean": "unrated",
-   "title": "Cook Political Report shifts Wisconsin’s 3rd Congressional District toward Democrats",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQM2VfUWk5cElSWHMyWEc5eWJ2anhyejZJYl9iLUNGNVZpVmQ0OGtYdHNoT2hzbElRSnVmMXd4NWlrM1Yyc0VTM2oyTVp0d3lfQkF0a0JhUHFWX3RxMFd0UU4yN3Uzb1EwU2pHcGNtMDR6VjU4dkJ1TzV6cTk1MkQwSGpOd3RFWGt0eFdVVlhBczBIQ2FJTzdGT2dRM09ma0YyY19HM1F6WnpWMnNIRm9LQ3hFQl9nQnF0Y19UTDFUVjVxU01YNXlEWW1wVGlsaDZLNGxjRkZzcUVuQ2pEODhLc1l4cmMwaVdUbzZNWmp4RjJ0bVNaQzMtaGtMRQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "PBS Wisconsin",
-   "lean": "unrated",
-   "title": "What the race in Wisconsin's 3rd means for national politics",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZkdaemJEX3pOT1I5bFpVY2NxRk52b1dSSWFCa2NhemNZalNUSWFtMjk4dHM2emJ2WTdPZ05DTmdyanEtVzZiRklxbWVkWEdpNUZKYTNESk44clU3VXBZX0pQQWZ6Z0FtTUlhaDhUcUgwWmYtWmc5YlNnR2xGUTBxNndtVzduNG9ldFNPdVFMU1dqY0lVWUxoSk95OA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "WXOW",
-   "lean": "unrated",
-   "title": "Cooke and Van Orden speak at Wisconsin's 3rd congressional district candidate forum",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNMlZsbVpqczFwLVJkckJRTEFKWDVJTm11R09LdFBZNWdNUG9ST3Qyb3VVNVhPX081TlZSamV4WUN4Vm9wRk9kUTlDQnNOT1BhY1V5Sl9NeS1qOEMxNzlVb2N1NzFyU0ZpN0UzMUdOWmF1UXROVGRlWEE2QkxrTEFzbEFtTG5oUFB0T1Z0cjNpVVNRdUVuSWpOQlVtTjFsV2hUOG4zeVhyRkZJQlZmSnhjbmVZVE43cjE1UVItRUFmajRBdGVsMURiOU9kOFBIN3FVaHZNSl82bWFJdVdQQ3RRb3VGdFBJVUwtZV93TWFhdUxlRG5nRjNkNXdTVUthdE92a2Y1cThlNHc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-21",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "Heartland Signal",
-   "lean": "unrated",
-   "title": "Van Orden v. Cooke: What’s at stake in Wisconsin’s 3rd Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRGE4UkxhMXk4VXRWcngwc0N5cXVKRGRnX1VpRGE3djYyOG56TDlvM0tIYlpkcGwzSUhlMmdmbzU4X3YteUUwTnM3MGl5SGdtRkVUZ2NCYi1tYVZDUlUtMlA4TTJFbG9jblNxcmdUX3B1LTZsb0ltMER5TjZQN0R1dFlERmt2eV9mYkhvNEtic1liOXFmaWJv?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WI-03",
  "history": [
   {
@@ -229,6 +168,11 @@
   },
   {
    "date": "2026-10-26",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-27",
    "c": -2,
    "p": null
   }
