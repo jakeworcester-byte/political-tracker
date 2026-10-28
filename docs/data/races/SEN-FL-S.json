@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -29,7 +29,7 @@
   "fox": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -51,9 +51,9 @@
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Solid R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -96,37 +96,75 @@
   ]
  },
  "poll": {
-  "average_margin": 7.0,
-  "average_label": "R+7.0",
+  "average_margin": 5.7,
+  "average_label": "R+5.7",
   "n_polls": 6,
   "window_days": 21,
   "latest": {
-   "pollster": "co/efficient",
+   "pollster": "ActiVote",
    "sponsors": [],
-   "partisan": "REP",
-   "start_date": "2026-10-18",
-   "end_date": "2026-10-20",
-   "sample_size": 1014,
+   "partisan": null,
+   "start_date": "2026-10-17",
+   "end_date": "2026-10-27",
+   "sample_size": 400,
    "population": "lv",
-   "margin": 8.0,
-   "margin_label": "R+8.0",
+   "margin": 6.0,
+   "margin_label": "R+6.0",
    "answers": [
     {
      "choice": "Ashley Moody",
-     "pct": 48.0
+     "pct": 53.0
     },
     {
      "choice": "Angie Nixon",
-     "pct": 40.0
-    },
-    {
-     "choice": "Neil Gillespie",
-     "pct": 2.0
+     "pct": 47.0
     }
    ],
-   "url": "https://battlegrounds.coefficient.org/fl/"
+   "url": "https://www.activote.net/polls/2026/fl-u-s-senate/"
   },
   "polls": [
+   {
+    "pollster": "ActiVote",
+    "end_date": "2026-10-27",
+    "margin": 6.0,
+    "n": 400,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.activote.net/polls/2026/fl-u-s-senate/",
+    "answers": [
+     {
+      "choice": "Ashley Moody",
+      "pct": 53.0
+     },
+     {
+      "choice": "Angie Nixon",
+      "pct": 47.0
+     }
+    ]
+   },
+   {
+    "pollster": "Echelon Insights",
+    "end_date": "2026-10-23",
+    "margin": 8.0,
+    "n": 515,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+    "answers": [
+     {
+      "choice": "Ashley Moody",
+      "pct": 51.0
+     },
+     {
+      "choice": "Angie Nixon",
+      "pct": 43.0
+     },
+     {
+      "choice": "Neil Gillespie",
+      "pct": 3.0
+     }
+    ]
+   },
    {
     "pollster": "co/efficient",
     "end_date": "2026-10-20",
@@ -324,48 +362,10 @@
       "pct": 44.8
      }
     ]
-   },
-   {
-    "pollster": "Quantus Insights",
-    "end_date": "2026-09-10",
-    "margin": 7.4,
-    "n": 733,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://quantusinsights.org/f/new-quantus-polls-moody-leads-in-florida-flanagan-in-minnesota",
-    "answers": [
-     {
-      "choice": "Ashley Moody",
-      "pct": 50.1
-     },
-     {
-      "choice": "Angie Nixon",
-      "pct": 42.7
-     }
-    ]
-   },
-   {
-    "pollster": "Change Research",
-    "end_date": "2026-09-09",
-    "margin": 0.0,
-    "n": 1107,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://changeresearch.com/research/2026/2026-09-10-an-emerging-florida-blue-wave",
-    "answers": [
-     {
-      "choice": "Ashley Moody",
-      "pct": 47.0
-     },
-     {
-      "choice": "Angie Nixon",
-      "pct": 47.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 14,
+ "raw_poll_count": 16,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-FL-S",
@@ -454,6 +454,11 @@
    "date": "2026-10-27",
    "c": 3,
    "p": 7.0
+  },
+  {
+   "date": "2026-10-28",
+   "c": 3,
+   "p": 5.7
   }
  ]
 }

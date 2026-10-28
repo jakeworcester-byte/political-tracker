@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -141,8 +141,24 @@
   ]
  },
  "raw_poll_count": 1,
- "trend": "Toward D",
- "signals": [],
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-28",
+   "race": "HOU-MI-10",
+   "races": [
+    "HOU-MI-10"
+   ],
+   "type": "reporting",
+   "source": "Michigan Advance",
+   "lean": "unrated",
+   "title": "James’ departure opens up a political battleground in Michigan’s 10th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWXA2WFRHR1F6YlVhc1FLZElvYnU2X3dLYkkxM0s0S25IUWFBS1hicUw2T3NtQ2I1eFBKUWVLb3Q0TG91V0Vwb1FVdUt6TzdpU0kwQm5xMGszMkFlNmQ1NzZ4SnBCVXd2M2h3NHpZWmFnRlhkRVhpVENfSUJNcDJYU3lqcnczU1NBS09ELXZ0MjhycnNmQWJVU05fNEIxYUtxSWxBbzVMVUpnMmJRYmg4Ml8yRk05bzNUa0Q0NjRaVGkwTTA5WmhhZzR3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-10",
  "history": [
   {
@@ -227,6 +243,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-10-28",
    "c": -2,
    "p": 0.0
   }

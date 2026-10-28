@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -140,7 +140,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-28",
+   "race": "HOU-AZ-01",
+   "races": [
+    "HOU-AZ-01"
+   ],
+   "type": "reporting",
+   "source": "Hindustan Times",
+   "lean": "unrated",
+   "title": "Amish Shah, Indian-American doctor facing Jay Feely in Arizona’s 1st district race | Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSnZ3VjU5eFNMRTE1bTdtV1hLN2t0c1ZmRG1odjQ3Nzh4Z2l6d3dOc1RYR19LRl9rTVhKTERYUWlweVV3dFBLMmFZMFFla3NYVEtOandxN1ZnMkd6TVZXNlZYTFdRNnlsaXZnNHZpZkpjcXc1NU9iOXEyRFRyWXlqRFJQYVU4ck1BcklKNkctbGdEUEtfejdzZVlXQkNXZ3l1V1FtYnZDWkZyT0hvejBjSERqd0M3bVQ5TFF4SVZUUE5fNzVLbXlwNlVGWUo2M1NXVzNpVjdBeGIxdEhyNVl2WHNiNVZwOFnSAewBQVVfeXFMTWpaQm1UWVZjdWxjWkRTN3dkQXd4Q0gtOXdHaXpBN0l0S3hhNXdlOEFxZkRXbTZaTHN2M3JLeHdtam5FOENaT2dUTThWRkIwaEkyd21rRlh1NEtpaktwaUVLaGk3aXJXZW9yVGI0TzZnRzlxVWFjdVpBZmVXSFRaR0FxMXQwNmhpZi0tNXZxazBxTklYU1ZsVVBtZVJqNUg4Ukl2OS1GaTZqREhqVjFCbDFLWFU0QzREMUotNkpvdjY2NHUydkJMc0t4ZHVZQjk1ZG44LUVhRmhqaUhFWHNhWkdYTUl0VFlpMnpxLVc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AZ-01",
  "history": [
   {
@@ -225,6 +241,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": -2,
+   "p": -2.8
+  },
+  {
+   "date": "2026-10-28",
    "c": -2,
    "p": -2.8
   }

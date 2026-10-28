@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -163,6 +163,21 @@
  "trend": "Toward D",
  "signals": [
   {
+   "date": "2026-10-28",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "LEX 18 News",
+   "lean": "unrated",
+   "title": "Kentucky high school student helps organize and moderate the 6th Congressional District debate",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnVlbWp5Nm9fc2NSTWhXMlU5M1FoaDBmWGZGd3k3TWFlSVI1eUh1X2toUHFWRGs1bTMxSXlORzRWZVU1OEZEMHl0dTkyOW5vU3RMcm1TdEdOZEtTNHcyNGJTYkN5c3pnQVRTNFR2M09kYkJ0TUd3TzRjNWRYOG1oQ1E2V2VHTHBzd2t4N0prTHhTT0lGWlNpNU9QMXdpc3FZQVF0YWx2Z0ZlY0ZSRmxFbzQ1dDNjamx6SHFocmo5bGhkbm9kdzBRNkt6TUxLcUNNVnFqQ2FR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-26",
    "race": "HOU-KY-06",
    "races": [
@@ -188,21 +203,6 @@
    "lean": "unrated",
    "title": "Zach Dembo campaigns to flip Kentucky’s 6th District",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VQ01zVnlRaUtmVmcxdldMU1BHTDlfbDl0RU14ZlVSSTVwUXJqZ0p0VXpIX0JYM0RPdjVBRGllZDNibDJLbEt0OE05ZXNTbnIwZWJHOTl6eVp2T2J6TGxISkJxc2FrdXJQdnBmSE81VHZMbHBh?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-25",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "LEX 18 News",
-   "lean": "unrated",
-   "title": "6th Congressional District candidates make their cases to Kentucky voters",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZG1ZMWRrU1VBUGlTbjZQZTZuX0k1d2xUcTBrLWx4ak1wZGR4OURQYmU0NDNtV04tUGZKQi1CTXZNVUFOY2M2R0pZRVlmZF9VbnVUcThQb0xJajVZZUw5MGdDSUpfMXZjbWotOVlZMUF5UnNOSzkwRlJCQ1doUjZLVXFVelJGalJmQjREUDZYbVdnNjRxV3ZVQ2t6YWNBbnBPRGVScGVBN0o4LWhfbmxYMDEwUXNXUkdxSGc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -307,6 +307,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 0,
+   "p": -4.5
+  },
+  {
+   "date": "2026-10-28",
    "c": 0,
    "p": -4.5
   }

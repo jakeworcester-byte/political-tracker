@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -90,35 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": 1.0,
-  "average_label": "R+1.0",
-  "n_polls": 1,
-  "window_days": 45,
+  "average_margin": 1.9,
+  "average_label": "R+1.9",
+  "n_polls": 2,
+  "window_days": 21,
   "latest": {
-   "pollster": "Expedition Strategies",
-   "sponsors": [
-    "House Majority PAC"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-09-30",
-   "end_date": "2026-10-04",
-   "sample_size": 600,
+   "pollster": "Quantus Insights",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-21",
+   "end_date": "2026-10-22",
+   "sample_size": 601,
    "population": "lv",
-   "margin": 1.0,
-   "margin_label": "R+1.0",
+   "margin": 2.8,
+   "margin_label": "R+2.8",
    "answers": [
     {
      "choice": "Victoria Spartz",
-     "pct": 48.0
+     "pct": 47.4
     },
     {
      "choice": "JD Ford",
-     "pct": 47.0
+     "pct": 44.6
     }
    ],
-   "url": "https://x.com/cjwarnke/status/2112877284684341727"
+   "url": "https://quantusinsights.org/polling/f/indiana-5th-spartz-leads-ford-by-3-in-tight-race"
   },
   "polls": [
+   {
+    "pollster": "Quantus Insights",
+    "end_date": "2026-10-22",
+    "margin": 2.8,
+    "n": 601,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://quantusinsights.org/polling/f/indiana-5th-spartz-leads-ford-by-3-in-tight-race",
+    "answers": [
+     {
+      "choice": "Victoria Spartz",
+      "pct": 47.4
+     },
+     {
+      "choice": "JD Ford",
+      "pct": 44.6
+     }
+    ]
+   },
    {
     "pollster": "Expedition Strategies",
     "end_date": "2026-10-04",
@@ -140,7 +157,7 @@
    }
   ]
  },
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IN-05",
@@ -229,6 +246,11 @@
    "date": "2026-10-27",
    "c": 3,
    "p": 1.0
+  },
+  {
+   "date": "2026-10-28",
+   "c": 3,
+   "p": 1.9
   }
  ]
 }

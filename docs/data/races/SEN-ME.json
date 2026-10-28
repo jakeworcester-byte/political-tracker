@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -29,7 +29,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -96,22 +96,20 @@
   ]
  },
  "poll": {
-  "average_margin": -2.2,
-  "average_label": "D+2.2",
+  "average_margin": -3.3,
+  "average_label": "D+3.3",
   "n_polls": 6,
   "window_days": 21,
   "latest": {
-   "pollster": "Beacon Research/Shaw & Co. Research",
-   "sponsors": [
-    "Fox News"
-   ],
+   "pollster": "Marist University",
+   "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-16",
-   "end_date": "2026-10-20",
-   "sample_size": 1514,
+   "start_date": "2026-10-22",
+   "end_date": "2026-10-25",
+   "sample_size": 1449,
    "population": "lv",
-   "margin": 0.0,
-   "margin_label": "Even",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
    "answers": [
     {
      "choice": "Troy Jackson",
@@ -119,12 +117,50 @@
     },
     {
      "choice": "Susan Collins",
-     "pct": 49.0
+     "pct": 47.0
     }
    ],
-   "url": "https://www.foxnews.com/politics/fox-news-poll-nail-biter-maine-senate-race"
+   "url": "https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/"
   },
   "polls": [
+   {
+    "pollster": "Marist University",
+    "end_date": "2026-10-25",
+    "margin": -2.0,
+    "n": 1449,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/",
+    "answers": [
+     {
+      "choice": "Troy Jackson",
+      "pct": 49.0
+     },
+     {
+      "choice": "Susan Collins",
+      "pct": 47.0
+     }
+    ]
+   },
+   {
+    "pollster": "Echelon Insights",
+    "end_date": "2026-10-23",
+    "margin": -7.0,
+    "n": 413,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+    "answers": [
+     {
+      "choice": "Troy Jackson",
+      "pct": 51.0
+     },
+     {
+      "choice": "Susan Collins",
+      "pct": 44.0
+     }
+    ]
+   },
    {
     "pollster": "Beacon Research/Shaw & Co. Research",
     "end_date": "2026-10-20",
@@ -314,82 +350,43 @@
       "pct": 47.1
      }
     ]
-   },
-   {
-    "pollster": "University of Massachusetts Lowell Center for Public Opinion/YouGov",
-    "end_date": "2026-09-14",
-    "margin": -5.0,
-    "n": 650,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.uml.edu/news/press-releases/2026/09242026-maine-poll.aspx",
-    "answers": [
-     {
-      "choice": "Troy Jackson",
-      "pct": 48.0
-     },
-     {
-      "choice": "Susan Collins",
-      "pct": 43.0
-     }
-    ]
-   },
-   {
-    "pollster": "YouGov",
-    "end_date": "2026-09-08",
-    "margin": -4.0,
-    "n": 1335,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_me_20260902.pdf",
-    "answers": [
-     {
-      "choice": "Troy Jackson",
-      "pct": 48.0
-     },
-     {
-      "choice": "Susan Collins",
-      "pct": 44.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 15,
+ "raw_poll_count": 17,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-26",
+   "date": "2026-10-28",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Former diplomats, top foreign affairs experts back Jackson in Maine Senate race",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTmNKRmFxdEFNaFZZeDdqQmNhWndRRXhOSVoxSVhJTG5HdUlyYTRTWDN1QUpRbTZyVGtad0pqaHNnU3g5UGRxdGJHNEJaVk9HWnJhbWhJSFlrUUFrUUh0dkxyT1kyMGl1RVpEOV83VG5VOXpDUWtFYzJGSkFWTzA5dlhaalBaeVNIUUExMi1n0gGTAUFVX3lxTE96eXM5c2hoZk1samZ5X3RVd3djRkFjc2ZjcXFqVE5qQnpiVkhJQkpPUFpQVl9RcFhSd3Jab0tYbXIwSmtUMTNaX0hCRk51YjJ3emdOUGpMcEN5R0otS3pzUWQzcmp1ci1uYXI0YlBlUlJfSkFFUDJzT0RCTGQ0cEpPMmFfM1BTRkxVLTBnSTJ6cFRBOA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "To win re-election, Republican Sen. Susan Collins of Maine must navigate a polarized electorate, anger over inflation and fallout from the Supreme Court’s 2022 decision overturning Roe v. Wade",
+   "url": "https://www.wsj.com/politics/policy/susan-collins-maine-senate-election-82b52aff?mod=rss_socialpoliticsfeed",
+   "summary": "The centrist Maine Republican has worked to capitalize on her bipartisan image but says the political environment is the toughest she has seen.",
+   "relevant": true
   },
   {
-   "date": "2026-10-25",
+   "date": "2026-10-27",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "NBC News",
+   "source": "CNN",
    "lean": "unrated",
-   "title": "Susan Collins won women in 2020. How they break in 2026 could decide the Maine Senate race.",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOThyajVBVnpMSklwVm9nREo1YlpLdWZTUUltTTZEeV9oNHhINDZwd1lmTTZZbENpb3p0UVFBdExwYlB3OGJFNzNad0k0WFQtYnRPbV9KVG9sdHp0QUhZTEVtdlJTeW9mUzJ6YVZYRVhQYjVHTXN6NkdNcWZNeUxmUmVyY1Y4bjVaZlpMWWdUZXhYOTJUWTNnQ0c3d1BpaGtnVTZlWnU0N25TMmF2bTJYN0hVX2toNE85T3RuOVltVQ?oc=5",
+   "title": "Republican attack ads mocking Troy Jackson’s relationship roil Maine Senate race against Susan Collins",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUWloMTJwZ3dsWlkySUp6eF9vMk5Tb19hZVlXa3lGR2FNamxzODVRUlVYVGlxSTllZnYtaFZZN2ZCZWdJZURKaFkxQWh3cnRFRFlhelVQUDhNZjhERU9SaHkyekxRLV9pcjJTd25lcGR4bDMzTFBIUEplZjZPc05Cb2ZTXzZfWHBTa2trY3NlVE9aT2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-24",
+   "date": "2026-10-27",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
@@ -397,8 +394,23 @@
    "type": "reporting",
    "source": "MS NOW",
    "lean": "unrated",
-   "title": "Trump rolls back some Canadian tariffs with Maine Senate race on the line",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92UjgySjlNeWZtTGI4LTExemRDRVVJcW9xUnRucmozY0NVcWJfcmFQa0tnYTZpaG1vNmhoZ18tWE9jXzhPR1U0aXpYbVAxVWlJVHlhVUFpSXZEenNkYVZWQ1VlbnhUb2drUHhaM2VRc2sxVDlVbWZHLVVCSkVZZw?oc=5",
+   "title": "Troy Jackson makes final pitch to Maine voters in seven-figure ad blitz",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YcTNUcnRhV1k2YnlNLWtROU9uWEtabU85QXJyaThOU1dWNXlzcEVCdVc3WDhsNjNZRmVVV21XZTB6YmNwQklPSVVScnVyV0xtU3NUeDc1Z0kyTHZVdlU2VkVUX2NTNmZLT05XVzZKQUxUaE54?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Portland Press Herald - Maine Sunday Telegram",
+   "lean": "unrated",
+   "title": "New polls show Maine Senate race neck and neck, governor campaign heating up - Portland Press Herald",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDY2ZUpHdWhKU251dmYyZ3FaYXFfS2JaNEpHdEJmWnBuVF9uc1paOEVIQjBxazdNWXROek1NODBpLTdBa1NocjUxbE1Fc3VGeTdXZlRoZ250NFJwd2RuTHJRLXYxYzFRUEhHT1hlSXk4RUs0dE9HYVRfMnlGQzBycHpwWkR6RURRUnhsX01TTmpNQXA3VFQtNVZBVQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -490,6 +502,11 @@
    "date": "2026-10-27",
    "c": 0,
    "p": -2.2
+  },
+  {
+   "date": "2026-10-28",
+   "c": 0,
+   "p": -3.3
   }
  ]
 }

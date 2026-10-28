@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -75,8 +75,8 @@
  "key": "HOU-WI-01",
  "name": "WI-01",
  "incumbent_note": "",
- "consensus_score": 2,
- "consensus": "Lean R",
+ "consensus_score": 0,
+ "consensus": "Tossup",
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -161,7 +161,7 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [
   {
    "date": "2026-10-27",
@@ -174,6 +174,21 @@
    "lean": "unrated",
    "title": "Coffee with the Candidates: Wisconsin's 1st Congressional District",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0w4eF9YU2VSNXVzd0h6MlJRZmxjdm9kX3hpZ1I1ZjFpTFlaM1BRM0VFY240NlV0Vy03amp5SG5WREhJcmpFdDd1ZllYYkpaZE9TUE9MOEY1aTF0LUZ4LVozOEs5YmVqel8xSnlvSHBFXzJnXzVVTDgyS0VvTUlETXBlZmgwWmtub3phRVdPa1YxRUhZM1c3c05BNks0YWZUYmg3QQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "HOU-WI-01",
+   "races": [
+    "HOU-WI-01"
+   ],
+   "type": "reporting",
+   "source": "WGTD",
+   "lean": "unrated",
+   "title": "Republicans Have Held Wisconsin’s 1st Congressional District for Decades. Could This be the Year it Flips?",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa1FPUVVZcE5JWHVzbXRJb0VOZjVKbm5MVF8ycE5oVTlkRll4NGRmVkVERHNwakNldWJLMHJoUzlhNWo1SzdKSjQ2VERQU1JGUzRBbDl3dF8zeGROTWVVMlN3YmtROFpPcHM5NEtWRlpDNXFLYU5CNGN2XzhGZHIzS2l4aGd4bnc5TUdxemk4cXdBaDhtdS1Hb19xQ3owa2NYd1V5MVpZa0hUc0pUdXA4REN6dVZkdmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -279,6 +294,11 @@
   {
    "date": "2026-10-27",
    "c": 2,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-28",
+   "c": 0,
    "p": -0.5
   }
  ]

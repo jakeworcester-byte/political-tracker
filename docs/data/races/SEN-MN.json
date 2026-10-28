@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -29,7 +29,7 @@
   "fox": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "sabato": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -288,8 +288,23 @@
   ]
  },
  "raw_poll_count": 6,
- "trend": "Toward R",
+ "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "Rutland Herald",
+   "lean": "unrated",
+   "title": "Election 2026 Minnesota Senate",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdzNBQS1RaHRPNUZ1ekl2MGJvNGRENGZFZGlIUUh2WGQ3bHRCd1M2Z1BCMUM3aGhadXVISDRJNHd4SU9NelRQMGFEYkhRX2Qya3k3UFRTcGV3T28wZ0lVeGVMRmctN1d1WjVfaFlhNnhPT3RDRkZGTlJPV1Y4RXRmU0JBbXFTeGs1b25lVUxIczUwY3NLdzlFTVluYnpHQzBUWEUzQWJsOTVZXzEwdWw2SWNoUVo1OXU4elJseQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-26",
    "race": "SEN-MN",
@@ -420,6 +435,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": -2,
+   "p": -4.3
+  },
+  {
+   "date": "2026-10-28",
    "c": -2,
    "p": -4.3
   }

@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -29,7 +29,7 @@
   "fox": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "sabato": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -96,33 +96,62 @@
   ]
  },
  "poll": {
-  "average_margin": -8.2,
-  "average_label": "D+8.2",
-  "n_polls": 4,
+  "average_margin": -9.6,
+  "average_label": "D+9.6",
+  "n_polls": 5,
   "window_days": 21,
   "latest": {
-   "pollster": "ActiVote",
-   "sponsors": [],
+   "pollster": "Echelon Insights",
+   "sponsors": [
+    "NetChoice"
+   ],
    "partisan": null,
-   "start_date": "2026-10-06",
-   "end_date": "2026-10-20",
-   "sample_size": 400,
+   "start_date": "2026-10-16",
+   "end_date": "2026-10-23",
+   "sample_size": 508,
    "population": "lv",
-   "margin": -8.0,
-   "margin_label": "D+8.0",
+   "margin": -15.0,
+   "margin_label": "D+15.0",
    "answers": [
     {
      "choice": "Jon Ossoff",
-     "pct": 54.0
+     "pct": 55.0
     },
     {
      "choice": "Mike Collins",
-     "pct": 46.0
+     "pct": 40.0
+    },
+    {
+     "choice": "Allen Buckley",
+     "pct": 3.0
     }
    ],
-   "url": "https://www.activote.net/polls/2026/ga-u-s-senate/"
+   "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
   },
   "polls": [
+   {
+    "pollster": "Echelon Insights",
+    "end_date": "2026-10-23",
+    "margin": -15.0,
+    "n": 508,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 55.0
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 40.0
+     },
+     {
+      "choice": "Allen Buckley",
+      "pct": 3.0
+     }
+    ]
+   },
    {
     "pollster": "ActiVote",
     "end_date": "2026-10-20",
@@ -296,7 +325,7 @@
    }
   ]
  },
- "raw_poll_count": 9,
+ "raw_poll_count": 10,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-GA",
@@ -385,6 +414,11 @@
    "date": "2026-10-27",
    "c": -3,
    "p": -8.2
+  },
+  {
+   "date": "2026-10-28",
+   "c": -3,
+   "p": -9.6
   }
  ]
 }

@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -150,7 +150,38 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "WVIK, Quad Cities NPR",
+   "lean": "unrated",
+   "title": "Iowa 1st Congressional District candidate Christina Bohannan says Iowans are ready for a change in leadership",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORGU5MUlIRlNOVTc5RE5ZSlNEbm54U2ZWUWdDX0dWWXdoZ0VXS0cxLUxHMl83MEJXZW95NzVfUXc4TjRia2p4eWtTdTBPTzhGTDdZVEZHNEpHaFVheGg5amtCbGRtN3NOS1dKd1VCVWhpMzlaQk8ydXo4Z1BnTXpTT2pSTlNYVkI1S2NteTRMcW5YN085NjBIM2tWN0p1VDJKZWFfeEp6enZvUTZtMExfYXlKSW9KaTQ5YWtMeFdaUE5aRTZSNXhYcENaaGRaSkNmaVllZF8wcDJmc2xKa2ZEczBJNA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-25",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "The Gazette",
+   "lean": "unrated",
+   "title": "Opinion: Support Christina Bohannan in Iowa's 1st District",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORXY5NmhDWmV0cUFDcTJCZEtwU1c1VEVmbUlZM3J1OGpIVlV2eGVmcWszUFVmR3JZQUw0YkNpc2lyUkN4emlNRW9tUXFBVlR5b3llNXJ4WkJhWW5GSE5odjE5SGp6dkQ5bGxRQUhzQnRFSzA5Wl9HX0pMQ09rM3JpeV9xalBnNDN3Z3ZaeUYzbm9Sd0p2ZEZBWDFldkx2bm1XRmluVnRGU0ZGQWdpVDZkc3gzVXV3dVhJc1AzSEp3ci1PMVNDT0tDUlVYb1dzWkVUc29fVHQxV28?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-01",
  "history": [
   {
@@ -235,6 +266,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-28",
    "c": -2,
    "p": -5.0
   }

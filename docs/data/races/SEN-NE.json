@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -29,7 +29,7 @@
   "fox": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -96,33 +96,70 @@
   ]
  },
  "poll": {
-  "average_margin": 3.0,
-  "average_label": "R+3.0",
-  "n_polls": 2,
+  "average_margin": 2.3,
+  "average_label": "R+2.3",
+  "n_polls": 3,
   "window_days": 21,
   "latest": {
-   "pollster": "National Public Affairs",
-   "sponsors": [],
+   "pollster": "Echelon Insights",
+   "sponsors": [
+    "NetChoice"
+   ],
    "partisan": null,
-   "start_date": "2026-10-15",
-   "end_date": "2026-10-18",
-   "sample_size": 598,
+   "start_date": "2026-10-16",
+   "end_date": "2026-10-23",
+   "sample_size": 407,
    "population": "lv",
-   "margin": 3.0,
-   "margin_label": "R+3.0",
+   "margin": 1.0,
+   "margin_label": "R+1.0",
    "answers": [
     {
      "choice": "Pete Ricketts",
-     "pct": 50.0
+     "pct": 47.0
     },
     {
      "choice": "Dan Osborn",
-     "pct": 47.0
+     "pct": 46.0
+    },
+    {
+     "choice": "Robin Richards",
+     "pct": 2.0
+    },
+    {
+     "choice": "Chuck Conboy",
+     "pct": 1.0
     }
    ],
-   "url": "https://backend.natpublicaffairs.com/media/NE_Tracker_R2_Trend_Memo_102226.7.pdf"
+   "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
   },
   "polls": [
+   {
+    "pollster": "Echelon Insights",
+    "end_date": "2026-10-23",
+    "margin": 1.0,
+    "n": 407,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+    "answers": [
+     {
+      "choice": "Pete Ricketts",
+      "pct": 47.0
+     },
+     {
+      "choice": "Dan Osborn",
+      "pct": 46.0
+     },
+     {
+      "choice": "Robin Richards",
+      "pct": 2.0
+     },
+     {
+      "choice": "Chuck Conboy",
+      "pct": 1.0
+     }
+    ]
+   },
    {
     "pollster": "National Public Affairs",
     "end_date": "2026-10-18",
@@ -182,9 +219,40 @@
    }
   ]
  },
- "raw_poll_count": 3,
- "trend": "Toward R",
- "signals": [],
+ "raw_poll_count": 4,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Omaha World-Herald",
+   "lean": "unrated",
+   "title": "Groups use lesser-known names to boost Ricketts, Osborn in Nebraska Senate race - Omaha World-Herald",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU1hHSnhOZkdOeGNkclFZVTJkM1dqUDJzN0g5bExKR2FRZVpnTlFjOFNBVWVubk1KSzVLSzQ3ZXVFakxuVGRGMnFxb1ZlbTZieEc3eHR3WFduUVRMUEtBMWZlMVZQSDRwSE1RYkozSkpfdUczaWczLXV0bThTdVBNTEVfanZnVEQxQ0R4aEd5amlrTG1sRUstaFlPY2xDNkJwYWJYR0ltcU4zR0pHanp1WVZ4STJPYzNS?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-23",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Action Network",
+   "lean": "unrated",
+   "title": "Nebraska Senate Race 2026 Odds | Ricketts vs Osborn Polls + Nebraska Governor Race (Prediction Markets)",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObjZ0dW1adDBwenpXQ2FvY1JGeEs2a1IxNzNlc3RKMUFPSW9vODY0bXdvR3lDRlpZUUM2UU1hOTZwcFc0ZmJ1TWVDRGRLb0JMMFE1cUFLT0RoMWdqZEtzRUdRN3JlRDRBNWZlNTVDS0MxNmtCSlMtTmozenh5RHNCb0s0WjlqLUU5U0JrYjZNNm9DLVhnSWJVaG12ejlXOGQxV2FXVHBQcmVvQ0Ffc2huOGt6SGhEUUlla3pQZk56MVplRUdFeUR3TnBkUFI?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NE",
  "history": [
   {
@@ -271,6 +339,11 @@
    "date": "2026-10-27",
    "c": 2,
    "p": 3.0
+  },
+  {
+   "date": "2026-10-28",
+   "c": 2,
+   "p": 2.3
   }
  ]
 }

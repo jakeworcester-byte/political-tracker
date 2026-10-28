@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -195,21 +195,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "HOU-MN-01",
-   "races": [
-    "HOU-MN-01"
-   ],
-   "type": "reporting",
-   "source": "FOX 9 Minneapolis-St. Paul",
-   "lean": "unrated",
-   "title": "Minnesota 1st congressional district race: Finstad, Johnson ads draw criticism - FOX 9 Minneapolis-St. Paul",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYzhkNmdCNVAtOFB5N0JQSXFPd0s5d2VXZ3ItNm1kVlJMbGFhblM2T0t0VjZ1eFRKV3VkdWFrNzdRX0hjLUN1WktFUkM2eVVIWmRSWGM0eEsyOXBDeE41ZkZCbzlMN1NBRHBIZlB2ZS1ZcEJ5LWJtZFhReERybWxGTm0tSWs2SktFNmw3Mkx5TlppSlloaUhyWkxOR1p4VllSanY2Sw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MN-01",
@@ -296,6 +281,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-28",
    "c": 2,
    "p": -1.0
   }

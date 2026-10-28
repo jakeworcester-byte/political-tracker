@@ -15,9 +15,9 @@
    "name": "Decision Desk HQ"
   },
   "econ": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-26",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -27,9 +27,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-20",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -96,20 +96,22 @@
   ]
  },
  "poll": {
-  "average_margin": -3.5,
-  "average_label": "D+3.5",
-  "n_polls": 9,
+  "average_margin": -3.2,
+  "average_label": "D+3.2",
+  "n_polls": 10,
   "window_days": 21,
   "latest": {
-   "pollster": "InsiderAdvantage",
-   "sponsors": [],
+   "pollster": "Echelon Insights",
+   "sponsors": [
+    "NetChoice"
+   ],
    "partisan": null,
-   "start_date": "2026-10-21",
-   "end_date": "2026-10-22",
-   "sample_size": 1200,
+   "start_date": "2026-10-16",
+   "end_date": "2026-10-23",
+   "sample_size": 508,
    "population": "lv",
-   "margin": -3.0,
-   "margin_label": "D+3.0",
+   "margin": 0.0,
+   "margin_label": "Even",
    "answers": [
     {
      "choice": "Sherrod Brown",
@@ -117,12 +119,47 @@
     },
     {
      "choice": "Jon Husted",
-     "pct": 44.0
+     "pct": 47.0
+    },
+    {
+     "choice": "Bill Redpath",
+     "pct": 1.0
+    },
+    {
+     "choice": "Greg Levy",
+     "pct": 2.0
     }
    ],
-   "url": "https://insideradvantage.com/insideradvantage-senate-surveys-mi-el-sayed-47-rogers-46-ia-hinson-47-turek-45-oh-brown-47-husted-44/"
+   "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
   },
   "polls": [
+   {
+    "pollster": "Echelon Insights",
+    "end_date": "2026-10-23",
+    "margin": 0.0,
+    "n": 508,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 47.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 47.0
+     },
+     {
+      "choice": "Bill Redpath",
+      "pct": 1.0
+     },
+     {
+      "choice": "Greg Levy",
+      "pct": 2.0
+     }
+    ]
+   },
    {
     "pollster": "InsiderAdvantage",
     "end_date": "2026-10-22",
@@ -371,31 +408,27 @@
       "pct": 43.0
      }
     ]
-   },
-   {
-    "pollster": "Big Data Poll",
-    "end_date": "2026-09-27",
-    "margin": -3.7,
-    "n": 680,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.bigdatapoll.com/blog/buckeye-state-poll-sherrod-brown-leads-jon-husted-for-us-senate-in-ohio/",
-    "answers": [
-     {
-      "choice": "Sherrod Brown",
-      "pct": 46.3
-     },
-     {
-      "choice": "Jon Husted",
-      "pct": 42.6
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 17,
+ "raw_poll_count": 18,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "Fox News",
+   "lean": "unrated",
+   "title": "WATCH LIVE: Jon Husted, John Thune and Dr. Oz meet with Ohio farmers on campaign trail",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJZC1KY0twdFpYcUZKNWlhUndKWkZwR3pqak1yaTYxTXZRZUQ3MWJTc2VtRWVpUlpDbnl4UTJoWHNlQkJLaHhPRGlITHJfdXEySnBqa1l3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-26",
    "race": "SEN-OH-S",
@@ -407,21 +440,6 @@
    "lean": "unrated",
    "title": "Commentary: Ohio incumbent US Sen. Jon Husted's campaign is trying to portray Sherrod Brown as the incumbent",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVTRBZTQyUmd0STlwM3p1Ymdxd0ZabGI1YWZHT052MnJ4TlVKU045TDJrN05jUEV4NnhBOWZRME1ndkU4b0lVRld2ZWMtcV9wc29wRTk0ZFlJLVpsUEVXTHdadzlBdlBuM2dMVlJEZFppNHVHYU9KUEpPdnp5ZUF5ZFp2SVkzLU1ON1hCSzBPY2ZtUGdHRkNyVzduWHpJU1NyYkFfRDZyM01ZTmFTZ3RXOVFXbkUzUGdsQTlYSF8tUUtxN3NnbkZZNEUtVDU3cEZYYUJN?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "New York Post",
-   "lean": "unrated",
-   "title": "Ohio Sen. Jon Husted reveals what he really thinks of Trump’s butt comments — as prez defends anatomical crack",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMEdkN0h3eUFBRWNET0lwbk1HZEZWc1JLNERJemF3NDJoVXJvdWl4VUlzdDgtd2N5Z1IydE85ODdaZkx5MTRqYllvdGl2UU1zWVQzZ3l1c2tOa0haM3NVT3BoSTNIYTUtVkZ5NWZvRV9TZzNWYlZLb2JITjRZRW01WGhIcTYwVzl0dHBPMFYyWXVVNTJLWk9FdzRfb2JuVkotN0Izd3RRV3dETjR0Ym0yZ2ZB?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -513,6 +531,11 @@
    "date": "2026-10-27",
    "c": 0,
    "p": -3.5
+  },
+  {
+   "date": "2026-10-28",
+   "c": 0,
+   "p": -3.2
   }
  ]
 }
