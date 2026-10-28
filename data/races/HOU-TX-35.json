@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -45,9 +45,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Lean R",
-   "flip": true,
-   "as_of": "2026-10-13",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -80,15 +80,46 @@
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 2,
+ "flip_votes": 1,
  "candidates": {
   "D": [],
   "R": []
  },
  "poll": null,
  "raw_poll_count": 3,
- "trend": "Toward D",
- "signals": [],
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-28",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX",
+    "HOU-TX-35"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "President Trump rallied in Texas Tuesday night in support of Republican Senate candidate Ken Paxton, and his Democratic opponent James Talarico held an event just 3 miles away",
+   "url": "https://www.wsj.com/politics/elections/trump-and-talarico-offer-texas-split-screen-with-dueling-rallies-just-miles-apart-62d91711?mod=rss_socialpoliticsfeed",
+   "summary": "The president and the Democratic Senate hopeful held their rallies as they battled for a Senate seat now held by a Republican.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-26",
+   "race": "HOU-TX-35",
+   "races": [
+    "HOU-TX-35"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Texas 35th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOakxXcmM0cWhMODNoaEtfQldFbkxiNk5rX1FFTnpTREdvblpyczdIdk90OUVBUGpzR3h6MGg1WXVMRDJTMFlXUW1nVVRoLWw2cmh5US1TR19GT2pjRHhGWkVMeUJJRVhZQVRJSHp1azUyMWphZnhrb2luLW1ISVJycg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-35",
  "history": [
   {
@@ -173,6 +204,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-28",
    "c": 0,
    "p": null
   }

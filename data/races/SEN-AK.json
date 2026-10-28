@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -29,7 +29,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -255,29 +255,10 @@
       "pct": 49.2
      }
     ]
-   },
-   {
-    "pollster": "The New York Times/Siena University",
-    "end_date": "2026-06-29",
-    "margin": 2.0,
-    "n": 593,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-alaska-poll-crosstabs.html",
-    "answers": [
-     {
-      "choice": "Mary Peltola",
-      "pct": 45.0
-     },
-     {
-      "choice": "Dan Sullivan",
-      "pct": 47.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 8,
+ "raw_poll_count": 7,
  "trend": "Stable",
  "signals": [
   {
@@ -306,50 +287,6 @@
    "lean": "unrated",
    "title": "Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYW9GMHBKdVMzVnIwMFJjLVY4TEtKdnI5Z0RjcFdndXc2T0o2Tjc4TWRvNEk5OENpOE9zSzIwNVdoUTFvVG92amRuR3hLMm16Q0pjbUNxNUtJWGFxTzZlYlZMVURTeG1NNXZ6a05vakJHaTF4aE8wZFdzd24zT3lpMHlRQk5keWJ1Snh4dlFZdldGUdIBlwFBVV95cUxNTU45U2d0ZUFyc2dTSFdDOU92N3hEUDJvbDZ3ckJfZGlfUkx3ZGVGbDUxcDI3VjgzNVlTbWc0TXg0bDFjVFM4LWc0MXJpZHVWMjY1U1QwWTdsMGpDLUNkR3k3ZTd2V2hERVFKajNyNUNVdUFOS2ZxWldZWVBLTlZxTXV6c3dXcS1QY0N3NlZncEx3RmVCQURB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Peltola Postpones Events After ‘Minor Injuries’ in Automobile Collision, Campaign Says",
-   "url": "https://www.nytimes.com/2026/10/25/us/politics/peltola-automobile-collision-campaign-events-postponed.html",
-   "summary": "Mary Peltola, Alaska’s Democratic Senate nominee, is rescheduling stops that were planned for Sunday and Monday after the vehicle she was in was struck by another driver Saturday night, according to her campaign.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "NPR",
-   "lean": "unrated",
-   "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeTFtSVNpVEV6RTJSb3VhQ1I1WEsyYXBaaWxXV0hBZkZ0R0RkN2Nrdm9lRnM2WWhVd19xTWVMVzcyLUM2SExta29EWVI5Q2JJaWJKSmxSNmhHYmwtVUtPUngxUGhfWld0eW9BaTlQRFZjWHptbE9ocWdjQVBUdTl2Nm5wYTVDdnN4Q21DY254dGFxZ2lGQXNfY21PVG4wVjJwZi1rLWszQkFuMEpnN1A4NnZ0RVYtcTlvWlpHeFVlSXg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-24",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Al Jazeera",
-   "lean": "unrated",
-   "title": "Dan Sullivan vs Dan Sullivan: Why is Trump’s DOJ suing in Alaska?",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ3FzY0d0clMyaUhSTGpSZ0oxdDkyOV81SnVWcHhvUF94djJFaFhhZ2pKaTA4dDRtSHdzeERDeTlXN0ZYTTc5Z1F4akF1OG8wdGNqakEwMGp5X2dHQk9hSkdLbzczRDlXYi1qOWE2LTB4YzJTcFlBekVFSURqbUQwV0pXQmtrTWlrREUycWZfUGc5ZjhpM041QW40ZFhBdVhSN3pOZzZCc9IBrAFBVV95cUxOM3h2MXl2VDJtdGxyS3FiMkNMWE1zMUc4WFl4Xy13U3dRRlBTdmZtOEV0ek4zTFY1TmFkOXBkRjMyaWtPZ2g4OVlxaVlDLTN2M0t4TnZUYTd4SmljNmRnNEd2UUtuaGtMX1RTenFBQ2xybUhNMGpCbmFwOUgwRktLbEtybFlUeGJLRkxzd0FRVllnckpvVDdBeUQwaURiMVkzSjJSQVVXZkFubVl2?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -439,6 +376,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-28",
    "c": 0,
    "p": -0.8
   }

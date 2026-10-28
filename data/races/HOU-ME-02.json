@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -90,6 +90,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-27",
+   "race": "HOU-ME-02",
+   "races": [
+    "HOU-ME-02"
+   ],
+   "type": "reporting",
+   "source": "newscentermaine.com",
+   "lean": "unrated",
+   "title": "Dunlap, LePage campaign on affordability and corruption fighting as race for Maine’s 2nd Congressional District enters final week",
+   "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQWjJBX0VDTGtVT0VXQTFrMm1GdU5YaktjcUhmREZUVVBWcjZ1QXFpeWhuaDNJa3RxdU5YTnYzVGcyd2x6OFdOZW1MM0p4SjN3SHhlN1ZVeVpYVHN0QjJvcUZKWXNqSnpTTzVXRDdGQXpGRkVLZ0J1V1Y2WjE5clhTMVMtXzRNY0s4OVg5cWxYTXBneEFNRnZDQWJhZHRJQV9WaHI1WG91WnJCQ1NoSC16WGlOSTZveFhuUWZsY2NpU3J6bWdrQnpESVRSanFJZlBwN05ncHVQNi02ZmxWRlhSanFuUWdod0RndFNDMURVblJya2lsWnFWZWZfc0g1S0FtZV9FOVhRMXBnX1ZUNEQtS3NpTm5yMkdOY3Z0MTVBa09CMnpIS2ZOUTFIUWw0V1BPN1NTNEtnc2ZWMk1uMjhYbXlSZkVfM1JjMHVDa2d6NlM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-26",
    "race": "HOU-ME-02",
    "races": [
@@ -100,21 +115,6 @@
    "lean": "unrated",
    "title": "Maine 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "HOU-ME-02",
-   "races": [
-    "HOU-ME-02"
-   ],
-   "type": "reporting",
-   "source": "newscentermaine.com",
-   "lean": "unrated",
-   "title": "The race for Maine’s 2nd Congressional District seat: Here's what you need to know",
-   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeWMtaFhKZ29XWVU2Y25pd0FtY1ZiazhyQVFKTXdSbFhBN0NfbTdlY1U1SGhKX3M4QUxBYjlyT3hTVjFWbGdLVURqd1BxRkJ1ekZCdWJub19Zc3hMcnRUcy0yWnRpZlVicnpuUDUyaWRhYll0MVBwNW13Y1NuVlk2QTVjcWkzdUNfb3B2VWl2c18xNm9JUzNOVDRzcU54cXM4aHNYS0MwNUhTTk50dHdtbEdTemRtQXptczF4SzFjT05mR2ZsOXhvdFlqVDNYS215NE1hYU1KV2FMVWJSQ3JVVXRnaGJYdklSZEtkanczRUxucEQzMXlfbmotRy0tTDg3RDA0UUVXLW93ZU1S?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -204,6 +204,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-28",
    "c": 0,
    "p": null
   }

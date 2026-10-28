@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -90,16 +90,31 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-27",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "The Denver Post",
+   "lean": "unrated",
+   "title": "Shadowy group backs Libertarian candidate in Colorado’s CD8 race, portraying Rep. Gabe Evans as … too liberal?",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWXg3OEgwT0Q4N0gxZVNXb3Z2bFhnYm1WR0RSQUJDX2pHNUpmSVR1a0NvXzY0SGVZeWJ3ZkdFdVN2Sml1MzVxb3FUQm10Rk9pZGlINFl0SzZXX1RWOEdqUUZfV1VMVUJjalpmaThaZWE0VWMzek1jVUZnNG9yNGVwN3MwS1Bxc3hpSVBMRmpnWDU5T0toZ2FTNTBnSHlqUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-26",
    "race": "HOU-CO-08",
    "races": [
     "HOU-CO-08"
    ],
    "type": "reporting",
-   "source": "The Daily News | Texas' Oldest Newspaper",
+   "source": "The Lufkin Daily News",
    "lean": "unrated",
    "title": "US Congressional candidate, Manny Rutinel, campaigns to overtake Colorado's 8th congressional district",
-   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQeENqWHpfTjBLMEQ0R0Y1bU5uME5lVTdneXdyOVhLVWhpN0ZSeWx1d3lNWlB5SDNQdGdhSTdPdklKYUlkaXdUcWI5b0otOU9BNXEyaEFiNEE3dEFUTThxUDRZSlJlSnhxUUdaeHphcm5PcXgxeWxMTGpaRUhYWjJvS2RueGd0cEphM3RreElmaEJBTmxnSXRJSEdVUk9UM29nRVROaHcxeTJHQkxaeEp6dmVqcFUzY1c1QkJRaW9ZZXdSdk1zT25IT0FINk9CYmFmSkoybGdLZXNPQUpURzU2Yml4Qk5yNHdzeU93STZaY09qUDZBSG9mdXNIRG5WdmVEa0pQWnJXMURlY0ZPRlhHWEtuMGtDTVptVVctcFpoVQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQSjV3WjFicHg5R0hfdWR5RVZWUnFFeVlMeUVrdDJyWW81OVp2Z2xFeldnZ3hUbjZ5enZHaHR0ZTRDN1hOdGdjekJiXzY1TmVrbzNaMlNjc3RFWkE4cXhDbDUtRHdtVEdWZGpsR2o4ODF4YS1pNjlhN0lJX1dsSTBJeDlkN2RLdE04b0dhTUtGeGpJQW5waDY5VTkwR0Y5ZkdrdkdXR3BGZEgyQi0yc2xLMEdnSGV3SUJSM3BqcE9CSzRSZ0xnVHdTZzBacDhjNEpYTlZDR1hxTHR0Y01NNmlpNWVVS0VlS1ZtZ2lFOE9XYVZIWG5kR1hqeXZBR0o1UlpGWW9PVFZlMGFpOVRVT3BtLXpFT0Rvby15UnpSN2JfY1pHOE0?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -189,6 +204,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-28",
    "c": -2,
    "p": null
   }

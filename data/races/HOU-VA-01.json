@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -161,7 +161,23 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "HOU-VA-01",
+   "races": [
+    "HOU-VA-01"
+   ],
+   "type": "reporting",
+   "source": "The Center Square",
+   "lean": "unrated",
+   "title": "Wittman, Taylor differ on costs in Virginia House race",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaDQ4S1lYbWNLNkM0QlVzRUl5YUhLMjl1OXJWVDJBc1U4N0dUTXE4aE5NVnMwYThBWngtMzZUUzVnT09kR1Q1MnlEcUZvVVVqVFAyNUZEVTZ4U3pVb1pNVkhKY0g3cWZJZVFmU2p1X0dVNE9uR2duVllvMTJCR3JRZXFCd0RpZFBmQWw3d0pCeHc1dzN50gGaAUFVX3lxTE9MeENFNktyMWU4ZEVydEdyLXBLT3lFVDhrdnNvcUpmNlgya2MwMmQtT2E3cVBFOWxQWGlIMFRsZlpVSnRDbUhfRDlMRVlGQVZfZDJtRkRXZTdHcTYxckI3RlhHWk9OYUtyWHZvdTRqa0tFbzYwNXBiOEkwQklrNkg4aWZoN0RpRDFMZGt3TzhEd2xwWm9aUW1fd3c?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-01",
  "history": [
   {
@@ -246,6 +262,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 0,
+   "p": -2.5
+  },
+  {
+   "date": "2026-10-28",
    "c": 0,
    "p": -2.5
   }

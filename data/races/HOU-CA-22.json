@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -88,7 +88,38 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-26",
+   "race": "HOU-CA-22",
+   "races": [
+    "HOU-CA-22"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "California 22nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONU9iSUZJQmFONXgzLTRiX2dOenFncVZXdW5ZRzNwWHNpcHBwdW52Y29vemtfNV9mXzR3VF9CWkRqN2FPRnBuZXpBZjduRXVvTlVJcllESm9vTVkxTFZkWGhETlVnQno3WnQwTWhNWklsaUs3WWtnalJmZHNWdW02cENXQ0xnTWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-26",
+   "race": "HOU-CA-22",
+   "races": [
+    "HOU-CA-22"
+   ],
+   "type": "reporting",
+   "source": "23ABC News Bakersfield",
+   "lean": "unrated",
+   "title": "California's 22nd Congressional District race draws national attention",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVzFyYVQtOWY4X1AwczNaQXZZODk1bFE2S1Vsd3dBblBZQkV1UG8wcXA4VVZ3d0ZQYldyaXVkeHFxOTZZaGhiZ090emtzcERYT2thYUMxYWZ1aUVCc2k1YUZ2QmxrOGpONjZJeUJVdHYtVzlMeEVpM2RqOFJXX3pUeDZYQmdMVDRsYjNkOHUxLVFlWnRHVXpMbDNzTlItaGExU2s1eVJILW8tQ3Y0VUloZVJQSFNVYWkwLUZEOXJJWTFNS1lzWFI3UjJBUmk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-22",
  "history": [
   {
@@ -173,6 +204,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-28",
    "c": -2,
    "p": null
   }

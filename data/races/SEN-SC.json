@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -27,9 +27,9 @@
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -51,9 +51,9 @@
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -209,39 +209,25 @@
   ]
  },
  "raw_poll_count": 3,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "WION",
+   "source": "USA Today",
    "lean": "unrated",
-   "title": "US midterms 2026: Democrat Annie Andrews gains bipartisan backing against Trump's pick Darline Graham in South Carolina Senate race",
-   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQUGRqWmhMLXp3WVJ0RTRxYW5LaUpwX19zUzZ4bTBBZk02SDA1bkF3UFl4OU9CbTh4R0RmUS1DZW5YeHZpTk5IVzh5Nk8yZFhWenNhR1VKMVVEZXg4cEVGOFNmWjVjRTFUQjR0ZWwyMHdFMVRjWWNhTEhLcnl1S1RQbHc2RTlhazR0TkNKQW1zaWxKRFhyVlVCMDNvX2oxUE1lNDV4b3BlcndxWlBEZEtkR0U4S0JzOHp6TDA0UlRvcGpDN2VuLVdyclZldVA1Tl9WZXpQRmNKU1E4MVplc0VXT2ItR29YaXZ6R2VXSkNqTzltcldyZXpCS2lrSmxuc0dFOXd3adIBigJBVV95cUxOYVBaR0NMdnpOWkpqekYyZDN0N25hc2l6Q1BzejZKU0J2dUNlNFh6S3p0d01HM2JLdV9KYVdyZlZVUVFWT3pnUjZZRjEzMHVrSnlYZ2xBT1Q2NEdUcUVtSnY2Q0FnXy15cUs0Z3htLUx4NHJGYUJFTVVmWm5ZeGlsT2c1Ti13WXpCblUyMFNyWE9DOENuYU5xdkxveTRQa3E1QWwtM2c2RTBjWFZvTDJ4Yk40X1VzLXRMTzBEU0d4VjFLM1FwM3M1dlVRdzJmZmFYel9fYXJRVXFSQ1llSnl0bEtEVHNPejlmOEVaOHFwRFJpMjZXYUFMLWNpUXBzYzdwc0pISlFFdzhOUQ?oc=5",
+   "title": "South Carolina poll shows Graham, Andrews neck and neck before Election Day",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMmVpQlR5ckFkMzY4bTd2d0hsR2l0WHpwdzhVbjZlT0ozQkRxNGluM3VJYXhaclpIME8xZkd1cndCTEFBdUFPVmExT2VtWm80WHkzeFFFVzZSYVdsZDdvY2tidU5ENHVHN3REXzFCRE5laFB3Tk43Z3QyNi1uTm5aaG5SSTZJWWt6Y2tnQktCTnB3UFA0aXo0VlVlQ19qdHBkQUJlWEFZcmVKaENBS0U0?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-26",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Darline Graham Gets Help From the Data Center Industry in South Carolina Senate Race",
-   "url": "https://www.nytimes.com/2026/10/26/us/politics/darline-graham-data-centers-south-carolina.html",
-   "summary": "As political fights over artificial intelligence accelerate, there is now a super PAC aligned with the data center industry. Its first bet is on Ms. Graham, a Republican in an unexpectedly tight race.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
@@ -256,16 +242,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "WCIV",
    "lean": "unrated",
-   "title": "Darline Graham Gets Help From the Data Center Industry in South Carolina Senate Race",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVmN2Y0pYTWVRa0U1UGJZeVVwUTVveFU0WEhUd1YxXzgzOWFMSFE5Um84ZkZMMEtKOE5mMEpxYUhBMmZwaTRsRE1HbFZIQUV0cHd0bG9sVVc4VVpQS1dSV0diaDN0NkFzUGZLNUxJSlhOM3JmVUZLMFVWWDc1WmZBUEdaSFRGc0pLVmpYS1Nhck9XeUFraUd1dVpn?oc=5",
+   "title": "South Carolina poll shows Andrews and Sen. Graham in dead heat ahead of Election Day",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSEhmX3ZUdEVybnJaaVJPWFNrWnlGVjFybDF2QUgzUTlFZHF5ako4TV9XWmZlcV9ocG8xX1E0VU5HaGQzSW11Y1J3dFVxdFo2dVdlV19KTUhyME5wcGIzV0FwWEh5YUt5OVNJU3dwdlhJXzRoZXRNMEtzTDZCMFlUY2FSdlRrTzBuamN1OGdHdGlrNnZUcDE0bjF4ZkFrTU9EZmdDbzJnTU0weWx4SVdYVnZFa3Iydw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -281,21 +267,6 @@
    "lean": "unrated",
    "title": "Former South Carolina Governors Endorse Annie Andrews Over Darline Graham in Senate Race",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS1pFbEl6dkhiWXdSVElnTEF6cjEwQkdORmZEXzgyb285bWNpYU5NakFybG1VZFBVMk1rX1BYV21ZTGUwNXliNnVERzVCRlk5Zk00ZlAxeW5sRFBwZnZYa0JkSkF1R1dSTjNySHZLTk1hWnhmY0VHUFlvMGdPbk1RdWY1cW9UZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "WCIV",
-   "lean": "unrated",
-   "title": "Fact-checking South Carolina U.S. Senate race ads as Graham, Andrews trade attacks",
-   "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQOXptczJyVy1SblN5Nm5jM0RFZ1VOZGJ6TW1QNlZGZWdoZjNEbV9JZUpadGlCUVNuNFlXLW9pdGtKbVktMExDR25haFo1TndtNGk4bzI5enI0YlJ1dGozTWFIcllMY3B2YlZpSVQ0NkpKbm0xOXdzckZmR1VjZURsSlpsTEJTM1BHcVpyNHFsM3BURWVydEdkbF9fTm9vWm5JT09Ja1JFemRLMnZscEhfNUtCMHNQTWpzNmtHcFJvbXllTHk5ZnF5ZkhESnRmUUJFbEV4aW5mNnlMN0h1UVZPV3QyeWh6ck1JM0lMM0lZT19VaDBuZmlWTVNaRkhTTlRoS2hITEkwS1VLbUxHR1VlTUV1SkdKUEVQbndqSW50WjRrZVhDcVkzU1pKTk9nUng3bDZXYnRQWnB0c21qUXdFZGE2VFZpSDFPZ2czelo0dHJhbXpRLTVDdlJKNG1EaTdieUZLYlo0aVh4V0k5dWxZTWJCS0Nob2xRYUNtaTlzZWM0cUJJcUF0UVRUMnR6cExFRXJUaUFRVFpla2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -400,6 +371,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-28",
    "c": 2,
    "p": 1.0
   }

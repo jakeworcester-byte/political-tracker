@@ -17,7 +17,7 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-27",
    "name": "The Economist"
   },
   "fpo": {
@@ -29,7 +29,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -53,7 +53,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-14",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
@@ -96,9 +96,9 @@
   ]
  },
  "poll": {
-  "average_margin": -2.4,
-  "average_label": "D+2.4",
-  "n_polls": 11,
+  "average_margin": -2.6,
+  "average_label": "D+2.6",
+  "n_polls": 12,
   "window_days": 21,
   "latest": {
    "pollster": "ActiVote",
@@ -139,6 +139,25 @@
      {
       "choice": "Ken Paxton",
       "pct": 49.0
+     }
+    ]
+   },
+   {
+    "pollster": "YouGov",
+    "end_date": "2026-10-21",
+    "margin": -5.0,
+    "n": 1000,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://www.univision.com/noticias/politica/poll-univision-texas-latinos",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 50.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 45.0
      }
     ]
    },
@@ -351,33 +370,14 @@
       "pct": 44.0
      }
     ]
-   },
-   {
-    "pollster": "Beacon Research/Shaw & Co. Research",
-    "end_date": "2026-09-28",
-    "margin": -2.0,
-    "n": 881,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.foxnews.com/politics/fox-news-poll-its-lone-star-senate-showdown-between-talarico-paxton",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 51.0
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 49.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 30,
+ "raw_poll_count": 31,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "race": "SEN-TX",
    "races": [
     "SEN-TX"
@@ -385,9 +385,24 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "Ken Paxton’s State-Funded Jet-Setting Draws Campaign Scrutiny",
-   "url": "https://www.nytimes.com/2026/10/26/us/politics/ken-paxton-texas-trips.html",
-   "summary": "Mr. Paxton, the Republican candidate for Senate in Texas, has taken about 350 trips outside of the state since he was sworn in as attorney general.",
+   "title": "Texas Senate Rivals Converge on Lubbock, With Trump in the Mix",
+   "url": "https://www.nytimes.com/2026/10/27/us/elections/paxton-talarico-texas-senate-rally-lubbock.html",
+   "summary": "It was a showdown of sorts in western Texas as James Talarico and Ken Paxton appeared at dueling rallies on either side of a prairie-dog-filled city park.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX",
+    "HOU-TX-35"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "President Trump rallied in Texas Tuesday night in support of Republican Senate candidate Ken Paxton, and his Democratic opponent James Talarico held an event just 3 miles away",
+   "url": "https://www.wsj.com/politics/elections/trump-and-talarico-offer-texas-split-screen-with-dueling-rallies-just-miles-apart-62d91711?mod=rss_socialpoliticsfeed",
+   "summary": "The president and the Democratic Senate hopeful held their rallies as they battled for a Senate seat now held by a Republican.",
    "relevant": true
   },
   {
@@ -402,20 +417,6 @@
    "title": "Running for Senate in Texas, Democrat James Talarico must convince some voters that he isn’t too liberal to represent the state",
    "url": "https://www.wsj.com/politics/elections/texas-senate-james-talarico-strategy-5024ef0d?mod=rss_socialpoliticsfeed",
    "summary": "The Democrat running for Senate says he rejects the “progressive” label, but hasn’t changed his beliefs.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "In Texas Senate Race, Talarico Leans Into Growing Rivalry With Elon Musk",
-   "url": "https://www.nytimes.com/2026/10/25/us/politics/talarico-musk-texas-senate-paxton-midterms.html",
-   "summary": "On the trail, James Talarico, the Democratic Senate nominee, has increasingly gone after Mr. Musk, a critic of his who has given big to a group aligned with the Republican candidate, Ken Paxton.",
    "relevant": true
   }
  ],
@@ -505,6 +506,11 @@
    "date": "2026-10-27",
    "c": 0,
    "p": -2.4
+  },
+  {
+   "date": "2026-10-28",
+   "c": 0,
+   "p": -2.6
   }
  ]
 }

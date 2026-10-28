@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -163,16 +163,16 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-23",
+   "date": "2026-10-27",
    "race": "HOU-IA-02",
    "races": [
     "HOU-IA-02"
    ],
    "type": "reporting",
-   "source": "The Des Moines Register",
+   "source": "Globe Gazette",
    "lean": "unrated",
-   "title": "'We don't ride bicycles in Iowa,' Joe Mitchell claims at Trump rally",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOM0lGZkQ1NkpOYm1hSWpuUnFNbkYxcWtrV3FnWjRoXy1BdndzS3RVWXJFN2FRX2pNZU1feUNORllfNTgxeF9ZTWFfMEkzbGNkcnU5S21XdzNKNW1vSjR6b2ptbWVQYzNYbmc0ZzlXNnI5SGNHN1M0N2lNN2RwVU4xSzFhNU5IVzN3clhZdXZlb01lbklycmtXa3N1ZDk2U1RYOXUtOG1oenllRkFWLXRydkhwSjRUbTcwakxHY05ZcVhmUTNUM09uV0g5ZHM2X2dYTEwwd0pB?oc=5",
+   "title": "CATCH UP: Lee Enterprises' reporting on Iowa's 2nd District Congressional race",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMEhDNDNFdGpQNEtPNzRBQlBhZjFxLWh1eDgtek5faXY0X1pxNU1PeXlHZ0hWc2hueXhMZVNlaDEtWUxRb3lGT1IyWDlETERhOHpVaXl5MEhUVGZnYnBxRXJvR3ZpdEZhNDRuYm9ZQTRFa0dCUU15ODVabEpXSzl6M0dCRG1wbWxDcnk4MzRZUmx4SzF6OHNwZU5Gdk1HdC1SVFlmMk0yeXFSOFlVQ3pGSnVPeVlzemdLR3c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -262,6 +262,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-28",
    "c": 0,
    "p": -3.0
   }

@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -142,6 +142,66 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-27",
+   "race": "HOU-VA-05",
+   "races": [
+    "HOU-VA-05"
+   ],
+   "type": "reporting",
+   "source": "WSLS",
+   "lean": "unrated",
+   "title": "One-on-One: John McGuire talks vision for Virginia's 5th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXd3MjF1MXRtelMzWUVSZ0VKbldYLXplMTB0VGZqenBWc1AxU1hOWWk2c20ySXBsWjNYVHF0X25Yd2pEd1hhZnJNb1FWaWF2d3N4N0RJZUVXWjRqX3h0T3AzbG5hUFZTWkJnSVFXMWs2UThTOGgwaGtzak9rOTRUd1d5b3FoUUZTdndIQlV2Skw5MmNtcVExVkVqZ2lqbHRlWTR3TldycFNROU1kaFBnTlZ6cDFya0t4UXJqMVJB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "HOU-VA-05",
+   "races": [
+    "HOU-VA-05"
+   ],
+   "type": "reporting",
+   "source": "The Daily Signal",
+   "lean": "unrated",
+   "title": "Tom Perriello Makes His Case on the Economy in Virginia’s 5th District",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVE5SHVQMDI2OHVQNXowUUF5WXJ2eWJGbEMzYXUyZTFzekRFb0dBcXFZRUd6VjM5azdFdWt6bExsQ1NpZUJVeGRnQ1ZVQ0R3MnU5M3JMQjZvME94dzNvdHo5bzRrQjRyNjRaMFJiWGVaamJFT3huSWQ2cE5zU1Z6a1FJeURUckt4YjMza3o1V2NsNTRjM2xpR1Rid1hLcHZk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "HOU-VA-05",
+   "races": [
+    "HOU-VA-05"
+   ],
+   "type": "reporting",
+   "source": "WSLS",
+   "lean": "unrated",
+   "title": "Perriello, McGuire make their pitches to voters ahead of hotly contested race for Virginia’s 5th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GOW8tREtFaHF6RjNfdVlERDNQdmQtWm94SUdQd0hSZ0hZLXRrV1habXR0QzVwZjEzN2lrbUxLOHFoWTRnNl9YNEg2NkN1SzZka3dQMFZnOXVwS3ZOdU0wdHQtSzFPZ3JMaTFObFd1bTg3LXlm?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "HOU-VA-05",
+   "races": [
+    "HOU-VA-05"
+   ],
+   "type": "reporting",
+   "source": "Cardinal News",
+   "lean": "unrated",
+   "title": "Virginia's 5th District is officially in play: Both parties' national committees make TV buys in the congressional race.",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSXoxVUphV2JrRXRFWC0xR0VlWjk3VnV3b1hoWUhiSDZmOXN2N0NRRDNNZkljQVRheTFOYXN5RTRXZnF4eGJaUlp5Vk5iajRHYXg0djJOQy1BVzJXdnNCVEs2TnFzT1ByVmpKdHE4bHFiQnV6eHRid2pnZWNjSjJYVk9XU2JLaG55eU1jWUQxQ3l1U3VPcDJjaElkLThmZGR5LUlIU1hvSE83bGxDdG1CQUNpcTBJNGY4R21XaWN3WFVqYjBrM2c?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-26",
    "race": "HOU-VA-05",
    "races": [
@@ -152,21 +212,6 @@
    "lean": "unrated",
    "title": "Virginia 5th Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnJxRlRWaDl1NnYwOU95V3VsX1Z1UllDZmFFOVkxNXZPWWRKeVNXYkxFT1RrTHIyQnJkQlhCMTdjRmhGMzdhaVltNmpUenAxM3NVNGFrMTRqODV6ektySVROcHBHUlBKMWR5R3RwTXF4OHRZdlRVS083dmpOMTBNblBwVQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-22",
-   "race": "HOU-VA-05",
-   "races": [
-    "HOU-VA-05"
-   ],
-   "type": "reporting",
-   "source": "WWBT",
-   "lean": "unrated",
-   "title": "Fact checking political ads: Virginia’s 5th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZkFyaFp6aEtjWG55emVOc2k4Mk1TbUFzNjdfLVlCMFZqTFEtWEpjOVFCZF93S2tXOVlobVVsUzlPSlQyWUtkQWpPNVI5ZWMzS0VoTzZyR0I2bEFBbVJ0bm5mWUZCeEwtWXJXWG9KTGZBcktjR3NMWnUxbl82MHFQdTJBbjB5UEt6am1WLV9RVGg1NUl2Uk8yWFZVdy1nS1FtTElEVVF1eVXSAbwBQVVfeXFMTTNBelBQaVc2R1o3YmxGeC1vNTJKUEl5aEZNMWV1UVBFYkZyNUloTnhCTlhXV3NBaU8zWXdSRUJpTWdLdlhGbU80c2FYbXNHMkhFakZPZnJRTWw5eVRBRDdvODR5UGt1VFVkcjRZWEVDdFZ0RWJ3V3NIMU9sV1l1eDhTdV9MRnJmVjlGMVBDZHlmOFl1QlRjRFJPSXEtWkdodVUzNTdXYVpwd2VXcWZXZmFBbGtWd1dsZk9Ca1g?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -256,6 +301,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 2,
+   "p": 5.0
+  },
+  {
+   "date": "2026-10-28",
    "c": 2,
    "p": 5.0
   }

@@ -15,9 +15,9 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -184,7 +184,38 @@
  },
  "raw_poll_count": 3,
  "trend": "Toward D",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-27",
+   "race": "HOU-FL-13",
+   "races": [
+    "HOU-FL-13"
+   ],
+   "type": "reporting",
+   "source": "wtsp.com",
+   "lean": "unrated",
+   "title": "Anna Paulina Luna, Leela Gray face off in Florida’s 13th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRWRPYUZUal9QZV9lUjNvUVVROFFwVWRKQ2tQVVotdzJSSTM4eGU2VjVDUEpFUUY1M1BtbUp3aXVtMEdLWUYxUElCWlNwb2ZHMTZ4bG5aZnYtUG9udk1vRkxfV0dVNkcyaV9sNHMwYmVSNUV3allxU1ZWT0lBdTNva2lLSDFCWG9kVzB3MXNPLV82OF9HQ3AxVEczdjhmanRoVGRTdUtGM193cGVNU2I5OHJuYWFGbFlRejFTVEVwMGQ4Z3NwUy03NGtGU0c4a1RDdGE5NW1rd3UwdTNXdnd3LUp3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "HOU-FL-13",
+   "races": [
+    "HOU-FL-13"
+   ],
+   "type": "reporting",
+   "source": "wtsp.com",
+   "lean": "unrated",
+   "title": "Anna Paulina Luna, Leela Gray face off in Florida’s 13th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYm1qNWxhN2lfbExvOU5wRWE1Q2VzNkRuSkhfU09aNjM4ajRJMlRrdmxya0huMHpBUllxNkxXb3Izc1A0VFotY2RWVkM4MnU2NkRpWmdXY0gzOFlwLWFoTHBzSW53U3NjLVJ5ZmVvaTVBc29oUV9DZVFUdVloTkM0N2djUTRkZnBwb01YZDNYLVBKbnU4RjlvVzBIS2k1ZGh3Y1NjVlJuaDgxZi1CWGtwLWl2RzFkbElpaGFsNGVYVm42WElZbFg2dHRZTk5DZXVpMEVfWWp5cDFSQTBWMnBlcnlQYmpxZ2ZkZDcwTHFPcHJ2clVzSWc1SmlTdFpIYXVNOGZB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-13",
  "history": [
   {
@@ -269,6 +300,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-28",
    "c": 2,
    "p": -1.0
   }

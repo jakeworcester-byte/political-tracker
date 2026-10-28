@@ -17,7 +17,7 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-27",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
@@ -35,7 +35,7 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "Decision Desk HQ"
   },
   "fpo": {
@@ -47,7 +47,7 @@
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-13",
+   "as_of": "2026-10-27",
    "name": "Fox News Power Rankings"
   },
   "silver": {
@@ -59,7 +59,7 @@
   "rcp": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-27",
    "name": "RealClearPolling"
   }
  },
@@ -140,7 +140,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-28",
+   "race": "HOU-OH-09",
+   "races": [
+    "HOU-OH-09"
+   ],
+   "type": "reporting",
+   "source": "WTOL",
+   "lean": "unrated",
+   "title": "2026 midterms: Previewing Ohio's 9th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaFdUVm13dUw5bE5iOVZfWWprSGtTVWxhZEdoRXc1RGVWazVBY2tGOFpGSm53SlllVWJCNmVTZ1NXQURyRklta1FJdU5TZUlDbFlVOE1wNXBrNllhX3RvOHQtNUJRRjBCS0Y5U045YmdBcjg3M2lZSy0xWGhTUmZVdEpsY1Z0UnYyLXgwRVIteXFUYzZaWEl0Mm1PbENpUERsR3ZHajJkdzAyV0hYcGVNanZfOGFBcmhyTUcwWVRyTnJnR25DYjdhMnJUSHV1UDZiS2ppaDFqbkpLUkVsN3Q5R2g3N05uRmJMWWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-09",
  "history": [
   {
@@ -225,6 +241,11 @@
   },
   {
    "date": "2026-10-27",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-10-28",
    "c": -2,
    "p": 0.0
   }
