@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -152,16 +152,46 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-28",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "Iowa Public Radio",
+   "lean": "unrated",
+   "title": "How a steel plant and party disillusionment are shaping Iowa’s 1st Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNZjI0MEF4REhfX2prS3VQV0NTajJZU3dHbkt6WFlfYzZ1bWc2SUhEMlRYZWV0SUx2MEttQ2Q4WFlCVlFURTdXVkU3YWE2c0s1c2VYNmRyVWZXbUVFdTI1RTBZREthZ2U5UjRHZ2ktdlJ2U1hPOEplRUt5ZllTZXhqOVZhMngyb2VJUmJrR1NFb0thV0JHSkNIQm43YjB2d1FNdW9paEQwZ3g0Z2FTT2dRYTVxRm1ZaDhSQk80OUpjWmR1Vk9YUlRaaVBIYzRqM2RHanpqZU9PSkxBRXdkc0ZGMWt3czN3M21UTTlmSVdhMTdHUFlMbnlXS3Z1Q19haWt0ZHV5bVczZEV5bzQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "KWQC",
+   "lean": "unrated",
+   "title": "Bridgford focuses on breaking gridlock in last days of Iowa’s 1st District race",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX0Y3ZkxGQmdlaWlRRE42dWR1cmpPM20tblJpVUFSRW5UcE9ibGlRdG1Fa3NuNWpLZk8yX04tWjFWcWJfNTBzQXlGRF9telJnUEk4dFgyakd0bzUtRDJyalpyakNPeHdzRnN0cVo2alhub25xc2NMNmNWNGZkaHBFUF9vcG5KYzZhQ1c0OXVidUluSDRIVGJUR2x5dm5QX015MlJUX9IBuAFBVV95cUxOOHZ4MUtiWW84SVR5LU9Wd0NhUm0tOG1IVExiemVFZlYzNWpVQkZUTEtaaWh6eTRpd0NzYlAtazJPYUxjZG91TGtGQTdSYXZxQzhTbGZkcnJjdENwX3d5ZHpsNUtEZnp6UURydzYwOGl0bjgwZWRtcVNPM241Mk1VM0ZqcEhxdmVZZmx2bnFDVC1jSjZZUmh3bFZKeTF3Ykk1TjlZX3Ewak9xT1BXSTNib01VcHIxLVBq?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-27",
    "race": "HOU-IA-01",
    "races": [
     "HOU-IA-01"
    ],
    "type": "reporting",
-   "source": "WVIK, Quad Cities NPR",
+   "source": "Heartland Signal",
    "lean": "unrated",
-   "title": "Iowa 1st Congressional District candidate Christina Bohannan says Iowans are ready for a change in leadership",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORGU5MUlIRlNOVTc5RE5ZSlNEbm54U2ZWUWdDX0dWWXdoZ0VXS0cxLUxHMl83MEJXZW95NzVfUXc4TjRia2p4eWtTdTBPTzhGTDdZVEZHNEpHaFVheGg5amtCbGRtN3NOS1dKd1VCVWhpMzlaQk8ydXo4Z1BnTXpTT2pSTlNYVkI1S2NteTRMcW5YN085NjBIM2tWN0p1VDJKZWFfeEp6enZvUTZtMExfYXlKSW9KaTQ5YWtMeFdaUE5aRTZSNXhYcENaaGRaSkNmaVllZF8wcDJmc2xKa2ZEczBJNA?oc=5",
+   "title": "Iowa’s 1st District: Where Christina Bohannan stands on gun policy",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY2xhbGgweldwVTUtSDcyOGRJSVpnWWdBTk9laG9GOFRPMk1iN2hGUXl2Nmd6VzAtbVUzdHVBeFpfWFV5bHRJU2VzSVFSbWo5akdfR0w1bEs5VDRKOU9vVGVlRUdiWV96N2JfbXBwdXl4SXlNLWI2OXRieXgzV2ZhUnB4VUN0aXpOSVhiVzlYVVY?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -271,6 +301,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-29",
    "c": -2,
    "p": -5.0
   }

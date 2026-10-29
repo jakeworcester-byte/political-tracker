@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -88,7 +88,38 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Toward D",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-29",
+   "race": "HOU-CO-05",
+   "races": [
+    "HOU-CO-05"
+   ],
+   "type": "reporting",
+   "source": "Colorado Public Radio",
+   "lean": "unrated",
+   "title": "5th Congressional District race in Colorado Springs could be closest in history",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYk5GTzI1bzh3Y3QxRHhnQy14NjgwWjJsdVpsbm1yNVp0ZHNhdHBCcWNYaGdNNWpxYkxRMF9ualhsb0lKbHZTZFFGcGUwdERxbVBheF8yNjJWb19IdGs3RGF2Q2ttbm9yV0NSS2Q5ZEVldk41djhialRfdVhfdFZpQ2FTYUN3QkM0ZktpQV9FMA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-CO-05",
+   "races": [
+    "HOU-CO-05"
+   ],
+   "type": "reporting",
+   "source": "Colorado Politics",
+   "lean": "unrated",
+   "title": "Forecaster rates Crank-Killin race in Colorado’s 5th CD a ‘toss up’",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa1JCcEtzam9aYnVhMkVVc0Y4RmtTakRZVkR4WUJUcko3VWNfa3JSTEo2RVlMWkwyVlFRMXFwZ3QyeWJnaHQ1SXNsUjJpanJWUmZGUE9OWE53SDlUTVhMSlhsOWdJVGNwMU8ySDZZUjhoWFFtdU9iblVxX2RjZWk1MHpZdUYyM3VQaFpRVnlGaWphWldPQUw1NTVMM2plaWN0NThqbDJYWEdmcjFaaEE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-05",
  "history": [
   {
@@ -178,6 +209,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 1,
+   "p": null
+  },
+  {
+   "date": "2026-10-29",
    "c": 1,
    "p": null
   }

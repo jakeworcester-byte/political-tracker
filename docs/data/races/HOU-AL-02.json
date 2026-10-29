@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-26",
+   "rating": "Lean R",
+   "flip": true,
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 7,
+ "flip_votes": 8,
  "candidates": {
   "D": [],
   "R": []
@@ -90,7 +90,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-26",
+   "date": "2026-10-28",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
@@ -105,31 +105,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-23",
+   "date": "2026-10-28",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
    ],
    "type": "reporting",
-   "source": "Alabama Daily News",
+   "source": "Alabama Reflector",
    "lean": "unrated",
-   "title": "Cook Political Report shifts AL-2 race rating towards Democrats",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT2dmbGpmei1NRjdzNUJZQ1hTekxvdHlYdUZWdVJDTENVRHZSeWxzNmNwenRBT24tM3FpYWxmUzFrWW9aa205STFzdmZoTXlIa1RmUkltel90TmkzTGRjbVJrMFQ1cXM4ZHdBbWZweTVmN25wOUtQZzVJNHZtMGQ5STFTcXo1eHNyUVhQVVVYa2dIdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "HOU-AL-02",
-   "races": [
-    "HOU-AL-02"
-   ],
-   "type": "reporting",
-   "source": "wvtm",
-   "lean": "unrated",
-   "title": "Alabama's 2nd Congressional District tightens as Shomari Figures, Rhett Marques face late sprint",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNmxScEFwV1hQVElUNEg3d2Rmc3ZPT2ltVTJmbFFUN2xJMlVaNVZ2cjFEbGF5R2JPakxfa216MjRxWUhBXzZGZlUtWmY2TnRQMWxzMVJhaTR3MnY0VDFBTjdSN0VkVERjaUpsMlpRUWpIUTZrcW5xZ3RSRlEtNVpqNXZDeXZIVmhPRXJoR3U5LUNKUQ?oc=5",
+   "title": "Figures, Marques vie for Alabama’s most competitive congressional district",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWVVIVnNJV3ZITmNpRjF5ZGEtRzZkT19LUEE0NEhaZE5JelU2cVJOSGhQZTI4dlZUWUpZbUJVNVlmNTJYWGJlZjhOVVV1NEQtU2VfMzhwMzY3cGNOTElTWVBIZGpPR0JBMEowdFNRWms4akdkNFZCbWdIYkhpWHNtd0pSc1NnQUF6NkdtdGR6RWxidTdGQ2x0TGdoSWhtVExSX0hrR3JwdHV6NGJwVnpJTFdPOA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -224,6 +209,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-29",
    "c": 2,
    "p": null
   }

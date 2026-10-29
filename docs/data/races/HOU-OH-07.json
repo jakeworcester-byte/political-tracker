@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-26",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 5,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "Brian Poindexter"
@@ -183,6 +183,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-28",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "Cleveland 19 News",
+   "lean": "unrated",
+   "title": "Embattled Miller challenged by Poindexter: What to know about Ohio 7th district candidates",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM2VtSG5kYXR3MkdVZVZWMXQ0Y1dBMDU3dmhndERRb1JRY1pCSzBlU1QtRF9OTHhXQ0NUclVBckJUV2Y1ekplZVpfc3NiQjB4c2RMNElhSEI1M2VpWWNHSEwyazdORnRwWW13azFCNXVXTUZmV1I2Ym5hUnpJdHNPYkFkTGxvcnpsTUxKNWhBbkoxSmFNOVR1SGZHLWdiclU5ZDlZQUljZjRSWW15MVpaZHg1Z3p1QTBUTHRza19jbFlqdkJK?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-26",
    "race": "HOU-OH-07",
    "races": [
@@ -223,21 +238,6 @@
    "lean": "unrated",
    "title": "Poindexter seeks to represent Ashland County in Ohio’s 7th Congressional District",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR2xtSGFvaFk4MUtsWEtOeDlpcFUwTzJtc1h6bmo1TlNGRm1EYTF5UU9UQkcxeGlHcEJjek9RZzM2WHBYMTNMazE3MjYzYU1oVkt0NlphT29hRmlYQk9EU3ZLYWRDMkp4aUxnQ01hTXNfclloZUduN3Fld2RtaVJRWk9LbFJNWWFweDBGcS05YnZuVmZkM3Y0ck1zYnRaaFFKcWo4NkRobm1CMlMwN0dEdC1FZmFqOFNSMWtXR29nVQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-23",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "Mother Jones",
-   "lean": "unrated",
-   "title": "The “Girl Dad” Running to Oust Max Miller in Ohio’s Messiest Congressional Race",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYVdaWThoZGx3QzhiMXUwUkh4VmxPNXJxc24zVXpJMEpOd1NIcVFJbHJLT3RqTkxrWUdYNUtERGJXa2ItVjdNMmtFV3pGdzBtdmdjMGFwQmU0R2ZyazFhRDJSa0hUel9FUElLdm12cXAxR1pwSUhiSkYzYW5YMnJHZ1MtRlJLS05MVjV2ejVLbG1TanExYnQ4c2R5N2Y?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -332,6 +332,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": -7.0
   }

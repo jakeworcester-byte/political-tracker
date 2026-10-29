@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-26",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-28",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 4,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Sherrod Brown"
@@ -415,31 +415,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "Fox News",
+   "source": "The Columbus Dispatch",
    "lean": "unrated",
-   "title": "WATCH LIVE: Jon Husted, John Thune and Dr. Oz meet with Ohio farmers on campaign trail",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJZC1KY0twdFpYcUZKNWlhUndKWkZwR3pqak1yaTYxTXZRZUQ3MWJTc2VtRWVpUlpDbnl4UTJoWHNlQkJLaHhPRGlITHJfdXEySnBqa1l3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "Ohio Capital Journal",
-   "lean": "unrated",
-   "title": "Commentary: Ohio incumbent US Sen. Jon Husted's campaign is trying to portray Sherrod Brown as the incumbent",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVTRBZTQyUmd0STlwM3p1Ymdxd0ZabGI1YWZHT052MnJ4TlVKU045TDJrN05jUEV4NnhBOWZRME1ndkU4b0lVRld2ZWMtcV9wc29wRTk0ZFlJLVpsUEVXTHdadzlBdlBuM2dMVlJEZFppNHVHYU9KUEpPdnp5ZUF5ZFp2SVkzLU1ON1hCSzBPY2ZtUGdHRkNyVzduWHpJU1NyYkFfRDZyM01ZTmFTZ3RXOVFXbkUzUGdsQTlYSF8tUUtxN3NnbkZZNEUtVDU3cEZYYUJN?oc=5",
+   "title": "Brown, Husted deadlocked in final days of Ohio Senate race, poll shows",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcUNHc0lUcW9mNFp2SGNYYmI1bmZwMzdta3lvZ3U5b0NwTlA5YUpuMVRRSmE0QmpmbzVhbUptZEdESVQ1M1k1ZVFvZG5JZFlCSnFwb29ocEN1aXRyZnFoNXNsQnlNOVBfOF9kWksxLXRwdG8zY0hfNDdsOWVMU0xBdVdyWlpWM3FLZnJCX0t5S19hSGlLSWd2TjFCLWpZdE5MaVdBRWRjcS1wcm43bUFianJDLU5wcWpqOXc0S3FVSUJLdXVvSDVPY1E0Y1VJckpfdDlFdjVJalpQeDB6?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -534,6 +519,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": -3.2
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": -3.2
   }

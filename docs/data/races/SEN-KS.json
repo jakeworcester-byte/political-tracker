@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-28",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -194,16 +194,31 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "Kansas City Star",
+   "source": "MS NOW",
    "lean": "unrated",
-   "title": "What national media is saying about the Hamilton-Marshall race in Kansas",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yT3pvWDdsQVJSYWJmLWdpb0Z0Ql85UmxqdmJzWGZIUjRGZ25MS0NmdGpOS3ZDNWVMck9nd2RqazF1YlVjc2pyc3NJUW1ORWtWSXJQVElia09udE95QVJnOWt1Y9IBY0FVX3lxTE5HMTMzdWZSYzZraTJQQjBkSkotd1VnQWIweFl6ckRUV3dneGhoTFVIbGtpMkIzUWJaZi1JTEQ2elpOUHJEejNFZ0tXdFFLQ0hMaVZnVnpiYXl3cnBxYmNXcXFqQQ?oc=5",
+   "title": "How Kansas’ Roger ‘the Dodger’ Marshall laid the groundwork for his troubled re-election campaign",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeFVncTE5ajNpZ3NPQ2hQREpqbk5PMVFkMm5VemJyLWFnaXBnN3A1ZE9XSERmUVc3VVZPbWhEbEdWdlpnWFRJZHNnaEFuM2xMc1AyVURWS2lLODh5UFB0VlB0WVAwMEwxZDNfYThkYXF1VHE2RjZDclZQYjVXWm45VnJBZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "Latin Times",
+   "lean": "unrated",
+   "title": "Adam Hamilton Puts Kansas Senate Seat in Play as Polls Show Dead Heat With Roger Marshall",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTFRqd0h1dE9mS2o3LV9sdFFFeldVNjAtSEZnbmd2Z0VpUXdUd0ZWRVlqRGtMYmF0ajRTUGZSM2RVYVhPd21HWnpfYkpEMzB6cms5NE5TNlp0UFRVTmxVeWE4dGl6dndkeVVDM2VXRmNaNzl5OGxydmZUaTVSWXBOcQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -328,6 +343,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": -0.5
   }

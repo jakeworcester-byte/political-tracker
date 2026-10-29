@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-28",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -387,16 +387,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "race": "SEN-IA",
    "races": [
     "SEN-IA"
    ],
    "type": "reporting",
-   "source": "Raw Story",
+   "source": "Crypto Briefing",
    "lean": "unrated",
-   "title": "‘He’s lying’: Republican unloads on Paralympian rival as Iowa Senate race gets heated",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iUjZXYV9sVnhINVl2VmVHTmc3VU1fS3JMSUJ2alc2TWp0b2pyTE4tSTY5WTk2NVZGczYwNzRzdEhMWHR4aG5oU0FYY0s4R3gzTi02QnVESm44SnNMZFBr0gFyQVVfeXFMT1RURzhEelZpaW12bFRMQlBHWkxxeE83SlZzX3BiY0R4bFNBVng0Y2UxVTRrUDVwa0xwNTl2OUExTnpfbG0wYXNDSW1fVlNMckZrSEVGNHNrZ3hwMHh3X0FUMm1VRzZnbEFxR05JTkdacjZ3?oc=5",
+   "title": "DSCC accuses Ashley Hinson of backing Iran war in tight Iowa Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObUZ6bFBfTHNJcjhRNUFSZWo3OFlxc3RuZWUtUmhCWUJPdEI2S2hZYk94T3B3dzRhVzFER0ZhUk5iM0M0RzI0dzhIZUZFM3VvdFpTZmpoWm5aYnJqN0l4TzRjSEh6Mnc0dTBuR1BDLS1jQmd5VmVERDVjTHJiVWx2NXFzWVZxZUFzNkNZUTBEX01UZG5jRG1vX25SbTFtaGNva1E?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -491,6 +491,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": 0.4
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": 0.4
   }

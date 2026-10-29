@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -90,6 +90,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-28",
+   "race": "HOU-ME-02",
+   "races": [
+    "HOU-ME-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Maine 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-27",
    "race": "HOU-ME-02",
    "races": [
@@ -100,21 +115,6 @@
    "lean": "unrated",
    "title": "Dunlap, LePage campaign on affordability and corruption fighting as race for Maine’s 2nd Congressional District enters final week",
    "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQWjJBX0VDTGtVT0VXQTFrMm1GdU5YaktjcUhmREZUVVBWcjZ1QXFpeWhuaDNJa3RxdU5YTnYzVGcyd2x6OFdOZW1MM0p4SjN3SHhlN1ZVeVpYVHN0QjJvcUZKWXNqSnpTTzVXRDdGQXpGRkVLZ0J1V1Y2WjE5clhTMVMtXzRNY0s4OVg5cWxYTXBneEFNRnZDQWJhZHRJQV9WaHI1WG91WnJCQ1NoSC16WGlOSTZveFhuUWZsY2NpU3J6bWdrQnpESVRSanFJZlBwN05ncHVQNi02ZmxWRlhSanFuUWdod0RndFNDMURVblJya2lsWnFWZWZfc0g1S0FtZV9FOVhRMXBnX1ZUNEQtS3NpTm5yMkdOY3Z0MTVBa09CMnpIS2ZOUTFIUWw0V1BPN1NTNEtnc2ZWMk1uMjhYbXlSZkVfM1JjMHVDa2d6NlM?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "HOU-ME-02",
-   "races": [
-    "HOU-ME-02"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Maine 2nd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -209,6 +209,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": null
   }

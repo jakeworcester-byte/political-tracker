@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-28",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -303,29 +303,10 @@
       "pct": 43.0
      }
     ]
-   },
-   {
-    "pollster": "Wick",
-    "end_date": "2026-06-30",
-    "margin": -3.8,
-    "n": 1175,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://wick.io/research-georgia-election-survey-june-2026",
-    "answers": [
-     {
-      "choice": "Jon Ossoff",
-      "pct": 46.7
-     },
-     {
-      "choice": "Mike Collins",
-      "pct": 42.9
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 10,
+ "raw_poll_count": 9,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-GA",
@@ -417,6 +398,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": -3,
+   "p": -9.6
+  },
+  {
+   "date": "2026-10-29",
    "c": -3,
    "p": -9.6
   }

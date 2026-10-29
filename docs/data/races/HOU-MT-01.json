@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -183,7 +183,7 @@
   ]
  },
  "raw_poll_count": 3,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
@@ -274,6 +274,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": -2.2
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": -2.2
   }
