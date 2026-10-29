@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-29",
+   "race": "HOU-MI-04",
+   "races": [
+    "HOU-MI-04"
+   ],
+   "type": "reporting",
+   "source": "Heartland Signal",
+   "lean": "unrated",
+   "title": "MI-04 incumbent Huizenga continues to skip in-person town halls, both as candidate and congressman",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTkRGQ1FzZnNiZVN2SG5qaUQ0RmhXZ0gzUW1kZERscWZfa1hXdGZSODVNZVpBcWJJVkx6OWFwaWZEUnNSTFJxM01oOWRDOGxnTW5TUFY4UnJ0ZzM2dXEwSk1uMEpiZUdqQ19LcmxsX1NvRk51a2V4OXBmRUt1U3luM1BLV2lLOUVIaHYtdnFIc3RFSVNGcGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-26",
    "race": "HOU-MI-04",
@@ -194,6 +209,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": null
   }

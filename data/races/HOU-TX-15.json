@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -181,8 +181,23 @@
   ]
  },
  "raw_poll_count": 3,
- "trend": "Toward R",
+ "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-28",
+   "race": "HOU-TX-15",
+   "races": [
+    "HOU-TX-15"
+   ],
+   "type": "reporting",
+   "source": "Latin Times",
+   "lean": "unrated",
+   "title": "A quinceañera campaign strategy has Bobby Pulido leading in one of the most competitive House races in Texas",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJa2x2dDdmcVdJSjdYZVFvMHRLZHZwVFN5MGEtY29RZktRNnY4Q0tzSDJWNTVubTZXekdrci1LYkVlNEVYczdPRURDU0FVOV9LYWNIN3VFTHJ6bk9meUFVSURMQVFwX2J3Mm51cHZhWm10RGJxR011dg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-26",
    "race": "HOU-TX-15",
@@ -288,6 +303,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": -10.0
   }

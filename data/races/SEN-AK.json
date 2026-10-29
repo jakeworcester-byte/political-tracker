@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-28",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -262,6 +262,165 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-29",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "A Plan for Two Dans: How Democrats Manipulated Alaska’s Ballot",
+   "url": "https://www.nytimes.com/2026/10/29/podcasts/the-daily/democrats-alaska-senate-midterms-dan-sullivan.html",
+   "summary": "An investigation by The New York Times looked at how two people named Dan Sullivan ended up on the ballot for the Senate.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Alaska Governor Orders Criminal Investigation Into Peltola Campaign",
+   "url": "https://www.nytimes.com/2026/10/28/us/politics/trump-peltola-sullivan-alaska-senate.html",
+   "summary": "President Trump had lashed out at Mary Peltola after The New York Times reported that her campaign and national Democrats helped recruit spoiler candidates to the race. He offered no explanation of what crime may have been committed.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "podcast",
+   "source": "The Daily (NYT)",
+   "lean": "center-left",
+   "title": "A Plan for Two Dans: How Democrats Manipulated Alaska’s Ballot",
+   "url": "https://www.nytimes.com/the-daily",
+   "summary": "An investigation from The New York Times has uncovered how two candidates named Dan Sullivan ended up on the ballot for U.S. Senate in Alaska and the secret role that Democrats played in making it happen. Kellen Browning, a political reporter for The Times, takes us inside the political scheme and e",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "podcast",
+   "source": "Ruthless",
+   "lean": "right",
+   "title": "Democrats Caught Cheating Right Before the Election",
+   "url": "",
+   "summary": "Ruthless breaks down explosive new reporting on an alleged Democratic scheme to manipulate Alaska’s Senate race by recruiting candidates to run against Dan Sullivan, raising serious questions for Mary Peltola and Chuck Schumer. Plus, King of the Hill returns with Bill Kristol facing Steve Schmidt, a",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Forbes",
+   "lean": "unrated",
+   "title": "Alaska Gov. Orders Probe Into Alleged Scheme To Recruit Second Dan Sullivan In Peltola Race",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVUZSZzdGUmdnN2hxNnpvcmFXZDVDbXhRQ0ZGWFp2NzZybnpoWTJEMWJuQU1YSHpWeFFGaFI0Q0RWTGp5eER5Q0F3dDNJRVBMRFlsQWozSkJHM0lqNWtaZlhXanQtWm1DNVh5OEFhMXdSTzY5bUZGaUdMTThKUXNOVXJ5cTkwZ2c5eGZpRW9HOW1MQWQxNDF3NkduSDlQeTh3c1I4NlBwWThac3d6NVpLUXVSMHVGRktoaldDaTdYS19xZ1pFb2swVS1FYXBQd2lTbUgwQVpZRmVGTDFm?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Alaska Beacon",
+   "lean": "unrated",
+   "title": "Trump calls for Peltola to be criminally charged, removed from Alaska’s U.S. Senate race",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbmtXQldETE9fMWxkVVBhSC03eHVYRjlObHRJVEF6SjMySDlxekZqTS1RY3NrcjdLVVlNLWNGckp4Q1RMUm5LVWdfOWFacklZV3FvUW5qV20yZ0xsbENwVmNBbUJjOW4yUWI1WkxXcW5OVGpESm9sZ0FLOFEwWWNVU3JZVUx6OEdkcVh2a2RraTN3ZEE2Y2VGOXNWYjlmTnlBel9idmVNcHMzMG5ZLVpaczAtc3JaZXg1LTVXVThPYw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Fox News",
+   "lean": "unrated",
+   "title": "Alaska Senate spoiler scheme under scrutiny; Trump in Ohio for final-week push",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQblRObTVJNWtTSEhNSWFxMThSak5vZVFka0xtZTk4WVlvdDg3akVhMG5HdDZXb0EwaHVqemd1SjFuaEM5aEpmVWVOZXJOS2ZhNVNMSEVsMDg1NmxXT3FjNm5XLXlwb0ZhVkFiOHMwQTMzRWt2dFpoOVVSNTNUZ0c3S3RKcTUzR3pNdVVXc1J1M1I?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Inside Democrats’ Secret Effort to Stack Alaska’s Midterm Ballot With Another Dan Sullivan",
+   "url": "https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html",
+   "summary": "Operatives aligned with Mary Peltola, the Democratic nominee for Senate, spent months recruiting candidates to peel votes from Senator Dan Sullivan, the Republican.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Trump called for Democratic former Rep. Mary Peltola to be criminally prosecuted and removed from the ballot in the Alaska Senate race",
+   "url": "https://www.wsj.com/politics/elections/trump-calls-for-alaska-democratic-senate-candidate-to-be-prosecuted-aec2c451?mod=rss_socialpoliticsfeed",
+   "summary": "The president said Mary Peltola should also be removed from the ballot after a controversy about a candidate with a near-identical name as the Republican incumbent.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Inside Democrats’ Secret Effort to Stack Alaska’s Midterm Ballot With Another Dan Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXZoZnd5TWlac1BNQkoyZGw1UHR6RkphN3J4S3E2bkZXbFN4SFhKcWdGQkhyNXJfblNQWTJkbXBxeHZZSTBoa0RLc18xSnpxX3dJR1FiYm5hdTdER0FWVEJRRGg3T0Nwek41ZmJFX3ZFdUtjeV83T0YzUDVvN3BhZEU3d2hocWx5ZUZQdGx0SEx4Y1hu?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "The Guardian",
+   "lean": "unrated",
+   "title": "Democrat Mary Peltola’s campaign reportedly recruited second Dan Sullivan in Alaska Senate race",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM0xJc185UFB1UUUzeGEwcHd1R0NMUFlsaVo2RnZlaDl1YTRuSFoxV0dOckRaXzFXSUduNzRYenFiRnRKRWRweUF4Y2lla2FSZ2xUMVNVS1FvM185ZkR0WUJSbEkwdDlVc2t1VjRIenhjSFBNMzlaeHd3c1lIbWh2c3FhRF8wLVhsY1A5eWVXamU?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-27",
    "race": "SEN-AK",
    "races": [
@@ -275,21 +434,6 @@
    "url": "https://audioboom.com/posts/8969627",
    "summary": "Campaigning in Michigan, Barack Obama says Donald Trump's White House renovations look like \"Saddam Hussein opened a Cheesecake Factory\" — touching off many rounds of fake conservative outrage. Jon, Tommy, and Lovett discuss Trump's reaction to the comparison and other news from the campaign trail, ",
    "relevant": true
-  },
-  {
-   "date": "2026-10-26",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "CNBC",
-   "lean": "unrated",
-   "title": "Judge fast-tracks DOJ's Alaska Senate lawsuit as Peltola seeks dismissal before Election Day",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYW9GMHBKdVMzVnIwMFJjLVY4TEtKdnI5Z0RjcFdndXc2T0o2Tjc4TWRvNEk5OENpOE9zSzIwNVdoUTFvVG92amRuR3hLMm16Q0pjbUNxNUtJWGFxTzZlYlZMVURTeG1NNXZ6a05vakJHaTF4aE8wZFdzd24zT3lpMHlRQk5keWJ1Snh4dlFZdldGUdIBlwFBVV95cUxNTU45U2d0ZUFyc2dTSFdDOU92N3hEUDJvbDZ3ckJfZGlfUkx3ZGVGbDUxcDI3VjgzNVlTbWc0TXg0bDFjVFM4LWc0MXJpZHVWMjY1U1QwWTdsMGpDLUNkR3k3ZTd2V2hERVFKajNyNUNVdUFOS2ZxWldZWVBLTlZxTXV6c3dXcS1QY0N3NlZncEx3RmVCQURB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-AK",
@@ -381,6 +525,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": -0.8
   }

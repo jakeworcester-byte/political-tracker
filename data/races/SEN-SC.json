@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-28",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -212,76 +212,31 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "USA Today",
+   "source": "MS NOW",
    "lean": "unrated",
-   "title": "South Carolina poll shows Graham, Andrews neck and neck before Election Day",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMmVpQlR5ckFkMzY4bTd2d0hsR2l0WHpwdzhVbjZlT0ozQkRxNGluM3VJYXhaclpIME8xZkd1cndCTEFBdUFPVmExT2VtWm80WHkzeFFFVzZSYVdsZDdvY2tidU5ENHVHN3REXzFCRE5laFB3Tk43Z3QyNi1uTm5aaG5SSTZJWWt6Y2tnQktCTnB3UFA0aXo0VlVlQ19qdHBkQUJlWEFZcmVKaENBS0U0?oc=5",
+   "title": "‘Train wreck’: Republicans panic over South Carolina Senate race as Trump swoops in",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnRNOUV6d2ZpQ0phQUhrR3JidVZIeVNUZGlfWHViamdpbWhOQmVTZzJ1QVBPRi1HRlVDU1lITW50OVh2NC0zSFVpMHF0LXpLbEh3SUk0MGNWbnRwRk11RVZSeEt1RzJsczZDa2ZsQjhKb0tmMVZyUUJrV0hxSGUtdVpBYy1zWmhi?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-27",
+   "date": "2026-10-29",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "The Guardian",
+   "source": "WCNC",
    "lean": "unrated",
-   "title": "Ex-South Carolina governors endorse Democrat Annie Andrews in Senate race",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd3EtMUszUldVRUU5N2lsMVl5MW1Yeml6ZmFYUzBFNEZ6TmdQVGJPelNmdEwyWGlVRjZKVnZ0QzNrVGFhRWItQWhFbG94S2Z5cnpjbFpNcXY5VnJpT3RFb2tVV0IzM3R6QlI2VUk0LU0xMTRGREZ4NzJVbzFQWUQyOUVicEQyM0hIWHlZYzJ1REdBaFdEWWVXMA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-27",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "WCIV",
-   "lean": "unrated",
-   "title": "South Carolina poll shows Andrews and Sen. Graham in dead heat ahead of Election Day",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSEhmX3ZUdEVybnJaaVJPWFNrWnlGVjFybDF2QUgzUTlFZHF5ako4TV9XWmZlcV9ocG8xX1E0VU5HaGQzSW11Y1J3dFVxdFo2dVdlV19KTUhyME5wcGIzV0FwWEh5YUt5OVNJU3dwdlhJXzRoZXRNMEtzTDZCMFlUY2FSdlRrTzBuamN1OGdHdGlrNnZUcDE0bjF4ZkFrTU9EZmdDbzJnTU0weWx4SVdYVnZFa3Iydw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Former South Carolina Governors Endorse Annie Andrews Over Darline Graham in Senate Race",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS1pFbEl6dkhiWXdSVElnTEF6cjEwQkdORmZEXzgyb285bWNpYU5NakFybG1VZFBVMk1rX1BYV21ZTGUwNXliNnVERzVCRlk5Zk00ZlAxeW5sRFBwZnZYa0JkSkF1R1dSTjNySHZLTk1hWnhmY0VHUFlvMGdPbk1RdWY1cW9UZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "WJCL",
-   "lean": "unrated",
-   "title": "South Carolina Senate race tightens as Annie Andrews faces Darline Graham",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaHpqWGpBZ0dkODZWSDhNM09XcjZlQjdrUkxJWFF5MGpCX05BSzhBOFpDYXN4cjNPVU80WHNMRHV0b0NKa2dwNUlJYk9wSXNVekcxb3EybGxsNHloRF9yOTl0bnh3SE5kSjQtODVuQjdHVnY3QXpzb3l1N3ozWndFUkZITlBiQ2o4azhzTHotLUxJdw?oc=5",
+   "title": "South Carolina Senate race tied days before election, poll shows independent shift toward Democrat",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQSkZoQkMxeUdFWS1QRUZacVlRc241ZDhjZ3IxZmFVVzNTZG5xQl9ObWdxVWRrS3gxUlR4TERuU1gteF9tWFVBbWJXWElmVzJQOWUzNDBYVjBENXVfX2FOY0J1aFpzT3FEVnlBbExtYm4wTDBqcktFYVNzSDRIVzUxMWpxbGVqdWtzQ0xKRHBsWHVfTFBMRzJ4bkJaallyOTBBalNOT1VVbGxNdHFjY0l4LXJrVmQ0bFZOZ2w2Y2tWOGh5SXc4M0Y1TnpJQTlDWnVNY2hYNnpfXzBNYTFBUk5fdU9FaGlOZ3VvMGp0b3RFOWZqeDh6RkY4RENoNktjOVRLWjlmcTZNdk5QSlZTQS1vVUg1UFI2bGRXNUsw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -376,6 +331,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-29",
    "c": 2,
    "p": 1.0
   }

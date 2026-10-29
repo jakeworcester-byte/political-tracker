@@ -29,19 +29,19 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -163,7 +163,22 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-26",
+   "date": "2026-10-29",
+   "race": "HOU-OH-15",
+   "races": [
+    "HOU-OH-15"
+   ],
+   "type": "reporting",
+   "source": "The Columbus Dispatch",
+   "lean": "unrated",
+   "title": "Don Leonard outlines priorities in bid for Ohio's 15th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX2dEYWdzRUJPS1p0OGFYYy00d3RpcTUwQUdnZFh4cDZ1eVVMbTFiYngzV0Q2Z29NYzZQNno4U2tMZE5uQ3FtUFNEX1VVdWdNeEVIRzRJNHY5X2NORzItUmxFUERKOF9NTVIxWkdSRlRyc205RU1fRzQtaV9UU0hSeXU2cTdURFh0bFRnQlR0a1FpdS1RUmRIaUNtSWp2MXBvbWI2VnlGaDNHWXdjcVZRTzlrMTJxNVEwVTRzeFVsQUpXQUM4VFp0RFlXY29CalAy?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
    "race": "HOU-OH-15",
    "races": [
     "HOU-OH-15"
@@ -267,6 +282,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-29",
    "c": 2,
    "p": -2.0
   }

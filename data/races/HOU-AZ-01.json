@@ -29,19 +29,19 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -148,6 +148,21 @@
     "HOU-AZ-01"
    ],
    "type": "reporting",
+   "source": "ABC15 Arizona",
+   "lean": "unrated",
+   "title": "Arizona's 1st Congressional District now leans Democratic, two leading forecasters predict ahead of election",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSlU1dzdSYkV6TG9ORWNiMEk2V19uRnl5V24zMVQ5bVZldWF6aFBMV0lqWXJObHVCYzA1UkY2OUZSWXhOd0Z5RkZUaWpRX2M2US1wU2lXeXVvZi0wZS1MNlFTX1dLbFJ4RXZHZmx3S3dGTGhwTXlYQW9mbGF1THI3OTlnOWtObVhib2FhVHRNY2ZWN1REcnRVQ19TaFFxZEtuZ0NXVDd3cFVNbGxJMjJUNThPSjZnUUV5aVNUdHhySDZzNGtPZUdEMU43V2I0WUhLZjRLMElVcFlSMktEbXc0QTZzbmU1NjQxWmZIN0pyUFA3QlJqcXJwM0NxV18?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "HOU-AZ-01",
+   "races": [
+    "HOU-AZ-01"
+   ],
+   "type": "reporting",
    "source": "Hindustan Times",
    "lean": "unrated",
    "title": "Amish Shah, Indian-American doctor facing Jay Feely in Arizona’s 1st district race | Hindustan Times",
@@ -246,6 +261,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": -2,
+   "p": -2.8
+  },
+  {
+   "date": "2026-10-29",
    "c": -2,
    "p": -2.8
   }

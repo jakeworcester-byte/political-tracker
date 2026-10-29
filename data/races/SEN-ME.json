@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-25",
+   "as_of": "2026-10-28",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -357,6 +357,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-29",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The Times",
+   "lean": "unrated",
+   "title": "Maine Senate race polls: who will win the 2026 election?",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNlpMRV9EdHdiRWowdjlnYUNnNFdLSWhjWFZyNnhLbDJkX1JwRnVTalZHVDU5VjJZeW1kdmRtMUxzajhKTXQ3NEUtV2FnQjRFcHNjZzZ4ai02d3FBQ3BWdE53V2h4UzN5QzlTTW02NDZudG9Idk1IMFdBUmVJZVFtNGg1WkVkSDgxYWEyMW12Vm9hcHFOR2JnWWlqNEMwZFlZaXlXajJBMFZCcUE4ZmNxbmlHd2hlLTdIdmVab3FmWVJNUHhkRS1F?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "NBC Boston",
+   "lean": "unrated",
+   "title": "As Election Day approaches, contentious Maine Senate race enters final stretch",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT2Vnb2VsZDQ5YTlmVVlITGdZaFc0Qll1OUFocTlzMEppUmpyTjBXZGRibkpYSGNiSEtHdXEta196ZFgwUnBqS1VTRU1ORmxTMlU5ZVFqdXg1alRVTlJYeVg5NHJmZVhjaDk2TlNVQUFxYVJkZl9FRW10ZEVMVmtNX3hqb2pjRUVXLV9wOTBEeWRiNzd0MzMzRU9pTjhyNTZnT2dYWXJLeTBHaUZudXI0bjdkczR5Z1hKMmxpVVRLQXlTaDBY0gHMAUFVX3lxTE1EeTBReFMydnJlLVlMSVZpMVFTbDZaX2VvTXlEdHFQRWd0cG81TWhyZmlGempoU1RZT2FNRmo3ZXV2V1B5anJiS1ZnaEhRWk4wTzRYeDV6QktpRDF4WTQ5MVV2RWZTOXo2dVpVcWRmT0hobGRyOWxDUHF4WjJKUW0wZmJxR1V6VWRzZHFReEFXZDZDSXhPM1gwb1puLXgwX0RrLW9TdGw3NFBIMVZTb05EVTY0NEFHLWlyMzJFX242b0pGX1UxNzRYOFpsaw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-28",
    "race": "SEN-ME",
    "races": [
@@ -371,16 +401,16 @@
    "relevant": true
   },
   {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "CNN",
+   "source": "WABI",
    "lean": "unrated",
-   "title": "Republican attack ads mocking Troy Jackson’s relationship roil Maine Senate race against Susan Collins",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUWloMTJwZ3dsWlkySUp6eF9vMk5Tb19hZVlXa3lGR2FNamxzODVRUlVYVGlxSTllZnYtaFZZN2ZCZWdJZURKaFkxQWh3cnRFRFlhelVQUDhNZjhERU9SaHkyekxRLV9pcjJTd25lcGR4bDMzTFBIUEplZjZPc05Cb2ZTXzZfWHBTa2trY3NlVE9aT2c?oc=5",
+   "title": "Collins ad featuring retired broadcaster draws criticism in Maine Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUTJhbmI3WHVxdzBrYjJOZVpPRkdDS3lMSXdjSFNweTU2QUo1Zy1FUldHbFVQdEVSZzFqTTFCM3Ezb2xpZUhxVVBNMFhkam05S0JLNzFPUFlpU2RWV0ZYUXNUNWotNWdOMGF4REFJSTF4TFdqUWhLZXFtbGhfbUI1akNLZ0xnQWYyeFQ1Wm9HenhWbFBmWmhiOGptczA5cUw1V2RfRHV1ZWpwd9IBvgFBVV95cUxNeVhqX2wybWRWMXd2SllrVm5RZERXdzU2TENQSVZiMHd5SVRpY1Nic1hKNm5pMlFQWnc3MF9QQnU0dGN4aW10YXJYekdZcG9lcXhKRXN5VW5DUktiQ1NzeHBOejg2Zm1kV0dZSDJ4cU5DRmxpUGY1ZlVqbEZIQjNSdWJlZEE0QjNMWmlUY1ZqbDNQeHQ5ai1naElkdkJ1UUNKUEdqNVQtaUlRZjd6TmN4RXZEV3loSmhmMEhYQktn?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -392,25 +422,25 @@
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "MS NOW",
+   "source": "The Hill",
    "lean": "unrated",
-   "title": "Troy Jackson makes final pitch to Maine voters in seven-figure ad blitz",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YcTNUcnRhV1k2YnlNLWtROU9uWEtabU85QXJyaThOU1dWNXlzcEVCdVc3WDhsNjNZRmVVV21XZTB6YmNwQklPSVVScnVyV0xtU3NUeDc1Z0kyTHZVdlU2VkVUX2NTNmZLT05XVzZKQUxUaE54?oc=5",
+   "title": "Jackson, Collins separated by 2 points in Maine Senate race polling",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRDhVUThXWXJhZFVvLTRhM0lDMGNPMF9LeVNJRXd0YW9rNVpjX1VsUTFFTWVjcVpybkU3N2o5WkRlVDhzSTg1SVlrUEZUeW9iTENpWHgwRWxOYVhObU1wSjFhT2toNTA5S3B0OFYxenpPYTAzMXBCMjh3a2JpZDNIM1JFMDk4MVlNTkhVX2o1bjNqR25fTzQtSjdEaFpSLXJ0MmJuRG16VGxadzRf0gGyAUFVX3lxTFA4ZHlBclBiUXhTNnh6TlhVWmxSTnd0Z0YzZ1RPYXJxa0pkTDFJS1JGb093c1NjSC1lcWVVNmZxcC00WkYwZHBTT2g1QTV1X0oyeUc1SzlUWXptOC1xRVdXdHZ6aGc4RFYtalE3TDJWTHFVVWpVM2t5X29NaV9faWJUUTlzZHhGQU1FV1oyWWRkM3M3aVRyay1OcmVlM2tibmFhcDluTTJZUVB3SVc4WDlpbnc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-27",
+   "date": "2026-10-25",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "Portland Press Herald - Maine Sunday Telegram",
+   "source": "NBC News",
    "lean": "unrated",
-   "title": "New polls show Maine Senate race neck and neck, governor campaign heating up - Portland Press Herald",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDY2ZUpHdWhKU251dmYyZ3FaYXFfS2JaNEpHdEJmWnBuVF9uc1paOEVIQjBxazdNWXROek1NODBpLTdBa1NocjUxbE1Fc3VGeTdXZlRoZ250NFJwd2RuTHJRLXYxYzFRUEhHT1hlSXk4RUs0dE9HYVRfMnlGQzBycHpwWkR6RURRUnhsX01TTmpNQXA3VFQtNVZBVQ?oc=5",
+   "title": "Susan Collins won women in 2020. How they break in 2026 could decide the Maine Senate race.",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOThyajVBVnpMSklwVm9nREo1YlpLdWZTUUltTTZEeV9oNHhINDZwd1lmTTZZbENpb3p0UVFBdExwYlB3OGJFNzNad0k0WFQtYnRPbV9KVG9sdHp0QUhZTEVtdlJTeW9mUzJ6YVZYRVhQYjVHTXN6NkdNcWZNeUxmUmVyY1Y4bjVaZlpMWWdUZXhYOTJUWTNnQ0c3d1BpaGtnVTZlWnU0N25TMmF2bTJYN0hVX2toNE85T3RuOVltVQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -505,6 +535,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 0,
+   "p": -3.3
+  },
+  {
+   "date": "2026-10-29",
    "c": 0,
    "p": -3.3
   }

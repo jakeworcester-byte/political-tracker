@@ -29,19 +29,19 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-28",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-26",
+   "as_of": "2026-10-28",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-26",
-   "race": "HOU-FL-07",
-   "races": [
-    "HOU-FL-07"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Florida 7th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2RoZE42TXVIUkY3MHoxN1F2RGl1YWszYXRLdU9sRGpLZTRQbk01U2JtM3hMd1hBTzlNM3RxZFp1eVhISFRGM0x1X3BiS1NqejNmVTJuVWVDSkExSnNWaWFsRTYyZGNWbFp0ekowZy1QbGhPVG4xZ0VTOTkwY1MyckNn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-07",
  "history": [
   {
@@ -194,6 +178,11 @@
   },
   {
    "date": "2026-10-28",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-29",
    "c": 2,
    "p": null
   }
