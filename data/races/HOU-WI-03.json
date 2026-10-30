@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-15",
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 8,
+ "flip_votes": 9,
  "candidates": {
   "D": [],
   "R": []
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-24",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "Channel 3000",
-   "lean": "unrated",
-   "title": "Cook Political Report shifts Wisconsin’s 3rd Congressional District toward Democrats",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQM2VfUWk5cElSWHMyWEc5eWJ2anhyejZJYl9iLUNGNVZpVmQ0OGtYdHNoT2hzbElRSnVmMXd4NWlrM1Yyc0VTM2oyTVp0d3lfQkF0a0JhUHFWX3RxMFd0UU4yN3Uzb1EwU2pHcGNtMDR6VjU4dkJ1TzV6cTk1MkQwSGpOd3RFWGt0eFdVVlhBczBIQ2FJTzdGT2dRM09ma0YyY19HM1F6WnpWMnNIRm9LQ3hFQl9nQnF0Y19UTDFUVjVxU01YNXlEWW1wVGlsaDZLNGxjRkZzcUVuQ2pEODhLc1l4cmMwaVdUbzZNWmp4RjJ0bVNaQzMtaGtMRQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WI-03",
  "history": [
   {
@@ -199,6 +183,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-30",
    "c": -2,
    "p": null
   }

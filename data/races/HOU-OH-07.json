@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-15",
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 4,
+ "flip_votes": 5,
  "candidates": {
   "D": [
    "Brian Poindexter"
@@ -183,6 +183,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-29",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "WKYC",
+   "lean": "unrated",
+   "title": "Ohio's 7th Congressional District race pits Max Miller against Brian Poindexter, who's focusing on workers' rights",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMjZhdHZUbkQtMzJDU0E2VUJyZEstQUpLSXdNLVBIb2JUUDYxMkZYY3RPQWJ2VlExRlllSWZoV2I4MWxELVJuaE9MWkxXc3JXNGpqb01Ha2lqcDM0MTNhcllaOHNvY21GSUdRcjJuaXpyb0VyaDFKOGp2WGhSdWUxQWRtZFUyQWVvalpESnZDWHA0WHUyN3A3eTJNZGhxdWg3MTEwbm5NcjRfQ3VfcWFQOXQ2cVZFZWxWQkxXbElGQm0xVV9lMnFWejMxem1kbXllTEhfaVJWSVVLWUtUU2RndmdSSmEweTJNR1FoZERqSE1uLWk0bVVzcVdwdEY?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-28",
    "race": "HOU-OH-07",
    "races": [
@@ -208,36 +223,6 @@
    "lean": "unrated",
    "title": "Ohio OH-7 Election 2026: Ohio’s deep-red House district becomes a battleground amid Max Miller controversy",
    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOV3BuOThuekRVaVAyV19SdDdhV2IyUXl2emM1VnkySExla3pMTmNzOXdpN2xnc3ZsNkVwQlBDb1Q2cm14OVA1MndRSHA2RnJqRm1TUk81eFdRUmZ6cUNUWkh5eE5vZUt3bU9EMEwxbXluSEN6NDhiYUwzdXBUdGwxaTQ0R1RfWUlhNGhna2xHNG83SHlzUnNETHEteFhVeHNGaE1VdUxLTWRieG5IWloxdVZPbjZPWnRva1Z4c3RqRER0VjBxempoVzFsaS02ZWhRdFl0bFBiVW1uOTB4M3l6cXg5RXpGZzVaam9Ja24xUjF6bVdEWm9J0gH8AUFVX3lxTE03SW1NcE1ZY3Ffai1OZ3RLWjlJb0pDMGZmUVBWU1NfS2swWndCdkRlUVJoNHBiVnpuZklpRldIeU85SWVPd3pRd2pxTzFzUndxSW13R0FFcWlsMmdaV1ZxSS0zdEpkU1MweUQ2emhVRDhWM2lrc3VoTUJ0OUVBT0ZaM1BCOTF0dUE0b0VnNGIwR0lHdkRLZk42dWVsd1JkNkVfb3d2Wmp1Z3NTNktTVGUzdmFBTjRwYWVjd2JKMUpnSEJ2TENjOXJua0J2X2FKNGZscVNwZG9MUGQzazJueExhQ1piajVrM1JjelB5V29HQk9LMVFWV2dsUkhTZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-25",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "Ashland Source",
-   "lean": "unrated",
-   "title": "Martinichin vying as write-in to represent Ohio’s 7th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPckRfbS1wQ0VxUTkzQXZGeXRmZGtkeWduRUJEM2dlSVBMMFBaN1lFQW9zdUwtcEJqcEpsclJDV0RqZGhLaU5UNVZQaGxTTE9ialpPUFVVaWw3RmFQdFN3cVJtb094VU9pV2g4cldkd2dPbFVRbGxGbFBFMHc0ZXY2ZGY4SDNjdmtDMWJ4dkpCdjhsMzhLVTIwcHprQk5xbmhfRV9id0Y5WjBvOVpjMng2aUlYQUFXX3pX?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-24",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "Ashland Source",
-   "lean": "unrated",
-   "title": "Poindexter seeks to represent Ashland County in Ohio’s 7th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR2xtSGFvaFk4MUtsWEtOeDlpcFUwTzJtc1h6bmo1TlNGRm1EYTF5UU9UQkcxeGlHcEJjek9RZzM2WHBYMTNMazE3MjYzYU1oVkt0NlphT29hRmlYQk9EU3ZLYWRDMkp4aUxnQ01hTXNfclloZUduN3Fld2RtaVJRWk9LbFJNWWFweDBGcS05YnZuVmZkM3Y0ck1zYnRaaFFKcWo4NkRobm1CMlMwN0dEdC1FZmFqOFNSMWtXR29nVQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -337,6 +322,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-30",
    "c": 0,
    "p": -7.0
   }

@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-29",
+   "race": "HOU-FL-27",
+   "races": [
+    "HOU-FL-27"
+   ],
+   "type": "reporting",
+   "source": "WSVN",
+   "lean": "unrated",
+   "title": "2 former journalists face off for Florida’s 27th Congressional District seat",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tVGdVZUg0X0w5NnRfNXpnMzVHR3hqdVVQRzdOLTdVTUgwRGdLWEpSRHJDWEp5OGZ5MlpZOVVMM0t4LTBOV2FFcklHWGhLcERETTBOcDRtcHZqMHloME0xdHhTanpkcFpBUnZXMHdXcmxMejJjR1JqZQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-27",
  "history": [
   {
@@ -237,6 +253,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-30",
    "c": 2,
    "p": 1.0
   }

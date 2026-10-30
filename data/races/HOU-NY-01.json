@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -87,7 +87,7 @@
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-01",
  "history": [
@@ -183,6 +183,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-30",
    "c": 2,
    "p": null
   }

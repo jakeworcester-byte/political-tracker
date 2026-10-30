@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Solid R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -77,7 +77,7 @@
  "incumbent_note": "",
  "consensus_score": 2,
  "consensus": "Lean R",
- "disagreement": true,
+ "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
@@ -152,7 +152,7 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "HOU-CO-04",
    "races": [
     "HOU-CO-04"
@@ -276,6 +276,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 2,
+   "p": 5.0
+  },
+  {
+   "date": "2026-10-30",
    "c": 2,
    "p": 5.0
   }

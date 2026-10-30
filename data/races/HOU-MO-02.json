@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -179,10 +179,10 @@
   ]
  },
  "raw_poll_count": 3,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "HOU-MO-02",
    "races": [
     "HOU-MO-02"
@@ -192,6 +192,21 @@
    "lean": "unrated",
    "title": "Missouri 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONE5hMXVWZEU1bzMyekhYSWZVQ2NFYnhScTUxQ0NkcG10dk9HLW1MU1pZRWREZ2MyRDYtTUlMUjZaMnNSVGVES2l4aFdySDc1ajh3SnNOX3NaYk9MZ05ic1B6R3NJZE5uQ29WdlF2dEc2bF9KX05zNWpiQ09nWTZ6UjdKcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-MO-02",
+   "races": [
+    "HOU-MO-02"
+   ],
+   "type": "reporting",
+   "source": "KSDK",
+   "lean": "unrated",
+   "title": "In tight Missouri House race, Ann Wagner and Fred Wellman clash over Iran war",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZmVrMEI2M1A1UEhjeUM2Um55bndwMm9qWGlacWE1LXM2d3NxbXljT0hwcTI5Y0s4NW1fbWFMZ19qTzQyLWMzT0hmYUtiWmxYUEY3b0x6a0hWODZWS0doOUJndG5uaXFMV0R1US1fVWhyQzA2Y2RhMWtKNV80d0ZobHhsYzBJVWpSNVd6WEEzSDBIeTIyVzF4LU95emtsTWdjWUhzOFJKSlVwSnFTN3NUdnpNTnM4Z0ZfX29NMjBLemlKZVNpTC1OQnJyMUJfdWpUdWR4TEQ5c3VieHJ6bHhPQm5nNkMtVFU?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -306,6 +321,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-30",
    "c": 0,
    "p": -3.0
   }

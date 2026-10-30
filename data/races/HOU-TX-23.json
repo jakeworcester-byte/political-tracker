@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -90,7 +90,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "HOU-TX-23",
    "races": [
     "HOU-TX-23"
@@ -199,6 +199,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-30",
    "c": 2,
    "p": null
   }

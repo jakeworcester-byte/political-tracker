@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Lean R",
+   "rating": "Tilt R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -163,16 +163,31 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-27",
+   "date": "2026-10-29",
    "race": "HOU-VA-01",
    "races": [
     "HOU-VA-01"
    ],
    "type": "reporting",
-   "source": "The Center Square",
+   "source": "WTKR",
    "lean": "unrated",
-   "title": "Wittman, Taylor differ on costs in Virginia House race",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaDQ4S1lYbWNLNkM0QlVzRUl5YUhLMjl1OXJWVDJBc1U4N0dUTXE4aE5NVnMwYThBWngtMzZUUzVnT09kR1Q1MnlEcUZvVVVqVFAyNUZEVTZ4U3pVb1pNVkhKY0g3cWZJZVFmU2p1X0dVNE9uR2duVllvMTJCR3JRZXFCd0RpZFBmQWw3d0pCeHc1dzN50gGaAUFVX3lxTE9MeENFNktyMWU4ZEVydEdyLXBLT3lFVDhrdnNvcUpmNlgya2MwMmQtT2E3cVBFOWxQWGlIMFRsZlpVSnRDbUhfRDlMRVlGQVZfZDJtRkRXZTdHcTYxckI3RlhHWk9OYUtyWHZvdTRqa0tFbzYwNXBiOEkwQklrNkg4aWZoN0RpRDFMZGt3TzhEd2xwWm9aUW1fd3c?oc=5",
+   "title": "What's top of mind for Virginia's 1st congressional district voters?",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVEVlOWl5ZHk2a2sxSzNvcjl5Zko5bk5LOW1OUW10YTJ1V2U2Q0F3RkUzekl3RTQzODhRT3FnQkY0YlZ6VWhJOFJfWXpQY1ZuNTVrS3RrNkpMNi0xTXZkRWRqbDJkcFZxMzR1bDlWeEJjRDRWZnhsbzZkUmhNeWt3aVJtVXkxcHhNWXNpY3JZdE45b3g3eU96V2ZFajFISkV1a0VOOHFESEJSV1JkMENoUEVUTnBMV00?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-VA-01",
+   "races": [
+    "HOU-VA-01"
+   ],
+   "type": "reporting",
+   "source": "Yahoo",
+   "lean": "unrated",
+   "title": "What's top of mind for Virginia's 1st congressional district voters?",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSWktd0RnUV9UVHRUMmFnbTFWYUVyTm9VZHpidUVORmxscnEzOFZmNmdJOVFDQjRIOFM5QXFJLXJQTWs5U0o1MWpORmc3TTJWdlFSX19ZR3gyaXBoMTlMZFEzTVlnRDlVbzd2bGVsUnRuZmpZZWFkVkFOSGI5dE5femJSVQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -272,6 +287,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 0,
+   "p": -2.5
+  },
+  {
+   "date": "2026-10-30",
    "c": 0,
    "p": -2.5
   }

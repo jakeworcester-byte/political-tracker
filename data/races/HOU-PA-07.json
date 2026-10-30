@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Tilt D",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -90,33 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": -5.0,
-  "average_label": "D+5.0",
-  "n_polls": 1,
+  "average_margin": -5.5,
+  "average_label": "D+5.5",
+  "n_polls": 2,
   "window_days": 45,
   "latest": {
-   "pollster": "Franklin & Marshall College",
+   "pollster": "Muhlenberg College Institute of Public Opinion",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-09-09",
-   "end_date": "2026-09-20",
-   "sample_size": 357,
-   "population": "rv",
-   "margin": -5.0,
-   "margin_label": "D+5.0",
+   "start_date": "2026-10-06",
+   "end_date": "2026-10-15",
+   "sample_size": 529,
+   "population": "lv",
+   "margin": -6.0,
+   "margin_label": "D+6.0",
    "answers": [
     {
      "choice": "Ryan Mackenzie",
-     "pct": 40.0
+     "pct": 43.0
     },
     {
      "choice": "Bob Brooks",
-     "pct": 45.0
+     "pct": 49.0
     }
    ],
-   "url": "https://www.fandmpoll.org/franklin-marshall-college-poll-release-pa-7th-and-10th-congressional-districts-september-2026/?ref=franklin-marshall-college-poll-newsletter"
+   "url": "https://www.muhlenberg.edu/muhlenberg-now/pa-7th-congressional-survey-october-2026/"
   },
   "polls": [
+   {
+    "pollster": "Muhlenberg College Institute of Public Opinion",
+    "end_date": "2026-10-15",
+    "margin": -6.0,
+    "n": 529,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.muhlenberg.edu/muhlenberg-now/pa-7th-congressional-survey-october-2026/",
+    "answers": [
+     {
+      "choice": "Ryan Mackenzie",
+      "pct": 43.0
+     },
+     {
+      "choice": "Bob Brooks",
+      "pct": 49.0
+     }
+    ]
+   },
    {
     "pollster": "Franklin & Marshall College",
     "end_date": "2026-09-20",
@@ -157,7 +176,7 @@
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 3,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-07",
@@ -256,6 +275,11 @@
    "date": "2026-10-29",
    "c": -2,
    "p": -5.0
+  },
+  {
+   "date": "2026-10-30",
+   "c": -2,
+   "p": -5.5
   }
  ]
 }

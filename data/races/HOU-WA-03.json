@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -160,8 +160,38 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-29",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "Washington State Standard",
+   "lean": "unrated",
+   "title": "Congress, 3rd Congressional District | Voter Guide: 2026 Washington state general election",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3ZEbU1IWE5rV1gyRTBSVEtUU0gxVWk1ZUIwdE1MX1lBWFpJbU5zbHFYQnloTTdhMWNCYWt3eWNIcWdJcHRkS0lBRU5iLVVlbS1QMmxZQ3BGM3NmMmdIeWZhbzIwaWQ0WUVYZUNEemUycDZQUThkRkZ4bWxNMzJtZmY2dUZ3cTE0cXJNMkxDTnp4bDd3SDBBaGhPWmFVeVJDMkFlY2ZfVHZxOTlUNmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "Yahoo",
+   "lean": "unrated",
+   "title": "High-stakes race for Washington 3rd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaWZvclRFN2VSMVVQamVZU0N4NS1DY0hscFBSN2xsdDRVMk93TkxTRGxERTRZLVlpcGUxVDhHVTI2X3Q1S1VWMmlncW43UkpJMDN0NVltQmpNVEZ2R1IwRWxpNDUyTXFweDdRRGthSGhlTlpsS2tsNGtQbER5Q3RTLVV0R1ZqLWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-26",
    "race": "HOU-WA-03",
@@ -272,6 +302,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": -2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-30",
    "c": -2,
    "p": -1.0
   }

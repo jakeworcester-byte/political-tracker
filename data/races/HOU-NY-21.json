@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -87,8 +87,69 @@
  },
  "poll": null,
  "raw_poll_count": 4,
- "trend": "Toward D",
- "signals": [],
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-10-30",
+   "race": "HOU-NY-21",
+   "races": [
+    "HOU-NY-21"
+   ],
+   "type": "reporting",
+   "source": "WKTV",
+   "lean": "unrated",
+   "title": "Candidates Talk Priorities for New York's 21st Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTi1pSTB3QTFwbE9BXzBKWDk4dGRqUjRlX0s3ZC1aRVQ0Qzl6SVFYYW5RTUlHWXpKcU1yYmFFWEpXQk9ha2IzYTFUNldiZDRSaVY3ODFoRDh0c3NqQlFNcTFkWmZoXzl1eEdHT2pMdk9WX180eVh5RUtoT1g1dHdyVG5wbUtuVUZXN2NaSWYxWDc2Y0xHNXpoTHhqX2ItQkZ3dFhsVHFsc0t4WnJkWktZNlJtUWptaWdqaERtQ2oxdVdwVmxhSWJwTjNHXzlRa3ZQaHpWRTRIRjBwMHM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-NY-21",
+   "races": [
+    "HOU-NY-21"
+   ],
+   "type": "reporting",
+   "source": "WAMC",
+   "lean": "unrated",
+   "title": "New York's 21st Congressional District garners national attention as Election Day nears",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbGZ4REF6WEIzaDVkNU13UkdCRDBTNEFQc3Z6bUt4S21VdlNHblNKSWlQVmhpbHIwYy01RFVvWEpzQmZ3andjLXZpNTNJWDlZZ0ZRMzVSV3U5WW9aR1pobjFCSjVOX2dFSDk0ZVdGOE5IUk01eDlXd1M4dHFmSnl5RG83WEVVWXpkOXpwRzljcEJIUV9Pb1IzVGJDX0tzd21paU4yMWM2VlU1YkhYbjBRQkVPR3VGb0FCUXZwWGtSSHM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-NY-21",
+   "races": [
+    "HOU-NY-21"
+   ],
+   "type": "reporting",
+   "source": "WAMC",
+   "lean": "unrated",
+   "title": "Gendebien banks on moderate approach to flip New York's 21st Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1Mbl9zUV9LNnBvTU8xWHEtLXIxSV84RzlWOUUySlk3Nm9kOFVGWXR0Zjc2VkxpVkpsUnVQd2NvaktLNzRxdXBOUHlaMTZVTjNhX3Z5dzBjajZ2Rkh1VHBBRGFkWUo5UFpEaUhqNldjSlZDSGIwV2F1alRaUk8?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-NY-21",
+   "races": [
+    "HOU-NY-21"
+   ],
+   "type": "reporting",
+   "source": "WKTV",
+   "lean": "unrated",
+   "title": "Vice President JD Vance to Campaign in NY-21 for Constantino",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNM0k1RzhUZ0VzUDV5dVBBSVRXSHR1Zi1MRmp4czlXcWpBYk5fTzN1M3poV1dRZVdsMWRZakt0Uk5JN1p4ZG9POGRVTWFMc3JWVzk3YmJXeHdDT2J5b1J0dFAxdm01cVNoM1lqV29kSWhxQXlqcnVhbFZQaHkwallGLVdpYjBybXhrMU9teU1wSUVKdDdMVktINExhRE8zRi1HT1prZ2QzNHRFblkyaEVUd19TR1NKM2hzRURhUVFCSUtFRzRUOGRObGYyR0d0RzY4d3U2TWI0blNYN2JqckVB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-21",
  "history": [
   {
@@ -183,6 +244,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-30",
    "c": 2,
    "p": null
   }

@@ -11,31 +11,31 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Fox News Power Rankings"
   },
   "ie": {
-   "rating": "Lean R",
+   "rating": "Tilt R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "nbc": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -229,21 +229,6 @@
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "Lincoln Journal Star",
-   "lean": "unrated",
-   "title": "Pete Ricketts touts experience, record in Nebraska U.S. Senate reelection bid",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTm1kTXRrZklmNGhzWkdwaE1MUkRMUnJLOEN2LTFwNjNBQmg5ejE1dlpyVG9kbkI3YnVybVpWVjJhX0dPb0ZNc1lsNlJDMXI0bjE5LXV6Ql9veTlyVWgtZkhfTVdPWWd1dkUyNS1ucmRLb2hvWGs0cWlLYTFEdUVYRDRqc3Jhc1YwMnRPUVE1RXVUV21XZ3RRc2pVdGNKTDVMdWVSUnA0bExXdTVrLXZvbTI1YkRSVVRCVmE3clFNd08?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-NE",
-   "races": [
-    "SEN-NE"
-   ],
-   "type": "reporting",
    "source": "Omaha World-Herald",
    "lean": "unrated",
    "title": "Groups use lesser-known names to boost Ricketts, Osborn in Nebraska Senate race - Omaha World-Herald",
@@ -259,10 +244,40 @@
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "Star-Herald",
+   "source": "KTIV",
    "lean": "unrated",
-   "title": "Pete Ricketts touts experience, record in Nebraska U.S. Senate reelection bid - Star-Herald",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOU11N3c5M1luNU1YTXNrRDBmUXNIQmJMV2R4TFFoQW1NRzM2eElfMkM4Z0J3QTZOU0cwUTR2akhYY09VeTZ5ZkNaVGp5SGMxNGtKVk1fdnZienZYb0RUd1VCRmY3SXRDNFhxWXQtX214Rk55UXN5NTk5bkFqLVdWcXJBMGp1ZFBvbHVSV2Y2eVVjVXZGelhxZkg3NHh6alYxbmJqNU40MzlNbzgxNW1YaUdR?oc=5",
+   "title": "Candidate Profile: Robin Richards Ricketts for Nebraska’s US Senate seat",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd19MNE5zOVVXcHB5dmNJWVZTeDlkNWNreHpZbG9pYlcxaWtWbXNtMFpiZHJDUjlVYkhTalQ3eHhfbjQ2S29OTHdIaF9VdkZ5bTdzV0J5WW9QUm0tN09VeHVkeWtibGF2T0xRWVdYb3hTTXpyclNRQkhzRGM1ckdMZy14b0RjSGJtVjk4MWFQUld0RmlrcEE1aWNGVENsUGhV0gG0AUFVX3lxTE9YT0dCVlRvcjJhRmxaXzJVeDJaS2dZclZ6Zk1FMkQwZ2d6OURIdWowbTNYRDRVTnh4M2pKWFVDRFVrWVpDcXJ3U1VsUi1OcGVISGdBNEJsYXljV0V0Wk10YTZwQXF4enJiejZDYTVtd3ZSLUxpM1pnQkRiak4tNTRuVXI2UnVyZ3R1QWVMZHJ6VzhqLVBFMjVkb2JfeDRJb2dBVmh1cXFrUFBsRGgwS2FwR3VHcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Lincoln Journal Star",
+   "lean": "unrated",
+   "title": "Pete Ricketts touts experience, record in Nebraska U.S. Senate reelection bid",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTm1kTXRrZklmNGhzWkdwaE1MUkRMUnJLOEN2LTFwNjNBQmg5ejE1dlpyVG9kbkI3YnVybVpWVjJhX0dPb0ZNc1lsNlJDMXI0bjE5LXV6Ql9veTlyVWgtZkhfTVdPWWd1dkUyNS1ucmRLb2hvWGs0cWlLYTFEdUVYRDRqc3Jhc1YwMnRPUVE1RXVUV21XZ3RRc2pVdGNKTDVMdWVSUnA0bExXdTVrLXZvbTI1YkRSVVRCVmE3clFNd08?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "The Well News",
+   "lean": "unrated",
+   "title": "Nebraska Senate: Pete Ricketts (R)",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOXlRVFBmRHFfeGdmbXJpRzc2Zk1yUVVfRG1kNzJxMEp0cmthZlBJV2xmZjZ6MFo0RDZoc19WM2gzOVU1RGRoajEyMVMtekpjLWZBYmNnUGZISmd3TXppZC1XdTdfckdzb3EwSllVWURMbmE0ajJxVmdmVktrckNHemxMVlYwNFpQOGxMcHZ5T0dCdEQ4Q2ZWclV6cnlad1hB?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -278,6 +293,21 @@
    "lean": "unrated",
    "title": "Independent Dan Osborn outlines priorities in Nebraska U.S. Senate race",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUGh0NEs1R0N5azQ3ZGhiaDU4bzlYT1dfSmJZVUl3ZEhqTE05VFlnM2FnU2cwMEh6NVJGMElPRFh4aHJqQzZQOXdjSmtLMlJwUGpqSGpHNWV1b2J3NGpHaERCczhyUTI5Y19MNGo2UzBnWjRxaE5LN1M2aW5OcXZtSTVmQ1RseWhkVzVDS3dvX3A4djNIVDZOS0wtSzlkOHlIZEh5dzBJcGlEWDhBV293LUFKNTY4UmpmZ29UcXFMRGI?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-27",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Bloomberg",
+   "lean": "unrated",
+   "title": "Tight Nebraska Senate Race Sees a Rail Merger Arise as Key Issue",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV09kNXhtM3FjM3BKYlZ5eExYMlRLRGkyejNwVlVrbUl5MTlsdlcyZDBVNWVQcXZaYjVwbk9rNWxmSDFfZUNvRVNxUVl6Wk1sZ3RFV1QzdVM5eFlOaWwzb3FiTzctOG5FSHhyYmU3TGxkalRQNEhIc2U4ZDA0anRuY3JRV3FJem56UWEzb202S3h6OEZvbF9ScFhoMjJKMlZqRDY2NVVyLWFETVNMNWgyQWVn?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -377,6 +407,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 2,
+   "p": 2.3
+  },
+  {
+   "date": "2026-10-30",
    "c": 2,
    "p": 2.3
   }

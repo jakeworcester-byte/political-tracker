@@ -11,31 +11,31 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Fox News Power Rankings"
   },
   "ie": {
-   "rating": "Lean R",
+   "rating": "Tilt R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "nbc": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -96,10 +96,10 @@
   ]
  },
  "poll": {
-  "average_margin": 1.0,
-  "average_label": "R+1.0",
+  "average_margin": 2.5,
+  "average_label": "R+2.5",
   "n_polls": 2,
-  "window_days": 45,
+  "window_days": 21,
   "latest": {
    "pollster": "Targoz Market Research",
    "sponsors": [
@@ -161,6 +161,33 @@
     ]
    },
    {
+    "pollster": "East Carolina University",
+    "end_date": "2026-10-24",
+    "margin": 4.0,
+    "n": 955,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://surveyresearch-ecu.reportablenews.com/pr/ecu-poll-finds-graham-leading-andrews-by-four-points",
+    "answers": [
+     {
+      "choice": "Darline Graham",
+      "pct": 51.0
+     },
+     {
+      "choice": "Annie Andrews",
+      "pct": 47.0
+     },
+     {
+      "choice": "Kasie Whitener",
+      "pct": 1.0
+     },
+     {
+      "choice": "Mark Hackett",
+      "pct": 1.0
+     }
+    ]
+   },
+   {
     "pollster": "InsiderAdvantage",
     "end_date": "2026-09-29",
     "margin": 1.0,
@@ -208,20 +235,50 @@
    }
   ]
  },
- "raw_poll_count": 3,
+ "raw_poll_count": 4,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK",
+    "SEN-SC"
+   ],
+   "type": "podcast",
+   "source": "Pod Save America",
+   "lean": "left",
+   "title": "Trump Puts the Mid in Midterms",
+   "url": "https://audioboom.com/posts/8971114",
+   "summary": "Trump campaigns in South Carolina as the polls show Democrat Annie Andrews tied with Senator Darline Graham. Jon and Dan react to the president's incoherent case for the nepo senator, and the White House's \"grim\" mood heading into the midterms, before discussing the latest batch of Senate polls, Tru",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-30",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "MS NOW",
+   "source": "The Washington Post",
    "lean": "unrated",
-   "title": "‘Train wreck’: Republicans panic over South Carolina Senate race as Trump swoops in",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnRNOUV6d2ZpQ0phQUhrR3JidVZIeVNUZGlfWHViamdpbWhOQmVTZzJ1QVBPRi1HRlVDU1lITW50OVh2NC0zSFVpMHF0LXpLbEh3SUk0MGNWbnRwRk11RVZSeEt1RzJsczZDa2ZsQjhKb0tmMVZyUUJrV0hxSGUtdVpBYy1zWmhi?oc=5",
+   "title": "Darline Graham increasingly endangered as South Carolina Senate race nears end",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHNuNnJac25CdnQtT0diQ1N3WFdSa1Fza2dqbElJeUloU1FSUUNma1pRaDhkR3VMS012TUVCbjB1UGlNeTh5aGVFWU9CZkpZeW5mLW82NVNvVnBaT0dreldrSUNidFJ3cW1GZ0pNb0syTG9sZjNKSkpGZW5nZVRHcklWMEcxZjVwTm9LbThFNTRjeXVySHFPNmk0WU5wUWItdWdpUmFlR3JkRmowekN6akdFQVlIZEFTamxCaGlRRl9GZ1M2aXc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Darline Graham Is ‘a Little Nervous.’ Can She Keep South Carolina’s Senate Seat Red?",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbzJCRFluZEJnRWZWWEZ4ejBKSS1UNWlGeVNHXzExTXNXWVgtUXJPeTlZdmJUaUNqTkw4UE1OU2NuSElDekkyTktyekZYRVNQZkNuNl9LbERSNHNIREhISHZmRmMwQkZGb3ZzX3l6NFhabXFOLWJkZC1MQ3pTLUpBdFhfNG02cTktSTVocW9TaHFqUy1HcGxIUg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -233,10 +290,10 @@
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "WCNC",
+   "source": "MS NOW",
    "lean": "unrated",
-   "title": "South Carolina Senate race tied days before election, poll shows independent shift toward Democrat",
-   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQSkZoQkMxeUdFWS1QRUZacVlRc241ZDhjZ3IxZmFVVzNTZG5xQl9ObWdxVWRrS3gxUlR4TERuU1gteF9tWFVBbWJXWElmVzJQOWUzNDBYVjBENXVfX2FOY0J1aFpzT3FEVnlBbExtYm4wTDBqcktFYVNzSDRIVzUxMWpxbGVqdWtzQ0xKRHBsWHVfTFBMRzJ4bkJaallyOTBBalNOT1VVbGxNdHFjY0l4LXJrVmQ0bFZOZ2w2Y2tWOGh5SXc4M0Y1TnpJQTlDWnVNY2hYNnpfXzBNYTFBUk5fdU9FaGlOZ3VvMGp0b3RFOWZqeDh6RkY4RENoNktjOVRLWjlmcTZNdk5QSlZTQS1vVUg1UFI2bGRXNUsw?oc=5",
+   "title": "‘Train wreck’: Republicans panic over South Carolina Senate race as Trump swoops in",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnRNOUV6d2ZpQ0phQUhrR3JidVZIeVNUZGlfWHViamdpbWhOQmVTZzJ1QVBPRi1HRlVDU1lITW50OVh2NC0zSFVpMHF0LXpLbEh3SUk0MGNWbnRwRk11RVZSeEt1RzJsczZDa2ZsQjhKb0tmMVZyUUJrV0hxSGUtdVpBYy1zWmhi?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -338,6 +395,11 @@
    "date": "2026-10-29",
    "c": 2,
    "p": 1.0
+  },
+  {
+   "date": "2026-10-30",
+   "c": 2,
+   "p": 2.5
   }
  ]
 }
