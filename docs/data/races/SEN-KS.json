@@ -9,33 +9,33 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Fox News Power Rankings"
   },
   "ie": {
-   "rating": "Tilt R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "nbc": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -96,33 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -0.5,
-  "average_label": "D+0.5",
+  "average_margin": -1.5,
+  "average_label": "D+1.5",
   "n_polls": 2,
   "window_days": 21,
   "latest": {
-   "pollster": "InsiderAdvantage",
+   "pollster": "CNN/SSRS",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-13",
-   "end_date": "2026-10-14",
-   "sample_size": 1200,
+   "start_date": "2026-10-20",
+   "end_date": "2026-10-26",
+   "sample_size": 838,
    "population": "lv",
-   "margin": 1.0,
-   "margin_label": "R+1.0",
+   "margin": -4.0,
+   "margin_label": "D+4.0",
    "answers": [
     {
      "choice": "Roger Marshall",
-     "pct": 48.0
+     "pct": 45.0
     },
     {
      "choice": "Adam Hamilton",
-     "pct": 47.0
+     "pct": 49.0
     }
    ],
-   "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/"
+   "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
   },
   "polls": [
+   {
+    "pollster": "CNN/SSRS",
+    "end_date": "2026-10-26",
+    "margin": -4.0,
+    "n": 838,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+    "answers": [
+     {
+      "choice": "Roger Marshall",
+      "pct": 45.0
+     },
+     {
+      "choice": "Adam Hamilton",
+      "pct": 49.0
+     }
+    ]
+   },
    {
     "pollster": "InsiderAdvantage",
     "end_date": "2026-10-14",
@@ -190,9 +209,24 @@
    }
   ]
  },
- "raw_poll_count": 3,
+ "raw_poll_count": 4,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-29",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "Kansas Reflector",
+   "lean": "unrated",
+   "title": "Marshall-Hamilton showdown becomes most expensive election in Kansas history",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRm9ldlNUdHdoRGpsckFZdFhtZW5CRmFsZEFJSnFhbkFReG9qcXNTUFRJWVhyY28wZVZ6a0drSy1zcHc4dndsLWFWeUx0czlyX0NzYnhvMnF1T0p4QURua0VFcnplbHdSeDRHaTZjMDlqMnZ1dU5NUExlTHQwcXNVS2t2WUVSS1hVTGhnWVdPd21SWW9aUDNUNmtBSV9YWTVKR0tYcVFmRjRWd0gyblJMdFF6Tm8?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-28",
    "race": "SEN-KS",
@@ -204,51 +238,6 @@
    "lean": "unrated",
    "title": "How Kansas’ Roger ‘the Dodger’ Marshall laid the groundwork for his troubled re-election campaign",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeFVncTE5ajNpZ3NPQ2hQREpqbk5PMVFkMm5VemJyLWFnaXBnN3A1ZE9XSERmUVc3VVZPbWhEbEdWdlpnWFRJZHNnaEFuM2xMc1AyVURWS2lLODh5UFB0VlB0WVAwMEwxZDNfYThkYXF1VHE2RjZDclZQYjVXWm45VnJBZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Latin Times",
-   "lean": "unrated",
-   "title": "Adam Hamilton Puts Kansas Senate Seat in Play as Polls Show Dead Heat With Roger Marshall",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTFRqd0h1dE9mS2o3LV9sdFFFeldVNjAtSEZnbmd2Z0VpUXdUd0ZWRVlqRGtMYmF0ajRTUGZSM2RVYVhPd21HWnpfYkpEMzB6cms5NE5TNlp0UFRVTmxVeWE4dGl6dndkeVVDM2VXRmNaNzl5OGxydmZUaTVSWXBOcQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Kansas Public Radio",
-   "lean": "unrated",
-   "title": "Vance makes appeal to undecided Kansas voters in last-minute pitch for Marshall's Senate campaign",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc05PYTgzM3AxbnhvdnExckltQlJtdnAxQjhzZ212TnpmRjQxS05SeUNmNnltVGotZkMwQk9kQjg5Mk12YVQ4MVRFcW15VzRyRnJseGJ1VS1ycUZuRF9JbUM0RXFDWXQwd2RVOWw2cHVSTUF1eVpqckhQRVVMYWZ1TW40YXE0blRkVmxGWW9GanBoQmV5YVpRQW5Eak5MdzMtaWdMNE5xY2JOYmZ1WFNlcm15U2FiQTVXS2RGRFhxR3NiSkdGTzJV?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "CNN",
-   "lean": "unrated",
-   "title": "What happens if Democrats flip Kansas Senate seat?",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZjB3ZTU1WVBTVWpQb1NZbEpZVE51Y2gyWjVhY1BqNjExZDUxNElPZWtZeFhYbjNNMTRya0pkNlhVYXZrSHg5RW5IWHBXaGlkNFFKRXBJZXNTSFprOU5EbDlXQ3pRT3NOR29TUl9LcEU5MURHazJBYnRoTG5LSFBxOTh2UnNDVHk0RW5icjBIcVBGZWUydEE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -350,6 +339,11 @@
    "date": "2026-10-29",
    "c": 0,
    "p": -0.5
+  },
+  {
+   "date": "2026-10-30",
+   "c": 0,
+   "p": -1.5
   }
  ]
 }

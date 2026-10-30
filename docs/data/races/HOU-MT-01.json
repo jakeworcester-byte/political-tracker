@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Tilt R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -184,7 +184,23 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-29",
+   "race": "HOU-MT-01",
+   "races": [
+    "HOU-MT-01"
+   ],
+   "type": "reporting",
+   "source": "X",
+   "lean": "unrated",
+   "title": "Aaron Flint has my Complete and Total Endorsement to be the next U.S. Representative from Montana’s 1st Congressional District – HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84eWpVRDNIRllxdmI5VC1rS0NfdGVLUGY5RS0yZTd5b2RBUzRIMjZZMjh3dW5JaXYtZS14ZnpmcHpZMkQ2Vm5OVjk3QjQtT1NyeHZkTUFrYm1aSWE0ampvYUlhdGpvTDQ1OUNvWUNaMjlsQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
   {
@@ -279,6 +295,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 0,
+   "p": -2.2
+  },
+  {
+   "date": "2026-10-30",
    "c": 0,
    "p": -2.2
   }

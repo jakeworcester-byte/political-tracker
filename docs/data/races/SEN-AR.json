@@ -11,31 +11,31 @@
   "ddhq": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Fox News Power Rankings"
   },
   "ie": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "nbc": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -96,39 +96,62 @@
   ]
  },
  "poll": {
-  "average_margin": 10.0,
-  "average_label": "R+10.0",
+  "average_margin": 12.5,
+  "average_label": "R+12.5",
   "n_polls": 2,
   "window_days": 21,
   "latest": {
-   "pollster": "Hendrix College",
+   "pollster": "GrayHouse",
    "sponsors": [
-    "Talk Business & Politics"
+    "America One Policies"
    ],
-   "partisan": null,
-   "start_date": "2026-10-08",
-   "end_date": "2026-10-13",
-   "sample_size": 709,
+   "partisan": "REP",
+   "start_date": "2026-10-27",
+   "end_date": "2026-10-28",
+   "sample_size": 509,
    "population": "lv",
-   "margin": 9.0,
-   "margin_label": "R+9.0",
+   "margin": 16.0,
+   "margin_label": "R+16.0",
    "answers": [
     {
      "choice": "Tom Cotton",
-     "pct": 50.0
+     "pct": 55.0
     },
     {
      "choice": "Hallie Shoffner",
-     "pct": 41.0
+     "pct": 39.0
     },
     {
      "choice": "Jeff Wadlin",
-     "pct": 5.0
+     "pct": 4.0
     }
    ],
-   "url": "https://talkbusiness.net/2026/10/poll-cotton-takes-lead-over-shoffner/"
+   "url": "https://www.grayhouse.com/post/arkansas-senate-poll-october-2026-cotton"
   },
   "polls": [
+   {
+    "pollster": "GrayHouse",
+    "end_date": "2026-10-28",
+    "margin": 16.0,
+    "n": 509,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://www.grayhouse.com/post/arkansas-senate-poll-october-2026-cotton",
+    "answers": [
+     {
+      "choice": "Tom Cotton",
+      "pct": 55.0
+     },
+     {
+      "choice": "Hallie Shoffner",
+      "pct": 39.0
+     },
+     {
+      "choice": "Jeff Wadlin",
+      "pct": 4.0
+     }
+    ]
+   },
    {
     "pollster": "Hendrix College",
     "end_date": "2026-10-13",
@@ -200,8 +223,8 @@
    }
   ]
  },
- "raw_poll_count": 3,
- "trend": "Stable",
+ "raw_poll_count": 4,
+ "trend": "Toward R",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-AR",
  "history": [
@@ -299,6 +322,11 @@
    "date": "2026-10-29",
    "c": 4,
    "p": 10.0
+  },
+  {
+   "date": "2026-10-30",
+   "c": 4,
+   "p": 12.5
   }
  ]
 }

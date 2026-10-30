@@ -11,31 +11,31 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Fox News Power Rankings"
   },
   "ie": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "nbc": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -101,15 +101,15 @@
   "n_polls": 6,
   "window_days": 21,
   "latest": {
-   "pollster": "Marist University",
+   "pollster": "CNN/SSRS",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-22",
-   "end_date": "2026-10-25",
-   "sample_size": 1449,
+   "start_date": "2026-10-20",
+   "end_date": "2026-10-26",
+   "sample_size": 783,
    "population": "lv",
-   "margin": -2.0,
-   "margin_label": "D+2.0",
+   "margin": -4.0,
+   "margin_label": "D+4.0",
    "answers": [
     {
      "choice": "Troy Jackson",
@@ -117,12 +117,31 @@
     },
     {
      "choice": "Susan Collins",
-     "pct": 47.0
+     "pct": 45.0
     }
    ],
-   "url": "https://maristpoll.marist.edu/polls/the-midterm-elections-in-maine-october-2026/"
+   "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
   },
   "polls": [
+   {
+    "pollster": "CNN/SSRS",
+    "end_date": "2026-10-26",
+    "margin": -4.0,
+    "n": 783,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis",
+    "answers": [
+     {
+      "choice": "Troy Jackson",
+      "pct": 49.0
+     },
+     {
+      "choice": "Susan Collins",
+      "pct": 45.0
+     }
+    ]
+   },
    {
     "pollster": "Marist University",
     "end_date": "2026-10-25",
@@ -331,42 +350,37 @@
       "pct": 47.0
      }
     ]
-   },
-   {
-    "pollster": "Quantus Insights",
-    "end_date": "2026-09-15",
-    "margin": 0.7,
-    "n": 621,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://quantusinsights.org/f/quantus-survey-collins-and-jackson-even-in-maine-senate-race",
-    "answers": [
-     {
-      "choice": "Troy Jackson",
-      "pct": 46.4
-     },
-     {
-      "choice": "Susan Collins",
-      "pct": 47.1
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 17,
+ "raw_poll_count": 18,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "podcast",
+   "source": "The Megyn Kelly Show",
+   "lean": "right",
+   "title": "Inside Look at Trump Midterm Strategy, Maine Ad Controversy, Habba-Grenell Dispute: AM Update 10/30",
+   "url": "https://www.siriusxm.com",
+   "summary": "New Senate polls show Democrats leading in four key races, including Texas and Kansas, as the New York Times reports growing concern inside the White House over President Trump's midterm campaign strategy. A Maine woman accuses a Democrat-aligned political group of misleading her into appearing in a",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-30",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "The Times",
+   "source": "NBC News",
    "lean": "unrated",
-   "title": "Maine Senate race polls: who will win the 2026 election?",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNlpMRV9EdHdiRWowdjlnYUNnNFdLSWhjWFZyNnhLbDJkX1JwRnVTalZHVDU5VjJZeW1kdmRtMUxzajhKTXQ3NEUtV2FnQjRFcHNjZzZ4ai02d3FBQ3BWdE53V2h4UzN5QzlTTW02NDZudG9Idk1IMFdBUmVJZVFtNGg1WkVkSDgxYWEyMW12Vm9hcHFOR2JnWWlqNEMwZFlZaXlXajJBMFZCcUE4ZmNxbmlHd2hlLTdIdmVab3FmWVJNUHhkRS1F?oc=5",
+   "title": "Steve Kornacki breaks down Maine Senate race",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORVhOX0drUEllem5CX2Rsd0RuaEVMRFpRRnVuMGhLdnZPY2NrcldmM29tWnNqaGZydTlYRWM4SnA5a1VNQ1kwX2VpdUJZLXlrSFUwQzA1NGhfUmdoUWZpaHQzcTZsSTBrbFdlMUtTSzJPMkFzTXo5dk8wQTZGUFM2X2duSWw4b0IzdWkxUVlPSk0?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -378,10 +392,25 @@
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "NBC Boston",
+   "source": "Maine Public",
    "lean": "unrated",
-   "title": "As Election Day approaches, contentious Maine Senate race enters final stretch",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT2Vnb2VsZDQ5YTlmVVlITGdZaFc0Qll1OUFocTlzMEppUmpyTjBXZGRibkpYSGNiSEtHdXEta196ZFgwUnBqS1VTRU1ORmxTMlU5ZVFqdXg1alRVTlJYeVg5NHJmZVhjaDk2TlNVQUFxYVJkZl9FRW10ZEVMVmtNX3hqb2pjRUVXLV9wOTBEeWRiNzd0MzMzRU9pTjhyNTZnT2dYWXJLeTBHaUZudXI0bjdkczR5Z1hKMmxpVVRLQXlTaDBY0gHMAUFVX3lxTE1EeTBReFMydnJlLVlMSVZpMVFTbDZaX2VvTXlEdHFQRWd0cG81TWhyZmlGempoU1RZT2FNRmo3ZXV2V1B5anJiS1ZnaEhRWk4wTzRYeDV6QktpRDF4WTQ5MVV2RWZTOXo2dVpVcWRmT0hobGRyOWxDUHF4WjJKUW0wZmJxR1V6VWRzZHFReEFXZDZDSXhPM1gwb1puLXgwX0RrLW9TdGw3NFBIMVZTb05EVTY0NEFHLWlyMzJFX242b0pGX1UxNzRYOFpsaw?oc=5",
+   "title": "In Maine's Senate race, voters weigh opposing views of Susan Collins' power and influence",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNEZzaXlYb0NOZkhHb192S3VqMzNRRWNTaFdkMGQzRUdoZXJieGZxbElGRURicl9rRTRCR2s0VEFhOXBWdHBPMmVmWkFBNEYxNVhWRWZZY1dWLXZOYXV5aS1sTGxoWGFHejBQb2dwdXV1MWtPZTRkZmlSNkM5RkNfenUzVUk1ZjBfRTA0RmhPMFU2RDVfZV9EdmxqbUw2Z1VIOTdmSHZ4WlVFaklXWEFwazhJa1J0UHhMU0pDNTUxMDE1RFRwRnRZUFNDaXA0YkU?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Kansas, Maine Senate races neck and neck: CNN poll",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZkNHNjJ5SFl4MHRYcl9JMFRqNTNqMGFxVEIxXzlYMURFeXFQOUhSaDNVaG14cl9LQTJKUGJsbEQyOUp2N0I4cmh6U2E2bDhlQTF1aExBczMtUExnc3pCU0pONXMyck9BQ1VaT0ltWkV6MFpJZGpZUEE3MzBMUVdkVFRhSzHSAYoBQVVfeXFMTWVwbDVMVE1CTl9qR05XRURGV2FJeTVUdFgzeWdQOGFJSDFEbXZQUU5YLXV6WklGRnhIVDNGd25VYjdkbGcyOUdRYTZXeGxyNTJFWXRzYklVZ05LTzM5bzhIQ1BpSGJNYXFlSEszYXBwMUlRTzFmdVhaWVhweFhZRXRCa1RyZm8tSDNR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -422,25 +451,10 @@
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "The Hill",
+   "source": "CNN",
    "lean": "unrated",
-   "title": "Jackson, Collins separated by 2 points in Maine Senate race polling",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRDhVUThXWXJhZFVvLTRhM0lDMGNPMF9LeVNJRXd0YW9rNVpjX1VsUTFFTWVjcVpybkU3N2o5WkRlVDhzSTg1SVlrUEZUeW9iTENpWHgwRWxOYVhObU1wSjFhT2toNTA5S3B0OFYxenpPYTAzMXBCMjh3a2JpZDNIM1JFMDk4MVlNTkhVX2o1bjNqR25fTzQtSjdEaFpSLXJ0MmJuRG16VGxadzRf0gGyAUFVX3lxTFA4ZHlBclBiUXhTNnh6TlhVWmxSTnd0Z0YzZ1RPYXJxa0pkTDFJS1JGb093c1NjSC1lcWVVNmZxcC00WkYwZHBTT2g1QTV1X0oyeUc1SzlUWXptOC1xRVdXdHZ6aGc4RFYtalE3TDJWTHFVVWpVM2t5X29NaV9faWJUUTlzZHhGQU1FV1oyWWRkM3M3aVRyay1OcmVlM2tibmFhcDluTTJZUVB3SVc4WDlpbnc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-25",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "Susan Collins won women in 2020. How they break in 2026 could decide the Maine Senate race.",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOThyajVBVnpMSklwVm9nREo1YlpLdWZTUUltTTZEeV9oNHhINDZwd1lmTTZZbENpb3p0UVFBdExwYlB3OGJFNzNad0k0WFQtYnRPbV9KVG9sdHp0QUhZTEVtdlJTeW9mUzJ6YVZYRVhQYjVHTXN6NkdNcWZNeUxmUmVyY1Y4bjVaZlpMWWdUZXhYOTJUWTNnQ0c3d1BpaGtnVTZlWnU0N25TMmF2bTJYN0hVX2toNE85T3RuOVltVQ?oc=5",
+   "title": "Republican attack ads mocking Troy Jackson’s relationship roil Maine Senate race against Susan Collins",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUWloMTJwZ3dsWlkySUp6eF9vMk5Tb19hZVlXa3lGR2FNamxzODVRUlVYVGlxSTllZnYtaFZZN2ZCZWdJZURKaFkxQWh3cnRFRFlhelVQUDhNZjhERU9SaHkyekxRLV9pcjJTd25lcGR4bDMzTFBIUEplZjZPc05Cb2ZTXzZfWHBTa2trY3NlVE9aT2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -540,6 +554,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 0,
+   "p": -3.3
+  },
+  {
+   "date": "2026-10-30",
    "c": 0,
    "p": -3.3
   }

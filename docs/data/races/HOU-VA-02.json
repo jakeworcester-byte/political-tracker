@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-15",
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 9,
+ "flip_votes": 10,
  "candidates": {
   "D": [
    "Elaine Luria"
@@ -144,6 +144,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-29",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Virginia 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0RzSmlxM2FXU1NWMzdkTGk0c19PM2ZLVG1lNHdJX3BUSVhQUHBZQnFvbUhfN1hrUWs1a2ItSUFtUGdwZVRzd3VsMm5qUGs5cG9CSHE5c0x3Uy1DbWRPN3hsRnp4bTlPU3R3bWVyZUI3bWs1bk9BbEoxSkNneWUwdGJkSQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-27",
    "race": "HOU-VA-02",
    "races": [
@@ -154,21 +169,6 @@
    "lean": "unrated",
    "title": "Elaine Luria makes final pitch to Virginia’s 2nd District voters",
    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPUzJIOGZfb1VBNmxWMmxlV0MyTEp6bFlpY2dRZU0xcHgwVUQ3azBWdW5PeV9vUm9rNndkaFdFeWhES1BDanZ3SksyV1VKa2dmY29nNjBTRHIydDVSRUtTVEZ3NmNMeUxDYVdobldORFVkTlF3bWFlTzh5cTNjaC14NnBkZ3VQeC01UTJ1d3lRaHp6YjZ0SXd5a3NOelFzTWswRHBFOTZlYjdxSjk3ME5TejEwRzh4b2JrSkstazk4c3hpbElrdzVDbW5SUGd6Q2tSUUlqVWwteXFXa05KZHZPUWYyVTd5UnB3eXJBV0luWkl1ZmZzdUdnNkktd3BFUEhuVE1iMmdmc2F3eml2V1FTNg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-24",
-   "race": "HOU-VA-02",
-   "races": [
-    "HOU-VA-02"
-   ],
-   "type": "reporting",
-   "source": "The Virginian-Pilot",
-   "lean": "unrated",
-   "title": "Letters for Oct. 25: Former U.S. Rep Luria is no Ronald Reagan - The Virginian-Pilot",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbUhLZThjbmFxUXpOV2Y3ckZYeWNOam5VbWRNMDM4cVFFMjBaUzBPZnV4UE9fME1kTGRRTWVxYmVFZER3Z0owUGdsTm5Dei1CZ3VOazM3Z2hxRXhfRC1Lcjl2RXNnMnJxWVpxSUw4eml1dU9GdzhOTy1NcmpFdURIdjdCOTVaU0lZM2paU0dXT3MxOVlrZkg3UFVGNTF6dmNO?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -268,6 +268,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-10-30",
    "c": -2,
    "p": 0.0
   }

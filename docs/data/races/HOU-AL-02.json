@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Lean R",
+   "rating": "Tilt R",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -82,15 +82,67 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 8,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Shomari Figures"
+  ],
+  "R": [
+   "Rhett Marques"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": 2.0,
+  "average_label": "R+2.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Remington Research Group",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-23",
+   "end_date": "2026-10-25",
+   "sample_size": 642,
+   "population": "lv",
+   "margin": 2.0,
+   "margin_label": "R+2.0",
+   "answers": [
+    {
+     "choice": "Rhett Marques",
+     "pct": 48.0
+    },
+    {
+     "choice": "Shomari Figures",
+     "pct": 46.0
+    }
+   ],
+   "url": "https://1819news.com/news/item/al-2-poll-marques-48-figures-46"
+  },
+  "polls": [
+   {
+    "pollster": "Remington Research Group",
+    "end_date": "2026-10-25",
+    "margin": 2.0,
+    "n": 642,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://1819news.com/news/item/al-2-poll-marques-48-figures-46",
+    "answers": [
+     {
+      "choice": "Rhett Marques",
+      "pct": 48.0
+     },
+     {
+      "choice": "Shomari Figures",
+      "pct": 46.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
@@ -100,6 +152,36 @@
    "lean": "unrated",
    "title": "Alabama 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM3hvQlU3aXliaTVBUzJZTkk0SWl2dWZqYVZRM0xWMG1SN284TGZFYXh4b25SU214cEVBMFVaSlBNWXM3ZElmcTU5eElGTi1CQnBfeG1zQkdRejZ2SWhFWlAxbHVuR3c5dk55Y0lGa0Y5Q1hTSDBGUlRiMTBBREU2Vmpn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-AL-02",
+   "races": [
+    "HOU-AL-02"
+   ],
+   "type": "reporting",
+   "source": "Alabama Political Reporter",
+   "lean": "unrated",
+   "title": "Alabama’s 2nd District race shifts to toss-up",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONVVLTTNCLXdMZDdVRG5Oa2VyemxPdnJmdVdSUDFJdlRhSDViY2ZzSmxxOFJhbjhUeEVFM3VFV1ItVGEyZnY4M2lGUFM2X2ZNTnN0WngxTkx1X3hfU1Rpb3UyRk1NVy13ZHdMNzE5Zk04cGxKYlg4VTFqWUVjcmdMcWpIQzVTVUtpMTc4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-AL-02",
+   "races": [
+    "HOU-AL-02"
+   ],
+   "type": "reporting",
+   "source": "AL.com",
+   "lean": "unrated",
+   "title": "GOP-aligned poll shows Shomari Figures, Rhett Marques nearly tied in Alabama congressional race",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbmlHbU82QlNZaU45LTZpdk81X3FfeWpvVlRkNXZ1b1dlMXV1dVVTYmxuNnVKMmdJM0c3aDZRaTBjNkNHRW01cGlMc1FMdzkyVlEyUi12dERqSlBEeF9KMHNhal9INW9TMWtrQ0pTNFdsc0d2enZPRmYxRzdET0dQa0ZkMlkxcU53X04wclRQUy01NHU1RFZOZGF0UkwyYmNGNEJleGdPRWN2SE1QYkNFUExwQzhsblRhbVd4Rzh0dW1TRndCSU5SSDJXUTNra3k3?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -216,6 +298,11 @@
    "date": "2026-10-29",
    "c": 2,
    "p": null
+  },
+  {
+   "date": "2026-10-30",
+   "c": 2,
+   "p": 2.0
   }
  ]
 }

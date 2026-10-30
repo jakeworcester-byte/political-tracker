@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Solid R",
+   "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Solid R",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -75,8 +75,8 @@
  "key": "HOU-TN-09",
  "name": "TN-09",
  "incumbent_note": "",
- "consensus_score": 4,
- "consensus": "Solid R",
+ "consensus_score": 3,
+ "consensus": "Likely R",
  "disagreement": false,
  "tracked": false,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -87,7 +87,7 @@
  },
  "poll": null,
  "raw_poll_count": 1,
- "trend": "Toward R",
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TN-09",
  "history": [
@@ -184,6 +184,11 @@
   {
    "date": "2026-10-29",
    "c": 4,
+   "p": null
+  },
+  {
+   "date": "2026-10-30",
+   "c": 3,
    "p": null
   }
  ]

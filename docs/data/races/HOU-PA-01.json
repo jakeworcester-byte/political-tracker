@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -144,7 +144,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "HOU-PA-01",
    "races": [
     "HOU-PA-01"
@@ -268,6 +268,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 0,
+   "p": 1.0
+  },
+  {
+   "date": "2026-10-30",
    "c": 0,
    "p": 1.0
   }

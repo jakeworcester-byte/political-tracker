@@ -1,0 +1,2969 @@
+{
+ "forecasters": [
+  {
+   "abbr": "cook",
+   "name": "Cook Political Report",
+   "as_of": "2026-10-20"
+  },
+  {
+   "abbr": "ddhq",
+   "name": "Decision Desk HQ",
+   "as_of": "2026-10-29"
+  },
+  {
+   "abbr": "econ",
+   "name": "The Economist",
+   "as_of": "2026-10-29"
+  },
+  {
+   "abbr": "fpo",
+   "name": "FiftyPlusOne",
+   "as_of": "2026-10-29"
+  },
+  {
+   "abbr": "fox",
+   "name": "Fox News Power Rankings",
+   "as_of": "2026-10-29"
+  },
+  {
+   "abbr": "ie",
+   "name": "Inside Elections",
+   "as_of": "2026-10-29"
+  },
+  {
+   "abbr": "nbc",
+   "name": "NBC News",
+   "as_of": "2026-10-28"
+  },
+  {
+   "abbr": "rcp",
+   "name": "RealClearPolling",
+   "as_of": "2026-10-28"
+  },
+  {
+   "abbr": "sabato",
+   "name": "Sabato's Crystal Ball",
+   "as_of": "2026-10-27"
+  },
+  {
+   "abbr": "silver",
+   "name": "Silver Bulletin",
+   "as_of": "2026-10-29"
+  },
+  {
+   "abbr": "st",
+   "name": "Split Ticket",
+   "as_of": "2026-10-27"
+  }
+ ],
+ "races": [
+  {
+   "chamber": "Senate",
+   "label": "Alabama",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+15",
+   "incumbent": "Tommy Tuberville",
+   "last_result": "60.10% R",
+   "incumbent_party": "R",
+   "open_seat": true,
+   "state": "Alabama",
+   "state_abbr": "AL",
+   "special": false,
+   "district": null,
+   "key": "SEN-AL",
+   "name": "Alabama Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Alaska",
+   "ratings": {
+    "cook": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+6",
+   "incumbent": "Dan S. Sullivan",
+   "last_result": "53.90% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Alaska",
+   "state_abbr": "AK",
+   "special": false,
+   "district": null,
+   "key": "SEN-AK",
+   "name": "Alaska Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Arkansas",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+15",
+   "incumbent": "Tom Cotton",
+   "last_result": "66.53% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Arkansas",
+   "state_abbr": "AR",
+   "special": false,
+   "district": null,
+   "key": "SEN-AR",
+   "name": "Arkansas Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Colorado",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+6",
+   "incumbent": "John Hickenlooper",
+   "last_result": "53.50% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "Colorado",
+   "state_abbr": "CO",
+   "special": false,
+   "district": null,
+   "key": "SEN-CO",
+   "name": "Colorado Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Delaware",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+8",
+   "incumbent": "Chris Coons",
+   "last_result": "59.44% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "Delaware",
+   "state_abbr": "DE",
+   "special": false,
+   "district": null,
+   "key": "SEN-DE",
+   "name": "Delaware Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Florida (special)",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+5",
+   "incumbent": "Ashley Moody",
+   "last_result": "Appointed (2025)",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Florida",
+   "state_abbr": "FL",
+   "special": true,
+   "district": null,
+   "key": "SEN-FL-S",
+   "name": "Florida Senate (special)"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Georgia",
+   "ratings": {
+    "cook": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+1",
+   "incumbent": "Jon Ossoff",
+   "last_result": "50.62% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "Georgia",
+   "state_abbr": "GA",
+   "special": false,
+   "district": null,
+   "key": "SEN-GA",
+   "name": "Georgia Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Idaho",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+18",
+   "incumbent": "Jim Risch",
+   "last_result": "62.62% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Idaho",
+   "state_abbr": "ID",
+   "special": false,
+   "district": null,
+   "key": "SEN-ID",
+   "name": "Idaho Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Illinois",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+6",
+   "incumbent": "Dick Durbin",
+   "last_result": "54.93% D",
+   "incumbent_party": "D",
+   "open_seat": true,
+   "state": "Illinois",
+   "state_abbr": "IL",
+   "special": false,
+   "district": null,
+   "key": "SEN-IL",
+   "name": "Illinois Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Iowa",
+   "ratings": {
+    "cook": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+6",
+   "incumbent": "Joni Ernst",
+   "last_result": "51.74% R",
+   "incumbent_party": "R",
+   "open_seat": true,
+   "state": "Iowa",
+   "state_abbr": "IA",
+   "special": false,
+   "district": null,
+   "key": "SEN-IA",
+   "name": "Iowa Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Kansas",
+   "ratings": {
+    "cook": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+8",
+   "incumbent": "Roger Marshall",
+   "last_result": "53.22% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Kansas",
+   "state_abbr": "KS",
+   "special": false,
+   "district": null,
+   "key": "SEN-KS",
+   "name": "Kansas Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Kentucky",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+15",
+   "incumbent": "Mitch McConnell",
+   "last_result": "57.76% R",
+   "incumbent_party": "R",
+   "open_seat": true,
+   "state": "Kentucky",
+   "state_abbr": "KY",
+   "special": false,
+   "district": null,
+   "key": "SEN-KY",
+   "name": "Kentucky Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Louisiana",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+11",
+   "incumbent": "Bill Cassidy (lost renomination)",
+   "last_result": "59.32% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Louisiana",
+   "state_abbr": "LA",
+   "special": false,
+   "district": null,
+   "key": "SEN-LA",
+   "name": "Louisiana Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Maine",
+   "ratings": {
+    "cook": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+4",
+   "incumbent": "Susan Collins",
+   "last_result": "50.98% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Maine",
+   "state_abbr": "ME",
+   "special": false,
+   "district": null,
+   "key": "SEN-ME",
+   "name": "Maine Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Massachusetts",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+14",
+   "incumbent": "Ed Markey",
+   "last_result": "66.15% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "Massachusetts",
+   "state_abbr": "MA",
+   "special": false,
+   "district": null,
+   "key": "SEN-MA",
+   "name": "Massachusetts Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Michigan",
+   "ratings": {
+    "cook": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tilt D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "EVEN",
+   "incumbent": "Gary Peters",
+   "last_result": "49.90% D",
+   "incumbent_party": "D",
+   "open_seat": true,
+   "state": "Michigan",
+   "state_abbr": "MI",
+   "special": false,
+   "district": null,
+   "key": "SEN-MI",
+   "name": "Michigan Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Minnesota",
+   "ratings": {
+    "cook": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+3",
+   "incumbent": "Tina Smith",
+   "last_result": "48.74% D",
+   "incumbent_party": "D",
+   "open_seat": true,
+   "state": "Minnesota",
+   "state_abbr": "MN",
+   "special": false,
+   "district": null,
+   "key": "SEN-MN",
+   "name": "Minnesota Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Mississippi",
+   "ratings": {
+    "cook": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+11",
+   "incumbent": "Cindy Hyde-Smith",
+   "last_result": "54.11% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Mississippi",
+   "state_abbr": "MS",
+   "special": false,
+   "district": null,
+   "key": "SEN-MS",
+   "name": "Mississippi Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Montana",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+10",
+   "incumbent": "Steve Daines",
+   "last_result": "55.01% R",
+   "incumbent_party": "R",
+   "open_seat": true,
+   "state": "Montana",
+   "state_abbr": "MT",
+   "special": false,
+   "district": null,
+   "key": "SEN-MT",
+   "name": "Montana Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Nebraska",
+   "ratings": {
+    "cook": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tilt R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Likely R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+10",
+   "incumbent": "Pete Ricketts",
+   "last_result": "62.58% R (2024 sp.)",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Nebraska",
+   "state_abbr": "NE",
+   "special": false,
+   "district": null,
+   "key": "SEN-NE",
+   "name": "Nebraska Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "New Hampshire",
+   "ratings": {
+    "cook": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tilt D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Lean D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+2",
+   "incumbent": "Jeanne Shaheen",
+   "last_result": "56.64% D",
+   "incumbent_party": "D",
+   "open_seat": true,
+   "state": "New Hampshire",
+   "state_abbr": "NH",
+   "special": false,
+   "district": null,
+   "key": "SEN-NH",
+   "name": "New Hampshire Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "New Jersey",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+4",
+   "incumbent": "Cory Booker",
+   "last_result": "57.23% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "New Jersey",
+   "state_abbr": "NJ",
+   "special": false,
+   "district": null,
+   "key": "SEN-NJ",
+   "name": "New Jersey Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "New Mexico",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Likely D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+4",
+   "incumbent": "Ben Ray Luj\u00e1n",
+   "last_result": "51.73% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "New Mexico",
+   "state_abbr": "NM",
+   "special": false,
+   "district": null,
+   "key": "SEN-NM",
+   "name": "New Mexico Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "North Carolina",
+   "ratings": {
+    "cook": {
+     "rating": "Likely D",
+     "flip": true,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Likely D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Likely D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Likely D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Likely D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Likely D",
+     "flip": true,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Likely D",
+     "flip": true,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Likely D",
+     "flip": true,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": true,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+1",
+   "incumbent": "Thom Tillis",
+   "last_result": "48.69% R",
+   "incumbent_party": "R",
+   "open_seat": true,
+   "state": "North Carolina",
+   "state_abbr": "NC",
+   "special": false,
+   "district": null,
+   "key": "SEN-NC",
+   "name": "North Carolina Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Ohio (special)",
+   "ratings": {
+    "cook": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tilt D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+5",
+   "incumbent": "Jon Husted",
+   "last_result": "Appointed (2025)",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Ohio",
+   "state_abbr": "OH",
+   "special": true,
+   "district": null,
+   "key": "SEN-OH-S",
+   "name": "Ohio Senate (special)"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Oklahoma",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+17",
+   "incumbent": "Alan Armstrong",
+   "last_result": "Appointed (2026)",
+   "incumbent_party": "R",
+   "open_seat": true,
+   "state": "Oklahoma",
+   "state_abbr": "OK",
+   "special": false,
+   "district": null,
+   "key": "SEN-OK",
+   "name": "Oklahoma Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Oregon",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+8",
+   "incumbent": "Jeff Merkley",
+   "last_result": "56.91% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "Oregon",
+   "state_abbr": "OR",
+   "special": false,
+   "district": null,
+   "key": "SEN-OR",
+   "name": "Oregon Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Rhode Island",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+8",
+   "incumbent": "Jack Reed",
+   "last_result": "66.48% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "Rhode Island",
+   "state_abbr": "RI",
+   "special": false,
+   "district": null,
+   "key": "SEN-RI",
+   "name": "Rhode Island Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "South Carolina",
+   "ratings": {
+    "cook": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tilt R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Lean R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+8",
+   "incumbent": "Darline Graham",
+   "last_result": "Appointed (2026)",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "South Carolina",
+   "state_abbr": "SC",
+   "special": false,
+   "district": null,
+   "key": "SEN-SC",
+   "name": "South Carolina Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "South Dakota",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+15",
+   "incumbent": "Mike Rounds",
+   "last_result": "65.74% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "South Dakota",
+   "state_abbr": "SD",
+   "special": false,
+   "district": null,
+   "key": "SEN-SD",
+   "name": "South Dakota Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Tennessee",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+14",
+   "incumbent": "Bill Hagerty",
+   "last_result": "62.20% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Tennessee",
+   "state_abbr": "TN",
+   "special": false,
+   "district": null,
+   "key": "SEN-TN",
+   "name": "Tennessee Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Texas",
+   "ratings": {
+    "cook": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Tilt D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Tossup",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Lean D",
+     "flip": true,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+6",
+   "incumbent": "John Cornyn (lost renomination)",
+   "last_result": "53.51% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "Texas",
+   "state_abbr": "TX",
+   "special": false,
+   "district": null,
+   "key": "SEN-TX",
+   "name": "Texas Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Virginia",
+   "ratings": {
+    "cook": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid D",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "D+3",
+   "incumbent": "Mark Warner",
+   "last_result": "55.99% D",
+   "incumbent_party": "D",
+   "open_seat": false,
+   "state": "Virginia",
+   "state_abbr": "VA",
+   "special": false,
+   "district": null,
+   "key": "SEN-VA",
+   "name": "Virginia Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "West Virginia",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+21",
+   "incumbent": "Shelley Moore Capito",
+   "last_result": "70.28% R",
+   "incumbent_party": "R",
+   "open_seat": false,
+   "state": "West Virginia",
+   "state_abbr": "WV",
+   "special": false,
+   "district": null,
+   "key": "SEN-WV",
+   "name": "West Virginia Senate"
+  },
+  {
+   "chamber": "Senate",
+   "label": "Wyoming",
+   "ratings": {
+    "cook": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-20",
+     "name": "Cook Political Report"
+    },
+    "ddhq": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Decision Desk HQ"
+    },
+    "econ": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "The Economist"
+    },
+    "fpo": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "FiftyPlusOne"
+    },
+    "fox": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Fox News Power Rankings"
+    },
+    "ie": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Inside Elections"
+    },
+    "nbc": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "NBC News"
+    },
+    "rcp": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-28",
+     "name": "RealClearPolling"
+    },
+    "sabato": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Sabato's Crystal Ball"
+    },
+    "silver": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-29",
+     "name": "Silver Bulletin"
+    },
+    "st": {
+     "rating": "Solid R",
+     "flip": false,
+     "as_of": "2026-10-27",
+     "name": "Split Ticket"
+    }
+   },
+   "pvi": "R+23",
+   "incumbent": "Cynthia Lummis",
+   "last_result": "72.85% R",
+   "incumbent_party": "R",
+   "open_seat": true,
+   "state": "Wyoming",
+   "state_abbr": "WY",
+   "special": false,
+   "district": null,
+   "key": "SEN-WY",
+   "name": "Wyoming Senate"
+  }
+ ],
+ "overall": {},
+ "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+ "fetched_at": "2026-10-30T10:11:26.648781+00:00"
+}

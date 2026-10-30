@@ -11,7 +11,7 @@
   "ie": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -160,19 +160,19 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-27",
+   "date": "2026-10-29",
    "race": "HOU-IA-02",
    "races": [
     "HOU-IA-02"
    ],
    "type": "reporting",
-   "source": "Globe Gazette",
+   "source": "Iowa Public Radio",
    "lean": "unrated",
-   "title": "CATCH UP: Lee Enterprises' reporting on Iowa's 2nd District Congressional race",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMEhDNDNFdGpQNEtPNzRBQlBhZjFxLWh1eDgtek5faXY0X1pxNU1PeXlHZ0hWc2hueXhMZVNlaDEtWUxRb3lGT1IyWDlETERhOHpVaXl5MEhUVGZnYnBxRXJvR3ZpdEZhNDRuYm9ZQTRFa0dCUU15ODVabEpXSzl6M0dCRG1wbWxDcnk4MzRZUmx4SzF6OHNwZU5Gdk1HdC1SVFlmMk0yeXFSOFlVQ3pGSnVPeVlzemdLR3c?oc=5",
+   "title": "How immigration — and its workforce connection — is shaping Iowa’s 2nd Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNT2Q5SnJIcl9BU09zTVZRMGlSdDUtZHVUblB0RkR1VzVBMU5pM2tvYnljNzFZTUhnVlV1dXladTZWVHp1OVhkTlBpcUxyekNtUXZQLVBZeW5IQVBUaDRJMzBta0dzMkUwZTFndmFmT2ZMUjh6R3dJNjFBMXdyVlBpMGF6MDZ2RHMySHV0QVh0VS0tMGFxUXJnc2twRENJUkM2UFhqalVQdmYtN0VrTkxpRUlKWC1UektTamdtQkNobHppSGo5UGtuSW1SNDhfbl9FYmVYYVdEaDRORkliQlZJMmVCTXU0VlBhN1Z5b3FIeENNYTVxdzlZVzR4VnBZZVNUamoxRmRrcHFoVVF6a0ZFZlFJU1Q3bGRoREd2ZHlYZUI?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -272,6 +272,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-10-30",
    "c": 0,
    "p": -3.0
   }

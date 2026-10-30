@@ -11,31 +11,31 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Fox News Power Rankings"
   },
   "ie": {
-   "rating": "Tilt R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-15",
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "nbc": {
@@ -59,7 +59,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -96,39 +96,60 @@
   ]
  },
  "poll": {
-  "average_margin": 0.4,
-  "average_label": "R+0.4",
-  "n_polls": 9,
+  "average_margin": 0.2,
+  "average_label": "R+0.2",
+  "n_polls": 8,
   "window_days": 21,
   "latest": {
-   "pollster": "Echelon Insights",
-   "sponsors": [
-    "NetChoice"
-   ],
-   "partisan": null,
-   "start_date": "2026-10-16",
-   "end_date": "2026-10-23",
-   "sample_size": 403,
+   "pollster": "co/efficient",
+   "sponsors": [],
+   "partisan": "REP",
+   "start_date": "2026-10-28",
+   "end_date": "2026-10-28",
+   "sample_size": 1020,
    "population": "lv",
-   "margin": -2.0,
-   "margin_label": "D+2.0",
+   "margin": 2.0,
+   "margin_label": "R+2.0",
    "answers": [
     {
-     "choice": "Josh Turek",
-     "pct": 45.0
+     "choice": "Ashley Hinson",
+     "pct": 48.0
     },
     {
-     "choice": "Ashley Hinson",
-     "pct": 43.0
+     "choice": "Josh Turek",
+     "pct": 46.0
     },
     {
      "choice": "Thomas Laehn",
-     "pct": 7.0
+     "pct": 1.0
     }
    ],
-   "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
+   "url": "https://battlegrounds.coefficient.org/ia/"
   },
   "polls": [
+   {
+    "pollster": "co/efficient",
+    "end_date": "2026-10-28",
+    "margin": 2.0,
+    "n": 1020,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://battlegrounds.coefficient.org/ia/",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 48.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 46.0
+     },
+     {
+      "choice": "Thomas Laehn",
+      "pct": 1.0
+     }
+    ]
+   },
    {
     "pollster": "Echelon Insights",
     "end_date": "2026-10-23",
@@ -357,51 +378,12 @@
       "pct": 50.0
      }
     ]
-   },
-   {
-    "pollster": "co/efficient",
-    "end_date": "2026-09-16",
-    "margin": 4.0,
-    "n": 831,
-    "population": "lv",
-    "partisan": "REP",
-    "url": "https://battlegrounds.coefficient.org/ia/",
-    "answers": [
-     {
-      "choice": "Ashley Hinson",
-      "pct": 46.0
-     },
-     {
-      "choice": "Josh Turek",
-      "pct": 42.0
-     },
-     {
-      "choice": "Thomas Laehn",
-      "pct": 2.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 17,
+ "raw_poll_count": 18,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-28",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "Crypto Briefing",
-   "lean": "unrated",
-   "title": "DSCC accuses Ashley Hinson of backing Iran war in tight Iowa Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObUZ6bFBfTHNJcjhRNUFSZWo3OFlxc3RuZWUtUmhCWUJPdEI2S2hZYk94T3B3dzRhVzFER0ZhUk5iM0M0RzI0dzhIZUZFM3VvdFpTZmpoWm5aYnJqN0l4TzRjSEh6Mnc0dTBuR1BDLS1jQmd5VmVERDVjTHJiVWx2NXFzWVZxZUFzNkNZUTBEX01UZG5jRG1vX25SbTFtaGNva1E?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
  "history": [
   {
@@ -498,6 +480,11 @@
    "date": "2026-10-29",
    "c": 0,
    "p": 0.4
+  },
+  {
+   "date": "2026-10-30",
+   "c": 0,
+   "p": 0.2
   }
  ]
 }

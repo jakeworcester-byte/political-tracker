@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Lean R",
-   "flip": true,
-   "as_of": "2026-10-15",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -77,10 +77,10 @@
  "incumbent_note": "",
  "consensus_score": 0,
  "consensus": "Tossup",
- "disagreement": true,
+ "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 0,
  "candidates": {
   "D": [],
   "R": []
@@ -90,22 +90,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX",
-    "HOU-TX-35"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "President Trump rallied in Texas Tuesday night in support of Republican Senate candidate Ken Paxton, and his Democratic opponent James Talarico held an event just 3 miles away",
-   "url": "https://www.wsj.com/politics/elections/trump-and-talarico-offer-texas-split-screen-with-dueling-rallies-just-miles-apart-62d91711?mod=rss_socialpoliticsfeed",
-   "summary": "The president and the Democratic Senate hopeful held their rallies as they battled for a Senate seat now held by a Republican.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "HOU-TX-35",
    "races": [
     "HOU-TX-35"
@@ -214,6 +199,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-30",
    "c": 0,
    "p": null
   }

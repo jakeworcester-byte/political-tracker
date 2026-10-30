@@ -9,9 +9,9 @@
    "name": "Cook Political Report"
   },
   "ie": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-15",
+   "rating": "Tilt D",
+   "flip": true,
+   "as_of": "2026-10-29",
    "name": "Inside Elections"
   },
   "sabato": {
@@ -29,7 +29,7 @@
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-29",
    "name": "Split Ticket"
   },
   "ddhq": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 8,
+ "flip_votes": 9,
  "candidates": {
   "D": [],
   "R": []
@@ -90,7 +90,7 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "HOU-NC-11",
    "races": [
     "HOU-NC-11"
@@ -115,6 +115,21 @@
    "lean": "unrated",
    "title": "Meet the NC-11 candidates: Where Jamie Ager, Jennifer Balkcom stand on key issues",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3NUZ2VsMzZUVng1NHB5RmpjWWxSVWp4ZWZvNTVzMDNobFp0VnVFLUJBbnh6YWhMY2NlTU1VblM3SEE2WWJES25McHRlRGI1N3lCbGdkQVpvOTVaaVc2YUgycERxVEJwcEdhY1dPZlFONFhhLV9FTGpYV2lPWGJRYnVhUUpFRVNZUFFHZk5DWi1VVkFvUG1N?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-26",
+   "race": "HOU-NC-11",
+   "races": [
+    "HOU-NC-11"
+   ],
+   "type": "reporting",
+   "source": "NC Newsline",
+   "lean": "unrated",
+   "title": "U.S House, North Carolina's 11th Congressional District | Voter Guide: 2026 NC voter guide",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOVhHNUJjZkpsWVZ5YTZad2dOWWxGVTF0eU5oS2V4bWQ3SXRFajNtOWNDRmdjZElXd1lLVGxub1UxRFpiLU0wTjZzRDhEZ0NUR29SMzdBMkxNSXl4azBpOGNtVlZvd3U2U0xsLWhjSTJYWm1LX200RnY3R3dscXUwLXE3ZUhNcUhGeUs3N21wSGdkTUl4NVUtcDVGYVY?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -229,6 +244,11 @@
   },
   {
    "date": "2026-10-29",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-30",
    "c": -2,
    "p": null
   }
