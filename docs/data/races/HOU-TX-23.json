@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -90,7 +90,22 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
+   "race": "HOU-TX-23",
+   "races": [
+    "HOU-TX-23"
+   ],
+   "type": "reporting",
+   "source": "KSAT",
+   "lean": "unrated",
+   "title": "ELECTION RESULTS: Texas’ 23rd Congressional District race in the Nov. 3, 2026, midterms",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOWNoQ3VyR1pwa1FRLUNZTDEzWk5nN0RiOHR3Qkk1ZTNIbUVzTGptbFdhWE00SW5ubkFUUVZiX3FnblRZdlAtbWNsNE4wRjk2SW5GbUhSX3JkUDdHWGFrRHVkeDJCemF2WnV2T0UzaUxyWnh6WWx5VGN6Z3pIZGxsZ2s5MWc2VXRpODNvakdSWlY1dzc4aHZ3em5NN0c3MkFOeThLNk5vbFBTbU1UQ25BQTdUcFBRbWJZSHJWcEdUSEhzdDg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
    "race": "HOU-TX-23",
    "races": [
     "HOU-TX-23"
@@ -204,6 +219,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-10-31",
    "c": 2,
    "p": null
   }

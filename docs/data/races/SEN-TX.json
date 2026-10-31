@@ -5,13 +5,13 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -96,33 +96,71 @@
   ]
  },
  "poll": {
-  "average_margin": -2.8,
-  "average_label": "D+2.8",
-  "n_polls": 15,
+  "average_margin": -2.7,
+  "average_label": "D+2.7",
+  "n_polls": 17,
   "window_days": 21,
   "latest": {
-   "pollster": "CNN/SSRS",
+   "pollster": "ActiVote",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-20",
-   "end_date": "2026-10-27",
-   "sample_size": 923,
+   "start_date": "2026-10-22",
+   "end_date": "2026-10-28",
+   "sample_size": 400,
    "population": "lv",
-   "margin": -6.0,
-   "margin_label": "D+6.0",
+   "margin": -4.2,
+   "margin_label": "D+4.2",
    "answers": [
     {
      "choice": "James Talarico",
-     "pct": 49.0
+     "pct": 52.1
     },
     {
      "choice": "Ken Paxton",
-     "pct": 43.0
+     "pct": 47.9
     }
    ],
-   "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
+   "url": "https://www.activote.net/polls/2026/tx-u-s-senate/"
   },
   "polls": [
+   {
+    "pollster": "ActiVote",
+    "end_date": "2026-10-28",
+    "margin": -4.2,
+    "n": 400,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.activote.net/polls/2026/tx-u-s-senate/",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 52.1
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 47.9
+     }
+    ]
+   },
+   {
+    "pollster": "Quantus Insights",
+    "end_date": "2026-10-28",
+    "margin": 1.0,
+    "n": 1221,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://quantusinsights.org/polling/f/texas-survey-paxton-up-one-abbott-ahead-by-five",
+    "answers": [
+     {
+      "choice": "Ken Paxton",
+      "pct": 49.4
+     },
+     {
+      "choice": "James Talarico",
+      "pct": 48.4
+     }
+    ]
+   },
    {
     "pollster": "CNN/SSRS",
     "end_date": "2026-10-27",
@@ -332,50 +370,42 @@
       "pct": 2.0
      }
     ]
-   },
-   {
-    "pollster": "InsiderAdvantage",
-    "end_date": "2026-10-14",
-    "margin": 1.0,
-    "n": 1200,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://insideradvantage.com/insideradvantage-senate-surveys-texas-paxton-49-talarico-48-kansas-marshall-48-hamilton-47-maine-jackson-49-collins-47/",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 48.0
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 49.0
-     }
-    ]
-   },
-   {
-    "pollster": "ActiVote",
-    "end_date": "2026-10-14",
-    "margin": -3.8,
-    "n": 400,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.activote.net/polls/2026/tx-u-s-senate/2026-10-14/",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 51.9
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 48.1
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 34,
+ "raw_poll_count": 36,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-31",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Talarico Makes Final Election Pitch to Texans: ‘You Are My Slingshot’",
+   "url": "https://www.nytimes.com/2026/10/31/us/politics/talarico-texas.html",
+   "summary": "The Democratic candidate for Senate has led in polls. But because it’s Texas, he remains the underdog.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX"
+   ],
+   "type": "reporting",
+   "source": "KSAT",
+   "lean": "unrated",
+   "title": "Texas U.S. Senate election results: Ken Paxton vs. James Talarico in Nov. 3, 2026, midterms",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTlhUaEdvam0xVFNvMlBXNnZoSnBMVUUxQXJoMWtGNE5LT3dNUGx4WmVoOWMzVVlKdVJlaGIxSGl0YkpVamFRVDFmWEhBWkVpVUlGMUxzOE5yajF4ZWRIOFNjbWNoYl91MGVfbjRaZ3h0TnlfU3gydUZUVDc5S0xNMU42alUxUXhMVV9yak5XclFUbzY2MG1zZ0VkRXppV01HaXhNLWF6UzNEV3lyMzRSRUtyZVJZRnpKcm5RcDhtaDJZNFFmdGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TX",
  "history": [
   {
@@ -477,6 +507,11 @@
    "date": "2026-10-30",
    "c": 0,
    "p": -2.8
+  },
+  {
+   "date": "2026-10-31",
+   "c": 0,
+   "p": -2.7
   }
  ]
 }

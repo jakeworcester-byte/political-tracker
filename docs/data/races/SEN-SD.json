@@ -5,13 +5,13 @@
   "cook": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Solid R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -96,35 +96,54 @@
   ]
  },
  "poll": {
-  "average_margin": 16.3,
-  "average_label": "R+16.3",
-  "n_polls": 3,
+  "average_margin": 11.8,
+  "average_label": "R+11.8",
+  "n_polls": 4,
   "window_days": 21,
   "latest": {
-   "pollster": "Emerson College",
+   "pollster": "Concord Public Opinion Partners",
    "sponsors": [
-    "KELO-TV"
+    "Democrats for Education Reform"
    ],
-   "partisan": null,
-   "start_date": "2026-10-19",
-   "end_date": "2026-10-20",
-   "sample_size": 803,
+   "partisan": "DEM",
+   "start_date": "2026-10-22",
+   "end_date": "2026-10-26",
+   "sample_size": 448,
    "population": "lv",
-   "margin": 8.0,
-   "margin_label": "R+8.0",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
    "answers": [
     {
      "choice": "Mike Rounds",
-     "pct": 50.0
+     "pct": 41.0
     },
     {
      "choice": "Brian Bengs",
-     "pct": 42.0
+     "pct": 43.0
     }
    ],
-   "url": "https://www.keloland.com/keloland-com-original/keloland-poll-rounds-leads-bengs-at-8-trump-approval-down/amp/"
+   "url": "https://concordpublicopinionpartners.org/polls/south-dakota-ge-2026-oct26"
   },
   "polls": [
+   {
+    "pollster": "Concord Public Opinion Partners",
+    "end_date": "2026-10-26",
+    "margin": -2.0,
+    "n": 448,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://concordpublicopinionpartners.org/polls/south-dakota-ge-2026-oct26",
+    "answers": [
+     {
+      "choice": "Mike Rounds",
+      "pct": 41.0
+     },
+     {
+      "choice": "Brian Bengs",
+      "pct": 43.0
+     }
+    ]
+   },
    {
     "pollster": "Emerson College",
     "end_date": "2026-10-20",
@@ -184,8 +203,8 @@
    }
   ]
  },
- "raw_poll_count": 3,
- "trend": "Stable",
+ "raw_poll_count": 4,
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-SD",
  "history": [
@@ -288,6 +307,11 @@
    "date": "2026-10-30",
    "c": 4,
    "p": 16.3
+  },
+  {
+   "date": "2026-10-31",
+   "c": 4,
+   "p": 11.8
   }
  ]
 }

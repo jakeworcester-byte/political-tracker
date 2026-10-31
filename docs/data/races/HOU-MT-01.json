@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-22",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 0,
+ "flip_votes": 1,
  "candidates": {
   "D": [
    "Sam Forstag"
@@ -90,35 +90,60 @@
   ]
  },
  "poll": {
-  "average_margin": -2.2,
-  "average_label": "D+2.2",
+  "average_margin": -8.0,
+  "average_label": "D+8.0",
   "n_polls": 3,
   "window_days": 21,
   "latest": {
-   "pollster": "Public Policy Polling",
-   "sponsors": [
-    "House Majority PAC"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-14",
-   "sample_size": 541,
-   "population": "lv",
-   "margin": -3.0,
-   "margin_label": "D+3.0",
+   "pollster": "Montana State University Billings",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-05",
+   "end_date": "2026-10-21",
+   "sample_size": 287,
+   "population": "a",
+   "margin": -17.0,
+   "margin_label": "D+17.0",
    "answers": [
     {
      "choice": "Aaron Flint",
-     "pct": 45.0
+     "pct": 32.0
     },
     {
      "choice": "Sam Forstag",
-     "pct": 48.0
+     "pct": 49.0
+    },
+    {
+     "choice": "Nick Sheedy",
+     "pct": 4.0
     }
    ],
-   "url": "https://x.com/cjwarnke/status/2112877284684341727"
+   "url": "https://www.msubillings.edu/class/nams/polls/2026-mountain-states-poll-report.pdf"
   },
   "polls": [
+   {
+    "pollster": "Montana State University Billings",
+    "end_date": "2026-10-21",
+    "margin": -17.0,
+    "n": 287,
+    "population": "a",
+    "partisan": null,
+    "url": "https://www.msubillings.edu/class/nams/polls/2026-mountain-states-poll-report.pdf",
+    "answers": [
+     {
+      "choice": "Aaron Flint",
+      "pct": 32.0
+     },
+     {
+      "choice": "Sam Forstag",
+      "pct": 49.0
+     },
+     {
+      "choice": "Nick Sheedy",
+      "pct": 4.0
+     }
+    ]
+   },
    {
     "pollster": "Public Policy Polling",
     "end_date": "2026-10-14",
@@ -182,8 +207,8 @@
    }
   ]
  },
- "raw_poll_count": 3,
- "trend": "Stable",
+ "raw_poll_count": 4,
+ "trend": "Toward D",
  "signals": [
   {
    "date": "2026-10-29",
@@ -192,10 +217,10 @@
     "HOU-MT-01"
    ],
    "type": "reporting",
-   "source": "X",
+   "source": "Crypto Briefing",
    "lean": "unrated",
-   "title": "Aaron Flint has my Complete and Total Endorsement to be the next U.S. Representative from Montana’s 1st Congressional District – HE WILL NEVER LET YOU DOWN! President DONALD J. TRUMP",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84eWpVRDNIRllxdmI5VC1rS0NfdGVLUGY5RS0yZTd5b2RBUzRIMjZZMjh3dW5JaXYtZS14ZnpmcHpZMkQ2Vm5OVjk3QjQtT1NyeHZkTUFrYm1aSWE0ampvYUlhdGpvTDQ1OUNvWUNaMjlsQQ?oc=5",
+   "title": "Trump endorses Aaron Flint in Montana’s 1st Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ05PRTN2NGdQbzNCYWhXaDZWcjg5NVJnMmhVUlJWTVhPT2hMbjJHX0VIV3ExdklnMmhIZTNIR1dlVGpnTjlnWlRnaVlDUzJScndkVmhZaFJrcUFlZ3I5bU9ha2liVm50UmxENHl0MXBielpzT19XZ0FmVXpZUDdGYUIzX29PRGxkOGJuY2xkQUtVc1lVYk1iQ05wMndPWUU?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -302,6 +327,11 @@
    "date": "2026-10-30",
    "c": 0,
    "p": -2.2
+  },
+  {
+   "date": "2026-10-31",
+   "c": 0,
+   "p": -8.0
   }
  ]
 }

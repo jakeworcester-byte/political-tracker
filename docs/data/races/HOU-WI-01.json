@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -21,27 +21,27 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -75,8 +75,8 @@
  "key": "HOU-WI-01",
  "name": "WI-01",
  "incumbent_note": "",
- "consensus_score": 0,
- "consensus": "Tossup",
+ "consensus_score": 2,
+ "consensus": "Lean R",
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -161,7 +161,7 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [
   {
    "date": "2026-10-28",
@@ -174,6 +174,21 @@
    "lean": "unrated",
    "title": "Coffee with the Candidates: Wisconsin's 1st Congressional District",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0w4eF9YU2VSNXVzd0h6MlJRZmxjdm9kX3hpZ1I1ZjFpTFlaM1BRM0VFY240NlV0Vy03amp5SG5WREhJcmpFdDd1ZllYYkpaZE9TUE9MOEY1aTF0LUZ4LVozOEs5YmVqel8xSnlvSHBFXzJnXzVVTDgyS0VvTUlETXBlZmgwWmtub3phRVdPa1YxRUhZM1c3c05BNks0YWZUYmg3QQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-26",
+   "race": "HOU-WI-01",
+   "races": [
+    "HOU-WI-01"
+   ],
+   "type": "reporting",
+   "source": "FOX6 News Milwaukee",
+   "lean": "unrated",
+   "title": "Who's running for Wisconsin's 1st Congressional District? These are the candidates",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZEMwdmtGX0QxUnZUU1NHRkI2UHdLMS1XWnZNVlNRR1g2ZzZfcTV2U0ZRcXlDd3Y3TWhleFYxQ180M0IwM0RzOGlkemk5WjlIZVhsRkR0ZndUUDFHVHhzX1hZTERZUlU4NFF3dDZDZkJEZm5lczlhdnFEbk9KRl9vSXNB?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -279,6 +294,11 @@
   {
    "date": "2026-10-30",
    "c": 0,
+   "p": -0.5
+  },
+  {
+   "date": "2026-10-31",
+   "c": 2,
    "p": -0.5
   }
  ]

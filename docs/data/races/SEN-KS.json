@@ -5,13 +5,13 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-29",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -83,10 +83,10 @@
  "incumbent_note": "",
  "consensus_score": 0,
  "consensus": "Tossup",
- "disagreement": false,
+ "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 0,
+ "flip_votes": 1,
  "candidates": {
   "D": [
    "Adam Hamilton"
@@ -96,33 +96,60 @@
   ]
  },
  "poll": {
-  "average_margin": -1.5,
-  "average_label": "D+1.5",
-  "n_polls": 2,
+  "average_margin": -3.6,
+  "average_label": "D+3.6",
+  "n_polls": 4,
   "window_days": 21,
   "latest": {
-   "pollster": "CNN/SSRS",
+   "pollster": "Emerson College",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-20",
-   "end_date": "2026-10-26",
-   "sample_size": 838,
+   "start_date": "2026-10-26",
+   "end_date": "2026-10-28",
+   "sample_size": 800,
    "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
+   "margin": -2.4,
+   "margin_label": "D+2.4",
    "answers": [
     {
      "choice": "Roger Marshall",
-     "pct": 45.0
+     "pct": 47.1
     },
     {
      "choice": "Adam Hamilton",
-     "pct": 49.0
+     "pct": 49.5
+    },
+    {
+     "choice": "David Graham",
+     "pct": 3.4
     }
    ],
-   "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
+   "url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/"
   },
   "polls": [
+   {
+    "pollster": "Emerson College",
+    "end_date": "2026-10-28",
+    "margin": -2.4,
+    "n": 800,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/",
+    "answers": [
+     {
+      "choice": "Roger Marshall",
+      "pct": 47.1
+     },
+     {
+      "choice": "Adam Hamilton",
+      "pct": 49.5
+     },
+     {
+      "choice": "David Graham",
+      "pct": 3.4
+     }
+    ]
+   },
    {
     "pollster": "CNN/SSRS",
     "end_date": "2026-10-26",
@@ -139,6 +166,29 @@
      {
       "choice": "Adam Hamilton",
       "pct": 49.0
+     }
+    ]
+   },
+   {
+    "pollster": "The Washington Post/George Mason University Schar School of Policy and Government",
+    "end_date": "2026-10-26",
+    "margin": -9.0,
+    "n": 801,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.washingtonpost.com/politics/2026/10/30/we-polled-kansas-democrats-wanted-talk-republicans-not-so-much/",
+    "answers": [
+     {
+      "choice": "Roger Marshall",
+      "pct": 43.0
+     },
+     {
+      "choice": "Adam Hamilton",
+      "pct": 52.0
+     },
+     {
+      "choice": "David Graham",
+      "pct": 4.0
      }
     ]
    },
@@ -209,9 +259,54 @@
    }
   ]
  },
- "raw_poll_count": 4,
- "trend": "Stable",
+ "raw_poll_count": 6,
+ "trend": "Toward D",
  "signals": [
+  {
+   "date": "2026-10-30",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "- Emerson Polling",
+   "lean": "unrated",
+   "title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election -",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTlBINU11RVpHR29ySHJlQkIzRkREalllTkFJUnprQTlnYTVhanZwUXVuNGpKY3djRi0xbmFBRmpIVklSTTdyblgtMDF4bU9WSDl4YWJ2Z25NbmtyT1gwWGhfR3F6dGV1Q1cwMkhVTF9Na1BoeGlLdU9KbUJ6XzF3b0ZkTFJFelpZb0hCUHg0ampTcWdYV09GWkVkN2NGUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Hamilton holds slight lead over Marshall in Kansas Senate contest: Poll",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTUFJVVZyVzdNZnRLOEJTaHo3ZUxMZm9SUkI5VHJoVDJoZWUySFZ2bGdqM1RvV0lPOXhYOUdxNVgyX3JNR0RtOEh6TU5lNzUxYjRGbkhVT2Y0Z0hWVzJ6V1Z4TzQtR3kyVExheFF1UVJ1RlZSUmNtckoyT3UxU3JiOURRMVNRSmpzWjJB0gGQAUFVX3lxTFBWVEtmRWF2U1VqTnB2dkNvQmY3bGw3ZEd4M0wwallTMmR2d1htVEV1ZGUtUFkwTllsX01pSDVDRHBCNms3YV9VR2lLS1ZCZDVhNEthX2RJYjB0TVJQR3BFd21aaThDdy1XamdNWW9ZUVg4VmJqRGVELVB5TzVDTThicHVQTE5vSE5nVFl3MUxtbA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "KCUR",
+   "lean": "unrated",
+   "title": "Trump uncancels Kansas rally. He'll now visit Sunday to support Marshall's tight Senate race",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYWRNemxoVjdXY0FDWHRMdkF2Y3F5d0NMc2dNWFN4aGxjSEdZeV92aWhHeVlRdFcyT0R1R3o4bm5FYnoyNUJCdkRrM2NqTXZUSUt3WkRVWlI3dnFvbFRZNEtpYjNVNE5FRWRoaHlOQjBkd09Iclp6T0xldW5MN0x2eE9OY1JfR0Vkdm9EbG8zUWtxVzVaWW1ZVS1tdVAtU3FmM3hKWkVPMjR3SWh6SHhOazZoaGxBbmMzeUE1SVJiU25YSjB2?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-29",
    "race": "SEN-KS",
@@ -223,21 +318,6 @@
    "lean": "unrated",
    "title": "Marshall-Hamilton showdown becomes most expensive election in Kansas history",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRm9ldlNUdHdoRGpsckFZdFhtZW5CRmFsZEFJSnFhbkFReG9qcXNTUFRJWVhyY28wZVZ6a0drSy1zcHc4dndsLWFWeUx0czlyX0NzYnhvMnF1T0p4QURua0VFcnplbHdSeDRHaTZjMDlqMnZ1dU5NUExlTHQwcXNVS2t2WUVSS1hVTGhnWVdPd21SWW9aUDNUNmtBSV9YWTVKR0tYcVFmRjRWd0gyblJMdFF6Tm8?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "MS NOW",
-   "lean": "unrated",
-   "title": "How Kansas’ Roger ‘the Dodger’ Marshall laid the groundwork for his troubled re-election campaign",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeFVncTE5ajNpZ3NPQ2hQREpqbk5PMVFkMm5VemJyLWFnaXBnN3A1ZE9XSERmUVc3VVZPbWhEbEdWdlpnWFRJZHNnaEFuM2xMc1AyVURWS2lLODh5UFB0VlB0WVAwMEwxZDNfYThkYXF1VHE2RjZDclZQYjVXWm45VnJBZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -344,6 +424,11 @@
    "date": "2026-10-30",
    "c": 0,
    "p": -1.5
+  },
+  {
+   "date": "2026-10-31",
+   "c": 0,
+   "p": -3.6
   }
  ]
 }

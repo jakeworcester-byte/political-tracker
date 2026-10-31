@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Likely D",
+   "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -90,36 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -3.0,
-  "average_label": "D+3.0",
+  "average_margin": -8.0,
+  "average_label": "D+8.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "SurveyUSA",
+   "pollster": "University of Southern California Democracy and Fair Elections Lab",
    "sponsors": [
-    "KGTV (San Diego)",
-    "The San Diego Union Tribune"
+    "University of Southern California Center for the Political Future"
    ],
    "partisan": null,
-   "start_date": "2026-08-27",
-   "end_date": "2026-09-01",
-   "sample_size": 522,
+   "start_date": "2026-10-22",
+   "end_date": "2026-10-28",
+   "sample_size": 474,
    "population": "lv",
-   "margin": -3.0,
-   "margin_label": "D+3.0",
+   "margin": -8.0,
+   "margin_label": "D+8.0",
    "answers": [
     {
      "choice": "Marni von Wilpert",
-     "pct": 45.0
+     "pct": 52.0
     },
     {
      "choice": "Jim Desmond",
-     "pct": 42.0
+     "pct": 44.0
     }
    ],
-   "url": "https://results.surveyusa.com/client/PollReport.aspx?g=0877c725-6e44-47fe-9856-dcf799865671"
+   "url": "https://www.thedemocracylab.com/ca-polling-2026"
   },
   "polls": [
+   {
+    "pollster": "University of Southern California Democracy and Fair Elections Lab",
+    "end_date": "2026-10-28",
+    "margin": -8.0,
+    "n": 474,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.thedemocracylab.com/ca-polling-2026",
+    "answers": [
+     {
+      "choice": "Marni von Wilpert",
+      "pct": 52.0
+     },
+     {
+      "choice": "Jim Desmond",
+      "pct": 44.0
+     }
+    ]
+   },
    {
     "pollster": "SurveyUSA",
     "end_date": "2026-09-01",
@@ -141,8 +159,8 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
+ "raw_poll_count": 2,
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-48",
  "history": [
@@ -245,6 +263,11 @@
    "date": "2026-10-30",
    "c": -3,
    "p": -3.0
+  },
+  {
+   "date": "2026-10-31",
+   "c": -3,
+   "p": -8.0
   }
  ]
 }

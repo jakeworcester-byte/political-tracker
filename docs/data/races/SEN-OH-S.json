@@ -5,13 +5,13 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -21,9 +21,9 @@
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-29",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 4,
+ "flip_votes": 5,
  "candidates": {
   "D": [
    "Sherrod Brown"
@@ -415,16 +415,46 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-30",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "The Columbus Dispatch",
+   "source": "NBC4 WCMH-TV",
    "lean": "unrated",
-   "title": "Brown, Husted deadlocked in final days of Ohio Senate race, poll shows",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcUNHc0lUcW9mNFp2SGNYYmI1bmZwMzdta3lvZ3U5b0NwTlA5YUpuMVRRSmE0QmpmbzVhbUptZEdESVQ1M1k1ZVFvZG5JZFlCSnFwb29ocEN1aXRyZnFoNXNsQnlNOVBfOF9kWksxLXRwdG8zY0hfNDdsOWVMU0xBdVdyWlpWM3FLZnJCX0t5S19hSGlLSWd2TjFCLWpZdE5MaVdBRWRjcS1wcm43bUFianJDLU5wcWpqOXc0S3FVSUJLdXVvSDVPY1E0Y1VJckpfdDlFdjVJalpQeDB6?oc=5",
+   "title": "Trump offers to consider Ohio for Space Academy if Husted wins Senate race - NBC4 WCMH-TV",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOE84NDZaQTZqSmRUMkFfTkUtTVJGWS1ObUVqQzVpWnl6Rndaa3hSSGI2TGJIYk12a0xrNHVDazVMN1E2ZDM0Q09PM1RZWFQ2TmV4SEJqaGw2TUhlSU9vNEVCY3BtUjdPamlKUDRCUmp0Wmo0LWhhUlFtZXF3cTR5anZmMUtTMmpYOWRRYWFVb1NnWnA0OGRCRW45UGZCcUJqRW1fX215bmJJczdWQUpaNllzRGZhUW8yWGJRT2FWRjdiRUnSAcgBQVVfeXFMUHhqcjVPNWp2LW11WVBhUlRBdnFNcms5ZVdjV2czZTRDOHVqVFdSZ2lIUHZSQzd4aUpfMnZYUGlIMzFKQmhLYXR3by1scVNKQUNrbUJyNkx3YXRSMUhvdUcxYkhYUk1oT1paOGRmX3FHRnNEeVNWX0FScjhKWlEyc2kzalhKNE53T0VzOFpCUE1acjUwaTNsQXhVYk1FYnpiWms4eUlLczVKZXBxS2UxbkdqVE1obE5oMG85cDA5UVJEUzhvN3F2RXU?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "Salon.com",
+   "lean": "unrated",
+   "title": "Ohio’s Jon Husted, object of Trump’s leering, is just an empty pair of pants",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMTlzdGhCWEMyVEtRMl80Y3FQUlJHSXVfd3ZiYVVZXzFHRzAwSXV1bmNqZ2t4S19UTko0YjEtTFZhOUhyellZMk56eFhJRllBUkllUlAxVTgwNGdlMXNmZW9UdmwxR0dueC1UUW5pcUdUR195aV9rRnRoUk9xaXN4ekN5VnZPZGFyeGxDUXFfMGJUTXU1c3pBLVEwU0xVd1A1TjFKd2VMZ24tdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "Newsweek",
+   "lean": "unrated",
+   "title": "Jon Husted vs. Sherrod Brown Ohio Race May Come Down to Third-Party Voters",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGxlSVJXR1lEenJmYzRqMTE4RExubXNtM1hPbWxLVjRlX1pMaTRhY2xjRU40VlFfclBDZElKTGJYb1R1dE5SUEhpbHF0eVB4RVpnS1BUSHNkT2lFVHM0YXg0WFJjYmkyMFpXeVZJRXAtdG5GRzRZSFRZaHhSenl5aXpsMnBnX1FSaFRqLQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -529,6 +559,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 0,
+   "p": -3.2
+  },
+  {
+   "date": "2026-10-31",
    "c": 0,
    "p": -3.2
   }

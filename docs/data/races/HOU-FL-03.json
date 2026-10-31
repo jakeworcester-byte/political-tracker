@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -188,6 +188,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 4,
+   "p": null
+  },
+  {
+   "date": "2026-10-31",
    "c": 4,
    "p": null
   }

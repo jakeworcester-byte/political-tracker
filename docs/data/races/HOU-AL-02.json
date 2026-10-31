@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -142,7 +142,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
@@ -301,6 +301,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 2,
+   "p": 2.0
+  },
+  {
+   "date": "2026-10-31",
    "c": 2,
    "p": 2.0
   }

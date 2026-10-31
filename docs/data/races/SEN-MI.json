@@ -5,13 +5,13 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -96,52 +96,54 @@
   ]
  },
  "poll": {
-  "average_margin": -3.9,
-  "average_label": "D+3.9",
-  "n_polls": 8,
+  "average_margin": -4.0,
+  "average_label": "D+4.0",
+  "n_polls": 9,
   "window_days": 21,
   "latest": {
-   "pollster": "Mitchell Research & Communications",
+   "pollster": "Upswing Research",
    "sponsors": [
-    "WWJ-TV",
-    "WKBD-TV"
+    "Demand Justice"
    ],
-   "partisan": null,
-   "start_date": "2026-10-26",
-   "end_date": "2026-10-27",
-   "sample_size": 636,
+   "partisan": "DEM",
+   "start_date": "2026-10-24",
+   "end_date": "2026-10-28",
+   "sample_size": 505,
    "population": "lv",
-   "margin": -7.0,
-   "margin_label": "D+7.0",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
    "answers": [
     {
      "choice": "Abdul El-Sayed",
-     "pct": 51.0
+     "pct": 50.0
     },
     {
      "choice": "Mike Rogers",
-     "pct": 44.0
-    },
-    {
-     "choice": "Lydia Christensen",
-     "pct": 1.0
-    },
-    {
-     "choice": "Tim Long",
-     "pct": 0.0
-    },
-    {
-     "choice": "Douglas P. Marsh",
-     "pct": 0.0
-    },
-    {
-     "choice": "Walter P. Kristy",
-     "pct": 1.0
+     "pct": 45.0
     }
    ],
-   "url": "https://www.cbsnews.com/detroit/news/el-sayed-widens-lead-rogers-michigan-senate-poll/"
+   "url": "https://x.com/joshorton/status/2115883461076545615?a=RFp0CZRkuV44JoFJOZQ&s=20"
   },
   "polls": [
+   {
+    "pollster": "Upswing Research",
+    "end_date": "2026-10-28",
+    "margin": -5.0,
+    "n": 505,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://x.com/joshorton/status/2115883461076545615?a=RFp0CZRkuV44JoFJOZQ&s=20",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 50.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 45.0
+     }
+    ]
+   },
    {
     "pollster": "Mitchell Research & Communications",
     "end_date": "2026-10-27",
@@ -402,33 +404,14 @@
       "pct": 0.0
      }
     ]
-   },
-   {
-    "pollster": "Beacon Research/Shaw & Co. Research",
-    "end_date": "2026-09-28",
-    "margin": -1.0,
-    "n": 1028,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.foxnews.com/politics/fox-news-poll-michigan-voters-split-between-el-sayed-rogers",
-    "answers": [
-     {
-      "choice": "Abdul El-Sayed",
-      "pct": 50.0
-     },
-     {
-      "choice": "Mike Rogers",
-      "pct": 49.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 35,
+ "raw_poll_count": 36,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
@@ -436,10 +419,55 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "How Michigan’s Midterm Senate Race Could Influence the 2028 Democratic Presidential Primary",
-   "url": "https://www.nytimes.com/2026/10/30/us/politics/michigan-senate-democratic-presidential-primary.html",
-   "summary": "The fate of Dr. Abdul El-Sayed, the progressive candidate in the race, will serve as a litmus test for the left’s potency heading into the next presidential contest.",
+   "title": "El-Sayed Clashes With Former Primary Rival Who Demanded His Apology",
+   "url": "https://www.nytimes.com/2026/10/30/us/politics/el-sayed-stevens-michigan-senate-event.html",
+   "summary": "Dr. Abdul El-Sayed and Representative Haley Stevens traded sharply critical comments Friday, escalating intraparty tensions in Michigan’s pivotal Senate race.",
    "relevant": true
+  },
+  {
+   "date": "2026-10-31",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "Abdul El-Sayed and Haley Stevens feud ahead of key Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMjg0TUdvRmN5czZvMmdCV2tTc1hIcU1vSjZEUnNJbmlCOVp0VnFRak5DU1pfTk9nc0R5c3hkOWo3STJjLXdQS3B2SldvM1Vfb0s4NzZoVTh0MWpJbGFFWWw3UVc2c04tdExLT2pFWDQ3WE5lV3dxbEdSUmhKSWlEc2twMDBtQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-31",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "CNN",
+   "lean": "unrated",
+   "title": "Michigan Democratic unity teeters as Abdul El-Sayed tells primary rival to stay away from his events",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd2ZFSG9KakpCX25QYW5nS09DNFVGcHhRMHhpNWFvUV9xUEk5QWhLbmxTekhQUG9TcUduT3FiSHlQbXNwUlVRR1U2cnZrSU12RzlQZUlvanZ0VVJHNjhPOV9FMkRPN09sRFFiRkY5WXhNWUF5c21sUTBKSXlHRDlMNQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Times",
+   "lean": "unrated",
+   "title": "Michigan Senate race polls: who will win the 2026 election?",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc2Fxd0pESXZIMXpYcW5RNGtCYUhIUW9BZ2JXb2hfUTdiSjRwX3FiWXVXeE1nVXJHRVk2SmVUSGZLQThHN2xrWm9PZzdvNG1sUWd1YkxTbjFtVHFpeGpUS3FNNkRRMWJJY0F0VDhtcGdZM0hQTGdpTzRhVERwN2tKeXR6MkVQczdWSkhZRzQ2cVVpb0NGV2tVV2FuaWNKWk1qNGQzZHp5UzdqLTJhdEtZNFNXbDlhODB1eURYdFJwVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-29",
@@ -454,66 +482,6 @@
    "url": "https://www.npr.org/2026/10/29/nx-s1-6022063/michigans-senate-race-is-coming-down-to-the-wire",
    "summary": "Republican Mike Rogers and Democrat Abdul El-Sayed are making their closing arguments in their campaigns for Michigan's open U.S. Senate seat. What are they saying, and how are voters responding? This episode: senior political correspondent Tamara Keith, congressional reporter Sam Gringlas, and seni",
    "relevant": true
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Yahoo",
-   "lean": "unrated",
-   "title": "El-Sayed and Stevens to make rare joint appearance as Democrats seek unity in Michigan Senate race",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd05uLWE2UGdscm1ORUtUTXhEUW9iZXdjQ0ozbHNudkl0bnZHdjdLVTIwTzFBUS1Md3FiU0ZXTVlNZUU5MEdBdEhPemRwMTVDODl3ZERJQWlLS1gzd2JIdE9USlp4TEI5N19DYmkyNGw0RlRuQ2VyTGxwTjJNQkM0RUNqeHNVdjRLRm1LcUtMOVNOeHE2X0dKaXFuTWdjRktvQ1dyczR3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "South China Morning Post",
-   "lean": "unrated",
-   "title": "Trump’s softer China tone shifts focus in Michigan Senate race",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVnFkeTZEelJGTUVqWThPRFM3LUw1X0I5TFM5TGU4WTM1bWZ3VVJEWE93Y0FKZmVXMW1wRkR6RmwtWHZXV3JPenhpbVY5UUNIdlFubnRESzBfaDFmOUFCbFA4Zm01YXYyX3BkQU5rMXl2d0RIN3BHT3BaUHhOclgzNGlxUm5uZ1BZalNZd241VUh2SVBISU9DeGs5WU5rZ3NnN01WMnBsWk5WT3NYZ25sNXR4NzNYMmhHdThPeGdCNDdsM2N1a2hWQ0FrODNTYnZzYWdOMlppTdIB1wFBVV95cUxPTGxHbUxDdUpVRTBFOElVcmQ3V0ZUUW1GQ04zUi15cVAxQ0NoSWs0R1l4N1RzVDB1am45SHdYX1NYcUdpVjdaSk1zbEtsNnNDTVRYdVgydTdvLVpndDV3RlJKNEQtaVVqWEZmbHdaengwUktyMkJFUVo4SmN3MHBhNUJJdXFSMXR6dTc4Z2ZKNFBKdWhjdklSaGFVcnBsT3NjYXU3dE5fVENZQVlsNmQxU3l6OFhOMjI2RVdnSFo1cE1TNVlSYXZiNWtNdlFUYWlUT2I0U0lGbw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "WSBT",
-   "lean": "unrated",
-   "title": "Election 2026: Michigan Senate candidates make final push with Berrien County voters",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTzJuaU01ZUpfcWhpaGVPd1o2ZnFFa3NHQkh6Q0Q2M0dKTk9GUGVQVUFrZFNiUEwzaWRERGRXYVFFMVR0M2pCNmhjMmVGMU1DUVVuZENDNi1Cb0VyRk9IV21sZE44T3dQZ0ZsNTVBMnJ0WnQtOEZlVVlzRk1TbzR3VzVkX3RBbHdCNmJpbXFjTU1NYWtCWHpTV1NUMUlkX29RX2pmdmU0S1IxQ0hBVTdMWGc3YXUtbExhVXZTVHZkaGh4M0did1lldXVsOVlFeDRFZW5OR2ZEclRRNjZ4d0dsWDJXMWQ5X05ock9FZ0R2RWE0bUE1alZpQmR0OGdDSk82eE96dnF5WUs?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Democrats leading in Texas, Michigan Senate races: Polling",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYUtuWk5kOVRFczIwZXo4bkVWcnBiQU9fTWtKYXZ0QjhReTB4bXdhOE12ZzZfanExc3JfMUw0QXMxcDhqSXkwQlU1Rml5Z3I2YVF5N2VWVXFjczdGM0ZyRGdmd3ZIeUY2Ri1vdllVdTRNWnByelB2dXRMampqblptNmNKNC1BR05XYlHSAY8BQVVfeXFMTXRqYXdjTHd1cWdDUl9jRjFTbDNfTXN0d1VKbzhyNURtanhaZ1BGeC1zeExfZ2FqdmZRTFZtUjlMWlBhby16Mk5udDlwTFpnZVRqUEtiSHhKRllNTTB0YkNTRFlabmR0RDJMekxkaUJrbEU5Nm9GYTdJNVdLSjhCeWFPRk1ENC0wc3gxdUpwWjA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   },
   {
    "date": "2026-10-28",
@@ -646,6 +614,11 @@
    "date": "2026-10-30",
    "c": -2,
    "p": -3.9
+  },
+  {
+   "date": "2026-10-31",
+   "c": -2,
+   "p": -4.0
   }
  ]
 }

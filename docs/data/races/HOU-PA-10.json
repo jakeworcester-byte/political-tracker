@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -21,27 +21,27 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-30",
+   "race": "HOU-PA-10",
+   "races": [
+    "HOU-PA-10"
+   ],
+   "type": "reporting",
+   "source": "The Sunday Guardian",
+   "lean": "unrated",
+   "title": "Who is Scott Perry? Meet the Pennsylvania Republican Congressman Ahead of the 2026 US Midterm Elections; Check His Age, Net Worth, Wife Christy, Education & Political Career",
+   "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQbUM4ZmNWbWlrMXlWeUFXSEdCenVGZFVfVzloVElVM0RPYzFUZ3VRQ2Vjb0RtUXJGeDg0WnRkVkNWTmdUSXFGNHJVVmt2R1N4c05FdjRUeXE3dFVOUE5Bejg1bXlHdU5WXzNFMHlIUEM1WnlWekNTQ2hrdXU4SjlmNlZEcUlqWkxRTWQySjdIN1ZFN1dNeEVfQ2Z0Umh3LTB3Y0dTUUFmckU3S1JvcE4zY0kydnhKVC1VUDBYT0lGZC1SanAxZEdkTlI1Ul8taVlVWk5fTlROOFBiOExTdTZBY0sxWEs5QnljZFBReW5MOG9MSTZybTNGaG1zRllzb2ZCdm43SUxFMXJseEk0VHFXSmxwczBxN2ZtYk1OeUtoSHJUaWVuQmhQRkRsXzZGaVBLS0NjWTZB0gG7AkFVX3lxTE1WMS1SeFpDdHctMU9HYXJLbnQzaFA5SHZlTmpKck5nOERlR3lISlFZczB1MVIxQ2c2LXZhamN6RkpyYXo3Q3phVGRzcjJjTUhWVU1tckxFNEwwdG9YX1dpSlFqb19iTkwwR0NwZEU1OGdRc0RqbUkzT1lwVFltM0U0NVdpNW9yNXF0czUwU1FJeFlzVGN0eldMNjduRF82NGgwTnB3NGlmdUk3emg4bDh6V0hWRk1nZDdYc0Z5UzJOZ21vaUZSYU9EMjdYSlEyZnFtRG0tR3JwZEROWU1SSm5NOVJFamZOMlZaaVczdC1jMzhER1ZPb0hjQXREaGNCVnZwZlIyUGlFNFlkYkdZcV81RGU4b0xsOV9WOHhtcDhJazh1UTdldXd1b2VIU2dFcGd5Szd0UzRlYzMwYw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-10",
  "history": [
   {
@@ -188,6 +204,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-31",
    "c": -2,
    "p": null
   }

@@ -3,9 +3,9 @@
  "label": "Colorado 5",
  "ratings": {
   "cook": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Toward D",
  "signals": [
+  {
+   "date": "2026-10-30",
+   "race": "HOU-CO-05",
+   "races": [
+    "HOU-CO-05"
+   ],
+   "type": "reporting",
+   "source": "Rocky Mountain Voice -",
+   "lean": "unrated",
+   "title": "Petition seeks to disqualify Killin from CO-5 ballot days before election - Rocky Mountain Voice -",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdlZDNWlNMGVjQldBRHV0eTlIU2xCc3RGSGJwSVk4eEFDNE5NZHQxeVd1Wnpyam11dnZ6cTdIRFJvY2lOQXk1cjBoWUU1YjVkWEUwUEV4ejV6Wi1raWpQMWh5YjRFT1Z6SkpsaUV0U0JjaW5ERjBLU1BNTFkzNnJGdFBLRkhWWXRBYk5ybUthR2U4b3lSbmx5NjFyMDdlUE5sSnhrbllJRGtsd25mMlo5aFAteTBXM1k?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-29",
    "race": "HOU-CO-05",
@@ -219,6 +234,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-10-31",
    "c": 0,
    "p": null
   }

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -152,6 +152,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-30",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "KCCI",
+   "lean": "unrated",
+   "title": "Iowa election results: 1st Congressional District seat",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbkZ0cmQ5eXh4U3IxcG9QVkEtZlhRTUpEVE44WXBIaGJxb19zVEg4RGlreWFUd0RuUXpTaFdRRG1aVExpYURqdjF4LUZRanpiRm1lQ1ZxSnNWWV9peU9EX204WVpJTWNrMVF6RGJQTDY5M2dkREN5cmJSQUptRUJhb01CbFJLSldnLS0yUEd6ZjZhWFpZbUdPQ2kwWnI5RkwxTk1hREV1ZElMVVlwcEhyUkpNalhSb0IxLUlQZFhOREdmUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-28",
    "race": "HOU-IA-01",
    "races": [
@@ -182,16 +197,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-25",
+   "date": "2026-10-27",
    "race": "HOU-IA-01",
    "races": [
     "HOU-IA-01"
    ],
    "type": "reporting",
-   "source": "The Gazette",
+   "source": "Heartland Signal",
    "lean": "unrated",
-   "title": "Opinion: Support Christina Bohannan in Iowa's 1st District",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORXY5NmhDWmV0cUFDcTJCZEtwU1c1VEVmbUlZM3J1OGpIVlV2eGVmcWszUFVmR3JZQUw0YkNpc2lyUkN4emlNRW9tUXFBVlR5b3llNXJ4WkJhWW5GSE5odjE5SGp6dkQ5bGxRQUhzQnRFSzA5Wl9HX0pMQ09rM3JpeV9xalBnNDN3Z3ZaeUYzbm9Sd0p2ZEZBWDFldkx2bm1XRmluVnRGU0ZGQWdpVDZkc3gzVXV3dVhJc1AzSEp3ci1PMVNDT0tDUlVYb1dzWkVUc29fVHQxV28?oc=5",
+   "title": "Iowa’s 1st District: Where Christina Bohannan stands on gun policy",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY2xhbGgweldwVTUtSDcyOGRJSVpnWWdBTk9laG9GOFRPMk1iN2hGUXl2Nmd6VzAtbVUzdHVBeFpfWFV5bHRJU2VzSVFSbWo5akdfR0w1bEs5VDRKOU9vVGVlRUdiWV96N2JfbXBwdXl4SXlNLWI2OXRieXgzV2ZhUnB4VUN0aXpOSVhiVzlYVVY?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -296,6 +311,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-10-31",
    "c": -2,
    "p": -5.0
   }

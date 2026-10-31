@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -21,27 +21,27 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-24",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 5,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "Brian Poindexter"
@@ -183,6 +183,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-30",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "Cleveland.com",
+   "lean": "unrated",
+   "title": "Outside groups have poured millions into Ohio’s 7th District ad war",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcnJHVll6eHZlWVAtb2xGTTh3RzJzZnRCUEhVeUdOb3pPUTdJX3Y3LUhTSWFxOUs1MzJJekpqOGVRcjZqc0lVVjlOY09KdnZfT2xQZU9WX2J2akY1UzBKVjJzQml6d1p0TjFnSThfR0F1OGNZRW4yMWd5X1VrZEF1RzhqYkh5Tno2UFJmaXZXUTdZWk9PaVlZRjZOX3JuY2VFZ3lSa1g1ZHVmMmRX?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-29",
    "race": "HOU-OH-07",
    "races": [
@@ -208,21 +223,6 @@
    "lean": "unrated",
    "title": "Embattled Miller challenged by Poindexter: What to know about Ohio 7th district candidates",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM2VtSG5kYXR3MkdVZVZWMXQ0Y1dBMDU3dmhndERRb1JRY1pCSzBlU1QtRF9OTHhXQ0NUclVBckJUV2Y1ekplZVpfc3NiQjB4c2RMNElhSEI1M2VpWWNHSEwyazdORnRwWW13azFCNXVXTUZmV1I2Ym5hUnpJdHNPYkFkTGxvcnpsTUxKNWhBbkoxSmFNOVR1SGZHLWdiclU5ZDlZQUljZjRSWW15MVpaZHg1Z3p1QTBUTHRza19jbFlqdkJK?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "The Economic Times",
-   "lean": "unrated",
-   "title": "Ohio OH-7 Election 2026: Ohio’s deep-red House district becomes a battleground amid Max Miller controversy",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOV3BuOThuekRVaVAyV19SdDdhV2IyUXl2emM1VnkySExla3pMTmNzOXdpN2xnc3ZsNkVwQlBDb1Q2cm14OVA1MndRSHA2RnJqRm1TUk81eFdRUmZ6cUNUWkh5eE5vZUt3bU9EMEwxbXluSEN6NDhiYUwzdXBUdGwxaTQ0R1RfWUlhNGhna2xHNG83SHlzUnNETHEteFhVeHNGaE1VdUxLTWRieG5IWloxdVZPbjZPWnRva1Z4c3RqRER0VjBxempoVzFsaS02ZWhRdFl0bFBiVW1uOTB4M3l6cXg5RXpGZzVaam9Ja24xUjF6bVdEWm9J0gH8AUFVX3lxTE03SW1NcE1ZY3Ffai1OZ3RLWjlJb0pDMGZmUVBWU1NfS2swWndCdkRlUVJoNHBiVnpuZklpRldIeU85SWVPd3pRd2pxTzFzUndxSW13R0FFcWlsMmdaV1ZxSS0zdEpkU1MweUQ2emhVRDhWM2lrc3VoTUJ0OUVBT0ZaM1BCOTF0dUE0b0VnNGIwR0lHdkRLZk42dWVsd1JkNkVfb3d2Wmp1Z3NTNktTVGUzdmFBTjRwYWVjd2JKMUpnSEJ2TENjOXJua0J2X2FKNGZscVNwZG9MUGQzazJueExhQ1piajVrM1JjelB5V29HQk9LMVFWV2dsUkhTZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -327,6 +327,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-10-31",
    "c": 0,
    "p": -7.0
   }
