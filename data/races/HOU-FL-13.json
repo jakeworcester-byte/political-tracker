@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -185,6 +185,21 @@
  "raw_poll_count": 3,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-30",
+   "race": "HOU-FL-13",
+   "races": [
+    "HOU-FL-13"
+   ],
+   "type": "reporting",
+   "source": "FOX 13 Tampa Bay",
+   "lean": "unrated",
+   "title": "Military veterans Anna Paulina Luna, Leela Gray compete for Florida's 13th Congressional District seat",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORkc5N3dhWFpFT0cwZHlDRm5qUU5uQVhCV1JqYVd2Uy1aQ0dRX25uOW9pci1mdGREOHZyWEpIVVJ2MEd4enpJNDFOdHFoRUlzZ1lZRGJIa0V3VVdLaHdfUUFUelh4cmpoODZlUkVxNVF3YVNrc2JDRFNFTkxRalgxcWIxVTZZejZsbGRwb0F4bl82U2ZaZXptUk8wYXdtaWQ3TVJNcG9qLWVnbEZKSkxtLUxVaFRNTVpfcDk5TTdyS3Z4TmQ4a1E?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-29",
    "race": "HOU-FL-13",
@@ -330,6 +345,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-10-31",
    "c": 2,
    "p": -1.0
   }

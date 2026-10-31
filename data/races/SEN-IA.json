@@ -5,13 +5,13 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -383,7 +383,52 @@
  },
  "raw_poll_count": 18,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-31",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "WLOS",
+   "lean": "unrated",
+   "title": "Hinson touts 'common sense’ as Iowa Senate race tightens ahead of Election Day",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc2pFTVlubUwtS1F6NjVQUGZZcVloel96TVpDR2tYYnE5VXUyOWpGcHh4SVhGc2FqQ3NvNEdvVy1fSXJfVTlYeV9KRFhhUkZvV1FTZy1BSHhBaEJyVFN2VHNialZtRW8yeVV5N2lfaVVrSFA4Nm92QkZuNDlRUmEyVWRhMDVjWkJrc1ZHOFd0eHRRM1p4UXRVMk9yN19NRmJONHhxampXZXI1cnZaeDVyYzJaSUxZTmNVR2YzSFVFT3BHVU4wMWtxZkJ5eGVjTmlmaFlCNG1mTEQ1SWV3Z2c?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-31",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "weareiowa.com",
+   "lean": "unrated",
+   "title": "Iowa Senate race: Ashley Hinson allies criticize Josh Turek's voting record",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaWVReGVrVWhqblNfd1JtWkNCZzc3T1hEc2xsajZsWHpZamxYMEdpZFdlNlQ2RXZqNHI0a1hDUF9Dc0FBa05qNE0xY1FVSFdHaGpOdk8zcWFQc25Xc0I0cTJjRlExWlhoVmZqcWhmUUNvSmVDeUZ4a2RyeWZfc2p5SEhuWkVHYUVRSmpnVXA1UVJDbzQxVnd3M0JDNC1wcnRoSmFKeHo4V1hMc1ZYbFhVR21oaVRWbFYxc3c0eTEtVmtBZUp3V1JJaDZ5YVVoenUtMU9tdlRKMDg0ckttT0JtWk5rTzdfWmVmdUhnQXBIaktLZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Democrats, Hopeful All Over the Senate Map, Remain Jittery About Iowa",
+   "url": "https://www.nytimes.com/2026/10/30/us/politics/iowa-senate-race-josh-turek.html",
+   "summary": "In the final days of the race, Josh Turek, the Democratic Senate nominee, appears to be in a dead heat against his Republican rival, Representative Ashley Hinson.",
+   "relevant": true
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
  "history": [
   {
@@ -483,6 +528,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 0,
+   "p": 0.2
+  },
+  {
+   "date": "2026-10-31",
    "c": 0,
    "p": 0.2
   }

@@ -5,13 +5,13 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-29",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 4,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Mary Peltola"
@@ -270,9 +270,51 @@
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
-   "title": "In Alaska, high prices for diesel and home heating oil are driving voter anger at President Trump and incumbent Republican Sen. Dan S. Sullivan, making the Senate race in this red state one of the most competitive in the country",
+   "title": "The Alaska Senate race is currently at the epicenter of the political world. Here’s what we know.",
+   "url": "https://www.wsj.com/politics/policy/alaska-senate-election-ballot-midterms-6f9f4c4c?mod=rss_socialpoliticsfeed",
+   "summary": "Investigations are proceeding rapidly on whether ballot stacking is anything more than hardball politics.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "In Alaska, high prices for diesel and home-heating oil are driving voter anger at President Trump and Republican Sen. Dan S. Sullivan, making the Senate race there one of the most competitive in the country",
    "url": "https://www.wsj.com/politics/elections/how-alaska-became-the-most-chaotic-senate-battleground-in-america-86453d89?mod=rss_socialpoliticsfeed",
    "summary": "Democrats sought to focus on President Trump and high heating bills, but then came the October surprise.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
+   "url": "https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans",
+   "summary": "Alaska's governor ordered an investigation into claims that Dems recruited a spoiler candidate to confuse voters. And, Hegseth ousted an Army general as the U.S. prepares for potential attacks on Iran.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "punditry",
+   "source": "The Dispatch",
+   "lean": "center-right",
+   "title": "Trump’s Midterm Economy, Graded",
+   "url": "https://thedispatch.com/newsletter/morning/trumps-midterm-economy-graded/",
+   "summary": "Plus: Republican officials open investigations into the Alaska Senate race, Trump is briefed on Iran war plans, and Happy Halloween!",
    "relevant": true
   },
   {
@@ -297,41 +339,58 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "Axios",
+   "source": "CNBC",
    "lean": "unrated",
-   "title": "The bizarre twist shaking up Alaska's Senate race and catching Trump's ire",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE41RzU3X3FybTNGLTF5RU9lNjZzUVBhN000OHB5Wk40YTl5Y09ySGdhLWI0WEJ4b1czWU5KcGdacW11dTN6OUZlbGcydXhMeDN0cF9qZjliNWdWRnhrdUp3VVR3M0VhOVRyLTlHWnBMNDl6b2lHVE5qbTF3?oc=5",
+   "title": "Alaska Senate election: DOJ wants to 'segregate' all ballots for 2nd Sullivan candidate",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbWpsMTBpSFJISFJGU3JJRTRJUVlSb3hoLUR1S2o3bDJoZklvWEFEeXRYeGU2RmJYbFF6UWdLNXQzLWVqdTQ0LUwyeTJBZlhiaTdHTTBJOUNROE9fN1FKT0Z5ZmNFRjA4ZHNyRU1JZ2EtT3k3ZEJDeTh6dE1YV1U2MjM1RThFb3RqZm43WG5KVkdUd9IBlwFBVV95cUxQY3Z1VGo3RUR6WFZJOEllamxMeFpybk9wREM0Ry1WazlrdmktWDhweV93TWM0bFdtc0I1VnFyZm5RVmtKWXZMLVo4TFJOUXBtMEpwTjBhMDY4RVY1QzlFYU1jVGpST2xSWjloVXdIcGJtT3VMT2ZmRTdQV1RuNElNSmhnNktEeWYzTXRIbVVLNE9FaDE5MVBN?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Fallout in Alaska Senate Race Over Peltola’s Ballot Stacking Plot",
-   "url": "https://www.nytimes.com/2026/10/29/us/politics/alaska-senate-ballots-peltola-trump.html",
-   "summary": "Both sides have a long tradition of promoting spoiler candidates.",
-   "relevant": true
+   "source": "The Guardian",
+   "lean": "unrated",
+   "title": "Alaska prosecutor investigates alleged Democratic plot to confuse voters with second Dan Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdGwxc3k5WEVISk81ODZwcDNjcThHWTA4UmxEZ0pZeWM2X0NkLTBUZDA5Q1duakhrTlBtV2pLY19HaFVRd0x4WkJkZlIyVnYwRkZoMVNTeWVhS0dOU1lDNG1TZnNiSlAwR3dRWkVGNWJMTGI1RUI0a0s1YTlXd20ycFJoTTFid3R3aDJ2WU42LXQ5MGFMcE1CMmswZlA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Third-Party Spoilers, Long Fueled by Both Parties, Could Matter This Year",
-   "url": "https://www.nytimes.com/2026/10/29/us/politics/midterms-third-party-independent-candidates.html",
-   "summary": "The other Dan Sullivan in Alaska has drawn the most attention, but both parties are quietly trying to use little-known candidates in other battlegrounds to siphon votes, too.",
-   "relevant": true
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "DOJ issues subpoenas in Alaska Senate race as governor launches separate investigation",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNFZvZ1VReGhhTmtsSmNXWE91QXJ0R1hjX0lVTklneXJpUjVWVmxxSjY0V0lBOWwxTXF0THpHakU1dmFrblNxUmRkc09XYk5kRlVxM1RmNVBYOEE0ZE9IdEZCdUVQcjFZeTlDUHZLU2NnbFItTlViWVNuRUllWDF6VWh5cXNWdEoxaFk0XzNFM1RISmt5dnpYUWVxaDlFVnRHTkM1NmtsZzNGZlB6LXFtb0F0T05pQ1pFWnB2cEVKV3YyNFFWQnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Politico",
+   "lean": "unrated",
+   "title": "DOJ contends Democrats misled court on Alaska Senate race",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yWGRwY0JrNDZEMU1uQzBnY2NZWWU0NUNhbnVabUV6bGkzR05ab2VvTmtoQ0tlODJxQ0VZXzh1bXB4MVFVNWJhdUpHRmlOd3RjNHFPdDhwLWtzR1UwVHdzalJacERnNkRFZFlReGc2N0lfMjVZ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-29",
@@ -356,20 +415,6 @@
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
-   "title": "Alaska Gov. Mike Dunleavy, a Republican, orders probe over same-name Senate race controversy",
-   "url": "https://www.wsj.com/politics/elections/trump-calls-for-alaska-democratic-senate-candidate-to-be-prosecuted-aec2c451?mod=rss_socialpoliticsfeed",
-   "summary": "President Trump called for Mary Peltola to be criminally prosecuted and removed from the ballot.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
    "title": "Alaska Senate bombshell lays bare the shadowy plots in politics. Read more in today’s WSJ Politics Newsletter:",
    "url": "https://www.wsj.com/politics/policy/alaska-senate-bombshell-lays-bare-the-shadowy-plots-in-politics-98e92720?mod=rss_socialpoliticsfeed",
    "summary": "Plus, the DOJ’s push against Trump’s rivals reaches a higher gear, and some Hispanic voters in Texas are turning on Republicans.",
@@ -381,12 +426,12 @@
    "races": [
     "SEN-AK"
    ],
-   "type": "punditry",
-   "source": "The Dispatch",
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
    "lean": "center-right",
-   "title": "Venezuela’s Unfinished Transition",
-   "url": "https://thedispatch.com/newsletter/morning/venezuelas-unfinished-transition/",
-   "summary": "Plus: a report ties Peltola allies to Alaska's spoiler candidate, the Fed holds rates steady ahead of the midterms, and South Korea’s president needs to play Call of Duty.",
+   "title": "Alaska Gov. Mike Dunleavy, a Republican, orders probe over same-name Senate race controversy",
+   "url": "https://www.wsj.com/politics/elections/trump-calls-for-alaska-democratic-senate-candidate-to-be-prosecuted-aec2c451?mod=rss_socialpoliticsfeed",
+   "summary": "President Trump called for Mary Peltola to be criminally prosecuted and removed from the ballot.",
    "relevant": true
   },
   {
@@ -402,66 +447,6 @@
    "url": "",
    "summary": "Ruthless breaks down explosive new reporting on an alleged Democratic scheme to manipulate Alaska’s Senate race by recruiting candidates to run against Dan Sullivan, raising serious questions for Mary Peltola and Chuck Schumer. Plus, King of the Hill returns with Bill Kristol facing Steve Schmidt, a",
    "relevant": true
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "DOJ issues subpoenas in Alaska Senate race as governor launches separate investigation",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNFZvZ1VReGhhTmtsSmNXWE91QXJ0R1hjX0lVTklneXJpUjVWVmxxSjY0V0lBOWwxTXF0THpHakU1dmFrblNxUmRkc09XYk5kRlVxM1RmNVBYOEE0ZE9IdEZCdUVQcjFZeTlDUHZLU2NnbFItTlViWVNuRUllWDF6VWh5cXNWdEoxaFk0XzNFM1RISmt5dnpYUWVxaDlFVnRHTkM1NmtsZzNGZlB6LXFtb0F0T05pQ1pFWnB2cEVKV3YyNFFWQnc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "CNBC",
-   "lean": "unrated",
-   "title": "DOJ escalates Alaska Senate lawsuit over dueling Sullivan candidacies",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeWFJYmFmMlpEV25qMDhUQkpMUW5qdGN2OGRWU0FJUl9vY3owSjE0cnl2anRKR1BDNDdEZkplcGVsUXVad2F5bURFVDhNenRKMlJtUlFaR2NTTEdYQzExZ2dnX2lTb0tIOVhoVVNTcVFmYXVBLS1NdHJiWXhlQlVVSU9MU1haQkhNVDhyeHREUWJFRVlpM0FCanB30gGfAUFVX3lxTE82cXFabHJhaDVydTl6WC1rRkQ2QktUX3FTUmNsdDNheExNZ21uNUhsOTJCamlWNlVBQ3Zlc2ZQMzBrcUtZcEVjSDJFZnpxck4xd0lycWpoVS01cmFZOFJ5WWFwcDhqY1NmSlBXa0QxZV9tVjM1SDRvcUV1b19xdjh5MnRmb18yTERuRWRTWjBIMVRSdnZHT0VzQ3BwVEhyQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "CBS News",
-   "lean": "unrated",
-   "title": "Two Dan Sullivans: What to know about Alaska's Senate race as ballot fight heats up",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWamQ3N1dpZW5DNzAwQVdZMWtEaHZPSUFwUjVqVG1HMHJpSzFfVnYycHRiSTNxa2dNY0JXdXVUbEJuaVE0cXUyVmZxakpEREM1V3k0UFNNTjU4RXdEaW5vd1BwT2xRVTUyMFIyQklxbDNQRExHVDVYdW5MS3Rrams?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Inside Democrats’ Secret Effort to Stack Alaska’s Midterm Ballot With Another Dan Sullivan",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXZoZnd5TWlac1BNQkoyZGw1UHR6RkphN3J4S3E2bkZXbFN4SFhKcWdGQkhyNXJfblNQWTJkbXBxeHZZSTBoa0RLc18xSnpxX3dJR1FiYm5hdTdER0FWVEJRRGg3T0Nwek41ZmJFX3ZFdUtjeV83T0YzUDVvN3BhZEU3d2hocWx5ZUZQdGx0SEx4Y1hu?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   },
   {
    "date": "2026-10-27",
@@ -578,6 +563,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 0,
+   "p": -0.8
+  },
+  {
+   "date": "2026-10-31",
    "c": 0,
    "p": -0.8
   }

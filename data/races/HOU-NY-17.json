@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-28",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -75,12 +75,12 @@
  "key": "HOU-NY-17",
  "name": "NY-17",
  "incumbent_note": "",
- "consensus_score": 0,
- "consensus": "Tossup",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 5,
+ "flip_votes": 6,
  "candidates": {
   "D": [
    "Cait Conley"
@@ -160,7 +160,7 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [
   {
    "date": "2026-10-30",
@@ -169,10 +169,10 @@
     "HOU-NY-17"
    ],
    "type": "reporting",
-   "source": "Hindustan Times",
+   "source": "The Nation",
    "lean": "unrated",
-   "title": "Mike Lawler, two-time New York Congressman, faces tough contest against Democrat Cait Conley in 17th district's midterms race | Hindustan Times",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPbVZXbmEzYUxYd2VYRE9NX0hLRDdiQWJEMzd6X2V6dGdVYUZvNFgwcHRUeWVZVnRPU2JnTUhLT2ZaWlhYUUxNajMtVDBESl96RVRVempLaUdKZjg3QlJReXZiM05lRExJTnhNZ3FKRmV2TzBxRThhb0tDbGlfZ2IxTHFPRzh4cl9LR004RU1wWnZoczVIUW9tbVd5d3RLUjVLUG5RU1h3bnB5dEdpbnJQV3NCai1vQnRraXFHcGk1VDl5a3VsOTRnZjhLelg2bEJEcXVUNDVMR3VTLVNOY25KWWFuU0RZSkNTREk3d2xlS3lab2ttUUhVa2RKWFlEYWh2emk1TUZYWFUtTm9ZeFhvcWpfS05VSm1Fd1QtME130gGjAkFVX3lxTE1aTmFXb0JHbGx4UnVDajVOWDZoTnlWQW1Ba2VKc0dYYkN6VHJFTHJVd0pCendma1d5NHk1c3hVRUNrN2JpSlI3TGk0ZWVBQWpCMS1zUWN6MkNIUWtIejZ5RzdqQUZTWFdCZ1F0X01aY0ZVUTZlVEVfUmFVbkRweDFVTnZOM1k0WjFmV0xyenlNNGIydmx0UUotMWMzNHZMblFJSjFldndxRGo1YWVGeW14STE4OWhIWWk0akNKSl9tc0xnMThYb3g1dmw0Q2ZMN29pY0lVcW1qNHVLY3NXQ3FqZTZQVUY2dFU5MnRsaHYwXzE4TVZLNUdQMHpDRTlVT1JxX3ptS2RQVXpqZXA0STRXM2JXZTVNSW56S0c1dUxhZlpqTQ?oc=5",
+   "title": "Will the Progressive Insurgency in NY-17 Oust MAGA Loyalist Mike Lawler?",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUVFqdU5XaUJyX3RORm5KNHBQVDlYWTMxc3Y1OFB6TmpES1FYcGpiZTBiUmUzN1A5bDhFaklIdi0yOHR4ZVkwcFVXSzVqZThFeGE5aEdmdjFPTDBYWUxGaXZSNDFMSm1yRHJGSF9zdF9PTkloRm5YOTZFa0tPZ3QyVWNuNDBhbGZw0gGQAUFVX3lxTE5iMFJBdk9ZU2R5SmIyb0FkbnJDUjc5WHdnb1NDM3pUMUtfTHR1NGNMYU5ydTY3Q1QydTFjQ1VwUXZ0eHlsRkQ3YzZpX0U3UlNYRkIzRGQwSElpNWJkcy12bkJEUnkwdmhfSUNRRGVPTmRYLUNlMHEwajFGSWhEck42bWJZaHBkdF90QXE5NFBOUw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -308,6 +308,11 @@
   {
    "date": "2026-10-30",
    "c": 0,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-31",
+   "c": -2,
    "p": -2.0
   }
  ]

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Likely D",
+   "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -82,11 +82,65 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 7,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "Randy Villegas"
+  ],
+  "R": [
+   "David Valadao"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": -10.0,
+  "average_label": "D+10.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "University of Southern California Democracy and Fair Elections Lab/University of Southern California Dornsife Center for Economic and Social Research",
+   "sponsors": [
+    "University of Southern California Center for the Political Future"
+   ],
+   "partisan": null,
+   "start_date": "2026-10-22",
+   "end_date": "2026-10-28",
+   "sample_size": 356,
+   "population": "lv",
+   "margin": -10.0,
+   "margin_label": "D+10.0",
+   "answers": [
+    {
+     "choice": "Randy Villegas",
+     "pct": 54.0
+    },
+    {
+     "choice": "David Valadao",
+     "pct": 44.0
+    }
+   ],
+   "url": "https://www.thedemocracylab.com/ca-polling-2026"
+  },
+  "polls": [
+   {
+    "pollster": "University of Southern California Democracy and Fair Elections Lab/University of Southern California Dornsife Center for Economic and Social Research",
+    "end_date": "2026-10-28",
+    "margin": -10.0,
+    "n": 356,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.thedemocracylab.com/ca-polling-2026",
+    "answers": [
+     {
+      "choice": "Randy Villegas",
+      "pct": 54.0
+     },
+     {
+      "choice": "David Valadao",
+      "pct": 44.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [
   {
@@ -206,6 +260,11 @@
    "date": "2026-10-30",
    "c": -2,
    "p": null
+  },
+  {
+   "date": "2026-10-31",
+   "c": -2,
+   "p": -10.0
   }
  ]
 }

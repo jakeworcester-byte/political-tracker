@@ -3,15 +3,15 @@
  "label": "Nebraska",
  "ratings": {
   "cook": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -223,76 +223,74 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-31",
    "race": "SEN-NE",
    "races": [
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "Omaha World-Herald",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Pete Ricketts Leads Dan Osborn in Nebraska Senate Race, Poll Finds",
+   "url": "https://www.nytimes.com/2026/10/31/us/politics/nebraska-senate-poll.html",
+   "summary": "Voters see Dan Osborn, the independent seeking to unseat Senator Pete Ricketts, as more like a Democrat than an independent, a Times/Siena poll found.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-31",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "In Nebraska Senate Race, the Independent May Have an Identity Problem",
+   "url": "https://www.nytimes.com/2026/10/31/upshot/poll-nebraska-osborn-times-siena.html",
+   "summary": "Dan Osborn trails by six points, and voters don’t seem to buy that he’s truly independent from Democrats.",
+   "relevant": true
+  },
+  {
+   "date": "2026-10-31",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
    "lean": "unrated",
-   "title": "Groups use lesser-known names to boost Ricketts, Osborn in Nebraska Senate race - Omaha World-Herald",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU1hHSnhOZkdOeGNkclFZVTJkM1dqUDJzN0g5bExKR2FRZVpnTlFjOFNBVWVubk1KSzVLSzQ3ZXVFakxuVGRGMnFxb1ZlbTZieEc3eHR3WFduUVRMUEtBMWZlMVZQSDRwSE1RYkozSkpfdUczaWczLXV0bThTdVBNTEVfanZnVEQxQ0R4aEd5amlrTG1sRUstaFlPY2xDNkJwYWJYR0ltcU4zR0pHanp1WVZ4STJPYzNS?oc=5",
+   "title": "Pete Ricketts Leads Dan Osborn in Nebraska Senate Race, Poll Finds",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBESGpJU2xncTR3aGtWMGxkMS1GRVpwU2Z6enBGYTgzLU9fOEE5V1MzVjBVQmJxVS1DNGdqODNWOWdNN1RxcnNQUTVESEl3NUJSSEF6eWZDX1FJcFB6SEdiSW9KNVZwWXh2dVM1SjJ4eGVCTXN0eWlyajVWdWE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-28",
+   "date": "2026-10-31",
    "race": "SEN-NE",
    "races": [
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "KTIV",
+   "source": "The New York Times",
    "lean": "unrated",
-   "title": "Candidate Profile: Robin Richards Ricketts for Nebraska’s US Senate seat",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd19MNE5zOVVXcHB5dmNJWVZTeDlkNWNreHpZbG9pYlcxaWtWbXNtMFpiZHJDUjlVYkhTalQ3eHhfbjQ2S29OTHdIaF9VdkZ5bTdzV0J5WW9QUm0tN09VeHVkeWtibGF2T0xRWVdYb3hTTXpyclNRQkhzRGM1ckdMZy14b0RjSGJtVjk4MWFQUld0RmlrcEE1aWNGVENsUGhV0gG0AUFVX3lxTE9YT0dCVlRvcjJhRmxaXzJVeDJaS2dZclZ6Zk1FMkQwZ2d6OURIdWowbTNYRDRVTnh4M2pKWFVDRFVrWVpDcXJ3U1VsUi1OcGVISGdBNEJsYXljV0V0Wk10YTZwQXF4enJiejZDYTVtd3ZSLUxpM1pnQkRiak4tNTRuVXI2UnVyZ3R1QWVMZHJ6VzhqLVBFMjVkb2JfeDRJb2dBVmh1cXFrUFBsRGgwS2FwR3VHcw?oc=5",
+   "title": "In Nebraska Senate Race, the Independent May Have an Identity Problem",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLUlyT0VBalo1QU1FZ0l1ZHlYcUdjSUpSbnlDYUhRWjhRWDBDOEVRLU5IUlMxOUJxVkJYR3Ntd0thNDdNMjBRMmlRWVNVdDRtZUNLQVoxUzBJMVl1VmlkUmNEUjhVZGFnVFZXblVwdFlodDRadFIwRkR6ZmZjZmt0dDRUTVdLQQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-28",
+   "date": "2026-10-30",
    "race": "SEN-NE",
    "races": [
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "Lincoln Journal Star",
+   "source": "Kearney Hub",
    "lean": "unrated",
    "title": "Pete Ricketts touts experience, record in Nebraska U.S. Senate reelection bid",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTm1kTXRrZklmNGhzWkdwaE1MUkRMUnJLOEN2LTFwNjNBQmg5ejE1dlpyVG9kbkI3YnVybVpWVjJhX0dPb0ZNc1lsNlJDMXI0bjE5LXV6Ql9veTlyVWgtZkhfTVdPWWd1dkUyNS1ucmRLb2hvWGs0cWlLYTFEdUVYRDRqc3Jhc1YwMnRPUVE1RXVUV21XZ3RRc2pVdGNKTDVMdWVSUnA0bExXdTVrLXZvbTI1YkRSVVRCVmE3clFNd08?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-NE",
-   "races": [
-    "SEN-NE"
-   ],
-   "type": "reporting",
-   "source": "The Well News",
-   "lean": "unrated",
-   "title": "Nebraska Senate: Pete Ricketts (R)",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOXlRVFBmRHFfeGdmbXJpRzc2Zk1yUVVfRG1kNzJxMEp0cmthZlBJV2xmZjZ6MFo0RDZoc19WM2gzOVU1RGRoajEyMVMtekpjLWZBYmNnUGZISmd3TXppZC1XdTdfckdzb3EwSllVWURMbmE0ajJxVmdmVktrckNHemxMVlYwNFpQOGxMcHZ5T0dCdEQ4Q2ZWclV6cnlad1hB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-NE",
-   "races": [
-    "SEN-NE"
-   ],
-   "type": "reporting",
-   "source": "Lincoln Journal Star",
-   "lean": "unrated",
-   "title": "Independent Dan Osborn outlines priorities in Nebraska U.S. Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUGh0NEs1R0N5azQ3ZGhiaDU4bzlYT1dfSmJZVUl3ZEhqTE05VFlnM2FnU2cwMEh6NVJGMElPRFh4aHJqQzZQOXdjSmtLMlJwUGpqSGpHNWV1b2J3NGpHaERCczhyUTI5Y19MNGo2UzBnWjRxaE5LN1M2aW5OcXZtSTVmQ1RseWhkVzVDS3dvX3A4djNIVDZOS0wtSzlkOHlIZEh5dzBJcGlEWDhBV293LUFKNTY4UmpmZ29UcXFMRGI?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbEIzQUZvS0tIdF9NLXpUelprNU9vLW0xQzZmU0hoQVQ4TE1rTzRFYXlkLVhxV1FERWNodjVyZll5djJkNUJaNlRtOUpwWGRuYUhZMzMzaFBlZ3FIbjYxei1sMnJMUlY1OFVMZFM4djNDdkQyV01VdmlIaGU3R2ppVkIwaDNyQ0ZFc2ZfYkY1aDlpUjE4dVZwZG5iMFFtMnhQXzR6SDU1MU01S2d3bTdOdklfNE1Cb213aU1oTkFmMA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -304,10 +302,10 @@
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "Bloomberg",
+   "source": "Omaha World-Herald",
    "lean": "unrated",
-   "title": "Tight Nebraska Senate Race Sees a Rail Merger Arise as Key Issue",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV09kNXhtM3FjM3BKYlZ5eExYMlRLRGkyejNwVlVrbUl5MTlsdlcyZDBVNWVQcXZaYjVwbk9rNWxmSDFfZUNvRVNxUVl6Wk1sZ3RFV1QzdVM5eFlOaWwzb3FiTzctOG5FSHhyYmU3TGxkalRQNEhIc2U4ZDA0anRuY3JRV3FJem56UWEzb202S3h6OEZvbF9ScFhoMjJKMlZqRDY2NVVyLWFETVNMNWgyQWVn?oc=5",
+   "title": "Groups use lesser-known names to boost Ricketts, Osborn in Nebraska Senate race - Omaha World-Herald",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU1hHSnhOZkdOeGNkclFZVTJkM1dqUDJzN0g5bExKR2FRZVpnTlFjOFNBVWVubk1KSzVLSzQ3ZXVFakxuVGRGMnFxb1ZlbTZieEc3eHR3WFduUVRMUEtBMWZlMVZQSDRwSE1RYkozSkpfdUczaWczLXV0bThTdVBNTEVfanZnVEQxQ0R4aEd5amlrTG1sRUstaFlPY2xDNkJwYWJYR0ltcU4zR0pHanp1WVZ4STJPYzNS?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -412,6 +410,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 2,
+   "p": 2.3
+  },
+  {
+   "date": "2026-10-31",
    "c": 2,
    "p": 2.3
   }

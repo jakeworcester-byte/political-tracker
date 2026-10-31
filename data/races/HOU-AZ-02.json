@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -144,7 +144,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "race": "HOU-AZ-02",
    "races": [
     "HOU-AZ-02"
@@ -154,6 +154,36 @@
    "lean": "unrated",
    "title": "Arizona 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPci00Ny1SUTQtenhDYlFlUXdLWjBkUlVMSzF1U24wU2h4Ulg2YXZJdmVIZTJhV1R1NktYeGdjVjQxUndjWkhxUjhKQ3JaR3hoNnFLWHoxQ05JXzVaNEVEWHBTVDRVanNxNklZYXZnVUctQ21qMlgzbFpMZEhkSW1MVi1R?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-AZ-02",
+   "races": [
+    "HOU-AZ-02"
+   ],
+   "type": "reporting",
+   "source": "AgWeb",
+   "lean": "unrated",
+   "title": "From Tribal Leadership to Capitol Hill: Jonathan Nez Takes On Rep. Eli Crane for Arizona’s Rural Vote",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaXBtZlhRbl9fdGhJR1ZOLVhNVUtMdjJvNXlOY3hiU0pHMFFJYlhYTTJpMnlVS1d3aGE2TmhGckJGaS1RWGwyWlVRMm5Jck9pV1BaSnlMV01FTUZYVkNRbnJISWZhZW9mQkU4UU01SU5sQTEzRkNiRnRtS3c2b3FUeUp0RV9CbXpQRFYyOEEzRjB6YjJOV2thNWpPUl85VldJbUJjUnhJSVlQMllXdzl6eVkzYnNDT3dw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-29",
+   "race": "HOU-AZ-02",
+   "races": [
+    "HOU-AZ-02"
+   ],
+   "type": "reporting",
+   "source": "12News",
+   "lean": "unrated",
+   "title": "Surprise battle for Arizona's 2nd congressional district",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX0ZsamFabTZSRVR5OUtjbmhzVjJJcUZ3NU1PZlNkWHMtUVRjU1RRcXM3Z0pLaV84VGRVU2N0MXlSNjZLQm1fdWw1QjI5YU41QlRfWkVobkZDS0hzaEdFMGNGRzlBbzR4WGpTOFM3cnZoWWkzRHFpYnZWWkF5cGZ5cEVOQWFGcVo3d0FEQWdTMXg2ekR0eUNua1Y5b1VFd3BYVUkxU3VzcXowQ1U2TEVpdUtEMUxBVG9OS19zNFlBMFRoQUQyaDFJZDR3ZTBLMFNhclpVakl4X0xnNy1oN25KU3hn?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -258,6 +288,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-31",
    "c": 2,
    "p": -2.0
   }

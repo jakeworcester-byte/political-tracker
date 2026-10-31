@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -160,10 +160,10 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Toward D",
+ "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
@@ -173,6 +173,21 @@
    "lean": "unrated",
    "title": "Kentucky 6th Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLTY1c3dTYVVEcFNlbl96TjJkN2xzWVlMbjVHZUVHaWZJWHZlRk54R1Q3dUxrWHJkUDRfMFkySUxXQkk3YUNFdzl2NEswWkNoQWw3RzgxSmdKY3FaMmFJLXBKTFNkUHo0LTUwVnNXRk93eW5qdUkzclowdER4azZvandCcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "WKYT",
+   "lean": "unrated",
+   "title": "Alvarado, Dembo outline differing plans on costs, data centers in Kentucky’s 6th District",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVd3QVc5Ty1hNjEwRWRNTGlJeTVKeWkyNlB4X2NtcEdEZzF5cl9hMUJibExyWUNYd2lZRjdScGxKS0ZEdTdya0t1SWVfaS1aZkh2QkpxUEw2XzdNUnNIcXlRa2VoUnRkXzhneWlnZWhEWU5USWN5T3hDRmlhcERZaHVSMVlRY2psTzZyeUtkb0lnTE5BMW5SajFKTXRkMnJQUEU0bkdzcU1yV01MNlpSNFVUZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -188,21 +203,6 @@
    "lean": "unrated",
    "title": "Kentucky's 6th District candidates clash at a second debate. 5 things to know.",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNekhQUktrbUczRjFySnNZQ3Bnd0pMek1LS0JwLU1URGxjNGJnTC1vVGx6aU42cEpSTU15R0F2Z1N4Q3doRVdicU1SQlp0OXh1VmxZcXE3NjdKM09rMUQ2bkRCZUtMX0drVF9TSVVXVmF1ZTE2Zjdrb2NSdk5fcDVFSTVYVmRPOHfSAYcBQVVfeXFMTXFwYzZNTTVPY2llWG9BLXJvTEpmblVrRTFydlRrZFJ2b25ZdGZscnd2MGQ5YzRjTHFtUVVPMWt4aFR0X1EtZGh2XzB0azlQdGdaMDJYS2M5NkpsN2Q5ZWNtenJUcTFWSzZvR1RCckliNHEtV3pUQzZWcEs1RFpEZTNOQlhyUnBN?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "Spectrum News",
-   "lean": "unrated",
-   "title": "Zach Dembo campaigns to flip Kentucky’s 6th District",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VQ01zVnlRaUtmVmcxdldMU1BHTDlfbDl0RU14ZlVSSTVwUXJqZ0p0VXpIX0JYM0RPdjVBRGllZDNibDJLbEt0OE05ZXNTbnIwZWJHOTl6eVp2T2J6TGxISkJxc2FrdXJQdnBmSE81VHZMbHBh?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -307,6 +307,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 0,
+   "p": -4.5
+  },
+  {
+   "date": "2026-10-31",
    "c": 0,
    "p": -4.5
   }

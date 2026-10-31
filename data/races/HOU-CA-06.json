@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -90,35 +90,54 @@
   ]
  },
  "poll": {
-  "average_margin": -4.0,
-  "average_label": "D+4.0",
+  "average_margin": -12.0,
+  "average_label": "D+12.0",
   "n_polls": 1,
   "window_days": 45,
   "latest": {
-   "pollster": "The Bullfinch Group",
+   "pollster": "University of Southern California Democracy and Fair Elections Lab/University of Southern California Dornsife Center for Economic and Social Research",
    "sponsors": [
-    "The Independent Center"
+    "University of Southern California Center for the Political Future"
    ],
    "partisan": null,
-   "start_date": "2026-07-13",
-   "end_date": "2026-07-16",
-   "sample_size": 741,
+   "start_date": "2026-10-22",
+   "end_date": "2026-10-28",
+   "sample_size": 439,
    "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
+   "margin": -12.0,
+   "margin_label": "D+12.0",
    "answers": [
     {
      "choice": "Richard Pan",
-     "pct": 39.0
+     "pct": 55.0
     },
     {
      "choice": "Kevin Kiley",
-     "pct": 35.0
+     "pct": 43.0
     }
    ],
-   "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat"
+   "url": "https://www.thedemocracylab.com/ca-polling-2026?district=CA-06"
   },
   "polls": [
+   {
+    "pollster": "University of Southern California Democracy and Fair Elections Lab/University of Southern California Dornsife Center for Economic and Social Research",
+    "end_date": "2026-10-28",
+    "margin": -12.0,
+    "n": 439,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.thedemocracylab.com/ca-polling-2026?district=CA-06",
+    "answers": [
+     {
+      "choice": "Richard Pan",
+      "pct": 55.0
+     },
+     {
+      "choice": "Kevin Kiley",
+      "pct": 43.0
+     }
+    ]
+   },
    {
     "pollster": "The Bullfinch Group",
     "end_date": "2026-07-16",
@@ -140,8 +159,8 @@
    }
   ]
  },
- "raw_poll_count": 1,
- "trend": "Stable",
+ "raw_poll_count": 2,
+ "trend": "Toward D",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-06",
  "history": [
@@ -244,6 +263,11 @@
    "date": "2026-10-30",
    "c": -4,
    "p": -4.0
+  },
+  {
+   "date": "2026-10-31",
+   "c": -4,
+   "p": -12.0
   }
  ]
 }

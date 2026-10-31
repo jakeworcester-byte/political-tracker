@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -21,27 +21,27 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Lean R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -163,7 +163,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "race": "HOU-OH-15",
    "races": [
     "HOU-OH-15"
@@ -173,6 +173,21 @@
    "lean": "unrated",
    "title": "Ohio 15th Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlWWF2aXMwMlpzaFlUdlc3UF9sckRfLVJyMnQyWHRxU0d4Q1BqN2ROZV9nZ0l4dVdqWk5xM2E4ZFY4aHJRNnMwQ2NNT05BUlNVcHJoVHpKcXBpR3RWTXFidlN6WXhEeEUxNGp2ZGRsYU9ULU9RMi1PMGYwMDNPWlU?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-OH-15",
+   "races": [
+    "HOU-OH-15"
+   ],
+   "type": "reporting",
+   "source": "WOSU Public Media",
+   "lean": "unrated",
+   "title": "Ohio's 15th Congressional District sees flood of money ahead of closer-than-expected race",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWkU2S2VIRkVETThlQWpzbnA0eldZOEtxN0phQmRXdUtKc1dSSnc0UnY4UWxyekt6WkFpY2JNOU9pdW1uMVMycEhKU0tfcjVVOTFzTlM5N3hja2pLWFRQYWhMNm1VRTNvczVPeV9JVXNSZndEQWVaeWxsaC1Od1FTdTZkNmlPdlRpYjJDbVV4SXh2Tk9YZi0tdUdackFwUzZvLWRkRWs0dF81Nk91b0h2UXJBZXhrUVFla0JDZXdBS2g4OTdLX0hTOXBNSHcwR1o4WGMteUZEbw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -292,6 +307,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-10-31",
    "c": 2,
    "p": -2.0
   }

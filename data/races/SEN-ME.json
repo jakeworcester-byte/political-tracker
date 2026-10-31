@@ -5,13 +5,13 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-20",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "econ": {
@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "NBC News"
   },
   "rcp": {
@@ -53,19 +53,19 @@
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   }
  },
@@ -365,10 +365,25 @@
    "type": "podcast",
    "source": "The Megyn Kelly Show",
    "lean": "right",
-   "title": "Inside Look at Trump Midterm Strategy, Maine Ad Controversy, Habba-Grenell Dispute: AM Update 10/30",
+   "title": "Shock New Discovery Related to Meghan Markle's Father, the \"Evil\" Netflix Cornell Doc, and Dems' THIRST to Jail Elon Musk, with Mike Solana | Ep. 1431",
    "url": "https://www.siriusxm.com",
-   "summary": "New Senate polls show Democrats leading in four key races, including Texas and Kansas, as the New York Times reports growing concern inside the White House over President Trump's midterm campaign strategy. A Maine woman accuses a Democrat-aligned political group of misleading her into appearing in a",
+   "summary": "Megyn Kelly discusses the signs we're getting more bad news for Republicans in the midterm elections, Susan Collins’ new ad and the Maine “working class” battle with Troy Jackson, what to expect in the midterm elections with Senate races in Ohio, Texas, Alaska, Kansas, Iowa, Michigan, and more. Then",
    "relevant": true
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The Times",
+   "lean": "unrated",
+   "title": "Maine Senate race polls: who will win the 2026 election?",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMG1GdTl2WV9pSVp6UUVPUTdnWWRpUlVxWks5MUFGUXVxZXZqS29zbUx0UXJYNWgycEJwckZhUkFVU0s2bVBUY2puQlFnai1ReElHdjk4S2NtUWZRWTZLY1VFVnVqdndSLU9BWW1ZbGYySUJmNjBzUnpsT21yZm51ZDVWNndKcUtwcnFpN0tocl9TZ1ktV056aU9Vb0pxcjlha01JTi1RV2NURVAyQ2Zab0l4QlljSDZIZ3FKMUp3bkc5WVJWNzlR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-30",
@@ -381,6 +396,21 @@
    "lean": "unrated",
    "title": "Steve Kornacki breaks down Maine Senate race",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORVhOX0drUEllem5CX2Rsd0RuaEVMRFpRRnVuMGhLdnZPY2NrcldmM29tWnNqaGZydTlYRWM4SnA5a1VNQ1kwX2VpdUJZLXlrSFUwQzA1NGhfUmdoUWZpaHQzcTZsSTBrbFdlMUtTSzJPMkFzTXo5dk8wQTZGUFM2X2duSWw4b0IzdWkxUVlPSk0?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "The Washington Post",
+   "lean": "unrated",
+   "title": "Opinion | Collins is the clear choice for Maine. Will it matter?",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbFl0Nzg4MnFka3dtSnpkWURmWDhCNUd5eEJ1anQ1M25mb2hoQVg3S0RVTFB0OERjUl9HUDBCT2c3TWdydURQbWZrbDNWNURYSUpGX1hBTkZ4MURwZ05fdFhYbllnSmVoNGRldFpKR2NnWUpGWE5wa0FtOXBsRms1b19FOWlvRENRbjNsV1A2V0NDV0R3b0JrbjgwVGdkNVV0R3c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -401,35 +431,6 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-29",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Kansas, Maine Senate races neck and neck: CNN poll",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZkNHNjJ5SFl4MHRYcl9JMFRqNTNqMGFxVEIxXzlYMURFeXFQOUhSaDNVaG14cl9LQTJKUGJsbEQyOUp2N0I4cmh6U2E2bDhlQTF1aExBczMtUExnc3pCU0pONXMyck9BQ1VaT0ltWkV6MFpJZGpZUEE3MzBMUVdkVFRhSzHSAYoBQVVfeXFMTWVwbDVMVE1CTl9qR05XRURGV2FJeTVUdFgzeWdQOGFJSDFEbXZQUU5YLXV6WklGRnhIVDNGd25VYjdkbGcyOUdRYTZXeGxyNTJFWXRzYklVZ05LTzM5bzhIQ1BpSGJNYXFlSEszYXBwMUlRTzFmdVhaWVhweFhZRXRCa1RyZm8tSDNR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "To win re-election, Republican Sen. Susan Collins of Maine must navigate a polarized electorate, anger over inflation and fallout from the Supreme Court’s 2022 decision overturning Roe v. Wade",
-   "url": "https://www.wsj.com/politics/policy/susan-collins-maine-senate-election-82b52aff?mod=rss_socialpoliticsfeed",
-   "summary": "The centrist Maine Republican has worked to capitalize on her bipartisan image but says the political environment is the toughest she has seen.",
-   "relevant": true
-  },
-  {
    "date": "2026-10-28",
    "race": "SEN-ME",
    "races": [
@@ -440,21 +441,6 @@
    "lean": "unrated",
    "title": "Collins ad featuring retired broadcaster draws criticism in Maine Senate race",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUTJhbmI3WHVxdzBrYjJOZVpPRkdDS3lMSXdjSFNweTU2QUo1Zy1FUldHbFVQdEVSZzFqTTFCM3Ezb2xpZUhxVVBNMFhkam05S0JLNzFPUFlpU2RWV0ZYUXNUNWotNWdOMGF4REFJSTF4TFdqUWhLZXFtbGhfbUI1akNLZ0xnQWYyeFQ1Wm9HenhWbFBmWmhiOGptczA5cUw1V2RfRHV1ZWpwd9IBvgFBVV95cUxNeVhqX2wybWRWMXd2SllrVm5RZERXdzU2TENQSVZiMHd5SVRpY1Nic1hKNm5pMlFQWnc3MF9QQnU0dGN4aW10YXJYekdZcG9lcXhKRXN5VW5DUktiQ1NzeHBOejg2Zm1kV0dZSDJ4cU5DRmxpUGY1ZlVqbEZIQjNSdWJlZEE0QjNMWmlUY1ZqbDNQeHQ5ai1naElkdkJ1UUNKUEdqNVQtaUlRZjd6TmN4RXZEV3loSmhmMEhYQktn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-27",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "CNN",
-   "lean": "unrated",
-   "title": "Republican attack ads mocking Troy Jackson’s relationship roil Maine Senate race against Susan Collins",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUWloMTJwZ3dsWlkySUp6eF9vMk5Tb19hZVlXa3lGR2FNamxzODVRUlVYVGlxSTllZnYtaFZZN2ZCZWdJZURKaFkxQWh3cnRFRFlhelVQUDhNZjhERU9SaHkyekxRLV9pcjJTd25lcGR4bDMzTFBIUEplZjZPc05Cb2ZTXzZfWHBTa2trY3NlVE9aT2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -559,6 +545,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": 0,
+   "p": -3.3
+  },
+  {
+   "date": "2026-10-31",
    "c": 0,
    "p": -3.3
   }

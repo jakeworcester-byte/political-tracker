@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -90,6 +90,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-31",
+   "race": "HOU-IA-03",
+   "races": [
+    "HOU-IA-03"
+   ],
+   "type": "reporting",
+   "source": "weareiowa.com",
+   "lean": "unrated",
+   "title": "Meet the candidates vying to represent Iowa’s 3rd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPT1N4d0JkMXZkdFd0V2J3ZEVkcXdxa0ozcndDUFIxYUNnSDBuQmRzdlJiX3dfbHdtTm4ySzFBUnhzTndJTG95V3JXZlVmMGR1RjBISHh3amVHaEJ6OEVxOWFzeUdraEJkTW1hSzZsNVZtUEJpcmY4UGd6TlQzQUxiYnhTZ3p6bC1uaFh1OGdVczN1VGNWWlZQUDU0c0hTQm9penhiVC1fcEtwaC1xOXBQN3VHYjMyNFBfaXN4Z1hjR1F0TFZqM1l5MnRLS2FBY2lHdWtEUTdKT1RKNjd2dVNOYUN5TmVOZWFaTzJNUnBmQ2lXVFp1N0pvZVZGMk1DYVk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-IA-03",
+   "races": [
+    "HOU-IA-03"
+   ],
+   "type": "reporting",
+   "source": "KCCI",
+   "lean": "unrated",
+   "title": "Iowa election results: 3rd Congressional District seat",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVXVMZ1pWaGpJYVVyNGNWeVZQeHk1d3VOMFJnTEVpN2hnblN4VVY0dTczMjAtRkdsMEw0TVFZUUpIUk4ta0RwT0lQT2FpSnFqaW93TXBvV1pkN2xYUU41TFRUdFNNcFUwd3p3WjZYVmlTX1RxN1kyRTNDc2tGRHl3SmtoZ0gwZDdLLWpCTUpvclNBdFZWaWM5TU9ZazdvdDFoaW5QZXVYZ0lBcHhOWUxqTnd3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-28",
    "race": "HOU-IA-03",
    "races": [
@@ -111,25 +141,10 @@
     "HOU-IA-03"
    ],
    "type": "reporting",
-   "source": "weareiowa.com",
+   "source": "The Economic Times",
    "lean": "unrated",
-   "title": "1-on-1 with Sarah Trone Garriott, Democratic candidate for Iowa's 3rd Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPaTdTRXY2SGxPek12T2k0NFpiVHdJb01qY0N2QlpCWjZId1laVTBxekVSbmNWamRkNUVId2FMNmF0M0dBcnc2T3lSVlB0aFQwS0ZNbEJNdy1OVUFzZ2RtdDRlczA4cHNEdjYySWlRampYQm9OY1A5dnhucnM3T2I2eXRrdUZJZUJJRlh0LVpTMDdBd09XSnRFU0FLN3FEVkxGRUc4NHpBWjhCQ2JJQngwWjY1aTBXaXh5aWZWWmNrTUNyYVBvQmkxYjcwMzFJbVFTczFIX3l3RUhraE5yWl91LXRLbXc1aGxIOHkxd25xeG9QWWJjQXAzOWdnRnB0aFNkbExTUUVDMUVSamxXbkhkc0hKdEtoQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-IA-03",
-   "races": [
-    "HOU-IA-03"
-   ],
-   "type": "reporting",
-   "source": "KCCI",
-   "lean": "unrated",
-   "title": "See how the Iowa 3rd Congressional District candidates compare",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSmVic0hZUk5udEduUk9lT3pwQVZQcU1qbFlVeVl5emdFNE55bEM2Z2c4MHFBLU1LWEJxZl9xeV9xQXR1bWdwcDFHdkFjLV9GM2tKQ2lhaDhobUJ5VndFd3ozTDJVWUYwSkF3WFoyQkJTUjBjZERzRHpHYzVGV3Q2SmhJQ1Z4ak1BZjhsbkFmaGJTdll6WGZpVk1pSEIzTVZPTjY4cg?oc=5",
+   "title": "US midterm elections 2026: Iowa’s 3rd District tests whether Democrats can win back Trump voters again",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTWs4TVU0QkpJZ19qV2NVRnU0X3VpTXlrTVFLdjExOXpJYllmcU80MmJzZjN3QVdzQUlWWHpiZk1mZkVzWkIxOVZGRHMtekY3NTl5eUJ6MDJjNFllLWRnT0poTjhtS2o2OFpiN1psN3dpVHZBamMyZ2JnRGpLRXV3S2xVeHdabXBJeDlxaElUWXF0bEk0WE5DbkczTGZ4NGRKRUxLZFo3MnJ5dDE4bzRLTzNSWlVLU3dVaDlwOHVNV1JmaFJWSGJ3U3RrNjM0bEhBT29EYVp5TmU5UUVBNXpIOFhLY0NnbGhLWnNxMG5RR255MTdfSGfSAfsBQVVfeXFMTW9kbnl5LU9RS2QxVlR4dmpFcjVEdGF2Qko3TzZNTC14LUhJUUtmQnlQVXd2Ynhrc2IzVGxMdldhOFNrWWprSGU5Vkd6ODRLV2RjaDZMbVhqakZiUk5ERTJGaDlOSlV6ZEZ1NHoxeDlHQWVXTFFuTTdmUU5Fanc1bTE5Z3V3RkVIdWRQZDV2MzgwM1dlbkp5Tl9KclVKSzE1dFhkSUZjT0xWM2l3RS1vNUl0b3MyTTZPTmxkTUlHT1BacnBzR1Awb1dUNmFad3lrYko3SXlzNXpNVlZiY1B0WWUxLTltakRGWU83QVphaTVKVGd5and1QXNKTW8?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -234,6 +249,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-10-31",
    "c": -2,
    "p": null
   }

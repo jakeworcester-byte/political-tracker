@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Likely D",
+   "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -90,33 +90,52 @@
   ]
  },
  "poll": {
-  "average_margin": -2.8,
-  "average_label": "D+2.8",
-  "n_polls": 1,
+  "average_margin": -3.4,
+  "average_label": "D+3.4",
+  "n_polls": 2,
   "window_days": 45,
   "latest": {
-   "pollster": "FirstStrategic",
+   "pollster": "Keating Research",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-01",
-   "end_date": "2026-10-01",
-   "sample_size": 400,
+   "start_date": "2026-10-26",
+   "end_date": "2026-10-28",
+   "sample_size": 500,
    "population": "lv",
-   "margin": -2.8,
-   "margin_label": "D+2.8",
+   "margin": -4.0,
+   "margin_label": "D+4.0",
    "answers": [
     {
      "choice": "Amish Shah",
-     "pct": 44.4
+     "pct": 49.0
     },
     {
      "choice": "Jay Feely",
-     "pct": 41.6
+     "pct": 45.0
     }
    ],
-   "url": "https://s3.documentcloud.org/documents/28722214/shahfeeley-poll-release.pdf"
+   "url": "https://keatingresearch.com/polls/az-01-october-2026/"
   },
   "polls": [
+   {
+    "pollster": "Keating Research",
+    "end_date": "2026-10-28",
+    "margin": -4.0,
+    "n": 500,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://keatingresearch.com/polls/az-01-october-2026/",
+    "answers": [
+     {
+      "choice": "Amish Shah",
+      "pct": 49.0
+     },
+     {
+      "choice": "Jay Feely",
+      "pct": 45.0
+     }
+    ]
+   },
    {
     "pollster": "FirstStrategic",
     "end_date": "2026-10-01",
@@ -138,7 +157,7 @@
    }
   ]
  },
- "raw_poll_count": 1,
+ "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [
   {
@@ -273,6 +292,11 @@
    "date": "2026-10-30",
    "c": -2,
    "p": -2.8
+  },
+  {
+   "date": "2026-10-31",
+   "c": -2,
+   "p": -3.4
   }
  ]
 }

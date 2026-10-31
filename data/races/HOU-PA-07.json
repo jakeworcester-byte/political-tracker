@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-23",
+   "as_of": "2026-10-30",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-24",
+   "as_of": "2026-10-29",
    "name": "The Economist"
   },
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-30",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-30",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-22",
+   "as_of": "2026-10-30",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-10-30",
    "name": "RealClearPolling"
   }
  },
@@ -154,29 +154,10 @@
       "pct": 45.0
      }
     ]
-   },
-   {
-    "pollster": "GBAO Strategies",
-    "end_date": "2026-07-02",
-    "margin": -4.0,
-    "n": 550,
-    "population": "lv",
-    "partisan": "DEM",
-    "url": "https://x.com/cjwarnke/status/2075190984107872361?s=20",
-    "answers": [
-     {
-      "choice": "Ryan Mackenzie",
-      "pct": 43.0
-     },
-     {
-      "choice": "Bob Brooks",
-      "pct": 47.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 3,
+ "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-07",
@@ -278,6 +259,11 @@
   },
   {
    "date": "2026-10-30",
+   "c": -2,
+   "p": -5.5
+  },
+  {
+   "date": "2026-10-31",
    "c": -2,
    "p": -5.5
   }
