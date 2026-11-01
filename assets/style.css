@@ -14,6 +14,8 @@
   --toss-soft: #fbf0d3;
   --ok: #2f9e6a;
   --warn: #c9821f;
+  --flag: #6d3fd0;
+  --flag-soft: #ece4fc;
   --shadow: 0 1px 2px rgba(20, 30, 60, .06), 0 6px 18px rgba(20, 30, 60, .06);
   --radius: 14px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
@@ -23,12 +25,14 @@
   :root:not([data-theme="light"]) {
     --bg: #0f1422; --surface: #171d2e; --surface-2: #1f2740; --text: #e8ecf6; --muted: #9aa5bf; --line: #2a3350;
     --accent: #e8ecf6; --dem: #6b95ea; --dem-soft: #1d2b4d; --rep: #ee6b6b; --rep-soft: #46202a; --toss: #e8c05a; --toss-soft: #3f3418;
+    --flag: #b598f5; --flag-soft: #2c2350;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
   }
 }
 :root[data-theme="dark"] {
   --bg: #0f1422; --surface: #171d2e; --surface-2: #1f2740; --text: #e8ecf6; --muted: #9aa5bf; --line: #2a3350;
   --accent: #e8ecf6; --dem: #6b95ea; --dem-soft: #1d2b4d; --rep: #ee6b6b; --rep-soft: #46202a; --toss: #e8c05a; --toss-soft: #3f3418;
+  --flag: #b598f5; --flag-soft: #2c2350;
 }
 
 * { box-sizing: border-box; }
@@ -133,3 +137,12 @@ code { font-family: var(--mono); font-size: 13px; background: var(--surface-2); 
 .ev-facts .label { color: var(--muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; font-weight: 600; }
 .ev-big { font-size: 22px; font-weight: 700; }
 .ev-stale { opacity: .75; }
+
+/* Results: seats rated safe before the election whose count is now within 5 points */
+.flag-badge { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11.5px; font-weight: 700; white-space: nowrap; background: var(--flag-soft); color: var(--flag); border: 1px solid var(--flag); }
+.flag-badge::before { content: "\2691\00a0"; }
+tr.flagged td { background: var(--flag-soft); }
+tr.flagged td:first-child { box-shadow: inset 4px 0 0 var(--flag); }
+li.flagged { border-left: 4px solid var(--flag); padding-left: 10px; }
+.card.flag-card { border-color: var(--flag); }
+.card.flag-card .big { color: var(--flag); }
