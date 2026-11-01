@@ -363,8 +363,11 @@ def main():
         # Forecasters rate every seat with any chance of flipping; an unrated seat is a safe seat.
         r["competitive"] = meta is not None and abs(meta["score"]) <= CFG.get("competitive_max_abs_score", 3)
         # A seat rated safe whose uncalled count is close gets full coverage too (possible upset).
-        r["upset_watch"] = (not r["competitive"] and not r["called"] and r["margin_pts"] is not None
-                            and r["margin_pts"] <= CFG.get("upset_watch_points", 5))
+        # "Rated safe, now competitive": consensus Solid (or unrated) before the election, count within
+        # upset_watch_points now. Flagged whether or not the race has been called.
+        r["rated_safe_now_close"] = (not r["competitive"] and r["margin_pts"] is not None
+                                     and r["margin_pts"] <= CFG.get("upset_watch_points", 5))
+        r["upset_watch"] = r["rated_safe_now_close"] and not r["called"]
 
     # 3. previous snapshot -> newly called
     snap_path = os.path.join(ROOT, "data", "results", f"{run_date}-{edition}.json")
@@ -373,6 +376,12 @@ def main():
     prev_called = {k for k, v in (prev.get("races") or {}).items() if v.get("called")}
     prev_label = os.path.basename(prev_files[-1])[:-5] if prev_files else None
     newly_called = sorted(k for k, r in races.items() if r["called"] and k not in prev_called)
+    prev_races = prev.get("races") or {}
+    for k, r in races.items():
+        if r["rated_safe_now_close"]:
+            r["flagged_since"] = (prev_races.get(k) or {}).get("flagged_since") or f"{run_date} {edition}"
+    rated_safe_close = sorted((k for k, r in races.items() if r["rated_safe_now_close"]),
+                              key=lambda k: (races[k]["chamber"] != "Senate", races[k]["margin_pts"], k))
     uncalled_after_call = sorted(k for k in prev_called if k in races and not races[k]["called"])  # table reverted
 
     # 4. news
@@ -382,7 +391,8 @@ def main():
     pending_safe = sorted(k for k, r in races.items() if not r["called"] and not r["competitive"] and not r["upset_watch"])
     news = {"races": {}, "national": {}, "errors": []}
     if not args.skip_news:
-        targets = uncalled_comp + [k for k in newly_called if races[k]["competitive"] and k not in uncalled_comp]
+        targets = uncalled_comp + [k for k in newly_called if (races[k]["competitive"] or races[k]["rated_safe_now_close"])
+                                   and k not in uncalled_comp]
         for k in targets[: CFG.get("max_race_queries", 150)]:
             q = race_news_query(races[k], ratings.get(k))
             try:
@@ -437,7 +447,7 @@ def main():
                 "previous_snapshot": prev_label, "ratings_frozen_from": freeze_date,
                 "sources": CFG["sources"], "house": house_t, "senate": senate_t,
                 "newly_called": newly_called, "uncalled_competitive": uncalled_comp, "pending_safe": pending_safe,
-                "reverted_to_uncalled": uncalled_after_call, "close_margins": sorted(close),
+                "reverted_to_uncalled": uncalled_after_call, "close_margins": sorted(close), "rated_safe_now_close": rated_safe_close,
                 "problems": problems, "races": races}
     if races:
         dump(snapshot, snap_path)
@@ -489,12 +499,24 @@ def write_digest(run_date, edition, s, news):
                  + (f", independent {ss['I']}" if ss['I'] else "") + f" ({se['not_up']['D']} D and {se['not_up']['R']} R not up). Majority is 51 (the vice president breaks 50-50 ties).")
     L.append(f"- Safe seats (final consensus Solid) not yet marked called in the table: {len(s['pending_safe'])}. These are usually table lag, not real uncertainty (none has a count within 5 points); give them as a count in the brief, not race by race. Keys: " + (", ".join(s["pending_safe"]) or "none"))
 
+    flagged = s.get("rated_safe_now_close") or []
+    L.append(f"\n### Rated safe, now competitive ({len(flagged)}): final consensus Solid or unrated, count within {CFG.get('upset_watch_points', 5)} points")
+    if flagged:
+        L.append("Flag each of these in the update with \"(rated safe)\" and mention the count in the Bottom line if any exist. Margins are from the table and may be partial.")
+        for k in flagged:
+            r = races[k]
+            state = f"called for {wlabel(r)}" if r["called"] else f"not called; {lead_label(r)}"
+            L.append(f"- {k} {r['name']} | final rating {r['final_rating'] or 'unrated'} | margin {r['margin_pts']} pts | {state} | flagged since {r.get('flagged_since')}")
+    else:
+        L.append("- none: every seat rated safe is either uncounted in the table or more than 5 points apart.")
+
     L.append(f"\n### Called since the last update ({len(s['newly_called'])})")
-    comp_new = [k for k in s["newly_called"] if races[k]["competitive"]]
-    safe_new = [k for k in s["newly_called"] if not races[k]["competitive"]]
+    comp_new = [k for k in s["newly_called"] if races[k]["competitive"] or races[k].get("rated_safe_now_close")]
+    safe_new = [k for k in s["newly_called"] if k not in comp_new]
     for k in comp_new:
         r = races[k]
-        L.append(f"- {k} {r['name']} | final rating {r['final_rating'] or 'unrated'} | winner {wlabel(r)} | table: {r['status_text'][:120]}")
+        flag = " | RATED SAFE, CAME IN CLOSE" if r.get("rated_safe_now_close") else ""
+        L.append(f"- {k} {r['name']} | final rating {r['final_rating'] or 'unrated'} | winner {wlabel(r)}{flag} | table: {r['status_text'][:120]}")
         for it in (news["races"].get(k) or {}).get("items", [])[:3]:
             L.append(f"  - lead [{','.join(it['flags']) or '-'}] {it['title']} | {it['outlet']} | {it['published'][:10] if it['published'] else ''} | {it['link']}")
     if safe_new:
