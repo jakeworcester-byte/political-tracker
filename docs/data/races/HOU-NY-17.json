@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -163,21 +163,6 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-30",
-   "race": "HOU-NY-17",
-   "races": [
-    "HOU-NY-17"
-   ],
-   "type": "reporting",
-   "source": "The Nation",
-   "lean": "unrated",
-   "title": "Will the Progressive Insurgency in NY-17 Oust MAGA Loyalist Mike Lawler?",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUVFqdU5XaUJyX3RORm5KNHBQVDlYWTMxc3Y1OFB6TmpES1FYcGpiZTBiUmUzN1A5bDhFaklIdi0yOHR4ZVkwcFVXSzVqZThFeGE5aEdmdjFPTDBYWUxGaXZSNDFMSm1yRHJGSF9zdF9PTkloRm5YOTZFa0tPZ3QyVWNuNDBhbGZw0gGQAUFVX3lxTE5iMFJBdk9ZU2R5SmIyb0FkbnJDUjc5WHdnb1NDM3pUMUtfTHR1NGNMYU5ydTY3Q1QydTFjQ1VwUXZ0eHlsRkQ3YzZpX0U3UlNYRkIzRGQwSElpNWJkcy12bkJEUnkwdmhfSUNRRGVPTmRYLUNlMHEwajFGSWhEck42bWJZaHBkdF90QXE5NFBOUw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-28",
    "race": "HOU-NY-17",
    "races": [
@@ -188,21 +173,6 @@
    "lean": "unrated",
    "title": "In toss-up NY-17 race, candidates look to the center for votes",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX1RWUDloU1RjQzF1ZWQwOGxBNUtPRTRHbWhIQlR3Z3hIcVNSWDhUdVRSOG8xek9WOEZMTDZLOWhOSDJuU05WazRkcFBFdDBHT0tZYm4zbElvZ2dFa09qOUgzd1Nwa3Y1d0o5dXpsbktWVXAwVDl0RkZxTnNCRlVwbTlDTUdONDNzT0RRNExPZmRId211ODhxa2VSbExjWHlVUFVyU0FR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-27",
-   "race": "HOU-NY-17",
-   "races": [
-    "HOU-NY-17"
-   ],
-   "type": "reporting",
-   "source": "Reuters Connect",
-   "lean": "unrated",
-   "title": "Licensable picture: Democratic candidate for the U.S. House of Representatives in New York's 17th Congressional District Cait Conley, attends a Town Hall in New York",
-   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNblBHd1EtMjJDTWl1S2dTbzZCeXd2N0RuRnp2emlYWjVlTFRvQ3hxTDN0UEZyTXJ5bUdrVkg0TkJhbG8tRkRudjNPd3o1TFgtSzRMU1ZJemdmYzdkWVFRTjRIejRkZGhjbEJQX0d5a1FneWZRa1JvRjN0ZUcxWXllSjNpeXF2eEh4OWNTUklzNTg2SEdlV3g2d1VBX3A4V29feXMwd1hDbkhmblBMM09QYmtfOEdhQlpOMlVPT2s5VGhVdUxpOEFZTm9LS2F0OVItVUI5Z0cyU191R3hFZHNQU1dNVjFVNGdkakZ3Z1AtYklpRm1GVFdnZmlqMFhLTnE2VDREVFNlMENTZ2tWek1IOFJ2Smhpc1BVNHhBa1dnMEZCSE53UDJnRHF1MURFUkxEV2Z4eHIwNzJsUlQxSzJJVWsyMmZfcnBZUF9KTXEyOE1Idw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -312,6 +282,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": -2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-11-01",
    "c": -2,
    "p": -2.0
   }

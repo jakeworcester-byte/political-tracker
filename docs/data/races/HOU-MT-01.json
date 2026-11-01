@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-30",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 2,
  "candidates": {
   "D": [
    "Sam Forstag"
@@ -209,23 +209,7 @@
  },
  "raw_poll_count": 4,
  "trend": "Toward D",
- "signals": [
-  {
-   "date": "2026-10-29",
-   "race": "HOU-MT-01",
-   "races": [
-    "HOU-MT-01"
-   ],
-   "type": "reporting",
-   "source": "Crypto Briefing",
-   "lean": "unrated",
-   "title": "Trump endorses Aaron Flint in Montana’s 1st Congressional District race",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ05PRTN2NGdQbzNCYWhXaDZWcjg5NVJnMmhVUlJWTVhPT2hMbjJHX0VIV3ExdklnMmhIZTNIR1dlVGpnTjlnWlRnaVlDUzJScndkVmhZaFJrcUFlZ3I5bU9ha2liVm50UmxENHl0MXBielpzT19XZ0FmVXpZUDdGYUIzX29PRGxkOGJuY2xkQUtVc1lVYk1iQ05wMndPWUU?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
   {
@@ -330,6 +314,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 0,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-01",
    "c": 0,
    "p": -8.0
   }

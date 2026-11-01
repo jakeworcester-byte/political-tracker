@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -90,31 +90,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "race": "HOU-MI-04",
    "races": [
     "HOU-MI-04"
    ],
    "type": "reporting",
-   "source": "Heartland Signal",
+   "source": "The New York Times",
    "lean": "unrated",
-   "title": "MI-04 incumbent Huizenga continues to skip in-person town halls, both as candidate and congressman",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTkRGQ1FzZnNiZVN2SG5qaUQ0RmhXZ0gzUW1kZERscWZfa1hXdGZSODVNZVpBcWJJVkx6OWFwaWZEUnNSTFJxM01oOWRDOGxnTW5TUFY4UnJ0ZzM2dXEwSk1uMEpiZUdqQ19LcmxsX1NvRk51a2V4OXBmRUt1U3luM1BLV2lLOUVIaHYtdnFIc3RFSVNGcGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "HOU-MI-04",
-   "races": [
-    "HOU-MI-04"
-   ],
-   "type": "reporting",
-   "source": "Native News Online",
-   "lean": "unrated",
-   "title": "Sean McCann (Citizen Potawatomi Nation) Challenges Huizenga in Competitive Michigan Congressional Race",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZ1U0YmJrSE9PdzBnR2xHQ2ZDWmxORE0zNzc4T2hUV0ItMGxsSHN3ZkllN1BEY2JOUHc3ZGtTd2RPY1Z4cW5GMEJRYms1OEVLNTExMy1FV2JtMzlaWGdtMldrVURkeU1JLXh5eXk1enVibUgxcXRjV0JubzA4RWdtQ0hGTm9LVzUweDc1NWw5RWN6Sk9IXzI3enMxSFdXYy1QUExrU3Nnb0VkNHRUZVJ2VUtYRDItU3FtSkpTUUJuRjU4alNIRDBVMHFfcjVOd1VzdEpnR3JR?oc=5",
+   "title": "Michigan 4th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQanVMOTFkUWdwdVpWZEVHSXNyZ21JXy1uNW81eVFEaDFRSGRmUC1HR2RMYndSM2FicUdLbTFRbFVycUk5T3dBUHlMTkxUOEU1X1EteEd0OU52Yk9oTjllWFdTNURLeDlsTVZ4S3dBWmNuRTJMcjVkbFhJZmo4UlVMSmc5TQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -224,6 +209,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-11-01",
    "c": 0,
    "p": null
   }

@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -75,8 +75,8 @@
  "key": "HOU-WI-01",
  "name": "WI-01",
  "incumbent_note": "",
- "consensus_score": 2,
- "consensus": "Lean R",
+ "consensus_score": 0,
+ "consensus": "Tossup",
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
@@ -161,7 +161,7 @@
   ]
  },
  "raw_poll_count": 2,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [
   {
    "date": "2026-10-28",
@@ -179,16 +179,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-26",
+   "date": "2026-10-27",
    "race": "HOU-WI-01",
    "races": [
     "HOU-WI-01"
    ],
    "type": "reporting",
-   "source": "FOX6 News Milwaukee",
+   "source": "WGTD",
    "lean": "unrated",
-   "title": "Who's running for Wisconsin's 1st Congressional District? These are the candidates",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZEMwdmtGX0QxUnZUU1NHRkI2UHdLMS1XWnZNVlNRR1g2ZzZfcTV2U0ZRcXlDd3Y3TWhleFYxQ180M0IwM0RzOGlkemk5WjlIZVhsRkR0ZndUUDFHVHhzX1hZTERZUlU4NFF3dDZDZkJEZm5lczlhdnFEbk9KRl9vSXNB?oc=5",
+   "title": "Republicans Have Held Wisconsin’s 1st Congressional District for Decades. Could This be the Year it Flips?",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa1FPUVVZcE5JWHVzbXRJb0VOZjVKbm5MVF8ycE5oVTlkRll4NGRmVkVERHNwakNldWJLMHJoUzlhNWo1SzdKSjQ2VERQU1JGUzRBbDl3dF8zeGROTWVVMlN3YmtROFpPcHM5NEtWRlpDNXFLYU5CNGN2XzhGZHIzS2l4aGd4bnc5TUdxemk4cXdBaDhtdS1Hb19xQ3owa2NYd1V5MVpZa0hUc0pUdXA4REN6dVZkdmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -299,6 +299,11 @@
   {
    "date": "2026-10-31",
    "c": 2,
+   "p": -0.5
+  },
+  {
+   "date": "2026-11-01",
+   "c": 0,
    "p": -0.5
   }
  ]

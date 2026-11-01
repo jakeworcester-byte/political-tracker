@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Split Ticket"
   }
  },
@@ -415,6 +415,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-31",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "The Columbus Dispatch",
+   "lean": "unrated",
+   "title": "As Ohioans seek change, Brown, Husted pitch competing solutions",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX1FDVWxQSzd2R0dRWFVwdmRuSUQ1bFNTajdrblhOMTdYZ05Id1c1VUVOV2ZkWlRVN0R6YTM4a2F5UFV4eTdfN2t0T2JyNVI4dG1LVHd6TElHa1dJRlpBcTNwamFZV1hEeXhjekw4NnNFV3VFbmlpazVMRlpFYTQwbC1iWlUyNWJEN2Y5WnFyYlVYTUYtdWVsamFYd0JXc09VOWNJTlhSblp5YkJrY0E4bVdQbzhhbVRkQkY2RUJB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-31",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "Cleveland.com",
+   "lean": "unrated",
+   "title": "Brown and Husted clash over who Ohio voters should blame for hard times",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQkNNN1NwMUZncWFpcF9mTTVIU3pIZlZjX3JFUE1jQTlmcWktbXNFVDNEQk1iNDNkbDVNMEFQWi1XWDQycWtvWU9jV3lHMmg0MVMyT3dESVQwSkdOREZFN0ZSUGFLUkxQY3BfQS0zWWdZOVFyZnRpanhqOTB2Ml9YWldObFBnTG1YdUJ2b0tEY0I4Ti0tdFVFTXA5b2xTaUE4Z21ZU1ozMjZqcy03blFqVndWdTJ3UQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-30",
    "race": "SEN-OH-S",
    "races": [
@@ -440,21 +470,6 @@
    "lean": "unrated",
    "title": "Ohio’s Jon Husted, object of Trump’s leering, is just an empty pair of pants",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMTlzdGhCWEMyVEtRMl80Y3FQUlJHSXVfd3ZiYVVZXzFHRzAwSXV1bmNqZ2t4S19UTko0YjEtTFZhOUhyellZMk56eFhJRllBUkllUlAxVTgwNGdlMXNmZW9UdmwxR0dueC1UUW5pcUdUR195aV9rRnRoUk9xaXN4ekN5VnZPZGFyeGxDUXFfMGJUTXU1c3pBLVEwU0xVd1A1TjFKd2VMZ24tdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "Newsweek",
-   "lean": "unrated",
-   "title": "Jon Husted vs. Sherrod Brown Ohio Race May Come Down to Third-Party Voters",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOGxlSVJXR1lEenJmYzRqMTE4RExubXNtM1hPbWxLVjRlX1pMaTRhY2xjRU40VlFfclBDZElKTGJYb1R1dE5SUEhpbHF0eVB4RVpnS1BUSHNkT2lFVHM0YXg0WFJjYmkyMFpXeVZJRXAtdG5GRzRZSFRZaHhSenl5aXpsMnBnX1FSaFRqLQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -564,6 +579,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 0,
+   "p": -3.2
+  },
+  {
+   "date": "2026-11-01",
    "c": 0,
    "p": -3.2
   }

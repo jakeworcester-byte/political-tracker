@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -142,6 +142,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-31",
+   "race": "HOU-AL-02",
+   "races": [
+    "HOU-AL-02"
+   ],
+   "type": "reporting",
+   "source": "AL.com",
+   "lean": "unrated",
+   "title": "Alabama’s District 2 congressional race: What to know about the Shomari Figures, Rhett Marques matchup",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOUoxMFljM3g4Ql9yemtONWdsckF2eS1lZG96WW9idGZ3TnZ5emg1aW9jcXVXSU90WWJTRHdfRVFtOW9kOHVlMnlaSUx2dEktTjNLU1lSemNvOVN0eVJZVUk0U08wN0dobkctd01KS2JjVWROc2JzWGRhNXRJVEg3SXFVMkRGbnFMM0w2TldlUFZTc0tCbExOY2dRWTRic0RYYjlvbDJIMnZGZDhlVnRBZlgxQVNJUEFEck1LZUItcW1PWFYxc1UwdVJUb1NqeU43eFhsS3lTZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-30",
    "race": "HOU-AL-02",
    "races": [
@@ -152,6 +167,21 @@
    "lean": "unrated",
    "title": "Alabama 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM3hvQlU3aXliaTVBUzJZTkk0SWl2dWZqYVZRM0xWMG1SN284TGZFYXh4b25SU214cEVBMFVaSlBNWXM3ZElmcTU5eElGTi1CQnBfeG1zQkdRejZ2SWhFWlAxbHVuR3c5dk55Y0lGa0Y5Q1hTSDBGUlRiMTBBREU2Vmpn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-AL-02",
+   "races": [
+    "HOU-AL-02"
+   ],
+   "type": "reporting",
+   "source": "WTVY",
+   "lean": "unrated",
+   "title": "Figures, Marques face toss-up race in Alabama’s AL-02, forecaster says",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVEp0aU9oR0NKejhLTEUxcnFleVRVS0Y3NzhiVmtSS0NuLVRHRE81ZExFcU9BNDVNUjFkVDJVVndCRXNWRFhzTW5yY2hLMTlSYW5TWWFOMVZDeWNWQS1fd3BiMk5TTnpRQ2JRbEpVd0doQ2I1bGRtZkpHQ1JzXy1aNElucGhSTUNQV3pWZlFSQlpKdGRtVm5XMnM5ejlZZ9IBsgFBVV95cUxNUUFsRG1zcU0wMXB6ZS1qUWZ2OUpOYVg4NmpsSl93cFV2ZHNMWkUtRXZrN2paOFFzWlJQOVFyMlNhb1NpdHF1UHZZeWJvNXFGS3lrYlRVQXFXMFoycXRBbksyR2lwcmVxNS1OVlBCczdaTnFRVUdjRTNjZ0h5WXJoUHpaQ1JiRlpMcG50LXhtdGlKVmlMRmpYQUlqcm9oc2xXb0JSMEgtWUNzNXZPcDliTm9n?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -306,6 +336,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 2,
+   "p": 2.0
+  },
+  {
+   "date": "2026-11-01",
    "c": 2,
    "p": 2.0
   }

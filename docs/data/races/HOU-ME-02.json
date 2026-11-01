@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-11-01",
+   "race": "HOU-ME-02",
+   "races": [
+    "HOU-ME-02"
+   ],
+   "type": "reporting",
+   "source": "Portland Press Herald - Maine Sunday Telegram",
+   "lean": "unrated",
+   "title": "In Maine’s 2nd District, Paul LePage’s name recognition is a blessing and a curse - Portland Press Herald",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pZTlORFQ1aXZ4eGhvOVB5LTFFWF8tRDZRYklVTEFNZHpURHBGeERPeEZ6UXgtbm5uUy16VVE0VU4tNkxlVWRUMnFoX0QtOEE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-30",
    "race": "HOU-ME-02",
@@ -224,6 +239,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-11-01",
    "c": 0,
    "p": null
   }

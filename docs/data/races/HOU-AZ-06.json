@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Solid D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-01",
+   "race": "HOU-AZ-06",
+   "races": [
+    "HOU-AZ-06"
+   ],
+   "type": "reporting",
+   "source": "Hindustan Times",
+   "lean": "unrated",
+   "title": "Juan Ciscomani went from being a Mexican immigrant to a US Congressman; now he's seeking re-election in Arizona | Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPV0tqU092WUFzV1J1MGJvUDk2dDVXanRXS3RtRm9iMmlFellBXzVnRnRSVmhmSXNOcVBhUm0teHZoQ3J2NG1ULWEwMjFFamdKci1wWEdfNVVybFNZRFNlYzZuODFkbVJCVVpFam1uMzdKYWFFbGpySURnWHV1SzI3TDlOV0FHM2MtblM3TzVxMzRZNy03dVdoeEY3bHljWjV5VEJyQThvdDlRRWJpbTVySzltc2ZneXBzZjVZeDRTSnJQOC1WcjlSeURXNmgzbFY1bWppeVY4ekNpdmhRa0VVbjI0ejRNVlpuTVdVc1dJMnlPLTlnT1duTHFieElVWV9kLU81YTJlVm9SVUw0X0ZBeWw2UjZPVzhzcWZoYXVB0gGeAkFVX3lxTE9XS2pTT3ZZQXNXUnUwYm9QOTZ0NVdqdFdLdG1Gb2IyaUV6WUFfNWdGdFJWaGZJc05xUGFSbS14dmhDcnY0bVQtYTAyMUVqZ0pyLXBYR181VXJsU1lEU2VjNm44MWRtUkJVWkVqbW4zN0phYUVsanJJRGdYdXVLMjdMOU5XQUczYy1uUzdPNXEzNFk3LTd1V2h4RjdseWNaNXlUQnJBOG90OVFFYmltNXJLOW1zZmd5cHNmNVl4NFNKclA4LVZyOVJ5RFc2aDNsVjVtaml5Vjh6Q2l2aFFrRVVuMjR6NE1WWm5NV1VzV0kyeU8tOWdPV25McWJ4SVVZX2QtTzVhMmVWb1JVTDRfRkF5bDZSNk9XOHNxZmhhdUE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AZ-06",
  "history": [
   {
@@ -193,6 +209,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-01",
    "c": -2,
    "p": null
   }

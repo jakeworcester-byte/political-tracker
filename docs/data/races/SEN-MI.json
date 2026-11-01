@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Split Ticket"
   }
  },
@@ -417,12 +417,13 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "El-Sayed Clashes With Former Primary Rival Who Demanded His Apology",
-   "url": "https://www.nytimes.com/2026/10/30/us/politics/el-sayed-stevens-michigan-senate-event.html",
-   "summary": "Dr. Abdul El-Sayed and Representative Haley Stevens traded sharply critical comments Friday, escalating intraparty tensions in Michigan’s pivotal Senate race.",
-   "relevant": true
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Democratic Discord Intensifies in Michigan Senate Race",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YR1owcUlLb3d1ajhFeWJacmU2aXAwV1g2Uk9aUjhtNFFNSlRSMXFxR2RCaWlIUWZ5M0w2M2kwODVndGNuSFdUangydkM0b0p5WERGOFY5QjZtSzNnYnhZTFd5NW1yZ2d6amJwMk9sdll6ZXdQeWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-10-31",
@@ -433,7 +434,7 @@
    "type": "reporting",
    "source": "CBS News",
    "lean": "unrated",
-   "title": "Abdul El-Sayed and Haley Stevens feud ahead of key Michigan Senate race",
+   "title": "Abdul El-Sayed campaign asks Haley Stevens not to attend final campaign events for Michigan Senate",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMjg0TUdvRmN5czZvMmdCV2tTc1hIcU1vSjZEUnNJbmlCOVp0VnFRak5DU1pfTk9nc0R5c3hkOWo3STJjLXdQS3B2SldvM1Vfb0s4NzZoVTh0MWpJbGFFWWw3UVc2c04tdExLT2pFWDQ3WE5lV3dxbEdSUmhKSWlEc2twMDBtQQ?oc=5",
    "summary": "",
    "relevant": true,
@@ -446,10 +447,10 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "CNN",
+   "source": "MLive.com",
    "lean": "unrated",
-   "title": "Michigan Democratic unity teeters as Abdul El-Sayed tells primary rival to stay away from his events",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd2ZFSG9KakpCX25QYW5nS09DNFVGcHhRMHhpNWFvUV9xUEk5QWhLbmxTekhQUG9TcUduT3FiSHlQbXNwUlVRR1U2cnZrSU12RzlQZUlvanZ0VVJHNjhPOV9FMkRPN09sRFFiRkY5WXhNWUF5c21sUTBKSXlHRDlMNQ?oc=5",
+   "title": "Michigan Senate race: Where Abdul El-Sayed and Mike Rogers stand on healthcare, housing and jobs",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX3p2elBJeWdaNUcyS2R4OE9vLW5VTjdNSTZtYTBfT2dJUmg3MXdiVWptRVZwM0VBOTVWU01pMGRZQXRJejBTZ0lUMzV3a3p2RC1mcTFNV3I2VU5qMHdqMm5yTk1uRkxnR0N2dVRqNklfNXRoM3RTRGQ0SGFrMDFsNDFKRElESXVnUGlXQndmVEtFeXFFeTdDUFBqRGI0eGN0MjZyUm8zTXFRMXcxV21iektMd294T3BfRE9tQ2FMN2R2Q01ldlNxOWFFRFM2RGRTZGRGRg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -461,10 +462,10 @@
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "The Times",
+   "source": "NBC News",
    "lean": "unrated",
-   "title": "Michigan Senate race polls: who will win the 2026 election?",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc2Fxd0pESXZIMXpYcW5RNGtCYUhIUW9BZ2JXb2hfUTdiSjRwX3FiWXVXeE1nVXJHRVk2SmVUSGZLQThHN2xrWm9PZzdvNG1sUWd1YkxTbjFtVHFpeGpUS3FNNkRRMWJJY0F0VDhtcGdZM0hQTGdpTzRhVERwN2tKeXR6MkVQczdWSkhZRzQ2cVVpb0NGV2tVV2FuaWNKWk1qNGQzZHp5UzdqLTJhdEtZNFNXbDlhODB1eURYdFJwVQ?oc=5",
+   "title": "Anti-Muslim rhetoric crescendos at the end of the heated Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlFURjhwcXA4N1N2VTYzdUFfNTRwMWRHWXJzTjBlMnU5V2VNYmxKSkNaR25XX1JweGtaRGQ1SFhYWWxkeFowb0FIRmJxLVdVZVZkOEs3TkIyTUNZM1VSdjVOVEZEZVJzTGh4N3FpWUppOVVKZ3p1YlZYTUl4Z3dWaldBTl9SLXdpOTZRNWY2eGZIN0hjRUV1N19EV3ZJbDd4SzFrcnpycF9UeV9GWFRaTmVBWWpaYjFqRkpsVkx3?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -617,6 +618,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": -2,
+   "p": -4.0
+  },
+  {
+   "date": "2026-11-01",
    "c": -2,
    "p": -4.0
   }

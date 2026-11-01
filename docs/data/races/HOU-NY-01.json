@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,15 +51,15 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Lean R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -75,10 +75,10 @@
  "key": "HOU-NY-01",
  "name": "NY-01",
  "incumbent_note": "",
- "consensus_score": 2,
- "consensus": "Lean R",
+ "consensus_score": 3,
+ "consensus": "Likely R",
  "disagreement": false,
- "tracked": true,
+ "tracked": false,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 0,
  "candidates": {
@@ -87,24 +87,8 @@
  },
  "poll": null,
  "raw_poll_count": 0,
- "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-30",
-   "race": "HOU-NY-01",
-   "races": [
-    "HOU-NY-01"
-   ],
-   "type": "reporting",
-   "source": "News12 | Long Island",
-   "lean": "unrated",
-   "title": "Lalota Gallant Offer Contrasting Visions In Race For New Yorks 1st Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdDIyV0NYbUtUcHc2V3NjWTktSl9oZy1ZeWpFOS1KVGJlRHE3Qi1uNVM1bzVjWmVKR3Y5MTA3d3otTlFyNUluSjFaR21pc2dVTWsyTmNES3k5NW9DLV9SNmkySG9rY0k1dk9ObEkydkxyNzNXbWNPRGZYbWEtanBOTk5xYWpQTTlSTGhiVVgxNnpOeDJlUVljRHN5emJoRHhGcWlmaF80TUtrdFFJeGNXYlNoaS1jVV9RY05oZUNEcW5kSlNHbXFKdHRLRGtqSWx1RjFRTUlodklVcUp3QTZsZW5GdWF6TjQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "trend": "Toward R",
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-01",
  "history": [
   {
@@ -210,6 +194,11 @@
   {
    "date": "2026-10-31",
    "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-01",
+   "c": 3,
    "p": null
   }
  ]

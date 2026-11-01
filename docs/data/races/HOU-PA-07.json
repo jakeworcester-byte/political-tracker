@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -159,7 +159,23 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-10-29",
+   "race": "HOU-PA-07",
+   "races": [
+    "HOU-PA-07"
+   ],
+   "type": "reporting",
+   "source": "ABC27",
+   "lean": "unrated",
+   "title": "Democrat Bob Brooks leads incumbent Republican Ryan Mackenzie in Pennsylvania’s 7th District",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaFVrUGJOc0FfODNtSGg0ZmZsTGdDVWVmaUdXZjB0YnNnUUlZMjlha1MtYlJETzRJczl0ZS1nUXpEdHk3ZVhQRG5JVkplaUZNVy1NZU11S25IYklqVnBVcmdXd2xiRC1vWERRTENPYUZLd1AxemJfU3Nrc2NLVGlSbGpsaDZEUWdVMjE0X01FOURYZGNGN0JwOFFCekdsMVQ5akRmeGhCU0lZRXU1TmpxVGlPTHhydVpPS2QwNGlSWHZMZEpWZmJZNmlEdkQxOVFzU2fSAdcBQVVfeXFMT2hIdDVtYWdJUXNuMkpzZEpHS0FvZVBpTTJrTHF1RzRFRnB2Zmk4UlNHbzVGWV8xcElJWGF5RzducFlIdFhPZzdZdTlwUFZQMGJBMi1qWUJKVWR1c050eEZ5YS1yUFphRWZQeEdmTHdXcWxfVkNnamhmWHNUV3VYMmhlQ0lxaFM5TjlhU0g0aFp5NlZTRG1mcTA0M05aRXVuRWNBNS1jMmtzRFpCQ21EcHpISjY0c0N0T1Q2amhXSjFRX3U3STJ3Zlk1NDJfRllHckhwRzQ2cWs?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-07",
  "history": [
   {
@@ -264,6 +280,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": -2,
+   "p": -5.5
+  },
+  {
+   "date": "2026-11-01",
    "c": -2,
    "p": -5.5
   }

@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -141,6 +141,21 @@
  "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-31",
+   "race": "HOU-VA-05",
+   "races": [
+    "HOU-VA-05"
+   ],
+   "type": "reporting",
+   "source": "WSET",
+   "lean": "unrated",
+   "title": "Beer prices enter Virginia 5th District race as Perriello blasts aluminum tariffs",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcHdtZ2xZVUtoQWJoWmlOZEhmQVJxYTZHUDRURWRUZGFtck1MY3BMaHdKcDdLd1hPZXRjUjEySElrQ1BCTFBiQ0d2cGs0T1FQREZoZENWdF9RYlptX2tWUGJMVXdIaVdxRF9EWDgyZHRENE5qckxZYTdtUnhrbGpHNzZTSllEZV94Q0hwQ3dkWkMyWnpzWDZUc3hPYzI3YnhZcUxTMVVnOXpfSUNIRl9mZkh3TWpwNzQyT3hxeHpVZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-30",
    "race": "HOU-VA-05",
@@ -242,21 +257,6 @@
    "lean": "unrated",
    "title": "Perriello, McGuire make their pitches to voters ahead of hotly contested race for Virginia’s 5th Congressional District",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GOW8tREtFaHF6RjNfdVlERDNQdmQtWm94SUdQd0hSZ0hZLXRrV1habXR0QzVwZjEzN2lrbUxLOHFoWTRnNl9YNEg2NkN1SzZka3dQMFZnOXVwS3ZOdU0wdHQtSzFPZ3JMaTFObFd1bTg3LXlm?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-27",
-   "race": "HOU-VA-05",
-   "races": [
-    "HOU-VA-05"
-   ],
-   "type": "reporting",
-   "source": "WSLS",
-   "lean": "unrated",
-   "title": "One-on-One: John McGuire talks vision for Virginia's 5th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXd3MjF1MXRtelMzWUVSZ0VKbldYLXplMTB0VGZqenBWc1AxU1hOWWk2c20ySXBsWjNYVHF0X25Yd2pEd1hhZnJNb1FWaWF2d3N4N0RJZUVXWjRqX3h0T3AzbG5hUFZTWkJnSVFXMWs2UThTOGgwaGtzak9rOTRUd1d5b3FoUUZTdndIQlV2Skw5MmNtcVExVkVqZ2lqbHRlWTR3TldycFNROU1kaFBnTlZ6cDFya0t4UXJqMVJB?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -366,6 +366,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 2,
+   "p": 5.0
+  },
+  {
+   "date": "2026-11-01",
    "c": 2,
    "p": 5.0
   }

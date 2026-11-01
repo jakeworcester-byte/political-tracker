@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-30",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -77,10 +77,10 @@
  "incumbent_note": "",
  "consensus_score": 0,
  "consensus": "Tossup",
- "disagreement": false,
+ "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 0,
+ "flip_votes": 1,
  "candidates": {
   "D": [
    "Zach Dembo"
@@ -187,7 +187,7 @@
    "source": "WKYT",
    "lean": "unrated",
    "title": "Alvarado, Dembo outline differing plans on costs, data centers in Kentucky’s 6th District",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVd3QVc5Ty1hNjEwRWRNTGlJeTVKeWkyNlB4X2NtcEdEZzF5cl9hMUJibExyWUNYd2lZRjdScGxKS0ZEdTdya0t1SWVfaS1aZkh2QkpxUEw2XzdNUnNIcXlRa2VoUnRkXzhneWlnZWhEWU5USWN5T3hDRmlhcERZaHVSMVlRY2psTzZyeUtkb0lnTE5BMW5SajFKTXRkMnJQUEU0bkdzcU1yV01MNlpSNFVUZw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVd3QVc5Ty1hNjEwRWRNTGlJeTVKeWkyNlB4X2NtcEdEZzF5cl9hMUJibExyWUNYd2lZRjdScGxKS0ZEdTdya0t1SWVfaS1aZkh2QkpxUEw2XzdNUnNIcXlRa2VoUnRkXzhneWlnZWhEWU5USWN5T3hDRmlhcERZaHVSMVlRY2psTzZyeUtkb0lnTE5BMW5SajFKTXRkMnJQUEU0bkdzcU1yV01MNlpSNFVUZ9IBxwFBVV95cUxQLUNHb1lOWFZ4UENlMTQ4VVN4aUxhaHJqczItLTI5Z2dyeE4tTExqRnhpVWljMGlmSTJ5RlZWak5BbjZmdUpRWkNiMjd4aFhRZFlKcElIaG5rTVVLT0VjNW1jOHRudDZjc0ZnVml5ZXBzZkdTYzRzbExkOWg3YTFYeXR2aHBMX3c5aUp5UGhVZ3AzcVhpYncyd0tyV2dEaF9ja3cwNFpNTzFQcjJvcDh3Z1o2NklScGp3ek16cmdCX05peldNR2xv?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -312,6 +312,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 0,
+   "p": -4.5
+  },
+  {
+   "date": "2026-11-01",
    "c": 0,
    "p": -4.5
   }

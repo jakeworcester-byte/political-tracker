@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -163,6 +163,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-10-30",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "Axios",
+   "lean": "unrated",
+   "title": "Gluesenkamp Perez faces a new kind of GOP challenge in Southwest Washington",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWmVWRWVLTlNBdWVOQm1MZ21kMy1yZjdVSDZLckNiOFRCUnc5M1NtamhvUDVaNE5La3ZoaDBHTEt6dzAwdi1tRnQtMUk2VDV1VTI4dWZDejFCb05TLUJvY1kxLUdSc1hHMHJaVExSa2NaNmU3eXFtUEhIZDdHTi03R3ljRHRBQk5CeWdmaTB2OFYxQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Washington 3rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV1JHbUpna085SzJrZHNQdllVa2p0dkJ5N0tTcTVFZkViQnBKaW40eDF5UEJmMmppekQ2TnUwdnZYODY3blR4ODJueVVHUVhhaWZ0cEQtWXRrN3RSWUFEQTNJTXhVYzFONG1aRnI4cFlBazQ5WVhJU3lkb1NuZEs2RHczQmdXUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-29",
    "race": "HOU-WA-03",
    "races": [
@@ -173,36 +203,6 @@
    "lean": "unrated",
    "title": "Congress, 3rd Congressional District | Voter Guide: 2026 Washington state general election",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3ZEbU1IWE5rV1gyRTBSVEtUU0gxVWk1ZUIwdE1MX1lBWFpJbU5zbHFYQnloTTdhMWNCYWt3eWNIcWdJcHRkS0lBRU5iLVVlbS1QMmxZQ3BGM3NmMmdIeWZhbzIwaWQ0WUVYZUNEemUycDZQUThkRkZ4bWxNMzJtZmY2dUZ3cTE0cXJNMkxDTnp4bDd3SDBBaGhPWmFVeVJDMkFlY2ZfVHZxOTlUNmc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-27",
-   "race": "HOU-WA-03",
-   "races": [
-    "HOU-WA-03"
-   ],
-   "type": "reporting",
-   "source": "Yahoo",
-   "lean": "unrated",
-   "title": "High-stakes race for Washington 3rd Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaWZvclRFN2VSMVVQamVZU0N4NS1DY0hscFBSN2xsdDRVMk93TkxTRGxERTRZLVlpcGUxVDhHVTI2X3Q1S1VWMmlncW43UkpJMDN0NVltQmpNVEZ2R1IwRWxpNDUyTXFweDdRRGthSGhlTlpsS2tsNGtQbER5Q3RTLVV0R1ZqLWc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-26",
-   "race": "HOU-WA-03",
-   "races": [
-    "HOU-WA-03"
-   ],
-   "type": "reporting",
-   "source": "AppleValleyNewsNow.com",
-   "lean": "unrated",
-   "title": "Previewing the race for Washington's 3rd congressional district in the upcoming 2026 midterms. #wapolitics",
-   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNVzNITlpCREYtRnoxR3daeGFjMG10bFUtaEJxbmdOeWRuWTdUbVZVWk1yZkpWWUNRQmFScU5BY0hBbWdIQWtzQUUxU3ZqSzBKUXFKa0NrT1d3SjVXQlNiSGFvQmNodmotTkMtSHhhbU9GSTJxN2F6WFZhY2wxQzlBbHc2NWhYSm9Qb3p4d2RiZTRNXzV3R0tGRGx0NlBfTXN3akwtR1EyYUJHekJaV3dIS3BQUjB4OFFhRkkzR1ZEQ3VkWWs4OHRmY2VmOGpFckNKQ3RuU3poTnM5bmhZWnZDMUo3WUdEVnV4SXpFQnhSVVk3M29oN3NzZ09lay14Z1JkTnc1bkdneUxFQlNwdjJ3aXNNdTBaRk1oc3pvRg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -312,6 +312,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": -2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-11-01",
    "c": -2,
    "p": -1.0
   }

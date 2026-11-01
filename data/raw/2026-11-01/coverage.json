@@ -1,0 +1,236 @@
+{
+ "attempted": 25,
+ "succeeded": 25,
+ "failed": 0,
+ "failed_sources": [],
+ "items": [
+  {
+   "id": "wiki_senate_ratings",
+   "name": "Wikipedia 2026 Senate ratings table",
+   "ok": true,
+   "detail": "35 races, 11 forecasters",
+   "count": 35,
+   "status": 200,
+   "seconds": 0.87
+  },
+  {
+   "id": "wiki_house_ratings",
+   "name": "Wikipedia 2026 House ratings table",
+   "ok": true,
+   "detail": "146 races, 10 forecasters",
+   "count": 146,
+   "status": 200,
+   "seconds": 0.55
+  },
+  {
+   "id": "votehub_polls",
+   "name": "VoteHub polls API",
+   "ok": true,
+   "detail": "675 polls since 2026-07-04 (of 6044)",
+   "count": 675,
+   "status": 200,
+   "seconds": 7.43
+  },
+  {
+   "id": "wiki_generic_ballot",
+   "name": "Wikipedia generic ballot aggregates",
+   "ok": true,
+   "detail": "5 aggregators",
+   "count": 5,
+   "status": 200,
+   "seconds": 0.73
+  },
+  {
+   "id": "polymarket",
+   "name": "Polymarket (Gamma API)",
+   "ok": true,
+   "detail": "3/3 events",
+   "count": 3,
+   "status": null,
+   "seconds": 0.38
+  },
+  {
+   "id": "kalshi",
+   "name": "Kalshi (public market API)",
+   "ok": true,
+   "detail": "0 priced markets (optional source, no priced markets today)",
+   "count": 0,
+   "status": null,
+   "seconds": 0.59
+  },
+  {
+   "id": "nyt_politics",
+   "name": "New York Times Politics",
+   "ok": true,
+   "detail": "11 relevant of 20 in last 3d",
+   "count": 11,
+   "status": 200,
+   "seconds": 0.18
+  },
+  {
+   "id": "wsj_politics",
+   "name": "Wall Street Journal Politics",
+   "ok": true,
+   "detail": "14 relevant of 21 in last 3d",
+   "count": 14,
+   "status": 200,
+   "seconds": 0.12
+  },
+  {
+   "id": "npr_politics",
+   "name": "NPR Politics",
+   "ok": true,
+   "detail": "8 relevant of 10 in last 3d",
+   "count": 8,
+   "status": 200,
+   "seconds": 0.27
+  },
+  {
+   "id": "national_review",
+   "name": "National Review",
+   "ok": true,
+   "detail": "4 relevant of 20 in last 3d",
+   "count": 4,
+   "status": 200,
+   "seconds": 0.17
+  },
+  {
+   "id": "the_dispatch",
+   "name": "The Dispatch",
+   "ok": true,
+   "detail": "3 relevant of 10 in last 3d",
+   "count": 3,
+   "status": 200,
+   "seconds": 0.42
+  },
+  {
+   "id": "silver_bulletin",
+   "name": "Silver Bulletin",
+   "ok": true,
+   "detail": "9 relevant of 20 in last 3d",
+   "count": 9,
+   "status": 200,
+   "seconds": 0.22
+  },
+  {
+   "id": "split_ticket",
+   "name": "Split Ticket",
+   "ok": true,
+   "detail": "0 relevant of 317 in last 3d",
+   "count": 0,
+   "status": 200,
+   "seconds": 0.46
+  },
+  {
+   "id": "pod_save_america",
+   "name": "Pod Save America",
+   "ok": true,
+   "detail": "3 relevant of 1200 in last 7d",
+   "count": 3,
+   "status": 200,
+   "seconds": 0.32
+  },
+  {
+   "id": "ezra_klein",
+   "name": "The Ezra Klein Show",
+   "ok": true,
+   "detail": "2 relevant of 5 in last 7d",
+   "count": 2,
+   "status": 200,
+   "seconds": 0.18
+  },
+  {
+   "id": "the_daily",
+   "name": "The Daily (NYT)",
+   "ok": true,
+   "detail": "5 relevant of 69 in last 7d",
+   "count": 5,
+   "status": 200,
+   "seconds": 0.18
+  },
+  {
+   "id": "npr_politics_podcast",
+   "name": "The NPR Politics Podcast",
+   "ok": true,
+   "detail": "5 relevant of 1750 in last 7d",
+   "count": 5,
+   "status": 200,
+   "seconds": 0.77
+  },
+  {
+   "id": "gd_politics",
+   "name": "GD Politics (Galen Druke)",
+   "ok": true,
+   "detail": "4 relevant of 168 in last 7d",
+   "count": 4,
+   "status": 200,
+   "seconds": 0.21
+  },
+  {
+   "id": "hacks_on_tap",
+   "name": "Hacks on Tap",
+   "ok": true,
+   "detail": "2 relevant of 401 in last 7d",
+   "count": 2,
+   "status": 200,
+   "seconds": 0.36
+  },
+  {
+   "id": "ruthless",
+   "name": "Ruthless",
+   "ok": true,
+   "detail": "4 relevant of 757 in last 7d",
+   "count": 4,
+   "status": 200,
+   "seconds": 0.39
+  },
+  {
+   "id": "the_remnant",
+   "name": "The Remnant (The Dispatch)",
+   "ok": true,
+   "detail": "3 relevant of 1191 in last 7d",
+   "count": 3,
+   "status": 200,
+   "seconds": 0.57
+  },
+  {
+   "id": "megyn_kelly",
+   "name": "The Megyn Kelly Show",
+   "ok": true,
+   "detail": "12 relevant of 2010 in last 7d",
+   "count": 12,
+   "status": 200,
+   "seconds": 1.2
+  },
+  {
+   "id": "honestly",
+   "name": "Honestly with Bari Weiss",
+   "ok": true,
+   "detail": "0 relevant of 362 in last 7d",
+   "count": 0,
+   "status": 200,
+   "seconds": 0.37
+  },
+  {
+   "id": "politics_war_room",
+   "name": "Politics War Room",
+   "ok": true,
+   "detail": "1 relevant of 395 in last 7d",
+   "count": 1,
+   "status": 200,
+   "seconds": 0.3
+  },
+  {
+   "id": "google_news",
+   "name": "Google News race searches",
+   "ok": true,
+   "detail": "61 races + 3 national queries, 426 items",
+   "count": 426,
+   "status": null,
+   "seconds": 65.49
+  }
+ ],
+ "run_date": "2026-11-01",
+ "started_at": "2026-11-01T11:08:14.344131+00:00",
+ "finished_at": "2026-11-01T11:09:43.082520+00:00"
+}
