@@ -217,15 +217,18 @@ def parse_senate(html):
         if len(t["rows"]) < 3:
             continue
         grid = expand(t)
-        if not grid or not grid[0] or not grid[0][0].lower().startswith("constituency"):
+        # 2026 pre-election tables start "Constituency"; the 2024 results tables start "State".
+        if not grid or not grid[0] or not grid[0][0].lower().startswith(("constituency", "state")):
             continue
         header = grid[1]
-        ci_status = find_col(header, "results", "status")
+        if not any("incumbent" in h.lower() or "senator" in h.lower() for h in grid[0] + header):
+            continue  # e.g. the filing-deadline table, which also starts with "State"
+        ci_status = find_col(header, "result", "status")  # "Results" (2026) or "Result" (2024)
         ci_cand = find_col(header, "candidates")
         ci_party = find_col(header, "party")
         if ci_status is None or ci_cand is None:
             continue
-        special_table = "status" in header[ci_status].lower() and "results" not in header[ci_status].lower()
+        special_table = "status" in header[ci_status].lower() and "result" not in header[ci_status].lower()
         for row in grid[2:]:
             if len(row) <= max(ci_status, ci_cand):
                 continue

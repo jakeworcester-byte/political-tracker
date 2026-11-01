@@ -16,6 +16,7 @@ scripts/analyze.py      raw -> docs/data/latest.json, history.json, races/*.json
 scripts/early_vote.py   NC report + raw ballot file, UF Election Lab CSV, routine research -> docs/data/early_vote.json + digest section
 scripts/publish.py      data/briefs/<date>[-pm].md -> docs/data/latest.json brief + docs/data/briefs/
 scripts/results.py      post-election: Wikipedia results tables + news leads -> docs/data/results.json, data/results/, digest section
+scripts/check_results.py post-election: parser health check (2024 regression + live 2026 pages)
 scripts/scorecard.py    post-election: how forecasters, polls, markets did -> docs/data/scorecard.json + digest block
 config/postelection.json post-election switch date, evening-edition window, results sources, news queries
 data/raw/<date>/        raw pulls, kept for diagnosis

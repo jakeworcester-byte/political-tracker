@@ -126,14 +126,15 @@ git checkout main && git pull --ff-only origin main
 # am edition only, best-effort (the ratings article may change after the election; exit 2 is not a failure now):
 python3 scripts/collect.py || true
 python3 scripts/analyze.py || true
-# both editions, the core step (about 3 minutes; never exits non-zero):
+# both editions: parser health check against the live pages (about 10 seconds), then the core step (about 3 minutes; never exits non-zero):
+python3 scripts/check_results.py --skip-2024 || true
 python3 scripts/results.py --edition am      # or --edition pm
 python3 scripts/scorecard.py
 ```
 
 `results.py` reads the House and Senate results tables on Wikipedia (editors mark a race called when AP or the networks call it), compares them with the last snapshot to find new calls, uses the frozen pre-election ratings (the last run before Election Day) to separate competitive races from safe seats, searches Google News for every competitive uncalled race and for national leads (chamber calls, counting, recounts and certification, legal and federal action, exit polls), writes `docs/data/results.json` for the site's Results tab, and appends a "Results (post-election)" section to `data/bundle/<today>.md`. `scorecard.py` appends a "Scorecard" block. Skip `early_vote.py`; early voting is over.
 
-If `results.py` reports that a results table failed to parse, the run still continues: write the update from the news leads, say so plainly in the Coverage note, and list what could not be checked.
+If `check_results.py` prints NEEDS ATTENTION (rows missing, a table not recognized, a winner mark not counted as called), do not spend the run rewriting the parser: write the update with the affected races taken from news leads and verification, name the problem in the Coverage note, and leave the fix for an attended session. If `results.py` reports that a results table failed to parse, the run still continues: write the update from the news leads, say so plainly in the Coverage note, and list what could not be checked.
 
 ### P2. Verify (about 10 to 15 minutes; WebSearch and WebFetch if available, at most about 30 fetches)
 
