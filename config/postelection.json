@@ -1,0 +1,22 @@
+{
+  "_comment": "Post-election mode. From post_election_from (America/Chicago date) the routine runs scripts/results.py and writes election updates instead of pre-election briefs. Pre-election ratings are frozen at the last raw snapshot before that date.",
+  "post_election_from": "2026-11-04",
+  "evening_editions_through": "2026-11-06",
+  "sources": {
+    "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+    "senate": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+  },
+  "competitive_max_abs_score": 3,
+  "max_race_queries": 150,
+  "news_lookback_days": 3,
+  "race_query_suffix": "election results",
+  "close_margin_points": [0.5, 1.0],
+  "upset_watch_points": 5,
+  "national_queries": {
+    "chamber_calls": ["House majority called 2026 midterm", "Senate control called 2026 midterm", "AP race call 2026 midterm"],
+    "uncalled_and_counting": ["2026 midterm races too close to call", "uncalled House races 2026 ballots still being counted"],
+    "recounts_and_certification": ["2026 election recount", "2026 election certification county board", "ranked choice tabulation 2026 Maine Alaska"],
+    "legal_and_federal": ["2026 election lawsuit ballots court", "Justice Department election 2026 ballots", "Alaska Senate ballots lawsuit ruling", "California ballots noncitizen lawsuit ruling"],
+    "exit_polls": ["2026 midterm exit poll", "AP VoteCast 2026 midterm", "2026 midterm voters exit poll economy"]
+  }
+}
