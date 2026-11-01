@@ -21,27 +21,27 @@
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-29",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-01",
    "name": "RealClearPolling"
   }
  },
@@ -75,12 +75,12 @@
  "key": "HOU-MI-10",
  "name": "MI-10",
  "incumbent_note": "",
- "consensus_score": -2,
- "consensus": "Lean D",
+ "consensus_score": 0,
+ "consensus": "Tossup",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 6,
+ "flip_votes": 5,
  "candidates": {
   "D": [
    "Christina Hines"
@@ -141,7 +141,7 @@
   ]
  },
  "raw_poll_count": 1,
- "trend": "Stable",
+ "trend": "Toward R",
  "signals": [
   {
    "date": "2026-10-28",
@@ -279,6 +279,11 @@
   {
    "date": "2026-10-31",
    "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-11-01",
+   "c": 0,
    "p": 0.0
   }
  ]

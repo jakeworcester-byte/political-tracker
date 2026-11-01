@@ -9,21 +9,21 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-30",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Split Ticket"
   }
  },
@@ -81,12 +81,12 @@
  "key": "SEN-ME",
  "name": "Maine Senate",
  "incumbent_note": "",
- "consensus_score": 0,
- "consensus": "Tossup",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 5,
+ "flip_votes": 6,
  "candidates": {
   "D": [
    "Troy Jackson"
@@ -354,24 +354,10 @@
   ]
  },
  "raw_poll_count": 18,
- "trend": "Stable",
+ "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-30",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "podcast",
-   "source": "The Megyn Kelly Show",
-   "lean": "right",
-   "title": "Shock New Discovery Related to Meghan Markle's Father, the \"Evil\" Netflix Cornell Doc, and Dems' THIRST to Jail Elon Musk, with Mike Solana | Ep. 1431",
-   "url": "https://www.siriusxm.com",
-   "summary": "Megyn Kelly discusses the signs we're getting more bad news for Republicans in the midterm elections, Susan Collins’ new ad and the Maine “working class” battle with Troy Jackson, what to expect in the midterm elections with Senate races in Ohio, Texas, Alaska, Kansas, Iowa, Michigan, and more. Then",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-30",
+   "date": "2026-10-31",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
@@ -380,37 +366,7 @@
    "source": "The Times",
    "lean": "unrated",
    "title": "Maine Senate race polls: who will win the 2026 election?",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMG1GdTl2WV9pSVp6UUVPUTdnWWRpUlVxWks5MUFGUXVxZXZqS29zbUx0UXJYNWgycEJwckZhUkFVU0s2bVBUY2puQlFnai1ReElHdjk4S2NtUWZRWTZLY1VFVnVqdndSLU9BWW1ZbGYySUJmNjBzUnpsT21yZm51ZDVWNndKcUtwcnFpN0tocl9TZ1ktV056aU9Vb0pxcjlha01JTi1RV2NURVAyQ2Zab0l4QlljSDZIZ3FKMUp3bkc5WVJWNzlR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "Steve Kornacki breaks down Maine Senate race",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORVhOX0drUEllem5CX2Rsd0RuaEVMRFpRRnVuMGhLdnZPY2NrcldmM29tWnNqaGZydTlYRWM4SnA5a1VNQ1kwX2VpdUJZLXlrSFUwQzA1NGhfUmdoUWZpaHQzcTZsSTBrbFdlMUtTSzJPMkFzTXo5dk8wQTZGUFM2X2duSWw4b0IzdWkxUVlPSk0?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "The Washington Post",
-   "lean": "unrated",
-   "title": "Opinion | Collins is the clear choice for Maine. Will it matter?",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbFl0Nzg4MnFka3dtSnpkWURmWDhCNUd5eEJ1anQ1M25mb2hoQVg3S0RVTFB0OERjUl9HUDBCT2c3TWdydURQbWZrbDNWNURYSUpGX1hBTkZ4MURwZ05fdFhYbllnSmVoNGRldFpKR2NnWUpGWE5wa0FtOXBsRms1b19FOWlvRENRbjNsV1A2V0NDV0R3b0JrbjgwVGdkNVV0R3c?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZEZYTEVkdVVlNVVUaGVZUGRaUml1czJycF9sWUhPRUs2ZlB2WGhDOW93VGRPZ2dZWUs3aDlsN3FNQ1JjT1NXNk5sQlQ5UTJHZ2ZvMlpjWjZCcGFPd3BVUnRjVzhtSy1RWXFNYnNhc3UwMGQ2Y1FhSnNtQ0x5YVN0Yzd5MDN2MVItRDc0NEstVzd5NnVlaTNYUFNWYzhndmY2Rk1QaW8tMWhsdnRMb0FZVWt3V1J3Zkx2S1AyVzNGem1PREp6cGRZ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -431,16 +387,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "SEN-ME",
    "races": [
     "SEN-ME"
    ],
    "type": "reporting",
-   "source": "WABI",
+   "source": "NBC Boston",
    "lean": "unrated",
-   "title": "Collins ad featuring retired broadcaster draws criticism in Maine Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUTJhbmI3WHVxdzBrYjJOZVpPRkdDS3lMSXdjSFNweTU2QUo1Zy1FUldHbFVQdEVSZzFqTTFCM3Ezb2xpZUhxVVBNMFhkam05S0JLNzFPUFlpU2RWV0ZYUXNUNWotNWdOMGF4REFJSTF4TFdqUWhLZXFtbGhfbUI1akNLZ0xnQWYyeFQ1Wm9HenhWbFBmWmhiOGptczA5cUw1V2RfRHV1ZWpwd9IBvgFBVV95cUxNeVhqX2wybWRWMXd2SllrVm5RZERXdzU2TENQSVZiMHd5SVRpY1Nic1hKNm5pMlFQWnc3MF9QQnU0dGN4aW10YXJYekdZcG9lcXhKRXN5VW5DUktiQ1NzeHBOejg2Zm1kV0dZSDJ4cU5DRmxpUGY1ZlVqbEZIQjNSdWJlZEE0QjNMWmlUY1ZqbDNQeHQ5ai1naElkdkJ1UUNKUEdqNVQtaUlRZjd6TmN4RXZEV3loSmhmMEhYQktn?oc=5",
+   "title": "As Election Day approaches, contentious Maine Senate race enters final stretch",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT2Vnb2VsZDQ5YTlmVVlITGdZaFc0Qll1OUFocTlzMEppUmpyTjBXZGRibkpYSGNiSEtHdXEta196ZFgwUnBqS1VTRU1ORmxTMlU5ZVFqdXg1alRVTlJYeVg5NHJmZVhjaDk2TlNVQUFxYVJkZl9FRW10ZEVMVmtNX3hqb2pjRUVXLV9wOTBEeWRiNzd0MzMzRU9pTjhyNTZnT2dYWXJLeTBHaUZudXI0bjdkczR5Z1hKMmxpVVRLQXlTaDBY0gHMAUFVX3lxTE1EeTBReFMydnJlLVlMSVZpMVFTbDZaX2VvTXlEdHFQRWd0cG81TWhyZmlGempoU1RZT2FNRmo3ZXV2V1B5anJiS1ZnaEhRWk4wTzRYeDV6QktpRDF4WTQ5MVV2RWZTOXo2dVpVcWRmT0hobGRyOWxDUHF4WjJKUW0wZmJxR1V6VWRzZHFReEFXZDZDSXhPM1gwb1puLXgwX0RrLW9TdGw3NFBIMVZTb05EVTY0NEFHLWlyMzJFX242b0pGX1UxNzRYOFpsaw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -551,6 +507,11 @@
   {
    "date": "2026-10-31",
    "c": 0,
+   "p": -3.3
+  },
+  {
+   "date": "2026-11-01",
+   "c": -2,
    "p": -3.3
   }
  ]

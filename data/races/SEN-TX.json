@@ -11,19 +11,19 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Split Ticket"
   }
  },
@@ -389,21 +389,6 @@
    "url": "https://www.nytimes.com/2026/10/31/us/politics/talarico-texas.html",
    "summary": "The Democratic candidate for Senate has led in polls. But because it’s Texas, he remains the underdog.",
    "relevant": true
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "KSAT",
-   "lean": "unrated",
-   "title": "Texas U.S. Senate election results: Ken Paxton vs. James Talarico in Nov. 3, 2026, midterms",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTlhUaEdvam0xVFNvMlBXNnZoSnBMVUUxQXJoMWtGNE5LT3dNUGx4WmVoOWMzVVlKdVJlaGIxSGl0YkpVamFRVDFmWEhBWkVpVUlGMUxzOE5yajF4ZWRIOFNjbWNoYl91MGVfbjRaZ3h0TnlfU3gydUZUVDc5S0xNMU42alUxUXhMVV9yak5XclFUbzY2MG1zZ0VkRXppV01HaXhNLWF6UzNEV3lyMzRSRUtyZVJZRnpKcm5RcDhtaDJZNFFmdGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TX",
@@ -510,6 +495,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 0,
+   "p": -2.7
+  },
+  {
+   "date": "2026-11-01",
    "c": 0,
    "p": -2.7
   }

@@ -9,21 +9,21 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Lean R",
+   "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-10-31",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,13 +41,13 @@
   "nbc": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "NBC News"
   },
   "rcp": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-28",
+   "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-10-31",
    "name": "Split Ticket"
   }
  },
@@ -272,10 +272,40 @@
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "Yahoo",
    "lean": "unrated",
-   "title": "In Nebraska Senate Race, the Independent May Have an Identity Problem",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLUlyT0VBalo1QU1FZ0l1ZHlYcUdjSUpSbnlDYUhRWjhRWDBDOEVRLU5IUlMxOUJxVkJYR3Ntd0thNDdNMjBRMmlRWVNVdDRtZUNLQVoxUzBJMVl1VmlkUmNEUjhVZGFnVFZXblVwdFlodDRadFIwRkR6ZmZjZmt0dDRUTVdLQQ?oc=5",
+   "title": "NY Times Poll: Ricketts, Pillen With Commanding Leads in Nebraska",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEdVUm5CSW1oUG90TVoxcjJvMDRMajBoMFBhbE8wNHRfRUgtdE8xdHQzbWVEaGdralBWWU9zSVpBRGhpLUtNUExyMU45MGNnSUNtMUt5bENRUW85Vm5nT3JQNDJmbnA0VDdtQjFEQ1IwazBiRVZJakt3YUtpZVBVcGJZYUNXQXU2eHp2bTZGVDNYa0NZ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Ricketts leads independent candidate Osborn by 6 points in latest Nebraska Senate poll",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTdVUlVmdkQ4ZlZ5UTNvLVRVM3l1dDJob1BvenZXd2NFMWNVLTBNdGNJWTRJMUk0bW1CV3Q5SXctN2ZuS1pCUzctTzFLTHlGanBVRGtkd0N5cGwtTnVxSVZIQm1Jd2FGNFBjTjhRMzc1NkV4RkJCdC1MSFRmeFhndWhRaUnSAYoBQVVfeXFMTURmWGJmV1FBMGc2NDlJbnVkemxCVjFsb3B0NUQzSDBiaGdnTzBvcldtMWdEVG4yVl9mVUJpdmpvN2dVclRtV2pJQ3lFcGoxWEpNLTBUdUNNY0hzcm12VGMwZ1FhNjVLdFRMY3N4cVR3VUkxVmxyTXNRWjUxTkNKalZDZ25RUEFMRlRR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Bloomberg.com",
+   "lean": "unrated",
+   "title": "Florida, Nebraska Senate Races Shift Left in Midterm Homestretch",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUmRVS2lsU01HUUIwUC1OdXlDSmZBR1p0eFBvaWs0dm5QbzB1eUZEcUN6NFBCUERrcTM3MEhYNnQ2ZmluV0dmVFlwZXhFY3pIR2NqTHNzdWZpa19Md3gtVHBrNVJxNnprdXJhRWVwblpSNXJnbXlNZVNtcmZXd3lNMFF4NjlBVUxqdm51bkRDNm4wNGM3SmZZWXdUdHAxMjkyTEJPRGZDbTFyUTdZcEtrSGtYRXY?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -291,21 +321,6 @@
    "lean": "unrated",
    "title": "Pete Ricketts touts experience, record in Nebraska U.S. Senate reelection bid",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbEIzQUZvS0tIdF9NLXpUelprNU9vLW0xQzZmU0hoQVQ4TE1rTzRFYXlkLVhxV1FERWNodjVyZll5djJkNUJaNlRtOUpwWGRuYUhZMzMzaFBlZ3FIbjYxei1sMnJMUlY1OFVMZFM4djNDdkQyV01VdmlIaGU3R2ppVkIwaDNyQ0ZFc2ZfYkY1aDlpUjE4dVZwZG5iMFFtMnhQXzR6SDU1MU01S2d3bTdOdklfNE1Cb213aU1oTkFmMA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-27",
-   "race": "SEN-NE",
-   "races": [
-    "SEN-NE"
-   ],
-   "type": "reporting",
-   "source": "Omaha World-Herald",
-   "lean": "unrated",
-   "title": "Groups use lesser-known names to boost Ricketts, Osborn in Nebraska Senate race - Omaha World-Herald",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU1hHSnhOZkdOeGNkclFZVTJkM1dqUDJzN0g5bExKR2FRZVpnTlFjOFNBVWVubk1KSzVLSzQ3ZXVFakxuVGRGMnFxb1ZlbTZieEc3eHR3WFduUVRMUEtBMWZlMVZQSDRwSE1RYkozSkpfdUczaWczLXV0bThTdVBNTEVfanZnVEQxQ0R4aEd5amlrTG1sRUstaFlPY2xDNkJwYWJYR0ltcU4zR0pHanp1WVZ4STJPYzNS?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -415,6 +430,11 @@
   },
   {
    "date": "2026-10-31",
+   "c": 2,
+   "p": 2.3
+  },
+  {
+   "date": "2026-11-01",
    "c": 2,
    "p": 2.3
   }
