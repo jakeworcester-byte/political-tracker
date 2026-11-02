@@ -9,27 +9,27 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-31",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
@@ -57,15 +57,15 @@
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-31",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -96,33 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -2.7,
-  "average_label": "D+2.7",
+  "average_margin": -2.9,
+  "average_label": "D+2.9",
   "n_polls": 17,
   "window_days": 21,
   "latest": {
-   "pollster": "ActiVote",
+   "pollster": "The New York Times/Siena University",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-22",
-   "end_date": "2026-10-28",
-   "sample_size": 400,
+   "start_date": "2026-10-27",
+   "end_date": "2026-11-01",
+   "sample_size": 1215,
    "population": "lv",
-   "margin": -4.2,
-   "margin_label": "D+4.2",
+   "margin": -7.0,
+   "margin_label": "D+7.0",
    "answers": [
     {
      "choice": "James Talarico",
-     "pct": 52.1
+     "pct": 50.0
     },
     {
      "choice": "Ken Paxton",
-     "pct": 47.9
+     "pct": 43.0
     }
    ],
-   "url": "https://www.activote.net/polls/2026/tx-u-s-senate/"
+   "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-tx-poll-toplines.html"
   },
   "polls": [
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-11-01",
+    "margin": -7.0,
+    "n": 1215,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-tx-poll-toplines.html",
+    "answers": [
+     {
+      "choice": "James Talarico",
+      "pct": 50.0
+     },
+     {
+      "choice": "Ken Paxton",
+      "pct": 43.0
+     }
+    ]
+   },
    {
     "pollster": "ActiVote",
     "end_date": "2026-10-28",
@@ -347,50 +366,12 @@
       "pct": 2.0
      }
     ]
-   },
-   {
-    "pollster": "Slingshot Strategies",
-    "end_date": "2026-10-18",
-    "margin": -4.0,
-    "n": 969,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://texaspublicopinionresearch.substack.com/p/october-poll-in-texas-general-election",
-    "answers": [
-     {
-      "choice": "James Talarico",
-      "pct": 51.0
-     },
-     {
-      "choice": "Ken Paxton",
-      "pct": 47.0
-     },
-     {
-      "choice": "Ted Brown",
-      "pct": 2.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 36,
+ "raw_poll_count": 37,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-31",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Talarico Makes Final Election Pitch to Texans: ‘You Are My Slingshot’",
-   "url": "https://www.nytimes.com/2026/10/31/us/politics/talarico-texas.html",
-   "summary": "The Democratic candidate for Senate has led in polls. But because it’s Texas, he remains the underdog.",
-   "relevant": true
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TX",
  "history": [
   {
@@ -502,6 +483,11 @@
    "date": "2026-11-01",
    "c": 0,
    "p": -2.7
+  },
+  {
+   "date": "2026-11-02",
+   "c": 0,
+   "p": -2.9
   }
  ]
 }

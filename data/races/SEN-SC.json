@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,17 +41,17 @@
   "nbc": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
    "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
    "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -239,6 +239,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-02",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "Nacionale",
+   "lean": "unrated",
+   "title": "South Carolina Senate race: Darline Graham, who replaced her late brother, in a close fight with Annie Andrews",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSEJ2WnRYUWxUNklhY0gzOUFLY1B2ZFhyVzRaS1o3M2RveGc2cDlOMjJLdmxGLXh6ZG43dHdkLVU0aDNmWWtnUi1ueHBMTkJmNklBdEhYMmhtVDZTT2c3bkxMQnhMNWRra1BHWXREYVpEYTE4ZGNydklKWEdaQWp1NEN6c0RJTXBPNERqaQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-01",
    "race": "SEN-SC",
    "races": [
@@ -253,16 +268,16 @@
    "relevant": true
   },
   {
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "NBC News",
+   "source": "Action Network",
    "lean": "unrated",
-   "title": "South Carolina Senate Primary Special Runoff Election 2026 Live Results: Darline Graham vs. Ralph Norman",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOallJcHA5VmNxQzFIV1ozV3pmN2VGV1N3UjJXRnRaLXNLeE1ycFBndnJRQ3h1QWM4em5maGhHeXA0U1VBczRjam5jZFo3blVQWFF6NDZTTnJ1eTg5Ukl3TDljTk9aV2pPRi1UNEYzbTBJbS1nWkJNdWpQcjZtbndUUy1wYTZGRVhzQzhvQ1FpbGJ0TTFYOFpMQXNSaWVyakJFRWc?oc=5",
+   "title": "South Carolina Senate Race & SC Governor Race 2026 Odds | Graham vs Andrews Polls + Kalshi & Polymarket South Carolina Senate Race Prediction (Novemeber Update)",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPc3ZBUzVpQUx5SlA3dlJHaUZmaTg0VGJZRnAtcXYyY1RFaWVqVnl5MDlpMVc0YkNielNJQ1dXOERZS0hzNmZBa2VjTVJZZHZZczBCUXp0aWtqU3NFbXNZT1dZck9QQzV0aUpmbFA0ckk3VUcwU0t4bHp1NHZBZ25GOWJ1TGZIeXk0Z0prWWZwcHZmWlJjMkpEV3lobkZJcXh4dFdibWY0ZXdkam9CeXA3NXpycndkZGsxdHBDNnNSSGducUxtdmwwR0dFWkRHdFBvZ2p2Tjd0N3lKOTBVaVR1dnhXRkxBUnFkakFGcG5KbmdsX3ROdXRsdENDYkdSc0hvWHNNb1cwSU1pR1E2WXNiVTRFYw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -313,16 +328,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-10-28",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "WCNC",
+   "source": "The Hill",
    "lean": "unrated",
-   "title": "South Carolina Senate race tied days before election, poll shows independent shift toward Democrat",
-   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQSkZoQkMxeUdFWS1QRUZacVlRc241ZDhjZ3IxZmFVVzNTZG5xQl9ObWdxVWRrS3gxUlR4TERuU1gteF9tWFVBbWJXWElmVzJQOWUzNDBYVjBENXVfX2FOY0J1aFpzT3FEVnlBbExtYm4wTDBqcktFYVNzSDRIVzUxMWpxbGVqdWtzQ0xKRHBsWHVfTFBMRzJ4bkJaallyOTBBalNOT1VVbGxNdHFjY0l4LXJrVmQ0bFZOZ2w2Y2tWOGh5SXc4M0Y1TnpJQTlDWnVNY2hYNnpfXzBNYTFBUk5fdU9FaGlOZ3VvMGp0b3RFOWZqeDh6RkY4RENoNktjOVRLWjlmcTZNdk5QSlZTQS1vVUg1UFI2bGRXNUsw?oc=5",
+   "title": "South Carolina Senate race deadlocked: Survey",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdk9ISy0weThzVGNtR3J0alcxNlBWelNjNGgzY2x6a1Z5cUVGRnpoaHVXTzRxM3Y4MElhUnk2VFFDU3Y1eksyekZFdml4QW9WeHE0am9mMXRGTmt4NGNueU9EUktLZjV0OXUxMHZpbllpek5zRld2ckk5c0o5bG9tYVY4Z1dfeUF3VFNZVlpHejJOcGVwMlJYdjdvN1BXZ2pwRzJlM0dGaGNEcmRIVEHSAbMBQVVfeXFMUFFOcFRRdXE1V0pOcmJjTkJkUDJycVlFRG5WUXZsMXVaN29rVEltOFlfaEVCcUdBVU14aGxGYTQ4WmpVQW5xTno2d2lIZjVBMmxBbjlBanhLZlNrSXZfQWwtMmV6c3dVTmdsMHkxb1o4TVIzSkhSRDBsZ2VxTnRSbmxfLV84R2JpYldHQXdod3Q5bzBJNVpMUWlYYi0zWkc5MnQxSzgtME16TVp0N3VXOTRxNUk?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -437,6 +452,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": 2,
+   "p": 2.5
+  },
+  {
+   "date": "2026-11-02",
    "c": 2,
    "p": 2.5
   }

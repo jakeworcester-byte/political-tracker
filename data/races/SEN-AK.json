@@ -9,27 +9,27 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-31",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
@@ -51,21 +51,21 @@
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Lean D",
-   "flip": true,
+   "rating": "Tossup",
+   "flip": false,
    "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-31",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-31",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -96,33 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -0.8,
-  "average_label": "D+0.8",
+  "average_margin": -1.7,
+  "average_label": "D+1.7",
   "n_polls": 3,
   "window_days": 21,
   "latest": {
-   "pollster": "Data for Progress",
+   "pollster": "The New York Times/Siena University",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-08",
-   "end_date": "2026-10-16",
-   "sample_size": 671,
+   "start_date": "2026-10-23",
+   "end_date": "2026-10-30",
+   "sample_size": 610,
    "population": "lv",
    "margin": -2.0,
    "margin_label": "D+2.0",
    "answers": [
     {
      "choice": "Mary Peltola",
-     "pct": 51.0
+     "pct": 48.0
     },
     {
      "choice": "Dan Sullivan",
-     "pct": 49.0
+     "pct": 46.0
     }
    ],
-   "url": "https://www.dataforprogress.org/blog/2026/10/20/every-statewide-race-in-alaska-is-close-as-7-in-10-voters-worry-about-affording-gas-and-food"
+   "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ak-poll-toplines.html"
   },
   "polls": [
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-10-30",
+    "margin": -2.0,
+    "n": 610,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ak-poll-toplines.html",
+    "answers": [
+     {
+      "choice": "Mary Peltola",
+      "pct": 48.0
+     },
+     {
+      "choice": "Dan Sullivan",
+      "pct": 46.0
+     }
+    ]
+   },
    {
     "pollster": "Data for Progress",
     "end_date": "2026-10-16",
@@ -258,41 +277,11 @@
    }
   ]
  },
- "raw_poll_count": 7,
+ "raw_poll_count": 8,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-01",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "BBC",
-   "lean": "unrated",
-   "title": "Alaska Senate candidate denies knowing about alleged plot to put 2 Dan Sullivans on ballot",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvRmt2RWxFTVQzd2FEV0stRlYxTm9lampRczlCME9ZQVh6SnZQd2Q1WGMydFo1SzZDMnVCNkVDQnAxdkdXYjRhaXBjSjBBTEtMd0hqdnIzV0lfSjg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-31",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "PBS",
-   "lean": "unrated",
-   "title": "FBI visits Dan J. Sullivan donor in candidate's hometown as Alaska Senate inquiry widens",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTHdnOVBqZFJvRVpzTVczOThXOVFhYzhwOTJBeVgycy1WaDBySGZkNDFudjl0QkFQNEIwWG9zeTJCUzlKWUFiUHhXbkZuM2g0XzlxQzZJLWVHLWJEN1VyWTA0ZlBuRHBCR1RJLTVkZnE2S0xfTldXS09JVEpNZklMODlneWJJLUM0U0Mwb1lzMndrTEVuMU1IcDc5Ul80OW9Pd2Fmc0FGUDBEMThEWVN5QVVmSDdyNHhPYThqUGVJNEdkUdIBxwFBVV95cUxPWGgtN2V1V3gwTHRiNG4zc005ejRCZGFyUzY5MFZfWXktalNmaWlDS1J2a25fR3AzY3JDUW9XNWo2YnZPdmUyYWNTSnE0UFBHTnlweWNiY2FlVzlRZHo2TU5KcU82eEhBMHBWYWlkRW8xcHptUU1XczV6YVo1THdPN1A1RUpoU0ZTc2lyX2FoTGdQVnJGNWJ4c1I2NXByTWt2TVotZTFwUVNnWjZiampCeG1fN3p1ZzFMcEhMQjlCcllUb2RqUVVz?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
@@ -300,23 +289,141 @@
    "type": "reporting",
    "source": "The New York Times",
    "lean": "unrated",
-   "title": "Inside the Times’s Decisions on the Alaska Senate Race Story",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMEtnNEMzeHp0SnlzMkRHbkhBeU9CUThsQm02ZHA0OFVRN2p1eTRMQlVHQ29KQjNpNTZOQkhVWkYwU0ZUWW11RVpjbkNQTFlaU0Y1cF9zdllQTFJLcnNwbFYtdGZCR1haQjBPdkd5UWxscnZvNWJfd21VNi03RFNiOWl0NnQ0ckFfYUpaWVJ6emsyOW9SNlFF?oc=5",
+   "title": "Judge Rejects Trump Officials’ Move to Challenge Alaska Senate Election",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHeDdFRU5nYjhHUG1EZ1JXdnVtZHpXMW43MEZJQnpVY0hEcWJ4TGowcjFVSTFjNm0wcUVHRjhmLW9BOXNheE1CMGFiTmxweENxLXBNb3NfdzEyb0dUWERraC1UTWNqaEwtQ21UVzVWd2p6U1BrZDExakNXSkgzdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "CNN",
+   "source": "NewsNation",
    "lean": "unrated",
-   "title": "Why the Alaska Senate race could be so slow — and controversial — to decide",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaVlCQU5oSHRJaGtSOTZhRFVOaG4xTlY1SnJPNDgyd3RGaHBDWmh2WEJwaWdiQXVrVEhaa3ZGcFE1OHpBTVZLQ0xHVTNYRHhzSG5YaWVSZHZveGFZNHUzMXZWUnhOWnhMMEIyV0lhc2NDR3luMVNJNTkyUVQ2X2dVWGpFU1BVRHV5Y2ZFYVhkbTkzUQ?oc=5",
+   "title": "Judge dismisses lawsuit seeking to block certification of Alaska Senate race if GOP incumbent loses",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYWF0dHRIUHRIenFLaGF5YnVnc0p0TUs0eWJ5UUxGUUM0cDBMdHVhZjdmcGk3SnZSUzBQVVlpVE9kaVQ4NDI4Q1NlYXcydnZycWc1T2F3WmJ2Y2FvRFpHNDZzY1VUNEF5N2RlYlhobUlXR2Q5OVNpSjlOWHJBZDVIbTNXVW0zaGhkdlRrcG1OWmZUemN3Vm5sd2lyNWF2Z3NhR2ppSnpFVkQ2TVnSAbABQVVfeXFMTWM4di1LUVVVTkFTeU9fUXNZTE1Tclh0enY1X3V4aWw2YVBaNEFPZVRkQVBTbzZkdUlXeTJYSEQ5T242RHozMlBYX2VwN1BCcEdad0xRNHU0dHNtNXFKUjBRR1J3QWpFR2E4dHFXWUt1SkVuaWRQODY0bWtlcS13ZG5XX3JJWUVKWkNxWjd1bm1LSVI2WjAxX3MwVktQaVBYVzE5TkRTekFRUFA5M1ktOEc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "The tale of “Decoy Dan” drew chuckles and eye rolls across a remote Alaskan fishing—but now the FBI is involved",
+   "url": "https://www.wsj.com/politics/elections/alaska-town-reckons-with-decoy-dan-election-fallout-now-it-is-serious-4a13abbd?mod=rss_socialpoliticsfeed",
+   "summary": "In an isolated island village, a namesake challenge to Sen. Dan S. Sullivan seemed harmless—until the candidate vanished and federal agents started knocking on doors.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Judge tosses Trump's attempt to block Alaska Senate results if GOP incumbent loses",
+   "url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan",
+   "summary": "A federal judge has dismissed a highly unusual lawsuit by the Trump administration that tried to block the certification of results from Alaska's U.S. Senate race if the Republican incumbent lost.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "CNBC",
+   "lean": "unrated",
+   "title": "Judge dismisses Alaska Senate election lawsuit; DOJ vows appeal",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT0oyNEhUWVdvWGt5dFFSNGpPMENlTjJXTjBwVlpEV1pVZWt3eDBxLTN1blEtQ2xaeVQ5d0s4NmtIamd0LXAyR3pfMzZxaWxqSUoyYmRZd2JJSnNkS2oxVTN1NVpHNXJnaHlGYUlIYlBGdXUxR25hUGFLX1kxWGNyaWw1Nk1GODlfT0QtODl0ei1fVXfSAZgBQVVfeXFMTmlxWUoySmdvc1dlU1huZl9YYzYwejRhZ1JROUpLbWtPam83aXRKY3ZkSnVQcmNKcEFFM3V5Y251YWpTbHBMSktINU1DeG9mTm1MTV9GNEQ4NmVTczViOVhGcVpHak1ENFpZbVZySFV0RDIxNW9JLTdSTEU3bnFXQTFrUC1GUGVLYlFyZ3ZBdGdXdzk2UWJMTEE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "NPR",
+   "lean": "unrated",
+   "title": "Judge tosses Trump's attempt to block Alaska Senate results if GOP incumbent loses",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc0tqclpGdHZtME0wZFY2LWpLZHF3TG5BMmk3RUM2SkdvWVI5c0tJa2pOTzJvN19pRFhkQng0ZUloMGVmSUZoQ1V3cE5PWkRWX1ppaHpFV0F4WDVVSVF1eDFPT2N3WnBROEpOdVR3QkYtZVZTcl8wNGpLZ05wSi1fdE5tbU5nNE9UX2VQX0gxbWlhQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Al Jazeera",
+   "lean": "unrated",
+   "title": "Sullivan vows to honour Alaska race outcome, US judge dismisses DOJ lawsuit",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT3pxMnEwd2xZTEtVMzdON3R1TXJPUVNtbTRHaDVPWmFOUURNUThKdjdPaHJNdjZMUEJYT1JnUjJMT2dya1RuX1cxRnd0dFBmWlZxRXFwaHgwbVY4dXhWdXdBWnJXRW5CQ3JCYVRROXVCUnlfNERHSUNDbzE2SzlvUWtYdUs3ZnFsamRIRENUaFd6LXdMUWNzZ1h2aTlBbFNRYlI2M0hUeHIxLTdRY2RjVkRTWnpCd9IBuwFBVV95cUxOVkhHaDloM2JKdURTWWpvZjd1dUFLZFFkblg0dE55ZEZwUm9BeXpGbi1vNWNBY2l2Tm5ZdWVFY0dkaWVrQmxyYWdoSkRxUkttU2NYbkRyQ0twU3JLNXdYSUpkN1U5bmp0azBlam9WVDRZblJSZ3V2MVMya2dUWUFFY3IyWEVOOXoxQmF3LVR3NVRlTk1YTjJVemZYTTJwdDBPZWVvZlJ4TDJGN1Q1Q0VheVk1Z2RqQ1gwZ25v?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "Politico",
+   "lean": "unrated",
+   "title": "Judge throws out Trump admin suit seeking to stave off GOP defeat in Alaska Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcS1DVkRfaW55aGV1SW1kNzJtVTdXUW03QUd2Wi1VRUt1QTFLUDBJd19TREx5cFdxNFRTLXhiQ21PSHhUTVRHaU9xVGlUQWJvOFJ0cjYzMWs5UXpGUGRGdVZXcDdUbG11cTVOc0xpQUJlT2VyWDgyN0VYMGlOaTFzd0FwaGpLSkhmaUU4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "New York Post",
+   "lean": "unrated",
+   "title": "DOJ suit tossed as feds fought certification of Alaska Senate race over 'Decoy Dan' Sullivan scandal",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQjNLcHEyZEFMTlczWEVhbUlfV3RtMk13ZlJxck55b0hpQ2syVFh2QmlKVFJqOTJFeGhKUU02d19JeW5DUTIxZ21IRzNBSTZDMnZEOXM0SUtNYVh1N0pCOWdhSXh2a3RESHJrMEhvbU92cGdoRTgzcno1X21NWDlINkhKc1VSbDB3by1pd2J6M2lEamxiRHVkU3hDd0NNTEIyTGVMTGVDMnVJWWw2ZUlkb2JIRlk0S0ZZYll4LUJPc2wxbDdLVUZ0cFZNYmNqSjFKTk1v?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "CNBC",
+   "lean": "unrated",
+   "title": "Alaska Sen. Sullivan says he'll accept election results, slams Peltola campaign’s reported recruitment of 2nd Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUHNNSFRNTm5qU052YlVzaTlWWTEwMGx1aGFLc21xQVhGZy1fdVdSRXlPYUhxNWowSWVVOUlqb2VnLTd3N29OVl85ejNOcXRMUlE4ejhfMzQwZXpGXzdtVHZTTTRaaFBzSV96T3hVYVMxOUh5VUd2ZF9jNTlLNXlfT1RzbllKYkHSAYwBQVVfeXFMUDlNRmxIV0gydUx2NFdZYmp6ZzROTWltOVk3Z3A0U0ZUMVM1dFl0dTFYaks2YkJ3bmljc0Q0U3hzWEVVZUhkOFNpYzFwNmhJQVJVMDdad3VPR291WG1HTjd0NWJrb3R3eVZ3dVlLQ2cyQTdWSHNQaDJnSXY4SmFmek1IeVU4UVZVeFJLVzE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -339,34 +446,6 @@
    "date": "2026-10-30",
    "race": "SEN-AK",
    "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "In Alaska, high prices for diesel and home-heating oil are driving voter anger at President Trump and Republican Sen. Dan S. Sullivan, making the Senate race there one of the most competitive in the country",
-   "url": "https://www.wsj.com/politics/elections/how-alaska-became-the-most-chaotic-senate-battleground-in-america-86453d89?mod=rss_socialpoliticsfeed",
-   "summary": "Democrats sought to focus on President Trump and high heating bills, but then came the October surprise.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "punditry",
-   "source": "The Dispatch",
-   "lean": "center-right",
-   "title": "Trump’s Midterm Economy, Graded",
-   "url": "https://thedispatch.com/newsletter/morning/trumps-midterm-economy-graded/",
-   "summary": "Plus: Republican officials open investigations into the Alaska Senate race, Trump is briefed on Iran war plans, and Happy Halloween!",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-AK",
-   "races": [
     "SEN-AK",
     "SEN-SC"
    ],
@@ -376,49 +455,6 @@
    "title": "Trump Puts the Mid in Midterms",
    "url": "https://audioboom.com/posts/8971114",
    "summary": "Trump campaigns in South Carolina as the polls show Democrat Annie Andrews tied with Senator Darline Graham. Jon and Dan react to the president's incoherent case for the nepo senator, and the White House's \"grim\" mood heading into the midterms, before discussing the latest batch of Senate polls, Tru",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "CBS News",
-   "lean": "unrated",
-   "title": "Daniel J. Sullivan left his Alaska hometown before Senate election, sources say",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT3kxcGNCa2hHYk1QUDNCOUkxUmhqOG9Fb2RZZGtzaXFyNmExUFdJMGxPXzFOcmhEVDFwbVRzN0Q5Q1dSMnV1NF84ZzRPX19ScU4zREtpVTNnblRaMG0ybHBOcXRLOXBUN3JWNURKdzExYXRFbHljMFJPbm1wLWRxY1lHd2RDeUdrUkxqQg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The Justice Department expanded its probe into alleged efforts to manipulate Alaska’s Senate ballot as Trump calls for Mary Peltola’s prosecution",
-   "url": "https://www.wsj.com/politics/policy/justice-department-sends-new-subpoenas-in-alaska-election-probe-47efebc9?mod=rss_socialpoliticsfeed",
-   "summary": "Officials step up their investigation into how a candidate with the same name as the Republican incumbent ended up on the midterm ballot.",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Alaska Gov. Mike Dunleavy, a Republican, orders probe over same-name Senate race controversy",
-   "url": "https://www.wsj.com/politics/elections/trump-calls-for-alaska-democratic-senate-candidate-to-be-prosecuted-aec2c451?mod=rss_socialpoliticsfeed",
-   "summary": "President Trump called for Mary Peltola to be criminally prosecuted and removed from the ballot.",
    "relevant": true
   },
   {
@@ -562,6 +598,11 @@
    "date": "2026-11-01",
    "c": 0,
    "p": -0.8
+  },
+  {
+   "date": "2026-11-02",
+   "c": 0,
+   "p": -1.7
   }
  ]
 }

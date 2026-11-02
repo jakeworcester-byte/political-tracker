@@ -9,27 +9,27 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -39,33 +39,33 @@
    "name": "Inside Elections"
   },
   "nbc": {
-   "rating": "Lean D",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
-   "rating": "Tossup",
+   "rating": "Lean D",
    "flip": false,
    "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Lean D",
+   "rating": "Tossup",
    "flip": false,
    "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -96,35 +96,71 @@
   ]
  },
  "poll": {
-  "average_margin": -4.0,
-  "average_label": "D+4.0",
-  "n_polls": 9,
+  "average_margin": -5.3,
+  "average_label": "D+5.3",
+  "n_polls": 10,
   "window_days": 21,
   "latest": {
-   "pollster": "Upswing Research",
-   "sponsors": [
-    "Demand Justice"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-10-24",
-   "end_date": "2026-10-28",
-   "sample_size": 505,
+   "pollster": "The New York Times/Siena University",
+   "sponsors": [],
+   "partisan": null,
+   "start_date": "2026-10-23",
+   "end_date": "2026-11-01",
+   "sample_size": 1011,
    "population": "lv",
-   "margin": -5.0,
-   "margin_label": "D+5.0",
+   "margin": -11.0,
+   "margin_label": "D+11.0",
    "answers": [
     {
      "choice": "Abdul El-Sayed",
-     "pct": 50.0
+     "pct": 53.0
     },
     {
      "choice": "Mike Rogers",
-     "pct": 45.0
+     "pct": 42.0
     }
    ],
-   "url": "https://x.com/joshorton/status/2115883461076545615?a=RFp0CZRkuV44JoFJOZQ&s=20"
+   "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-mi-poll-toplines.html"
   },
   "polls": [
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-11-01",
+    "margin": -11.0,
+    "n": 1011,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-mi-poll-toplines.html",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 53.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 42.0
+     }
+    ]
+   },
+   {
+    "pollster": "YouGov",
+    "end_date": "2026-10-29",
+    "margin": -4.0,
+    "n": 2093,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/ttw_mi_20261026_lv.pdf",
+    "answers": [
+     {
+      "choice": "Abdul El-Sayed",
+      "pct": 51.0
+     },
+     {
+      "choice": "Mike Rogers",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "Upswing Research",
     "end_date": "2026-10-28",
@@ -346,117 +382,57 @@
       "pct": 2.0
      }
     ]
-   },
-   {
-    "pollster": "Z to A Research",
-    "end_date": "2026-10-01",
-    "margin": -7.0,
-    "n": 483,
-    "population": "lv",
-    "partisan": "DEM",
-    "url": "https://x.com/rbrtraining/status/2108302504446337272",
-    "answers": [
-     {
-      "choice": "Abdul El-Sayed",
-      "pct": 49.0
-     },
-     {
-      "choice": "Mike Rogers",
-      "pct": 42.0
-     },
-     {
-      "choice": "Lydia Christensen",
-      "pct": 3.0
-     }
-    ]
-   },
-   {
-    "pollster": "Trafalgar Group",
-    "end_date": "2026-09-30",
-    "margin": -2.0,
-    "n": 1085,
-    "population": "lv",
-    "partisan": "REP",
-    "url": "https://www.thetrafalgargroup.org/news/mi-senate-general-1001/",
-    "answers": [
-     {
-      "choice": "Abdul El-Sayed",
-      "pct": 47.0
-     },
-     {
-      "choice": "Mike Rogers",
-      "pct": 45.0
-     },
-     {
-      "choice": "Lydia Christensen",
-      "pct": 2.0
-     },
-     {
-      "choice": "Tim Long",
-      "pct": 1.0
-     },
-     {
-      "choice": "Douglas P. Marsh",
-      "pct": 0.0
-     },
-     {
-      "choice": "Walter P. Kristy",
-      "pct": 0.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 36,
- "trend": "Stable",
+ "raw_poll_count": 38,
+ "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Democratic Discord Intensifies in Michigan Senate Race",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YR1owcUlLb3d1ajhFeWJacmU2aXAwV1g2Uk9aUjhtNFFNSlRSMXFxR2RCaWlIUWZ5M0w2M2kwODVndGNuSFdUangydkM0b0p5WERGOFY5QjZtSzNnYnhZTFd5NW1yZ2d6amJwMk9sdll6ZXdQeWc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Can a Progressive Win a Swing State?",
+   "url": "https://www.nytimes.com/video/us/politics/100000011250893/can-a-progressive-win-a-swing-state.html",
+   "summary": "Dr. Abdul El-Sayed is a progressive Democrat looking to win a Senate race in Michigan. Our national political correspondent Shane Goldmacher explains why a victory for El-Sayed could have broader implications for 2028.",
+   "relevant": true
   },
   {
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "CBS News",
-   "lean": "unrated",
-   "title": "Abdul El-Sayed campaign asks Haley Stevens not to attend final campaign events for Michigan Senate",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMjg0TUdvRmN5czZvMmdCV2tTc1hIcU1vSjZEUnNJbmlCOVp0VnFRak5DU1pfTk9nc0R5c3hkOWo3STJjLXdQS3B2SldvM1Vfb0s4NzZoVTh0MWpJbGFFWWw3UVc2c04tdExLT2pFWDQ3WE5lV3dxbEdSUmhKSWlEc2twMDBtQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Rep. Haley Stevens stunned Democrats on Sunday when she withdrew her endorsement for Abdul El-Sayed in Michigan’s U.S. Senate race and threw her backing behind Republican Mike Rogers",
+   "url": "https://www.wsj.com/politics/elections/how-rep-haley-stevens-turned-on-a-fellow-democratand-became-a-party-pariah-25474541?mod=rss_socialpoliticsfeed",
+   "summary": "She vowed to back El-Sayed. Days before the election, she shocked her party by backing a Republican instead.",
+   "relevant": true
   },
   {
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
    ],
    "type": "reporting",
-   "source": "MLive.com",
+   "source": "Axios",
    "lean": "unrated",
-   "title": "Michigan Senate race: Where Abdul El-Sayed and Mike Rogers stand on healthcare, housing and jobs",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOX3p2elBJeWdaNUcyS2R4OE9vLW5VTjdNSTZtYTBfT2dJUmg3MXdiVWptRVZwM0VBOTVWU01pMGRZQXRJejBTZ0lUMzV3a3p2RC1mcTFNV3I2VU5qMHdqMm5yTk1uRkxnR0N2dVRqNklfNXRoM3RTRGQ0SGFrMDFsNDFKRElESXVnUGlXQndmVEtFeXFFeTdDUFBqRGI0eGN0MjZyUm8zTXFRMXcxV21iektMd294T3BfRE9tQ2FMN2R2Q01ldlNxOWFFRFM2RGRTZGRGRg?oc=5",
+   "title": "Haley Stevens endorses Mike Rogers amid Michigan Democratic feud",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGpWbDcyNzJUV2UxUGw1eFUyOThVLUhiS1BwOHBmSmlieU5mYWJQSXhwbjN4alNhYUc1X2NucmtJa3pZWHZLYXY0SVRiQk9TTkNuTUs3TXFkeVpkc3dnLTluRXNtUjcweS1MUzJid0xod183SHFtMWx3UUUyQXdhc1ZPWXhsMjZJ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
@@ -464,11 +440,70 @@
    "type": "reporting",
    "source": "NBC News",
    "lean": "unrated",
-   "title": "Anti-Muslim rhetoric crescendos at the end of the heated Michigan Senate race",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMlFURjhwcXA4N1N2VTYzdUFfNTRwMWRHWXJzTjBlMnU5V2VNYmxKSkNaR25XX1JweGtaRGQ1SFhYWWxkeFowb0FIRmJxLVdVZVZkOEs3TkIyTUNZM1VSdjVOVEZEZVJzTGh4N3FpWUppOVVKZ3p1YlZYTUl4Z3dWaldBTl9SLXdpOTZRNWY2eGZIN0hjRUV1N19EV3ZJbDd4SzFrcnpycF9UeV9GWFRaTmVBWWpaYjFqRkpsVkx3?oc=5",
+   "title": "The fight for young men comes to the Michigan Senate race",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbGc3eEtjMVBrNXFBR0xBd1ZrTzVYNlEwSVZId2dtVXhTSzBNMko3anVISXpWUnhwR2ZfejlDQ1FEZzZWOEtXN2tqa19wMnRfMk5FRl9TaGVkOUZnbUw1ZHFNcVllY2w2MWU5TUQtWlBTNmhqenRSTWpGaGJIb0YzSlJ3S3VscEwzeGM0Q3hKeDFiQQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "MS NOW",
+   "lean": "unrated",
+   "title": "Chaos consumes Michigan Senate race after Stevens endorsement",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbGViQkhOaDJTVmg5bVVzd3Rtal92NHIwaUdEQnBBQTM2el9oZlp5WkdTeGVMX2FrMXRkSmNVY1VXVHZwODN2Nmp3bTV6Yk81dWxLMk9vY2lKaXVwV2ZjYThZRkx0cTZpcGVJck43Y1I4Xzd6OVktaG84alJBcWRVUDl3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "CNN",
+   "lean": "unrated",
+   "title": "Could Stevens’ switch shift the Michigan Senate race?",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOXJDcG5uZnYtVTYyNmdhVlRRUXRoUTRoQ0JWLWV3dUtzX2RqM19aX1h5eGJpTVZvTnpwVmwzdmJZZVgyTVpER0t5T0pHTmhpd1NUWGxkcEF0dXBkTzU4NXZPMUE3MDk2dDRpNkU3amQ0REVvTVA4cUJ1ajB1Rk5PN2oyak12WjdIR2JKTjcxemZiTW81V0FGT0kwNUh2WDRGVVZ2dGpDZnFRWGhKZnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "BBC",
+   "lean": "unrated",
+   "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzcmxwU2pKejlDSnBrOU4yNVZ3WUJMMXpOVjlNQmtHRWIxYjZpUEZ1UWQ5Q3VsaGNzR2tRWDFfUEVVVHVvdzM0aUZ5VV96cjBqcTJhTktweDlDNEE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Haley Stevens endorses GOP candidate in Michigan Senate race, spurning Abdul El-Sayed",
+   "url": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers",
+   "summary": "Rep. Haley Stevens was scheduled to attend a unity event today with Abdul El-Sayed, who beat her in the Democratic primary. Instead, she endorsed his Republican opponent, Mike Rogers.",
+   "relevant": true
   },
   {
    "date": "2026-10-29",
@@ -625,6 +660,11 @@
    "date": "2026-11-01",
    "c": -2,
    "p": -4.0
+  },
+  {
+   "date": "2026-11-02",
+   "c": -2,
+   "p": -5.3
   }
  ]
 }

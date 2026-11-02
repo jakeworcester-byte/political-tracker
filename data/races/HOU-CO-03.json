@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -185,6 +185,21 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "The Colorado Sun",
+   "lean": "unrated",
+   "title": "Democratic super PAC says it’s spending $2.1M more in Colorado’s 3rd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nLVZrNUl3OHlScmJ5MnV0UjhONkhPX1ZWZmlhVGJyUkhLc1I4OGcxTGVTQ3VVdUtxRDdncG5mdHBUYjJlY3BlRW1QbTJZalQ3SGtRM1IwaElCMjUwRU9Qc3JjS2xFeHZsVGlReTB5eTYtQXl6dEdjdDNR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-03",
@@ -296,6 +311,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-11-02",
    "c": 2,
    "p": -1.0
   }

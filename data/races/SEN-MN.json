@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -39,19 +39,19 @@
    "name": "Inside Elections"
   },
   "nbc": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": false,
    "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": false,
    "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -81,10 +81,10 @@
  "key": "SEN-MN",
  "name": "Minnesota Senate",
  "incumbent_note": "",
- "consensus_score": -3,
- "consensus": "Likely D",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
- "tracked": false,
+ "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
@@ -96,45 +96,68 @@
   ]
  },
  "poll": {
-  "average_margin": -4.3,
-  "average_label": "D+4.3",
-  "n_polls": 3,
+  "average_margin": -3.0,
+  "average_label": "D+3.0",
+  "n_polls": 2,
   "window_days": 21,
   "latest": {
-   "pollster": "SurveyUSA",
-   "sponsors": [
-    "KSTP-TV (St. Paul)",
-    "KAAL-TV (Austin)",
-    "WDIO-DT (Duluth)"
-   ],
+   "pollster": "InsiderAdvantage",
+   "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-08",
-   "end_date": "2026-10-12",
-   "sample_size": 718,
+   "start_date": "2026-10-29",
+   "end_date": "2026-10-30",
+   "sample_size": 1200,
    "population": "lv",
    "margin": -3.0,
    "margin_label": "D+3.0",
    "answers": [
     {
      "choice": "Peggy Flanagan",
-     "pct": 45.0
+     "pct": 49.0
     },
     {
      "choice": "Michele Tafoya",
-     "pct": 42.0
+     "pct": 46.0
     },
     {
      "choice": "Marisa Simonetti",
-     "pct": 2.0
+     "pct": 1.0
     },
     {
      "choice": "Rebecca Whiting",
-     "pct": 2.0
+     "pct": 3.0
     }
    ],
-   "url": "https://kstp.com/kstp-news/top-news/kstp-surveyusa-poll-swing-in-senate-and-ag-races-klobuchar-up-slightly-on-demuth/"
+   "url": "https://insideradvantage.com/insideradvantage-final-minnesota-senate-survey-flanagan-49-tafoya-46/"
   },
   "polls": [
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-10-30",
+    "margin": -3.0,
+    "n": 1200,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://insideradvantage.com/insideradvantage-final-minnesota-senate-survey-flanagan-49-tafoya-46/",
+    "answers": [
+     {
+      "choice": "Peggy Flanagan",
+      "pct": 49.0
+     },
+     {
+      "choice": "Michele Tafoya",
+      "pct": 46.0
+     },
+     {
+      "choice": "Marisa Simonetti",
+      "pct": 1.0
+     },
+     {
+      "choice": "Rebecca Whiting",
+      "pct": 3.0
+     }
+    ]
+   },
    {
     "pollster": "SurveyUSA",
     "end_date": "2026-10-12",
@@ -287,9 +310,55 @@
    }
   ]
  },
- "raw_poll_count": 6,
- "trend": "Toward D",
- "signals": [],
+ "raw_poll_count": 7,
+ "trend": "Stable",
+ "signals": [
+  {
+   "date": "2026-11-02",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "Nacionale",
+   "lean": "unrated",
+   "title": "Minnesota Senate race: Peggy Flanagan is ahead of Michele Tafoya, but the last polls differ by seven points",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlYwZjA4Y0NVajdqZ0hpdVkwYS1henljX0ZaTmp3S3NZdGNNN0I4VEVPeDByV2t6Q0hPNWV0TU53NmVNZWluUVVodWpCWUJVSEltVVNxNVJsUkt5eUFRVldoNnBOWGduZ0ZaLXdlUDRYa1E5Ml9EdGZOQlJrOE9jOVVJZWRoOGc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Minnesota Senate Primary Election 2026 Live Results: Tafoya, Craig, Flanagan and More",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmFiQnRuLWtOaW1sZ010dkpyd2NyN19pNkU0SFhlcXBSeWs4SkFrbUFibHE4MF9MNVliLTZ6QWJkM2N0OVZZYjY1andZLW1ZeFlqSlFQWTRYZlJXODFpOFhKalJxNHA2V2JuSjgyUmpyd1dWNTdlVmxtaDRSVE5KM05PSHVqREE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-28",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "The Hill",
+   "lean": "unrated",
+   "title": "Democrat Flanagan leads in Minnesota Senate race by double digits: Poll",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVjY1bXU5T3YwUWRkV0ZYZXZFQlZMUjFVWlFwRWhJZmtGYXFIRVB2WlgwdlEtOWFmVzA3VmRnM01TUDJmNGREZkZFQ01EOF9PckJFOGM3NHFzZUtJLVVGUE02QjAxZnR3MUVZM29DRkhlUU1FSmtLNlBFSUZxc1Y3RXNtcVZmajlsYk82X3ppQ0Y3ZEHSAZgBQVVfeXFMUDhuU2JyRHhUTFY3MXNoN1RuX19DN0l5TmdkTDRKUjNsUExCZ1hZZzR0RFNXUW81R0RwVzhVY2ZjNUVUUFQwRUhsLTI2bWltemRWb2xidUMwdThMdnNHOXdwd3gwQ0JnTWtMRFNvUkI2WGs1X1BiVmo5cXptSDNtSGxnVF90Vm4xSTI5WXZ1c0RTbUF3RjVhaVk?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MN",
  "history": [
   {
@@ -401,6 +470,11 @@
    "date": "2026-11-01",
    "c": -3,
    "p": -4.3
+  },
+  {
+   "date": "2026-11-02",
+   "c": -2,
+   "p": -3.0
   }
  ]
 }

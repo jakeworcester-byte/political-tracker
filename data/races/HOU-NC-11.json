@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -89,6 +89,21 @@
  "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-11-01",
+   "race": "HOU-NC-11",
+   "races": [
+    "HOU-NC-11"
+   ],
+   "type": "reporting",
+   "source": "The Economic Times",
+   "lean": "unrated",
+   "title": "North Carolina NC-11 Election 2026: Democrat Jamie Ager faces Republican Jennifer Balkcom in race for US House seat",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQa21FTnN6MFJiY29rUmVCRWtZR3R2blltMjRidHRMOGNleFV6Vk5BcDhKNE93WmYzV0YzRmFRRmEySHVGX25Ba0RpQng0UWc5OWVHLUx6TWIxSloyeGYxbGJXdW5naDlfT0ZLeG40N1Q1YURBN1Jnbk5RMEhXTXpMRzk2c2c2NVM0bWZiOXhuTkpiQWJPVlNYRldrRXJ0TkE0a0dIeGFxUkd2UmNTZ2ZNNmRMTURkQTJNU1NXUWlFdUE2R3d1SFBZUk1JUGQ2c3ZHbmExanVXZjBjeXd6T21LUnNwYl9nMTlHSGp6ZFlCLTNRQWtsSDVaRkRmZThsMXJDOEVILVZyYmpYMmw3MkxtdmE0X1BnYmgzX2tz?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-30",
    "race": "HOU-NC-11",
@@ -229,6 +244,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-02",
    "c": -2,
    "p": null
   }

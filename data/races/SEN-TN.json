@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -258,6 +258,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": 4,
+   "p": 20.0
+  },
+  {
+   "date": "2026-11-02",
    "c": 4,
    "p": 20.0
   }

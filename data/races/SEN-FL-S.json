@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Solid R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,17 +41,17 @@
   "nbc": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
-   "rating": "Lean R",
+   "rating": "Likely R",
    "flip": false,
    "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
    "as_of": "2026-10-29",
    "name": "Sabato's Crystal Ball"
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -477,6 +477,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": 3,
+   "p": 5.7
+  },
+  {
+   "date": "2026-11-02",
    "c": 3,
    "p": 5.7
   }

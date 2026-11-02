@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -183,6 +183,21 @@
  "raw_poll_count": 3,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-30",
+   "race": "HOU-TX-15",
+   "races": [
+    "HOU-TX-15"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Texas 15th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM1pBV3hQd0RyNElpT1I3X3lfN3ZudExnYThDMzR3a0dzcThpQ095azdpTnZTb0R3Z2YwT25TRjF5M0xyT25PRkNWVzM2NGprMUtHRG5xcHZoS0ZkZVdxMkJxTmRzZTFLampOV0NpcWZVNVdncFpqcnp6dk5PdkMyVg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-28",
    "race": "HOU-TX-15",
@@ -308,6 +323,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-11-02",
    "c": 0,
    "p": -10.0
   }

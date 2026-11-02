@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -162,6 +162,21 @@
  "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-11-01",
+   "race": "HOU-MI-07",
+   "races": [
+    "HOU-MI-07"
+   ],
+   "type": "reporting",
+   "source": "The Economic Times",
+   "lean": "unrated",
+   "title": "Michigan MI-7 Election 2026: Republican incumbent Tom Barrett is up against Democrat William Lawrence in k",
+   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPV3cwNWQ3ZjRpSlMwdjRCOGphaXRjTW9pblQ4NGRBS2pGRDlfSDRRUjFwN0J1LWF3emNMQ2xrM3dESGlfbXUzR2RVeUFTSHRrSEZZN2JVQmpacUJzODBuZXVUTVFnWG42U25jVERnXy1XQ0JrRDVYX0ZRcFBzUjVOTENRTjg3MFAtWC02djN0UHBrbGVTWDlBVXJZXy1sakVLNTNXdFM5QXpJaHptVzNoWm9GNVZtOUZ5dnI3el8xN2kzZ0c1ZmJNZkRCSnFrZTZmQ3prMVdBdmFkbFZENmo1aTRPQTJKM0JZdlNBdTNHdWhlTTllLUJ3SDVoUDk3c3dRQkhJVnJWd2xNbFl4YWZsY1BQbGxRLWc4eVJNS0c3ZmRHR2UyZmxuZHJSU3ZlcmZE0gG2AkFVX3lxTE1XcHRJWG5jaDRyNVVNZU00TFYzd0x3dDNxdS1kVmpzR0dVUFRocElXcmJpTUhURjJkcE42aHBGOFppTEhVcTBLNXZxTFUyUWFKVGctMGZraUlvS19Mal9kOFhidTBoOEY2MDZPRjc3bHNmX0lsVk0wVGhaQ3NkSXVGQVBXU0FiZ1I3NlZVckJvMUJ2NVZwRnhkZmtkbEJhbjJuZ1JyLUE4MklkZGpYME92N0RCMXhtRTNfMllEYmVyT21Od2t4WldEMDZlRkp1aExUTmc2RVRYbEY4OEFpUGZyQm1iNTU3YzlDWkFmZjh5XzJZZmtqQms5TWhOUjM1Z0l0bllOVjN3T2lRczFwUkJoYWlMWmgzSjZUVzl5ZWJ3cUFFV081ZE9qV3JLdlBPb3JMeFB4S0E?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-30",
    "race": "HOU-MI-07",
@@ -302,6 +317,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-02",
    "c": -2,
    "p": -8.0
   }

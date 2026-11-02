@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -41,7 +41,7 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
@@ -57,15 +57,15 @@
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-31",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 5,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "Sherrod Brown"
@@ -96,43 +96,71 @@
   ]
  },
  "poll": {
-  "average_margin": -3.2,
-  "average_label": "D+3.2",
-  "n_polls": 10,
+  "average_margin": -3.9,
+  "average_label": "D+3.9",
+  "n_polls": 8,
   "window_days": 21,
   "latest": {
-   "pollster": "Echelon Insights",
-   "sponsors": [
-    "NetChoice"
-   ],
+   "pollster": "The New York Times/Siena University",
+   "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-16",
-   "end_date": "2026-10-23",
-   "sample_size": 508,
+   "start_date": "2026-10-26",
+   "end_date": "2026-11-01",
+   "sample_size": 717,
    "population": "lv",
-   "margin": 0.0,
-   "margin_label": "Even",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
    "answers": [
     {
      "choice": "Sherrod Brown",
-     "pct": 47.0
+     "pct": 49.0
     },
     {
      "choice": "Jon Husted",
-     "pct": 47.0
-    },
-    {
-     "choice": "Bill Redpath",
-     "pct": 1.0
-    },
-    {
-     "choice": "Greg Levy",
-     "pct": 2.0
+     "pct": 44.0
     }
    ],
-   "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
+   "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-oh-poll-toplines.html"
   },
   "polls": [
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-11-01",
+    "margin": -5.0,
+    "n": 717,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-oh-poll-toplines.html",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 49.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 44.0
+     }
+    ]
+   },
+   {
+    "pollster": "Concord Public Opinion Partners",
+    "end_date": "2026-10-24",
+    "margin": -4.0,
+    "n": 469,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://concordpublicopinionpartners.org/polls/ohio-ge-2026-oct",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 46.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 42.0
+     }
+    ]
+   },
    {
     "pollster": "Echelon Insights",
     "end_date": "2026-10-23",
@@ -362,69 +390,23 @@
       "pct": 43.0
      }
     ]
-   },
-   {
-    "pollster": "InsiderAdvantage",
-    "end_date": "2026-09-29",
-    "margin": -1.0,
-    "n": 1200,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://insideradvantage.com/insideradvantage-ohio-senate-race-narrows-to-brown-up-by-one",
-    "answers": [
-     {
-      "choice": "Sherrod Brown",
-      "pct": 44.0
-     },
-     {
-      "choice": "Jon Husted",
-      "pct": 43.0
-     },
-     {
-      "choice": "Bill Redpath",
-      "pct": 4.0
-     },
-     {
-      "choice": "Greg Levy",
-      "pct": 2.0
-     }
-    ]
-   },
-   {
-    "pollster": "Marist University",
-    "end_date": "2026-09-27",
-    "margin": -8.0,
-    "n": 1298,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://maristpoll.marist.edu/polls/midterm-elections-in-ohio-september-2026/",
-    "answers": [
-     {
-      "choice": "Sherrod Brown",
-      "pct": 51.0
-     },
-     {
-      "choice": "Jon Husted",
-      "pct": 43.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 19,
+ "raw_poll_count": 21,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "The Columbus Dispatch",
+   "source": "Yahoo",
    "lean": "unrated",
-   "title": "As Ohioans seek change, Brown, Husted pitch competing solutions",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX1FDVWxQSzd2R0dRWFVwdmRuSUQ1bFNTajdrblhOMTdYZ05Id1c1VUVOV2ZkWlRVN0R6YTM4a2F5UFV4eTdfN2t0T2JyNVI4dG1LVHd6TElHa1dJRlpBcTNwamFZV1hEeXhjekw4NnNFV3VFbmlpazVMRlpFYTQwbC1iWlUyNWJEN2Y5WnFyYlVYTUYtdWVsamFYd0JXc09VOWNJTlhSblp5YkJrY0E4bVdQbzhhbVRkQkY2RUJB?oc=5",
+   "title": "Ohio midterm election: Jon Husted, Sherrod Brown make final pitches to Ohio voters in U.S. Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWZWR2Y1YWlQdjFIQ3pxTEFKYU1JNFNHN0IxWldseVlxSkR2cC1DVmJQYjY4WnNaVUVQaU5GUnhHOEEyNWM0aDE0dkxaWTl3OXZob285amwwZ1Bkd2NkdEpZanR1N2lLakRxWEdlM3JRV01hd01aUGZubER6ck1aUUNOQUlhUXVL?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -440,21 +422,6 @@
    "lean": "unrated",
    "title": "Brown and Husted clash over who Ohio voters should blame for hard times",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQkNNN1NwMUZncWFpcF9mTTVIU3pIZlZjX3JFUE1jQTlmcWktbXNFVDNEQk1iNDNkbDVNMEFQWi1XWDQycWtvWU9jV3lHMmg0MVMyT3dESVQwSkdOREZFN0ZSUGFLUkxQY3BfQS0zWWdZOVFyZnRpanhqOTB2Ml9YWldObFBnTG1YdUJ2b0tEY0I4Ti0tdFVFTXA5b2xTaUE4Z21ZU1ozMjZqcy03blFqVndWdTJ3UQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "NBC4 WCMH-TV",
-   "lean": "unrated",
-   "title": "Trump offers to consider Ohio for Space Academy if Husted wins Senate race - NBC4 WCMH-TV",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOE84NDZaQTZqSmRUMkFfTkUtTVJGWS1ObUVqQzVpWnl6Rndaa3hSSGI2TGJIYk12a0xrNHVDazVMN1E2ZDM0Q09PM1RZWFQ2TmV4SEJqaGw2TUhlSU9vNEVCY3BtUjdPamlKUDRCUmp0Wmo0LWhhUlFtZXF3cTR5anZmMUtTMmpYOWRRYWFVb1NnWnA0OGRCRW45UGZCcUJqRW1fX215bmJJczdWQUpaNllzRGZhUW8yWGJRT2FWRjdiRUnSAcgBQVVfeXFMUHhqcjVPNWp2LW11WVBhUlRBdnFNcms5ZVdjV2czZTRDOHVqVFdSZ2lIUHZSQzd4aUpfMnZYUGlIMzFKQmhLYXR3by1scVNKQUNrbUJyNkx3YXRSMUhvdUcxYkhYUk1oT1paOGRmX3FHRnNEeVNWX0FScjhKWlEyc2kzalhKNE53T0VzOFpCUE1acjUwaTNsQXhVYk1FYnpiWms4eUlLczVKZXBxS2UxbkdqVE1obE5oMG85cDA5UVJEUzhvN3F2RXU?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -586,6 +553,11 @@
    "date": "2026-11-01",
    "c": 0,
    "p": -3.2
+  },
+  {
+   "date": "2026-11-02",
+   "c": 0,
+   "p": -3.9
   }
  ]
 }

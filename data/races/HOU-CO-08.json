@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-27",
-   "race": "HOU-CO-08",
-   "races": [
-    "HOU-CO-08"
-   ],
-   "type": "reporting",
-   "source": "The Denver Post",
-   "lean": "unrated",
-   "title": "Shadowy group backs Libertarian candidate in Colorado’s CD8 race, portraying Rep. Gabe Evans as … too liberal?",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWXg3OEgwT0Q4N0gxZVNXb3Z2bFhnYm1WR0RSQUJDX2pHNUpmSVR1a0NvXzY0SGVZeWJ3ZkdFdVN2Sml1MzVxb3FUQm10Rk9pZGlINFl0SzZXX1RWOEdqUUZfV1VMVUJjalpmaThaZWE0VWMzek1jVUZnNG9yNGVwN3MwS1Bxc3hpSVBMRmpnWDU5T0toZ2FTNTBnSHlqUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-08",
  "history": [
   {
@@ -214,6 +198,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-02",
    "c": -2,
    "p": null
   }

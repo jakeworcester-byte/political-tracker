@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-11-01",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 4,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Brian Poindexter"
@@ -182,6 +182,36 @@
  "raw_poll_count": 3,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-11-01",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "FOX 8 News",
+   "lean": "unrated",
+   "title": "Max Miller, Brian Poindexter face off in highly watched Ohio 7th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMEVnLXRoc2tsMEZHZG5KSVpkaGMtaFFfa3F5Mi1hemVYd3A0cFREVlpCZFpQVU9vZ1FrTnA3WG9GNFp5R054MTB5TDFaUlY5YTVULUstZTc1S1c5MG92Z2M5Y3BvRjc4ZElTNnE4QWNYaDhCOGdaNVBUWnIybXhXTGwyUmg3U1RBakVVVkREZTNEUjRwVU1RaVFqNC1Va0JFRl9WSlBCN3dud3p4VnE2Vy12TDbSAboBQVVfeXFMTnlzTWQxWkxfUHlqWm5icjZZRENlUWlQSFlZdTVkZElCX0VFeDI1bTVVWkxNa3VfSGxPMDQ4NWpLQ0RVMm5XVzRXbE1YVDkyZmNCNDZMWHlzU2c4ZXc3aFFDSThDcFNsaTR6bXZUU204R1MyQlR5UDBBUEJlcmhsVndFWjNHMTlweFR2X0dYLVc0OUtMTW1jbkRGd3NTNjh1SWtvQ2JrOXFhTHFiOUtYWFRvX193VkMwZmtB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Ohio 7th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YYk9IZnBTTW41UWRXUVFYdEZBOWI3NkMwZ3ItLUtoTk9CQ3pmRnZvVURnOFMyczBsaTJWNVRueTN3QjhLOHp6OFpoZ2FYWUFNRDVkYmc3cEUyR09kT3pFaXdxUUZGRmVMNFN1NU1ISFFaa0VxWUl5eE40LU5tdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-30",
    "race": "HOU-OH-07",
@@ -337,6 +367,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-11-02",
    "c": 0,
    "p": -7.0
   }

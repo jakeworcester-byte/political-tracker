@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -160,6 +160,21 @@
  "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-10-30",
+   "race": "HOU-PA-07",
+   "races": [
+    "HOU-PA-07"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Pennsylvania 7th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcDVoV0doRlRMMlRva1FUUDBJUGtaSmFvcV9qNDVqb3ZSa3Z0LXh2UEJ6QTlISHk1MU8tb3V5dTJadnZzMTYwMDBfM2Y3SThQUXcyRTVhR3Y0dkNpd2xvUlpCR0lGenpDekE5TlBYZGxLb1ZaZXM2bnNXbU1QVVNhTzhQYzM5WmRI?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-29",
    "race": "HOU-PA-07",
@@ -285,6 +300,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": -2,
+   "p": -5.5
+  },
+  {
+   "date": "2026-11-02",
    "c": -2,
    "p": -5.5
   }
