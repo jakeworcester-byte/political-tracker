@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -142,7 +142,68 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-02",
+   "race": "HOU-FL-25",
+   "races": [
+    "HOU-FL-25"
+   ],
+   "type": "reporting",
+   "source": "Hindustan Times",
+   "lean": "unrated",
+   "title": "Scott Singer: From Boca Raton mayor to 2026 Florida congressional candidate | Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxONC0xQ2J1TldQeXBZM0toamhvd2ZJZ3ZGTEVuVEs2MldDZlkxTVZmTWctamYzZGE4bXI0QzhRTEpXMmVmdlBSdlUyVjFPSWx5UXFQN29ibHhnWUtoRXhFQ3BQSUJjeWJOZC1MeWpMNjcya3N2N1NHcE1DTUJyMjZralc2WERBNXR6Y25mZmVXM09ibGZYUzlrTmNBTEZNUUgyNHpvTGV3YVpfajJfM1lGSHJkVENhM2JqM3RVLTdzQnNxaGNpN3VBbzAtcFNES0Q3R25sYzR2eDZadldiMDVlWldXaFAwYUxvajVFQUNFU3BFemo0a0Q3OXVpbWF6VVgydXBHYmsxUFgtQkMweWVvbnVzdl94RDdUX2VQZUVsa9IBpAJBVV95cUxOVGg4R0Z1ZDlaTDczNTVJWVNnYU5mTU5ObFhHOXJQZkFKNDdZRmtIR1hsTjVfdjZ4cnN4bFFtSXZQTEVaWm5TbmFnWUpwWnN0UmhZNzkzSkRPQnR1Yk1iMThNVkNvMGh5QkttdFR6UGFUd2RNTVB1aWtHRFNEVlZOcFdKN2JFajJyUmNPNnFDUjdfcDJiblJaYVZSQ3pQcTlGYVhKV0RlQ1hNLUdKbi1FaU96VjRwME9sTDJXOWRqSFRHR01WRWpIdUNVaGplSzZqNkpxU0E2X3ozdGNPanA5ZjlfcVZrT1hfTDNjem1pU0JRUzVjRy10S0xqZV9fVWQzbmtJNUpRWDJPdndnR0ZoN29Ydm0wQ0ZRdlNjM1pTVFZGVHpi?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "HOU-FL-25",
+   "races": [
+    "HOU-FL-25"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "Jared Moskowitz hits back in race for Florida's 25th Congressional district",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWNHUGxON0M3QV9nb3BFYlhSaDJxYk5vX1lLMEcyb0RmWjgtSWxyU2xxcWoxUkhsSTZOdzZwUXlsaEFBYUdUVlVPZEFHdk5JY1JGQWJ5a1R1TlBWTl8yYVB1aW9JVGV6N0ZIcUhoMldXdzZySE5ZNG1ldElhVk05SE04bUhfNFAxTGF2MmVlOHdWQndPM3Bad1g2dW1GQm1kN3Y3WGNnWXl3MlJlSmVJWQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "HOU-FL-25",
+   "races": [
+    "HOU-FL-25"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "How nasty is the race in Florida's 25th Congressional district getting?",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMDhRT1loUlhXdUw5V184WGlsZUhMa3hqTGlNbHZmMVRCWXJpbm00R3VWeUFlQ0ZJN0JZdFd5YlhxR2UzaF90UXhHeHdHMFBFTVZmX1ptOS1QZ1g2SWw3VkpfN0k0dnN6dHhSMGNjZjBmY0VXMFduWlNRTzJqS3l6ZFBQUGgtSTBvOVNITXRKMzhHaklYXzVqMU5ZaFdwZktaV2RSUk55YmRVUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-FL-25",
+   "races": [
+    "HOU-FL-25"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Florida 25th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOHhCMFFHZDlXSHNRdHJQNHVKcTVucUN5aDg5b003aU1BeGdHdDkwenl5bWxzTlB5QkkwVEE3MFZ6QmhHdzhCdEFfSlNPQ2d6LTIwY25kUC1LQm1pZl9pN2R6allMNHBreXdGeWxZMmN5dE5SVDBFYkNMU01SMTNPc1pIcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-25",
  "history": [
   {
@@ -252,6 +313,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-11-02",
    "c": -2,
    "p": -5.0
   }

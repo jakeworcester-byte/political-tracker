@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -39,9 +39,9 @@
    "name": "Inside Elections"
   },
   "nbc": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
@@ -57,15 +57,15 @@
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-31",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-31",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -96,37 +96,60 @@
   ]
  },
  "poll": {
-  "average_margin": -3.6,
-  "average_label": "D+3.6",
-  "n_polls": 4,
+  "average_margin": -3.9,
+  "average_label": "D+3.9",
+  "n_polls": 5,
   "window_days": 21,
   "latest": {
-   "pollster": "Emerson College",
+   "pollster": "The New York Times/Siena University",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-26",
-   "end_date": "2026-10-28",
-   "sample_size": 800,
+   "start_date": "2026-10-27",
+   "end_date": "2026-11-01",
+   "sample_size": 736,
    "population": "lv",
-   "margin": -2.4,
-   "margin_label": "D+2.4",
+   "margin": -5.0,
+   "margin_label": "D+5.0",
    "answers": [
     {
      "choice": "Roger Marshall",
-     "pct": 47.1
+     "pct": 44.0
     },
     {
      "choice": "Adam Hamilton",
-     "pct": 49.5
+     "pct": 49.0
     },
     {
      "choice": "David Graham",
-     "pct": 3.4
+     "pct": 4.0
     }
    ],
-   "url": "https://emersoncollegepolling.com/october-2026-kansas-poll-hamilton-maintains-edge-over-marshall/"
+   "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ks-poll-toplines.html"
   },
   "polls": [
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-11-01",
+    "margin": -5.0,
+    "n": 736,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ks-poll-toplines.html",
+    "answers": [
+     {
+      "choice": "Roger Marshall",
+      "pct": 44.0
+     },
+     {
+      "choice": "Adam Hamilton",
+      "pct": 49.0
+     },
+     {
+      "choice": "David Graham",
+      "pct": 4.0
+     }
+    ]
+   },
    {
     "pollster": "Emerson College",
     "end_date": "2026-10-28",
@@ -259,35 +282,50 @@
    }
   ]
  },
- "raw_poll_count": 6,
+ "raw_poll_count": 7,
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "NewsNation",
+   "source": "The Washington Post",
    "lean": "unrated",
-   "title": "Kansas Democrat says Trump’s visit could help him, not Roger Marshall",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeV81anM4V0R2LVZVd01SLTBidjdHeXNlUVZuWU4tMEhaSWFJUzdTektTY1lqU3lhcnNMLWR0TUZ6MUpJSV9pZ0U4a2ZyRDNjbEFGcEdabTJnalJPVWNBVjN3WE1CZ3FBZjN0NUJtdmFCc3lyRHJLUjQyS3hfZ1RNZmJ5ajdQdmVsMkljMXhNeWNBWnVONjY0REFUSEFHeHB3QUY0UWJPSW9EdHpHRU42StIBtgFBVV95cUxPS0M0N3NHY2pnTFUzR19NbVlUNXN1TnNfZU9NVWZEN005VmY1amJRQ2VnTjZBSnpfWGJpZVUydFEza2M2N2hsLVI0MDZoNFVXQUZGOTREeUt0NXNJTndGOVVKaGUtTGpTM0U1WnQzVHcyM1dZSmFjQ0xUUHgyVGo3Z3Bkb29LanZHWkllOXJrVjJGSTZTTFFZaDFMWHA3VXYxYVNNVDlnakFHUmdWZ0pGN2FvWmZzQQ?oc=5",
+   "title": "Marshall’s closing message in Kansas is a defense of his lawsuits against patients",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcWU3YmZOX2FKYnIwVzFOcnJZaVNXR0JwMjNQS2Jvajk3RUF5VmQtQ2c3VEstU2hBUkJ1YzlGeTFLdDJFM1NIbUN2aDJzVmVqUFIwX3ZsT3h2TjJHSFdXeDZZQ3RISXVHRHRLaFRIRVlwRlp3dGJhTjNNR1lFWm16cnB1YlpxOElDWXV0NWIwR2ZVV3d6YUNsSm02N1BrdllTaGR5SlZIRzZnNDFJTXRyOThLRkoxU3RzclE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "- Emerson Polling",
+   "source": "Kansas Reflector",
    "lean": "unrated",
-   "title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election -",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTlBINU11RVpHR29ySHJlQkIzRkREalllTkFJUnprQTlnYTVhanZwUXVuNGpKY3djRi0xbmFBRmpIVklSTTdyblgtMDF4bU9WSDl4YWJ2Z25NbmtyT1gwWGhfR3F6dGV1Q1cwMkhVTF9Na1BoeGlLdU9KbUJ6XzF3b0ZkTFJFelpZb0hCUHg0ampTcWdYV09GWkVkN2NGUQ?oc=5",
+   "title": "President Donald Trump doubles down on bid to lift Roger Marshall's campaign with Kansas rally",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPa0tSdVd3T0NjcDhET3Y1eWxvZElBV2tWMkdrMkV5ZWM0bFJzZDBsanNpQkxJQkJTOUlVazcwNEhaajVxNUFhUXNrVG9sN3l6MHBmbkRtNmRXRHRyTElJRkV0Mk5FRWl0bUtwOXluSFE1ZVA3VnFLaDIycU9nNEE5dDlJWFB5TFdhSDg2Vm1VWGxiNEViUXdFazRTRFBldzVkRzRRUGNNcXBDLW5lR21SR1dNbHFhZmM3Tks4QkhtVGNnNlFQZzVaeFlkNnNsZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Roger Marshall Goes Rogue in Kansas Senate Race With a Video",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdmdJZHYxZ1pHdm1oZXIwYzlKdi13TVRpMkN5LTB2ZUhqMXhLTFVnY2pSZUhRZFE1N1hzM29UMjdWSGJWaVUzYm9OS0JVVnpBN20wQ0RDZ2RIRGl6cU40RmN3cmk1YlNsejRuRHF3aUthX1JxUnRTdmlLYW9RNXNTWEJKZnR5V0YyOUdCajZnejY4cGM?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -323,16 +361,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "race": "SEN-KS",
    "races": [
     "SEN-KS"
    ],
    "type": "reporting",
-   "source": "CBS News",
+   "source": "- Emerson Polling",
    "lean": "unrated",
-   "title": "In tight Kansas Senate race, struggling rural voters are split: \"There's a lot of pissed-off farmers right now\"",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeHc2bWZoTUdCN2JmR0trYW02Zm9vem83WS00Z3dCRjBLMjhoemJ1dXFqNjdOR0g4bXZ2SHRrSWUtRUZucTlBTld4WnJVbzVsY1RZWEhwa2UtdDlHZkZuRkJhSmkwbjdZWko2OVVFckgxckFkbUlneHpidUVxOFZ3WFpIQ2xGRTA?oc=5",
+   "title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election -",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTlBINU11RVpHR29ySHJlQkIzRkREalllTkFJUnprQTlnYTVhanZwUXVuNGpKY3djRi0xbmFBRmpIVklSTTdyblgtMDF4bU9WSDl4YWJ2Z25NbmtyT1gwWGhfR3F6dGV1Q1cwMkhVTF9Na1BoeGlLdU9KbUJ6XzF3b0ZkTFJFelpZb0hCUHg0ampTcWdYV09GWkVkN2NGUQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -449,6 +487,11 @@
    "date": "2026-11-01",
    "c": 0,
    "p": -3.6
+  },
+  {
+   "date": "2026-11-02",
+   "c": 0,
+   "p": -3.9
   }
  ]
 }

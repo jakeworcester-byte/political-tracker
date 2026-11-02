@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -163,16 +163,31 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-11-01",
    "race": "HOU-NY-17",
    "races": [
     "HOU-NY-17"
    ],
    "type": "reporting",
-   "source": "Times Union",
+   "source": "The Guardian",
    "lean": "unrated",
-   "title": "In toss-up NY-17 race, candidates look to the center for votes",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX1RWUDloU1RjQzF1ZWQwOGxBNUtPRTRHbWhIQlR3Z3hIcVNSWDhUdVRSOG8xek9WOEZMTDZLOWhOSDJuU05WazRkcFBFdDBHT0tZYm4zbElvZ2dFa09qOUgzd1Nwa3Y1d0o5dXpsbktWVXAwVDl0RkZxTnNCRlVwbTlDTUdONDNzT0RRNExPZmRId211ODhxa2VSbExjWHlVUFVyU0FR?oc=5",
+   "title": "Mike Lawler flipped a New York district red in 2022. But his ties to Trump might bite him in the midterms",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM2lGNVZFQTJLQXhnakFwbHRpUjF3Y1ZVMWtfb282MGU3Z3o2RlByeVdyRlVBQzg1QXJzbGxQbjV3R3hLZE90TmQyRHRIQzdEamZBVndXN3dYcFZmUW9USktLa2tGZ1hNMWpSdDZpWFB0eWl5MTBXcm5DMEhDeVNVMWZNOUhPUlZ2clRUWFRhcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "New York 17th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkJpUm1ZaDNTMWtIVjNhaWl0R3M4UmEwY2tPQllTRGEtaFFVaGl1SlZEVFNaRmtwVDBYTW8ySzU4am1WT0tVWHZrclJZVWlMMVVQZDR5dWNfYktjbUVKSERRUldCSlFEa1U0RXE5dHJsWDlhWTM1aU1lemNYMjhWVVFHclA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -287,6 +302,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": -2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-11-02",
    "c": -2,
    "p": -2.0
   }

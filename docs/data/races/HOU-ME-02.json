@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-11-01",
+   "rating": "Lean R",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -80,15 +80,30 @@
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 3,
+ "flip_votes": 4,
  "candidates": {
   "D": [],
   "R": []
  },
  "poll": null,
- "raw_poll_count": 0,
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-11-02",
+   "race": "HOU-ME-02",
+   "races": [
+    "HOU-ME-02"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Maine 2nd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-11-01",
    "race": "HOU-ME-02",
@@ -100,21 +115,6 @@
    "lean": "unrated",
    "title": "In Maine’s 2nd District, Paul LePage’s name recognition is a blessing and a curse - Portland Press Herald",
    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pZTlORFQ1aXZ4eGhvOVB5LTFFWF8tRDZRYklVTEFNZHpURHBGeERPeEZ6UXgtbm5uUy16VVE0VU4tNkxlVWRUMnFoX0QtOEE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-ME-02",
-   "races": [
-    "HOU-ME-02"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Maine 2nd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfOFBRQzJ3REZKZmQyVFlCNmFsOU92WHdNSUFpcGpxMkpyLWVuckxvcW1YbWhmcDdSOTNsdUUyX2lQbkFpMmZGZ0dYMndZSFY3ZmJqOGZvSDZJR2pZaktLQnoxbkJfUnh5ZFl5T3NEdXRQbDFrQWw0NWpEMUhwNmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -244,6 +244,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-11-02",
    "c": 0,
    "p": null
   }

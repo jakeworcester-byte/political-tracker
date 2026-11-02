@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
-   "rating": "Lean R",
-   "flip": true,
-   "as_of": "2026-11-01",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 8,
+ "flip_votes": 7,
  "candidates": {
   "D": [
    "Shomari Figures"
@@ -172,21 +172,6 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-30",
-   "race": "HOU-AL-02",
-   "races": [
-    "HOU-AL-02"
-   ],
-   "type": "reporting",
-   "source": "WTVY",
-   "lean": "unrated",
-   "title": "Figures, Marques face toss-up race in Alabama’s AL-02, forecaster says",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVEp0aU9oR0NKejhLTEUxcnFleVRVS0Y3NzhiVmtSS0NuLVRHRE81ZExFcU9BNDVNUjFkVDJVVndCRXNWRFhzTW5yY2hLMTlSYW5TWWFOMVZDeWNWQS1fd3BiMk5TTnpRQ2JRbEpVd0doQ2I1bGRtZkpHQ1JzXy1aNElucGhSTUNQV3pWZlFSQlpKdGRtVm5XMnM5ejlZZ9IBsgFBVV95cUxNUUFsRG1zcU0wMXB6ZS1qUWZ2OUpOYVg4NmpsSl93cFV2ZHNMWkUtRXZrN2paOFFzWlJQOVFyMlNhb1NpdHF1UHZZeWJvNXFGS3lrYlRVQXFXMFoycXRBbksyR2lwcmVxNS1OVlBCczdaTnFRVUdjRTNjZ0h5WXJoUHpaQ1JiRlpMcG50LXhtdGlKVmlMRmpYQUlqcm9oc2xXb0JSMEgtWUNzNXZPcDliTm9n?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-29",
    "race": "HOU-AL-02",
    "races": [
@@ -208,25 +193,25 @@
     "HOU-AL-02"
    ],
    "type": "reporting",
-   "source": "AL.com",
+   "source": "Alabama Political Reporter",
    "lean": "unrated",
-   "title": "GOP-aligned poll shows Shomari Figures, Rhett Marques nearly tied in Alabama congressional race",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbmlHbU82QlNZaU45LTZpdk81X3FfeWpvVlRkNXZ1b1dlMXV1dVVTYmxuNnVKMmdJM0c3aDZRaTBjNkNHRW01cGlMc1FMdzkyVlEyUi12dERqSlBEeF9KMHNhal9INW9TMWtrQ0pTNFdsc0d2enZPRmYxRzdET0dQa0ZkMlkxcU53X04wclRQUy01NHU1RFZOZGF0UkwyYmNGNEJleGdPRWN2SE1QYkNFUExwQzhsblRhbVd4Rzh0dW1TRndCSU5SSDJXUTNra3k3?oc=5",
+   "title": "Alabama’s 2nd District race shifts to toss-up",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOY1k1b3Z5c3duRzYzSjg1cERSTWJXRUIzcnppb3NNc3YxUERZbDJGUHRlMEhaYVE4RnhlNDRvLUwtOTRFSy1OU2ZDaDhVaDg0d01nMTQ1ZHluZ2xWX1VKSGV1NGdCRFhxaUs2TEdYT2UxLVFqZnV5cWRBSDBVS1V3WVQ3bHp2d2VYdUE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
    ],
    "type": "reporting",
-   "source": "Alabama Reflector",
+   "source": "AL.com",
    "lean": "unrated",
-   "title": "Figures, Marques vie for Alabama’s most competitive congressional district",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWVVIVnNJV3ZITmNpRjF5ZGEtRzZkT19LUEE0NEhaZE5JelU2cVJOSGhQZTI4dlZUWUpZbUJVNVlmNTJYWGJlZjhOVVV1NEQtU2VfMzhwMzY3cGNOTElTWVBIZGpPR0JBMEowdFNRWms4akdkNFZCbWdIYkhpWHNtd0pSc1NnQUF6NkdtdGR6RWxidTdGQ2x0TGdoSWhtVExSX0hrR3JwdHV6NGJwVnpJTFdPOA?oc=5",
+   "title": "GOP-aligned poll shows Shomari Figures, Rhett Marques nearly tied in Alabama congressional race",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbmlHbU82QlNZaU45LTZpdk81X3FfeWpvVlRkNXZ1b1dlMXV1dVVTYmxuNnVKMmdJM0c3aDZRaTBjNkNHRW01cGlMc1FMdzkyVlEyUi12dERqSlBEeF9KMHNhal9INW9TMWtrQ0pTNFdsc0d2enZPRmYxRzdET0dQa0ZkMlkxcU53X04wclRQUy01NHU1RFZOZGF0UkwyYmNGNEJleGdPRWN2SE1QYkNFUExwQzhsblRhbVd4Rzh0dW1TRndCSU5SSDJXUTNra3k3?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -341,6 +326,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": 2,
+   "p": 2.0
+  },
+  {
+   "date": "2026-11-02",
    "c": 2,
    "p": 2.0
   }

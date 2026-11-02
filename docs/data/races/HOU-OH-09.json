@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -142,16 +142,31 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-11-01",
    "race": "HOU-OH-09",
    "races": [
     "HOU-OH-09"
    ],
    "type": "reporting",
-   "source": "Cleveland 19 News",
+   "source": "Toledo Blade",
    "lean": "unrated",
-   "title": "Kaptur seeks 23rd term against Merrin in Ohio’s 9th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRGpXNlREZVN2eEZYclpURTYzLXE3WmFTenFTNzVscUNuT2drbkJZVF9UTWtGeGRpZ1h0LUg4RGM0SlhUVzhCOTJMWV9XMS11b1d5Nmp1WTRpWHJtckNxek42SmpJX1pfV1N5M0RsLTZzWFIyVFZXaktCUHNJd2JzODBsa3Z2U0xZYkRRU04yMUpHbzcxY2lDcHJNT2JBeC1TUEgtV0pYb2twX3FOR1ZJ?oc=5",
+   "title": "Kaptur and Merrin rematch for Ohio's 9th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY2ZUQWJ4YVp2Ri1hS3Z5OWk5ZEFqakNMSE1IU0dnQTZ6RV9sQ3pCSDJPVmlucC1lLVpVYTM3eXdkWHBTTWNIQmJkckJVYld5MDRQRzYwWnVXUlhfWGRWdUNrcmppNDlhQy11ZllqU2pjMFRvN25JM2dwS2pzOEIwRkRHWWphaFhJel9ROHZmWFRxSzJmVDNFX0xlVDd5aWFVMDdUTDBjNmo4NzhpT2RSa2ZkSi11YjdXeXEtTUIxUVRnd3V5bmhn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-OH-09",
+   "races": [
+    "HOU-OH-09"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Ohio 9th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Eb0JRVFU0TzlhUTdqeDd1RTJCXzduaDZSR2NVbEZBNE5mX3Z0UjRIMWV0YVExWl96ZkV6dXE1QTBpQ2VHbGxVdU1oblFrVjJPS2lxSmRJNEpnTWN3VzhCcHY1U3YtUG4xOWw2RFI3dEJUVkh0cVZRaGJUY0l6QQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -163,10 +178,10 @@
     "HOU-OH-09"
    ],
    "type": "reporting",
-   "source": "wtol.com",
+   "source": "Cleveland 19 News",
    "lean": "unrated",
-   "title": "2026 midterms: Previewing Ohio's 9th Congressional District race",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaFdUVm13dUw5bE5iOVZfWWprSGtTVWxhZEdoRXc1RGVWazVBY2tGOFpGSm53SlllVWJCNmVTZ1NXQURyRklta1FJdU5TZUlDbFlVOE1wNXBrNllhX3RvOHQtNUJRRjBCS0Y5U045YmdBcjg3M2lZSy0xWGhTUmZVdEpsY1Z0UnYyLXgwRVIteXFUYzZaWEl0Mm1PbENpUERsR3ZHajJkdzAyV0hYcGVNanZfOGFBcmhyTUcwWVRyTnJnR25DYjdhMnJUSHV1UDZiS2ppaDFqbkpLUkVsN3Q5R2g3N05uRmJMWWc?oc=5",
+   "title": "Kaptur seeks 23rd term against Merrin in Ohio’s 9th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRGpXNlREZVN2eEZYclpURTYzLXE3WmFTenFTNzVscUNuT2drbkJZVF9UTWtGeGRpZ1h0LUg4RGM0SlhUVzhCOTJMWV9XMS11b1d5Nmp1WTRpWHJtckNxek42SmpJX1pfV1N5M0RsLTZzWFIyVFZXaktCUHNJd2JzODBsa3Z2U0xZYkRRU04yMUpHbzcxY2lDcHJNT2JBeC1TUEgtV0pYb2twX3FOR1ZJ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -281,6 +296,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-11-02",
    "c": -2,
    "p": 0.0
   }

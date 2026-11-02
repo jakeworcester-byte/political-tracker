@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -39,14 +39,14 @@
    "name": "Inside Elections"
   },
   "nbc": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-31",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
-   "rating": "Tossup",
-   "flip": false,
+   "rating": "Lean D",
+   "flip": true,
    "as_of": "2026-10-31",
    "name": "RealClearPolling"
   },
@@ -57,15 +57,15 @@
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-10-31",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Lean D",
+   "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -81,12 +81,12 @@
  "key": "SEN-ME",
  "name": "Maine Senate",
  "incumbent_note": "",
- "consensus_score": -2,
- "consensus": "Lean D",
+ "consensus_score": 0,
+ "consensus": "Tossup",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 6,
+ "flip_votes": 5,
  "candidates": {
   "D": [
    "Troy Jackson"
@@ -96,33 +96,71 @@
   ]
  },
  "poll": {
-  "average_margin": -3.3,
-  "average_label": "D+3.3",
-  "n_polls": 6,
+  "average_margin": -4.3,
+  "average_label": "D+4.3",
+  "n_polls": 7,
   "window_days": 21,
   "latest": {
-   "pollster": "CNN/SSRS",
+   "pollster": "The New York Times/Siena University",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-20",
-   "end_date": "2026-10-26",
-   "sample_size": 783,
+   "start_date": "2026-10-27",
+   "end_date": "2026-11-01",
+   "sample_size": 714,
    "population": "lv",
-   "margin": -4.0,
-   "margin_label": "D+4.0",
+   "margin": -6.0,
+   "margin_label": "D+6.0",
    "answers": [
     {
      "choice": "Troy Jackson",
-     "pct": 49.0
+     "pct": 51.0
     },
     {
      "choice": "Susan Collins",
      "pct": 45.0
     }
    ],
-   "url": "https://www.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
+   "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-me-poll-toplines.html"
   },
   "polls": [
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-11-01",
+    "margin": -6.0,
+    "n": 714,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-me-poll-toplines.html",
+    "answers": [
+     {
+      "choice": "Troy Jackson",
+      "pct": 51.0
+     },
+     {
+      "choice": "Susan Collins",
+      "pct": 45.0
+     }
+    ]
+   },
+   {
+    "pollster": "University of New Hampshire",
+    "end_date": "2026-10-31",
+    "margin": -9.0,
+    "n": 1654,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://scholars.unh.edu/survey_center_polls/1013/",
+    "answers": [
+     {
+      "choice": "Troy Jackson",
+      "pct": 54.0
+     },
+     {
+      "choice": "Susan Collins",
+      "pct": 45.0
+     }
+    ]
+   },
    {
     "pollster": "CNN/SSRS",
     "end_date": "2026-10-26",
@@ -312,50 +350,56 @@
       "pct": 46.0
      }
     ]
-   },
-   {
-    "pollster": "Fabrizio, Lee & Associates/Impact Research",
-    "end_date": "2026-09-22",
-    "margin": -3.0,
-    "n": 982,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-maine/",
-    "answers": [
-     {
-      "choice": "Troy Jackson",
-      "pct": 50.0
-     },
-     {
-      "choice": "Susan Collins",
-      "pct": 47.0
-     }
-    ]
-   },
-   {
-    "pollster": "University of New Hampshire",
-    "end_date": "2026-09-21",
-    "margin": -4.0,
-    "n": 1312,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://scholars.unh.edu/survey_center_polls/1007/",
-    "answers": [
-     {
-      "choice": "Troy Jackson",
-      "pct": 51.0
-     },
-     {
-      "choice": "Susan Collins",
-      "pct": 47.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 18,
+ "raw_poll_count": 20,
  "trend": "Toward D",
  "signals": [
+  {
+   "date": "2026-11-02",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Can a Republican Win in a Democratic State?",
+   "url": "https://www.nytimes.com/video/us/politics/100000011237418/can-a-republican-win-in-a-democratic-state.html",
+   "summary": "Senator Susan Collins, a Republican, is running for re-election in Maine, a state that has voted against President Trump three times. Our national political correspondent Shane Goldmacher explains how Republicans hope that she can distance herself enough from Mr. Trump to win.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-02",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Nacionale",
+   "lean": "unrated",
+   "title": "Maine Senate race: Susan Collins seeks a sixth term against Troy Jackson, a late replacement nominee",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUmo2SjlCMmNUem1LUFVXUS1ySnlPQ0oxVHpSZlN3LW14aDN2U3pjZnYzaHNYVzhrYk5aSEpOVnVxVzdqcjRqRXNEc1p3LWpNRWJmczBiR1A0MVU0ZG5RaTFSVXVuamt0S0xVZzFzcjRFQ3pBMVRrNXZaNWNMRG1uTG9n?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "SEN-ME",
+   "races": [
+    "SEN-ME"
+   ],
+   "type": "reporting",
+   "source": "Maine Morning Star",
+   "lean": "unrated",
+   "title": "Collins, Jackson make their closing appeals in Maine’s pivotal US Senate race",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWNNZG9udEgtWk91NWthY3hOTTFFNzVfWXRuSVpQYkQ1TU56YVl4cUFpWkNTNE84Q3NYWGZsTXpMX1czRTFkU20wTXc3eXlZVWprcVExVUxiWFdjTVZoaUhldUNpSDNFNWxyOEJUbmZLS0tzY3V6QnV3RlZzM240Q2ZDSjRsTEd3WG9PTTI5N21JVmoxdklZbGxmOFp1Ul9pNjBZa01qVVNvc1MyNy1Beks4bFgzb00?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-31",
    "race": "SEN-ME",
@@ -382,21 +426,6 @@
    "lean": "unrated",
    "title": "In Maine's Senate race, voters weigh opposing views of Susan Collins' power and influence",
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNEZzaXlYb0NOZkhHb192S3VqMzNRRWNTaFdkMGQzRUdoZXJieGZxbElGRURicl9rRTRCR2s0VEFhOXBWdHBPMmVmWkFBNEYxNVhWRWZZY1dWLXZOYXV5aS1sTGxoWGFHejBQb2dwdXV1MWtPZTRkZmlSNkM5RkNfenUzVUk1ZjBfRTA0RmhPMFU2RDVfZV9EdmxqbUw2Z1VIOTdmSHZ4WlVFaklXWEFwazhJa1J0UHhMU0pDNTUxMDE1RFRwRnRZUFNDaXA0YkU?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "NBC Boston",
-   "lean": "unrated",
-   "title": "As Election Day approaches, contentious Maine Senate race enters final stretch",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT2Vnb2VsZDQ5YTlmVVlITGdZaFc0Qll1OUFocTlzMEppUmpyTjBXZGRibkpYSGNiSEtHdXEta196ZFgwUnBqS1VTRU1ORmxTMlU5ZVFqdXg1alRVTlJYeVg5NHJmZVhjaDk2TlNVQUFxYVJkZl9FRW10ZEVMVmtNX3hqb2pjRUVXLV9wOTBEeWRiNzd0MzMzRU9pTjhyNTZnT2dYWXJLeTBHaUZudXI0bjdkczR5Z1hKMmxpVVRLQXlTaDBY0gHMAUFVX3lxTE1EeTBReFMydnJlLVlMSVZpMVFTbDZaX2VvTXlEdHFQRWd0cG81TWhyZmlGempoU1RZT2FNRmo3ZXV2V1B5anJiS1ZnaEhRWk4wTzRYeDV6QktpRDF4WTQ5MVV2RWZTOXo2dVpVcWRmT0hobGRyOWxDUHF4WjJKUW0wZmJxR1V6VWRzZHFReEFXZDZDSXhPM1gwb1puLXgwX0RrLW9TdGw3NFBIMVZTb05EVTY0NEFHLWlyMzJFX242b0pGX1UxNzRYOFpsaw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -513,6 +542,11 @@
    "date": "2026-11-01",
    "c": -2,
    "p": -3.3
+  },
+  {
+   "date": "2026-11-02",
+   "c": 0,
+   "p": -4.3
   }
  ]
 }

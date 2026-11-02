@@ -11,25 +11,25 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-01",
    "name": "Fox News Power Rankings"
   },
   "ie": {
@@ -39,9 +39,9 @@
    "name": "Inside Elections"
   },
   "nbc": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "NBC News"
   },
   "rcp": {
@@ -59,13 +59,13 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "st": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   }
  },
@@ -96,37 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": 0.2,
-  "average_label": "R+0.2",
-  "n_polls": 8,
+  "average_margin": 0.1,
+  "average_label": "R+0.1",
+  "n_polls": 9,
   "window_days": 21,
   "latest": {
-   "pollster": "co/efficient",
+   "pollster": "The New York Times/Siena University",
    "sponsors": [],
-   "partisan": "REP",
-   "start_date": "2026-10-28",
-   "end_date": "2026-10-28",
-   "sample_size": 1020,
+   "partisan": null,
+   "start_date": "2026-10-26",
+   "end_date": "2026-11-01",
+   "sample_size": 705,
    "population": "lv",
-   "margin": 2.0,
-   "margin_label": "R+2.0",
+   "margin": -1.0,
+   "margin_label": "D+1.0",
    "answers": [
     {
-     "choice": "Ashley Hinson",
+     "choice": "Josh Turek",
      "pct": 48.0
     },
     {
-     "choice": "Josh Turek",
-     "pct": 46.0
-    },
-    {
-     "choice": "Thomas Laehn",
-     "pct": 1.0
+     "choice": "Ashley Hinson",
+     "pct": 47.0
     }
    ],
-   "url": "https://battlegrounds.coefficient.org/ia/"
+   "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ia-poll-toplines.html"
   },
   "polls": [
+   {
+    "pollster": "The New York Times/Siena University",
+    "end_date": "2026-11-01",
+    "margin": -1.0,
+    "n": 705,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ia-poll-toplines.html",
+    "answers": [
+     {
+      "choice": "Josh Turek",
+      "pct": 48.0
+     },
+     {
+      "choice": "Ashley Hinson",
+      "pct": 47.0
+     }
+    ]
+   },
    {
     "pollster": "co/efficient",
     "end_date": "2026-10-28",
@@ -359,31 +374,43 @@
       "pct": 49.0
      }
     ]
-   },
-   {
-    "pollster": "Marist University",
-    "end_date": "2026-09-20",
-    "margin": -8.0,
-    "n": 1050,
-    "population": "rv",
-    "partisan": null,
-    "url": "https://maristpoll.marist.edu/polls/2026-midterm-elections-in-iowa-september-2026/",
-    "answers": [
-     {
-      "choice": "Ashley Hinson",
-      "pct": 42.0
-     },
-     {
-      "choice": "Josh Turek",
-      "pct": 50.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 18,
+ "raw_poll_count": 19,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-02",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "Nacionale",
+   "lean": "unrated",
+   "title": "Iowa Senate race: Paralympian Josh Turek v Rep. Ashley Hinson for Joni Ernst’s seat, with late polls split",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yNXZCZ3R3RVA4LWlrekpEVkZ0T0tJdEUwbDBEb1h3NExyX2ItN1I4QTNoXzdGWUZfYllfTEIySTRHUGpkc3liTXd5RnRwMWprekVoV2RmSUZPNW5xeXZ3cGxPOWZtVjd5blVJUFJGd3hyVk5tVjE0RnVrNkw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-01",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "The Washington Post",
+   "lean": "unrated",
+   "title": "Democratic official says she won’t back Iowa Senate candidate over trans ad",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUHE2bTV4eFZ5Vi1GSEZEY25nekRxRjRselVwaHVmMnZ5MnRXSXo3WHdyOHRQM0Z5aDM4RHFmOExvTE9UczNzamx4OFR1MklVOFBPUkY4dmZsU3NDZmJVT1JoWWRaZzJTdVR4ZFdYSVE5czZzY2JWSlVMSXZ1dHNHYWFKdmdZQUxNSFRTWV9tZFRVUlViTXQxWm9RRURFbUdFc0doWjJHQWxnZzNsTjBjSldXY2xvMmFuNFpidTNMQlZIdHM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
  "history": [
   {
@@ -495,6 +522,11 @@
    "date": "2026-11-01",
    "c": 0,
    "p": 0.2
+  },
+  {
+   "date": "2026-11-02",
+   "c": 0,
+   "p": 0.1
   }
  ]
 }

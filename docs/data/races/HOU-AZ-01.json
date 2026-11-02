@@ -23,25 +23,25 @@
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "The Economist"
   },
   "st": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Split Ticket"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,13 +53,13 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-01",
    "name": "Silver Bulletin"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   }
  },
@@ -161,16 +161,31 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-28",
+   "date": "2026-11-02",
    "race": "HOU-AZ-01",
    "races": [
     "HOU-AZ-01"
    ],
    "type": "reporting",
-   "source": "ABC15 Arizona",
+   "source": "Hindustan Times",
    "lean": "unrated",
-   "title": "Arizona's 1st Congressional District now leans Democratic, two leading forecasters predict ahead of election",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSlU1dzdSYkV6TG9ORWNiMEk2V19uRnl5V24zMVQ5bVZldWF6aFBMV0lqWXJObHVCYzA1UkY2OUZSWXhOd0Z5RkZUaWpRX2M2US1wU2lXeXVvZi0wZS1MNlFTX1dLbFJ4RXZHZmx3S3dGTGhwTXlYQW9mbGF1THI3OTlnOWtObVhib2FhVHRNY2ZWN1REcnRVQ19TaFFxZEtuZ0NXVDd3cFVNbGxJMjJUNThPSjZnUUV5aVNUdHhySDZzNGtPZUdEMU43V2I0WUhLZjRLMElVcFlSMktEbXc0QTZzbmU1NjQxWmZIN0pyUFA3QlJqcXJwM0NxV18?oc=5",
+   "title": "Jay Feely's journey from NFL star to politics as he eyes Arizona House seat | Hindustan Times",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdHVxc2xPTFdYMmEzcld3a2JXNnBzQzZlblFfVDJrZGtGVDI2MXREYzVhdFB5ZW5WS2Fadm9Ick5lR05aak9fV1pLdDV3eEVXYTd2NFczV2VXcXhOaVBZV1J4d3NKcmRCRDUtMnZ4U2tpS1dQUFNjYmNNaV9pMXhtVlNVVmtrT3k4SGUwcVh2VjhOQzFzaDRwUThiWTdxVEVlYXhQTC1UYU02U1JGNktSTEkzZkhvVGVtUW01dUNaYXlFc2JPSmMxRGdlY0NUREpSOG4wcFdwWVl6dXZiY0HSAeMBQVVfeXFMTU5YNGlZTVdpOVFrbS1GNThuandSUnFCRGFXWVVqbVphbGNsbDhyM0h6R3dINTE1MHY1R21nNGprV0dIdGNXdXFaY2RYNmduYXFXQzZGS2wtbF9xRDBhaklfeHN3NzdER3BJZTd1Y3ViaU40SkJBN2tDUzFZc0tXNFpXcWo0a3BzWDNBcXBYeHRTaC1KeXdhZ2xaX0RZV2RmTlVKYjllemhCdDQ1cGJ6S2hianMtWVlPY0NvS2lkdnhmVFlFWmUwNkdNYW9LbEtfcjl6aG9QSEVfNjVqQkJla1IyamM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "HOU-AZ-01",
+   "races": [
+    "HOU-AZ-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Arizona 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLWV3SlZHWDBWSGRwbW8tdjJoTVE0M05NRjNmVWJqWklOVmlRcVRGT3U4MEtvNG9OYUlCSFVmaDc1bnh5eWlaZDBsUjduM0F3cVJ3S3ZLUkwzbGtjSk0xMDIyX08ybk9xRlVWYVREOWdRT2FHemFiaG5JQldva0ZkRDlR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -285,6 +300,11 @@
   },
   {
    "date": "2026-11-01",
+   "c": -2,
+   "p": -3.4
+  },
+  {
+   "date": "2026-11-02",
    "c": -2,
    "p": -3.4
   }
