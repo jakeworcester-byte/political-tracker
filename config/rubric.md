@@ -49,6 +49,9 @@ Markets
 - Early ballots by party registration are participation signals, never vote counts. Never write that a party is "winning" the early vote.
 - Mail ballots have skewed Democratic since 2020, so the change versus the same point in a prior cycle is the headline; the raw gap versus registration is context.
 - Every early vote number carries its state, source link, and as-of date. Sources are state election offices, the UF Election Lab, or major outlets reporting official numbers; never social media accounts.
+- Lead with **who is voting**, not just the party split: voter-file analysis of new voters, people who skipped the last midterm, habitual versus low-propensity voters, age and race, compared with the same point in prior cycles. Party-registration shares alone are the weakest read; use them as context.
+- Preferred voter-file analysts, attributed by name: Jon Ralston (The Nevada Independent / Ralston Reports) for Nevada, Michael Bitzer (Catawba College, Center for NC Politics) for North Carolina, and major-outlet analyses of L2 or state voter files (ABC, NYT, WaPo, CNN, AP). Analyses from party-aligned data firms (TargetSmart and Catalist on the left, or Republican-aligned firms) may be cited only with that label. Read the analyst's own post, not a social-media summary of it.
+- An analyst's modeled estimate or prediction (for example Bitzer's registration-based model or Ralston's final predictions) is labeled as theirs and as a model or prediction, never as a count or as our view.
 
 ## Hard guardrails
 
