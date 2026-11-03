@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -89,6 +89,21 @@
  "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-11-03",
+   "race": "HOU-IA-03",
+   "races": [
+    "HOU-IA-03"
+   ],
+   "type": "reporting",
+   "source": "KCRG",
+   "lean": "unrated",
+   "title": "ELECTION RESULTS: Who will emerge in Iowa’s competitive 3rd Congressional District?",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdERuSks1aWtxRHh6RjBWa0sxQTNOVVZ6S0pPODFIbzVLRWpYSkw0VVZFSnBnbUtiZzNjd0RfdzI0bHNQckJZSGlsQUJMRWJEdHZCazNpa2tYQmx3WHRPWTNkS0I2WXlTaXQ1RlE0Mm41WW9fS0RzenB5b254WEp6OTVncHRzaTd0NXFiMEFQS1IzYzdqbllQZDhQS25kbjVybEFEa2ZMcmU1cnZTS2E4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-10-31",
    "race": "HOU-IA-03",
@@ -130,36 +145,6 @@
    "lean": "unrated",
    "title": "Iowa election results: 3rd Congressional District seat",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVXVMZ1pWaGpJYVVyNGNWeVZQeHk1d3VOMFJnTEVpN2hnblN4VVY0dTczMjAtRkdsMEw0TVFZUUpIUk4ta0RwT0lQT2FpSnFqaW93TXBvV1pkN2xYUU41TFRUdFNNcFUwd3p3WjZYVmlTX1RxN1kyRTNDc2tGRHl3SmtoZ0gwZDdLLWpCTUpvclNBdFZWaWM5TU9ZazdvdDFoaW5QZXVYZ0lBcHhOWUxqTnd3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-IA-03",
-   "races": [
-    "HOU-IA-03"
-   ],
-   "type": "reporting",
-   "source": "Iowa Public Radio",
-   "lean": "unrated",
-   "title": "Nunn and Trone Garriott debate Iran war, healthcare and affordability in Iowa's 3rd District race",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONDA2eFdpN0VlZnFUVkJKSVlSTEh2eGZOVGJwai1yd2pQVVQ2NDdsZWZyRFU0dmFLMFVpQkxUUzRudTNZSE1BXzVNaUk3ekk4aVNnTFdNVUFZSlVUZ1YzeHZ4SkNYODhKLWFJcXMwRkQzenVHeWJUcFQycl9QTE1DbTJGbTV2dHRuUU5rZEhIdjRXcGpqZWVDSlB6RldmQXZhalVUdzhHR1BvTm84WWVWTWp1VEY5TTN4c19aVXROV1ZESE5rM1h0QzJTdTRiVmI1dkp1Mi1aZDc2bTZtZW9hU2Z0b1ZEejdzQ3laNTVVRHVHUXFOdU1n?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-IA-03",
-   "races": [
-    "HOU-IA-03"
-   ],
-   "type": "reporting",
-   "source": "The Economic Times",
-   "lean": "unrated",
-   "title": "US midterm elections 2026: Iowa’s 3rd District tests whether Democrats can win back Trump voters again",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPTWs4TVU0QkpJZ19qV2NVRnU0X3VpTXlrTVFLdjExOXpJYllmcU80MmJzZjN3QVdzQUlWWHpiZk1mZkVzWkIxOVZGRHMtekY3NTl5eUJ6MDJjNFllLWRnT0poTjhtS2o2OFpiN1psN3dpVHZBamMyZ2JnRGpLRXV3S2xVeHdabXBJeDlxaElUWXF0bEk0WE5DbkczTGZ4NGRKRUxLZFo3MnJ5dDE4bzRLTzNSWlVLU3dVaDlwOHVNV1JmaFJWSGJ3U3RrNjM0bEhBT29EYVp5TmU5UUVBNXpIOFhLY0NnbGhLWnNxMG5RR255MTdfSGfSAfsBQVVfeXFMTW9kbnl5LU9RS2QxVlR4dmpFcjVEdGF2Qko3TzZNTC14LUhJUUtmQnlQVXd2Ynhrc2IzVGxMdldhOFNrWWprSGU5Vkd6ODRLV2RjaDZMbVhqakZiUk5ERTJGaDlOSlV6ZEZ1NHoxeDlHQWVXTFFuTTdmUU5Fanc1bTE5Z3V3RkVIdWRQZDV2MzgwM1dlbkp5Tl9KclVKSzE1dFhkSUZjT0xWM2l3RS1vNUl0b3MyTTZPTmxkTUlHT1BacnBzR1Awb1dUNmFad3lrYko3SXlzNXpNVlZiY1B0WWUxLTltakRGWU83QVphaTVKVGd5and1QXNKTW8?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -279,6 +264,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": null
   }

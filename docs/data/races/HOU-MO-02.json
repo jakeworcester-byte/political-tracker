@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,19 +15,19 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
    "as_of": "2026-11-02",
    "name": "Split Ticket"
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -182,7 +182,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "HOU-MO-02",
    "races": [
     "HOU-MO-02"
@@ -192,21 +192,6 @@
    "lean": "unrated",
    "title": "Missouri 2nd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONE5hMXVWZEU1bzMyekhYSWZVQ2NFYnhScTUxQ0NkcG10dk9HLW1MU1pZRWREZ2MyRDYtTUlMUjZaMnNSVGVES2l4aFdySDc1ajh3SnNOX3NaYk9MZ05ic1B6R3NJZE5uQ29WdlF2dEc2bF9KX05zNWpiQ09nWTZ6UjdKcw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-MO-02",
-   "races": [
-    "HOU-MO-02"
-   ],
-   "type": "reporting",
-   "source": "Quiver Quantitative",
-   "lean": "unrated",
-   "title": "Press Release: Ann Wagner Announces $39.7 Million for Rural Health Care in Missouri",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcmhkOUVORm9DMkpLbWZXd2ZxYU1rYTBQVXJGMHJocUFnSGNHUlRPcnJPY1NGbnFsREJIRld6VHFMUEFrUktjTEdhWnBiUUFHVEdtN285eGR3NXJKVFBXSlk3djBTSmRGRmJITVlGQ3NxWVZyRXp3UFlnS3h1Y0hXamk3REdmQVRzRTUxZ2JHMGd5WTdRR2Npc1dmRVpkM1ZsYUVrWi1KVXJuT2NnaU9Ub2thWVNHQVdwYzJ3Xw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -222,21 +207,6 @@
    "lean": "unrated",
    "title": "In tight Missouri House race, Ann Wagner and Fred Wellman clash over Iran war",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZmVrMEI2M1A1UEhjeUM2Um55bndwMm9qWGlacWE1LXM2d3NxbXljT0hwcTI5Y0s4NW1fbWFMZ19qTzQyLWMzT0hmYUtiWmxYUEY3b0x6a0hWODZWS0doOUJndG5uaXFMV0R1US1fVWhyQzA2Y2RhMWtKNV80d0ZobHhsYzBJVWpSNVd6WEEzSDBIeTIyVzF4LU95emtsTWdjWUhzOFJKSlVwSnFTN3NUdnpNTnM4Z0ZfX29NMjBLemlKZVNpTC1OQnJyMUJfdWpUdWR4TEQ5c3VieHJ6bHhPQm5nNkMtVFU?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-MO-02",
-   "races": [
-    "HOU-MO-02"
-   ],
-   "type": "reporting",
-   "source": "Spectrum News",
-   "lean": "unrated",
-   "title": "Wagner-Wellman race for Missouri's second con­gres­sional district deemed 'toss up'",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSmUwa0k1ekcydC1xay0xNkJYdlpwZHhTYnVuVHNXNkRxWk1LZGRKR2hyNmlSbDRCSWxLek5UamJnSzBfaWZwcUpLQlNqbEZJRFROMXdfTFpmaUlRZFFGQ1hldjRzVnJSblhkM3hraEs4N0lKd0cxZjZUbnJHc0s0M2tWeWxCbXhNQWg3UTB3?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -356,6 +326,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -3.0
   }

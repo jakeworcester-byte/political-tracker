@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -281,7 +281,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
@@ -289,8 +289,8 @@
    "type": "reporting",
    "source": "The New York Times",
    "lean": "unrated",
-   "title": "Judge Rejects Trump Officials’ Move to Challenge Alaska Senate Election",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHeDdFRU5nYjhHUG1EZ1JXdnVtZHpXMW43MEZJQnpVY0hEcWJ4TGowcjFVSTFjNm0wcUVHRjhmLW9BOXNheE1CMGFiTmxweENxLXBNb3NfdzEyb0dUWERraC1UTWNqaEwtQ21UVzVWd2p6U1BrZDExakNXSkgzdw?oc=5",
+   "title": "Inside The Times’s Decisions on the Alaska Senate Race Story",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMEtnNEMzeHp0SnlzMkRHbkhBeU9CUThsQm02ZHA0OFVRN2p1eTRMQlVHQ29KQjNpNTZOQkhVWkYwU0ZUWW11RVpjbkNQTFlaU0Y1cF9zdllQTFJLcnNwbFYtdGZCR1haQjBPdkd5UWxscnZvNWJfd21VNi03RFNiOWl0NnQ0ckFfYUpaWVJ6emsyOW9SNlFF?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -302,10 +302,10 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "NewsNation",
+   "source": "PBS",
    "lean": "unrated",
-   "title": "Judge dismisses lawsuit seeking to block certification of Alaska Senate race if GOP incumbent loses",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYWF0dHRIUHRIenFLaGF5YnVnc0p0TUs0eWJ5UUxGUUM0cDBMdHVhZjdmcGk3SnZSUzBQVVlpVE9kaVQ4NDI4Q1NlYXcydnZycWc1T2F3WmJ2Y2FvRFpHNDZzY1VUNEF5N2RlYlhobUlXR2Q5OVNpSjlOWHJBZDVIbTNXVW0zaGhkdlRrcG1OWmZUemN3Vm5sd2lyNWF2Z3NhR2ppSnpFVkQ2TVnSAbABQVVfeXFMTWM4di1LUVVVTkFTeU9fUXNZTE1Tclh0enY1X3V4aWw2YVBaNEFPZVRkQVBTbzZkdUlXeTJYSEQ5T242RHozMlBYX2VwN1BCcEdad0xRNHU0dHNtNXFKUjBRR1J3QWpFR2E4dHFXWUt1SkVuaWRQODY0bWtlcS13ZG5XX3JJWUVKWkNxWjd1bm1LSVI2WjAxX3MwVktQaVBYVzE5TkRTekFRUFA5M1ktOEc?oc=5",
+   "title": "In an Alaska fishing community, the Dan Sullivan episode takes an ominous turn",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTXNSUzI0dExhQlhHQm92d2NOY24ycUc0UUwxdC01RHVSanJ1ZTBFMnB3T0VpVEN0Nm5HbU1fVkg2RUNuaUNWOWlJRzdiLXFsYUdURU9YN1BzaDRibFJVVlFsZUtMWFhPTHgwaGEwU1NBeGJiSUNqeWcwbHBVTzM2eTI1ek5ISldqaVpveFlOdnl2c0k4Z3JvUnd1R2t3Wjl1aXBhRklzX1RGdkVHZHNXamRFMlAtQdIBuwFBVV95cUxNM0hoQVpWcnROWmZhWTg5OFY1SmRxUzdVdklCcGZVMUpaVTVfX2laR3VGaTZaNmpfTzl5a3RJVWw3VVRIQ0tPdU9qdWRMT0hvanZqcWF4YTdTNkpWaDFKSWI0ZEFuWEdNcmZwbDhVb2NqLWg1QlR1YjJDM3BXeUxIQktuSlN6dTZNSThKei1INUN6UDJtLWdYWi1OV2tTSVY2a2xXWVhEZml5R3JBa2JvZW90RHFCSjJLaXVJ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -319,7 +319,7 @@
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
-   "title": "The tale of “Decoy Dan” drew chuckles and eye rolls across a remote Alaskan fishing—but now the FBI is involved",
+   "title": "The tale of “Decoy Dan” drew chuckles and eye rolls across a remote Alaskan fishing village—but now the FBI is involved",
    "url": "https://www.wsj.com/politics/elections/alaska-town-reckons-with-decoy-dan-election-fallout-now-it-is-serious-4a13abbd?mod=rss_socialpoliticsfeed",
    "summary": "In an isolated island village, a namesake challenge to Sen. Dan S. Sullivan seemed harmless—until the candidate vanished and federal agents started knocking on doors.",
    "relevant": true
@@ -331,24 +331,10 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Judge tosses Trump's attempt to block Alaska Senate results if GOP incumbent loses",
-   "url": "https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan",
-   "summary": "A federal judge has dismissed a highly unusual lawsuit by the Trump administration that tried to block the certification of results from Alaska's U.S. Senate race if the Republican incumbent lost.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
    "source": "CNBC",
    "lean": "unrated",
-   "title": "Judge dismisses Alaska Senate election lawsuit; DOJ vows appeal",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT0oyNEhUWVdvWGt5dFFSNGpPMENlTjJXTjBwVlpEV1pVZWt3eDBxLTN1blEtQ2xaeVQ5d0s4NmtIamd0LXAyR3pfMzZxaWxqSUoyYmRZd2JJSnNkS2oxVTN1NVpHNXJnaHlGYUlIYlBGdXUxR25hUGFLX1kxWGNyaWw1Nk1GODlfT0QtODl0ei1fVXfSAZgBQVVfeXFMTmlxWUoySmdvc1dlU1huZl9YYzYwejRhZ1JROUpLbWtPam83aXRKY3ZkSnVQcmNKcEFFM3V5Y251YWpTbHBMSktINU1DeG9mTm1MTV9GNEQ4NmVTczViOVhGcVpHak1ENFpZbVZySFV0RDIxNW9JLTdSTEU3bnFXQTFrUC1GUGVLYlFyZ3ZBdGdXdzk2UWJMTEE?oc=5",
+   "title": "Alaska Sen. Sullivan says he'll accept election results, slams Peltola campaign’s reported recruitment of 2nd Sullivan",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUHNNSFRNTm5qU052YlVzaTlWWTEwMGx1aGFLc21xQVhGZy1fdVdSRXlPYUhxNWowSWVVOUlqb2VnLTd3N29OVl85ejNOcXRMUlE4ejhfMzQwZXpGXzdtVHZTTTRaaFBzSV96T3hVYVMxOUh5VUd2ZF9jNTlLNXlfT1RzbllKYkHSAYwBQVVfeXFMUDlNRmxIV0gydUx2NFdZYmp6ZzROTWltOVk3Z3A0U0ZUMVM1dFl0dTFYaks2YkJ3bmljc0Q0U3hzWEVVZUhkOFNpYzFwNmhJQVJVMDdad3VPR291WG1HTjd0NWJrb3R3eVZ3dVlLQ2cyQTdWSHNQaDJnSXY4SmFmek1IeVU4UVZVeFJLVzE?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -375,10 +361,10 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "Al Jazeera",
+   "source": "The Guardian",
    "lean": "unrated",
-   "title": "Sullivan vows to honour Alaska race outcome, US judge dismisses DOJ lawsuit",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT3pxMnEwd2xZTEtVMzdON3R1TXJPUVNtbTRHaDVPWmFOUURNUThKdjdPaHJNdjZMUEJYT1JnUjJMT2dya1RuX1cxRnd0dFBmWlZxRXFwaHgwbVY4dXhWdXdBWnJXRW5CQ3JCYVRROXVCUnlfNERHSUNDbzE2SzlvUWtYdUs3ZnFsamRIRENUaFd6LXdMUWNzZ1h2aTlBbFNRYlI2M0hUeHIxLTdRY2RjVkRTWnpCd9IBuwFBVV95cUxOVkhHaDloM2JKdURTWWpvZjd1dUFLZFFkblg0dE55ZEZwUm9BeXpGbi1vNWNBY2l2Tm5ZdWVFY0dkaWVrQmxyYWdoSkRxUkttU2NYbkRyQ0twU3JLNXdYSUpkN1U5bmp0azBlam9WVDRZblJSZ3V2MVMya2dUWUFFY3IyWEVOOXoxQmF3LVR3NVRlTk1YTjJVemZYTTJwdDBPZWVvZlJ4TDJGN1Q1Q0VheVk1Z2RqQ1gwZ25v?oc=5",
+   "title": "Judge dismisses Trump attempt to block Alaska Senate race results if Republican loses",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUlZUb3MxSW1QUVU5VTdwRDk1U0M0dFNneVdPSUwtbDZ6RjF5Y1oyR2NfSU5ycEhNamFwTDQ0VlZtVUNVemx2ajJCblpkbFNnZDlvR1huOC1kNllyNnp5WUVRTUxEWUJ6SnRBZ0dTU0hrWEhEcmlqUzU4Z2xHalM2SFVGZG1CY1hxUUlFeWw4Z1NNa1Fx?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -390,10 +376,10 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "Politico",
+   "source": "CBS News",
    "lean": "unrated",
-   "title": "Judge throws out Trump admin suit seeking to stave off GOP defeat in Alaska Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcS1DVkRfaW55aGV1SW1kNzJtVTdXUW03QUd2Wi1VRUt1QTFLUDBJd19TREx5cFdxNFRTLXhiQ21PSHhUTVRHaU9xVGlUQWJvOFJ0cjYzMWs5UXpGUGRGdVZXcDdUbG11cTVOc0xpQUJlT2VyWDgyN0VYMGlOaTFzd0FwaGpLSkhmaUU4?oc=5",
+   "title": "Judge tosses DOJ lawsuit seeking to delay certification of Alaska Senate race",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbGZVRGY1b0VRUXRrUE9qWDJMR1czc1pyYWlQVkNMWUR2azItMFcyWEE5NWN4YWhjZkYtWkM3U3EtN0JsUWxuZ3VpU3JqTTdNUW9MR0M5VmYwTFJjSUhRSUJMVXdQN0ZwV211bHJId09mR1BZT1BkNzFuNVhGTS1ReVRtMTgxZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -405,42 +391,13 @@
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "New York Post",
+   "source": "The Washington Post",
    "lean": "unrated",
-   "title": "DOJ suit tossed as feds fought certification of Alaska Senate race over 'Decoy Dan' Sullivan scandal",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQjNLcHEyZEFMTlczWEVhbUlfV3RtMk13ZlJxck55b0hpQ2syVFh2QmlKVFJqOTJFeGhKUU02d19JeW5DUTIxZ21IRzNBSTZDMnZEOXM0SUtNYVh1N0pCOWdhSXh2a3RESHJrMEhvbU92cGdoRTgzcno1X21NWDlINkhKc1VSbDB3by1pd2J6M2lEamxiRHVkU3hDd0NNTEIyTGVMTGVDMnVJWWw2ZUlkb2JIRlk0S0ZZYll4LUJPc2wxbDdLVUZ0cFZNYmNqSjFKTk1v?oc=5",
+   "title": "Sen. Dan Sullivan says he will accept Alaska’s election results even if he doesn’t win",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa3JGdC1tTWNhN2xsS2gxYU00VXJNT3pTeXA0Vm43clBiQkRNRWRKZ214REFtNFRYYkZFa1FSMXpjUXAybWRSRDJua0pZUlNTVG9mektaQjJseHpadjlEWFlGOVR1cDN3bkRHTTZHT3Fieklsd1M1UTBfbk02YkJxTjhmMTZuT1NpV09IQURIX3ZlNU5ZZXY3WHllS0hiaFJOX3RrdEt3cU5YU3hmVmU2VFl0MTRqa0pJZDlxOVZkOGMwcy1lWkR2THQ2am4zZFFS?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "CNBC",
-   "lean": "unrated",
-   "title": "Alaska Sen. Sullivan says he'll accept election results, slams Peltola campaign’s reported recruitment of 2nd Sullivan",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUHNNSFRNTm5qU052YlVzaTlWWTEwMGx1aGFLc21xQVhGZy1fdVdSRXlPYUhxNWowSWVVOUlqb2VnLTd3N29OVl85ejNOcXRMUlE4ejhfMzQwZXpGXzdtVHZTTTRaaFBzSV96T3hVYVMxOUh5VUd2ZF9jNTlLNXlfT1RzbllKYkHSAYwBQVVfeXFMUDlNRmxIV0gydUx2NFdZYmp6ZzROTWltOVk3Z3A0U0ZUMVM1dFl0dTFYaks2YkJ3bmljc0Q0U3hzWEVVZUhkOFNpYzFwNmhJQVJVMDdad3VPR291WG1HTjd0NWJrb3R3eVZ3dVlLQ2cyQTdWSHNQaDJnSXY4SmFmek1IeVU4UVZVeFJLVzE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The Alaska Senate race is currently at the epicenter of the political world. Here’s what we know.",
-   "url": "https://www.wsj.com/politics/policy/alaska-senate-election-ballot-midterms-6f9f4c4c?mod=rss_socialpoliticsfeed",
-   "summary": "Investigations are proceeding rapidly on whether ballot stacking is anything more than hardball politics.",
-   "relevant": true
   },
   {
    "date": "2026-10-30",
@@ -469,21 +426,6 @@
    "title": "Democrats Caught Cheating Right Before the Election",
    "url": "",
    "summary": "Ruthless breaks down explosive new reporting on an alleged Democratic scheme to manipulate Alaska’s Senate race by recruiting candidates to run against Dan Sullivan, raising serious questions for Mary Peltola and Chuck Schumer. Plus, King of the Hill returns with Bill Kristol facing Steve Schmidt, a",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-27",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK",
-    "SEN-MI"
-   ],
-   "type": "podcast",
-   "source": "Pod Save America",
-   "lean": "left",
-   "title": "Let Them Eat Cheesecake",
-   "url": "https://audioboom.com/posts/8969627",
-   "summary": "Campaigning in Michigan, Barack Obama says Donald Trump's White House renovations look like \"Saddam Hussein opened a Cheesecake Factory\" — touching off many rounds of fake conservative outrage. Jon, Tommy, and Lovett discuss Trump's reaction to the comparison and other news from the campaign trail, ",
    "relevant": true
   }
  ],
@@ -601,6 +543,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -1.7
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -1.7
   }

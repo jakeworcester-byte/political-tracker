@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -77,7 +77,7 @@
  "incumbent_note": "",
  "consensus_score": -2,
  "consensus": "Lean D",
- "disagreement": false,
+ "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 6,
@@ -163,6 +163,36 @@
  "trend": "Toward D",
  "signals": [
   {
+   "date": "2026-11-03",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "News12 | Hudson Valley",
+   "lean": "unrated",
+   "title": "New York’s 17th Congressional District race could help determine the balance of power in Washington",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd241em9SbWZnZXdPV3ZZbFJRZ0h6WUthQ05LaVhSV0hHdVMzaG5RV3oxQVNtcTFYMmxsM0hqcmdTTlFnMnF5WGhNZ1A5TmY2SnVsTVoyQXVnVnBfY2Y5Y0RRTWo0aTBvWTZiNC1ianU1S0hDMmdzQi1VSk83eFVzM1BydVhZbDhMTlg5emJESTJxNzRGT2N5UjgyWmRWbTdlSE9ZX1NLNWxpNGxIMHZjNm9tcWZlbzR5WXd4Ym1vSzhINmdZOWFaLU9n?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "HOU-NY-17",
+   "races": [
+    "HOU-NY-17"
+   ],
+   "type": "reporting",
+   "source": "ABC7 New York",
+   "lean": "unrated",
+   "title": "Mike Lawler, Cait Conley make final push in NY-17 race",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQWg3V3pjSlY3N0c3dVhndlpCUjFvZ0FBWnFkR3lsRWV4dGRZREFwd2pOU25aSklsdUxRYS1idVRaQkRycVc0MUhFd1FIZzJUd2tmNzFMLXdIbkU4aFloSl9udzJSUkt4U1N2cGNwLWszYjVsdkFyb2Fsc1VsX0kta3JRTXhJZnBYUENMStIBkgFBVV95cUxQaHRYbC1sUjdCYnpidUdjWHVKM1lCUmdwRk5yWGpvZGJDRTk3ck9sMFhTVXd6SEpITWpqOFp6X2paMzE4elZFVjBYLWY0NjNCQUZvbHVaZUtONXhVaXdGamo3TDg1bUZudGcyZlhhVTd2cDMtY1pqMFc0MkNpRzhBVDdPWkgtZ185SHVBeEVKWG92dw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-01",
    "race": "HOU-NY-17",
    "races": [
@@ -173,21 +203,6 @@
    "lean": "unrated",
    "title": "Mike Lawler flipped a New York district red in 2022. But his ties to Trump might bite him in the midterms",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM2lGNVZFQTJLQXhnakFwbHRpUjF3Y1ZVMWtfb282MGU3Z3o2RlByeVdyRlVBQzg1QXJzbGxQbjV3R3hLZE90TmQyRHRIQzdEamZBVndXN3dYcFZmUW9USktLa2tGZ1hNMWpSdDZpWFB0eWl5MTBXcm5DMEhDeVNVMWZNOUhPUlZ2clRUWFRhcw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-NY-17",
-   "races": [
-    "HOU-NY-17"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "New York 17th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkJpUm1ZaDNTMWtIVjNhaWl0R3M4UmEwY2tPQllTRGEtaFFVaGl1SlZEVFNaRmtwVDBYTW8ySzU4am1WT0tVWHZrclJZVWlMMVVQZDR5dWNfYktjbUVKSERRUldCSlFEa1U0RXE5dHJsWDlhWTM1aU1lemNYMjhWVVFHclA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -307,6 +322,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": -2.0
   }

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -163,6 +163,51 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-03",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "KING5.com",
+   "lean": "unrated",
+   "title": "Washington's 3rd Congressional District race comes down to the wire as candidates make final pitch",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPQV9SRTdmWGF6ZU9rU2IzRG9IYTlQaU9wMFVuUlJjN2xwN2d6MlM0MGxydVlLSGlBTjJKRExOTktva0VzeWwzS1RadWlxRGUwZDZrX1NZU0ZGaUpHQXp3UG5zVl9rSUx3ekx0WjdfUVpPSzRuY29uZG1RQkNoUXkzeVgzSG1sYTdrOUtPaklFVnlZOXlDUGJmTFNRVUl0dWpYb2ZFdGFSMnpFSmpTZEdvQjAtNlNCNTZQWTM3aTVEVGE2amZweTVtODA1Z1ZoN05ETEdBSjJBZlI1c0Jldi1VMG1NeXZBYTdBN2xzSWdlSDdMRlRoWl81NFp4cUxXT2R4M1JxSFlQZGJOMGpzbFNiSzNLUFdLdEtwa1FESg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "AppleValleyNewsNow.com",
+   "lean": "unrated",
+   "title": "Previewing the race for Washington’s 3rd congressional district in the upcoming 2026 midterm elections. #wapolitcs #midterms2026",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQWTNHYkszaEhJRnpBaFNBdGx6MW1lXzRmZ0VmcU1WbHhGYjRhbjlHVHhrNVlsTjEyLU5GTC1aU2R1RTZyNW9TaXhVc2F6YzU4ZTRieWFEMTRFQmNiaU5EekxSaUd3VjhHeEpsR3NyUWtDTnluNHlGbkhKYW0taDBDaDh6dGMzZlBLNXJhbHFjbWl2aExmcVlNSUE2aWZSalZjcWdIMkZhNFhnbTNReHdObS1kUHEtSXdKV2hpRXVkYTFLOWJqOUd5bDBidVE4SmhLRmpYdVcwRlJDTFdmZEx0SlFyay1FWml6THVIUDU2eHRzVWV2STFwTmFSdHpLVldORmRESGUteTN5dGVqb1BFcDNIV3JRLVJNNzVF?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "KIRO 7 News Seattle",
+   "lean": "unrated",
+   "title": "WA midterm election 2026: Two candidates vie for control of the House in Washington’s 3rd district",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT3lCb3Z4SmM2a3pxWlI3RGU0ZmxwejRSQ3dDanZndWNNOHRwOWp4VTc1elMycEhXSWpweG9RZWVDUWlRb1pPZkJEUUlGSG5DMEY5VEFjclp1MlM2d2VnV1JBUHhRSlVXNG9IRDdzMzVHTzBvT1RlTzFWMWRJTUpvWVVmcEZVWjJqa3BzbURvN2hfalVJRFBrdS1WWkQ4NFYtQXR4RUVXdkJNaks0RlVQUGk5Tmp2LWtSQnpQU0NkZi0ydURsQjlFbUxmWUstbnZ00gHkAUFVX3lxTE42RFJZTm9sSEU1Skpaa3hPSkVWalhWcFJKbFhtZVZJZGUtVkpkV3MtT3dudk5LZEx3N2l4V3c1UVVUR256T1htQ0EtTkQyUGlBMDNFWEp6OVhtT2N1U2pIQm1EelA1ZktnQkVDeUxCbnpZWHdSOGQ5eFh3cExlNGdFR1NmUjFwV0dGQ0FENzAzUFM4eXZuR3NXRV9VU1MtRlpGc2t4QjdYaXhHOHhiaExzdTgzMHJCM2JuOHZqTnBSMlFfbHl3QmRNbXc3Q1o2MnBWeTd0aF9NVE1oai1IcEt6RTZneQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-10-30",
    "race": "HOU-WA-03",
    "races": [
@@ -173,36 +218,6 @@
    "lean": "unrated",
    "title": "Gluesenkamp Perez faces a new kind of GOP challenge in Southwest Washington",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWmVWRWVLTlNBdWVOQm1MZ21kMy1yZjdVSDZLckNiOFRCUnc5M1NtamhvUDVaNE5La3ZoaDBHTEt6dzAwdi1tRnQtMUk2VDV1VTI4dWZDejFCb05TLUJvY1kxLUdSc1hHMHJaVExSa2NaNmU3eXFtUEhIZDdHTi03R3ljRHRBQk5CeWdmaTB2OFYxQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-WA-03",
-   "races": [
-    "HOU-WA-03"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Washington 3rd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV1JHbUpna085SzJrZHNQdllVa2p0dkJ5N0tTcTVFZkViQnBKaW40eDF5UEJmMmppekQ2TnUwdnZYODY3blR4ODJueVVHUVhhaWZ0cEQtWXRrN3RSWUFEQTNJTXhVYzFONG1aRnI4cFlBazQ5WVhJU3lkb1NuZEs2RHczQmdXUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "HOU-WA-03",
-   "races": [
-    "HOU-WA-03"
-   ],
-   "type": "reporting",
-   "source": "Washington State Standard",
-   "lean": "unrated",
-   "title": "Congress, 3rd Congressional District | Voter Guide: 2026 Washington state general election",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3ZEbU1IWE5rV1gyRTBSVEtUU0gxVWk1ZUIwdE1MX1lBWFpJbU5zbHFYQnloTTdhMWNCYWt3eWNIcWdJcHRkS0lBRU5iLVVlbS1QMmxZQ3BGM3NmMmdIeWZhbzIwaWQ0WUVYZUNEemUycDZQUThkRkZ4bWxNMzJtZmY2dUZ3cTE0cXJNMkxDTnp4bDd3SDBBaGhPWmFVeVJDMkFlY2ZfVHZxOTlUNmc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -322,6 +337,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": -1.0
   }

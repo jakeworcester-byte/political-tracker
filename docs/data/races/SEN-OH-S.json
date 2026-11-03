@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-11-01",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 4,
+ "flip_votes": 5,
  "candidates": {
   "D": [
    "Sherrod Brown"
@@ -98,7 +98,7 @@
  "poll": {
   "average_margin": -3.9,
   "average_label": "D+3.9",
-  "n_polls": 8,
+  "n_polls": 9,
   "window_days": 21,
   "latest": {
    "pollster": "The New York Times/Siena University",
@@ -139,6 +139,25 @@
      {
       "choice": "Jon Husted",
       "pct": 44.0
+     }
+    ]
+   },
+   {
+    "pollster": "Survey 160",
+    "end_date": "2026-11-01",
+    "margin": -4.0,
+    "n": 1122,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+    "answers": [
+     {
+      "choice": "Sherrod Brown",
+      "pct": 49.0
+     },
+     {
+      "choice": "Jon Husted",
+      "pct": 45.0
      }
     ]
    },
@@ -371,29 +390,10 @@
       "pct": 1.0
      }
     ]
-   },
-   {
-    "pollster": "CNN/SSRS",
-    "end_date": "2026-10-05",
-    "margin": -6.0,
-    "n": 760,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.cnn.com/2026/10/08/politics/cnn-polls-ohio-iowa-senate-governor-midterms",
-    "answers": [
-     {
-      "choice": "Sherrod Brown",
-      "pct": 49.0
-     },
-     {
-      "choice": "Jon Husted",
-      "pct": 43.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 21,
+ "raw_poll_count": 22,
  "trend": "Stable",
  "signals": [
   {
@@ -403,40 +403,39 @@
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "Yahoo",
-   "lean": "unrated",
-   "title": "Ohio midterm election: Jon Husted, Sherrod Brown make final pitches to Ohio voters in U.S. Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWZWR2Y1YWlQdjFIQ3pxTEFKYU1JNFNHN0IxWldseVlxSkR2cC1DVmJQYjY4WnNaVUVQaU5GUnhHOEEyNWM0aDE0dkxaWTl3OXZob285amwwZ1Bkd2NkdEpZanR1N2lLakRxWEdlM3JRV01hd01aUGZubER6ck1aUUNOQUlhUXVL?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Will Trump’s Comments About Jon Husted’s Physique Help Him Win the Ohio Senate Race?",
+   "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-husted-body-comments.html",
+   "summary": "The president has repeatedly complimented Senator Jon Husted’s body. For better or worse, it has caught the attention of voters and raised Mr. Husted’s profile in a key midterm race.",
+   "relevant": true
   },
   {
-   "date": "2026-10-31",
+   "date": "2026-11-02",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "Cleveland.com",
+   "source": "WKYC",
    "lean": "unrated",
-   "title": "Brown and Husted clash over who Ohio voters should blame for hard times",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQkNNN1NwMUZncWFpcF9mTTVIU3pIZlZjX3JFUE1jQTlmcWktbXNFVDNEQk1iNDNkbDVNMEFQWi1XWDQycWtvWU9jV3lHMmg0MVMyT3dESVQwSkdOREZFN0ZSUGFLUkxQY3BfQS0zWWdZOVFyZnRpanhqOTB2Ml9YWldObFBnTG1YdUJ2b0tEY0I4Ti0tdFVFTXA5b2xTaUE4Z21ZU1ozMjZqcy03blFqVndWdTJ3UQ?oc=5",
+   "title": "Husted, Brown make final pitches to Ohio voters in U.S. Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNTHl2bGJoX2dlT1pGQUxPZTV4VTFQQ0ZaYUNpT25qOHhaWjJEYWFpTVdyb25DRGdsWkQybHhLQ0FTdHJmSExsczB5TkoyS3JrNzVVU282OWxUVTdkTzJwWFc3ZHRPZXdPWmx2M3BrOU0ydnZ4RjRNX1hOeVFDSVgyS2tXZU1saGhHeE8xSThFNW5pSG40aHdvc2FpVWtFMXF2dDZ1NE9hYV9FWmw2SnlrRGY0ajBfMXNKTDgwQXhuTUFCMEtad1RnNDEyVU5ibHRPY0hYX1FRdVgxYmJhelFNNDVMZU9TbnVSeDZvQVZCcHgwNGhQRWt2YXNrNUF3VjRVWlZHSUNOdUhwM3Z5NTBCNGtmcTVFWEZ6elJJVVVqZ2lZSXdPbDNJRjI0dF9aWEQ2Mm5WcFpmSDI2Y05JWlRGMUpmTXdKZi1HV2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "SEN-OH-S",
    "races": [
     "SEN-OH-S"
    ],
    "type": "reporting",
-   "source": "Salon.com",
+   "source": "Nacionale",
    "lean": "unrated",
-   "title": "Ohio’s Jon Husted, object of Trump’s leering, is just an empty pair of pants",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMTlzdGhCWEMyVEtRMl80Y3FQUlJHSXVfd3ZiYVVZXzFHRzAwSXV1bmNqZ2t4S19UTko0YjEtTFZhOUhyellZMk56eFhJRllBUkllUlAxVTgwNGdlMXNmZW9UdmwxR0dueC1UUW5pcUdUR195aV9rRnRoUk9xaXN4ekN5VnZPZGFyeGxDUXFfMGJUTXU1c3pBLVEwU0xVd1A1TjFKd2VMZ24tdw?oc=5",
+   "title": "Ohio Senate race: Sherrod Brown tries to return against Jon Husted, with two years of a term at stake",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlU0JPN2s5amJKY2NSVFMtcGZCVkZNejdCRS02RTRDYWpHdXNFaVN6d0p6YW1iM2t0WU80XzM2UnJxdlBKMndfTlM0eWd3X1piS0JxR0FKWTUyZ3N1YUN1TjJYcmFPa0dCNm1qYW5FSlBVSnhVRHBHUFROTUI?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -556,6 +555,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -3.9
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -3.9
   }

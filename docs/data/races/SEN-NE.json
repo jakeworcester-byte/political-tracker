@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -223,16 +223,46 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-03",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "WOWT",
+   "lean": "unrated",
+   "title": "Osborn, Ricketts make final appeals to Nebraska voters on eve of Senate election",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRENQNDFmLW5uWVNsVkhuRWVmWUxIQWNtLUZabHYxOUFKS0N4dGJINS11dVJfUkMwdXlKbVltVXBjUFRVUENNcHJob08xTi1oREEwQkZFVFl0S3g0ZVJZaFZORW01SGdSTEx6c1k4LW8yOW1qOFV1NTYtang5eUY2REEyclNOX0diTXBER1hrOFpSRGtjZ3FBQ0MzM0QyUWZEQkw1UGl30gG6AUFVX3lxTE1Gc3o4c2ktVk5HT3dOalJJUnZoR0ZhUUwtNjBYbDA3bXZsZVBiZ0dlb3ZaT2owN25sZE9oT1Yzd1RSX29JMWYtTkxhaVl1U2ZzMnRyempudVZRYU9lY2k5b0M5a2FfdjhSNERJLWU4TVNhUHZCQWRidFBqNGFZV1hRMEs5bmM0S2gyTUlFaS1mS2FGcDRZc3N1Uk10ZzFXYzk3N2lwUWNLcVdSRmpqWjI5eDlfVGk1VUV5QQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-03",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "KETV",
+   "lean": "unrated",
+   "title": "Pete Ricketts, Dan Osborn make final Nebraska senate race pitch with both promising lower costs",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeFM2bHhIZHVCaEdhcmVmS3IxR0pDVEs3bGxHdi15LS1HWHhDV3YxaG1INDdrWlBZN1lqMmFheXZJeUV4S0VWMGRETkRxQVotZTBFcjJTRTdqU21CY1Vjbkx5c0Vxb01zSmN3OENGWUVPVkNBR3lNa2M1cTRBekp0YjVxUXpXTm83SXFNSmRBQ2w5SVFoZmRoT1d3ZVpqdGctUGg1NmNxS2tSQmNlYV9LR3AxdEZQTEE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-02",
    "race": "SEN-NE",
    "races": [
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "KHGI",
+   "source": "Kearney Hub",
    "lean": "unrated",
-   "title": "Nebraska Senate candidates talk personal priorities, message to voters, more: Part 2",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSjYtRUw0LU9FMGpDakI5M0hqbzkydEdHbEQ3YlVCUGxJbDBaT1VLRGplOE51MUVpMVNreUtDM0F3dWdlSlZrUnVrQzk0WGZQazh3U0l2dmNuNWZmakJ3djNVQk1SeTkzQWVWYnIyd1JCX1JFQkd5LUphR19ER3Q5UmR0SjV2RTVZVVBQZHNYZkZRN3lvOFJtb1A5bmZjTmlYcVRINTJTTHNlaUY4Qi1FQWV3?oc=5",
+   "title": "Nebraska Senate race is one of the most expensive political races in state history",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZk1tSEZYd3VIRWNRMjU5djBJODA3aGVZbnhGcmZfLUxvUWI0akVqYllvVTFrRVRCeWtmRWhKVXZNWFZNVDBKUWxYaUlLb1dRZnVTdlE2emdER3JJbkp0OXRrcENLa3FoWDNZLUhXd3hvM05tQUxSWG9PSTl3NGl6UjJXSVFWaFpzXzZXNlgxalU0TGgwN3RfZ2ktWlk4YzVVN0JqVE1vVFVTaHljWHVrVEZuMF9wc0llemUtZThWTQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -246,7 +276,7 @@
    "type": "reporting",
    "source": "The New York Times",
    "lean": "unrated",
-   "title": "Pete Ricketts Leads Dan Osborn in Nebraska Senate Race, Poll Finds",
+   "title": "Republican Leads Independent in Nebraska Senate Race, Poll Finds",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBESGpJU2xncTR3aGtWMGxkMS1GRVpwU2Z6enBGYTgzLU9fOEE5V1MzVjBVQmJxVS1DNGdqODNWOWdNN1RxcnNQUTVESEl3NUJSSEF6eWZDX1FJcFB6SEdiSW9KNVZwWXh2dVM1SjJ4eGVCTXN0eWlyajVWdWE?oc=5",
    "summary": "",
    "relevant": true,
@@ -259,40 +289,25 @@
     "SEN-NE"
    ],
    "type": "reporting",
-   "source": "Yahoo",
-   "lean": "unrated",
-   "title": "NY Times Poll: Ricketts, Pillen With Commanding Leads in Nebraska",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEdVUm5CSW1oUG90TVoxcjJvMDRMajBoMFBhbE8wNHRfRUgtdE8xdHQzbWVEaGdralBWWU9zSVpBRGhpLUtNUExyMU45MGNnSUNtMUt5bENRUW85Vm5nT3JQNDJmbnA0VDdtQjFEQ1IwazBiRVZJakt3YUtpZVBVcGJZYUNXQXU2eHp2bTZGVDNYa0NZ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-NE",
-   "races": [
-    "SEN-NE"
-   ],
-   "type": "reporting",
-   "source": "Bloomberg",
-   "lean": "unrated",
-   "title": "Florida, Nebraska Senate Races Shift Left in Midterm Homestretch",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUmRVS2lsU01HUUIwUC1OdXlDSmZBR1p0eFBvaWs0dm5QbzB1eUZEcUN6NFBCUERrcTM3MEhYNnQ2ZmluV0dmVFlwZXhFY3pIR2NqTHNzdWZpa19Md3gtVHBrNVJxNnprdXJhRWVwblpSNXJnbXlNZVNtcmZXd3lNMFF4NjlBVUxqdm51bkRDNm4wNGM3SmZZWXdUdHAxMjkyTEJPRGZDbTFyUTdZcEtrSGtYRXY?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-NE",
-   "races": [
-    "SEN-NE"
-   ],
-   "type": "reporting",
    "source": "The Hill",
    "lean": "unrated",
    "title": "Ricketts leads independent candidate Osborn by 6 points in latest Nebraska Senate poll",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbTdVUlVmdkQ4ZlZ5UTNvLVRVM3l1dDJob1BvenZXd2NFMWNVLTBNdGNJWTRJMUk0bW1CV3Q5SXctN2ZuS1pCUzctTzFLTHlGanBVRGtkd0N5cGwtTnVxSVZIQm1Jd2FGNFBjTjhRMzc1NkV4RkJCdC1MSFRmeFhndWhRaUnSAYoBQVVfeXFMTURmWGJmV1FBMGc2NDlJbnVkemxCVjFsb3B0NUQzSDBiaGdnTzBvcldtMWdEVG4yVl9mVUJpdmpvN2dVclRtV2pJQ3lFcGoxWEpNLTBUdUNNY0hzcm12VGMwZ1FhNjVLdFRMY3N4cVR3VUkxVmxyTXNRWjUxTkNKalZDZ25RUEFMRlRR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-10-30",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "Nebraska Examiner",
+   "lean": "unrated",
+   "title": "Nebraska Senate race is one of the most expensive political races in state history",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM0I3SmJTY0VaVVloQmRBWVVwMDZTU20tWFZ6QnY5UHRJejZRVm9fUXpYTy0waUxvM0MyaG40VE1rdGR4OG0yNm1TVTZidWcyb19wRzNGcThFVmNkZzVhNVZnZTJjNUdseTZsdklUQzkwUHNzWkw4WHByd2VLMHlzS19ka3QzQmE1THczVHJxSnZjbFVGbFdtbHUxTGNNQ3VRODNwZWt1VHMzMFZMLVlMbS1KUHRDM2NESmVqZVdHanM?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -412,6 +427,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 2,
+   "p": 2.3
+  },
+  {
+   "date": "2026-11-03",
    "c": 2,
    "p": 2.3
   }

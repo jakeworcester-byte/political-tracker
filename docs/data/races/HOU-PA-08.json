@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Likely D",
+   "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -144,61 +144,16 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-10-30",
+   "date": "2026-10-29",
    "race": "HOU-PA-08",
    "races": [
     "HOU-PA-08"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "fox56.com",
    "lean": "unrated",
-   "title": "Pennsylvania 8th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMTlWd1BhZkUyVC1GN0pSbUgwTEdFeUd5U2dEdmxZaEJWd0k1Y25VT0VtWEgxWTNVWVlqb1FoLWw3Uy1PLTFZTEN1TEkzOERNMXc5YjVlajlLVXdPTkIxN19KbzdDb24tY0pIYm5xaE4xOWFON3dxcVVZSGhycmlVUGpZVDk2MFpp?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-PA-08",
-   "races": [
-    "HOU-PA-08"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Sparks fly between Bresnahan, Cognetti in Pennsylvania House debate",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQVRBMF94X1JFaVhPQ0xuckhnN2k0LVdWYkJaMTg4WVdDMnRsai1lU29hSHppcHR0cktUa1dvN2FqMkUzZmtVc0IwTFJzM0hXWmNDajZjcUFmWms0MUhxZFdoRXJrOVRuVC1qaWV5X2x1bkxDYWNTNVlmNk1EZmVsZnMxZjVDenhPdGVvRXlB0gGTAUFVX3lxTE5sMkZadnZpOXpfT0VkM2w3U01jWFdjZkNrR29tWWUyS0dPWXhUVnM5SHBudXlieVdOTlQ2Q0ZmQm56bkQwR2NaekJUekJwRzUydUNVV0NIUmh6dFcyZE5VZzdoZFItTWVWdVozaE45aWEyNGpjRXdpR211TU9HLTlScmg2UlNVOWYtYmxhelRSaWNCWQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-PA-08",
-   "races": [
-    "HOU-PA-08"
-   ],
-   "type": "reporting",
-   "source": "C-SPAN",
-   "lean": "unrated",
-   "title": "Pennsylvania 8th Congressional District Debate | October 29, 2026 | Video - C-SPAN",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSjQxRzBVR3haUkhCdU9zRlBPa0g1Q2ZISmhmWmlEenlyUUVnLVdCZjB6WFdJQy1ZNHktRGFWc3JldHptTDBxaDZJQ3hKcmFFU3VUOGpsVVVwZWtjbWJhcm5NMzc1b0d3X19uRVhaekFEZ2pvaWZWNnQxaVJyal9QRzB0eFZHaWtrS1dIVy0zTk5ocG1EY0MweDUybDJRN00?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-PA-08",
-   "races": [
-    "HOU-PA-08"
-   ],
-   "type": "reporting",
-   "source": "WNEP",
-   "lean": "unrated",
-   "title": "Bresnahan discusses affordability, safety investments in race for Pennsylvania's 8th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQTDBvQnN4bC1rZkRYMjNxcjNmNG9CTlQteGZiUUhrYWhwMkIzcERyOVdGdjJneE1Jd2FoQW4tQ2dYNjU3QnNEUmJuNmc1dXVWWlBVelhhR050VkpQd0NPTDlJejFTZmNjN3d0NGt2RGVYU015aWozTDRlUGVKa3RuZWpweExtQ1ZlMDlJS011UVZ3Q2lZd1gwNV9DUEx4ZTVELVV0VFJ4WGJrbThCVl9BOHdqMFBySGlyemJBN2QyQlV5Ykd6di1uUElhQkt4MG8yVE8yRkZtVWFNZ3ZfdnlKOHhoWWVvMzA2VmYzdW1jRjhLdlQtSnRLSXBwZTJuRVROTjFSaTF3YlkxZ3lscnJpYloyMGJ5aGpkRGRxVVRJMzRTUG5FTW1wT19mbE9Eel9Rc1czVnFMUER5NFhaS1hHcVVvQmc?oc=5",
+   "title": "Polls show Cognetti with narrow edge over Bresnahan in PA-08 race",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRnE0b1ZpQU9rNThYZnVoVmsybXhCaWlUMjRpN25KVkthYUN2aGxKLUtNMlpUVF9LNEtVM3JoemNKcW1rUkg5NHNOQ2lNcHhKcWlKdHVISjVjYU40eU1nZHZQakRpN2QyTmd0dnZUQTFkalhOVXVjX1NzeV9ieFIyVXdIekhlQQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -318,6 +273,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": -4.0
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": -4.0
   }

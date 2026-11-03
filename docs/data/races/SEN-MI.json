@@ -3,27 +3,27 @@
  "label": "Michigan",
  "ratings": {
   "cook": {
-   "rating": "Tossup",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -389,7 +389,7 @@
  "trend": "Toward D",
  "signals": [
   {
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "race": "SEN-MI",
    "races": [
     "SEN-MI"
@@ -397,10 +397,25 @@
    "type": "reporting",
    "source": "New York Times Politics",
    "lean": "center-left",
-   "title": "Can a Progressive Win a Swing State?",
-   "url": "https://www.nytimes.com/video/us/politics/100000011250893/can-a-progressive-win-a-swing-state.html",
-   "summary": "Dr. Abdul El-Sayed is a progressive Democrat looking to win a Senate race in Michigan. Our national political correspondent Shane Goldmacher explains why a victory for El-Sayed could have broader implications for 2028.",
+   "title": "Democratic Divisions on Israel Come Thundering Back, in Preview of Fights to Come",
+   "url": "https://www.nytimes.com/2026/11/02/us/politics/democrats-split-israel-michigan.html",
+   "summary": "A shattered alliance in Michigan between Dr. Abdul El-Sayed and his former primary rival, Representative Haley Stevens, underscored broader tensions in the party.",
    "relevant": true
+  },
+  {
+   "date": "2026-11-03",
+   "race": "SEN-MI",
+   "races": [
+    "SEN-MI"
+   ],
+   "type": "reporting",
+   "source": "The Washington Post",
+   "lean": "unrated",
+   "title": "Cook says El-Sayed is favored to win in Michigan despite Stevens’s defection",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV1F5XzRUMTFaZl94cmNocU9GVEZ6QlNENzNhZlZjTDdlTlBTV3FxYkl5c1FCaEtPck9iZkcxZkVLRXFhNkJOdlgxQ0xtWmNCeFVrMnpYQXZVRlNSRjFlU0JVMFBaS3Y3djJRY3ZOY0ZBcHMyWEJTNHZMU3VYY1FJUDFpZTZJUGVUOTJ4UkJ4MG13WmpYZERmQzU5WHBvdUxaeGEzTHJWNlJTbEJVNUNPeUFvZWp6Z1dxbEEyeHNB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-11-02",
@@ -413,23 +428,8 @@
    "lean": "center-right",
    "title": "Rep. Haley Stevens stunned Democrats on Sunday when she withdrew her endorsement for Abdul El-Sayed in Michigan’s U.S. Senate race and threw her backing behind Republican Mike Rogers",
    "url": "https://www.wsj.com/politics/elections/how-rep-haley-stevens-turned-on-a-fellow-democratand-became-a-party-pariah-25474541?mod=rss_socialpoliticsfeed",
-   "summary": "She vowed to back El-Sayed. Days before the election, she shocked her party by backing a Republican instead.",
+   "summary": "She vowed to back her Democratic primary opponent, Abdul El-Sayed, but shocked her party days before the election by backing a Republican.",
    "relevant": true
-  },
-  {
-   "date": "2026-11-02",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "Axios",
-   "lean": "unrated",
-   "title": "Haley Stevens endorses Mike Rogers amid Michigan Democratic feud",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGpWbDcyNzJUV2UxUGw1eFUyOThVLUhiS1BwOHBmSmlieU5mYWJQSXhwbjN4alNhYUc1X2NucmtJa3pZWHZLYXY0SVRiQk9TTkNuTUs3TXFkeVpkc3dnLTluRXNtUjcweS1MUzJid0xod183SHFtMWx3UUUyQXdhc1ZPWXhsMjZJ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   },
   {
    "date": "2026-11-02",
@@ -440,70 +440,11 @@
    "type": "reporting",
    "source": "NBC News",
    "lean": "unrated",
-   "title": "The fight for young men comes to the Michigan Senate race",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbGc3eEtjMVBrNXFBR0xBd1ZrTzVYNlEwSVZId2dtVXhTSzBNMko3anVISXpWUnhwR2ZfejlDQ1FEZzZWOEtXN2tqa19wMnRfMk5FRl9TaGVkOUZnbUw1ZHFNcVllY2w2MWU5TUQtWlBTNmhqenRSTWpGaGJIb0YzSlJ3S3VscEwzeGM0Q3hKeDFiQQ?oc=5",
+   "title": "Haley Stevens endorses Mike Rogers in Michigan Senate race; Trump rallies in Kansas and Iowa",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbnpWcnVQTVR6MkFFckdWaG1ua1lzZklnd3ZIdERVMFRHWkEyd1B0UERMWUVpbUROWUNSRkFJSlVRVUVpazZnS2ZuQXROQXN2UldRYmZITEFiLUFTQkNzTHRfYV9ZLTdTdm4yOTd2SjJQVUdKeVNYVVVuM1JGNFFHOEd1YzVrVXBaTEpGUS10aHZVQld1Yi16X3FUaVN4My1WUTZXcVFEU3gxdlNDamQyZVVJZVBhSlJJOHA5WUt6OHRVc2M?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-11-02",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "MS NOW",
-   "lean": "unrated",
-   "title": "Chaos consumes Michigan Senate race after Stevens endorsement",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbGViQkhOaDJTVmg5bVVzd3Rtal92NHIwaUdEQnBBQTM2el9oZlp5WkdTeGVMX2FrMXRkSmNVY1VXVHZwODN2Nmp3bTV6Yk81dWxLMk9vY2lKaXVwV2ZjYThZRkx0cTZpcGVJck43Y1I4Xzd6OVktaG84alJBcWRVUDl3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-02",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "CNN",
-   "lean": "unrated",
-   "title": "Could Stevens’ switch shift the Michigan Senate race?",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOXJDcG5uZnYtVTYyNmdhVlRRUXRoUTRoQ0JWLWV3dUtzX2RqM19aX1h5eGJpTVZvTnpwVmwzdmJZZVgyTVpER0t5T0pHTmhpd1NUWGxkcEF0dXBkTzU4NXZPMUE3MDk2dDRpNkU3amQ0REVvTVA4cUJ1ajB1Rk5PN2oyak12WjdIR2JKTjcxemZiTW81V0FGT0kwNUh2WDRGVVZ2dGpDZnFRWGhKZnc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-02",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "BBC",
-   "lean": "unrated",
-   "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzcmxwU2pKejlDSnBrOU4yNVZ3WUJMMXpOVjlNQmtHRWIxYjZpUEZ1UWQ5Q3VsaGNzR2tRWDFfUEVVVHVvdzM0aUZ5VV96cjBqcTJhTktweDlDNEE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-MI",
-   "races": [
-    "SEN-MI"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Haley Stevens endorses GOP candidate in Michigan Senate race, spurning Abdul El-Sayed",
-   "url": "https://www.npr.org/2026/11/01/nx-s1-6020993/michigan-senate-race-abdul-el-sayed-haley-stevens-mike-rogers",
-   "summary": "Rep. Haley Stevens was scheduled to attend a unity event today with Abdul El-Sayed, who beat her in the Democratic primary. Instead, she endorsed his Republican opponent, Mike Rogers.",
-   "relevant": true
   },
   {
    "date": "2026-10-29",
@@ -531,21 +472,6 @@
    "title": "Who’s Winning the Early Vote? Midterm Update",
    "url": "",
    "summary": "Ruthless breaks down the latest early voting numbers and Senate battlegrounds in Texas, Florida, and South Carolina, along with controversial comments from Democratic candidates and questions surrounding Rep. Greg Landsman’s investments in Chinese companies. Plus, longtime Democratic strategist Mich",
-   "relevant": true
-  },
-  {
-   "date": "2026-10-27",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK",
-    "SEN-MI"
-   ],
-   "type": "podcast",
-   "source": "Pod Save America",
-   "lean": "left",
-   "title": "Let Them Eat Cheesecake",
-   "url": "https://audioboom.com/posts/8969627",
-   "summary": "Campaigning in Michigan, Barack Obama says Donald Trump's White House renovations look like \"Saddam Hussein opened a Cheesecake Factory\" — touching off many rounds of fake conservative outrage. Jon, Tommy, and Lovett discuss Trump's reaction to the comparison and other news from the campaign trail, ",
    "relevant": true
   }
  ],
@@ -663,6 +589,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": -5.3
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": -5.3
   }

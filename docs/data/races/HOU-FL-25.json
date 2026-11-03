@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Lean D",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -150,6 +150,21 @@
     "HOU-FL-25"
    ],
    "type": "reporting",
+   "source": "The Florida Trib",
+   "lean": "unrated",
+   "title": "Inside Florida’s 25th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSlk0VkdVRzJsU3RuY1NOMjNVN19aTkhTNlNuQmNGSlRiemJhMFhPVWoxeWE1RnM5R3NRdXBNVFNHLVg2T3U2NUgyaUVlMWlrTnhzdW5uczQ0eGlweWNEcC1neDg5enVLVTVuMDdFb3J2NFhtamtwTHU2ODJlaWhYMHRRRmtLdFBXRjhabQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "HOU-FL-25",
+   "races": [
+    "HOU-FL-25"
+   ],
+   "type": "reporting",
    "source": "Hindustan Times",
    "lean": "unrated",
    "title": "Scott Singer: From Boca Raton mayor to 2026 Florida congressional candidate | Hindustan Times",
@@ -169,36 +184,6 @@
    "lean": "unrated",
    "title": "Jared Moskowitz hits back in race for Florida's 25th Congressional district",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRWNHUGxON0M3QV9nb3BFYlhSaDJxYk5vX1lLMEcyb0RmWjgtSWxyU2xxcWoxUkhsSTZOdzZwUXlsaEFBYUdUVlVPZEFHdk5JY1JGQWJ5a1R1TlBWTl8yYVB1aW9JVGV6N0ZIcUhoMldXdzZySE5ZNG1ldElhVk05SE04bUhfNFAxTGF2MmVlOHdWQndPM3Bad1g2dW1GQm1kN3Y3WGNnWXl3MlJlSmVJWQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-01",
-   "race": "HOU-FL-25",
-   "races": [
-    "HOU-FL-25"
-   ],
-   "type": "reporting",
-   "source": "CBS News",
-   "lean": "unrated",
-   "title": "How nasty is the race in Florida's 25th Congressional district getting?",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMDhRT1loUlhXdUw5V184WGlsZUhMa3hqTGlNbHZmMVRCWXJpbm00R3VWeUFlQ0ZJN0JZdFd5YlhxR2UzaF90UXhHeHdHMFBFTVZmX1ptOS1QZ1g2SWw3VkpfN0k0dnN6dHhSMGNjZjBmY0VXMFduWlNRTzJqS3l6ZFBQUGgtSTBvOVNITXRKMzhHaklYXzVqMU5ZaFdwZktaV2RSUk55YmRVUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-FL-25",
-   "races": [
-    "HOU-FL-25"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Florida 25th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOHhCMFFHZDlXSHNRdHJQNHVKcTVucUN5aDg5b003aU1BeGdHdDkwenl5bWxzTlB5QkkwVEE3MFZ6QmhHdzhCdEFfSlNPQ2d6LTIwY25kUC1LQm1pZl9pN2R6allMNHBreXdGeWxZMmN5dE5SVDBFYkNMU01SMTNPc1pIcw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -318,6 +303,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": -5.0
   }
