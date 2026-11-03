@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -101,28 +101,57 @@
   "n_polls": 6,
   "window_days": 21,
   "latest": {
-   "pollster": "ActiVote",
-   "sponsors": [],
-   "partisan": null,
-   "start_date": "2026-10-17",
-   "end_date": "2026-10-27",
-   "sample_size": 400,
+   "pollster": "RedBox Research",
+   "sponsors": [
+    "A Fight Worth Having"
+   ],
+   "partisan": "DEM",
+   "start_date": "2026-10-30",
+   "end_date": "2026-10-31",
+   "sample_size": 2898,
    "population": "lv",
-   "margin": 6.0,
-   "margin_label": "R+6.0",
+   "margin": 2.0,
+   "margin_label": "R+2.0",
    "answers": [
     {
      "choice": "Ashley Moody",
-     "pct": 53.0
+     "pct": 47.0
     },
     {
      "choice": "Angie Nixon",
-     "pct": 47.0
+     "pct": 45.0
+    },
+    {
+     "choice": "Neil Gillespie",
+     "pct": 1.0
     }
    ],
-   "url": "https://www.activote.net/polls/2026/fl-u-s-senate/"
+   "url": "https://afightworthhaving.com/polling/2026/florida"
   },
   "polls": [
+   {
+    "pollster": "RedBox Research",
+    "end_date": "2026-10-31",
+    "margin": 2.0,
+    "n": 2898,
+    "population": "lv",
+    "partisan": "DEM",
+    "url": "https://afightworthhaving.com/polling/2026/florida",
+    "answers": [
+     {
+      "choice": "Ashley Moody",
+      "pct": 47.0
+     },
+     {
+      "choice": "Angie Nixon",
+      "pct": 45.0
+     },
+     {
+      "choice": "Neil Gillespie",
+      "pct": 1.0
+     }
+    ]
+   },
    {
     "pollster": "ActiVote",
     "end_date": "2026-10-27",
@@ -343,29 +372,10 @@
       "pct": 40.0
      }
     ]
-   },
-   {
-    "pollster": "St. Pete Polls",
-    "end_date": "2026-09-17",
-    "margin": 0.4,
-    "n": 913,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://floridapolitics.com/archives/820638-poll-byron-donalds-44-david-jolly-43-in-dead-heat-race-for-florida-governor/",
-    "answers": [
-     {
-      "choice": "Ashley Moody",
-      "pct": 45.2
-     },
-     {
-      "choice": "Angie Nixon",
-      "pct": 44.8
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 16,
+ "raw_poll_count": 17,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-FL-S",
@@ -482,6 +492,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 3,
+   "p": 5.7
+  },
+  {
+   "date": "2026-11-03",
    "c": 3,
    "p": 5.7
   }

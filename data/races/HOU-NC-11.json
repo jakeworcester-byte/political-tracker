@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -90,6 +90,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-02",
+   "race": "HOU-NC-11",
+   "races": [
+    "HOU-NC-11"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "North Carolina 11th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQk1RMWJlLVJKTkxXcFJHTXQwX3h0R2hocXNaV2U4OXJwb21mdjR1Rk1ONzJJMnNnOXdmS3V2YTI0MXBKTGcySzYxS3diVjlpcjZBUkl6Yzg4bUMyeUd3eUZHcU1IQ1hSeFFzNC0wRDIxRzJGampqRGg4UjU2X3hWU0IxLTNEc2tQeFl2RA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-01",
    "race": "HOU-NC-11",
    "races": [
@@ -100,21 +115,6 @@
    "lean": "unrated",
    "title": "North Carolina NC-11 Election 2026: Democrat Jamie Ager faces Republican Jennifer Balkcom in race for US House seat",
    "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQa21FTnN6MFJiY29rUmVCRWtZR3R2blltMjRidHRMOGNleFV6Vk5BcDhKNE93WmYzV0YzRmFRRmEySHVGX25Ba0RpQng0UWc5OWVHLUx6TWIxSloyeGYxbGJXdW5naDlfT0ZLeG40N1Q1YURBN1Jnbk5RMEhXTXpMRzk2c2c2NVM0bWZiOXhuTkpiQWJPVlNYRldrRXJ0TkE0a0dIeGFxUkd2UmNTZ2ZNNmRMTURkQTJNU1NXUWlFdUE2R3d1SFBZUk1JUGQ2c3ZHbmExanVXZjBjeXd6T21LUnNwYl9nMTlHSGp6ZFlCLTNRQWtsSDVaRkRmZThsMXJDOEVILVZyYmpYMmw3MkxtdmE0X1BnYmgzX2tz?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-NC-11",
-   "races": [
-    "HOU-NC-11"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "North Carolina 11th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQk1RMWJlLVJKTkxXcFJHTXQwX3h0R2hocXNaV2U4OXJwb21mdjR1Rk1ONzJJMnNnOXdmS3V2YTI0MXBKTGcySzYxS3diVjlpcjZBUkl6Yzg4bUMyeUd3eUZHcU1IQ1hSeFFzNC0wRDIxRzJGampqRGg4UjU2X3hWU0IxLTNEc2tQeFl2RA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -249,6 +249,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": null
   }

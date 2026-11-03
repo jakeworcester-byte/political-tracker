@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -182,38 +182,7 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-30",
-   "race": "HOU-TX-15",
-   "races": [
-    "HOU-TX-15"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Texas 15th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM1pBV3hQd0RyNElpT1I3X3lfN3ZudExnYThDMzR3a0dzcThpQ095azdpTnZTb0R3Z2YwT25TRjF5M0xyT25PRkNWVzM2NGprMUtHRG5xcHZoS0ZkZVdxMkJxTmRzZTFLampOV0NpcWZVNVdncFpqcnp6dk5PdkMyVg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-TX-15",
-   "races": [
-    "HOU-TX-15"
-   ],
-   "type": "reporting",
-   "source": "Latin Times",
-   "lean": "unrated",
-   "title": "A quinceañera campaign strategy has Bobby Pulido leading in one of the most competitive House races in Texas",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJa2x2dDdmcVdJSjdYZVFvMHRLZHZwVFN5MGEtY29RZktRNnY4Q0tzSDJWNTVubTZXekdrci1LYkVlNEVYczdPRURDU0FVOV9LYWNIN3VFTHJ6bk9meUFVSURMQVFwX2J3Mm51cHZhWm10RGJxR011dg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-15",
  "history": [
   {
@@ -328,6 +297,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -10.0
   }

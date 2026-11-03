@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -96,9 +96,9 @@
   ]
  },
  "poll": {
-  "average_margin": 0.1,
-  "average_label": "R+0.1",
-  "n_polls": 9,
+  "average_margin": 0.3,
+  "average_label": "R+0.3",
+  "n_polls": 10,
   "window_days": 21,
   "latest": {
    "pollster": "The New York Times/Siena University",
@@ -139,6 +139,29 @@
      {
       "choice": "Ashley Hinson",
       "pct": 47.0
+     }
+    ]
+   },
+   {
+    "pollster": "GrayHouse",
+    "end_date": "2026-10-31",
+    "margin": 2.0,
+    "n": 601,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.grayhouse.com/post/grayhouse-poll-hinson-leads-in-iowa-by-2",
+    "answers": [
+     {
+      "choice": "Ashley Hinson",
+      "pct": 48.0
+     },
+     {
+      "choice": "Josh Turek",
+      "pct": 46.0
+     },
+     {
+      "choice": "Thomas Laehn",
+      "pct": 2.0
      }
     ]
    },
@@ -355,31 +378,27 @@
       "pct": 43.0
      }
     ]
-   },
-   {
-    "pollster": "Beacon Research/Shaw & Co. Research",
-    "end_date": "2026-09-28",
-    "margin": -2.0,
-    "n": 1008,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.foxnews.com/politics/fox-news-poll-turek-hinson-close-iowa-senate-race",
-    "answers": [
-     {
-      "choice": "Ashley Hinson",
-      "pct": 47.0
-     },
-     {
-      "choice": "Josh Turek",
-      "pct": 49.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 19,
+ "raw_poll_count": 20,
  "trend": "Stable",
  "signals": [
+  {
+   "date": "2026-11-03",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "Josh Turek pitches \"generational change\" in tight Senate race as Iowa faces crushing health and affordability issues",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGdMX2YzY3hTYk41akE1NUdwWkdfdDVCbUppWnJsMjZwNkt4TmgyZURlUS1NUXpUdVNua2kzQkxaZUlRSWstQ1Q0QUdmclBhMGRoeTFJUDJ6XzFzLXdGb19CR0F3eUgyUVZlc0JWZmxKcDQ1MFFIQUFraWhFRHBaQmVoZGxiTFFaVjFYQ0JZQksya2QyeTdyT1JFOA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-11-02",
    "race": "SEN-IA",
@@ -387,25 +406,25 @@
     "SEN-IA"
    ],
    "type": "reporting",
-   "source": "Nacionale",
+   "source": "The Des Moines Register",
    "lean": "unrated",
-   "title": "Iowa Senate race: Paralympian Josh Turek v Rep. Ashley Hinson for Joni Ernst’s seat, with late polls split",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yNXZCZ3R3RVA4LWlrekpEVkZ0T0tJdEUwbDBEb1h3NExyX2ItN1I4QTNoXzdGWUZfYllfTEIySTRHUGpkc3liTXd5RnRwMWprekVoV2RmSUZPNW5xeXZ3cGxPOWZtVjd5blVJUFJGd3hyVk5tVjE0RnVrNkw?oc=5",
+   "title": "RNC says it's going to record lengths to boost Ashley Hinson in Iowa",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcm85enpoS1VWVWxOMUN2YXc0ekQ1bnZxQ1E2Wk56SWlFLTZJS0tpRTktbFpKOFhYdWlmQ3AtWG9DczBqWWlNSC04RHBJaEdBX192UVIwQUlCQkQ0SHpKWVhpSG5VUi10NFJBbXc1NXc1bDNCXzdvMXR3dTZsT0drTVdBbERtVHJOM0RGUHgtR3pWWVZSRl8yNEhDT1lfYm9Zdk1La3JiM2FsdDBleDZITnhtZHZ4UVl5NENjOGhTZmQxOW1pMHZKVWVQTy0xOHpPV1lRRG5VekRIcGVxUC15eE5fQQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "race": "SEN-IA",
    "races": [
     "SEN-IA"
    ],
    "type": "reporting",
-   "source": "The Washington Post",
+   "source": "NewsNation",
    "lean": "unrated",
-   "title": "Democratic official says she won’t back Iowa Senate candidate over trans ad",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUHE2bTV4eFZ5Vi1GSEZEY25nekRxRjRselVwaHVmMnZ5MnRXSXo3WHdyOHRQM0Z5aDM4RHFmOExvTE9UczNzamx4OFR1MklVOFBPUkY4dmZsU3NDZmJVT1JoWWRaZzJTdVR4ZFdYSVE5czZzY2JWSlVMSXZ1dHNHYWFKdmdZQUxNSFRTWV9tZFRVUlViTXQxWm9RRURFbUdFc0doWjJHQWxnZzNsTjBjSldXY2xvMmFuNFpidTNMQlZIdHM?oc=5",
+   "title": "Trump predicts GOP victories as Iowa Senate race tightens",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc1ZCenpBZzhpY0hIMVFRaFF0U29WUVpjTVJJSjgxRTNUMGd6bmJGRXpFMVJMQUhyZWpGRWgwX1BjRWdYUEd0anFraXhVb1JZYWd6OGo1VV9LT2hkQU5uc3BrZ0prdTdGbGR0VlVrclNsaGFWOU03ZkI0MVkwOE1VLS1fa1ZKaTdoRjMwYTdSdkY1SDYwM3lveE5ZeFRqSEpkR29ESjFPQ0ZaQzVO0gGyAUFVX3lxTE9waDEwd0h5djl4V1hObzlFN0tlT2p3VVZZdlJQOU1HcWhCdHl0Y3BxT0NoSHVCX2NvS180RUxzRGdYNmY3cHhyUTM0LWZMWUVDelVNMzlYZ0dCQ0t6WlBpcERoZ2RPMVBmSTRfTk5kcVRzOE1iQ09KemRQdzdsajB1ODNBRXJFRE5PWktvV291WGxGSmlkZDlZQWdzbjdMWlFaNGlnM3lrd1hmcVcxVURPd2c?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -527,6 +546,11 @@
    "date": "2026-11-02",
    "c": 0,
    "p": 0.1
+  },
+  {
+   "date": "2026-11-03",
+   "c": 0,
+   "p": 0.3
   }
  ]
 }

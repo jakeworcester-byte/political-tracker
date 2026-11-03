@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -163,7 +163,52 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-30",
+   "date": "2026-11-03",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "FOX 56 News",
+   "lean": "unrated",
+   "title": "Final ratings shift in Kentucky’s closely-watched 6th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZDRPbzRoTUdycXZUUWV6Vk9CWHRTalRZanNUMDM1QTJXbXFoU0tFcDI3aHgwSEVtcm11U2FuR2pNLXdQcHQxSm8zTHl0TTN4OE5rNzhLbk1rdEhOYWlyclBNVl94UDVhaVFHOUVzcnNqaWpYcWl1R2g2US1QbjVtYUoxbV9CNER3RldKVW9BdU5XclVrMjV5RHFjWnQ3TzVZOGxSOE1iTzFDWjBMTFh5Yl8wQjBOUTBm?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-03",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "The Courier-Journal",
+   "lean": "unrated",
+   "title": "Election results for Kentucky's 6th Congressional District race - The Courier-Journal",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc2YwaG5qRzN4N19ZSWowcHRtT3NzLUw4ZTlKRDFHaTBXbzZJRk5VaHJtWWxhMGVXX3dIdjM1WHBWbFVsWWZFT3JuSjZuRy0zRUgzWU41eEY0MnlIaGRuNWptVHR5SG9BczlpQmt2aG1XMGVCRXFseDZadndzX2M2Y1NZVWRyRHJTV1pmWGg2VDZTN0NQX3JEOWU2MlJ3RDRMMnRYLUJ6WHhfeDJ1clRCMUdGaGk2WjUtelUzWnB3eDFBMWRwSEJvWW5welpqbWYySUQ1eg?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "HOU-KY-06",
+   "races": [
+    "HOU-KY-06"
+   ],
+   "type": "reporting",
+   "source": "WKYT",
+   "lean": "unrated",
+   "title": "Turnout will decide Kentucky’s 6th District race between Dembo and Alvarado",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUVpqbzFCM1ZHeFl4YTVYcVpSLWtXVmc0cmlfMDFWb2NtbnNMN1pRaUl2UXhZY3AtdnhLSHkzQl9JYl9CTG9DTlYzbG5aYkFNRjhsMmVjUmJXNVhNX2ZjZ1l3VTdmUGxJWTZvQVBPeGdYbTh0eWY0N0pyaWQ5VmN0NmRCSFlhSU5mRnVhWXg4SWVhOE1WVlprOW9KVmtHSzFtdUhkNHpB0gG6AUFVX3lxTE5kNWcwcFQ5T1l5ekw4UEZQNFdFaVJ4VzhvTDMxQmkteDZRUk83ZG5YNjlrdnNPdHhWQmJFYkZHYVZLRGU0LVZlZjBfUWZXSHBydDJQTktHMXJEOWcweHQ5UktIRVFHTnBXZnR5UTZMSTE3dmE4OUZqRGxmTmJEbGozUnpBNy1aMC1Rb0JyOHlwRHc5cklTQVV5ZFZMLTRNUzNVWG1GdW9MZ0FacE1SdnlGMm83OWxJalk0UQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
@@ -178,31 +223,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "HOU-KY-06",
    "races": [
     "HOU-KY-06"
    ],
    "type": "reporting",
-   "source": "WKYT",
+   "source": "LEX 18 News",
    "lean": "unrated",
-   "title": "Alvarado, Dembo outline differing plans on costs, data centers in Kentucky’s 6th District",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVd3QVc5Ty1hNjEwRWRNTGlJeTVKeWkyNlB4X2NtcEdEZzF5cl9hMUJibExyWUNYd2lZRjdScGxKS0ZEdTdya0t1SWVfaS1aZkh2QkpxUEw2XzdNUnNIcXlRa2VoUnRkXzhneWlnZWhEWU5USWN5T3hDRmlhcERZaHVSMVlRY2psTzZyeUtkb0lnTE5BMW5SajFKTXRkMnJQUEU0bkdzcU1yV01MNlpSNFVUZ9IBxwFBVV95cUxQLUNHb1lOWFZ4UENlMTQ4VVN4aUxhaHJqczItLTI5Z2dyeE4tTExqRnhpVWljMGlmSTJ5RlZWak5BbjZmdUpRWkNiMjd4aFhRZFlKcElIaG5rTVVLT0VjNW1jOHRudDZjc0ZnVml5ZXBzZkdTYzRzbExkOWg3YTFYeXR2aHBMX3c5aUp5UGhVZ3AzcVhpYncyd0tyV2dEaF9ja3cwNFpNTzFQcjJvcDh3Z1o2NklScGp3ek16cmdCX05peldNR2xv?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-KY-06",
-   "races": [
-    "HOU-KY-06"
-   ],
-   "type": "reporting",
-   "source": "Lexington Herald Leader",
-   "lean": "unrated",
-   "title": "Kentucky's 6th District candidates clash at a second debate. 5 things to know.",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNekhQUktrbUczRjFySnNZQ3Bnd0pMek1LS0JwLU1URGxjNGJnTC1vVGx6aU42cEpSTU15R0F2Z1N4Q3doRVdicU1SQlp0OXh1VmxZcXE3NjdKM09rMUQ2bkRCZUtMX0drVF9TSVVXVmF1ZTE2Zjdrb2NSdk5fcDVFSTVYVmRPOHfSAYcBQVVfeXFMTXFwYzZNTTVPY2llWG9BLXJvTEpmblVrRTFydlRrZFJ2b25ZdGZscnd2MGQ5YzRjTHFtUVVPMWt4aFR0X1EtZGh2XzB0azlQdGdaMDJYS2M5NkpsN2Q5ZWNtenJUcTFWSzZvR1RCckliNHEtV3pUQzZWcEs1RFpEZTNOQlhyUnBN?oc=5",
+   "title": "Trump urges Kentucky voters to back Ralph Alvarado in 6th District race",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLWJEQUhlWGpWeUZxNVBzN1VjMGhHdU90MUk5cTBrVGNHMzRFNVh3a1Z5RlNUSlhlNm03VU16VnVZMnZKaFdkUTFWMU93UGVpcTlkVGdRMVVib2NBb21hVllDaXQxUlFfWEdjMVdvcWczc2xGQnppZi12Z2tOakM4SUFRcHhxTWJIY3FRdS1uYkYyMV9xaU1QN2h1VHM4TTc4azNsYVlGYUpLMEVpLTgzcTk5UVRXeDA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -322,6 +352,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -4.5
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -4.5
   }

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -142,7 +142,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "HOU-CO-03",
    "races": [
     "HOU-CO-03"
@@ -152,6 +152,21 @@
    "lean": "unrated",
    "title": "Colorado 3rd Congressional District 2026: Latest Polls",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeTQwM1ByRWFyd1c1VTZLaExGcVJ1NXBSWFlIT0FGU0hKZ1k2RmRHWUhZRzZrRG9iMHM2V0c5dUt1YVN0VXNvQ19wTXN1bmtTQkRIa2VyaVphOF9UQzBCckhKT1lPOVd1SWFjWjd2QjNNRnJQVkpWYVJKRmdZNTJzQTh4RQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "Rocky Mountain PBS",
+   "lean": "unrated",
+   "title": "Can Democrats flip Colorado’s 3rd Congressional District?",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaVpoNkFmblBudGhjVmFqdzczM1NNSGJ2UFRheXhVREsxemtOS3RCcjA0QVVFaThRTVoxWi11azBqWENkMGowbS1RTERQUEJKX3RVcWU1eXg2VUNBNDVtWmk4V3daZy05WVBFX1l3amZGaS1xV1dORk1JMEEwUk5JSlJtMVRpemlDM1E?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -182,21 +197,6 @@
    "lean": "unrated",
    "title": "Dwayne Romero seeks to unseat Jeff Hurd in Colorado’s 3rd Congressional District",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObGNSSFVjUVFqWDV5WjdvR2M3THFqS3c4RGFhak1ucGNOTVhmeWNrYXFaQ2VnY1pjTjVUd1JjcjYtWDNwUm1XanlfODZRYjctcDBSY3hDeUl1bDlIUGl4bWZGVkl1ck9HeFRDZWJxQnN2SjN0YXFiZkZVQ0ZnT0g1cTNkTmVNQ1d6LUFvLWRn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-CO-03",
-   "races": [
-    "HOU-CO-03"
-   ],
-   "type": "reporting",
-   "source": "The Colorado Sun",
-   "lean": "unrated",
-   "title": "Democratic super PAC says it’s spending $2.1M more in Colorado’s 3rd Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nLVZrNUl3OHlScmJ5MnV0UjhONkhPX1ZWZmlhVGJyUkhLc1I4OGcxTGVTQ3VVdUtxRDdncG5mdHBUYjJlY3BlRW1QbTJZalQ3SGtRM1IwaElCMjUwRU9Qc3JjS2xFeHZsVGlReTB5eTYtQXl6dEdjdDNR?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -316,6 +316,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-11-03",
    "c": 2,
    "p": -1.0
   }

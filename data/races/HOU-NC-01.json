@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -140,23 +140,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-10-29",
-   "race": "HOU-NC-01",
-   "races": [
-    "HOU-NC-01"
-   ],
-   "type": "reporting",
-   "source": "The Daily Tar Heel",
-   "lean": "unrated",
-   "title": "North Carolina’s 1st Congressional District draws record ad spending",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQjkxZzViRlJHMTVLekFFYmhHa2lINWlCMTVQd29meTlZcjRvNkItbHBGZzhyd2hiR21GTWxWVzRiWERmRllWVGo3aGcyNmpsOFNyTDRkUDBuZ18yZnBTME9TbTZLVWJrN25HTjRoZFJHUVBDMkxIVTZoWTh0OFh3bW41RQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NC-01",
  "history": [
   {
@@ -271,6 +255,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": -10.0
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": -10.0
   }

@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-11-01",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-11-01",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -86,7 +86,7 @@
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 1,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Adam Hamilton"
@@ -96,9 +96,9 @@
   ]
  },
  "poll": {
-  "average_margin": -3.9,
-  "average_label": "D+3.9",
-  "n_polls": 5,
+  "average_margin": -4.4,
+  "average_label": "D+4.4",
+  "n_polls": 6,
   "window_days": 21,
   "latest": {
    "pollster": "The New York Times/Siena University",
@@ -147,6 +147,25 @@
      {
       "choice": "David Graham",
       "pct": 4.0
+     }
+    ]
+   },
+   {
+    "pollster": "Survey 160",
+    "end_date": "2026-11-01",
+    "margin": -7.0,
+    "n": 1365,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.survey160.com/methodological-research-blog/survey-160-pre-election-surveys-in-four-states",
+    "answers": [
+     {
+      "choice": "Roger Marshall",
+      "pct": 43.0
+     },
+     {
+      "choice": "Adam Hamilton",
+      "pct": 50.0
      }
     ]
    },
@@ -282,9 +301,38 @@
    }
   ]
  },
- "raw_poll_count": 7,
+ "raw_poll_count": 8,
  "trend": "Toward D",
  "signals": [
+  {
+   "date": "2026-11-03",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "podcast",
+   "source": "Pod Save America",
+   "lean": "left",
+   "title": "Last Call for Takes!",
+   "url": "https://audioboom.com/posts/8972501",
+   "summary": "Election Day is here at last. Jon, Lovett, and Tommy go through the final batch of polls and make the case for optimism (and pessimism) in each of the battlegrounds, from the Haley Stevens drama in Michigan, to Roger Marshall's desperate ad in Kansas. Then they zoom out and discuss the expectations ",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-03",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "PBS",
+   "lean": "unrated",
+   "title": "Live Results: Kansas Senate midterm election",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONXpnYlZVQTI2T2JzQU4xODVmZHlxSTl1ZmxCekoyaXBLV1k0aTk1cl9DOVZwYS0xSndEbzNablZlN3o0bi1TWG1MRWxtd2lHN2JZS3pYWFVyb0pob0Qya1JWNXNiVi1nVHlVaGlfbjVCNF9qaVpKMEplZ0ZiYW9XN3cwUDY1cm5Q0gGOAUFVX3lxTE9VdWV1V0VmdExzVElGQVNybXBFOG83RmtuRUhIbnNlcTdDLUdyalozY2pyRFdHX2pQdzZ4ZHA2eGxfMnh5M2VwQS0yUWNJVTJSWjB1QlY4cGIxQzVIeUZkZW9rUkRfTWtiaFdURGFEekNWaDY5NmdwbVczM19rQXM5QmRvbVFNZUNwN2xZd1E?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
   {
    "date": "2026-11-02",
    "race": "SEN-KS",
@@ -301,21 +349,6 @@
    "via": "Google News"
   },
   {
-   "date": "2026-11-02",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Kansas Reflector",
-   "lean": "unrated",
-   "title": "President Donald Trump doubles down on bid to lift Roger Marshall's campaign with Kansas rally",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPa0tSdVd3T0NjcDhET3Y1eWxvZElBV2tWMkdrMkV5ZWM0bFJzZDBsanNpQkxJQkJTOUlVazcwNEhaajVxNUFhUXNrVG9sN3l6MHBmbkRtNmRXRHRyTElJRkV0Mk5FRWl0bUtwOXluSFE1ZVA3VnFLaDIycU9nNEE5dDlJWFB5TFdhSDg2Vm1VWGxiNEViUXdFazRTRFBldzVkRzRRUGNNcXBDLW5lR21SR1dNbHFhZmM3Tks4QkhtVGNnNlFQZzVaeFlkNnNsZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-11-01",
    "race": "SEN-KS",
    "races": [
@@ -326,51 +359,6 @@
    "lean": "unrated",
    "title": "Roger Marshall Goes Rogue in Kansas Senate Race With a Video",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdmdJZHYxZ1pHdm1oZXIwYzlKdi13TVRpMkN5LTB2ZUhqMXhLTFVnY2pSZUhRZFE1N1hzM29UMjdWSGJWaVUzYm9OS0JVVnpBN20wQ0RDZ2RIRGl6cU40RmN3cmk1YlNsejRuRHF3aUthX1JxUnRTdmlLYW9RNXNTWEJKZnR5V0YyOUdCajZnejY4cGM?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Hamilton holds slight lead over Marshall in Kansas Senate contest: Poll",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTUFJVVZyVzdNZnRLOEJTaHo3ZUxMZm9SUkI5VHJoVDJoZWUySFZ2bGdqM1RvV0lPOXhYOUdxNVgyX3JNR0RtOEh6TU5lNzUxYjRGbkhVT2Y0Z0hWVzJ6V1Z4TzQtR3kyVExheFF1UVJ1RlZSUmNtckoyT3UxU3JiOURRMVNRSmpzWjJB0gGQAUFVX3lxTFBWVEtmRWF2U1VqTnB2dkNvQmY3bGw3ZEd4M0wwallTMmR2d1htVEV1ZGUtUFkwTllsX01pSDVDRHBCNms3YV9VR2lLS1ZCZDVhNEthX2RJYjB0TVJQR3BFd21aaThDdy1XamdNWW9ZUVg4VmJqRGVELVB5TzVDTThicHVQTE5vSE5nVFl3MUxtbA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "Forbes",
-   "lean": "unrated",
-   "title": "Latest Polls In 2026 Midterms: Democrat Adam Hamilton Ahead In Kansas Senate Race In 2 Polls",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNWdWUlBBdEJmQjFCeVhPVWdRM3NOaE5wdDkwM3hTNkFXY0lCdWNJRFFLQUFZMVNNWUNOWkN1LW1yZVNxX01CVFlncVhLcGh2Nm54Y25sejRyZ1BxZ0QtWGhDdFNWb3FnM1Zsc01rSTdsQTlVeUpkUDlnZ3lBTWl0SWNTSG15b0swWnRQZzgyUWs5OEMzeHdkTjR2c2tMdkJWMmxGQnJxRklTaFNNajZjMEtua1FvRnFTcVQyc1NsMFRZakxGdmUxTFFjQlFiVDhQS2dEU1pJRmQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-KS",
-   "races": [
-    "SEN-KS"
-   ],
-   "type": "reporting",
-   "source": "- Emerson Polling",
-   "lean": "unrated",
-   "title": "October 2026 Kansas Poll: Hamilton Maintains Edge over Marshall in Toss-up Election -",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTlBINU11RVpHR29ySHJlQkIzRkREalllTkFJUnprQTlnYTVhanZwUXVuNGpKY3djRi0xbmFBRmpIVklSTTdyblgtMDF4bU9WSDl4YWJ2Z25NbmtyT1gwWGhfR3F6dGV1Q1cwMkhVTF9Na1BoeGlLdU9KbUJ6XzF3b0ZkTFJFelpZb0hCUHg0ampTcWdYV09GWkVkN2NGUQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -492,6 +480,11 @@
    "date": "2026-11-02",
    "c": 0,
    "p": -3.9
+  },
+  {
+   "date": "2026-11-03",
+   "c": 0,
+   "p": -4.4
   }
  ]
 }

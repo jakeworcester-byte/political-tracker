@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -144,37 +144,22 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-01",
+   "date": "2026-11-03",
    "race": "HOU-VA-02",
    "races": [
     "HOU-VA-02"
    ],
    "type": "reporting",
-   "source": "The Daily Signal",
+   "source": "13newsnow.com",
    "lean": "unrated",
-   "title": "Democrat Leader Jeffries Joins Elaine Luria at Rally in Virginia’s 2nd District",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX2dVYm1Cb2FXYmFCT2tValE2ODVFZmlMdHM3c3V4ZzVPUWNUelpLX29SWkxodHgyZnFhSEI2cWtaanQ3VnhCY3JzNEVYYWJXXzNzczNQYWp0cV9sZ09VaFpOdDZWYU5fMVVTaV9vQWR6SUVQdUFtZmE3RFNiQkY0Tlo2aGp3a2QwRmpVMWZvTDF5R3dOTmx0NjA0UzhWaHlzUUUzN3J3?oc=5",
+   "title": "Political campaigns spend nearly $20 million on TV ads in Virginia's 2nd Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNdjBjdmc3eFc3TVZERXhrQUM5T21BV1NfcGprMVdJY3JsYV9CWXlRZTg0WmVnc0xRZzhZUlIzSGNLNS1USDZjNkVWazBnTnB1QzJNczJFY2p0YmJHOUFub3kyeTVzSnVZS29zYlE5S0pXaU9Fc3ZOS0ljbnJhMzVrbDl2aFpiX3NYLVJTVkZKRHpWUEJZTTRnSTVWZmJRVkNPTEoyREt0NU5ndmt6ak01ZVhEV2FpN09iUHZ1LUFtenNQTlNHV2dWQWNYUWw1X2JWWUhNbFRVOEtvTklpcUQwUUV5WVZKa0g4b1JjdkR3Zzd1T0FOY050RkhQTDlmTjlJX2thVnVLMzFSNDZoQ0FuaVdNX3ZfRVBMckF0MGVTVVZoeW8?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-31",
-   "race": "HOU-VA-02",
-   "races": [
-    "HOU-VA-02"
-   ],
-   "type": "reporting",
-   "source": "WTKR",
-   "lean": "unrated",
-   "title": "Elaine Luria rallies with Hakeem Jeffries in Virginia Beach as 2nd District race enters final days",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa3ZDd2pDYVM1bFFHYmVzOTZqbUVSS1Z0OFAzTjBqMUdLdFpXTmt5NWpLWVVKdFUxQWhMV3ZsOGY5MzEtTkhqRk9xNE04TFRydWlEQ1NVYkM1WXNZdm03SG9VcXVCQUwtbDhSSzdNZGxfN2pLYXM1Z0lsbVFCTWpsZy1yODFfSGtVNGg2c1FJeVhzN25Pd1JucE90SkF6aHdIX0JiMWJhelF5aU1yMDB0VU1LWksxTlJmS2FVRFh1QkpCbW03VjhSRk14dWFyOHJxNW9TNkI3WGNTdVdESUt3MXNyaw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "HOU-VA-02",
    "races": [
     "HOU-VA-02"
@@ -303,6 +288,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": 0.0
   }

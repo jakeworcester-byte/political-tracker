@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-27",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
-   "rating": "Tossup",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -51,9 +51,9 @@
    "name": "Fox News Power Rankings"
   },
   "silver": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-11-01",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -80,7 +80,7 @@
  "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 1,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Shannon Taylor"
@@ -163,6 +163,36 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-02",
+   "race": "HOU-VA-01",
+   "races": [
+    "HOU-VA-01"
+   ],
+   "type": "reporting",
+   "source": "13newsnow.com",
+   "lean": "unrated",
+   "title": "Virginia's 1st District candidates make final push ahead of Election Day",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNXzdsS3dNNE1RdUhfbVRFbjBSM1p5U2ExemdRQ0RpdC13b3ZURXNkd3ZDTEluTFF3Uk5UWnBuM0pxT192eDc2cWRoMjVDdGZhSzBvakk4eWR6UTBTVWN5NVFzbFpjR1hEZ1V1ZWpXZE9VR0U3Z2NFU241dl93YVlkUVRPLVo3SGctZDNBeUg4c3czSWp6UEg3bHV5cEExTWdQZWQtLXJhdWVqZV9kdWpxMFVmQmR1S0puYzhTUU9WYVpyVlpBYXo3T1lfcy1PaGZVaU1uOWN6YWt6WEtjSzZuUjhXOVVibWNQNTczc1dVZXZtcUNWQzUxZFZPeW5PSlNzS3hoa1VCMm0yMnlkNm9IQjdjQQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "HOU-VA-01",
+   "races": [
+    "HOU-VA-01"
+   ],
+   "type": "reporting",
+   "source": "Instagram",
+   "lean": "unrated",
+   "title": "The 1st district, which spans areas of Western Henrico and Chesterfield through Virginia’s Northern Neck, was labeled as the country’s “median district” – split almost evenly between red and blue voters – by the Center of Politics at UVA. Recent polls have plac",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iRllYQUxTTTFYeVoxdjdSTXNBNWIyMU5PUG1JWW1Jd1B2dnlhT2pjYm5UME5ySFYwMmtCanRMWWkzWENyWDNtaDVoNXYtR2dVU2c?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-01",
    "race": "HOU-VA-01",
    "races": [
@@ -178,21 +208,6 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-30",
-   "race": "HOU-VA-01",
-   "races": [
-    "HOU-VA-01"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Virginia 1st Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeUdsX0cwWDFiYWpwTXZXa3hPRC1uQ3FlMFRLZkY2NWhOOTdjbVN0ZFNHZE90N3BlQzQ1S1Q2djUwUGtMSHg1anJxT0hfOVhfUmlRbTRGa3huT3E5NUE2Uzh3WERMNU0xUVljQWItdEwxRnAxTElwWE10a0tzY2tnaENHQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
    "date": "2026-10-29",
    "race": "HOU-VA-01",
    "races": [
@@ -203,21 +218,6 @@
    "lean": "unrated",
    "title": "What's top of mind for Virginia's 1st congressional district voters?",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVEVlOWl5ZHk2a2sxSzNvcjl5Zko5bk5LOW1OUW10YTJ1V2U2Q0F3RkUzekl3RTQzODhRT3FnQkY0YlZ6VWhJOFJfWXpQY1ZuNTVrS3RrNkpMNi0xTXZkRWRqbDJkcFZxMzR1bDlWeEJjRDRWZnhsbzZkUmhNeWt3aVJtVXkxcHhNWXNpY3JZdE45b3g3eU96V2ZFajFISkV1a0VOOHFESEJSV1JkMENoUEVUTnBMV00?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "HOU-VA-01",
-   "races": [
-    "HOU-VA-01"
-   ],
-   "type": "reporting",
-   "source": "Yahoo",
-   "lean": "unrated",
-   "title": "What's top of mind for Virginia's 1st congressional district voters?",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSWktd0RnUV9UVHRUMmFnbTFWYUVyTm9VZHpidUVORmxscnEzOFZmNmdJOVFDQjRIOFM5QXFJLXJQTWs5U0o1MWpORmc3TTJWdlFSX19ZR3gyaXBoMTlMZFEzTVlnRDlVbzd2bGVsUnRuZmpZZWFkVkFOSGI5dE5femJSVQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -337,6 +337,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -2.5
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -2.5
   }

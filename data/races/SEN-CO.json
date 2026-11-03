@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -88,11 +88,65 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
  "flip_votes": 0,
  "candidates": {
-  "D": [],
-  "R": []
+  "D": [
+   "John Hickenlooper"
+  ],
+  "R": [
+   "Mark Baisley"
+  ]
  },
- "poll": null,
- "raw_poll_count": 0,
+ "poll": {
+  "average_margin": -14.0,
+  "average_label": "D+14.0",
+  "n_polls": 1,
+  "window_days": 45,
+  "latest": {
+   "pollster": "Lake Research Partners",
+   "sponsors": [
+    "Ballot Initiative Strategy Center"
+   ],
+   "partisan": null,
+   "start_date": "2026-09-16",
+   "end_date": "2026-09-30",
+   "sample_size": 600,
+   "population": "rv",
+   "margin": -14.0,
+   "margin_label": "D+14.0",
+   "answers": [
+    {
+     "choice": "John Hickenlooper",
+     "pct": 52.0
+    },
+    {
+     "choice": "Mark Baisley",
+     "pct": 38.0
+    }
+   ],
+   "url": "https://ballot.org/wp-content/uploads/2026/10/LRP-Topline-CO-BISC-State-Partners-10.8.26.pdf"
+  },
+  "polls": [
+   {
+    "pollster": "Lake Research Partners",
+    "end_date": "2026-09-30",
+    "margin": -14.0,
+    "n": 600,
+    "population": "rv",
+    "partisan": null,
+    "url": "https://ballot.org/wp-content/uploads/2026/10/LRP-Topline-CO-BISC-State-Partners-10.8.26.pdf",
+    "answers": [
+     {
+      "choice": "John Hickenlooper",
+      "pct": 52.0
+     },
+     {
+      "choice": "Mark Baisley",
+      "pct": 38.0
+     }
+    ]
+   }
+  ]
+ },
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-CO",
@@ -211,6 +265,11 @@
    "date": "2026-11-02",
    "c": -4,
    "p": null
+  },
+  {
+   "date": "2026-11-03",
+   "c": -4,
+   "p": -14.0
   }
  ]
 }

@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-11-01",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 5,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "Lindsay James"
@@ -163,16 +163,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "HOU-IA-02",
    "races": [
     "HOU-IA-02"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "weareiowa.com",
    "lean": "unrated",
-   "title": "Iowa 2nd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ndHZpd2VNNk9jMlBVU3VZMWJtZ2c5QmVJYlNYenV2TzlidUx5WFlEbDlTMGFMRGdhaDNVNGY1OFlYSmNvR2VVeXdDREJnaVF5cGUxeEtNNEFBYTZxY0piM3BXUTN2enFfYUdjSDFQQ19pdmczcnZVWWloRmFBdw?oc=5",
+   "title": "Meet the candidates vying to represent Iowa’s 2nd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQQkh1QTZjR0NYZmdEWDk2Mkd1R1BBWWdtUDlfQkhMMXViaVRFaFJnZnFRX29SNkQ5eGZGYjVtUkt0dE5jTm1qdkVXMmtlNk51bVRMMUpJeHp2elRNcDVNY1hldDAtMkxSZ2NNSE5nSGhRaHBqVkc4dGUwbkU3S1ZPVVl6OXB2bXNXbFN3OFZyVmhvN1VnWDZ4amMzRTFMZGRKcE56aF9VVHducTFUZHFLR3Bkb2dMT0V1ZnFtQUdZMno4OVVrdC1rOExKZzRWVm8zNjdOTFhXYkdkeWx5MzZCak1iZ1QwbGRJM3czTC1QbmVRdkRLbm9YN3pEYV8zc2VpYnlnd01Dc2N5MmR1a3kyNTZ6Z1dlSHU1ODNQZ3RsZVRNSlV3S3l2cGpSUXdrdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -322,6 +322,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -3.0
   }

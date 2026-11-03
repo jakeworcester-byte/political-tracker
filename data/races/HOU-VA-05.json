@@ -3,9 +3,9 @@
  "label": "Virginia 5",
  "ratings": {
   "cook": {
-   "rating": "Likely R",
+   "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-27",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -77,10 +77,10 @@
  "incumbent_note": "",
  "consensus_score": 2,
  "consensus": "Lean R",
- "disagreement": false,
+ "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 0,
+ "flip_votes": 1,
  "candidates": {
   "D": [
    "Tom Perriello"
@@ -148,6 +148,21 @@
     "HOU-VA-05"
    ],
    "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Virginia 5th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnJxRlRWaDl1NnYwOU95V3VsX1Z1UllDZmFFOVkxNXZPWWRKeVNXYkxFT1RrTHIyQnJkQlhCMTdjRmhGMzdhaVltNmpUenAxM3NVNGFrMTRqODV6ektySVROcHBHUlBKMWR5R3RwTXF4OHRZdlRVS083dmpOMTBNblBwVQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "HOU-VA-05",
+   "races": [
+    "HOU-VA-05"
+   ],
+   "type": "reporting",
    "source": "Cardinal News",
    "lean": "unrated",
    "title": "Virginia's 5th Congressional District shows distinct gap in turnout in Democratic areas versus Republican, which likely makes Tuesday critical",
@@ -157,16 +172,16 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "HOU-VA-05",
    "races": [
     "HOU-VA-05"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "WSET",
    "lean": "unrated",
-   "title": "Virginia 5th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZnJxRlRWaDl1NnYwOU95V3VsX1Z1UllDZmFFOVkxNXZPWWRKeVNXYkxFT1RrTHIyQnJkQlhCMTdjRmhGMzdhaVltNmpUenAxM3NVNGFrMTRqODV6ektySVROcHBHUlBKMWR5R3RwTXF4OHRZdlRVS083dmpOMTBNblBwVQ?oc=5",
+   "title": "McGuire faces strong challenge from Perriello for Virginia's 5th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNak1hakJNU3hqTHZTZTFxa0hBZVNRVl9aZG8zeHE2dG40R3pPNlFjc3RlNW4taEZmcERFVU5BMXVhQWs0bGo1ZGluVDlnOU05Q0JQVVl0RUcwRTNsaS1pRnF6LVlYbnZwTlQzTkhKd0ZKYU5RLXVWbFVSVlEtbnY3ZGZndFNHaXlTMlBLYjJaWG5VWHNZWGIxQUFlM1ZfRlNFN3RTcURzZWhtbTA0WFZ0QldNNXFHTTR3TDI3YjdJbWdUMmFGSWFURUZJWlpIUWNUbVRpTUN3YXo1S0V2UnhsQV92X3d2TGtXb0E?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -197,36 +212,6 @@
    "lean": "unrated",
    "title": "Voters in Virginia’s 5th District cite affordability, education as top issues",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMzRDUkpsSXcxWm9JeVVqRFNPR2IxR3NzZndSVTNoY0sxSkluckJ0SE5VN21BN0h4NWtIQzlscDZhd0J6clJlMnlqc2Z0MzBKQUlKZXJudTBpRzg1eDhfc04tUmZ3M2o3X3Y3OHJOaGM5aGw5U210a1BVTGFYeGlmVzV1VTU5RGp1b3ZvX2U2NnN5M29zblpYU1dFeTA5OXNXZHVfQlV30gG6AUFVX3lxTE0xWGF0cEp6RXNBUURURXlRbHVwZnViWGtqSGJNc0tqZFNHcndvc0hLT3NjMnFhVjlFS21CLXZUbDFodnlIbGphMUdhOGFJcW4td2k3RjVJYXluc3lVSmNwVlQyVlE4YTc1ZHpfNjkwc1R3cmp4ZmY3d2M2YnZUUkVPTTR6V1dCY28tb2swU2xBb2FWbllKR2kwdmN1WHdySkpQZjlsYVlFaFdvaG5lYTNZQTc1Tm93anFrQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-VA-05",
-   "races": [
-    "HOU-VA-05"
-   ],
-   "type": "reporting",
-   "source": "WSET",
-   "lean": "unrated",
-   "title": "Virginia's 5th Congressional District race draws heavy trading on prediction markets",
-   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOUHphajJIeFo1VUpMcEtsMlg4NjBMOU4xU2Y0emhMTXJGT0R0ZmJ2c3ktMW41clgyazJXbzBpcWQ5TFBHeVAtdzNvRHdwVHo1b3VGMTk0NWttakpnVWJRcHpUanMwejlMLTNnUDVrcTBkR3B3LXBIT2w2X0ZDS3ZPV1VPZnpVeE5MYkxHcWl2ZnUxZnVpQ0h2eE4xcjFKeWZ3WjNRODhrOWFDUE9NZmR2QWhrSlpfaXpGU0RELTFEWWpKaFVzM2FfZUdSYXNnWGVTVXM3ejVGMDFYRTBfN3ZtcGttWUNxalBzSEJHQ2lsbWVzWkRtc2dEanN5eGw1WmdiZzJEaFNNRk1CblRyYlRFcg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-VA-05",
-   "races": [
-    "HOU-VA-05"
-   ],
-   "type": "reporting",
-   "source": "The Daily Progress",
-   "lean": "unrated",
-   "title": "Virginia's 5th District race officially a 'toss-up,' Sabato's Crystal Ball says",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV19NYUxvRG1aTEExZEhCdWJ1UmthYjh4ODJWa09QMmE5YWRuNndxbUU5UG1sVThkTldGWUlXQUZJMlFGaGgzSjhIZVlYdGZ1OFQtYWNicnBKWEI2Zmdfb2ZVaUtsa0EyV1Y2dHBFMXQ5QXBpNnpSUk95TEh6RnBNT1NDQjJhSXBXN3pwSzMxc2RqMV83ZFB3RkdHbDBjQnZaVTRQMUk5b2ROcWVlZjFjZHdaeVhoVTQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -346,6 +331,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 2,
+   "p": 5.0
+  },
+  {
+   "date": "2026-11-03",
    "c": 2,
    "p": 5.0
   }

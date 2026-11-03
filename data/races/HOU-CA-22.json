@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -144,16 +144,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "HOU-CA-22",
    "races": [
     "HOU-CA-22"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "Latin Times",
    "lean": "unrated",
-   "title": "California 22nd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONU9iSUZJQmFONXgzLTRiX2dOenFncVZXdW5ZRzNwWHNpcHBwdW52Y29vemtfNV9mXzR3VF9CWkRqN2FPRnBuZXpBZjduRXVvTlVJcllESm9vTVkxTFZkWGhETlVnQno3WnQwTWhNWklsaUs3WWtnalJmZHNWdW02cENXQ0xnTWc?oc=5",
+   "title": "Luigi Shows Up to Fight: Democrat Randy Villegas Makes Final Turnout Push in California Toss-Up Race CA-22",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd01yUTZuSFBzSkxOYmJsV29DeHE0TTI0c09pdWlrRGRNdF9Wb0JaWXZBN2ZJYjdTZFNkdjQ1RUd0UXN1YUJrT2g0NVBlNXJBaU9YMTgtSGppV1R6N1h6bWhMWGNHVG5FdjNzWUluT2RSbE9aWmRUMWtUdzFtVTdMak1QbW5YZ0E?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -273,6 +273,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": -10.0
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": -10.0
   }

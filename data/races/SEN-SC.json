@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -96,43 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": 2.5,
-  "average_label": "R+2.5",
-  "n_polls": 2,
+  "average_margin": 1.1,
+  "average_label": "R+1.1",
+  "n_polls": 3,
   "window_days": 21,
   "latest": {
-   "pollster": "Targoz Market Research",
-   "sponsors": [
-    "South Carolina Policy Council"
-   ],
+   "pollster": "Resonance Media Services",
+   "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-16",
-   "end_date": "2026-10-25",
-   "sample_size": 895,
+   "start_date": "2026-10-30",
+   "end_date": "2026-10-30",
+   "sample_size": 600,
    "population": "lv",
-   "margin": 1.0,
-   "margin_label": "R+1.0",
+   "margin": -1.6,
+   "margin_label": "D+1.6",
    "answers": [
     {
      "choice": "Darline Graham",
-     "pct": 47.0
+     "pct": 44.6
     },
     {
      "choice": "Annie Andrews",
-     "pct": 46.0
-    },
-    {
-     "choice": "Kasie Whitener",
-     "pct": 2.0
-    },
-    {
-     "choice": "Mark Hackett",
-     "pct": 1.0
+     "pct": 46.2
     }
    ],
-   "url": "https://www.foxcarolina.com/2026/10/26/new-poll-shows-neck-and-neck-senate-race-double-digit-lead-governor-sc-midterms/"
+   "url": "https://www.fitsnews.com/wp-content/uploads/securepdfs/2026/11/Resonance-final-SC-Poll-Memo-11-02-2026.pdf"
   },
   "polls": [
+   {
+    "pollster": "Resonance Media Services",
+    "end_date": "2026-10-30",
+    "margin": -1.6,
+    "n": 600,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://www.fitsnews.com/wp-content/uploads/securepdfs/2026/11/Resonance-final-SC-Poll-Memo-11-02-2026.pdf",
+    "answers": [
+     {
+      "choice": "Darline Graham",
+      "pct": 44.6
+     },
+     {
+      "choice": "Annie Andrews",
+      "pct": 46.2
+     }
+    ]
+   },
    {
     "pollster": "Targoz Market Research",
     "end_date": "2026-10-25",
@@ -235,49 +244,20 @@
    }
   ]
  },
- "raw_poll_count": 4,
+ "raw_poll_count": 5,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "Nacionale",
+   "source": "Yahoo",
    "lean": "unrated",
-   "title": "South Carolina Senate race: Darline Graham, who replaced her late brother, in a close fight with Annie Andrews",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSEJ2WnRYUWxUNklhY0gzOUFLY1B2ZFhyVzRaS1o3M2RveGc2cDlOMjJLdmxGLXh6ZG43dHdkLVU0aDNmWWtnUi1ueHBMTkJmNklBdEhYMmhtVDZTT2c3bkxMQnhMNWRra1BHWXREYVpEYTE4ZGNydklKWEdaQWp1NEN6c0RJTXBPNERqaQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Polls suggest that Darline Graham is tied with, or trailing, Dr. Annie Andrews in a South Carolina race for the U.S. Senate",
-   "url": "https://www.wsj.com/politics/elections/darline-graham-senate-race-da6227b0?mod=rss_socialpoliticsfeed",
-   "summary": "President Trump pushed the sister of late Sen. Lindsey Graham to run for his seat, in a race that has become surprisingly close.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "Action Network",
-   "lean": "unrated",
-   "title": "South Carolina Senate Race & SC Governor Race 2026 Odds | Graham vs Andrews Polls + Kalshi & Polymarket South Carolina Senate Race Prediction (Novemeber Update)",
-   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPc3ZBUzVpQUx5SlA3dlJHaUZmaTg0VGJZRnAtcXYyY1RFaWVqVnl5MDlpMVc0YkNielNJQ1dXOERZS0hzNmZBa2VjTVJZZHZZczBCUXp0aWtqU3NFbXNZT1dZck9QQzV0aUpmbFA0ckk3VUcwU0t4bHp1NHZBZ25GOWJ1TGZIeXk0Z0prWWZwcHZmWlJjMkpEV3lobkZJcXh4dFdibWY0ZXdkam9CeXA3NXpycndkZGsxdHBDNnNSSGducUxtdmwwR0dFWkRHdFBvZ2p2Tjd0N3lKOTBVaVR1dnhXRkxBUnFkakFGcG5KbmdsX3ROdXRsdENDYkdSc0hvWHNNb1cwSU1pR1E2WXNiVTRFYw?oc=5",
+   "title": "South Carolina Senate race gets unexpectedly close after Lindsey Graham's sister Darline stumbles",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORlRUQUhZenpzbHRDZEV4ZTQ2T1FvVHBUS3pKMVZxdEpjQkMtb1VGY05TWnJ5UWR5MHgzT0lFbXkwVHBVTkltbFFUX0JqYXlfUXhzVHZTdEZUYzF0TFZEQUFRbS1Sd1NHTlZKLWk2cEdLNGQxWENIeXFlazNRV19hVlJVQ2MtMloxZ2VESU1KT1NqSy0tdHc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -296,51 +276,6 @@
    "url": "https://audioboom.com/posts/8971114",
    "summary": "Trump campaigns in South Carolina as the polls show Democrat Annie Andrews tied with Senator Darline Graham. Jon and Dan react to the president's incoherent case for the nepo senator, and the White House's \"grim\" mood heading into the midterms, before discussing the latest batch of Senate polls, Tru",
    "relevant": true
-  },
-  {
-   "date": "2026-10-30",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "The Washington Post",
-   "lean": "unrated",
-   "title": "Darline Graham increasingly endangered as South Carolina Senate race nears end",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdHNuNnJac25CdnQtT0diQ1N3WFdSa1Fza2dqbElJeUloU1FSUUNma1pRaDhkR3VMS012TUVCbjB1UGlNeTh5aGVFWU9CZkpZeW5mLW82NVNvVnBaT0dreldrSUNidFJ3cW1GZ0pNb0syTG9sZjNKSkpGZW5nZVRHcklWMEcxZjVwTm9LbThFNTRjeXVySHFPNmk0WU5wUWItdWdpUmFlR3JkRmowekN6akdFQVlIZEFTamxCaGlRRl9GZ1M2aXc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "MS NOW",
-   "lean": "unrated",
-   "title": "‘Train wreck’: Republicans panic over South Carolina Senate race as Trump swoops in",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnRNOUV6d2ZpQ0phQUhrR3JidVZIeVNUZGlfWHViamdpbWhOQmVTZzJ1QVBPRi1HRlVDU1lITW50OVh2NC0zSFVpMHF0LXpLbEh3SUk0MGNWbnRwRk11RVZSeEt1RzJsczZDa2ZsQjhKb0tmMVZyUUJrV0hxSGUtdVpBYy1zWmhi?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "South Carolina Senate race deadlocked: Survey",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdk9ISy0weThzVGNtR3J0alcxNlBWelNjNGgzY2x6a1Z5cUVGRnpoaHVXTzRxM3Y4MElhUnk2VFFDU3Y1eksyekZFdml4QW9WeHE0am9mMXRGTmt4NGNueU9EUktLZjV0OXUxMHZpbllpek5zRld2ckk5c0o5bG9tYVY4Z1dfeUF3VFNZVlpHejJOcGVwMlJYdjdvN1BXZ2pwRzJlM0dGaGNEcmRIVEHSAbMBQVVfeXFMUFFOcFRRdXE1V0pOcmJjTkJkUDJycVlFRG5WUXZsMXVaN29rVEltOFlfaEVCcUdBVU14aGxGYTQ4WmpVQW5xTno2d2lIZjVBMmxBbjlBanhLZlNrSXZfQWwtMmV6c3dVTmdsMHkxb1o4TVIzSkhSRDBsZ2VxTnRSbmxfLV84R2JpYldHQXdod3Q5bzBJNVpMUWlYYi0zWkc5MnQxSzgtME16TVp0N3VXOTRxNUk?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-SC",
@@ -459,6 +394,11 @@
    "date": "2026-11-02",
    "c": 2,
    "p": 2.5
+  },
+  {
+   "date": "2026-11-03",
+   "c": 2,
+   "p": 1.1
   }
  ]
 }

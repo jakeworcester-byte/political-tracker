@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Likely D",
+   "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,29 +41,29 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
-   "rating": "Likely D",
+   "rating": "Solid D",
    "flip": false,
    "as_of": "2026-11-02",
    "name": "Split Ticket"
@@ -97,9 +97,9 @@
   ]
  },
  "poll": {
-  "average_margin": -8.7,
-  "average_label": "D+8.7",
-  "n_polls": 3,
+  "average_margin": -8.0,
+  "average_label": "D+8.0",
+  "n_polls": 4,
   "window_days": 21,
   "latest": {
    "pollster": "University of New Hampshire",
@@ -144,6 +144,29 @@
      {
       "choice": "John Sununu",
       "pct": 42.0
+     },
+     {
+      "choice": "Edmond Laplante",
+      "pct": 2.0
+     }
+    ]
+   },
+   {
+    "pollster": "National Public Affairs",
+    "end_date": "2026-10-29",
+    "margin": -6.0,
+    "n": 800,
+    "population": "lv",
+    "partisan": "REP",
+    "url": "https://backend.natpublicaffairs.com/media/NH_General_Election_Memo_103126.2.pdf",
+    "answers": [
+     {
+      "choice": "Chris Pappas",
+      "pct": 51.0
+     },
+     {
+      "choice": "John Sununu",
+      "pct": 45.0
      },
      {
       "choice": "Edmond Laplante",
@@ -294,9 +317,40 @@
    }
   ]
  },
- "raw_poll_count": 10,
+ "raw_poll_count": 11,
  "trend": "Toward R",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-03",
+   "race": "SEN-NH",
+   "races": [
+    "SEN-NH"
+   ],
+   "type": "reporting",
+   "source": "PBS",
+   "lean": "unrated",
+   "title": "Live Results: New Hampshire Senate midterm election",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTVNfN1o0YWczWlduamVLc2dJd0dhcTNaTWdIVWpWSko0Q01wcVRKSzg3TkdmMmpvbmx4Qm1fS25lRGY0RGE3aW5ZaE92d2I0X085YnBMTTI5cXhWeUV6Wk8wTEs0S2RVN2lRYXJFSHlDVHJGc2xBZUsweWk1NDZVQkwxMTJhMlVwLVF3bTJTVFlQUdIBlwFBVV95cUxQbjVjUEdKM1N3c1g1Q0FLdHdkcHFEMVlsUlQ1c3VZYldHbFJQUXJ3TzIzWkwtSVVFMFc1RTNOY3cteEYyYzI4bHAtbmJoaVRnT2lHOVNGdnR5ZUFtTFRPVE1GU2hxWWlJMDduTi10VGl6bE1BT2V6U1NjYS1QM0s4TGl4U3FTemI0MGtDQ3hvTkp1dUdQSFNB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-02",
+   "race": "SEN-NH",
+   "races": [
+    "SEN-NH"
+   ],
+   "type": "reporting",
+   "source": "The Guardian",
+   "lean": "unrated",
+   "title": "Republicans were hoping to flip this New Hampshire Senate seat – will Trump get in the way?",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA0UWdocGNjY3pTWTlSV0w2LWVRNUgyN19BTS1SMFV6WWZFWjhhYjZrRnA3Zl9TVExhOThXVVJIY2VLUUZUMzctcXRvcXQzazhsLUdackpzNmozalVYc2xnMXJqSzhYbUhqbk5EUTA0LWxmZnBBcnk4cDh1UHctZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NH",
  "history": [
   {
@@ -413,6 +467,11 @@
    "date": "2026-11-02",
    "c": -2,
    "p": -8.7
+  },
+  {
+   "date": "2026-11-03",
+   "c": -2,
+   "p": -8.0
   }
  ]
 }

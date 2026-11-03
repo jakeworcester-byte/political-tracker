@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-27",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 3,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "Brian Poindexter"
@@ -204,21 +204,6 @@
     "HOU-OH-07"
    ],
    "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Ohio 7th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1YYk9IZnBTTW41UWRXUVFYdEZBOWI3NkMwZ3ItLUtoTk9CQ3pmRnZvVURnOFMyczBsaTJWNVRueTN3QjhLOHp6OFpoZ2FYWUFNRDVkYmc3cEUyR09kT3pFaXdxUUZGRmVMNFN1NU1ISFFaa0VxWUl5eE40LU5tdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
    "source": "Cleveland.com",
    "lean": "unrated",
    "title": "Outside groups have poured millions into Ohio’s 7th District ad war",
@@ -238,21 +223,6 @@
    "lean": "unrated",
    "title": "Ohio's 7th Congressional District race pits Max Miller against Brian Poindexter, who's focusing on workers' rights",
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMjZhdHZUbkQtMzJDU0E2VUJyZEstQUpLSXdNLVBIb2JUUDYxMkZYY3RPQWJ2VlExRlllSWZoV2I4MWxELVJuaE9MWkxXc3JXNGpqb01Ha2lqcDM0MTNhcllaOHNvY21GSUdRcjJuaXpyb0VyaDFKOGp2WGhSdWUxQWRtZFUyQWVvalpESnZDWHA0WHUyN3A3eTJNZGhxdWg3MTEwbm5NcjRfQ3VfcWFQOXQ2cVZFZWxWQkxXbElGQm0xVV9lMnFWejMxem1kbXllTEhfaVJWSVVLWUtUU2RndmdSSmEweTJNR1FoZERqSE1uLWk0bVVzcVdwdEY?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "Cleveland 19 News",
-   "lean": "unrated",
-   "title": "Embattled Miller challenged by Poindexter: What to know about Ohio 7th district candidates",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM2VtSG5kYXR3MkdVZVZWMXQ0Y1dBMDU3dmhndERRb1JRY1pCSzBlU1QtRF9OTHhXQ0NUclVBckJUV2Y1ekplZVpfc3NiQjB4c2RMNElhSEI1M2VpWWNHSEwyazdORnRwWW13azFCNXVXTUZmV1I2Ym5hUnpJdHNPYkFkTGxvcnpsTUxKNWhBbkoxSmFNOVR1SGZHLWdiclU5ZDlZQUljZjRSWW15MVpaZHg1Z3p1QTBUTHRza19jbFlqdkJK?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -372,6 +342,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -7.0
   }

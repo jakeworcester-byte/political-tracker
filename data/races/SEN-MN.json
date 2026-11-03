@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -96,41 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -3.0,
-  "average_label": "D+3.0",
-  "n_polls": 2,
+  "average_margin": -2.7,
+  "average_label": "D+2.7",
+  "n_polls": 3,
   "window_days": 21,
   "latest": {
-   "pollster": "InsiderAdvantage",
+   "pollster": "AtlasIntel",
    "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-29",
-   "end_date": "2026-10-30",
-   "sample_size": 1200,
+   "start_date": "2026-10-28",
+   "end_date": "2026-11-01",
+   "sample_size": 2133,
    "population": "lv",
-   "margin": -3.0,
-   "margin_label": "D+3.0",
+   "margin": -2.0,
+   "margin_label": "D+2.0",
    "answers": [
     {
      "choice": "Peggy Flanagan",
-     "pct": 49.0
+     "pct": 48.0
     },
     {
      "choice": "Michele Tafoya",
      "pct": 46.0
-    },
-    {
-     "choice": "Marisa Simonetti",
-     "pct": 1.0
-    },
-    {
-     "choice": "Rebecca Whiting",
-     "pct": 3.0
     }
    ],
-   "url": "https://insideradvantage.com/insideradvantage-final-minnesota-senate-survey-flanagan-49-tafoya-46/"
+   "url": "https://pollstergraph.com/poll/exclusive-atlas-us-mn-20261101-senate"
   },
   "polls": [
+   {
+    "pollster": "AtlasIntel",
+    "end_date": "2026-11-01",
+    "margin": -2.0,
+    "n": 2133,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://pollstergraph.com/poll/exclusive-atlas-us-mn-20261101-senate",
+    "answers": [
+     {
+      "choice": "Peggy Flanagan",
+      "pct": 48.0
+     },
+     {
+      "choice": "Michele Tafoya",
+      "pct": 46.0
+     }
+    ]
+   },
    {
     "pollster": "InsiderAdvantage",
     "end_date": "2026-10-30",
@@ -310,7 +321,7 @@
    }
   ]
  },
- "raw_poll_count": 7,
+ "raw_poll_count": 8,
  "trend": "Stable",
  "signals": [
   {
@@ -320,40 +331,10 @@
     "SEN-MN"
    ],
    "type": "reporting",
-   "source": "Nacionale",
+   "source": "5 EYEWITNESS NEWS",
    "lean": "unrated",
-   "title": "Minnesota Senate race: Peggy Flanagan is ahead of Michele Tafoya, but the last polls differ by seven points",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNlYwZjA4Y0NVajdqZ0hpdVkwYS1henljX0ZaTmp3S3NZdGNNN0I4VEVPeDByV2t6Q0hPNWV0TU53NmVNZWluUVVodWpCWUJVSEltVVNxNVJsUkt5eUFRVldoNnBOWGduZ0ZaLXdlUDRYa1E5Ml9EdGZOQlJrOE9jOVVJZWRoOGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "Minnesota Senate Primary Election 2026 Live Results: Tafoya, Craig, Flanagan and More",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWmFiQnRuLWtOaW1sZ010dkpyd2NyN19pNkU0SFhlcXBSeWs4SkFrbUFibHE4MF9MNVliLTZ6QWJkM2N0OVZZYjY1andZLW1ZeFlqSlFQWTRYZlJXODFpOFhKalJxNHA2V2JuSjgyUmpyd1dWNTdlVmxtaDRSVE5KM05PSHVqREE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Democrat Flanagan leads in Minnesota Senate race by double digits: Poll",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVjY1bXU5T3YwUWRkV0ZYZXZFQlZMUjFVWlFwRWhJZmtGYXFIRVB2WlgwdlEtOWFmVzA3VmRnM01TUDJmNGREZkZFQ01EOF9PckJFOGM3NHFzZUtJLVVGUE02QjAxZnR3MUVZM29DRkhlUU1FSmtLNlBFSUZxc1Y3RXNtcVZmajlsYk82X3ppQ0Y3ZEHSAZgBQVVfeXFMUDhuU2JyRHhUTFY3MXNoN1RuX19DN0l5TmdkTDRKUjNsUExCZ1hZZzR0RFNXUW81R0RwVzhVY2ZjNUVUUFQwRUhsLTI2bWltemRWb2xidUMwdThMdnNHOXdwd3gwQ0JnTWtMRFNvUkI2WGs1X1BiVmo5cXptSDNtSGxnVF90Vm4xSTI5WXZ1c0RTbUF3RjVhaVk?oc=5",
+   "title": "Minnesota US Senate race: Peggy Flanagan and Michele Tafoya face off to replace Senator Tina Smith",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTWxGYUZ6TkVTdnkxenowME4xelBXOFk0cmx1alg1MHFWN01GTWVQNzRwVUZoNjVXUW4xMWtpREREUUx3RkFFT2Jmd2ZYSWN6YXNuVVF4cWQyUXlJcTU1dTBOdWg1Z2NaZmg3R1VIQllDRnlEMGE0aW9VaEFpakFCa2hEdmlGSDdVb3R1ZW9teXBSU3BPYzkyY3dqeDR5ME5qOUlhMkxPLXA4MFhrUTRTOVNCbXhuVDRlSHF5dTcyRGoydjExcXNuaDBGTWRlTjNt?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -475,6 +456,11 @@
    "date": "2026-11-02",
    "c": -2,
    "p": -3.0
+  },
+  {
+   "date": "2026-11-03",
+   "c": -2,
+   "p": -2.7
   }
  ]
 }

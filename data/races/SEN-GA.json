@@ -5,25 +5,25 @@
   "cook": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "fpo": {
    "rating": "Solid D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -41,25 +41,25 @@
   "nbc": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "NBC News"
   },
   "rcp": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-31",
+   "as_of": "2026-11-02",
    "name": "RealClearPolling"
   },
   "sabato": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-10-29",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "silver": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-03",
    "name": "Silver Bulletin"
   },
   "st": {
@@ -96,39 +96,52 @@
   ]
  },
  "poll": {
-  "average_margin": -9.6,
-  "average_label": "D+9.6",
+  "average_margin": -9.0,
+  "average_label": "D+9.0",
   "n_polls": 5,
   "window_days": 21,
   "latest": {
-   "pollster": "Echelon Insights",
-   "sponsors": [
-    "NetChoice"
-   ],
+   "pollster": "InsiderAdvantage",
+   "sponsors": [],
    "partisan": null,
-   "start_date": "2026-10-16",
-   "end_date": "2026-10-23",
-   "sample_size": 508,
+   "start_date": "2026-10-31",
+   "end_date": "2026-11-02",
+   "sample_size": 2500,
    "population": "lv",
-   "margin": -15.0,
-   "margin_label": "D+15.0",
+   "margin": -7.0,
+   "margin_label": "D+7.0",
    "answers": [
     {
      "choice": "Jon Ossoff",
-     "pct": 55.0
+     "pct": 53.0
     },
     {
      "choice": "Mike Collins",
-     "pct": 40.0
-    },
-    {
-     "choice": "Allen Buckley",
-     "pct": 3.0
+     "pct": 46.0
     }
    ],
-   "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
+   "url": "https://jamesmagazinega.com/2026/11/02/48131/"
   },
   "polls": [
+   {
+    "pollster": "InsiderAdvantage",
+    "end_date": "2026-11-02",
+    "margin": -7.0,
+    "n": 2500,
+    "population": "lv",
+    "partisan": null,
+    "url": "https://jamesmagazinega.com/2026/11/02/48131/",
+    "answers": [
+     {
+      "choice": "Jon Ossoff",
+      "pct": 53.0
+     },
+     {
+      "choice": "Mike Collins",
+      "pct": 46.0
+     }
+    ]
+   },
    {
     "pollster": "Echelon Insights",
     "end_date": "2026-10-23",
@@ -306,7 +319,7 @@
    }
   ]
  },
- "raw_poll_count": 9,
+ "raw_poll_count": 10,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-GA",
@@ -425,6 +438,11 @@
    "date": "2026-11-02",
    "c": -3,
    "p": -9.6
+  },
+  {
+   "date": "2026-11-03",
+   "c": -3,
+   "p": -9.0
   }
  ]
 }

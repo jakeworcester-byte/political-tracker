@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -17,13 +17,13 @@
   "sabato": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -90,16 +90,16 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-30",
+   "date": "2026-11-03",
    "race": "HOU-TX-23",
    "races": [
     "HOU-TX-23"
    ],
    "type": "reporting",
-   "source": "KSAT",
+   "source": "KTSM 9 News",
    "lean": "unrated",
-   "title": "ELECTION RESULTS: Texas’ 23rd Congressional District race in the Nov. 3, 2026, midterms",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOWNoQ3VyR1pwa1FRLUNZTDEzWk5nN0RiOHR3Qkk1ZTNIbUVzTGptbFdhWE00SW5ubkFUUVZiX3FnblRZdlAtbWNsNE4wRjk2SW5GbUhSX3JkUDdHWGFrRHVkeDJCemF2WnV2T0UzaUxyWnh6WWx5VGN6Z3pIZGxsZ2s5MWc2VXRpODNvakdSWlY1dzc4aHZ3em5NN0c3MkFOeThLNk5vbFBTbU1UQ25BQTdUcFBRbWJZSHJWcEdUSEhzdDg?oc=5",
+   "title": "Scandal and border policy frame race for Texas’ 23rd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbzkwUHVqeUdGNVdJNk5POGY1WlRlclhzUEhVVTE0SEM5UWxqUlliRUF4NHA4S3VYejNPYm5TV1FxSVU2c3RJYXVaQkxGRjUzMmx5XzdKb0pBQzlFUTljMzVHOFhqYTlaSmdOSVp1QlVYY0hxSGJLb3hrY01qeWVmcW14amdMTWdpWkdRcFZUTHBBbFlqQTNab3drdEwtZFh0V2QyT1h5aWUzT0FCQTF2LQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -111,10 +111,10 @@
     "HOU-TX-23"
    ],
    "type": "reporting",
-   "source": "The New York Times",
+   "source": "KSAT",
    "lean": "unrated",
-   "title": "Texas 23rd Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWnNSclFrTzgtejNIdi1NdlpBMnYxUVV4dGlCUi05cENtZzA5MWNRYVluNVRMY2doU0tpTHNFbWRfZjVHemN4Q2tJRlZ4aEY0Rkk0ekwzMW5JbGh3ZTFPRUJtdVU4RUhTcUNFa2ppV0duN3NLY3djcGdOMHV5STRqbw?oc=5",
+   "title": "ELECTION RESULTS: Texas’ 23rd Congressional District race in the Nov. 3, 2026, midterms",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOWNoQ3VyR1pwa1FRLUNZTDEzWk5nN0RiOHR3Qkk1ZTNIbUVzTGptbFdhWE00SW5ubkFUUVZiX3FnblRZdlAtbWNsNE4wRjk2SW5GbUhSX3JkUDdHWGFrRHVkeDJCemF2WnV2T0UzaUxyWnh6WWx5VGN6Z3pIZGxsZ2s5MWc2VXRpODNvakdSWlY1dzc4aHZ3em5NN0c3MkFOeThLNk5vbFBTbU1UQ25BQTdUcFBRbWJZSHJWcEdUSEhzdDg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -234,6 +234,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-03",
    "c": 2,
    "p": null
   }

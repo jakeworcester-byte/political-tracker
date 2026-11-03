@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-27",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -75,12 +75,12 @@
  "key": "HOU-MI-10",
  "name": "MI-10",
  "incumbent_note": "",
- "consensus_score": 0,
- "consensus": "Tossup",
+ "consensus_score": -2,
+ "consensus": "Lean D",
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 5,
+ "flip_votes": 6,
  "candidates": {
   "D": [
    "Christina Hines"
@@ -141,24 +141,8 @@
   ]
  },
  "raw_poll_count": 1,
- "trend": "Toward R",
- "signals": [
-  {
-   "date": "2026-10-30",
-   "race": "HOU-MI-10",
-   "races": [
-    "HOU-MI-10"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Michigan 10th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLUtfVUhPOWRPVDBDZXFKLUNzQmw1ak9KNnZ0Uk5yWC13NFFaYk5DSS1idUZFZ1k2NFNTRC1ZOW1LRk5FLUtaOUVHc1VfVjdEYkJaWjliWlZoSmx4a1hRb2FGQ0dRZl9yQ2tJZmhVSmh2Wmdqei1BMGpjUHpaZEt0MEVkaWk?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "trend": "Stable",
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-10",
  "history": [
   {
@@ -274,6 +258,11 @@
   {
    "date": "2026-11-02",
    "c": 0,
+   "p": 0.0
+  },
+  {
+   "date": "2026-11-03",
+   "c": -2,
    "p": 0.0
   }
  ]

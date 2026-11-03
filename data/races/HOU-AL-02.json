@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
+   "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-10-27",
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Likely R",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean R",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -77,7 +77,7 @@
  "incumbent_note": "",
  "consensus_score": 2,
  "consensus": "Lean R",
- "disagreement": false,
+ "disagreement": true,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 7,
@@ -142,22 +142,7 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-10-31",
-   "race": "HOU-AL-02",
-   "races": [
-    "HOU-AL-02"
-   ],
-   "type": "reporting",
-   "source": "AL.com",
-   "lean": "unrated",
-   "title": "Alabama’s District 2 congressional race: What to know about the Shomari Figures, Rhett Marques matchup",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOUoxMFljM3g4Ql9yemtONWdsckF2eS1lZG96WW9idGZ3TnZ5emg1aW9jcXVXSU90WWJTRHdfRVFtOW9kOHVlMnlaSUx2dEktTjNLU1lSemNvOVN0eVJZVUk0U08wN0dobkctd01KS2JjVWROc2JzWGRhNXRJVEg3SXFVMkRGbnFMM0w2TldlUFZTc0tCbExOY2dRWTRic0RYYjlvbDJIMnZGZDhlVnRBZlgxQVNJUEFEck1LZUItcW1PWFYxc1UwdVJUb1NqeU43eFhsS3lTZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
@@ -172,46 +157,46 @@
    "via": "Google News"
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-11-02",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
    ],
    "type": "reporting",
-   "source": "Alabama Political Reporter",
+   "source": "WSFA",
    "lean": "unrated",
-   "title": "Alabama’s 2nd District race shifts to toss-up",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONVVLTTNCLXdMZDdVRG5Oa2VyemxPdnJmdVdSUDFJdlRhSDViY2ZzSmxxOFJhbjhUeEVFM3VFV1ItVGEyZnY4M2lGUFM2X2ZNTnN0WngxTkx1X3hfU1Rpb3UyRk1NVy13ZHdMNzE5Zk04cGxKYlg4VTFqWUVjcmdMcWpIQzVTVUtpMTc4?oc=5",
+   "title": "Meet the candidates: Alabama’s 2nd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYnJ5SExtZmxoaWd0ajJEa3hwX25zNldtOHdvc0JETXVVNG5sekl5cm5kd1lRMkVpX2JPemJXTDFIWjNUalRyWTRQbVhtNjdIRG5YcTdGWkdJbV9DN0dYLUluOElwUUZDdE1ZMWtwYmo4dFRSNWdWTXhiQmh3RGJXb2VWSVVJVjdZMTJYd1ZFSHk?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-11-02",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
    ],
    "type": "reporting",
-   "source": "Alabama Political Reporter",
+   "source": "Yellowhammer News",
    "lean": "unrated",
-   "title": "Alabama’s 2nd District race shifts to toss-up",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOY1k1b3Z5c3duRzYzSjg1cERSTWJXRUIzcnppb3NNc3YxUERZbDJGUHRlMEhaYVE4RnhlNDRvLUwtOTRFSy1OU2ZDaDhVaDg0d01nMTQ1ZHluZ2xWX1VKSGV1NGdCRFhxaUs2TEdYT2UxLVFqZnV5cWRBSDBVS1V3WVQ3bHp2d2VYdUE?oc=5",
+   "title": "Sabato’s Crystal Ball moves Alabama’s 2nd District to ‘Leans Democratic’ in final 2026 ratings",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeDk5UjJRWHZQd29hVWlFRmhGMlVQTXE2TXlJdXlqdHpyLXFlV0tlSUc5U3FIYVNLZmtTcjFmOWZhd09Eb0RzVU5oNVhtcXVSa3lEcW1vM1dZVzVhSVpzVzgya3ZfOWxxdVVXd1NaWDNZa1p4ZzdUS1BUaGhiaG9VZ0QzN1VhZWNNT3k3Qmw5OEZSdFRqS1hwRm11dWsyWUxQT3NLd2pobmZpd1FUSmx5Z0JMR182N1pUZmctVg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-10-29",
+   "date": "2026-11-02",
    "race": "HOU-AL-02",
    "races": [
     "HOU-AL-02"
    ],
    "type": "reporting",
-   "source": "AL.com",
+   "source": "WTVY",
    "lean": "unrated",
-   "title": "GOP-aligned poll shows Shomari Figures, Rhett Marques nearly tied in Alabama congressional race",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbmlHbU82QlNZaU45LTZpdk81X3FfeWpvVlRkNXZ1b1dlMXV1dVVTYmxuNnVKMmdJM0c3aDZRaTBjNkNHRW01cGlMc1FMdzkyVlEyUi12dERqSlBEeF9KMHNhal9INW9TMWtrQ0pTNFdsc0d2enZPRmYxRzdET0dQa0ZkMlkxcU53X04wclRQUy01NHU1RFZOZGF0UkwyYmNGNEJleGdPRWN2SE1QYkNFUExwQzhsblRhbVd4Rzh0dW1TRndCSU5SSDJXUTNra3k3?oc=5",
+   "title": "Meet the candidates for Alabama's 2nd Congressional District: Shomari Figures",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQkxRTVF5YVl6eXF0eFNHbURxaF9hOC1zRS1lbVNKT29EUEwtcjY2Rm1KMktRaEhNOGtRbERjcFl1R3lLT1NSV0lpb0tfcVNYUy11eFpHX29yd0RoWkFHU19tU0Y2aTlUMjUzSGVnLXpObGFFNnZTcFNwTm5rWnlCd1VrWUNLUkxudzUxeTAxZUV5RFhOd29yWmZGSnpOZHB0VmxZMWRWczhIdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -331,6 +316,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 2,
+   "p": 2.0
+  },
+  {
+   "date": "2026-11-03",
    "c": 2,
    "p": 2.0
   }

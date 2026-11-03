@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-27",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 2,
+ "flip_votes": 3,
  "candidates": {
   "D": [
    "Sam Forstag"
@@ -209,38 +209,7 @@
  },
  "raw_poll_count": 4,
  "trend": "Toward D",
- "signals": [
-  {
-   "date": "2026-10-30",
-   "race": "HOU-MT-01",
-   "races": [
-    "HOU-MT-01"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Montana 1st Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOUZ5NE55WHJackNPakZZbm5GS2ZpMWpQMHlhbVE0YkE5akVqU1hpNFNHMVVDMlBVbWREY2RoRjVFV2dxdDhUQm1Kd2VrQVhXSEhzNUtEc21VOTRyYmQyUml2U1VZZ2ZKUW9HcVB3ci1Ya3V3N1RITGk4WnlDUkdXMDVR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-29",
-   "race": "HOU-MT-01",
-   "races": [
-    "HOU-MT-01"
-   ],
-   "type": "reporting",
-   "source": "Crypto Briefing",
-   "lean": "unrated",
-   "title": "Trump endorses Aaron Flint in Montana’s 1st Congressional District race",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ05PRTN2NGdQbzNCYWhXaDZWcjg5NVJnMmhVUlJWTVhPT2hMbjJHX0VIV3ExdklnMmhIZTNIR1dlVGpnTjlnWlRnaVlDUzJScndkVmhZaFJrcUFlZ3I5bU9ha2liVm50UmxENHl0MXBielpzT19XZ0FmVXpZUDdGYUIzX29PRGxkOGJuY2xkQUtVc1lVYk1iQ05wMndPWUU?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
   {
@@ -355,6 +324,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": 0,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-03",
    "c": 0,
    "p": -8.0
   }

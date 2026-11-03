@@ -5,7 +5,7 @@
   "cook": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-10-30",
+   "as_of": "2026-11-02",
    "name": "Cook Political Report"
   },
   "ie": {
@@ -15,15 +15,15 @@
    "name": "Inside Elections"
   },
   "sabato": {
-   "rating": "Tossup",
-   "flip": false,
-   "as_of": "2026-10-27",
+   "rating": "Lean D",
+   "flip": true,
+   "as_of": "2026-11-02",
    "name": "Sabato's Crystal Ball"
   },
   "econ": {
    "rating": "Lean D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "The Economist"
   },
   "st": {
@@ -35,13 +35,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Decision Desk HQ"
   },
   "fpo": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -53,7 +53,7 @@
   "silver": {
    "rating": "Likely D",
    "flip": true,
-   "as_of": "2026-11-01",
+   "as_of": "2026-11-02",
    "name": "Silver Bulletin"
   },
   "rcp": {
@@ -80,7 +80,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
- "flip_votes": 7,
+ "flip_votes": 8,
  "candidates": {
   "D": [
    "William Lawrence"
@@ -173,36 +173,6 @@
    "lean": "unrated",
    "title": "Michigan MI-7 Election 2026: Republican incumbent Tom Barrett is up against Democrat William Lawrence in k",
    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPV3cwNWQ3ZjRpSlMwdjRCOGphaXRjTW9pblQ4NGRBS2pGRDlfSDRRUjFwN0J1LWF3emNMQ2xrM3dESGlfbXUzR2RVeUFTSHRrSEZZN2JVQmpacUJzODBuZXVUTVFnWG42U25jVERnXy1XQ0JrRDVYX0ZRcFBzUjVOTENRTjg3MFAtWC02djN0UHBrbGVTWDlBVXJZXy1sakVLNTNXdFM5QXpJaHptVzNoWm9GNVZtOUZ5dnI3el8xN2kzZ0c1ZmJNZkRCSnFrZTZmQ3prMVdBdmFkbFZENmo1aTRPQTJKM0JZdlNBdTNHdWhlTTllLUJ3SDVoUDk3c3dRQkhJVnJWd2xNbFl4YWZsY1BQbGxRLWc4eVJNS0c3ZmRHR2UyZmxuZHJSU3ZlcmZE0gG2AkFVX3lxTE1XcHRJWG5jaDRyNVVNZU00TFYzd0x3dDNxdS1kVmpzR0dVUFRocElXcmJpTUhURjJkcE42aHBGOFppTEhVcTBLNXZxTFUyUWFKVGctMGZraUlvS19Mal9kOFhidTBoOEY2MDZPRjc3bHNmX0lsVk0wVGhaQ3NkSXVGQVBXU0FiZ1I3NlZVckJvMUJ2NVZwRnhkZmtkbEJhbjJuZ1JyLUE4MklkZGpYME92N0RCMXhtRTNfMllEYmVyT21Od2t4WldEMDZlRkp1aExUTmc2RVRYbEY4OEFpUGZyQm1iNTU3YzlDWkFmZjh5XzJZZmtqQms5TWhOUjM1Z0l0bllOVjN3T2lRczFwUkJoYWlMWmgzSjZUVzl5ZWJ3cUFFV081ZE9qV3JLdlBPb3JMeFB4S0E?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-30",
-   "race": "HOU-MI-07",
-   "races": [
-    "HOU-MI-07"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Michigan 7th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcTBSWXNQRTFManJxeEE2czZuRGVQbGIzaWlhVVZ4SzRzS2Q4cVJwWklZeW4yUDliMHdYUGdSamRFbWZrRU5iMjJzM3BoVXlydkxjWmVPekU0YzlRZG9oYVFMUVhtZVlDTlRJZlNGVkw0OVNNY2d1M2xYTTFpdFdZYWFvOA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-10-28",
-   "race": "HOU-MI-07",
-   "races": [
-    "HOU-MI-07"
-   ],
-   "type": "reporting",
-   "source": "CBS News",
-   "lean": "unrated",
-   "title": "Candidates for Michigan's 7th U.S. Congressional District distance themselves from Trump, DSA",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEZNSTFXQk5MMVBJNG02UndBcEF4WmQ4Rk5hNy1NZU41ZlNoeVdPMVJsb0ZuV2hHY2VfeFJyUjdtS0lIZDNWNm05V3EzQ2hKUjlzVjRlbVlVaElYUTllM2FuY0RrM3FxUUpsTUpMWnlCQ2JmYmVZX0gzQmhqZmpZalJmZFlXT0pZengtQVZEcFgxR011aW03UzJrN2YtTnNDMkZnYUlwNXZmSmgteDhuRTU2dFpVYkZfaFBN?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -322,6 +292,11 @@
   },
   {
    "date": "2026-11-02",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-03",
    "c": -2,
    "p": -8.0
   }
