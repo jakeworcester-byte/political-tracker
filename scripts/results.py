@@ -548,7 +548,8 @@ def write_digest(run_date, edition, s, news):
 
     titles = {"chamber_calls": "Chamber-control calls", "uncalled_and_counting": "Counting and uncalled races",
               "recounts_and_certification": "Recounts and certification", "legal_and_federal": "Legal and federal action",
-              "exit_polls": "Exit polls and voter surveys"}
+              "exit_polls": "Exit polls and voter surveys",
+              "who_voted": "Who voted: voter-file turnout analysis (Ralston, Bitzer, major outlets)"}
     for group, title in titles.items():
         L.append(f"\n### {title} (headline leads; verify and cite)")
         seen = set()
