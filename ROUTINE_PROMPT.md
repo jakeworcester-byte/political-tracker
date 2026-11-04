@@ -1,6 +1,6 @@
 # Routine prompt: Midterm Tracker morning run
 
-This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-10-15a (early vote: UF Election Lab feed and NC raw ballot file automated; research step is now a short supplement).
+This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-11-01a (post-election mode from 2026-11-04 with an evening edition through 2026-11-06; see the last section).
 
 ## How the routines are wired
 
@@ -9,6 +9,9 @@ Two routines, because a fresh routine session has no repository credential and n
 1. **Midterm Tracker morning run** (5:07 a.m. Central) fires into the persistent runner session `session_01Ck3jX417QeWHBSEtBAA7PR` (model: Claude Opus 5.5, Jake's choice), which was created with the repository as its source (push access to `main`) and carries the Notion connector. It does everything below. An earlier runner, `session_01DfgwjsFRTn4HqAT89fuSzh`, ran the verification tests on 2026-10-11 and is retired.
 2. **Midterm Tracker brief to phone** (5:47 a.m. Central) is a fresh-session routine with push and email notifications on. It only fetches `docs/data/briefs/<today>.md` from raw GitHub and outputs it verbatim, so its completion notification on Jake's phone *is* the brief. If no brief is published by then, it notifies Jake of the failure instead.
 
+3. **Midterm Tracker evening run** (4:17 p.m. Central, November 4 to 6 only) fires into the same runner session and follows the post-election section below with `--edition pm`.
+4. **Midterm Tracker evening brief to phone** (4:57 p.m. Central, November 4 to 6) is a fresh-session routine like number 2 that fetches `docs/data/briefs/<today>-pm.md`.
+
 If the runner session is ever archived or expires, create a new session with `source_url` = the repository and `outcome_branch` = `main`, then rebind the morning routine to its id (`persistent_session_id`).
 
 ---
@@ -16,6 +19,8 @@ If the runner session is ever archived or expires, create a new session with `so
 You are running Jake Worcester's Midterm Tracker morning update inside the repository `jakeworcester-byte/political-tracker`. Work autonomously; nobody is watching. Read `CLAUDE.md` and `config/rubric.md` first and follow them exactly. The whole run should take well under 30 minutes.
 
 Today's date is the current date in America/Chicago.
+
+**On or after 2026-11-04 (`config/postelection.json` → `post_election_from`), skip steps 1 to 6 below and follow "Post-election mode" at the end of this file instead.**
 
 ## 1. Collect and analyze
 
@@ -107,3 +112,67 @@ Keep Notion calls bounded: batch page creations in one call where the tool allow
 Output the full text of `data/briefs/<today>.md` followed by one line: `Coverage: <ok>/<attempted> sources. Site updated. Notion updated.` (or the honest equivalent if a step failed). The notifier routine delivers the published brief to Jake's phone about 40 minutes later, so the push to `main` is the deliverable.
 
 If the run failed at a core step (no ratings, no brief, or the push failed twice), your final message is instead a short failure notice: what failed, the error text, and what Jake can do (open the run, or press Run now after the fix). Never end silently.
+
+---
+
+## Post-election mode (from 2026-11-04)
+
+The brief becomes an **election update**: actual outcomes, every race still uncalled, recounts and certification, legal and federal action, what exit polls say, and later the lessons-learned scorecard. Read the "Post-election" section of `config/rubric.md` first; its guardrails override anything above. The edition is `am` for the 5:07 a.m. run and `pm` for the 4:17 p.m. run (evening editions run November 4 to 6). Below, `<slug>` is `<today>` for am and `<today>-pm` for pm.
+
+### P1. Get current and gather
+
+```bash
+git stash push -u -m "leftover before run" || true
+git checkout main && git pull --ff-only origin main
+# am edition only, best-effort (the ratings article may change after the election; exit 2 is not a failure now):
+python3 scripts/collect.py || true
+python3 scripts/analyze.py || true
+# both editions: parser health check against the live pages (about 10 seconds), then the core step (about 3 minutes; never exits non-zero):
+python3 scripts/check_results.py --skip-2024 || true
+python3 scripts/results.py --edition am      # or --edition pm
+python3 scripts/scorecard.py
+```
+
+`results.py` reads the House and Senate results tables on Wikipedia (editors mark a race called when AP or the networks call it), compares them with the last snapshot to find new calls, uses the frozen pre-election ratings (the last run before Election Day) to separate competitive races from safe seats, searches Google News for every competitive uncalled race and for national leads (chamber calls, counting, recounts and certification, legal and federal action, exit polls), writes `docs/data/results.json` for the site's Results tab, and appends a "Results (post-election)" section to `data/bundle/<today>.md`. `scorecard.py` appends a "Scorecard" block. Skip `early_vote.py`; early voting is over.
+
+If `check_results.py` prints NEEDS ATTENTION (rows missing, a table not recognized, a winner mark not counted as called), do not spend the run rewriting the parser: write the update with the affected races taken from news leads and verification, name the problem in the Coverage note, and leave the fix for an attended session. If `results.py` reports that a results table failed to parse, the run still continues: write the update from the news leads, say so plainly in the Coverage note, and list what could not be checked.
+
+### P2. Verify (about 10 to 15 minutes; WebSearch and WebFetch if available, at most about 30 fetches)
+
+- Read the digest's Results section in full.
+- **Calls.** For each competitive race in "Called since the last update", confirm the call with a news lead from the digest (AP, a network, or a major outlet saying who called it). If no lead confirms it, write "marked called in the Wikipedia results table" and link the table. For races tagged "HEADLINE SUGGESTS A CALL", open the lead; if it reports an AP or network call, treat the race as called and attribute it; otherwise leave it uncalled.
+- **Uncalled.** For each race in "Competitive races not yet called", take the count from the table line and, where a lead gives a fresher count or share counted, use that with its source and time. Do not research every race individually; prioritize Senate races, races tagged close or counting, and races with leads.
+- **Recounts, certification, legal and federal action.** Open the relevant national leads. Prefer the state election office, the court, or a major outlet. A partisan or advocacy tracker can point you to a case, but cite the court record or a news report.
+- **Exit polls (am edition).** Use AP VoteCast or network exit polls from the leads, labeled as surveys. Also read the voter-file analysts' latest posts (Ralston's Nevada Independent blog and Ralston Reports; Bitzer's Center for NC Politics) and the digest's "Who voted" leads, and report who turned out compared with 2022 (new voters, 2022 non-voters, age, unaffiliated voters), attributed by name.
+- Never get around a bot check or paywall. CourtListener needs an account key we do not have; do not try it.
+
+### P3. Write the update
+
+Write `data/briefs/<slug>.md`:
+
+- Title: `# Election update: <Weekday, Month D> (morning)` or `(evening)`.
+- Sections as `## ` headings, in this order (publish.py checks them): **Bottom line**; **Called since the last update**; **Still uncalled**; **Recounts and certification**; **Legal and federal action**; **What voters said** (am; optional pm); **Lessons learned** (only once the digest's Scorecard says "ready"; afterwards once a week); **Coverage note**. End with https://jakeworcester-byte.github.io/political-tracker/#results
+- **Still uncalled** has one line for every race in the digest's "Competitive races not yet called" list, Senate first: `- **SEN-XX / HOU-XX-NN** (final rating): Leader (P) leads by N pts, M% counted (source, time). One clause on what is outstanding, if sourced.` Mark any race listed in the digest's "Rated safe, now competitive" section with **(rated safe)** after its key, here and in "Called since the last update", and say in the Bottom line how many seats rated safe are now within 5 points (skip that clause when there are none). Then one line giving the number of safe seats still unmarked in the table, saying they are table lag rather than close races, with the site link. If nothing is uncalled, say so.
+- Under 800 words outside the Still uncalled section. Every number and every call carries a source link. Never "I predict," "I expect," "will win," or "on track to win."
+- On the first post-election morning, "Called since the last update" covers everything called overnight: flips first, then holds in competitive races, then one summary line for safe seats.
+
+### P4. Publish
+
+```bash
+python3 scripts/publish.py --edition am        # or --edition pm
+git add -A
+git commit -m "Election update <today> am"     # or pm
+git push origin HEAD:main
+```
+
+Push directly to `main`, as before. If rejected because `main` moved, `git pull --rebase origin main` and push again.
+
+### P5. Notion (create-only, as in step 5)
+
+- **Daily Briefs**: query for a page titled `Election update <today> morning` (or `evening`). If none, create it with the full update as the body. Properties: Date, Bottom line, Top movers (the competitive calls since the last update, one per line, or "none"), Senate control (markets) = "Called: D x, R y of 51; n uncalled", House control (markets) = "Called: D x, R y of 218; n uncalled", Generic ballot and Presidential approval = "n/a (post-election)", Coverage, Signals written, Site link (the #results link), Run status.
+- **Signals**: as in step 5, one row per cited source not already present. Use the existing types (`reporting`, `poll` for exit polls and VoteCast); Race key = the race key or `National`.
+- Skip the Races database. Inbox processing as in step 5.
+
+### P6. Finish
+
+Output the full text of `data/briefs/<slug>.md` followed by `Coverage: results tables <ok/failed>, <n> race news queries, <errors> errors. Site updated. Notion updated.` (or the honest equivalent). The phone notifier delivers the published file about 40 minutes after the run starts. If a core step failed (no update written or the push failed twice), the final message is a short failure notice, as in step 6.
