@@ -114,8 +114,9 @@ def parse_candidates(text):
     out = []
     for chunk in [c.strip() for c in (text or "").split("▌") if c.strip()]:
         winner = False
-        if re.match(r"^Y\s", chunk):
-            winner, chunk = True, chunk[2:].strip()
+        m0 = re.match(r"^Y(?:\s+|(?=[A-Z]))", chunk)  # {{Aye}} mark, with or without a following space
+        if m0:
+            winner, chunk = True, chunk[m0.end():].strip()
         m = re.match(r"^(.*?)\s*\(([^)]*)\)\s*(?:([\d.]+)\s*%)?", chunk)
         if not m:
             continue
@@ -154,7 +155,29 @@ def senate_key(constituency, special):
     return key, f"{state} Senate" + (" (special)" if special else "")
 
 
-def race_status(status_text, cands):
+def infer_winner(status_text, cands, inc_party):
+    """Winner implied by an outcome line when editors wrote the outcome but no winner mark.
+    Only returns a candidate when the outcome identifies exactly one (e.g. 'Democratic gain' with one
+    Democrat on the ballot), so top-two same-party races stay uncalled."""
+    t = status_text or ""
+    m = re.search(r"\b(democratic|republican|independent)\S* (?:gain|hold)\b", t, re.I)
+    if m:
+        p = {"democratic": "D", "republican": "R", "independent": "I"}[m.group(1).lower()]
+        same = [c for c in cands if c["party"] == p]
+        return same[0] if len(same) == 1 else None
+    if re.search(r"\blost re-?election\b", t, re.I) and inc_party in ("D", "R"):
+        other = [c for c in cands if c["party"] in ("D", "R") and c["party"] != inc_party]
+        return other[0] if len(other) == 1 else None
+    if re.search(r"re-?elected", t, re.I):
+        if len(cands) == 1:
+            return cands[0]
+        if inc_party in ("D", "R", "I"):
+            same = [c for c in cands if c["party"] == inc_party]
+            return same[0] if len(same) == 1 else None
+    return None
+
+
+def race_status(status_text, cands, inc_party=None):
     called = any(c["winner"] for c in cands)
     outcome = bool(OUTCOME_RE.search(status_text or "")) and not re.search(r"to be elected", status_text or "", re.I)
     winner = next((c for c in cands if c["winner"]), None)
@@ -162,6 +185,8 @@ def race_status(status_text, cands):
         with_pct = [c for c in cands if c["pct"] is not None]
         if len(with_pct) >= 1:
             winner = max(with_pct, key=lambda c: c["pct"])
+        else:
+            winner = infer_winner(status_text, cands, inc_party)
     is_called = called or (outcome and winner is not None)
     pcts = sorted([c for c in cands if c["pct"] is not None], key=lambda c: -c["pct"])
     margin = round(pcts[0]["pct"] - pcts[1]["pct"], 1) if len(pcts) >= 2 else None
@@ -188,6 +213,7 @@ def parse_house(html):
         ci_loc = 0
         ci_status = find_col(header, "status", "results")
         ci_cand = find_col(header, "candidates")
+        ci_party = find_col(header, "party")
         if ci_status is None or ci_cand is None:
             continue
         for row in grid[2:]:
@@ -203,9 +229,11 @@ def parse_house(html):
                 if status not in prev["status_text"]:
                     prev["status_text"] += " | " + status
                 continue
-            races[key] = {"key": key, "name": name, "chamber": "House", "status_text": status, "candidates": cands}
+            inc_party = party_code(row[ci_party]) if ci_party is not None and ci_party < len(row) else None
+            races[key] = {"key": key, "name": name, "chamber": "House", "status_text": status, "candidates": cands,
+                          "incumbent_party": inc_party}
     for r in races.values():
-        r.update(race_status(r["status_text"], r["candidates"]))
+        r.update(race_status(r["status_text"], r["candidates"], r.get("incumbent_party")))
     return races
 
 
@@ -242,7 +270,7 @@ def parse_senate(html):
             races[key] = {"key": key, "name": name, "chamber": "Senate", "status_text": row[ci_status],
                           "candidates": cands, "incumbent_party": inc_party}
     for r in races.values():
-        r.update(race_status(r["status_text"], r["candidates"]))
+        r.update(race_status(r["status_text"], r["candidates"], r.get("incumbent_party")))
     return races, up_party
 
 
