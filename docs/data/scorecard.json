@@ -3,15 +3,15 @@
  "results_snapshot": "2026-11-04-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "preliminary",
- "competitive_called_pct": 41.3,
+ "competitive_called_pct": 42.9,
  "forecasters": [
   {
    "forecaster": "RealClearPolling",
    "code": "rcp",
-   "right": 66,
+   "right": 67,
    "wrong": 6,
    "tossups": 14,
-   "accuracy_pct": 91.7,
+   "accuracy_pct": 91.8,
    "misses": [
     "HOU-IN-05 (Lean R, D won)",
     "HOU-NC-06 (Solid R, D won)",
@@ -24,10 +24,10 @@
   {
    "forecaster": "Split Ticket",
    "code": "st",
-   "right": 74,
+   "right": 75,
    "wrong": 7,
    "tossups": 5,
-   "accuracy_pct": 91.4,
+   "accuracy_pct": 91.5,
    "misses": [
     "HOU-IN-05 (Lean R, D won)",
     "HOU-NJ-02 (Solid R, D won)",
@@ -54,10 +54,10 @@
   {
    "forecaster": "Silver Bulletin",
    "code": "silver",
-   "right": 74,
+   "right": 75,
    "wrong": 9,
    "tossups": 3,
-   "accuracy_pct": 89.2,
+   "accuracy_pct": 89.3,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-IN-05 (Likely R, D won)",
@@ -73,10 +73,10 @@
   {
    "forecaster": "Sabato's Crystal Ball",
    "code": "sabato",
-   "right": 69,
+   "right": 70,
    "wrong": 9,
    "tossups": 8,
-   "accuracy_pct": 88.5,
+   "accuracy_pct": 88.6,
    "misses": [
     "HOU-IN-05 (Likely R, D won)",
     "HOU-KY-06 (Lean R, D won)",
@@ -92,10 +92,10 @@
   {
    "forecaster": "Fox News",
    "code": "fox",
-   "right": 65,
+   "right": 66,
    "wrong": 9,
    "tossups": 12,
-   "accuracy_pct": 87.8,
+   "accuracy_pct": 88.0,
    "misses": [
     "HOU-AL-02 (Likely R, D won)",
     "HOU-IN-05 (Likely R, D won)",
@@ -111,10 +111,10 @@
   {
    "forecaster": "Inside Elections",
    "code": "ie",
-   "right": 69,
+   "right": 70,
    "wrong": 10,
    "tossups": 7,
-   "accuracy_pct": 87.3,
+   "accuracy_pct": 87.5,
    "misses": [
     "HOU-AL-02 (Tilt R, D won)",
     "HOU-IN-05 (Likely R, D won)",
@@ -131,10 +131,10 @@
   {
    "forecaster": "Decision Desk HQ",
    "code": "ddhq",
-   "right": 67,
+   "right": 68,
    "wrong": 10,
    "tossups": 9,
-   "accuracy_pct": 87.0,
+   "accuracy_pct": 87.2,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-IN-05 (Likely R, D won)",
@@ -151,10 +151,10 @@
   {
    "forecaster": "Cook Political Report",
    "code": "cook",
-   "right": 65,
+   "right": 66,
    "wrong": 10,
    "tossups": 11,
-   "accuracy_pct": 86.7,
+   "accuracy_pct": 86.8,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-IN-05 (Lean R, D won)",
@@ -171,10 +171,10 @@
   {
    "forecaster": "FiftyPlusOne",
    "code": "fpo",
-   "right": 71,
+   "right": 72,
    "wrong": 11,
    "tossups": 4,
-   "accuracy_pct": 86.6,
+   "accuracy_pct": 86.7,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-IN-05 (Likely R, D won)",
@@ -192,10 +192,10 @@
   {
    "forecaster": "The Economist",
    "code": "econ",
-   "right": 66,
+   "right": 67,
    "wrong": 11,
    "tossups": 9,
-   "accuracy_pct": 85.7,
+   "accuracy_pct": 85.9,
    "misses": [
     "HOU-AL-02 (Likely R, D won)",
     "HOU-IN-05 (Lean R, D won)",
@@ -212,7 +212,7 @@
   }
  ],
  "consensus": {
-  "right": 67,
+  "right": 68,
   "wrong": 10,
   "tossup": 9,
   "misses": [
