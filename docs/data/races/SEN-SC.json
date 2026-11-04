@@ -9,15 +9,15 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Lean R",
+   "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "name": "The Economist"
   },
   "fpo": {
@@ -248,16 +248,135 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-03",
+   "date": "2026-11-04",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "Yahoo",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Democrats Win South Carolina Senate Seat",
+   "url": "https://www.nytimes.com/video/us/politics/100000011260059/democrats-flip-south-carolina-senate-seat.html",
+   "summary": "In the first big surprise of election night, Senator Darline Graham, a Republican, lost her seat to a Democratic challenger in South Carolina. Our national political correspondent Shane Goldmacher explains how the senator’s missteps contributed to her loss.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC",
+    "SEN-TX"
+   ],
+   "type": "podcast",
+   "source": "The Megyn Kelly Show",
+   "lean": "right",
+   "title": "Blue Wave Sweeps Nation, GOP Loses in Texas and South Carolina, Donalds Wins Florida: AM Update 11/4",
+   "url": "https://www.siriusxm.com",
+   "summary": "Democrats sweep key battleground states, seize control of both chambers of Congress, and deliver a major blow to President Trump's agenda in a decisive blue wave. Democrat Annie Andrews pulls off a stunning upset in South Carolina, defeating Republican Senator Darline Graham despite millions in last",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
    "lean": "unrated",
-   "title": "South Carolina Senate race gets unexpectedly close after Lindsey Graham's sister Darline stumbles",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORlRUQUhZenpzbHRDZEV4ZTQ2T1FvVHBUS3pKMVZxdEpjQkMtb1VGY05TWnJ5UWR5MHgzT0lFbXkwVHBVTkltbFFUX0JqYXlfUXhzVHZTdEZUYzF0TFZEQUFRbS1Sd1NHTlZKLWk2cEdLNGQxWENIeXFlazNRV19hVlJVQ2MtMloxZ2VESU1KT1NqSy0tdHc?oc=5",
+   "title": "South Carolina U.S. Senate Election 2026 Live Results: Annie Andrews Wins",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVdjMjRyMzN2S2RTc1poUU1zaXV1NjR6UGZzM1ZLcGVhUW81WkVWR0E2Wmt3QTMwOVpCNlQxa1JlMHBzLTFySnB1T3lSLXVzRWhOTUlINTZMNnFIUDZEZjBTTDVRaWxRYy1fZ25OdHlNSGY3TDQ1UUFwUm1vdkhtWU5ZNA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "South Carolina U.S. Senate 2026: Live Midterm Election Results, Graham vs. Andrews",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZkpQelZ3MWk2a2RoeFZFZWVYQTBLbURPRjZXLVU0d2V4bzRQS3ZRSklMcU1yN3FWVWtlcF9PQzBDbTB5VHpERnZsUDZaaDRnOHpZTkpubUpQajNYamgyMTkxdHRCSDNyclk2dzdtSTJ6ZTd1R1NrVkYwNEVYS1hmRHFEVHY4empmcDFOY3V2RkdwT3dCMF8xc2hNR0dyUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "NPR",
+   "lean": "unrated",
+   "title": "Democrat Annie Andrews wins South Carolina Senate race in major upset",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcV9NbE1QbXdpUkZmQzlhN1RJbU80M1YxNkJxRndFQ2VWVno5YUVlSHNTRWJzdm9sWDJwSG44bzBObXVRenM5REZScmdFY0FnTGZ0RWx0MGQ4UzVPdVczVG1oYVRiUU9rV2ZMdjBOcGQtZXBBdlpXLW42Q2VsZHczQ1VHSEczWFUzeUlRejNHdnBBYUQyOHlxcXgweGphbEUyLUJ4clpiMEVzZmxvOFNKeXFZcFM?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "WRAL",
+   "lean": "unrated",
+   "title": "Democrat Annie Andrews wins US Senate election in South Carolina over Republican Darline Graham",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU0daNjQzVjJ5MXBXYmpvenJXOGxTSjAwTUZsZGoxWXU3ZkJOWEtmRk5zZEhYQlZBYVRkVnpGdXZFdDlpSnRvUllfOHpuaUtwd3JYclZLb2RFTHlhUFg2REJoM2dlQjRnRFJfcERLSHdkcWhTa2RlNVJBNmY3anFMcG1BRnFEWXo3QWJsSG42dE1HZTI3YmNBQk13VDBsT3lUN2h2Y3UxYm52YVBrUU1ZZmNhc3dVcEtkV1FxZXlzVEk4VVItSXNVOE9Fdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "ABC7 Los Angeles",
+   "lean": "unrated",
+   "title": "Democrat Annie Andrews projected to win Senate race in South Carolina, flipping deep-red seat",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVkJsV2NXa3pOenZFaGF0bFQxdjM1REhhS0pwTlVlbjdOMlc3RFBjc0NjTVhsNXZoQ0hESWgwZzhUYmNxVTNZa05SVGU2eEVrY1p5ZmJYeVlOSUN4Sl95MXNkbDByaTJobGZXb3JtVy0xY2NNVERneGR3UFh1SFRJb0h3S0NmTGdZSGx1T055VGI3a0FGOTBSRUlFb2dwSk5oZmNFYTh3cDlBblo3bklNbDM2N1EtZjYzbkx6cQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "CNN",
+   "lean": "unrated",
+   "title": "Trump’s personal push of Darline Graham in South Carolina comes back to bite his party",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHazMyY2ZSdHpvUWtOOVdxMHN0cndmR1l0dkI0emNBOHhMNnhiNFJQZnBhbndkcjJ5T3lPXzFZTEJrTHJNek0yMkthSkExZHlmWVRtWFhTbndtNUhkcHhQcE8yaUFmVjNBTEczRmNaSkl6MVE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "WPDE",
+   "lean": "unrated",
+   "title": "LIVE: AP News calls U.S. Senate Race in South Carolina for Democrat Annie Andrews",
+   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOZlRzOVpYa3BzaTVET2t6RGVtQ2lrbVBxV09PWU9qM2dhdHpsTUNlUVl5Snl6RlpIc1JlTG1DeXZIX2tTRXhlUDZCa29pTzZEdEQ1aVdZdGtaVDc2RFk1M1BUMVVtU1JPZU5tYkd6Y3JHOGJqMDRlbmFoY2M5a1JuNExydTdtS054ZHpnLWNrQ2E3S2hIdnQzUjg0S1VoeDBIUm5iS3dGSW1QZTZVV2V1TGFhaVZvRkRlU2FqNnZfN3VNaWY3UHZRam9fejV0Qmd4TDM1MjlDWXJaVkVUX2V4N3J2clRyTVVfNHQ4NW1BTzZFbzhmTHkzV3BLcVhIcGZnSUlzcVdvVGhrZU9NM0VWWkUzYkhjSHFjbVlhcXNJRkFScFJDNVZtSzdwRjc3bmM?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -397,6 +516,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": 2,
+   "p": 1.1
+  },
+  {
+   "date": "2026-11-04",
    "c": 2,
    "p": 1.1
   }

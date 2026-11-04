@@ -1,0 +1,249 @@
+{
+ "run_date": "2026-11-04",
+ "results_snapshot": "2026-11-04-am.json",
+ "ratings_frozen_from": "2026-11-03",
+ "status": "preliminary",
+ "competitive_called_pct": 41.3,
+ "forecasters": [
+  {
+   "forecaster": "RealClearPolling",
+   "code": "rcp",
+   "right": 66,
+   "wrong": 6,
+   "tossups": 14,
+   "accuracy_pct": 91.7,
+   "misses": [
+    "HOU-IN-05 (Lean R, D won)",
+    "HOU-NC-06 (Solid R, D won)",
+    "HOU-NC-09 (Lean R, D won)",
+    "HOU-NC-13 (Lean R, D won)",
+    "HOU-NC-14 (Solid R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "Split Ticket",
+   "code": "st",
+   "right": 74,
+   "wrong": 7,
+   "tossups": 5,
+   "accuracy_pct": 91.4,
+   "misses": [
+    "HOU-IN-05 (Lean R, D won)",
+    "HOU-NJ-02 (Solid R, D won)",
+    "HOU-NC-06 (Likely R, D won)",
+    "HOU-NC-09 (Likely R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Likely R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "NBC News",
+   "code": "nbc",
+   "right": 26,
+   "wrong": 3,
+   "tossups": 4,
+   "accuracy_pct": 89.7,
+   "misses": [
+    "SEN-IA (Lean R, D won)",
+    "SEN-KS (Lean R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "Silver Bulletin",
+   "code": "silver",
+   "right": 74,
+   "wrong": 9,
+   "tossups": 3,
+   "accuracy_pct": 89.2,
+   "misses": [
+    "HOU-AL-02 (Lean R, D won)",
+    "HOU-IN-05 (Likely R, D won)",
+    "HOU-NJ-02 (Likely R, D won)",
+    "HOU-NC-06 (Solid R, D won)",
+    "HOU-NC-09 (Likely R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Solid R, D won)",
+    "SEN-IA (Lean R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "Sabato's Crystal Ball",
+   "code": "sabato",
+   "right": 69,
+   "wrong": 9,
+   "tossups": 8,
+   "accuracy_pct": 88.5,
+   "misses": [
+    "HOU-IN-05 (Likely R, D won)",
+    "HOU-KY-06 (Lean R, D won)",
+    "HOU-MO-02 (Lean R, D won)",
+    "HOU-NJ-02 (Lean R, D won)",
+    "HOU-NC-06 (Solid R, D won)",
+    "HOU-NC-09 (Likely R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Solid R, D won)",
+    "HOU-TX-23 (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "Fox News",
+   "code": "fox",
+   "right": 65,
+   "wrong": 9,
+   "tossups": 12,
+   "accuracy_pct": 87.8,
+   "misses": [
+    "HOU-AL-02 (Likely R, D won)",
+    "HOU-IN-05 (Likely R, D won)",
+    "HOU-MO-02 (Lean R, D won)",
+    "HOU-NJ-02 (Likely R, D won)",
+    "HOU-NC-06 (Solid R, D won)",
+    "HOU-NC-09 (Solid R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Solid R, D won)",
+    "HOU-TX-23 (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "Inside Elections",
+   "code": "ie",
+   "right": 69,
+   "wrong": 10,
+   "tossups": 7,
+   "accuracy_pct": 87.3,
+   "misses": [
+    "HOU-AL-02 (Tilt R, D won)",
+    "HOU-IN-05 (Likely R, D won)",
+    "HOU-MO-02 (Solid R, D won)",
+    "HOU-NJ-02 (Likely R, D won)",
+    "HOU-NC-06 (Solid R, D won)",
+    "HOU-NC-09 (Likely R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Solid R, D won)",
+    "HOU-TX-23 (Likely R, D won)",
+    "SEN-SC (Tilt R, D won)"
+   ]
+  },
+  {
+   "forecaster": "Decision Desk HQ",
+   "code": "ddhq",
+   "right": 67,
+   "wrong": 10,
+   "tossups": 9,
+   "accuracy_pct": 87.0,
+   "misses": [
+    "HOU-AL-02 (Lean R, D won)",
+    "HOU-IN-05 (Likely R, D won)",
+    "HOU-MO-02 (Lean R, D won)",
+    "HOU-NJ-02 (Lean R, D won)",
+    "HOU-NC-06 (Likely R, D won)",
+    "HOU-NC-09 (Likely R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Likely R, D won)",
+    "HOU-TX-23 (Lean R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "Cook Political Report",
+   "code": "cook",
+   "right": 65,
+   "wrong": 10,
+   "tossups": 11,
+   "accuracy_pct": 86.7,
+   "misses": [
+    "HOU-AL-02 (Lean R, D won)",
+    "HOU-IN-05 (Lean R, D won)",
+    "HOU-MO-02 (Likely R, D won)",
+    "HOU-NJ-02 (Likely R, D won)",
+    "HOU-NC-06 (Solid R, D won)",
+    "HOU-NC-09 (Likely R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Likely R, D won)",
+    "HOU-TX-23 (Lean R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "FiftyPlusOne",
+   "code": "fpo",
+   "right": 71,
+   "wrong": 11,
+   "tossups": 4,
+   "accuracy_pct": 86.6,
+   "misses": [
+    "HOU-AL-02 (Lean R, D won)",
+    "HOU-IN-05 (Likely R, D won)",
+    "HOU-KY-06 (Lean R, D won)",
+    "HOU-NJ-02 (Likely R, D won)",
+    "HOU-NC-06 (Solid R, D won)",
+    "HOU-NC-09 (Likely R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Likely R, D won)",
+    "HOU-TX-15 (Lean R, D won)",
+    "HOU-TX-23 (Lean R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
+   "forecaster": "The Economist",
+   "code": "econ",
+   "right": 66,
+   "wrong": 11,
+   "tossups": 9,
+   "accuracy_pct": 85.7,
+   "misses": [
+    "HOU-AL-02 (Likely R, D won)",
+    "HOU-IN-05 (Lean R, D won)",
+    "HOU-NJ-02 (Likely R, D won)",
+    "HOU-NC-06 (Solid R, D won)",
+    "HOU-NC-09 (Likely R, D won)",
+    "HOU-NC-13 (Likely R, D won)",
+    "HOU-NC-14 (Likely R, D won)",
+    "HOU-PA-01 (Lean R, D won)",
+    "HOU-TX-23 (Lean R, D won)",
+    "SEN-IA (Lean R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  }
+ ],
+ "consensus": {
+  "right": 67,
+  "wrong": 10,
+  "tossup": 9,
+  "misses": [
+   "HOU-AL-02 (Lean R, D won)",
+   "HOU-IN-05 (Likely R, D won)",
+   "HOU-MO-02 (Tilt R, D won)",
+   "HOU-NJ-02 (Likely R, D won)",
+   "HOU-NC-06 (Solid R, D won)",
+   "HOU-NC-09 (Likely R, D won)",
+   "HOU-NC-13 (Likely R, D won)",
+   "HOU-NC-14 (Likely R, D won)",
+   "HOU-TX-23 (Lean R, D won)",
+   "SEN-SC (Lean R, D won)"
+  ]
+ },
+ "tossups_won": {
+  "D": 9,
+  "R": 0,
+  "Other": 0
+ },
+ "polls": null,
+ "markets": {
+  "house": {
+   "final_price_D": 94.5,
+   "control_decided": null
+  },
+  "senate": {
+   "final_price_D": 76.5,
+   "control_decided": "D"
+  },
+  "source": "Polymarket, final pre-election price recorded by the tracker"
+ },
+ "caveat": "Vote shares are from the Wikipedia results table and change until counting ends; accuracy counts only races already called."
+}

@@ -9,15 +9,15 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-11-02",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-03",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "name": "The Economist"
   },
   "fpo": {
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 3,
+ "flip_votes": 2,
  "candidates": {
   "D": [
    "Mary Peltola"
@@ -281,7 +281,21 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-03",
+   "date": "2026-11-04",
+   "race": "SEN-AK",
+   "races": [
+    "SEN-AK"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Justice Dept. Sends Target Letters to Democrats in Escalation of Alaska Inquiry",
+   "url": "https://www.nytimes.com/2026/11/03/us/politics/alaska-investigation-target-letters-democrats.html",
+   "summary": "The move is a highly unusual action to take at the decisive moment in a close race between the incumbent, Dan Sullivan, and his Democratic rival, Mary Peltola.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-04",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
@@ -289,112 +303,53 @@
    "type": "reporting",
    "source": "The New York Times",
    "lean": "unrated",
-   "title": "Inside The Times’s Decisions on the Alaska Senate Race Story",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMEtnNEMzeHp0SnlzMkRHbkhBeU9CUThsQm02ZHA0OFVRN2p1eTRMQlVHQ29KQjNpNTZOQkhVWkYwU0ZUWW11RVpjbkNQTFlaU0Y1cF9zdllQTFJLcnNwbFYtdGZCR1haQjBPdkd5UWxscnZvNWJfd21VNi03RFNiOWl0NnQ0ckFfYUpaWVJ6emsyOW9SNlFF?oc=5",
+   "title": "Alaska U.S. Senate 2026: Live Midterm Election Results, Sullivan vs. Peltola",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQjU1bndZWmxFazdLTG1UenJXUFlaSDNreW9udnNVWjNxcUpCMmUwSW12cWJwTWxDcDBPaTJhcU1oTVZ4ak1nbXB0VGlnci12c0JPUG0tQkhmV0hyV2dYSlB3d3BCM0hCc29iaXNLbnMtMERTYnlSdHNVd0ExZ19GeHVPZlhKb1hDaWI2eTJWcURXREk?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-11-02",
+   "date": "2026-11-04",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "PBS",
+   "source": "NBC News",
    "lean": "unrated",
-   "title": "In an Alaska fishing community, the Dan Sullivan episode takes an ominous turn",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTXNSUzI0dExhQlhHQm92d2NOY24ycUc0UUwxdC01RHVSanJ1ZTBFMnB3T0VpVEN0Nm5HbU1fVkg2RUNuaUNWOWlJRzdiLXFsYUdURU9YN1BzaDRibFJVVlFsZUtMWFhPTHgwaGEwU1NBeGJiSUNqeWcwbHBVTzM2eTI1ek5ISldqaVpveFlOdnl2c0k4Z3JvUnd1R2t3Wjl1aXBhRklzX1RGdkVHZHNXamRFMlAtQdIBuwFBVV95cUxNM0hoQVpWcnROWmZhWTg5OFY1SmRxUzdVdklCcGZVMUpaVTVfX2laR3VGaTZaNmpfTzl5a3RJVWw3VVRIQ0tPdU9qdWRMT0hvanZqcWF4YTdTNkpWaDFKSWI0ZEFuWEdNcmZwbDhVb2NqLWg1QlR1YjJDM3BXeUxIQktuSlN6dTZNSThKei1INUN6UDJtLWdYWi1OV2tTSVY2a2xXWVhEZml5R3JBa2JvZW90RHFCSjJLaXVJ?oc=5",
+   "title": "Alaska U.S. Senate Election 2026 Live Results: Mary Peltola, Dan Sullivan and More",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1WlFUdEt1VHQxXzFleWk1dmQ1X05TTmRnTWdzU1BGREpBUnVZbUZTSjNVdElQbm43dktZRTNibFZVZkpFd3hfc0twUHNKOXp0Qk5rSUs4TEVWa2JZakV3WXhXUjI0YzNWblhDMlRzMFlHSHlLZklmYg?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-11-01",
+   "date": "2026-11-04",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The tale of “Decoy Dan” drew chuckles and eye rolls across a remote Alaskan fishing village—but now the FBI is involved",
-   "url": "https://www.wsj.com/politics/elections/alaska-town-reckons-with-decoy-dan-election-fallout-now-it-is-serious-4a13abbd?mod=rss_socialpoliticsfeed",
-   "summary": "In an isolated island village, a namesake challenge to Sen. Dan S. Sullivan seemed harmless—until the candidate vanished and federal agents started knocking on doors.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "CNBC",
+   "source": "Alaska Beacon",
    "lean": "unrated",
-   "title": "Alaska Sen. Sullivan says he'll accept election results, slams Peltola campaign’s reported recruitment of 2nd Sullivan",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUHNNSFRNTm5qU052YlVzaTlWWTEwMGx1aGFLc21xQVhGZy1fdVdSRXlPYUhxNWowSWVVOUlqb2VnLTd3N29OVl85ejNOcXRMUlE4ejhfMzQwZXpGXzdtVHZTTTRaaFBzSV96T3hVYVMxOUh5VUd2ZF9jNTlLNXlfT1RzbllKYkHSAYwBQVVfeXFMUDlNRmxIV0gydUx2NFdZYmp6ZzROTWltOVk3Z3A0U0ZUMVM1dFl0dTFYaks2YkJ3bmljc0Q0U3hzWEVVZUhkOFNpYzFwNmhJQVJVMDdad3VPR291WG1HTjd0NWJrb3R3eVZ3dVlLQ2cyQTdWSHNQaDJnSXY4SmFmek1IeVU4UVZVeFJLVzE?oc=5",
+   "title": "Alaska US Senate race is a tossup as more votes are counted, keeping Peltola and Sullivan close",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdTZIeW9QYlpvc0xmSEhkMWc3Vm1QakhRczRlWTVsOU9mMGEzNi11Y2FKUW01bnJXcmM3TnE2WUdWUnBMRGIxa2YxVkRmOEJEZWlzVDRUOWxKZWN6d3FHOUlaa1JRdzVzaWhnbzJjUGU1TFp4MGhUSGRaNFc2OGRrWmtEZlMxYTNXZk03UEVfWkU1YTUwX29oVVRrVnh5ZkRFRDM2LTBxNTIzdEszUzAxbWhiT2hDNHpwZlNQNkhOVlMxR090Znkw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-11-01",
+   "date": "2026-11-03",
    "race": "SEN-AK",
    "races": [
     "SEN-AK"
    ],
    "type": "reporting",
-   "source": "NPR",
+   "source": "AP News",
    "lean": "unrated",
-   "title": "Judge tosses Trump's attempt to block Alaska Senate results if GOP incumbent loses",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPc0tqclpGdHZtME0wZFY2LWpLZHF3TG5BMmk3RUM2SkdvWVI5c0tJa2pOTzJvN19pRFhkQng0ZUloMGVmSUZoQ1V3cE5PWkRWX1ppaHpFV0F4WDVVSVF1eDFPT2N3WnBROEpOdVR3QkYtZVZTcl8wNGpLZ05wSi1fdE5tbU5nNE9UX2VQX0gxbWlhQQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "The Guardian",
-   "lean": "unrated",
-   "title": "Judge dismisses Trump attempt to block Alaska Senate race results if Republican loses",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUlZUb3MxSW1QUVU5VTdwRDk1U0M0dFNneVdPSUwtbDZ6RjF5Y1oyR2NfSU5ycEhNamFwTDQ0VlZtVUNVemx2ajJCblpkbFNnZDlvR1huOC1kNllyNnp5WUVRTUxEWUJ6SnRBZ0dTU0hrWEhEcmlqUzU4Z2xHalM2SFVGZG1CY1hxUUlFeWw4Z1NNa1Fx?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "CBS News",
-   "lean": "unrated",
-   "title": "Judge tosses DOJ lawsuit seeking to delay certification of Alaska Senate race",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbGZVRGY1b0VRUXRrUE9qWDJMR1czc1pyYWlQVkNMWUR2azItMFcyWEE5NWN4YWhjZkYtWkM3U3EtN0JsUWxuZ3VpU3JqTTdNUW9MR0M5VmYwTFJjSUhRSUJMVXdQN0ZwV211bHJId09mR1BZT1BkNzFuNVhGTS1ReVRtMTgxZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-01",
-   "race": "SEN-AK",
-   "races": [
-    "SEN-AK"
-   ],
-   "type": "reporting",
-   "source": "The Washington Post",
-   "lean": "unrated",
-   "title": "Sen. Dan Sullivan says he will accept Alaska’s election results even if he doesn’t win",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa3JGdC1tTWNhN2xsS2gxYU00VXJNT3pTeXA0Vm43clBiQkRNRWRKZ214REFtNFRYYkZFa1FSMXpjUXAybWRSRDJua0pZUlNTVG9mektaQjJseHpadjlEWFlGOVR1cDN3bkRHTTZHT3Fieklsd1M1UTBfbk02YkJxTjhmMTZuT1NpV09IQURIX3ZlNU5ZZXY3WHllS0hiaFJOX3RrdEt3cU5YU3hmVmU2VFl0MTRqa0pJZDlxOVZkOGMwcy1lWkR2THQ2am4zZFFS?oc=5",
+   "title": "Sullivan, Peltola project confidence while awaiting results in Alaska US Senate race",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYnlwOUpTZXlETFR6QUJkRUxVd0lEV1hvMHN1YUU4ckVkT1pCZGZpcDBwcUlzWHFFTEx2UXpwTkVKMEZvV2M5T2hKMDJqSmc1WnV1UE5jU0NXYlROMklCYkI3akRCT1FXdkNRZnhpWnlOLVQtdkhwa2E3Ym5sckJpcHI2MUZoVHI0SmhELXJWMnc5YkdQb05JaTFEZmJ4cTRLTi1HWDU0Qy04M1ZxckpudXJYUQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -548,6 +503,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": 0,
+   "p": -1.7
+  },
+  {
+   "date": "2026-11-04",
    "c": 0,
    "p": -1.7
   }

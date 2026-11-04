@@ -9,15 +9,15 @@
    "name": "Cook Political Report"
   },
   "ddhq": {
-   "rating": "Lean D",
-   "flip": true,
-   "as_of": "2026-11-02",
+   "rating": "Tossup",
+   "flip": false,
+   "as_of": "2026-11-03",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Tossup",
    "flip": false,
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "name": "The Economist"
   },
   "fpo": {
@@ -86,7 +86,7 @@
  "disagreement": false,
  "tracked": true,
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
- "flip_votes": 5,
+ "flip_votes": 4,
  "candidates": {
   "D": [
    "James Talarico"
@@ -373,19 +373,19 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-03",
-   "race": "SEN-TX",
+   "date": "2026-11-04",
+   "race": "SEN-SC",
    "races": [
+    "SEN-SC",
     "SEN-TX"
    ],
-   "type": "reporting",
-   "source": "KHOU",
-   "lean": "unrated",
-   "title": "Polls show tight Texas Senate race, but prediction markets tell a different story",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTGstWjJ1YnRpbDJyRGFCUXNvemJhTjVvZXVEREhjd2hfWWVHdGxDc2JRNWZnZGlLcEM5RnhzOTNfMVVkNWdmOW50ejVpdEZ5aS0tYk03djNJMEJJNjlNS3FnNGo0T2xlUnI2WktvU1o5S0cwckd6SGJtaFZZQkZlbE9BNHpXVzd4c1hSWGI5MHpoMGlocWJ3RHFsMXZja2VLUmhVSEVvS3JlR0c2Y2VoZllTOTFSTVdNRzB0aHZzOGNESXRzTUpKbDctNWMyelYxMDZJdA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
+   "type": "podcast",
+   "source": "The Megyn Kelly Show",
+   "lean": "right",
+   "title": "Blue Wave Sweeps Nation, GOP Loses in Texas and South Carolina, Donalds Wins Florida: AM Update 11/4",
+   "url": "https://www.siriusxm.com",
+   "summary": "Democrats sweep key battleground states, seize control of both chambers of Congress, and deliver a major blow to President Trump's agenda in a decisive blue wave. Democrat Annie Andrews pulls off a stunning upset in South Carolina, defeating Republican Senator Darline Graham despite millions in last",
+   "relevant": true
   },
   {
    "date": "2026-11-03",
@@ -394,70 +394,10 @@
     "SEN-TX"
    ],
    "type": "reporting",
-   "source": "NBC 5 Dallas-Fort Worth",
+   "source": "PBS",
    "lean": "unrated",
-   "title": "See all Texas Senate races in the 2026 midterm - NBC 5 Dallas-Fort Worth",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbThrWV9Wc2Jna2ZTdnB0SDRMWmxBQWRsTnlQWm1WZ1o1cXl0bjFzWUFQTDFDTjlzTGpUaS1yOXlYZlRUNWVxb3NoREJjQ0ZDUHFSbE93RUpGUjJscGE4eUxaOHlRX3QteV9PVV81RkJiNGRkdHF4d2tlVWkxejlsUF9sYW1VemlxeVNvSHJTZTh5bXFPeWx5bUluOTF4WXdYM24xME9CNXBSeDVXU2FOd9IBuAFBVV95cUxOeEJjUUhVNnRhR0QyZ1lUQmVRanp1NjdOS21YeURsemJ0TWZuNlY2U1lFQ1JPWXhLVURCckhOQktxb0ttNHhQaXd5a3dQMlRISExlOGtQMC0wSEZLcHpiSlNVbWV4cDRrRUF5SFlHMzBhcExidXFnMzJsQ1RnWUktblhxVzFLa3lXRWhUVDFvbGFHUENKRHJEVkIyNHRnZ3ZscGYwSnZMNzRabFBDd0s4NXFOUlRJLXk3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-02",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "The Texas Tribune",
-   "lean": "unrated",
-   "title": "Paxton vs. Talarico: Five things to watch in Texas’ tight U.S. Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTlJRX19USHdNeUVYbExkeUNSSU1yZmZWYjlPRVZpc3JvamlvMUNDb21yMDNYNFJVSF9FQWFuV2Z0bmNvdnVQbTk1UTlOMVY5SllzSTk4SWdPRmRGbDRiaElmYkZJSWxQSXFlX2FjSlh6UEtQQUd0b3hORDM4eWV3TndNczhlbnNmYkp1TUNxNkQ4dVpQU0JhSHFEY29GSmQ2Rl9j?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-02",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "Click2Houston",
-   "lean": "unrated",
-   "title": "Texas U.S. Senate election results: Ken Paxton vs. James Talarico",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeXRHdDVsQlRmVEF4emxWeTRQUnltZi1rc0J6dktxdVhid1ZMcnludW1qTUFXY2JfUkl0VlZIbUN0SEJNTkdZaG5ydV9kRlgzV0R6NHR6bEh5YXFRNGVfOVNMTmtzMzFrNGdKUGxaRVRqc2xyUHdMMGV0aWNUdGlEZFJOVUdKa3Fxck5VS3V6SDFEeW5ZTDZ4enVzcDBfM3dwd0MyYV82VzhCZlV3LUJqSWlRc01sSFVs?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-02",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "NewsNation",
-   "lean": "unrated",
-   "title": "Latino voters emerge as key battleground in Texas Senate race",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcEZpZ3NKZzQ2RDRLVmhtajNkMVJxLUJ6WUN5OGYzVWFGdHNrUjJpWlZYWW5JYlQ2ZjRaNG0xdWdHZER2ZGhnWDZubDljanBYb3kwaVNPbURMMHV4b2piVnRtRTZRcDc2MFM1QWVRWnZWRkRzdl9Kd3FPREJzU0hZQ2Q4aVE4bTVQTnVXSW9uZ2E5VmlEWFpMOTNVRktGbDlwbkVN0gGoAUFVX3lxTE03LUctZWpUTTBCRDV2amgwc0dCR0hjbjJJc0JmR2ZQdXBsblVTZk93SEVOaF9NMjE1Z016dGtBSWN6Y3FjYUFHNHRMSGdNeG8td3hWWTlJTWNZV2hXZF9hSGp6TmQ4VlNCNGZUcUU3YWQyNXVfTWViU3lTTW9pa1BiUzkzNXBkWlFDMXAzcXU4WGlLeEtZM1Z4T1cweUNhVTdPZlptV1RpeQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-02",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX"
-   ],
-   "type": "reporting",
-   "source": "FOX 7 Austin",
-   "lean": "unrated",
-   "title": "Talarico holds lead over Paxton in latest Texas Senate race poll with Election Day just hours away",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkdxUEFuc09leXptV2dzdklPLTRpbWJsRVB3X0pBQmliMnJuR1B0NUlocEtNemlkdEthVHdGQTVFYWlxcXJTQklMdHlvZXhJb25EWmc3Zll5UHJxWi1Vd19MbllSbmVaaFJ3ekxNd0FBVU5oZWZFOVQ0dGx1cWpGbHBQbHVBam5lQzBFTThKS1RqN0RjbW9CeUkyVFhONWZBLXdoZ0pWVmQ2MDNuTWJLR21oRFRNV09QRFlDWlhORQ?oc=5",
+   "title": "Live Results: Texas Senate midterm election",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0NmdmZnRHZLam9BMUk2dVYxa0FPUU9vSUNfaS1hMzdrb0lXUS1DWF9zMFQ3WlZwOTZLc2E5d3h1U2xodUg2cE03RGF1OERVYlRGNlFiMEN6ek04a01zcFc2QTgzeXFqVUZIbEVzVmctemZvWUhHRmZBcnJoU1ZMRlkxbkVkSkdBU2dCLdIBjAFBVV95cUxOU0NmdmZnRHZLam9BMUk2dVYxa0FPUU9vSUNfaS1hMzdrb0lXUS1DWF9zMFQ3WlZwOTZLc2E5d3h1U2xodUg2cE03RGF1OERVYlRGNlFiMEN6ek04a01zcFc2QTgzeXFqVUZIbEVzVmctemZvWUhHRmZBcnJoU1ZMRlkxbkVkSkdBU2dCLQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -582,6 +522,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": 0,
+   "p": -2.9
+  },
+  {
+   "date": "2026-11-04",
    "c": 0,
    "p": -2.9
   }

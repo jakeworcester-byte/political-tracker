@@ -140,7 +140,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-04",
+   "race": "HOU-NC-01",
+   "races": [
+    "HOU-NC-01"
+   ],
+   "type": "reporting",
+   "source": "WTKR",
+   "lean": "unrated",
+   "title": "Buckhout concedes, Don Davis wins reelection in North Carolina 1st Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeS0wSDljbl9KNFZTRUVkMkI4eW92ZzNidlJpZ09SdmpWeUktc1lvVm9vZXhZa3RSX29jRVczMUc2MEdLdFFLZTIxRG5uekFOYWo1R0hxb2lmS0lfS0h1NU9VUGlXMDlZSnBOdjdrVXJNY01wQVdvenFpbGZaelJjVUNPbDQ2YmJNOVRwc1hNQklaeDZNWjRoUmlTay1qLVdzdUdyekV6TFprMGhwNUJ4aU1EdFh2c3I4RkY4aFJZZ3hYd28?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NC-01",
  "history": [
   {
@@ -260,6 +276,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": -2,
+   "p": -10.0
+  },
+  {
+   "date": "2026-11-04",
    "c": -2,
    "p": -10.0
   }
