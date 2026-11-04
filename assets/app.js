@@ -79,6 +79,7 @@
       case "race": setTab(arg && arg.startsWith("SEN") ? "senate" : "house"); return renderRace(arg);
       case "national": setTab("national"); return renderNational();
       case "early": setTab("early"); return renderEarlyVote();
+      case "results": setTab("results"); return renderResults();
       case "about": setTab("about"); return renderAbout();
       default: setTab("overview"); return renderOverview();
     }
@@ -309,6 +310,53 @@
       <p class="meta" style="margin-top:12px">Updated ${new Date(EARLY.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}.</p>`;
   }
 
+  // ------------------------------------------------------------------ results (post-election)
+  let RESULTS = null, SCORE = null;
+  const partyPill = p => `<span class="pill ${p === "D" ? "D" : p === "R" ? "R" : "T"} sm">${esc(p)}</span>`;
+  const flagBadge = r => r && r.rated_safe_now_close ? ` <span class="flag-badge" title="Rated ${esc(r.final_rating || "unrated (safe)")} before the election; the count is now within 5 points">Rated safe</span>` : "";
+  function resultLine(r) {
+    const c = [...(r.candidates || [])].filter(x => x.pct != null).sort((a, b) => b.pct - a.pct);
+    if (c.length >= 2) return `${esc(c[0].name)} ${partyPill(c[0].party)} ${c[0].pct.toFixed(1)}% · ${esc(c[1].name)} ${partyPill(c[1].party)} ${c[1].pct.toFixed(1)}%`;
+    return `<span class="meta">No vote shares in the results table yet</span>`;
+  }
+  async function renderResults() {
+    $app.innerHTML = `<h1>Election results</h1><div class="loading">Loading…</div>`;
+    if (!RESULTS) { try { const r = await fetch(dataUrl("results.json"), { cache: "no-store" }); RESULTS = r.ok ? await r.json() : null; } catch (e) { RESULTS = null; } }
+    if (!SCORE) { try { const r = await fetch(dataUrl("scorecard.json"), { cache: "no-store" }); SCORE = r.ok ? await r.json() : null; } catch (e) { SCORE = null; } }
+    if (!location.hash.startsWith("#results")) return;
+    if (!RESULTS) { $app.innerHTML = `<h1>Election results</h1><div class="callout">Results start appearing here the morning after polls close on November 3.</div>`; return; }
+    const R = RESULTS, h = R.house, s = R.senate, races = R.races || {}, news = R.news || {};
+    const ss = s.seats_secured || { D: "?", R: "?" };
+    const newly = (R.newly_called || []).filter(k => races[k] && (races[k].competitive || races[k].rated_safe_now_close));
+    const flagged = R.rated_safe_now_close || [];
+    const unc = R.uncalled_competitive || [];
+    const firstLink = k => { const it = (news[k] || [])[0]; return it ? `<a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.outlet || "latest")}</a>` : ""; };
+    $app.innerHTML = `
+      <h1>Election results</h1>
+      <p class="sub">Updated ${new Date(R.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}. A race counts as called when Wikipedia's results table marks it, following AP and network calls. We never call races ourselves.</p>
+      <div class="cards">
+        <div class="card"><div class="label">House (218 for majority)</div><div class="big">D ${h.won.D} · R ${h.won.R}</div><div class="note">${h.called} of ${h.races} called</div></div>
+        <div class="card"><div class="label">Senate (51 for majority)</div><div class="big">D ${ss.D} · R ${ss.R}</div><div class="note">${s.called} of ${s.races} races called; includes seats not up</div></div>
+        <div class="card${flagged.length ? " flag-card" : ""}"><div class="label">Rated safe, now competitive</div><div class="big">${flagged.length}</div><div class="note">Seats rated Solid (or unrated) before the election with a count now within 5 points</div></div>
+      </div>
+      ${flagged.length ? `<h2><span class="flag-badge">Rated safe</span> Seats rated safe, now competitive (${flagged.length})</h2>
+      <div class="table-scroll"><table class="ratings"><thead><tr><th>Race</th><th>Pre-election</th><th>Count so far</th><th>Status</th></tr></thead>
+        <tbody>${flagged.map(k => { const r = races[k]; const w = r.winner || {}; return `<tr class="flagged"><td>${esc(r.name)}${r.flagged_since ? `<div class="meta">since ${fmtDate(r.flagged_since.slice(0, 10))}, ${r.flagged_since.endsWith("pm") ? "evening" : "morning"}</div>` : ""}</td><td>${r.final_rating ? pill(r.final_rating, "sm") : '<span class="meta">unrated</span>'}</td><td>${resultLine(r)}<div class="meta">margin ${r.margin_pts} pts</div></td><td>${r.called ? `Called: ${partyPill(w.party || "?")} ${esc(w.name || "")}` : "Not called"}</td></tr>`; }).join("")}</tbody></table></div>
+      <p class="meta">Margins come from the Wikipedia results table and can be partial while counting continues.</p>` : ""}
+      <h2>Competitive races not yet called (${unc.length})</h2>
+      <div class="table-scroll"><table class="ratings"><thead><tr><th>Race</th><th>Final rating</th><th>Count so far</th><th>Latest</th></tr></thead>
+        <tbody>${unc.map(k => { const r = races[k]; return `<tr${r.rated_safe_now_close ? ' class="flagged"' : ""}><td>${esc(r.name)}${flagBadge(r)}</td><td>${r.final_rating ? pill(r.final_rating, "sm") : '<span class="meta">unrated</span>'}</td><td>${resultLine(r)}</td><td>${firstLink(k)}</td></tr>`; }).join("") || '<tr><td colspan="4" class="meta">None. Every competitive race has been called.</td></tr>'}</tbody></table></div>
+      <h2>Called since the last update (${newly.length} competitive)</h2>
+      <div class="card"><ul class="list">${newly.map(k => { const r = races[k]; const w = r.winner || {}; return `<li${r.rated_safe_now_close ? ' class="flagged"' : ""}><div class="item-title">${esc(r.name)} ${partyPill(w.party || "?")} ${esc(w.name || "")}${flagBadge(r)}</div><div class="item-meta">Final rating ${esc(r.final_rating || "unrated")} · ${esc(r.status_text)}</div></li>`; }).join("") || '<li class="meta">No competitive race was called since the last update.</li>'}</ul></div>
+      <div class="meta" style="margin:10px 0">${(R.pending_safe || []).length} safe seats are not yet marked in the results table; that is usually table lag, not a close race (none has a count within 5 points).${(R.pending_safe || []).length ? ` <details><summary>Show them</summary>${R.pending_safe.map(esc).join(", ")}</details>` : ""} Sources: <a href="${esc(R.sources.house)}" target="_blank" rel="noopener">House results</a>, <a href="${esc(R.sources.senate)}" target="_blank" rel="noopener">Senate results</a>.</div>
+      ${SCORE ? `<h2>Scorecard: how the forecasts did (${esc(SCORE.status)})</h2>
+        <div class="card"><p class="meta">${esc(SCORE.caveat)} ${SCORE.competitive_called_pct}% of races rated Lean D to Lean R are called.</p>
+        <div class="table-scroll" style="box-shadow:none;margin:10px 0"><table class="ratings"><thead><tr><th>Forecaster</th><th>Right</th><th>Wrong</th><th>Tossups</th><th>Accuracy</th></tr></thead>
+        <tbody>${SCORE.forecasters.map(f => `<tr><td>${esc(f.forecaster)}</td><td>${f.right}</td><td>${f.wrong}</td><td>${f.tossups}</td><td>${f.accuracy_pct == null ? "n/a" : f.accuracy_pct + "%"}</td></tr>`).join("")}</tbody></table></div>
+        ${SCORE.polls ? `<p>Polls missed by ${SCORE.polls.mean_abs_error} points on average across ${SCORE.polls.races} tracked races (signed error ${SCORE.polls.mean_signed_error > 0 ? "+" : ""}${SCORE.polls.mean_signed_error}; positive means Republicans were underestimated).</p>` : ""}</div>` : ""}
+      ${(R.problems || []).length ? `<h2>Data problems</h2><div class="card"><ul class="list">${R.problems.map(p => `<li class="meta">${esc(p)}</li>`).join("")}</ul></div>` : ""}`;
+  }
+
   // ------------------------------------------------------------------ brief
   function renderBrief() {
     const b = DATA.brief;
@@ -323,7 +371,7 @@
       try { const r = await fetch(dataUrl(`briefs/${date}.md`), { cache: "no-store" }); const txt = r.ok ? await r.text() : "Brief not found."; $app.innerHTML = `<a class="back" href="#briefs">← All briefs</a><div class="brief">${md(txt)}</div>`; } catch (e) { $app.innerHTML = `<div class="error">Could not load that brief.</div>`; }
       return;
     }
-    $app.innerHTML = `<h1>Past briefs</h1>${idx.dates.length ? `<div class="card"><ul class="list">${idx.dates.map(d => `<li><a href="#briefs/${d}" class="item-title">${fmtDate(d)}</a></li>`).join("")}</ul></div>` : '<div class="callout">No briefs archived yet.</div>'}`;
+    $app.innerHTML = `<h1>Past briefs</h1>${idx.dates.length ? `<div class="card"><ul class="list">${idx.dates.map(d => `<li><a href="#briefs/${d}" class="item-title">${fmtDate(d.slice(0, 10))}${d.endsWith("-pm") ? " (evening)" : ""}</a></li>`).join("")}</ul></div>` : '<div class="callout">No briefs archived yet.</div>'}`;
   }
 
   // ------------------------------------------------------------------ about
