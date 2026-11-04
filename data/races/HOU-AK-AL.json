@@ -91,24 +91,8 @@
  },
  "poll": null,
  "raw_poll_count": 9,
- "trend": "Toward D",
- "signals": [
-  {
-   "date": "2026-11-03",
-   "race": "HOU-AK-AL",
-   "races": [
-    "HOU-AK-AL"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Alaska At-Large Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOczJRTWVvXzFLWkFQYUszemZISEgwWWRyTE5SbFdlYzJyVnAtaVVieUVaVHBudnVFaGpYblZ0SFRuVThGaHZ0bHdUUjBoLWJUZmJwOVVXY2JjNkJDY3hOb19MdnhpaWlPZlNISWtrRzZ4a1BwakNoSmNHOUt0VXdhTnotNGpLNmUzWGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "trend": "Stable",
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AK-AL",
  "history": [
   {
@@ -228,6 +212,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-04",
    "c": 2,
    "p": null
   }

@@ -144,7 +144,21 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-03",
+   "date": "2026-11-04",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Luria Wins in Virginia, Flipping a Key House Seat for Democrats",
+   "url": "https://www.nytimes.com/2026/11/03/us/politics/virginia-house-2-kiggans-luria.html",
+   "summary": "Former Representative Elaine Luria won back her seat in the state’s tidewater region from Representative Jen Kiggans, the Republican who beat her four years ago.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-04",
    "race": "HOU-VA-02",
    "races": [
     "HOU-VA-02"
@@ -152,14 +166,44 @@
    "type": "reporting",
    "source": "13newsnow.com",
    "lean": "unrated",
-   "title": "Political campaigns spend nearly $20 million on TV ads in Virginia's 2nd Congressional District race",
-   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNdjBjdmc3eFc3TVZERXhrQUM5T21BV1NfcGprMVdJY3JsYV9CWXlRZTg0WmVnc0xRZzhZUlIzSGNLNS1USDZjNkVWazBnTnB1QzJNczJFY2p0YmJHOUFub3kyeTVzSnVZS29zYlE5S0pXaU9Fc3ZOS0ljbnJhMzVrbDl2aFpiX3NYLVJTVkZKRHpWUEJZTTRnSTVWZmJRVkNPTEoyREt0NU5ndmt6ak01ZVhEV2FpN09iUHZ1LUFtenNQTlNHV2dWQWNYUWw1X2JWWUhNbFRVOEtvTklpcUQwUUV5WVZKa0g4b1JjdkR3Zzd1T0FOY050RkhQTDlmTjlJX2thVnVLMzFSNDZoQ0FuaVdNX3ZfRVBMckF0MGVTVVZoeW8?oc=5",
+   "title": "Elaine Luria wins tight race for Virginia’s 2nd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOc3ZKbGtFdGwyOElYTmxFanczbmV1M1pkSzVuOHBBSkQ0YlhiTTFDblRHSzdncEluMWZNLXpBM09lbVZ2RWwzQXVQanpqT2ZRUnNweDl2OEJBallWV2hFZUZFNnh3bUo1elh4SXpGQ0QtUTRST3lBRXBFdWdPZF9zaXgzelVTWUtYREZhNnZEQnota3ZTYV92cng0WFJqZnlaTk90VG9Hd0p5dTdQZXo1Q0xxN0ZtOFI5WHM3UW5KQ3ExUHNQZVlhbVI5d0UzWTNUeGtTNW8waWZwNWEyQ251Y2tsYUR1RUJvRHdvMnlJNHhFY2R4a28tVlBrODdmTTdJdVlxanVvdw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
   },
   {
-   "date": "2026-11-02",
+   "date": "2026-11-04",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "NOTUS",
+   "lean": "unrated",
+   "title": "Democrat Elaine Luria Defeats Incumbent in Virginia’s 2nd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbWYxOHlUMzhPemZISk9xQ0tuSjJwcWZmU0MzLXlzaTRfTmVfMmRhbGlmZGV3dUN0c1RrNDFxQjZldDBqR21zdldmQVRXNElVam5JRGxMb3YxcUhIWWZOSEtpWGR6U09ldHVZX0tEVTBpckFuN0E5b1NhVXJtN184Yk11X013YzA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "HOU-VA-02",
+   "races": [
+    "HOU-VA-02"
+   ],
+   "type": "reporting",
+   "source": "Newsday",
+   "lean": "unrated",
+   "title": "Republican Riley Moore wins reelection to U.S. House in West Virginia's 2nd Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WeEhtYUs1QzBfOU5jTTlISEtDd2M3QmhIeDZmUlNQbk5HZGtGemlnc0tsRVdpUUd3bmVHLXVfS2hnbWdZSm50VU1neThJVGFDeUVRdFU3amNTOUc0YkpUUDEtaw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-03",
    "race": "HOU-VA-02",
    "races": [
     "HOU-VA-02"
@@ -293,6 +337,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-11-04",
    "c": -2,
    "p": 0.0
   }

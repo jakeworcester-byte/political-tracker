@@ -11,13 +11,13 @@
   "ddhq": {
    "rating": "Likely D",
    "flip": false,
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "name": "Decision Desk HQ"
   },
   "econ": {
    "rating": "Lean D",
    "flip": false,
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "name": "The Economist"
   },
   "fpo": {
@@ -325,16 +325,76 @@
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-02",
+   "date": "2026-11-04",
    "race": "SEN-MN",
    "races": [
     "SEN-MN"
    ],
    "type": "reporting",
-   "source": "5 EYEWITNESS NEWS",
+   "source": "The New York Times",
    "lean": "unrated",
-   "title": "Minnesota US Senate race: Peggy Flanagan and Michele Tafoya face off to replace Senator Tina Smith",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTWxGYUZ6TkVTdnkxenowME4xelBXOFk0cmx1alg1MHFWN01GTWVQNzRwVUZoNjVXUW4xMWtpREREUUx3RkFFT2Jmd2ZYSWN6YXNuVVF4cWQyUXlJcTU1dTBOdWg1Z2NaZmg3R1VIQllDRnlEMGE0aW9VaEFpakFCa2hEdmlGSDdVb3R1ZW9teXBSU3BPYzkyY3dqeDR5ME5qOUlhMkxPLXA4MFhrUTRTOVNCbXhuVDRlSHF5dTcyRGoydjExcXNuaDBGTWRlTjNt?oc=5",
+   "title": "Minnesota U.S. Senate 2026: Live Midterm Election Results, Flanagan vs. Tafoya",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFB4UjNERFJXRWVKSUxkVWdjeGRHSjh4ZG9OZlRjMk9kSW5uOFMtdDloTVc2X0tLXzBVT1l2M3E0MDN0U0wwRUhpdVEyUXp4ZDhxLTJ6ckJTWGFWT0p0ck5NVG5mLVlSM3A2WTdhTXB5ckl3bFlSRGNlT2tjcmQwTE1SVnhyNTRIeURfUmJ0N1JWN0w2cUZ3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Minnesota U.S. Senate Election 2026 Live Results: Peggy Flanagan Wins",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TaEt5bkRPejZDbEVLNHRpdXN5WUdTZFVvUGVFUzYwT0xycWVweGlYdVBhM3pDMEJjR2VzWnJvNlBiQTNmYkltdDU1Tk5xdWFjSUo2WDVRSzJteDduNzc4dWZUck02OXJPLVlobVNTRXl1M3NoTmZCRHZ1Z3I?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "The Washington Post",
+   "lean": "unrated",
+   "title": "Minnesota Lt. Gov. Peggy Flanagan wins Senate race, keeping seat in Democratic hands",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeDVyRkllMFZOcDJNd1g1S3RJQkd5UC1taUxlRF9FVGxvVk5WR20wanphRWRSZ2gwUFhkd1REcUh1U3A0UTh6Slktak56UjlKR1FzOTlOXzczMEE0LXRRc3RwQ3hWRFdVOWNYdllNYzI3VE91MXp0b1c2ZHI2WklrS2Rhc0diX1hid19CUGN5WXBETG9ONmJlZ2xwV3B5MnBYWGVaN3l0QlBuUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Lt. Gov. Peggy Flanagan holds a Minnesota Senate seat for Democrats",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbllwZ2Vnd3NkdHFsYTNXU3lNTW5WVjVLZWNmNmc3eXNLTDJHT1JBUkdQSFAza0dSMmR5dFRXamNKUHc2c0lVcUgwRFR6VkpsR0pqVmdMYXVwOVUyOFhPelBUVkhSNXNYLXJYeE9Bb083ZG8xUTktVkxpQnZHc29NYTA3NWNacGtmNGRDOWR4M1kwQmNrYWM3Tkgxck9DVjZISk9EdzN3bXBIRmd0NVpDMktrazU4MkRr?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-03",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "PBS",
+   "lean": "unrated",
+   "title": "Live Results: Peggy Flanagan wins Senate election in Minnesota",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNanNLajFfV09GRnN3UjdsQzlJSmxoY1RUN3VtR1dwbnRXcWpxTjN6LWZBTERqd3FnMHkxcTNxd1YzQ3JvTkpZTWktZldQUElOQW8tR09uYlpwZ3hMMkdOcVZWcWkzVS1CdHd2NFNaYUFDeWtscDd1RWw1RkVfeGZpTXU4N0xxd2hGcV9MN9IBkgFBVV95cUxNUjc4SkVhUGd5cUhDMTZHa3pDVTVJdXVxYVAxQl9VanFIMlVBMk1rcnluYlFHeklBSTRieTRTeTJQaXlQWFo3WVVKU09LNGNxem5leWV6cjJNbEFWZHNtdG4yeVhTdTM3dU9jRGhYQktwMkFWUHdkcWVJTlc4amFQSFppeTl5aE9Uc3NGbUFkNjhfZw?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -459,6 +519,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": -2,
+   "p": -2.7
+  },
+  {
+   "date": "2026-11-04",
    "c": -2,
    "p": -2.7
   }

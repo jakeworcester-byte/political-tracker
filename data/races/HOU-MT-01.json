@@ -209,7 +209,23 @@
  },
  "raw_poll_count": 4,
  "trend": "Toward D",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-04",
+   "race": "HOU-MT-01",
+   "races": [
+    "HOU-MT-01"
+   ],
+   "type": "reporting",
+   "source": "Nonstop Local News Montana",
+   "lean": "unrated",
+   "title": "Sam Forstag takes Montana 1st Congressional District House seat",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQemphQ2g0Y3lfOEVfWU1CY01QZGlvMXZiblU4VGN3eHdYX05rQmtNWkFIajA4QkhQRXNZZVZJQWpjd2pBenBORG5DS01TZTZTWUhyc1l4RDNkdGNtVExYbmRZN3c2YzJLeWtBdmxCMUtZRTA1UHlHN2I0dm4xOVlNTFZnbzhkRXgtRDRhMHFlTjdESG9YVkpkSmE0VE9YUWVNWV9Tazc0S3o4UXpSZExBYkhvLW56bzA5d3I5Z2c2d0VyaWZnci1yV2R1OXBqbUhQQWVNTzh4eGFkeVZzMTd6Q1J3c25fVFJLbUs4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
   {
@@ -329,6 +345,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": 0,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-04",
    "c": 0,
    "p": -8.0
   }

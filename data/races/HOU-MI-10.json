@@ -142,7 +142,53 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-04",
+   "race": "HOU-MI-10",
+   "races": [
+    "HOU-MI-10"
+   ],
+   "type": "reporting",
+   "source": "Michigan Advance",
+   "lean": "unrated",
+   "title": "In Michigan’s 10th Congressional District, Hines claims victory",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOEFwTnBlN0dBZkJsRDdKcHJEbnY5SHd0TDVFNE9VWFgtVW5UYmp6R0dWYmlIcG5adW5Zald4TzhIWE1vbzdpWmMwUnFlR090ejR1d3VHVndhNDZLUk9pemtpQ3N4OTM3cXpTd2RKZElWRzZDUzd3OTRZUUpTdXAzSGtqWFVTZDdQNmV3TVE5QWgyMVNydzRGQlV2bTUtMWJfV1N3?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "HOU-MI-10",
+   "races": [
+    "HOU-MI-10"
+   ],
+   "type": "reporting",
+   "source": "Michigan Public",
+   "lean": "unrated",
+   "title": "Michigan's 10th Congressional District race remains close",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeXpBRVVMTHdEaFZkSGlZVVNnR1gzZDlhcHhET0cwS0RlcjJPdW1jVTNFdW41a2Vva2E2dXNnUmVkMF9TSGludEZKUWJOcUhnZzhDbDJYdGNxSEhCZTBsOUtMYmNHU3BTR2hPNEV3Vkx4X0VSaDJMdGt1VG51czRESTVBeGJhN2ItenhCV1pYcENzLTR6MW9jbWNnVzRiQ1N1Y2NlT005d253SWk0bklZT2oySGIwSDZwZEE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "HOU-MI-10",
+   "races": [
+    "HOU-MI-10"
+   ],
+   "type": "reporting",
+   "source": "Patch",
+   "lean": "unrated",
+   "title": "Michigan 10th Congressional District Election Results 2026: Bouchard Jr. Vs. Hines [Live Updates]",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWWI3bnc2N3pOUk9TREpTUGd3YkN4WWNBN09OSnZyUFVyaGVoRDlUSGV3Z2VQZlU1U2ZWMHJPR21ZVDFlS3M3U25oVDhmeUtVd1Vibkp3TldZcy0xcXhLeHVxRmNvb0dyOXVtVmZZNGdVNlhicDhVRHRjeFM5bGdfdVBNZU9halZhSVBOdy1ENmE4c1FSNHRtUHZSMWd5RGhYMkJRWHFTVDVNd280SU5GakJYb2dYcm_SAdoBQVVfeXFMTUpGdDNfUEMzc1VPWnd6S3g2VlNKUDNCVjQ2UktFbkRSaEZuX0hyeHU1RmZhdGlwVlNxOU9ING95MFdDT2kxckNQT2ZyalFOVEdFeDJrNmdvN0hOcHRwNFNLYTR1c2I2UjBQb3ctOFJ0bEdmQXpfTGNvd1hoRFFiUnFOM0h3S24yRlBhOE1EbF84MzFLTHYzZGRnY09UVWtBZ1IzdVBDYTctY2RwQ2d4UnF3ZXNhdU5kdjdzdVdvQm9SRzdVUmJmUjE4TlBtMDhOb0VTY2hZdkQ5Rmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-10",
  "history": [
   {
@@ -262,6 +308,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-11-04",
    "c": -2,
    "p": 0.0
   }

@@ -88,7 +88,53 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-04",
+   "race": "HOU-AZ-06",
+   "races": [
+    "HOU-AZ-06"
+   ],
+   "type": "reporting",
+   "source": "Them",
+   "lean": "unrated",
+   "title": "Queer Marine Veteran JoAnna Mendoza Flips Arizona House Seat, Defeating Republican Juan Ciscomani",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iQVBhVTJscXl6T29XUHVjSnUwR2t3ZmhiVXdQSlgyQktDQ1J0eDRuR2Q4UDkyQ05aN1dSTFV2YmNrYTkyVDE4RmVCWVluTDN6OUZBS2xuZzRxZW9IRTE0cjhHNnRWNVpm?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "HOU-AZ-06",
+   "races": [
+    "HOU-AZ-06"
+   ],
+   "type": "reporting",
+   "source": "AZ Luminaria",
+   "lean": "unrated",
+   "title": "Mendoza takes early lead over Ciscomani in Arizona House race",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLVBlQWxfNE0yaVpKTHdsVG94VndoS3dCRlhJam5CWVhjajYzNElnVmJnb0REOTlkVTRzeGRLTl9aejZ6eGtjVUNwNGo3dm9zZTVmaEI5ZEpvVmJkOWRwNkpGRVVxM3dTOWR4U201Nk5EYkdCOTZiX3JTekQwdnA4ajFXcTJXcDZSSnFBMHZKZkNMYjc2RExrdGpxdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-04",
+   "race": "HOU-AZ-06",
+   "races": [
+    "HOU-AZ-06"
+   ],
+   "type": "reporting",
+   "source": "KTAR News 92.3 FM",
+   "lean": "unrated",
+   "title": "Juan Ciscomani trails JoAnna Mendoza in Arizona CD6 race",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUGNYMVlUd1BlUlFYaVhTZ3EyLW1VOUhzUDlBQjVUQUlpQmdMeVptWXF4U0VGM3d6NVJGQThLT0ttVHpkZHJQZ0RDU3JtT0gxMVhaVEp5d1Z4a25aNzZ6bUViNUk1Q2JTN3oxWkJ3ZzFZLW9DbkdMaFk0V09YX1U4ZHNuNWZ6TEdkX2dmNXNNWVhZc0xWbEI4UjZpTUkyeGZFd3dZNmNORktnbWc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AZ-06",
  "history": [
   {
@@ -208,6 +254,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-04",
    "c": -2,
    "p": null
   }

@@ -88,7 +88,38 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-03",
+   "race": "HOU-FL-07",
+   "races": [
+    "HOU-FL-07"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Florida 7th Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2RoZE42TXVIUkY3MHoxN1F2RGl1YWszYXRLdU9sRGpLZTRQbk01U2JtM3hMd1hBTzlNM3RxZFp1eVhISFRGM0x1X3BiS1NqejNmVTJuVWVDSkExSnNWaWFsRTYyZGNWbFp0ekowZy1QbGhPVG4xZ0VTOTkwY1MyckNn?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-03",
+   "race": "HOU-FL-07",
+   "races": [
+    "HOU-FL-07"
+   ],
+   "type": "reporting",
+   "source": "FOX 35 Orlando",
+   "lean": "unrated",
+   "title": "Florida midterm election results: Ryan Elijah, Bale Dalton too close to call in Florida's 7th District",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT0dNamtlc2YwYzN5QkJmc2RHdjhsNGEyNGZSdUJ4ZXNuSXBCRi1GSkNQVlFENFBVa1BrVVFTZm81Q0hVdUJJSFk0WUFuWEVocFN6cDRwT1JETkdTTExYV1BMWWFvUnQxaldYWkNHQ1pHY29RN0lfU2lrNkNuMFBWZ3d0Rl96cjBETGJ6VmRIRE00VHJ5R3VZWU9qR1p2SlU?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-07",
  "history": [
   {
@@ -208,6 +239,11 @@
   },
   {
    "date": "2026-11-03",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-04",
    "c": 2,
    "p": null
   }
