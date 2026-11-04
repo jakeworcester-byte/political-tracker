@@ -7,7 +7,7 @@
     "senate": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
   },
   "competitive_max_abs_score": 3,
-  "max_race_queries": 150,
+  "max_race_queries": 450,
   "news_lookback_days": 3,
   "race_query_suffix": "election results",
   "close_margin_points": [
@@ -47,5 +47,6 @@
       "Michael Bitzer North Carolina turnout 2026",
       "2026 midterm new voters young voters turnout analysis"
     ]
-  }
+  },
+  "polls_close_utc": "2026-11-03T23:00:00+00:00"
 }

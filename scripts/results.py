@@ -327,6 +327,71 @@ def gnews(query, cutoff_iso, max_items=6):
     return kept
 
 
+# --------------------------------------------------------------------------- news-reported calls
+# Wikipedia's tables lag AP by hours on election night. A race is "reported called" when news headlines
+# (Google News RSS, already used for leads) name a winner in call language after polls closed: either one
+# headline citing a projection (AP, "projects", a network results page titled "... Wins") or two different
+# outlets agreeing. Victory claims, "leads", primaries and conflicting headlines never count. Reported calls
+# are kept separate from table calls and always carry their sources.
+CALL_VERB = re.compile(r"\b(wins?|won|defeats?|defeated|unseats?|ousts?|flips?|re-?elected|elected|beats?|"
+                       r"secures? (?:a |the )?(?:victory|win|seat|re-?election)|holds? (?:on to )?(?:his |her |the )?seat|retains?|declared (?:the )?winner|concedes?|conceded)\b", re.I)
+NOT_CALL = re.compile(r"declares? victory|claims? victory|\bleads?\b|leading|\bahead\b|too close|\bcould\b|\bwould\b|\bmight\b|"
+                      r"\bodds\b|\bpolls?\b|what to watch|\?|primary|nominat|endorse|debate|runoff|fundrais", re.I)
+STRONG_CALL = re.compile(r"\bAP\b|\bprojects?\b|\bprojected\b|(?:live )?results:? .{0,60}\b(?:wins|elected)\b", re.I)
+
+
+def reported_call(race, items, polls_closed_iso):
+    cands = race.get("candidates") or []
+    claims = []
+    for it in items:
+        t = it.get("title") or ""
+        if (it.get("published") or "") < polls_closed_iso or not CALL_VERB.search(t) or NOT_CALL.search(t):
+            continue
+        pos = []
+        for c in cands:
+            last = c["name"].split()[-1].strip(".,") if c.get("name") else ""
+            if len(last) >= 3:
+                i = t.find(last)
+                if i >= 0:
+                    pos.append((i, c))
+        if not pos:
+            continue
+        passive = re.search(r"\b(?:is |was )?(?:defeated|beaten|ousted|unseated) by\b|\blos(?:es|t) to\b|\bfalls? to\b|\bconcedes? to\b", t, re.I)
+        if passive:
+            after = [(i, c) for i, c in pos if i > passive.start()]
+            if not after:
+                continue
+            winner = min(after, key=lambda x: x[0])[1]  # the candidate named after "defeated by" / "loses to"
+        elif re.search(r"\bconced(?:es|ed|e)\b", t, re.I) and not re.search(r"declared (?:the )?winner|\b(?:wins|defeats|beats)\b", t, re.I):
+            # "X concedes": X lost. Credit the other major candidate only when the race has exactly two.
+            m = re.search(r"\bconced", t, re.I)
+            before = [(i, c) for i, c in pos if i < m.start()]
+            if not before:
+                continue
+            loser = max(before, key=lambda x: x[0])[1]
+            others = [c for c in cands if c["party"] in ("D", "R", "I") and c is not loser]
+            if len(others) != 1:
+                continue
+            winner = others[0]
+        else:
+            # first-named candidate, skipping one named just before "concedes" (e.g. "X concedes, Y declared winner")
+            cm = re.search(r"\bconced", t, re.I)
+            cand_pos = [(i, c) for i, c in pos if not (cm and i < cm.start() and not any(i < j < cm.start() for j, _ in pos))]
+            winner = min(cand_pos or pos, key=lambda x: x[0])[1]
+        claims.append({"winner": winner, "outlet": it.get("outlet") or "", "title": t, "link": it.get("link"),
+                       "strong": bool(STRONG_CALL.search(t))})
+    if not claims:
+        return None
+    names = {c["winner"]["name"] for c in claims}
+    if len(names) != 1:
+        return None  # headlines disagree: not a call
+    outlets = {c["outlet"] for c in claims if c["outlet"]}
+    if not (any(c["strong"] for c in claims) or len(outlets) >= 2):
+        return None
+    return {"winner": claims[0]["winner"], "sources": [{k: c[k] for k in ("outlet", "title", "link")} for c in claims[:3]],
+            "basis": "projection cited" if any(c["strong"] for c in claims) else f"{len(outlets)} outlets agree"}
+
+
 def race_news_query(r, meta):
     suffix = CFG.get("race_query_suffix", "election results")
     if r["chamber"] == "Senate":
@@ -421,6 +486,7 @@ def main():
     if not args.skip_news:
         targets = uncalled_comp + [k for k in newly_called if (races[k]["competitive"] or races[k]["rated_safe_now_close"])
                                    and k not in uncalled_comp]
+        targets += [k for k in pending_safe if k not in targets]  # safe seats the table hasn't marked: look for reported calls
         for k in targets[: CFG.get("max_race_queries", 150)]:
             q = race_news_query(races[k], ratings.get(k))
             try:
@@ -440,6 +506,14 @@ def main():
         if news["errors"]:
             problems.append(f"{len(news['errors'])} Google News queries failed (first: {news['errors'][0]})")
 
+    # news-reported calls for races the table hasn't marked yet
+    polls_closed = CFG.get("polls_close_utc", f"{CFG['post_election_from']}T00:00:00+00:00")
+    for k, r in races.items():
+        r["reported_call"] = None
+        if not r["called"]:
+            r["reported_call"] = reported_call(r, (news["races"].get(k) or {}).get("items", []), polls_closed)
+    reported = sorted(k for k, r in races.items() if r.get("reported_call"))
+
     # headline leads for uncalled races
     for k in uncalled_comp:
         items = (news["races"].get(k) or {}).get("items", [])
@@ -454,8 +528,15 @@ def main():
             if r["called"] and r["winner"]:
                 p = r["winner"]["party"]
                 won[p if p in won else "Other"] += 1
+        rep = {"D": 0, "R": 0, "I": 0, "Other": 0}
+        for r in rs:
+            if not r["called"] and r.get("reported_call"):
+                p = r["reported_call"]["winner"]["party"]
+                rep[p if p in rep else "Other"] += 1
         return {"races": len(rs), "called": sum(1 for r in rs if r["called"]), "won": won,
-                "uncalled": sum(1 for r in rs if not r["called"])}
+                "uncalled": sum(1 for r in rs if not r["called"]),
+                "reported": rep, "reported_count": sum(rep.values()),
+                "won_incl_reported": {p: won[p] + rep[p] for p in won}}
     house_t, senate_t = tally("House"), tally("Senate")
     not_up = {"D": SENATE_COMPOSITION["D"] - up_party.get("D", 0) - up_party.get("I", 0),
               "R": SENATE_COMPOSITION["R"] - up_party.get("R", 0)} if senate else None
@@ -463,6 +544,9 @@ def main():
     if not_up:
         senate_t["seats_secured"] = {"D": not_up["D"] + senate_t["won"]["D"], "R": not_up["R"] + senate_t["won"]["R"],
                                      "I": senate_t["won"]["I"]}
+        senate_t["seats_secured_incl_reported"] = {"D": not_up["D"] + senate_t["won_incl_reported"]["D"],
+                                                   "R": not_up["R"] + senate_t["won_incl_reported"]["R"],
+                                                   "I": senate_t["won_incl_reported"]["I"]}
         senate_t["majority"] = 51
     house_t["majority"] = 218
 
@@ -475,7 +559,7 @@ def main():
                 "previous_snapshot": prev_label, "ratings_frozen_from": freeze_date,
                 "sources": CFG["sources"], "house": house_t, "senate": senate_t,
                 "newly_called": newly_called, "uncalled_competitive": uncalled_comp, "pending_safe": pending_safe,
-                "reverted_to_uncalled": uncalled_after_call, "close_margins": sorted(close), "rated_safe_now_close": rated_safe_close,
+                "reverted_to_uncalled": uncalled_after_call, "close_margins": sorted(close), "rated_safe_now_close": rated_safe_close, "reported_called": reported,
                 "problems": problems, "races": races}
     if races:
         dump(snapshot, snap_path)
@@ -484,7 +568,7 @@ def main():
     # 6. digest section
     write_digest(run_date, edition, snapshot, news)
     print(f"results: House {house_t['called']}/{house_t['races']} called, Senate {senate_t['called']}/{senate_t['races']} called, "
-          f"{len(newly_called)} newly called, {len(uncalled_comp)} competitive uncalled, {len(pending_safe)} safe seats not yet marked; "
+          f"{len(newly_called)} newly called, {len(uncalled_comp)} competitive uncalled, {len(pending_safe)} safe seats not yet marked, {len(reported)} reported called in news; "
           f"{len(problems)} problems", file=sys.stderr)
     return 0
 
@@ -521,11 +605,28 @@ def write_digest(run_date, edition, s, news):
     L.append(f"\n### Chamber status\n- House: {h['called']} of {h['races']} called: D {h['won']['D']}, R {h['won']['R']}"
              + (f", other {h['won']['I'] + h['won']['Other']}" if h['won']['I'] + h['won']['Other'] else "")
              + f"; {h['uncalled']} not marked called. Majority is 218.")
+    if h.get("reported_count"):
+        r_, w_ = h["reported"], h["won_incl_reported"]
+        L.append(f"- House, adding races reported called in news but not yet in the table ({h['reported_count']}: D {r_['D']}, R {r_['R']}"
+                 + (f", other {r_['I'] + r_['Other']}" if r_['I'] + r_['Other'] else "") + f"): D {w_['D']}, R {w_['R']}. Label these as reported calls with their sources.")
     if se.get("seats_secured"):
         ss = se["seats_secured"]
         L.append(f"- Senate: {se['called']} of {se['races']} races called. Seats secured including those not up this year: D {ss['D']}, R {ss['R']}"
                  + (f", independent {ss['I']}" if ss['I'] else "") + f" ({se['not_up']['D']} D and {se['not_up']['R']} R not up). Majority is 51 (the vice president breaks 50-50 ties).")
-    L.append(f"- Safe seats (final consensus Solid) not yet marked called in the table: {len(s['pending_safe'])}. These are usually table lag, not real uncertainty (none has a count within 5 points); give them as a count in the brief, not race by race. Keys: " + (", ".join(s["pending_safe"]) or "none"))
+    if se.get("seats_secured_incl_reported") and se.get("reported_count"):
+        x = se["seats_secured_incl_reported"]
+        L.append(f"- Senate, adding races reported called in news but not yet in the table ({se['reported_count']}): D {x['D']}, R {x['R']}.")
+    L.append(f"- Safe seats (final consensus Solid) not yet marked called in the table: {len(s['pending_safe'])} ({sum(1 for k in s['pending_safe'] if races[k].get('reported_call'))} of them reported called in news). These are usually table lag, not real uncertainty (none has a count within 5 points); give them as a count in the brief, not race by race. Keys: " + (", ".join(s["pending_safe"]) or "none"))
+
+    rep = s.get("reported_called") or []
+    if rep:
+        comp_rep = [k for k in rep if races[k]["competitive"] or races[k].get("upset_watch")]
+        L.append(f"\n### Reported called in news, not yet marked in the table ({len(rep)}; {len(comp_rep)} competitive)")
+        L.append("Basis: headlines after polls closed naming a winner in call language, with a projection cited (AP, network) or two outlets agreeing; conflicts and victory claims excluded. Attribute each to its outlet, e.g. 'NBC News reports X won'; do not call it yourself.")
+        for k in comp_rep + [k for k in rep if k not in comp_rep]:
+            r = races[k]; rc = r["reported_call"]; w = rc["winner"]
+            src = "; ".join(f"{x['outlet']}: {x['title'][:90]} | {x['link']}" for x in rc["sources"][:2])
+            L.append(f"- {k} {r['name']} | final rating {r['final_rating'] or 'unrated'} | reported winner {w['name']} ({w['party']}) | basis: {rc['basis']} | {src}")
 
     flagged = s.get("rated_safe_now_close") or []
     L.append(f"\n### Rated safe, now competitive ({len(flagged)}): final consensus Solid or unrated, count within {CFG.get('upset_watch_points', 5)} points")
@@ -558,6 +659,8 @@ def write_digest(run_date, edition, s, news):
         tags = []
         if r.get("upset_watch"):
             tags.append("RATED SAFE BUT THE COUNT IS CLOSE")
+        if r.get("reported_call"):
+            tags.append(f"REPORTED CALLED for {r['reported_call']['winner']['name']} ({r['reported_call']['winner']['party']}) per {r['reported_call']['sources'][0]['outlet']}")
         if r.get("headline_call_lead"):
             tags.append("HEADLINE SUGGESTS A CALL: verify")
         if r.get("headline_uncertain"):
