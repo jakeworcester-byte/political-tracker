@@ -330,13 +330,16 @@
     const newly = (R.newly_called || []).filter(k => races[k] && (races[k].competitive || races[k].rated_safe_now_close));
     const flagged = R.rated_safe_now_close || [];
     const unc = R.uncalled_competitive || [];
-    const firstLink = k => { const it = (news[k] || [])[0]; return it ? `<a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.outlet || "latest")}</a>` : ""; };
+    const firstLink = k => {
+      const rc = races[k] && races[k].reported_call;
+      if (rc) { const x = rc.sources[0] || {}; return `<span class="pill sm ${rc.winner.party === "D" ? "D" : rc.winner.party === "R" ? "R" : "T"}">Reported: ${esc(rc.winner.name)}</span> <a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.outlet || "source")}</a>`; }
+      const it = (news[k] || [])[0]; return it ? `<a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.outlet || "latest")}</a>` : ""; };
     $app.innerHTML = `
       <h1>Election results</h1>
-      <p class="sub">Updated ${new Date(R.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}. A race counts as called when Wikipedia's results table marks it, following AP and network calls. We never call races ourselves.</p>
+      <p class="sub">Updated ${new Date(R.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}. A race counts as called when Wikipedia's results table marks it, following AP and network calls. Because the table lags, races that news outlets report as called (a projection cited, or two outlets agreeing) are shown separately as "reported." We never call races ourselves.</p>
       <div class="cards">
-        <div class="card"><div class="label">House (218 for majority)</div><div class="big">D ${h.won.D} · R ${h.won.R}</div><div class="note">${h.called} of ${h.races} called</div></div>
-        <div class="card"><div class="label">Senate (51 for majority)</div><div class="big">D ${ss.D} · R ${ss.R}</div><div class="note">${s.called} of ${s.races} races called; includes seats not up</div></div>
+        <div class="card"><div class="label">House (218 for majority)</div><div class="big">D ${h.won.D} · R ${h.won.R}</div><div class="note">${h.called} of ${h.races} marked called in the results table${h.reported_count ? `; with ${h.reported_count} more reported called in news: D ${h.won_incl_reported.D} · R ${h.won_incl_reported.R}` : ""}</div></div>
+        <div class="card"><div class="label">Senate (51 for majority)</div><div class="big">D ${ss.D} · R ${ss.R}</div><div class="note">${s.called} of ${s.races} races called; includes seats not up${s.reported_count && s.seats_secured_incl_reported ? `; with ${s.reported_count} reported in news: D ${s.seats_secured_incl_reported.D} · R ${s.seats_secured_incl_reported.R}` : ""}</div></div>
         <div class="card${flagged.length ? " flag-card" : ""}"><div class="label">Rated safe, now competitive</div><div class="big">${flagged.length}</div><div class="note">Seats rated Solid (or unrated) before the election with a count now within 5 points</div></div>
       </div>
       ${flagged.length ? `<h2><span class="flag-badge">Rated safe</span> Seats rated safe, now competitive (${flagged.length})</h2>
