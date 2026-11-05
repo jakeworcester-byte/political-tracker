@@ -90,16 +90,31 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-05",
+   "race": "HOU-AZ-06",
+   "races": [
+    "HOU-AZ-06"
+   ],
+   "type": "reporting",
+   "source": "KTAR News 92.3 FM",
+   "lean": "unrated",
+   "title": "JoAnna Mendoza maintains lead over incumbent Juan Ciscomani in Arizona’s 6th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQl9uNWROMWRYTkdHclo3SnVXeUZUQkY0ZTQyQWk5SGtJRnE0NEc5bmo5RE1rTFdRZEg0ZkpTVXJISGktUDhycVBncHVSaWdzSnhCX2pHVFoyM1MxMTc1aGpKQ01ZTDlIeVJkQjBPZ2N6X25qektOT245R3ptdlI1cXZRMzRfVDB1MGtHeDVyOA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-04",
    "race": "HOU-AZ-06",
    "races": [
     "HOU-AZ-06"
    ],
    "type": "reporting",
-   "source": "Them",
+   "source": "Advocate.com",
    "lean": "unrated",
-   "title": "Queer Marine Veteran JoAnna Mendoza Flips Arizona House Seat, Defeating Republican Juan Ciscomani",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iQVBhVTJscXl6T29XUHVjSnUwR2t3ZmhiVXdQSlgyQktDQ1J0eDRuR2Q4UDkyQ05aN1dSTFV2YmNrYTkyVDE4RmVCWVluTDN6OUZBS2xuZzRxZW9IRTE0cjhHNnRWNVpm?oc=5",
+   "title": "Queer Marine veteran JoAnna Mendoza flips Arizona House seat, defeating Republican Juan Ciscomani",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5adW14ZFlTcEF5WEdPeE1TTDQ5TVVaOW0wWmo2SERRSTZRSWZ6WktLTlgyNnBHaHhtX05USXZEUEFQR0F4QzMxdmp4cEJUTURUZ3hvNFZvdlpOOHNTMFFHWGRWaTNuYzA4aDcxUF9QWUktM3ZKbWY3VTlZTQ?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -115,21 +130,6 @@
    "lean": "unrated",
    "title": "Mendoza takes early lead over Ciscomani in Arizona House race",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLVBlQWxfNE0yaVpKTHdsVG94VndoS3dCRlhJam5CWVhjajYzNElnVmJnb0REOTlkVTRzeGRLTl9aejZ6eGtjVUNwNGo3dm9zZTVmaEI5ZEpvVmJkOWRwNkpGRVVxM3dTOWR4U201Nk5EYkdCOTZiX3JTekQwdnA4ajFXcTJXcDZSSnFBMHZKZkNMYjc2RExrdGpxdw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-04",
-   "race": "HOU-AZ-06",
-   "races": [
-    "HOU-AZ-06"
-   ],
-   "type": "reporting",
-   "source": "KTAR News 92.3 FM",
-   "lean": "unrated",
-   "title": "Juan Ciscomani trails JoAnna Mendoza in Arizona CD6 race",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUGNYMVlUd1BlUlFYaVhTZ3EyLW1VOUhzUDlBQjVUQUlpQmdMeVptWXF4U0VGM3d6NVJGQThLT0ttVHpkZHJQZ0RDU3JtT0gxMVhaVEp5d1Z4a25aNzZ6bUViNUk1Q2JTN3oxWkJ3ZzFZLW9DbkdMaFk0V09YX1U4ZHNuNWZ6TEdkX2dmNXNNWVhZc0xWbEI4UjZpTUkyeGZFd3dZNmNORktnbWc?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -259,6 +259,11 @@
   },
   {
    "date": "2026-11-04",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-05",
    "c": -2,
    "p": null
   }
