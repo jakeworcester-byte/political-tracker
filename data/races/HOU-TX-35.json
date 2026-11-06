@@ -90,6 +90,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-06",
+   "race": "SEN-TX",
+   "races": [
+    "SEN-TX",
+    "HOU-TX-35"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "After cycles of overestimating their chances of victory, Texas Democrats completed a total conquest of every statewide seat and control of the statehouse",
+   "url": "https://www.wsj.com/politics/elections/whats-next-for-texas-after-the-democratic-sweep-d726202b?mod=rss_socialpoliticsfeed",
+   "summary": "James Talarico and Texas Democrats won every statewide office and will wield immense power.",
+   "relevant": true
+  },
+  {
    "date": "2026-11-04",
    "race": "HOU-TX-35",
    "races": [
@@ -141,25 +156,10 @@
     "HOU-TX-35"
    ],
    "type": "reporting",
-   "source": "KSAT",
+   "source": "CW39 Houston",
    "lean": "unrated",
-   "title": "Johnny Garcia wins Texas' newly redrawn 35th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcjgtLU9MU3htQU1VTmhkU19KWUZlTDVrTmc4M2VvVThnaGFqMVZMWHdaWFZsaHJBNWdHTFBOcXRMWGpBbFo3WmNIZFltaE9qNmE2YmN3VmpFdGtyV2ZSSGZlNTEtOXNfdE5lSlgwdFVOamNnVzF1SVZMUXdxWGVHVXRLRDByeE1lb3ptQ3RPc3FsUUc1TGdIODVNNFRreUFFRXRxNzNrOUlUM2dKdlJLaEd0b3U?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-03",
-   "race": "HOU-TX-35",
-   "races": [
-    "HOU-TX-35"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Texas 35th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOakxXcmM0cWhMODNoaEtfQldFbkxiNk5rX1FFTnpTREdvblpyczdIdk90OUVBUGpzR3h6MGg1WXVMRDJTMFlXUW1nVVRoLWw2cmh5US1TR19GT2pjRHhGWkVMeUJJRVhZQVRJSHp1azUyMWphZnhrb2luLW1ISVJycg?oc=5",
+   "title": "Democrats hold on to redistricted House seat in Texas",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS180WkU4TnBTdXYtUnVBcTJvX0trMUxWOUU3SHhKbkt6ZHNEckI1WjZqcE1RaTZPeFdwWVNoU2RHSXRQMXY5RjlOdlVta0tKUnRUTzliWlZIWFZJMEJneVhidkRscDlEMDZMeTE0QWswNXdxWV83NkFWQVJoUFJEU0NJMk90ek9UeGfSAY8BQVVfeXFMTUl5YldHazRNQjZfY2JieE9JOGlVckZRa21BUGhVVUZpU3dXN1dZRUJIaUVmYzZIOXc2clNZdzFNOVRLRi1ZZE1TX1RObGpLQkRLN055MVVBb2VpRnFpY0xXSUhDUUhRd09qZGJxVFdpMEhTbTlETUE5ajVGSFhJNGJxOHI2RzEwZXh2MTdocm8?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -294,6 +294,11 @@
   },
   {
    "date": "2026-11-05",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-11-06",
    "c": 0,
    "p": null
   }
