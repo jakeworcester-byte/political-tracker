@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-06",
- "edition": "pm",
- "generated_at": "2026-11-06T22:19:31.554017+00:00",
- "previous_snapshot": "2026-11-06-am",
+ "run_date": "2026-11-07",
+ "edition": "am",
+ "generated_at": "2026-11-07T11:10:19.265253+00:00",
+ "previous_snapshot": "2026-11-06-pm",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -10,24 +10,24 @@
  },
  "house": {
   "races": 435,
-  "called": 409,
+  "called": 418,
   "won": {
-   "D": 253,
-   "R": 156,
+   "D": 256,
+   "R": 162,
    "I": 0,
    "Other": 0
   },
-  "uncalled": 26,
+  "uncalled": 17,
   "reported": {
-   "D": 1,
-   "R": 5,
+   "D": 0,
+   "R": 0,
    "I": 0,
    "Other": 0
   },
-  "reported_count": 6,
+  "reported_count": 0,
   "won_incl_reported": {
-   "D": 254,
-   "R": 161,
+   "D": 256,
+   "R": 162,
    "I": 0,
    "Other": 0
   },
@@ -72,50 +72,44 @@
   },
   "majority": 51
  },
- "newly_called": [],
+ "newly_called": [
+  "HOU-AZ-05",
+  "HOU-AZ-08",
+  "HOU-CA-14",
+  "HOU-CO-03",
+  "HOU-FL-09",
+  "HOU-NC-08",
+  "HOU-NY-02",
+  "HOU-NY-21",
+  "HOU-TN-04"
+ ],
  "uncalled_competitive": [
   "SEN-AK",
   "SEN-MS",
   "HOU-AK-AL",
   "HOU-AZ-02",
-  "HOU-CO-03",
   "HOU-CO-04",
   "HOU-FL-07",
-  "HOU-FL-09",
   "HOU-FL-27",
   "HOU-MN-01",
-  "HOU-NY-21",
   "HOU-NC-03",
   "HOU-NC-05",
   "HOU-NC-07",
-  "HOU-NY-02",
   "HOU-WA-05"
  ],
  "pending_safe": [
-  "HOU-AZ-05",
-  "HOU-AZ-08",
   "HOU-CA-04",
   "HOU-CA-07",
-  "HOU-CA-14",
   "HOU-CA-23",
   "HOU-CA-40",
   "HOU-FL-26",
-  "HOU-NC-08",
   "HOU-NC-10",
-  "HOU-SC-02",
-  "HOU-TN-04"
+  "HOU-SC-02"
  ],
  "reverted_to_uncalled": [],
  "close_margins": [],
  "rated_safe_now_close": [],
- "reported_called": [
-  "HOU-AZ-05",
-  "HOU-AZ-08",
-  "HOU-CO-03",
-  "HOU-NC-08",
-  "HOU-NY-21",
-  "HOU-TN-04"
- ],
+ "reported_called": [],
  "problems": [],
  "races": {
   "HOU-AL-01": {
@@ -445,7 +439,7 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": true,
+   "headline_call_lead": false,
    "headline_uncertain": false
   },
   "HOU-AZ-01": {
@@ -636,14 +630,14 @@
    "key": "HOU-AZ-05",
    "name": "AZ-05",
    "chamber": "House",
-   "status_text": "Incumbent retiring to run for governor",
+   "status_text": "Incumbent retired to run for governor. Republican hold.",
    "candidates": [
     {
      "name": "Mark Lamb",
      "party": "R",
      "party_label": "Republican",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Elizabeth Lee",
@@ -654,8 +648,14 @@
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Mark Lamb",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -664,33 +664,7 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": {
-    "winner": {
-     "name": "Mark Lamb",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
-    "sources": [
-     {
-      "outlet": "AZ Family",
-      "title": "Republican Mark Lamb declared winner in Arizona's CD5 race",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYlNsWndJbU4zcTVFd083WkhOLU5TTWdqWGJLcTRYTWhvM1VJNUQxOWR1TkZYZGxRejJnWC1VN1liLWlxN3RSNEJjQUxTWDc4QW50cmR4bEJfMHBKSGNVS0xRLXVGUW9Fb1JDQ3Z4VjR6LUEyN3otSjlVa1JXZFpLQjVUYlU4clNVcWtuRHhmaTMxeEUxeU5VMHJyakNjQQ?oc=5"
-     },
-     {
-      "outlet": "The Hill",
-      "title": "Trump-backed Mark Lamb wins Arizona House seat",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc3ZSVWRpT0VDODlsazNBR01rR0NCMEliRFB1UEhwMk1UakdrYVU5cXhtSE1GcEhFMjFCVHNNazRPT3dld3hxZm91dzNiYkhCWnJHT2RnaHZxX2t2ZHhRNGJNSEhZMkc3OFNLa08tRFZDRjFVanJqRHJFSlJNS3BqVTFpWWw4VU9tV1hvUmlsRFBvbjTSAZgBQVVfeXFMTjhoM3dadDlXTzlNTmVIS05WRWQ3NXljYnc5X29HSThsQTlKVmpBQnJsdFBwUDh3d1IzOWc3YlJPWGNNbnIxVjZ3RE1UOFNMVUpVV3VYeW9ROGh5R1NsRXo1ZWJPVWNIcUpueVUzcmRXMWo0Wm5mQWNGZmVUQzJQWTViZ0RRRWJsNmk4NVBmaEc4TFE4QURPNS0?oc=5"
-     },
-     {
-      "outlet": "Dubois County Herald",
-      "title": "Republican Mark Lamb wins election to U.S. House in Arizona's 5th Congressional District",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPNjdSeUczYzJkTzhCbUhMSjlMX2hfVUpkcDJTakVUM3l6cjNoWjBMU19BQUFuWTFicGVkdi1uekltU3FZci1nSENNTnotYk9TRmpnWEpma24wZE1QVXdtbDV3MUpUWHpzcTE0MzlvMGRhN2ttcGxGeWYtdHMwRjJFN28wOVpiV29oVnNYazQyT1J3NnI5ejlZR3V4Y0JzVTlKMENsanNjTGF5cEtldHdqTnFhcHdUaEVsR0hTTGlKMkZjdVBiTF9kY2VDQjZreGhiYzFKbXVSRGJhcDJGeEplLTAxellEMW9BQUcwTlVxTXV5d2RWYzBWWTdYM3dEaDVQWmFLc1BuMEtvb3dHb2NRVHoyS1hmVUsyenBv?oc=5"
-     }
-    ],
-    "basis": "3 outlets agree"
-   }
+   "reported_call": null
   },
   "HOU-AZ-06": {
    "key": "HOU-AZ-06",
@@ -790,26 +764,32 @@
    "key": "HOU-AZ-08",
    "name": "AZ-08",
    "chamber": "House",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
+    {
+     "name": "Abraham Hamadeh",
+     "party": "R",
+     "party_label": "Republican",
+     "pct": null,
+     "winner": true
+    },
     {
      "name": "Bernadette Greene-Placentia",
      "party": "D",
      "party_label": "Democratic",
      "pct": null,
      "winner": false
-    },
-    {
-     "name": "Abraham Hamadeh",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Abraham Hamadeh",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -818,28 +798,7 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": {
-    "winner": {
-     "name": "Abraham Hamadeh",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
-    "sources": [
-     {
-      "outlet": "KTAR News 92.3 FM",
-      "title": "Republican Rep. Abe Hamadeh defeats Bernadette Greene-Placentia in Arizona’s 8th Congressional District",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZjdmUUdOb1ZadERZbEVGTDh2bHRCUDMzZW9XQkxQZk5zUzlJVFR6dm10RGlCS3FiMFRvYmFFekJHeWRKLTZCMlhzM0kyc3Z0TlI2NmtkLWg1QzZwcm5GZXJ1TWlkc092OEw5akZqMjR5dkV5akhiRTBvdTkzSTE5RGVWVlRTdlZwMTc2Z0xaRGlsb3pnNXF6SzViYzFUanEwOFZVeWVaQnVkbnk3elI3ZTlOc1c?oc=5"
-     },
-     {
-      "outlet": "FOX 10 Phoenix",
-      "title": "2026 Election: Republican Abe Hamadeh projected to win new term",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVm9TV2QzcmZqNFpnUHhBcUxJbXlYc0p1NmRqSWtvRWp3dGlTOWpFLXZkcU5BZjU5c0hxc3B3RWdoVUg3dnZCcE9sVnIyZURQMlJ2QjktMHVlSUY5Z2k4WTJiakk0dVlPWXVmS0w2NUY4TWlnTEZ4WGkya3UwODRTdXNkeVNBNjFqSHlaNG1DMFFVcXNjRUlxaThscVFxQQ?oc=5"
-     }
-    ],
-    "basis": "projection cited"
-   }
+   "reported_call": null
   },
   "HOU-AZ-09": {
    "key": "HOU-AZ-09",
@@ -1567,14 +1526,14 @@
    "key": "HOU-CA-14",
    "name": "CA-14",
    "chamber": "House",
-   "status_text": "Incumbent advanced to general.",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Aisha Wahab",
      "party": "D",
      "party_label": "Democratic",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Melissa Hernandez",
@@ -1585,8 +1544,14 @@
     }
    ],
    "incumbent_party": "D",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Aisha Wahab",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -3217,19 +3182,19 @@
    "key": "HOU-CO-03",
    "name": "CO-03",
    "chamber": "House",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
-    {
-     "name": "Clifton Brown",
-     "party": "I",
-     "party_label": "Independent",
-     "pct": null,
-     "winner": false
-    },
     {
      "name": "Jeff Hurd",
      "party": "R",
      "party_label": "Republican",
+     "pct": null,
+     "winner": true
+    },
+    {
+     "name": "Dwayne Romero",
+     "party": "D",
+     "party_label": "Democratic",
      "pct": null,
      "winner": false
     },
@@ -3241,16 +3206,22 @@
      "winner": false
     },
     {
-     "name": "Dwayne Romero",
-     "party": "D",
-     "party_label": "Democratic",
+     "name": "Clifton Brown",
+     "party": "I",
+     "party_label": "Independent",
      "pct": null,
      "winner": false
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Jeff Hurd",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -3259,30 +3230,7 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": {
-    "winner": {
-     "name": "Jeff Hurd",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
-    "sources": [
-     {
-      "outlet": "KKTV",
-      "title": "Colorado’s Jeff Hurd wins reelection in 3rd Congressional District race",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZF9hMHZPVDlxajRQeVdteVA3YXo0bDZoVnItcjF5VTIyU2dCczhrN1d4RVRwUG1JRWYtNHV3T1hfcnBIYjh3a1lPZjJyR2k5OVRjU01MdE9salJ5bEp0VVY1U0pjYjM0bldveFZJeFoydTV3RmFuazBLTy1XUjZPVHNhR2x5d0lQRm5Kd01JRG9oRlBMckdpVzdwVk1iQ25OT2JDRXNuOHBjeWRnbmFyclZHcWFSUdIBygFBVV95cUxNNnJWdXVNOVA0LU5TbmhZZE5WaUNrM3g4MkQxdjY1NzdlYU1zdEtIVUdxUE4xamFJNDNKNmhJQjRqdTBFU1JVTmltWWJsSnhmV2FicUFfQVNCNjV3UjFINnBZbjBDQVhycW90ekdxdFVrTDAweVVvM3hCYXM0emNzaE42QlUtT1pYQU1tdTlTQUNtXzBKNEE2YzJWdmRlQnB3V0FqQkdjdFprcVlaUEJnOWpJWFVkaVVid2xrazM2RTVwNmJWU3l0VGx3?oc=5"
-     },
-     {
-      "outlet": "9NEWS",
-      "title": "Election results: Republican Rep. Jeff Hurd wins reelection in Colorado's 3rd Congressional District",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcm10ZGZ1Q0ZqeFF6NDA2Q0J4S0d2emdPclpJZVR1WDhTT01FdVEwTEhNN3BOOC1INUp1LVQwNUJhdG00d04ydkFMN25fOW5rWFl1Ymh4NmtXSVh2TldVUi1WaFR5dEdkSlNZYjNUQll6UzVibDZXS25VY2JYcWo2TDVHZE9CdnhQZ0liOXB2Vkk1SUJpZFpKaGVaYXo4Wk5mMjdqWldJRlMtanBkVkhPVnVNU1Q5bXRXQlp3TU5UTEg2SjBjaXVmWWNDcFJvXzM0Zl90OFB3STF2UUl4Tk5Z?oc=5"
-     }
-    ],
-    "basis": "projection cited"
-   },
-   "headline_call_lead": true,
-   "headline_uncertain": false
+   "reported_call": null
   },
   "HOU-CO-04": {
    "key": "HOU-CO-04",
@@ -3325,7 +3273,7 @@
    "upset_watch": false,
    "reported_call": null,
    "headline_call_lead": false,
-   "headline_uncertain": false
+   "headline_uncertain": true
   },
   "HOU-CO-05": {
    "key": "HOU-CO-05",
@@ -4187,7 +4135,7 @@
    "key": "HOU-FL-09",
    "name": "FL-09",
    "chamber": "House",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Dan Green",
@@ -4201,12 +4149,18 @@
      "party": "D",
      "party_label": "Democratic",
      "pct": null,
-     "winner": false
+     "winner": true
     }
    ],
    "incumbent_party": "D",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Darren Soto",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -4215,9 +4169,7 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": null,
-   "headline_call_lead": true,
-   "headline_uncertain": true
+   "reported_call": null
   },
   "HOU-FL-10": {
    "key": "HOU-FL-10",
@@ -9584,7 +9536,7 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": false,
+   "headline_call_lead": true,
    "headline_uncertain": true
   },
   "HOU-MN-02": {
@@ -11711,14 +11663,14 @@
    "key": "HOU-NY-02",
    "name": "NY-02",
    "chamber": "House",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Andrew Garbarino",
      "party": "R",
      "party_label": "Republican",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Patrick Halpin",
@@ -11729,8 +11681,14 @@
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Andrew Garbarino",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -11739,9 +11697,7 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": null,
-   "headline_call_lead": true,
-   "headline_uncertain": false
+   "reported_call": null
   },
   "HOU-NY-03": {
    "key": "HOU-NY-03",
@@ -12273,8 +12229,8 @@
     },
     {
      "name": "Andre Easton",
-     "party": "I",
-     "party_label": "Independent",
+     "party": "Party for So",
+     "party_label": "Party for Socialism and Liberation",
      "pct": null,
      "winner": false
     },
@@ -12516,14 +12472,14 @@
    "key": "HOU-NY-21",
    "name": "NY-21",
    "chamber": "House",
-   "status_text": "Incumbent retiring.",
+   "status_text": "Incumbent retired. Republican hold.",
    "candidates": [
     {
      "name": "Anthony Constantino",
      "party": "R",
      "party_label": "Republican",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Blake Gendebien",
@@ -12534,8 +12490,14 @@
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Anthony Constantino",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -12544,35 +12506,7 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": {
-    "winner": {
-     "name": "Anthony Constantino",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
-    "sources": [
-     {
-      "outlet": "WAMC",
-      "title": "Constantino wins election in NY-21, berates media in expletive-laden victory speech",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZGxsMVJPVkI1XzRnWmpqVUhHVndNRkZld0pLbmpJbHpwS0FJbDNVMmVmWHIyNmVQVDFJQ0ZVVkVtT09TTDl1V2dnUFJYYUpGRXNseWhIRVdyMTFGSUNGOEk1ejdwdmoyU0VxV09DSUZWVkNNbFVSUDRMUjgtNlhnbHdqMGtSN2ttekotWVlkTU9XS1FHcGZCa0RrY3d4UGh1Z1lJWWNrY2ItMkIxVmJvSGJn?oc=5"
-     },
-     {
-      "outlet": "WKTV",
-      "title": "UPDATED: Blake Gendebien Concedes New York's 21st Congressional District Race",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNb004QkJTaDI2ZkxROE1jU2dTaW13cXd0ZWUwVVZ6S1BhQ05SNVljT2lRZ0hlTFVoWFVXSmt3ajY1Q1ZTdHFXUHRWQ1ZzcjNmQ2lrZUxSeEVtbkNCR1VyWnlQeHlmWlQ4d0NacG5vaGpyNW5tcWZ1NG5qSzVhbGl1SEdOelJtbFBvemF0Q212MktVUFViX0pfMzJJUVRORUUxMWZESWlLM2dXUmxPUURYLVVYWFVob2ZWZ0Y5LVdvcWxOLVJOT0tnVkdKdmtWLU9xZjJhZnNJQjNXZjVudWwycGJqWmp6dUdzazA5ek5BY0J0Qk0?oc=5"
-     },
-     {
-      "outlet": "Syracuse.com",
-      "title": "Anthony Constantino narrowly wins 21st Congressional District",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORDZ1S2R3eXZYUXRWYW5aTUZYRVAyQlM4T2VzNmh1WmxUNFBia3N4U1owZzROaDM1QW40N0R5OUpKRXZJckhwSWx4NndMaHpnVzQ2akVTTmg0dHFHaDRJa2V3S3phSGxZXzJ0M0xFN1hwQ1RaS3dRcUNJZFQ2R3lzcV9sZ3FvdDdYY1JpZUJSNjlKUlkxR0FYa19wUzdORlc4NVJmanRoMHNObEs1VmxXWjJR?oc=5"
-     }
-    ],
-    "basis": "3 outlets agree"
-   },
-   "headline_call_lead": true,
-   "headline_uncertain": true
+   "reported_call": null
   },
   "HOU-NY-22": {
    "key": "HOU-NY-22",
@@ -12908,7 +12842,7 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": true,
+   "headline_call_lead": false,
    "headline_uncertain": true
   },
   "HOU-NC-04": {
@@ -12998,8 +12932,8 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": true,
-   "headline_uncertain": true
+   "headline_call_lead": false,
+   "headline_uncertain": false
   },
   "HOU-NC-06": {
    "key": "HOU-NC-06",
@@ -13088,14 +13022,14 @@
    "key": "HOU-NC-08",
    "name": "NC-08",
    "chamber": "House",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Mark Harris",
      "party": "R",
      "party_label": "Republican",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Colby Watson",
@@ -13113,8 +13047,14 @@
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Mark Harris",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -13123,28 +13063,7 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": {
-    "winner": {
-     "name": "Mark Harris",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
-    "sources": [
-     {
-      "outlet": "The North State Journal",
-      "title": "Republican Mark Harris wins reelection to NC’s 8th Congressional District",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWWNneU5idkh6aTc4dk90dDlxYmxQeF96V2lDOHo5bjdZMXRCUXN2UjJVaklneFcxM1JNME1KX2pORFp1Tm5zTzU1eWFqMnZ1dmpodTJVUEtrU2prNDY5T3lVNW1UdldwcHNJeEd6aTZMZEF3ejg5T1htQUJaNF9HN1dEakFiSU9xU1U0U0IxdWtYaF80dC1Lb3JoeDR2aDg3clY4bXJkQ0h4RGJvd0RsUQ?oc=5"
-     },
-     {
-      "outlet": "NewsChannel20",
-      "title": "Republican Mark Harris wins reelection to U.S. House in North Carolina's 8th Congressional District",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNUTJfTF9yc3dYVEdta1NiNFZYVVp4bk1FNGFMWUNRV0FFeS1KUm9jQmNyUW9EeWJ4Wl9pRmlVWElvUU0tbFdDbXVKc0xza3d0RWJ0Z1ZFNU9SNEhOUXVydTVFZWZuVGpXdGJCU3dCSlo1OVp0YkR2X2IwbWNfcW1rUHBpV2NVcUt0bjVJRkpaWlhNY0xodktwM0U0THhqUFh2OHJDSWRSTGFyYmMyUFc4NE1aY0FkRFNPZG9vOXpseGpKYTlXc19OM3lLU0JpVUJLMXUwa1ZWU3NhckhzRGxybGtudVZBR2NJMkkyT3JVY3JaRUx6VTdfZmJDTHNCd1ppXzlydkVueE53Y1F4cTRSZWVLZUlTTDR5OVpnOGVrQ1g?oc=5"
-     }
-    ],
-    "basis": "2 outlets agree"
-   }
+   "reported_call": null
   },
   "HOU-NC-09": {
    "key": "HOU-NC-09",
@@ -15903,7 +15822,7 @@
    "key": "HOU-TN-04",
    "name": "TN-04",
    "chamber": "House",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent lost re-election. Democratic gain.",
    "candidates": [
     {
      "name": "Jacob Anders",
@@ -15917,7 +15836,7 @@
      "party": "D",
      "party_label": "Democratic",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Scott DesJarlais",
@@ -15935,8 +15854,14 @@
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Victoria Broderick",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -15945,28 +15870,7 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": {
-    "winner": {
-     "name": "Victoria Broderick",
-     "party": "D",
-     "party_label": "Democratic",
-     "pct": null,
-     "winner": false
-    },
-    "sources": [
-     {
-      "outlet": "WKRN News 2",
-      "title": "Victoria Broderick defeats Scott DesJarlais in Tennessee’s 4th Congressional District",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQalIzeWdPWmRBRWlrSGhFZUs3WFBlUWwxM0xHT2FTbm41TGs5SUY5Z2ExbjFvRjA2bVM3XzhEXy1vUlYwdGZfenlMMTRRNnhoc2hmZzNteHVOc2JST2x5Tk5lS1B5Y2pQQlhkekdHWThOMlJmZGVNeHR5LXRjay1KbHRLZEl4X2lNZ0xkbUs2ZVpHZ2RFblHSAZsBQVVfeXFMUHpkWm8zWFdVbnJXVDJiOXpKNXNYSDhIRjZiU0RWamJ6Q3BJLWJCVXFCTndDYkVkeS14SjVNeWt1Y1kzbFRhaFBubk9pd2dBNnhtTWhabnFnZG5WbXVXX1lsSjZDYm4tV0ZRZlVtcWh2VG5rbnBKRkVBMnkyekhsZzU2cHZQZm5hOGdPMjJvMjA4elppR1R3Rk5PLVU?oc=5"
-     },
-     {
-      "outlet": "Nashville Banner",
-      "title": "Victoria Broderick wins in Tennessee's 4th District",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNanVudi03REZWbFRtSldvU1pzY2x3bFBTZG5sY2dkWGsxOUJBek5GZVJibmNwVEZFWm14SzBYbVFVWm9mb3JvY0FqbkpESjV0UGpPZmlHOHVMM0Q4TnBYNzd5Nmd5ZzdwdTFqT0IzVnpkYV9CWWJNVnc0alFsUk4xcTlRZVY3OGdhWlZtY3VXRnFSdw?oc=5"
-     }
-    ],
-    "basis": "2 outlets agree"
-   }
+   "reported_call": null
   },
   "HOU-TN-05": {
    "key": "HOU-TN-05",
@@ -18878,8 +18782,8 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": false,
-   "headline_uncertain": false
+   "headline_call_lead": true,
+   "headline_uncertain": true
   },
   "HOU-WA-06": {
    "key": "HOU-WA-06",
@@ -20495,7 +20399,7 @@
    "upset_watch": false,
    "reported_call": null,
    "headline_call_lead": true,
-   "headline_uncertain": false
+   "headline_uncertain": true
   },
   "SEN-MT": {
    "key": "SEN-MT",
@@ -21337,133 +21241,96 @@
  "news": {
   "SEN-AK": [
    {
-    "title": "Alaska U.S. Senate 2026: Live Midterm Election Results, Sullivan vs. Peltola",
+    "title": "U.S. Senate Election Results",
     "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQjU1bndZWmxFazdLTG1UenJXUFlaSDNreW9udnNVWjNxcUpCMmUwSW12cWJwTWxDcDBPaTJhcU1oTVZ4ak1nbXB0VGlnci12c0JPUG0tQkhmV0hyV2dYSlB3d3BCM0hCc29iaXNLbnMtMERTYnlSdHNVd0ExZ19GeHVPZlhKb1hDaWI2eTJWcURXREk?oc=5",
-    "published": "2026-11-06T00:00:00+00:00",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVVRtQmdRaDhxNGdneVQ1SjlGcUEtbnJ6alNBMERsWTVYVXN2OWVSS09LdGN4cHpBT1RmR1VkOU9IRzRLV1N5X1JaWkRBNkN4alRZZWpybDhJQ2lndTlVU0I4WGp6NWpWQ1FSR1NEUlpqY2lndGlBSklaaS1XRkhGcFdyaWxnQQ?oc=5",
+    "published": "2026-11-07T11:00:00+00:00",
     "flags": []
    },
    {
-    "title": "Vote counts in Alaska, Mississippi and Kansas continue after Democratic sweep",
+    "title": "U.S. Senate Election 2026 Live Results: Democrats Win Majority",
     "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaHlpN1JZb0VFc0RXekRVSTYxSVhXb0lFUkRqd19oWXdnYnJRelBjMzRrUHc2LWpoVDNOeHhJSy05eW5Ueng3eDRiWjhrcEhNZHpaTC01ZlMzVEN5OEFVdkhsLW80NFh1U3JxLV91MVFyQlZjVE9nVVRKTkpqRUVrUkNDV3hUNVY0SXZla0wxbnluT2VaYVRRU2o4eE9rZG5ZT3BXdk1WVzNkQlQwRVE3QmF2UGNia0ZRV3JOM0s4b2JwblE?oc=5",
-    "published": "2026-11-06T03:08:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "New data suggests Peltola likely to win Alaska, voters not confused by 2 Dan Sullivans",
-    "outlet": "Democracy Docket",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaEdJMW9VMW9GejJTZTFMUjNDMWdfR2ltNzRSS0Rrek1LemFvcmxJOUd0UE16R0o2QjdOeER2RUhvOUg0dmdKdWVzenJWOUFDYUJtVVZieVZ5V0NvLXNTUUsyNzNsZFQ0bjJyWVotNGY4Qng0UUhicWI0b0VkVUo5a2xtemo3SDRHc21vaWlYV0JuUFZzbUU3LWppdkMyZGJWMnJLZkE3ZXE1UTk2MGdiSkRYS1ZrWnN5Sm1qSGQyVEFRWFFONlN3SFVR?oc=5",
-    "published": "2026-11-06T18:28:03+00:00",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HT01FMldrNmE3Z1pmR3lRYmxaMVhxNDN1MF9maXpIV1hiU2xLWnpuWURkeEFhXzVEMmdjR3dreFgyeWZxZDYxTVVxSWh4cUFGMkc4N3Bja2RzQm1KS2x3clhsR0I2WVR4WXVOTUNtRQ?oc=5",
+    "published": "2026-11-07T07:27:11+00:00",
     "flags": [
      "call"
     ]
+   },
+   {
+    "title": "Alaska Senate race remains undecided days after Election Day",
+    "outlet": "KTVF Fairbanks",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQenpUbUg4RnZ0RnV2aE5TTU5FZzRyYWx1Z2VMYjBYSHJZNV9hM3oxLXptTHlDTnd2UlFXMEtQbzdmMzVsaHlrNFNoM2lISnIwUmpFNXk3SGJxaGVPcmg0SXZmTHJTU1IzT1RsUXFpQTN3Y0U1S0NGRGRZLVRfdDhrZkVGQjQzNG52YTJENkNMRElYUjdyYzhabG84NVVWT3lTTEFRcjJnUHZ6c2_SAb8BQVVfeXFMUHh2QXZUWEJBVkpBWmQ2ZFgtM01HTVRUMkdNQUxqZTNDVjNLaGR5Z1JKZVJzcFJrdkYyMmVuNF9oN3I0R3JydFlqcEhGQnB3OTdxR3Z5RkcwclN1TGNKc0JubUxjV1l2ZWwzTXo3bHFEY01tWmh6WXU2a1gzQTRTQUQwZ001dElja1JCYkhNWjhFcVdDV0tLM3U0aFV0SHVFZ0NQQjc1V2lJdHB5b21VOXpBV0k5WG9TUnpwd3h3TU0?oc=5",
+    "published": "2026-11-07T02:06:00+00:00",
+    "flags": []
    }
   ],
   "SEN-MS": [
    {
-    "title": "Midterms 2026 results and latest updates: Stephen Miller named White House chief of staff in post-election shake-up; Alaska and Mississippi still undecided",
-    "outlet": "Yahoo",
-    "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOVXRSOTMyejZZY2lrRGdDYWltTGgzUl9vYUI1S2xSN2dOdFVDZFNzN19TODNibWsxN3hmX3NxVzVIR213VEZ1akVyUnZQeFl4V0JOYzRlYzZUOVNITHZtSXQ4a0tPZHM0VGd2bHR1bS1leDhxem5oUkZEM1c5RnhlZG9CMk9TS2FvbWZQS0YwX3ByNDJiUHk3RldKVFhkZ0tuVHNmd0RHcWVHUUNib2VweW9BVFA3cXE0RWdueFlIUHMxQldWa19BbVFaOWxvVkdYNGgzQlFQRnRWYnR4aDFIcDc0bzZ1akd5aWI5dl9LVndqVGEzbVRZS0lXMnJucktFdHE1U09JMGJxLXF0bW81bjVJQjVyOXpRQldlZHcwVERFODhoMzZ3dGctdW9kUQ?oc=5",
-    "published": "2026-11-06T22:11:07+00:00",
+    "title": "Mississippi U.S. Senate 2026: Live Midterm Election Results, Hyde-Smith vs. Colom",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTJzUWlSUmNsbVhIXzZOX0IwcldjQTJGUThnd3JrdHpKdXJBaDZwOVFqcE1tdWxQT3BMN2ZtY09PUHRIa3ZKN19LTGk1RVpQYTFySzY4M0lCaHd3eHBYMlNGbndRalN3TTdXUlJldlFUeFFZVGREQzdZbXFpZGFOcEpPM014YkYtak9pcU1HSkczMFQwWGNTcHZn?oc=5",
+    "published": "2026-11-07T11:00:00+00:00",
     "flags": []
    },
    {
-    "title": "Democrat Scott Colom argues GOP rival ‘doesn’t have’ path to victory in Mississippi Senate race",
+    "title": "Trump says he expects more Cabinet changes after historic Democratic wave in midterms",
     "outlet": "CNN",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRzlDQURXYjZFVUpiWklqeWFKSkRWVVZmNjJ3ZmhOaXBsSkg0dldnbHpya2FySmJod3QzdTU0STFZTUh1czhfMF93UWlGTDA2QWhHdGJzWHpSVWktUUFQbjRMZHZHbGw2Vl9QRVhoYWZCaFJoV3pjc2N3WS1Wa2dzQw?oc=5",
-    "published": "2026-11-06T20:50:00+00:00",
+    "published": "2026-11-07T05:25:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "U.S. Senate Election 2026 Live Results: Democrats Win Majority",
+    "outlet": "NBC News",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HT01FMldrNmE3Z1pmR3lRYmxaMVhxNDN1MF9maXpIV1hiU2xLWnpuWURkeEFhXzVEMmdjR3dreFgyeWZxZDYxTVVxSWh4cUFGMkc4N3Bja2RzQm1KS2x3clhsR0I2WVR4WXVOTUNtRQ?oc=5",
+    "published": "2026-11-07T07:27:11+00:00",
     "flags": [
      "call"
     ]
-   },
-   {
-    "title": "Mississippi U.S. Senate Midterm Election 2026: Live Results",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OODJ1SUdvS2VIR0VXT0kzWFZtSjVIWE4xS3hEQnJTVldLdHc2TGFHYjByRWxuS3BFaEJlQ1JIUmJuWWx0U3JWR2U3X3N6WEJ4S05HMXpSSGVuU2JlZ0lLZUwzUFU4RXVoLURLeHhLV2VIaTNVQnB0S3poWEpHUWs?oc=5",
-    "published": "2026-11-06T21:41:11+00:00",
-    "flags": []
    }
   ],
   "HOU-AK-AL": [
    {
-    "title": "Alaska At-Large Congressional District 2026: Live Election Results, Begich vs. Hafner",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGpsTEYyaHJJU0pONDRjMEJ5NThrMUxGUXk0WWVMMXM2cUxkWEFWVFlOWWdhVlFXamtfLTBZSFZvdW9NcUlJRFRsWGhEaUhIR3NVNHdadGVrS1JTS1NtZUw4UUlXYjdMQ0hrU1lOcEpVVFdyTFVpSVRETC12bE90R2RtOXhxQ3BsbEpTUWNLQV90eFdBNTJRQndkUlZtQQ?oc=5",
-    "published": "2026-11-06T21:00:00+00:00",
+    "title": "These House and Senate midterm races don't have winners yet",
+    "outlet": "CBS News",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTm1vVUVNdk1FNWRfMFlpenMya2pETU00SkhBNGFQOTJGSTlKTDYyTmRLZElSd0ZfOU9oTW83aE5IZnN3SjZPVmZpQ2NuVUZGWTE1bzFMVHpmMDhNQU5uOGV4MGlERlRoeWJ0bG5RcmtaOG1GLUdQS05nN3pVanBtS1BaMHhCc21mS0gtcA?oc=5",
+    "published": "2026-11-06T14:18:00+00:00",
     "flags": []
    },
    {
-    "title": "Vote counts in Alaska, Mississippi and Kansas continue after Democratic sweep",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaHlpN1JZb0VFc0RXekRVSTYxSVhXb0lFUkRqd19oWXdnYnJRelBjMzRrUHc2LWpoVDNOeHhJSy05eW5Ueng3eDRiWjhrcEhNZHpaTC01ZlMzVEN5OEFVdkhsLW80NFh1U3JxLV91MVFyQlZjVE9nVVRKTkpqRUVrUkNDV3hUNVY0SXZla0wxbnluT2VaYVRRU2o4eE9rZG5ZT3BXdk1WVzNkQlQwRVE3QmF2UGNia0ZRV3JOM0s4b2JwblE?oc=5",
-    "published": "2026-11-06T03:08:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "6 takeaways from Alaska’s election",
-    "outlet": "Alaska Public Media",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa2tQd1VoaWhnZmdpTUcxMG9kRzZaOHAxZzl0WjBhdThrN3BXZnktWUJwbTA1UTE2ZFBtcnBUajJxVlN3b3EwMXpaaXNRU1h3NEs3RkJERklVUklkd1VGdFdNT1JiSWxXT2h4aTRXS2RzaVR6bU9kR0xZMTdmV19tYWVjcm5PNXhNeHRXN3dDS3luV2xsV3lDdg?oc=5",
-    "published": "2026-11-05T01:06:00+00:00",
+    "title": "Peggy Flanagan makes history as first Native woman elected to U.S. Senate",
+    "outlet": "ICT News",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOTlLNl9UOHdjY3N6TWYtREtNTktldk12UWJyZXoxNlRfc2V4SHZIcnZUNmtsdjFQbzNaSVRsaDR4RVFKT290d3pHQWVKeW5GWF81T2FUWkZPYjRsR1ZsN1hLa0VQMFU0WER5bWZTTWQyQ0IyaGxTZGdUemJsWU9OMXdNTXNId1J3RjFjWFZjRDhzSFdnSWtfQWpnUW1Pc2s?oc=5",
+    "published": "2026-11-06T00:22:17+00:00",
     "flags": []
    }
   ],
   "HOU-AZ-02": [
-   {
-    "title": "Arizona congressional district election results: Democrats gain 2 seats in Grand Canyon State",
-    "outlet": "KTAR News 92.3 FM",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcjV2Nmd4V2dBWWNwZXJFOVFSeU9NYmp5blV6YUVSWTNHUEMtVUNRM0taNlUxYXlOSGlZam56eHhoX0ZYVE9LOENVM2tRQ3FROUlZd1Y0UzdETkREZ0hGVllVc2s3Q3V1TmlncWZOWU9mdVFxdl9JcjlvVDVtRGFlOHJyVVZoQkxfay1lcHp1SXRLNHZxcUpv?oc=5",
-    "published": "2026-11-06T16:50:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Republicans lead in final 3 Arizona congressional district races",
-    "outlet": "AZ Family",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV0lGS0k0Q0Jtd0pMU0ZSMmFZUHB4UlA4MVc4b0VTRTdLSV82bmU5X2tJZTFBbjhpZVFpcy1MMG9wRWtvblRGWjhVNEJOMUx0TXNkbF9xRDBWRk1MUWZmNURBTVp6cHRzYjh1OXBndVB6LVRfZVBVVGRzMGk0NVd0dF82VHJKVDYxM2tZOHFsZHlKdWZmd2FiUG9HWHEzNTA?oc=5",
-    "published": "2026-11-06T15:32:00+00:00",
-    "flags": []
-   },
    {
     "title": "Republican Rep. Eli Crane stays ahead of Jonathan Nez in Arizona’s 2nd Congressional District",
     "outlet": "KTAR News 92.3 FM",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN25NQ1Q4VF85VF81WGozRzgwalVNMlhtX2JzM3B6ZVNwbVRfODhZdzRYT0g5Z2NSM2FxanRwUE9oUElnUTlhblZ5WEVyYmNTU0dNSk1sX2JCUk5kS1JmdHpUaGdfYWlVdlJQS1VMdFJVYkl4RjNlRUJuYnBoUzh1Y2RiczhfejFfa1E?oc=5",
     "published": "2026-11-06T19:25:00+00:00",
     "flags": []
-   }
-  ],
-  "HOU-CO-03": [
-   {
-    "title": "All of Colorado's congressional and statehouse races shifted toward Democrats in the 2026 midterms",
-    "outlet": "The Denver Post",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSzVlRlRSbTZla0x5SWZoSE5VWDdMbUhPYjB0R1FqYzJ6ZmN3d093bGFZMm92YlVIQnRzSU0yUzctekhNWlZ1RTVJaEtWOVhHdUl1QWVDUG5FRUgwaFF6NWhya0lzOWszbjRmZTNQY3d4Z0pEa3FoTEYwLVhIV2p3c1A3Q0FBaHhGbWdHVWpYOA?oc=5",
-    "published": "2026-11-06T17:58:18+00:00",
-    "flags": []
    },
    {
-    "title": "Colorado Third Congressional District Election Results",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVXc5TEduZ2FoOEVocHlBYl9iV2pDVWt3ZVlzNDJ0TFJSb1VBQ0hVS0hrYkVubmFwSndfbEdEdjA0aFFoV0U3cHpXQzdNcmM2T3NWUVdPVk5HSE8xeHROWTlPYnpnX3lkdFoyRDRoc2Roamd6Um1oTF9MbkU4eFFQOHpvNC1PRUhNRTNfcG5aTmN0V0Zvb2JV?oc=5",
-    "published": "2026-11-06T21:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Colorado’s Jeff Hurd wins reelection in 3rd Congressional District race",
-    "outlet": "KKTV",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZF9hMHZPVDlxajRQeVdteVA3YXo0bDZoVnItcjF5VTIyU2dCczhrN1d4RVRwUG1JRWYtNHV3T1hfcnBIYjh3a1lPZjJyR2k5OVRjU01MdE9salJ5bEp0VVY1U0pjYjM0bldveFZJeFoydTV3RmFuazBLTy1XUjZPVHNhR2x5d0lQRm5Kd01JRG9oRlBMckdpVzdwVk1iQ25OT2JDRXNuOHBjeWRnbmFyclZHcWFSUdIBygFBVV95cUxNNnJWdXVNOVA0LU5TbmhZZE5WaUNrM3g4MkQxdjY1NzdlYU1zdEtIVUdxUE4xamFJNDNKNmhJQjRqdTBFU1JVTmltWWJsSnhmV2FicUFfQVNCNjV3UjFINnBZbjBDQVhycW90ekdxdFVrTDAweVVvM3hCYXM0emNzaE42QlUtT1pYQU1tdTlTQUNtXzBKNEE2YzJWdmRlQnB3V0FqQkdjdFprcVlaUEJnOWpJWFVkaVVid2xrazM2RTVwNmJWU3l0VGx3?oc=5",
-    "published": "2026-11-06T16:36:00+00:00",
+    "title": "Former Arizona sheriff, GOP candidate Mark Lamb wins US House seat",
+    "outlet": "AZ Family",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSE1qQWNxTFkyVElqTGpvVmpqTkN2Zk1za2tIQVhKNlE0T3Vic2pZOHFmSmZuRzVaQWlXNm1oVU9zWGZVcG1tQlhaT19XbHhvZmRSd3l4Z2toR1BIU3dENDlWT3l3X2xnLW4xQzZoZW1odnpQQWhUc3B4aFNqb2t4ZmpRUzh2SnlwZURtdUJyNjhBR2FwSHE0S3JKNm9TaVdDVUNWU9IBuAFBVV95cUxOYndwVU1ENGltRjJac0VwS1NSdmphcjFZV2p4bUh4SlJhZldCU1owU2FCRTBEQUQwMk1LS2dtSlFQdEd5aWoxWWRTcVZXTkpSQUp0TndsSXU4cy1Zb0lRSS1FNm1Vc29Jd3BDbUJHMW12ZldLMU1nYWtYLUJFWk83WWdBcjd0Q1FraUJDWUw1aGtMYU9tZ1ZMMXNnVmhJZUpfV2NoaW41NThtcGVfNmRWa3llSjR5T3FW?oc=5",
+    "published": "2026-11-06T15:32:00+00:00",
     "flags": [
      "call"
     ]
+   },
+   {
+    "title": "Arizona candidate is leading by about 3,700 votes in close congressional race",
+    "outlet": "12News",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPSU9reVBIa1BPalNza2xiV2NoR0FRT3g3dGNZMi1faWg5QkdYREZRRkdFdERpcnNxTWozT09DcnRqbFlSTU5LY0hCRnN1aE90QUY0ZVBUOWhYZEZvQ2VZX1BURFlLNWRqQkVYdXN4VzdsY2lmTWtkVnFMWHZ1NXhNSnZ4WkFXQVdBc2U3MlFtY2RKdUxDQ3FpcTFsMWV6Z1doc0NOUDFkR24zV3RGcXhXMnBYLS1zREVPaEdoY0hBRDVhTEJDc29ZVWlvQVpiUFNVb0lES1lacTk1QVpWckV1WktzVVVud1NWdzkxSjZGYTF1T0VzdkNoY0loemtKYW95dUF4QVVna3h2N2M?oc=5",
+    "published": "2026-11-04T21:50:00+00:00",
+    "flags": []
    }
   ],
   "HOU-CO-04": [
-   {
-    "title": "Colorado Fourth Congressional District 2026: Live Election Results, Boebert vs. Laubacher",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUVdVZHRmS1ozeFlockRSZW5nSDlRNV9NQllaZWFqSzQ1U052bDFUSkZGeDhUaGVvbm1FdWxMS0NZY2laV2FiN2Nlc1BIX29nczQ1Z2dEZTNiQ0tybWZfb3hJQlBOYzJRZG5uTmoxT2Rzbi1rSGlzRExhbFFTX3pYbGE5RlhJRUZTTG4xdV9mdE8yYUxBalFn?oc=5",
-    "published": "2026-11-06T22:00:00+00:00",
-    "flags": []
-   },
    {
     "title": "Rep. Lauren Boebert trails Democratic challenger and is running out of ways to make up gap",
     "outlet": "The Denver Post",
@@ -21472,62 +21339,44 @@
     "flags": []
    },
    {
-    "title": "When will we see results in 4th District between Boebert, Laubacher?",
-    "outlet": "The Coloradoan",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb1QyX0pnZVpTSktwQ3I4VkhONThQNFRiMVNTLTltS2ZCY0xWdDlMMWxBVEVoNVJ6VUdXVHA2QnAwYVZ5YjdNcmg5UUhtaS0tY05fWkdKYnNJWTBXTFpqQzRhWldUTjhHc2c3WVY1aVNQd3lFbFN0NlBBQmU2VmNJM2VudXlrNzlZMmp1Q2hUWlBNdEo3d3NDRmZPTUxWNGVnUWEwUEljdFpwR2E0aUZrZVFBREdNUG45Z1E?oc=5",
-    "published": "2026-11-05T20:11:39+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-FL-07": [
-   {
-    "title": "Florida midterm election results: Ryan Elijah, Bale Dalton too close to call in Florida's 7th District",
-    "outlet": "FOX 35 Orlando",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNT0dNamtlc2YwYzN5QkJmc2RHdjhsNGEyNGZSdUJ4ZXNuSXBCRi1GSkNQVlFENFBVa1BrVVFTZm81Q0hVdUJJSFk0WUFuWEVocFN6cDRwT1JETkdTTExYV1BMWWFvUnQxaldYWkNHQ1pHY29RN0lfU2lrNkNuMFBWZ3d0Rl96cjBETGJ6VmRIRE00VHJ5R3VZWU9qR1p2SlU?oc=5",
-    "published": "2026-11-03T23:00:40+00:00",
+    "title": "Boebert campaign expects recount as Colorado’s 4th Congressional District race remains undecided",
+    "outlet": "KDVR",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbndFYnNhX09RSEpta0VoVkwzQ0Q0RFRNMnZWNE9DUERQNG4tb0ZuQ3NFdDFFVHlCd09NbDVoVm9qYXpfenV0UW9mYUs4dlRWT3JSWFotWFNmdjFuM3V3ejRpd0VXSldWODJMeFJSd3hyUDVHQ2xxZ0ZqMTktbHpvaUI2TmI3N0ROMFpuUlF0cHppdWlEa0E0aHlGbFFhSHpqRUJjakFEOUxRWFI2T1NvX1hXQ3dUOTlqeHlKXzFIMHhTQdIBxwFBVV95cUxOZGpkQWRTLTFrb0F2cGVJQ1F2VWMwV3BLb1VtcENvUTVuVkstRXNXYThGb0dLXzFzMGtTdkhNcGYtMHlXLTRuRDNfMThNZks2QkRXLTN1LW1uRHBwdWs0T1dkY0Qtek16UkljOVFZOXZuNEN1WGhMUjFnRHE5YU5WWVh2SUxBYWJQbmN0aWFFQ1hoa0RUR21xVUhjR21VYm9BdEtRWFk0ZTN5OVV6Uld5QU1CYVJsUWJBQUZQZkxfU0xOTERSYkh3?oc=5",
+    "published": "2026-11-07T03:01:43+00:00",
     "flags": [
      "uncertain"
     ]
    },
    {
-    "title": "Where the Ryan Elijah vs. Bale Dalton Congressional race stands - Daytona Beach News-Journal",
-    "outlet": "Daytona Beach News-Journal",
-    "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPM2tKN1ktRW5ESnV6M2s2UHU4VHBpbm5xdWhxTWRnemJiVm9mMEpmYnEtcHRiWUlVbk1HTWtBbzFaZHhDU3djUXJoSlpCUG53bHdheW5WUUlKdWxhUm0tS3hLWUJOSnNpZUxseUI1NU5QR2xCdnB4LW0tZHFOSFc1cEZMQVh1SXZyX0RjaGRJQkJsU1RRaE13elYzTmtneGFWX1Z1QWt1OHJBS3FQWkFsWGNRSWlTNGZTZFRwODY1dE9WcFU5NGR4S2pvSzBuTTZIbFZBaGFPU2hVLTctbzhld0t2UDNoaGItYzB4WkZ5b1dKSkw4dWl5eDByZ09FYV9wWTEzM2pKd0tGVjF5c1VIaE5lQXFKd2p5dFBF?oc=5",
-    "published": "2026-11-06T16:31:00+00:00",
+    "title": "34-Year Navy Veteran Eileen Laubacher Is on Verge of Unseating Lauren Boebert in Colorado",
+    "outlet": "Military.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWUtSREZad2UxRmFadDBreDVBT3ZtS3dObFc5Y085OWhCUWZLYlh0Uk51cURZVmx0aVMyVm5nU3hvU0NuUUlNRGZ0MDlQcDZNVEIzdVR0YTZBT3ZEZllzd3ViaWNBVEVJcktuM0tfSXFsUkJBUmg1YkZWVFlxY29yRWtBMmRhQWxPUzM3YzFrOVpxYXp3ZnBHRHBjUHJIaFN4N25IdlhERUpJcEJGQ05HclBB?oc=5",
+    "published": "2026-11-06T15:24:32+00:00",
     "flags": []
-   },
+   }
+  ],
+  "HOU-FL-07": [
    {
     "title": "Florida’s 7th District race awaits final ballot count",
     "outlet": "WESH",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMHNENkZpNnMyTHRveXBET05YTEdweGE1T2pvaEFlNV81eU1HZWk5X1hqOXJnWnI2eEZjanBnQVRsOVoxU3FISzNBdmxhOVh5UHRDOTREZUotZXFfQUNBbjlmNWlVSGJEVUJvTjNfOV9WUmc4TlV0X2pvZkVaeThDWEhRUkNYS2dWdkdQd0NwUUZodWgw?oc=5",
     "published": "2026-11-04T22:38:00+00:00",
     "flags": []
-   }
-  ],
-  "HOU-FL-09": [
+   },
    {
-    "title": "Florida Ninth Congressional District 2026: Live Election Results, Soto vs. Green",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX0d3UjhiTDljZURUd3l2OUhXNGYxTWpnZnhqbkg4S25Mb1pWQUlnNkdTWlBJNVRwWHhqdGk0SEUzZ2tvVEZiZWVBT3BxZGtZVGNaU1dIY01LSXk3YnJqMklZMmctMVdkWjdsNDNNQ2pmNFhUaGNoQ3liZE9NU21rUFo0bkNmRVpaWXJvNlVxOVk0aWIzenc?oc=5",
-    "published": "2026-11-06T00:00:00+00:00",
+    "title": "Where the Ryan Elijah vs. Bale Dalton Congressional race stands - Daytona Beach News-Journal",
+    "outlet": "Daytona Beach News-Journal",
+    "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPM2tKN1ktRW5ESnV6M2s2UHU4VHBpbm5xdWhxTWRnemJiVm9mMEpmYnEtcHRiWUlVbk1HTWtBbzFaZHhDU3djUXJoSlpCUG53bHdheW5WUUlKdWxhUm0tS3hLWUJOSnNpZUxseUI1NU5QR2xCdnB4LW0tZHFOSFc1cEZMQVh1SXZyX0RjaGRJQkJsU1RRaE13elYzTmtneGFWX1Z1QWt1OHJBS3FQWkFsWGNRSWlTNGZTZFRwODY1dE9WcFU5NGR4S2pvSzBuTTZIbFZBaGFPU2hVLTctbzhld0t2UDNoaGItYzB4WkZ5b1dKSkw4dWl5eDByZ09FYV9wWTEzM2pKd0tGVjF5c1VIaE5lQXFKd2p5dFBF?oc=5",
+    "published": "2026-11-07T03:10:00+00:00",
     "flags": []
    },
    {
-    "title": "US House District 9: Will there be a recount? Osceola County set to submit election results for state to decide",
-    "outlet": "WKMG",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNY2s3ZTVPUTZCcTg2TFF3R2FycnR3T2ZzMG9IVC1uVXFqbnYzTGYzX1Vrd2Z2anI5UFlrbTZDWHJ2bVdLVnUxVnJwM0JQa0pZanlOOGJmV1ZXeERtMEQ2RV9rX0RNbDd0bE83bFdwQVZybUdOY0duMjRqV2dsMUlMdUgtMVBGd216MWUzN0dZbGQ3cE1NS0FtVzctY3N4SGhWRi1NNExkV2RyTEwwVHJsc2tIcmRsc0ROWWlXS0o4MEE5ZlJFZEVLSXNYWTIxMHJNZk5TOXJNQnZmcUJzOS1n?oc=5",
-    "published": "2026-11-05T17:14:31+00:00",
+    "title": "Ryan Elijah is outside of margin for a recount in Florida’s 7th Congressional District",
+    "outlet": "Florida’s Voice",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOGtMaHRKUlR1WUdMZDNwd0o0TXJVenljNUdZbl9mektfTWVROE9jU3hkSEFraDJkaDdyWVotX09PcTctQVpvZkFtNU9hUlJFaEctbTVrU0lrWlo3bDNKNmxrY0VJRzN0N0hLVktyU2hCTkJtVTFMOHhnMjNFQS1vTkN1N2UwZDExX0tfMm1HdzN2MWpLaGFvaERzb2dOOEdHdGNNZkJBR2kzY3NvUEY0?oc=5",
+    "published": "2026-11-06T14:58:00+00:00",
     "flags": [
      "uncertain"
-    ]
-   },
-   {
-    "title": "Darren Soto narrowly defeats Dan Green despite CD 9 gerrymander",
-    "outlet": "Florida Politics",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaFhqenV1ZHJRUmpFRzd0THN3UU1vVDdqSUJqZE96c0gtdFlocXJHbmdLYzBPcDFGT21WZW5aYWpUZ2J5R1E1bkpiVjhnTFcxZ1FvalI2enh6bGVyOUNMeXNDbWNuRXBTa0dkU1BUYk9scjVtblk1TmNIQ25yS3lzUjl1cUd0NkdOSHNVUTBxQVZBMmt4TThSRUNPLUtjUzljMDFmVWFVZGdTcG1hVlpQWVIxYUFmRVdBemFkM3ZDX3ZYV1BjMUZDQg?oc=5",
-    "published": "2026-11-04T15:53:22+00:00",
-    "flags": [
-     "call"
     ]
    }
   ],
@@ -21551,10 +21400,10 @@
     ]
    },
    {
-    "title": "Salazar leads Rodriguez in Florida's 27th — but the race is close enough to trigger a recount",
-    "outlet": "WLRN",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcV9uenZrRV91ZS0xdDhuSXFNZVlhc2JHRHhHTXBMcWNQcVlZa21YRWxSb3BHVUMzc1ZxOU9yanJvTk5NSlQ5Y2t5VDJLRVE1bzc2bnhwd1NSMHhxX0lXMUtVV2JlV0hoaXdUQmo5bDNjaTVxY01yWURjZVR0YVVOWDZIc3hYN055c0E?oc=5",
-    "published": "2026-11-04T04:58:00+00:00",
+    "title": "Recount looms for razor-close CD 27 race as nearby CD 26 clash remains out of range for now",
+    "outlet": "Florida Politics",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZHpOQjdEY293Tm9OdGFZWmZpQk1BdXhKUGJLbTFPVUh1UWhPOG9IXzM5OXN5SnpHbWFxeXl4eC1DTFBEU3YwVlp5SHBVTFdSY2lUdmVwSE12dFpZa1IxcDNOeXJ3UEU1S2E1SnZ0OC1XZmN0X1p1cGVrY3RXRm1FNUJZZThrR20zaGZlR1UyQkZrVW1PdkJwVDRFMkstejF0dWdmMGZVNThOU1U0OU9TZXFWLTM5T2pSZEk3b09KbHhEWEJpTzF2bDQzS2ZTc1cwbHc?oc=5",
+    "published": "2026-11-05T16:25:05+00:00",
     "flags": [
      "uncertain"
     ]
@@ -21571,17 +21420,199 @@
     ]
    },
    {
-    "title": "Minnesota First Congressional District 2026: Live Election Results, Finstad vs. Johnson",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVFJ1WkxFMlJ1elIya0RHamdGcUd5VUxoT1ZOLWtUMVAwSXBuZnNtVDl1Vk1fV1FrWjBabkJtbVY3N0NVY1ZpcTRoQnpXLVVBYXVjRjh1MXFXLTdnWG51ZEl5SEJuRFZoeFJmOWpZV2ZuaVlPdnRvZ05aaElyQmx3dWFPMnJSVU96NU44c2t5QVUzNU15UzFsdQ?oc=5",
-    "published": "2026-11-06T00:00:00+00:00",
-    "flags": []
-   },
-   {
     "title": "Jake Johnson claims historic upset in Minnesota’s 1st Congressional District",
     "outlet": "KTTC | Rochester, MN",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOclZTc2g5SXkxRDBfOXdGSlYzREpaRm5ZS3c5SDhYeHF6dGlidnRmdEdRREhENl9YT0NQX2FjVGt2RnV6TUdFYk56NkNNdjV6MUwzMHg2d21SZ2pIUG51SDVIYTE2MUd6RVhaNVNCOG1adjZSelY0UkFmX0hzTkJpWFZLTmVHTUhJRjY2cUZtbGVEanBVb0JhanFlSkF1Yk5jbVc5VVduTG7SAbwBQVVfeXFMTU5kamc5NTJhcFlKMmw5bDhHMjhGVy1uZFRkQzM4Y1YydmtjaVNpNWJCOUJCUjltVFZKalY5Z1M0NXQ5QkNnZ01kTG1hM0x4RDZpSU1vU2JRcFQzT0JmeXctbzMtREtENk9qOW5BT3ViRjd5cmxsVHdpQW5SZjNuX3F1SDdPRGhncm9aVGt5Nm1lbE5SNl9OeThyVnp6Yk9iektTM1pWR2R1b1VlQjJpWXQzZnE0YnI4b09DZjI?oc=5",
     "published": "2026-11-05T04:43:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "MN 1st Congressional District race: Narrow margin won’t automatically trigger a recount - FOX 9 Minneapolis-St. Paul",
+    "outlet": "FOX 9 Minneapolis-St. Paul",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVnpmRUNfUjVSWUpheERZSTF1UXNDQnhfOWpoUk1CM0haUlJqNDhBbWtRWTVZbVBHdlQ0WkRXV2dTN092TmgwRVkzUEQ4OUdMR2FCeWxOUW9oVzBkR2pvVWFjTEF3UVc2SnJIdm0wWnp5Q3dsbzBBSFVMbmt0M1pKZlZadjJZOXlycmFkOTBZNzZVMHdRZzcwRG14T19UV1dmcjk2a0tZODdWX0RiRGc?oc=5",
+    "published": "2026-11-05T13:34:02+00:00",
+    "flags": [
+     "call",
+     "uncertain"
+    ]
+   }
+  ],
+  "HOU-NC-03": [
+   {
+    "title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
+    "outlet": "NPR",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYjg2RDB4RjN4cGZfbUFoTTM0S3pTMzltSE0tZlJvbnFkbGQ1SC1PLUFWZlVZQnZFVTl6U01WRW02eDNKSHhNUFY1S3Mzb1FCUGtEbEczUUdDX3QwdHNMX2o4cEwwNWFqQzAwSmVrOTdrZ0pUaTdzeDczZ1MxYTRKeDY3MzJiN3JFTnhUbk1KYi05ZVhUQUlORWlkb0NkWnlxQzU3MzBzME9qTW8?oc=5",
+    "published": "2026-11-05T23:34:36+00:00",
+    "flags": []
+   },
+   {
+    "title": "NC s 3rd District still uncalled as Murphy leads Smith by 233 votes",
+    "outlet": "WCTI",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU3Y5VF9FSkplLWRhTHRwdVNZNlVBdzkycjNmanlvdmhjMTZpTUduS2YwUGlQSGI0N0lzVTUzWl9hMXpyWDhnYWZULWxKZ3lCcTVaZ3NUZjN4bzhlY0dwOEh3bTJONkVkcGRtd3JMYU1MRUc5NXEzQlRUTDlNdXZRdkVKUnEtSElsVXpfM2hwWXJhcG5tTVVxbjBiTkc?oc=5",
+    "published": "2026-11-04T23:58:32+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   },
+   {
+    "title": "Murphy defends NC-3 against Smith by thin margin",
+    "outlet": "Carolina Journal",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSDM5SnJYRnVzZ2FVdjdwbmQxU1ZQSmE4d0xfS2RUQ0pkaFZlUnNfb2thU280SG5RdVBnQmU1clJLR1V1YUhnOEhnd2FVclRwUWcxam1SR05IdWptQ0oycHJBTE9lQkdlUjE3LXBET2laRzNoZDNVQjZTd1V6eExJVFYxcEZpck5I?oc=5",
+    "published": "2026-11-04T15:41:05+00:00",
+    "flags": []
+   }
+  ],
+  "HOU-NC-05": [
+   {
+    "title": "Seismic ripples in NC mountain politics. Foxx trails by 99 votes.",
+    "outlet": "Carolina Public Press",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGlsWk1nRFlFLWRDTTJyWDhPVXh1VFU2enRMN0VhOGNtdm1NNE9kZzU1Q2p6cVJzX3RFMW42UmdzZEFBZVVaelBTRFlITHVOcm9sV1AtenZvSS1zYVJJc1VlcGZmUlZmZHhBaTlXaDZTZXFtYmszcUNhZEdRUExNemJ4a3hCeWJCZnVaUldmVlRPLWxMdmpoR1hrZVRPOXUxbDdmYQ?oc=5",
+    "published": "2026-11-06T15:50:14+00:00",
+    "flags": []
+   },
+   {
+    "title": "Virginia Foxx asks election observers to monitor ballot counting in North Carolina's 5th District election",
+    "outlet": "wfmynews2.com",
+    "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPdjRZSzRsMVpFQzkxOC1vbXdBeVo4Z2Rsd1czZWRjVHZleE5ULUJjUVNIVWR3c09POTJYRjk4U3QyWklOeUhNb2tndl9iaURQUDlVSGpROEFqWS1VVjFTTlhaT1JsUzNOTFAzdVU4VHB5SExSeThnd0NPVGE1aGtRUVF6aEs0dGE1QzNYMUg1TVVSWGVtM0pqalN1NzN6aUpCejFyVF93NFFiUjA5bFcxWU5qZjY4ZHpUbXdZb0Y3My1ZU1ZYc3FERGZsYVNKbVdtWVNpWmVrOWdNb01mSGs1RlVhYUtPdFBKa21KTDZRXzFFTjZOZkI3NnBhazN0X2RybTlzLWZQM2M1UksxQXkxYk1JUlgza09VUl9CWEM2Vnd1WG5sb2ljVTNmd0JNcHVYRXd3TUdR?oc=5",
+    "published": "2026-11-06T18:45:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
+    "outlet": "NPR",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYjg2RDB4RjN4cGZfbUFoTTM0S3pTMzltSE0tZlJvbnFkbGQ1SC1PLUFWZlVZQnZFVTl6U01WRW02eDNKSHhNUFY1S3Mzb1FCUGtEbEczUUdDX3QwdHNMX2o4cEwwNWFqQzAwSmVrOTdrZ0pUaTdzeDczZ1MxYTRKeDY3MzJiN3JFTnhUbk1KYi05ZVhUQUlORWlkb0NkWnlxQzU3MzBzME9qTW8?oc=5",
+    "published": "2026-11-05T23:34:36+00:00",
+    "flags": []
+   }
+  ],
+  "HOU-NC-07": [
+   {
+    "title": "Mid-Michigan's 7th District race sets a U.S. House record for ad spending",
+    "outlet": "WKAR",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS0MzTXpEN0tWYW5OOVFCUUlNYTZoTTZONjZFb1RWUDI1RVltaUhkTWhoUG9ISUZ3eklLLUhDcGRySGNmQ1J5c0FaeHV4clRWdjFzUEJfMjRfcjR4WjFSRW9ub0RfUjg0ZzVmQnc0YkdlbDRhYTdPWGk2OXBaV2JhcnlOd0ZVcWNQQ1U5c3FTRnBRY1E2WVhrT2dhdU5KNmt4X2NTWTBtOTBPUkN4aVU5TDh2VVE1Z3U2?oc=5",
+    "published": "2026-11-04T16:16:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Rouzer holds slim lead in NC-7 as Republicans lose statewide",
+    "outlet": "Carolina Journal",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSm1zcm5Fb1JycWdISDR0V2NTUXNBLUlaTmwyemR1dXNPNzFLM3UtREs0bXR2Wnp2UTMwWXUtNEJBaDJHTEtNRTlFVUhDUHNYNmg2OW9uSzBJNXV1Vm05YThRc2lvZlhpdXZuaWJqRHpSRjlWN0ZRMWtfTUQ3Tm9XdDRzaHZyNl9WQ2ZOSVFSS2NWa2JQTlpDLQ?oc=5",
+    "published": "2026-11-04T15:03:30+00:00",
+    "flags": []
+   },
+   {
+    "title": "2 U.S. House races along North Carolina Border Belt hang in limbo; recount could be argued",
+    "outlet": "WPDE",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYUs2SkxwM3R5WEVzN0s1cEVjczhnZDhLRFo1b0ZPYmVyWVRvSTRSR2QwM3B6RkhYQk1DMkhoQ2ZuTl9GWVZLWTFuY19qZ0w5LU42V2MzY29memU0R2UzbzZlSnZrTUV3ZDlCRDFoclB0ZU16M0FVaHZ0LTN2TmpESkUyQkQ4cEJyMlZqWmZYSU5HU3Q4dmFENlBoRkFYSjZWVDFscURQeUZnWlpsLXl0Y2JnVEt3R2w5R2p4azFwMlJBalZud0VCYXVTNVZEQ0VwQkdLYll6YzlCRW5GakQ1VnBCS2RaMnl4TEZpNXAzbEEwQklPREthcHdybDRubVdLOEE?oc=5",
+    "published": "2026-11-04T21:38:12+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   }
+  ],
+  "HOU-WA-05": [
+   {
+    "title": "Baumgartner’s slim lead widens in Eastern WA race for U.S. House",
+    "outlet": "The Seattle Times",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZmRXMFZMYTZRcHhqMXV4OUExekJ6dFVIR1lEOTR1N21XaUE0dTdESFFxSmM5bV8tV2RWMXJVY2N6aU9hQkZGSmQ1QW9iZjJZWUx0WmVZbl9CREtSdlF4MjAzMC1sZ3RiMHhaZy1OZ3REVlNxWk1qcW1LdWg3RE9jeFAta2pBOGI2bllFZndUZWphMmdCc21ycS1VekRfeW0yWFBqVVJ6VEhDd3d5N2tVOUhjQWg?oc=5",
+    "published": "2026-11-05T01:31:02+00:00",
+    "flags": []
+   },
+   {
+    "title": "WA 5th Congressional District too close to call as the country swings to the left",
+    "outlet": "inlander.com",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMVE4TlNRelo3dFgzSE9EMzVaRDgzRHNIc1h6LUpYbmlmSmducVZHQWpVQ09VbXhuZjVPYlRwbkFrTzBFX1JyZERiTlRlVDh6N255ZFZwTzF1dERtaTRtR1JCM095RkFpSE9nM0J5a3JqcFNzUkxDMzlPTGYxLURNZnBjbGkzX3ozdTh2S2VaUU5xbWFqaWNrS3poaEtRYlAwVDc0dGtiUGl0dzdLdU9lUDkxdUpSWGlHemw4NU9VTFBXLVFFaW5HdGMxZDlVU3YtOHEtd2otVHBlTEozSUs4Ql8tdFVVUDZHNkktejN0TWZycWs?oc=5",
+    "published": "2026-11-04T16:57:00+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   },
+   {
+    "title": "Baumgartner is claiming victory in 5th congressional district race, the race hasn't been officially called",
+    "outlet": "KXLY.com",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxObkxuOFhHVENCdWdBYlRlbTlDTzJhbDJsS0h5akYzM0ZWWVMxc1h2c0s3OHRfZVNwbER5aHBBN0hFemNteTlHM01MOVZ2R0E2Q0N0NzlZT2E1eVl4N3VXTTY4VncxaHBuY3JNUVpIUzYwU2RaN3RVV3VqUC1UMzNVVXFTTVQwNGJJZkJ5S2dfUmZ3dzl1N0hoTlVaeDZBRUpZSFZvLS1GeC0yNGk3ZzkwZzgwTGtsVzJoM3BtMFYyTjlVWmxHRzVQYjdfNmZJN3RzZWhWR3RXR3IxZFU1T09kNHJ3UEZJeWE4OXFPbWhtTkJFbjJfc1g1UHhTYjNfRjRkNFAxMEppVURVZV9EbGNNUmZVWHhjNC1KbFdTRA?oc=5",
+    "published": "2026-11-07T03:09:22+00:00",
+    "flags": [
+     "call"
+    ]
+   }
+  ],
+  "HOU-CO-03": [
+   {
+    "title": "Hurd wins reelection for Colorado’s 3rd Congressional District",
+    "outlet": "Colorado Public Radio",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSWplUko2ZnB1OGJlU3lPNXBqS1RiMjJTWlVjWEt3SzRSUkVDSmNLaV90VWRFemhIZW5tdUlmRG4tVkxBX0tXU3RUR2F1czhNWkEySjA3dmpoc2o5b28zSVBCSkRjdENDT2FYT2E2UTQxdWpRbnRsM081V0lJY3NDcUJ2clVoSEVUQkdjM2F6eWxOMVpuQkFTN2FR?oc=5",
+    "published": "2026-11-06T19:29:58+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "Republican Rep. Jeff Hurd wins in close 3rd Congressional District race against Democrat Dwayne Romero",
+    "outlet": "The Denver Post",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY3FvcVRtY3lKMDRmcXdmT1pzak03RUdvOVVkRHNMc0hFU3AtX1dsbnozU2J4cV9NZ2E3THdNeU42TmJ4SWlBWi0xbEhQa0FDc1dLbEVTOWsxNUFOTWJtZENVZ3huQkZnU1hISVRCMUZhYnBaa3R5R2kyMWxQQ0NDWGUzX0daSkNWSkk0RHM2bGZ0T2FP?oc=5",
+    "published": "2026-11-06T16:37:38+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "Hurd holds slim lead over Romero in Colorado's 3rd District race",
+    "outlet": "Pueblo Chieftain",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOeTRZQUdmOWpMaEJtclNYcUJ4YlZBM0kySkgxcGxYQlhsTVB6VFlhbWRDbzVhOW5OOUhLZU9zaVBXSUZQeGJ1Y1ppTV94WnNZX1RuNVBaczBwSG9hSDdJa0lGU3RGakpzXzhQQzNhRi1ZOTF1QXR0aUUzbkVMbXdTQXpjQ0lmS0RFZmRUXzZ1WXg4VzRvS2pXUEExTnZBUFphZHd5Z0l6SjFCWEJ1ODM1OUhKSlpyOElvWlNKeEFtaXFvNjE1SUZLMm4xNmZ0TzI2ZlJUYW1PUGpIU1c4VUEzZHdB?oc=5",
+    "published": "2026-11-04T23:01:51+00:00",
+    "flags": []
+   }
+  ],
+  "HOU-FL-09": [
+   {
+    "title": "Darren Soto narrowly defeats Dan Green despite CD 9 gerrymander",
+    "outlet": "Florida Politics",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaFhqenV1ZHJRUmpFRzd0THN3UU1vVDdqSUJqZE96c0gtdFlocXJHbmdLYzBPcDFGT21WZW5aYWpUZ2J5R1E1bkpiVjhnTFcxZ1FvalI2enh6bGVyOUNMeXNDbWNuRXBTa0dkU1BUYk9scjVtblk1TmNIQ25yS3lzUjl1cUd0NkdOSHNVUTBxQVZBMmt4TThSRUNPLUtjUzljMDFmVWFVZGdTcG1hVlpQWVIxYUFmRVdBemFkM3ZDX3ZYV1BjMUZDQg?oc=5",
+    "published": "2026-11-04T15:53:22+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "Florida’s 9th District race between Soto and Green remains too close to call",
+    "outlet": "Florida’s Voice",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaXk5dDZHTzVzSGtRNmtoRWRGUERGYjVGRzV4SjBRMDJKam1DYk9wOWkyRGRpVk9Icy1QX1ZRdldIa3BUQ24wbFdYZUhjUGlkcElPZDFudF84a3k5OEM2Y2hmeWIwN2xLaTFaM1RDT0RQU19NT1pRQmoxeU93SGhvdnQ0VnNvRU5UalBpSEdzVlFvMEVfNlVSOHd1ekNYTE5uaEE?oc=5",
+    "published": "2026-11-04T23:03:00+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   },
+   {
+    "title": "Uncounted ballots could trigger recounts in two Congressional races, but reversal unlikely",
+    "outlet": "Central Florida Public Media",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZDVmSVJQQzNYNnBwcURTa3B5Y1lRVEtHbDVEOUFWbGI1VFYyODR5VndCX2VVX0NBclNySllqdTFIcEZWcXNTMlRUQWtNdnJ1TFhkdF9VbXRQN0dDanpGZktrVU8zVzJic2tUcHpJbGpHY2ZWdmN0d29xMk5rQjgxd1RCUQ?oc=5",
+    "published": "2026-11-04T21:57:00+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   }
+  ],
+  "HOU-NY-02": [
+   {
+    "title": "NY-2 US House Results 2026",
+    "outlet": "New York Focus",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNTJweWFMcDhta0k0Y3N3TEdFNk5wTVc4UE9NMDRIbzBTYVA2Mi04NG5VNDFCMzhwNjQ1cERyRHFjRnF3QVp6Yk9Sdm9GSFZxSzdRUW13TjVhUnJfV1c0WHhpQjljM09SSEljX0JlV0hfV0JZZW9xcEw1LUdENDVNTDNR?oc=5",
+    "published": "2026-11-05T03:22:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Republican Rep. Eli Crane stays ahead of Jonathan Nez in Arizona’s 2nd Congressional District",
+    "outlet": "KTAR News 92.3 FM",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN25NQ1Q4VF85VF81WGozRzgwalVNMlhtX2JzM3B6ZVNwbVRfODhZdzRYT0g5Z2NSM2FxanRwUE9oUElnUTlhblZ5WEVyYmNTU0dNSk1sX2JCUk5kS1JmdHpUaGdfYWlVdlJQS1VMdFJVYkl4RjNlRUJuYnBoUzh1Y2RiczhfejFfa1E?oc=5",
+    "published": "2026-11-06T19:25:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "‘Blue tsunami’ leaves more questions to what it means to New Jersey",
+    "outlet": "WHYY",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE44OGdPMXdSbVM0QjJtUmNna0dRNXNraGxUOWVObWJsVDNxVWNTbUhaYXFHQjA4R3lncUl2bjYtc2NIUlRUaUs0VVpuOWhCQUo3T1VseFNyaEx4WnNJRGxzRkZwNHRMYkJfWXVXLVNqZWRuZUoxQTFB?oc=5",
+    "published": "2026-11-06T00:48:48+00:00",
     "flags": []
    }
   ],
@@ -21596,198 +21627,32 @@
     ]
    },
    {
-    "title": "NY-21 US House Results 2026",
-    "outlet": "New York Focus",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUm80TUVGY29HTmxHUUdsbUxKWE1VUTlpb0t2RDdzZXF1TUhIVGFndFdfZXVTeHRfcGc5LXh1MjRnVEZfdnNQQ3JLVUx4V2g0TE16Z1ZJTE82NDdsWEhuSXlmSjBOZDFkTGZFUnhPZlBGZ2llMHpaenFUcEJWZWdkMXdRUQ?oc=5",
-    "published": "2026-11-05T22:48:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "New York 21st Congressional District 2026: Live Election Results, Gendebien vs. Constantino",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRl9QR0o3T3p3UkFmc0NiSEZHQ0JISWtfOEk3UGZxLThhNFVYRTJybVlzUkRyaTk1LVZUWmlaTzg2dlh5R3lhbXdVVGZrel9WaHpWajF1NEJBVVpiQlhwT3ZqMUZ1QU56WTJndnEzUm5XdGRUZlV5Y013NmpNRGo5eGxKWTVOVmVWa3dSRGJ4bGxYLWFBWDVrOA?oc=5",
-    "published": "2026-11-06T22:00:00+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-NC-03": [
-   {
-    "title": "3 North Carolina House Races Remain Uncalled",
-    "outlet": "Yahoo",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX0lvY3J4YzNVeDUtWW00VEV5S25iNXpsQmxmVWlnOHlWdms1ZTdCc1hHdzJFSHZFdXI2VFU3UjJLSjFmeU1FMkl6VS1ydll1WTBsMjZtcGtOaUd0X0tKVE9VZll3aUV4NmJhSWZSZHNwTHN0RExNejlYMExDTWh0MEFxRDBwYkh3MTQ1RUxkOHVGQQ?oc=5",
-    "published": "2026-11-06T18:04:25+00:00",
-    "flags": [
-     "uncertain"
-    ]
-   },
-   {
-    "title": "North Carolina Third Congressional District 2026: Live Election Results, Murphy vs. Smith",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYnZWTm5faGVVZXU5WjNUVkM0TEM5ZkczZUxIOUNnd2ZLWDZVMl82TDVNWDVBMmlWNjNtbUZQLTVqQjNtRmZ6aFQ2ckNNcTFhdFlWN1ZjYmFYMWw1VWFUWXl6Q3Jfa2xQcVlnbW9CODdOSk9idHNRcFBGOWtzdklaWVdJNHZpOElzQWFKanBYY2swOUg5RnJVZFd2NGtfME0?oc=5",
-    "published": "2026-11-06T21:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
-    "outlet": "NPR",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYjg2RDB4RjN4cGZfbUFoTTM0S3pTMzltSE0tZlJvbnFkbGQ1SC1PLUFWZlVZQnZFVTl6U01WRW02eDNKSHhNUFY1S3Mzb1FCUGtEbEczUUdDX3QwdHNMX2o4cEwwNWFqQzAwSmVrOTdrZ0pUaTdzeDczZ1MxYTRKeDY3MzJiN3JFTnhUbk1KYi05ZVhUQUlORWlkb0NkWnlxQzU3MzBzME9qTW8?oc=5",
-    "published": "2026-11-05T23:34:36+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-NC-05": [
-   {
-    "title": "North Carolina Fifth Congressional District 2026: Live Election Results, Foxx vs. Hubbard",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQemdkZkZ1YmpNXzFkNGwwTm0wLWhienRCVHFpUkVHMmQ4M3JTZGhTWWhVTk5Mdlhya0lIMHlCdDhfSkVOZGNibkFsSXowNkwtVjNVRWRnNmN1WG9XUTdtT0RQcDdfcVc4RkYtWnc3Qm5nd19UUC1jdFp0ZnljbGhGTnM2RzFtUnNoVkhWQlB4aks1dTlDMjltLU9uakxVczg?oc=5",
-    "published": "2026-11-06T00:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Virginia Foxx asks election observers to monitor ballot counting in North Carolina's 5th District election",
-    "outlet": "wfmynews2.com",
-    "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPdjRZSzRsMVpFQzkxOC1vbXdBeVo4Z2Rsd1czZWRjVHZleE5ULUJjUVNIVWR3c09POTJYRjk4U3QyWklOeUhNb2tndl9iaURQUDlVSGpROEFqWS1VVjFTTlhaT1JsUzNOTFAzdVU4VHB5SExSeThnd0NPVGE1aGtRUVF6aEs0dGE1QzNYMUg1TVVSWGVtM0pqalN1NzN6aUpCejFyVF93NFFiUjA5bFcxWU5qZjY4ZHpUbXdZb0Y3My1ZU1ZYc3FERGZsYVNKbVdtWVNpWmVrOWdNb01mSGs1RlVhYUtPdFBKa21KTDZRXzFFTjZOZkI3NnBhazN0X2RybTlzLWZQM2M1UksxQXkxYk1JUlgza09VUl9CWEM2Vnd1WG5sb2ljVTNmd0JNcHVYRXd3TUdR?oc=5",
-    "published": "2026-11-06T18:45:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "3 North Carolina House Races Remain Uncalled",
-    "outlet": "Yahoo",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX0lvY3J4YzNVeDUtWW00VEV5S25iNXpsQmxmVWlnOHlWdms1ZTdCc1hHdzJFSHZFdXI2VFU3UjJLSjFmeU1FMkl6VS1ydll1WTBsMjZtcGtOaUd0X0tKVE9VZll3aUV4NmJhSWZSZHNwTHN0RExNejlYMExDTWh0MEFxRDBwYkh3MTQ1RUxkOHVGQQ?oc=5",
-    "published": "2026-11-06T18:04:25+00:00",
-    "flags": [
-     "uncertain"
-    ]
-   }
-  ],
-  "HOU-NC-07": [
-   {
-    "title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
-    "outlet": "NPR",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYjg2RDB4RjN4cGZfbUFoTTM0S3pTMzltSE0tZlJvbnFkbGQ1SC1PLUFWZlVZQnZFVTl6U01WRW02eDNKSHhNUFY1S3Mzb1FCUGtEbEczUUdDX3QwdHNMX2o4cEwwNWFqQzAwSmVrOTdrZ0pUaTdzeDczZ1MxYTRKeDY3MzJiN3JFTnhUbk1KYi05ZVhUQUlORWlkb0NkWnlxQzU3MzBzME9qTW8?oc=5",
-    "published": "2026-11-05T23:34:36+00:00",
-    "flags": []
-   },
-   {
-    "title": "Florida Seventh Congressional District 2026: Live Election Results, Dalton vs. Elijah",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMkYtRGcxSGVLTUl0bUpNR0Jnd0JnV2xCeU5DMERFeVJTcFdGeVo0Y0RkdDJNMG93NldtNFBRMzVhbjZtdVpUTy1sN1pibTFlMmNZZk96azZ1X2tYQTlnaVFkUjNUVGdSVmVWX21MUjhZYVVHZTFBUjk5U2JhSUg5enFiOVNJTzJDQ0FlVmFTN0JjWHZQZ0E?oc=5",
-    "published": "2026-11-06T00:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Who won North Carolina's congressional races",
-    "outlet": "Axios",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVUh4S1Izb3FzamdHdkU3dTcwNjNwRmhEMm1CTS1mZ2pTbk10S0lWbWJ5c0U5YnJZUE13YnNveFJVcjJRNHIyT1JNcDBFVXUzNVNESDJvT04tV013UEJpeGxka3lUZDU0S1NXMjlNZjhJamN4cG02S1JkWl9SUV9HOW90cllJN2ktRVVScFVTNElDSnI0U0JXYmgzUDdDT3EzR21N?oc=5",
-    "published": "2026-11-06T16:13:21+00:00",
-    "flags": [
-     "call"
-    ]
-   }
-  ],
-  "HOU-NY-02": [
-   {
-    "title": "NY-2 US House Results 2026",
-    "outlet": "New York Focus",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNTJweWFMcDhta0k0Y3N3TEdFNk5wTVc4UE9NMDRIbzBTYVA2Mi04NG5VNDFCMzhwNjQ1cERyRHFjRnF3QVp6Yk9Sdm9GSFZxSzdRUW13TjVhUnJfV1c0WHhpQjljM09SSEljX0JlV0hfV0JZZW9xcEw1LUdENDVNTDNR?oc=5",
-    "published": "2026-11-05T03:22:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Arizona congressional district election results: Democrats gain 2 seats in Grand Canyon State",
-    "outlet": "KTAR News 92.3 FM",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcjV2Nmd4V2dBWWNwZXJFOVFSeU9NYmp5blV6YUVSWTNHUEMtVUNRM0taNlUxYXlOSGlZam56eHhoX0ZYVE9LOENVM2tRQ3FROUlZd1Y0UzdETkREZ0hGVllVc2s3Q3V1TmlncWZOWU9mdVFxdl9JcjlvVDVtRGFlOHJyVVZoQkxfay1lcHp1SXRLNHZxcUpv?oc=5",
-    "published": "2026-11-06T16:50:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Democrat Denise Powell wins election to U.S. House in Nebraska's 2nd Congressional District",
-    "outlet": "PBS",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVFpNbkMxZUthN2lZc29GUTA2NHk3RFJZbEVMNWRrMlN4eTUwMl9GWlpRWHo0Um1IZGtkUWd5dE1vTnp0cHM0TEhNWlVnLXJWTFZUSmx6bUhJNFVBemhXeVBQRVVnQW5abU5EZnJmeXlHZ09Sam0wclZxdHl4NEQ1dU5VeFctc2lQMFYyYVlEY2ZvVTRzTFRwMzRZbUVkMFBEUVlJbkNiRm5FVnlMSm8wLVIzbkp3NFZxRlozXy1pcmhrX3pMLXfSAcsBQVVfeXFMT2xaYkRlbkhsZ2RHZlowNHB1bHFwUmQ3Zkt1MndLNFFqakFqVFRSNWVWb2Z5bGFPbl80TVBEcTY5SU9RZVBhNXNLNGgzRlplWS1oRk5Fd0xJc29oeUJWY0ZacEM4TFVaYllsS3IxcUZRS181bGJYNVZSaGRZQzlkejhvaVk0ZmI1ZVEwUDJhTlhCYXFpd3dCeGczbFJVT1Zxem9mWGxIZmstZFBQUHdfVWh4bHZEcVQ4cVFac092dW1uQkphVkhyajZSdnM?oc=5",
-    "published": "2026-11-04T05:23:40+00:00",
-    "flags": [
-     "call"
-    ]
-   }
-  ],
-  "HOU-WA-05": [
-   {
-    "title": "Washington Fifth Congressional District Election Results",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN1NqcGtQMXgxT05rcXNNQ1d4UmdyYVExZnNxUjhLUUY4NVE3eFQ0bUN5a3ZBMTFuMUF3ZjctWG1zVGZ3cmsxbUlTMTZ0d183YjlQbmdyRWtCaUdwMGxvcUFURkVqYktlOEUwcFN4YjRWcFNhX056TnNRMFkyWjJvdjhqQzFhN2pUcXd2S1FwQjdIQUpiNjc0eHF3?oc=5",
-    "published": "2026-11-06T21:33:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "North Carolina 5th Congressional District election live results 2026",
-    "outlet": "The Washington Post",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWVxX3VJZTNqWDJZeW4zcWk3SWQ4T1c1NGVLNjFqdWgyTm94dmJkanZlcnhINnE5T2FEczBwU0F5MjVrMUtrWThFWVNJRER6M21JUVpYampVZmpHZ0pFUVozTnJ1RUR2UURlVmh5eTlNdFFEclo4a2NWUC13QmVRMEhKNHU2TXhxc180ZzhSdVJXYkF0VHpQUjItelN2OHVsdzhnc2FvQ0c4Qk0?oc=5",
-    "published": "2026-11-04T03:00:15+00:00",
-    "flags": []
-   },
-   {
-    "title": "Michael Baumgartner’s position strengthens after Thursday ballot drop - The Spokesman-Review",
-    "outlet": "The Spokesman-Review",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS0ZIT0hqRmlLZzBNM0pxNFBhaUc3MV9lSzRqYVRJLUIyUlNJX3pGN3prUkQ3eFRkSzhQTkN3ZlNBeVlvck1JTkxhdTNfM0p5LVlTc0pLRm5aNGZvUnpwZFFnSzQxb3ZMNTU3TWJnXzNMVmxlYjM1cjQ4Wk92aThCZzlSZkdKc2xVT3I4UEYwY1NHX084bGxJT19YR29EQQ?oc=5",
-    "published": "2026-11-06T00:45:00+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-AZ-05": [
-   {
-    "title": "Arizona congressional district election results: Democrats gain 2 seats in Grand Canyon State",
-    "outlet": "KTAR News 92.3 FM",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcjV2Nmd4V2dBWWNwZXJFOVFSeU9NYmp5blV6YUVSWTNHUEMtVUNRM0taNlUxYXlOSGlZam56eHhoX0ZYVE9LOENVM2tRQ3FROUlZd1Y0UzdETkREZ0hGVllVc2s3Q3V1TmlncWZOWU9mdVFxdl9JcjlvVDVtRGFlOHJyVVZoQkxfay1lcHp1SXRLNHZxcUpv?oc=5",
-    "published": "2026-11-06T16:50:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Republican Mark Lamb declared winner in Arizona's CD5 race",
-    "outlet": "AZ Family",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYlNsWndJbU4zcTVFd083WkhOLU5TTWdqWGJLcTRYTWhvM1VJNUQxOWR1TkZYZGxRejJnWC1VN1liLWlxN3RSNEJjQUxTWDc4QW50cmR4bEJfMHBKSGNVS0xRLXVGUW9Fb1JDQ3Z4VjR6LUEyN3otSjlVa1JXZFpLQjVUYlU4clNVcWtuRHhmaTMxeEUxeU5VMHJyakNjQQ?oc=5",
-    "published": "2026-11-06T16:58:00+00:00",
+    "title": "UPDATED: Blake Gendebien Concedes New York's 21st Congressional District Race",
+    "outlet": "WKTV",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNb004QkJTaDI2ZkxROE1jU2dTaW13cXd0ZWUwVVZ6S1BhQ05SNVljT2lRZ0hlTFVoWFVXSmt3ajY1Q1ZTdHFXUHRWQ1ZzcjNmQ2lrZUxSeEVtbkNCR1VyWnlQeHlmWlQ4d0NacG5vaGpyNW5tcWZ1NG5qSzVhbGl1SEdOelJtbFBvemF0Q212MktVUFViX0pfMzJJUVRORUUxMWZESWlLM2dXUmxPUURYLVVYWFVob2ZWZ0Y5LVdvcWxOLVJOT0tnVkdKdmtWLU9xZjJhZnNJQjNXZjVudWwycGJqWmp6dUdzazA5ek5BY0J0Qk0?oc=5",
+    "published": "2026-11-07T03:49:13+00:00",
     "flags": [
      "call"
     ]
    },
    {
-    "title": "Trump-backed Mark Lamb wins Arizona House seat",
-    "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc3ZSVWRpT0VDODlsazNBR01rR0NCMEliRFB1UEhwMk1UakdrYVU5cXhtSE1GcEhFMjFCVHNNazRPT3dld3hxZm91dzNiYkhCWnJHT2RnaHZxX2t2ZHhRNGJNSEhZMkc3OFNLa08tRFZDRjFVanJqRHJFSlJNS3BqVTFpWWw4VU9tV1hvUmlsRFBvbjTSAZgBQVVfeXFMTjhoM3dadDlXTzlNTmVIS05WRWQ3NXljYnc5X29HSThsQTlKVmpBQnJsdFBwUDh3d1IzOWc3YlJPWGNNbnIxVjZ3RE1UOFNMVUpVV3VYeW9ROGh5R1NsRXo1ZWJPVWNIcUpueVUzcmRXMWo0Wm5mQWNGZmVUQzJQWTViZ0RRRWJsNmk4NVBmaEc4TFE4QURPNS0?oc=5",
-    "published": "2026-11-06T13:52:00+00:00",
-    "flags": [
-     "call"
-    ]
-   }
-  ],
-  "HOU-AZ-08": [
-   {
-    "title": "Republican Rep. Abe Hamadeh defeats Bernadette Greene-Placentia in Arizona’s 8th Congressional District",
-    "outlet": "KTAR News 92.3 FM",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZjdmUUdOb1ZadERZbEVGTDh2bHRCUDMzZW9XQkxQZk5zUzlJVFR6dm10RGlCS3FiMFRvYmFFekJHeWRKLTZCMlhzM0kyc3Z0TlI2NmtkLWg1QzZwcm5GZXJ1TWlkc092OEw5akZqMjR5dkV5akhiRTBvdTkzSTE5RGVWVlRTdlZwMTc2Z0xaRGlsb3pnNXF6SzViYzFUanEwOFZVeWVaQnVkbnk3elI3ZTlOc1c?oc=5",
-    "published": "2026-11-06T18:31:00+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Arizona Eighth Congressional District 2026: Live Election Results, Hamadeh vs. Greene-Placentia",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUnVNNU5RdTNKeWt2QlNRRktUSFpvdUJ0Nk51MURsUFNsWTdGU3JwbERYa3B4TXJLSDQ3NnY2dG9vZmJmMUV0UTFnbzJEY0xXMUdnenRDTUR1TUEtRW8tYnZPZmlRcFlNVk5rNlVEd3pBTWRpbWV1dUdCUE05ZmxBV1Ixam9KRGhYX0tNQjhmRTVfTnktVXc?oc=5",
-    "published": "2026-11-06T21:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Former Arizona sheriff, GOP candidate Mark Lamb wins US House seat",
-    "outlet": "AZ Family",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSE1qQWNxTFkyVElqTGpvVmpqTkN2Zk1za2tIQVhKNlE0T3Vic2pZOHFmSmZuRzVaQWlXNm1oVU9zWGZVcG1tQlhaT19XbHhvZmRSd3l4Z2toR1BIU3dENDlWT3l3X2xnLW4xQzZoZW1odnpQQWhUc3B4aFNqb2t4ZmpRUzh2SnlwZURtdUJyNjhBR2FwSHE0S3JKNm9TaVdDVUNWU9IBuAFBVV95cUxOYndwVU1ENGltRjJac0VwS1NSdmphcjFZV2p4bUh4SlJhZldCU1owU2FCRTBEQUQwMk1LS2dtSlFQdEd5aWoxWWRTcVZXTkpSQUp0TndsSXU4cy1Zb0lRSS1FNm1Vc29Jd3BDbUJHMW12ZldLMU1nYWtYLUJFWk83WWdBcjd0Q1FraUJDWUw1aGtMYU9tZ1ZMMXNnVmhJZUpfV2NoaW41NThtcGVfNmRWa3llSjR5T3FW?oc=5",
-    "published": "2026-11-06T15:32:00+00:00",
+    "title": "Republican Anthony Constantino wins election to U.S. House in New York's 21st Congressional District",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMEctdko2X0JRcFhJODhJWEo1VnJrZ3Fhcmp4THBjZEJGc2otSnloQ0R1NFg2MXBlRGpnbjdYUXF0RTItc3ZvWTRtbjF1Z0gybmlLdTJSSHNaeEQyMmpjbU5VbkZRbnJJR1ZiRGFYTXhfLUthd3E5WmFrNnhPank2dWNpOF9VZGh3YmxlVFF6dGwtN3ZGVGNUWFNYOXRhMlVZYi01QnlRSkloa2JGNDNWQXhfNXk?oc=5",
+    "published": "2026-11-06T16:23:00+00:00",
     "flags": [
      "call"
     ]
    }
   ],
   "HOU-CA-04": [
+   {
+    "title": "Thompson, Jones still running exceptionally close in 4th Congressional District race",
+    "outlet": "The Press Democrat",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVVh1eGFnazNuTnFjc2p1V0tTX1FsUkVyUW8wRGZvRk9PZ0lyMWJseWRYeVJKWXRET2NzeDFJbTFCQnFLVGdYNUZNR2xtV3FmaWo1Nzd4eW1TTjZ3YXNKaDgySXdSYzc0NkVFZWl4ZE9hOW43Z25WdlhUeXhQYWdTUzJiaFVielhXazRQa0c5dlNveWx0OXREdllSUV93Zmpmdm92VEpFdVotNFQ4elA3NGJzS1M?oc=5",
+    "published": "2026-11-07T01:51:49+00:00",
+    "flags": []
+   },
    {
     "title": "Why California's 4th District could be the last House race decided in the state",
     "outlet": "ABC10",
@@ -21796,23 +21661,21 @@
     "flags": []
    },
    {
-    "title": "Eric Jones leads big in new parts of Congressional district",
+    "title": "Mike Thompson’s district just got a lot less blue",
     "outlet": "The Napa Valley Register",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNY3RhYnd1WEE3MW5zeGVDQzVqVmxjUVVYMjZ4SzRCc1FNdlc2UjRHbGtRTG1tcFo4UktCLWphcDQ0RXVCWDhPYktPaUg4NWZxWVVGTVl1Z1JZZW9xelh6ek9rWTlmdXJPSENyT1lCcTM1LUJ0U3V6U3BBVEV2OEoweWhzQl9sUXBhV3ZJOGFXWGdFWldWMjZnN1BtVWNVREowemNqcG9FaVNNS3F2UlN1VXk4NktkeC1ldy05YlowUGY3UDBCRFRIRzVQTElEMkJVY2Q4eDBsQjlEWmI4M0k2dGY2ZDBNZ1E2Y2x2SnpLRW4?oc=5",
-    "published": "2026-11-06T18:00:00+00:00",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUmU4cGVKWWVQUDN4WmprTUNHMXNkR2xVTmtfQWg3cjF2dGdUdHBCZDBudUwtUHZtaEtlSlhnbk1IREttWUxxSjZkZFQ3Qk55QkUtV3ltdGYyQmdYbnBINkJTa3hZZzY3TWNmR2RWRm02MURFcGU2dUxXa1RLTjFTYTB0NkM3b3RqMWthR0lzUkF2QjhzRE1sdmNCT2F1QkVYak9lX2hjYVNDU0RvdU1xalNWSTg2TEFGSVJ5TmRUdTdYdnVsU1BxT1ExMHhRbk5uMVh4eDJhdVZySGly?oc=5",
+    "published": "2026-11-05T23:00:00+00:00",
     "flags": []
-   },
-   {
-    "title": "Jones has narrow lead over Thompson in California’s 4th Congressional District",
-    "outlet": "Sacramento Bee",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeEhoUE0zSEpUZWFOd09TaHNtVTItT21YOV9LV1BPdld2c3pGUWhySFNBM2xJYlpjU1Q4Ry1CbmhVQzNVOGZRUkNxOEZ6TUEtX1htcmlMRnRDUzY2N3pDV2dPOWhWcG03alJwMmxMNmRlUUFkZ2lZOHNidnF3SWg4d01HZl_SAYQBQVVfeXFMT050NUgxcXc1UGFNT0lmSkcyaHBMWW1ZRWFrYWxZVXA1aGdfb0lRSkNmX0FtUlN2VTc1ZEd2TlhiQWNEWnVTbEZVS3V3N2dnNDFlSTV0dldjOURTMEdjNENLYzFsSXlnNzNIRWM2ZU10akJqM0NNU012Qy1ENUtHQVg2OU9D?oc=5",
-    "published": "2026-11-04T04:56:00+00:00",
-    "flags": [
-     "uncertain"
-    ]
    }
   ],
   "HOU-CA-07": [
+   {
+    "title": "Mai Vang closes gap on Rep. Doris Matsui in Sacramento race for Congress",
+    "outlet": "Sacramento Bee",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRWJmSlpkbDBJY2IxWWQtS2dHUUpaQzgzcWlZWmlJTWVyT0NjZ2lJOU9Kay1ObG4wRE05TmhieXZfQmd4M0lrakwwTnEtYXZJWkZIQUpxaUw5S193MFdIcWMzanNBZFB2blVGWmM4a3VERWxsbTJBbkE4S1pyeDdJU29CTzJrV09BbkdR0gGLAUFVX3lxTE9ZdzhtZ29rbTBLTHMzZEhlZ2dybkRObkV5eERKd3NWczJVUV9Sd015QjNyR2JtVGtxUHlZUUtxTHpENTRjakpRa29wLV9CdUVlSnZSam1tUGFGS3M5M0RsTVFJWklqamFtZVVYNVBlVnJGUjU3VEwxVzRSSmJzcXdYcUx6ei1jNjk1VVE?oc=5",
+    "published": "2026-11-07T00:27:00+00:00",
+    "flags": []
+   },
    {
     "title": "Matsui’s lead might shrink, but experts say incumbent likely to win Sacramento’s 7th Congressional District",
     "outlet": "capradio.org",
@@ -21823,53 +21686,14 @@
     ]
    },
    {
-    "title": "Vang says California’s 7th District race is ‘still early’ as Matsui retains lead",
-    "outlet": "Sacramento Bee",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcU5WSkxsT3BzTUx3MDByc0o5eTNCTGhCRXBudnNkRjd6NTNMU0Y4LVAzZlMzQWh2VzNxRWhrWjAxbkxGN0MzRnRQSnZ5MWJvdm5RZF9KRVBiSlBRWEZxZlJmOFBzTnVwdEU2Q3Fic1VVSTJFOE8xMTFrM21ZY0dLSFZ5RUXSAYQBQVVfeXFMUFpJSno5d3NVUldPNm5LYUpmTkFIeThhb19Na0xpRU1RSzNFNmJhT0I3NnZWQkNfR2k0OHdNREdtcjVDODdLcjc1U3htRUdBSWVHUERSeWNnZXdDQ3hzQ2FHb3doclQ0N3BtU05hTkc5UnNZOUVWd2JrVXA1a0d3TDZOZ25i?oc=5",
-    "published": "2026-11-06T02:27:05+00:00",
-    "flags": []
-   },
-   {
-    "title": "Matsui takes early lead over Vang in race for California’s 7th Congressional District",
-    "outlet": "FOX40",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcWZqR1JpbURWMVRiOWhkcXBQN00yWldHdXhqaW1TdHVhNmpRMkctMm1JWHpVY1RpcTk5VzdTLTdJWmNiREd3d2lZQ1hEaUxVUkFLbGJydVduMGFyWGc1OURtRVFoMDRqdXlyS240M09kUGRzVndCbV9VVnprRm9ZYTlHUkFsZGk4RTFocTV2UUFrOHpGbTVrSC16UDAzS0hTRG5zaFRPM1gwSHJ10gGyAUFVX3lxTE5MVjZJQk5TbTNMMlEyMkZLTUxOVkl4MVBTaV9YVWJzcWlIWFh4N0JrNTRTOTRBZ1NzeGVjbzE5d2pEcnZtMENRWjQ2aHVSeGJ4NWlHR2NWZFd3TzIyRjZROUJUUWZJMEEwTm9OUjRRdEs5UHZQMGlIMUhCUHR5MGVWeEhzQzY4a0s5TmNDZ0RuS09JRTFXOGtUX01CZ2RMSWFCVG9LREhpUEU2ZmhNOUpCRFE?oc=5",
-    "published": "2026-11-04T07:12:18+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-CA-14": [
-   {
-    "title": "Alameda Co.: Wahab Leading Hernandez In Early Vote Totals For 14Th Congressional District",
-    "outlet": "SFGATE",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUWNBV1hrX1VCU1ZLOWVmQmNPQWFaMXZKMXViSU1lRWFTTUZLSE1ZalAxc2ZZcklwSHoyTjVubERZMFRGQVh3ZndyZDVmbkFPT0xERnlGcXJ1S0t1S0hiMm96bG02RkozcU9rb1JLcHhPNVoxNVE5cTVLRVZ6YjdVVGhLRDhCQTJXalg4LWNUVlQwVm9hckhJR0FnenQtSFNncXc?oc=5",
-    "published": "2026-11-04T06:56:05+00:00",
-    "flags": []
-   },
-   {
-    "title": "Aisha Wahab leads in race to retain Swalwell seat in Congress",
-    "outlet": "San Francisco Chronicle",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORWw3OEJpWU1zRFAyNjdScmJVTkt6QUhGbjU5ejJveDBzcC1LZ21QYkpqQTRYX0hqSXVVT2J4bGhJQWsyWS1RLXJtb1V6QTRtcXhjZFNHY2FabUY2UjhuZEhPUF9FM0M0MXZFODJ3VjVEV1g1VUZ5RnFLX1NIbEd1T1Rkb29wekQwTU9zdWxVOA?oc=5",
-    "published": "2026-11-04T05:15:40+00:00",
-    "flags": []
-   },
-   {
-    "title": "Aisha Wahab Takes Strong Lead Over Melissa Hernandez in California Congressional Race",
-    "outlet": "Khaama Press",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZnJDQWhJX3BzWU5yczl3cnN5VllxY3lHd1hnTE16bUgySmlER1BZT24zTUFhY09TblB3TERvcEh1bkhGbWVOQmtDcHJqWFdYLU9XQnhhSkNYVWt2MzJETGpvYjRGaWVPTC11Q2sycGpLbWM0ZzhENmpmblM1NUdEcGR1bUxPVVoxTUcyeU5zUkdTOXpSOHcwZDMzVnhUM0dnSEozdVVPV005NllJeGc?oc=5",
-    "published": "2026-11-04T10:12:42+00:00",
+    "title": "Matsui leads in early results for CA’s 7th Congressional District, Vang ‘confident’ she’ll narrow the gap as results come in",
+    "outlet": "ABC10",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNk9RY0d0N2FabWlYTm91SnozcG1BUzUtNkROZnktZ3U3TjRXTjc2ekxGanNrWG5vWkxHaHlibFB6cGMxOXB5Z1FMazhndG1xeFk4c0NlSEhyVDMxTV9RdnEySmNIaXlaV0NiMW1Hdjg5dUhYQUlQNlhhb3FORkhPQVVLNlNjOGN5TlBVNnhmWVNScThUX3dGRDFvb2Vyckh4VXhQWTdISXZ6MTZfUmxtN0ZLOU5STlBVNHpIcDVRbU04VVNPTUJscGk3emtWNTlkemhxbjFrcll2TWxwRkFhMGxqbG5IR21JbVpkNlJFbw?oc=5",
+    "published": "2026-11-05T02:23:00+00:00",
     "flags": []
    }
   ],
   "HOU-CA-23": [
-   {
-    "title": "California Democrats Flip 5 House Seats and Eye a 6th in Nationwide ‘Blue Wave’",
-    "outlet": "KQED",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd2JXeGs0VnZyTlphVkhGY3Bwc2NfN0xuNnM4QlNlc1gyNmxLQkVDUnRqT05OQU5HN3IyZEdsbWd2Qjg2M25meUxEU202b1c2TUl3TTctVHl0TzJRUmNHVHoxTWhRMUc2ZGdDd1Z5RWJkaTRKUks1LWZlZEVOV1Y3MmtiYU5ycF9qYWQtQzJ6NjBjaWdLbmlqSk43Y1pPMTNHV1d0eVUtblpWYW5oV290elFR?oc=5",
-    "published": "2026-11-06T01:46:33+00:00",
-    "flags": [
-     "call"
-    ]
-   },
    {
     "title": "Jay Obernolte’s congressional seat was supposed to be safe. Why is the race so close?",
     "outlet": "San Bernardino Sun",
@@ -21878,100 +21702,74 @@
     "flags": []
    },
    {
-    "title": "Incumbents cruise – with some glaring exceptions – in LA County’s Congressional races",
-    "outlet": "Los Angeles Daily News",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRkJFendyTFByclpMRXd5T1FBTEpSeDZTUFVYZ3BVZnY5OGoxaDBqMHNYYjZEUFFpSG45bENZYUh5a2QzT292aDlUQ3R4NFBwRFN2LTFmMzVqeHVIOEtoMVZfNk9lNnVWUXVTS0hxOWdhdlY1SGxfY2ItRTZxY2JaaDJPdEVfMlhPVFZnODMxNWM3RTNPVnRjM2N5MFAwWDBWWGljVHNGM0lHa0tORUN4cG9uWXZMdk5iWkE?oc=5",
-    "published": "2026-11-05T01:37:09+00:00",
-    "flags": []
+    "title": "California Democrats Flip 5 House Seats and Eye a 6th in Nationwide ‘Blue Wave’",
+    "outlet": "KQED",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd2JXeGs0VnZyTlphVkhGY3Bwc2NfN0xuNnM4QlNlc1gyNmxLQkVDUnRqT05OQU5HN3IyZEdsbWd2Qjg2M25meUxEU202b1c2TUl3TTctVHl0TzJRUmNHVHoxTWhRMUc2ZGdDd1Z5RWJkaTRKUks1LWZlZEVOV1Y3MmtiYU5ycF9qYWQtQzJ6NjBjaWdLbmlqSk43Y1pPMTNHV1d0eVUtblpWYW5oV290elFR?oc=5",
+    "published": "2026-11-06T01:46:33+00:00",
+    "flags": [
+     "call"
+    ]
    }
   ],
   "HOU-CA-40": [
    {
-    "title": "California 40th Congressional District 2026: Live Election Results, Calvert vs. Kim",
+    "title": "Ken Calvert claims victory over Young Kim in 40th Congressional District - The Press-Enterprise",
+    "outlet": "The Press-Enterprise",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT2NONFRDaWY1Sl9OUGJRUFprY28wZ3N2dWp2ZndkVkdjVUs0clAtbXZBbVdpb2M3VTBjRHptRHdBeTJOd3NfUW1KRkx2T3dGWU1sLTFWSDhPZU1hOUl3Uk9UMEdVSjVNWkw2TXhIX3lSLWc1QjZKM0daZTJxTmJ4dk15WXdiMFVxWXVVR2xlUTJsWGZpOEFuai1rZExqWFJpdjVqNzB4T09OSnd5bV9wOGRLMGVCNWM?oc=5",
+    "published": "2026-11-06T20:33:36+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "California 40th Congressional District 2026: Latest Polls",
     "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSEstdDNWTXF4b3lQbm5BeG1jLVp6bGc1aWtXTUFJbF9BQmZFTHRfZUdVUWdPQ2pRRXhvT3JiUVVaUzlHejVpTmNUM21Ea2J5dHB5emh1NnVGWTBscDZtWGFPT1JJZVVqS0p6R3ZwWGo1OFdyd0JWREtTTlEwd09tQUVjNXE2QXhnMTlTWF9RNTB4ck1IZ2h5b1pxaw?oc=5",
-    "published": "2026-11-06T00:00:00+00:00",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOamdYcWpUeENlcU81V1EzMHJjQ0xqWG8yaUpPWjZxdTlVN3d6aFhLalFXSHZ4LWNJX1JpMV8tcmhBRmg3QVIwM2dqUTJtaS1sM3FTWm5rLTVVazNmeWdOdWE1R19saE5HNEdiTGJzLW55Q0R0MzlBbXlBdUlaVDh5V3JSRENQelE?oc=5",
+    "published": "2026-11-06T04:25:46+00:00",
     "flags": []
    },
    {
-    "title": "Election results: Ken Calvert leads fellow Republican Young Kim in battle for 40th Congressional District",
+    "title": "Orange County Democrats win big in congressional races",
     "outlet": "Orange County Register",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNUJuUVRKXzFuQlByUERWQUZ1aDJnWUo0OWF6RVF3cWFJRk0zUURLQWo2WWY3OW1KeWJ3MllvbmhMeURCd3phV0NiVVMxMkhuSXFrZlpVQ2FfNUY0SnV2WkJpdnBJby1GMk9PVnJ2Mm14QnNLeUE3ekFWNE9jTUU3VExMNlZzb2xsU3B5Q2R0dlVfdk9WWUdRclpiVy1ZZ3hBczV5UU5mblBjb3diWUR6aFdRUFA5RGpiRXFVWWpDNWkybDZnc3NxQzBMQQ?oc=5",
-    "published": "2026-11-04T04:35:21+00:00",
-    "flags": []
-   },
-   {
-    "title": "Real-Time Election Results 2026: Congressional District 40",
-    "outlet": "Patch",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTHR2eTFNUGwxM2xJY2lzc19TcHB2VjFGRDY1X25HVGdMdFNVaGRNNU10OUpxTjRQYWFaTS1YVjJjdURRNXV0ZWNSWmtjNHNvR0VOU3BYVnI2ZjVLb2xmQ2lqekNJV0xOd1pZODRmQjV2WXpyQXVYR0xTb0pYUGtWMjBvcFZnNUdwM3p2M0lWWXhVOHB3VENISHVyUUk2X0dOTEVUNmE2LWRKU2Rq0gG-AUFVX3lxTE5ObGdicnZWZnRzVk04OG16NnZqUGg5YnZTVnpwX3AwdmlYRzRYalJKaWotNkZBRGxDbG1jQzhXMUhKbEU2bWRuaGhBNkdyVV82YUNTLTg5dTVxME56bmY3RzhBdFMtRW83OGNhcDRyR3VudUhHbFN6VS05SENNN19pOGF5YnFpdHBlOGxTS013TkhienVYNnZNRWVvbldEVkpMMzNWNldxX3dGSDBTbU5BandyOWQteGZMMG5ENFE?oc=5",
-    "published": "2026-11-04T04:10:00+00:00",
-    "flags": []
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNm1SazJuUmJsR3ZlZ25lclRBelh5NnFlZWpYazNOVWxCeWVyOENVSzVxYlhzdm1nRklyVnNER1FMOVBxUXFHaE9ZY2hwUnNJQWVCMmpxRXVuT28xTlVoQTkyYm5oZDN2OFpSaHdRcnNTeEpXN3YzQ1ZUZlFmbmFyaG1SdWRhOEVqRTRIanItRHI2aVNzU1VmSQ?oc=5",
+    "published": "2026-11-05T01:30:21+00:00",
+    "flags": [
+     "call"
+    ]
    }
   ],
   "HOU-FL-26": [
-   {
-    "title": "AP says data entry error briefly showed incorrect District 26 vote total",
-    "outlet": "NBC 6 South Florida",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbjhHbW9PTUNPRFp5ekpkQV9mYmN5MkRqay1tajlldWFnUHc4clRRZFl2V1N0RmdKNlJkLVZPWDY1cGNveUhBQ25JWjFYUHhZNnhBdXkxMXMtSlpuRmo5aGd4c1lfOVJ0VEtkeG5tMXpzVFRpNV9aNjV0aGZDd2V4cHhQWWhnTmFQbmVYSVlXUERrN3pZOXZPcENacVl6dTd3Z25ndFJlUC14WWFZUnAyRS1rdi0wV2PSAb8BQVVfeXFMT0U2S2lfcXhPOTFWaVdQN2l3QTFBbXY0VW85TXhhbGdkREwyNnVXRkZVeXdXQ1FpZS1yRmRhMkVjMmdmZFpqRl9HQmtJY3JNajBoTDNMcU5WblJtVWF5aE1JdXI2ZVlKejA5cGNpLXg1NjFaOXg5MTAzVE1LT0sweVlDbnpqcmpUUTZiTjhwYzFtbWdoOW9IQ0lHbmxkM1hVZ0VycHNBV1ljUnN2WEw1SndGZWVFX1pHNUNhQjg0MDQ?oc=5",
-    "published": "2026-11-05T17:25:30+00:00",
-    "flags": []
-   },
-   {
-    "title": "Republican incumbent Mario Díaz-Balart claims victory in uncalled South Florida House race",
-    "outlet": "Miami Herald",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzUtY3hOb2Q4WE1iMUswT3l1cnk5Rk1LaURBZ25xa0U4VzFOYm9FYzhmT0s5bzZTeDM3LV9QRG1LNFQwbExzYlI1Q25PRXZFN0ctOVRPU2p2VWltQnpPZFZzakU2c0lBU2szQkY4WHc1Z05IRDNpNFhmdlZ1VUtxMGVvY0dUMGlnQzF0RmlwYlNBWknSAZMBQVVfeXFMTlN1YzNfXzUycTRLVFFFOVNDVUwwVGluQ1IzWEQ4djh2NGRUQmRWOTJRMDVjUTZDZ0hXNDVfeVRsTkxsaW53TnpQTTZCbFVVYThHOTNJMThSOGtQUFRmeWpJVGd5cFJYMWJlNHpxMGZrODdGOGZna2thZVBTWHpLTUdrSVFXY3FIaC1OcXFFT0pYRno4?oc=5",
-    "published": "2026-11-05T01:10:00+00:00",
-    "flags": [
-     "call",
-     "uncertain"
-    ]
-   },
    {
     "title": "Florida District 26 candidate says questions remain after \"data entry error\" caused incorrect vote total to appear",
     "outlet": "CBS News",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNjdvV2s5NDBiVnRtaU8tQnJCZlFCVlJYNW5XZndYaW1yYWMzeUNXMkRMSnhpdGVTU0tQa0VMWGNGbjRTUFpCQjJZZ3ExSmEyWDBwc1YtQ194cDQydHFSNGdVY2xweEVpelBudzhZa2ZyeHVIRUF1NU9kcTc3a3F2Mnc0aUppUUFvWmtXSEFyYU4?oc=5",
     "published": "2026-11-05T00:28:00+00:00",
     "flags": []
-   }
-  ],
-  "HOU-NC-08": [
+   },
    {
-    "title": "Republican Mark Harris wins reelection to NC’s 8th Congressional District",
-    "outlet": "The North State Journal",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWWNneU5idkh6aTc4dk90dDlxYmxQeF96V2lDOHo5bjdZMXRCUXN2UjJVaklneFcxM1JNME1KX2pORFp1Tm5zTzU1eWFqMnZ1dmpodTJVUEtrU2prNDY5T3lVNW1UdldwcHNJeEd6aTZMZEF3ejg5T1htQUJaNF9HN1dEakFiSU9xU1U0U0IxdWtYaF80dC1Lb3JoeDR2aDg3clY4bXJkQ0h4RGJvd0RsUQ?oc=5",
-    "published": "2026-11-04T06:47:58+00:00",
+    "title": "Recount looms for razor-close CD 27 race as nearby CD 26 clash remains out of range for now",
+    "outlet": "Florida Politics",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZHpOQjdEY293Tm9OdGFZWmZpQk1BdXhKUGJLbTFPVUh1UWhPOG9IXzM5OXN5SnpHbWFxeXl4eC1DTFBEU3YwVlp5SHBVTFdSY2lUdmVwSE12dFpZa1IxcDNOeXJ3UEU1S2E1SnZ0OC1XZmN0X1p1cGVrY3RXRm1FNUJZZThrR20zaGZlR1UyQkZrVW1PdkJwVDRFMkstejF0dWdmMGZVNThOU1U0OU9TZXFWLTM5T2pSZEk3b09KbHhEWEJpTzF2bDQzS2ZTc1cwbHc?oc=5",
+    "published": "2026-11-05T16:25:05+00:00",
     "flags": [
-     "call"
+     "uncertain"
     ]
    },
    {
-    "title": "Rutinel defeats Republican Rep. Evans, flipping Colorado’s 8th District seat",
-    "outlet": "Colorado Newsline",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1scWlfdTVMMVhoeHhfYlBwMzI0bHlwbW9YVEduNE84SGZuanFqOGE4YlgtOG9TLWNFLXFxVzFoSjB3MnA4RlZKSy1tY0dmN2xJSEtCMnZIdWZjcWR3N3VtMW9kYmtkR1N2b1BleVJMTEtNOW5QS3c?oc=5",
-    "published": "2026-11-04T05:35:30+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Rutinel upends Evans to win the 8th Congressional District - northglenn-thorntonsentinel.com",
-    "outlet": "northglenn-thorntonsentinel.com",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPenRtRUhRREFLR0cxMXRyQXQ0bnhNRDJpdFdZalZINk52bkdFNjRGVWh3UURlWjh2VmRubEJ6eUpWOF9zUExBMk11c3dKcHRKTy02d3hkSS1ocUhRd3ZTdkxVRXp4Z3dTbU94TlpkTWk3TVFDa19xbl9mVjR5bUZHMllKUjBWTkNUWVo4OFpDYmNYaXJjcU9hcTQyOWo0TF80Nm5KSVV2UG1fLWVQMEh4SDdpQjNxdVAyNU85TnZabmdGOHlkU3R5b1ZTdDI2MXU3NHdpNUxBN2U3SXJUVzlaQnNaeFZEbnFhbGY0cmJR?oc=5",
-    "published": "2026-11-04T05:14:00+00:00",
-    "flags": [
-     "call"
-    ]
+    "title": "Florida 26th Congressional District election live results 2026",
+    "outlet": "The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMmJzeGh6ejhxamJwS25aWnd0Q3ctUmc1MnZQanF0a3lRcVl6LTVUX01CalMtbklNdWo0TnRESUlSZFZCNjRXVUdlUjJZSkpBaG5OcThQeEoxSVNicGhGT2hyWS0tU0RUSjdiLVEyTjFteV9BbEpfc3M0X2lmODdaWlRGbFVScmw5aVIwRVdGWEVuUlBIeVZYUElsaDlvaFdMakc4?oc=5",
+    "published": "2026-11-05T01:40:31+00:00",
+    "flags": []
    }
   ],
   "HOU-NC-10": [
    {
-    "title": "Republican Pat Harrigan wins reelection to NC’s 10th Congressional District",
-    "outlet": "The North State Journal",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOW5GUk9VTTVJeUdtMFBjOE9EbjM2NXZnVEgyNUV2RlRXd0xjSHlPRkx1RUNVTThoSXJlQjFTUWcycWFnNTNLTUQtdVJwVDFhYzUtUG1YODk5R0cyZzFFaXdUN0lya0h6U0hOYTNQZHJleGhSeVlQMkhncTZ2bUxsZGU1Y1hjclI0RXJEZGxWLTNwbFBWMzlyV3NBOGo2Z1BXRWs5N0tQbk9yRzJ5am1pTmYtOA?oc=5",
-    "published": "2026-11-04T05:04:30+00:00",
-    "flags": [
-     "call"
-    ]
+    "title": "How Blue Devils on the ballot fared on Election Day",
+    "outlet": "The Duke Chronicle",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPMzFXMHlWazVhWlQtSUk1X0N0VXRWV0NJMmN0dzhsM29mbmlfRjBnQnR0SUFWdEFDQVNQMTMzcjR3SC12Rnd0NGRkRElXbEg2Q0lLeEhJbWtyejFJaEhiUV9vR0lxLTdIVkh1RHBHNEttRFIzWnNIbVQ3Z1N6WGFiRVlmMWtTRHFwaHpJMFRMckdEVl9VM1RoZGRKTEhGQlVxN1RSRkh1dkJ5UDBIVkxkSXh0QzFwZVUyaFpJNzNDSS1QZEpPSUNmYWNiY3ljSHc5X29pNjhUajJoQkVOVGEtbjBSWkhCT0w3dlF4N0k5dUtZQWc?oc=5",
+    "published": "2026-11-05T03:24:05+00:00",
+    "flags": []
    },
    {
     "title": "Democrats flip multiple NC congressional seats",
@@ -21983,29 +21781,31 @@
     ]
    },
    {
-    "title": "House of Representatives race winners 2026: Results from pivotal fight for 435 seats between Republicans and Democrats",
-    "outlet": "New York Post",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQT2Z0VmEyQ0xHbHBGbVZRNERzd2lnbU10QlBiVWpaWFNybEpYRlU2RTNsT2hFQlVzaFRWQVlZWmFKajNENkVCeXRxTXQycmVNR21JaHctbG90NXI5MF90QTcydFhHOFgxbGNLNTNhVkctclhqM1diTlE4V1Y3cU5DYjZpZktzVC1TOEx4YUdnNHhaQUlMOEdTeUYtTVBTRzBsakprVWhnZ1N1RnVVbUt3ay1seTNiNnhHUFI1WmZ3cFpDTGdVNTVhamZ0bE01VlNid21EQ19DcGhuOGRzTHBfcDVBbF9LUXNPT04xdA?oc=5",
-    "published": "2026-11-03T23:10:10+00:00",
-    "flags": []
+    "title": "US midterm results: Indian-American Pia Dandiya wins Florida race as Democrats flip North Carolina Senate seat",
+    "outlet": "Social News XYZ",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWENVYktfWmg5d0JlaGtiTXd1YnFwSDQ3R3Z5ektvMDFqbDllTTZCRzFvMW1xNGxYSUExQi1ZRkJoa1d3TExDaWpTVjNtNXpkcDJ6MU80MlVZbDA4TWM1Yklvd204YjdiWkc5S0l1NzFlNnNNbVVoeTJqM2pHaUxhUkw2Tk9rVmY0R21hZ1djWTJsellic3luSW85NDZfWVJLRGZaRWhjbkt0Q0RfUnZCemtzUlJRN19Eb2NZbjhiZ0pKMWNRdjFoSjVvVlVkY3owTlprWFlpbjV6UkxONHo0X0ln0gHiAUFVX3lxTE9YQ1ViS19aaDl3QmVoa2JNd3VicXBINDdHdnl6S28wMWpsOWVNNkJHMW8xbXE0bFhJQTFCLVlGQmhrV3dMTENpalNWM201emRwMnoxTzQyVVlsMDhNYzViSW93bThiN2JaRzlLSXU3MWU2c01tVWh5MmozakdpTGFSTDZOT2tWZjRHbWFnV2NZMmx6WWJzeW5Jbzk0Nl9ZUktEZlpFaGNuS3RDRF9SdkJ6a3NSUlE3X0RvY1luOGJnSkoxY1F2MWhKNW9WVWRjejBOWmtYWWluNXpSTE40ejRfSWc?oc=5",
+    "published": "2026-11-04T14:23:53+00:00",
+    "flags": [
+     "call"
+    ]
    }
   ],
   "HOU-SC-02": [
    {
-    "title": "Recount possibility looms in South Carolina’s 2nd Congressional District race",
-    "outlet": "WIS News 10",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRllNek1hZkdRMWVpenNRN0VhcTJqZ2k0d0FfZ2FoWkIxc2h4UzRDNWRDNjQ0X3RsQ19yZXpPUGNYdkJOcDNlWXU1MC1wUkFxTUVpZ2p0NEVBS2dxQ2gwMG0wQWh1TlVxOFFIQnA2QXcwOEVHYWYxeUtoM1NaZS1qVEhya0E1UENHN19sTm9hQTlQemM3VDNuQkRkdGhhdzZBckdoVHhSZE53RmfSAb8BQVVfeXFMTU1MN0xpWVRpMjlSSHFhbG5sb01YdlUzb2x6RzFicUQ2QklaTU1Pd0RSZVhFN2ZRVUF1Y29pSEhGZjhpTVFia2g3WWx2RXIwMEVxRk1mc1B4N1ktWlpxQUhEd0k0dlJPYnR6bHRBTlZ2aHFOa3dXeEdyQnpPeVp2d3YtdWc3WHFfMFBKZ1l5Y0xiLVhEanBnY1JtOXYwWXdlX240eVRQYXZmb2pVcVQ0NWNMRjM5STY3TVBuSkpGOXM?oc=5",
-    "published": "2026-11-04T23:46:00+00:00",
+    "title": "South Carolina 2nd Congressional District election live results 2026",
+    "outlet": "The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY211MnBlMzl1N2hHLWZpbFhfNm85ZDlhekxzMnZkTVlYNEM5RGhQbmxPNFFUa0VIV1hqUGVjQnpFZC1hWlZHeTNfcTBYb0diLUt1czh1a3RGdFZacjFObjN4dE80NzRDTURwRDRQd0xhYm5WU0x6d1I2MWEtSEd2ZW84cnVaMEYyM2FsekZxZ01raHMtMjNPWG5TX0F4a2dIYWJQMlB4b2l6MVk?oc=5",
+    "published": "2026-11-05T01:36:04+00:00",
+    "flags": []
+   },
+   {
+    "title": "SC congressional race, 2 State House races headed to recounts after close election results",
+    "outlet": "WACH.com",
+    "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPOGgzSEtUbFlXN1UzNEE5TmZvODhEU0k1dlhWQmQtQ0d6TXpIUGdhbmJiRERNbjd1Y3FsdGtMMllBRm9FRkJDc2hfeGU3djRzU0V0WlZmWHl6TmhfZEhaUnFDMF82Y2VhbWZmVnk4eTNSR2pXRzFlc29xMXF2bTUxem1rMzFzdnBlWVNFdEdZR21uY3YzMGFhUTBDeVBDTXd3Y3JodExBNkxISVk3T0RQVWVkRXFBNk1XVnJncV9kZlhnVlVhWC16Qm9KUjlmZHJGNUNlNFJMbFU0UzNyYXVBem4yN25GTVBPWWFxUlg2MFNyQ054WHlHVzFpdHRUTDJCVGp6LW90Vk1zcUdaRlFTb3RR?oc=5",
+    "published": "2026-11-07T02:08:06+00:00",
     "flags": [
      "uncertain"
     ]
-   },
-   {
-    "title": "South Carolina U.S. House election results 2026: Live results for all 7 districts",
-    "outlet": "WLTX",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWjIteHVhN2VMaVU4ZG9ReTlNWjlIOHNmYnFUempnQW12ZktTZGpZck00eXR0UmliYk1OQ3JxUU4xTGY2VHF0VDJvM0hsek1oYzZvdTVUQ2RTaTFPYW13eDRjMjYxbk9OMWxheHJZOExVWUZHOVA1cE5DWjlucmVfZ3ZuaS1qajRBUXcwRnlscVE5ZjFSd1hmRmZVVy0zaUY1LU4xeG0zMVdyTElPc01BelBab3dmSHY5dGh0NFh2a1A5aGF1TUw5SkVOMzNQWm1sVG1CZFZYV0MtVVdy?oc=5",
-    "published": "2026-11-03T22:44:00+00:00",
-    "flags": []
    },
    {
     "title": "No recount yet in race for South Carolina’s 2nd Congressional District",
@@ -22014,33 +21814,6 @@
     "published": "2026-11-05T21:00:00+00:00",
     "flags": [
      "uncertain"
-    ]
-   }
-  ],
-  "HOU-TN-04": [
-   {
-    "title": "Victoria Broderick defeats Scott DesJarlais in Tennessee’s 4th Congressional District",
-    "outlet": "WKRN News 2",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQalIzeWdPWmRBRWlrSGhFZUs3WFBlUWwxM0xHT2FTbm41TGs5SUY5Z2ExbjFvRjA2bVM3XzhEXy1vUlYwdGZfenlMMTRRNnhoc2hmZzNteHVOc2JST2x5Tk5lS1B5Y2pQQlhkekdHWThOMlJmZGVNeHR5LXRjay1KbHRLZEl4X2lNZ0xkbUs2ZVpHZ2RFblHSAZsBQVVfeXFMUHpkWm8zWFdVbnJXVDJiOXpKNXNYSDhIRjZiU0RWamJ6Q3BJLWJCVXFCTndDYkVkeS14SjVNeWt1Y1kzbFRhaFBubk9pd2dBNnhtTWhabnFnZG5WbXVXX1lsSjZDYm4tV0ZRZlVtcWh2VG5rbnBKRkVBMnkyekhsZzU2cHZQZm5hOGdPMjJvMjA4elppR1R3Rk5PLVU?oc=5",
-    "published": "2026-11-04T14:34:40+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Tennessee Fourth Congressional District Election Results",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUHItY3Y3UG1wcGhFc3VmR2Q3RkFlZEotalBCV2hpX1hmcU9TeV9ZOXVRYS1WRFM1S2dmWVNRcXJrUFQyUEJGb2lCenRvRzVHOE91RHdPRzhTbl91elIyVENhRnVHNmg3OXlPLUdQMTNicWdULW1QR0dzbUgyWV9wWEh5VTRoeTZCV2tLWHFqSjhNamR6bjlYeQ?oc=5",
-    "published": "2026-11-06T00:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Democrat poised to flip deep-red House seat without airing a single TV ad",
-    "outlet": "Fox News",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYXJpamZ4cldaVkdINXh0M0l4ZkRSZzd1NGN4LS1ldEp1Y2lYb05FY1lNU2FDWGF1WjZGR1BwRm5La25iVUxhU3o0ekhhTEFhUlBzMF9LWFdjcDRRbHduNnA5U3BTLTVaQ1Z5dW16X202RnBUTDFOWVE3UTg5eDlKM3ZSbHhyUEZwTGtfYjFrSEduSHgtdHR1Q1h3U19UNVhyUTFz0gGoAUFVX3lxTE85QWltMUJEV2owcUdvRHVKbktWQmJJN0R0YkdIdXRWaUt1VGpycTBmX1BoZWk1Q0ZramJ5UGlQbmZBVUI3WWpVQTh1RjU3VkJxMWdqcFcyMmUyc3NTT3Bocm5rRksyR0JQLUtWeGlheUg1TnQzb2duT0RWcjRVMTZVQW5ZZGpIV1RyblFFRFRaN0pVSlI5WnM0Und6RE9EYnBPQzJzUXhiOA?oc=5",
-    "published": "2026-11-05T16:20:43+00:00",
-    "flags": [
-     "call"
     ]
    }
   ]
