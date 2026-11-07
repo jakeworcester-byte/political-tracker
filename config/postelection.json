@@ -48,5 +48,22 @@
       "2026 midterm new voters young voters turnout analysis"
     ]
   },
-  "polls_close_utc": "2026-11-03T23:00:00+00:00"
+  "polls_close_utc": "2026-11-03T23:00:00+00:00",
+  "courtlistener": {
+    "_comment": "scripts/courts.py. Token comes from a network secret for www.courtlistener.com on the cloud environment (preferred) or the environment variable named in token_env. Free tier: 5/min, 50/hr, 125/day; each run uses at most max_requests_per_run.",
+    "enabled": true,
+    "token_env": "COURTLISTENER_TOKEN",
+    "lookback_days": 3,
+    "max_requests_per_run": 5,
+    "min_seconds_between_requests": 13,
+    "docket_queries": [
+      "election AND (ballot OR ballots OR recount OR certification OR canvass)",
+      "\"Department of Justice\" AND election AND ballots",
+      "\"Secretary of State\" AND election AND (ballots OR certification)"
+    ],
+    "opinion_queries": [
+      "election AND (ballot OR ballots OR recount OR certification)",
+      "\"absentee ballots\" OR \"mail ballots\" OR \"provisional ballots\""
+    ]
+  }
 }

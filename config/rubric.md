@@ -100,5 +100,5 @@ From the date in `config/postelection.json` the morning brief becomes an **elect
 5. Legal and federal action: lawsuits, rulings, and any federal or administration action affecting counting or certification, attributed per rule 5; "none reported" is fine.
 6. What voters said: two to four lines from exit polls or VoteCast, labeled as surveys, plus who actually turned out from voter-file analysis (Jon Ralston for Nevada, Michael Bitzer for North Carolina, major-outlet L2 or state-file analyses), compared with 2022 and attributed by name (morning editions; optional in the evening).
 7. Lessons learned: once the digest's Scorecard says "ready," a short read on how forecasters, polls, and markets did; then weekly. Before that, omit.
-8. Coverage note: sources that failed, table lag, CourtListener not used (needs an account key).
+8. Coverage note: sources that failed, table lag, and whether CourtListener court records were used (or why not: no token, token refused).
 9. Link to the site's Results tab.
