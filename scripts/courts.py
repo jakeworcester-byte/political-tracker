@@ -62,9 +62,9 @@ def clean(text, n=160):
     return text if len(text) <= n else text[: n - 1].rstrip() + "…"
 
 
-def search(token, params):
-    """One search call. Returns (status, parsed JSON or None, error text)."""
-    url = API + "?" + urllib.parse.urlencode(params)
+def search(token, params=None, url=None):
+    """One search call (by params, or by a full `next` page URL). Returns (status, parsed JSON or None, error text)."""
+    url = url or API + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"Authorization": f"Token {token}", "User-Agent": UA,
                                                "Accept": "application/json"})
     try:
@@ -77,10 +77,21 @@ def search(token, params):
         return 0, None, str(e)
 
 
+def skip_docket(r):
+    """Drop bankruptcy courts (court ids end in 'b', e.g. njb, ganb) and suit types in skip_suit_natures."""
+    court_id = (r.get("court_id") or "").lower()
+    if court_id.endswith("b"):
+        return True
+    nature = r.get("suitNature") or ""
+    return any(s.lower() in nature.lower() for s in CFG.get("skip_suit_natures", []))
+
+
 def docket_items(data, since):
     """type=r results: dockets with up to three nested matching documents."""
     out = []
     for r in (data or {}).get("results", []):
+        if skip_docket(r):
+            continue
         docs = r.get("recap_documents") or r.get("documents") or []
         entries = []
         for d in docs:
@@ -94,6 +105,7 @@ def docket_items(data, since):
                               or (f"/docket/{r['docket_id']}/" if r.get("docket_id") else ""))
         out.append({"case": clean(r.get("caseName") or r.get("case_name"), 140), "court": r.get("court") or r.get("court_id") or "",
                     "docket_number": r.get("docketNumber") or "", "date_filed": (r.get("dateFiled") or "")[:10],
+                    "suit_nature": r.get("suitNature") or "",
                     "url": docket_url, "entries": entries, "more_docs": bool(r.get("more_docs"))})
     return out
 
@@ -147,7 +159,8 @@ def write_digest(run_date, report):
                     continue
                 seen.add(it["url"])
                 n += 1
-                L.append(f"- {it['case']} | {it['court']} | No. {it['docket_number'] or '?'} | filed {it['date_filed'] or '?'} | {it['url']}")
+                nature = f" | {it['suit_nature']}" if it.get("suit_nature") else ""
+                L.append(f"- {it['case']} | {it['court']} | No. {it['docket_number'] or '?'} | filed {it['date_filed'] or '?'}{nature} | {it['url']}")
                 for e in it["entries"]:
                     num = f"#{e['entry_number']} " if e.get("entry_number") else ""
                     L.append(f"  - entry {num}{e['date'] or '?'}: {e['description'] or '(no description)'}"
@@ -200,9 +213,11 @@ def main():
     if not CFG.get("enabled", True):
         report["status"] = "disabled"
     else:
-        plan = [("r", q) for q in CFG.get("docket_queries", [])] + [("o", q) for q in CFG.get("opinion_queries", [])]
+        # One call per query first; leftover budget then follows `next` pages of docket queries.
+        plan = [("r", q, None) for q in CFG.get("docket_queries", [])] + [("o", q, None) for q in CFG.get("opinion_queries", [])]
         counters = {"r": 0, "o": 0}
-        for kind, q in plan:
+        while plan:
+            kind, q, next_url = plan.pop(0)
             if report["requests"] >= max_req:
                 break
             counters[kind] += 1
@@ -215,7 +230,7 @@ def main():
             else:
                 if report["requests"]:
                     time.sleep(gap)
-                status, data, err = search(token, params)
+                status, data, err = search(token, params, url=next_url)
             report["requests"] += 1
             if status in (401, 403):
                 if env_token or args.fixture_dir:
@@ -233,7 +248,9 @@ def main():
             items = docket_items(data, since) if kind == "r" else opinion_items(data)
             if kind == "o":
                 items = [it for it in items if not it["date_filed"] or it["date_filed"] >= since]
-            report[bucket].append({"query": q, "count": data.get("count"), "items": items})
+            report[bucket].append({"query": q, "count": data.get("count"), "page2": bool(next_url), "items": items})
+            if kind == "r" and data.get("next"):
+                plan.append(("r", q, data["next"]))
 
     out_dir = os.path.join(ROOT, "data", "courts")
     os.makedirs(out_dir, exist_ok=True)

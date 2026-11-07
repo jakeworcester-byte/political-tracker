@@ -57,13 +57,12 @@
     "max_requests_per_run": 5,
     "min_seconds_between_requests": 13,
     "docket_queries": [
-      "election AND (ballot OR ballots OR recount OR certification OR canvass)",
-      "\"Department of Justice\" AND election AND ballots",
-      "\"Secretary of State\" AND election AND (ballots OR certification)"
+      "suitNature:\"Civil Rights: Voting\"",
+      "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\" OR \"election commission\")"
     ],
     "opinion_queries": [
-      "election AND (ballot OR ballots OR recount OR certification)",
-      "\"absentee ballots\" OR \"mail ballots\" OR \"provisional ballots\""
-    ]
+      "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\")"
+    ],
+    "skip_suit_natures": ["Patent", "Trademark"]
   }
 }
