@@ -131,7 +131,7 @@ python3 scripts/analyze.py || true
 python3 scripts/check_results.py --skip-2024 || true
 python3 scripts/results.py --edition am      # or --edition pm
 python3 scripts/scorecard.py
-python3 scripts/courts.py                  # about 1 minute; CourtListener dockets and opinions if $COURTLISTENER_TOKEN is set, otherwise a one-line skip; never exits non-zero
+python3 scripts/courts.py                  # about 1 minute; CourtListener dockets and opinions if an API key is configured (network secret or $COURTLISTENER_TOKEN), otherwise a one-line skip; never exits non-zero
 ```
 
 `results.py` reads the House and Senate results tables on Wikipedia (editors mark a race called when AP or the networks call it), compares them with the last snapshot to find new calls, uses the frozen pre-election ratings (the last run before Election Day) to separate competitive races from safe seats, searches Google News for every competitive uncalled race and for national leads (chamber calls, counting, recounts and certification, legal and federal action, exit polls), writes `docs/data/results.json` for the site's Results tab, and appends a "Results (post-election)" section to `data/bundle/<today>.md`. `scorecard.py` appends a "Scorecard" block. Skip `early_vote.py`; early voting is over.

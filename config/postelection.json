@@ -50,7 +50,7 @@
   },
   "polls_close_utc": "2026-11-03T23:00:00+00:00",
   "courtlistener": {
-    "_comment": "scripts/courts.py. Token comes from the environment variable named in token_env (set it in the routine's cloud environment). Free tier: 5/min, 50/hr, 125/day; each run uses at most max_requests_per_run.",
+    "_comment": "scripts/courts.py. Token comes from a network secret for www.courtlistener.com on the cloud environment (preferred) or the environment variable named in token_env. Free tier: 5/min, 50/hr, 125/day; each run uses at most max_requests_per_run.",
     "enabled": true,
     "token_env": "COURTLISTENER_TOKEN",
     "lookback_days": 3,

@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """Post-election: recent election-related court dockets and opinions from CourtListener.
 
-Runs after results.py. Reads the API token from the environment variable named in
-config/postelection.json -> courtlistener.token_env (default COURTLISTENER_TOKEN). With no token,
-it writes a one-line "not used" note into the digest and exits 0, so the run never fails on it.
+Runs after results.py. The token can come from either place:
+  * a network secret for www.courtlistener.com saved on the cloud environment (the session proxy adds
+    the Authorization header, so the script sends a placeholder that the proxy replaces), or
+  * the environment variable named in config/postelection.json -> courtlistener.token_env
+    (default COURTLISTENER_TOKEN).
+With neither, the first request comes back 401 and the script writes a one-line "not used" note into
+the digest and exits 0, so the run never fails on it.
 
 The free tier allows 5 requests a minute, 50 an hour and 125 a day. Each run makes at most
 `max_requests_per_run` search calls (default 5), spaced `min_seconds_between_requests` apart, so
@@ -116,7 +120,7 @@ def write_digest(run_date, report):
     L = [MARKER + "\n"]
     status = report["status"]
     if status == "no_token":
-        L.append(f"- Not used: no token in ${report['token_env']}. Legal developments come from the news leads only; "
+        L.append(f"- Not used: no API key (no network secret for www.courtlistener.com and no ${report['token_env']}). Legal developments come from the news leads only; "
                  "say 'CourtListener not used (no API token)' in the Coverage note.")
     elif status == "disabled":
         L.append("- Not used: disabled in config/postelection.json. Say 'CourtListener not used (disabled)' in the Coverage note.")
@@ -190,11 +194,11 @@ def main():
     report = {"date": run_date, "since": since, "token_env": token_env, "requests": 0,
               "status": "ok", "errors": [], "dockets": [], "opinions": []}
 
-    token = os.environ.get(token_env, "").strip()
+    env_token = os.environ.get(token_env, "").strip()
+    # No env var: send a placeholder; a network secret on the environment makes the proxy swap in the real key.
+    token = env_token or "proxy-injected-placeholder"
     if not CFG.get("enabled", True):
         report["status"] = "disabled"
-    elif not token and not args.fixture_dir:
-        report["status"] = "no_token"
     else:
         plan = [("r", q) for q in CFG.get("docket_queries", [])] + [("o", q) for q in CFG.get("opinion_queries", [])]
         counters = {"r": 0, "o": 0}
@@ -214,7 +218,10 @@ def main():
                 status, data, err = search(token, params)
             report["requests"] += 1
             if status in (401, 403):
-                report.update(status="auth_failed", http_status=status, error=err)
+                if env_token or args.fixture_dir:
+                    report.update(status="auth_failed", http_status=status, error=err)
+                else:
+                    report.update(status="no_token", http_status=status, error=err)
                 break
             if status == 429:
                 report["status"] = "rate_limited"
@@ -235,7 +242,7 @@ def main():
     write_digest(run_date, report)
 
     if report["status"] == "no_token":
-        print(f"courts: skipped, ${token_env} is not set")
+        print(f"courts: skipped, no API key (no network secret and ${token_env} is not set)")
     elif report["status"] == "disabled":
         print("courts: skipped, disabled in config")
     elif report["status"] == "auth_failed":

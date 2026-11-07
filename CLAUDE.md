@@ -18,7 +18,7 @@ scripts/publish.py      data/briefs/<date>[-pm].md -> docs/data/latest.json brie
 scripts/results.py      post-election: Wikipedia results tables + news leads -> docs/data/results.json, data/results/, digest section
 scripts/check_results.py post-election: parser health check (2024 regression + live 2026 pages)
 scripts/scorecard.py    post-election: how forecasters, polls, markets did -> docs/data/scorecard.json + digest block
-scripts/courts.py       post-election: CourtListener election dockets + opinions -> data/courts/<date>.json + digest section (needs $COURTLISTENER_TOKEN; skips cleanly without it)
+scripts/courts.py       post-election: CourtListener election dockets + opinions -> data/courts/<date>.json + digest section (API key from a network secret for www.courtlistener.com or $COURTLISTENER_TOKEN; skips cleanly without it)
 config/postelection.json post-election switch date, evening-edition window, results sources, news queries
 data/raw/<date>/        raw pulls, kept for diagnosis
 data/bundle/<date>.md   the digest Claude reads before writing the brief (movers, tracked races, signals by lean)
