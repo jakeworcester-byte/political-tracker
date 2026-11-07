@@ -1,6 +1,6 @@
 # Routine prompt: Midterm Tracker morning run
 
-This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-11-01a (post-election mode from 2026-11-04 with an evening edition through 2026-11-06; see the last section).
+This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-11-07a (post-election mode from 2026-11-04 with an evening edition through 2026-11-06; see the last section).
 
 ## How the routines are wired
 
@@ -131,6 +131,7 @@ python3 scripts/analyze.py || true
 python3 scripts/check_results.py --skip-2024 || true
 python3 scripts/results.py --edition am      # or --edition pm
 python3 scripts/scorecard.py
+python3 scripts/courts.py                  # about 1 minute; CourtListener dockets and opinions if $COURTLISTENER_TOKEN is set, otherwise a one-line skip; never exits non-zero
 ```
 
 `results.py` reads the House and Senate results tables on Wikipedia (editors mark a race called when AP or the networks call it), compares them with the last snapshot to find new calls, uses the frozen pre-election ratings (the last run before Election Day) to separate competitive races from safe seats, searches Google News for every competitive uncalled race and for national leads (chamber calls, counting, recounts and certification, legal and federal action, exit polls), writes `docs/data/results.json` for the site's Results tab, and appends a "Results (post-election)" section to `data/bundle/<today>.md`. `scorecard.py` appends a "Scorecard" block. Skip `early_vote.py`; early voting is over.
@@ -145,7 +146,8 @@ If `check_results.py` prints NEEDS ATTENTION (rows missing, a table not recogniz
 - **Uncalled.** For each race in "Competitive races not yet called", take the count from the table line and, where a lead gives a fresher count or share counted, use that with its source and time. Do not research every race individually; prioritize Senate races, races tagged close or counting, and races with leads.
 - **Recounts, certification, legal and federal action.** Open the relevant national leads. Prefer the state election office, the court, or a major outlet. A partisan or advocacy tracker can point you to a case, but cite the court record or a news report.
 - **Exit polls (am edition).** Use AP VoteCast or network exit polls from the leads, labeled as surveys. Also read the voter-file analysts' latest posts (Ralston's Nevada Independent blog and Ralston Reports; Bitzer's Center for NC Politics) and the digest's "Who voted" leads, and report who turned out compared with 2022 (new voters, 2022 non-voters, age, unaffiliated voters), attributed by name.
-- Never get around a bot check or paywall. CourtListener needs an account key we do not have; do not try it.
+- **Court records.** Read the digest's "Court dockets (CourtListener)" section. For a docket or opinion that bears on counting, certification, or a race in the update, open its CourtListener link and cite it in Legal and federal action next to the news report, describing the filing or order neutrally. Do not call the CourtListener API yourself beyond what `courts.py` did (the free tier is 125 requests a day), and never pay for or fetch PACER documents. If the section says the token is missing or refused, say so in the Coverage note.
+- Never get around a bot check or paywall.
 
 ### P3. Write the update
 

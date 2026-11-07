@@ -701,7 +701,7 @@ def write_digest(run_date, edition, s, news):
         L.append(f"- PROBLEM: {p}")
     if not s["problems"]:
         L.append("- No problems.")
-    L.append("- Court dockets are not pulled directly (CourtListener's API needs an account key). Legal developments come from the news leads; say so if a court record matters.")
+    L.append("- Court dockets come from scripts/courts.py (CourtListener), which appends its own section after this one; legal developments otherwise come from the news leads.")
     open(path, "w", encoding="utf-8").write(existing + "\n".join(L) + "\n")
 
 
