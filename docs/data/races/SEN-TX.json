@@ -371,23 +371,7 @@
  },
  "raw_poll_count": 37,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "SEN-TX",
-   "races": [
-    "SEN-TX",
-    "HOU-TX-35"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "After cycles of overestimating their chances of victory, Texas Democrats completed a total conquest of every statewide seat and control of the statehouse",
-   "url": "https://www.wsj.com/politics/elections/whats-next-for-texas-after-the-democratic-sweep-d726202b?mod=rss_socialpoliticsfeed",
-   "summary": "James Talarico and Texas Democrats won every statewide office and will wield immense power.",
-   "relevant": true
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-TX",
  "history": [
   {
@@ -527,6 +511,11 @@
   },
   {
    "date": "2026-11-07",
+   "c": 0,
+   "p": -2.9
+  },
+  {
+   "date": "2026-11-08",
    "c": 0,
    "p": -2.9
   }

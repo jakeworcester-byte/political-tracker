@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-07",
- "results_snapshot": "2026-11-07-am.json",
+ "run_date": "2026-11-08",
+ "results_snapshot": "2026-11-08-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "preliminary",
  "competitive_called_pct": 88.9,
@@ -262,7 +262,20 @@
   "R": 1,
   "Other": 0
  },
- "polls": null,
+ "polls": {
+  "races": 1,
+  "mean_abs_error": 4.9,
+  "mean_signed_error": -4.9,
+  "biggest_misses": [
+   {
+    "key": "HOU-KY-06",
+    "race": "KY-06",
+    "poll_avg": -4.5,
+    "actual": -9.4,
+    "error": -4.9
+   }
+  ]
+ },
  "markets": {
   "house": {
    "final_price_D": 94.5,
