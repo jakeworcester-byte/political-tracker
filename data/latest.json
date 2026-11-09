@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-08T11:10:52.130271+00:00",
- "run_date": "2026-11-08",
+ "generated_at": "2026-11-09T11:15:31.604133+00:00",
+ "run_date": "2026-11-09",
  "site_title": "Jake's Political Tracker",
  "disclaimer": "Not a forecast. A daily synthesis of what credible forecasters, public polls, prediction markets, and reporting say about the 2026 midterms, with movement over time.",
  "sources": {
@@ -29,7 +29,7 @@
    "cook": "2026-11-02",
    "ddhq": "2026-11-03",
    "econ": "2026-11-03",
-   "fpo": "2026-11-02",
+   "fpo": "2026-11-03",
    "fox": "2026-11-01",
    "ie": "2026-10-29",
    "nbc": "2026-11-03",
@@ -104,7 +104,7 @@
    ],
    "source": "aggregates",
    "latest_poll_date": "2026-11-02",
-   "days_since_latest_poll": 6,
+   "days_since_latest_poll": 7,
    "polls_stale": false,
    "aggregates": [
     {
@@ -311,7 +311,26 @@
   },
   "house_seats": 435
  },
- "movers": [],
+ "movers": [
+  {
+   "type": "rating change",
+   "race": "SEN-NH",
+   "name": "New Hampshire Senate",
+   "text": "FiftyPlusOne: Solid D -> Likely D (as of 2026-11-03)",
+   "delta": 1,
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+   "source": "FiftyPlusOne"
+  },
+  {
+   "type": "rating change",
+   "race": "SEN-NC",
+   "name": "North Carolina Senate",
+   "text": "FiftyPlusOne: Likely D -> Solid D (as of 2026-11-03)",
+   "delta": -1,
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+   "source": "FiftyPlusOne"
+  }
+ ],
  "races": [
   {
    "key": "SEN-AL",
@@ -352,7 +371,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -404,7 +423,7 @@
     "R": []
    },
    "flip_votes": 0,
-   "raw_poll_count": 5,
+   "raw_poll_count": 4,
    "poll": null,
    "signal_count": 0
   },
@@ -447,7 +466,7 @@
     "fpo": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -532,7 +551,7 @@
      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ak-poll-toplines.html"
     }
    },
-   "signal_count": 6
+   "signal_count": 3
   },
   {
    "key": "SEN-AR",
@@ -573,7 +592,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -705,7 +724,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -833,7 +852,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -928,7 +947,7 @@
     "fpo": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1060,7 +1079,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1186,7 +1205,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1316,7 +1335,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1411,7 +1430,7 @@
     "fpo": {
      "rating": "Tossup",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1496,7 +1515,7 @@
      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ia-poll-toplines.html"
     }
    },
-   "signal_count": 7
+   "signal_count": 2
   },
   {
    "key": "SEN-KS",
@@ -1537,7 +1556,7 @@
     "fpo": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1626,7 +1645,7 @@
      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-ks-poll-toplines.html"
     }
    },
-   "signal_count": 5
+   "signal_count": 6
   },
   {
    "key": "SEN-KY",
@@ -1667,7 +1686,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1762,7 +1781,7 @@
     "fpo": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1857,7 +1876,7 @@
     "fpo": {
      "rating": "Likely D",
      "flip": true,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -1903,7 +1922,7 @@
      "name": "Split Ticket"
     }
    },
-   "trend": "Stable",
+   "trend": "Toward D",
    "candidates": {
     "D": [
      "Troy Jackson"
@@ -1942,7 +1961,7 @@
      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-me-poll-toplines.html"
     }
    },
-   "signal_count": 1
+   "signal_count": 2
   },
   {
    "key": "SEN-MA",
@@ -1983,7 +2002,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -2082,7 +2101,7 @@
     "fpo": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -2167,7 +2186,7 @@
      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-mi-poll-toplines.html"
     }
    },
-   "signal_count": 5
+   "signal_count": 3
   },
   {
    "key": "SEN-MN",
@@ -2208,7 +2227,7 @@
     "fpo": {
      "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -2254,7 +2273,7 @@
      "name": "Split Ticket"
     }
    },
-   "trend": "Toward R",
+   "trend": "Stable",
    "candidates": {
     "D": [
      "Peggy Flanagan"
@@ -2293,7 +2312,7 @@
      "url": "https://pollstergraph.com/poll/exclusive-atlas-us-mn-20261101-senate"
     }
    },
-   "signal_count": 5
+   "signal_count": 0
   },
   {
    "key": "SEN-MS",
@@ -2334,7 +2353,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -2460,7 +2479,7 @@
     "fpo": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -2555,7 +2574,7 @@
     "fpo": {
      "rating": "Likely R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -2650,7 +2669,7 @@
      "url": "https://netchoice.org/netchoice-echelon-insights-poll-voters-rank-ai-regulation-far-behind-cost-of-living-want-one-national-ai-standard/"
     }
    },
-   "signal_count": 7
+   "signal_count": 5
   },
   {
    "key": "SEN-NH",
@@ -2689,9 +2708,9 @@
      "name": "The Economist"
     },
     "fpo": {
-     "rating": "Solid D",
+     "rating": "Likely D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -2737,7 +2756,7 @@
      "name": "Split Ticket"
     }
    },
-   "trend": "Toward R",
+   "trend": "Stable",
    "candidates": {
     "D": [
      "Chris Pappas"
@@ -2781,7 +2800,7 @@
      "url": "https://scholars.unh.edu/survey_center_polls/1011/"
     }
    },
-   "signal_count": 4
+   "signal_count": 1
   },
   {
    "key": "SEN-NJ",
@@ -2822,7 +2841,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -2917,7 +2936,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3043,9 +3062,9 @@
      "name": "The Economist"
     },
     "fpo": {
-     "rating": "Likely D",
+     "rating": "Solid D",
      "flip": true,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3097,7 +3116,7 @@
     "R": []
    },
    "flip_votes": 11,
-   "raw_poll_count": 25,
+   "raw_poll_count": 24,
    "poll": null,
    "signal_count": 0
   },
@@ -3140,7 +3159,7 @@
     "fpo": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3225,7 +3244,7 @@
      "url": "https://www.nytimes.com/interactive/2026/11/01/polls/times-siena-oh-poll-toplines.html"
     }
    },
-   "signal_count": 6
+   "signal_count": 5
   },
   {
    "key": "SEN-OK",
@@ -3266,7 +3285,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3361,7 +3380,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3456,7 +3475,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3502,7 +3521,7 @@
      "name": "Split Ticket"
     }
    },
-   "trend": "Toward D",
+   "trend": "Stable",
    "candidates": {
     "D": [
      "Jack Reed"
@@ -3586,7 +3605,7 @@
     "fpo": {
      "rating": "Lean R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3671,7 +3690,7 @@
      "url": "https://www.fitsnews.com/wp-content/uploads/securepdfs/2026/11/Resonance-final-SC-Poll-Memo-11-02-2026.pdf"
     }
    },
-   "signal_count": 6
+   "signal_count": 3
   },
   {
    "key": "SEN-SD",
@@ -3712,7 +3731,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3840,7 +3859,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -3968,7 +3987,7 @@
     "fpo": {
      "rating": "Lean D",
      "flip": true,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -4094,7 +4113,7 @@
     "fpo": {
      "rating": "Solid D",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -4189,7 +4208,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -4284,7 +4303,7 @@
     "fpo": {
      "rating": "Solid R",
      "flip": false,
-     "as_of": "2026-11-02",
+     "as_of": "2026-11-03",
      "name": "FiftyPlusOne"
     },
     "fox": {
@@ -4458,7 +4477,7 @@
      "url": "https://1819news.com/news/item/al-2-poll-marques-48-figures-46"
     }
    },
-   "signal_count": 7
+   "signal_count": 3
   },
   {
    "key": "HOU-AK-AL",
@@ -4551,7 +4570,7 @@
    "flip_votes": 0,
    "raw_poll_count": 9,
    "poll": null,
-   "signal_count": 2
+   "signal_count": 0
   },
   {
    "key": "HOU-AZ-01",
@@ -4671,7 +4690,7 @@
      "url": "https://keatingresearch.com/polls/az-01-october-2026/"
     }
    },
-   "signal_count": 6
+   "signal_count": 7
   },
   {
    "key": "HOU-AZ-02",
@@ -4793,7 +4812,7 @@
      "url": "https://pollvault.substack.com/p/levee-math"
     }
    },
-   "signal_count": 5
+   "signal_count": 3
   },
   {
    "key": "HOU-AZ-05",
@@ -6024,7 +6043,7 @@
      "url": "https://www.cpr.org/2026/10/23/could-democrats-make-gains-3rd-congressional-district/"
     }
    },
-   "signal_count": 6
+   "signal_count": 7
   },
   {
    "key": "HOU-CO-04",
@@ -6150,7 +6169,7 @@
      "url": "https://www.the-downballot.com/p/morning-digest-why-democrats-think-561"
     }
    },
-   "signal_count": 5
+   "signal_count": 3
   },
   {
    "key": "HOU-CO-05",
@@ -6239,7 +6258,7 @@
    "flip_votes": 1,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 2
   },
   {
    "key": "HOU-CO-08",
@@ -6328,7 +6347,7 @@
    "flip_votes": 10,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 6
+   "signal_count": 0
   },
   {
    "key": "HOU-FL-02",
@@ -6773,7 +6792,7 @@
    "flip_votes": 0,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 3
+   "signal_count": 2
   },
   {
    "key": "HOU-FL-08",
@@ -6951,7 +6970,7 @@
    "flip_votes": 6,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 2
   },
   {
    "key": "HOU-FL-11",
@@ -7251,7 +7270,7 @@
      "url": "https://x.com/cjwarnke/status/2112877284684341727"
     }
    },
-   "signal_count": 8
+   "signal_count": 6
   },
   {
    "key": "HOU-FL-14",
@@ -7373,7 +7392,7 @@
      "url": "https://pollvault.substack.com/p/levee-math"
     }
    },
-   "signal_count": 7
+   "signal_count": 0
   },
   {
    "key": "HOU-FL-15",
@@ -7907,7 +7926,7 @@
    "flip_votes": 0,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 2
   },
   {
    "key": "HOU-FL-25",
@@ -8029,7 +8048,7 @@
      "url": "https://floridapolitics.com/archives/826445-democrats-answer-gop-internal-with-a-poll-showing-jared-moskowitz-up-47-to-42-in-cd-25/"
     }
    },
-   "signal_count": 7
+   "signal_count": 0
   },
   {
    "key": "HOU-FL-26",
@@ -8931,7 +8950,7 @@
      "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat"
     }
    },
-   "signal_count": 8
+   "signal_count": 1
   },
   {
    "key": "HOU-IA-02",
@@ -9053,7 +9072,7 @@
      "url": "https://pollvault.substack.com/p/levee-math"
     }
    },
-   "signal_count": 6
+   "signal_count": 2
   },
   {
    "key": "HOU-IA-03",
@@ -9142,7 +9161,7 @@
    "flip_votes": 10,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 7
+   "signal_count": 2
   },
   {
    "key": "HOU-KS-02",
@@ -9353,7 +9372,7 @@
      "url": "https://x.com/cjwarnke/status/2112877284684341727"
     }
    },
-   "signal_count": 6
+   "signal_count": 0
   },
   {
    "key": "HOU-ME-02",
@@ -9442,7 +9461,7 @@
    "flip_votes": 4,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 2
+   "signal_count": 0
   },
   {
    "key": "HOU-MD-01",
@@ -9798,7 +9817,7 @@
    "flip_votes": 4,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 3
+   "signal_count": 5
   },
   {
    "key": "HOU-MI-07",
@@ -10131,7 +10150,7 @@
      "url": "https://hub.nationaljournal.com/welcome-to-the-trump-midterms"
     }
    },
-   "signal_count": 6
+   "signal_count": 7
   },
   {
    "key": "HOU-MN-01",
@@ -10253,7 +10272,7 @@
      "url": "https://x.com/cjwarnke/status/2112877284684341727"
     }
    },
-   "signal_count": 4
+   "signal_count": 5
   },
   {
    "key": "HOU-MN-02",
@@ -10553,7 +10572,7 @@
      "url": "https://x.com/MarkMaxwellTV/status/2112721483617464784"
     }
    },
-   "signal_count": 7
+   "signal_count": 3
   },
   {
    "key": "HOU-MT-01",
@@ -11066,7 +11085,7 @@
    "flip_votes": 0,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 3
   },
   {
    "key": "HOU-NV-03",
@@ -11414,7 +11433,7 @@
      "name": "RealClearPolling"
     }
    },
-   "trend": "Toward R",
+   "trend": "Stable",
    "candidates": {
     "D": [
      "Maggie Goodlander"
@@ -12357,7 +12376,7 @@
      "url": "https://emersoncollegepolling.com/ny-17-2026-poll/"
     }
    },
-   "signal_count": 6
+   "signal_count": 7
   },
   {
    "key": "HOU-NY-19",
@@ -12744,7 +12763,7 @@
      "url": "https://x.com/Shaftan/status/2107772933322277266"
     }
    },
-   "signal_count": 2
+   "signal_count": 3
   },
   {
    "key": "HOU-NC-03",
@@ -13489,7 +13508,7 @@
    "flip_votes": 9,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 3
+   "signal_count": 0
   },
   {
    "key": "HOU-NC-13",
@@ -13910,7 +13929,7 @@
      "url": "https://www.axios.com/2026/08/11/max-miller-ohio-brian-poindexter-democrats-2026"
     }
    },
-   "signal_count": 7
+   "signal_count": 1
   },
   {
    "key": "HOU-OH-08",
@@ -14119,7 +14138,7 @@
      "url": "https://dccc.org/dccc-polling-memo-oh-09-is-a-dead-heat/"
     }
    },
-   "signal_count": 6
+   "signal_count": 0
   },
   {
    "key": "HOU-OH-10",
@@ -14243,7 +14262,7 @@
      "url": "https://dccc.org/dccc-polling-memo-knickerbocker-leads-turner-by-3-in-oh-10/"
     }
    },
-   "signal_count": 6
+   "signal_count": 5
   },
   {
    "key": "HOU-OH-13",
@@ -14454,7 +14473,7 @@
      "url": "https://x.com/cjwarnke/status/2112877284684341727"
     }
    },
-   "signal_count": 0
+   "signal_count": 1
   },
   {
    "key": "HOU-OK-01",
@@ -14874,7 +14893,7 @@
      "url": "https://www.muhlenberg.edu/muhlenberg-now/pa-7th-congressional-survey-october-2026/"
     }
    },
-   "signal_count": 5
+   "signal_count": 1
   },
   {
    "key": "HOU-PA-08",
@@ -14996,7 +15015,7 @@
      "url": "https://pollvault.substack.com/p/levee-math"
     }
    },
-   "signal_count": 4
+   "signal_count": 0
   },
   {
    "key": "HOU-PA-10",
@@ -15085,7 +15104,7 @@
    "flip_votes": 9,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 3
+   "signal_count": 2
   },
   {
    "key": "HOU-PA-11",
@@ -16366,7 +16385,7 @@
      "url": "https://www.expressnews.com/politics/article/bobby-pulido-monica-de-la-cruz-poll-donald-trump-22483930.php"
     }
    },
-   "signal_count": 7
+   "signal_count": 4
   },
   {
    "key": "HOU-TX-17",
@@ -16722,7 +16741,7 @@
    "flip_votes": 0,
    "raw_poll_count": 1,
    "poll": null,
-   "signal_count": 4
+   "signal_count": 1
   },
   {
    "key": "HOU-TX-24",
@@ -17326,7 +17345,7 @@
      "url": "https://www.washingtonpost.com/politics/2026/10/23/two-texas-districts-gop-had-counted-now-feature-tight-house-races/"
     }
    },
-   "signal_count": 4
+   "signal_count": 1
   },
   {
    "key": "HOU-TX-35",
@@ -17415,7 +17434,7 @@
    "flip_votes": 1,
    "raw_poll_count": 3,
    "poll": null,
-   "signal_count": 5
+   "signal_count": 0
   },
   {
    "key": "HOU-TX-38",
@@ -17626,7 +17645,7 @@
      "url": "https://x.com/cjwarnke/status/2113633843999605102"
     }
    },
-   "signal_count": 5
+   "signal_count": 3
   },
   {
    "key": "HOU-VA-02",
@@ -17748,7 +17767,7 @@
      "url": "https://www.politico.com/f/?id=0000019f-918b-d49c-ad9f-9fbb88d00000"
     }
    },
-   "signal_count": 5
+   "signal_count": 1
   },
   {
    "key": "HOU-VA-05",
@@ -17868,7 +17887,7 @@
      "url": "https://www.washingtonpost.com/politics/2026/10/01/shannon-taylor-has-edge-over-rob-wittman-virginia-house-district-post-poll-finds/"
     }
    },
-   "signal_count": 5
+   "signal_count": 4
   },
   {
    "key": "HOU-VA-07",
@@ -18079,7 +18098,7 @@
      "url": "https://www.nwprogressive.org/weblog/2026/10/theyre-tied-again-in-wa-03-npis-autumn-civic-heartbeat-polling-finds-marie-gluesenkamp-perez-at-45-john-braun-at-44.html"
     }
    },
-   "signal_count": 5
+   "signal_count": 3
   },
   {
    "key": "HOU-WA-04",
@@ -18380,7 +18399,7 @@
      "url": "https://bsky.app/profile/the-downballot.com/post/3mwyouhbwg22k"
     }
    },
-   "signal_count": 7
+   "signal_count": 1
   },
   {
    "key": "HOU-WI-03",
@@ -18469,7 +18488,7 @@
    "flip_votes": 9,
    "raw_poll_count": 0,
    "poll": null,
-   "signal_count": 5
+   "signal_count": 2
   },
   {
    "key": "HOU-WI-06",
@@ -18830,6 +18849,315 @@
  ],
  "national_signals": [
   {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Progressives Launch ‘Ready for AOC’ Ahead of 2028 Presidential Election",
+   "url": "https://www.nytimes.com/2026/11/09/us/politics/alexandria-ocasio-cortez-aoc-2028-president-group.html",
+   "summary": "A new political organization aims to encourage Representative Alexandria Ocasio-Cortez to run for president, and to demonstrate that a formidable organizing apparatus is awaiting her.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Congress Returns to a Reordered Washington With a Hazy Agenda",
+   "url": "https://www.nytimes.com/2026/11/09/us/politics/congress-republicans-agenda-lame-duck-session.html",
+   "summary": "An impeachment vote on the defense secretary, a spending deal and several major bills are in play in a post-election session that will be shaped by last week’s electoral earthquake.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "What Democrats Plan to Investigate After Election Victory",
+   "url": "https://www.nytimes.com/video/us/politics/100000011266496/democrats-plan-corruption-investigations-after-election-victory.html",
+   "summary": "Following their midterm victories, Democrats are preparing to open wide-ranging investigations into President Trump, his family and his administration. Michael Gold, a Times congressional reporter, identifies the Democrats’ biggest targets.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Bipartisan Support for Israel Erodes as Both Sides Push for New Limits",
+   "url": "https://www.nytimes.com/2026/11/09/us/politics/us-israel-midterm-elections.html",
+   "summary": "Vice President JD Vance is among Republicans calling for change. Many Democratic lawmakers have been driving a campaign to restrict military aid to Israel.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Will Congress Finally Rein in the Presidency?",
+   "url": "https://www.nytimes.com/2026/11/09/magazine/congress-trump-oversight-investigations-presidency.html",
+   "summary": "History tells us that constitutional oversight can be a powerful tool — if wielded correctly.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Trump Says Immigration Crackdown May Have ‘Hurt’ Republicans in Midterms",
+   "url": "https://www.nytimes.com/2026/11/08/us/politics/trump-immigration-crackdown-republicans-midterms.html",
+   "summary": "The president was asked in a “60 Minutes” interview that aired on Sunday whether his deportation policies went too far. “I think it might be too tough,” he said.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Trump Was ‘Only Kidding’ in Asking Dana White to Be His Press Secretary",
+   "url": "https://www.nytimes.com/2026/11/08/us/politics/trump-joke-dana-white-press-secretary.html",
+   "summary": "The president said on Sunday that the U.F.C. chief executive “loves the idea” of being the White House spokesman but that his public offer of the job was “just a little fun.”",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Voters fed up with high prices gave Democrats a landslide election victory. The big question for party winners: Can Democrats alone fix what’s broken?",
+   "url": "https://www.wsj.com/politics/elections/democrats-election-inflation-tariffs-economy-1379bdb3?mod=rss_socialpoliticsfeed",
+   "summary": "A landslide win driven by economic frustration runs headlong into the challenge of making American life more affordable.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "President Trump said Sunday that he was joking about Ultimate Fighting Championship Chief Executive Dana White becoming his next White House press secretary",
+   "url": "https://www.wsj.com/politics/policy/trump-says-he-was-kidding-about-hiring-dana-white-as-press-secretary-430928e5?mod=rss_socialpoliticsfeed",
+   "summary": "Trump walks back his online post a day earlier saying he’d offered the UFC mogul a job as White House press secretary.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Two former senior Trump advisers have been sending threatening text exchanges and trading barbs online, laying bare the rocky road ahead for the GOP after the midterms",
+   "url": "https://www.wsj.com/politics/policy/former-trump-aides-feud-online-trade-legal-threats-in-bitter-election-fallout-7ba83699?mod=rss_socialpoliticsfeed",
+   "summary": "Two former senior Trump advisers have been sending threatening text exchanges and trading barbs online.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Democrats won big. Can they lower your grocery bill?",
+   "url": "https://www.npr.org/2026/11/09/nx-s1-6030830/democrats-grocery-bill-affordability",
+   "summary": "Affordability concerns were top of mind for voters heading into the midterms, as tariffs and the war in Iran drove up prices, including food costs. Now, Americans are expecting relief from Washington.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Congress is coming back to Washington. Here's what to expect",
+   "url": "https://www.npr.org/2026/11/09/nx-s1-6030633/congress-is-coming-back-to-washington-heres-what-to-expect",
+   "summary": "Lawmakers are coming back to Washington this week after the midterm elections. Republicans plan to finish work on several outstanding issues before Democrats take control of Congress in January.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Midterm results could complicate JD Vance's political future",
+   "url": "https://www.npr.org/2026/11/09/nx-s1-6030858/midterm-results-could-complicate-jd-vances-political-future",
+   "summary": "Vice President JD Vance is looking to recast his political fortune after serving as the Trump administration's No. 2 while his party suffered a historic wipeout.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Democratic Sen. Chris Coons on his party's post-midterm priorities",
+   "url": "https://www.npr.org/2026/11/09/nx-s1-6032682/democratic-sen-chris-coons-on-his-partys-post-midterm-priorities",
+   "summary": "NPR's Leila Fadel speaks to Democratic Sen. Chris Coons of Delaware about Democrats' congressional priorities after the midterms.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Nevada Independent",
+   "lean": "center",
+   "title": "Inside the blue tsunami that led to Nevada Democrats' best election ever",
+   "url": "https://thenevadaindependent.com/article/inside-the-blue-tsunami-that-led-to-nevada-democrats-best-election-ever/",
+   "summary": "Frustration over Trump and the economy dampened Republican enthusiasm and spurred young and Latino voters to swing left.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "The Nevada Independent",
+   "lean": "center",
+   "title": "Voters passed a question to charge EV drivers in Washoe County a fee. What happens next?",
+   "url": "https://thenevadaindependent.com/article/voters-passed-a-question-to-charge-ev-drivers-in-washoe-county-a-fee-what-happens-next/",
+   "summary": "Support for an advisory question on Washoe County ballots asking if electric and hybrid vehicle drivers should pay an annual fee to help fund road repairs will allow the Washoe County Regional Transportation Commission to pursue legislation that could add fees during the 2027 legislative session.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "Ralston Reports (Jon Ralston)",
+   "lean": "center",
+   "title": "The Weekly Report, 11/8/26",
+   "url": "https://jonralston.substack.com/p/the-weekly-report-11826",
+   "summary": "The insiders provided election post-mortems",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Daily (NYT)",
+   "lean": "center-left",
+   "title": "After a Crushing Defeat, Trump Doubles Down",
+   "url": "https://www.nytimes.com/the-daily",
+   "summary": "After a stinging rebuke last week at the polls, President Trump announced that he would elevate Stephen Miller — a driving force behind some of the most polarizing policies of Mr. Trump’s second term — to chief of staff. Maggie Haberman and Jonathan Swan, White House reporters for The New York Times",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Remnant (The Dispatch)",
+   "lean": "center-right",
+   "title": "How to Teach the Kids Division of Labor | Interview: Jeanna Smialek",
+   "url": "",
+   "summary": "With Jonah Goldberg sleeping off his election-night hangover, Dispatch in-house grumbler Kevin Williamson takes the helm for today’s conversation with author Jeanna Smialek. The pair discuss Jeanna’s new book about the novelist and cover economist Maria Edgeworth, digging into political economy, Ada",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "podcast",
+   "source": "The Megyn Kelly Show",
+   "lean": "right",
+   "title": "Calley Means Unloads on Trumpworld, Schumer Faces Revolt, Pilot's Father Speaks Out: AM Update 11/9",
+   "url": "https://www.siriusxm.com",
+   "summary": "Former MAHA adviser Calley Means goes public over the ways he says some of President Trump's closest advisers are undermining the president's health agenda to protect corporate interests and political donors. Democrats prepare sweeping investigations into the Trump administration as they prepare to ",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-09",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Midterm Elections 2026: Congress Polls, Charts and More",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qM2xEd3lHR1dpU2xwT1JLcDEyUXlVS0xaeGptQzlscXNJSHc1VVVXQnZpY2FfN0NYdlFLMGZfWW9SSDFLT3NQVEF5cDlKZUlaVGNmZW5VUlR6LXI1MGtGeHJZWU1icGs?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Jeffries Backs Impeaching Hegseth as Democrats Push for Accountability",
+   "url": "https://www.nytimes.com/2026/11/08/us/politics/pete-hegseth-impeachment-hakeem-jeffries.html",
+   "summary": "Democrats have begun laying the groundwork for an aggressive oversight agenda aimed at the Trump administration. But a political reckoning could come before the new Congress begins.",
+   "relevant": true
+  },
+  {
    "date": "2026-11-08",
    "race": "National",
    "races": [
@@ -18839,7 +19167,7 @@
    "source": "New York Times Politics",
    "lean": "center-left",
    "title": "For Trump and America, a Clear Election Verdict but a Murky Future",
-   "url": "https://www.nytimes.com/2026/11/08/us/politics/for-trump-and-america-a-clear-election-verdict-leaves-a-murky-future.html",
+   "url": "https://www.nytimes.com/2026/11/08/us/politics/trump-midterm-election-america-future.html",
    "summary": "As Americans absorb a stunning new political reality, they face a gap between the time they effectively decided to be done with the president and the time he is actually done.",
    "relevant": true
   },
@@ -18908,9 +19236,51 @@
    "type": "reporting",
    "source": "Wall Street Journal Politics",
    "lean": "center-right",
-   "title": "As the presumptive House speaker, Hakeem Jeffries will have to bridge sharp disagreements among Democrats.",
-   "url": "https://www.wsj.com/politics/hakeem-jeffries-divided-democrats-house-af07839e?mod=rss_socialpoliticsfeed",
-   "summary": "The presumptive House speaker will have to bridge sharp disagreements to deliver on an agenda of affordability, ending the Iran war and curbing Trump’s final years in the White House.",
+   "title": "What’s on tap as Congress returns to Washington? Defense Secretary Pete Hegseth’s fate, judicial confirmations, military spending and leadership elections.",
+   "url": "https://www.wsj.com/politics/policy/defeated-gop-led-congress-returns-with-55-days-and-a-long-wish-list-a93e98e7?mod=rss_socialpoliticsfeed",
+   "summary": "On tap in the lame-duck session: government funding, attempts at bipartisan deals, judicial confirmations and leadership elections.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "Justice Department lawyer Stanley Woodward, a former Democrat, is often in the middle of controversies—including battles over the Alaska election and President Trump’s golf-course makeover",
+   "url": "https://www.wsj.com/us-news/law/how-a-former-democrat-became-trumps-bulldog-at-the-justice-department-75bd2f37?mod=rss_socialpoliticsfeed",
+   "summary": "Stanley Woodward is at the center of controversies including battles over the Alaska election and President Trump’s golf-course makeover.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "UFC CEO Dana White said plans to meet with President Trump on Monday to discuss the president’s offer to become the next White House press secretary",
+   "url": "https://www.wsj.com/politics/policy/ufc-chief-dana-white-to-meet-with-trump-to-discuss-press-secretary-job-af0cb2e4?mod=rss_socialpoliticsfeed",
+   "summary": "The president says he has offered the position to White, who noted “I’ve got a lot of jobs already.”",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "title": "James Talarico wasn’t the only Democratic candidate to campaign around Christian faith in the midterm elections",
+   "url": "https://www.wsj.com/politics/elections/after-decades-of-a-religious-right-democrats-find-a-religious-left-30ea7168?mod=rss_socialpoliticsfeed",
+   "summary": "The party made inroads with Protestant and Catholic voters. Keeping them will be the next challenge.",
    "relevant": true
   },
   {
@@ -18948,39 +19318,95 @@
     "National"
    ],
    "type": "reporting",
-   "source": "Wall Street Journal Politics",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Trump staffing changes post-midterms signal he's battle ready",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6034003/trump-staffing-changes-post-midterms-signal-hes-battle-ready",
+   "summary": "President Trump is making changes to his inner circle that signal how he may approach divided government.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "How will Democrats approach foreign policy after their midterm win?",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6030982/how-will-democrats-approach-foreign-policy-after-their-midterm-win",
+   "summary": "NPR's Rob Schmitz speaks with Thomas Wright, senior fellow at the Brookings Institution, about his piece in Foreign Affairs titled The Fight for the Future of Democratic Foreign Policy.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+   "summary": "Prime Minister Christopher Luxon, who will lead a caretaker government while negotiations take place, said: \"I think everyone's over politics so let's all have a bit of a break for the next three weeks\".",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "NPR's Moscow and Beijing correspondents discuss the reaction to U.S. elections abroad",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6030815/nprs-moscow-and-beijing-correspondents-discuss-the-reaction-to-u-s-elections-abroad",
+   "summary": "The results of the U.S. midterms were closely followed overseas. NPR correspondents in Moscow and Beijing discuss how the elections are seen in the countries they cover.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "reporting",
+   "source": "NPR Politics",
+   "lean": "center-left",
+   "title": "Republican consultant discusses what went wrong and what's next for the GOP",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6033375/republican-consultant-discusses-what-went-wrong-and-whats-next-for-the-gop",
+   "summary": "NPR's Ayesha Rascoe speaks to Hogan Gidley, a Republican consultant and former White House Deputy Press Secretary during the first Trump administration, about the GOP's post-midterm strategy.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "National Review",
+   "lean": "right",
+   "title": "Newsrooms Made a Dumb Bet on Gambling Partnerships",
+   "url": "https://www.nationalreview.com/2026/11/newsrooms-made-a-dumb-bet-on-gambling-partnerships/",
+   "summary": "There is nothing these markets can tell us that the polls did not already say.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-08",
+   "race": "National",
+   "races": [
+    "National"
+   ],
+   "type": "punditry",
+   "source": "The Dispatch",
    "lean": "center-right",
-   "title": "UFC CEO Dana White said plans to meet with President Trump on Monday to discuss the president’s offer to become the next White House press secretary",
-   "url": "https://www.wsj.com/politics/policy/ufc-chief-dana-white-to-meet-with-trump-to-discuss-press-secretary-job-af0cb2e4?mod=rss_socialpoliticsfeed",
-   "summary": "The president says he has offered the position to White, who noted “I’ve got a lot of jobs already.”",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-08",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "How Gen Z voters helped fuel a blue wave for Democrats",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-6032829/gen-z-voters-midterm-elections",
-   "summary": "Republicans made gains with young voters in 2024, but in this year's midterms Americans under 30 issued a strong rebuke of President Trump and his party, voting decisively for Democrats instead.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-08",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
-   "url": "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
-   "summary": "President Donald Trump said Saturday that he has offered the job of White House press secretary to his friend and UFC boss Dana White.",
+   "title": "Neither Party Fully Understands the Black Church",
+   "url": "https://thedispatch.com/newsletter/dispatch-faith/black-church-chrisitianity-midterms-republians-democrats-marvin-winans/",
+   "summary": "A campaign controversy in Detroit raises questions for black Christians and all elected officials.",
    "relevant": true
   },
   {
@@ -19017,111 +19443,14 @@
    "races": [
     "National"
    ],
-   "type": "podcast",
-   "source": "The Daily (NYT)",
-   "lean": "center-left",
-   "title": "Will Georgia Stay Blue? Keisha Lance Bottoms on What Happens Next.",
-   "url": "https://www.nytimes.com/the-daily",
-   "summary": "The governor-elect of Georgia is elated about her party’s wins in the South, but knows realignment is far from secure. Thoughts? Email us at theinterview@nytimes.com Watch our show on YouTube: youtube.com/@TheInterviewPodcast For transcripts and more, visit: nytimes.com/theinterview For more informa",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "For Stephen Miller, Election Defeat Is No Reason to Back Down on Immigration Crackdown",
-   "url": "https://www.nytimes.com/2026/11/07/us/politics/stephen-miller-midterm-elections.html",
-   "summary": "The president’s new chief of staff has already demonstrated his intention to forge ahead with an agenda that many voters rejected.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Why White Working-Class Voters Shifted Left in the Midterms",
-   "url": "https://www.nytimes.com/2026/11/07/us/politics/white-working-class-voters-midterms-democrats-trump.html",
-   "summary": "White voters without a college degree, a cornerstone of the Republican base in the Trump era, moved left this year. Some cited high prices, the war with Iran and more in their decisions.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "A Look Inside Jury Selection in U.S.S. Cole Bombing Case",
-   "url": "https://www.nytimes.com/2026/11/07/us/politics/uss-cole-trial-jury-selection.html",
-   "summary": "More U.S. military officers are being mobilized late next week because the original pool in the death penalty case is being depleted.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Chuck Schumer Is on Track to Become Senate Majority Leader After Election Blowout",
-   "url": "https://www.nytimes.com/2026/11/07/us/politics/schumer-election-democrats-senate.html",
-   "summary": "The Democratic leader still faces skeptics in his ranks and hostility from some activists, but aides say he has enough commitments of support to be elected majority leader.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "The Good, the Bad and the Cringe: 10 Ads That Defined the Midterms",
-   "url": "https://www.nytimes.com/2026/11/07/us/politics/midterm-ads-republicans-democrats.html",
-   "summary": "In a Democratic landslide election, here are the ads that stood out. Some were effective, while others backfired.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "Democrats, Newly Ascendant, Begin a Fight to Shape the Party’s Future",
-   "url": "https://www.nytimes.com/2026/11/07/us/politics/democrats-midterms-2028-presidential-race.html",
-   "summary": "At a moment of opportunity for the party, its long-feuding factions are seizing on the midterm results to make their case for tacking to the center or to the left.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
-   "title": "After the Midterms, the Average Age in the Senate Falls to 63",
-   "url": "https://www.nytimes.com/2026/11/07/upshot/senators-midterm-elections-age.html",
-   "summary": "Incoming senators are nearly 15 years younger than departing ones, on average. But the chamber’s overall age isn’t shifting much.",
-   "relevant": true
+   "source": "Northwest Progressive Institute",
+   "lean": "unrated",
+   "title": "Forecasting the midterms retrospective: Democrats won a giant House majority that exceeded what analysts had expected",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSDNsTHBoSk9BU0RUVkhPMGI5YW53UlJ5X0xkcGN2WlgyT1RPVFpZcHlJQjlxU3RjNGJJT1VUT3drRkV6VXJJU01NUmY1UHMxRUhtR05ZUnhoX19HU3VUcHFBQTNuN213Z01xN3Nib0FkV3JqLWVwZDJpdHBvaWk1T1lTbTFXMTdCLWxLeHB4UHU3Tkh0QVRpcDRzNGxOZEh2aUVYV01LelRWcnpBMWlpR0QwTkZfVzFFR2VmSzJzZ3ZaaDZ1Q01uTlIxZWZ2TDY4S2dMRUJhOXJ2a2F1Nk5PZ0oyTG80QVBlZGxIZmpJVndJYmk2OHFDTHpB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-11-07",
@@ -19135,146 +19464,6 @@
    "title": "Lobbyists and surrogates for some of the world’s largest companies had a go-to strategy when they saw no other path to head off a damaging policy from President Trump: call Susie Wiles",
    "url": "https://www.wsj.com/politics/policy/with-susie-wiless-departure-big-business-loses-a-sympathetic-ear-72e7925a?mod=rss_socialpoliticsfeed",
    "summary": "The former White House chief of staff served as a conduit between the business community and the Trump administration.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "The wave election that gave Democrats Congress and a majority of governor’s offices gives the party another benefit: Pathways to take the states needed to win the presidency in 2028",
-   "url": "https://www.wsj.com/politics/elections/2028-election-president-battleground-map-3b8567b9?mod=rss_socialpoliticsfeed",
-   "summary": "Democratic gains in Texas, North Carolina, Ohio and Iowa will make the party newly competitive in the next presidential race.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "President Trump has chosen Stephen Miller—an advocate of the no-holds-barred style of governing that was repudiated by much of the country on Election Day—as the new White House chief of staff",
-   "url": "https://www.wsj.com/politics/elections/stephen-miller-trump-chief-of-staff-56917f0a?mod=rss_socialpoliticsfeed",
-   "summary": "The loyal consigliere is expected to take a maximalist approach to executive power with Democrats controlling Congress.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Jon Meacham writes that American democracy reasserted itself in the midterms through its most fundamental feature: the vote.",
-   "url": "https://www.wsj.com/politics/elections/jon-meacham-on-midterms-reagan-trump-fdr-americas-competitive-covenant-de7bf4e7?mod=rss_socialpoliticsfeed",
-   "summary": "Jon Meacham on FDR, Reagan and how the midterms remind us that the lifeblood of American democracy is at the ballot box.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Texas's 'Blue Tsunami' has former Texas congressman Beto O'Rourke 'over the moon'",
-   "url": "https://www.npr.org/2026/11/07/nx-s1-6030966/texass-blue-tsunami-has-former-texas-congressman-beto-orourke-over-the-moon",
-   "summary": "NPR's Rob Schmitz speaks with former Texas congressman Beto O'Rourke about how past efforts by him and other Democrats helped the party win big in Texas in the midterms.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Ousted Paraguayan president appears before prosecutors",
-   "url": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
-   "summary": "Paraguayan President Santiago Peña was removed from office and placed under house arrest Friday. The Senate voted on his impeachment after the collapse of a state-affiliated bank.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "How the new Senate majority shifts control over the federal judiciary",
-   "url": "https://www.npr.org/2026/11/07/nx-s1-6032757/how-the-new-senate-majority-shifts-control-over-the-federal-judiciary",
-   "summary": "The change in the Senate's majority party means that starting Jan. 3, Democrats will run federal judicial appointments and may continue to until at least 2030.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "GOP's lame-duck clock is ticking",
-   "url": "https://www.npr.org/2026/11/07/nx-s1-6032594/gops-lame-duck-clock-is-ticking",
-   "summary": "The current Congress, under its Republican majorities, must address the National Defense Authorization Act and a government funding bill as Democrats wait to take over.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Border shift: Hispanic voters drive Texas' historic flip to blue",
-   "url": "https://www.npr.org/2026/11/07/nx-s1-6030994/border-shift-hispanic-voters-drive-texas-historic-flip-to-blue",
-   "summary": "Once reliably a red state, Texas will turn deep blue following this week's midterms. One of the most notable shifts was along the Texas-Mexico border, where Hispanic voters had a big influence.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Week in Politics: Trump taps Miller for chief of staff; doubles down on Trumpism",
-   "url": "https://www.npr.org/2026/11/07/nx-s1-6030908/week-in-politics-trump-taps-miller-for-chief-of-staff-doubles-down-on-trumpism",
-   "summary": "President Trump's decision to make Stephen Miller his new chief of staff is a rebuke of the midterm results and a doubling-down on Trumpism.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-07",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Deb Haaland's New Mexico challenge",
-   "url": "https://www.npr.org/2026/11/07/nx-s1-5995646/deb-haalands-new-mexico-challenge",
-   "summary": "Deb Haaland is the first Native American governor of New Mexico. She faces big expectations and challenges, but also opportunities in a deep blue state with abundant petroleum revenue.",
    "relevant": true
   },
   {
@@ -19367,34 +19556,6 @@
    "races": [
     "National"
    ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Sen. Elizabeth Warren is about to take the controls of the Senate Banking Committee, giving her the kind of expansive authority over the financial industry she has long sought",
-   "url": "https://www.wsj.com/politics/policy/elizabeth-warrens-power-in-new-senate-is-a-wall-street-nightmare-dff8fb6e?mod=rss_socialpoliticsfeed",
-   "summary": "The Democrat is expected to head the Senate Banking Committee, giving her expansive authority over the financial industry.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-06",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Wall Street Journal Politics",
-   "lean": "center-right",
-   "title": "Trump said that longtime adviser Stephen Miller would become his chief of staff, replacing Susie Wiles after Republicans suffered far-reaching losses in this week’s midterm election",
-   "url": "https://www.wsj.com/politics/elections/trump-names-stephen-miller-his-new-chief-of-staff-2f835632?mod=rss_socialpoliticsfeed",
-   "summary": "The president said Susie Wiles, his longtime chief of staff, would move to his political operation after heavy GOP losses in the midterms.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-06",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "punditry",
    "source": "National Review",
    "lean": "right",
@@ -19479,20 +19640,6 @@
    "races": [
     "National"
    ],
-   "type": "reporting",
-   "source": "The Nevada Independent",
-   "lean": "center",
-   "title": "Voters reject Southern Nevada school board candidates backed by Moms for Liberty",
-   "url": "https://thenevadaindependent.com/article/voters-reject-school-board-candidates-backed-by-moms-for-liberty-in-a-reversal-from-2024/",
-   "summary": "Several incumbents on K-12 and higher education boards are projected to win re-election.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-06",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "podcast",
    "source": "Pod Save America",
    "lean": "left",
@@ -19535,35 +19682,6 @@
    "races": [
     "National"
    ],
-   "type": "podcast",
-   "source": "The Megyn Kelly Show",
-   "lean": "right",
-   "title": "FBI Arrests Meghan Markle’s Father, Neocons’ Pathetic Attempt to SPIN Iran War, Plus Crazy Fallout Continues Over Amy Griffin’s Memoir | Ep. 1436",
-   "url": "https://www.siriusxm.com",
-   "summary": "Megyn Kelly discusses the breaking news of Meghan Markle’s father, Thomas Markle Sr, arrested in Florida and charged with possessing CSAM, the dark details behind the affidavit, Meghan Markle finally declining to comment on father’s arrest after rushing to the press, the latest developments followin",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-06",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "reporting",
-   "source": "Silver Bulletin",
-   "lean": "unrated",
-   "title": "How popular is Donald Trump?",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYVUpnUy1YUjZ5TG1McTZxWTFEOXpjWmFqRjB6ZXg3VlRaMVp4aEI1WWtPSWJhRlRQdG9WV1h4S2loTWkwUnhNWGFmdHNCalE2VjUtVE9GcVlhZ3g5T0t2UFdmRlk0WU9xRDl4MjE5M1BOY0dzUGNqcERyTVc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-06",
-   "race": "National",
-   "races": [
-    "National"
-   ],
    "type": "reporting",
    "source": "Reason Magazine",
    "lean": "unrated",
@@ -19572,104 +19690,6 @@
    "summary": "",
    "relevant": true,
    "via": "Google News"
-  },
-  {
-   "date": "2026-11-05",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "National Review",
-   "lean": "right",
-   "title": "Repeal the Tariffs",
-   "url": "https://www.nationalreview.com/2026/11/repeal-the-tariffs/",
-   "summary": "Trump has abused the tariff power to disastrous effect, and Congress must reclaim it.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-05",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "National Review",
-   "lean": "right",
-   "title": "Trump’s Midterm Disaster",
-   "url": "https://www.nationalreview.com/2026/11/trumps-midterm-disaster/",
-   "summary": "What comes next for the GOP?",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-05",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Silver Bulletin",
-   "lean": "center",
-   "title": "Models led prediction markets in forecasting the blue wave",
-   "url": "https://www.natesilver.net/p/models-led-prediction-markets-in",
-   "summary": "But who deserves the most credit? High-quality pollsters who nailed the result. Plus, Still Counting EP10.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-05",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "punditry",
-   "source": "Ralston Reports (Jon Ralston)",
-   "lean": "center",
-   "title": "Morning Flash, 11/5/26",
-   "url": "https://jonralston.substack.com/p/morning-flash-11526",
-   "summary": "More post-election musings, data, and a trivia question about a council ban.",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-05",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "The NPR Politics Podcast",
-   "lean": "center-left",
-   "title": "Meet the new Dems. Same as the old Dems?",
-   "url": "https://www.npr.org/2026/11/05/nx-s1-6030643/meet-the-new-dems-same-as-the-old-dems",
-   "summary": "With the Democratic Party's wide majorities in the House and Senate, members of the caucus will have different ideas and approaches on offer for how they think issues should be addressed. We look at where some of the divisions may be, and how the youth vote impacted this midterm's results. This epis",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-05",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "Ruthless",
-   "lean": "right",
-   "title": "Why Republicans Lost",
-   "url": "",
-   "summary": "Ruthless breaks down the Republican Party’s devastating midterm losses, examining how economic frustration, tariffs, government corruption concerns, and campaign missteps contributed to the Democratic wave. Plus, the fellas challenge JD Vance’s election analysis, discuss what Republicans must do to ",
-   "relevant": true
-  },
-  {
-   "date": "2026-11-05",
-   "race": "National",
-   "races": [
-    "National"
-   ],
-   "type": "podcast",
-   "source": "Politics War Room",
-   "lean": "left",
-   "title": "395: We Like Winning With Mark McKinnon, & Aidan Kohn-Murphy",
-   "url": "https://audioboom.com/posts/8973466",
-   "summary": "James and special guest host Mark McKinnon celebrate the midterms, dive into the results, and discuss the future of MAGA, the Democrats, and the country. They are joined by political prodigy and founder of Gen-Z For Change, Aidan Kohn-Murphy, to explore the impact of young voters, why they went Blue",
-   "relevant": true
   }
  ],
  "coverage": {
@@ -19679,16 +19699,16 @@
   "failed_sources": []
  },
  "brief": {
-  "date": "2026-11-08",
-  "title": "Election update: Sunday, November 8 (morning)",
+  "date": "2026-11-09",
+  "title": "Election update: Monday, November 9 (morning)",
   "edition": "am",
-  "slug": "2026-11-08",
-  "markdown": "# Election update: Sunday, November 8 (morning)\n\n## Bottom line\nNo race was newly marked called overnight. The House results table stands at 418 of 435 races called: D 256, R 162, with 218 needed for a majority ([House table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections)). In the Senate, Democrats have secured 54 seats to Republicans' 44, counting seats not up, with 51 needed ([Senate table](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Alaska and Mississippi are still uncalled. FL-27 has officially gone to a recount ([Florida Politics](https://news.google.com/rss/articles/CBMiakFVX3lxTE1ncUVFOUhGUXplR1g0bXBSS05qclVyenA3MnRpbTRvcU1qanVPcDY5dkpSeHV4T1BwUHdJZ0htRGtuRjJTVGhqSDA3QldSM2YwamZobVdxRHg0TU1WQTM2c1o3VDJYWmJYdmc?oc=5)). No seat rated safe is within 5 points.\n\n## Called since the last update\n- No race was newly marked called in the results table, and no call was reversed.\n\n## Still uncalled\nOne line for every competitive race the table hasn't marked called, Senate first.\n- **AK Senate** (Tossup): the New York Post reports President Trump declared the race \"over\" for the Republican; that is the president's claim, and no call or official result supports it in today's leads ([NY Post](https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVdtOTlRVEVDMzFCQUhHREt4UkF1UHF3VElMUExxa0Z3NDJVZE9NYlNVbmp1cXdLeGRzZGhJdEhXTXZzdjRacElfRU9Kc1E3OVpBVUJyUVB5R0VPYWYydlBUbnRKSG9xMFQxbDdTYjBhYy1QdmNDWFBrNEtWTmh5MGlWQQ?oc=5)). Mary Peltola's (D) campaign has sued the state for the names of rejected absentee voters ([Alaska Beacon](https://news.google.com/rss/articles/CBMivgFBVV95cUxOa3Y0MGV5dFVNMWlrQ0RHdnFNMUVNMndTbTI5TE1QRUhzTkNrOFlGQ2NMOGtSUWFQVWN3YlpnN2stQTFlay1vVWZwQUt3SkVENndyQllEQTdyRkV4VjVORXc5UXBUd3FubWtkRlRsYUhNckFMTlpERjZZdGh3NG92azB4ajd4S1p4LWNpVHpYZG1aU0dIcWFSUnNPUFVSV1F4M1NkcDUwUlRmZ2phUDF1Z0s1X2p1VHp1VFQwSzVR?oc=5)).\n- **MS Senate** (Likely R): MS NOW reported Friday that Democrat Scott Colom's lead had widened ([MS NOW](https://news.google.com/rss/articles/CBMif0FVX3lxTE9iNUpNaEtQUVI0RDBjdkdSQndjZmI4V0doZ3ZrbUNtb0E2RVNiNDdVSHVmblgzUE5VeFcwSWY1SXZLeW9rbmpvT3g4MkNjb3U3ZVlHRmpCNHV5aGozN2NwMTFhcGhxeVcxMVpMM2ttZzF0SERvT2VSMzdYcVY4TTA?oc=5)); PBS reports the count is stretching on ([PBS](https://news.google.com/rss/articles/CBMi0wFBVV95cUxOV2Rac3hxeXVCWWZlNGF3UndSazNNcjBfNVhfa2QzUTNOVTEtSnh4b1dLXzVsdlRTc0R3Um5DRG9vZW1lRVhPeFlSRXZybFVnd0J0LXZkWmhRVjJVa1JXZDVNdHRLX1Nid2gxWndjUllJdVFsaTNUcUxMWm5xOTV2TDQyd01GY2U0c3pvbEg1RldaS3BlcEFYZmNDcWRHd051T3ZzQUt2QjJ0RWNLeXA3b216RkIya3hNM1djR3FRSFBwMzdWRmpab1JUQ0t6MGRaUEZJ0gHYAUFVX3lxTFBRVFdWWnRfd3VfaHFvc1ZDR0tNcVFYYWFIOVpLVnZid1lIX2dBUDh5ZEZGOFM2ajBLeHJTbXByeWNIeGVyaDdtYno2UFNleEE5cHZyVlB0QWRtTl9vWGZGT2pRS3NUa3ZWWEtYLXo3ek42VDRGQUpyeVVEc0pndGJTdmF6SG1fVGtzVmVSX1JkSnpNYUd3RXp3U0loTTlnMFl5enhwbzZoRW0xMFZBd2RPX2o0R09JT21tSHdraldEOFByakdySnRCa3FRRFpsUXhMODBqWWxFTA?oc=5)).\n- **AK-AL** (Lean R): still on CBS News's list of races without a winner ([CBS](https://news.google.com/rss/articles/CBMijAFBVV95cUxPTm1vVUVNdk1FNWRfMFlpenMya2pETU00SkhBNGFQOTJGSTlKTDYyTmRLZElSd0ZfOU9oTW83aE5IZnN3SjZPVmZpQ2NuVUZGWTE1bzFMVHpmMDhNQU5uOGV4MGlERlRoeWJ0bG5RcmtaOG1GLUdQS05nN3pVanBtS1BaMHhCc21mS0gtcA?oc=5)).\n- **AZ-02** (Lean R): Eli Crane (R) continues to lead Jonathan Nez (D), per the [Arizona Daily Sun](https://news.google.com/rss/articles/CBMihAJBVV95cUxOVnVBZS1jaXJndDFlTXdBOHdRV0J3Qm0yVldFVEVyRmV1eHZkR0J4b3RmS1pSVWowdXJsR2MxRjM1N2JMM1RqX1RBWUVpcThiTFhHNFg3TTg4bzRuZzZ0eWJfMjY3YWRfbjhuT2NyYlROTlpfSkZ6bjZGWXBMcEk0OE1WbEtjd0NwTkhKZU95YzBSRU1EdTVHWFpkaGl0T3Q1NmRncXQwQmNaZEFiNmxLOFBBbW4wX0F4OEdqUkVUZ1V4cnVrc1dnU2NNa1F1SE1yTGd2T1NmV3VPZzBFVFdBY0x4Z0pnUExZNFNrMjRlTzFpejIyeEFfM01XckY4TWtIVmdycQ?oc=5).\n- **CO-04** (Lean R): Lauren Boebert's (R) campaign expects a recount, per [KDVR](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbndFYnNhX09RSEpta0VoVkwzQ0Q0RFRNMnZWNE9DUERQNG4tb0ZuQ3NFdDFFVHlCd09NbDVoVm9qYXpfenV0UW9mYUs4dlRWT3JSWFotWFNmdjFuM3V3ejRpd0VXSldWODJMeFJSd3hyUDVHQ2xxZ0ZqMTktbHpvaUI2TmI3N0ROMFpuUlF0cHppdWlEa0E0aHlGbFFhSHpqRUJjakFEOUxRWFI2T1NvX1hXQ3dUOTlqeHlKXzFIMHhTQdIBxwFBVV95cUxOZGpkQWRTLTFrb0F2cGVJQ1F2VWMwV3BLb1VtcENvUTVuVkstRXNXYThGb0dLXzFzMGtTdkhNcGYtMHlXLTRuRDNfMThNZks2QkRXLTN1LW1uRHBwdWs0T1dkY0Qtek16UkljOVFZOXZuNEN1WGhMUjFnRHE5YU5WWVh2SUxBYWJQbmN0aWFFQ1hoa0RUR21xVUhjR21VYm9BdEtRWFk0ZTN5OVV6Uld5QU1CYVJsUWJBQUZQZkxfU0xOTERSYkh3?oc=5); the NYT describes a close race ([NYT](https://news.google.com/rss/articles/CBMilAFBVV95cUxQX2Y5ZmFsbnJlLVBjQ3dPMkJDZktUS1RMOEtSVm5rdkhONVVKaGduZUQ0LUw4LXQxaTFFeFl5WkFVZzlHa0JtYkdxd2JpdEtTWmIzMnh2RHpVOWhrZ1JFLXVvc3d0Q19OTm1Bc0ZBaXp4MEEyazFDZDUwWVZzNDRpSnc2TDB1QUhEOG9MZ2tPQmNXYWZs?oc=5)).\n- **FL-07** (Lean R): Ryan Elijah (R) has claimed victory before an official call, per [WESH](https://news.google.com/rss/articles/CBMiswFBVV95cUxQSXRqU2lpZE9JV2Vkb245ZHNSYnEwNnZEcGNtMVllYzRXZE8taWNjNXlYbGF1NVctbUxmSjJZSTlNMm9KdURJamtlOXY1UmEzSTBEZ20zM2dOTzZLWmhGSnN3aGc0bUxpc0ppWk5FNlNmc0JoUW51NVZSVTdFcC0zYXRmM3E1b2o0SzZpWkJRQUU2N0dEd2F3dWs1amF6SElzTXNsUy1BRWcwQk90STM0UWVxYw?oc=5).\n- **FL-27** (Lean R): an automatic machine recount is under way, with Eliott Rodriguez (D) pushing for the county election chief's recusal, per [WPLG](https://news.google.com/rss/articles/CBMiygFBVV95cUxPb1ExZkYzNWhhRnVZelhKWVhjb0ZHRGIwaDNvaFJrV3A4ZFlmMWJjY0Y2dzJUSTFBRzBZcVlqcGotSjFqMnp6eGdNUzBhM3NHT0xDU21IOUtBNFNsM25ORnVZVTQ5eXp0VnVybkdJLW9MeGpCY193TnNXYUIyYjJLZjZ6andlaU1PQ2ltaG8tNTl3MVlWeXNXcnItcDljdVRYTFgzZUtzSHN6ejJzQ2lrcDlYekVhdHhXMnh6dzNEMG9adXVKNll5d2xR?oc=5).\n- **MN-01** (Lean R): the AP call is still pending, per [KTTC](https://news.google.com/rss/articles/CBMiswFBVV95cUxOS3cwUzVrTkFyZGctVFV0dmN2TmExZmlMQXprM1dBS1owLXZHdWNVYk5ydzJhUDRvUDRtWHNYRWhnQVRuTnR1c0xuYXZhVVB4Ui1VSzdDRXo2MzIxbnVyV3Q5M0o2YTZGMktiT1pYeUtXRXpSWjNQMWhsLWNWUTJjSEtXS1phSXJfOExtUFQwS25iMC1JZlczNERhbmdRSFVLZEtqak82ZFdZbGd4TVRyNnFhd9IBxwFBVV95cUxOVzNPamp0OVQwdEN4NTBzbzF2QmZRTE42VUJYbGFtU2NSVFlhQVNCQnM5dzBFOUpUczIwZlJpUXQzemJvd3Q4ZkJ2dEhVZlNXcUs0bVlQVV82VC16OVYtWU1PMVpYNEstOUhkeXdRS3dJellST2wzSG53dVdxRUVkeWEzbGdnc2w3SG1lcXJuWTc4N2dGVU9XZW5yVEF4THN0RjhKUVc1LUt5eEFoSlVsOFBnM3dGaVA4c0p4U0dCVlpPQW5KNnNB?oc=5); Brad Finstad (R) is awaiting the recount, per [5 Eyewitness News](https://news.google.com/rss/articles/CBMirgFBVV95cUxOamtpdHZTUHRRaWxrbVM0NzUzNWkzdnpmT25yZTdVX0xpcWVCMFU4SVNUZXJrUTMxRzM1VVdLQ1BtN05sWEcyOUdaNmRqaE9jWFluRENDRHlCUGI2NjZjWDQtMERRMVpQRGV4RTJZRkloNUh5dlFhcllrZmp0QUZrNGxEMXh4ZTlkd1lqM19nMkoyZjlJdkZzb1c4dGVrZV90bnUtZzZkVXdXVnh3WEE?oc=5).\n- **NC-03** (Likely R): Greg Murphy (R) leads by 233 votes as counties prepare to finalize results, per [Neuse News](https://news.google.com/rss/articles/CBMivgFBVV95cUxQY0syZkI3ZExkcEtTbWROS2dPYkV5S1dKOHBHd21ZRzI5ZnNRTS1tTnNQOVJsYllSQWtnbUgtemhxQ0dDNHFTTlJwX0xnSEtQNXRFa0ZPQUN3cUlsQUtzWF9NaFhBd19yQ1pPbG15VUY0Q2l2QnpHZUx4NG94dTFOUHAycmZEdU94YXNWZGpteUltRFdKcEtaMUtibGFkMzllSXlLeGszbGtycXJ2NjRYbjV2bDZkOXZGd2kzbUpn?oc=5).\n- **NC-05** (Likely R): Guilford County officials outlined next steps with Chuck Hubbard (D) holding a 99-vote lead over Virginia Foxx (R), per [WXLV](https://news.google.com/rss/articles/CBMiuAFBVV95cUxONUMzdFRDVXVCaVVGNGN2UW5aSU15Q3FCZFJpSTF6S1hqUlZadV9fZ2FqeDhmRGVSZV8waDQ4S3RneWJidGhMLVdDbXdBdHpiY1VYb0xFVXYzTV8zcUVGb2dmNGdXbWVYZFo5NjE5LVlLS0pmN2Nzcl9ENWZHVG9EdkVKWVpnblVaNkhjVTVDU2tIelJxYV9ZVmh0bGJLRTNUV1hpNlpSRmtLa1dxSkx4alpHLTlZekYy?oc=5).\n- **NC-07** (Likely R): count under way; no fresh lead ([results table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections)).\n- **WA-05** (Likely R): The Spokesman-Review reports Michael Baumgartner (R) held on to win a second term ([Spokesman-Review](https://news.google.com/rss/articles/CBMijwFBVV95cUxOTnVJUEZtRlZMWG9LeWNlTjM4NXRJcnU5dmhqNS10ZE9JRFZhTHlQZklDYjRpS2laZkkzZHVLMVprRXdYdnhCYnFfdHQ3RU53bHQ1UVJwQnB6TzhGWktNZ3hoa1o0Q0NMWi1wdllPeUtlcmJuVTl2eC1WLUNzODlzSXF3VGViMnQ5bEF0VWRMdw?oc=5)); no AP call is cited and the table has not marked it, so it is not counted here.\n- **Safe seats:** 7 seats rated safe are not yet marked in the table. That is table lag, not close races ([full list](https://jakeworcester-byte.github.io/political-tracker/#results)).\n\n## Recounts and certification\n- **Florida:** FL-27 is officially in a recount ([Florida Politics](https://news.google.com/rss/articles/CBMiakFVX3lxTE1ncUVFOUhGUXplR1g0bXBSS05qclVyenA3MnRpbTRvcU1qanVPcDY5dkpSeHV4T1BwUHdJZ0htRGtuRjJTVGhqSDA3QldSM2YwamZobVdxRHg0TU1WQTM2c1o3VDJYWmJYdmc?oc=5)).\n- **Minnesota:** MN-01's AP call is pending while Finstad seeks a recount ([KTTC](https://news.google.com/rss/articles/CBMiswFBVV95cUxOS3cwUzVrTkFyZGctVFV0dmN2TmExZmlMQXprM1dBS1owLXZHdWNVYk5ydzJhUDRvUDRtWHNYRWhnQVRuTnR1c0xuYXZhVVB4Ui1VSzdDRXo2MzIxbnVyV3Q5M0o2YTZGMktiT1pYeUtXRXpSWjNQMWhsLWNWUTJjSEtXS1phSXJfOExtUFQwS25iMC1JZlczNERhbmdRSFVLZEtqak82ZFdZbGd4TVRyNnFhd9IBxwFBVV95cUxOVzNPamp0OVQwdEN4NTBzbzF2QmZRTE42VUJYbGFtU2NSVFlhQVNCQnM5dzBFOUpUczIwZlJpUXQzemJvd3Q4ZkJ2dEhVZlNXcUs0bVlQVV82VC16OVYtWU1PMVpYNEstOUhkeXdRS3dJellST2wzSG53dVdxRUVkeWEzbGdnc2w3SG1lcXJuWTc4N2dGVU9XZW5yVEF4THN0RjhKUVc1LUt5eEFoSlVsOFBnM3dGaVA4c0p4U0dCVlpPQW5KNnNB?oc=5)).\n- **North Carolina:** Guilford County outlined the next steps in NC-05 ([WXLV](https://news.google.com/rss/articles/CBMiuAFBVV95cUxONUMzdFRDVXVCaVVGNGN2UW5aSU15Q3FCZFJpSTF6S1hqUlZadV9fZ2FqeDhmRGVSZV8waDQ4S3RneWJidGhMLVdDbXdBdHpiY1VYb0xFVXYzTV8zcUVGb2dmNGdXbWVYZFo5NjE5LVlLS0pmN2Nzcl9ENWZHVG9EdkVKWVpnblVaNkhjVTVDU2tIelJxYV9ZVmh0bGJLRTNUV1hpNlpSRmtLa1dxSkx4alpHLTlZekYy?oc=5)).\n- **Colorado:** the Boebert campaign expects a recount in CO-04 ([KDVR](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbndFYnNhX09RSEpta0VoVkwzQ0Q0RFRNMnZWNE9DUERQNG4tb0ZuQ3NFdDFFVHlCd09NbDVoVm9qYXpfenV0UW9mYUs4dlRWT3JSWFotWFNmdjFuM3V3ejRpd0VXSldWODJMeFJSd3hyUDVHQ2xxZ0ZqMTktbHpvaUI2TmI3N0ROMFpuUlF0cHppdWlEa0E0aHlGbFFhSHpqRUJjakFEOUxRWFI2T1NvX1hXQ3dUOTlqeHlKXzFIMHhTQdIBxwFBVV95cUxOZGpkQWRTLTFrb0F2cGVJQ1F2VWMwV3BLb1VtcENvUTVuVkstRXNXYThGb0dLXzFzMGtTdkhNcGYtMHlXLTRuRDNfMThNZks2QkRXLTN1LW1uRHBwdWs0T1dkY0Qtek16UkljOVFZOXZuNEN1WGhMUjFnRHE5YU5WWVh2SUxBYWJQbmN0aWFFQ1hoa0RUR21xVUhjR21VYm9BdEtRWFk0ZTN5OVV6Uld5QU1CYVJsUWJBQUZQZkxfU0xOTERSYkh3?oc=5)).\n\n## Legal and federal action\n- **Florida:** the Miami Herald reports Rodriguez sued to remove Miami-Dade's election chief from the FL-27 recount ([Miami Herald](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU2t3dzdFZUtmbDB2UThXZmVGY2tkcG9RcUN4NHlZZW9iTURwOUFTc09xbFF2djVQUW1tRnlPblRwYlBxalZQdThTOEMwQ0dLSThKeExrLWRaTXNrb3c1cExpU3hmNk9zYzhRRmhacTkwZnFQWFZ5U2RsV0d2TmJHUkdaSFNvdURUT2dN0gGLAUFVX3lxTE56WW1fckdoRDZmdTU1RG84V19rUmdkOHZ6MXg5Vjh2MXZGRV8zZU15VEFvWHVjSUNCR3g0M1hWaTBTVndueTJBeWpzTHpmUmNGTnRFdEVyWHk2cVIxYzR1aXBfeHlaSzBIcHNYdFlTeS1vUWEyOEFHc2p2Zklyb1dpRms4TGpOTEw5dGs?oc=5)). A matching federal docket, Rodriguez v. Garcia (S.D. Fla., No. 1:26-cv-27895), shows a civil-rights complaint filed Nov. 6 and assigned to Judge Joan A. Lenard ([CourtListener](https://www.courtlistener.com/docket/75084109/rodriguez-v-garcia-et-al/)); the docket page could not be opened to confirm the parties.\n- **California:** Reuters reports the administration ended its lawsuit over California ballots ([Reuters](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXMtNVM2c2ZyaGZ0ZTFLQUlLNjJyZUxWcFpJaVhEMmxwZDJNam1GdHBKWFVrT0syVGRiU25mZXlvbXRvNWlUbE95MVJYUHpSbFdYbm9HMEw1eS1KQVRTTjZpMmlzeDdHTjhPZlFDSFZhalJJdDFxd3VnRlNDVTFLY3JzV0N6WktFUVRITUMtS0dpQjB0Mlc2cnhwYm1SaERTcEtjZUVaZXpfYjQ?oc=5)); the court docket shows the Justice Department's notice of voluntary dismissal filed Nov. 6 ([CourtListener](https://www.courtlistener.com/docket/74967108/180/united-states-v-state-of-california/)).\n- **Washington state:** a judge ruled federal officials cannot force Washington to set aside alleged noncitizen ballots, the Washington State Standard reports ([WA State Standard](https://news.google.com/rss/articles/CBMiugFBVV95cUxQRmEzZDV1RkdSVkdEQzREdjBtZ3JjSU5aR0xqRzNVMDd6RnEwQk5OeHo5OWdrUU9UTGJDUUwxOVBqQ2FwUi1NZjJSN05OallNWkZ0QktwQ0h0VUFMS0VTRWtFLXNtdVUwYnl2UEVrSkNOSmk3cjVmVW55VzVQalZKcmhpODh5ZEdCZWpUMWR4Y3JVYW0yQWZQTkdBLXRJSloxVVA5QmZlVFNKNWI1UXd4anFaaG9iVHRRMXc?oc=5)).\n\n## What voters said\n- **Surveys:** NPR reports Black voter turnout helped drive major Democratic wins ([NPR](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbHNfc09VaDA0dGRYUWtnZWpYdlhKN0lhMTVmd0RDdGFmNFFMc1pybmt2U3E4WW4wLUdtM1BDSUlxV1JaTk9OMDVuX0F3TWxpS3FKWWJjbDRuWVJ6SlNCRER2bUJiUlZCQzRTVl9UMjFJVE5pQmh2OE5JM1lPOTFqU2ZCUGtTai0zeDk3VzV4Umc4ZXFRdXYzRkV1c0ZfcFJfb0hFTmlNN19JN00?oc=5)), and The Hill reports Gen Z men broke sharply for Democrats ([The Hill](https://news.google.com/rss/articles/CBMif0FVX3lxTE1RQzhCT2ZlTlJjdlJ2SHdzVTFfUl9USThNY1dvNlo5RnlSdFk4blN5U084SVlTWUY5dUpSWkR3ZkQwY3RWSmFqYmlmbDFwem5FOTJHVDNoSkM4MHQtNGJXajJBa1pFTFJvMUFtdzlzMzFSYXdkMXBxRC1udHZxamvSAYQBQVVfeXFMUC1nUmpRX2VGUElFVUlaLWVaZ2M2MGcwNlZlQXRYazQxbDRDS0FZRi1NSXBfSVhsR0V3eldhVUo2Y0kxZ1Q4TE0zTUFiMDhLb3cweVdhbkFFWldTUHh5M1pzV1RpOXhjS3I0MkJRbEJlS3pLNkJMb0I4Um55RWlKQmtXVUdf?oc=5)). AP's voter survey found young voters led the shift ([AP](https://news.google.com/rss/articles/CBMi2wFBVV95cUxORWxLUGF1eFRtWTlfeDdVY3VLaE5mZVdlVWh6empkZDBSdE1TNUthM0NTRDVBVy1rWHBRZ1hfREtsaENCOEw4eHkxbG5CbGJ5c09FWlQ2TENNZ0dhalRpd2JnQldLWXVNTmxYZW1fNF9Lcnd0RVNUWW5ySXRzcjdnZGM4N05OWVI5U0VCb1VJVmd2VktFMkkyZ3JjcGpEWlZjRDJ6aENKN2lVX2NtRUFFSkJzOVhEUGk0cVVkenRCLUJaRWRtcm5kbEVmQTNCenQ1UWhYOXpYanhNZjQ?oc=5)).\n- No new voter-file read from Ralston or Bitzer is in today's leads.\n\n## Coverage note\n- **Parser:** the results tables parsed (435 House, 35 Senate) and the parser check is healthy.\n- **Court records:** CourtListener used for the first time (4 requests; 36 election dockets and 1 opinion with recent activity).\n- **Vote shares:** not yet posted for the uncalled races, so leads above come from local reporting.\n- **Scorecard:** preliminary (88.9% of competitive races called); the lessons-learned section starts at 90%.\n\nhttps://jakeworcester-byte.github.io/political-tracker/#results",
-  "published_at": "2026-11-08T11:14:30.598161+00:00",
+  "slug": "2026-11-09",
+  "markdown": "# Election update: Monday, November 9 (morning)\n\n## Bottom line\nThe House results table now marks 420 of 435 races called: D 257, R 163, with 218 needed for a majority ([House table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections)). Counting FL-07, which two outlets report Ryan Elijah (R) won, it is D 257, R 164. In the Senate, Democrats have secured 54 seats to Republicans' 44, counting seats not up, with 51 needed ([Senate table](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections)). Alaska and Mississippi are still uncalled, and USA Today reports legal fights loom in both ([USA Today](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTldkOU16b0NHM2xvdGZNaUg1eXVEVEhSbHYwNDRNYzZxeEFkeU9WTXJ2aUViRlRNZnBQRG41WGJSNG9IcEZIaW1tejNtMmYxVUhvWjZFaVJqVDZndE9LZ09DN3R6bjdxeEtaNnIyVnNlNU9BWjY5cm9lcWpwRk5tWURXZTdiaUFPa2xIenUybnlSUUpjUTBsZDEzVDktXy1JMVV0NkxZVTdBNFVEcmdPVjFLN0xWdXVtQWxMdlNrOXRmVUowUGRzbXVYdEEwdlRTa3NfUUhpbE42aUFodGZ6UQ?oc=5)). No seat rated safe is within 5 points. With 90.5% of competitive races called, the tracker's forecaster scorecard is ready (Lessons learned, below).\n\n## Called since the last update\n- **MN-01 (Jake Johnson, D gain):** marked called in the Wikipedia results table, following AP ([House table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections)). Brad Finstad (R) has requested a recount, the New Ulm Journal reports ([New Ulm Journal](https://news.google.com/rss/articles/CBMihAFBVV95cUxQRG4zTUdmSnBRQkN0UTBUd1U1Y1MxOFhKYmdERXRDeURNb1V4azF5ZFQ3OHJVSHFHWGpJc0U0bVRuNUpDMXF2dTlDYUVNZG5kWFBYdDlPRWROQzZvSno1bHlxYnpuZWIzd3BYQ1RQVkhiWTAxaU5SdWlQU3FBdk9FWlMyOHk?oc=5)).\n- **NC-07 (David Rouzer, R hold):** marked called in the table ([House table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections)).\n- **Reported, not yet in the table:** the Orlando Sentinel reports Ryan Elijah (R) won FL-07 ([Orlando Sentinel](https://news.google.com/rss/articles/CBMitwFBVV95cUxNWnRpN18tZWFNNWhabk1iT0FvM0paYW4wajRZZ19HZGJUczNWOVFwTUVlYk1ZbDY0OXpXSVVzUjN1WmRWZmtfOVBFNkZBSGRwN2Y3ZnFIdUprRjJWS29hUFZraXhVWmpURXBNQW1aUnFYamt6RHdDVzdONnd5c0RleEdyOTRObjhMRjdTWkpnY2dUWkNwM2tZM1YzV3p0Zm9ZbE5Ub0RVWXpkay1FZWg2R25UUm1XRnM?oc=5)), and the Daytona Beach News-Journal reports he claimed the win ([News-Journal](https://news.google.com/rss/articles/CBMi7gFBVV95cUxPd1BzTWpwaXM0N3I0NFRUUHRTNEltTjhDNGUxZWpxWV9iMXF0NzJxTU9NRTBNclhtUDV6TG9ZOXlxUzZCUC1ydENRb0dPQk5jSG12NTU1bXBOOTQ4UzYtOS05dlZOVTlLTURROUVjRGp6ZERRc1NWZm44T3l2OThaNTBvVU9abEp1ZE11T1ExWGI1RXpBSUZOYlRuZjN2VU1teWVqRFFzVnBCMWROZWVvSkNvZ2Rlb0VWWl9qb0htQjNXWkhub2UwRGRUMWJfUGVYM1NuSEQxd1J4UnZZNWtjSGU3N08xMEl1WVBRUl93?oc=5)). Counted separately until the table follows.\n\n## Still uncalled\nOne line for every competitive race the table hasn't marked called, Senate first.\n- **AK Senate** (Tossup): Gov. Mike Dunleavy gave a vote-count update describing a \"very close\" race, The Hill reports ([The Hill](https://news.google.com/rss/articles/CBMif0FVX3lxTE5FTDZTZDVBZWhBWm5QaWlUQXBvRTMxZmMwbkl2MjBaTkVRMHoySzRwVVJVelQwSnRGaEc1SEtoY2dDa0twRG5FdDk4T1ZWVVdaXzU4Y182TFh1dkU4Qy1ZTUVCMF9hRURZaWxqYXpUVGU5Vzl6ODZNTTg0WFVoaE3SAYQBQVVfeXFMTnZ5b0JEU3AxLS1SUFAyVlZkakZXaWdLeFMwXzVtbmZpWnhqN3JUVFpUaXh6OE1UbVRQbmNtalBJeThxZnRkSjdfVUlXR3ZNRW5vUXRIVFByb24wNmJRM1dTWkFvY2pxYmdyd01LaUpmMHdhbzU4UExlMzA4OWt2Q3JVNUpK?oc=5)).\n- **MS Senate** (Likely R): Mississippi Today reports DeSoto County, a Republican stronghold, was key to Scott Colom's (D) performance ([Mississippi Today](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWUltQXhZblVjSmZPcHlodDN3UUhZZzcxa25KZjhVY0FFUXFXZDJyZ3VtLUllbVJXV3FNRC1Wa1JiVWZFRWtMaVlaaXBjcHVseS01LW5xdVI5akk3OXIwaDBVc0Q1OExULVMtODlWaFRRcU9fa2JtTEhXaUFrRnRRSG1GRVJTQkFMdEFF?oc=5)); MS NOW reported Saturday that Colom's lead had widened ([MS NOW](https://news.google.com/rss/articles/CBMif0FVX3lxTE9iNUpNaEtQUVI0RDBjdkdSQndjZmI4V0doZ3ZrbUNtb0E2RVNiNDdVSHVmblgzUE5VeFcwSWY1SXZLeW9rbmpvT3g4MkNjb3U3ZVlHRmpCNHV5aGozN2NwMTFhcGhxeVcxMVpMM2ttZzF0SERvT2VSMzdYcVY4TTA?oc=5)).\n- **AK-AL** (Lean R): still on CBS News's list of races without a winner ([CBS](https://news.google.com/rss/articles/CBMijAFBVV95cUxPTm1vVUVNdk1FNWRfMFlpenMya2pETU00SkhBNGFQOTJGSTlKTDYyTmRLZElSd0ZfOU9oTW83aE5IZnN3SjZPVmZpQ2NuVUZGWTE1bzFMVHpmMDhNQU5uOGV4MGlERlRoeWJ0bG5RcmtaOG1GLUdQS05nN3pVanBtS1BaMHhCc21mS0gtcA?oc=5)).\n- **AZ-02** (Lean R): today's news query failed (HTTP 503); the last report had Eli Crane (R) ahead of Jonathan Nez (D) ([results table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections)).\n- **CO-04** (Lean R): trailing Eileen Laubacher (D), Lauren Boebert's (R) campaign alleges \"unusual voting patterns,\" the Denver Gazette reports; that is a campaign's claim ([Denver Gazette](https://news.google.com/rss/articles/CBMirgFBVV95cUxObkVRU09BbWQ4WG5nTEpmcWg2bXRTRWR2c29vM0xQbE9VRGNVQTRMS2VHNGd4YlRUanNWQVY3OUtiaVJRNnI1ZEN4Q3BiQWF0MkMxMVB3Yy1PclZIbnZvM2h2Tm00cjhPQzBaUWhYSjh1MFhHa01yYzVNcWhOOUw2b1c4WUlzM2tFazNGZzlocnlKeVJoM3FNbFN0cWxTMEtvQWlMTFdLbG5sUTZ0a1E?oc=5)). The campaign expects a recount ([KDVR](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbndFYnNhX09RSEpta0VoVkwzQ0Q0RFRNMnZWNE9DUERQNG4tb0ZuQ3NFdDFFVHlCd09NbDVoVm9qYXpfenV0UW9mYUs4dlRWT3JSWFotWFNmdjFuM3V3ejRpd0VXSldWODJMeFJSd3hyUDVHQ2xxZ0ZqMTktbHpvaUI2TmI3N0ROMFpuUlF0cHppdWlEa0E0aHlGbFFhSHpqRUJjakFEOUxRWFI2T1NvX1hXQ3dUOTlqeHlKXzFIMHhTQdIBxwFBVV95cUxOZGpkQWRTLTFrb0F2cGVJQ1F2VWMwV3BLb1VtcENvUTVuVkstRXNXYThGb0dLXzFzMGtTdkhNcGYtMHlXLTRuRDNfMThNZks2QkRXLTN1LW1uRHBwdWs0T1dkY0Qtek16UkljOVFZOXZuNEN1WGhMUjFnRHE5YU5WWVh2SUxBYWJQbmN0aWFFQ1hoa0RUR21xVUhjR21VYm9BdEtRWFk0ZTN5OVV6Uld5QU1CYVJsUWJBQUZQZkxfU0xOTERSYkh3?oc=5)).\n- **FL-07** (Lean R): reported won by Ryan Elijah (R), per the [Orlando Sentinel](https://news.google.com/rss/articles/CBMitwFBVV95cUxNWnRpN18tZWFNNWhabk1iT0FvM0paYW4wajRZZ19HZGJUczNWOVFwTUVlYk1ZbDY0OXpXSVVzUjN1WmRWZmtfOVBFNkZBSGRwN2Y3ZnFIdUprRjJWS29hUFZraXhVWmpURXBNQW1aUnFYamt6RHdDVzdONnd5c0RleEdyOTRObjhMRjdTWkpnY2dUWkNwM2tZM1YzV3p0Zm9ZbE5Ub0RVWXpkay1FZWg2R25UUm1XRnM?oc=5); not yet marked in the table.\n- **FL-27** (Lean R): the recount is set for Monday, the Miami-Dade supervisor of elections says ([NBC 6](https://news.google.com/rss/articles/CBMizwFBVV95cUxOTEFkT0pzMXRKSmdwVW5CWnc3QUlCQUUyTER6X3ZGTEo3YVF2THNqeU5OdEllN0JOazV0M043MjJEMW1rZHRWMHNQaDNmeEpWVnRCeUFVa1h1b1Y4UDRfeFFfQXdoZnd2R1ZjcWlUeF96ZFduS0lrLTg4aXhKSGxDbEhpaThtazdnaW5XZTAzbW16ZGxWSURnVTFJMXgtejhiOTY2WU1aZ0RCZi1XU2hfcUJHTks5Um1FWmQtUUFramMwVTJSdV9TUm5uNWVsdjjSAdcBQVVfeXFMTzFtTDZQVlliWlJsS0d0MnVEWmcyUl9mOVA0T0JESTMxSFVvMC16aVNCZ0lqTDRITHdHYUIxUGFpUUFKOU12V2lfQ1BPVC1xMUpoMVV0bG9SN3NfVmcwUERrT2dKRl9vMUwtMDloRFVGUlVfWFQ2YV9UOVZlSkNrTlMyRlhPeXQ0S01WV0dxLUFuVVZzdk9oWkFlS2xZemRsMzEyUnAwRUcyalJwQmJQb0VFY182Rllpc0tOcFpRUm1NMWRFVGxzdkFnVHczUnB6OEgzcTFubVE?oc=5)).\n- **NC-03** (Likely R): today's news query failed; the last reported count had Greg Murphy (R) ahead by 233 votes ([results table](https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections)).\n- **NC-05** (Likely R): Virginia Foxx (R) trailed Chuck Hubbard (D) by 99 votes in the last reported count, per [Carolina Public Press](https://news.google.com/rss/articles/CBMipAFBVV95cUxQcGlsWk1nRFlFLWRDTTJyWDhPVXh1VFU2enRMN0VhOGNtdm1NNE9kZzU1Q2p6cVJzX3RFMW42UmdzZEFBZVVaelBTRFlITHVOcm9sV1AtenZvSS1zYVJJc1VlcGZmUlZmZHhBaTlXaDZTZXFtYmszcUNhZEdRUExNemJ4a3hCeWJCZnVaUldmVlRPLWxMdmpoR1hrZVRPOXUxbDdmYQ?oc=5).\n- **WA-05** (Likely R): Michael Baumgartner (R) has claimed victory, but the race has not been officially called, per [KREM](https://news.google.com/rss/articles/CBMiiAJBVV95cUxPNDZsb05CTlctZ3g2cDBHaHdtNTNQUzAxcnRlRFliVC1idWRtU25OOUpCYTNoOTdOQkJwLWMzSEZ2NExmOWFlRUJJMFVJUGE2aXpsUkI3RzJMOEd2LUc3eEtvM0JoUnJ0QUFrc2dCRUNmckMyczE0ejZxSVJWNzlpM3FNQjM2V243SE44SjFMZDJSbTZCbkJxNUs0SE9lcERPaElKM3lmVGw5NkVuWWdmbUpoZ09mSnpzZ2R0UUR3S3ljM2ItYVRhUldvRDlEbnhpaV9DZjZlYlF0ay1ta3JiZndmREFDWUJ4UU9kRTBwZzUwR1kxdERpbWdCY2xPMWFGUUxKTElCRnU?oc=5).\n- **Safe seats:** 7 seats rated safe are not yet marked in the table. That is table lag, not close races ([full list](https://jakeworcester-byte.github.io/political-tracker/#results)).\n\n## Recounts and certification\n- **Florida:** the FL-27 recount is scheduled for Monday amid a pending lawsuit, CBS News reports ([CBS](https://news.google.com/rss/articles/CBMimwFBVV95cUxOckJSZFJPbkpZUk9EbXhyNFZYcFdUazE5dUFQVEY0eHpoRkxHUHZZYnNYRU5KYkhaSzdkRjVwVFJIY0w3V1ZxbnNPdnFFSkRsU0c1cVhnd3Z4eXl1VGdvMXNTOUo4WWpsM3h3MWRPZ0l3ODRGZERGUGhGbHJTYTBOek0zeGJIbnVZVWFsLVpyWnBVZm9zaUF1VWgxUQ?oc=5)).\n- **Minnesota:** Finstad has requested a recount in MN-01 even after the table marked the race for Johnson ([New Ulm Journal](https://news.google.com/rss/articles/CBMihAFBVV95cUxQRG4zTUdmSnBRQkN0UTBUd1U1Y1MxOFhKYmdERXRDeURNb1V4azF5ZFQ3OHJVSHFHWGpJc0U0bVRuNUpDMXF2dTlDYUVNZG5kWFBYdDlPRWROQzZvSno1bHlxYnpuZWIzd3BYQ1RQVkhiWTAxaU5SdWlQU3FBdk9FWlMyOHk?oc=5)).\n- **Colorado:** the Boebert campaign expects a recount in CO-04 ([KDVR](https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbndFYnNhX09RSEpta0VoVkwzQ0Q0RFRNMnZWNE9DUERQNG4tb0ZuQ3NFdDFFVHlCd09NbDVoVm9qYXpfenV0UW9mYUs4dlRWT3JSWFotWFNmdjFuM3V3ejRpd0VXSldWODJMeFJSd3hyUDVHQ2xxZ0ZqMTktbHpvaUI2TmI3N0ROMFpuUlF0cHppdWlEa0E0aHlGbFFhSHpqRUJjakFEOUxRWFI2T1NvX1hXQ3dUOTlqeHlKXzFIMHhTQdIBxwFBVV95cUxOZGpkQWRTLTFrb0F2cGVJQ1F2VWMwV3BLb1VtcENvUTVuVkstRXNXYThGb0dLXzFzMGtTdkhNcGYtMHlXLTRuRDNfMThNZks2QkRXLTN1LW1uRHBwdWs0T1dkY0Qtek16UkljOVFZOXZuNEN1WGhMUjFnRHE5YU5WWVh2SUxBYWJQbmN0aWFFQ1hoa0RUR21xVUhjR21VYm9BdEtRWFk0ZTN5OVV6Uld5QU1CYVJsUWJBQUZQZkxfU0xOTERSYkh3?oc=5)).\n\n## Legal and federal action\n- **Florida:** in Rodriguez v. Garcia (S.D. Fla.), the federal case over the FL-27 recount, a response opposing a motion was filed Nov. 8 with two exhibits ([CourtListener](https://www.courtlistener.com/docket/75084109/rodriguez-v-garcia-et-al/)).\n- **Alaska:** Mary Peltola's (D) campaign sued for records on rejected absentee ballots, Reuters reports ([Reuters](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb2Y0QkZDU3lpQXJjc2ZuYWlvT3lMM0wyTDFqZkI5Q3VWS1dycnhHaElwLU9NeVJ2Y1MzaVVCb1EzZlU4U2RadjVYZHo1cGV1eFZYYWsySW9vZ3ZnbWxYc2JXODhsVHlrYko1VmZEV29WY1hoYXJyUVNZbnhXOTdIZGU1U0xqb3gxS2VwWDh4Rnk2NVFUMHlmU0Fqa3RpZk5lclhld1JRdmRZcWJlbmVIR29IX0w4YjRqaV9V?oc=5)).\n- **Washington state:** a judge ruled federal officials cannot force Washington to set aside alleged noncitizen ballots, The Seattle Times reports ([Seattle Times](https://news.google.com/rss/articles/CBMivwFBVV95cUxNTzY1YjlrXzBmdi1iWDFQUFZ2Um5GN1I2OWswVnl2aFlHNXV3QXVndWJuYzFMWHo5dG04RGFILUVfVi1ERGZUQWl6R3pyRXAyNXhzMjlFcDVBVk5nT0ZEOVJONlVqenVIZjZ1bkhTRlA2TjNoSVdwaEZDX2tmNWlZQkdSNk9USTc4ZnRJV1ljQ3BYMXVLdkdyX0tmT3ZLeFNoNFplLUdxWXVmc2VuZVA1UFVRemZMUm1kRmRUM0tVYw?oc=5)).\n\n## Lessons learned\nFrom the tracker's scorecard, which compares each forecaster's final pre-election rating with races marked called ([scorecard](https://jakeworcester-byte.github.io/political-tracker/#results)):\n- **Forecasters:** the consensus rating was right in 133 races and wrong in 18, and every miss went toward Democrats, among them NV-02, FL-09, MN-01 and NC-06, a seat rated Solid R. Of the 16 races the consensus called a Tossup, Democrats won 15.\n- **Who did best:** RealClearPolling had the highest hit rate on non-tossup calls (94.2%), but it left 29 races as Tossups; among outlets that rated nearly every race, Silver Bulletin (90.6%) and Split Ticket (91.0%) led. The Economist (86.1%) and Inside Elections (86.8%) trailed.\n- **Markets:** Polymarket's final prices gave Democrats 94.5% for the House and 76.5% for the Senate; Democrats won both.\n- **Polls:** too few called races have vote shares in the table to judge yet (one so far).\n\n## Coverage note\n- **Parser:** the results tables parsed (435 House, 35 Senate) and the parser check is healthy.\n- **News errors:** 2 of 17 race news queries failed (HTTP 503 from Google News), so AZ-02 and NC-03 have no fresh lead.\n- **Court records:** CourtListener used (3 requests; 24 election dockets and 1 opinion).\n- **Scorecard:** ready; vote shares are still sparse, so the poll check will fill in over the coming days.\n\nhttps://jakeworcester-byte.github.io/political-tracker/#results",
+  "published_at": "2026-11-09T11:18:26.178854+00:00",
   "checks": []
  },
  "_previous_snapshot": {
-  "run_date": "2026-11-07",
+  "run_date": "2026-11-08",
   "national": {
    "generic_ballot": {
     "average_margin": -8.6,
@@ -19742,7 +19762,7 @@
     ],
     "source": "aggregates",
     "latest_poll_date": "2026-11-02",
-    "days_since_latest_poll": 5,
+    "days_since_latest_poll": 6,
     "polls_stale": false,
     "aggregates": [
      {

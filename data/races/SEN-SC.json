@@ -23,7 +23,7 @@
   "fpo": {
    "rating": "Lean R",
    "flip": false,
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -248,18 +248,34 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-08",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "Yahoo",
+   "lean": "unrated",
+   "title": "Ralph Norman says he could have beaten Annie Andrews in South Carolina",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbml3MGFxMHg5U0VZZU83S21zZzl5Q0I1ZDBSRzNSdGhtcWpDbGdtRkIyLS1VTW1IYkpvR19NYzBDMkFxUHAzdUFsXy1QdkZZMHlCdHp4X2dyOHZTMjNId05LeUw0cE93YkNhUXRnVVRjc2NXMkVQT1ZRSzRicDVCUlNZX0hDZGRXeGZEdVRXZlBPUmtL?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-07",
    "race": "SEN-SC",
    "races": [
     "SEN-SC"
    ],
    "type": "reporting",
-   "source": "New York Times Politics",
-   "lean": "center-left",
+   "source": "The New York Times",
+   "lean": "unrated",
    "title": "South Carolina Republicans Fracture Over Stunning Defeat of Darline Graham",
-   "url": "https://www.nytimes.com/2026/11/07/us/politics/darline-graham-loss-blame.html",
-   "summary": "Some blamed President Trump for backing the novice candidate after the death of her brother, Lindsey Graham. Others accused Mr. Graham’s team of pushing her to run despite her lack of experience.",
-   "relevant": true
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVVpOdXFmY3dCRHRLYnNzZ19SVjJnc1BaeldRWW44dFNhVHg1Z1dtTzVuZkhwSm9iZUxWOF9acGdOR2d3SFd5c2NfdVI3Vi13OEtJS1R3cDdUcnVhUDY4S1JfZktmX050ZEFwTEtqNXdpN25mZGY2eWxhTGxvSk84cUVQcw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
   },
   {
    "date": "2026-11-07",
@@ -272,66 +288,6 @@
    "lean": "unrated",
    "title": "South Carolina U.S. Senate Election 2026 Live Results: Annie Andrews Wins",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVdjMjRyMzN2S2RTc1poUU1zaXV1NjR6UGZzM1ZLcGVhUW81WkVWR0E2Wmt3QTMwOVpCNlQxa1JlMHBzLTFySnB1T3lSLXVzRWhOTUlINTZMNnFIUDZEZjBTTDVRaWxRYy1fZ25OdHlNSGY3TDQ1UUFwUm1vdkhtWU5ZNA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-04",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "South Carolina U.S. Senate 2026: Live Midterm Election Results, Graham vs. Andrews",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZkpQelZ3MWk2a2RoeFZFZWVYQTBLbURPRjZXLVU0d2V4bzRQS3ZRSklMcU1yN3FWVWtlcF9PQzBDbTB5VHpERnZsUDZaaDRnOHpZTkpubUpQajNYamgyMTkxdHRCSDNyclk2dzdtSTJ6ZTd1R1NrVkYwNEVYS1hmRHFEVHY4empmcDFOY3V2RkdwT3dCMF8xc2hNR0dyUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-04",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "PBS",
-   "lean": "unrated",
-   "title": "AP Voter Poll: Senate voters in South Carolina have doubts about Darline Graham's experience",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNS3RnZXZqbEU4a0hwRUVCSmpnSEdYQzhxUEIwUXBrTzR4YWRKbVNVNnhVT3RZeWJDbmNNcTlGX0JwbnNOX0ZjVzM5aEh3UmlQTUZVZklkZktOUC04TnBNaDNmcDVQUFQ5MEYzblktVVA4d2otRG1ZaFd6bUhab3FMU2RfT2lJUnN5eGJWcTZmdW9RcmxpU2FMVkJWTmk4ME1JVGJNemhlUUtpc3JqdWxEenlaYU5qeUVHbzZEemltZDRKdHZNSmhJ0gHMAUFVX3lxTE1nT25Jel9vZFBzbHhoSlU1Z1lCZGQ0ejVWdGIwZHF2Q0hERVNWUTEtMlBrUndVVGw2UzBsSmlRNFhMTXlTUUpvRy1HUGVCNzRxd3c2Wm50Y2Z1aDIzSHpuOFlqTmhLZEFZMG9BclJsRTVQMHdmUWY3QXp1Wl9hLUtYNWtVTjhSUW9NS0MwMnZ0d24zMUMzTm5rZndhbWlCODNVa0tMVk5jc0hHYk9aV0hrZktfU3lOSXpmbklEM0s0SHNYQTJOOEdrODQ3aQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-04",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "NPR",
-   "lean": "unrated",
-   "title": "Democrat Annie Andrews wins South Carolina Senate race in major upset",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRV9PR0lYWUhzN2VKZTdFbFFMcVVqSHd0d3p4bDV1eWl3Y3E3NkVURlktcFFDTk9RTUdBZGFtZHVIQXo2aHNGM3BRSEhrZ2FHbUswYnRzMU1NdEVNSC1hOWRobGVYcW1LQ1dUQllwVVluRXE5YTZqZVphZ3dhSmZSekNwd0YtQzFTYlgzUg?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-03",
-   "race": "SEN-SC",
-   "races": [
-    "SEN-SC"
-   ],
-   "type": "reporting",
-   "source": "PBS",
-   "lean": "unrated",
-   "title": "Live Results: Annie Andrews wins Senate race in South Carolina",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQmxqOFNlb1pMR3Q1ZmdqQXhycEQ1eXFIU0tfUnZEbDJsZmRjMGtaTXhtZDZkNUNxcDhGT2VRUVVTVGRZMk5OcnNSLTVxeTRvMjI2X2d3bE5CMlh5RzRhN0dBcjI2M1lUYmY1b1FaOWtMS3B5NHh4Ui1jYkJlN0lvR1RNTFNQbFZjUXVjLVhRS0x3MUnSAZgBQVVfeXFMT2RTTlM5U04wYkdCVW1PN3EzN096REdyVTRiaU9oUWdWMVVJbkpDLUM1V0FYNkItbmVNYjVnaXNtNlNfcjZMWVU1b3BidWpGNW5LWnJuOGt2bGJxRERkWlk2TnIyTFFWeGYxM3BpVlBtNG0yNGd4QVU2eGZEd2pZck5fdlp4enN1cUdFaWRpdVloMnlIU2JjdlI?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -481,6 +437,11 @@
   },
   {
    "date": "2026-11-08",
+   "c": 2,
+   "p": 1.1
+  },
+  {
+   "date": "2026-11-09",
    "c": 2,
    "p": 1.1
   }

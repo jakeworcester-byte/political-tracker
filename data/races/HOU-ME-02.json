@@ -88,38 +88,7 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-ME-02",
-   "races": [
-    "HOU-ME-02"
-   ],
-   "type": "reporting",
-   "source": "The Maine Monitor",
-   "lean": "unrated",
-   "title": "Why Paul LePage’s likely victory in Maine’s 2nd District still needs a ranked-choice count",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDSmdEU1JUMTZLUUxjaWNBbmF0OXBjV3ZfTEgwOGU2R2hpajdXdlBudnA3OUI1Y1IyeWptS0FIeXdzMFk5R2xRNjBIYmdoa3JldUp5WkJlRmdHZ081alJDaDJkWnBsSXlGU0Qwb042eFlENW5nTUgwWVhR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-05",
-   "race": "HOU-ME-02",
-   "races": [
-    "HOU-ME-02"
-   ],
-   "type": "reporting",
-   "source": "WMTW",
-   "lean": "unrated",
-   "title": "Dunlap concedes Maine's 2nd Congressional District race to LePage",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdVFjcHdBSEhRZHFvbjZKVVZwTV9GWHZPWjRlSFF5LW1fQmJMTHZpRkUtemVobU5RZDVaTmFKbzJzU2l5RC1WWGZINEJ3bVgxcjVHVTNRQmxwTEpuTWh1WmlhREdhRTQ0Y1dUZXp1bHEyYXQ5SjNnajRmbzFSa1AxcHZDenUtMjFTRDRNLW1RRjcxZw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-ME-02",
  "history": [
   {
@@ -264,6 +233,11 @@
   },
   {
    "date": "2026-11-08",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-11-09",
    "c": 0,
    "p": null
   }
