@@ -92,38 +92,7 @@
  "poll": null,
  "raw_poll_count": 9,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-04",
-   "race": "HOU-AK-AL",
-   "races": [
-    "HOU-AK-AL"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Alaska At-Large Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOczJRTWVvXzFLWkFQYUszemZISEgwWWRyTE5SbFdlYzJyVnAtaVVieUVaVHBudnVFaGpYblZ0SFRuVThGaHZ0bHdUUjBoLWJUZmJwOVVXY2JjNkJDY3hOb19MdnhpaWlPZlNISWtrRzZ4a1BwakNoSmNHOUt0VXdhTnotNGpLNmUzWGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-04",
-   "race": "HOU-AK-AL",
-   "races": [
-    "HOU-AK-AL"
-   ],
-   "type": "reporting",
-   "source": "Alaska Beacon",
-   "lean": "unrated",
-   "title": "Alaska Republican incumbent Rep. Nick Begich III has big lead for state’s lone US House seat",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN3QyUnJRN1p0dkFoblJqeF8xMWE3dWlkREFseld6M2VUT25WemdlV3F3RzJZTXg3bko2WDRVOEVhUkd1YkJlMS1tY2lVUXVNZVFLSy1ONXlqM1llNnZJRFVsTUlXNnp5b1BsQTBiRTloM29SV3owaWF2NDluRmZoRnRKaE44anhyRHFXLTRNYjVtZ2t5S0tsVkF0R2I5dGxPNngtZGlFU1dra2o3djU3QlRiU1lwdjVSTjRDZEdPOA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AK-AL",
  "history": [
   {
@@ -268,6 +237,11 @@
   },
   {
    "date": "2026-11-08",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-09",
    "c": 2,
    "p": null
   }

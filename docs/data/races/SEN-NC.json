@@ -21,9 +21,9 @@
    "name": "The Economist"
   },
   "fpo": {
-   "rating": "Likely D",
+   "rating": "Solid D",
    "flip": true,
-   "as_of": "2026-11-02",
+   "as_of": "2026-11-03",
    "name": "FiftyPlusOne"
   },
   "fox": {
@@ -92,7 +92,7 @@
   "R": []
  },
  "poll": null,
- "raw_poll_count": 25,
+ "raw_poll_count": 24,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NC",
@@ -239,6 +239,11 @@
   },
   {
    "date": "2026-11-08",
+   "c": -3,
+   "p": null
+  },
+  {
+   "date": "2026-11-09",
    "c": -3,
    "p": null
   }
