@@ -54,7 +54,7 @@
       const r = await fetch(dataUrl("latest.json"), { cache: "no-store" });
       if (!r.ok) throw new Error(`latest.json ${r.status}`);
       DATA = await r.json();
-      fetch(dataUrl("history.json"), { cache: "no-store" }).then(x => x.ok ? x.json() : []).then(h => { HISTORY = h; if (location.hash.startsWith("#national") || !location.hash || location.hash === "#overview") route(); }).catch(() => {});
+      fetch(dataUrl("history.json"), { cache: "no-store" }).then(x => x.ok ? x.json() : []).then(h => { HISTORY = h; if (location.hash.startsWith("#national") || location.hash === "#pre") route(); }).catch(() => {});
       $footMeta.textContent = `Data as of ${new Date(DATA.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}. Ratings compiled from the forecasters' published tables via Wikipedia; polls from VoteHub; markets from Polymarket. Built with Claude Code.`;
       route();
     } catch (e) {
@@ -74,18 +74,184 @@
     switch (view) {
       case "brief": setTab("brief"); return renderBrief();
       case "briefs": setTab("brief"); return renderBriefArchive(arg);
-      case "senate": setTab("senate"); return renderChamber("Senate");
-      case "house": setTab("house"); return renderChamber("House");
-      case "race": setTab(arg && arg.startsWith("SEN") ? "senate" : "house"); return renderRace(arg);
-      case "national": setTab("national"); return renderNational();
-      case "early": setTab("early"); return renderEarlyVote();
+      case "pre": setTab("pre"); return renderPreElection();
+      case "senate": setTab("pre"); return renderChamber("Senate");
+      case "house": setTab("pre"); return renderChamber("House");
+      case "race": setTab("pre"); return renderRace(arg);
+      case "national": setTab("pre"); return renderNational();
+      case "early": setTab("pre"); return renderEarlyVote();
       case "results": setTab("results"); return renderResults();
       case "about": setTab("about"); return renderAbout();
       default: setTab("overview"); return renderOverview();
     }
   }
 
-  // ------------------------------------------------------------------ overview
+  // ------------------------------------------------------------------ overview: results dashboard
+  async function loadResults() {
+    if (!RESULTS) { try { const r = await fetch(dataUrl("results.json"), { cache: "no-store" }); RESULTS = r.ok ? await r.json() : null; } catch (e) { RESULTS = null; } }
+    if (!SCORE) { try { const r = await fetch(dataUrl("scorecard.json"), { cache: "no-store" }); SCORE = r.ok ? await r.json() : null; } catch (e) { SCORE = null; } }
+  }
+
+  // Parliament-style arc: one dot per seat, groups fill left to right as wedges.
+  function hemicycle(groups, total, rows, aria) {
+    const cx = 100, cy = 100, R1 = 96, R0 = rows > 6 ? 34 : 44;
+    const radii = Array.from({ length: rows }, (_, i) => R0 + (R1 - R0) * i / (rows - 1));
+    const sumR = radii.reduce((a, b) => a + b, 0);
+    const counts = radii.map(r => Math.floor(total * r / sumR));
+    let rest = total - counts.reduce((a, b) => a + b, 0);
+    for (let i = rows - 1; rest > 0; i = (i - 1 + rows) % rows, rest--) counts[i]++;
+    const pts = [];
+    radii.forEach((r, i) => { const n = counts[i]; for (let j = 0; j < n; j++) { const a = Math.PI * (1 - (n === 1 ? 0.5 : j / (n - 1))); pts.push({ x: cx + r * Math.cos(a), y: cy - r * Math.sin(a), a }); } });
+    pts.sort((p, q) => q.a - p.a || p.y - q.y);
+    const gap = Math.min((R1 - R0) / (rows - 1), Math.PI * R0 / (counts[0] - 1));
+    const dr = (gap * 0.42).toFixed(2);
+    let k = 0;
+    const g = groups.map(gr => { const dots = pts.slice(k, k + gr.n); k += gr.n; return `<g class="${gr.cls}"><title>${esc(gr.label)}: ${gr.n}</title>${dots.map(p => `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="${dr}"/>`).join("")}</g>`; }).join("");
+    return `<svg class="hemi" viewBox="0 -1 200 107" role="img" aria-label="${esc(aria)}">${g}<line x1="100" x2="100" y1="0" y2="6" class="maj"/></svg>`;
+  }
+
+  // Tile map: one square per state, roughly in geographic position.
+  const TILES = { AK: [0, 0], ME: [10, 0], VT: [9, 1], NH: [10, 1], WA: [0, 2], ID: [1, 2], MT: [2, 2], ND: [3, 2], MN: [4, 2], IL: [5, 2], WI: [6, 2], MI: [7, 2], NY: [8, 2], RI: [9, 2], MA: [10, 2],
+    OR: [0, 3], NV: [1, 3], WY: [2, 3], SD: [3, 3], IA: [4, 3], IN: [5, 3], OH: [6, 3], PA: [7, 3], NJ: [8, 3], CT: [9, 3],
+    CA: [0, 4], UT: [1, 4], CO: [2, 4], NE: [3, 4], MO: [4, 4], KY: [5, 4], WV: [6, 4], VA: [7, 4], MD: [8, 4], DE: [9, 4],
+    AZ: [1, 5], NM: [2, 5], KS: [3, 5], AR: [4, 5], TN: [5, 5], NC: [6, 5], SC: [7, 5], OK: [3, 6], LA: [4, 6], MS: [5, 6], AL: [6, 6], GA: [7, 6], HI: [0, 7], TX: [3, 7], FL: [8, 7] };
+  function govClass(v) {
+    if (!v) return "none";
+    if (!v.up) return v.party === "D" ? "d-old" : v.party === "R" ? "r-old" : "o-old";
+    if (!v.called || !v.winner) return "unc";
+    return v.winner.party === "D" ? "d-new" : v.winner.party === "R" ? "r-new" : "o-new";
+  }
+  function govLine(abbr, v) {
+    if (!v) return "";
+    const rating = v.final_rating ? ` Final pre-election rating: ${v.final_rating}.` : "";
+    if (!v.up) return `<b>${esc(v.state)}</b>: no race this year. Gov. ${esc(v.governor)} (${esc(v.party)}).`;
+    if (!v.called || !v.winner) return `<b>${esc(v.state)}</b>: not yet called.${v.leader && v.margin_pts != null ? ` ${esc(v.leader.name)} (${esc(v.leader.party)}) leads by ${v.margin_pts} points in the results table.` : ""}${rating}`;
+    return `<b>${esc(v.state)}</b>: ${esc(v.winner.name)} (${esc(v.winner.party)}) won${v.flip ? `, a flip from ${esc(v.incumbent_party)}` : ""}.${rating}`;
+  }
+  function govMap(G) {
+    const st = G.states || {};
+    const cells = Object.entries(TILES).map(([a, [c, r]]) => {
+      const v = st[a]; const cls = govClass(v);
+      return `<g class="tile ${cls}${v && v.flip ? " flip" : ""}" data-st="${a}" tabindex="0"><title>${govLine(a, v).replace(/<[^>]+>/g, "")}</title><rect x="${c * 20 + 1}" y="${r * 20 + 1}" width="18" height="18" rx="3"/><text x="${c * 20 + 10}" y="${r * 20 + 13.5}">${a}</text></g>`;
+    }).join("");
+    return `<svg class="tiles" viewBox="0 0 220 160" role="img" aria-label="Governors by state">${cells}</svg>`;
+  }
+
+  const SNAP_LABEL = s => { const d = new Date(s.slice(0, 10) + "T12:00:00"); return `${d.toLocaleDateString("en-US", { weekday: "short" })} ${s.endsWith("pm") ? "pm" : "am"}`; };
+  const gainCount = (races, chamber) => { const g = { D: 0, R: 0 }; Object.values(races).forEach(r => { if (r.chamber !== chamber || !r.called) return; if (/Democratic\S* gain/i.test(r.status_text)) g.D++; else if (/Republican\S* gain/i.test(r.status_text)) g.R++; }); return g; };
+
+  function projRows(P, actualD, uncalled) {
+    const vals = P.forecasters.map(f => f.D).concat([actualD, P.majority]);
+    const lo = Math.floor((Math.min(...vals) - 4) / 5) * 5, hi = Math.ceil((Math.max(...vals) + 4) / 5) * 5;
+    const X = v => `${(100 * (v - lo) / (hi - lo)).toFixed(2)}%`;
+    return `<div class="proj">
+      ${P.forecasters.map(f => `<div class="proj-row"><div class="proj-lab">${esc(f.forecaster)}</div><div class="proj-track"><span class="proj-maj" style="left:${X(P.majority)}"></span><span class="proj-act" style="left:${X(actualD)}"></span><span class="proj-dot" style="left:${X(f.D)}" title="${esc(f.forecaster)}: D ${f.D}, R ${f.R}${f.tossups != null ? `, ${f.tossups} tossups` : ""}"></span><span class="proj-val" style="left:${X(f.D)}">${f.D}</span></div></div>`).join("")}
+      <div class="proj-row proj-axis"><div class="proj-lab"></div><div class="proj-track"><span class="act" style="left:${X(actualD)}">${actualD} won${uncalled ? ` (${uncalled} not called)` : ""}</span><span class="maj" style="left:${X(P.majority)}">${P.majority} for majority</span></div></div>
+    </div>`;
+  }
+
+  async function renderOverview() {
+    $app.innerHTML = `<h1>Results</h1><div class="loading">Loading…</div>`;
+    await loadResults();
+    if (location.hash && location.hash !== "#overview") return;
+    if (!RESULTS) { $app.innerHTML = `<h1>Results</h1><div class="callout">Results are not available right now. <a href="#pre">See the pre-election picture →</a></div>`; return; }
+    const R = RESULTS, S = SCORE, h = R.house, s = R.senate, G = R.governors, races = R.races || {}, b = DATA.brief;
+    const ss = s.seats_secured || { D: 0, R: 0, I: 0 }, nu = s.not_up || { D: 0, R: 0 };
+    const sUnc = s.races - s.called, hUnc = h.races - h.called;
+    const sg = gainCount(races, "Senate"), hg = gainCount(races, "House");
+    const sBefore = { D: nu.D, R: nu.R };
+    Object.values(races).forEach(r => { if (r.chamber === "Senate") { if (r.incumbent_party === "R") sBefore.R++; else if (r.incumbent_party === "D" || r.incumbent_party === "I") sBefore.D++; } });
+    const net = g => g.D === g.R ? "no net change" : g.D > g.R ? `D net +${g.D - g.R}` : `R net +${g.R - g.D}`;
+    const senateSvg = hemicycle([
+      { n: nu.D, cls: "d-old", label: "Democrats, seats not up this year" }, { n: s.won.D + (s.won.I || 0), cls: "d-new", label: "Democrats, won Nov. 3" },
+      { n: sUnc, cls: "unc", label: "Not yet called" },
+      { n: s.won.R, cls: "r-new", label: "Republicans, won Nov. 3" }, { n: nu.R, cls: "r-old", label: "Republicans, seats not up this year" }], 100, 5, `Senate: Democrats ${ss.D}, Republicans ${ss.R}, ${sUnc} not called`);
+    const houseSvg = hemicycle([
+      { n: h.won.D, cls: "d-new", label: "Democrats, won" }, { n: hUnc, cls: "unc", label: "Not yet called" },
+      { n: h.won.R + (h.won.I || 0) + (h.won.Other || 0), cls: "r-new", label: "Republicans, won" }], 435, 12, `House: Democrats ${h.won.D}, Republicans ${h.won.R}, ${hUnc} not called`);
+    const gs = G ? G.seats_secured : null;
+    const P = S && S.projections;
+    const tl = (R.call_timeline || {}).snapshots || [];
+    const tlMax = Math.max(1, ...tl.map(t => t.new));
+    const unc = (R.uncalled_competitive || []).map(k => races[k]).filter(Boolean);
+    const govUnc = G ? Object.values(G.states).filter(v => v.up && !v.called) : [];
+    const upsets = S ? (S.upsets || []).concat((S.governors && S.governors.upsets) || []) : [];
+    const chamberOrder = { Senate: 0, Governor: 1, House: 2 };
+    upsets.sort((a, b2) => chamberOrder[a.chamber] - chamberOrder[b2.chamber]);
+    const legend = (items) => `<div class="legend">${items.map(([c, l]) => `<span><i class="sw ${c}"></i>${l}</span>`).join("")}</div>`;
+
+    $app.innerHTML = `
+      <h1>2026 midterm results</h1>
+      <p class="sub">Updated ${new Date(R.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}. Races count as called when Wikipedia's results tables mark them, following AP and the networks. We never call races ourselves. <a href="#results">Race-by-race detail →</a></p>
+
+      <div class="hero3">
+        <div class="card hero">
+          <div class="label">Senate · 51 for control</div>
+          <div class="hero-nums"><span class="dn">D ${ss.D}</span><span class="rn">R ${ss.R}</span></div>
+          ${senateSvg}
+          ${legend([["pair-new", "Won Nov. 3"], ["pair-old", "Not up this year"], ["unc", `Not called (${sUnc})`]])}
+          <div class="note">Before: D ${sBefore.D} · R ${sBefore.R}. Seats flipped: ${sg.D} to D, ${sg.R} to R.</div>
+        </div>
+        <div class="card hero">
+          <div class="label">House · 218 for control</div>
+          <div class="hero-nums"><span class="dn">D ${h.won.D}</span><span class="rn">R ${h.won.R}</span></div>
+          ${houseSvg}
+          ${legend([["d-new", "Democrat"], ["r-new", "Republican"], ["unc", `Not called (${hUnc})`]])}
+          <div class="note">Seats flipped: ${hg.D} to D, ${hg.R} to R (${net(hg)}), per the results table.</div>
+        </div>
+        <div class="card hero">
+          <div class="label">Governors · 50 states</div>
+          ${gs ? `<div class="hero-nums"><span class="dn">D ${gs.D}</span><span class="rn">R ${gs.R}</span></div>
+          ${govMap(G)}
+          ${legend([["pair-new", "Won Nov. 3"], ["pair-old", "Not up this year"], ["unc", `Not called (${G.uncalled})`], ["flip", "Flipped"]])}
+          <div class="note" id="gov-detail">Before: D ${G.before.D} · R ${G.before.R}. ${G.flips.length} flipped. Tap a state for detail.</div>` : `<div class="meta">Governor results are not available in this update.</div>`}
+        </div>
+      </div>
+
+      ${P ? `<h2>Forecasts vs. results</h2>
+      <p class="sub">Each dot is the number of seats a forecaster rated at least Tilt Democratic before Election Day. The solid line is the seats Democrats have won; the dashed line is the majority mark.</p>
+      <div class="two">
+        <div class="card"><div class="label">House: Democratic seats</div>${projRows(P.house, h.won.D, hUnc)}</div>
+        <div class="card"><div class="label">Senate: Democratic seats (incl. seats not up)</div>${projRows(P.senate, ss.D, sUnc)}</div>
+      </div>
+      ${S.markets ? `<p class="meta">Final pre-election market prices (Polymarket): ${S.markets.house.final_price_D}% for Democratic House control and ${S.markets.senate.final_price_D}% for Democratic Senate control. Control decided so far: House ${S.markets.house.control_decided || "not yet"}, Senate ${S.markets.senate.control_decided || "not yet"}.</p>` : ""}` : ""}
+
+      ${S && S.by_rating ? `<h2>What each rating turned out to mean</h2>
+      <p class="sub">House and Senate races grouped by the forecasters' final consensus rating, and who won them.</p>
+      <div class="card">${S.by_rating.map(x => { const n = x.D + x.R + x.Other + x.uncalled; const w = v => `${(100 * v / n).toFixed(1)}%`; return `<div class="rb-row"><div class="rb-lab">${pill(x.rating, "sm")}</div><div class="bar rb-bar" title="${esc(x.rating)}: ${x.D} D, ${x.R} R${x.uncalled ? `, ${x.uncalled} not called` : ""}"><span class="d" style="width:${w(x.D)}"></span><span class="unc" style="width:${w(x.uncalled + x.Other)}"></span><span class="r" style="width:${w(x.R)}"></span></div><div class="rb-num">${x.D} D · ${x.R} R${x.uncalled ? ` · ${x.uncalled} out` : ""}</div></div>`; }).join("")}
+      ${legend([["d-new", "Democrat won"], ["r-new", "Republican won"], ["unc", "Not called"]])}</div>` : ""}
+
+      ${upsets.length ? `<h2>Upsets: the favored party lost (${upsets.length})</h2>
+      <div class="table-scroll"><table class="ratings"><thead><tr><th>Race</th><th>Final rating</th><th>Winner</th></tr></thead>
+      <tbody>${upsets.map(u => `<tr><td>${esc(u.name)}<div class="meta">${esc(u.chamber)}</div></td><td>${pill(u.final_rating, "sm")}</td><td>${esc(u.winner)} ${partyPill(u.party)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="meta">An upset here means the race was rated Tilt or stronger for one party and the other party won. Races the consensus rated Tossup are not counted.</p>` : ""}
+
+      ${S && S.forecasters ? `<h2>How each forecaster did</h2>
+      <div class="table-scroll"><table class="ratings"><thead><tr><th>Forecaster</th><th>Right</th><th>Wrong</th><th>Tossups</th><th>Accuracy</th></tr></thead>
+      <tbody>${S.forecasters.map(f => `<tr><td>${esc(f.forecaster)}</td><td>${f.right}</td><td>${f.wrong}</td><td>${f.tossups}</td><td><b>${f.accuracy_pct == null ? "n/a" : f.accuracy_pct + "%"}</b></td></tr>`).join("")}</tbody></table></div>
+      <p class="meta">House and Senate races called so far. Accuracy is right ÷ (right + wrong); Tossup ratings are set aside. ${S.governors ? `Governors, consensus rating: ${S.governors.right} right, ${S.governors.wrong} wrong, ${S.governors.tossup} Tossup.` : ""}</p>` : ""}
+
+      ${tl.length ? `<h2>How the calls came in</h2>
+      <p class="sub">Competitive House and Senate races newly marked called at each update: ${tl[tl.length - 1].competitive_called} of ${R.call_timeline.competitive_total} called so far.</p>
+      <div class="card"><div class="cols">${tl.map(t => `<div class="col" title="${SNAP_LABEL(t.snapshot)}: ${t.new} newly called, ${t.competitive_called} total"><div class="col-n">${t.new}</div><div class="col-bar" style="height:${Math.max(2, 100 * t.new / tlMax)}%"></div><div class="col-lab">${SNAP_LABEL(t.snapshot)}</div></div>`).join("")}</div></div>` : ""}
+
+      <h2>Still out</h2>
+      <div class="card"><ul class="list">${unc.map(r => `<li><div class="item-title">${esc(r.name)} ${r.final_rating ? pill(r.final_rating, "sm") : ""}</div><div class="item-meta">${esc(r.chamber)}${r.margin_pts != null && r.leader ? ` · ${esc(r.leader.name)} (${esc(r.leader.party)}) leads by ${r.margin_pts} pts in the table` : ""}</div></li>`).join("")}${govUnc.map(v => `<li><div class="item-title">${esc(v.state)} governor ${v.final_rating ? pill(v.final_rating, "sm") : ""}</div><div class="item-meta">Governor${v.leader && v.margin_pts != null ? ` · ${esc(v.leader.name)} (${esc(v.leader.party)}) leads by ${v.margin_pts} pts in the table` : ""}</div></li>`).join("") || '<li class="meta">Every competitive race has been called.</li>'}</ul>
+      <p class="meta" style="margin:8px 0 0"><a href="#results">Latest reporting on each race →</a></p></div>
+
+      ${b ? `<h2>Latest brief</h2><div class="brief">${md(b.markdown.split(/\n## /).slice(0, 2).join("\n## "))}<p><a class="btn" href="#brief">Read the full brief →</a></p></div>` : ""}
+
+      <div class="callout" style="margin-top:18px">Looking for the final ratings, polls, markets, and early vote? <a href="#pre">See the pre-election picture →</a></div>
+      <p class="meta" style="margin-top:12px">Sources: <a href="${esc(R.sources.house)}" target="_blank" rel="noopener">House</a>, <a href="${esc(R.sources.senate)}" target="_blank" rel="noopener">Senate</a>${G && G.sources.results ? `, <a href="${esc(G.sources.results)}" target="_blank" rel="noopener">governor</a>` : ""} results tables on Wikipedia${G && G.sources.not_up ? `; governors not up this year from Wikipedia's <a href="${esc(G.sources.not_up)}" target="_blank" rel="noopener">list of current governors</a>` : ""}. Forecaster ratings as published before Election Day.</p>`;
+
+    const det = document.getElementById("gov-detail");
+    if (det && G) $app.querySelectorAll(".tiles .tile").forEach(t => {
+      const show = () => { $app.querySelectorAll(".tiles .tile.sel").forEach(x => x.classList.remove("sel")); t.classList.add("sel"); det.innerHTML = govLine(t.dataset.st, G.states[t.dataset.st]); };
+      t.addEventListener("click", show); t.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); show(); } });
+    });
+  }
+
+  // ------------------------------------------------------------------ pre-election overview (archive)
   function controlCard(label, m, extra) {
     if (!m || m.D == null) return `<div class="card"><div class="label">${label}</div><div class="big">n/a</div><div class="note">market unavailable</div></div>`;
     const lead = m.D >= 50 ? `D ${pct(m.D)}` : `R ${pct(m.R)}`;
@@ -93,7 +259,8 @@
       <div class="note">${extra || ""}<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.source)}</a> implied probability</div></div>`;
   }
 
-  function renderOverview() {
+  const PRE_NAV = () => `<div class="filters subnav"><a href="#pre" class="${location.hash === "#pre" ? "on" : ""}">Summary</a><a href="#senate" class="${location.hash === "#senate" ? "on" : ""}">Senate</a><a href="#house" class="${location.hash === "#house" ? "on" : ""}">House</a><a href="#national" class="${location.hash === "#national" ? "on" : ""}">Electorate</a><a href="#early" class="${location.hash === "#early" ? "on" : ""}">Early vote</a></div>`;
+  function renderPreElection() {
     const n = DATA.national, ov = DATA.overview, s = ov.senate, b = DATA.brief;
     const senate = DATA.races.filter(r => r.chamber === "Senate");
     const house = DATA.races.filter(r => r.chamber === "House");
@@ -101,8 +268,9 @@
     const movers = DATA.movers || [];
     const watch = DATA.races.filter(r => r.tracked).sort((a, b) => Math.abs(a.consensus_score) - Math.abs(b.consensus_score) || (b.signal_count - a.signal_count)).slice(0, 6);
     $app.innerHTML = `
-      <h1>State of play</h1>
-      <p class="sub">Updated ${fmtDate(DATA.run_date)} · what forecasters, polls, and markets say today. <a href="#about">Not a forecast.</a></p>
+      <h1>Before the election</h1>
+      ${PRE_NAV()}
+      <p class="sub">Archive of the pre-election picture: the forecasters' final published ratings and the last market and poll readings the tracker collected. <a href="#overview">Results dashboard →</a></p>
       <div class="cards">
         ${controlCard("Senate control", n.markets.senate)}
         ${controlCard("House control", n.markets.house)}
@@ -123,12 +291,10 @@
         <p class="meta" style="margin:8px 0 0"><a href="#house">${ov.house.tracked} competitive seats tracked →</a></p>
       </div>
 
-      ${b ? `<h2>Today's brief</h2><div class="brief">${md(b.markdown.split(/\n## /)[0])}<p><a class="btn" href="#brief">Read the full brief →</a></p></div>` : `<h2>Today's brief</h2><div class="callout">The morning brief has not been published yet today.</div>`}
-
       <h2>What moved</h2>
       ${movers.length ? `<ul class="list">${movers.map(m => `<li><div class="item-title">${esc(m.name)} <span class="pill gray sm">${esc(m.type)}</span></div><div class="item-meta">${esc(m.text)} · ${m.url ? `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.source)}</a>` : esc(m.source)}</div></li>`).join("")}</ul>` : `<div class="callout">No rating, polling-average, or market change crossed a reporting threshold since the last run.</div>`}
 
-      <h2>Races to watch</h2>
+      <h2>Races to watch (final ratings)</h2>
       <div class="race-grid">${watch.map(raceCard).join("")}</div>
     `;
   }
@@ -171,6 +337,7 @@
     const b = bucketCounts(all);
     $app.innerHTML = `
       <h1>${ch} ${ch === "Senate" ? "races" : "battlefield"}</h1>
+      ${PRE_NAV()}
       <p class="sub">${ch === "Senate" ? "All 35 seats on the ballot, including the Florida and Ohio specials." : "Every district the forecasters rate as anything short of safe."} Consensus is the median of the forecasters' current ratings. Tap a race for detail.</p>
       <div class="card">${seatBar(b["Solid D"] + b["Likely D"], b["Lean D"] + b["Tilt D"], b["Tossup"], b["Lean R"] + b["Tilt R"], b["Solid R"] + b["Likely R"], all.length)}
         <div class="legend"><span><i style="background:var(--dem)"></i>Solid/Likely D ${b["Solid D"] + b["Likely D"]}</span><span><i style="background:color-mix(in srgb,var(--dem) 55%,var(--surface))"></i>Lean/Tilt D ${b["Lean D"] + b["Tilt D"]}</span><span><i style="background:var(--toss)"></i>Tossup ${b["Tossup"]}</span><span><i style="background:color-mix(in srgb,var(--rep) 55%,var(--surface))"></i>Lean/Tilt R ${b["Lean R"] + b["Tilt R"]}</span><span><i style="background:var(--rep)"></i>Solid/Likely R ${b["Solid R"] + b["Likely R"]}</span></div></div>
@@ -243,7 +410,8 @@
     const hist = (HISTORY || []).filter(h => h.generic_ballot != null);
     const mh = (HISTORY || []).filter(h => h.markets && h.markets.senate != null);
     $app.innerHTML = `
-      <h1>Where the electorate is</h1>
+      <h1>Where the electorate was</h1>
+      ${PRE_NAV()}
       <p class="sub">Generic ballot, presidential approval, and prediction markets. Generic ballot from the aggregators compiled on Wikipedia; polls from the VoteHub public feed; markets from Polymarket.</p>
       <div class="cards">
         <div class="card"><div class="label">Generic ballot</div><div class="big" style="color:${(gb.average_margin || 0) < 0 ? "var(--dem)" : "var(--rep)"}">${esc(gb.average_label)}</div><div class="note">${gbBasis(gb)}</div></div>
@@ -303,6 +471,7 @@
     if (!EARLY || !(EARLY.states || []).length) { $app.innerHTML = `<h1>Early vote</h1><div class="callout">No early vote data yet. It updates each morning during early voting.</div>`; return; }
     $app.innerHTML = `
       <h1>Early vote</h1>
+      ${PRE_NAV()}
       <p class="sub">Early ballots by party registration, compared with each state's registration and, where reported, the same point in a prior cycle. Updated each morning through Election Day.</p>
       <div class="callout"><strong>Read with care.</strong> ${esc(EARLY.caveat)} Mail ballots have skewed Democratic since 2020, so the change versus a prior cycle says more about enthusiasm than the raw gap.</div>
       <div class="ev-grid">${EARLY.states.map(s => evCard(s, (EARLY.history || {})[s.state])).join("")}</div>

@@ -1,12 +1,14 @@
 {
  "run_date": "2026-11-10",
  "edition": "am",
- "generated_at": "2026-11-10T11:11:45.603352+00:00",
+ "generated_at": "2026-11-10T13:37:33.093960+00:00",
  "previous_snapshot": "2026-11-09-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
-  "senate": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+  "senate": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+  "governors": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+  "governors_current": "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
  },
  "house": {
   "races": 435,
@@ -99,6 +101,869 @@
  "close_margins": [],
  "rated_safe_now_close": [],
  "reported_called": [],
+ "governors": {
+  "races": 36,
+  "called": 34,
+  "uncalled": 2,
+  "won": {
+   "D": 22,
+   "R": 12,
+   "I": 0,
+   "Other": 0
+  },
+  "not_up": {
+   "D": 6,
+   "R": 8,
+   "I": 0,
+   "Other": 0
+  },
+  "seats_secured": {
+   "D": 28,
+   "R": 20,
+   "I": 0,
+   "Other": 0
+  },
+  "before": {
+   "D": 24,
+   "R": 26,
+   "I": 0,
+   "Other": 0
+  },
+  "flips": [
+   {
+    "state": "GA",
+    "from": "R",
+    "to": "D",
+    "winner": "Keisha Lance Bottoms"
+   },
+   {
+    "state": "IA",
+    "from": "R",
+    "to": "D",
+    "winner": "Rob Sand"
+   },
+   {
+    "state": "NV",
+    "from": "R",
+    "to": "D",
+    "winner": "Aaron Ford"
+   },
+   {
+    "state": "OH",
+    "from": "R",
+    "to": "D",
+    "winner": "Amy Acton"
+   },
+   {
+    "state": "TX",
+    "from": "R",
+    "to": "D",
+    "winner": "Gina Hinojosa"
+   }
+  ],
+  "ratings_frozen_from": "2026-11-03",
+  "forecasters": [
+   "Cook Oct. 29, 2026",
+   "DDHQ Nov. 3, 2026",
+   "Fox Nov. 1, 2026",
+   "IE Oct. 29, 2026",
+   "NBC Nov. 3, 2026",
+   "RCP Nov. 1, 2026",
+   "Sabato Nov. 2, 2026",
+   "Silver Nov. 3, 2026"
+  ],
+  "sources": {
+   "results": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+   "not_up": "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+  },
+  "states": {
+   "AK": {
+    "up": true,
+    "state": "Alaska",
+    "incumbent": "Mike Dunleavy",
+    "incumbent_party": "R",
+    "called": false,
+    "winner": null,
+    "leader": {
+     "name": "Jonathan Kreiss-Tomkins",
+     "party": "D"
+    },
+    "margin_pts": 19.9,
+    "status_text": "Incumbent term-limited.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": false
+   },
+   "AL": {
+    "up": true,
+    "state": "Alabama",
+    "incumbent": "Kay Ivey",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Tommy Tuberville",
+     "party": "R",
+     "pct": 52.0
+    },
+    "leader": null,
+    "margin_pts": 4.0,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "AR": {
+    "up": true,
+    "state": "Arkansas",
+    "incumbent": "Sarah Huckabee Sanders",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Sarah Huckabee Sanders",
+     "party": "R",
+     "pct": 53.9
+    },
+    "leader": null,
+    "margin_pts": 15.3,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "AZ": {
+    "up": true,
+    "state": "Arizona",
+    "incumbent": "Katie Hobbs",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Katie Hobbs",
+     "party": "D",
+     "pct": 55.4
+    },
+    "leader": null,
+    "margin_pts": 12.6,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Likely D",
+    "final_score": -3,
+    "flip": false
+   },
+   "CA": {
+    "up": true,
+    "state": "California",
+    "incumbent": "Gavin Newsom",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Xavier Becerra",
+     "party": "D",
+     "pct": 64.6
+    },
+    "leader": null,
+    "margin_pts": 29.2,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "CO": {
+    "up": true,
+    "state": "Colorado",
+    "incumbent": "Jared Polis",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Phil Weiser",
+     "party": "D",
+     "pct": 60.8
+    },
+    "leader": null,
+    "margin_pts": 27.3,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "CT": {
+    "up": true,
+    "state": "Connecticut",
+    "incumbent": "Ned Lamont",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Ned Lamont",
+     "party": "D",
+     "pct": 59.3
+    },
+    "leader": null,
+    "margin_pts": 18.6,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "DE": {
+    "up": false,
+    "state": "Delaware",
+    "governor": "Matt Meyer",
+    "party": "D"
+   },
+   "FL": {
+    "up": true,
+    "state": "Florida",
+    "incumbent": "Ron DeSantis",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Byron Donalds",
+     "party": "R",
+     "pct": 50.0
+    },
+    "leader": null,
+    "margin_pts": 1.3,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Lean R",
+    "final_score": 2,
+    "flip": false
+   },
+   "GA": {
+    "up": true,
+    "state": "Georgia",
+    "incumbent": "Brian Kemp",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Keisha Lance Bottoms",
+     "party": "D",
+     "pct": 54.3
+    },
+    "leader": null,
+    "margin_pts": 8.6,
+    "status_text": "Incumbent term-limited. Democratic gain.",
+    "final_rating": "Tossup",
+    "final_score": 0,
+    "flip": true
+   },
+   "HI": {
+    "up": true,
+    "state": "Hawaii",
+    "incumbent": "Josh Green",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Josh Green",
+     "party": "D",
+     "pct": 72.6
+    },
+    "leader": null,
+    "margin_pts": 45.2,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "IA": {
+    "up": true,
+    "state": "Iowa",
+    "incumbent": "Kim Reynolds",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Rob Sand",
+     "party": "D",
+     "pct": 55.5
+    },
+    "leader": null,
+    "margin_pts": 11.0,
+    "status_text": "Incumbent retiring. Democratic gain.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": true
+   },
+   "ID": {
+    "up": true,
+    "state": "Idaho",
+    "incumbent": "Brad Little",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Brad Little",
+     "party": "R",
+     "pct": 57.1
+    },
+    "leader": null,
+    "margin_pts": 24.8,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "IL": {
+    "up": true,
+    "state": "Illinois",
+    "incumbent": "JB Pritzker",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "JB Pritzker",
+     "party": "D",
+     "pct": 59.8
+    },
+    "leader": null,
+    "margin_pts": 23.0,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "IN": {
+    "up": false,
+    "state": "Indiana",
+    "governor": "Mike Braun",
+    "party": "R"
+   },
+   "KS": {
+    "up": true,
+    "state": "Kansas",
+    "incumbent": "Laura Kelly",
+    "incumbent_party": "D",
+    "called": false,
+    "winner": null,
+    "leader": {
+     "name": "Cindy Holscher",
+     "party": "D"
+    },
+    "margin_pts": 0.6,
+    "status_text": "Incumbent term-limited.",
+    "final_rating": "Tilt R",
+    "final_score": 1,
+    "flip": false
+   },
+   "KY": {
+    "up": false,
+    "state": "Kentucky",
+    "governor": "Andy Beshear",
+    "party": "D"
+   },
+   "LA": {
+    "up": false,
+    "state": "Louisiana",
+    "governor": "Jeff Landry",
+    "party": "R"
+   },
+   "MA": {
+    "up": true,
+    "state": "Massachusetts",
+    "incumbent": "Maura Healey",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Maura Healey",
+     "party": "D",
+     "pct": 62.2
+    },
+    "leader": null,
+    "margin_pts": 27.7,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "MD": {
+    "up": true,
+    "state": "Maryland",
+    "incumbent": "Wes Moore",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Wes Moore",
+     "party": "D",
+     "pct": 62.8
+    },
+    "leader": null,
+    "margin_pts": 29.6,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "ME": {
+    "up": true,
+    "state": "Maine",
+    "incumbent": "Janet Mills",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Hannah Pingree",
+     "party": "D",
+     "pct": 54.5
+    },
+    "leader": null,
+    "margin_pts": 17.1,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "MI": {
+    "up": true,
+    "state": "Michigan",
+    "incumbent": "Gretchen Whitmer",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Jocelyn Benson",
+     "party": "D",
+     "pct": 54.5
+    },
+    "leader": null,
+    "margin_pts": 10.7,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": false
+   },
+   "MN": {
+    "up": true,
+    "state": "Minnesota",
+    "incumbent": "Tim Walz",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Amy Klobuchar",
+     "party": "D",
+     "pct": 55.5
+    },
+    "leader": null,
+    "margin_pts": 12.9,
+    "status_text": "Incumbent retired. Democratic hold.",
+    "final_rating": "Likely D",
+    "final_score": -3,
+    "flip": false
+   },
+   "MO": {
+    "up": false,
+    "state": "Missouri",
+    "governor": "Mike Kehoe",
+    "party": "R"
+   },
+   "MS": {
+    "up": false,
+    "state": "Mississippi",
+    "governor": "Tate Reeves",
+    "party": "R"
+   },
+   "MT": {
+    "up": false,
+    "state": "Montana",
+    "governor": "Greg Gianforte",
+    "party": "R"
+   },
+   "NC": {
+    "up": false,
+    "state": "North Carolina",
+    "governor": "Josh Stein",
+    "party": "D"
+   },
+   "ND": {
+    "up": false,
+    "state": "North Dakota",
+    "governor": "Kelly Armstrong",
+    "party": "R"
+   },
+   "NE": {
+    "up": true,
+    "state": "Nebraska",
+    "incumbent": "Jim Pillen",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Jim Pillen",
+     "party": "R",
+     "pct": 50.8
+    },
+    "leader": null,
+    "margin_pts": 8.6,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Likely R",
+    "final_score": 3,
+    "flip": false
+   },
+   "NH": {
+    "up": true,
+    "state": "New Hampshire",
+    "incumbent": "Kelly Ayotte",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Kelly Ayotte",
+     "party": "R",
+     "pct": 51.4
+    },
+    "leader": null,
+    "margin_pts": 4.3,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Likely R",
+    "final_score": 3,
+    "flip": false
+   },
+   "NJ": {
+    "up": false,
+    "state": "New Jersey",
+    "governor": "Mikie Sherrill",
+    "party": "D"
+   },
+   "NM": {
+    "up": true,
+    "state": "New Mexico",
+    "incumbent": "Michelle Lujan Grisham",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Deb Haaland",
+     "party": "D",
+     "pct": 57.3
+    },
+    "leader": null,
+    "margin_pts": 14.6,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "NV": {
+    "up": true,
+    "state": "Nevada",
+    "incumbent": "Joe Lombardo",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Aaron Ford",
+     "party": "D",
+     "pct": 51.5
+    },
+    "leader": null,
+    "margin_pts": 7.3,
+    "status_text": "Incumbent lost re-election. Democratic gain.",
+    "final_rating": "Tossup",
+    "final_score": 0,
+    "flip": true
+   },
+   "NY": {
+    "up": true,
+    "state": "New York",
+    "incumbent": "Kathy Hochul",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Kathy Hochul",
+     "party": "D",
+     "pct": 59.6
+    },
+    "leader": null,
+    "margin_pts": 19.4,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "OH": {
+    "up": true,
+    "state": "Ohio",
+    "incumbent": "Mike DeWine",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Amy Acton",
+     "party": "D",
+     "pct": 52.3
+    },
+    "leader": null,
+    "margin_pts": 7.9,
+    "status_text": "Incumbent term-limited. Democratic gain.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": true
+   },
+   "OK": {
+    "up": true,
+    "state": "Oklahoma",
+    "incumbent": "Kevin Stitt",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Mike Mazzei",
+     "party": "R",
+     "pct": 51.9
+    },
+    "leader": null,
+    "margin_pts": 6.0,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Likely R",
+    "final_score": 3,
+    "flip": false
+   },
+   "OR": {
+    "up": true,
+    "state": "Oregon",
+    "incumbent": "Tina Kotek",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Tina Kotek",
+     "party": "D",
+     "pct": 52.6
+    },
+    "leader": null,
+    "margin_pts": 8.1,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": false
+   },
+   "PA": {
+    "up": true,
+    "state": "Pennsylvania",
+    "incumbent": "Josh Shapiro",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Josh Shapiro",
+     "party": "D",
+     "pct": 60.4
+    },
+    "leader": null,
+    "margin_pts": 22.1,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "RI": {
+    "up": true,
+    "state": "Rhode Island",
+    "incumbent": "Dan McKee",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Helena Foulkes",
+     "party": "D",
+     "pct": 57.7
+    },
+    "leader": null,
+    "margin_pts": 29.9,
+    "status_text": "Incumbent lost renomination. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "SC": {
+    "up": true,
+    "state": "South Carolina",
+    "incumbent": "Henry McMaster",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Alan Wilson",
+     "party": "R",
+     "pct": 51.6
+    },
+    "leader": null,
+    "margin_pts": 4.5,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "SD": {
+    "up": true,
+    "state": "South Dakota",
+    "incumbent": "Larry Rhoden",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Larry Rhoden",
+     "party": "R",
+     "pct": 63.5
+    },
+    "leader": null,
+    "margin_pts": 27.0,
+    "status_text": "Incumbent elected to full term.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "TN": {
+    "up": true,
+    "state": "Tennessee",
+    "incumbent": "Bill Lee",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Marsha Blackburn",
+     "party": "R",
+     "pct": 45.5
+    },
+    "leader": null,
+    "margin_pts": 2.5,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "TX": {
+    "up": true,
+    "state": "Texas",
+    "incumbent": "Greg Abbott",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Gina Hinojosa",
+     "party": "D",
+     "pct": 52.8
+    },
+    "leader": null,
+    "margin_pts": 7.1,
+    "status_text": "Incumbent lost re-election. Democratic gain.",
+    "final_rating": "Lean R",
+    "final_score": 2,
+    "flip": true
+   },
+   "UT": {
+    "up": false,
+    "state": "Utah",
+    "governor": "Spencer Cox",
+    "party": "R"
+   },
+   "VA": {
+    "up": false,
+    "state": "Virginia",
+    "governor": "Abigail Spanberger",
+    "party": "D"
+   },
+   "VT": {
+    "up": true,
+    "state": "Vermont",
+    "incumbent": "Phil Scott",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Phil Scott",
+     "party": "R",
+     "pct": 52.6
+    },
+    "leader": null,
+    "margin_pts": 7.0,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Likely R",
+    "final_score": 3,
+    "flip": false
+   },
+   "WA": {
+    "up": false,
+    "state": "Washington",
+    "governor": "Bob Ferguson",
+    "party": "D"
+   },
+   "WI": {
+    "up": true,
+    "state": "Wisconsin",
+    "incumbent": "Tony Evers",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "David Crowley",
+     "party": "D",
+     "pct": 54.0
+    },
+    "leader": null,
+    "margin_pts": 8.0,
+    "status_text": "Incumbent retiring. Democratic hold.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": false
+   },
+   "WV": {
+    "up": false,
+    "state": "West Virginia",
+    "governor": "Patrick Morrisey",
+    "party": "R"
+   },
+   "WY": {
+    "up": true,
+    "state": "Wyoming",
+    "incumbent": "Mark Gordon",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Eric Barlow",
+     "party": "R",
+     "pct": 68.6
+    },
+    "leader": null,
+    "margin_pts": 51.8,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   }
+  }
+ },
+ "call_timeline": {
+  "competitive_total": 103,
+  "snapshots": [
+   {
+    "snapshot": "2026-11-04-am",
+    "competitive_called": 46,
+    "new": 46
+   },
+   {
+    "snapshot": "2026-11-04-pm",
+    "competitive_called": 67,
+    "new": 23
+   },
+   {
+    "snapshot": "2026-11-05-am",
+    "competitive_called": 76,
+    "new": 9
+   },
+   {
+    "snapshot": "2026-11-05-pm",
+    "competitive_called": 86,
+    "new": 8
+   },
+   {
+    "snapshot": "2026-11-06-am",
+    "competitive_called": 87,
+    "new": 1
+   },
+   {
+    "snapshot": "2026-11-06-pm",
+    "competitive_called": 87,
+    "new": 0
+   },
+   {
+    "snapshot": "2026-11-07-am",
+    "competitive_called": 91,
+    "new": 4
+   },
+   {
+    "snapshot": "2026-11-08-am",
+    "competitive_called": 91,
+    "new": 0
+   },
+   {
+    "snapshot": "2026-11-09-am",
+    "competitive_called": 93,
+    "new": 2
+   },
+   {
+    "snapshot": "2026-11-10-am",
+    "competitive_called": 97,
+    "new": 4
+   }
+  ]
+ },
  "problems": [],
  "races": {
   "HOU-AL-01": {
@@ -20483,7 +21348,7 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": false,
+   "headline_call_lead": true,
    "headline_uncertain": true
   },
   "SEN-MT": {

@@ -15,7 +15,7 @@ scripts/collect.py      fetch everything -> data/raw/<date>/*.json + coverage.js
 scripts/analyze.py      raw -> docs/data/latest.json, history.json, races/*.json, data/bundle/<date>.md|json
 scripts/early_vote.py   NC report + raw ballot file, UF Election Lab CSV, routine research -> docs/data/early_vote.json + digest section
 scripts/publish.py      data/briefs/<date>[-pm].md -> docs/data/latest.json brief + docs/data/briefs/
-scripts/results.py      post-election: Wikipedia results tables + news leads -> docs/data/results.json, data/results/, digest section
+scripts/results.py      post-election: Wikipedia House, Senate, governor results tables + news leads + call timeline -> docs/data/results.json, data/results/, digest section
 scripts/check_results.py post-election: parser health check (2024 regression + live 2026 pages)
 scripts/scorecard.py    post-election: how forecasters, polls, markets did -> docs/data/scorecard.json + digest block
 scripts/courts.py       post-election: CourtListener election dockets + opinions -> data/courts/<date>.json + digest section (API key from a network secret for www.courtlistener.com or $COURTLISTENER_TOKEN; skips cleanly without it)
@@ -23,7 +23,7 @@ config/postelection.json post-election switch date, evening-edition window, resu
 data/raw/<date>/        raw pulls, kept for diagnosis
 data/bundle/<date>.md   the digest Claude reads before writing the brief (movers, tracked races, signals by lean)
 data/briefs/<date>.md   the brief Claude writes
-docs/                   the GitHub Pages site (index.html + assets/ + data/). A workflow mirrors it to the gh-pages branch, which Pages serves
+docs/                   the GitHub Pages site (index.html + assets/ + data/; Overview is the results dashboard, Pre-election holds the archived ratings pages). A workflow mirrors it to the gh-pages branch, which Pages serves
 .github/workflows/      pages.yml mirrors docs/ to gh-pages on push to main; deadman.yml opens an issue if no brief landed by 7:20 CT
 ROUTINE_PROMPT.md       the exact prompt the cloud Routine runs, version-controlled
 ```

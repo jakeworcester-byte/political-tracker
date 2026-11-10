@@ -274,6 +274,145 @@ def parse_senate(html):
     return races, up_party
 
 
+# --------------------------------------------------------------------------- governors
+
+def norm_rating(s):
+    t = re.sub(r"\(.*?\)", "", s or "").strip()
+    t = re.sub(r"^Safe\b", "Solid", t)
+    return t if t in RATING_SCORE else None
+
+
+def median_score(scores):
+    scores = sorted(scores)
+    n = len(scores)
+    med = scores[n // 2] if n % 2 else (scores[n // 2 - 1] + scores[n // 2]) / 2
+    if med != int(med):  # ties toward Tossup
+        med = int(med - 0.5) if med > 0 else int(med + 0.5)
+    return int(med)
+
+
+def parse_governors(html):
+    """Gubernatorial article: the ratings table (Constituency/State ... forecaster columns ... Result) and the
+    race summary table (State, Governor, Party, First elected, Status, Candidates). States only; territories skipped."""
+    p = collect.TableParser()
+    p.feed(html)
+    races, ratings = {}, {}
+    for t in p.tables:
+        if len(t["rows"]) < 10:
+            continue
+        grid = expand(t)
+        top = [h.lower() for h in grid[0]]
+        if top and top[0].startswith("constituency") and len(grid) > 2:
+            header = grid[1]
+            lo = find_col(header, "last election")
+            hi = find_col(header, "result")
+            if lo is None or hi is None:
+                continue
+            cols = list(range(lo + 1, hi))
+            ratings["_forecasters"] = [header[i] for i in cols]
+            for row in grid[2:]:
+                abbr = collect.STATES.get(row[0].strip())
+                if not abbr or len(row) < hi:
+                    continue
+                per = {header[i]: norm_rating(row[i]) for i in cols}
+                scores = [RATING_SCORE[v] for v in per.values() if v]
+                if scores:
+                    ratings[abbr] = {"score": median_score(scores), "by_forecaster": per}
+        elif top[:2] == ["state", "governor"] and any("candidates" in h for h in top):
+            ci_party, ci_status, ci_cand = find_col(grid[0], "party"), find_col(grid[0], "status"), find_col(grid[0], "candidates")
+            for row in grid[1:]:
+                abbr = collect.STATES.get(row[0].strip())
+                if not abbr or len(row) <= max(ci_status, ci_cand):
+                    continue
+                txt = row[ci_cand]
+                cands = parse_candidates(txt[txt.find("▌"):] if "▌" in txt else txt)
+                inc_party = party_code(row[ci_party])
+                races[abbr] = {"key": f"GOV-{abbr}", "state": row[0].strip(), "name": f"{row[0].strip()} governor",
+                               "incumbent": row[1].strip(), "incumbent_party": inc_party, "status_text": row[ci_status],
+                               "candidates": cands}
+    for r in races.values():
+        r.update(race_status(r["status_text"], r["candidates"], r["incumbent_party"]))
+    return races, ratings
+
+
+def parse_current_governors(html):
+    """List of current United States governors: state -> party (for the states with no 2026 race)."""
+    p = collect.TableParser()
+    p.feed(html)
+    out = {}
+    for t in p.tables:
+        grid = expand(t)
+        if len(grid) < 40 or not grid[0] or not grid[0][0].lower().startswith("state"):
+            continue
+        ci_gov = find_col(grid[0], "governor")
+        parties = [i for i, h in enumerate(grid[0]) if h.lower().startswith("party")]
+        for row in grid[1:]:
+            abbr = collect.STATES.get(re.sub(r"\s*\(list\)\s*$", "", row[0]).strip())
+            if not abbr or ci_gov is None:
+                continue
+            party = next((party_code(row[i]) for i in reversed(parties) if i < len(row) and row[i].strip()), "?")
+            out[abbr] = {"governor": row[ci_gov].strip(), "party": party}
+        if out:
+            break
+    return out
+
+
+def governors_block(races, ratings, current, freeze_date):
+    states, won = {}, {"D": 0, "R": 0, "I": 0, "Other": 0}
+    before = {"D": 0, "R": 0, "I": 0, "Other": 0}
+    not_up = {"D": 0, "R": 0, "I": 0, "Other": 0}
+    flips = []
+    bucket = lambda p: p if p in won else "Other"  # noqa: E731
+    for abbr, r in races.items():
+        meta = ratings.get(abbr) or {}
+        w = r["winner"] if r["called"] else None
+        flip = bool(w and r["incumbent_party"] in ("D", "R", "I") and w["party"] != r["incumbent_party"])
+        states[abbr] = {"up": True, "state": r["state"], "incumbent": r["incumbent"], "incumbent_party": r["incumbent_party"],
+                        "called": r["called"], "winner": ({"name": w["name"], "party": w["party"], "pct": w["pct"]} if w else None),
+                        "leader": ({"name": r["leader"]["name"], "party": r["leader"]["party"]} if r.get("leader") and not w else None),
+                        "margin_pts": r["margin_pts"], "status_text": r["status_text"],
+                        "final_rating": SCORE_LABEL.get(meta.get("score")) if meta else None,
+                        "final_score": meta.get("score"), "flip": flip}
+        before[bucket(r["incumbent_party"])] += 1
+        if w:
+            won[bucket(w["party"])] += 1
+        if flip:
+            flips.append({"state": abbr, "from": r["incumbent_party"], "to": w["party"], "winner": w["name"]})
+    for abbr, g in current.items():
+        if abbr in states:
+            continue
+        states[abbr] = {"up": False, "state": next((k for k, v in collect.STATES.items() if v == abbr), abbr),
+                        "governor": g["governor"], "party": g["party"]}
+        not_up[bucket(g["party"])] += 1
+        before[bucket(g["party"])] += 1
+    called = sum(1 for r in races.values() if r["called"])
+    held = {p: won[p] + not_up[p] for p in won}
+    return {"races": len(races), "called": called, "uncalled": len(races) - called, "won": won, "not_up": not_up,
+            "seats_secured": held, "before": before, "flips": sorted(flips, key=lambda f: f["state"]),
+            "ratings_frozen_from": freeze_date, "forecasters": ratings.get("_forecasters", []),
+            "sources": {"results": CFG["sources"].get("governors"), "not_up": CFG["sources"].get("governors_current")},
+            "states": dict(sorted(states.items()))}
+
+
+def call_timeline(current_label, current_races):
+    """Competitive House and Senate races marked called, by results snapshot."""
+    out = []
+    files = sorted(glob.glob(os.path.join(ROOT, "data", "results", "20*.json")))
+    seen = set()
+    for f in files:
+        label = os.path.basename(f)[:-5]
+        if label == current_label:
+            continue
+        rs = (load(f, {}) or {}).get("races", {})
+        out.append((label, {k for k, r in rs.items() if r.get("competitive") and r.get("called")}))
+    out.append((current_label, {k for k, r in current_races.items() if r.get("competitive") and r.get("called")}))
+    rows = []
+    for label, called in sorted(out):
+        rows.append({"snapshot": label, "competitive_called": len(called), "new": len(called - seen)})
+        seen |= called
+    return {"competitive_total": sum(1 for r in current_races.values() if r.get("competitive")), "snapshots": rows}
+
+
 # --------------------------------------------------------------------------- frozen ratings
 
 def frozen_ratings(cutoff):
@@ -448,6 +587,45 @@ def main():
     if not ratings:
         problems.append("no pre-election ratings snapshot found; cannot separate competitive from safe seats")
 
+    # 2b. governors: results table plus the article's pre-election ratings table, frozen on first read
+    gov_block = None
+    gov_pages = {}
+    for which in ("governors", "governors_current"):
+        if args.html_dir:
+            path = os.path.join(args.html_dir, f"{which}.html")
+            if os.path.exists(path):
+                gov_pages[which] = open(path, encoding="utf-8").read()
+            continue
+        if not CFG["sources"].get(which):
+            continue
+        try:
+            status, body = collect.fetch(CFG["sources"][which], accept="text/html")
+            if status != 200:
+                raise RuntimeError(f"HTTP {status}")
+            gov_pages[which] = body.decode("utf-8", "replace")
+            time.sleep(2)
+        except Exception as e:  # noqa: BLE001
+            problems.append(f"Wikipedia {which} page: {type(e).__name__}: {e}")
+    if "governors" in gov_pages:
+        gov_races, gov_ratings = parse_governors(gov_pages["governors"])
+        frozen_path = os.path.join(ROOT, "data", "raw", freeze_date, "ratings_governor.json") if freeze_date else None
+        if frozen_path and os.path.exists(frozen_path):
+            gov_ratings = (load(frozen_path, {}) or {}).get("ratings", {})
+        elif frozen_path and len(gov_ratings) > 30:
+            dump({"captured_at": dt.datetime.now(dt.timezone.utc).isoformat(), "source_url": CFG["sources"]["governors"],
+                  "note": "Captured from the article's ratings table after Election Day; every column is dated on or before Election Day, so these are the final pre-election ratings.",
+                  "ratings": gov_ratings}, frozen_path)
+        current = parse_current_governors(gov_pages["governors_current"]) if "governors_current" in gov_pages else {}
+        if not current:
+            current = {k: {"governor": v.get("governor"), "party": v.get("party")}
+                       for k, v in ((load(os.path.join(ROOT, "docs", "data", "results.json"), {}) or {}).get("governors") or {}).get("states", {}).items()
+                       if not v.get("up")}
+        if len(gov_races) < 34:
+            problems.append(f"Governor results table parsed only {len(gov_races)} of 36 races; the article layout may have changed")
+        if len(gov_races) + len([k for k in current if k not in gov_races]) != 50:
+            problems.append(f"Governor map covers {len(gov_races) + len([k for k in current if k not in gov_races])} of 50 states")
+        gov_block = governors_block(gov_races, gov_ratings, current, freeze_date)
+
     races = {**house, **senate}
     for k, r in races.items():
         meta = ratings.get(k)
@@ -560,6 +738,7 @@ def main():
                 "sources": CFG["sources"], "house": house_t, "senate": senate_t,
                 "newly_called": newly_called, "uncalled_competitive": uncalled_comp, "pending_safe": pending_safe,
                 "reverted_to_uncalled": uncalled_after_call, "close_margins": sorted(close), "rated_safe_now_close": rated_safe_close, "reported_called": reported,
+                "governors": gov_block, "call_timeline": call_timeline(f"{run_date}-{edition}", races),
                 "problems": problems, "races": races}
     if races:
         dump(snapshot, snap_path)
@@ -627,6 +806,20 @@ def write_digest(run_date, edition, s, news):
             r = races[k]; rc = r["reported_call"]; w = rc["winner"]
             src = "; ".join(f"{x['outlet']}: {x['title'][:90]} | {x['link']}" for x in rc["sources"][:2])
             L.append(f"- {k} {r['name']} | final rating {r['final_rating'] or 'unrated'} | reported winner {w['name']} ({w['party']}) | basis: {rc['basis']} | {src}")
+
+    g = s.get("governors")
+    if g:
+        st = g["states"]
+        L.append(f"\n### Governors ({g['called']} of {g['races']} races called; source {g['sources']['results']})")
+        L.append(f"- Governorships held after this election, counting the {sum(g['not_up'].values())} states not voting this year: D {g['seats_secured']['D']}, R {g['seats_secured']['R']}"
+                 + (f", other {g['seats_secured']['I'] + g['seats_secured']['Other']}" if g['seats_secured']['I'] + g['seats_secured']['Other'] else "")
+                 + f" (before: D {g['before']['D']}, R {g['before']['R']}). Optional in the brief; cite the table if you mention it.")
+        if g["flips"]:
+            L.append("- Flips: " + "; ".join(f"{f['state']} {f['from']} to {f['to']} ({f['winner']})" for f in g["flips"]))
+        for abbr, v in st.items():
+            if v.get("up") and not v["called"]:
+                lead = f"{v['leader']['name']} ({v['leader']['party']}) leads by {v['margin_pts']} pts in the table" if v.get("leader") and v.get("margin_pts") is not None else "no vote shares in the table"
+                L.append(f"- Uncalled: {v['state']} | final rating {v['final_rating'] or 'unrated'} | {lead} | table: {v['status_text'][:100]}")
 
     flagged = s.get("rated_safe_now_close") or []
     L.append(f"\n### Rated safe, now competitive ({len(flagged)}): final consensus Solid or unrated, count within {CFG.get('upset_watch_points', 5)} points")

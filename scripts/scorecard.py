@@ -107,7 +107,7 @@ def main():
         decided = rec["right"] + rec["wrong"]
         table.append({"forecaster": NAMES.get(code, code), "code": code, "right": rec["right"], "wrong": rec["wrong"],
                       "tossups": rec["tossup"], "accuracy_pct": round(100 * rec["right"] / decided, 1) if decided else None,
-                      "misses": rec["misses"][:12]})
+                      "misses": rec["misses"]})
     table.sort(key=lambda x: (-(x["accuracy_pct"] or 0), x["wrong"]))
 
     # consensus record (frozen consensus from results.py)
@@ -128,6 +128,69 @@ def main():
         if res.get("called") and res.get("winner") and res.get("final_score") == 0:
             p = res["winner"]["party"]
             tossup_wins[p if p in tossup_wins else "Other"] += 1
+
+    # what each final consensus rating turned out to mean (House and Senate)
+    order = ["Solid D", "Likely D", "Lean D", "Tilt D", "Tossup", "Tilt R", "Lean R", "Likely R", "Solid R"]
+    by_rating = {k: {"D": 0, "R": 0, "Other": 0, "uncalled": 0} for k in order}
+    upsets = []
+    for key, res in races.items():
+        fr = res.get("final_rating")
+        if fr not in by_rating:
+            continue
+        if not res.get("called") or not res.get("winner"):
+            by_rating[fr]["uncalled"] += 1
+            continue
+        wp = res["winner"]["party"]
+        by_rating[fr][wp if wp in ("D", "R") else "Other"] += 1
+        s_ = res.get("final_score") or 0
+        if (s_ < 0 and wp != "D") or (s_ > 0 and wp != "R"):
+            upsets.append({"key": key, "name": res["name"], "chamber": res["chamber"], "final_rating": fr,
+                           "winner": res["winner"]["name"], "party": wp, "incumbent_party": res.get("incumbent_party")})
+    by_rating = [{"rating": k, **v} for k, v in by_rating.items() if sum(v.values())]
+    upsets.sort(key=lambda u: (u["chamber"] != "Senate", -abs(RATING_SCORE[u["final_rating"]]), u["key"]))
+
+    # seat projections before the election vs seats won
+    h_raw = load(os.path.join(ROOT, "data", "raw", fz, "ratings_house.json"), {}) or {}
+    s_raw = load(os.path.join(ROOT, "data", "raw", fz, "ratings_senate.json"), {}) or {}
+    hs, ss_ = snap.get("house", {}), snap.get("senate", {})
+    house_proj = [{"forecaster": v.get("name") or NAMES.get(k, k), "code": k, "D": v.get("D"), "R": v.get("R"),
+                   "tossups": v.get("tossups"), "as_of": v.get("as_of")} for k, v in (h_raw.get("overall") or {}).items()]
+    not_up = ss_.get("not_up") or {"D": 0, "R": 0}
+    sen = {}
+    for r in s_raw.get("races", []):
+        for code, v in (r.get("ratings") or {}).items():
+            if not v or v.get("rating") not in RATING_SCORE:
+                continue
+            x = sen.setdefault(code, {"D": not_up.get("D", 0), "R": not_up.get("R", 0), "tossups": 0})
+            sc = RATING_SCORE[v["rating"]]
+            x["D" if sc < 0 else "R" if sc > 0 else "tossups"] += 1
+    n_sen = len(s_raw.get("races", []))
+    senate_proj = [{"forecaster": NAMES.get(k, k), "code": k, **v} for k, v in sen.items()
+                   if v["D"] + v["R"] + v["tossups"] - not_up.get("D", 0) - not_up.get("R", 0) == n_sen]
+    projections = {"basis": "Seats each forecaster rated Tilt or stronger for a party, before Election Day. Senate counts include seats not up this year.",
+                   "house": {"actual": hs.get("won"), "called": hs.get("called"), "races": hs.get("races"), "majority": 218,
+                             "forecasters": sorted(house_proj, key=lambda x: -(x["D"] or 0))},
+                   "senate": {"actual": ss_.get("seats_secured"), "called": ss_.get("called"), "races": ss_.get("races"), "majority": 51,
+                              "forecasters": sorted(senate_proj, key=lambda x: -x["D"])}}
+
+    # governors (frozen consensus from the article's ratings table)
+    gov = (snap.get("governors") or {}).get("states", {})
+    gov_score = {"right": 0, "wrong": 0, "tossup": 0, "uncalled": 0, "upsets": []}
+    for abbr, g in gov.items():
+        if not g.get("up") or g.get("final_score") is None:
+            continue
+        if not g.get("called") or not g.get("winner"):
+            gov_score["uncalled"] += 1
+            continue
+        sc, wp = g["final_score"], g["winner"]["party"]
+        if sc == 0:
+            gov_score["tossup"] += 1
+        elif (sc < 0 and wp == "D") or (sc > 0 and wp == "R"):
+            gov_score["right"] += 1
+        else:
+            gov_score["wrong"] += 1
+            gov_score["upsets"].append({"key": f"GOV-{abbr}", "name": f"{g['state']} governor", "chamber": "Governor",
+                                        "final_rating": g["final_rating"], "winner": g["winner"]["name"], "party": wp})
 
     # polls
     bundle = load(os.path.join(ROOT, "data", "bundle", f"{fz}.json"), {}) or {}
@@ -163,7 +226,8 @@ def main():
     share = round(100 * len(comp_called) / len(comp), 1) if comp else 0.0
     out = {"run_date": run_date, "results_snapshot": os.path.basename(snaps[-1]), "ratings_frozen_from": fz,
            "status": "ready" if share >= 90 else "preliminary", "competitive_called_pct": share,
-           "forecasters": table, "consensus": {**cons, "misses": cons["misses"][:15]}, "tossups_won": tossup_wins,
+           "forecasters": table, "consensus": cons, "tossups_won": tossup_wins, "by_rating": by_rating, "upsets": upsets,
+           "projections": projections, "governors": gov_score,
            "polls": poll_summary, "markets": markets,
            "caveat": "Vote shares are from the Wikipedia results table and change until counting ends; accuracy counts only races already called."}
     dump(out, os.path.join(ROOT, "docs", "data", "scorecard.json"))

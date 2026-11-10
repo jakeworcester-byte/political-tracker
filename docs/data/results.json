@@ -1,12 +1,14 @@
 {
  "run_date": "2026-11-10",
  "edition": "am",
- "generated_at": "2026-11-10T11:11:45.603352+00:00",
+ "generated_at": "2026-11-10T13:37:33.093960+00:00",
  "previous_snapshot": "2026-11-09-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
-  "senate": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections"
+  "senate": "https://en.wikipedia.org/wiki/2026_United_States_Senate_elections",
+  "governors": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+  "governors_current": "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
  },
  "house": {
   "races": 435,
@@ -99,6 +101,869 @@
  "close_margins": [],
  "rated_safe_now_close": [],
  "reported_called": [],
+ "governors": {
+  "races": 36,
+  "called": 34,
+  "uncalled": 2,
+  "won": {
+   "D": 22,
+   "R": 12,
+   "I": 0,
+   "Other": 0
+  },
+  "not_up": {
+   "D": 6,
+   "R": 8,
+   "I": 0,
+   "Other": 0
+  },
+  "seats_secured": {
+   "D": 28,
+   "R": 20,
+   "I": 0,
+   "Other": 0
+  },
+  "before": {
+   "D": 24,
+   "R": 26,
+   "I": 0,
+   "Other": 0
+  },
+  "flips": [
+   {
+    "state": "GA",
+    "from": "R",
+    "to": "D",
+    "winner": "Keisha Lance Bottoms"
+   },
+   {
+    "state": "IA",
+    "from": "R",
+    "to": "D",
+    "winner": "Rob Sand"
+   },
+   {
+    "state": "NV",
+    "from": "R",
+    "to": "D",
+    "winner": "Aaron Ford"
+   },
+   {
+    "state": "OH",
+    "from": "R",
+    "to": "D",
+    "winner": "Amy Acton"
+   },
+   {
+    "state": "TX",
+    "from": "R",
+    "to": "D",
+    "winner": "Gina Hinojosa"
+   }
+  ],
+  "ratings_frozen_from": "2026-11-03",
+  "forecasters": [
+   "Cook Oct. 29, 2026",
+   "DDHQ Nov. 3, 2026",
+   "Fox Nov. 1, 2026",
+   "IE Oct. 29, 2026",
+   "NBC Nov. 3, 2026",
+   "RCP Nov. 1, 2026",
+   "Sabato Nov. 2, 2026",
+   "Silver Nov. 3, 2026"
+  ],
+  "sources": {
+   "results": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+   "not_up": "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
+  },
+  "states": {
+   "AK": {
+    "up": true,
+    "state": "Alaska",
+    "incumbent": "Mike Dunleavy",
+    "incumbent_party": "R",
+    "called": false,
+    "winner": null,
+    "leader": {
+     "name": "Jonathan Kreiss-Tomkins",
+     "party": "D"
+    },
+    "margin_pts": 19.9,
+    "status_text": "Incumbent term-limited.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": false
+   },
+   "AL": {
+    "up": true,
+    "state": "Alabama",
+    "incumbent": "Kay Ivey",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Tommy Tuberville",
+     "party": "R",
+     "pct": 52.0
+    },
+    "leader": null,
+    "margin_pts": 4.0,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "AR": {
+    "up": true,
+    "state": "Arkansas",
+    "incumbent": "Sarah Huckabee Sanders",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Sarah Huckabee Sanders",
+     "party": "R",
+     "pct": 53.9
+    },
+    "leader": null,
+    "margin_pts": 15.3,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "AZ": {
+    "up": true,
+    "state": "Arizona",
+    "incumbent": "Katie Hobbs",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Katie Hobbs",
+     "party": "D",
+     "pct": 55.4
+    },
+    "leader": null,
+    "margin_pts": 12.6,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Likely D",
+    "final_score": -3,
+    "flip": false
+   },
+   "CA": {
+    "up": true,
+    "state": "California",
+    "incumbent": "Gavin Newsom",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Xavier Becerra",
+     "party": "D",
+     "pct": 64.6
+    },
+    "leader": null,
+    "margin_pts": 29.2,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "CO": {
+    "up": true,
+    "state": "Colorado",
+    "incumbent": "Jared Polis",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Phil Weiser",
+     "party": "D",
+     "pct": 60.8
+    },
+    "leader": null,
+    "margin_pts": 27.3,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "CT": {
+    "up": true,
+    "state": "Connecticut",
+    "incumbent": "Ned Lamont",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Ned Lamont",
+     "party": "D",
+     "pct": 59.3
+    },
+    "leader": null,
+    "margin_pts": 18.6,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "DE": {
+    "up": false,
+    "state": "Delaware",
+    "governor": "Matt Meyer",
+    "party": "D"
+   },
+   "FL": {
+    "up": true,
+    "state": "Florida",
+    "incumbent": "Ron DeSantis",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Byron Donalds",
+     "party": "R",
+     "pct": 50.0
+    },
+    "leader": null,
+    "margin_pts": 1.3,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Lean R",
+    "final_score": 2,
+    "flip": false
+   },
+   "GA": {
+    "up": true,
+    "state": "Georgia",
+    "incumbent": "Brian Kemp",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Keisha Lance Bottoms",
+     "party": "D",
+     "pct": 54.3
+    },
+    "leader": null,
+    "margin_pts": 8.6,
+    "status_text": "Incumbent term-limited. Democratic gain.",
+    "final_rating": "Tossup",
+    "final_score": 0,
+    "flip": true
+   },
+   "HI": {
+    "up": true,
+    "state": "Hawaii",
+    "incumbent": "Josh Green",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Josh Green",
+     "party": "D",
+     "pct": 72.6
+    },
+    "leader": null,
+    "margin_pts": 45.2,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "IA": {
+    "up": true,
+    "state": "Iowa",
+    "incumbent": "Kim Reynolds",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Rob Sand",
+     "party": "D",
+     "pct": 55.5
+    },
+    "leader": null,
+    "margin_pts": 11.0,
+    "status_text": "Incumbent retiring. Democratic gain.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": true
+   },
+   "ID": {
+    "up": true,
+    "state": "Idaho",
+    "incumbent": "Brad Little",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Brad Little",
+     "party": "R",
+     "pct": 57.1
+    },
+    "leader": null,
+    "margin_pts": 24.8,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "IL": {
+    "up": true,
+    "state": "Illinois",
+    "incumbent": "JB Pritzker",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "JB Pritzker",
+     "party": "D",
+     "pct": 59.8
+    },
+    "leader": null,
+    "margin_pts": 23.0,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "IN": {
+    "up": false,
+    "state": "Indiana",
+    "governor": "Mike Braun",
+    "party": "R"
+   },
+   "KS": {
+    "up": true,
+    "state": "Kansas",
+    "incumbent": "Laura Kelly",
+    "incumbent_party": "D",
+    "called": false,
+    "winner": null,
+    "leader": {
+     "name": "Cindy Holscher",
+     "party": "D"
+    },
+    "margin_pts": 0.6,
+    "status_text": "Incumbent term-limited.",
+    "final_rating": "Tilt R",
+    "final_score": 1,
+    "flip": false
+   },
+   "KY": {
+    "up": false,
+    "state": "Kentucky",
+    "governor": "Andy Beshear",
+    "party": "D"
+   },
+   "LA": {
+    "up": false,
+    "state": "Louisiana",
+    "governor": "Jeff Landry",
+    "party": "R"
+   },
+   "MA": {
+    "up": true,
+    "state": "Massachusetts",
+    "incumbent": "Maura Healey",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Maura Healey",
+     "party": "D",
+     "pct": 62.2
+    },
+    "leader": null,
+    "margin_pts": 27.7,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "MD": {
+    "up": true,
+    "state": "Maryland",
+    "incumbent": "Wes Moore",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Wes Moore",
+     "party": "D",
+     "pct": 62.8
+    },
+    "leader": null,
+    "margin_pts": 29.6,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "ME": {
+    "up": true,
+    "state": "Maine",
+    "incumbent": "Janet Mills",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Hannah Pingree",
+     "party": "D",
+     "pct": 54.5
+    },
+    "leader": null,
+    "margin_pts": 17.1,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "MI": {
+    "up": true,
+    "state": "Michigan",
+    "incumbent": "Gretchen Whitmer",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Jocelyn Benson",
+     "party": "D",
+     "pct": 54.5
+    },
+    "leader": null,
+    "margin_pts": 10.7,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": false
+   },
+   "MN": {
+    "up": true,
+    "state": "Minnesota",
+    "incumbent": "Tim Walz",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Amy Klobuchar",
+     "party": "D",
+     "pct": 55.5
+    },
+    "leader": null,
+    "margin_pts": 12.9,
+    "status_text": "Incumbent retired. Democratic hold.",
+    "final_rating": "Likely D",
+    "final_score": -3,
+    "flip": false
+   },
+   "MO": {
+    "up": false,
+    "state": "Missouri",
+    "governor": "Mike Kehoe",
+    "party": "R"
+   },
+   "MS": {
+    "up": false,
+    "state": "Mississippi",
+    "governor": "Tate Reeves",
+    "party": "R"
+   },
+   "MT": {
+    "up": false,
+    "state": "Montana",
+    "governor": "Greg Gianforte",
+    "party": "R"
+   },
+   "NC": {
+    "up": false,
+    "state": "North Carolina",
+    "governor": "Josh Stein",
+    "party": "D"
+   },
+   "ND": {
+    "up": false,
+    "state": "North Dakota",
+    "governor": "Kelly Armstrong",
+    "party": "R"
+   },
+   "NE": {
+    "up": true,
+    "state": "Nebraska",
+    "incumbent": "Jim Pillen",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Jim Pillen",
+     "party": "R",
+     "pct": 50.8
+    },
+    "leader": null,
+    "margin_pts": 8.6,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Likely R",
+    "final_score": 3,
+    "flip": false
+   },
+   "NH": {
+    "up": true,
+    "state": "New Hampshire",
+    "incumbent": "Kelly Ayotte",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Kelly Ayotte",
+     "party": "R",
+     "pct": 51.4
+    },
+    "leader": null,
+    "margin_pts": 4.3,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Likely R",
+    "final_score": 3,
+    "flip": false
+   },
+   "NJ": {
+    "up": false,
+    "state": "New Jersey",
+    "governor": "Mikie Sherrill",
+    "party": "D"
+   },
+   "NM": {
+    "up": true,
+    "state": "New Mexico",
+    "incumbent": "Michelle Lujan Grisham",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Deb Haaland",
+     "party": "D",
+     "pct": 57.3
+    },
+    "leader": null,
+    "margin_pts": 14.6,
+    "status_text": "Incumbent term-limited. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "NV": {
+    "up": true,
+    "state": "Nevada",
+    "incumbent": "Joe Lombardo",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Aaron Ford",
+     "party": "D",
+     "pct": 51.5
+    },
+    "leader": null,
+    "margin_pts": 7.3,
+    "status_text": "Incumbent lost re-election. Democratic gain.",
+    "final_rating": "Tossup",
+    "final_score": 0,
+    "flip": true
+   },
+   "NY": {
+    "up": true,
+    "state": "New York",
+    "incumbent": "Kathy Hochul",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Kathy Hochul",
+     "party": "D",
+     "pct": 59.6
+    },
+    "leader": null,
+    "margin_pts": 19.4,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "OH": {
+    "up": true,
+    "state": "Ohio",
+    "incumbent": "Mike DeWine",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Amy Acton",
+     "party": "D",
+     "pct": 52.3
+    },
+    "leader": null,
+    "margin_pts": 7.9,
+    "status_text": "Incumbent term-limited. Democratic gain.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": true
+   },
+   "OK": {
+    "up": true,
+    "state": "Oklahoma",
+    "incumbent": "Kevin Stitt",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Mike Mazzei",
+     "party": "R",
+     "pct": 51.9
+    },
+    "leader": null,
+    "margin_pts": 6.0,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Likely R",
+    "final_score": 3,
+    "flip": false
+   },
+   "OR": {
+    "up": true,
+    "state": "Oregon",
+    "incumbent": "Tina Kotek",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Tina Kotek",
+     "party": "D",
+     "pct": 52.6
+    },
+    "leader": null,
+    "margin_pts": 8.1,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": false
+   },
+   "PA": {
+    "up": true,
+    "state": "Pennsylvania",
+    "incumbent": "Josh Shapiro",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Josh Shapiro",
+     "party": "D",
+     "pct": 60.4
+    },
+    "leader": null,
+    "margin_pts": 22.1,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "RI": {
+    "up": true,
+    "state": "Rhode Island",
+    "incumbent": "Dan McKee",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "Helena Foulkes",
+     "party": "D",
+     "pct": 57.7
+    },
+    "leader": null,
+    "margin_pts": 29.9,
+    "status_text": "Incumbent lost renomination. Democratic hold.",
+    "final_rating": "Solid D",
+    "final_score": -4,
+    "flip": false
+   },
+   "SC": {
+    "up": true,
+    "state": "South Carolina",
+    "incumbent": "Henry McMaster",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Alan Wilson",
+     "party": "R",
+     "pct": 51.6
+    },
+    "leader": null,
+    "margin_pts": 4.5,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "SD": {
+    "up": true,
+    "state": "South Dakota",
+    "incumbent": "Larry Rhoden",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Larry Rhoden",
+     "party": "R",
+     "pct": 63.5
+    },
+    "leader": null,
+    "margin_pts": 27.0,
+    "status_text": "Incumbent elected to full term.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "TN": {
+    "up": true,
+    "state": "Tennessee",
+    "incumbent": "Bill Lee",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Marsha Blackburn",
+     "party": "R",
+     "pct": 45.5
+    },
+    "leader": null,
+    "margin_pts": 2.5,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   },
+   "TX": {
+    "up": true,
+    "state": "Texas",
+    "incumbent": "Greg Abbott",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Gina Hinojosa",
+     "party": "D",
+     "pct": 52.8
+    },
+    "leader": null,
+    "margin_pts": 7.1,
+    "status_text": "Incumbent lost re-election. Democratic gain.",
+    "final_rating": "Lean R",
+    "final_score": 2,
+    "flip": true
+   },
+   "UT": {
+    "up": false,
+    "state": "Utah",
+    "governor": "Spencer Cox",
+    "party": "R"
+   },
+   "VA": {
+    "up": false,
+    "state": "Virginia",
+    "governor": "Abigail Spanberger",
+    "party": "D"
+   },
+   "VT": {
+    "up": true,
+    "state": "Vermont",
+    "incumbent": "Phil Scott",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Phil Scott",
+     "party": "R",
+     "pct": 52.6
+    },
+    "leader": null,
+    "margin_pts": 7.0,
+    "status_text": "Incumbent re-elected.",
+    "final_rating": "Likely R",
+    "final_score": 3,
+    "flip": false
+   },
+   "WA": {
+    "up": false,
+    "state": "Washington",
+    "governor": "Bob Ferguson",
+    "party": "D"
+   },
+   "WI": {
+    "up": true,
+    "state": "Wisconsin",
+    "incumbent": "Tony Evers",
+    "incumbent_party": "D",
+    "called": true,
+    "winner": {
+     "name": "David Crowley",
+     "party": "D",
+     "pct": 54.0
+    },
+    "leader": null,
+    "margin_pts": 8.0,
+    "status_text": "Incumbent retiring. Democratic hold.",
+    "final_rating": "Lean D",
+    "final_score": -2,
+    "flip": false
+   },
+   "WV": {
+    "up": false,
+    "state": "West Virginia",
+    "governor": "Patrick Morrisey",
+    "party": "R"
+   },
+   "WY": {
+    "up": true,
+    "state": "Wyoming",
+    "incumbent": "Mark Gordon",
+    "incumbent_party": "R",
+    "called": true,
+    "winner": {
+     "name": "Eric Barlow",
+     "party": "R",
+     "pct": 68.6
+    },
+    "leader": null,
+    "margin_pts": 51.8,
+    "status_text": "Incumbent term-limited. Republican hold.",
+    "final_rating": "Solid R",
+    "final_score": 4,
+    "flip": false
+   }
+  }
+ },
+ "call_timeline": {
+  "competitive_total": 103,
+  "snapshots": [
+   {
+    "snapshot": "2026-11-04-am",
+    "competitive_called": 46,
+    "new": 46
+   },
+   {
+    "snapshot": "2026-11-04-pm",
+    "competitive_called": 67,
+    "new": 23
+   },
+   {
+    "snapshot": "2026-11-05-am",
+    "competitive_called": 76,
+    "new": 9
+   },
+   {
+    "snapshot": "2026-11-05-pm",
+    "competitive_called": 86,
+    "new": 8
+   },
+   {
+    "snapshot": "2026-11-06-am",
+    "competitive_called": 87,
+    "new": 1
+   },
+   {
+    "snapshot": "2026-11-06-pm",
+    "competitive_called": 87,
+    "new": 0
+   },
+   {
+    "snapshot": "2026-11-07-am",
+    "competitive_called": 91,
+    "new": 4
+   },
+   {
+    "snapshot": "2026-11-08-am",
+    "competitive_called": 91,
+    "new": 0
+   },
+   {
+    "snapshot": "2026-11-09-am",
+    "competitive_called": 93,
+    "new": 2
+   },
+   {
+    "snapshot": "2026-11-10-am",
+    "competitive_called": 97,
+    "new": 4
+   }
+  ]
+ },
  "problems": [],
  "races": {
   "HOU-AL-01": {
@@ -20483,7 +21348,7 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": false,
+   "headline_call_lead": true,
    "headline_uncertain": true
   },
   "SEN-MT": {
@@ -21336,7 +22201,7 @@
     "title": "Mississippi and Alaska Senate races remain uncalled. See results",
     "outlet": "USA Today",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVg1LWpLUFFyR0Rhd05Qbzk3SkFTYV9neHVxaDJjRlhuTXV2VEc4X0JvYnRuOEd6ajVHR2N6MU5mbnE3T2ZjbXB3eGNQN2NRRGpRWmJ0UXMxRDgtclNVbkQ3Z1JfTW9uZ0Nya1JJbGFZeDVYeVhkbGNrUy1sZk9aOV9SbFcyeDAzeXRTTHBfUDRLSm5peFFnWjBRX2Z0a3dSc25VbDAxSFQtRmdZVVNYSFpuT2F3VmxCVWJLcXQ4VVBMY3RPc2c?oc=5",
-    "published": "2026-11-09T18:35:00+00:00",
+    "published": "2026-11-10T11:56:00+00:00",
     "flags": [
      "uncertain"
     ]
@@ -21360,25 +22225,27 @@
     "flags": []
    },
    {
-    "title": "Mississippi and Alaska Senate races remain uncalled. See results",
-    "outlet": "USA Today",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVg1LWpLUFFyR0Rhd05Qbzk3SkFTYV9neHVxaDJjRlhuTXV2VEc4X0JvYnRuOEd6ajVHR2N6MU5mbnE3T2ZjbXB3eGNQN2NRRGpRWmJ0UXMxRDgtclNVbkQ3Z1JfTW9uZ0Nya1JJbGFZeDVYeVhkbGNrUy1sZk9aOV9SbFcyeDAzeXRTTHBfUDRLSm5peFFnWjBRX2Z0a3dSc25VbDAxSFQtRmdZVVNYSFpuT2F3VmxCVWJLcXQ4VVBMY3RPc2c?oc=5",
-    "published": "2026-11-09T18:35:00+00:00",
+    "title": "Who won Mississippi US Senate race? See results. When are deadlines? - The Clarion-Ledger",
+    "outlet": "The Clarion-Ledger",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeGtYYTgtYmx5RUhveVgyVkhfMFhxcTNRbEMxc0IxanJTVmFfQllPS1FkODJKbGpmSzZXYnNvSUVTa0dLX2lVR3VManNiQThnUnNaU191R2VGNG1ZejdPX3BIWFZQaUh2bTdyeG1ZaEVuSWVjanVNbEszd0QxUWJBdlBOc05jLUZRY0xieGJXZUNzeENXV1ZNN1ZvcUdIT0xBYXQwQ05Pcnp2VHpaOUVPVzJhLTlwNzBwR084Z1ZTQm1LWVBLWXlqaEZ4VFBYaGRfMExhWmFVeGlqX0s1V1RaSGU0d29SdFZ3aUdJTXhwT0MtRmt0SWpTbGluMW5oMFhiNThOX01CUXpHVzQx?oc=5",
+    "published": "2026-11-09T17:19:00+00:00",
     "flags": [
-     "uncertain"
+     "call"
     ]
    },
    {
-    "title": "Mississippi U.S. Senate Midterm Election 2026: Live Results",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OODJ1SUdvS2VIR0VXT0kzWFZtSjVIWE4xS3hEQnJTVldLdHc2TGFHYjByRWxuS3BFaEJlQ1JIUmJuWWx0U3JWR2U3X3N6WEJ4S05HMXpSSGVuU2JlZ0lLZUwzUFU4RXVoLURLeHhLV2VIaTNVQnB0S3poWEpHUWs?oc=5",
-    "published": "2026-11-09T20:37:56+00:00",
-    "flags": []
+    "title": "When will Mississippi know who won US Senate race? Key deadlines today - The Clarion-Ledger",
+    "outlet": "The Clarion-Ledger",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQY3F3V0lhQU1UVU5MU2RxTkpTUEo1Nmh5OXhpY1QzOTkxUy1DZWZWMUtjM2NuNWU5aTRnckUwOE9QUEQ4dkRWMmwwYlhCLVJMOGU5bmt3aG14SGlpdzdqRng3dmE0Y3pYaWhOQ0ZBSG5ld01MZVpfZzhWMUhaaTVXbUNDWF9xekRYTENFMFVlV3hfaE85TkFCZmo5bGZEc0lBcWJrSlIwRVBoQ0F1blhEWlcwMDFCbmhibHpqRFNncnVyTTFZUC1fdFYtS3lBSU5xOEN5cnZMczRmb1dwX1Z0NzhDVmJ4MlZLRGc5SA?oc=5",
+    "published": "2026-11-10T11:06:00+00:00",
+    "flags": [
+     "call"
+    ]
    }
   ],
   "HOU-AK-AL": [
    {
-    "title": "Rep. Begich holds large lead in U.S. House race, but independent Bill Hill sees possible path",
+    "title": "Rep. Begich holds large lead in U.S. House race, but independent Hill sees possible path",
     "outlet": "Anchorage Daily News",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbnlJakdPUldiOXlBREgxcEtacTJLWkY3UlBqRGxuYU1ZaUhZTFNFTW5iWmR4cUpRZDU4Rkt4RDBaMzZ5Q3AxMld5WVlzUk5mam9SMGtuM0w0ZGRwQlZvbmFUY3hWbS0tNEp6c1ZLWWxmcjVlblZ0VmIweFFEOWY5ZE1EV0VaM1lQWGdSdnEzVDhIRVdUUEROZkgwc2dJSmFBNzJCWmdZbW1xY3R0cGc5d3FpY2l1dEM1M2IwYlM2dE1HQm1kNFpWZGVB?oc=5",
     "published": "2026-11-10T01:32:14+00:00",
@@ -21394,7 +22261,7 @@
    {
     "title": "Where all 18 unprojected House races stand",
     "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcmU3dWxtQnA5M1FxaEd3TGEzRzFUSUxuMWhpaW9hYlZNSVFubVFlNFM2cE8td1NMZVcyTEV5T0dkb3dORlpKamtlUEU5YURscG5xRUMyRkxxS1c2MC1ZNkZOd0xDUjg1UVZraHhBZXZCekVvTDlXLVE3YWlSNjZlNkhlR0w3VVE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcmU3dWxtQnA5M1FxaEd3TGEzRzFUSUxuMWhpaW9hYlZNSVFubVFlNFM2cE8td1NMZVcyTEV5T0dkb3dORlpKamtlUEU5YURscG5xRUMyRkxxS1c2MC1ZNkZOd0xDUjg1UVZraHhBZXZCekVvTDlXLVE3YWlSNjZlNkhlR0w3VVHSAYwBQVVfeXFMTlBFZHVfMWhPdE5pblJGd0JOMC1DRmhjMmF4Q2M0YUlIYTBCWUVFelJUTlZCakxUSWYyZ1ZfME9NdVhXdWplWnQ4VXFvZjdLQnlJN2FXM192T0Q2UFFmWG9Nd0VJZzVBM0c2Qk5VTlM3NkZYTndPZDlfY2t4WHhNcnZUMGxFaE5qQzN6WnU?oc=5",
     "published": "2026-11-09T23:01:00+00:00",
     "flags": []
    }
@@ -21428,20 +22295,10 @@
   ],
   "HOU-FL-27": [
    {
-    "title": "Recount in Florida's 27th Congressional District begins after judge denies request to remove Miami-Dade elections chief",
+    "title": "Recount in Florida's 27th Congressional District race expected to wrap up Tuesday",
     "outlet": "CBS News",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOckJSZFJPbkpZUk9EbXhyNFZYcFdUazE5dUFQVEY0eHpoRkxHUHZZYnNYRU5KYkhaSzdkRjVwVFJIY0w3V1ZxbnNPdnFFSkRsU0c1cVhnd3Z4eXl1VGdvMXNTOUo4WWpsM3h3MWRPZ0l3ODRGZERGUGhGbHJTYTBOek0zeGJIbnVZVWFsLVpyWnBVZm9zaUF1VWgxUQ?oc=5",
-    "published": "2026-11-08T19:34:00+00:00",
-    "flags": [
-     "uncertain",
-     "legal"
-    ]
-   },
-   {
-    "title": "Recount of U.S. Congressional District 27 race set for Monday, supervisor of elections says",
-    "outlet": "NBC 6 South Florida",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTEFkT0pzMXRKSmdwVW5CWnc3QUlCQUUyTER6X3ZGTEo3YVF2THNqeU5OdEllN0JOazV0M043MjJEMW1rZHRWMHNQaDNmeEpWVnRCeUFVa1h1b1Y4UDRfeFFfQXdoZnd2R1ZjcWlUeF96ZFduS0lrLTg4aXhKSGxDbEhpaThtazdnaW5XZTAzbW16ZGxWSURnVTFJMXgtejhiOTY2WU1aZ0RCZi1XU2hfcUJHTks5Um1FWmQtUUFramMwVTJSdV9TUm5uNWVsdjjSAdcBQVVfeXFMTzFtTDZQVlliWlJsS0d0MnVEWmcyUl9mOVA0T0JESTMxSFVvMC16aVNCZ0lqTDRITHdHYUIxUGFpUUFKOU12V2lfQ1BPVC1xMUpoMVV0bG9SN3NfVmcwUERrT2dKRl9vMUwtMDloRFVGUlVfWFQ2YV9UOVZlSkNrTlMyRlhPeXQ0S01WV0dxLUFuVVZzdk9oWkFlS2xZemRsMzEyUnAwRUcyalJwQmJQb0VFY182Rllpc0tOcFpRUm1NMWRFVGxzdkFnVHczUnB6OEgzcTFubVE?oc=5",
-    "published": "2026-11-08T19:20:53+00:00",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTy1Cam9kUEJpM0x3SU5GWHppYm9zaV9OemYxcHRTN3RyQUR6ZU12RDJCR2ttOUJVT0R4QVF6MTR1TlIyRU4zVi00M1RPWG9DZmRFZTdOZlhCbkI3YmpTZWVxNURKRXIwWlBJd2ZqTzFuU2xOOTRYYTFnQkliVDlOaFFXRUtDa094cXduM2RFZl82NWhGUEpTQmdkRzBmYlJtU1gydEtKMng2MkQ2QkFXMDlfWXlIVnc?oc=5",
+    "published": "2026-11-09T23:49:00+00:00",
     "flags": [
      "uncertain"
     ]
@@ -21453,6 +22310,17 @@
     "published": "2026-11-10T03:20:00+00:00",
     "flags": [
      "uncertain"
+    ]
+   },
+   {
+    "title": "Miami election official who already said GOP candidate won can help with recount, court rules",
+    "outlet": "Democracy Docket",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdDlTNExMM0ZIMUY3VnhDQlJ3aG5ST09ZZWtSNnhkeWxWOWVDOXNuQ3RBY2Q1bVNES0ZiQ0drWUlVenc3SGs0US1wdVlSN0s0emtQVlVGU2lsOEZ5dE9jZk1FZHlFcmlJaWFSLVNOQS10dHdUcmFmSDlOUmlPRHgybm9pMlRYUTE2TFh0RVBBSzY5OGNxWkt3d0pmeGFEeFBXeGhpQWp6U09HaXZOMmJja2NrSXExd3RzNUxwN0xjTlNNRU1wSjgwcnZ0ZFlpMklBWDNn?oc=5",
+    "published": "2026-11-09T21:12:49+00:00",
+    "flags": [
+     "call",
+     "uncertain",
+     "legal"
     ]
    }
   ],
@@ -21526,40 +22394,57 @@
     ]
    },
    {
-    "title": "MAGA Goon Can’t Admit Reality in Desperate Video Tirade",
-    "outlet": "The Daily Beast",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMkpxWUt0aERGYkg3OGQ1dGVwalowcFBjVWljVC1sRzJlU3U4Tl9oZjFJMk1zMlRYZkZnTlAwZDM0S0VQQ3JqMjV0bV9ua1daWVpkd0pDZ2NiMXUtbEkxV0ladUUta1Q0dGJvdmo2dS1CeUh1Wks2R3VLTnpLWUxjMUx3VnlQWHBac2p3bA?oc=5",
-    "published": "2026-11-10T09:32:23+00:00",
-    "flags": []
+    "title": "Eileen Laubacher nears victory in Congressional District 4 race, attends orientation in Washington, D.C.",
+    "outlet": "Colorado Public Radio",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeWpONGpJRUlhYWtZc0s2cjhLV3hHVk1xUkViWXpROVMxS29waFJURXFuX2drY3JUUzUwTmVWU2RsUWhaTmwyQVFyMDB2UGZyb29GV01malZ1RTNOZHhPSFM4QzVFQ05CODFRdGNiVnEzNEN5T2lPTUdqS20xdnExbm1hZE1QMEZzbVFfQWhQNnkxY2lyNmpB?oc=5",
+    "published": "2026-11-10T00:41:34+00:00",
+    "flags": [
+     "call"
+    ]
    }
   ],
   "HOU-NC-05": [
    {
-    "title": "Forecasting the midterms retrospective: Democrats won a giant House majority that exceeded what analysts had expected",
-    "outlet": "Northwest Progressive Institute",
-    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSDNsTHBoSk9BU0RUVkhPMGI5YW53UlJ5X0xkcGN2WlgyT1RPVFpZcHlJQjlxU3RjNGJJT1VUT3drRkV6VXJJU01NUmY1UHMxRUhtR05ZUnhoX19HU3VUcHFBQTNuN213Z01xN3Nib0FkV3JqLWVwZDJpdHBvaWk1T1lTbTFXMTdCLWxLeHB4UHU3Tkh0QVRpcDRzNGxOZEh2aUVYV01LelRWcnpBMWlpR0QwTkZfVzFFR2VmSzJzZ3ZaaDZ1Q01uTlIxZWZ2TDY4S2dMRUJhOXJ2a2F1Nk5PZ0oyTG80QVBlZGxIZmpJVndJYmk2OHFDTHpB?oc=5",
-    "published": "2026-11-08T15:30:00+00:00",
+    "title": "The North Carolina surprise",
+    "outlet": "Politico",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNajVUaE53azdENERDVjdHX1liWUZZRWtKMnlCc2FkeEZqTi1MZFpxa01pX1FxU3VQNUpMYW01aU1XNG1vcnZNSXdXajNGRGRLMWhtWnBSVldESE9uelY1bEYyZlN6OU1uVzFSMlhuR3I2a2NFMlM3STMzbjdYQ0ZqcXJWTndubFQ3dWdNam5wX1VSUC04TTAxZkt0N1o?oc=5",
+    "published": "2026-11-09T18:29:40+00:00",
+    "flags": []
+   },
+   {
+    "title": "Who won North Carolina's congressional races",
+    "outlet": "Axios",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUWdSR1NPRVpqWmZCc1RCeTFpUnd4MDlPSjM2d1ZzV25pU24xREdEQVdxYkhVOE1oWmJWV3Mtc0Q4UmVhS0p4TGdnYUlTRDF2aEhKRVhQUURfaV8xamtEcTVKRnRYVDludXZveTlhaGdreHRvbVFKSkZCT3F1MlJXdVFhTGRNWWNXTC1MSVdUU1h0cmFWby05MnFWbkhhRW5mclJZ?oc=5",
+    "published": "2026-11-08T16:41:25+00:00",
     "flags": [
      "call"
     ]
    },
    {
-    "title": "House Race Separated By 99 Votes Shows Why ‘Rare’ Noncitizen Voting Does Matter",
-    "outlet": "The Federalist",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU3YtSXZudEdmVTh4aFM1WUxGcVBqU0tMWkR3OGJIM0U3RTViSjFsOVNNYzF0eTBSSXRiYndOWXc3LVJ3UlJMZ2I3a1dpYzlZbk9sYXp3S1N4cWJTTllkZFJEN2VUSmJlQm5YeXBoal9VVjROaDZZZGxkajg4enpJeXJxa3B6UWZ5SHBnSnJXRnZ5bnE4LTJJM1NGdW9ORk1ZMExrMFh6Tl9mclFublhXV0VXaVg3UQ?oc=5",
-    "published": "2026-11-09T12:53:51+00:00",
-    "flags": []
+    "title": "US House District 5 race in North Carolina still uncalled as Democratic challenger leads by 99 votes",
+    "outlet": "WBTV",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPamFkelBoTmx3UjR3ejNNelp3M25rcVhRSlhaZTFGeGthNTdka3p3ZHAwZHU5Vm51d3Z5OHJvWFBnbVNCQTFsSG5nRTJ4aVlSN2QtbjBoTElBTndTRVBRckZVeUFFRkJ3bkhPd3FjeHg2eG4tSmlkNGpJUldKY1RGcHNaVmhBWTdUQy1YdG5LdmU4MVF1UFpxY3BKT2ExWXFpdjYwdVdaYnRoZlNhZTZUUlJFSXFlcVVsbXFwVWdDZVc0UTNiV0E?oc=5",
+    "published": "2026-11-10T12:33:00+00:00",
+    "flags": [
+     "uncertain"
+    ]
    }
   ],
   "HOU-WA-05": [
    {
-    "title": "Baumgartner wins tight race for Eastern WA seat in U.S. House",
-    "outlet": "The Seattle Times",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOODZPRVpNekJvUnVSRVRzTXpGNzZTQnNMc2Zzenc3Q0tob05BMDRxQXd6Z3FKZWFmUm1ad2VsWEdmTUx3eVJtV2tvalRsYUpJWGFlMXAwQUxYdXdYaWk2cXdla3p3ZFdYYVVXY3hUUFBrTm1yeC1JTG9ZYXNwUXotdDl1UW5oekw1T3BaN3ZIZXNocGFVZU1yUkNORzQxQThTODVLYUZVZ2g0eml5bjJ0aWhR?oc=5",
-    "published": "2026-11-10T02:16:34+00:00",
+    "title": "AP called the Midterm Race for Republican Michael Baumgartner in Washington's 5th Congressional District",
+    "outlet": "KREM",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQZzJyZkh3TGRDRnVqSUtJQzhROU50Y284TFFWWEF5YTBhUEZjc0NmNW1peklick4yYzdqUGx1WVNxRlI3MGxJZVVUaThUUG5rTkIxWUtsVEY0MHBVb3ZxekVabS0tcFRJcFA1elpjZXJ2SXV2eDRLamFXZHVVWnZzNS1RUUpXbU5PRW9MVWtKdXhJeklaVVZxcjBBU0o4VnRuaGxWd0x2T0lLTzJtdm9CRzFEcUUycF9PVWdrcVdXYlVsUi00N1I2UkNHZHpoS2FiQklfWThiMHd2MHBDdF9kaTRLU015bTJtb21UbjgzNFZtMnUzMWFXZUFKcHNqUzN1TTVZaFJCV2YzMFpncWNvcDMxNGQ?oc=5",
+    "published": "2026-11-10T02:20:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Republican Michael Baumgartner wins reelection to U.S. House in Washington's 5th Congressional District",
+    "outlet": "KHQA",
+    "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQVDhxQU54cTFJOHlSZi1TN2RIejU4bzNSVlFjb01jNC0yWlRZY2UtREJmbHh4QnJFVlRadGlzWXVWd0NLeDkxeGhmM3NkOENHWlgyd3dTNDZ6VkpTb3B5bWk4TVRzMkJKOHNkamxlM2JaUGhxN29RMW5PckV0NnExdkJUWnZ0SWFWYmVzeUlSdWZzMml5RzhRbkZEOWFzT3RSTTlDSVJfLXRLa24yQS1UT215SktDbWp1b2V5WmI1Y01kSW1JSmMxZDZLVm1FU0I4OWw4Z29zY2pqM3VKVGhFWGJVMUR2TUZ1STJQOWVYQWd2LW56d19LNkhvYXFERjMwMnEzeTg3R243UDY4U2ZlYXludFJseTU0OFE?oc=5",
+    "published": "2026-11-10T01:37:00+00:00",
     "flags": [
-     "call",
-     "uncertain"
+     "call"
     ]
    },
    {
@@ -21568,15 +22453,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR19fcmZ6YXVZaHZhY0JBV0Vfc3hfTFA2d184NkFrb0ZGdmlabHAwT09BdUZCdVRtNEtITU1OTlpwTUtXWjlKQ3NLUWc3RkFJTlhOMFFLRE9iTVdUM3llRkdjTDZFY0Rkb3RyYkkxaDNlUnJPZFJGUTkxcjRpN2JaQ2VIZHdRV2trYjhJQ0R4b01ZdGNkRDd5Sg?oc=5",
     "published": "2026-11-10T02:20:00+00:00",
     "flags": []
-   },
-   {
-    "title": "Republican Michael Baumgartner wins reelection to U.S. House in Washington's 5th Congressional District",
-    "outlet": "NonStop Local KHQ",
-    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNazdZejNxZm1JUS1vNnZIX05JRjZYdmllVG5DS2RGNlk5dDdNbHlKbGdQT3ZCOTBrRU5ZS3VQdUdMQ1ZzaWRDeklzUVdKd2Z3RHJ0Z1g5b182LTA5bExpZVVYN2pDcC14QXB4VHNwbDk4MXpmLW9aTzV5OFpuX1NudV9nQ2pSV0lmNThMZEc2YUJYemNXN1NEc3kwWm8zSDExU2dpRGphT1hKc0lieXJSSFNaQzV2LUlRVnViMzdaZ1VxRVZmXzNhQnZSTUo2aWhBQTBURVdFeWZWTEI5czh3UTN4c21tUEM1Q2l0UDZoTDZnT0hadVZHalBNMk5XdkdfUVVTalBhSVR5MVZHZlpyZlQzMG5wUQ?oc=5",
-    "published": "2026-11-10T05:50:00+00:00",
-    "flags": [
-     "call"
-    ]
    }
   ],
   "HOU-CA-04": [
@@ -21585,13 +22461,6 @@
     "outlet": "KTVU",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYkxvYktjQnB5QmppdVAtX1piN3NOUEtqRzllQU1sSnpFNzN4d3NPaG5nZV9ZSTNOYkV2Zjd3SWFkajNOdTYxX3c4UG0wVWQ1TWtDQURwTlNDT0hkVVVEbXU2VDJDZE9xc2lTamttdWNMU21oRXhZYk4wNW96Tm9XdnI1MUZPNFJxbDF4aXQtUWVaVXo3OGtXWDh1bXVNenZ2aFdUbHNMcUM0Zw?oc=5",
     "published": "2026-11-10T06:20:10+00:00",
-    "flags": []
-   },
-   {
-    "title": "Eric Jones Leads Rep. Mike Thompson as Ballot Counting Continues, Says Voters Want Change",
-    "outlet": "Davis Vanguard",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1UOVo0bF93SWxJZEdkaEwxUFRfWF92alRiWVl3STVzYTBlckdLTnk4YjRlMmpiZEVBN3hoclRUWnlOR1kxczZ2aEVrRFpFRmRrSE5YUVNzZzdIb280NzIwTXhvZHhUUXdaUGMyc0I5Yw?oc=5",
-    "published": "2026-11-07T13:26:50+00:00",
     "flags": []
    }
   ],
@@ -21617,12 +22486,22 @@
     ]
    },
    {
-    "title": "South Carolina election officials to determine whether 2nd district house race requires recount",
-    "outlet": "WIS News 10",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX2MyTnA0XzB1Q2p5WjExLU91V1ZxcXJkVjFuOHB5cUJueWV3Zm1yTVljRGtHeFQ0LUtFVDFDS3FmOGVuTUdJR0tzdWxiWUxENkE2MHVnazVEeThxZlI4bkFYNjltckRacVNHSF9PUzNxal9VZFgwckpSQUxuZjgzaVc5eV9kQ3dqQXFfYTJDOWtuSkprNlpkeEViM2ZxbV9nR0FwcUZLb0VZWlNNNTNNWUFTR1lJMEtXQXZnemJ4aVlpWjd4OW8ydTBqMGU?oc=5",
-    "published": "2026-11-09T21:28:15+00:00",
+    "title": "Aiken County prepares for possible recount in tight District 2 race",
+    "outlet": "WRDW",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTm13TVJZWlY0R1VMRjBONHZsaG5qbkJpdVJhVWJTZ28zSFJtWXZQVmVfTVBNLU1zYkZ1VUFpY2lPOXAxSDZ2OEE0S1RaYjJJZktpcEhTOUVtajdCM1p0UHJ2M0VxTnNDTUVHSXBHUXRhdk5LOXVYYUlReXRaUUVHbFNseDZFclVqZ2ItajlndGZSMEFNSlpUOdIBrAFBVV95cUxNSzdqZHhkMFZQZFJXekNFQzI2TC13dXlza0stWmthSUk3dEpEQ1FWbmlEOTNXTi1SUzdvMjZOa0NHbXFIcGlSbHJ3cnBCVlN4azdyMUZXOXZ5Y1VnTjBNdXJTSXlUWEhTamFPREMtR0FPWjI2X0doRHpuQ2RHRy1fQVVPTzNlUWtsTUVhWGpYTTJXTk16Ymh0TTBZUnk5cmpxUF80YkNvemcyNDBG?oc=5",
+    "published": "2026-11-10T13:04:00+00:00",
     "flags": [
      "uncertain"
+    ]
+   },
+   {
+    "title": "SC election officials set to certify 2026 midterm results, order recounts",
+    "outlet": "South Carolina Public Radio",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRzUtVnZXV013UWE3MjVwWTNRWTNITlZtU3ZkbVFxdEpqdkY5Wmd2TkZTY01hVEhRT0xNd2dMR2tfT0R2TnFqa1dPSnd1NXRiUUdPZUNxci1YczRsa28xTGFQWkRGd2x2Y0lNaWwzbnhFVnF5RzJfcXBPSE5RTmw3ZWw1VVVYckxSaklqVGw2ZmpKN20wQzh6T2tHMXRsVHppRVU1bk5xOTJCRGxkNWp2ajlsQUR3akgwS0lGMENtRjlSQ1RPTjNka2RDUnE?oc=5",
+    "published": "2026-11-09T22:16:00+00:00",
+    "flags": [
+     "uncertain",
+     "legal"
     ]
    }
   ]
