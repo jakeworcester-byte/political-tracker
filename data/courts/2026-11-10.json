@@ -1,0 +1,435 @@
+{
+ "date": "2026-11-10",
+ "since": "2026-11-07",
+ "token_env": "COURTLISTENER_TOKEN",
+ "requests": 3,
+ "status": "ok",
+ "errors": [],
+ "dockets": [
+  {
+   "query": "suitNature:\"Civil Rights: Voting\"",
+   "count": 13,
+   "page2": false,
+   "items": [
+    {
+     "case": "Rodriguez v. Garcia et, al.",
+     "court": "District Court, S.D. Florida",
+     "docket_number": "1:26-cv-27895",
+     "date_filed": "2026-11-06",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75084109/rodriguez-v-garcia-et-al/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 14,
+       "description": "Reply in Support of Motion",
+       "url": "https://www.courtlistener.com/docket/75084109/14/rodriguez-v-garcia-et-al/"
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": 14,
+       "description": "Exhibit B - Division of Elections Advisory Opinion 15-03",
+       "url": "https://www.courtlistener.com/docket/75084109/14/2/rodriguez-v-garcia-et-al/"
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": 14,
+       "description": "Exhibit A - WPLG Interview Transcript",
+       "url": "https://www.courtlistener.com/docket/75084109/14/1/rodriguez-v-garcia-et-al/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Service Employees International Union, AFL-CIO v. United States Department of Justice",
+     "court": "District Court, N.D. California",
+     "docket_number": "3:26-cv-12800",
+     "date_filed": "2026-10-29",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75045414/service-employees-international-union-afl-cio-v-united-states-department/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "Terminate Civil Case",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Potter County Republican Party v. Benge",
+     "court": "District Court, N.D. Texas",
+     "docket_number": "2:26-cv-00215",
+     "date_filed": "2026-10-27",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75028945/potter-county-republican-party-v-benge/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 60,
+       "description": "Brief/Memorandum in Support filed by Christy Benge re 59 First MOTION to Dismiss for Lack of Jurisdiction Motion to Dismiss for Failure to State a Claim (Brumley, C) (Entered: 11/09/2026)",
+       "url": "https://www.courtlistener.com/docket/75028945/60/potter-county-republican-party-v-benge/"
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": 61,
+       "description": "CERTIFICATE OF INTERESTED PERSONS/DISCLOSURE STATEMENT by Christy Benge. (Clerk QC note: Affiliate entry indicated). (Brumley, C) (Entered: 11/09/2026)",
+       "url": "https://www.courtlistener.com/docket/75028945/61/potter-county-republican-party-v-benge/"
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": 59,
+       "description": "First MOTION to Dismiss for Lack of Jurisdiction, Motion to Dismiss for Failure to State a Claim() filed by Christy Benge Attorney C Scott Brumley added to party Christy Benge(pty:dft) (Brumley, C) (…",
+       "url": "https://www.courtlistener.com/docket/75028945/59/potter-county-republican-party-v-benge/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Coalition for Open Democracy v. NH Secretary of State",
+     "court": "District Court, D. New Hampshire",
+     "docket_number": "1:26-cv-00647",
+     "date_filed": "2026-08-11",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74220507/coalition-for-open-democracy-v-nh-secretary-of-state/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 77,
+       "description": "Attorney Appearance",
+       "url": "https://www.courtlistener.com/docket/74220507/77/coalition-for-open-democracy-v-nh-secretary-of-state/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "LIU v. Secretary of the U.S. Department of Commerce",
+     "court": "District Court, S.D. New York",
+     "docket_number": "1:26-cv-02496",
+     "date_filed": "2026-03-26",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73055684/liu-v-secretary-of-the-us-department-of-commerce/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "Order on Motion for Extension of Time",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Raffaele v. Commonwealth of Massachusetts",
+     "court": "District Court, D. Massachusetts",
+     "docket_number": "4:26-cv-40067",
+     "date_filed": "2026-02-26",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/72333082/raffaele-v-commonwealth-of-massachusetts/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 14,
+       "description": "Notice of Voluntary Dismissal",
+       "url": "https://www.courtlistener.com/docket/72333082/14/raffaele-v-commonwealth-of-massachusetts/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Brzeg v. State of Michigan, Department of Labor and Economic Opportunity",
+     "court": "District Court, E.D. Michigan",
+     "docket_number": "4:25-cv-12965",
+     "date_filed": "2025-09-18",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/71382549/brzeg-v-state-of-michigan-department-of-labor-and-economic-opportunity/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "Error",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters of Louisiana v. Landry",
+     "court": "District Court, M.D. Louisiana",
+     "docket_number": "3:25-cv-00413",
+     "date_filed": "2025-05-14",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/70261779/league-of-women-voters-of-louisiana-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "Order on Motion for Conference",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "State of Washington v. Trump",
+     "court": "District Court, W.D. Washington",
+     "docket_number": "2:25-cv-00602",
+     "date_filed": "2025-04-04",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/69845185/state-of-washington-v-trump/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 146,
+       "description": "1 - Order AND ~Util - Set/Reset Motion Noting Date",
+       "url": "https://www.courtlistener.com/docket/69845185/146/state-of-washington-v-trump/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "FLORIDA STATE CONFERENCE OF BRANCHES AND YOUTH UNITS OF THE NAACP v. BYRD",
+     "court": "District Court, N.D. Florida",
+     "docket_number": "4:23-cv-00215",
+     "date_filed": "2023-05-24",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/67423808/florida-state-conference-of-branches-and-youth-units-of-the-naacp-v-byrd/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "Set Appeal Deadlines",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Hunt v. Arkansas, State of",
+     "court": "District Court, E.D. Arkansas",
+     "docket_number": "5:89-cv-00406",
+     "date_filed": "1989-07-27",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/7757535/hunt-v-arkansas-state-of/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "NOTICE OF DOCKET CORRECTION re 155 Status Report. CORRECTION: The docket entry was modified to correct the filing event as \"JOINT MOTION for Status Conference\" as marked on the document. (jak)",
+       "url": ""
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": 156,
+       "description": "Dismiss Party",
+       "url": "https://www.courtlistener.com/docket/7757535/156/hunt-v-arkansas-state-of/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "La Union Del Pueblo Entero v. Gregory W. Abbott",
+     "court": "District Court, W.D. Texas",
+     "docket_number": "5:21-cv-00844",
+     "date_filed": "2021-09-03",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/60362224/la-union-del-pueblo-entero-v-gregory-w-abbott/",
+     "entries": [
+      {
+       "date": "2026-11-08",
+       "entry_number": null,
+       "description": "Order on Motion to Withdraw as Attorney",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "White v. State Board of Election Commissioners",
+     "court": "District Court, N.D. Mississippi",
+     "docket_number": "4:22-cv-00062",
+     "date_filed": "2022-04-25",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63266135/white-v-state-board-of-election-commissioners/",
+     "entries": [
+      {
+       "date": "2026-11-07",
+       "entry_number": 374,
+       "description": "RESPONSE to Motion re 369 MOTION to RESTRICT document from public access. Filed filed by Constance Olivia Slaughter Harvey-Burwell, Ty Pinkins, Derrick Simmons, Dyamone White. (Savitzky - PHV, Ari)",
+       "url": "https://www.courtlistener.com/docket/63266135/374/white-v-state-board-of-election-commissioners/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  },
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\" OR \"election commission\")",
+   "count": 8,
+   "page2": false,
+   "items": [
+    {
+     "case": "VanHuisen v. Federal Elections Commisson",
+     "court": "District Court, N.D. California",
+     "docket_number": "5:26-cv-11794",
+     "date_filed": "2026-10-13",
+     "suit_nature": "",
+     "url": "https://www.courtlistener.com/docket/74961613/vanhuisen-v-federal-elections-commisson/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 10,
+       "description": "Prison Trust Fund Account Statement",
+       "url": "https://www.courtlistener.com/docket/74961613/10/vanhuisen-v-federal-elections-commisson/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Feemster-Wright v. St. Louis County Board of Election Commissioners",
+     "court": "District Court, E.D. Missouri",
+     "docket_number": "4:26-cv-01504",
+     "date_filed": "2026-09-21",
+     "suit_nature": "442 Civil Rights: Jobs",
+     "url": "https://www.courtlistener.com/docket/74828095/feemster-wright-v-st-louis-county-board-of-election-commissioners/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "Order Receipt",
+       "url": ""
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": 4,
+       "description": "Memorandum & Order",
+       "url": "https://www.courtlistener.com/docket/74828095/4/feemster-wright-v-st-louis-county-board-of-election-commissioners/"
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": 5,
+       "description": "Summons Issued",
+       "url": "https://www.courtlistener.com/docket/74828095/5/feemster-wright-v-st-louis-county-board-of-election-commissioners/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "LLOP v. FEDERAL ELECTION COMMISSION",
+     "court": "District Court, District of Columbia",
+     "docket_number": "1:26-cv-00051",
+     "date_filed": "2026-01-07",
+     "suit_nature": "950 Constitutional - State Statute",
+     "url": "https://www.courtlistener.com/docket/72126396/llop-v-federal-election-commission/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 17,
+       "description": "Order on Motion for Leave to File AND Order on Motion to Dismiss AND Order on Motion to Expedite",
+       "url": "https://www.courtlistener.com/docket/72126396/17/llop-v-federal-election-commission/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters of Louisiana v. Landry",
+     "court": "District Court, M.D. Louisiana",
+     "docket_number": "3:25-cv-00413",
+     "date_filed": "2025-05-14",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/70261779/league-of-women-voters-of-louisiana-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "Order on Motion for Conference",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "LEOPOLD v. FEDERAL ELECTION COMMISSION",
+     "court": "District Court, District of Columbia",
+     "docket_number": "1:20-cv-01331",
+     "date_filed": "2020-05-19",
+     "suit_nature": "895 Freedom of Information Act",
+     "url": "https://www.courtlistener.com/docket/17178367/leopold-v-federal-election-commission/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 105,
+       "description": "Status Report",
+       "url": "https://www.courtlistener.com/docket/17178367/105/leopold-v-federal-election-commission/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "TRUE THE VOTE, INC. v. INTERNAL REVENUE SERVICE",
+     "court": "District Court, District of Columbia",
+     "docket_number": "1:13-cv-00734",
+     "date_filed": "2013-05-21",
+     "suit_nature": "440 Civil Rights: Other",
+     "url": "https://www.courtlistener.com/docket/4212012/true-the-vote-inc-v-internal-revenue-service/",
+     "entries": [
+      {
+       "date": "2026-11-09",
+       "entry_number": 291,
+       "description": ".Order AND ~Util - Set/Reset Deadlines",
+       "url": "https://www.courtlistener.com/docket/4212012/291/true-the-vote-inc-v-internal-revenue-service/"
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": null,
+       "description": "Set/Reset Deadlines",
+       "url": ""
+      },
+      {
+       "date": "2026-11-09",
+       "entry_number": 290,
+       "description": "Memorandum & Opinion",
+       "url": "https://www.courtlistener.com/docket/4212012/290/true-the-vote-inc-v-internal-revenue-service/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "White v. State Board of Election Commissioners",
+     "court": "District Court, N.D. Mississippi",
+     "docket_number": "4:22-cv-00062",
+     "date_filed": "2022-04-25",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63266135/white-v-state-board-of-election-commissioners/",
+     "entries": [
+      {
+       "date": "2026-11-07",
+       "entry_number": 374,
+       "description": "RESPONSE to Motion re 369 MOTION to RESTRICT document from public access. Filed filed by Constance Olivia Slaughter Harvey-Burwell, Ty Pinkins, Derrick Simmons, Dyamone White. (Savitzky - PHV, Ari)",
+       "url": "https://www.courtlistener.com/docket/63266135/374/white-v-state-board-of-election-commissioners/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  }
+ ],
+ "opinions": [
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\")",
+   "count": 1,
+   "page2": false,
+   "items": [
+    {
+     "case": "True the Vote, Inc. v. Internal Revenue Service",
+     "court": "District Court, District of Columbia",
+     "docket_number": "Civil Action No. 2013-0734",
+     "date_filed": "2026-11-09",
+     "url": "https://www.courtlistener.com/opinion/11057792/true-the-vote-inc-v-internal-revenue-service/",
+     "snippet": "UNITED STATES DISTRICT COURT FOR THE DISTRICT OF COLUMBIA ) TRUE THE VOTE, INC., ) ) Plaintiff, ) ) Civil Action No. 13-734 (RBW) v."
+    }
+   ]
+  }
+ ]
+}

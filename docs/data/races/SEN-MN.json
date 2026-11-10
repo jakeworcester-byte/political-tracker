@@ -323,7 +323,23 @@
  },
  "raw_poll_count": 8,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-10",
+   "race": "SEN-MN",
+   "races": [
+    "SEN-MN"
+   ],
+   "type": "reporting",
+   "source": "Ballotpedia News",
+   "lean": "unrated",
+   "title": "Democrats maintained their majority in the general election for the Minnesota Senate on Nov. 3",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQalU0SXhaQl9tTUNPN2NvSzRfTUNtT2tWLW53cGFlQ0ROQ1dQZE0tak1rREd3Y0cxSTNQUmFGaVBEV2pDbkJSY3dkMlc2T3ozZVlRZnZDSWxvbGN5ZE00eW1VWU15SjdDYTh2dWU0dGNoSEphX2h4RGF1cnhaR05QbHJSc05GZ2tOOWpkc2hLNlcwTzFDVHI0TC01LXowZm82TldXWHVVU2dJV25iYjA3Rzg2TU5rbWFGNFRrWlQzZmhWbWVXd0lMWG9JbG9TbjQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MN",
  "history": [
   {
@@ -473,6 +489,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": -2,
+   "p": -2.7
+  },
+  {
+   "date": "2026-11-10",
    "c": -2,
    "p": -2.7
   }

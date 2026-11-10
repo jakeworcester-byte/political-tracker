@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-09",
+   "race": "HOU-ME-02",
+   "races": [
+    "HOU-ME-02"
+   ],
+   "type": "reporting",
+   "source": "newscentermaine.com",
+   "lean": "unrated",
+   "title": "Ranked-choice voting tabulations underway in Maine's 2nd District race despite Dunlap concession",
+   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOYVFKVWp1V2Y4NW5pY2lpYUVZQUgzcEZTS3RmeGFCVFp4ZVloQ3VCekE0Q2cxR25KYzF1QWVXdTZvcWI5azhOei1vSnEydXJWeTZObHU0Nzc5Z1M3MzVWLVhBdW52OUczZG1mUTdyY3JGOXZhQmYtbEItaDBiQ0RRY1IxdVV5bVFqMEU1Y0IwSHoxUThDb2ZXNUhRNWY3SE9wS1FyZ1YwUFdrNFRHWXRXLVJZV0YwWHgyU0hGaWdDbjBlejBfUXlzYVpFZGJHa3ZvcDA4b2ZWckJRNGFQZVh5Nk4xY3gxQWpmSGVxLTJqcHp4b3ExbkkwLUJrbWlBaXVZS0p5dno4Zm5NaWVpbEVGQVRSRjl5REZLNEVoekFGZ1R0RHhkYmc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-ME-02",
  "history": [
   {
@@ -238,6 +254,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-11-10",
    "c": 0,
    "p": null
   }

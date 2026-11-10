@@ -181,23 +181,7 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-04",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "Ashland Source",
-   "lean": "unrated",
-   "title": "Poindexter unseats Miller to represent Ohio’s 7th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNXBSUGtyajlJR05rNkh1YkdPb0JoSVdhMEg1ZE41Y0dQdHdIQncyZ3BMc0s0eHo1N3pUeVpZaWpiWUlEOE9tQXY0S1kxSmZZMVk4RjhiaFdrSDdxaDQtRnJVbXBpNzVJbkI4dlgxMDIzanNtM2RCa1AxLXM2UTVYbVp4dXg2WjR4d09US0c5R01fQkZwWEw3TjAzcy00Qm52WEtmUUZMem1fY0JwR0hlVGNRUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-07",
  "history": [
   {
@@ -347,6 +331,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-11-10",
    "c": 0,
    "p": -7.0
   }

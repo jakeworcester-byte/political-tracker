@@ -161,23 +161,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-05",
-   "race": "HOU-OH-15",
-   "races": [
-    "HOU-OH-15"
-   ],
-   "type": "reporting",
-   "source": "10TV",
-   "lean": "unrated",
-   "title": "'We knew this was winnable': Don Leonard on flipping Ohio's 15th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMU9WZ0JHWElzWGU2QTV1RG92bHoxb0t5ZkszRU5MVGgxOGRHMi1PdUlQX0kteEhfTzliT05QUjctdS1SNGhnOEl2dFo5UU5XRjlHbWRld2owOVpzY25yYmQ5RFZrRW8zZGJ0a2xyYkNsc1kxVU9CTTdFR043YXRVUXdFeTBndHJkWnA4RWlDdTV5bUZ6MVh6d0NGOHRZN3JEZDNhczJFYnBuWnhjMUZLb0F0YkN2YzhUWDVqNEQ2YWtkMmYzVW5BLVZGNVRiYlRQUEpaUzU1TjdFVTNIeS1VRm1nZHREVGYxVG1vZ0JfcFBLcVozVVE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-15",
  "history": [
   {
@@ -327,6 +311,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": 2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-11-10",
    "c": 2,
    "p": -2.0
   }
