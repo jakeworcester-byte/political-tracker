@@ -87,18 +87,19 @@ From the date in `config/postelection.json` the morning brief becomes an **elect
 4. **Recount language needs state law.** Say a race "could go to a recount" or "is within the automatic recount margin" only with a source stating that state's threshold. Margins under one point are flagged in the digest; check before writing.
 5. **Claims of fraud, irregularity, or intervention are claims.** Attribute them to the person or agency making them, and pair them with what officials, courts, or election administrators have said in response when a source reports it. Court actions name the court, the parties, and the stage (filed, hearing set, ruled, appealed).
 6. **Exit polls are surveys.** Label AP VoteCast and network exit polls as surveys of voters, say which one, and never treat early exit-poll numbers as results. Exit-poll numbers are revised as counts come in; say "early" when they are.
-7. **Every uncalled race gets a line.** Every competitive race (final consensus Likely D through Likely R) that is not called, and every safe-rated seat whose count is within 5 points, gets one line in "Still uncalled." Safe seats that are only waiting on the table get a count, with a link to the full list on the site.
+7. **Every uncalled race gets a line.** Every competitive race (final consensus Likely D through Likely R) that is not called, every governor race that is not called, and every safe-rated seat whose count is within 5 points, gets one line in "Still uncalled." Safe seats that are only waiting on the table get a count, with a link to the full list on the site.
 9. **Flag safe seats that turned competitive.** A seat rated Solid (or unrated) before the election whose count is now within 5 points is marked "(rated safe)" wherever it appears, called or not. When any exist, the Bottom line says how many, because an unexpected close race is news in itself. The digest lists them under "Rated safe, now competitive"; the site highlights them in violet.
+10. **Governors count too.** Governor races follow the same rules as House and Senate races (attribution, leads are counts, recount law). Keys are `GOV-XX`. The governor tally always says it counts the states with no race this year. In ranked-choice states (Alaska), a first-round leader under 50% is not an outcome: say tabulation is pending, with its date when a source gives it.
 8. **No partisan legal trackers as sources.** Party, campaign, and advocacy litigation trackers (for example Democracy Docket) can point to a case, but the cited source is the court record or a news report.
 
 ### Election update shape (phone-first; Still uncalled is exempt from the word budget)
 
-1. Bottom line: where each chamber stands in calls (seats won versus 218 and 51), whether either has been called and by whom.
-2. Called since the last update: competitive calls, one line each with the call's source; flips first. Safe seats called as rated get one summary line.
-3. Still uncalled: one line per race as above, Senate first, then by closeness.
+1. Bottom line: where each chamber stands in calls (seats won versus 218 and 51), whether either has been called and by whom; then one clause on governorships (D x, R y of 50, counting states with no race this year, n not called, k flips), citing the governor results table.
+2. Called since the last update: competitive House, Senate, and governor calls, one line each with the call's source; flips first. Safe seats called as rated (any office) get one summary line.
+3. Still uncalled: one line per race as above, Senate first, then governors, then House by closeness.
 4. Recounts and certification: recount triggers, canvass and certification steps, ranked-choice tabulation dates (Maine, Alaska), each sourced; "none reported" is fine.
 5. Legal and federal action: lawsuits, rulings, and any federal or administration action affecting counting or certification, attributed per rule 5; "none reported" is fine.
 6. What voters said: two to four lines from exit polls or VoteCast, labeled as surveys, plus who actually turned out from voter-file analysis (Jon Ralston for Nevada, Michael Bitzer for North Carolina, major-outlet L2 or state-file analyses), compared with 2022 and attributed by name (morning editions; optional in the evening).
-7. Lessons learned: once the digest's Scorecard says "ready," a short read on how forecasters, polls, and markets did; then weekly. Before that, omit.
+7. Lessons learned: once the digest's Scorecard says "ready," a short read on how forecasters, polls, and markets did, with one line on the governor ratings' record; then weekly. Before that, omit.
 8. Coverage note: sources that failed, table lag, and whether CourtListener court records were used (or why not: no token, token refused).
 9. Link to the site's Results tab.

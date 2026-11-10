@@ -372,7 +372,8 @@ def governors_block(races, ratings, current, freeze_date):
                         "leader": ({"name": r["leader"]["name"], "party": r["leader"]["party"]} if r.get("leader") and not w else None),
                         "margin_pts": r["margin_pts"], "status_text": r["status_text"],
                         "final_rating": SCORE_LABEL.get(meta.get("score")) if meta else None,
-                        "final_score": meta.get("score"), "flip": flip}
+                        "final_score": meta.get("score"), "flip": flip,
+                        "competitive": meta.get("score") is not None and abs(meta["score"]) <= CFG.get("competitive_max_abs_score", 3)}
         before[bucket(r["incumbent_party"])] += 1
         if w:
             won[bucket(w["party"])] += 1
@@ -647,6 +648,13 @@ def main():
     prev_called = {k for k, v in (prev.get("races") or {}).items() if v.get("called")}
     prev_label = os.path.basename(prev_files[-1])[:-5] if prev_files else None
     newly_called = sorted(k for k, r in races.items() if r["called"] and k not in prev_called)
+    if gov_block:
+        pg = (prev.get("governors") or {}).get("states") or {}
+        gov_block["previous_snapshot_had_governors"] = bool(pg)
+        gov_block["newly_called"] = sorted(a for a, v in gov_block["states"].items()
+                                           if v.get("up") and v["called"] and pg and not (pg.get(a) or {}).get("called"))
+        gov_block["reverted_to_uncalled"] = sorted(a for a, v in gov_block["states"].items()
+                                                   if v.get("up") and not v["called"] and (pg.get(a) or {}).get("called"))
     prev_races = prev.get("races") or {}
     for k, r in races.items():
         if r["rated_safe_now_close"]:
@@ -672,6 +680,16 @@ def main():
             except Exception as e:  # noqa: BLE001
                 news["errors"].append(f"{k}: {type(e).__name__}: {e}")
             time.sleep(0.4)
+        if gov_block:
+            suffix = CFG.get("race_query_suffix", "election results")
+            for a, v in gov_block["states"].items():
+                if v.get("up") and (not v["called"] or (a in gov_block["newly_called"] and v.get("competitive"))):
+                    q = f'"{v["state"]}" governor {suffix}'
+                    try:
+                        news["races"][f"GOV-{a}"] = {"query": q, "items": gnews(q, lookback)}
+                    except Exception as e:  # noqa: BLE001
+                        news["errors"].append(f"GOV-{a}: {type(e).__name__}: {e}")
+                    time.sleep(0.4)
         for group, qs in CFG.get("national_queries", {}).items():
             news["national"][group] = []
             for q in qs:
@@ -810,16 +828,35 @@ def write_digest(run_date, edition, s, news):
     g = s.get("governors")
     if g:
         st = g["states"]
-        L.append(f"\n### Governors ({g['called']} of {g['races']} races called; source {g['sources']['results']})")
-        L.append(f"- Governorships held after this election, counting the {sum(g['not_up'].values())} states not voting this year: D {g['seats_secured']['D']}, R {g['seats_secured']['R']}"
+        L.append(f"\n### Governors ({g['called']} of {g['races']} races called; results table {g['sources']['results']} ; states not voting this year from {g['sources']['not_up']} )")
+        L.append(f"- Governorships after this election, counting the {sum(g['not_up'].values())} states with no race this year: D {g['seats_secured']['D']}, R {g['seats_secured']['R']}"
                  + (f", other {g['seats_secured']['I'] + g['seats_secured']['Other']}" if g['seats_secured']['I'] + g['seats_secured']['Other'] else "")
-                 + f" (before: D {g['before']['D']}, R {g['before']['R']}). Optional in the brief; cite the table if you mention it.")
-        if g["flips"]:
-            L.append("- Flips: " + "; ".join(f"{f['state']} {f['from']} to {f['to']} ({f['winner']})" for f in g["flips"]))
-        for abbr, v in st.items():
-            if v.get("up") and not v["called"]:
-                lead = f"{v['leader']['name']} ({v['leader']['party']}) leads by {v['margin_pts']} pts in the table" if v.get("leader") and v.get("margin_pts") is not None else "no vote shares in the table"
-                L.append(f"- Uncalled: {v['state']} | final rating {v['final_rating'] or 'unrated'} | {lead} | table: {v['status_text'][:100]}")
+                 + f", {g['uncalled']} not called (before the election: D {g['before']['D']}, R {g['before']['R']}). Pre-election ratings frozen from the article's ratings table.")
+        L.append("- Flips so far: " + ("; ".join(f"GOV-{f['state']} {f['from']} to {f['to']} ({f['winner']})" for f in g["flips"]) or "none"))
+        new_g = g.get("newly_called") or []
+        if not g.get("previous_snapshot_had_governors"):
+            L.append("- Called since the last update: first governors snapshot, so no comparison yet; treat every call above as already reported.")
+        else:
+            comp = [a for a in new_g if st[a].get("competitive")]
+            safe = [a for a in new_g if a not in comp]
+            L.append(f"- Called since the last update: {len(new_g)}" + ("" if new_g else " (none)"))
+            for a in comp:
+                v = st[a]; w = v["winner"]
+                L.append(f"  - GOV-{a} {v['state']} | final rating {v['final_rating'] or 'unrated'} | winner {w['name']} ({w['party']}){' | FLIP from ' + v['incumbent_party'] if v['flip'] else ''} | table: {v['status_text'][:100]}")
+                for it in (news["races"].get(f"GOV-{a}") or {}).get("items", [])[:3]:
+                    L.append(f"    - lead [{','.join(it['flags']) or '-'}] {it['title']} | {it['outlet']} | {it['published'][:10] if it['published'] else ''} | {it['link']}")
+            if safe:
+                L.append("  - Plus safe or likely seats called as rated: " + ", ".join(f"GOV-{a}" for a in safe))
+        if g.get("reverted_to_uncalled"):
+            L.append("- Marked called last time but not now (table edit; verify before reporting): " + ", ".join(f"GOV-{a}" for a in g["reverted_to_uncalled"]))
+        unc = [a for a, v in st.items() if v.get("up") and not v["called"]]
+        L.append(f"- Not yet called ({len(unc)}):" + ("" if unc else " none"))
+        for a in sorted(unc, key=lambda a: abs(st[a].get("final_score") or 0)):
+            v = st[a]
+            lead = f"{v['leader']['name']} ({v['leader']['party']}) leads by {v['margin_pts']} pts in the table (may be partial; first-round count where ranked choice applies)" if v.get("leader") and v.get("margin_pts") is not None else "no vote shares in the table"
+            L.append(f"  - GOV-{a} {v['state']} | final rating {v['final_rating'] or 'unrated'} | {lead} | table: {v['status_text'][:100]}")
+            for it in (news["races"].get(f"GOV-{a}") or {}).get("items", [])[:4]:
+                L.append(f"    - lead [{','.join(it['flags']) or '-'}] {it['title']} | {it['outlet']} | {it['published'][:10] if it['published'] else ''} | {it['link']}")
 
     flagged = s.get("rated_safe_now_close") or []
     L.append(f"\n### Rated safe, now competitive ({len(flagged)}): final consensus Solid or unrated, count within {CFG.get('upset_watch_points', 5)} points")

@@ -241,6 +241,10 @@ def main():
         for t in table:
             L.append(f"- {t['forecaster']}: {t['right']} right, {t['wrong']} wrong, {t['tossups']} tossups"
                      + (f" ({t['accuracy_pct']}% of non-tossup calls)" if t["accuracy_pct"] is not None else ""))
+        if gov_score["right"] + gov_score["wrong"] + gov_score["tossup"]:
+            L.append(f"- Governors (consensus of the forecasters in the gubernatorial article's ratings table): {gov_score['right']} right, {gov_score['wrong']} wrong, "
+                     f"{gov_score['tossup']} rated Tossup, {gov_score['uncalled']} not called"
+                     + (f"; upsets: {', '.join(u['key'] + ' (' + u['final_rating'] + ', ' + u['party'] + ' won)' for u in gov_score['upsets'])}" if gov_score["upsets"] else "") + ".")
         if poll_summary:
             L.append(f"- Polls (tracked races, final average vs table margin, {poll_summary['races']} races): average miss {poll_summary['mean_abs_error']} pts; "
                      f"signed error {poll_summary['mean_signed_error']:+} (positive = polls underestimated Republicans). Biggest: "
