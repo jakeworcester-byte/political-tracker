@@ -183,23 +183,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-04",
-   "race": "HOU-TX-34",
-   "races": [
-    "HOU-TX-34"
-   ],
-   "type": "reporting",
-   "source": "Texas Border Business",
-   "lean": "unrated",
-   "title": "Vicente Gonzalez Defeats Eric Flores to Retain South Texas Congressional Seat",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTzhiejlackJZTEh3LXhmbE1aOElzbjJxZTU2enBYZ1B0LV9kUzJqLWRDLW83ODJsUG9DOFdaRnJDVy1tVkk2M3lkQ0hyZGdXaHlzeTBxVHhkMy1HRjRQdWFTdEhCbFVxcXU0SlNuOExiMUM2cTJIY2tJWmFGcFluZkZ1VTBTT05ySHp2eVJBVW5ZckRMU1d3ZzJFMXkyYlVDQm1NdXkzdHFYd0Zlamdr?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-34",
  "history": [
   {
@@ -349,6 +333,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": -2,
+   "p": -7.0
+  },
+  {
+   "date": "2026-11-10",
    "c": -2,
    "p": -7.0
   }

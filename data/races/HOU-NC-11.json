@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-09",
+   "race": "HOU-NC-11",
+   "races": [
+    "HOU-NC-11"
+   ],
+   "type": "reporting",
+   "source": "WLOS",
+   "lean": "unrated",
+   "title": "Jamie Ager selects western North Carolina leaders for NC-11 transition committee",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQYmhSOTM0dDRMXzNXLWV1dlpzenVlVGthQ3JDNEpoSm1lNkR2TVE2a2hnQkdEMWo3SVpCMUdvdm50U2trOVpHZTRUMDJUMkdyRTdHaEpXaXppd1ZoNFVLc2hWWmY4bVc2Nm1BVkVLYnd2dWFtdXduOHlqYWtYUDR3akpGc2IwRVlnZDRtY1hpc3B4X01YdTB2bVRyYVhiekZLXzZybFFQMlN5Y1lRUlR2LUNBSU00d21QMEctSl9FeHFtVFVCYzV6WlU2d1hUeUpGSFRiajhaYzVXZlV2X3ZtdFdYQ0xMZVZEWmhZbGdzR0ptVXJsdWE3Ui1wZkdiQlpHM3BySHlHY3g4M3JjYjk4?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NC-11",
  "history": [
   {
@@ -238,6 +254,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-10",
    "c": -2,
    "p": null
   }

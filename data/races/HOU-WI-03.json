@@ -88,38 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-04",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "kare11.com",
-   "lean": "unrated",
-   "title": "Democrat Rebecca Cooke wins election to U.S. House in Wisconsin's 3rd Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZm1Hc1hob1NaNlYtZUJaRlViTjJiSHJ0QkxuZ1hUWU9MVnllV1g2ejVPNjlXS3hkYmNMZGhFUk1xb2Y3cE9CLWMxckJJZHhHX2pjbGJOWjVpbDRQem00LTZMZHR0Rl9DNVJWd2h1Rjg0ZE1aRk9vcEhoQ3FFdkF2TnQ1NGpyZFVJYTJZVHE1UmVHSDFBTUhUZTdBRUFCREVvTF9aRG5mUHZaV2lJRFlmOGMzZnJ6YzljY3NJQVN3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-04",
-   "race": "HOU-WI-03",
-   "races": [
-    "HOU-WI-03"
-   ],
-   "type": "reporting",
-   "source": "Wisconsin State Journal",
-   "lean": "unrated",
-   "title": "Cooke ousts Van Orden in Wisconsin’s closely watched 3rd Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSktyRFo1NkVZc2hrdHNrOG1nQ2FiRk5FZE1uZlZvQy15OFdfX0Y1V3YwQnJMOVZwRUZSMy1zcWcwclViSkI2Q0x3TExBVkVpSjJnd3RGNndVbEgwNzhIck94VHJsS1dsSWZhMW83WGdISmJiZ19jUVhBWG9zTkZlOVFhRWt5VjZ6c3g4bGlMeWhXR1FIN0lZZUNVdTFLT2NyLXl4UDZGWVN0TEd3NzBGUE0wcFJsY1NZZHJJ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WI-03",
  "history": [
   {
@@ -269,6 +238,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-10",
    "c": -2,
    "p": null
   }

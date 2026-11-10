@@ -142,38 +142,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-PA-01",
-   "races": [
-    "HOU-PA-01"
-   ],
-   "type": "reporting",
-   "source": "Northeast Times",
-   "lean": "unrated",
-   "title": "Harvie Ousts Fitzpatrick Next Door in Bucks County as Democrats Flip All Four of Pennsylvania's Swing House Seats",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU19rREhPQjVlU2h1WkZDejVLdlEyZlBMVllpeTBwUHZTVXY0TnBOcDJBd1FTcFZmOFhqU09tdzdDSFRtMEdNcHE5N0xLNEZBc2tlVWJPMkhJZ3RLaWlWQUJvLW1Rem1UTkYzZGVTVXlib0gxMWJiWEM5b1kxRkJCMm9YMFpEYkE0dUhnUzM3VVZ6U1NwUVdQdEFjQnBhd0FsRVlITENIalEyeUxIbXFDQjJn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-04",
-   "race": "HOU-PA-01",
-   "races": [
-    "HOU-PA-01"
-   ],
-   "type": "reporting",
-   "source": "Bucks County Beacon",
-   "lean": "unrated",
-   "title": "Bucks County 2026 Election Results Hub: Associated Press Calls PA-01 for Democrat Bob Harvie; Democrats Win Blue Trifecta in Harrisburg",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVWphQ29wWFFXN3dKdmFaeG9mOUx5WDNTcTBvaWNmeHNsTHd0WEtUZ2NzRUx1SnFuTnVXLUV3bG5hNlVVb0VHT05LYl9mM184ZVJFcHpISWFrNjQ0SVRsVlNRdVQ1OFJFUVd5RjJnNEpQb0VjYmllUkJ6eGxFVG96enp6MA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-01",
  "history": [
   {
@@ -323,6 +292,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": 0,
+   "p": 1.0
+  },
+  {
+   "date": "2026-11-10",
    "c": 0,
    "p": 1.0
   }

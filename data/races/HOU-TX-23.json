@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-04",
-   "race": "HOU-TX-23",
-   "races": [
-    "HOU-TX-23"
-   ],
-   "type": "reporting",
-   "source": "The Truth About Guns",
-   "lean": "unrated",
-   "title": "Why Brandon Herrera Lost Texas' 23rd District",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT3JMSU9hLW1HeGdadUZ4eE9GaVVwUGNUUGZROHVlTmhHak90NmFIQkRVLUpySDVjZ1QwbGU2c1c5a21IcGZiVDMwaU5tZnFLbVY2M044M0hiZHRsSDg2cXhzVGJqbzZWUmJ3Q0REcGh2QVZoeDZianNPTGRpOGU3OUw1YzY5Zw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-23",
  "history": [
   {
@@ -254,6 +238,11 @@
   },
   {
    "date": "2026-11-09",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-10",
    "c": 2,
    "p": null
   }
