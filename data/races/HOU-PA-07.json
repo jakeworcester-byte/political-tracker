@@ -159,23 +159,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-05",
-   "race": "HOU-PA-07",
-   "races": [
-    "HOU-PA-07"
-   ],
-   "type": "reporting",
-   "source": "Berkshire Eagle",
-   "lean": "unrated",
-   "title": "How Bob Brooks went from North Adams paperboy to Pennsylvania congressman",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYV9IZ0RCMlQ4QWJmckFtTVZKVjRBcTltbUdKWHZXMjk0Y0ZjVGFxTHBFS0kwMFJnR0hpNUxSZWpwRTgtNUhJb1ItNWhlNGZmaFA5UUNUVm1maEZMbk1ZUjR6akxHNnM0R201OEJCSGhLdjZFYUEtbU5DMG9OaDJ1bU1vVzJUSmVSWkhDNFJJcW5nREU5YUFqN3VPaC0tdUNwUU5jandxa1lVbXhGS3hibGplTjFhSUlvT2R5Y09vSGdVUzduTkNJNURSU3hUWTJSZ2c?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-07",
  "history": [
   {
@@ -330,6 +314,11 @@
   },
   {
    "date": "2026-11-10",
+   "c": -2,
+   "p": -5.5
+  },
+  {
+   "date": "2026-11-11",
    "c": -2,
    "p": -5.5
   }

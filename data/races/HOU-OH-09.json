@@ -140,7 +140,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-10",
+   "race": "HOU-OH-09",
+   "races": [
+    "HOU-OH-09"
+   ],
+   "type": "reporting",
+   "source": "WTVG",
+   "lean": "unrated",
+   "title": "2004 Ohio’s 9th Congressional District Debate | Unlocked: The 13abc Vault",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRE5nN2diVGdFZTdtQ0M1TXBrZV9vWHI0OUtrcmRfTWtOMlY0M2l5Mlk1Vk5qd3JBeU9mVHNRT21rdEI4Q18xQ3YtRHV1TkV2cjQxYnhtamt5SFZRemNkRndNZG9HQjBGcm5jc2pMajlJXzEyN3YzMEp6UThhZzZ1SUMwVURlR3VqZ01ZRUFoUlZPUk5nQzBmZWF0WUN1U1VL?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-09",
  "history": [
   {
@@ -295,6 +311,11 @@
   },
   {
    "date": "2026-11-10",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-11-11",
    "c": -2,
    "p": 0.0
   }

@@ -82,83 +82,13 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 10,
  "candidates": {
-  "D": [
-   "Elaine Luria"
-  ],
-  "R": [
-   "Jen Kiggans"
-  ]
+  "D": [],
+  "R": []
  },
- "poll": {
-  "average_margin": 0.0,
-  "average_label": "Even",
-  "n_polls": 1,
-  "window_days": 45,
-  "latest": {
-   "pollster": "Tulchin Research",
-   "sponsors": [
-    "House Majority PAC"
-   ],
-   "partisan": "DEM",
-   "start_date": "2026-07-09",
-   "end_date": "2026-07-13",
-   "sample_size": 700,
-   "population": "lv",
-   "margin": 0.0,
-   "margin_label": "Even",
-   "answers": [
-    {
-     "choice": "Elaine Luria",
-     "pct": 47.0
-    },
-    {
-     "choice": "Jen Kiggans",
-     "pct": 47.0
-    }
-   ],
-   "url": "https://www.politico.com/f/?id=0000019f-918b-d49c-ad9f-9fbb88d00000"
-  },
-  "polls": [
-   {
-    "pollster": "Tulchin Research",
-    "end_date": "2026-07-13",
-    "margin": 0.0,
-    "n": 700,
-    "population": "lv",
-    "partisan": "DEM",
-    "url": "https://www.politico.com/f/?id=0000019f-918b-d49c-ad9f-9fbb88d00000",
-    "answers": [
-     {
-      "choice": "Elaine Luria",
-      "pct": 47.0
-     },
-     {
-      "choice": "Jen Kiggans",
-      "pct": 47.0
-     }
-    ]
-   }
-  ]
- },
- "raw_poll_count": 1,
+ "poll": null,
+ "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-VA-02",
-   "races": [
-    "HOU-VA-02"
-   ],
-   "type": "reporting",
-   "source": "WTKR",
-   "lean": "unrated",
-   "title": "Elaine Luria looks ahead to return to Congress after winning Virginia’s 2nd District",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV2YzaDdyRW1VRGJmb3ljVG9MUmFGSTdiT0dHTnJ4aURlaUw2YnI1cGJhajJjM0FQMlE4aXlxRHdIUlVXdHR1dFZCMHY5d3hObU9BdldodDRPZ3lwdkx3OW9nZ01DcEJDSXU3akdaRzFDekxxVnYta3kzaHJxTjRQUGN4OVVRR3l1RXFaZFBVN1RQcWtNWWQ5WHFzRmd1QjhyLUpYdUZjTDZncUhRRHpWWkRWdUVJSERLcHc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-VA-02",
  "history": [
   {
@@ -315,6 +245,11 @@
    "date": "2026-11-10",
    "c": -2,
    "p": 0.0
+  },
+  {
+   "date": "2026-11-11",
+   "c": -2,
+   "p": null
   }
  ]
 }

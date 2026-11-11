@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-06",
+   "race": "HOU-MI-10",
+   "races": [
+    "HOU-MI-10"
+   ],
+   "type": "reporting",
+   "source": "NewsBreak: Local News & Alerts",
+   "lean": "unrated",
+   "title": "Christina Hines (D) defeated Michael Bouchard (R) and three other candidates in the general election for Michigan's 10th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOMHptR0RHSmxJdHl5SllsWWVKWTh3M2hpYVZTVHBGb0k3TVlfb2hDYi1YUk1mNm5wNXE1VWJDVXJ1cHQ4Qzh6UExyMlVzSm14TzNZX0g3a1JBZzdOLW83ajAzYkZQcUpSd2g2empqRTdGcU1fUTZBNERrajliUWpfcUhHME9TSGhQeW5LZHdWVEdBLVlka2lOSldkX1FXdEFBYjBHeFB5N1Yxd3dGWEEtN0pTVmIwM3FtLTd4SHlpZXNuMVdXeUY5Z3F5NU5OVUtZbmlOZzdUeXkxSGNOcUJGWEQtNXlLZWxRdkVpSVRHelJFR1R2WFVyYkR1cTJ1S2czLURiNk5pQ0J0VlQxeHltTVFTWEVEa3VKdk1MOVY0aTFMMmJYWmlEX3hkbFI?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-10",
  "history": [
   {
@@ -297,6 +313,11 @@
   },
   {
    "date": "2026-11-10",
+   "c": -2,
+   "p": 0.0
+  },
+  {
+   "date": "2026-11-11",
    "c": -2,
    "p": 0.0
   }

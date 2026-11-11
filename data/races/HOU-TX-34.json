@@ -183,7 +183,23 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-10",
+   "race": "HOU-TX-34",
+   "races": [
+    "HOU-TX-34"
+   ],
+   "type": "reporting",
+   "source": "Ballotpedia News",
+   "lean": "unrated",
+   "title": "Incumbent Vicente Gonzalez Jr. (D) defeated Eric Flores (R), Eddie Espinoza (G), and Chris Royal (L) to win the general election for Texas' 34th Congressional District",
+   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNbUF0anNzVWE1VW84S0R4VDZwcUxFSXBGZ2E2cGV4c1RwS3FMNUlNQ0hqTEFJekNxX0VrckNuQzVHTWZieFExdjRzVWhEZmxUelc4NnhaejBaaHFEd1VOVEhCYWtWeW5HY3RqMnZabmthcl9aaURfaW9kMko0RC1iT3hHbmdCbzV1OGVYYWZoZEJqaHFnWEc4Z0s0c0NnZi10aXYxYnhYbHd2YjQwVGNWUzgtLU5vci1UOTN6NGtKeXFjM1dTeVJjejlPUXdWbHJlZkpIQUNkbUhpd0lFdDVNR1hoVWtWTmpyZWhOd0pzaE1OSjM5Z3VSbWhGNW5RS1Rxamxhb28zcXJ6dW1jQ25XRTlRcnRUd2E4SF9XM3JtVG1ldw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-34",
  "history": [
   {
@@ -338,6 +354,11 @@
   },
   {
    "date": "2026-11-10",
+   "c": -2,
+   "p": -7.0
+  },
+  {
+   "date": "2026-11-11",
    "c": -2,
    "p": -7.0
   }
