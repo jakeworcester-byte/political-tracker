@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-05",
-   "race": "HOU-PA-10",
-   "races": [
-    "HOU-PA-10"
-   ],
-   "type": "reporting",
-   "source": "WGAL",
-   "lean": "unrated",
-   "title": "Pennsylvania midterm election results: Shapiro wins second term, Stelson flips 10th District",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42al9HNDE1dzdGSVhNb0FHdDZtaTNEdEdhLXdwS3FJVGVCR2c0aWlxd2QtdnI3NXpFMm5CT1p3aDhmbjJVU1ZkanoySkxWZG9ZWlJ6M1NQbVpoN1pVaTJNbkhWcDlHbElheFN6R0VPRGtRcUZSSWNtcTNR?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-PA-10",
  "history": [
   {
@@ -259,6 +243,11 @@
   },
   {
    "date": "2026-11-10",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-11",
    "c": -2,
    "p": null
   }

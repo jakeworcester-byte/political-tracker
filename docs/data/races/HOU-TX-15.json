@@ -182,38 +182,7 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-05",
-   "race": "HOU-TX-15",
-   "races": [
-    "HOU-TX-15"
-   ],
-   "type": "reporting",
-   "source": "USA Today",
-   "lean": "unrated",
-   "title": "Tejano star Bobby Pulido flips Republican congressional seat in Texas",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkZaa3kzbjlwT1JZNEg1c1JyV1duN1pKV0ZLOEdLRnhQXzVpWXFSdFRSNUg1ck1VQ0ZJQUl2clpEb1dYN1JmeUZNSmhBR3VyejRURW5mMHdIVlp4TG9sSDlpMC1TaHgyNmhSTUFvRnA3azdWM0FHdlNRQ0M0eC1WdWp4a3ZiMUFmTWlMRi1pZ1RwVmxWbzQxdDdCVmhiS1ZGMGpVbHRkb21peFN5TDZ1TWl0bUJUenVXV2JrajJGV0liUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-05",
-   "race": "HOU-TX-15",
-   "races": [
-    "HOU-TX-15"
-   ],
-   "type": "reporting",
-   "source": "Austin American-Statesman",
-   "lean": "unrated",
-   "title": "Latin Grammy-winning Tejano singer Bobby Pulido flips Republican seat in Texas - Austin American-Statesman",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdHlaOHNrNXBGRXdTVURfVUdVLUd2dmxSeG44SUo0T2FHS3pMX2pSeTBwTVhTanA1U2VhMHFfd1hNRmtkbTRXeExrbGhjSTdJa3dYSjM0dTJ0SlhkRHFEZW9fNE0tTW40VG95TnQwMUJVcGt6eE9XdlFiZFh5dUhEdFBic3BSTEZlV1ZLNTlicU95Sl83b0ZtTXNRM3FlS21yZWtLMG1kRy1FbTQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-15",
  "history": [
   {
@@ -368,6 +337,11 @@
   },
   {
    "date": "2026-11-10",
+   "c": 0,
+   "p": -10.0
+  },
+  {
+   "date": "2026-11-11",
    "c": 0,
    "p": -10.0
   }

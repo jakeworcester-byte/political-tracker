@@ -1,0 +1,841 @@
+{
+ "fetched_at": "2026-11-11T11:15:40.993348+00:00",
+ "feeds": [
+  {
+   "id": "nyt_politics",
+   "name": "New York Times Politics",
+   "lean": "center-left",
+   "kind": "reporting",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+   "channel_title": "NYT > U.S. > Politics",
+   "items": [
+    {
+     "title": "Bessent Is Moved From D.C.-Area Home to Military Base Amid Iranian Threats",
+     "link": "https://www.nytimes.com/2026/11/10/us/politics/bessent-moved-base-iran-threats.html",
+     "published": "2026-11-11T00:31:56+00:00",
+     "summary": "The Treasury secretary, who is leading an economic pressure campaign against Iran, is the latest Trump official to leave his home over security concerns.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Representative Mar\u00eda Elvira Salazar Wins Re-Election in Florida",
+     "link": "https://www.nytimes.com/2026/11/10/us/politics/florida-house-27-salazar-rodriguez.html",
+     "published": "2026-11-10T23:24:36+00:00",
+     "summary": "Ms. Salazar, a Republican, had released an ad in which she said the White House had \u201cgone too far\u201d on immigration amid worries of Hispanic voter backlash within her party.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Trump Officials Drop Threat to Colorado School District Over Transgender Issues",
+     "link": "https://www.nytimes.com/2026/11/10/us/politics/trump-colorado-transgender.html",
+     "published": "2026-11-11T00:48:37+00:00",
+     "summary": "Trump administration officials had accused the district of allowing boys on girls\u2019 teams, which they said violated a ban on sex discrimination in schools.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "From Climate Activism to the House of Representatives",
+     "link": "https://www.nytimes.com/2026/11/10/climate/william-lawrence-sunrise-congress.html",
+     "published": "2026-11-10T20:18:17+00:00",
+     "summary": "William Lawrence, a co-founder of the Sunrise Movement, flipped a seat in Michigan for the Democrats.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Stung by Losses, G.O.P. Chooses Jordan and Thune as Leaders",
+     "link": "https://www.nytimes.com/2026/11/10/us/politics/republican-house-leader-scalise-jordan.html",
+     "published": "2026-11-11T08:41:17+00:00",
+     "summary": "In the House, Republicans signaled a desire for fresh leadership after their biggest election defeat in decades. In the Senate, they re-elected their current leader.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Corey Lewandowski, Trump Ally, Is a Top Target for Democrats After the Election",
+     "link": "https://www.nytimes.com/2026/11/10/us/politics/democrats-corey-lewandowski-investigations.html",
+     "published": "2026-11-10T16:50:33+00:00",
+     "summary": "The former Trump administration adviser has been urged to preserve his records, as part of Democrats\u2019 bid to rein in the Department of Homeland Security.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Fired by Hegseth, New Member of Congress Supports His Ouster",
+     "link": "https://www.nytimes.com/2026/11/10/us/politics/nancy-lacore-hegseth-impeachment.html",
+     "published": "2026-11-10T16:14:59+00:00",
+     "summary": "Nancy Lacore, who will represent a House district starting in January, was chief of the Navy reserve until last year.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 29
+  },
+  {
+   "id": "wsj_politics",
+   "name": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "kind": "reporting",
+   "url": "https://feeds.content.dowjones.io/public/rss/socialpoliticsfeed",
+   "channel_title": "WSJ.com: Politics",
+   "items": [
+    {
+     "title": "House Republicans elected Rep. Jim Jordan of Ohio as their leader for the next Congress, embracing new blood a week after the party suffered deep losses in the midterms",
+     "link": "https://www.wsj.com/politics/jim-jordan-wins-secret-vote-to-lead-house-gop-after-midterm-losses-0c89ba91?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-11T02:15:00+00:00",
+     "summary": "The onetime political rebel defeated Steve Scalise, the current No. 2 member of the GOP House leadership.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Defense Secretary Pete Hegseth gave a Pentagon press conference for the first time in six months to defend himself against pending impeachment charges",
+     "link": "https://www.wsj.com/politics/national-security/five-takeaways-from-hegseths-first-pentagon-press-conference-in-months-78869363?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-11T00:34:00+00:00",
+     "summary": "The defense secretary defended the war in Iran and survived an impeachment effort in the House.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Defense Secretary Pete Hegseth fended off an impeachment effort Tuesday evening in the House",
+     "link": "https://www.wsj.com/politics/hegseth-survives-impeachment-effort-in-house-7933bc38?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-11T00:33:00+00:00",
+     "summary": "GOP leaders blocked the move. House Democrats are expected to revive the effort when they take control of Congress in January.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Senate Majority Leader John Thune (R., S.D.) won re-election Tuesday as the head of the GOP conference next year",
+     "link": "https://www.wsj.com/politics/policy/john-thune-wins-another-term-as-senate-gop-leader-83e654aa?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-10T22:30:00+00:00",
+     "summary": "The leader took heat for months from President Trump for not passing the SAVE America Act.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Nearly a week after the midterm elections, House Minority Leader Hakeem Jeffries said he and President Trump haven't spoken",
+     "link": "https://www.wsj.com/politics/policy/jeffries-and-trump-have-yet-to-connect-after-midterms-fe01d163?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-09T19:34:00+00:00",
+     "summary": "The top House Democrat said his caucus will discuss a \u201cdramatic change\u201d to immigration policy after the president expressed openness to talks.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "This week will pose two major tests for President Trump\u2019s national-security team as it faces several crises and a furious Congress. Read more in today\u2019s WSJ Politics Newsletter:",
+     "link": "https://www.wsj.com/politics/policy/nvidias-jensen-huang-scandal-tests-trump-as-does-emboldened-congress-6b471765?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-09T11:48:00+00:00",
+     "summary": "Also, the president said mass deportations might have been \u201ctoo tough,\u201d and his former advisers get into a nasty text-message feud.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Voters fed up with high prices gave Democrats a landslide election victory. The big question for party winners: Can Democrats alone fix what\u2019s broken?",
+     "link": "https://www.wsj.com/politics/elections/democrats-election-inflation-tariffs-economy-1379bdb3?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-09T02:00:00+00:00",
+     "summary": "A landslide win driven by economic frustration runs headlong into the challenge of making American life more affordable.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "James Talarico wasn\u2019t the only Democratic candidate to campaign around Christian faith in the midterm elections",
+     "link": "https://www.wsj.com/politics/elections/after-decades-of-a-religious-right-democrats-find-a-religious-left-30ea7168?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-08T14:59:00+00:00",
+     "summary": "The party made inroads with Protestant and Catholic voters. Keeping them will be the next challenge.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "The House of Representatives is barreling toward a vote on whether to impeach Defense Secretary Pete Hegseth, who has vowed to address the effort during a rare press conference on Tuesday morning",
+     "link": "https://www.wsj.com/politics/national-security/pete-hegseth-impeachment-press-conference-cdf5d9d6?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-10T01:53:00+00:00",
+     "summary": "The effort to impeach the defense secretary began in earnest on Monday.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 21
+  },
+  {
+   "id": "npr_politics",
+   "name": "NPR Politics",
+   "lean": "center-left",
+   "kind": "reporting",
+   "url": "https://feeds.npr.org/1014/rss.xml",
+   "channel_title": "NPR Topics: Politics",
+   "items": [
+    {
+     "title": "Close Trump ally to lead House Republicans next year",
+     "link": "https://www.npr.org/2026/11/11/nx-s1-6035795/close-trump-ally-to-lead-house-republicans-next-year",
+     "published": "2026-11-11T10:02:52+00:00",
+     "summary": "House Republicans will have a new leader at the start of the new Congress in January: Ohio's Jim Jordan, a co-founder of the ultra-conservative Freedom Caucus and a close ally of President Trump.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "House votes to end the impeachment effort against Pete Hegseth",
+     "link": "https://www.npr.org/2026/11/11/nx-s1-6035797/house-votes-to-end-the-impeachment-effort-against-pete-hegseth",
+     "published": "2026-11-11T10:02:51+00:00",
+     "summary": "The House was on course for a floor vote Wednesday on whether to impeach Pete Hegseth. That is until House Republicans used a procedural vote to effectively end the impeachment effort.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Mixed results from ballot measures on abortion and trans issues",
+     "link": "https://www.npr.org/2026/11/11/nx-s1-6035718/mixed-results-from-ballot-measures-on-abortion-and-trans-issues",
+     "published": "2026-11-11T10:02:50+00:00",
+     "summary": "Midterm ballot measures on abortion and transgender issues saw mixed results.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Michel Martin speaks to Republican advisor about GOP leadership vote",
+     "link": "https://www.npr.org/2026/11/11/nx-s1-6035785/michel-martin-speaks-to-republican-advisor-about-gop-leadership-vote",
+     "published": "2026-11-11T10:02:46+00:00",
+     "summary": "NPR's Michel Martin speaks with Hogan Gidley, a Republican consultant and advisor to House Speaker Mike Johnson, about the new GOP's leadership vote.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Ex-GOP lawmaker, turned California Independent, talks reelection bid defeat",
+     "link": "https://www.npr.org/2026/11/11/nx-s1-6034566/ex-gop-lawmaker-turned-california-independent-talks-reelection-bid-defeat",
+     "published": "2026-11-11T10:02:43+00:00",
+     "summary": "NPR's Michel Martin speaks with Rep. Kevin Kiley (I-Calif.) who officially left the GOP in March and lost his bid for reelection last week.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 10
+  },
+  {
+   "id": "national_review",
+   "name": "National Review",
+   "lean": "right",
+   "kind": "punditry",
+   "url": "https://www.nationalreview.com/feed/",
+   "channel_title": "National Review",
+   "items": [
+    {
+     "title": "Midterm Mayhem for the Free and Virtuous Society",
+     "link": "https://www.nationalreview.com/articles/midterm-mayhem-for-the-free-and-virtuous-society",
+     "published": "2026-11-09T15:29:24+00:00",
+     "summary": "The GOP will continue to suffer at the polls until it focuses on building this type of society once again.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 20
+  },
+  {
+   "id": "the_dispatch",
+   "name": "The Dispatch",
+   "lean": "center-right",
+   "kind": "punditry",
+   "url": "https://thedispatch.com/feed/",
+   "channel_title": "The Dispatch",
+   "items": [
+    {
+     "title": "Vance\u2019s Midterm Blame Game Is Full of Lies by Omission",
+     "link": "https://thedispatch.com/article/vance-midterms-excuses-iran-israel-independents/",
+     "published": "2026-11-11T06:01:00+00:00",
+     "summary": "What the vice president didn\u2019t talk about when explaining the blue wave.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "\u2018We Need Better Candidates, Not Better Maps\u2019",
+     "link": "https://thedispatch.com/article/indiana-state-republicans-redistricting-failure-democrats/",
+     "published": "2026-11-11T06:00:00+00:00",
+     "summary": "Where do Indiana Republicans who stood up to Trump\u2019s demand for mid-decade redistricting go to get their apology?",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Stephen Miller\u2019s White House vs. Congress",
+     "link": "https://thedispatch.com/newsletter/morning/stephen-millers-white-house-vs-congress/",
+     "published": "2026-11-10T11:17:57+00:00",
+     "summary": "Plus: France blames Iran for hacking supermarket fridges, Trump questions the midterm results, and Starbucks Japan releases Potato Soupuccino",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How Trump Is Responding to His Midterm Rebuke",
+     "link": "https://thedispatch.com/podcast/dispatch-podcast/how-trump-is-responding-to-his-midterm-rebuke/",
+     "published": "2026-11-10T08:00:00+00:00",
+     "summary": "Plus: Who inherits the Republican Party?",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 10
+  },
+  {
+   "id": "silver_bulletin",
+   "name": "Silver Bulletin",
+   "lean": "center",
+   "kind": "punditry",
+   "url": "https://www.natesilver.net/feed",
+   "channel_title": "Silver Bulletin",
+   "items": [
+    {
+     "title": "How popular is Donald Trump?",
+     "link": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+     "published": "2026-11-09T15:06:00+00:00",
+     "summary": "Silver Bulletin approval ratings for President Trump \u2014 and all presidents since Truman.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How popular is the Iran War?",
+     "link": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
+     "published": "2026-11-09T15:05:00+00:00",
+     "summary": "Silver Bulletin approval ratings for the ongoing conflict.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 20
+  },
+  {
+   "id": "nevada_independent",
+   "name": "The Nevada Independent",
+   "lean": "center",
+   "kind": "reporting",
+   "url": "https://thenevadaindependent.com/feed",
+   "channel_title": "The Nevada Independent",
+   "items": [
+    {
+     "title": "Did Donald Trump sink Nevada Republicans? Here's what the data says.",
+     "link": "https://thenevadaindependent.com/article/did-donald-trump-sink-nevada-republicans-heres-what-the-data-says/",
+     "published": "2026-11-11T10:00:00+00:00",
+     "summary": "A Nevada Independent analysis of voting data found that GOP candidates with closer ties to Trump generally performed worse in the recent midterm elections.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "After a midterm drubbing, who can save Nevada Republicans in 2028?",
+     "link": "https://thenevadaindependent.com/article/after-a-midterm-drubbing-who-can-save-nevada-republicans-in-2028/",
+     "published": "2026-11-10T15:00:00+00:00",
+     "summary": "Plus: Our final race calls and a look at whether CD2 can stay blue.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Landlord of future A's Vegas stadium may need to cover additional construction costs",
+     "link": "https://thenevadaindependent.com/article/landlord-of-future-as-vegas-stadium-may-need-to-cover-additional-construction-costs/",
+     "published": "2026-11-10T10:00:00+00:00",
+     "summary": "Bally's is on tap to build a $250M primary entrance to the ballpark from the Strip. But the company is having financial trouble and seeks help from the site's landlord.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "OPINION: So you're a Democrat elected to represent a red district. Now what?",
+     "link": "https://thenevadaindependent.com/article/opinion-so-youre-a-democrat-elected-to-represent-a-red-district-now-what/",
+     "published": "2026-11-10T10:00:00+00:00",
+     "summary": "It's going to be tempting for Democrats to view this year's election results as a harbinger of a permanent political realignment.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Inside the blue tsunami that led to Nevada Democrats' best election ever",
+     "link": "https://thenevadaindependent.com/article/inside-the-blue-tsunami-that-led-to-nevada-democrats-best-election-ever/",
+     "published": "2026-11-09T10:00:00+00:00",
+     "summary": "Frustration over Trump and the economy dampened Republican enthusiasm and spurred young and Latino voters to swing left.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Voters passed a question to charge EV drivers in Washoe County a fee. What happens next?",
+     "link": "https://thenevadaindependent.com/article/voters-passed-a-question-to-charge-ev-drivers-in-washoe-county-a-fee-what-happens-next/",
+     "published": "2026-11-09T10:00:00+00:00",
+     "summary": "Support for an advisory question on Washoe County ballots asking if electric and hybrid vehicle drivers should pay an annual fee to help fund road repairs will allow the Washoe County Regional Transportation Commission to pursue legislation that could add fees during the 2027 legislative session.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 100
+  },
+  {
+   "id": "ralston_reports",
+   "name": "Ralston Reports (Jon Ralston)",
+   "lean": "center",
+   "kind": "punditry",
+   "url": "https://jonralston.substack.com/feed",
+   "channel_title": "Ralston Reports",
+   "items": [
+    {
+     "title": "The Weekly Report, 11/8/26",
+     "link": "https://jonralston.substack.com/p/the-weekly-report-11826",
+     "published": "2026-11-09T03:20:11+00:00",
+     "summary": "The insiders provided election post-mortems",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 20
+  },
+  {
+   "id": "nc_politics_center",
+   "name": "Center for NC Politics (Michael Bitzer)",
+   "lean": "center",
+   "kind": "punditry",
+   "url": "https://ncpoliticscenter.substack.com/feed",
+   "channel_title": "Center for NC Politics",
+   "items": [],
+   "total_items": 20
+  },
+  {
+   "id": "split_ticket",
+   "name": "Split Ticket",
+   "lean": "center",
+   "kind": "punditry",
+   "url": "https://split-ticket.org/feed/",
+   "channel_title": "Split Ticket",
+   "items": [],
+   "total_items": 317
+  },
+  {
+   "id": "pod_save_america",
+   "name": "Pod Save America",
+   "lean": "left",
+   "kind": "podcast",
+   "url": "https://audioboom.com/channels/5166624.rss",
+   "channel_title": "Pod Save America",
+   "items": [
+    {
+     "title": "Lessons From 2026 (Live From Crooked Con)",
+     "link": "https://audioboom.com/posts/8975659",
+     "published": "2026-11-11T10:55:00+00:00",
+     "summary": "Live from Crooked Con, Lovett talks with top Democratic strategists Morris Katz, Lis Smith, and Danielle Butterfield about what ads and messages worked in the field, their favorite content from other campaigns, and what pissed them off the most. Then, Alex Wagner sits down with Senator Chris Van Hollen to talk about the Senate leadership fight, holding Trump accountable, and whether he has his eye on 2028. Hate listening to ads? Become a Friends of the Pod subscriber for ad-free episodes of Pod Save America, Pod Save the World, Lovett or Leave It, Runaway Country, Offline with Jon Favreau, and",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "From Anti-Trump to Pro-Something (Live from Crooked Con)",
+     "link": "https://audioboom.com/posts/8975201",
+     "published": "2026-11-10T10:55:00+00:00",
+     "summary": "Last week\u2019s midterm landslide was powered in part by Trump voters pulling the lever for Democrats instead. But that doesn\u2019t mean their view of the Democratic Party has improved \u2014 or that they won\u2019t swing back in 2028. Live from Crooked Con, Jon hosts Sen. Chris Van Hollen, Rep. Sarah McBride, Rep.-elect Melat Kiros, and former mayor Mitch Landrieu to talk about what Democrats actually stand for, where the party is going, and what needs to change before the next presidential election. Then, Lovett sits down with Sen. Elissa Slotkin to talk about the grueling Senate campaign in Michigan, why she",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "What Happened on Tuesday? (Live from Crooked Con)",
+     "link": "https://audioboom.com/posts/8974617",
+     "published": "2026-11-08T10:55:00+00:00",
+     "summary": "Live from Crooked Con, Dan sits down with leading Democratic strategists to break down the party\u2019s historic midterm victory. The Bulwark\u2019s Sarah Longwell, pollster Carlos Odio, and campaign strategists Rebecca Katz and Addisu Demissie discuss the tactics that finally flipped Texas blue, the new ways campaigns are thinking about advertising, and how the 2026 results will shape the 2028 Democratic presidential race. Then, Jon sits down with Pennsylvania Governor Josh Shapiro to discuss his campaign, how the new Democratic majority can keep its voters\u2019 trust, how the party should approach AI regu",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Storming the Capital (with Abdul and JB)",
+     "link": "https://audioboom.com/posts/8973976",
+     "published": "2026-11-06T10:55:00+00:00",
+     "summary": "Live from DC, Jon, Lovett, Tommy, Alex, and Dan break down all the latest news from the aftermath of Democrats\u2019 huge wins on Tuesday, from JD Vance\u2019s attempted break with Trump to what the incoming majorities\u2019 top priorities should be. Senator-elect Abdul El-Sayed drops by to talk about standing up to Donald Trump, building consensus on saving Americans\u2019 health care, and his eye-opening caffeine regimen. Then, Gov. JB Pritzker outlines a plan for standing up for working Americans, why Elon Musk\u2019s millions didn\u2019t get results, and why Democrats shouldn\u2019t unilaterally disarm in the redistricting ",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 1200
+  },
+  {
+   "id": "ezra_klein",
+   "name": "The Ezra Klein Show",
+   "lean": "center-left",
+   "kind": "podcast",
+   "url": "https://feeds.simplecast.com/kEKXbjuJ",
+   "channel_title": "The Ezra Klein Show",
+   "items": [
+    {
+     "title": "The Path to a Democratic Supermajority",
+     "link": "https://www.nytimes.com/2026/11/10/opinion/ezra-klein-podcast-adam-jentleson.html",
+     "published": "2026-11-10T10:00:00+00:00",
+     "summary": "Democrats are on track to have more power in the next Congress than they\u2019ve had since 2009. How can they navigate the divides in a party that now stretches from Abdul El-Sayed in Michigan to Adam Hamilton in Kansas? How do they prevent all their new voters in this election from flipping back in the next one? Can they turn this victory into a springboard to an even bigger and more durable Democratic majority in 2028 and beyond? We will have two episodes that try to answer these questions from different angles, one from the center of the party and one from the left. First, representing the more ",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How the Democrats Did It",
+     "link": "https://www.nytimes.com/2026/11/07/opinion/ezra-klein-podcast-michelle-goldberg.html",
+     "published": "2026-11-07T12:00:00+00:00",
+     "summary": "President Trump is primarily responsible for the Republican shellacking on Tuesday. But to get over the finish line in so many places \u2014 across the Midwest and deep into the South \u2013 Democrats had to run the right candidates, and those candidates ran very different campaigns. So how exactly did those Democrats do it? Michelle Goldberg, my colleague at New York Times Opinion, did amazing work this past year covering the biggest races \u2014 traveling to Texas, Michigan, Maine and other states, meeting with the candidates, and getting a sense of their campaigns on the ground. She joins me for a deep di",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "The End of Trumpism",
+     "link": "https://www.nytimes.com/2026/11/04/opinion/ezra-klein-podcast-aaron-retica-midterm-2026.html",
+     "published": "2026-11-04T21:43:47+00:00",
+     "summary": "Tuesday night, a blue tsunami crashed across the political map. Democrats won control of the House and the Senate with room to spare, flipping seats in states that once seemed unimaginable: South Carolina, Kansas, Texas. Ezra Klein sits down with his editor Aaron Retica to survey the wreckage of Trump\u2019s 2024 coalition, and what Democrats can learn from their victories. Mentioned: \u201c Kansas Senator Goes Rogue With Video Response to Medical Debt Lawsuits \u201d by Sarah Kliff Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of \u201cThe Ezra",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 5
+  },
+  {
+   "id": "the_daily",
+   "name": "The Daily (NYT)",
+   "lean": "center-left",
+   "kind": "podcast",
+   "url": "https://feeds.simplecast.com/Sl5CSM3S",
+   "channel_title": "The Daily",
+   "items": [
+    {
+     "title": "Public Schools Have a New Crisis: Not Enough Students",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-11T10:48:29+00:00",
+     "summary": "The number of students in America\u2019s public schools is shrinking. In some cases, the declines have been so drastic that districts are facing empty classrooms, painful budget cuts and angry debates about whether to close schools. Sarah Mervosh, an education reporter at The New York Times, discusses what the enrollment crisis looks like, why it\u2019s happening and how one school district hopes to fix it. Guest: Sarah Mervosh , an education reporter at The New York Times. Background reading: American schools are facing a crisis as the number of children drops. Why U.S. test scores are in a \u201c generatio",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Secrets, Chips and Spycraft: The Nvidia C.E.O. Scandal",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-10T10:55:29+00:00",
+     "summary": "Over the weekend, Jensen Huang, the chief executive and co-founder of Nvidia \u2014 which makes the chips that power artificial intelligence \u2014 admitted to having an affair with a woman who has been determined by U.S. officials to be a spy. That revelation came after The New York Times broke the story of how U.S. intelligence officers uncovered what they say was a plot by Alice Huang to use their relationship to funnel information to Beijing. Tripp Mickle, a White House correspondent for The Times, explains how Beijing tried to compromise one of the tech executives closest to President Trump, and wh",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "After a Crushing Defeat, Trump Doubles Down",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-09T10:45:00+00:00",
+     "summary": "After a stinging rebuke last week at the polls, President Trump announced that he would elevate Stephen Miller \u2014 a driving force behind some of the most polarizing policies of Mr. Trump\u2019s second term \u2014 to chief of staff. Maggie Haberman and Jonathan Swan, White House reporters for The New York Times, explain what Mr. Miller\u2019s appointment reveals about the president\u2019s priorities for his final two years in office. Guests: Maggie Haberman , a White House correspondent for The New York Times. Jonathan Swan , a White House reporter for The New York Times. Background reading: After midterm election ",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Keisha Lance Bottoms on What Democrats Have to Do to Not Squander the Win",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-08T11:00:00+00:00",
+     "summary": "The governor-elect of Georgia is elated about her party\u2019s victories in the South, but knows realignment is far from secure. Thoughts? Email us at theinterview@nytimes.com Watch our show on YouTube: youtube.com/@TheInterviewPodcast For transcripts and more, visit: nytimes.com/theinterview For more information on today\u2019s episode, visit nytimes.com/thedaily . Transcripts of each episode will be made available by the next workday. Subscribe today at nytimes.com/podcasts or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here https://www.nytimes.com",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Introducing \u2018METRO\u2019 From Serial Productions",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-07T11:00:00+00:00",
+     "summary": "Today, we\u2019re sharing an episode from a brand-new show called \u201cMETRO,\u201d made by the Serial podcast team and the reporters here at The Times who cover New York City. Every other week, Sarah Koenig and her team will tell stories about the city and its most fascinating raw material: New Yorkers. They\u2019ll bring you investigations, personal stories, essays and interviews that take the bigness of New York and make it human scale and relevant, no matter where you live. You can find all episodes of Serial\u2019s \u201cMETRO\u201d wherever you get your podcasts and in The New York Times app. For more information on toda",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Chuck Schumer on Governing With (Or Without) Trump",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-06T10:45:00+00:00",
+     "summary": "Warning: This episode contains strong language. Last spring, the political picture for Senator Chuck Schumer, the minority leader, was downright bleak. President Trump was back in the White House. Schumer\u2019s Democratic caucus was largely powerless to stop him. And restless Democratic activists were calling for Schumer to resign. Fast forward to this week. Democrats have roared back to power in both the Senate, where the party flipped seven Republican seats, and the House. And now Schumer, who personally recruited several of the winning candidates, is poised to become the next Senate majority le",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "The Voters Who Flipped Congress",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-05T10:45:00+00:00",
+     "summary": "The midterm elections were an electoral tsunami for Democrats: a complete collapse of the Republican coalition and a landslide victory. Nate Cohn, the chief political analyst for The New York Times, examines the results to figure out which voters showed up, which stayed home and how much billions in campaign spending mattered. Guest: Nate Cohn , the chief political analyst for The New York Times. Background Reading There\u2019s no modern precedent for this Democratic tsunami . Trump is confronting an identity he would rather not: a lame duck . Photo: Nicole Craine for The New York Times For more in",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 72
+  },
+  {
+   "id": "npr_politics_podcast",
+   "name": "The NPR Politics Podcast",
+   "lean": "center-left",
+   "kind": "podcast",
+   "url": "https://feeds.npr.org/510310/podcast.xml",
+   "channel_title": "The NPR Politics Podcast",
+   "items": [
+    {
+     "title": "Hegseth faces impeachment effort",
+     "link": "https://www.npr.org/2026/11/10/nx-s1-6035655/hegseth-faces-impeachment-effort",
+     "published": "2026-11-10T21:11:41+00:00",
+     "summary": "The eight articles of impeachment allege Hegseth has acted improperly with his conduct related to U.S. military action in Iran, Venezuela and Yemen. Hegseth said he stands by his actions. We look at why a Republican, outgoing Rep. Thomas Massie, R-Ky., is trying to impeach a member of a Republican administration, and what could happen if the impeachment effort moves forward. This episode: senior political correspondent Tamara Keith, congressional correspondent Claudia Grisales, and justice correspondent Ryan Lucas. This podcast was produced and edited by Casey Morell and Bria Suggs. Our execut",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Trump confronts his lame duck era",
+     "link": "https://www.npr.org/2026/11/09/nx-s1-6034459/trump-confronts-his-lame-duck-era",
+     "published": "2026-11-09T20:59:45+00:00",
+     "summary": "Come January, Democrats will control both houses of Congress, making legislating and governance potentially more difficult for Republican Donald Trump as his term expires. But, his administration has often bypassed Congress and used executive action to advance policy goals. We explore whether that might increase during Trump\u2019s lame duck period, and how new chief of staff Stephen Miller might factor into those decisions. This episode: senior political correspondent Tamara Keith, White House correspondent Danielle Kurtzleben, and senior national political correspondent Mara Liasson. This podcast",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How badly did partisan gerrymandering backfire?",
+     "link": "https://www.npr.org/2026/11/06/nx-s1-6032605/how-badly-did-partisan-gerrymandering-backfire",
+     "published": "2026-11-06T20:56:33+00:00",
+     "summary": "Republicans, at Donald Trump\u2019s behest, carried out partisan gerrymandering plans to try and make GOP-held seats in the House of Representatives less competitive ahead of elections this year. But, the midterm results suggest that plan backfired in a big way. What lessons will each party learn from what happened? Plus, we look at the state of play in the U.S. Senate races in Alaska and Mississippi, and why cries of election denial have been muted following Tuesday\u2019s votes. This episode: senior political correspondent Tamara Keith, voting correspondents Miles Parks & Ashley Lopez, and senior nati",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Meet the new Dems. Same as the old Dems?",
+     "link": "https://www.npr.org/2026/11/05/nx-s1-6030643/meet-the-new-dems-same-as-the-old-dems",
+     "published": "2026-11-05T21:22:00+00:00",
+     "summary": "With the Democratic Party's wide majorities in the House and Senate, members of the caucus will have different ideas and approaches on offer for how they think issues should be addressed. We look at where some of the divisions may be, and how the youth vote impacted this midterm's results. This episode: senior political correspondent Tamara Keith, political reporter Elena Moore, and congressional reporter Eric McDaniel. This podcast was produced and edited by Casey Morell and Bria Suggs. Our executive producer is Muthoni Muturi. Support public media with NPR+ and enjoy perks for over 25 podcas",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "What will Democrats do with their new majorities?",
+     "link": "https://www.npr.org/2026/11/04/nx-s1-6028768/what-will-democrats-do-with-their-new-majorities",
+     "published": "2026-11-04T18:50:03+00:00",
+     "summary": "Democrats had a very successful midterm cycle, with wins in local, state and federal offices. With new working majorities to come, how might they govern \u2014 especially with a Republican president? This episode: senior political correspondent Tamara Keith, senior political editor & correspondent Domenico Montanaro, and senior national political correspondent Mara Liasson. This podcast was produced and edited by Casey Morell and Bria Suggs. Our executive producer is Muthoni Muturi. Support public media with NPR+ and enjoy perks for over 25 podcasts like this one. This show\u2019s perks include bonus ep",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 1750
+  },
+  {
+   "id": "gd_politics",
+   "name": "GD Politics (Galen Druke)",
+   "lean": "center",
+   "kind": "podcast",
+   "url": "https://api.substack.com/feed/podcast/1603893/s/200151.rss",
+   "channel_title": "GD POLITICS",
+   "items": [
+    {
+     "title": "Eight Years Of Gains, Undone In One Night",
+     "link": "https://www.gdpolitics.com/p/eight-years-of-gains-undone-in-one",
+     "published": "2026-11-09T20:59:05+00:00",
+     "summary": "This is a free preview of a paid episode. To hear more, visit www.gdpolitics.com From 2016 to 2024, Latino voters shifted roughly 32 points toward Republicans. According to early estimates, that entire rightward shift was undone in a single election last Tuesday. On today\u2019s podcast, I sit down with longtime friend of the pod Carlos Odio, co-founder of Equis Research, to unpack one of the biggest stories of the 2026 midterms. Even Carlos, who expected Democrats to recover some ground, was surprised by the magnitude. Of course, a 32-point swing doesn\u2019t mean the same voters moved right and then b",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 171
+  },
+  {
+   "id": "hacks_on_tap",
+   "name": "Hacks on Tap",
+   "lean": "center",
+   "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/VMP7545057845",
+   "channel_title": "Hacks On Tap",
+   "items": [
+    {
+     "title": "Mailbag-A-Palooza Extravaganza Extraordinaire",
+     "link": "",
+     "published": "2026-11-10T12:00:00+00:00",
+     "summary": "This week, the Hacks convened for the highly anticipated, wildly prestigious, and entirely self-proclaimed Mailbag-A-Palooza Extravaganza Extraordinaire! The agenda? Answering the burning questions submitted by the brilliant, inquisitive, and occasionally unhinged minds of the Hacks on Tap listenership. AKA, YOU! Tune in to see if your question made the cut. Didn\u2019t submit one? A stunning failure of civic engagement. Redeem yourself by sending in a question for the next round! Photo by Marcin Golba/NurPhoto via Getty Images Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Blue It All Up",
+     "link": "",
+     "published": "2026-11-04T23:33:00+00:00",
+     "summary": "Three bleary-eyed Hacks convened this morning to dissect the scale and sweep of the 2026 midterms! Axe, Murphy, and Heilemann dive headfirst into the Democratic blue wave, break down the night's biggest stars, surprises, and seismic shifts, and unpack what it all means for the road to 2028 (yes, we're already going there). You've waited long enough \u2014 let's get into it! Photo by Brandon Bell via Getty Images Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 403
+  },
+  {
+   "id": "ruthless",
+   "name": "Ruthless",
+   "lean": "right",
+   "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/FOXM5875505224",
+   "channel_title": "Ruthless Podcast",
+   "items": [
+    {
+     "title": "What Will Trump do Next?",
+     "link": "",
+     "published": "2026-11-10T10:00:00+00:00",
+     "summary": "Ruthless examines what comes next for Trump after the Republican midterm defeat, including his openness to an immigration deal, the economic fallout from the Iran war, and growing questions about JD Vance\u2019s 2028 ambitions. Plus, the fellas break down the brewing showdown between Hakeem Jeffries and the Democratic Socialists before Alliance for a Better Future CEO Janet Kelly joins to discuss AI, data centers, job security, and protecting children online. #RuthlessPodcast #Trump #Politics #AI 0:00:00 Intro 0:03:51 Conservative Infighting Erupts After the Midterm Defeat 0:06:26 Trump Floats Immi",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "California Legalizes Fraud & Other Bizarre Election Results",
+     "link": "",
+     "published": "2026-11-06T10:00:00+00:00",
+     "summary": "Fun Time Friday takes on the wildest fallout from the midterms, including California\u2019s controversial $8.4 billion ballot measure, a 19-year-old winning office in Arizona, and James Carville\u2019s unhinged post-election rant. Plus, Democrats unveil plans to investigate corporate America, new questions surround Alina Habba\u2019s business dealings, and King of the Hill returns with Steve Schmidt facing Sarah Longwell. #RuthlessPodcast #FunTimeFriday #Midterms #Politics 0:00:00 Intro 0:03:12 California Voters Approve Controversial $8.4 Billion Research Measure 0:05:42 California Research Institute Gets Bi",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Why Republicans Lost",
+     "link": "",
+     "published": "2026-11-05T10:00:00+00:00",
+     "summary": "Ruthless breaks down the Republican Party\u2019s devastating midterm losses, examining how economic frustration, tariffs, government corruption concerns, and campaign missteps contributed to the Democratic wave. Plus, the fellas challenge JD Vance\u2019s election analysis, discuss what Republicans must do to rebuild, and react to victory speeches from Ro Khanna and Abdul El-Sayed as Democrats prepare to take power. #RuthlessPodcast #Midterms #Politics 0:00:00 Intro 0:04:11 Why Republicans Suffered a Historic Midterm Defeat 0:08:00 Trump's Policy Wins Overshadowed by Administration Controversies 0:14:22 ",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 761
+  },
+  {
+   "id": "the_remnant",
+   "name": "The Remnant (The Dispatch)",
+   "lean": "center-right",
+   "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/DISPME4897766830",
+   "channel_title": "The Remnant with Jonah Goldberg",
+   "items": [
+    {
+     "title": "The Dispatch Moment | Interview: Steve Hayes",
+     "link": "",
+     "published": "2026-11-11T08:00:00+00:00",
+     "summary": "We here at The Remnant are reluctant to invite low-brow media hacks like Steve Hayes on the show, but sometimes needs must. Steve joins Jonah Goldberg today for the annual State of The Dispatch podcast. Listen in to hear about Donald Trump\u2019s legacy, inflation, Iran, the midterms, Trump\u2019s chiefs of staff, the GOP\u2019s future, blaming advisers, why Steve hates discounts, the Trump era\u2019s half-life, social media, ethical business practices, the pivot to video, and not going full Bulwark. Show Notes: \u2014Kevin Williamson hosted Remnant \u2014Last State of The Dispatch \u2014Tuesday DisPod \u2014Conventional wisdom G-Fi",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How to Teach the Kids Division of Labor | Interview: Jeanna Smialek",
+     "link": "",
+     "published": "2026-11-09T08:00:00+00:00",
+     "summary": "With Jonah Goldberg sleeping off his election-night hangover, Dispatch in-house grumbler Kevin Williamson takes the helm for today\u2019s conversation with author Jeanna Smialek. The pair discuss Jeanna\u2019s new book about the novelist and cover economist Maria Edgeworth, digging into political economy, Adam Smith, moral novels, women\u2019s education, Harriet Martineau, early feminism, utilitarianism, value theory, Ireland, Little House on the Prairie, and the Great Potato Famine. Show Notes: \u2014Jeanna Smialek - The Invisible Hand of Maria Edgeworth: How a Nineteenth-Century Novelist Taught the World Econom",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Survey the Wreckage | Ruminant",
+     "link": "",
+     "published": "2026-11-07T09:00:00+00:00",
+     "summary": "After a couple minor appearances on CNN and about 1,823 tweets, Jonah Goldberg has returned from his Lone Star sojourn ready to ruminate on the week\u2019s GOP bloodbath. Tune in for an absolute stemwinder on the youth vote, TPUSA, Texas, Kansas, the fallacy of red and blue America, potential Democratic overreach, Steven Miller, the DSA, class rhetoric, J.D. Vance, opinions of the median voter, explanations vs. excuses, and a vindication 11 years in the making. Show Notes: \u2014Friday\u2019s DisPod \u2014Conventional wisdom G-File \u2014The blue tsunami Editor\u2019s Podcast \u2014Nick Catoggio\u2019s Boiling Frogs on Vance The Rem",
+     "source_title": "",
+     "relevant": false
+    }
+   ],
+   "total_items": 1196
+  },
+  {
+   "id": "megyn_kelly",
+   "name": "The Megyn Kelly Show",
+   "lean": "right",
+   "kind": "podcast",
+   "url": "https://feeds.simplecast.com/RV1USAfC",
+   "channel_title": "The Megyn Kelly Show",
+   "items": [
+    {
+     "title": "Epstein Report Exposes Failures, 2028 Dem Race Contenders, Cruise Murder Confession: AM Update 11/11",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-11T10:30:00+00:00",
+     "summary": "A new House Oversight Committee report on Jeffrey Epstein details years of government failures, preferential treatment, and missed opportunities to stop his abuse. The 2028 Democrat presidential field begins to take shape as Pete Buttigieg, Kamala Harris, and Wes Moore fuel speculation about potential campaigns. A Texas man faces federal murder charges after allegedly beating and strangling his wife aboard a cruise ship and confessing to investigators. Nearly 200 million Americans brace for a blast of winter weather as plunging temperatures, heavy rain, and possible snow move across the easter",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Shock Call to Execute Elon Musk, Hegseth Impeachment Push, and Truth About Absurd Puff Piece, with Matt Taibbi | Ep. 1438",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-10T19:52:56+00:00",
+     "summary": "Megyn Kelly is joined by Matt Taibbi, founder of Racket News, to discuss the growing calls to impeach Secretary of War Pete Hegseth, what's really behind the push from Rep. Thomas Massie and the Democrats, Hegseth's response and whether he might be out of the role soon, growing tensions between the GOP establishment and Vice President JD Vance, Marco Rubio and Hegseth\u2019s recent explanations about the decision to go to war with Iran, Scott Galloway\u2019s shocking comments about wanting Elon Musk executed for treason, Galloway claiming he defecated in his own Tesla before he sold it, the way Trump De",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "GOP Fight Over 2028 and Vance Begins, Nvidia CEO Spy Scandal, Biden Cuts Book Tour: AM Update 11/10",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-10T10:30:00+00:00",
+     "summary": "Republicans grapple with the fallout from their devastating midterm losses as GOP donors and neocon figures push to mobilize against Vice President JD Vance for the 2028 presidential nomination. Nvidia launches an independent investigation into CEO Jensen Huang after he admits to an affair with a woman identified by US intelligence officials as a Chinese spy. Former President Joe Biden scales back promotional plans for his upcoming memoir as he continues treatment for an aggressive form of prostate cancer. A 19-year-old college sophomore rides a Democrat wave to victory in Arizona, defeating a",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Russell Brand's Lengthy Sentence, Trump's Shock Immigration Deal Comments, and Disgusting Charlie Kirk Attacks, with Emily Jashinsky, Dave Aronberg, and Viva Frei | Ep. 1437",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-09T20:55:54+00:00",
+     "summary": "Megyn Kelly is joined by Dave Aronberg, co-host of \"The MK True Crime Show,\" and Viva Frei, Rumble creator and former litigator, to discuss the breaking news of Russell Brand being given a massive prison sentence of more than 10 years, the judge explaining his decision, the fairness of the prison sentence, the argument that the system was rigged against Russell Brand, the comparison between Russell Brand's sentencing and other criminals in the UK, and more. Then Emily Jashinsky, host of \"After Party,\" joins to discuss a potential immigration deal with the Democrats that sounds like amnesty, th",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Calley Means Unloads on Trumpworld, Schumer Faces Revolt, Pilot's Father Speaks Out: AM Update 11/9",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-09T10:30:00+00:00",
+     "summary": "Former MAHA adviser Calley Means goes public over the ways he says some of President Trump's closest advisers are undermining the president's health agenda to protect corporate interests and political donors. Democrats prepare sweeping investigations into the Trump administration as they prepare to take control of Congress, while party leaders face pressure to pursue impeachment proceedings. Senate Democrat Leader Chuck Schumer faces growing opposition from newly-elected senators who are calling for new leadership despite his confidence that he will reclaim the majority leader's position. The ",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "A Second Look: Megyn's 2023 Sitdown with Gov. Ron DeSantis",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-08T12:00:00+00:00",
+     "summary": "Megyn Kelly brings the latest episode of the \"A Second Look\" series, featuring her 2023 sitdown with Gov. Ron DeSantis back when he was running for president the first time - as he re-enters the national political conversation this week. Follow The Megyn Kelly Show on all social platforms: YouTube: https://www.youtube.com/MegynKelly Twitter: http://Twitter.com/MegynKellyShow Instagram: http://Instagram.com/MegynKellyShow Facebook: http://Facebook.com/MegynKellyShow Find out more information at: https://www.devilmaycaremedia.com/megynkellyshow Hosted by Simplecast, an AdsWizz company. See pcm.a",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "FBI Arrests Meghan Markle\u2019s Father, Neocons\u2019 Pathetic Attempt to SPIN Iran War, Plus Crazy Fallout Continues Over Amy Griffin\u2019s Memoir | Ep. 1436",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-06T20:30:37+00:00",
+     "summary": "Megyn Kelly discusses the breaking news of Meghan Markle\u2019s father, Thomas Markle Sr, arrested in Florida and charged with possessing CSAM, the dark details behind the affidavit, Meghan Markle finally declining to comment on father\u2019s arrest after rushing to the press, the latest developments following Russell Brand\u2019s guilty verdict on multiple counts of s*xual assault, reports on his first night in prison, the neocons\u2019 attempt to spin the Iran war after cheering from the beginning, the ridiculous fallout over VP JD Vance\u2019s tweet about the midterm results, Donald Trump Jr. speaking out about the",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Hegseth Impeachment Push, Citibank Shooting Hero, Wall Street Selloff: AM Update 11/6",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-06T10:30:00+00:00",
+     "summary": "Secretary of War Pete Hegseth faces a growing bipartisan impeachment threat as President Trump reportedly considers replacing him following Republicans' devastating midterm losses. A Marine veteran working as a security guard fatally shoots a gunman who killed a Citibank employee at an office complex near Tampa, Florida, as investigators link the attack to a $2,500 debt. Indiana executes a man convicted of murdering two children, while Florida and Alabama prepare to carry out two additional executions on the same day amid renewed scrutiny of lethal injection procedures. Wall Street suffers a m",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Neocon PANIC Over Blue Tsunami, with Jesse Kelly, Plus Shock Twist in Markle Investigation, and Blago on Prison and Freedom | Ep. 1435",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-05T19:42:06+00:00",
+     "summary": "Megyn Kelly is joined by Jesse Kelly, host of The Jesse Kelly Show, to discuss the GOP establishment\u2019s new spin that the Iran war wasn't the cause of the massive midterm losses but it was the ceasefire, the truth about the issues that mattered to Americans, neocons panicking that their power is coming to an end after the disastrous 2026 election, the truth about how their push for the Iran war has led to harming Americans, what Republicans should expect over the next two years from Democratic investigations, why the fallout from 2026 will be felt for years and possibly decades to come, and mor",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "BREAKING: Russell Brand Found GUILTY on Several Charges of Sexual Assault",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-05T16:42:42+00:00",
+     "summary": "Megyn Kelly goes through the breaking news of Russell Brand found guilty of several charges in the UK trial, including multiple instances of sexual assault. He was also found not guilty of some of the charges. Megyn breaks down what happens next, including what to expect from his sentencing on Monday. Follow The Megyn Kelly Show on all social platforms: YouTube: https://www.youtube.com/MegynKelly Twitter: http://Twitter.com/MegynKellyShow Instagram: http://Instagram.com/MegynKellyShow Facebook: http://Facebook.com/MegynKellyShow Find out more information at: https://www.devilmaycaremedia.com/m",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Dem Hinojosa Ousts Abbott in Texas, Johnson Exits GOP Leadership, DSA Gains Ground: AM Update 11/5",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-05T10:30:00+00:00",
+     "summary": "Democrat Gina Hinojosa defeats Texas Governor Greg Abbott in a historic upset, becoming the state's first Latina governor as questions remain about her progressive record and ambitious economic agenda. House Speaker Mike Johnson steps aside from Republican leadership following the GOP's devastating midterm losses, setting up a showdown between Steve Scalise and Jim Jordan to become minority leader. Democratic Socialists make historic gains in Congress, expanding their ranks to eight members and potentially complicating Hakeem Jeffries' path to the speakership. Wall Street rallies following Dem",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Why Voters Delivered the Blue Tsunami, the Shocking Dem Margins, and the WORST New Senators, with RealClearPolitics | Ep. 1434",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-04T19:47:21+00:00",
+     "summary": "Megyn Kelly discusses the anger from voters on display last night, how the Iran War, Epstein, and data centers helped to bring about blue tsunami, the fallout from the broken Trump promises seen in the midterm election results, VP JD Vance being brutally honest about the reason so many Trump 2024 voters turned to the Democrats in 2026, the four reasons he laid out about why the GOP lost so badly, and more. Then Tom Bevan, Carl Cannon, and Andrew Walworth of RealClearPolitics join to discuss why the GOP might even lose a senate seat in Mississippi, how Trump\u2019s focus on issues like the name of t",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 2028
+  },
+  {
+   "id": "honestly",
+   "name": "Honestly with Bari Weiss",
+   "lean": "center-right",
+   "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/RSV2347142881",
+   "channel_title": "Honestly with Bari Weiss",
+   "items": [],
+   "total_items": 362
+  },
+  {
+   "id": "politics_war_room",
+   "name": "Politics War Room",
+   "lean": "left",
+   "kind": "podcast",
+   "url": "https://audioboom.com/channels/5033739.rss",
+   "channel_title": "Politics War Room with James Carville & Al Hunt",
+   "items": [
+    {
+     "title": "395: We Like Winning With Mark McKinnon, & Aidan Kohn-Murphy",
+     "link": "https://audioboom.com/posts/8973466",
+     "published": "2026-11-05T10:00:00+00:00",
+     "summary": "James and special guest host Mark McKinnon celebrate the midterms, dive into the results, and discuss the future of MAGA, the Democrats, and the country. They are joined by political prodigy and founder of Gen-Z For Change, Aidan Kohn-Murphy, to explore the impact of young voters, why they went Blue, the tension between traditional and progressive energies in the party, vanishing Red states, and the salience of MAGA in Florida. Then, Al Hunt and James look at what comes next for Trumpism and the Democrats now that power has shifted and new leaders are taking office with a popular mandate behin",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 396
+  }
+ ]
+}
