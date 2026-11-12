@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-MI-04",
-   "races": [
-    "HOU-MI-04"
-   ],
-   "type": "reporting",
-   "source": "The Hill",
-   "lean": "unrated",
-   "title": "Democrats flip battleground Michigan House seat, ousting Huizenga",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORGd2WGNJcGlhbm9VWE9fcjg3aWkzTkZSVVlxQUFQMER6ZmlrYk4ycmZ2TDVIejI3MEt0dGhycnA2Y3laSGJ3dnhvZ2lwWUdCX3lLNlZ0ZmpfLTdDd2Y4QnA4MnN2NEhxZ3MtMzlsalJJNnhKdDcxYlVnQ20xMlg1WVZOZ09ZS3dY0gGOAUFVX3lxTE13andzcmZwLXFJNWMtaGlvNk1CUWREZktZbGV2T3V3aFRFTDcyVTREV2I4dldYYWIyb1RzTUlsblZ1SzBBYWJaYWp2Q3dFaExOUGRwbzRmeUVWSzQ3ZFhvdXZmYWJnZndVZE8tMG9IZjhYQmltT1ZSRV9pQmt3MGlkR2c0VWFXTEVmY19uRmc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-04",
  "history": [
   {
@@ -264,6 +248,11 @@
   },
   {
    "date": "2026-11-11",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-11-12",
    "c": 0,
    "p": null
   }

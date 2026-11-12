@@ -142,23 +142,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-WA-03",
-   "races": [
-    "HOU-WA-03"
-   ],
-   "type": "reporting",
-   "source": "Ballotpedia News",
-   "lean": "unrated",
-   "title": "Incumbent Marie Gluesenkamp Perez (D) defeated John Braun (R) in the general election for Washington's 3rd Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOdHZ0S1BIdUl1dXVCaUtIQTNDYWdCQkhIR0xCVkVJeFg0NzNRQzBXT0FRdFFpc19VRm5CcXgxeFdCaU9pZWZtS2puc1JXcTFGQXhFU2xoYTlUc01tQTRqOXpKNnZHVEo1R3BfYnVIQWg3cXhQdU1UbFZ3aWlRT0JqdHh6M19udjFxdlRJVnF0TTNPcFJHQXgxb0wyNEJkSUJfVVllNWc2bHYtT0tsczlqSV9YSG84VzlQdndDN1VScC1Yc1Rxb0NkSGRpWUcyMFNqSlNuUDhFMi1kMTI5ZUpqVnZXOHZKSTB2YlFNTU5BQkRlVFczMDd3Mw?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WA-03",
  "history": [
   {
@@ -318,6 +302,11 @@
   },
   {
    "date": "2026-11-11",
+   "c": -2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-11-12",
    "c": -2,
    "p": -1.0
   }

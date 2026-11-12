@@ -161,23 +161,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-07",
-   "race": "HOU-IA-02",
-   "races": [
-    "HOU-IA-02"
-   ],
-   "type": "reporting",
-   "source": "News From The States",
-   "lean": "unrated",
-   "title": "Two Iowa 2nd Congressional District candidates announce accepting debates",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWU0wdjhFdmc3a2FLa21rcFF6NzNUcnN0NDZ6Yy1yVXprN0dqeEFsem5DWDE5RmxVdTZwalBoTy1DLU5xS0ROc3o3ZS1kMTJkZ1VtcTRKeS1SNzAyVlc5YnZ6UHR1NkpWeEVwb0FWdGpxM1B6X3NBV2dETTRuLTRSR2RiLUlXQlNSVHV3aE8tWW15UlUtSkg0VHNhUmxKM3FBVjFzZ1F6WURpWl9zU2U1SjFvejN5UQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-02",
  "history": [
   {
@@ -337,6 +321,11 @@
   },
   {
    "date": "2026-11-11",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-11-12",
    "c": 0,
    "p": -3.0
   }

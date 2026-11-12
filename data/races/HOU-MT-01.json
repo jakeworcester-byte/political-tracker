@@ -209,23 +209,7 @@
  },
  "raw_poll_count": 4,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-MT-01",
-   "races": [
-    "HOU-MT-01"
-   ],
-   "type": "reporting",
-   "source": "Ballotpedia News",
-   "lean": "unrated",
-   "title": "Sam Forstag defeated Aaron Flint and Nick Sheedy in the general election for Montana's 1st Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOXk2SFBRVjdwYkYwRVNXcW80ZkhwbVJxTThyUi1pV1RFNkZicGZrZXFBcE5XZy1RUnJLajlTV3JsdGoxMWljTms1NjdtVWpUOFhiWHpJQTBnZlBFVWRKUUV6cU9MdVk1Y3BCbE90X3FnV3dsUVFzTlZiTktLQ2VDc0VTU2RUaFZySy1sak1VVXhEbVRkODZsbUZvcngtSEdlam5sSkp2MWp5REpiN3NaZEVfNE9qdGVvWjM5Xy1sdkk1ZmplRkQ0RVA2WjBNWWZ4WDU4SkF2NnM5RFhUaVpRY2t5V0FVZldn?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
   {
@@ -385,6 +369,11 @@
   },
   {
    "date": "2026-11-11",
+   "c": 0,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-12",
    "c": 0,
    "p": -8.0
   }
