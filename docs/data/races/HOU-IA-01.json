@@ -150,23 +150,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-IA-01",
-   "races": [
-    "HOU-IA-01"
-   ],
-   "type": "reporting",
-   "source": "Ballotpedia News",
-   "lean": "unrated",
-   "title": "Christina Bohannan (D) defeated incumbent Mariannette Miller-Meeks (R) and Michael Bridgford (Independent) in the general election for Iowa's 1st Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNUW9fRlUyZU9YLTV2d0FhbzRDMEFzZ2dINkFrSUlubFh0Q3pMQW5zbGVlZEd6WmFMZEZUZ29FUG1NOHB6Vy1xQS1lclltUS0zNFN5UjBidjM3SVl1NnVSMk1STFJGZUNaNVl1b19yNmNTZVdNWW1CSE5PUGlQRmpvVjRIbUhfVmVGOWkwZ3RNZWNMb0o3eVVud25temd5Xy1rM2JLaFJkeHNHYnhaeWlDekNha0tldEpGb2I5SUFSU29adENXWTdDbWxyV2h0ck5ma1ZQWnFTNFA5Q0FYMUZaUm5KZFJuNWhGMHNfeFk2VVpNUVNkdmpwNm5zZWZzMTFHcVNSSXdwOFZoMWRNWDI3RG53YlNLeHJ5a0NQcG1fWDJRRmw5Q2xsdEh3?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-01",
  "history": [
   {
@@ -326,6 +310,11 @@
   },
   {
    "date": "2026-11-11",
+   "c": -2,
+   "p": -5.0
+  },
+  {
+   "date": "2026-11-12",
    "c": -2,
    "p": -5.0
   }

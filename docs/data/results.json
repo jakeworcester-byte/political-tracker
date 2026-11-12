@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-11",
+ "run_date": "2026-11-12",
  "edition": "am",
- "generated_at": "2026-11-11T11:17:54.245186+00:00",
- "previous_snapshot": "2026-11-10-am",
+ "generated_at": "2026-11-12T11:11:59.211565+00:00",
+ "previous_snapshot": "2026-11-11-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -11,15 +11,15 @@
   "governors_current": "https://en.wikipedia.org/wiki/List_of_current_United_States_governors"
  },
  "house": {
-  "races": 435,
-  "called": 425,
+  "races": 434,
+  "called": 426,
   "won": {
    "D": 257,
-   "R": 168,
+   "R": 169,
    "I": 0,
    "Other": 0
   },
-  "uncalled": 10,
+  "uncalled": 8,
   "reported": {
    "D": 0,
    "R": 0,
@@ -29,7 +29,7 @@
   "reported_count": 0,
   "won_incl_reported": {
    "D": 257,
-   "R": 168,
+   "R": 169,
    "I": 0,
    "Other": 0
   },
@@ -37,14 +37,14 @@
  },
  "senate": {
   "races": 35,
-  "called": 33,
+  "called": 34,
   "won": {
-   "D": 20,
+   "D": 21,
    "R": 13,
    "I": 0,
    "Other": 0
   },
-  "uncalled": 2,
+  "uncalled": 1,
   "reported": {
    "D": 0,
    "R": 0,
@@ -53,7 +53,7 @@
   },
   "reported_count": 0,
   "won_incl_reported": {
-   "D": 20,
+   "D": 21,
    "R": 13,
    "I": 0,
    "Other": 0
@@ -63,28 +63,26 @@
    "R": 31
   },
   "seats_secured": {
-   "D": 54,
+   "D": 55,
    "R": 44,
    "I": 0
   },
   "seats_secured_incl_reported": {
-   "D": 54,
+   "D": 55,
    "R": 44,
    "I": 0
   },
   "majority": 51
  },
  "newly_called": [
-  "HOU-CA-07",
-  "HOU-FL-07",
-  "HOU-FL-27"
+  "HOU-NC-03",
+  "HOU-SC-02",
+  "SEN-MS"
  ],
  "uncalled_competitive": [
   "SEN-AK",
-  "SEN-MS",
   "HOU-AK-AL",
   "HOU-MN-01",
-  "HOU-NC-03",
   "HOU-NC-05",
   "HOU-NC-07"
  ],
@@ -92,17 +90,17 @@
   "HOU-CA-04",
   "HOU-CA-23",
   "HOU-NC-10",
+  "HOU-TN-04"
+ ],
+ "reverted_to_uncalled": [],
+ "close_margins": [
+  "HOU-SC-02"
+ ],
+ "rated_safe_now_close": [
   "HOU-SC-02",
-  "HOU-TN-04"
+  "HOU-OK-05",
+  "HOU-OK-01"
  ],
- "reverted_to_uncalled": [
-  "HOU-MN-01",
-  "HOU-NC-05",
-  "HOU-NC-07",
-  "HOU-TN-04"
- ],
- "close_margins": [],
- "rated_safe_now_close": [],
  "reported_called": [],
  "governors": {
   "races": 36,
@@ -365,10 +363,10 @@
     "winner": {
      "name": "Josh Green",
      "party": "D",
-     "pct": 72.6
+     "pct": 71.2
     },
     "leader": null,
-    "margin_pts": 45.2,
+    "margin_pts": 44.4,
     "status_text": "Incumbent re-elected.",
     "final_rating": "Solid D",
     "final_score": -4,
@@ -936,10 +934,10 @@
     "winner": {
      "name": "Eric Barlow",
      "party": "R",
-     "pct": 68.6
+     "pct": 68.1
     },
     "leader": null,
-    "margin_pts": 51.8,
+    "margin_pts": 51.4,
     "status_text": "Incumbent term-limited. Republican hold.",
     "final_rating": "Solid R",
     "final_score": 4,
@@ -1007,6 +1005,11 @@
    {
     "snapshot": "2026-11-11-am",
     "competitive_called": 96,
+    "new": 2
+   },
+   {
+    "snapshot": "2026-11-12-am",
+    "competitive_called": 98,
     "new": 2
    }
   ]
@@ -1340,7 +1343,7 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": false,
+   "headline_call_lead": true,
    "headline_uncertain": false
   },
   "HOU-AZ-01": {
@@ -4634,46 +4637,6 @@
     "name": "Jahana Hayes",
     "party": "D",
     "party_label": "Democratic/WFP",
-    "pct": null,
-    "winner": true
-   },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
-   "final_rating": null,
-   "final_score": null,
-   "competitive": false,
-   "rated_safe_now_close": false,
-   "upset_watch": false,
-   "reported_call": null
-  },
-  "HOU-DE-AL": {
-   "key": "HOU-DE-AL",
-   "name": "DE-AL",
-   "chamber": "House",
-   "status_text": "Incumbent re-elected.",
-   "candidates": [
-    {
-     "name": "Sarah McBride",
-     "party": "D",
-     "party_label": "Democratic",
-     "pct": null,
-     "winner": true
-    },
-    {
-     "name": "Joseph Arminio",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    }
-   ],
-   "incumbent_party": "D",
-   "called": true,
-   "winner": {
-    "name": "Sarah McBride",
-    "party": "D",
-    "party_label": "Democratic",
     "pct": null,
     "winner": true
    },
@@ -10295,7 +10258,7 @@
    "key": "HOU-MI-11",
    "name": "MI-11",
    "chamber": "House",
-   "status_text": "Incumbent retiring to run for U.S. Senate. Democratic hold.",
+   "status_text": "Incumbent retired to run for U.S. Senate. Democratic hold.",
    "candidates": [
     {
      "name": "Jeremy Moss",
@@ -13777,14 +13740,14 @@
    "key": "HOU-NC-03",
    "name": "NC-03",
    "chamber": "House",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent lost re-election. Democratic gain.",
    "candidates": [
     {
-     "name": "Daniel Cavender",
-     "party": "Libertarian",
-     "party_label": "Libertarian",
+     "name": "Raymond Smith Jr.",
+     "party": "D",
+     "party_label": "Democratic",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Greg Murphy",
@@ -13794,16 +13757,22 @@
      "winner": false
     },
     {
-     "name": "Raymond Smith Jr.",
-     "party": "D",
-     "party_label": "Democratic",
+     "name": "Daniel Cavender",
+     "party": "Libertarian",
+     "party_label": "Libertarian",
      "pct": null,
      "winner": false
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Raymond Smith Jr.",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -13812,9 +13781,7 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": null,
-   "headline_call_lead": true,
-   "headline_uncertain": true
+   "reported_call": null
   },
   "HOU-NC-04": {
    "key": "HOU-NC-04",
@@ -13903,7 +13870,7 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": true,
+   "headline_call_lead": false,
    "headline_uncertain": true
   },
   "HOU-NC-06": {
@@ -13986,8 +13953,8 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": true,
-   "headline_uncertain": false
+   "headline_call_lead": false,
+   "headline_uncertain": true
   },
   "HOU-NC-08": {
    "key": "HOU-NC-08",
@@ -15004,14 +14971,14 @@
      "name": "Mark Tedford",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 52.3,
      "winner": true
     },
     {
      "name": "John Croisant",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 47.7,
      "winner": false
     }
    ],
@@ -15021,17 +14988,24 @@
     "name": "Mark Tedford",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 52.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Mark Tedford",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 52.3,
+    "winner": true
+   },
+   "margin_pts": 4.6,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
-   "rated_safe_now_close": false,
+   "rated_safe_now_close": true,
    "upset_watch": false,
+   "flagged_since": "2026-11-12 am",
    "reported_call": null
   },
   "HOU-OK-02": {
@@ -15044,21 +15018,21 @@
      "name": "Josh Brecheen",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 68.0,
      "winner": true
     },
     {
      "name": "Brandon Wade",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 29.0,
      "winner": false
     },
     {
      "name": "Ronnie Hopkins",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 3.1,
      "winner": false
     }
    ],
@@ -15068,12 +15042,18 @@
     "name": "Josh Brecheen",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 68.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Josh Brecheen",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 68.0,
+    "winner": true
+   },
+   "margin_pts": 39.0,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -15091,14 +15071,14 @@
      "name": "Frank Lucas",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 64.0,
      "winner": true
     },
     {
      "name": "Suzie Byrd",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 36.0,
      "winner": false
     }
    ],
@@ -15108,12 +15088,18 @@
     "name": "Frank Lucas",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 64.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Frank Lucas",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 64.0,
+    "winner": true
+   },
+   "margin_pts": 28.0,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -15131,21 +15117,21 @@
      "name": "Tom Cole",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 57.6,
      "winner": true
     },
     {
      "name": "Mitchell Jacob",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 39.5,
      "winner": false
     },
     {
      "name": "Rocco Bonacci",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 2.9,
      "winner": false
     }
    ],
@@ -15155,12 +15141,18 @@
     "name": "Tom Cole",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 57.6,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Tom Cole",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 57.6,
+    "winner": true
+   },
+   "margin_pts": 18.1,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -15178,28 +15170,28 @@
      "name": "Stephanie Bice",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 49.5,
      "winner": true
     },
     {
      "name": "Jena Nelson",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 48.2,
      "winner": false
     },
     {
      "name": "Robert Henri",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 1.5,
      "winner": false
     },
     {
      "name": "Austin Nieves",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 0.8,
      "winner": false
     }
    ],
@@ -15209,17 +15201,24 @@
     "name": "Stephanie Bice",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 49.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Stephanie Bice",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 49.5,
+    "winner": true
+   },
+   "margin_pts": 1.3,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
-   "rated_safe_now_close": false,
+   "rated_safe_now_close": true,
    "upset_watch": false,
+   "flagged_since": "2026-11-12 am",
    "reported_call": null
   },
   "HOU-OR-01": {
@@ -16253,21 +16252,21 @@
      "name": "Nancy Lacore",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 49.7,
      "winner": true
     },
     {
      "name": "Jenny Costa Honeycutt",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 48.6,
      "winner": false
     },
     {
      "name": "Bill Reeside",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 1.6,
      "winner": false
     }
    ],
@@ -16277,12 +16276,18 @@
     "name": "Nancy Lacore",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 49.7,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Nancy Lacore",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 49.7,
+    "winner": true
+   },
+   "margin_pts": 1.1,
+   "has_results": true,
    "final_rating": "Lean R",
    "final_score": 2,
    "competitive": true,
@@ -16294,41 +16299,54 @@
    "key": "HOU-SC-02",
    "name": "SC-02",
    "chamber": "House",
-   "status_text": "Incumbent renominated.",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Joe Wilson",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
-     "winner": false
+     "pct": 49.8,
+     "winner": true
     },
     {
      "name": "Zyon Khalifa",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 48.8,
      "winner": false
     },
     {
      "name": "Dayna Alane Smith",
      "party": "Workers",
      "party_label": "Workers",
-     "pct": null,
+     "pct": 1.2,
      "winner": false
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "called": true,
+   "winner": {
+    "name": "Joe Wilson",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 49.8,
+    "winner": true
+   },
+   "leader": {
+    "name": "Joe Wilson",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 49.8,
+    "winner": true
+   },
+   "margin_pts": 1.0,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
-   "rated_safe_now_close": false,
+   "rated_safe_now_close": true,
    "upset_watch": false,
+   "flagged_since": "2026-11-12 am",
    "reported_call": null
   },
   "HOU-SC-03": {
@@ -16341,21 +16359,21 @@
      "name": "Sheri Biggs",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 63.7,
      "winner": true
     },
     {
      "name": "Eunice Lehmacher",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 34.4,
      "winner": false
     },
     {
      "name": "Brian Corriea",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 1.9,
      "winner": false
     }
    ],
@@ -16365,12 +16383,18 @@
     "name": "Sheri Biggs",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 63.7,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Sheri Biggs",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 63.7,
+    "winner": true
+   },
+   "margin_pts": 29.3,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -16388,21 +16412,21 @@
      "name": "William Timmons",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 51.7,
      "winner": true
     },
     {
      "name": "Courtney McClain",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 45.7,
      "winner": false
     },
     {
      "name": "Jessica Ethridge",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 2.5,
      "winner": false
     }
    ],
@@ -16412,12 +16436,18 @@
     "name": "William Timmons",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 51.7,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "William Timmons",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 51.7,
+    "winner": true
+   },
+   "margin_pts": 6.0,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -16435,14 +16465,14 @@
      "name": "Wes Climer",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 52.8,
      "winner": true
     },
     {
      "name": "Mallory Dittmer",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 47.1,
      "winner": false
     }
    ],
@@ -16452,12 +16482,18 @@
     "name": "Wes Climer",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 52.8,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Wes Climer",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 52.8,
+    "winner": true
+   },
+   "margin_pts": 5.7,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -16475,14 +16511,14 @@
      "name": "Jim Clyburn",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 69.3,
      "winner": true
     },
     {
      "name": "John Peterson",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 30.6,
      "winner": false
     }
    ],
@@ -16492,12 +16528,18 @@
     "name": "Jim Clyburn",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 69.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jim Clyburn",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 69.3,
+    "winner": true
+   },
+   "margin_pts": 38.7,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -16515,14 +16557,14 @@
      "name": "Russell Fry",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 56.7,
      "winner": true
     },
     {
      "name": "John Vincent",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 43.2,
      "winner": false
     }
    ],
@@ -16532,12 +16574,18 @@
     "name": "Russell Fry",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 56.7,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Russell Fry",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 56.7,
+    "winner": true
+   },
+   "margin_pts": 13.5,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -20430,28 +20478,28 @@
      "name": "Chuck Gray",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 54.2,
      "winner": true
     },
     {
      "name": "Lisa Kinney",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 33.5,
      "winner": false
     },
     {
      "name": "Shawn Johnson",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 7.4,
      "winner": false
     },
     {
      "name": "Jeffrey Haggit",
      "party": "Constitution",
      "party_label": "Constitution",
-     "pct": null,
+     "pct": 4.3,
      "winner": false
     }
    ],
@@ -20461,12 +20509,18 @@
     "name": "Chuck Gray",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 54.2,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Chuck Gray",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 54.2,
+    "winner": true
+   },
+   "margin_pts": 20.7,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -20662,8 +20716,8 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": false,
-   "headline_uncertain": true
+   "headline_call_lead": true,
+   "headline_uncertain": false
   },
   "SEN-AR": {
    "key": "SEN-AR",
@@ -20783,14 +20837,14 @@
      "name": "Chris Coons",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 63.4,
      "winner": true
     },
     {
      "name": "Michael Katz",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 36.3,
      "winner": false
     }
    ],
@@ -20800,12 +20854,18 @@
     "name": "Chris Coons",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 63.4,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Chris Coons",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 63.4,
+    "winner": true
+   },
+   "margin_pts": 27.1,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -21204,8 +21264,8 @@
     },
     {
      "name": "Joe Tache",
-     "party": "Socialism an",
-     "party_label": "Socialism and Liberation",
+     "party": "PSL",
+     "party_label": "PSL",
      "pct": null,
      "winner": false
     }
@@ -21355,14 +21415,14 @@
    "key": "SEN-MS",
    "name": "Mississippi Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Scott Colom",
      "party": "D",
      "party_label": "Democratic",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Cindy Hyde-Smith",
@@ -21380,8 +21440,14 @@
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Scott Colom",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -21390,9 +21456,7 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": null,
-   "headline_call_lead": false,
-   "headline_uncertain": false
+   "reported_call": null
   },
   "SEN-MT": {
    "key": "SEN-MT",
@@ -21714,35 +21778,35 @@
      "name": "Kevin Hern",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 57.2,
      "winner": true
     },
     {
      "name": "N'Kiyla Jasmine Thomas",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Ron Meinhardt",
-     "party": "I",
-     "party_label": "Independent",
-     "pct": null,
+     "pct": 39.3,
      "winner": false
     },
     {
      "name": "Curtis Stinnett",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 1.3,
+     "winner": false
+    },
+    {
+     "name": "Ron Meinhardt",
+     "party": "I",
+     "party_label": "Independent",
+     "pct": 1.3,
      "winner": false
     },
     {
      "name": "Sevier White",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 0.9,
      "winner": false
     }
    ],
@@ -21752,12 +21816,18 @@
     "name": "Kevin Hern",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 57.2,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Kevin Hern",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 57.2,
+    "winner": true
+   },
+   "margin_pts": 17.9,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -21876,28 +21946,28 @@
      "name": "Annie Andrews",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 51.1,
      "winner": true
     },
     {
      "name": "Darline Graham",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Mark Hackett",
-     "party": "Constitution",
-     "party_label": "Constitution",
-     "pct": null,
+     "pct": 46.6,
      "winner": false
     },
     {
      "name": "Kasie Whitener",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 1.2,
+     "winner": false
+    },
+    {
+     "name": "Mark Hackett",
+     "party": "Constitution",
+     "party_label": "Constitution",
+     "pct": 0.8,
      "winner": false
     }
    ],
@@ -21907,12 +21977,18 @@
     "name": "Annie Andrews",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 51.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Annie Andrews",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 51.1,
+    "winner": true
+   },
+   "margin_pts": 4.5,
+   "has_results": true,
    "final_rating": "Lean R",
    "final_score": 2,
    "competitive": true,
@@ -22200,14 +22276,14 @@
      "name": "Harriet Hageman",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 64.9,
      "winner": true
     },
     {
      "name": "James W. Byrd",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 34.6,
      "winner": false
     }
    ],
@@ -22217,12 +22293,18 @@
     "name": "Harriet Hageman",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 64.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Harriet Hageman",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 64.9,
+    "winner": true
+   },
+   "margin_pts": 30.3,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -22234,70 +22316,49 @@
  "news": {
   "SEN-AK": [
    {
-    "title": "Peltola expands lead over Sullivan in Alaska Senate contest",
+    "title": "Peltola surpasses combined Dan Sullivan votes after latest drop",
     "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObXdfS0hILXF6UnVwUE1CTHpsM0J5Rjg2eGY3bFVxX3A3cnlxUlN6M1dhMlpqU3phY2M2Yy16bmNEY19kQjdkRVdvU1dRT3gxYmFScTJwYVNVaS1yeGRhYzFZeWVpSl8yaXFfT1VueGdhUEtaTHQ1ZFRSNUtOUWZ6MkFOaDZmTV9q0gGOAUFVX3lxTE00SjBqSTFibTZPYUtfRXFpMzV2Q0tua1lxV2dpMS16V3J6bDhkMzVIY2x0MkVKYjNITlEzcXRmanZkTDJCQUdLV0ZoQVhOU3JHUDItOFk0Y1BZenRBU3RIbjFPYTIzbUFkd0ZQQm9jaW1PdUVIczgxaDdQajZBdUtPZ2MtRUlKUlhCUklDVWc?oc=5",
-    "published": "2026-11-10T15:18:00+00:00",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVThEY2NRY1pPTFBGQjEydm5vd0tzVVAtNUJSd0QyZ0xQWEt2QzhlQ2FHN3lCUG9qMnJOQ1JmUk1vMWZ4R1dPZUVRZVNPdUY4V00zMk8wY2NHTE1MUW5ZNUxzQVUxb05Pa2NjNEl0ejB5NWVHdmRrdDF3QmFrTzFMdVlMMDJtaUhmTjUtcThDVzVveHJybnNmVDFiS01VZWFOVnEtekNn0gGrAUFVX3lxTFBXbG5TVEZuV09tSk54ZnkwVXk1V1hnOElFLW1KUUhvWkxyUHBQWXRvY2g5d1BUanRLcnZmaEZWb2gxRlNvN21PdlRyaHFGZ2plb0hsSU1pWWFSLTdza3ZhSURPczF5Yzc2eVhZRTRfUUFrcjBSNFQ3YVlOWUttaGhxRGlxeGRjOHI4SndVOV9pZnd2bHg2SUpmYy1BODVJYWxfZU1VQUdaOU8yUQ?oc=5",
+    "published": "2026-11-11T14:12:00+00:00",
     "flags": []
    },
    {
-    "title": "Peltola and JKT strengthen leads in latest Alaska election results",
-    "outlet": "Alaska Public Media",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd3kxcGpzSFhELVk2NzZRVG9xcnZZczE0YloxTmhNSzRRY2NISnJQbVNjdVM0VGNyMXI5SkYwcTZwb1BPZnhHLWtMWF9nbFhZLW1BdFEzdWg0MGdGVVA3UXl0NWxQOHByTXlFZnA3RWhqMU5Yak10X2pGdHRhZEtyQ3VxVGl6M0VoYkd1RWVsck1jdFVWOUkza19NSVR5QWpsb0VuQm9qWnJEbTYyUUlLbkFjR3d1aGtiX1JiTkFRTzhnOU5C?oc=5",
-    "published": "2026-11-11T04:25:00+00:00",
+    "title": "Alaska Senate race tipping toward Peltola",
+    "outlet": "ICT News",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMlhSSnF2aVBFWTAtamV3Mkx4ekJmWmtqLTJwaDNRT3NXLUloa0N1Y05OYTZTTkdlWmtrY0RaVUlBQkxxSzB6REVLd053Q3RGbW00ZzdBM2pBbElZQVVWUkotUzNQS01KaUV0ejY1VEpEVTJWZ1pwUnpjQVlUczkyQlFaNFg1UDF3M3hiNGtR?oc=5",
+    "published": "2026-11-12T03:12:33+00:00",
     "flags": []
    },
    {
-    "title": "Trump demands every Alaska vote against Peltola be awarded to Republican incumbent in latest assault on Senate race",
-    "outlet": "Democracy Docket",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPOXpfdFk0OGRONnhLTVkzc05NcWEtTHUzR1huOUl1T1VMNm9GZ1FrLW1JaXBZaUxvNjAtUGlLaTk4VHgxQjRKaGxHeVp0c3llWnZqXy1rOVZiUko5bzh6RjVUYUF5aExxX1NnVDBXNktSRk85aTJjcUlUUlh0aTRDS25NTmpvNmdwTjJSdVp6TTdtMmxydXBQbTN5ZDJ4eDFVeGR4Wi1FaTI3WVJiQnJQUzlzMDVPRnMtUHhLNEZOWndTdXg4RzdjTllCbWFiRS1telYwVWREUUtZZ1pZdlM1LUc4ZmtUemNzUzU3bXlINWxWUQ?oc=5",
-    "published": "2026-11-10T17:52:25+00:00",
-    "flags": []
-   }
-  ],
-  "SEN-MS": [
-   {
-    "title": "Ballot Deadlines Pass in Mississippi Senate Race After Considerable Struggles",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRS1yQUdkaWR2UmdKOXlWeW5iZkJHaW9DZnVNaHhSWU9LeURkZi1RdGI2QnY2MGcyY19KeW9paWJGWkZZVVdma2NSbzQtTXVxZ3FreUdxNlJFX3RLdl9qTmNGMncxdURFOGVGU25kRjJpMTFSZ1U3bHFRSnhYUXFITVdDc0dFUzROUzV2aGRsTQ?oc=5",
-    "published": "2026-11-11T00:04:04+00:00",
-    "flags": []
-   },
-   {
-    "title": "In Mississippi, voters await cliffhanger Senate result with hope and frustration",
-    "outlet": "BBC",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVOGdrNzRtT04yNGlCV25rcVR6VlRvcWE5ckdfWkFCX3d1VU5QYUZrcVpLUVh1Rm01UUE4WUlRaU1hS1YtQ0kxd2E3UHdDbEdiSzRFemFsMlZvQm8?oc=5",
-    "published": "2026-11-11T02:53:57+00:00",
-    "flags": []
-   },
-   {
-    "title": "Mississippi Senate: Scott Colom extends tight lead over Hyde-Smith as ballot deadlines hit",
-    "outlet": "CNBC",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOVozeExmM2ZXMVM4TmdwclMzamE1U292R0pUVHZ0NG5OaVVkOThWa0gtejVZUW1kb0VKZ3haSk5jSndqWkFUOHY5SEVaS2RBTDgtNXJ5TWVPNWhVVGdqc2pIUk1UaThkSnJPVV9YLVBINUpWWlVISnFOay03dlN5eWVTWFA?oc=5",
-    "published": "2026-11-10T21:55:38+00:00",
+    "title": "Alaska U.S. Senate Election 2026 Live Results: Mary Peltola, Dan Sullivan and More",
+    "outlet": "NBC News",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1WlFUdEt1VHQxXzFleWk1dmQ1X05TTmRnTWdzU1BGREpBUnVZbUZTSjNVdElQbm43dktZRTNibFZVZkpFd3hfc0twUHNKOXp0Qk5rSUs4TEVWa2JZakV3WXhXUjI0YzNWblhDMlRzMFlHSHlLZklmYg?oc=5",
+    "published": "2026-11-12T03:35:56+00:00",
     "flags": []
    }
   ],
   "HOU-AK-AL": [
    {
-    "title": "More than a dozen key races remain too early to call one week after Election Day",
-    "outlet": "WCVB",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdWhUUm16azFMamZrbzFoWC1NOVlScWhGUTJYZmJJVFdFY0t3SDRXSy1RVVloVmktc3NyR1VsaEhzcFVMeDVnRkdKSk1YMm9yUi1iUUpDemZtbGxuOFZQNWx1dXhQNnh4TEs2aUJCRWVrZWNNVVp5dG9CMnVQYTJZOFpyOGNmV3R3R2xIRU1R?oc=5",
-    "published": "2026-11-11T11:10:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Peltola, Kreiss-Tomkins increase leads in Monday results update",
-    "outlet": "Alaska Public Media",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS0RQdl9VQXFiYUdLaDF0MFhrWjZ1QTlnYV9oemQ4ZFlUSF9mcl9LeEFJQ1FLckhLRTVFS3gwWS1TTXljck1vVEx1QW1WZENidHluSVhkZGt2Nnp0cGg3SS1mMTl1UVJfSjVsR0liaDRGb01aZVY4dUwtLVI2SXpjWWhGbXBod2RMay05VWZDbXJZM2FtdG5vdFhTZW45X2xuMV9YcW9CMGRzM2FrNWw3emhCUXVTTk42Y3VjQV96dw?oc=5",
-    "published": "2026-11-10T01:03:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Peltola extends lead over Sullivan in Alaska’s U.S. Senate race as ballot-counting continues",
+    "title": "With 25,000 more votes counted, Peltola, JKT and Begich near victory in Alaska election",
     "outlet": "Alaska Beacon",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUGdqZWxhOWdwLTBQUEJ2b2poWFVRejhPMW4yRHlwUTVGQXNZaThnMmZURGQ4N1FtclNLLWFrUkstWk1TbzVfX2RDQzlMSGVqM0NHQWFGMi1COVVrOS12WUtRakhpS2l2c0JkNGpYREpDekx3OHJpNERMYUZnRzhiRnBsdXRZUHNtV1BEcjg0MDNHdXQ3OW5wdWMybkFjRUlmeEFCbUo5dXhybzVNRDdmUGNGVVJucTk2UXhTbFA0NUhPNGVka3c?oc=5",
-    "published": "2026-11-10T01:50:13+00:00",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaDRheGpFczN3anVBdVFMSHZPMTNMdm1Gd05aNGZGVmpJWG53RTY4RWVWQ3FWSkpUaFAzWXFLd2l4VmEtMGQ3YXRhdGhpSWhiemtfT1dmcFRTa3ItQ1JxWnFIa1dfZEVCcGFjTklycDBOZkVZTjBSNEg1WGgyZFpramNnLVdIeTlOOUJXbHZ4aGo5eEhRQXpzaUFaOTR4c1dOcVotRVlBTlc0UkM3TWEzWmpMN1JVbjdWZndNRFJR?oc=5",
+    "published": "2026-11-11T14:07:19+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "Peltola surpasses combined Dan Sullivan votes, additional Florida races called",
+    "outlet": "The Hill",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNDFGXy1oME9ub1h0QnhreHotUGFxV1g0ZVFjVVVFa21pR2JFZjR3eXV5V0R5Q2c3U0Vmak5oLUNWS25pTEF4TjdJT29zZWJOcmp0a3ZGaVBTTGZTU29hRXJHa3MzZ0xma1BGdGttSkJmSU1mTlBtNC1XVGVnYlAyQ19DZEpsa2wxenYwNzRyaTJuV0J2bXJabndWLUoyRGl6RVZLQUlndGZBTlhoUk1tR3VwdjJ1MUZRYXh0UnBzMNIBxAFBVV95cUxNcVY3WWQ5MWVwT3NtYzc1T2lLUnF3aHd0TmR3VEJsOXAza3dCbHlWMEJsYU1iekRBeEN5d0xPRjlpRWtJalI3VWlxeFFFRXBOaTBjNmt4djN0aFlidDJ4dWdKclh4aHBFLUJwNGwtdXNrdkwzSUo0TmgzMkNGZk1NaDlFdGMwRFo1dFhnQzl5YTQyMWY3QUJWTlJ6dTI0QTJYRk5ENldhdW40SU15bVN1TXBwQXRsa3ZuVTdNUW9SdlMxWW5s?oc=5",
+    "published": "2026-11-11T18:15:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Alaska’s U.S. Senate, governor’s races tighten with new ballot count",
+    "outlet": "Alaska Public Media",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXpyblpyZ0ZPendfLWRVTjlGMmNDeVpOcWZBT29aQUU2RWV3TVZtRzAxbzFtUGEtTEs4ZUNTaEtOUDNjYk5XWkZJd1RaYTZYQThhdFpYcUIxT0dTN0VrbFNSNExpUWZCdl9mNGhWMFpfMFJIR016bVBTdGZZVTQ2WXYxWk5lZFpLMWtNdi1VY29yeTRfR2tDX2hiNUdfRDg4RHJBLTZnTktodnNRS3RFWDRhMXlWTUNOVUhELXRleFg2dw?oc=5",
+    "published": "2026-11-12T04:28:00+00:00",
     "flags": []
    }
   ],
@@ -22310,6 +22371,13 @@
     "flags": []
    },
    {
+    "title": "Why the AP has not called Minnesota’s 1st Congressional District race",
+    "outlet": "KTTC | Rochester, MN",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWjVMOW9lZzRCMEp6UHc5S21tMmFlSlFvODNMUzduVnR1MXRQM2RscHE4R0t1ZDlWaFR6Z3FtQTJkWTQ4MDJkTXY4UWZOZzlyZjNKT25FcjdEUjQwYUp0dXhhdXVmUUtLeWJoTTdLSEFiS2NYLTQyLV9fR0RUdE1Sd09aeERLdGdvTUhROXY1RFlIeWFkRFh1Q3lYVXpLWEFlVDEwbGlB?oc=5",
+    "published": "2026-11-10T00:20:00+00:00",
+    "flags": []
+   },
+   {
     "title": "Minnesota poised for 4-race recount ‘spike,’ triggering public funding",
     "outlet": "5 EYEWITNESS NEWS",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSDRZYzJvQ19XMnNDWWRISlVJSkdKbk9CRVd1czFhQUlmUHVoZXp4Y3oxVnREQ0I5QUYtWExmLUVBVFpyMkJTeHFDd3h3czZBVzNJVXJCZElLbjhQNGx6OWkzYXhHdF9xYWFDNXNZRkt5NmZQNHI1QXEzZTY0M2FZbU9Rd21hYndCMnI2MGt6SEt2MER2dU1xRjBKX3lhWUVQRFNvU3FTTQ?oc=5",
@@ -22317,43 +22385,25 @@
     "flags": [
      "uncertain"
     ]
-   },
-   {
-    "title": "Why the AP has not called Minnesota’s 1st Congressional District race",
-    "outlet": "KTTC | Rochester, MN",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWjVMOW9lZzRCMEp6UHc5S21tMmFlSlFvODNMUzduVnR1MXRQM2RscHE4R0t1ZDlWaFR6Z3FtQTJkWTQ4MDJkTXY4UWZOZzlyZjNKT25FcjdEUjQwYUp0dXhhdXVmUUtLeWJoTTdLSEFiS2NYLTQyLV9fR0RUdE1Sd09aeERLdGdvTUhROXY1RFlIeWFkRFh1Q3lYVXpLWEFlVDEwbGlB?oc=5",
-    "published": "2026-11-10T00:20:00+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-NC-03": [
-   {
-    "title": "Democratic wave in NC flips a sixth Congressional seat as counting wraps up",
-    "outlet": "NC Newsline",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGpnQlFfSXFyNG9BSHV3YTVfaG45d3lBWnNSNThRZjIxMjdha1BDQjRpdUpUYW9Uc24tMUJlM2NLYkd3TFFfTVBsWUVvbktqcncwWDJSbTdLT3dqOWtrZEpwWXhqdDVJTnJ2S21qcXFWcjhiTldRTEpWMmpTUTd4RXc1M251blJVckpiZFhQNWJNNWNWZHRGc2VGQV9WVFZweTJQREdlS1hOUUhzdlBz?oc=5",
-    "published": "2026-11-11T01:10:36+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Smith takes lead in 3rd Congressional District race against Murphy",
-    "outlet": "WITN",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVHBrRnFyQ3VfS0Zkdk5RZ3RHWjhWQ0RiYzN5RFJTWXg0dVdXQktMZi14QjlOV0l5a0ZVUWtRamxvY0VOTm5qeTB2R0FkTHpsS29Mcmh2VTd0WkRvcFViSVNQMk1uWUFZVmxKeGpWemtxdHdmX3p4cy1NTUxlY3k2c19rZTFYNFIwZnB3OW5IMV9xLUlRanVsYUR4SW9rWXpBMURSZVo2d0rSAbwBQVVfeXFMTjl5aW5Fb01vQ214c2dkNTl2dEJOc3NKSWpWRGhudXVzQXVBRm1oTEd0TnhYNnAxQWh4MW1Ma2NvUElkUU8tS2tkZ25lVU00Y3NXX0xpY2tuVm80dWRSUXNsdGZvVUdZVHp1V2o2NlFTenc0N05IenExRHdTcndLYUxuLUI4RkFnTHBVV1JVZm16bXBKQzRfVC1MTjVEUURNVkk3VWlPVnJoMFZ4bmNNOGFyWERKbEU1ZjlvaU0?oc=5",
-    "published": "2026-11-10T22:45:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Raymond Smith leads District 3 after Lenoir, Onslow and Greene count provisional ballots",
-    "outlet": "WCTI",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUTFXNm5fRDhaYnNEdnNVRVdKTE93TlZIWVktZ2VvbXJaYThtTVJXd1lKNnV0T1dVb3BITUdPc2d5TE5nTVJNWVJkT0NaR2FfN0lPY1ZqcmFaNnEwZjdhbzZuMGpxVVlFcGJTck51cUFOVE5wYWZIMlBBUElCYXpNLV9JOW85dThwcl9tem4tbUxXYnUzN0czQzRmcV95NVhGcWxkZkFPZVVCRWk1NEhJOWRn?oc=5",
-    "published": "2026-11-11T05:18:06+00:00",
-    "flags": [
-     "uncertain"
-    ]
    }
   ],
   "HOU-NC-05": [
+   {
+    "title": "North Carolina U.S. House Election Live Results 2026",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUNJT0NlakJ5a2JfTF96OEhsQWQ2Vk9tVWY4Mk9mbXJaR0hKb1JUSlJFeWxCck4xTko5cGU2LXBlRDhja25qUE5ZUEpkMWN5QnVJcFBkcmpYV1VYUE5GQllrdnZzZ2FtNjVEakZJQlk5bDM5VmhWS1I2SzctaEtGYg?oc=5",
+    "published": "2026-11-10T08:00:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Hubbard appears to have ousted Foxx in NC-05 as provisionals, cured ballots counted",
+    "outlet": "NC Newsline",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQVRxOUVETkstUElYQlJMUWdsRFlXX0JOdXF1U1Zua1FqdzdmNW56UU5RR2o3QWJuekVUVllfZEVQeHctOVAwVlZUekF6T09oU0gxTU1ZLWZKSmZ1ZThOQUthaFcwVHpqaFpuQmdNUHJESGtDWURzZDdhMFlYWUN4ZnFlbGp6NGpvaEczVGl1UmJfM2h4ZHBwdVpyNi15T2Mwb2lSSlhGWTRQeUV4ekZDcEpR?oc=5",
+    "published": "2026-11-11T15:08:16+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   },
    {
     "title": "Hubbard grows lead over Foxx as provisional votes are added in race for NC's 5th Congressional District",
     "outlet": "wfmynews2.com",
@@ -22362,108 +22412,113 @@
     "flags": [
      "uncertain"
     ]
-   },
-   {
-    "title": "Rep. Virginia Foxx narrowly trails Democratic challenger as lead in race flips back and forth in NC",
-    "outlet": "Raleigh News & Observer",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa0V2bnZ3MFJnaFBxUmNZUXozaGo2Z09TUU5BOG85cHZfSGI3ZlB6V01DME40cGt5OUswSUdCd2FqQUFkcnNHdk1vM0hRTGdhVWNoUVJOSThYRzNpVnBOa215enkwbFV2RWFwUkpPenVTU2poRmhQelVYVTU5QXM1T3J1cmYwRDlIbndzejdKLXVON2VW0gGUAUFVX3lxTE1uRVdNeHFNLURFeE9nVER3WDF6QXdwQ0Z3eVhtVFVZRnMyS09yMnc5SnFhbjVkaEx1UzhhWnU5ZVplQ0Nrc2hxX244eFJkQS1rSl9VRzZtakRPbTY1S3NXRnFyYzlCM1hDckwwTjh6WldBMnV2VGUxS0E2YVJ4MkFEYjd0b2hGLVFqcmlvRkVDeW14cEs?oc=5",
-    "published": "2026-11-10T22:23:00+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Rockingham the lone county to report provisional vote results as Hubbard's lead widens against Foxx",
-    "outlet": "WXII",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVzVaUnhqV29wNmJqNmNGUzhYQmd5LUhfelZ2c3FaSmE1QUJOU3Q2MkEwUi1GRjlpQnAxZXdvZUQ0TGg1RzQ5ajA4U1J3czBrV29oZjJtakhmZHdYOEpLd3gyUW90MkU2Rkg5MVB5UWx4VDVPeXk3UVdHaUdOSkNJcEpWVks5SFE?oc=5",
-    "published": "2026-11-11T03:20:00+00:00",
-    "flags": [
-     "uncertain"
-    ]
    }
   ],
   "HOU-NC-07": [
    {
-    "title": "Lots of 2026 midterm races haven’t been called yet. Here’s where things stand right now.",
-    "outlet": "Yahoo",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMmxZTWdFZWRBMUhHRXByUXlnM3N5ZGhyN21DUS1ybXQ2eXJ3ZjJtNDFYbnR5UHU5Y01vcTktOWhPOHdqVURiSl9UMHgyRVpWN2ZuVXJwcnNtMEZwU2FCb2llVzNJZVQ2QU5KNW9QYXRkcXRtMmlzZXdxQnI4OVhMWWthTkdrM210SEljMTMtTVdSc0ZpT09hTFBkZDJ6Z3BYOVVJM2R6RGRubE1iZ0pRYkl4MGZTME1aQU1OUExCUXpZVmg0Mkh4RVRsOXFzemRORlJ3S18zR0RMWkk?oc=5",
-    "published": "2026-11-10T19:32:51+00:00",
+    "title": "2026 U.S. House Election Results",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
+    "published": "2026-11-12T11:08:14+00:00",
     "flags": []
    },
    {
-    "title": "All the Republican House members ousted from Congress",
-    "outlet": "Fox News",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GN2hWTU5CalZPT0pnc3hJRmZua3lTVGhDRDFRN2F1NGVFZnRlVnR6WjR2ZnBsU3hLRGw3NEhxNXNjS1dOT2ZzX2lsLWM1eC1NUzd0eFdMbjBHbW85ZXV4QkxTaEM3V2JSOWR2VEpWb05yRy1mcUFNbHM0OVktQdIBgwFBVV95cUxNQml0cTNaWlMyU0hYR042d0cyVTRwSUpEM0VQcUU3OFlpYTJkc1F3TGRDczRMRThwY2Voa09nU0tWdVZpcUt5LVVqQjNJVVhxMnFNX3RJM21fZ0J6czJjUTlIM0o4VDBqUVVYX1VNY2lFUkJQemtzTzAzd1NDUFZjZkNwMA?oc=5",
-    "published": "2026-11-09T16:07:37+00:00",
-    "flags": []
-   },
-   {
-    "title": "Forecasting the midterms retrospective: Democrats won a giant House majority that exceeded what analysts had expected",
-    "outlet": "Northwest Progressive Institute",
-    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSDNsTHBoSk9BU0RUVkhPMGI5YW53UlJ5X0xkcGN2WlgyT1RPVFpZcHlJQjlxU3RjNGJJT1VUT3drRkV6VXJJU01NUmY1UHMxRUhtR05ZUnhoX19HU3VUcHFBQTNuN213Z01xN3Nib0FkV3JqLWVwZDJpdHBvaWk1T1lTbTFXMTdCLWxLeHB4UHU3Tkh0QVRpcDRzNGxOZEh2aUVYV01LelRWcnpBMWlpR0QwTkZfVzFFR2VmSzJzZ3ZaaDZ1Q01uTlIxZWZ2TDY4S2dMRUJhOXJ2a2F1Nk5PZ0oyTG80QVBlZGxIZmpJVndJYmk2OHFDTHpB?oc=5",
-    "published": "2026-11-08T15:30:00+00:00",
-    "flags": [
-     "call"
-    ]
-   }
-  ],
-  "HOU-FL-07": [
-   {
-    "title": "Ryan Elijah claims Florida's 7th District win as AP calls race one week after Election Day",
-    "outlet": "WESH",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeTJURUkyRkNpS1k2a2JEVzZxOTBCWUQ1Qjl6aWlKREFsYlZTM250QWZYSXdfOE0tMEdiMXI3VFVzRVN1Ty01UVp0SzlrQVQ4YlQxNWJpWHVMM01xWUhZU25mVnBnNkNJSzZWMXE3UUxDSGN4bTFhazFINTlKdVhOd1lEQVhmYllKZ2cxc01nVHR6SlhRd2hRdFRlY1dPb0k5YzhybDZwY2s?oc=5",
-    "published": "2026-11-10T21:12:00+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Republican Ryan Elijah wins election to U.S. House in Florida's 7th Congressional District",
-    "outlet": "WKMG",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVVpMMTEzVDBmNkszckVfOW5DcnJ0ZFN5SWpidmVCVVZuRlo0ejNNak9aT3pTT2RTYjE0aXEyaXhHa1R0YTROYUMwTjF3V21KdFBzUlRoZlFQOTdhU2JLcWQzOWxEMlVOV0tWNWlvbmszZnQyWDJIX1ZELXdfRXktd0pDTl9vNXZaUUdOeFVUcVozZlVWeVFPVXFIaDIyTGRkR2hsbFZMSkFEb0VGZjhJdVdDZnd2a29YaW5jS1NQdzBqN0g5UUtFNjB4cnVoX04zU2ZhZWpn?oc=5",
-    "published": "2026-11-10T22:11:01+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Machine recounts set this week for one Florida congressional race and one state House contest",
-    "outlet": "Florida Phoenix",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSzZ1M3dPTUtXdFBpa0c0YUxKY3Y0SE1wRjJPbnp1WHI5NThSTjJMdW5tR1Q3SlVJQkNJRllnX3Y4TVRRYjdIMzk0Q3VSZnk0cS1vTmR2T0JCNWVybHJGNnF3QjBHLUZmM2NiV0w0OVRMZzNrSzdQVmNMZUxoV1M3bXkwU2FfbEZ6RVlXa3k0RGN1cTkwdVR5aGZndXY2b2lpamZFRkRqZTN6UjVnZnlubWJIQWVHZ3lkWnk4b3JNWnJ0WnRyRTVLZ0RfVnM?oc=5",
-    "published": "2026-11-09T15:58:49+00:00",
+    "title": "Another NC congressional race just dipped into recount territory north of Charlotte",
+    "outlet": "Charlotte Observer",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUUlSc0U2bU9LSFJsQlAxX2FiYlRQeXBDWmhHb2htYjNSaFdvaEtHa09FN3FFTE10ZjA2SmlFMTBqaENBaERSLVItV2pScHBJemRKRDhjX3k3cWhBaFN5RFdKRnU1eEhoMjAtWmR3UFJ1emY4dzBibndpTE5IaGQtckxHZW1ScnNtUnpWWldxQzNYRzjSAZMBQVVfeXFMTTh0YUdQSlB6a2hOTEpMWGl2VnhRWHF0ZFQ1QXIxSEFlQVc3UWl5NVc3emZMcG9rX21zYkFpU1JyaUhiY0FpRGZLZVNPZ0dCMHIyNGhNVC1mRjg4VjZKY0RtbmJ1WUE0UHdEVEVwbnF5aE5jbGNLLXNZQ2NaR1M5a2ZoUTZGRHpEMklUSTdKcGlXWXFv?oc=5",
+    "published": "2026-11-11T16:53:25+00:00",
     "flags": [
      "uncertain"
     ]
+   },
+   {
+    "title": "Lots of 2026 midterm races haven’t been called yet. Here’s where things stand right now.",
+    "outlet": "Yahoo",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMmxZTWdFZWRBMUhHRXByUXlnM3N5ZGhyN21DUS1ybXQ2eXJ3ZjJtNDFYbnR5UHU5Y01vcTktOWhPOHdqVURiSl9UMHgyRVpWN2ZuVXJwcnNtMEZwU2FCb2llVzNJZVQ2QU5KNW9QYXRkcXRtMmlzZXdxQnI4OVhMWWthTkdrM210SEljMTMtTVdSc0ZpT09hTFBkZDJ6Z3BYOVVJM2R6RGRubE1iZ0pRYkl4MGZTME1aQU1OUExCUXpZVmg0Mkh4RVRsOXFzemRORlJ3S18zR0RMWkk?oc=5",
+    "published": "2026-11-12T00:07:00+00:00",
+    "flags": []
    }
   ],
-  "HOU-FL-27": [
+  "HOU-NC-03": [
    {
-    "title": "GOP Rep. Maria Elvira Salazar wins race for Florida's 27th Congressional District after recount, CBS News projects",
-    "outlet": "CBS News",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORmYtV1FMMjBGbFAwai14OW9xQjV0WE10NUEwc1BrazVWTndyTVBVS3RuX2g1ZG9FN0NwLURiSGNmQW9xdHNMeGQzNkFROThscVBRanU3aVR1ZmNGbVBPLV9Xd213b1ZfYkdTOGtYV2pnRjJwWFdnUEZPQVFROXhlZnJvbEdSSWF3Y3UxdUxVYjBSWTFPYU5JQVJmUVJ4LVhp?oc=5",
-    "published": "2026-11-10T23:09:00+00:00",
+    "title": "GOP’s Murphy concedes in North Carolina House race",
+    "outlet": "The Hill",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSkFCSVlQOXhlUnN0UXFlTkUybHdfQ3Y1WHZzTVBqWmlPY0JIaWhULXEyLXZrdnFRUzg1MVVhVnJHbVU5dFBWOFZZZWxVX2I2Tm9hc0ZUcUszWTc0MjNnQV8waDE3MXFSeFpib2lQRDJ2YnZBZmhJYURZVElVRVRZeXlUeEFyYk5qUzBR0gGQAUFVX3lxTE1RWHQ1U29zQkJncDhiR3dXZ0xmMW5XWkR4R1RIa1o1a2J2S2p1d3U0UUViRXE0ZC1RQloxekRPOTFBZVIyZmI4NkVMZ2JKMWZNaXlCMzBYQ1JRdV9jRjBKSk5HRzQyQ3NsaHlMV0JfYUFoajYyN1lJeDh4S2NoYVNtMDV3dkNBWWpMemFZd2xSXw?oc=5",
+    "published": "2026-11-11T23:55:00+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "Democratic wave in NC flips another Congressional seat as counting wraps up",
+    "outlet": "NC Newsline",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGpnQlFfSXFyNG9BSHV3YTVfaG45d3lBWnNSNThRZjIxMjdha1BDQjRpdUpUYW9Uc24tMUJlM2NLYkd3TFFfTVBsWUVvbktqcncwWDJSbTdLT3dqOWtrZEpwWXhqdDVJTnJ2S21qcXFWcjhiTldRTEpWMmpTUTd4RXc1M251blJVckpiZFhQNWJNNWNWZHRGc2VGQV9WVFZweTJQREdlS1hOUUhzdlBz?oc=5",
+    "published": "2026-11-11T01:10:47+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "NC GOP Rep. Greg Murphy congratulates challenger Raymond Smith after race flips",
+    "outlet": "Raleigh News & Observer",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMkpRRHRMWGpsSnlDMmx3OFQ1M3VHX0lVdlllbGx3aU9NT2hGQzhVazNyMzBnelJhdWMtSXZEVU80aUhFMzBXYkhGNWxwUFdPVnpKRXM4LVpnNERUNlU0bU1OSWd5YUJjbm1EOGpSRF9OclFsM1Vsa0lfRnpob21UYnNZa2s0S2QwS3BQajdLR1YzZlRO0gGUAUFVX3lxTE5zMnU2bTFLcWIzYURNd0lBalpvLS1zblBLajh2VFA2NmNZOUxPR1FwQjdzVzlPOWxlV2ZGLXFubnh3aGRmWkQ2dE53cHhKYTZzNW8wYlFIUmJsSTVXeFBUZDVVcTNjU250UjByNUNCYWpFV2I5V1c5UHhCc2xBWEtVbm5hUDRUVFYzNGllODJqTkVfTE4?oc=5",
+    "published": "2026-11-10T23:02:00+00:00",
+    "flags": [
+     "call"
+    ]
+   }
+  ],
+  "HOU-SC-02": [
+   {
+    "title": "Lots of 2026 midterm races haven’t been called yet. Here’s where things stand right now.",
+    "outlet": "Yahoo",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMmxZTWdFZWRBMUhHRXByUXlnM3N5ZGhyN21DUS1ybXQ2eXJ3ZjJtNDFYbnR5UHU5Y01vcTktOWhPOHdqVURiSl9UMHgyRVpWN2ZuVXJwcnNtMEZwU2FCb2llVzNJZVQ2QU5KNW9QYXRkcXRtMmlzZXdxQnI4OVhMWWthTkdrM210SEljMTMtTVdSc0ZpT09hTFBkZDJ6Z3BYOVVJM2R6RGRubE1iZ0pRYkl4MGZTME1aQU1OUExCUXpZVmg0Mkh4RVRsOXFzemRORlJ3S18zR0RMWkk?oc=5",
+    "published": "2026-11-12T00:07:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Joe Wilson wins reelection to U.S. House District 2 after recount confirms narrow victory",
+    "outlet": "WLTX",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPczRjNURlUWpmTjZQck1mTS1RRENwZzhSUFVVUHpueEFTTVRiSERyT2t1dWFGZm9mX290QWc4elA3enlrWG13MklURUd5ZHFnUWJLRlZoRzFjWGpCY3pCcHJNaUJMMFB2VUNWRnZfRVp6c3dwQ2ZoZ2N0SzFyX2tFZWdIYmtucG5MTG5fQlhyTUhFY1hpdlRrZXY2VXQyWDl6UW5zLWRmYkNwQlhCdDNzaDAwQXdxNVFsSk1aSVEtVDhYaGlPVXNnLW1XdUg1elRHdzRUSHBCb1hUSDVEVHc?oc=5",
+    "published": "2026-11-11T16:38:00+00:00",
     "flags": [
      "call",
      "uncertain"
     ]
    },
    {
-    "title": "Republican Maria Elvira Salazar wins reelection to U.S. House in Florida's 27th Congressional District",
-    "outlet": "The Washington Post",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSW1CZTlaOTZqZU5hQlBUNnJXU2YxeTdRemlwYnZZb3VMWjBEQ1gtV05zMVRIY1Ryc3dJQ2lUdXVMREMwMHppTDNLZTZnakJvZGVUOVUyMWhZeEFkU2NpcmpzRU9WMVBwYTIxNjV2X0RIMS05VzBaNzh4N01MRGJ2ckRySTF2N3dwcXRsblNNYTZDUVg2MWozNkM5ZTdQYkU2X2pMMDNocEVrRWw5cWNQcWp2d2FXTnBFcHIwN3VjdjRmcGxjVGp4eE5qR1Zub3FITEZ4QWU3NzQ5eUlTTTUtLWNLRQ?oc=5",
-    "published": "2026-11-10T23:18:07+00:00",
+    "title": "Democrats’ Biggest Surprise Wins in the Midterms",
+    "outlet": "Time Magazine",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNUgwOVF5YU0weG4yWjdYcXQ2Q3gwdDRMNlBOelY4ejZiNU1VNGZBY2VrcGtsWnJSYnMwOFUzdXducVc0aGhad0hpTDRhNHVISjlUeDFwWXlONmRBVmhWY2prdDJrb2EwMzZVQzE2TXU1ODVIZXhlQlpfNGVjZmFmZTMtUURYQmZTa1h4SzhXSGlCYW5GT1lheURkeS1vX0VPN3hyUG40U2pWYmIzTVNyVkpybUE3MGVLa2Vfem92Zw?oc=5",
+    "published": "2026-11-11T05:00:00+00:00",
+    "flags": [
+     "call"
+    ]
+   }
+  ],
+  "SEN-MS": [
+   {
+    "title": "Mississippi U.S. Senate Election Live Results 2026",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40QzF6VWVSbVp6Zkx1Q0I1OGU4aG5UVTdmMDM5UTdIVTNDd0t5RmJ1RHUxVW9DMmVialI4TWxCMERpUy1pTk1la01IS1ZVdFJJUnJGNmdBX29GU2M5ZlVqaDJ5VFctbUZtRXpLbVlpNGlYNDdkdkM0UEhod0Jmdw?oc=5",
+    "published": "2026-11-12T11:08:14+00:00",
+    "flags": []
+   },
+   {
+    "title": "Scott Colom, a Democrat, Wins Mississippi Senate Election",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRTNHZFFRdHFUWjJ5Yk4xZGNtemYyR3B3UENkcHE3NG5TOUo3ai0ydnFGQ2k5YU1IbkNLdG4tNHR4dTZES01xQVlrMHN2YUdVUVJoQzNEcFdzN3N2Q1d0Z0lwZE1sM2I0dGFZY250Zk91QUtjczEtS1dsQTh0YjJ5MmpxZkltaGU0R2J3MXpqSzMxdw?oc=5",
+    "published": "2026-11-12T09:11:00+00:00",
     "flags": [
      "call"
     ]
    },
    {
-    "title": "Recount of U.S. Congressional District 27 race set for Monday, supervisor of elections says",
-    "outlet": "NBC 6 South Florida",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTEFkT0pzMXRKSmdwVW5CWnc3QUlCQUUyTER6X3ZGTEo3YVF2THNqeU5OdEllN0JOazV0M043MjJEMW1rZHRWMHNQaDNmeEpWVnRCeUFVa1h1b1Y4UDRfeFFfQXdoZnd2R1ZjcWlUeF96ZFduS0lrLTg4aXhKSGxDbEhpaThtazdnaW5XZTAzbW16ZGxWSURnVTFJMXgtejhiOTY2WU1aZ0RCZi1XU2hfcUJHTks5Um1FWmQtUUFramMwVTJSdV9TUm5uNWVsdjjSAdcBQVVfeXFMTzFtTDZQVlliWlJsS0d0MnVEWmcyUl9mOVA0T0JESTMxSFVvMC16aVNCZ0lqTDRITHdHYUIxUGFpUUFKOU12V2lfQ1BPVC1xMUpoMVV0bG9SN3NfVmcwUERrT2dKRl9vMUwtMDloRFVGUlVfWFQ2YV9UOVZlSkNrTlMyRlhPeXQ0S01WV0dxLUFuVVZzdk9oWkFlS2xZemRsMzEyUnAwRUcyalJwQmJQb0VFY182Rllpc0tOcFpRUm1NMWRFVGxzdkFnVHczUnB6OEgzcTFubVE?oc=5",
-    "published": "2026-11-08T19:20:53+00:00",
-    "flags": [
-     "uncertain"
-    ]
+    "title": "Democrat Scott Colom makes history as Mississippi elects first black senator in 150 years",
+    "outlet": "BBC",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GTWpzUWs1VjNiQ09nTDg5VjZ2eFh4aGxITHRBWmtybXRCekpoRHNkbkpuNGhoTng1NG1LV0U3Sm1sb0xBY0J3WjQzVVJweTd0UVB6VWxkX0pZMW8?oc=5",
+    "published": "2026-11-12T10:02:32+00:00",
+    "flags": []
    }
   ],
   "HOU-CA-04": [
@@ -22473,53 +22528,43 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYkxvYktjQnB5QmppdVAtX1piN3NOUEtqRzllQU1sSnpFNzN4d3NPaG5nZV9ZSTNOYkV2Zjd3SWFkajNOdTYxX3c4UG0wVWQ1TWtDQURwTlNDT0hkVVVEbXU2VDJDZE9xc2lTamttdWNMU21oRXhZYk4wNW96Tm9XdnI1MUZPNFJxbDF4aXQtUWVaVXo3OGtXWDh1bXVNenZ2aFdUbHNMcUM0Zw?oc=5",
     "published": "2026-11-10T06:20:10+00:00",
     "flags": []
+   },
+   {
+    "title": "Eric Jones, allies attacked Mike Thompson on immigration in competing messages",
+    "outlet": "Sacramento Bee",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUDFsT3g0NVNiNHc4X200MDk1Yk56VGh2Q3cyMUJZSTJYclVZbmU5aHdZb1cxN1hUdjN3RVhQQTc2MVREYVVrOXJIb2p0T2xnMFpmaEp6X3dhbDlhamhxbEZHdzgzN0ZtS05scjlHNWlpVUZrWGp3WEFCNy1vUUVWbFBGSnZpNVFfQVI00gGLAUFVX3lxTFBUOFk2VWR2aUthaFdCS2wzRC1UMHdFUzNqa2lXbnlxZlFVek9GcTZ6cUdndEFIODc2MllFUjlTTXhmbVltNjBObnUxVVkzVWo0SVZiTUlISGVqaU9DbG13Q3RtbkUwdGlEUVR2X2dvXzI5YWI3SGJCUXY1MVMxSkJnajVlN3F1U1FfQmc?oc=5",
+    "published": "2026-11-11T13:00:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Democrat Eileen Laubacher claims victory in Colorado District 4; incumbent Lauren Boebert eyeing recount",
+    "outlet": "CBS News",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUXpjbDY0UXJCYW1YWElBWVp6dmUzN0ZCX0NraXEtTkVXN1k1ejNDY0tiQk9jY3JmSWZncE01ZWFQa0FZbGpaYzRRNk1DMFVnYmR5US1aaXZBV1VHZHVrNWZRS2xDTTgxWWgwQmhFSi1XQVA5eFJDREUwcHg4OG5LUTNVT1Q3aW1HTW4wMWZCY0o1WTJibkFOZFhlVXZWSTZHZWtkNTNfVkpXUlY4WEItQ3NHWFh1ajhseGNqdU9abGV1VnYx?oc=5",
+    "published": "2026-11-09T23:54:00+00:00",
+    "flags": [
+     "call",
+     "uncertain"
+    ]
    }
   ],
   "HOU-CA-23": [],
   "HOU-NC-10": [
    {
-    "title": "Democrats’ Biggest Surprise Wins in the Midterms",
-    "outlet": "Time Magazine",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNUgwOVF5YU0weG4yWjdYcXQ2Q3gwdDRMNlBOelY4ejZiNU1VNGZBY2VrcGtsWnJSYnMwOFUzdXducVc0aGhad0hpTDRhNHVISjlUeDFwWXlONmRBVmhWY2prdDJrb2EwMzZVQzE2TXU1ODVIZXhlQlpfNGVjZmFmZTMtUURYQmZTa1h4SzhXSGlCYW5GT1lheURkeS1vX0VPN3hyUG40U2pWYmIzTVNyVkpybUE3MGVLa2Vfem92Zw?oc=5",
-    "published": "2026-11-11T05:00:00+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Representative Pat Harrigan introduces H.R. 10822: Automated License Plate Reader Accountability Act of 2026",
-    "outlet": "Quiver Quantitative",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQzYtNXNpSXQyV0RfRm1MVjNhdWx1OXh0T2RrN2QybnMyV205ZWpZVE9YSGhCOFdsOFBMMlRFXzhDWllPNVF3SnJ0bEFvYWhDV2pNNkR0Tm1WVlpFMTdrVm5fN01iR2RsMlhSWWVFWWQ3YzEzSE56OTVHYlRmUERCa196S085TnQyNVhfSVp4NkxCRTVPZFZ6YWdZSllSV3JtVzA1TzNZOFZBZGlLODVFQ1Y5cWhmYnFrTVN2SUxTYmJsVjNiU05rcmQ3UEhwWWZqRjdZajdzS1oxcG8?oc=5",
-    "published": "2026-11-09T16:18:00+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-SC-02": [
-   {
-    "title": "Joe Wilson vs Zyon Khalifa: Recount underway in close race for U.S. House District 2",
-    "outlet": "WLTX",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZXNBemtHRFNHSlN6VUhWNENzbUNLVU5mYVNDZUtPRHpSd19NbVA4OVVGZVVtU2JUd1N6cEZoeVZsTXdDXzQ3X25lUFp4bGF4b01VaVFGVEhuUFgxYmVUazNYYW1jZnUyRDM0V1Q1NkVCM2lEUnBaejlRT0xySDRhajBUUHZIRG1OYTVIOEJtTVFQbVJ2Q2F6bWFNZ05TQVRYRVhlQzNHTGJPNlVFOHdMLV9EMU1KUG0wcUNpOTVPVWY4OUV0VDNZdTkzT213blhTTlhPVWR2LWNIVEFV?oc=5",
-    "published": "2026-11-11T00:24:00+00:00",
+    "title": "Recount request could come Friday in North Carolina 10th District race",
+    "outlet": "WXII",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOUduaHlSbEdDeVlSNzdNQ2x4SC1JUjFBeEFQdVdvLUVrckhTdXlTQ2ZZQ0t5aThOS2ZGNE5tcE1ycm1haE1nUkQ4R2VTRU14Qzd3MDFUczVwMlIyZ0ZVZDdld2piNmxEb2VFRVRzRkQzUFNpS3NWQjJyMHJaa1BFa0xIN2lKWWV3WE9oaXB3cGUxUQ?oc=5",
+    "published": "2026-11-12T03:44:00+00:00",
     "flags": [
      "uncertain"
     ]
    },
    {
-    "title": "South Carolina election officials to determine whether 2nd Congressional District race requires recount",
-    "outlet": "WIS News 10",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRkFnZjVWTi1wY0VWb0R2dnFyWWFzQ3FhbkdFUkU0OXZ6ajJlbTQwQjBpRktmSTlZcTFWLWF3d0tRMUQwSlNhOG5lVm5XdWJsU2h0R21aS0FMTVlBQnhEWWtGTzNTVGgtRmFMelVLUngxQmtQTDFMY1VDOTZhT3NFaEtVTFFDNF9MalIxejFueGE5ZFBESmM3MjRCcjBoRUZFTGUwSDkzRFVnMEM3RldacUVTSnI1Z25rWDl3ZldOVE9EbTE0Z1ZsVVdhUkhRa2vSAeMBQVVfeXFMUGpxeFZpMGl6ZXN2S0x3VFlJVS1VcEczMGxrdGlyelBNNlg2MERLd3RGbkR5LWJtZXZLcF9tb2R2UjZtU2tJTjBkWks0cnhGbFdjRTdSOG8zVnNXYjJQd1NKQWVmdlVpY1laSU1jcXdTcHB5NmRpSS1oM3RZRUgzYXJZV1VIY3dRMmtLMll6dHNQcmU1X1RITzRWUHRKVTFCTE5lelYyR2pLbzFuOVRTOTI3RXhqQ0tpSTNoS2dwamJtUnVkNV81Q1dGZTYtdHJGcmxxYUJ4aGphR1dEZ3M5cWdOTDA?oc=5",
-    "published": "2026-11-10T04:40:00+00:00",
+    "title": "Another NC congressional race just dipped into recount territory north of Charlotte",
+    "outlet": "Charlotte Observer",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUUlSc0U2bU9LSFJsQlAxX2FiYlRQeXBDWmhHb2htYjNSaFdvaEtHa09FN3FFTE10ZjA2SmlFMTBqaENBaERSLVItV2pScHBJemRKRDhjX3k3cWhBaFN5RFdKRnU1eEhoMjAtWmR3UFJ1emY4dzBibndpTE5IaGQtckxHZW1ScnNtUnpWWldxQzNYRzjSAZMBQVVfeXFMTTh0YUdQSlB6a2hOTEpMWGl2VnhRWHF0ZFQ1QXIxSEFlQVc3UWl5NVc3emZMcG9rX21zYkFpU1JyaUhiY0FpRGZLZVNPZ0dCMHIyNGhNVC1mRjg4VjZKY0RtbmJ1WUE0UHdEVEVwbnF5aE5jbGNLLXNZQ2NaR1M5a2ZoUTZGRHpEMklUSTdKcGlXWXFv?oc=5",
+    "published": "2026-11-11T16:53:25+00:00",
     "flags": [
      "uncertain"
-    ]
-   },
-   {
-    "title": "Democrats’ Biggest Surprise Wins in the Midterms",
-    "outlet": "Time Magazine",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNUgwOVF5YU0weG4yWjdYcXQ2Q3gwdDRMNlBOelY4ejZiNU1VNGZBY2VrcGtsWnJSYnMwOFUzdXducVc0aGhad0hpTDRhNHVISjlUeDFwWXlONmRBVmhWY2prdDJrb2EwMzZVQzE2TXU1ODVIZXhlQlpfNGVjZmFmZTMtUURYQmZTa1h4SzhXSGlCYW5GT1lheURkeS1vX0VPN3hyUG40U2pWYmIzTVNyVkpybUE3MGVLa2Vfem92Zw?oc=5",
-    "published": "2026-11-11T05:00:00+00:00",
-    "flags": [
-     "call"
     ]
    }
   ],
@@ -22543,33 +22588,51 @@
   ],
   "GOV-AK": [
    {
-    "title": "Alaska governor gives vote count update in ‘very close’ Senate race",
-    "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FTDZTZDVBZWhBWm5QaWlUQXBvRTMxZmMwbkl2MjBaTkVRMHoySzRwVVJVelQwSnRGaEc1SEtoY2dDa0twRG5FdDk4T1ZWVVdaXzU4Y182TFh1dkU4Qy1ZTUVCMF9hRURZaWxqYXpUVGU5Vzl6ODZNTTg0WFVoaE3SAYQBQVVfeXFMTnZ5b0JEU3AxLS1SUFAyVlZkakZXaWdLeFMwXzVtbmZpWnhqN3JUVFpUaXh6OE1UbVRQbmNtalBJeThxZnRkSjdfVUlXR3ZNRW5vUXRIVFByb24wNmJRM1dTWkFvY2pxYmdyd01LaUpmMHdhbzU4UExlMzA4OWt2Q3JVNUpK?oc=5",
-    "published": "2026-11-08T12:00:00+00:00",
+    "title": "Alaska’s U.S. Senate, governor’s races tighten with new ballot count",
+    "outlet": "Alaska Public Media",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXpyblpyZ0ZPendfLWRVTjlGMmNDeVpOcWZBT29aQUU2RWV3TVZtRzAxbzFtUGEtTEs4ZUNTaEtOUDNjYk5XWkZJd1RaYTZYQThhdFpYcUIxT0dTN0VrbFNSNExpUWZCdl9mNGhWMFpfMFJIR016bVBTdGZZVTQ2WXYxWk5lZFpLMWtNdi1VY29yeTRfR2tDX2hiNUdfRDg4RHJBLTZnTktodnNRS3RFWDRhMXlWTUNOVUhELXRleFg2dw?oc=5",
+    "published": "2026-11-12T04:28:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "With 25,000 more votes counted, Peltola, JKT and Begich near victory in Alaska election",
+    "outlet": "Alaska Beacon",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaDRheGpFczN3anVBdVFMSHZPMTNMdm1Gd05aNGZGVmpJWG53RTY4RWVWQ3FWSkpUaFAzWXFLd2l4VmEtMGQ3YXRhdGhpSWhiemtfT1dmcFRTa3ItQ1JxWnFIa1dfZEVCcGFjTklycDBOZkVZTjBSNEg1WGgyZFpramNnLVdIeTlOOUJXbHZ4aGo5eEhRQXpzaUFaOTR4c1dOcVotRVlBTlc0UkM3TWEzWmpMN1JVbjdWZndNRFJR?oc=5",
+    "published": "2026-11-11T14:07:19+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "Peltola and JKT strengthen leads in latest Alaska election results",
+    "outlet": "Alaska Public Media",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd3kxcGpzSFhELVk2NzZRVG9xcnZZczE0YloxTmhNSzRRY2NISnJQbVNjdVM0VGNyMXI5SkYwcTZwb1BPZnhHLWtMWF9nbFhZLW1BdFEzdWg0MGdGVVA3UXl0NWxQOHByTXlFZnA3RWhqMU5Yak10X2pGdHRhZEtyQ3VxVGl6M0VoYkd1RWVsck1jdFVWOUkza19NSVR5QWpsb0VuQm9qWnJEbTYyUUlLbkFjR3d1aGtiX1JiTkFRTzhnOU5C?oc=5",
+    "published": "2026-11-11T04:25:00+00:00",
     "flags": []
    }
   ],
   "GOV-KS": [
    {
+    "title": "Kansas Governor Midterm Election 2026: Live Results",
+    "outlet": "NBC News",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoU0N5dFZuYlNOd3AxS3d0U0MxTVU3VkxGWWNaZEZDRDFoSGlBR1N6bHR0ZFpyRXF4RGZvNS05YkJlVmF2dFFSa1JHbjhzNml5SUZkUmttVlNwU3hCRGxxbFRxbVJGT2drLVNXbk90WlZlVmhHTVVsbUVzbw?oc=5",
+    "published": "2026-11-11T22:48:56+00:00",
+    "flags": []
+   },
+   {
+    "title": "Why the race for Kansas governor is still too close to call",
+    "outlet": "KSN.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd21sdEZsMnMyUnZqbzZySXBsUXlqUHNzQm1rM3hXTkFLMTdqT3owd1RRWFJZcEw0dmtrRjFjM2dmSnBEUi1ya04tdS1ncDY5am11YURrRkJranlnUFQ3WEdlOUtVQ1U4blJHOFUwbjF0Nm40NlVZbUJoWWFUWi1iTjJyVkpVblFBYnZDa09zWm9BZlV0WkpKc2YzTlU2ODN5Q05RdExpUFBZV0ZO0gGyAUFVX3lxTE1jcUlMaE5KZnhJUkJOam9wclZnMkNMb3c5S1o2OWZpTmVrTDIwdmhQOXluOFRZTFJsV3YwRXFHTHhseHM3UE95UHdHSGlfM3JHWFVoTUw0Z0RiOUdNQXA1dE5ZODJOSVVlYjN6Q1c0cDJUeEVOSzhlQnRYNi1xdlRqTEl4UWtSNXA2cEg5VmM3eVUxZzRBeGFxZm1VUHpISnFtMjN4dVpGYXgyb0xlM1J3dkE?oc=5",
+    "published": "2026-11-10T22:52:20+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   },
+   {
     "title": "Why is there no winner yet in several Kansas races?",
     "outlet": "KSNT 27 News",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLXRjQjVqNHFjVlYxTjlhNHdLM2pEYUJIanFNSjV4Y1VQWVp4NWVzUU5Va21oQW9HbmJod2tSVmhJVG5TdW5Vc25lZjM3UnRsUHB3R3hXa21faTRHN0MzNWtTNnp1ZFlfRWl4a1U4NTZ3eHBwM2p6NEo5bGl2LXpnR3BYbzhkc3p5WkZ5Nnkxb9IBlAFBVV95cUxQa1FsMF9Sb1l5RkM2QU1NYW5FRmV1ZnhKNFU0UUVhMnNLNzBGQ3lkRjZobDJtRDNnc1NwWTItUDdoQmUtTjRPVl9zcjVjSkRHallnVnBQWDM0TTFJcEhNWG4zSEV5bmJrVFR1SGhPaU9zU0t3UHN3dGF0dzAzMWtaV09VMXZsbkNRbGdaNTRMQ1E4Z3px?oc=5",
     "published": "2026-11-09T22:55:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Opinion: Kansas Democrats rollicked and reveled after shocking election results. But they weren't a surprise.",
-    "outlet": "Kansas Reflector",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbnlkd2d6SGRlWmk3OFN2elpzREJKVW10TGoxMTNnWFBxdWdDWEhLZF9oWmNWUlJ6RHZUSi1qY0t2X1BQZktSc2poVWV1SEpjNDFwWmVxM1Z0YXpEanViRUxla0FKb3dYa0k2czlJS1o5bUZGdHBUWXg3WkxwNXd0MS16RDZ1dEIwa2llb083eW5mRFpWNlpBQVlRXzZvdTVGT3JBR1RYS05fbTR4Z2c4alBNemdLUjFZNTI4TEFia1VNTzV1aFN5eEsyVHdwZm1kX3BF?oc=5",
-    "published": "2026-11-09T09:36:38+00:00",
-    "flags": []
-   },
-   {
-    "title": "Cindy Holscher says she's met with Gov. Kelly to begin leadership transition as vote count continues",
-    "outlet": "KMBC",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU1dtS25iekMxd3RYTFE0NkFiM0ttanBGWFlRNThldHYzV21GM3VuZDhpMUFVMEVaUFVuZ0tXdWpwd0xVbGg1cnNhRHFyLU1DRnkySlA2dWY5U25saXptdHdPbXl2c0pqdHVFQmxxMXBZcC1SRUxfRWMwS2pPdUx5ZW9ISHhXVmtiRHdmX25NVlk?oc=5",
-    "published": "2026-11-10T18:30:00+00:00",
     "flags": []
    }
   ]

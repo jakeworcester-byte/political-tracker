@@ -140,23 +140,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-NC-01",
-   "races": [
-    "HOU-NC-01"
-   ],
-   "type": "reporting",
-   "source": "Ballotpedia News",
-   "lean": "unrated",
-   "title": "Incumbent Donald Davis (D) defeated Laurie Buckhout (R) and Tom Bailey (L) in the general election for North Carolina's 1st Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNOWdxQTYtNjZuWXZzQ3g4RTM4aDJkSDJjY01oc2EzbzNERC1PSV91Zkd3ZEVCc25ReDAzOENkVFhHUWtySzg4ck4xOEpEaTYwZmR1cnBuTUZtZW1XbS1rREh4OVRGZHNIb0hyREZFX0NjdHZMZ1RROWZraW1kNUp2U3hzbXd3NE1TVlozbHN5WFdaeEtSVnlVc2tsOXNmajNZQ1JoSHJqM0w2eU9kbWlTOEhCaGc3RXdOWDVSWHdveXhNekxEOFd2NnVxOHdQYWF3VGdJT1Z4N1FYMnFFUXUzeTBuS3RobEw5UDJMcVpudzU2di1ieUlRN0dZYWVpbU5kS1VyWS1qZVZJZGdm?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NC-01",
  "history": [
   {
@@ -316,6 +300,11 @@
   },
   {
    "date": "2026-11-11",
+   "c": -2,
+   "p": -10.0
+  },
+  {
+   "date": "2026-11-12",
    "c": -2,
    "p": -10.0
   }

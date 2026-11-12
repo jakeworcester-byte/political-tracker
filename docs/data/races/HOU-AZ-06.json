@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-06",
-   "race": "HOU-AZ-06",
-   "races": [
-    "HOU-AZ-06"
-   ],
-   "type": "reporting",
-   "source": "Ballotpedia News",
-   "lean": "unrated",
-   "title": "JoAnna Mendoza (D) defeated incumbent Juan Ciscomani (R) and three other candidates in the general election for Arizona's 6th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPM2taQXUzX3F1YlJCU3BPemEwVFRuZURWQ2VmdV9oZFRqZHpPVE1XMnNZRmtnLVdtbzJMOEhfSHdiS0s4N29JS0hBZTVqa3lIdlVaNXpUZTZIYWNRZWtXQmhrNmY0Um9YZmdhaWNwUy1WbGNnOFJUVDk4clVOUS1fWVJBMk4xVzk0ejdoTHU5UWNXTzRTWFI2LWh2Ry1fVWJXRzlEUk9rakFsbUNfZWNFb0Y4VmVHX3kxTWJIMEVJTDBiRHh4QnFRVTFuTzBFeWJDVzBqS0Zna0dSbnVQVU1lSjhLeTJRNVVJUXFlZzRsTmQyeW4tRVNtOFJTNkhHYXNVNWtUM2dPcm1VM1ZFTGxUZzdB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AZ-06",
  "history": [
   {
@@ -264,6 +248,11 @@
   },
   {
    "date": "2026-11-11",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-12",
    "c": -2,
    "p": null
   }

@@ -152,16 +152,31 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-12",
+   "race": "HOU-CO-04",
+   "races": [
+    "HOU-CO-04"
+   ],
+   "type": "reporting",
+   "source": "KOAA News 5",
+   "lean": "unrated",
+   "title": "Lauren Boebert says she won’t run again in 2028 if she loses Colorado’s 4th Congressional District race",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR3BKZDdDWGpidU5ROHh2RHRaeWtqZC1NellKcnRKdnFvb1ZlTUNOLWtnWk1NRjJmRW5zcGhaRXhLV09ZeTdBbkZwbnNqaTY5VmVyNkxBNjUzME9KRllZZFMwYzRrM2hyTnNmbjhmU1ZNR2VhOVZKdndXOWUwSG9TSE5qNFFvMGVDd1UzZkU4SVpOSVQzWHYtUVViUDVGRXpSYXAydnBRcmlUVVRZS0R2c2VxQXIyOVNBY0hOUnJaMDhVOWtPelBMUWNTVHFmVVlR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-11",
    "race": "HOU-CO-04",
    "races": [
     "HOU-CO-04"
    ],
    "type": "reporting",
-   "source": "Leader Publications",
+   "source": "KKTV",
    "lean": "unrated",
-   "title": "Colorado's 4th Congressional District race still undecided",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYTRpV2ZyZFhXcTNoc0pFNXJDbzBOZENSQUkwTzg0ekoyczUtbTJ1Rmo3OC1GZC1mUEQtLU5oYjNZTFIwai02YkwxcjNIRkxfSm5rVldoMHhPZ05Va0szYkZPREZlZ1hJVnRraW00M3pURUZHSENqYTY3OXh3aUZOR1lhaERBMlVXRTlTM2NvNW5iZlljRTlIbzFocUJDelZFbHRVekplbUYxeGdkV2x2cDNMNWg2RUxxclUxS1NqZmtJYmxyWVNNNEJFMVdSRkNZOHdaYWc4cXFaako5N2lCWGdObUpoZw?oc=5",
+   "title": "Lauren Boebert says she won’t run again in 2028 if she loses Colorado’s 4th Congressional District r",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeUtGNWtkcEx5bC1FX2N4ZWxIWmhSaEhvYlQ4QjRRcjdXTW16X29hQzVtN1ZJWVlXMHZKZ2N6Z3ZRVlNSenF5SE1VeS1CV0d6bVBWZ2NQNkRvemdPRFBNcGc2YmRkcHhkZ2xaSzd6RjZ0NTEwdlVGT2djdVk5ZDFKUGJ5cnV6MzVYSk5nRDItOUNPYUZ1X29STlh0azBzZkVyQW5rdDBTT3RWUlZ3SE51Q0JkbS1zQ3lNQjl1VU9jYjloOGt3TDRjY3QwSERqRjA?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -177,21 +192,6 @@
    "lean": "unrated",
    "title": "Democrat Laubacher declares victory against Republican Rep. Boebert in Colorado's 4th District",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ1hYcXJXQWtqQnJlVEh6UUNSa0lMNlc4Z3JTN0toekxOTWY3RTNHRk5TUy1XNWxpTWMzSUNZbWs2SEdoMTk1RzBWVXJGeHZHQnNZZzZqcWRXZzhNTEVIcUNUa1hvVkE1RWg4RVpBWnRKcUJSNjc4LUR3YzRzLW43SlY3OHpVT3IzUUE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-09",
-   "race": "HOU-CO-04",
-   "races": [
-    "HOU-CO-04"
-   ],
-   "type": "reporting",
-   "source": "CNN",
-   "lean": "unrated",
-   "title": "GOP Rep. Lauren Boebert will lose reelection to Democrat Eileen Laubacher in Colorado, CNN projects",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMXUySmVmMEp3YUI2TEozV0htWUhvUEI5NjNKZTZvVUluakR2OElkVmZqR0NtVmNaclMxdk5sSjBTbGU3S3cySGpNZVJRbFAxdnJyalRuTHlhVXBTcWhRTEduVDNRU0szd3VmMmEwR0R1bm4tcEJpcHR6anE1MXcyc1o4Zlk0R0liZjBWZ21qcUM?oc=5",
    "summary": "",
    "relevant": true,
    "via": "Google News"
@@ -386,6 +386,11 @@
   },
   {
    "date": "2026-11-11",
+   "c": 2,
+   "p": 5.0
+  },
+  {
+   "date": "2026-11-12",
    "c": 2,
    "p": 5.0
   }
