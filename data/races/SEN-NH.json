@@ -319,38 +319,7 @@
  },
  "raw_poll_count": 11,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-11",
-   "race": "SEN-NH",
-   "races": [
-    "SEN-NH"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "New Hampshire U.S. Senate Election 2026 Live Results: Chris Pappas Wins",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVkctWmlGazBsOFBENnE2TDNqelhDVHgzQUxkcGE2bGVlckhPSVJqMU9fQVZQSTA4eURERzhGb1g3Zl9KOFJ0ci1CdE1YeElCeEJvRzQyY1VGR3dhVExSSmFpS0tORGR0ek1TUjIzdlFjcTR1U2R2RXpGbzVpSmRfb1hB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-08",
-   "race": "SEN-NH",
-   "races": [
-    "SEN-NH"
-   ],
-   "type": "reporting",
-   "source": "Ballotpedia News",
-   "lean": "unrated",
-   "title": "Chris Pappas (D) defeated John Sununu (R) and Edmond Laplante (Constitution Party) to win the general election for U.S. Senate in New Hampshire",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxONmt4MjRwUlY5Q0hsTTVZV2VEZVdrQVBDTUx2ODAwbWwwYTdhU0NtbEMxV1pUcG8ySFRYaVgxZzdEZVlrUUN1anhVcDUtRUVmbjZjVHo1U0lPdm5uNmtRNVpnd3pIaTFweHBTXzFOcG1lNlJuQXNTVTJTdUlFa3hSMHpZdjlGZU13Tl9qdUZkdkxUZU9ZWXE2b3IzYmh3U2pqcW8wRnF4eXVZRHVQTmV5WFhjeG9VdkxoMzB6TzZVWFdMR2l3VnFUU0luVnpieGNfejdRRy0xdjdqN2ZhNnJmTzI5bUFjQlZxTGF4MFZrT1VHZURpRlFOdnlOVmpXeEVMaDdvNERlaGc?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NH",
  "history": [
   {
@@ -515,6 +484,11 @@
   },
   {
    "date": "2026-11-12",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-13",
    "c": -2,
    "p": -8.0
   }

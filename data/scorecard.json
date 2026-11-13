@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-12",
- "results_snapshot": "2026-11-12-am.json",
+ "run_date": "2026-11-13",
+ "results_snapshot": "2026-11-13-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "ready",
  "competitive_called_pct": 95.2,
@@ -764,11 +764,19 @@
   }
  },
  "governors": {
-  "right": 31,
-  "wrong": 1,
+  "right": 32,
+  "wrong": 2,
   "tossup": 2,
-  "uncalled": 2,
+  "uncalled": 0,
   "upsets": [
+   {
+    "key": "GOV-KS",
+    "name": "Kansas governor",
+    "chamber": "Governor",
+    "final_rating": "Tilt R",
+    "winner": "Cindy Holscher",
+    "party": "D"
+   },
    {
     "key": "GOV-TX",
     "name": "Texas governor",

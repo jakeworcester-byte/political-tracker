@@ -395,23 +395,7 @@
  },
  "raw_poll_count": 22,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-08",
-   "race": "SEN-OH-S",
-   "races": [
-    "SEN-OH-S"
-   ],
-   "type": "reporting",
-   "source": "Cleveland.com",
-   "lean": "unrated",
-   "title": "12 maps that tell the story of how Amy Acton and Sherrod Brown both won Ohio & Cuyahoga County",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV19TR1JTekRna090bTZ3TXpyNm00SV8tSlJTSmg0azlNNGYxMklJRE1NZ0FZV09lZFdNNGRqemRHaFRYaDZacFhoakVWMjdEaW1RMzE2ZG90UDBxa1VQU2JIYVpmWHdnd0huOUtTUm1XekdIWWN3eEtwUG8tOHRJM1VaQ2haNjFXUkRmWTdWeXluUDhTcEhic2p0V3pVUHN1QTUtQkRfb2hhYjVwQnh5bVkzdDNUck85eEN3Um9fbkxNbnFLaXp1Mk83TnY2U1ZaeGfSAeYBQVVfeXFMUGNCelZEZndSWFIzRTMtZWRRYkltc01TWnN5WjF4VTROVFA2aDZXZG55RU9ZcFBDcVVrNUtDMzloM0x4dHJWTFNHLXlmUV9RRHVMaDl2VHdGN2xfMlpremRqOUJ4R0NjV3cyODVmTUxuX0N6eHc0MjFUZ0tfOFd4WkxJVFZlSHZjMng2Z1J5emtZSVo0NGtTZkxDN1BndDlENHVmUmJFY1RUTkhxT3d6YXV6RFBQY0lXU19lQ0JOQjE0NEotQ0JEY0R5UE9fZllDOFBnUHFnRjNva3U4U0RmV0lmUy1pLUE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-OH-S",
  "history": [
   {
@@ -576,6 +560,11 @@
   },
   {
    "date": "2026-11-12",
+   "c": 0,
+   "p": -3.9
+  },
+  {
+   "date": "2026-11-13",
    "c": 0,
    "p": -3.9
   }
