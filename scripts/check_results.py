@@ -53,7 +53,7 @@ def unrecognized_tables(which, html, parsed):
         if len(grid) < 3:
             continue
         head = " | ".join(grid[0][:8]) + " || " + " | ".join(grid[1][:8])
-        if "candidates" not in head.lower():
+        if "candidate" not in head.lower():
             continue
         if "this race" in " ".join(grid[0]).lower():
             continue  # earlier special elections, skipped on purpose
