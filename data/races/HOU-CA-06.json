@@ -137,29 +137,10 @@
       "pct": 43.0
      }
     ]
-   },
-   {
-    "pollster": "The Bullfinch Group",
-    "end_date": "2026-07-16",
-    "margin": -4.0,
-    "n": 741,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat",
-    "answers": [
-     {
-      "choice": "Richard Pan",
-      "pct": 39.0
-     },
-     {
-      "choice": "Kevin Kiley",
-      "pct": 35.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-06",
@@ -331,6 +312,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": -4,
+   "p": -12.0
+  },
+  {
+   "date": "2026-11-14",
    "c": -4,
    "p": -12.0
   }

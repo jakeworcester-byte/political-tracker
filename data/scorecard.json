@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-13",
- "results_snapshot": "2026-11-13-am.json",
+ "run_date": "2026-11-14",
+ "results_snapshot": "2026-11-14-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "ready",
  "competitive_called_pct": 95.2,
@@ -8,10 +8,10 @@
   {
    "forecaster": "RealClearPolling",
    "code": "rcp",
-   "right": 134,
+   "right": 135,
    "wrong": 9,
    "tossups": 31,
-   "accuracy_pct": 93.7,
+   "accuracy_pct": 93.8,
    "misses": [
     "HOU-IN-05 (Lean R, D won)",
     "HOU-NC-06 (Solid R, D won)",
@@ -27,10 +27,10 @@
   {
    "forecaster": "Split Ticket",
    "code": "st",
-   "right": 144,
+   "right": 145,
    "wrong": 16,
    "tossups": 14,
-   "accuracy_pct": 90.0,
+   "accuracy_pct": 90.1,
    "misses": [
     "HOU-CO-04 (Lean R, D won)",
     "HOU-CO-05 (Lean R, D won)",
@@ -53,10 +53,10 @@
   {
    "forecaster": "Silver Bulletin",
    "code": "silver",
-   "right": 149,
+   "right": 150,
    "wrong": 18,
    "tossups": 7,
-   "accuracy_pct": 89.2,
+   "accuracy_pct": 89.3,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Likely R, D won)",
@@ -81,10 +81,10 @@
   {
    "forecaster": "FiftyPlusOne",
    "code": "fpo",
-   "right": 144,
+   "right": 145,
    "wrong": 18,
    "tossups": 12,
-   "accuracy_pct": 88.9,
+   "accuracy_pct": 89.0,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Likely R, D won)",
@@ -109,10 +109,10 @@
   {
    "forecaster": "Cook Political Report",
    "code": "cook",
-   "right": 132,
+   "right": 133,
    "wrong": 19,
    "tossups": 23,
-   "accuracy_pct": 87.4,
+   "accuracy_pct": 87.5,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Lean R, D won)",
@@ -138,10 +138,10 @@
   {
    "forecaster": "Fox News",
    "code": "fox",
-   "right": 132,
+   "right": 133,
    "wrong": 19,
    "tossups": 23,
-   "accuracy_pct": 87.4,
+   "accuracy_pct": 87.5,
    "misses": [
     "HOU-AL-02 (Likely R, D won)",
     "HOU-CO-04 (Likely R, D won)",
@@ -167,10 +167,10 @@
   {
    "forecaster": "Sabato's Crystal Ball",
    "code": "sabato",
-   "right": 145,
+   "right": 146,
    "wrong": 21,
    "tossups": 8,
-   "accuracy_pct": 87.3,
+   "accuracy_pct": 87.4,
    "misses": [
     "HOU-CO-04 (Lean R, D won)",
     "HOU-FL-09 (Lean R, D won)",
@@ -196,26 +196,12 @@
    ]
   },
   {
-   "forecaster": "NBC News",
-   "code": "nbc",
-   "right": 26,
-   "wrong": 4,
-   "tossups": 4,
-   "accuracy_pct": 86.7,
-   "misses": [
-    "SEN-IA (Lean R, D won)",
-    "SEN-KS (Lean R, D won)",
-    "SEN-MS (Likely R, D won)",
-    "SEN-SC (Lean R, D won)"
-   ]
-  },
-  {
    "forecaster": "Decision Desk HQ",
    "code": "ddhq",
-   "right": 137,
+   "right": 138,
    "wrong": 21,
    "tossups": 16,
-   "accuracy_pct": 86.7,
+   "accuracy_pct": 86.8,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Likely R, D won)",
@@ -241,12 +227,26 @@
    ]
   },
   {
+   "forecaster": "NBC News",
+   "code": "nbc",
+   "right": 26,
+   "wrong": 4,
+   "tossups": 4,
+   "accuracy_pct": 86.7,
+   "misses": [
+    "SEN-IA (Lean R, D won)",
+    "SEN-KS (Lean R, D won)",
+    "SEN-MS (Likely R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
    "forecaster": "Inside Elections",
    "code": "ie",
-   "right": 136,
+   "right": 137,
    "wrong": 22,
    "tossups": 16,
-   "accuracy_pct": 86.1,
+   "accuracy_pct": 86.2,
    "misses": [
     "HOU-AL-02 (Tilt R, D won)",
     "HOU-CO-04 (Likely R, D won)",
@@ -275,10 +275,10 @@
   {
    "forecaster": "The Economist",
    "code": "econ",
-   "right": 133,
+   "right": 134,
    "wrong": 23,
    "tossups": 18,
-   "accuracy_pct": 85.3,
+   "accuracy_pct": 85.4,
    "misses": [
     "HOU-AL-02 (Likely R, D won)",
     "HOU-CO-04 (Lean R, D won)",
@@ -307,7 +307,7 @@
   }
  ],
  "consensus": {
-  "right": 138,
+  "right": 139,
   "wrong": 20,
   "tossup": 16,
   "misses": [
@@ -391,9 +391,9 @@
   {
    "rating": "Solid R",
    "D": 1,
-   "R": 55,
+   "R": 56,
    "Other": 0,
-   "uncalled": 1
+   "uncalled": 0
   }
  ],
  "upsets": [
@@ -582,12 +582,12 @@
   "basis": "Seats each forecaster rated Tilt or stronger for a party, before Election Day. Senate counts include seats not up this year.",
   "house": {
    "actual": {
-    "D": 257,
-    "R": 169,
+    "D": 258,
+    "R": 170,
     "I": 0,
     "Other": 0
    },
-   "called": 426,
+   "called": 428,
    "races": 434,
    "majority": 218,
    "forecasters": [

@@ -297,29 +297,10 @@
       "pct": 42.6
      }
     ]
-   },
-   {
-    "pollster": "Fabrizio, Lee & Associates/Impact Research",
-    "end_date": "2026-07-16",
-    "margin": -9.0,
-    "n": 1060,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.aarp.org/pri/topics/voter-research/politics/2026-midterm-election-poll-georgia/",
-    "answers": [
-     {
-      "choice": "Jon Ossoff",
-      "pct": 52.0
-     },
-     {
-      "choice": "Mike Collins",
-      "pct": 43.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 10,
+ "raw_poll_count": 9,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-GA",
@@ -491,6 +472,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": -3,
+   "p": -9.0
+  },
+  {
+   "date": "2026-11-14",
    "c": -3,
    "p": -9.0
   }

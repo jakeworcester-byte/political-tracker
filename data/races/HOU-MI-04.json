@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-12",
+   "race": "HOU-MI-04",
+   "races": [
+    "HOU-MI-04"
+   ],
+   "type": "reporting",
+   "source": "Michigan Public",
+   "lean": "unrated",
+   "title": "Michigan’s first Native American member of Congress outlines priorities for 4th district",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaE5UNlZBV2xuaF9iSGxQWDA1LXZ1Q0lZRzR1UFZtNzdqbWZxaEx4ZklhYl9EelhUSzV4WldrSkhtUjdWOHNyZnNMRW90YlBTUGxWa1FfYVVEOUdrWEo4bGFEaVFCNk9DejZSX2Q5MzEyVHBTLXRMRWpwLTIteERHazluRWU1V1JuN3Y3MUlUdjkway1GM0dYeUw3RFp6eV9rLVdUMlA5STQ2dnRJSXc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-04",
  "history": [
   {
@@ -258,6 +274,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": 0,
+   "p": null
+  },
+  {
+   "date": "2026-11-14",
    "c": 0,
    "p": null
   }

@@ -246,7 +246,23 @@
  },
  "raw_poll_count": 5,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-12",
+   "race": "SEN-SC",
+   "races": [
+    "SEN-SC"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "South Carolina U.S. Senate Election 2026 Live Results: Annie Andrews Wins",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVdjMjRyMzN2S2RTc1poUU1zaXV1NjR6UGZzM1ZLcGVhUW81WkVWR0E2Wmt3QTMwOVpCNlQxa1JlMHBzLTFySnB1T3lSLXVzRWhOTUlINTZMNnFIUDZEZjBTTDVRaWxRYy1fZ25OdHlNSGY3TDQ1UUFwUm1vdkhtWU5ZNA?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-SC",
  "history": [
   {
@@ -416,6 +432,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": 2,
+   "p": 1.1
+  },
+  {
+   "date": "2026-11-14",
    "c": 2,
    "p": 1.1
   }

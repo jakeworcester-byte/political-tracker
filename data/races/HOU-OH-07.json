@@ -181,7 +181,52 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-14",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "House Democrats Open Inquiry After Incoming Lawmaker Accused of Sexual Harassment",
+   "url": "https://www.nytimes.com/2026/11/13/us/politics/house-democrats-poindexter-investigation.html",
+   "summary": "The House Democratic campaign arm is looking into an allegation against Representative-elect Brian Poindexter of Ohio. His campaign says he “gave what he thought was an innocuous compliment to a volunteer.”",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-13",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "Cleveland.com",
+   "lean": "unrated",
+   "title": "Ohio Congressman-elect Poindexter joins push for stock trading ban",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbnBHZW1lMW1vWHVRSWYyZElsTURocldsdUhNV1VHM0RZMkNTWl84d0lCUUJBUDRlWi1GTFAzMVRRMGJsbG1nT1ZwT1lCeUFZVXNiSGhEWV80ZDJxX3B0SGdhd3l3eGNMMlplcjlFNjh6RDV0eEJwd1llc3Jpb3JsTmNKbVoyUE9FOWpPVXJia21ZNndzRTBlS2h6by1qakhmMmdkLVVhQktUMVZodzR5STVQaHFoTU5uOVE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-13",
+   "race": "HOU-OH-07",
+   "races": [
+    "HOU-OH-07"
+   ],
+   "type": "reporting",
+   "source": "Cleveland.com",
+   "lean": "unrated",
+   "title": "Newly elected Ohio congressman Brian Poindexter under DCCC investigation of sexual harassment",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZm9kLVlIWHBfZWJHM2NQWGNRNmV3bE52MWFNMGxyRmNrZHg2TE53TXNzcjJyNkYyNTBWaDZnNVdoRFlsZGhGa2hIOEdqZFNSNk1NMUtFN0JUZzZKeFdCbGVDMnFBOHlIMUVJRGVvY1dEanUxWEJUZjJGODQ2RnN0dzFvMzkzcHJ0TlFRLUthMUMyTGVZNm9mTHhrdy1DUWc5U180djRSU2E0VFpXTDJERHpjUWNtTDhva0t1WGgtVGxWQjg2V2dOOTh5c054cVpMSmRF?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-07",
  "history": [
   {
@@ -351,6 +396,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-11-14",
    "c": 0,
    "p": -7.0
   }
