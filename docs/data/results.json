@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-13",
+ "run_date": "2026-11-14",
  "edition": "am",
- "generated_at": "2026-11-13T11:11:26.795844+00:00",
- "previous_snapshot": "2026-11-12-am",
+ "generated_at": "2026-11-14T11:13:05.454897+00:00",
+ "previous_snapshot": "2026-11-13-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -12,14 +12,14 @@
  },
  "house": {
   "races": 434,
-  "called": 426,
+  "called": 428,
   "won": {
-   "D": 257,
-   "R": 169,
+   "D": 258,
+   "R": 170,
    "I": 0,
    "Other": 0
   },
-  "uncalled": 8,
+  "uncalled": 6,
   "reported": {
    "D": 0,
    "R": 0,
@@ -28,8 +28,8 @@
   },
   "reported_count": 0,
   "won_incl_reported": {
-   "D": 257,
-   "R": 169,
+   "D": 258,
+   "R": 170,
    "I": 0,
    "Other": 0
   },
@@ -74,7 +74,10 @@
   },
   "majority": 51
  },
- "newly_called": [],
+ "newly_called": [
+  "HOU-CA-04",
+  "HOU-NC-10"
+ ],
  "uncalled_competitive": [
   "SEN-AK",
   "HOU-AK-AL",
@@ -83,9 +86,7 @@
   "HOU-NC-07"
  ],
  "pending_safe": [
-  "HOU-CA-04",
   "HOU-CA-23",
-  "HOU-NC-10",
   "HOU-TN-04"
  ],
  "reverted_to_uncalled": [],
@@ -950,11 +951,9 @@
    }
   },
   "previous_snapshot_had_governors": true,
-  "newly_called": [
-   "AK",
-   "KS"
-  ],
-  "reverted_to_uncalled": []
+  "newly_called": [],
+  "reverted_to_uncalled": [],
+  "stale_from": "2026-11-13-am"
  },
  "call_timeline": {
   "competitive_total": 103,
@@ -1023,10 +1022,18 @@
     "snapshot": "2026-11-13-am",
     "competitive_called": 98,
     "new": 0
+   },
+   {
+    "snapshot": "2026-11-14-am",
+    "competitive_called": 98,
+    "new": 0
    }
   ]
  },
- "problems": [],
+ "problems": [
+  "Governor results table parsed only 0 of 36 races; the article layout may have changed",
+  "Governor table unreadable today; governor results carried over from the 2026-11-13-am snapshot"
+ ],
  "races": {
   "HOU-AL-01": {
    "key": "HOU-AL-01",
@@ -1355,7 +1362,7 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": true,
+   "headline_call_lead": false,
    "headline_uncertain": true
   },
   "HOU-AZ-01": {
@@ -2058,14 +2065,14 @@
    "key": "HOU-CA-04",
    "name": "CA-04",
    "chamber": "House",
-   "status_text": "Incumbent advanced to general.",
+   "status_text": "Incumbent lost re-election. Democratic hold.",
    "candidates": [
     {
      "name": "Eric Jones",
      "party": "D",
      "party_label": "Democratic",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Mike Thompson",
@@ -2076,8 +2083,14 @@
     }
    ],
    "incumbent_party": "D",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Eric Jones",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -10483,7 +10496,7 @@
    "upset_watch": false,
    "reported_call": null,
    "headline_call_lead": false,
-   "headline_uncertain": true
+   "headline_uncertain": false
   },
   "HOU-MN-02": {
    "key": "HOU-MN-02",
@@ -14059,8 +14072,15 @@
    "key": "HOU-NC-10",
    "name": "NC-10",
    "chamber": "House",
-   "status_text": "Incumbent renominated",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
+    {
+     "name": "Pat Harrigan",
+     "party": "R",
+     "party_label": "Republican",
+     "pct": null,
+     "winner": true
+    },
     {
      "name": "Ashley Bell",
      "party": "D",
@@ -14074,18 +14094,17 @@
      "party_label": "Libertarian",
      "pct": null,
      "winner": false
-    },
-    {
-     "name": "Pat Harrigan",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Pat Harrigan",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -20734,8 +20753,8 @@
    "rated_safe_now_close": false,
    "upset_watch": false,
    "reported_call": null,
-   "headline_call_lead": false,
-   "headline_uncertain": false
+   "headline_call_lead": true,
+   "headline_uncertain": true
   },
   "SEN-AR": {
    "key": "SEN-AR",
@@ -22334,75 +22353,58 @@
  "news": {
   "SEN-AK": [
    {
+    "title": "Alaska Senate Race Between Dan Sullivan and Mary Peltola Still Counting Votes",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcGRpUnZKOEtydjhyR1RaNXRaVS1xdUk0MkFZTldVUktXM2xNa2JGS3Y4TG5LbmhkWHZ1VVpaaE43RnBaMElMczBHcGQ3LWpQRjFrTy03Y0FzNGx4RXlEOEtERy16RWJ2TkhDVVFYbVlWZmtvMWJ2dGxxbHQxVXhLdW1ZVERVV3VJbmVkLWpENA?oc=5",
+    "published": "2026-11-14T05:31:12+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   },
+   {
+    "title": "JKT declares victory after topping 50% in Alaska governor’s race as Peltola extends Senate lead",
+    "outlet": "Alaska Public Media",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEVQWklvTk9YZHdxMTF2eUdBSnpCNzk4MENqenFLWXRQREpub2tnZXI0M1VsS1luM24zTERRQzVjd1k3dno2dWZMMkhyWEkzbFpJdmg0ZWI1eEo0TzZ6UXduVG1nb2djY3huZmFycmhkWWwxMzFhbE1tUVZHdEJkY1NYNV8zRUNCZlc4RW1zZGpOMnJCUVZoRFZWeDNqeHBjcFBMT25PSTJlSExmYXlYTTJVbjBPUU51cXZzZEYwb2FFYmh6aUE?oc=5",
+    "published": "2026-11-13T04:21:00+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
     "title": "Why midterm vote-counting is taking so long in America's largest state",
     "outlet": "BBC",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0teVRDTDFRRTFTc19RMVA0WnNBVWswSV9ad05pZ0Uxa19SMVVoMkdPY0JYeXcwaGhHWk8tanNycW5qWFRQMnZhaEFsTkhFNmlVcWNKdzVobW5xbTQ?oc=5",
     "published": "2026-11-13T00:35:05+00:00",
     "flags": []
-   },
-   {
-    "title": "Alaska judge rules a request by Peltola campaign for ballot data in Senate race is 'not reasonable'",
-    "outlet": "PBS",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWVVCbmZpNkNJZGRrUWtPZnlIcF9OVGFqb0FIbWFva21fa250bGhvMlJkTW52UnFNZC1rd0NRVGZTdXZrMy1hUVlGR2d4RUVCZFRxakNJaGVISGR4am5kYVFUM3dRS2ZoQmp5TW5waEtvRlZaSjl3Rjgzek1LUklOUDJoeHlWUDcwYXdDS18xcDlja0ltZXFSMm56ZVBtZUxGMFBYdW5vc211cUl1cGhvZmdjdXh4a2g5Y2NGMEwwYVdSYWFfV3NHdDdmUHpWNXZa?oc=5",
-    "published": "2026-11-12T20:24:30+00:00",
-    "flags": [
-     "legal"
-    ]
-   },
-   {
-    "title": "Alaska U.S. Senate Election Live Results 2026",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGX0liOGNkRTQzMDBlYmZKUTIzLV9fVDlrLWZFZ3FvUThwQkRPdHVrY1ctczFGVXlrU1BNMDgtbXVJekZkQnNrVDZuOU8zSkpsR2xNd3lLWk9pQndSZGNfclJ2QW54X2Fpdk0teUNHMno5RmpqWDYw?oc=5",
-    "published": "2026-11-11T08:00:00+00:00",
-    "flags": []
    }
   ],
   "HOU-AK-AL": [
    {
-    "title": "Democrats pick up win in Alaska after midterms shellacking for GOP",
-    "outlet": "CNN",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uTDd3em1zM3ZucThwUy1yeUdnSEVZX0QtQXN0ZS1RRTlxMEczNUlwNnpMdVEtYkIxcWl1YWNTVG1iMmFmcW8ybUk3a1ZFakNvanhPa1p0cjhYbXNrMldfNURZYm5ubGxEeGZpMUVnUVg4QQ?oc=5",
-    "published": "2026-11-13T04:52:00+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Alaska’s U.S. Senate, governor’s races tighten with new ballot count",
-    "outlet": "Alaska Public Media",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXpyblpyZ0ZPendfLWRVTjlGMmNDeVpOcWZBT29aQUU2RWV3TVZtRzAxbzFtUGEtTEs4ZUNTaEtOUDNjYk5XWkZJd1RaYTZYQThhdFpYcUIxT0dTN0VrbFNSNExpUWZCdl9mNGhWMFpfMFJIR016bVBTdGZZVTQ2WXYxWk5lZFpLMWtNdi1VY29yeTRfR2tDX2hiNUdfRDg4RHJBLTZnTktodnNRS3RFWDRhMXlWTUNOVUhELXRleFg2dw?oc=5",
-    "published": "2026-11-12T04:28:00+00:00",
+    "title": "‘Democrat’ in Alaska’s House Race Is Doing Time in a New York Prison",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlRTME5fOUFkTjhpa3pOaUg3dWRNSjF5bjJxelFHdlNWc1pjaGtiNTExNjREejhoVXdRbGlna0VRNlRxQ3REQUZUcnp5TUFEWUkyWmtkTlQtZnVVSXdTMkRMbmRIY2pnQm85UnNGVE5CanM0ODF5SHJtSEtUQmZLWk9YcnozeFEwbExUdWt3WWdoZw?oc=5",
+    "published": "2026-11-14T10:02:13+00:00",
     "flags": []
    },
    {
-    "title": "With 25,000 more votes counted, Peltola, JKT and Begich near victory in Alaska election",
-    "outlet": "Alaska Beacon",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaDRheGpFczN3anVBdVFMSHZPMTNMdm1Gd05aNGZGVmpJWG53RTY4RWVWQ3FWSkpUaFAzWXFLd2l4VmEtMGQ3YXRhdGhpSWhiemtfT1dmcFRTa3ItQ1JxWnFIa1dfZEVCcGFjTklycDBOZkVZTjBSNEg1WGgyZFpramNnLVdIeTlOOUJXbHZ4aGo5eEhRQXpzaUFaOTR4c1dOcVotRVlBTlc0UkM3TWEzWmpMN1JVbjdWZndNRFJR?oc=5",
-    "published": "2026-11-11T14:07:19+00:00",
-    "flags": [
-     "call"
-    ]
-   }
-  ],
-  "HOU-MN-01": [
+    "title": "Peltola leads in U.S. Senate race, nearing 50% mark with almost all ballots counted",
+    "outlet": "Alaska Public Media",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSFhhVEhWdUYwbkhDQkxCM1ZVLWJTUk9mQ1ctV29XMzJXOVdHTjhjLWc0NjRoSjd4OWlDNW9GeG5ILW5aZlZiMjhPbHlIdzZKbEN1UDcwcTh0MlhKMk5PUlR5V2dEY19XcjlsYU5FNVpYdzkwaUZGVlFzcWlFVzhkdGtoVENEX2pKYWRwbUIzaTRMbGszTHRiajhscmIxVU1kbTBHRXBXTC1jT3RTcC1Vcm9Oa2tDa2ZxWXVwNGtVMGR6Vlp4NXo3Y1BJMnFHMkxrUkVLNnVUaw?oc=5",
+    "published": "2026-11-14T05:02:00+00:00",
+    "flags": []
+   },
    {
-    "title": "Minnesota poised for 4-race recount ‘spike,’ triggering public funding",
-    "outlet": "5 EYEWITNESS NEWS",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSDRZYzJvQ19XMnNDWWRISlVJSkdKbk9CRVd1czFhQUlmUHVoZXp4Y3oxVnREQ0I5QUYtWExmLUVBVFpyMkJTeHFDd3h3czZBVzNJVXJCZElLbjhQNGx6OWkzYXhHdF9xYWFDNXNZRkt5NmZQNHI1QXEzZTY0M2FZbU9Rd21hYndCMnI2MGt6SEt2MER2dU1xRjBKX3lhWUVQRFNvU3FTTQ?oc=5",
-    "published": "2026-11-11T00:13:42+00:00",
+    "title": "Alaska Senate race remains uncalled. See live results",
+    "outlet": "USA Today",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNzdQc3RBOWlUc2laeWRhYkxSTG83dXFLdmFLUkpZaFJSVWxaMHRrOGxGRmdRa08wV1cyOTd0SXhnWXRCa1UtQzBHZ1N0N05lZjZMMTRLekF0ZHBvOXJ4a0I1MnFhMHVpcFFsWDR2STlKSFN4U0JDeTViTnpHRmJxYzdHRGxzTFhSV2FSX0tyN0pwcm9WMC02REJaRnFjbU9qQTJyaEpaaVRwQjBGeGJlVnJQUQ?oc=5",
+    "published": "2026-11-14T00:01:00+00:00",
     "flags": [
      "uncertain"
     ]
    }
   ],
+  "HOU-MN-01": [],
   "HOU-NC-05": [
-   {
-    "title": "North Carolina U.S. House Election Live Results 2026",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUNJT0NlakJ5a2JfTF96OEhsQWQ2Vk9tVWY4Mk9mbXJaR0hKb1JUSlJFeWxCck4xTko5cGU2LXBlRDhja25qUE5ZUEpkMWN5QnVJcFBkcmpYV1VYUE5GQllrdnZzZ2FtNjVEakZJQlk5bDM5VmhWS1I2SzctaEtGYg?oc=5",
-    "published": "2026-11-13T09:32:39+00:00",
-    "flags": []
-   },
    {
     "title": "Hubbard appears to have ousted Foxx in NC-05 as provisionals, cured ballots counted",
     "outlet": "NC Newsline",
@@ -22413,13 +22415,21 @@
     ]
    },
    {
-    "title": "Republican Congressman Greg Murphy concedes race after North Carolina GOP gerrymander backfires",
-    "outlet": "13newsnow.com",
-    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPdXg2RFZLME9jbTU5YkhKdGVIZU5wa0RGLVJWV3htSDBYZEpfWnY4Y21TWWFZS01CbHlNWFk5T0RyUVl2Z1F2YUpqQWd4QVFldWx0WWtXQ1hpU2dvdnVaNkZDVUtzMHZEUFNWamluMWFpVGFOUlVvdUc0MW5xOHlVTXFHODRIb1dWSHcyT1h0aE1jMUpzZTlWQldkXzBZQXB3UENSd2tqWVFfRlFnYnZ1cWtCZ1luUV83TjNxVTg2aEJyWElOS3RTTTY2QnJuSFA3N2V5U2U5bGFDQTJjMF93eFM3RG04clZwTEcwOU9MR0lKUW96U0FfSGM5blBLS3VSSWZJVXAySmNSUUN3SzBBN1FkbTNtRDA?oc=5",
-    "published": "2026-11-11T21:14:00+00:00",
+    "title": "Democrats poised to flip 7 NC congressional seats, though recounts loom",
+    "outlet": "WRAL",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQmFHMm4yUUczMVN6Y1pHSEQzZDhfa24yVEFlZnE0R25YRV8wV1pxN3JwV0EwRllSLUItTWRnVUc4b2I0bjBwWkZ2Zmh0TEgyc2Y3dGctVnc3S2ZJMGxvMk1kUFhLbGluNUo5am1xdVluTUx1ak1FX1EwOHhEUjJZRklIaXdQbFVBcjFoMW9INGlYdw?oc=5",
+    "published": "2026-11-14T02:33:25+00:00",
     "flags": [
-     "call"
+     "call",
+     "uncertain"
     ]
+   },
+   {
+    "title": "What's next for North Carolina's 2026 midterm election results?",
+    "outlet": "WCNC",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTENNdGhYQTJsRkNCa2RMejliMnRrX282V1l2bGx2aU9wb2pacWhiU1JqZlVsR3dqUUsyRDMzcG1uUG5XUDZQR3BvNjBUSmhsYzBBT1I4azZ1a1Q2MXlBN0pBVkhKcUFrOW9rdTVfNnpFMnFGd3RlbmI0WElYc0MzTWE2WUcwNFUzMlBCUkZ4YXNKQ21aYVRlNlBrVjNpc05kbzNXOWpjbUNWUjdnVDByekxnSFd4eGN1QVoyN2tNb1lKM1ZKZk9faTRfbXk1d3N1SUZKQg?oc=5",
+    "published": "2026-11-13T10:05:00+00:00",
+    "flags": []
    }
   ],
   "HOU-NC-07": [
@@ -22442,63 +22452,14 @@
     ]
    }
   ],
-  "HOU-CA-04": [
-   {
-    "title": "Jones ousts House Democrat in California",
-    "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOGYwZVdpYVlMdVlBN3pMeExfSlFZOU8yM0ZfZzhZNXAwclpoZ294dF9QM0pnVG0zSjAyVHVWRC0xZjV0UXp3TGRwYW9EU1JJY2F1Z3RkYzRCTXIzdEJOcXk4dnlEeXFrQ3k3eGJRc1hJZnk3UmFCeE9tbVhWY2Q1OHJtdmY3d9IBiwFBVV95cUxNV3o3dXJvYmg1OERBcjN1elEycFVkQXAwRzRBbUhjNEVPZERhOFRQLWRyblN3Z3d1bjdCNTgxU0w4cElLai1nZFdSWk5JdEJPUHJFY3JYY2tGZUJsVlRwZm1MTHluNVZPVUFIMTNSU25lc1BBR0hlOWdrUFF0M0xoNlRZYUU1c0hub2cw?oc=5",
-    "published": "2026-11-13T03:20:00+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "More than a week after the election, these races in Sonoma and Napa counties are still too close to call",
-    "outlet": "The Press Democrat",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX21TRjFVZ0JpV0dEd3JPbUlwTHVreWJ1UzdUeHR3bzBfcExQV0lmNkdheHpnRXRTRnlmalJNUTdqR0lVQTVLSFpxWTBUM0FHRmxHZGtUUmVWbE1xQnRYdWVYQllPOFE0dWNNX1ZxSm1mRFB5NVRYUUlxSmxkTTRxNXpqZjZ0a1J4Z19yTy12bmhnXzZ2d0J4elFOMjBaWnItVFVQYnlQSnRMelNFbHoxUHpyU2E2VkxCZFNuc2JGNUxiZUNFVnc?oc=5",
-    "published": "2026-11-13T00:13:10+00:00",
-    "flags": [
-     "uncertain"
-    ]
-   },
-   {
-    "title": "Eric Jones, allies attacked Mike Thompson on immigration in competing messages",
-    "outlet": "Sacramento Bee",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUDFsT3g0NVNiNHc4X200MDk1Yk56VGh2Q3cyMUJZSTJYclVZbmU5aHdZb1cxN1hUdjN3RVhQQTc2MVREYVVrOXJIb2p0T2xnMFpmaEp6X3dhbDlhamhxbEZHdzgzN0ZtS05scjlHNWlpVUZrWGp3WEFCNy1vUUVWbFBGSnZpNVFfQVI00gGLAUFVX3lxTFBUOFk2VWR2aUthaFdCS2wzRC1UMHdFUzNqa2lXbnlxZlFVek9GcTZ6cUdndEFIODc2MllFUjlTTXhmbVltNjBObnUxVVkzVWo0SVZiTUlISGVqaU9DbG13Q3RtbkUwdGlEUVR2X2dvXzI5YWI3SGJCUXY1MVMxSkJnajVlN3F1U1FfQmc?oc=5",
-    "published": "2026-11-11T13:00:00+00:00",
-    "flags": []
-   }
-  ],
   "HOU-CA-23": [],
-  "HOU-NC-10": [
-   {
-    "title": "Recount request could come Friday in North Carolina 10th District race",
-    "outlet": "WXII",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOUduaHlSbEdDeVlSNzdNQ2x4SC1JUjFBeEFQdVdvLUVrckhTdXlTQ2ZZQ0t5aThOS2ZGNE5tcE1ycm1haE1nUkQ4R2VTRU14Qzd3MDFUczVwMlIyZ0ZVZDdld2piNmxEb2VFRVRzRkQzUFNpS3NWQjJyMHJaa1BFa0xIN2lKWWV3WE9oaXB3cGUxUQ?oc=5",
-    "published": "2026-11-12T03:44:00+00:00",
-    "flags": [
-     "uncertain"
-    ]
-   },
-   {
-    "title": "Another NC congressional race just dipped into recount territory north of Charlotte",
-    "outlet": "Charlotte Observer",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUUlSc0U2bU9LSFJsQlAxX2FiYlRQeXBDWmhHb2htYjNSaFdvaEtHa09FN3FFTE10ZjA2SmlFMTBqaENBaERSLVItV2pScHBJemRKRDhjX3k3cWhBaFN5RFdKRnU1eEhoMjAtWmR3UFJ1emY4dzBibndpTE5IaGQtckxHZW1ScnNtUnpWWldxQzNYRzjSAZMBQVVfeXFMTTh0YUdQSlB6a2hOTEpMWGl2VnhRWHF0ZFQ1QXIxSEFlQVc3UWl5NVc3emZMcG9rX21zYkFpU1JyaUhiY0FpRGZLZVNPZ0dCMHIyNGhNVC1mRjg4VjZKY0RtbmJ1WUE0UHdEVEVwbnF5aE5jbGNLLXNZQ2NaR1M5a2ZoUTZGRHpEMklUSTdKcGlXWXFv?oc=5",
-    "published": "2026-11-11T16:53:25+00:00",
-    "flags": [
-     "uncertain"
-    ]
-   }
-  ],
   "HOU-TN-04": [
    {
-    "title": "TN’s 4th district U.S. House race could be called after Nashville counts provisional ballots Monday",
-    "outlet": "Tennessee Lookout",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2llb0FLUTBpSE9fRzh2MEJxNzJRX0dyZlNrc1FHM0FqNVVNU3ljYnhMalJPOVNuQkE4anI0dDJqcHR0RXlkNUpLR2pnd2tFTldlWUVWNEJXVVpZcldkUXVxM3BKLXdUcExJaVQ2ZEhKVkkxUzhjWUN6b2I1OUthYVQ4MGxpSzJ3RVo3Q3dKM0t6SUFxM3ZzWGI4NXdMU0FsR0ZDUlQ2TV9PU2lDeXNGV2tROWRRaXFRREhPUnB5XzduU3dFVGJDSWUtOFdkc2pNdHBXbWZVd0JJUQ?oc=5",
-    "published": "2026-11-11T11:04:53+00:00",
-    "flags": [
-     "uncertain"
-    ]
+    "title": "Lauren Boebert lost one of the most pro-Trump districts any House Republican lost this year",
+    "outlet": "The Colorado Sun",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUUtVVHo0Z2kxWDhpMjhmb0FUbkVyaER5NldjYlBYb1pGeVpvcjRFaFFfWGF5aEo1ZkRNa1p6RlR6dWZwbW5sRk1FRlcxTnl3VWFpRFVqSTNVMlZHbFMtcnBSN2tpS1IyTFp6QVZFLUxrb3VLd3NKQVlLODdlWGNaWWFUR2RjQTQ?oc=5",
+    "published": "2026-11-13T20:33:13+00:00",
+    "flags": []
    },
    {
     "title": "Redistricting reshaped Tennessee's D4, adding counties where Broderick won by 22,000 votes",
@@ -22508,59 +22469,13 @@
     "flags": [
      "call"
     ]
-   }
-  ],
-  "GOV-AK": [
+   },
    {
-    "title": "JKT tops 50% in Alaska governor’s race as Peltola extends Senate lead",
-    "outlet": "Alaska Public Media",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEVQWklvTk9YZHdxMTF2eUdBSnpCNzk4MENqenFLWXRQREpub2tnZXI0M1VsS1luM24zTERRQzVjd1k3dno2dWZMMkhyWEkzbFpJdmg0ZWI1eEo0TzZ6UXduVG1nb2djY3huZmFycmhkWWwxMzFhbE1tUVZHdEJkY1NYNV8zRUNCZlc4RW1zZGpOMnJCUVZoRFZWeDNqeHBjcFBMT25PSTJlSExmYXlYTTJVbjBPUU51cXZzZEYwb2FFYmh6aUE?oc=5",
-    "published": "2026-11-13T04:21:00+00:00",
+    "title": "Tennessee’s gerrymandered election maps hold up, but not as well as in past cycles",
+    "outlet": "Tennessee Lookout",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYUVMT20xd3lLRjdRcFVOX21BYWV3ZGNiMG9CWDE1czZFdnZmV0VJMkhISks1Z2dGcjlBd0dwYzlXZ1p5UWthbTVIdnc1NkZZQUIxaFZTbzJIM2lmcjRTTWlPeXZILVR4MXZVSTI0b3JhbkIxbXIwajVXakJMWVBJVUJWYzZGSlV5ZVhYZGV5bDM3MEJ0M2U3YVUtTDVlOEY5dFE5QWlLS0FnOVkwaHpURHdwZnZ2UUQtWWJCSlhn?oc=5",
+    "published": "2026-11-13T11:02:57+00:00",
     "flags": []
-   },
-   {
-    "title": "More than a dozen key races remain too early to call one week after Election Day",
-    "outlet": "PBS",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQkdvWE9ndG1ZVDRaaWRzVFJIQTlUbXdEVFNHLVNEd2JIV0REZTdMaXNQbng0MEE3NmVndGhEZFl3b3lPeEJRTUtMQy1BWVFwNFFUQzVSMWJGcm1JQ3FQaXl6dkNOTEFsNWVRM1pISG11cWxsMGFReEY0bnVrWFlIZXZuY29UU0RjSEJrdkhSbmc0QmttalgwR20wZGVXZFhvSGR1UmtMdWhzN1k2clN0Ulk0UGhwQnlnckHSAb8BQVVfeXFMT002bVIyZ0g3ci1vcVVxUnM1dmdtZG80VldmbmMzbFNaMUxQUm9nNGd2QjE4T0ZsYXIzVTVQUnd5cUpUMjBzQmxmT2xQa0R0SW51cGp4dVNkWXlzUlh0ZTdsYzVLcjdLS0VBemRZa0dvR2ZVdmZFeHpfLVJ1STFpQ0c4enBROGtrd3dTRWQyUzlzclEtb2k3QzM3S3VZaUN6SnIwTmhaeFUyZk10ZXpMUTlrSWJ6T0hKYXdpTUplMTg?oc=5",
-    "published": "2026-11-11T20:33:19+00:00",
-    "flags": []
-   },
-   {
-    "title": "Alaska’s U.S. Senate, governor’s races tighten with new ballot count",
-    "outlet": "Alaska Public Media",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXpyblpyZ0ZPendfLWRVTjlGMmNDeVpOcWZBT29aQUU2RWV3TVZtRzAxbzFtUGEtTEs4ZUNTaEtOUDNjYk5XWkZJd1RaYTZYQThhdFpYcUIxT0dTN0VrbFNSNExpUWZCdl9mNGhWMFpfMFJIR016bVBTdGZZVTQ2WXYxWk5lZFpLMWtNdi1VY29yeTRfR2tDX2hiNUdfRDg4RHJBLTZnTktodnNRS3RFWDRhMXlWTUNOVUhELXRleFg2dw?oc=5",
-    "published": "2026-11-12T04:28:00+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-KS": [
-   {
-    "title": "Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories",
-    "outlet": "PBS",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS0xoelhvSE5mQWkwX3ZETXVYRk9NYUpuY1VDbGVaM19QSGh1Z05kaEhQM2RvSHdldXFDX0FqTm1uMS10eEl6Y2xHX2hhN1JXaFcxelB6TFJIb2pza1B0VEJhSUUzY0RCaTBNX0ZjdE9UODdmemM3NHBTN290TTAzYXB4YTNCWW5ybE83NWR1VWxTRnpOX19vS1JabldVbGtxZTNETFhIdDNKU0lxck4zN1RhQzdfYlRrUHBXWmo4cnRKUQ?oc=5",
-    "published": "2026-11-12T23:15:50+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Kansas will have back-to-back women governors after Democrat Cindy Holscher wins tight race",
-    "outlet": "The 19th News",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OcEZhR1B3V1BUVVl0dmVvM3lOM1k2QmVNdzR3Q0xvbm04b2JrMnRuX0NVamtqWDBiS0FGUy1vaHQ5Mlk1WXh5akVfSmRqakw3R0Z6ZXFSOHAtNV9TN004M2lWbjhRU2JTd3pBMjdLQQ?oc=5",
-    "published": "2026-11-12T20:10:30+00:00",
-    "flags": [
-     "call",
-     "uncertain"
-    ]
-   },
-   {
-    "title": "Democrat Cindy Holscher defeats Republican Ty Masterson in Kansas governor’s race",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdzJIZE9XQmw3bVRsVDc4RmdDdUVPLU91NVJJdnBpbFI5QkROWUt3S096WEZfakYwRTNrM3pSUkk4YThwbF9vemZvcXVjQ2ppXzgxMTF6aHhYOEtvMklGRWFsNnYyNlkwQm51YW1IQkR3djZFeXlzUDdRMlBJb0FybDZLdl9KaS1ZYm16VVZGLXJuQ1lXVldaMHVTZGJJRlBiVUhhNW0yZVlkVGNYRUZXeGY1a3RsYnBSODFzRw?oc=5",
-    "published": "2026-11-12T22:46:39+00:00",
-    "flags": [
-     "call"
-    ]
    }
   ]
  }

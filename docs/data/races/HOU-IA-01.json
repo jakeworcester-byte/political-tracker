@@ -82,73 +82,11 @@
  "ratings_source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_election_ratings",
  "flip_votes": 10,
  "candidates": {
-  "D": [
-   "Christina Bohannan"
-  ],
-  "R": [
-   "Mariannette Miller-Meeks"
-  ]
+  "D": [],
+  "R": []
  },
- "poll": {
-  "average_margin": -5.0,
-  "average_label": "D+5.0",
-  "n_polls": 1,
-  "window_days": 45,
-  "latest": {
-   "pollster": "The Bullfinch Group",
-   "sponsors": [
-    "The Independent Center"
-   ],
-   "partisan": null,
-   "start_date": "2026-07-13",
-   "end_date": "2026-07-16",
-   "sample_size": 705,
-   "population": "lv",
-   "margin": -5.0,
-   "margin_label": "D+5.0",
-   "answers": [
-    {
-     "choice": "Mariannette Miller-Meeks",
-     "pct": 35.0
-    },
-    {
-     "choice": "Christina Bohannan",
-     "pct": 40.0
-    },
-    {
-     "choice": "Michael Bridgford",
-     "pct": 11.0
-    }
-   ],
-   "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat"
-  },
-  "polls": [
-   {
-    "pollster": "The Bullfinch Group",
-    "end_date": "2026-07-16",
-    "margin": -5.0,
-    "n": 705,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://www.semafor.com/article/07/28/2026/independent-group-eyes-delbenes-seat",
-    "answers": [
-     {
-      "choice": "Mariannette Miller-Meeks",
-      "pct": 35.0
-     },
-     {
-      "choice": "Christina Bohannan",
-      "pct": 40.0
-     },
-     {
-      "choice": "Michael Bridgford",
-      "pct": 11.0
-     }
-    ]
-   }
-  ]
- },
- "raw_poll_count": 1,
+ "poll": null,
+ "raw_poll_count": 0,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-01",
@@ -322,6 +260,11 @@
    "date": "2026-11-13",
    "c": -2,
    "p": -5.0
+  },
+  {
+   "date": "2026-11-14",
+   "c": -2,
+   "p": null
   }
  ]
 }

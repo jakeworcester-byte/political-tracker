@@ -1,0 +1,781 @@
+{
+ "date": "2026-11-14",
+ "since": "2026-11-11",
+ "token_env": "COURTLISTENER_TOKEN",
+ "requests": 4,
+ "status": "ok",
+ "errors": [
+  "r 'suitNature:\"Civil Rights: Voting\"': HTTP 502 upstream request failed"
+ ],
+ "dockets": [
+  {
+   "query": "suitNature:\"Civil Rights: Voting\"",
+   "count": 26,
+   "page2": false,
+   "items": [
+    {
+     "case": "Voter Reference Foundation, LLC v. Henderson",
+     "court": "District Court, D. Utah",
+     "docket_number": "2:26-cv-01101",
+     "date_filed": "2026-11-06",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75084191/voter-reference-foundation-llc-v-henderson/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 11,
+       "description": "Extension of Time to File Response/Reply",
+       "url": "https://www.courtlistener.com/docket/75084191/11/voter-reference-foundation-llc-v-henderson/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "State of California v. United States Postal Service",
+     "court": "District Court, D. Massachusetts",
+     "docket_number": "1:26-cv-13917",
+     "date_filed": "2026-08-26",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74701505/state-of-california-v-united-states-postal-service/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 182,
+       "description": "Extension of Time to File Answer",
+       "url": "https://www.courtlistener.com/docket/74701505/182/state-of-california-v-united-states-postal-service/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. Bernadette Matthews",
+     "court": "Court of Appeals for the Seventh Circuit",
+     "docket_number": "26-2695",
+     "date_filed": "2026-08-17",
+     "suit_nature": "2441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/74671260/united-states-v-bernadette-matthews/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 32,
+       "description": "Order issued GRANTING motion to extend time to file appellees' briefs. [31] Appellees' briefs due on or before 12/30/2026 for Brian Beals, Common Cause, Alejandra L. Ibanez, Illinois AFL-CIO, Illinoi…",
+       "url": "https://www.courtlistener.com/docket/74671260/32/united-states-v-bernadette-matthews/"
+      },
+      {
+       "date": "2026-11-13",
+       "entry_number": 31,
+       "description": "Motion filed by Appellee Bernadette Matthews to extend time to file appellee brief. [31] [7569923] [26-2695] (Sherman, Samantha) [Entered: 11/13/2026 01:58 PM]",
+       "url": "https://www.courtlistener.com/docket/74671260/31/united-states-v-bernadette-matthews/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Coalition for Open Democracy v. NH Secretary of State",
+     "court": "District Court, D. New Hampshire",
+     "docket_number": "1:26-cv-00647",
+     "date_filed": "2026-08-11",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74220507/coalition-for-open-democracy-v-nh-secretary-of-state/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 78,
+       "description": "Stipulation",
+       "url": "https://www.courtlistener.com/docket/74220507/78/coalition-for-open-democracy-v-nh-secretary-of-state/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Webber v. Bennett",
+     "court": "District Court, D. Nebraska",
+     "docket_number": "8:26-cv-00376",
+     "date_filed": "2026-07-31",
+     "suit_nature": "Civil Rights:  Voting",
+     "url": "https://www.courtlistener.com/docket/73702884/webber-v-bennett/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 12,
+       "description": "Returned Mail",
+       "url": "https://www.courtlistener.com/docket/73702884/12/webber-v-bennett/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. Jared DeMarinis",
+     "court": "Court of Appeals for the Fourth Circuit",
+     "docket_number": "26-1878",
+     "date_filed": "2026-07-13",
+     "suit_nature": "1441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/73608654/united-states-v-jared-demarinis/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 125,
+       "description": "RESPONSE/ANSWER (to Similar Case notice)",
+       "url": "https://www.courtlistener.com/docket/73608654/125/united-states-v-jared-demarinis/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. Shirley Weber",
+     "court": "District Court, C.D. California",
+     "docket_number": "2:25-cv-09149",
+     "date_filed": "2025-09-25",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/71452580/united-states-v-shirley-weber/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 137,
+       "description": "Proof of Service (subsequent documents)",
+       "url": "https://www.courtlistener.com/docket/71452580/137/united-states-v-shirley-weber/"
+      },
+      {
+       "date": "2026-11-13",
+       "entry_number": 135,
+       "description": "Intervene",
+       "url": "https://www.courtlistener.com/docket/71452580/135/united-states-v-shirley-weber/"
+      },
+      {
+       "date": "2026-11-13",
+       "entry_number": 138,
+       "description": "Deficiency in Filed Documents (G-112A) - optional html form",
+       "url": "https://www.courtlistener.com/docket/71452580/138/united-states-v-shirley-weber/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mississippi State Conference of the National Association for the Advancement of Colored People v. State Board of Election Commissioners",
+     "court": "District Court, S.D. Mississippi",
+     "docket_number": "3:22-cv-00734",
+     "date_filed": "2022-12-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/66672561/mississippi-state-conference-of-the-national-association-for-the/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": null,
+       "description": "Order on Motion to Amend/Correct",
+       "url": ""
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 338,
+       "description": "Amend/Correct",
+       "url": "https://www.courtlistener.com/docket/66672561/338/mississippi-state-conference-of-the-national-association-for-the/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Robinson v. Ardoin",
+     "court": "District Court, M.D. Louisiana",
+     "docket_number": "3:22-cv-00211",
+     "date_filed": "2022-03-30",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63201015/robinson-v-ardoin/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": null,
+       "description": "Order on Motion to Withdraw as Attorney",
+       "url": ""
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 399,
+       "description": "Withdraw as Attorney",
+       "url": "https://www.courtlistener.com/docket/63201015/399/robinson-v-ardoin/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Hoagland v. Board of Voter Registration and Elections of Beaufort County",
+     "court": "District Court, D. South Carolina",
+     "docket_number": "9:26-cv-05570",
+     "date_filed": "2026-11-09",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75095624/hoagland-v-board-of-voter-registration-and-elections-of-beaufort-county/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": null,
+       "description": "Document Mailed",
+       "url": ""
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 11,
+       "description": "Order to Notify of Address Change",
+       "url": "https://www.courtlistener.com/docket/75095624/11/hoagland-v-board-of-voter-registration-and-elections-of-beaufort-county/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Sharpe v. Kosinski",
+     "court": "District Court, N.D. New York",
+     "docket_number": "1:26-cv-02254",
+     "date_filed": "2026-11-02",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75063178/sharpe-v-kosinski/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 8,
+       "description": "Order on Motion for Miscellaneous Relief",
+       "url": "https://www.courtlistener.com/docket/75063178/8/sharpe-v-kosinski/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 7,
+       "description": "Miscellaneous/Other Relief",
+       "url": "https://www.courtlistener.com/docket/75063178/7/sharpe-v-kosinski/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "OneAmerica Votes v. Trump",
+     "court": "District Court, W.D. Washington",
+     "docket_number": "2:26-cv-04223",
+     "date_filed": "2026-10-30",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75053712/oneamerica-votes-v-trump/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 22,
+       "description": "Response to Motion",
+       "url": "https://www.courtlistener.com/docket/75053712/22/oneamerica-votes-v-trump/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 23,
+       "description": "Declaration",
+       "url": "https://www.courtlistener.com/docket/75053712/23/oneamerica-votes-v-trump/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 23,
+       "description": "Exhibit A",
+       "url": "https://www.courtlistener.com/docket/75053712/23/1/oneamerica-votes-v-trump/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Potter County Republican Party v. Benge",
+     "court": "District Court, N.D. Texas",
+     "docket_number": "2:26-cv-00215",
+     "date_filed": "2026-10-27",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75028945/potter-county-republican-party-v-benge/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 69,
+       "description": "Order on Application for Admission Pro Hac Vice",
+       "url": "https://www.courtlistener.com/docket/75028945/69/potter-county-republican-party-v-benge/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 70,
+       "description": "Order on Application for Admission Pro Hac Vice",
+       "url": "https://www.courtlistener.com/docket/75028945/70/potter-county-republican-party-v-benge/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 68,
+       "description": "Order on Application for Admission Pro Hac Vice",
+       "url": "https://www.courtlistener.com/docket/75028945/68/potter-county-republican-party-v-benge/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Neil Gillespie v. Marion County Supervisor of Elections",
+     "court": "Court of Appeals for the Eleventh Circuit",
+     "docket_number": "26-10492",
+     "date_filed": "2026-02-13",
+     "suit_nature": "3441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/75023036/neil-gillespie-v-marion-county-supervisor-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 19,
+       "description": "MOT-2 Notice to Counsel/Parties",
+       "url": "https://www.courtlistener.com/docket/75023036/19/1/neil-gillespie-v-marion-county-supervisor-of-elections/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 19,
+       "description": "Court Order Filed",
+       "url": "https://www.courtlistener.com/docket/75023036/19/2/neil-gillespie-v-marion-county-supervisor-of-elections/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "NATIONAL ASSOCIATION FOR THE ADVANCEMENT OF COLORED PEOPLE v. Howden",
+     "court": "District Court, W.D. Texas",
+     "docket_number": "5:26-cv-06867",
+     "date_filed": "2026-10-26",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75021534/national-association-for-the-advancement-of-colored-people-v-howden/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 17,
+       "description": "Response in Opposition to Motion",
+       "url": "https://www.courtlistener.com/docket/75021534/17/national-association-for-the-advancement-of-colored-people-v-howden/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Ayyadurai v. Belmont News Foundation, Inc.",
+     "court": "District Court, D. Massachusetts",
+     "docket_number": "1:26-cv-14760",
+     "date_filed": "2026-10-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74995758/ayyadurai-v-belmont-news-foundation-inc/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 32,
+       "description": "Appear Pro Hac Vice",
+       "url": "https://www.courtlistener.com/docket/74995758/32/ayyadurai-v-belmont-news-foundation-inc/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 35,
+       "description": "Appear Pro Hac Vice",
+       "url": "https://www.courtlistener.com/docket/74995758/35/ayyadurai-v-belmont-news-foundation-inc/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 32,
+       "description": "Affidavit /Declaration In Support of Motion for Pro Hac Vice of Leena M. Charlto",
+       "url": "https://www.courtlistener.com/docket/74995758/32/1/ayyadurai-v-belmont-news-foundation-inc/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. Steven Koski",
+     "court": "Court of Appeals for the Fourth Circuit",
+     "docket_number": "26-2002",
+     "date_filed": "2026-07-29",
+     "suit_nature": "1441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/73690636/united-states-v-steven-koski/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 68,
+       "description": "RULE 46 NOTICE issued to Hassan Ahmad for National Urban League, Lawyers Committee For Civil Rights, League of United Latin American Citizens and Asian Law Caucus and Gregory Alan Clarick for Histori…",
+       "url": "https://www.courtlistener.com/docket/73690636/68/united-states-v-steven-koski/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "NAACP South Carolina State Conference v. Wilson",
+     "court": "District Court, D. South Carolina",
+     "docket_number": "3:25-cv-13754",
+     "date_filed": "2025-12-05",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/72003480/naacp-south-carolina-state-conference-v-wilson/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 77,
+       "description": "Transmittal Sheet for Notice of Appeal to USCA",
+       "url": "https://www.courtlistener.com/docket/72003480/77/naacp-south-carolina-state-conference-v-wilson/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 75,
+       "description": "Order",
+       "url": "https://www.courtlistener.com/docket/72003480/75/naacp-south-carolina-state-conference-v-wilson/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 76,
+       "description": "Summary Judgment",
+       "url": "https://www.courtlistener.com/docket/72003480/76/naacp-south-carolina-state-conference-v-wilson/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "David Tangipa v. Gavin Newsom",
+     "court": "District Court, C.D. California",
+     "docket_number": "2:25-cv-10616",
+     "date_filed": "2025-11-05",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/71875910/david-tangipa-v-gavin-newsom/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 281,
+       "description": "Appearance",
+       "url": "https://www.courtlistener.com/docket/71875910/281/david-tangipa-v-gavin-newsom/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 282,
+       "description": "Appearance",
+       "url": "https://www.courtlistener.com/docket/71875910/282/david-tangipa-v-gavin-newsom/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Callais v. Landry",
+     "court": "District Court, W.D. Louisiana",
+     "docket_number": "3:24-cv-00122",
+     "date_filed": "2024-01-31",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/68210023/callais-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 353,
+       "description": "Withdraw as Attorney",
+       "url": "https://www.courtlistener.com/docket/68210023/353/callais-v-landry/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 353,
+       "description": "Proposed order",
+       "url": "https://www.courtlistener.com/docket/68210023/353/1/callais-v-landry/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  },
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\" OR \"election commission\")",
+   "count": 15,
+   "page2": false,
+   "items": [
+    {
+     "case": "Voter Reference Foundation, LLC v. Henderson",
+     "court": "District Court, D. Utah",
+     "docket_number": "2:26-cv-01101",
+     "date_filed": "2026-11-06",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75084191/voter-reference-foundation-llc-v-henderson/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 11,
+       "description": "Extension of Time to File Response/Reply",
+       "url": "https://www.courtlistener.com/docket/75084191/11/voter-reference-foundation-llc-v-henderson/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "In Re: Ballot Initiative 194 Litigation",
+     "court": "District Court, D. Montana",
+     "docket_number": "6:26-cv-00073",
+     "date_filed": "2026-11-03",
+     "suit_nature": "950 Constitutional - State Statute",
+     "url": "https://www.courtlistener.com/docket/75070283/in-re-ballot-initiative-194-litigation/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": null,
+       "description": "Remark",
+       "url": ""
+      },
+      {
+       "date": "2026-11-13",
+       "entry_number": 11,
+       "description": "Order",
+       "url": "https://www.courtlistener.com/docket/75070283/11/in-re-ballot-initiative-194-litigation/"
+      },
+      {
+       "date": "2026-11-13",
+       "entry_number": 10,
+       "description": "Notice (Other) - SDM",
+       "url": "https://www.courtlistener.com/docket/75070283/10/frontier-institute-v-frontier-action-fund/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters v. DHS",
+     "court": "Court of Appeals for the D.C. Circuit",
+     "docket_number": "26-5243",
+     "date_filed": "2026-06-29",
+     "suit_nature": "2890 Other Statutory Actions",
+     "url": "https://www.courtlistener.com/docket/73544809/league-of-women-voters-v-dhs/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": 1208908134,
+       "description": "Appellant/Petitioner Brief Filed",
+       "url": "https://www.courtlistener.com/docket/73544809/1208908134/league-of-women-voters-v-dhs/"
+      },
+      {
+       "date": "2026-11-13",
+       "entry_number": 1208907974,
+       "description": "Amicus for Appellant/Petitioner Brief Filed",
+       "url": "https://www.courtlistener.com/docket/73544809/1208907974/league-of-women-voters-v-dhs/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mississippi State Conference of the National Association for the Advancement of Colored People v. State Board of Election Commissioners",
+     "court": "District Court, S.D. Mississippi",
+     "docket_number": "3:22-cv-00734",
+     "date_filed": "2022-12-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/66672561/mississippi-state-conference-of-the-national-association-for-the/",
+     "entries": [
+      {
+       "date": "2026-11-13",
+       "entry_number": null,
+       "description": "Order on Motion to Amend/Correct",
+       "url": ""
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 338,
+       "description": "Amend/Correct",
+       "url": "https://www.courtlistener.com/docket/66672561/338/mississippi-state-conference-of-the-national-association-for-the/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Hoagland v. Board of Voter Registration and Elections of Beaufort County",
+     "court": "District Court, D. South Carolina",
+     "docket_number": "9:26-cv-05570",
+     "date_filed": "2026-11-09",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75095624/hoagland-v-board-of-voter-registration-and-elections-of-beaufort-county/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": null,
+       "description": "Document Mailed",
+       "url": ""
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 11,
+       "description": "Order to Notify of Address Change",
+       "url": "https://www.courtlistener.com/docket/75095624/11/hoagland-v-board-of-voter-registration-and-elections-of-beaufort-county/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "OneAmerica Votes v. Trump",
+     "court": "District Court, W.D. Washington",
+     "docket_number": "2:26-cv-04223",
+     "date_filed": "2026-10-30",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75053712/oneamerica-votes-v-trump/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 22,
+       "description": "Response to Motion",
+       "url": "https://www.courtlistener.com/docket/75053712/22/oneamerica-votes-v-trump/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 23,
+       "description": "Exhibit A",
+       "url": "https://www.courtlistener.com/docket/75053712/23/1/oneamerica-votes-v-trump/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 23,
+       "description": "Exhibit B",
+       "url": "https://www.courtlistener.com/docket/75053712/23/2/oneamerica-votes-v-trump/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Neil Gillespie v. Marion County Supervisor of Elections",
+     "court": "Court of Appeals for the Eleventh Circuit",
+     "docket_number": "26-10492",
+     "date_filed": "2026-02-13",
+     "suit_nature": "3441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/75023036/neil-gillespie-v-marion-county-supervisor-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 19,
+       "description": "MOT-2 Notice to Counsel/Parties",
+       "url": "https://www.courtlistener.com/docket/75023036/19/1/neil-gillespie-v-marion-county-supervisor-of-elections/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 19,
+       "description": "Court Order Filed",
+       "url": "https://www.courtlistener.com/docket/75023036/19/2/neil-gillespie-v-marion-county-supervisor-of-elections/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "LEAGUE OF WOMEN VOTERS v. DEPARTMENT OF HOMELAND SECURITY",
+     "court": "District Court, District of Columbia",
+     "docket_number": "1:26-cv-03602",
+     "date_filed": "2026-10-15",
+     "suit_nature": "899 Administrative Procedure Act/Review or Appeal of Agency Decision",
+     "url": "https://www.courtlistener.com/docket/74968826/league-of-women-voters-v-department-of-homeland-security/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 35,
+       "description": "Summons Returned Executed as to Federal Defendant",
+       "url": "https://www.courtlistener.com/docket/74968826/35/league-of-women-voters-v-department-of-homeland-security/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 34,
+       "description": "Summons Returned Executed as to U.S. Attorney General",
+       "url": "https://www.courtlistener.com/docket/74968826/34/league-of-women-voters-v-department-of-homeland-security/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 33,
+       "description": "Summons Returned Executed as to US Attorney",
+       "url": "https://www.courtlistener.com/docket/74968826/33/league-of-women-voters-v-department-of-homeland-security/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States of America v. Board Of Elections of the State of New York",
+     "court": "Court of Appeals for the Second Circuit",
+     "docket_number": "26-2060",
+     "date_filed": "2026-07-28",
+     "suit_nature": "",
+     "url": "https://www.courtlistener.com/docket/73682036/united-states-of-america-v-board-of-elections-of-the-state-of-new-york/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 134,
+       "description": "ORAL ARGUMENT STATEMENT LR 34.1 (a), on behalf of Appellee Raymond J. Riley, III, Appellee Peter S. Kosinski, Appellee Anthony J. Casale, FILED. Service date 11/12/2026 by ACMS. [Entered: 11/12/2026…",
+       "url": "https://www.courtlistener.com/docket/73682036/134/united-states-of-america-v-board-of-elections-of-the-state-of-new-york/"
+      },
+      {
+       "date": "2026-11-11",
+       "entry_number": 133,
+       "description": "FRAP 28(j) LETTER, dated 11/11/2026, on behalf of Appellee State of New York, RECEIVED. Service date 11/11/2026 by ACMS. [Entered: 11/11/2026 08:14 AM]",
+       "url": "https://www.courtlistener.com/docket/73682036/133/united-states-of-america-v-board-of-elections-of-the-state-of-new-york/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Singleton v. Jefferson Parish Board of Election Supervisors",
+     "court": "District Court, E.D. Louisiana",
+     "docket_number": "2:26-cv-01168",
+     "date_filed": "2026-06-01",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73424411/singleton-v-jefferson-parish-board-of-election-supervisors/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 34,
+       "description": "Order on Motion to Dismiss",
+       "url": "https://www.courtlistener.com/docket/73424411/34/singleton-v-jefferson-parish-board-of-election-supervisors/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Dawkins v. New York City Board of Elections",
+     "court": "District Court, S.D. New York",
+     "docket_number": "1:25-cv-10827",
+     "date_filed": "2025-12-30",
+     "suit_nature": "Civil Rights: Other",
+     "url": "https://www.courtlistener.com/docket/72109899/dawkins-v-new-york-city-board-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": null,
+       "description": "Transmission of Notice of Appeal and Docket Sheet to USCA",
+       "url": ""
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": 20,
+       "description": "Notice of Appeal",
+       "url": "https://www.courtlistener.com/docket/72109899/20/dawkins-v-new-york-city-board-of-elections/"
+      },
+      {
+       "date": "2026-11-12",
+       "entry_number": null,
+       "description": "Appeal Record Sent to USCA - Electronic File",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "White v. State Board of Election Commissioners",
+     "court": "District Court, N.D. Mississippi",
+     "docket_number": "4:22-cv-00062",
+     "date_filed": "2022-04-25",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63266135/white-v-state-board-of-election-commissioners/",
+     "entries": [
+      {
+       "date": "2026-11-12",
+       "entry_number": 377,
+       "description": "AGREED PROTECTIVE ORDER regarding Non-Party Witness Justice Branning's Deposition. Signed by Magistrate Judge Jane M. Virden on 11/12/2026. (bbf)",
+       "url": "https://www.courtlistener.com/docket/63266135/377/white-v-state-board-of-election-commissioners/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. Wisconsin Elections Commission",
+     "court": "Court of Appeals for the Seventh Circuit",
+     "docket_number": "26-2217",
+     "date_filed": "2026-06-05",
+     "suit_nature": "2441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/73453198/united-states-v-wisconsin-elections-commission/",
+     "entries": [
+      {
+       "date": "2026-11-11",
+       "entry_number": 111,
+       "description": "Filed Appellees Wisconsin Alliance for Retired Americans and Forward Latino Citation of Additional Authority, per Circuit Rule 28(e). Argument set for: 12/10/2026. [111] [7569423] [26-2217] (Fox, Dav…",
+       "url": "https://www.courtlistener.com/docket/73453198/111/united-states-v-wisconsin-elections-commission/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  }
+ ],
+ "opinions": [
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\")",
+   "count": 0,
+   "page2": false,
+   "items": []
+  }
+ ]
+}

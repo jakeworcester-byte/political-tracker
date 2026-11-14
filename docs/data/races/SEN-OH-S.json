@@ -395,7 +395,23 @@
  },
  "raw_poll_count": 22,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-13",
+   "race": "SEN-OH-S",
+   "races": [
+    "SEN-OH-S"
+   ],
+   "type": "reporting",
+   "source": "Ohio Capital Journal",
+   "lean": "unrated",
+   "title": "Ohio’s US Senator-elect Sherrod Brown could get an early start in Washington",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX2trZllNZHpjbi1LQ25VeWFMS0dfZHpVOHdDTVFYZE9tMDBhenE5TFg1S2xQai0yOW1GdkJUTEFoZ0FIdEpZNkRELUt6eks3MmpFY1JxMzFYYnBvYUYtY2w2angxWHBwVEJlRjRReC0xMmRWZEZMczNudFJOeTJsTWpYeTdlU0E2Q0g5VFJFUkdReXY2Um1ZQkRaR05MaXJaUzVuLVh5YVo5bV8tcHhUaGRrVkgxaTZHVFNF?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-OH-S",
  "history": [
   {
@@ -565,6 +581,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": 0,
+   "p": -3.9
+  },
+  {
+   "date": "2026-11-14",
    "c": 0,
    "p": -3.9
   }

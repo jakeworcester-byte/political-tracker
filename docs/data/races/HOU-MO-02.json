@@ -180,7 +180,23 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-13",
+   "race": "HOU-MO-02",
+   "races": [
+    "HOU-MO-02"
+   ],
+   "type": "reporting",
+   "source": "West Newsmagazine",
+   "lean": "unrated",
+   "title": "Democrat Fred Wellman wins Missouri’s 2nd Congressional District seat",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUGZlQlNocDlBM20xUDFjbkZlS2kxdDJhbXNDWFR1R0ZBYUx1OWxSbjVkcllGc0xzU3hzZEt1TW5LbFlORmQ5VUJOU2l2bVBCSmI5SXMwMjFnQk5wa1YwbktyMHlPdW9MM2ppSlF1WjJ3WXNUZUd2Ulh2MGRfV2pUZUNCMldxaVVEUTRqWE40blg2VzczdUk1T20zS0Z2T2Z1OXhVanc0TnczWG9NTm1HdGNlaHVHWkxiQWp2YUJZS1lmbVE1UGVrckhsRkY4ZnN0OXZGS25aRmJPcXBkeDlwRDRLY0EzMnc0b2x5a3lB?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MO-02",
  "history": [
   {
@@ -350,6 +366,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-11-14",
    "c": 0,
    "p": -3.0
   }

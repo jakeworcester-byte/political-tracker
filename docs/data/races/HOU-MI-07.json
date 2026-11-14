@@ -161,23 +161,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-08",
-   "race": "HOU-MI-07",
-   "races": [
-    "HOU-MI-07"
-   ],
-   "type": "reporting",
-   "source": "Ballotpedia News",
-   "lean": "unrated",
-   "title": "William Lawrence (D) defeated incumbent Tom Barrett (R) and Shane Dedrick (G) in the general election for Michigan's 7th Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPenhmUzZROXEyN3d4YU1LNENsODlJZ2ZWd090RWFYU1pQM3BoV3l6LTNiT2RHVzRuckp1TTg5Q3hxVERUOXN6UnBaNENWUzVVdjZYTWNsUHRWTG1qVVY3QU5TbHlTRHpIWVNKWVduSUZGLTJGODdxTFV2aE00aDljUXdZY2xZVkFNaW80VUhxWnYxNklHNTVwQjVqMHNtVEt6VkM3R005TGlEYTY5NE9TNmFCTkNHUHZHcUJLajdiMmpwQ0VIUGpEVXV5VUx3bXhxekRMUDd0YXdFMTlkd3VSSnFXNWFLUEFCZmY1bll5cGdrcUxDTlhlSHdtSmtPVWNkalRmYUdGT0E?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-07",
  "history": [
   {
@@ -347,6 +331,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-14",
    "c": -2,
    "p": -8.0
   }

@@ -142,23 +142,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-10",
-   "race": "HOU-CA-22",
-   "races": [
-    "HOU-CA-22"
-   ],
-   "type": "reporting",
-   "source": "FOX40",
-   "lean": "unrated",
-   "title": "California’s 22nd Congressional District candidates face off in debate",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTl9SclRHcHVaYmRSOXhmT1lGdlJUUDlUTHlfTEZIOGEzV3h4NDBmQlJTSXNYUkNtVVNEYVFxcEJLb1VGY3hzREROLXhSbG4xZUxUdFhkR3duWnJFSm9OdmZFUFpXVnBacFFwQ2FLR0RZRm1tVm5iclkyR0dCdTFwZFJOVm51R25sYVVKRmVpbFBRcVc3MU9LaWxicHVPdmRnaXQ3dy1R?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CA-22",
  "history": [
   {
@@ -328,6 +312,11 @@
   },
   {
    "date": "2026-11-13",
+   "c": -2,
+   "p": -10.0
+  },
+  {
+   "date": "2026-11-14",
    "c": -2,
    "p": -10.0
   }

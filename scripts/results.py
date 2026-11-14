@@ -626,6 +626,18 @@ def main():
         if len(gov_races) + len([k for k in current if k not in gov_races]) != 50:
             problems.append(f"Governor map covers {len(gov_races) + len([k for k in current if k not in gov_races])} of 50 states")
         gov_block = governors_block(gov_races, gov_ratings, current, freeze_date)
+        if len(gov_races) < 30:
+            # Layout change or partial parse: keep the last good snapshot rather than publish a wrong map.
+            for f in sorted(glob.glob(os.path.join(ROOT, "data", "results", "20*.json")), reverse=True):
+                if os.path.basename(f).startswith(f"{run_date}-{edition}"):
+                    continue
+                old = (load(f, {}) or {}).get("governors")
+                if old and old.get("races", 0) >= 30:
+                    old = dict(old)
+                    old["stale_from"] = old.get("stale_from") or os.path.basename(f)[:-5]
+                    gov_block = old
+                    problems.append(f"Governor table unreadable today; governor results carried over from the {old['stale_from']} snapshot")
+                    break
 
     races = {**house, **senate}
     for k, r in races.items():
