@@ -212,7 +212,7 @@ def parse_house(html):
         header = grid[1] if len(grid) > 1 else []
         ci_loc = 0
         ci_status = find_col(header, "status", "results")
-        ci_cand = find_col(header, "candidates")
+        ci_cand = find_col(header, "candidate")  # "Candidates", or "Candidate" on one-seat tables (Delaware)
         ci_party = find_col(header, "party")
         if ci_status is None or ci_cand is None:
             continue
@@ -252,7 +252,7 @@ def parse_senate(html):
         if not any("incumbent" in h.lower() or "senator" in h.lower() for h in grid[0] + header):
             continue  # e.g. the filing-deadline table, which also starts with "State"
         ci_status = find_col(header, "result", "status")  # "Results" (2026) or "Result" (2024)
-        ci_cand = find_col(header, "candidates")
+        ci_cand = find_col(header, "candidate")  # "Candidates", or "Candidate" on one-seat tables (Delaware)
         ci_party = find_col(header, "party")
         if ci_status is None or ci_cand is None:
             continue
