@@ -594,7 +594,13 @@ def main():
     # 2b. governors: results table plus the article's pre-election ratings table, frozen on first read
     gov_block = None
     gov_pages = {}
-    for which in ("governors", "governors_current"):
+    final_path = os.path.join(ROOT, CFG["governors_final"]) if CFG.get("governors_final") else None
+    gov_final = load(final_path, None) if final_path and os.path.exists(final_path) else None
+    if gov_final:
+        # Every governor race is decided: use the locked results and stop reading the governor table.
+        gov_block = {k: v for k, v in gov_final.items() if not k.startswith("_")}
+        gov_block.update({"final": True, "newly_called": [], "reverted_to_uncalled": [], "previous_snapshot_had_governors": True})
+    for which in (() if gov_final else ("governors", "governors_current")):
         if args.html_dir:
             path = os.path.join(args.html_dir, f"{which}.html")
             if os.path.exists(path):
@@ -663,7 +669,7 @@ def main():
     prev_called = {k for k, v in (prev.get("races") or {}).items() if v.get("called")}
     prev_label = os.path.basename(prev_files[-1])[:-5] if prev_files else None
     newly_called = sorted(k for k, r in races.items() if r["called"] and k not in prev_called)
-    if gov_block:
+    if gov_block and not gov_block.get("final"):
         pg = (prev.get("governors") or {}).get("states") or {}
         gov_block["previous_snapshot_had_governors"] = bool(pg)
         gov_block["newly_called"] = sorted(a for a, v in gov_block["states"].items()
@@ -698,7 +704,10 @@ def main():
         if gov_block:
             suffix = CFG.get("race_query_suffix", "election results")
             for a, v in gov_block["states"].items():
-                if v.get("up") and (not v["called"] or (a in gov_block["newly_called"] and v.get("competitive"))):
+                # Final results: news and analysis for the competitive and flipped races only.
+                follow = (v.get("competitive") or v.get("flip")) if gov_block.get("final") else (
+                    not v["called"] or (a in gov_block["newly_called"] and v.get("competitive")))
+                if v.get("up") and follow:
                     q = f'"{v["state"]}" governor {suffix}'
                     try:
                         news["races"][f"GOV-{a}"] = {"query": q, "items": gnews(q, lookback)}
@@ -852,7 +861,23 @@ def write_digest(run_date, edition, s, news):
             L.append(f"- {k} {r['name']} | final rating {r['final_rating'] or 'unrated'} | reported winner {w['name']} ({w['party']}) | basis: {rc['basis']} | {src}")
 
     g = s.get("governors")
-    if g:
+    if g and g.get("final"):
+        st = g["states"]
+        L.append(f"\n### Governors (final: all {g['races']} races called; results locked from the {g['finalized_from']} snapshot, so the governor table is no longer read; {g['sources']['results']} )")
+        L.append(f"- Governorships after this election, counting the {sum(g['not_up'].values())} states with no race this year: D {g['seats_secured']['D']}, R {g['seats_secured']['R']}"
+                 + (f", other {g['seats_secured']['I'] + g['seats_secured']['Other']}" if g['seats_secured']['I'] + g['seats_secured']['Other'] else "")
+                 + f" (before the election: D {g['before']['D']}, R {g['before']['R']}).")
+        L.append("- Flips: " + ("; ".join(f"GOV-{f['state']} {f['from']} to {f['to']} ({f['winner']})" for f in g["flips"]) or "none"))
+        L.append("- No calls or uncalled races to report. Governors appear in the update only through news and analysis below "
+                 "(recounts, certification, legal challenges, transitions, what the results mean). Skip any state with nothing new.")
+        with_news = [a for a in sorted(st) if (news["races"].get(f"GOV-{a}") or {}).get("items")]
+        L.append(f"- News and analysis, competitive and flipped races ({len(with_news)} states with leads):" + ("" if with_news else " none"))
+        for a in with_news:
+            v = st[a]; w = v.get("winner") or {}
+            L.append(f"  - GOV-{a} {v['state']} | winner {w.get('name')} ({w.get('party')}){' | FLIP from ' + v['incumbent_party'] if v.get('flip') else ''} | margin {v.get('margin_pts')} pts")
+            for it in news["races"][f"GOV-{a}"]["items"][:3]:
+                L.append(f"    - lead [{','.join(it['flags']) or '-'}] {it['title']} | {it['outlet']} | {it['published'][:10] if it['published'] else ''} | {it['link']}")
+    elif g:
         st = g["states"]
         L.append(f"\n### Governors ({g['called']} of {g['races']} races called; results table {g['sources']['results']} ; states not voting this year from {g['sources']['not_up']} )")
         L.append(f"- Governorships after this election, counting the {sum(g['not_up'].values())} states with no race this year: D {g['seats_secured']['D']}, R {g['seats_secured']['R']}"

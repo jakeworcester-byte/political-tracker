@@ -125,7 +125,10 @@ def main():
             if not ok:
                 bad.append(f"2024 {which} regression mismatch")
 
-    for which in ("house", "senate", "governors"):
+    gov_final = R.CFG.get("governors_final") and os.path.exists(os.path.join(R.ROOT, R.CFG["governors_final"]))
+    if gov_final:
+        print(f"[2026 governors] results are final ({R.CFG['governors_final']}); table not checked")
+    for which in ("house", "senate") + (() if gov_final else ("governors",)):
         try:
             html = open(os.path.join(args.html_dir, f"{which}.html"), encoding="utf-8").read() if args.html_dir else get(R.CFG["sources"][which])
         except Exception as e:  # noqa: BLE001
