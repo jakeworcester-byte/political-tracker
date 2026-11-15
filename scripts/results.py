@@ -207,9 +207,12 @@ def parse_house(html):
         grid = expand(t)
         if not grid or not grid[0] or not grid[0][0].lower().startswith("district"):
             continue
-        if any("this race" in h.lower() for h in grid[0]):
-            continue  # special elections held earlier in 2026 and non-voting delegates: not the Nov 3 general
         header = grid[1] if len(grid) > 1 else []
+        # Regular state tables label the first column "Location". The earlier-2026 special elections and the
+        # non-voting delegates tables label it "District"; skip those. (A "This race" heading is not a reliable
+        # signal: since Nov 15 Wikipedia uses it on many regular state tables too.)
+        if not header or not header[0].lower().startswith("location"):
+            continue
         ci_loc = 0
         ci_status = find_col(header, "status", "results")
         ci_cand = find_col(header, "candidate")  # "Candidates", or "Candidate" on one-seat tables (Delaware)
@@ -825,7 +828,18 @@ def write_digest(run_date, edition, s, news):
     if se.get("seats_secured_incl_reported") and se.get("reported_count"):
         x = se["seats_secured_incl_reported"]
         L.append(f"- Senate, adding races reported called in news but not yet in the table ({se['reported_count']}): D {x['D']}, R {x['R']}.")
-    L.append(f"- Safe seats (final consensus Solid) not yet marked called in the table: {len(s['pending_safe'])} ({sum(1 for k in s['pending_safe'] if races[k].get('reported_call'))} of them reported called in news). These are usually table lag, not real uncertainty (none has a count within 5 points); give them as a count in the brief, not race by race. Keys: " + (", ".join(s["pending_safe"]) or "none"))
+    ps = s["pending_safe"]
+    no_count = [k for k in ps if not races[k].get("has_results")]
+    L.append(f"- Safe seats (final consensus Solid) not yet marked called in the table: {len(ps)} ({sum(1 for k in ps if races[k].get('reported_call'))} of them reported called in news). "
+             f"{len(ps) - len(no_count)} have a count in the table more than 5 points apart: those are table lag; give them as a count in the brief. Keys: " + (", ".join(k for k in ps if k not in no_count) or "none"))
+    if no_count:
+        L.append(f"- Safe seats with NO count in the table ({len(no_count)}): closeness is unknown, so do not call these table lag. Read the leads below; "
+                 "any that news shows within 5 points or uncalled get their own line in Still uncalled, marked (rated safe), and count toward the Bottom line's rated-safe tally.")
+        for k in no_count:
+            r = races[k]
+            L.append(f"  - {k} {r['name']} | final rating {r.get('final_rating') or 'unrated'} | table: {r['status_text'][:100]}")
+            for it in (news["races"].get(k) or {}).get("items", [])[:4]:
+                L.append(f"    - lead [{','.join(it['flags']) or '-'}] {it['title']} | {it['outlet']} | {it['published'][:10] if it['published'] else ''} | {it['link']}")
 
     rep = s.get("reported_called") or []
     if rep:
