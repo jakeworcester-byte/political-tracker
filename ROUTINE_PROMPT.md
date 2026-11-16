@@ -1,6 +1,6 @@
 # Routine prompt: Midterm Tracker morning run
 
-This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-11-15a (post-election mode from 2026-11-04 with an evening edition through 2026-11-06; see the last section).
+This is the authoritative instruction set the cloud Routine follows every morning. Keep it in sync with the Routines at https://claude.ai/code/routines. Version: 2026-11-16a (post-election mode from 2026-11-04 with an evening edition through 2026-11-06; see the last section).
 
 ## How the routines are wired
 
@@ -131,6 +131,7 @@ python3 scripts/analyze.py || true
 python3 scripts/check_results.py --skip-2024 || true
 python3 scripts/results.py --edition am      # or --edition pm
 python3 scripts/scorecard.py
+python3 scripts/alaska.py                  # about 10 seconds; the Alaska Division of Elections' own count (Senate, at-large House); never exits non-zero
 python3 scripts/courts.py                  # about 1 minute; CourtListener dockets and opinions if an API key is configured (network secret or $COURTLISTENER_TOKEN), otherwise a one-line skip; never exits non-zero
 ```
 
@@ -144,6 +145,7 @@ If `check_results.py` prints NEEDS ATTENTION (rows missing, a table not recogniz
 - **Calls.** For each competitive race in "Called since the last update", confirm the call with a news lead from the digest (AP, a network, or a major outlet saying who called it). If no lead confirms it, write "marked called in the Wikipedia results table" and link the table. Do the same for each competitive governor race under the Governors block's "Called since the last update". For races tagged "HEADLINE SUGGESTS A CALL", open the lead; if it reports an AP or network call, treat the race as called and attribute it; otherwise leave it uncalled.
 - **Reported calls.** The digest's "Reported called in news" section lists races the table hasn't marked but news reports as called (its rules are in results.py). In the Bottom line give both tallies: the table's and "including reported calls." In Still uncalled, a reported race gets "<Outlet> reports X won; not yet marked in the table." Never call a race yourself.
 - **Uncalled.** For each race in "Competitive races not yet called" and each governor race under "Not yet called" in the Governors block, take the count from the table line and, where a lead gives a fresher count or share counted, use that with its source and time. Do not research every race individually; prioritize Senate races, races tagged close or counting, and races with leads.
+- **Alaska.** Use the digest's "Alaska state count" section, not the Wikipedia table, for SEN-AK and HOU-AK-AL: the state's report timestamp, each candidate's first-choice share, and how far the leader is from a first-choice majority. Give the report's timestamp in the update. If the section says the report is unchanged, say there has been no new count since that time; never carry a number forward from an earlier update without checking it against today's report.
 - **Recounts, certification, legal and federal action.** Open the relevant national leads. Prefer the state election office, the court, or a major outlet. A partisan or advocacy tracker can point you to a case, but cite the court record or a news report.
 - **Exit polls (am edition).** Use AP VoteCast or network exit polls from the leads, labeled as surveys. Also read the voter-file analysts' latest posts (Ralston's Nevada Independent blog and Ralston Reports; Bitzer's Center for NC Politics) and the digest's "Who voted" leads, and report who turned out compared with 2022 (new voters, 2022 non-voters, age, unaffiliated voters), attributed by name.
 - **Court records.** Read the digest's "Court dockets (CourtListener)" section. For a docket or opinion that bears on counting, certification, or a race in the update, open its CourtListener link and cite it in Legal and federal action next to the news report, describing the filing or order neutrally. Do not call the CourtListener API yourself beyond what `courts.py` did (the free tier is 125 requests a day), and never pay for or fetch PACER documents. If the section says the token is missing or refused, say so in the Coverage note.

@@ -70,5 +70,23 @@
       "Trademark"
     ]
   },
-  "governors_final": "config/governors_final.json"
+  "governors_final": "config/governors_final.json",
+  "alaska_state": {
+    "_comment": "Alaska Division of Elections unofficial results, read daily by scripts/alaska.py. Update the URLs for a new election.",
+    "summary_pdf": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf",
+    "precinct_csv": "https://www.elections.alaska.gov/enr/26GENR/results/GA_ENR_Precinct_State_of_Alaska.csv",
+    "contests": {
+      "SEN-AK": {
+        "candidate": "Peltola, Mary",
+        "csv_title": "U.S. Senator"
+      },
+      "HOU-AK-AL": {
+        "candidate": "Begich, Nick",
+        "csv_title": "U.S. Representative"
+      }
+    },
+    "next_events": [
+      "Nov. 18: deadline to receive by-mail ballots mailed from overseas addresses, final regional count of absentee and questioned ballots, and ranked-choice results (per the Division's results page)"
+    ]
+  }
 }

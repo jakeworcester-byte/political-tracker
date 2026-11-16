@@ -18,6 +18,7 @@ scripts/publish.py      data/briefs/<date>[-pm].md -> docs/data/latest.json brie
 scripts/results.py      post-election: Wikipedia House, Senate, governor results tables + news leads + call timeline -> docs/data/results.json, data/results/, digest section
 scripts/check_results.py post-election: parser health check (2024 regression + live 2026 pages)
 scripts/scorecard.py    post-election: how forecasters, polls, markets did -> docs/data/scorecard.json + digest block
+scripts/alaska.py       post-election: Alaska Division of Elections summary report (PDF) + precinct CSV -> data/raw/<date>/alaska_state.json + digest section
 scripts/courts.py       post-election: CourtListener election dockets + opinions -> data/courts/<date>.json + digest section (API key from a network secret for www.courtlistener.com or $COURTLISTENER_TOKEN; skips cleanly without it)
 config/postelection.json post-election switch date, evening-edition window, results sources, news queries
 data/raw/<date>/        raw pulls, kept for diagnosis
