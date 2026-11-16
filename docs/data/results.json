@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-15",
+ "run_date": "2026-11-16",
  "edition": "am",
- "generated_at": "2026-11-15T13:03:27.167268+00:00",
- "previous_snapshot": "2026-11-14-am",
+ "generated_at": "2026-11-16T11:09:48.942633+00:00",
+ "previous_snapshot": "2026-11-15-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -74,9 +74,7 @@
   },
   "majority": 51
  },
- "newly_called": [
-  "HOU-DE-AL"
- ],
+ "newly_called": [],
  "uncalled_competitive": [
   "SEN-AK",
   "HOU-AK-AL",
@@ -90,7 +88,8 @@
  ],
  "reverted_to_uncalled": [],
  "close_margins": [
-  "HOU-SC-02"
+  "HOU-SC-02",
+  "SEN-MS"
  ],
  "rated_safe_now_close": [
   "HOU-SC-02",
@@ -1033,6 +1032,11 @@
     "snapshot": "2026-11-15-am",
     "competitive_called": 98,
     "new": 0
+   },
+   {
+    "snapshot": "2026-11-16-am",
+    "competitive_called": 98,
+    "new": 0
    }
   ]
  },
@@ -1322,7 +1326,7 @@
    "key": "HOU-AK-AL",
    "name": "AK-AL",
    "chamber": "House",
-   "status_text": "Incumbent advanced to general",
+   "status_text": "Incumbent advanced to general.",
    "candidates": [
     {
      "name": "Nick Begich III",
@@ -6461,7 +6465,7 @@
    "key": "HOU-GA-13",
    "name": "GA-13",
    "chamber": "House",
-   "status_text": "Incumbent lost nomination for full term; later elected to complete unexpired term. Democratic hold.",
+   "status_text": "Incumbent lost nomination. Democratic hold.",
    "candidates": [
     {
      "name": "Jasmine Clark",
@@ -9216,7 +9220,7 @@
    "key": "HOU-MD-05",
    "name": "MD-05",
    "chamber": "House",
-   "status_text": "Incumbent retiring Democratic hold.",
+   "status_text": "Incumbent retiring. Democratic hold.",
    "candidates": [
     {
      "name": "Adrian Boafo",
@@ -14028,7 +14032,7 @@
    "upset_watch": false,
    "reported_call": null,
    "headline_call_lead": false,
-   "headline_uncertain": true
+   "headline_uncertain": false
   },
   "HOU-NC-08": {
    "key": "HOU-NC-08",
@@ -14396,7 +14400,7 @@
    "key": "HOU-OH-01",
    "name": "OH-01",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Greg Landsman",
@@ -14443,7 +14447,7 @@
    "key": "HOU-OH-02",
    "name": "OH-02",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "David Taylor",
@@ -14523,7 +14527,7 @@
    "key": "HOU-OH-04",
    "name": "OH-04",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Jim Jordan",
@@ -14570,7 +14574,7 @@
    "key": "HOU-OH-05",
    "name": "OH-05",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Bob Latta",
@@ -14617,7 +14621,7 @@
    "key": "HOU-OH-06",
    "name": "OH-06",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Michael Rulli",
@@ -14697,7 +14701,7 @@
    "key": "HOU-OH-08",
    "name": "OH-08",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Warren Davidson",
@@ -14737,7 +14741,7 @@
    "key": "HOU-OH-09",
    "name": "OH-09",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Marcy Kaptur",
@@ -14831,7 +14835,7 @@
    "key": "HOU-OH-11",
    "name": "OH-11",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Shontel Brown",
@@ -14871,7 +14875,7 @@
    "key": "HOU-OH-12",
    "name": "OH-12",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Troy Balderson",
@@ -14911,7 +14915,7 @@
    "key": "HOU-OH-13",
    "name": "OH-13",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Emilia Sykes",
@@ -14958,7 +14962,7 @@
    "key": "HOU-OH-14",
    "name": "OH-14",
    "chamber": "House",
-   "status_text": "Incumbent re-elected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "David Joyce",
@@ -18796,7 +18800,7 @@
    "key": "HOU-TX-38",
    "name": "TX-38",
    "chamber": "House",
-   "status_text": "Incumbent retired to run for U.S. Senate Republican hold.",
+   "status_text": "Incumbent retired to run for U.S. Senate. Republican hold.",
    "candidates": [
     {
      "name": "Jon Bonck",
@@ -20618,27 +20622,27 @@
    "key": "SEN-FL-S",
    "name": "Florida Senate (special)",
    "chamber": "Senate",
-   "status_text": "Interim appointee elected",
+   "status_text": "Interim appointee elected.",
    "candidates": [
     {
      "name": "Ashley Moody",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 50.9,
      "winner": true
     },
     {
      "name": "Angie Nixon",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 48.0,
      "winner": false
     },
     {
      "name": "Neil Gillespie",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 1.1,
      "winner": false
     }
    ],
@@ -20648,12 +20652,18 @@
     "name": "Ashley Moody",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 50.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Ashley Moody",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 50.9,
+    "winner": true
+   },
+   "margin_pts": 2.9,
+   "has_results": true,
    "final_rating": "Likely R",
    "final_score": 3,
    "competitive": true,
@@ -20671,28 +20681,28 @@
      "name": "Sherrod Brown",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 50.0,
      "winner": true
     },
     {
      "name": "Jon Husted",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Greg Levy",
-     "party": "I",
-     "party_label": "Independent",
-     "pct": null,
+     "pct": 45.2,
      "winner": false
     },
     {
      "name": "William Redpath",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 2.8,
+     "winner": false
+    },
+    {
+     "name": "Greg Levy",
+     "party": "I",
+     "party_label": "Independent",
+     "pct": 2.1,
      "winner": false
     }
    ],
@@ -20702,12 +20712,18 @@
     "name": "Sherrod Brown",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 50.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Sherrod Brown",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 50.0,
+    "winner": true
+   },
+   "margin_pts": 4.8,
+   "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
@@ -20719,20 +20735,20 @@
    "key": "SEN-AL",
    "name": "Alabama Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring to run for governor. Republican hold.",
+   "status_text": "Incumbent retired to run for governor. Republican hold.",
    "candidates": [
     {
      "name": "Barry Moore",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 54.7,
      "winner": true
     },
     {
      "name": "Everett Wess",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 45.3,
      "winner": false
     }
    ],
@@ -20742,12 +20758,18 @@
     "name": "Barry Moore",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 54.7,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Barry Moore",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 54.7,
+    "winner": true
+   },
+   "margin_pts": 9.4,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -20759,43 +20781,49 @@
    "key": "SEN-AK",
    "name": "Alaska Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent advanced to general",
+   "status_text": "Incumbent advanced to general.",
    "candidates": [
-    {
-     "name": "Gerald Heikes",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
     {
      "name": "Mary Peltola",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Dan J. Sullivan",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
+     "pct": 49.9,
      "winner": false
     },
     {
      "name": "Dan S. Sullivan",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 46.0,
+     "winner": false
+    },
+    {
+     "name": "Gerald Heikes",
+     "party": "R",
+     "party_label": "Republican",
+     "pct": 2.1,
+     "winner": false
+    },
+    {
+     "name": "Dan J. Sullivan",
+     "party": "R",
+     "party_label": "Republican",
+     "pct": 1.7,
      "winner": false
     }
    ],
    "incumbent_party": "R",
    "called": false,
    "winner": null,
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Mary Peltola",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 49.9,
+    "winner": false
+   },
+   "margin_pts": 3.9,
+   "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
@@ -20809,27 +20837,27 @@
    "key": "SEN-AR",
    "name": "Arkansas Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Tom Cotton",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 54.3,
      "winner": true
     },
     {
      "name": "Hallie Shoffner",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 42.4,
      "winner": false
     },
     {
      "name": "Jeff Wadlin",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 3.3,
      "winner": false
     }
    ],
@@ -20839,12 +20867,18 @@
     "name": "Tom Cotton",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 54.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Tom Cotton",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 54.3,
+    "winner": true
+   },
+   "margin_pts": 11.9,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -20856,41 +20890,48 @@
    "key": "SEN-CO",
    "name": "Colorado Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "John Hickenlooper",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 60.5,
      "winner": true
     },
     {
      "name": "Mark Baisley",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 35.0,
      "winner": false
     },
     {
      "name": "Bob Chew",
      "party": "Forward",
      "party_label": "Forward",
-     "pct": null,
+     "pct": 2.6,
      "winner": false
     },
     {
      "name": "Blake Huber",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 1.2,
      "winner": false
     },
     {
      "name": "Adam Withrow",
      "party": "Unity",
      "party_label": "Unity",
-     "pct": null,
+     "pct": 0.5,
+     "winner": false
+    },
+    {
+     "name": "Christopher Baum",
+     "party": "Approval Vot",
+     "party_label": "Approval Voting",
+     "pct": 0.2,
      "winner": false
     }
    ],
@@ -20900,12 +20941,18 @@
     "name": "John Hickenlooper",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 60.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "John Hickenlooper",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 60.5,
+    "winner": true
+   },
+   "margin_pts": 25.5,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -20917,7 +20964,7 @@
    "key": "SEN-DE",
    "name": "Delaware Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Chris Coons",
@@ -20963,20 +21010,20 @@
    "key": "SEN-GA",
    "name": "Georgia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Jon Ossoff",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 59.0,
      "winner": true
     },
     {
      "name": "Mike Collins",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 41.0,
      "winner": false
     }
    ],
@@ -20986,12 +21033,18 @@
     "name": "Jon Ossoff",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 59.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jon Ossoff",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 59.0,
+    "winner": true
+   },
+   "margin_pts": 18.0,
+   "has_results": true,
    "final_rating": "Likely D",
    "final_score": -3,
    "competitive": true,
@@ -21003,34 +21056,34 @@
    "key": "SEN-ID",
    "name": "Idaho Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Jim Risch",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 56.5,
      "winner": true
     },
     {
      "name": "Todd Achilles",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 33.6,
      "winner": false
     },
     {
      "name": "Natalie Fleming",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 7.0,
      "winner": false
     },
     {
      "name": "Matt Loesby",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 2.9,
      "winner": false
     }
    ],
@@ -21040,12 +21093,18 @@
     "name": "Jim Risch",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 56.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jim Risch",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 56.5,
+    "winner": true
+   },
+   "margin_pts": 22.9,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -21057,27 +21116,27 @@
    "key": "SEN-IL",
    "name": "Illinois Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. Democratic hold.",
+   "status_text": "Incumbent retired. Democratic hold.",
    "candidates": [
     {
      "name": "Juliana Stratton",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 62.0,
      "winner": true
     },
     {
      "name": "Don Tracy",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 36.4,
      "winner": false
     },
     {
      "name": "Whitfield Harrington Jr.",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 1.6,
      "winner": false
     }
    ],
@@ -21087,12 +21146,18 @@
     "name": "Juliana Stratton",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 62.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Juliana Stratton",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 62.0,
+    "winner": true
+   },
+   "margin_pts": 25.6,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -21104,27 +21169,27 @@
    "key": "SEN-IA",
    "name": "Iowa Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. Democratic gain.",
+   "status_text": "Incumbent retired. Democratic gain.",
    "candidates": [
     {
      "name": "Josh Turek",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 50.6,
      "winner": true
     },
     {
      "name": "Ashley Hinson",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 46.4,
      "winner": false
     },
     {
      "name": "Thomas Laehn",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 3.1,
      "winner": false
     }
    ],
@@ -21134,12 +21199,18 @@
     "name": "Josh Turek",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 50.6,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Josh Turek",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 50.6,
+    "winner": true
+   },
+   "margin_pts": 4.2,
+   "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
@@ -21151,27 +21222,27 @@
    "key": "SEN-KS",
    "name": "Kansas Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost reelection. Democratic gain.",
+   "status_text": "Incumbent lost re-election. Democratic gain.",
    "candidates": [
     {
      "name": "Adam Hamilton",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 51.0,
      "winner": true
     },
     {
      "name": "Roger Marshall",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 46.0,
      "winner": false
     },
     {
      "name": "David Graham",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 3.0,
      "winner": false
     }
    ],
@@ -21181,12 +21252,18 @@
     "name": "Adam Hamilton",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 51.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Adam Hamilton",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 51.0,
+    "winner": true
+   },
+   "margin_pts": 5.0,
+   "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
@@ -21198,27 +21275,27 @@
    "key": "SEN-KY",
    "name": "Kentucky Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. Republican hold.",
+   "status_text": "Incumbent retired. Republican hold.",
    "candidates": [
     {
      "name": "Andy Barr",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 55.0,
      "winner": true
     },
     {
      "name": "Charles Booker",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 42.9,
      "winner": false
     },
     {
      "name": "Christopher Campbell",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 2.1,
      "winner": false
     }
    ],
@@ -21228,12 +21305,18 @@
     "name": "Andy Barr",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 55.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Andy Barr",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 55.0,
+    "winner": true
+   },
+   "margin_pts": 12.1,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -21251,14 +21334,14 @@
      "name": "Julia Letlow",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 50.9,
      "winner": true
     },
     {
      "name": "Jamie Davis",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 49.1,
      "winner": false
     }
    ],
@@ -21268,12 +21351,18 @@
     "name": "Julia Letlow",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 50.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Julia Letlow",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 50.9,
+    "winner": true
+   },
+   "margin_pts": 1.8,
+   "has_results": true,
    "final_rating": "Likely R",
    "final_score": 3,
    "competitive": true,
@@ -21285,20 +21374,20 @@
    "key": "SEN-ME",
    "name": "Maine Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost reelection. Democratic gain.",
+   "status_text": "Incumbent lost re-election. Democratic gain.",
    "candidates": [
     {
      "name": "Troy Jackson",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 53.1,
      "winner": true
     },
     {
      "name": "Susan Collins",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 46.9,
      "winner": false
     }
    ],
@@ -21308,12 +21397,18 @@
     "name": "Troy Jackson",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 53.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Troy Jackson",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 53.1,
+    "winner": true
+   },
+   "margin_pts": 6.2,
+   "has_results": true,
    "final_rating": "Lean D",
    "final_score": -2,
    "competitive": true,
@@ -21325,34 +21420,34 @@
    "key": "SEN-MA",
    "name": "Massachusetts Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Ed Markey",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 63.4,
      "winner": true
     },
     {
      "name": "John Deaton",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 32.1,
      "winner": false
     },
     {
      "name": "Shiva Ayyadurai",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 2.3,
      "winner": false
     },
     {
      "name": "Joe Tache",
      "party": "PSL",
      "party_label": "PSL",
-     "pct": null,
+     "pct": 2.2,
      "winner": false
     }
    ],
@@ -21362,12 +21457,18 @@
     "name": "Ed Markey",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 63.4,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Ed Markey",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 63.4,
+    "winner": true
+   },
+   "margin_pts": 31.3,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -21379,48 +21480,48 @@
    "key": "SEN-MI",
    "name": "Michigan Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. Democratic hold.",
+   "status_text": "Incumbent retired. Democratic hold.",
    "candidates": [
     {
      "name": "Abdul El-Sayed",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 52.5,
      "winner": true
     },
     {
      "name": "Mike Rogers",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 45.5,
      "winner": false
     },
     {
      "name": "Lydia Christensen",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Walter P. Kristy",
-     "party": "Natural Law",
-     "party_label": "Natural Law",
-     "pct": null,
+     "pct": 1.0,
      "winner": false
     },
     {
      "name": "Tim Long",
      "party": "U.S. Taxpaye",
      "party_label": "U.S. Taxpayers",
-     "pct": null,
+     "pct": 0.6,
      "winner": false
     },
     {
      "name": "Douglas P. Marsh",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.3,
+     "winner": false
+    },
+    {
+     "name": "Walter P. Kristy",
+     "party": "Natural Law",
+     "party_label": "Natural Law",
+     "pct": 0.2,
      "winner": false
     }
    ],
@@ -21430,12 +21531,18 @@
     "name": "Abdul El-Sayed",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 52.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Abdul El-Sayed",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 52.5,
+    "winner": true
+   },
+   "margin_pts": 7.0,
+   "has_results": true,
    "final_rating": "Lean D",
    "final_score": -2,
    "competitive": true,
@@ -21447,34 +21554,34 @@
    "key": "SEN-MN",
    "name": "Minnesota Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. DFL hold.",
+   "status_text": "Incumbent retired. DFL hold.",
    "candidates": [
     {
      "name": "Peggy Flanagan",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 53.7,
      "winner": true
     },
     {
      "name": "Michele Tafoya",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 43.6,
      "winner": false
     },
     {
      "name": "Marisa Simonetti",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 1.5,
      "winner": false
     },
     {
      "name": "Rebecca Whiting",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 1.1,
      "winner": false
     }
    ],
@@ -21484,12 +21591,18 @@
     "name": "Peggy Flanagan",
     "party": "D",
     "party_label": "DFL",
-    "pct": null,
+    "pct": 53.7,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Peggy Flanagan",
+    "party": "D",
+    "party_label": "DFL",
+    "pct": 53.7,
+    "winner": true
+   },
+   "margin_pts": 10.1,
+   "has_results": true,
    "final_rating": "Lean D",
    "final_score": -2,
    "competitive": true,
@@ -21501,27 +21614,27 @@
    "key": "SEN-MS",
    "name": "Mississippi Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost reelection. Democratic gain.",
+   "status_text": "Incumbent lost re-election. Democratic gain.",
    "candidates": [
     {
      "name": "Scott Colom",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 49.3,
      "winner": true
     },
     {
      "name": "Cindy Hyde-Smith",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 48.6,
      "winner": false
     },
     {
      "name": "Ty Pinkins",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 2.1,
      "winner": false
     }
    ],
@@ -21531,12 +21644,18 @@
     "name": "Scott Colom",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 49.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Scott Colom",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 49.3,
+    "winner": true
+   },
+   "margin_pts": 0.7,
+   "has_results": true,
    "final_rating": "Likely R",
    "final_score": 3,
    "competitive": true,
@@ -21548,34 +21667,34 @@
    "key": "SEN-MT",
    "name": "Montana Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. Republican hold.",
+   "status_text": "Incumbent retired. Republican hold.",
    "candidates": [
     {
      "name": "Kurt Alme",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 48.2,
      "winner": true
     },
     {
      "name": "Seth Bodnar",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 37.7,
      "winner": false
     },
     {
      "name": "Alani Bankhead",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 12.3,
      "winner": false
     },
     {
      "name": "Kyle Austin",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 1.8,
      "winner": false
     }
    ],
@@ -21585,12 +21704,18 @@
     "name": "Kurt Alme",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 48.2,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Kurt Alme",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 48.2,
+    "winner": true
+   },
+   "margin_pts": 10.5,
+   "has_results": true,
    "final_rating": "Likely R",
    "final_score": 3,
    "competitive": true,
@@ -21602,41 +21727,41 @@
    "key": "SEN-NE",
    "name": "Nebraska Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Pete Ricketts",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 50.0,
      "winner": true
     },
     {
      "name": "Dan Osborn",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Chuck Conboy",
-     "party": "America Firs",
-     "party_label": "America First",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Mike Marvin",
-     "party": "Legal Mariju",
-     "party_label": "Legal Marijuana Now",
-     "pct": null,
+     "pct": 44.1,
      "winner": false
     },
     {
      "name": "Robin Richards",
      "party": "Working Peop",
      "party_label": "Working People",
-     "pct": null,
+     "pct": 2.6,
+     "winner": false
+    },
+    {
+     "name": "Mike Marvin",
+     "party": "Legal Mariju",
+     "party_label": "Legal Marijuana Now",
+     "pct": 2.2,
+     "winner": false
+    },
+    {
+     "name": "Chuck Conboy",
+     "party": "America Firs",
+     "party_label": "America First",
+     "pct": 1.2,
      "winner": false
     }
    ],
@@ -21646,12 +21771,18 @@
     "name": "Pete Ricketts",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 50.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Pete Ricketts",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 50.0,
+    "winner": true
+   },
+   "margin_pts": 5.9,
+   "has_results": true,
    "final_rating": "Lean R",
    "final_score": 2,
    "competitive": true,
@@ -21663,27 +21794,27 @@
    "key": "SEN-NH",
    "name": "New Hampshire Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. Democratic hold.",
+   "status_text": "Incumbent retired. Democratic hold.",
    "candidates": [
     {
      "name": "Chris Pappas",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 55.9,
      "winner": true
     },
     {
      "name": "John E. Sununu",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 42.2,
      "winner": false
     },
     {
      "name": "Edmond LaPlante",
      "party": "Constitution",
      "party_label": "Constitution",
-     "pct": null,
+     "pct": 1.9,
      "winner": false
     }
    ],
@@ -21693,12 +21824,18 @@
     "name": "Chris Pappas",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 55.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Chris Pappas",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 55.9,
+    "winner": true
+   },
+   "margin_pts": 13.7,
+   "has_results": true,
    "final_rating": "Lean D",
    "final_score": -2,
    "competitive": true,
@@ -21710,34 +21847,34 @@
    "key": "SEN-NJ",
    "name": "New Jersey Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Cory Booker",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 62.5,
      "winner": true
     },
     {
      "name": "Justin Murphy",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 34.9,
      "winner": false
     },
     {
      "name": "Veronica Fernandez",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 1.7,
      "winner": false
     },
     {
      "name": "Joanne Kuniansky",
      "party": "Socialist Wo",
      "party_label": "Socialist Workers",
-     "pct": null,
+     "pct": 0.9,
      "winner": false
     }
    ],
@@ -21747,12 +21884,18 @@
     "name": "Cory Booker",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 62.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Cory Booker",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 62.5,
+    "winner": true
+   },
+   "margin_pts": 27.6,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -21764,20 +21907,20 @@
    "key": "SEN-NM",
    "name": "New Mexico Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Ben Ray Luján",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 63.3,
      "winner": true
     },
     {
      "name": "Larry Marker",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 36.7,
      "winner": false
     }
    ],
@@ -21787,12 +21930,18 @@
     "name": "Ben Ray Luján",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 63.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Ben Ray Luján",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 63.3,
+    "winner": true
+   },
+   "margin_pts": 26.6,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -21804,34 +21953,34 @@
    "key": "SEN-NC",
    "name": "North Carolina Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. Democratic gain.",
+   "status_text": "Incumbent retired. Democratic gain.",
    "candidates": [
     {
      "name": "Roy Cooper",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 58.8,
      "winner": true
     },
     {
      "name": "Michael Whatley",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 39.1,
      "winner": false
     },
     {
      "name": "Shannon Bray",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 1.3,
      "winner": false
     },
     {
      "name": "Michael Dublin",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.9,
      "winner": false
     }
    ],
@@ -21841,12 +21990,18 @@
     "name": "Roy Cooper",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 58.8,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Roy Cooper",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 58.8,
+    "winner": true
+   },
+   "margin_pts": 19.7,
+   "has_results": true,
    "final_rating": "Likely D",
    "final_score": -3,
    "competitive": true,
@@ -21925,34 +22080,34 @@
    "key": "SEN-OR",
    "name": "Oregon Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Jeff Merkley",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 58.0,
      "winner": true
     },
     {
      "name": "David Brock Smith",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Gary Lyndon Dye",
-     "party": "Libertarian",
-     "party_label": "Libertarian",
-     "pct": null,
+     "pct": 38.7,
      "winner": false
     },
     {
      "name": "Chris Henry",
      "party": "Progressive",
      "party_label": "Progressive",
-     "pct": null,
+     "pct": 2.2,
+     "winner": false
+    },
+    {
+     "name": "Gary Lyndon Dye",
+     "party": "Libertarian",
+     "party_label": "Libertarian",
+     "pct": 1.0,
      "winner": false
     }
    ],
@@ -21962,12 +22117,18 @@
     "name": "Jeff Merkley",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 58.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jeff Merkley",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 58.0,
+    "winner": true
+   },
+   "margin_pts": 19.3,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -21979,27 +22140,27 @@
    "key": "SEN-RI",
    "name": "Rhode Island Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Jack Reed",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 66.8,
      "winner": true
     },
     {
      "name": "Raymond McKay",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 29.3,
      "winner": false
     },
     {
      "name": "Michael Bahry",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 3.8,
      "winner": false
     }
    ],
@@ -22009,12 +22170,18 @@
     "name": "Jack Reed",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 66.8,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jack Reed",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 66.8,
+    "winner": true
+   },
+   "margin_pts": 37.5,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -22086,20 +22253,20 @@
    "key": "SEN-SD",
    "name": "South Dakota Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Mike Rounds",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 60.5,
      "winner": true
     },
     {
      "name": "Brian Bengs",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 39.5,
      "winner": false
     }
    ],
@@ -22109,12 +22276,18 @@
     "name": "Mike Rounds",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 60.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Mike Rounds",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 60.5,
+    "winner": true
+   },
+   "margin_pts": 21.0,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -22126,76 +22299,76 @@
    "key": "SEN-TN",
    "name": "Tennessee Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Bill Hagerty",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 55.1,
      "winner": true
     },
     {
      "name": "Marquita Bradshaw",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Tharon Chandler",
-     "party": "I",
-     "party_label": "Independent",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Andrew Gerena",
-     "party": "I",
-     "party_label": "Independent",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Jeremy Hearn",
-     "party": "I",
-     "party_label": "Independent",
-     "pct": null,
+     "pct": 42.9,
      "winner": false
     },
     {
      "name": "Robert Jones",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 0.5,
      "winner": false
     },
     {
-     "name": "James Macon III",
+     "name": "Tharon Chandler",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 0.4,
      "winner": false
     },
     {
-     "name": "Yoshi Matthews",
+     "name": "Andrew Gerena",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "David Sutman Jr.",
-     "party": "I",
-     "party_label": "Independent",
-     "pct": null,
+     "pct": 0.3,
      "winner": false
     },
     {
      "name": "Catherine Whitson",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 0.2,
+     "winner": false
+    },
+    {
+     "name": "Jeremy Hearn",
+     "party": "I",
+     "party_label": "Independent",
+     "pct": 0.2,
+     "winner": false
+    },
+    {
+     "name": "David Sutman Jr.",
+     "party": "I",
+     "party_label": "Independent",
+     "pct": 0.1,
+     "winner": false
+    },
+    {
+     "name": "Yoshi Matthews",
+     "party": "I",
+     "party_label": "Independent",
+     "pct": 0.1,
+     "winner": false
+    },
+    {
+     "name": "James Macon III",
+     "party": "I",
+     "party_label": "Independent",
+     "pct": 0.1,
      "winner": false
     }
    ],
@@ -22205,12 +22378,18 @@
     "name": "Bill Hagerty",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 55.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Bill Hagerty",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 55.1,
+    "winner": true
+   },
+   "margin_pts": 12.2,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -22228,21 +22407,21 @@
      "name": "James Talarico",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 55.1,
      "winner": true
-    },
-    {
-     "name": "Ted Brown",
-     "party": "Libertarian",
-     "party_label": "Libertarian",
-     "pct": null,
-     "winner": false
     },
     {
      "name": "Ken Paxton",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 43.0,
+     "winner": false
+    },
+    {
+     "name": "Ted Brown",
+     "party": "Libertarian",
+     "party_label": "Libertarian",
+     "pct": 1.9,
      "winner": false
     }
    ],
@@ -22252,12 +22431,18 @@
     "name": "James Talarico",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 55.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "James Talarico",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 55.1,
+    "winner": true
+   },
+   "margin_pts": 12.1,
+   "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
@@ -22269,20 +22454,20 @@
    "key": "SEN-VA",
    "name": "Virginia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Mark Warner",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 61.5,
      "winner": true
     },
     {
      "name": "Bert Mizusawa",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 38.3,
      "winner": false
     }
    ],
@@ -22292,12 +22477,18 @@
     "name": "Mark Warner",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 61.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Mark Warner",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 61.5,
+    "winner": true
+   },
+   "margin_pts": 23.2,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -22309,27 +22500,27 @@
    "key": "SEN-WV",
    "name": "West Virginia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent reelected",
+   "status_text": "Incumbent re-elected.",
    "candidates": [
     {
      "name": "Shelley Moore Capito",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 58.3,
      "winner": true
     },
     {
      "name": "Rachel Fetty Anderson",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 37.9,
      "winner": false
     },
     {
      "name": "S. Marshall Wilson",
      "party": "Constitution",
      "party_label": "Constitution",
-     "pct": null,
+     "pct": 3.8,
      "winner": false
     }
    ],
@@ -22339,12 +22530,18 @@
     "name": "Shelley Moore Capito",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 58.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Shelley Moore Capito",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 58.3,
+    "winner": true
+   },
+   "margin_pts": 20.4,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -22356,7 +22553,7 @@
    "key": "SEN-WY",
    "name": "Wyoming Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent retiring. Republican hold.",
+   "status_text": "Incumbent retired. Republican hold.",
    "candidates": [
     {
      "name": "Harriet Hageman",
@@ -22411,32 +22608,21 @@
     ]
    },
    {
-    "title": "Alaska Senate Race Between Dan Sullivan and Mary Peltola Still Counting Votes",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcGRpUnZKOEtydjhyR1RaNXRaVS1xdUk0MkFZTldVUktXM2xNa2JGS3Y4TG5LbmhkWHZ1VVpaaE43RnBaMElMczBHcGQ3LWpQRjFrTy03Y0FzNGx4RXlEOEtERy16RWJ2TkhDVVFYbVlWZmtvMWJ2dGxxbHQxVXhLdW1ZVERVV3VJbmVkLWpENA?oc=5",
-    "published": "2026-11-14T05:31:12+00:00",
-    "flags": [
-     "uncertain"
-    ]
+    "title": "As Peltola’s lead widens in Alaska Senate race, Trump’s ‘voter confusion’ argument crumbles",
+    "outlet": "Democracy Docket",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWGxFUzNBZ2w1Mi04SGVvYkNsSWNIbTIwREpodzRNSEllWVFhbGg1TjZvWUl3Qzg3U0ZuRzAzUklKd0ZiZUE5VjgwVDRTb25yQzVJdUhyLWNFODZUYzlOMjRwTVIzRlhXekdWOExXWWVUaTRsal82bnVBNXJodTVvZVI2OTZJekFXeEVFWUZ0cF93ai10Q3hWOW1GYlM1amFRS1JIdFotWDFuWmZ0TjNyUk9hX3JtalFNWEh5blUzRUx1UlNqRmVaUGhGZw?oc=5",
+    "published": "2026-11-15T21:22:53+00:00",
+    "flags": []
    },
    {
-    "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
-    "outlet": "The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaHpOelhJaHVyV3hfZ1Qwa1FJM0w2aE45emVoZFZnOFdVb0xuMTdCN2VXSkYtRTV2VlN3QWhXQUpwaHh2YUs3ZUxWazd6eXJOV0p1QUhPSVJMdlBuTWNlalZKQllwazZiTDhOOTZhVDBLeFMzcmlTTmxDM29fbUstSHpUSWxyNkVzVXhmcTNyVUM0aVVWa05QazZCUFJ5ZUdxcHBR?oc=5",
-    "published": "2026-11-14T16:58:00+00:00",
-    "flags": [
-     "call"
-    ]
+    "title": "Alaska U.S. Senate Election 2026 Live Results: Mary Peltola, Dan Sullivan and More",
+    "outlet": "NBC News",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA1WlFUdEt1VHQxXzFleWk1dmQ1X05TTmRnTWdzU1BGREpBUnVZbUZTSjNVdElQbm43dktZRTNibFZVZkpFd3hfc0twUHNKOXp0Qk5rSUs4TEVWa2JZakV3WXhXUjI0YzNWblhDMlRzMFlHSHlLZklmYg?oc=5",
+    "published": "2026-11-15T13:31:00+00:00",
+    "flags": []
    }
   ],
   "HOU-AK-AL": [
-   {
-    "title": "‘Democrat’ in Alaska’s House Race Is Doing Time in a New York Prison",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlRTME5fOUFkTjhpa3pOaUg3dWRNSjF5bjJxelFHdlNWc1pjaGtiNTExNjREejhoVXdRbGlna0VRNlRxQ3REQUZUcnp5TUFEWUkyWmtkTlQtZnVVSXdTMkRMbmRIY2pnQm85UnNGVE5CanM0ODF5SHJtSEtUQmZLWk9YcnozeFEwbExUdWt3WWdoZw?oc=5",
-    "published": "2026-11-14T20:10:02+00:00",
-    "flags": []
-   },
    {
     "title": "Peltola leads in U.S. Senate race, nearing 50% mark with almost all ballots counted",
     "outlet": "Alaska Public Media",
@@ -22445,37 +22631,22 @@
     "flags": []
    },
    {
-    "title": "Peltola holds nearly 4-point lead on Sullivan in latest ballot drop",
-    "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jN2F3eWJ5UTBZT3ZEUTEzSF9EZ2k1TGpGd0lYYk1TeVRqbGdlMC1JdzUyRW5mVVBTYzBkaWMyVWhadjBzaDVmQUJCd0lCSmJadS1VTDBwVVUxbHNBaHFoeG90Sjk2Y3I3UjdJS2VmcUpUR1VCbWFTREkzbHpQN1XSAYQBQVVfeXFMUDd4WTZWRGFoUUF3aEZ3QXF5RDJhVllDWHNoRVhXQUtBSVVFZHQ3OUg3b3lUa3FlQmppY3hBZWpOdnVFR0xIcGZtd0YtWFFsZEtHeEZkX3ZMQlpSVmRiSG1KMnNNQ2hPZjZRN0daUF9sVVFQY1lvTExtbEFyNWdUdTFvRU9W?oc=5",
-    "published": "2026-11-13T16:19:00+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-MN-01": [
-   {
-    "title": "North Carolina U.S. House Election Live Results 2026",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUNJT0NlakJ5a2JfTF96OEhsQWQ2Vk9tVWY4Mk9mbXJaR0hKb1JUSlJFeWxCck4xTko5cGU2LXBlRDhja25qUE5ZUEpkMWN5QnVJcFBkcmpYV1VYUE5GQllrdnZzZ2FtNjVEakZJQlk5bDM5VmhWS1I2SzctaEtGYg?oc=5",
-    "published": "2026-11-13T08:00:00+00:00",
+    "title": "Lots of 2026 midterm races still haven’t been called. Here’s where things stand.",
+    "outlet": "Yahoo",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUTRjb29BWW1ZUmxZRFUxUXFpV2gwUjltWDE1NTJnRnFRT3QxWGlTRlo0LUVmRkhWYmM4dGJmVG9pYnhwczZObWpESkxtMlg0Nl95MEp2YXRBT1JIb280cWwxU0trREt3VGZKSzNlYlNsMWpHZS11V21xRXRvTlA5ZEFQd2J0bEVWM3o3R3FjTTlfRFFMZS1zNXlhVmcwLThBeWtnOVI3YUdfb181TldqY3o4b1JuMHcxZ2RjMUMtRTBKaHhjcUp0bWdTcmFudU8y?oc=5",
+    "published": "2026-11-15T20:57:21+00:00",
     "flags": []
    },
    {
-    "title": "Voter turnout spiked in Minnesota communities linked to hyperscale data centers",
-    "outlet": "kens5.com",
-    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNci1yZFhtUXl1OU9IeTV2dC03cjluQ19zN3VUM29jWG5SdGNRNnF2R3JSUHhGVmJucHR1WlFTYXBtRUNyb0V6VTVtcUs3QkVHWE90NHFQMHlGd3pyTjVMdlV5MGxBVWo4amdzWWM4VTNpc3ptNER0MWEtTEM1eVFEYVctRHlIZDV3ZXVpNk82N1NNYy1TSHBKUHhlamg3QU5HN2x5QW14eWNfWU83TWxIV2YyVkptUXlPU0NQcGloaHRFMmVwZkM4bVFXdU5VM1ZPUFBkUVRsN2dpRTQ5b2p4LUtaVFBaNURRVnNvOG8wb203b1czckREYjVxcVduLVR5UVBmN0VSZm5vUQ?oc=5",
-    "published": "2026-11-13T22:31:12+00:00",
+    "title": "The Alaska Race That’s Closer Than the First-Choice Numbers Suggest",
+    "outlet": "Newsweek",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS2F4N0dlbGozSEljZ25jWVFIVlRib0lrYU9WX1owSGZ3VHZpcU5YUE5feEhucncxeTYzUzFzWGc5cFloTVdyTzZXeDNsejhOWFB3QmQ1U20wY196dzM2LUxScTZGSEpPX2w5YkI1MENkS0lCR2FZME0xTC1VcjJaaXA0MWNYcDliMzBaVzdPbU5pc0ZUbGVQbzVkUW9OdlBPaWc?oc=5",
+    "published": "2026-11-16T04:50:00+00:00",
     "flags": []
    }
   ],
+  "HOU-MN-01": [],
   "HOU-NC-05": [
-   {
-    "title": "North Carolina U.S. House Election Live Results 2026",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUNJT0NlakJ5a2JfTF96OEhsQWQ2Vk9tVWY4Mk9mbXJaR0hKb1JUSlJFeWxCck4xTko5cGU2LXBlRDhja25qUE5ZUEpkMWN5QnVJcFBkcmpYV1VYUE5GQllrdnZzZ2FtNjVEakZJQlk5bDM5VmhWS1I2SzctaEtGYg?oc=5",
-    "published": "2026-11-13T08:00:00+00:00",
-    "flags": []
-   },
    {
     "title": "Democrats poised to flip 7 NC congressional seats, though recounts loom",
     "outlet": "WRAL",
@@ -22492,19 +22663,18 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ0paMGljbzVSNm9zQ2dtYjFRSVRXalVZazVWUXZpRzVfOWlLUXFmWVphcDZsU0ZEVnV2UTFoMjdIVWxlVVdBNGtOUUJJdC0zanphejhWTGpaTFBKdE5VR3B4UDVfelpHLXVWSm9wNWVzRi1iZi1ucnMxQXA2ekZHY0E4bE1uU1J3WE9TV2ktd2ZKb2dzVUkyMHA3TzRhX3lYNlZaOWlBVTZWcGpmSWtNQnJVMjhWckphMWc?oc=5",
     "published": "2026-11-14T01:57:35+00:00",
     "flags": []
-   }
-  ],
-  "HOU-NC-07": [
+   },
    {
-    "title": "Still counting votes. Some NC contests have flipped and others remain too close to call.",
-    "outlet": "Carolina Public Press",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZWE4NjY2T1d6WUNIQlBKa2VmZXh3WGNQc2p6TkNBcmgyaF84R1M4ZjFZd2Y2VlcxOU9maEVkT2hvZkZOX3l4U2Z4THlyNDl0WHB5Vy1wN29MS0NCcnRvSTNjUF9SOVdudlNuZU8yNFBLVnYyX3dwV0sxb01pRHBXQjdUWWt4ZjJHc3lxUWVRWWx1cU9tdHF4OE9GTkE2WElYY3FzMzJiZmpidlRNaWhrdTV0SWc3Qk9HWE94ZzNZanBkVEE?oc=5",
-    "published": "2026-11-12T14:24:49+00:00",
+    "title": "Piedmont county canvassing ends as the race for NC's 5th house stays within recount range",
+    "outlet": "WXII",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSFFpUDYtbHVHRjUzT093SG1vM3JyVVhXMnJhZ1hmQlM5M29BeDVVUmQxRWxaUWJZM1BZemNrQ29meWZrSmdZRThBaDJXLUpvSUYxTUhYYjlxSzdpQzJkYjVJRGgxMlBmVXpqdVFuMkR4YVJvNWE4NFJYemxlQ1dqWVlaQ1dBbHViYThnT21iY2pVTzJIczI2anpwcms0QzE3TURXbGZfdHg?oc=5",
+    "published": "2026-11-14T01:30:00+00:00",
     "flags": [
      "uncertain"
     ]
    }
   ],
+  "HOU-NC-07": [],
   "HOU-CA-23": [],
   "HOU-TN-04": [
    {
@@ -22512,13 +22682,6 @@
     "outlet": "The Colorado Sun",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUUtVVHo0Z2kxWDhpMjhmb0FUbkVyaER5NldjYlBYb1pGeVpvcjRFaFFfWGF5aEo1ZkRNa1p6RlR6dWZwbW5sRk1FRlcxTnl3VWFpRFVqSTNVMlZHbFMtcnBSN2tpS1IyTFp6QVZFLUxrb3VLd3NKQVlLODdlWGNaWWFUR2RjQTQ?oc=5",
     "published": "2026-11-13T20:33:13+00:00",
-    "flags": []
-   },
-   {
-    "title": "Tennessee’s gerrymandered election maps hold up, but not as well as in past cycles",
-    "outlet": "Tennessee Lookout",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYUVMT20xd3lLRjdRcFVOX21BYWV3ZGNiMG9CWDE1czZFdnZmV0VJMkhISks1Z2dGcjlBd0dwYzlXZ1p5UWthbTVIdnc1NkZZQUIxaFZTbzJIM2lmcjRTTWlPeXZILVR4MXZVSTI0b3JhbkIxbXIwajVXakJMWVBJVUJWYzZGSlV5ZVhYZGV5bDM3MEJ0M2U3YVUtTDVlOEY5dFE5QWlLS0FnOVkwaHpURHdwZnZ2UUQtWWJCSlhn?oc=5",
-    "published": "2026-11-13T11:02:57+00:00",
     "flags": []
    }
   ],
@@ -22533,10 +22696,10 @@
     ]
    },
    {
-    "title": "JKT declares victory after topping 50% in Alaska governor’s race as Peltola extends Senate lead",
-    "outlet": "Alaska Public Media",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEVQWklvTk9YZHdxMTF2eUdBSnpCNzk4MENqenFLWXRQREpub2tnZXI0M1VsS1luM24zTERRQzVjd1k3dno2dWZMMkhyWEkzbFpJdmg0ZWI1eEo0TzZ6UXduVG1nb2djY3huZmFycmhkWWwxMzFhbE1tUVZHdEJkY1NYNV8zRUNCZlc4RW1zZGpOMnJCUVZoRFZWeDNqeHBjcFBMT25PSTJlSExmYXlYTTJVbjBPUU51cXZzZEYwb2FFYmh6aUE?oc=5",
-    "published": "2026-11-13T04:21:00+00:00",
+    "title": "Democrat Jonathan Kreiss-Tomkins wins the Alaska governor’s race",
+    "outlet": "NBC News",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcnkyYjBoWS1aV2dpOEZsWm1Rak9SZkVUaEllQVMwai02UlpnYWZ4bzlfckdiaXFEYVhXUEEtSkNVdVhJaFU1T0dIWGhiSk5Kb2ViV2laSC1PbUdrazBiWW5tWmdUajJsSVM3a3FNb1FZa3h1LTdZankxRVpJZkh5eFVMYkpwNUZnZTBQQWZfMWpoclhBSGZScFF1THZRS0hPbVc3X0k2Zmh0dHU3UFR4Q0VaLUFiaW8?oc=5",
+    "published": "2026-11-14T05:05:00+00:00",
     "flags": [
      "call"
     ]
@@ -22552,23 +22715,8 @@
    }
   ],
   "GOV-AZ": [],
-  "GOV-FL": [
-   {
-    "title": "2026 Governor Election Results",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZWHJqVGFrR1hzNVFwNjI1VVNqbzhXaWE4SVI5VEFYTDlSWllnY19Ha3E2WEFkMXRqaXludDhvUXVQaTR2NC1WeWFWNWpZQ3cwcWc0RXNTM3QtOFFKTGRLaTBENUNMXzlfd1RFUg?oc=5",
-    "published": "2026-11-15T10:13:59+00:00",
-    "flags": []
-   }
-  ],
+  "GOV-FL": [],
   "GOV-GA": [
-   {
-    "title": "2026 Governor Election Results",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZWHJqVGFrR1hzNVFwNjI1VVNqbzhXaWE4SVI5VEFYTDlSWllnY19Ha3E2WEFkMXRqaXludDhvUXVQaTR2NC1WeWFWNWpZQ3cwcWc0RXNTM3QtOFFKTGRLaTBENUNMXzlfd1RFUg?oc=5",
-    "published": "2026-11-15T10:13:59+00:00",
-    "flags": []
-   },
    {
     "title": "Georgia Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
@@ -22580,52 +22728,32 @@
   "GOV-IA": [],
   "GOV-KS": [
    {
-    "title": "Cindy Holscher wins election for Kansas governor, extending Democrats' wave of victories",
-    "outlet": "PBS",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS0xoelhvSE5mQWkwX3ZETXVYRk9NYUpuY1VDbGVaM19QSGh1Z05kaEhQM2RvSHdldXFDX0FqTm1uMS10eEl6Y2xHX2hhN1JXaFcxelB6TFJIb2pza1B0VEJhSUUzY0RCaTBNX0ZjdE9UODdmemM3NHBTN290TTAzYXB4YTNCWW5ybE83NWR1VWxTRnpOX19vS1JabldVbGtxZTNETFhIdDNKU0lxck4zN1RhQzdfYlRrUHBXWmo4cnRKUQ?oc=5",
-    "published": "2026-11-12T23:15:50+00:00",
+    "title": "Kansas Governor Midterm Election 2026: Live Results",
+    "outlet": "NBC News",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoU0N5dFZuYlNOd3AxS3d0U0MxTVU3VkxGWWNaZEZDRDFoSGlBR1N6bHR0ZFpyRXF4RGZvNS05YkJlVmF2dFFSa1JHbjhzNml5SUZkUmttVlNwU3hCRGxxbFRxbVJGT2drLVNXbk90WlZlVmhHTVVsbUVzbw?oc=5",
+    "published": "2026-11-13T22:37:25+00:00",
+    "flags": []
+   },
+   {
+    "title": "Kansas governor's race election results: Holscher declared winner, Masterson concedes race",
+    "outlet": "KMBC",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUDJhckJjYjNSSVdiRGxIcERNRThEU3JISmVTVGloaDNueWJxUWtIVHU5UkdCYU5HcWQ4ZTNlMVo4SHBOUnl2Vl9kUnExT01rVDFhTmVoTEZNQ1EtSHZFNFd0VENWY0d2TjZuTThIQzhHdDdQS0N1Rlo2azBPbWxSVGJfZkVUYmZnTFJ6RWFqQTJZQ1Z3NHRFSVRFa2FSdGw3?oc=5",
+    "published": "2026-11-13T20:37:00+00:00",
     "flags": [
      "call"
     ]
    },
    {
-    "title": "Kansas will have back-to-back women governors after Democrat Cindy Holscher wins tight race",
-    "outlet": "The 19th News",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OcEZhR1B3V1BUVVl0dmVvM3lOM1k2QmVNdzR3Q0xvbm04b2JrMnRuX0NVamtqWDBiS0FGUy1vaHQ5Mlk1WXh5akVfSmRqakw3R0Z6ZXFSOHAtNV9TN004M2lWbjhRU2JTd3pBMjdLQQ?oc=5",
-    "published": "2026-11-12T20:10:30+00:00",
-    "flags": [
-     "call",
-     "uncertain"
-    ]
-   },
-   {
-    "title": "Democrat Cindy Holscher wins Kansas governor’s race",
-    "outlet": "Kansas Reflector",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3d6aXJnNldQR3F5YzhEdHJKV3V1RkVMRFVrUmhaMmdaNERWXy12R3R2SVN5STNlQUpYNF9BRzRsQkhucm5WZjZvNFoyZGs2WXB6bnU4QkJTNDdMSlZCbGZtTU9vUjJESS01cUZqMl95X08xLWUzUzZLMW4yVHlmUkIyZThpY016alltY1BFUkdWVlNP?oc=5",
-    "published": "2026-11-13T03:06:54+00:00",
-    "flags": [
-     "call"
-    ]
+    "title": "Kansas Gov.-elect Cindy Holscher outlines priorities",
+    "outlet": "KMBC",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYV96enRocFBtdGVpV1hMZW9lMmZEbHJDV245ZTJ2SVFTcVZtbjhaUE93ck81eVNNWW51NHVIWUluY04teDNNdWtmbHotMDhRSnNDTEd2QTVvYUtJcEZTNVZWa1V1cUVrbEpUckVvNWs3NlB0dTBLYTZXSGVZa3hzbGp5c2s5SHRVR3QtM3NycFVUM3FpdVE?oc=5",
+    "published": "2026-11-14T00:13:00+00:00",
+    "flags": []
    }
   ],
   "GOV-MI": [],
-  "GOV-MN": [
-   {
-    "title": "Minnesota 2022 Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EaThFdVNKbEhsZGJZdkEtaVhIOXhvbmc1Q2VQaWt0bUlIM2JwUC1kT1JhSTc0ZlJFTVNwdGh1SkNrdGFmdGlxTEU4SkFjTWxuamswWWxfUFJaTmw0ZUJMbE1oMDdRMDhJVGc?oc=5",
-    "published": "2026-11-14T21:52:15+00:00",
-    "flags": []
-   }
-  ],
+  "GOV-MN": [],
   "GOV-NE": [
-   {
-    "title": "Nebraska Governor Election Live Results 2026",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90d0UtcVQ3Nm9FTm5NZXZPNDRTLUdNSjZBQjJWSTVCOW9DWjRXanJkTHpxTHI1WE50bUloWV93M1pCRjdKWEVnc081M0RKMUZOQ3B6SDNQckR6SVkwNC1WTzhUR3R0a1k0UUFLT1YtT0luTHF5TlpxeA?oc=5",
-    "published": "2026-11-13T08:00:00+00:00",
-    "flags": []
-   },
    {
     "title": "Nebraska Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
@@ -22635,27 +22763,19 @@
    }
   ],
   "GOV-NH": [],
-  "GOV-NV": [
-   {
-    "title": "Nevada Governor Election Live Results 2026",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4enRaeHJDeGpCMWZUekgtQm9USWtvTFczWlV6OFkxWmZzenllZFlKT0F6UUJXdDdrQmxnXzZmVW0wblZBaVBNeVh6QVR0Wmh6TGNDZk9UMTZfSWZ4MFIzVkZfamJpekhfM3ExNGduVjY2N1doMVE?oc=5",
-    "published": "2026-11-13T08:00:00+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-OH": [
-   {
-    "title": "Ohio 2022 Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rZHpiVE51RHlXYXR2MHdPWlVyckNBd1NDYXU3QlQ0em9jNGtYWHlnTkhRNmZDLUJuRTBIUnhTbF9jUUxUbDJUZS1udDQyY29Yc1RwNnRuSXRBdnEtVlY2V25PVQ?oc=5",
-    "published": "2026-11-13T23:59:30+00:00",
-    "flags": []
-   }
-  ],
+  "GOV-NV": [],
+  "GOV-OH": [],
   "GOV-OK": [],
   "GOV-OR": [],
-  "GOV-TX": [],
+  "GOV-TX": [
+   {
+    "title": "The Criminal Justice Election Results You Might Have Missed",
+    "outlet": "The Marshall Project",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX0Ntb0haSDB6MExTbUlReFV5TmNrbEZnaXh0ampzMzhsSUhteHNTYTJpLXA2cFJ0by1MS20tZW50MVhmbXFXVHpkbHp4TFY4TEp2WXYzazhVdm9MVTBHTUxHaEd2MC1yMFplR3dzU3V3MkhoRVVfazg0WjZsWXkya19XU2daTThfMUpNQlpobw?oc=5",
+    "published": "2026-11-14T17:00:00+00:00",
+    "flags": []
+   }
+  ],
   "GOV-VT": [],
   "GOV-WI": []
  }

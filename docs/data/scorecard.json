@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-15",
- "results_snapshot": "2026-11-15-am.json",
+ "run_date": "2026-11-16",
+ "results_snapshot": "2026-11-16-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "ready",
  "competitive_called_pct": 95.2,
@@ -788,10 +788,31 @@
   ]
  },
  "polls": {
-  "races": 2,
-  "mean_abs_error": 5.2,
-  "mean_signed_error": -5.2,
+  "races": 10,
+  "mean_abs_error": 4.2,
+  "mean_signed_error": -4.2,
   "biggest_misses": [
+   {
+    "key": "SEN-TX",
+    "race": "Texas Senate",
+    "poll_avg": -2.9,
+    "actual": -12.1,
+    "error": -9.2
+   },
+   {
+    "key": "SEN-MN",
+    "race": "Minnesota Senate",
+    "poll_avg": -2.7,
+    "actual": -10.1,
+    "error": -7.4
+   },
+   {
+    "key": "SEN-NH",
+    "race": "New Hampshire Senate",
+    "poll_avg": -8.0,
+    "actual": -13.7,
+    "error": -5.7
+   },
    {
     "key": "SEN-SC",
     "race": "South Carolina Senate",
