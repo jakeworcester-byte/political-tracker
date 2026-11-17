@@ -137,29 +137,10 @@
       "pct": 50.0
      }
     ]
-   },
-   {
-    "pollster": "Global Strategy Group",
-    "end_date": "2026-07-19",
-    "margin": -1.0,
-    "n": null,
-    "population": "lv",
-    "partisan": "DEM",
-    "url": "https://static.notus.org/27/58/c93f2d1946c0814f583fa25c7a31/hmp-ia-02-poll.pdf",
-    "answers": [
-     {
-      "choice": "Joe Mitchell",
-      "pct": 45.0
-     },
-     {
-      "choice": "Lindsay James",
-      "pct": 46.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [
   {
@@ -362,6 +343,11 @@
   },
   {
    "date": "2026-11-16",
+   "c": 0,
+   "p": -3.0
+  },
+  {
+   "date": "2026-11-17",
    "c": 0,
    "p": -3.0
   }

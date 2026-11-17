@@ -88,7 +88,38 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-16",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "Wichita Eagle",
+   "lean": "unrated",
+   "title": "Gabe Evans to run for Congress in 2028. But not in Colorado's CD-8",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mWWxfeTJ2MTN0dkZlNWxKclpsRE1QMWR4ZnBZZ1ZuQTFoUTM3UE1CNkU4UmhybllDT0htME5qVEhQMEVHaVJKSHgwX2Vzd1lBcHFwNlhhQlBWQVZtTEhBRWJuOVpia3BtTXZsamZqYnFJUTlRTktDV0lmZw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-16",
+   "race": "HOU-CO-08",
+   "races": [
+    "HOU-CO-08"
+   ],
+   "type": "reporting",
+   "source": "CBS News",
+   "lean": "unrated",
+   "title": "Colorado Congressman Gabe Evans announces 2028 run in Congressional District 4 after defeat in CD-8",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUUM0SWZRNm81QVJRUVhfYm5KUEFKam1MYUp1a1RHRUtFRTdNbWc4RmpGb2dLS1NoR242b0FWa3hJX3BmeGozQThjLVd2R0cxZ3NveTJXb241UXh3LVluNmpXQUZwSFlHQ3hpZTNVbnFTVWNMMERNUkIzUGtXNi0ySkQtcWNHdFFFUVJQVUcwbWtoRWhDMFFwNkY2RkdrOWJDamhpZ0xWT0Y4ZndFV3dUbVlpX3ZQWWJLa1JYaXZR?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-08",
  "history": [
   {
@@ -273,6 +304,11 @@
   },
   {
    "date": "2026-11-16",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-17",
    "c": -2,
    "p": null
   }

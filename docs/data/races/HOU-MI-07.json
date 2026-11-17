@@ -161,7 +161,23 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-16",
+   "race": "HOU-MI-07",
+   "races": [
+    "HOU-MI-07"
+   ],
+   "type": "reporting",
+   "source": "Michigan Public",
+   "lean": "unrated",
+   "title": "Will Lawrence outlines first priorities for Michigan's 7th district",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYXZHLVZiUnZ0M1BhcFlKM2JvU2c1THZsRjZvb0FMWVJUeVpocXVxdVdYWTBEQVpNSGkxMjZuUzZvd1psZXFvUlNsaDV5M1llcTM3MFJuTGxOeUd2WVI3M0lZQ3N1cnNpSW1RZVVPbW5WMm5lYXljM2ZHYmU4S0tGX29jbURNQWdvdnFHZ0pmNl81MDZtM0tRZ19WV0sxdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-07",
  "history": [
   {
@@ -346,6 +362,11 @@
   },
   {
    "date": "2026-11-16",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-17",
    "c": -2,
    "p": -8.0
   }

@@ -383,7 +383,37 @@
  },
  "raw_poll_count": 20,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-17",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "podcast",
+   "source": "The Ezra Klein Show",
+   "lean": "center-left",
+   "title": "The Winning Democrat Who Wants to Break Up Political Parties",
+   "url": "https://www.nytimes.com/2026/11/17/opinion/ezra-klein-podcast-rob-sand.html",
+   "summary": "Rob Sand will soon be Iowa’s first Democratic governor in more than 15 years. And he won the race in a walk – trouncing his opponent by 11 points, a 24-point swing from how Kamala Harris performed in the state in 2024. And he ran several points ahead of Iowa’s Democratic senator-elect, Josh Turek. S",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-17",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "Bleeding Heartland",
+   "lean": "unrated",
+   "title": "Previewing the special election in Iowa Senate district 14",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR0M4T01TTnpIWGtxQlo2dDhGSm4wTkpzdnRHdm5XNC14azVNeTFNOVNmZ25UQm5UWVFESlNhTHc3WVNnWWVaRmU2VE5NeEZXdTNzakZGQ2Z6NW13cVhwNURQaGQwNl94NnUyY1gxV3VWZFNOaFFOMV92YUNTOE9NcEJja2hraFp2NFZyQkN2ZDRQS1laU2M0d1NNR29FYkJPUVdrSU5Wbw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
  "history": [
   {
@@ -568,6 +598,11 @@
   },
   {
    "date": "2026-11-16",
+   "c": 0,
+   "p": 0.3
+  },
+  {
+   "date": "2026-11-17",
    "c": 0,
    "p": 0.3
   }

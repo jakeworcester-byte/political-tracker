@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-17",
+ "contests": {
+  "SEN-AK": {
+   "rows": [
+    {
+     "name": "Peltola, Mary",
+     "party": "DEM",
+     "votes": 141637,
+     "pct": 49.98
+    },
+    {
+     "name": "Sullivan, Dan S.",
+     "party": "REP",
+     "votes": 130162,
+     "pct": 45.93
+    },
+    {
+     "name": "Heikes, Gerald L.",
+     "party": "REP",
+     "votes": 6020,
+     "pct": 2.12
+    },
+    {
+     "name": "Sullivan, Daniel J. Jr.",
+     "party": "",
+     "votes": 4684,
+     "pct": 1.65
+    },
+    {
+     "name": "Write-in",
+     "party": "",
+     "votes": 874,
+     "pct": 0.31
+    }
+   ],
+   "total": 283377,
+   "leader": "Peltola, Mary",
+   "runner_up": "Sullivan, Dan S.",
+   "margin_votes": 11475,
+   "margin_pts": 4.05,
+   "leader_pct": 49.98,
+   "majority_votes": 141689,
+   "leader_short_of_majority": 52,
+   "by_type": {
+    "Heikes, Gerald L.": {
+     "election day": 4354,
+     "early": 711,
+     "absentee": 654,
+     "questioned": 301
+    },
+    "Peltola, Mary": {
+     "election day": 70393,
+     "early": 39012,
+     "absentee": 28925,
+     "questioned": 3307
+    },
+    "Sullivan, Daniel J. Jr.": {
+     "election day": 2816,
+     "early": 971,
+     "absentee": 733,
+     "questioned": 164
+    },
+    "Sullivan, Dan S.": {
+     "election day": 78580,
+     "early": 28996,
+     "absentee": 19526,
+     "questioned": 3060
+    }
+   },
+   "change": {
+    "new_votes": 1790,
+    "leader_share_of_new": 55.9,
+    "margin_change": 262
+   }
+  },
+  "HOU-AK-AL": {
+   "rows": [
+    {
+     "name": "Begich, Nick",
+     "party": "REP",
+     "votes": 134456,
+     "pct": 47.67
+    },
+    {
+     "name": "Hill, Bill",
+     "party": "NON",
+     "votes": 117607,
+     "pct": 41.7
+    },
+    {
+     "name": "Hafner, Eric",
+     "party": "DEM",
+     "votes": 22127,
+     "pct": 7.84
+    },
+    {
+     "name": "McDermott, James C. \"Jim\"",
+     "party": "LIB",
+     "votes": 7431,
+     "pct": 2.63
+    },
+    {
+     "name": "Write-in",
+     "party": "",
+     "votes": 434,
+     "pct": 0.15
+    }
+   ],
+   "total": 282055,
+   "leader": "Begich, Nick",
+   "runner_up": "Hill, Bill",
+   "margin_votes": 16849,
+   "margin_pts": 5.97,
+   "leader_pct": 47.67,
+   "majority_votes": 141028,
+   "leader_short_of_majority": 6572,
+   "by_type": {
+    "Begich, Nick": {
+     "election day": 81317,
+     "early": 29723,
+     "absentee": 20183,
+     "questioned": 3233
+    },
+    "Hafner, Eric": {
+     "election day": 11708,
+     "early": 4722,
+     "absentee": 4820,
+     "questioned": 877
+    },
+    "Hill, Bill": {
+     "election day": 57527,
+     "early": 33919,
+     "absentee": 23803,
+     "questioned": 2358
+    },
+    "McDermott, James C. \"Jim\"": {
+     "election day": 4991,
+     "early": 1200,
+     "absentee": 921,
+     "questioned": 319
+    }
+   },
+   "change": {
+    "new_votes": 1787,
+    "leader_share_of_new": 41.9,
+    "margin_change": 74
+   }
+  }
+ },
+ "report_time": "11/16/2026 5:13:47 PM",
+ "prev_date": "2026-11-16",
+ "prev_report_time": "11/14/2026 3:15:40 PM",
+ "unchanged": false
+}
