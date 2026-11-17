@@ -180,7 +180,23 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-16",
+   "race": "HOU-MN-01",
+   "races": [
+    "HOU-MN-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Minnesota 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MN-01",
  "history": [
   {
@@ -365,6 +381,11 @@
   },
   {
    "date": "2026-11-16",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-11-17",
    "c": 2,
    "p": -1.0
   }

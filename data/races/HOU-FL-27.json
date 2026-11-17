@@ -142,23 +142,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-11",
-   "race": "HOU-FL-27",
-   "races": [
-    "HOU-FL-27"
-   ],
-   "type": "reporting",
-   "source": "The Miami Hurricane",
-   "lean": "unrated",
-   "title": "Maria Elvira Salazar wins Florida’s 27th Congressional District following recount",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcmpmQ3lTVkFadGRJb2k5cldLZ2ZNNDRYMHItcUViQnJSbWRYclhCN1pPakJYNlVCcEU1QWRlaXNQNENBMkVlbUp5VkJkU2tPcmNYTzRxV2hORUNocklPQkJCcS1VWDlSaDlfM21lclZJbTF1eHZJNkhlWmJzejhyamV5VmIxcmFjMXYyRlBKLW04OWZGWjVtR1NHM2VjZ1dQa3JWUzROTE1ITmJkcVR1aDhFSjFCTUJKNXVyMzVoUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-FL-27",
  "history": [
   {
@@ -343,6 +327,11 @@
   },
   {
    "date": "2026-11-16",
+   "c": 2,
+   "p": 1.0
+  },
+  {
+   "date": "2026-11-17",
    "c": 2,
    "p": 1.0
   }
