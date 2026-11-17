@@ -661,6 +661,13 @@ def main():
         r["rated_safe_now_close"] = (not r["competitive"] and r["margin_pts"] is not None
                                      and r["margin_pts"] <= CFG.get("upset_watch_points", 5))
         r["upset_watch"] = r["rated_safe_now_close"] and not r["called"]
+        # Winner against the rating: the party the consensus rating favored lost. Unrated seats have no
+        # recorded favorite (redistricting can move one away from the incumbent's party), so for those
+        # only the flip flag below applies.
+        favored = ("R" if r["final_score"] > 0 else "D" if r["final_score"] < 0 else None) if meta else None
+        w = r.get("winner") if r["called"] else None
+        r["won_against_rating"] = bool(w and favored in ("D", "R") and w.get("party") != favored)
+        r["flip"] = bool(w and r.get("incumbent_party") in ("D", "R", "I") and w.get("party") != r["incumbent_party"])
 
     # 3. previous snapshot -> newly called
     snap_path = os.path.join(ROOT, "data", "results", f"{run_date}-{edition}.json")
@@ -921,11 +928,21 @@ def write_digest(run_date, edition, s, news):
         L.append("- none: every seat rated safe is either uncounted in the table or more than 5 points apart.")
 
     L.append(f"\n### Called since the last update ({len(s['newly_called'])})")
-    comp_new = [k for k in s["newly_called"] if races[k]["competitive"] or races[k].get("rated_safe_now_close")]
+    # A safe seat goes in the one-line summary only if the favored party won it; any upset or flip gets its own line.
+    comp_new = [k for k in s["newly_called"] if races[k]["competitive"] or races[k].get("rated_safe_now_close")
+                or races[k].get("won_against_rating") or races[k].get("flip")]
+    comp_new.sort(key=lambda k: not (races[k].get("won_against_rating") or races[k].get("flip")))
     safe_new = [k for k in s["newly_called"] if k not in comp_new]
     for k in comp_new:
         r = races[k]
         flag = " | RATED SAFE, CAME IN CLOSE" if r.get("rated_safe_now_close") else ""
+        if r.get("flip"):
+            flag += f" | FLIP from {r['incumbent_party']}"
+            if not r["final_rating"]:
+                flag += (" (seat unrated by forecasters, so they saw no contest; check whether redistricting moved it"
+                         " to the winner's party before calling it an upset)")
+        if r.get("won_against_rating"):
+            flag += " | WON AGAINST THE RATING"
         L.append(f"- {k} {r['name']} | final rating {r['final_rating'] or 'unrated'} | winner {wlabel(r)}{flag} | table: {r['status_text'][:120]}")
         for it in (news["races"].get(k) or {}).get("items", [])[:3]:
             L.append(f"  - lead [{','.join(it['flags']) or '-'}] {it['title']} | {it['outlet']} | {it['published'][:10] if it['published'] else ''} | {it['link']}")
