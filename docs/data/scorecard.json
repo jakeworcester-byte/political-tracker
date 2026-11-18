@@ -1,16 +1,16 @@
 {
- "run_date": "2026-11-17",
- "results_snapshot": "2026-11-17-am.json",
+ "run_date": "2026-11-18",
+ "results_snapshot": "2026-11-18-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "ready",
- "competitive_called_pct": 95.2,
+ "competitive_called_pct": 96.8,
  "forecasters": [
   {
    "forecaster": "RealClearPolling",
    "code": "rcp",
    "right": 136,
    "wrong": 9,
-   "tossups": 31,
+   "tossups": 32,
    "accuracy_pct": 93.8,
    "misses": [
     "HOU-IN-05 (Lean R, D won)",
@@ -29,7 +29,7 @@
    "code": "st",
    "right": 146,
    "wrong": 16,
-   "tossups": 14,
+   "tossups": 15,
    "accuracy_pct": 90.1,
    "misses": [
     "HOU-CO-04 (Lean R, D won)",
@@ -53,10 +53,10 @@
   {
    "forecaster": "Silver Bulletin",
    "code": "silver",
-   "right": 151,
+   "right": 152,
    "wrong": 18,
    "tossups": 7,
-   "accuracy_pct": 89.3,
+   "accuracy_pct": 89.4,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Likely R, D won)",
@@ -81,10 +81,10 @@
   {
    "forecaster": "FiftyPlusOne",
    "code": "fpo",
-   "right": 146,
+   "right": 147,
    "wrong": 18,
    "tossups": 12,
-   "accuracy_pct": 89.0,
+   "accuracy_pct": 89.1,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Likely R, D won)",
@@ -111,7 +111,7 @@
    "code": "cook",
    "right": 134,
    "wrong": 19,
-   "tossups": 23,
+   "tossups": 24,
    "accuracy_pct": 87.6,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
@@ -140,7 +140,7 @@
    "code": "fox",
    "right": 134,
    "wrong": 19,
-   "tossups": 23,
+   "tossups": 24,
    "accuracy_pct": 87.6,
    "misses": [
     "HOU-AL-02 (Likely R, D won)",
@@ -169,7 +169,7 @@
    "code": "sabato",
    "right": 147,
    "wrong": 21,
-   "tossups": 8,
+   "tossups": 9,
    "accuracy_pct": 87.5,
    "misses": [
     "HOU-CO-04 (Lean R, D won)",
@@ -198,10 +198,10 @@
   {
    "forecaster": "Decision Desk HQ",
    "code": "ddhq",
-   "right": 139,
+   "right": 140,
    "wrong": 21,
    "tossups": 16,
-   "accuracy_pct": 86.9,
+   "accuracy_pct": 87.0,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Likely R, D won)",
@@ -231,7 +231,7 @@
    "code": "nbc",
    "right": 26,
    "wrong": 4,
-   "tossups": 4,
+   "tossups": 5,
    "accuracy_pct": 86.7,
    "misses": [
     "SEN-IA (Lean R, D won)",
@@ -245,7 +245,7 @@
    "code": "ie",
    "right": 138,
    "wrong": 22,
-   "tossups": 16,
+   "tossups": 17,
    "accuracy_pct": 86.2,
    "misses": [
     "HOU-AL-02 (Tilt R, D won)",
@@ -277,7 +277,7 @@
    "code": "econ",
    "right": 135,
    "wrong": 23,
-   "tossups": 18,
+   "tossups": 19,
    "accuracy_pct": 85.4,
    "misses": [
     "HOU-AL-02 (Likely R, D won)",
@@ -309,7 +309,7 @@
  "consensus": {
   "right": 140,
   "wrong": 20,
-  "tossup": 16,
+  "tossup": 17,
   "misses": [
    "HOU-AL-02 (Lean R, D won)",
    "HOU-CO-04 (Lean R, D won)",
@@ -334,7 +334,7 @@
   ]
  },
  "tossups_won": {
-  "D": 15,
+  "D": 16,
   "R": 1,
   "Other": 0
  },
@@ -362,10 +362,10 @@
   },
   {
    "rating": "Tossup",
-   "D": 15,
+   "D": 16,
    "R": 1,
    "Other": 0,
-   "uncalled": 1
+   "uncalled": 0
   },
   {
    "rating": "Tilt R",
@@ -675,11 +675,11 @@
   },
   "senate": {
    "actual": {
-    "D": 55,
+    "D": 56,
     "R": 44,
     "I": 0
    },
-   "called": 34,
+   "called": 35,
    "races": 35,
    "majority": 51,
    "forecasters": [
@@ -788,7 +788,7 @@
   ]
  },
  "polls": {
-  "races": 14,
+  "races": 15,
   "mean_abs_error": 3.2,
   "mean_signed_error": -3.0,
   "biggest_misses": [
