@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-17",
+ "run_date": "2026-11-18",
  "edition": "am",
- "generated_at": "2026-11-17T11:09:55.438939+00:00",
- "previous_snapshot": "2026-11-16-am",
+ "generated_at": "2026-11-18T11:09:48.859387+00:00",
+ "previous_snapshot": "2026-11-17-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -37,14 +37,14 @@
  },
  "senate": {
   "races": 35,
-  "called": 34,
+  "called": 35,
   "won": {
-   "D": 21,
+   "D": 22,
    "R": 13,
    "I": 0,
    "Other": 0
   },
-  "uncalled": 1,
+  "uncalled": 0,
   "reported": {
    "D": 0,
    "R": 0,
@@ -53,7 +53,7 @@
   },
   "reported_count": 0,
   "won_incl_reported": {
-   "D": 21,
+   "D": 22,
    "R": 13,
    "I": 0,
    "Other": 0
@@ -63,24 +63,21 @@
    "R": 31
   },
   "seats_secured": {
-   "D": 55,
+   "D": 56,
    "R": 44,
    "I": 0
   },
   "seats_secured_incl_reported": {
-   "D": 55,
+   "D": 56,
    "R": 44,
    "I": 0
   },
   "majority": 51
  },
  "newly_called": [
-  "HOU-CA-23",
-  "HOU-NC-07",
-  "HOU-TN-04"
+  "SEN-AK"
  ],
  "uncalled_competitive": [
-  "SEN-AK",
   "HOU-AK-AL",
   "HOU-MN-01",
   "HOU-NC-05"
@@ -1050,6 +1047,11 @@
     "snapshot": "2026-11-17-am",
     "competitive_called": 99,
     "new": 0
+   },
+   {
+    "snapshot": "2026-11-18-am",
+    "competitive_called": 100,
+    "new": 1
    }
   ]
  },
@@ -1093,6 +1095,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AL-02": {
@@ -1133,6 +1137,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AL-03": {
@@ -1173,6 +1179,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AL-04": {
@@ -1213,6 +1221,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AL-05": {
@@ -1253,6 +1263,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AL-06": {
@@ -1293,6 +1305,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AL-07": {
@@ -1333,6 +1347,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AK-AL": {
@@ -1381,6 +1397,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null,
    "headline_call_lead": true,
    "headline_uncertain": false
@@ -1430,6 +1448,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-AZ-02": {
@@ -1477,6 +1497,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AZ-03": {
@@ -1524,6 +1546,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AZ-04": {
@@ -1571,6 +1595,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AZ-05": {
@@ -1611,6 +1637,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AZ-06": {
@@ -1665,6 +1693,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-AZ-07": {
@@ -1705,6 +1735,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AZ-08": {
@@ -1745,6 +1777,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AZ-09": {
@@ -1785,6 +1819,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AR-01": {
@@ -1832,6 +1868,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AR-02": {
@@ -1872,6 +1910,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AR-03": {
@@ -1919,6 +1959,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-AR-04": {
@@ -1959,6 +2001,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-01": {
@@ -1999,6 +2043,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-CA-02": {
@@ -2039,6 +2085,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-03": {
@@ -2079,6 +2127,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-04": {
@@ -2119,6 +2169,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-05": {
@@ -2159,6 +2211,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-06": {
@@ -2199,6 +2253,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-CA-07": {
@@ -2239,6 +2295,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-08": {
@@ -2279,6 +2337,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-09": {
@@ -2319,6 +2379,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-10": {
@@ -2359,6 +2421,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-11": {
@@ -2399,6 +2463,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-12": {
@@ -2439,6 +2505,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-13": {
@@ -2479,6 +2547,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-14": {
@@ -2519,6 +2589,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-15": {
@@ -2559,6 +2631,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-16": {
@@ -2599,6 +2673,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-17": {
@@ -2639,6 +2715,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-18": {
@@ -2679,6 +2757,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-19": {
@@ -2719,6 +2799,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-20": {
@@ -2759,6 +2841,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-21": {
@@ -2799,6 +2883,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-22": {
@@ -2839,6 +2925,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-CA-23": {
@@ -2879,6 +2967,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-24": {
@@ -2919,6 +3009,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-25": {
@@ -2959,6 +3051,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-26": {
@@ -2999,6 +3093,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-27": {
@@ -3039,6 +3135,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-28": {
@@ -3079,6 +3177,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-29": {
@@ -3119,6 +3219,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-30": {
@@ -3159,6 +3261,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-31": {
@@ -3199,6 +3303,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-32": {
@@ -3239,6 +3345,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-33": {
@@ -3279,6 +3387,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-34": {
@@ -3319,6 +3429,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-35": {
@@ -3359,6 +3471,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-36": {
@@ -3399,6 +3513,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-37": {
@@ -3439,6 +3555,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-38": {
@@ -3479,6 +3597,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-39": {
@@ -3519,6 +3639,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-40": {
@@ -3559,6 +3681,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-41": {
@@ -3599,6 +3723,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-42": {
@@ -3639,6 +3765,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-43": {
@@ -3679,6 +3807,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-44": {
@@ -3719,6 +3849,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-45": {
@@ -3759,6 +3891,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-46": {
@@ -3799,6 +3933,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-47": {
@@ -3839,6 +3975,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-48": {
@@ -3879,6 +4017,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-CA-49": {
@@ -3919,6 +4059,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-50": {
@@ -3959,6 +4101,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-51": {
@@ -3999,6 +4143,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CA-52": {
@@ -4039,6 +4185,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CO-01": {
@@ -4100,6 +4248,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CO-02": {
@@ -4147,6 +4297,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CO-03": {
@@ -4201,6 +4353,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CO-04": {
@@ -4248,6 +4402,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-CO-05": {
@@ -4302,6 +4458,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-CO-06": {
@@ -4363,6 +4521,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CO-07": {
@@ -4431,6 +4591,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CO-08": {
@@ -4478,6 +4640,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-CT-01": {
@@ -4525,6 +4689,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CT-02": {
@@ -4565,6 +4731,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CT-03": {
@@ -4612,6 +4780,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CT-04": {
@@ -4659,6 +4829,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-CT-05": {
@@ -4699,6 +4871,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-DE-AL": {
@@ -4745,6 +4919,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-01": {
@@ -4764,7 +4940,7 @@
      "name": "Gay Valimont",
      "party": "D",
      "party_label": "Democratic",
-     "pct": 37.5,
+     "pct": 35.7,
      "winner": false
     },
     {
@@ -4791,13 +4967,15 @@
     "pct": 62.5,
     "winner": true
    },
-   "margin_pts": 25.0,
+   "margin_pts": 26.8,
    "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-02": {
@@ -4844,6 +5022,8 @@
    "competitive": false,
    "rated_safe_now_close": true,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "flagged_since": "2026-11-17 am",
    "reported_call": null
   },
@@ -4898,6 +5078,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-04": {
@@ -4958,6 +5140,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-05": {
@@ -5004,6 +5188,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-06": {
@@ -5057,6 +5243,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-07": {
@@ -5110,6 +5298,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-08": {
@@ -5156,6 +5346,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-09": {
@@ -5202,6 +5394,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-10": {
@@ -5235,6 +5429,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-11": {
@@ -5288,6 +5484,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-12": {
@@ -5341,6 +5539,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-13": {
@@ -5394,6 +5594,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-14": {
@@ -5447,6 +5649,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-15": {
@@ -5493,6 +5697,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-16": {
@@ -5546,6 +5752,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-17": {
@@ -5599,6 +5807,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-18": {
@@ -5652,6 +5862,8 @@
    "competitive": false,
    "rated_safe_now_close": true,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "flagged_since": "2026-11-17 am",
    "reported_call": null
   },
@@ -5706,6 +5918,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-20": {
@@ -5759,6 +5973,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-21": {
@@ -5812,6 +6028,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-22": {
@@ -5858,6 +6076,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-23": {
@@ -5904,6 +6124,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-24": {
@@ -5950,6 +6172,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-25": {
@@ -6003,6 +6227,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-26": {
@@ -6056,6 +6282,8 @@
    "competitive": false,
    "rated_safe_now_close": true,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "flagged_since": "2026-11-17 am",
    "reported_call": null
   },
@@ -6103,6 +6331,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-FL-28": {
@@ -6156,6 +6386,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-01": {
@@ -6196,6 +6428,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-02": {
@@ -6236,6 +6470,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-03": {
@@ -6276,6 +6512,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-04": {
@@ -6316,6 +6554,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-05": {
@@ -6356,6 +6596,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-06": {
@@ -6396,6 +6638,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-07": {
@@ -6436,6 +6680,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-08": {
@@ -6476,6 +6722,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-09": {
@@ -6516,6 +6764,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-10": {
@@ -6556,6 +6806,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-11": {
@@ -6596,6 +6848,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-12": {
@@ -6636,6 +6890,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-13": {
@@ -6676,6 +6932,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-GA-14": {
@@ -6716,6 +6974,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-HI-01": {
@@ -6770,6 +7030,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-HI-02": {
@@ -6810,6 +7072,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-ID-01": {
@@ -6864,6 +7128,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-ID-02": {
@@ -6925,6 +7191,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-01": {
@@ -6965,6 +7233,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-02": {
@@ -7005,6 +7275,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-03": {
@@ -7045,6 +7317,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-04": {
@@ -7099,6 +7373,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-05": {
@@ -7139,6 +7415,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-06": {
@@ -7179,6 +7457,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-07": {
@@ -7219,6 +7499,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-08": {
@@ -7259,6 +7541,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-09": {
@@ -7299,6 +7583,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-10": {
@@ -7339,6 +7625,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-11": {
@@ -7379,6 +7667,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-12": {
@@ -7419,6 +7709,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-13": {
@@ -7459,6 +7751,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-14": {
@@ -7499,6 +7793,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-15": {
@@ -7539,6 +7835,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-16": {
@@ -7579,6 +7877,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IL-17": {
@@ -7619,6 +7919,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IN-01": {
@@ -7659,6 +7961,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IN-02": {
@@ -7706,6 +8010,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IN-03": {
@@ -7746,6 +8052,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IN-04": {
@@ -7786,6 +8094,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IN-05": {
@@ -7826,6 +8136,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-IN-06": {
@@ -7866,6 +8178,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IN-07": {
@@ -7913,6 +8227,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IN-08": {
@@ -7953,6 +8269,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IN-09": {
@@ -8000,6 +8318,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-IA-01": {
@@ -8047,6 +8367,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-IA-02": {
@@ -8101,6 +8423,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-IA-03": {
@@ -8141,6 +8465,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-IA-04": {
@@ -8181,6 +8507,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KS-01": {
@@ -8228,6 +8556,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KS-02": {
@@ -8275,6 +8605,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KS-03": {
@@ -8322,6 +8654,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KS-04": {
@@ -8369,6 +8703,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KY-01": {
@@ -8415,6 +8751,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KY-02": {
@@ -8468,6 +8806,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KY-03": {
@@ -8514,6 +8854,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KY-04": {
@@ -8567,6 +8909,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KY-05": {
@@ -8627,6 +8971,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-KY-06": {
@@ -8687,6 +9033,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-LA-01": {
@@ -8741,6 +9089,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-LA-02": {
@@ -8802,6 +9152,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-LA-03": {
@@ -8870,6 +9222,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-LA-04": {
@@ -8931,6 +9285,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-LA-05": {
@@ -9034,6 +9390,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-LA-06": {
@@ -9144,6 +9502,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-ME-01": {
@@ -9184,6 +9544,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-ME-02": {
@@ -9224,6 +9586,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-MD-01": {
@@ -9264,6 +9628,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MD-02": {
@@ -9304,6 +9670,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MD-03": {
@@ -9344,6 +9712,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MD-04": {
@@ -9391,6 +9761,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MD-05": {
@@ -9431,6 +9803,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MD-06": {
@@ -9478,6 +9852,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MD-07": {
@@ -9518,6 +9894,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MD-08": {
@@ -9565,6 +9943,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-01": {
@@ -9605,6 +9985,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-02": {
@@ -9638,6 +10020,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-03": {
@@ -9685,6 +10069,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-04": {
@@ -9725,6 +10111,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-05": {
@@ -9758,6 +10146,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-06": {
@@ -9798,6 +10188,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-07": {
@@ -9831,6 +10223,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-08": {
@@ -9878,6 +10272,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MA-09": {
@@ -9918,6 +10314,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-01": {
@@ -9993,6 +10391,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-02": {
@@ -10047,6 +10447,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-03": {
@@ -10094,6 +10496,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-04": {
@@ -10141,6 +10545,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-MI-05": {
@@ -10202,6 +10608,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-06": {
@@ -10270,6 +10678,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-07": {
@@ -10317,6 +10727,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-MI-08": {
@@ -10378,6 +10790,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-09": {
@@ -10446,6 +10860,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-10": {
@@ -10507,6 +10923,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-MI-11": {
@@ -10568,6 +10986,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-12": {
@@ -10629,6 +11049,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MI-13": {
@@ -10690,6 +11112,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MN-01": {
@@ -10724,6 +11148,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null,
    "headline_call_lead": false,
    "headline_uncertain": true
@@ -10766,6 +11192,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MN-03": {
@@ -10806,6 +11234,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MN-04": {
@@ -10846,6 +11276,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MN-05": {
@@ -10893,6 +11325,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MN-06": {
@@ -10933,6 +11367,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MN-07": {
@@ -10973,6 +11409,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MN-08": {
@@ -11013,6 +11451,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MS-01": {
@@ -11060,6 +11500,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MS-02": {
@@ -11107,6 +11549,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MS-03": {
@@ -11154,6 +11598,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MS-04": {
@@ -11201,6 +11647,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MO-01": {
@@ -11248,6 +11696,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MO-02": {
@@ -11295,6 +11745,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-MO-03": {
@@ -11342,6 +11794,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MO-04": {
@@ -11389,6 +11843,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MO-05": {
@@ -11436,6 +11892,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MO-06": {
@@ -11483,6 +11941,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MO-07": {
@@ -11530,6 +11990,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MO-08": {
@@ -11577,6 +12039,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-MT-01": {
@@ -11624,6 +12088,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-MT-02": {
@@ -11678,6 +12144,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NE-01": {
@@ -11732,6 +12200,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NE-02": {
@@ -11779,6 +12249,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NE-03": {
@@ -11840,6 +12312,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NV-01": {
@@ -11894,6 +12368,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NV-02": {
@@ -11941,6 +12417,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NV-03": {
@@ -11988,6 +12466,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NV-04": {
@@ -12042,6 +12522,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NH-01": {
@@ -12082,6 +12564,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NH-02": {
@@ -12129,6 +12613,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-01": {
@@ -12169,6 +12655,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-02": {
@@ -12216,6 +12704,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NJ-03": {
@@ -12270,6 +12760,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-04": {
@@ -12310,6 +12802,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-05": {
@@ -12357,6 +12851,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-06": {
@@ -12397,6 +12893,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-07": {
@@ -12444,6 +12942,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NJ-08": {
@@ -12498,6 +12998,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-09": {
@@ -12545,6 +13047,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-10": {
@@ -12585,6 +13089,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-11": {
@@ -12632,6 +13138,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NJ-12": {
@@ -12686,6 +13194,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NM-01": {
@@ -12726,6 +13236,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NM-02": {
@@ -12766,6 +13278,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NM-03": {
@@ -12806,6 +13320,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-01": {
@@ -12846,6 +13362,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-02": {
@@ -12886,6 +13404,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-03": {
@@ -12926,6 +13446,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-04": {
@@ -12973,6 +13495,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-05": {
@@ -13013,6 +13537,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-06": {
@@ -13053,6 +13579,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-07": {
@@ -13100,6 +13628,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-08": {
@@ -13140,6 +13670,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-09": {
@@ -13180,6 +13712,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-10": {
@@ -13220,6 +13754,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-11": {
@@ -13260,6 +13796,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-12": {
@@ -13314,6 +13852,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-13": {
@@ -13354,6 +13894,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-14": {
@@ -13394,6 +13936,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-15": {
@@ -13455,6 +13999,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-16": {
@@ -13495,6 +14041,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-17": {
@@ -13535,6 +14083,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NY-18": {
@@ -13575,6 +14125,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-19": {
@@ -13615,6 +14167,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-20": {
@@ -13655,6 +14209,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-21": {
@@ -13695,6 +14251,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-22": {
@@ -13735,6 +14293,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-23": {
@@ -13775,6 +14335,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-24": {
@@ -13815,6 +14377,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-25": {
@@ -13855,6 +14419,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NY-26": {
@@ -13895,6 +14461,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NC-01": {
@@ -13942,6 +14510,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NC-02": {
@@ -13989,6 +14559,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NC-03": {
@@ -14036,6 +14608,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NC-04": {
@@ -14083,6 +14657,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NC-05": {
@@ -14124,6 +14700,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null,
    "headline_call_lead": true,
    "headline_uncertain": true
@@ -14166,6 +14744,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NC-07": {
@@ -14213,6 +14793,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NC-08": {
@@ -14260,6 +14842,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NC-09": {
@@ -14300,6 +14884,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NC-10": {
@@ -14347,6 +14933,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NC-11": {
@@ -14394,6 +14982,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NC-12": {
@@ -14434,6 +15024,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-NC-13": {
@@ -14481,6 +15073,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-NC-14": {
@@ -14521,6 +15115,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-ND-AL": {
@@ -14575,6 +15171,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-01": {
@@ -14622,6 +15220,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-02": {
@@ -14662,6 +15262,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-03": {
@@ -14702,6 +15304,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-04": {
@@ -14749,6 +15353,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-05": {
@@ -14796,6 +15402,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-06": {
@@ -14836,6 +15444,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-07": {
@@ -14876,6 +15486,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-OH-08": {
@@ -14916,6 +15528,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-09": {
@@ -14963,6 +15577,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-10": {
@@ -15010,6 +15626,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-OH-11": {
@@ -15050,6 +15668,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-12": {
@@ -15090,6 +15710,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-13": {
@@ -15137,6 +15759,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-14": {
@@ -15177,6 +15801,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OH-15": {
@@ -15224,6 +15850,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-OK-01": {
@@ -15270,6 +15898,8 @@
    "competitive": false,
    "rated_safe_now_close": true,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "flagged_since": "2026-11-12 am",
    "reported_call": null
   },
@@ -15324,6 +15954,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OK-03": {
@@ -15370,6 +16002,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OK-04": {
@@ -15423,6 +16057,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OK-05": {
@@ -15483,6 +16119,8 @@
    "competitive": false,
    "rated_safe_now_close": true,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "flagged_since": "2026-11-12 am",
    "reported_call": null
   },
@@ -15524,6 +16162,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OR-02": {
@@ -15564,6 +16204,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OR-03": {
@@ -15604,6 +16246,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OR-04": {
@@ -15651,6 +16295,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OR-05": {
@@ -15698,6 +16344,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-OR-06": {
@@ -15738,6 +16386,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-01": {
@@ -15778,6 +16428,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-PA-02": {
@@ -15818,6 +16470,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-03": {
@@ -15858,6 +16512,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-04": {
@@ -15898,6 +16554,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-05": {
@@ -15938,6 +16596,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-06": {
@@ -15978,6 +16638,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-07": {
@@ -16018,6 +16680,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-PA-08": {
@@ -16058,6 +16722,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-PA-09": {
@@ -16098,6 +16764,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-10": {
@@ -16138,6 +16806,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-PA-11": {
@@ -16178,6 +16848,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-12": {
@@ -16218,6 +16890,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-13": {
@@ -16258,6 +16932,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-14": {
@@ -16298,6 +16974,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-15": {
@@ -16338,6 +17016,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-16": {
@@ -16378,6 +17058,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-PA-17": {
@@ -16418,6 +17100,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-RI-01": {
@@ -16465,6 +17149,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-RI-02": {
@@ -16505,6 +17191,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-SC-01": {
@@ -16558,6 +17246,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-SC-02": {
@@ -16611,6 +17301,8 @@
    "competitive": false,
    "rated_safe_now_close": true,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "flagged_since": "2026-11-12 am",
    "reported_call": null
   },
@@ -16665,6 +17357,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-SC-04": {
@@ -16718,6 +17412,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-SC-05": {
@@ -16764,6 +17460,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-SC-06": {
@@ -16810,6 +17508,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-SC-07": {
@@ -16856,6 +17556,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-SD-AL": {
@@ -16902,6 +17604,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TN-01": {
@@ -16977,6 +17681,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TN-02": {
@@ -17031,6 +17737,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TN-03": {
@@ -17106,6 +17814,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TN-04": {
@@ -17160,6 +17870,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-TN-05": {
@@ -17214,6 +17926,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TN-06": {
@@ -17268,6 +17982,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TN-07": {
@@ -17322,6 +18038,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TN-08": {
@@ -17404,6 +18122,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TN-09": {
@@ -17458,6 +18178,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-TX-01": {
@@ -17498,6 +18220,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-02": {
@@ -17538,6 +18262,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-03": {
@@ -17578,6 +18304,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-04": {
@@ -17618,6 +18346,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-05": {
@@ -17658,6 +18388,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-06": {
@@ -17698,6 +18430,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-07": {
@@ -17745,6 +18479,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-08": {
@@ -17785,6 +18521,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-09": {
@@ -17825,6 +18563,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-10": {
@@ -17865,6 +18605,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-11": {
@@ -17905,6 +18647,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-12": {
@@ -17945,6 +18689,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-13": {
@@ -17985,6 +18731,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-14": {
@@ -18025,6 +18773,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-15": {
@@ -18065,6 +18815,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-TX-16": {
@@ -18105,6 +18857,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-17": {
@@ -18145,6 +18899,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-18": {
@@ -18185,6 +18941,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-19": {
@@ -18225,6 +18983,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-20": {
@@ -18265,6 +19025,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-21": {
@@ -18305,6 +19067,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-22": {
@@ -18345,6 +19109,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-23": {
@@ -18392,6 +19158,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-24": {
@@ -18432,6 +19200,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-25": {
@@ -18472,6 +19242,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-26": {
@@ -18519,6 +19291,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-27": {
@@ -18559,6 +19333,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-28": {
@@ -18606,6 +19382,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-29": {
@@ -18646,13 +19424,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-30": {
    "key": "HOU-TX-30",
    "name": "TX-30",
    "chamber": "House",
-   "status_text": "New member elected. Democratic gain.",
+   "status_text": "Incumbent retired to run for U.S. Senate. Democratic hold.",
    "candidates": [
     {
      "name": "Frederick Haynes III",
@@ -18669,7 +19449,7 @@
      "winner": false
     }
    ],
-   "incumbent_party": "None (new se",
+   "incumbent_party": "D",
    "called": true,
    "winner": {
     "name": "Frederick Haynes III",
@@ -18686,6 +19466,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-31": {
@@ -18733,6 +19515,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-32": {
@@ -18773,13 +19557,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-33": {
    "key": "HOU-TX-33",
    "name": "TX-33",
    "chamber": "House",
-   "status_text": "Incumbent retired to run for U.S. Senate. Democratic hold. | Incumbent lost renomination. Democratic loss.",
+   "status_text": "Incumbent lost renomination. Democratic hold.",
    "candidates": [
     {
      "name": "Colin Allred",
@@ -18813,6 +19599,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-34": {
@@ -18867,6 +19655,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-35": {
@@ -18907,6 +19697,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-36": {
@@ -18947,6 +19739,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-37": {
@@ -18987,6 +19781,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-TX-38": {
@@ -19034,6 +19830,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-UT-01": {
@@ -19088,6 +19886,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-UT-02": {
@@ -19149,6 +19949,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-UT-03": {
@@ -19217,6 +20019,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-UT-04": {
@@ -19271,6 +20075,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VT-AL": {
@@ -19345,6 +20151,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-01": {
@@ -19385,6 +20193,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-VA-02": {
@@ -19439,6 +20249,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-VA-03": {
@@ -19493,6 +20305,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-04": {
@@ -19540,6 +20354,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-05": {
@@ -19587,6 +20403,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-06": {
@@ -19627,6 +20445,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-07": {
@@ -19695,6 +20515,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-08": {
@@ -19749,6 +20571,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-09": {
@@ -19789,6 +20613,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-10": {
@@ -19836,6 +20662,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-VA-11": {
@@ -19883,6 +20711,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-01": {
@@ -19923,6 +20753,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-02": {
@@ -19963,6 +20795,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-03": {
@@ -20003,6 +20837,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-04": {
@@ -20043,6 +20879,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-05": {
@@ -20083,6 +20921,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-06": {
@@ -20123,6 +20963,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-07": {
@@ -20163,6 +21005,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-08": {
@@ -20203,6 +21047,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-09": {
@@ -20243,6 +21089,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WA-10": {
@@ -20283,6 +21131,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WV-01": {
@@ -20330,6 +21180,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WV-02": {
@@ -20370,6 +21222,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WI-01": {
@@ -20410,6 +21264,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "HOU-WI-02": {
@@ -20443,6 +21299,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WI-03": {
@@ -20497,6 +21355,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "HOU-WI-04": {
@@ -20544,6 +21404,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WI-05": {
@@ -20584,6 +21446,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WI-06": {
@@ -20645,6 +21509,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WI-07": {
@@ -20685,6 +21551,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WI-08": {
@@ -20725,6 +21593,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "HOU-WY-AL": {
@@ -20785,6 +21655,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-FL-S": {
@@ -20838,6 +21710,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-OH-S": {
@@ -20898,6 +21772,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "SEN-AL": {
@@ -20944,26 +21820,28 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-AK": {
    "key": "SEN-AK",
    "name": "Alaska Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent advanced to general.",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Mary Peltola",
      "party": "D",
      "party_label": "Democratic",
-     "pct": 49.9,
-     "winner": false
+     "pct": 50.1,
+     "winner": true
     },
     {
      "name": "Dan S. Sullivan",
      "party": "R",
      "party_label": "Republican",
-     "pct": 46.0,
+     "pct": 45.8,
      "winner": false
     },
     {
@@ -20982,31 +21860,37 @@
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Mary Peltola",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 50.1,
+    "winner": true
+   },
    "leader": {
     "name": "Mary Peltola",
     "party": "D",
     "party_label": "Democratic",
-    "pct": 49.9,
-    "winner": false
+    "pct": 50.1,
+    "winner": true
    },
-   "margin_pts": 3.9,
+   "margin_pts": 4.3,
    "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "reported_call": null,
-   "headline_call_lead": true,
-   "headline_uncertain": true
+   "won_against_rating": false,
+   "flip": true,
+   "reported_call": null
   },
   "SEN-AR": {
    "key": "SEN-AR",
    "name": "Arkansas Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Tom Cotton",
@@ -21053,13 +21937,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-CO": {
    "key": "SEN-CO",
    "name": "Colorado Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "John Hickenlooper",
@@ -21127,13 +22013,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-DE": {
    "key": "SEN-DE",
    "name": "Delaware Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Chris Coons",
@@ -21173,13 +22061,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-GA": {
    "key": "SEN-GA",
    "name": "Georgia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Jon Ossoff",
@@ -21219,13 +22109,15 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-ID": {
    "key": "SEN-ID",
    "name": "Idaho Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Jim Risch",
@@ -21279,6 +22171,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-IL": {
@@ -21332,6 +22226,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-IA": {
@@ -21385,26 +22281,28 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "SEN-KS": {
    "key": "SEN-KS",
    "name": "Kansas Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost re-election. Democratic gain.",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Adam Hamilton",
      "party": "D",
      "party_label": "Democratic",
-     "pct": 51.0,
+     "pct": 51.2,
      "winner": true
     },
     {
      "name": "Roger Marshall",
      "party": "R",
      "party_label": "Republican",
-     "pct": 46.0,
+     "pct": 45.8,
      "winner": false
     },
     {
@@ -21421,23 +22319,25 @@
     "name": "Adam Hamilton",
     "party": "D",
     "party_label": "Democratic",
-    "pct": 51.0,
+    "pct": 51.2,
     "winner": true
    },
    "leader": {
     "name": "Adam Hamilton",
     "party": "D",
     "party_label": "Democratic",
-    "pct": 51.0,
+    "pct": 51.2,
     "winner": true
    },
-   "margin_pts": 5.0,
+   "margin_pts": 5.4,
    "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "SEN-KY": {
@@ -21491,6 +22391,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-LA": {
@@ -21537,13 +22439,15 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-ME": {
    "key": "SEN-ME",
    "name": "Maine Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost re-election. Democratic gain.",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Troy Jackson",
@@ -21583,13 +22487,15 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "SEN-MA": {
    "key": "SEN-MA",
    "name": "Massachusetts Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Ed Markey",
@@ -21643,6 +22549,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-MI": {
@@ -21717,6 +22625,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-MN": {
@@ -21777,13 +22687,15 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-MS": {
    "key": "SEN-MS",
    "name": "Mississippi Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost re-election. Democratic gain.",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Scott Colom",
@@ -21830,6 +22742,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "SEN-MT": {
@@ -21890,13 +22804,15 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-NE": {
    "key": "SEN-NE",
    "name": "Nebraska Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Pete Ricketts",
@@ -21957,6 +22873,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-NH": {
@@ -22010,13 +22928,15 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-NJ": {
    "key": "SEN-NJ",
    "name": "New Jersey Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Cory Booker",
@@ -22070,13 +22990,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-NM": {
    "key": "SEN-NM",
    "name": "New Mexico Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Ben Ray Luján",
@@ -22116,6 +23038,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-NC": {
@@ -22176,6 +23100,8 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "SEN-OK": {
@@ -22243,13 +23169,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-OR": {
    "key": "SEN-OR",
    "name": "Oregon Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Jeff Merkley",
@@ -22303,13 +23231,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-RI": {
    "key": "SEN-RI",
    "name": "Rhode Island Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Jack Reed",
@@ -22356,6 +23286,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-SC": {
@@ -22416,13 +23348,15 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": true,
+   "flip": true,
    "reported_call": null
   },
   "SEN-SD": {
    "key": "SEN-SD",
    "name": "South Dakota Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Mike Rounds",
@@ -22462,13 +23396,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-TN": {
    "key": "SEN-TN",
    "name": "Tennessee Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Bill Hagerty",
@@ -22564,6 +23500,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-TX": {
@@ -22617,13 +23555,15 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": true,
    "reported_call": null
   },
   "SEN-VA": {
    "key": "SEN-VA",
    "name": "Virginia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Mark Warner",
@@ -22663,13 +23603,15 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-WV": {
    "key": "SEN-WV",
    "name": "West Virginia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Shelley Moore Capito",
@@ -22716,6 +23658,8 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   },
   "SEN-WY": {
@@ -22762,59 +23706,47 @@
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
+   "won_against_rating": false,
+   "flip": false,
    "reported_call": null
   }
  },
  "news": {
-  "SEN-AK": [
+  "HOU-AK-AL": [
    {
-    "title": "Peltola expands lead over Sullivan in latest ballot drop",
-    "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQllDWGk0S2VIdjVoc2drVXg3NmNzMHBLckhVQlhodHg1TE1wNkVhdWhYbXQtQi13VURrbW00cXIzQ0VyRGFqaWRSS2UzdVNMeWg4M2ZJdVRrd2R3cldLRnhhSG9aYXAtUXB1a0FwRG53X2RmZG1OcDl3T1Bod3liUXhHSzJ2d9IBiwFBVV95cUxOZ1lOOXU5RVVyMHlBXzAxQWhlRjlMMzhBSGlTMXVWUnNrOHRlQ1dxU05ocTdWRzBTMWdyWGRFUUphcFFsd3lzTmRLQXBvM3lKRUVuajNTRmdaQklqMndxS2t2ZUZjb1dBeWF5b3prSWpueEtzN3hqNGlhWDJReFJxMnpSanBiX3owdnR3?oc=5",
-    "published": "2026-11-17T03:49:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Alaska Senate race heads for Democratic win amid Trump threats",
-    "outlet": "Democracy Docket",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRW1GU2dwUlpjUWNoUy05cGhhZGcwckhvNVdsX3o5d1RTNHpDVXVJRzZKODgzalM0VTIwbW9IenQ2cmVHSmotNU1FVEVjcWljMjhMSEE5RWlMLUIxdUZoYmdfbnlaM3FkR3VsaGxaeTJPZW1veEItbGlkbFRnLXBCR1Q4aks3WEItN2hFRU5QVHhqMkZmMmRPQ09Wdnd5ZU1FNGU5SzRGV2ktT2U2NjhPWU5HT2JwSUFDMnI4VQ?oc=5",
-    "published": "2026-11-16T21:17:34+00:00",
+    "title": "Democrats secure 56 seats in US Senate as Mary Peltola wins Alaska seat",
+    "outlet": "DW.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRzJhRjh6RVNja3RlUm1tRTdQNHdsSjFUWlJHTDRhVjZKUkNJU1hCdlFPTHY3TVc0WjZHVUstRFZKOGlIVjBVYW1HdHR3R2NDV0x2SDdKRkZMV3o3R21DbXd0VHRXNTlUWkc1T0ltR0lJVEVoYzhhZlBkTkJFR2gwREVLVWdWR2FoZUNKM1Vva01zdTJETHN0R1pmRdIBmwFBVV95cUxOTHAzam1NZHF1eGhCUFJLY1FpR3Q1dEpnbGhfOVREeUV2WGVDYnB5VXlZOExRTHlSOFc4dXdCVVpUX1FmQVg5RWxkbjNZdnQzYTNrVnFrLUk4XzhCMnJudXI5MVcwN0NEWkZsYWZhTzU2a3p6c3luZWNNYmRjd3NkX09Ba1huM2ROMVRxMG1QTDd0bjJpVUJHaHpKOA?oc=5",
+    "published": "2026-11-18T07:06:26+00:00",
     "flags": [
      "call"
     ]
    },
    {
-    "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
-    "outlet": "BBC",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vbXFXUWsxanRDclZUbV9abTdzc2VfT0xBSjU1d0JDUGI4bUVRZ0Ryc2dweWRoOVF5b2o0bGlkbkdXXzd1S2sxdFRtWnNQUnIyZktFMzg5dlJCUUk?oc=5",
-    "published": "2026-11-17T02:38:08+00:00",
-    "flags": []
-   }
-  ],
-  "HOU-AK-AL": [
-   {
-    "title": "Peltola expands lead over Sullivan in latest ballot drop",
-    "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQllDWGk0S2VIdjVoc2drVXg3NmNzMHBLckhVQlhodHg1TE1wNkVhdWhYbXQtQi13VURrbW00cXIzQ0VyRGFqaWRSS2UzdVNMeWg4M2ZJdVRrd2R3cldLRnhhSG9aYXAtUXB1a0FwRG53X2RmZG1OcDl3T1Bod3liUXhHSzJ2d9IBiwFBVV95cUxOZ1lOOXU5RVVyMHlBXzAxQWhlRjlMMzhBSGlTMXVWUnNrOHRlQ1dxU05ocTdWRzBTMWdyWGRFUUphcFFsd3lzTmRLQXBvM3lKRUVuajNTRmdaQklqMndxS2t2ZUZjb1dBeWF5b3prSWpueEtzN3hqNGlhWDJReFJxMnpSanBiX3owdnR3?oc=5",
-    "published": "2026-11-17T03:49:00+00:00",
-    "flags": []
+    "title": "Mary Peltola will oust incumbent Republican Dan Sullivan in Alaska Senate race giving Democrats 56 seats",
+    "outlet": "CNN",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmbS11SDdYWlZsSkp5dHNnU1JrbktwRVNLS2pma0p6aWtyWXRjNzJZZ2dnMUszeE12UnZqRzhWbFJJT0p0SWhYWUtNN0tneTRJdnRUa3gzVVBuWnpXWkFUczdPLUZxUlllZUZ6UGR6dmhzeHVqZU1QRUN6RQ?oc=5",
+    "published": "2026-11-18T03:14:00+00:00",
+    "flags": [
+     "call"
+    ]
    },
    {
-    "title": "Final 2026 midterm results: Every race that hasn't been called yet — and where things stand right now",
-    "outlet": "Yahoo",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUTRjb29BWW1ZUmxZRFUxUXFpV2gwUjltWDE1NTJnRnFRT3QxWGlTRlo0LUVmRkhWYmM4dGJmVG9pYnhwczZObWpESkxtMlg0Nl95MEp2YXRBT1JIb280cWwxU0trREt3VGZKSzNlYlNsMWpHZS11V21xRXRvTlA5ZEFQd2J0bEVWM3o3R3FjTTlfRFFMZS1zNXlhVmcwLThBeWtnOVI3YUdfb181TldqY3o4b1JuMHcxZ2RjMUMtRTBKaHhjcUp0bWdTcmFudU8y?oc=5",
-    "published": "2026-11-16T21:10:34+00:00",
-    "flags": []
-   },
-   {
-    "title": "The Alaska Race That’s Closer Than the First-Choice Numbers Suggest",
-    "outlet": "Newsweek",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS2F4N0dlbGozSEljZ25jWVFIVlRib0lrYU9WX1owSGZ3VHZpcU5YUE5feEhucncxeTYzUzFzWGc5cFloTVdyTzZXeDNsejhOWFB3QmQ1U20wY196dzM2LUxScTZGSEpPX2w5YkI1MENkS0lCR2FZME0xTC1VcjJaaXA0MWNYcDliMzBaVzdPbU5pc0ZUbGVQbzVkUW9OdlBPaWc?oc=5",
-    "published": "2026-11-16T04:50:00+00:00",
+    "title": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
+    "outlet": "The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRnFON3cySVBrTmdNQlVaSjczcExoaEF6UzR2UXNFcGZpb2oyZFU2Y0M1MTIzd01EeXRzTVIwN3FuV24ycWZuQjZPYlMtTmpxZm5Tc1VYa3h6UzJVTk1Qb3ZLT1I4OW9tRVZsZjFDZ3Z0YXhxdFlwczd0RjdDT0E1RkhCeGVIdw?oc=5",
+    "published": "2026-11-18T03:25:00+00:00",
     "flags": []
    }
   ],
   "HOU-MN-01": [
+   {
+    "title": "Minnesota 1st Congressional District 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
+    "published": "2026-11-17T22:11:02+00:00",
+    "flags": []
+   },
    {
     "title": "State Canvassing Board to certify Minnesota election results Thursday",
     "outlet": "KTTC",
@@ -22825,17 +23757,10 @@
     ]
    },
    {
-    "title": "Minnesota 1st Congressional District 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
-    "published": "2026-11-16T14:27:27+00:00",
-    "flags": []
-   },
-   {
-    "title": "Publicly funded recount likely in MN 1st Congressional race",
-    "outlet": "WIZM 92.3FM 106.7FM 1410AM",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ3BuNkFtSS1tS3RYWG9JUXpJcFlWa2JXeHp6ZDVMSmFrbGFSc0h2UU1zb0ExVllDNGdia0dDenlCdkQ0cHJxU25WeElsYkJyT1R0WUczdHJaWWkzVE9SRURnYnE1NTg3QXQxLVY3a0lkYXNXeUVuS1FJbjUwTklmRXFRaGN0OXJ6RUFOUENQMlE3R2tpREt4TmxKTHrSAaIBQVVfeXFMUFZ6WmJycy10M1RZd0VsWHRqcjl6bmVTZmF2NUFyaVA5LUhoZ2hiejEwVjJOUmh6MlRHLUhzNEtEMnhZckRiTFpBQU9lOG8yc25jVlh4REJCald5akFvZThqb3hnRDhWdzcxN1ZNVlZrVFBqUE85c3BpbGlXMTJRcFI5S1R1d1hTOVdENFFYSy1JSWZ3VmU1aGY3SlJHaEhVVjhn?oc=5",
-    "published": "2026-11-16T03:03:00+00:00",
+    "title": "Jake Johnson in DC while possible recount with Brad Finstad awaits",
+    "outlet": "5 EYEWITNESS NEWS",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRXBIY3NTamI0RG1FNkxHbUIzWFZ0RkZGUG43X2YxT1M1YTNFYW8wUXJWT0g3YUtYazJ5UWd1cmRLRVdtbGpuU0tGcnVGd0VVZHNVSGFMQU5NNk54ZnE2Xy13cWtQcmd1bk5yNGN0NjlSMVFWelV6cFQwRXhpenBYOXhsdElyRXk5TUd6d1dyR1RtV1M3cFNSMVdCMWo2QWFzbDlMc19n?oc=5",
+    "published": "2026-11-16T23:07:47+00:00",
     "flags": [
      "uncertain"
     ]
@@ -22861,60 +23786,49 @@
     ]
    },
    {
-    "title": "Who won North Carolina's congressional races",
-    "outlet": "Axios",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM3RCQ0kxOHlnTlExekk3NFpWcmROdDRxWU1xOTJIWGl3bVZmRHU4dTZVVEswZ2JqRlFFcEc1MUd1djJQT2ZtMW9INzVSTVZmSy0zRkRBTlc4a3hJQXJ5b2ZYS0FEN3o0aV85T2VTcF9PT19vRUdnbjRIRTUzdmxJbm9oT2JkUlJIa2w3SEctY3pIN2UxSUNSSjFSMVhfVkJncmxB?oc=5",
-    "published": "2026-11-16T23:59:43+00:00",
+    "title": "With House Democratic Majority Still Growing, Recounts Are Starting in Closest Races",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQXhiQU0xLWh5R1VCWHBwc0xiWFdwaVBPaENJWUlpNEtIQ0tHb21pS0o3NVY2bmVHOTFGeUNqdmZMcFg5bFNOa2hlb3pnQjljdUItdGhUazdPRGRja01RbE5saFZwMzVjR1FwOS1vWVVoc3gybFFCdW1yMWQ4Y1l3RlotZG9nODNxQUVBWmZTaHQtQ1h0V2xOVHQydDVya1U?oc=5",
+    "published": "2026-11-17T21:11:19+00:00",
     "flags": [
-     "call"
+     "uncertain"
     ]
    }
   ],
-  "HOU-NC-07": [
+  "SEN-AK": [
    {
-    "title": "GOP’s Rouzer retains U.S. House seat",
-    "outlet": "Spectrum News",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMTA0NFo4UVF4R21id1ZvMXFkT09tV0h4MEJUelpLUGVKX296c3NxVng3MGpvNTZLV1NOSGYzeUdrV0dsaW1MV1BJTGtfb090aE1yMnJXUHlaZGktbGR0ckJKUWd1Yld3N0Nkcl8tTVJIMDM1dFJYbnpxRXk3Y3lkbFhubUIwX09uR19wWHo4WQ?oc=5",
-    "published": "2026-11-16T22:46:00+00:00",
+    "title": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
+    "outlet": "The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRnFON3cySVBrTmdNQlVaSjczcExoaEF6UzR2UXNFcGZpb2oyZFU2Y0M1MTIzd01EeXRzTVIwN3FuV24ycWZuQjZPYlMtTmpxZm5Tc1VYa3h6UzJVTk1Qb3ZLT1I4OW9tRVZsZjFDZ3Z0YXhxdFlwczd0RjdDT0E1RkhCeGVIdw?oc=5",
+    "published": "2026-11-18T03:25:00+00:00",
     "flags": []
    },
    {
-    "title": "Democratic challenger Kimberly Hardy concedes close Congressional race to incumbent Republican David Rouzer",
-    "outlet": "WHQR",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaU1wRGtqN1ZCbldQcWRDbzNNRk83SjA4aFRmSi1jb3BzZjc3clhmTTBWVmc4Z3luc0VXX21jeThvYU42UjNuWlZFVXBfMGJDTm51cWxaSmdieG11WlBsVlFCcTJEZ0VDSGtud18zV20xVl9aRTVsRzJjU2tFTTFxQ2pxR3pvWDlzbGdKSHUxNWd2OUNpZmhTZ21SNk4xaEcyUWw5WTFGSVVKVFhsX0lxQ0Q4LXVKd2Fvako0X0xpWDUySXRxWk5Vc2pBUzZRTWVkN284MExkQTcxV3gtYlE?oc=5",
-    "published": "2026-11-16T17:44:00+00:00",
+    "title": "Democrat Mary Peltola unseats Republican in Alaska Senate race",
+    "outlet": "BBC",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nckx5RlNETjRLdDFITGl6UTVzRWgwekx3Y0VFZXdrTEVoWjJoU2xSbFkzeWxkb3VpSzd6aDk5QVIzQ2d0Ukh1aWhOTFhfYTM3eFR5OXZnb0FsNXM?oc=5",
+    "published": "2026-11-18T07:00:25+00:00",
     "flags": [
      "call"
     ]
    },
    {
-    "title": "9 House races remain too close to call. Three of them are in North Carolina",
-    "outlet": "13newsnow.com",
-    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQeTZvMHV2S0FVT050WnlJMjlNUUNJM0tEQlFHY1ZDRVNUT3JEWHJyS1RNRkN4bVlWYnJzY0YyRUY5N0pfMUotMjNFdENlcVBlMmRMTXZlZ3dyRjBpMlluVTZyOExHVXVoLWJNekRJSkdYLUNhRzRlX2cyWlFPYUtoNk8tal9DaG02UjdCb1lsdExLSWlENjBDSTdoQU5GMGJFdFd4ejNZR1doYzV6V0dySHptTDNVcmpBdk9BT3RFODZYUnZVdFB2LUhCRzJQOG1TWGNaLUpmejB3RVV6dXVmbWtSaEZ2N0xwYUd0alFaOU42U0dSWGpxaFBoMnNvLWctVkl4TEY3MDJManF6MzcyOU12OA?oc=5",
-    "published": "2026-11-16T19:48:00+00:00",
+    "title": "Mary Peltola will oust incumbent Republican Dan Sullivan in Alaska Senate race giving Democrats 56 seats",
+    "outlet": "CNN",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmbS11SDdYWlZsSkp5dHNnU1JrbktwRVNLS2pma0p6aWtyWXRjNzJZZ2dnMUszeE12UnZqRzhWbFJJT0p0SWhYWUtNN0tneTRJdnRUa3gzVVBuWnpXWkFUczdPLUZxUlllZUZ6UGR6dmhzeHVqZU1QRUN6RQ?oc=5",
+    "published": "2026-11-18T03:14:00+00:00",
     "flags": [
-     "uncertain"
+     "call"
     ]
    }
   ],
   "GOV-AK": [
    {
-    "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
-    "outlet": "The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaHpOelhJaHVyV3hfZ1Qwa1FJM0w2aE45emVoZFZnOFdVb0xuMTdCN2VXSkYtRTV2VlN3QWhXQUpwaHh2YUs3ZUxWazd6eXJOV0p1QUhPSVJMdlBuTWNlalZKQllwazZiTDhOOTZhVDBLeFMzcmlTTmxDM29fbUstSHpUSWxyNkVzVXhmcTNyVUM0aVVWa05QazZCUFJ5ZUdxcHBR?oc=5",
-    "published": "2026-11-14T16:58:00+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
-    "outlet": "NPR",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYi0wWjZpZmFyTS0xMlZ2eEF2YXJzTDhBd3E0RXhpTWR1TzlGSEUteldFZUNYNmNRSlE5NEpZMFZFb1daVkZVS0pvUm5TSWFpZklPRzZfVkZ1TTh0cEdFWUJlZFRkSmF2ODR5MWgzTkllU1ZQQ19GSl9zcW5lZ21MMTI1cXhjdHJRT1JfWGZYWnVfM3IzM2hyUURTU21qOHMtd0E?oc=5",
-    "published": "2026-11-14T13:08:05+00:00",
-    "flags": [
-     "uncertain"
-    ]
+    "title": "Alaska presumptive Gov.-elect Kreiss-Tomkins announces transition team leaders",
+    "outlet": "Alaska Beacon",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk1MNmxrb0dMbjRzTUFtSG9uQUNWNExEbUxrcnlWZXJKamV4cHNVLVp5eXRMcXhMbmc3bDJkbG1hcVlFMC1vNWtwSzBIU2pmTkUwZ1lvX0R2S3g2T3VlTXk2MUZBeEl3ZHJySGluZVJydWlVNjRWem5iRE84TDNPbl84THFLYzVOYzVveVdsT0F0OFlNcl9zWDVZbXg0OGxVbTdNVHJUZVRXNWRjNjltbHc4WXA?oc=5",
+    "published": "2026-11-17T22:34:32+00:00",
+    "flags": []
    }
   ],
   "GOV-AZ": [
@@ -22928,10 +23842,10 @@
   ],
   "GOV-FL": [
    {
-    "title": "2026 Governor Election Results",
+    "title": "Florida Governor Election Live Results 2026",
     "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZWHJqVGFrR1hzNVFwNjI1VVNqbzhXaWE4SVI5VEFYTDlSWllnY19Ha3E2WEFkMXRqaXludDhvUXVQaTR2NC1WeWFWNWpZQ3cwcWc0RXNTM3QtOFFKTGRLaTBENUNMXzlfd1RFUg?oc=5",
-    "published": "2026-11-17T10:42:58+00:00",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56M1ctUTItd2VUUXI1M3czdmZCc2o5eG5wdG1yODEyWEVMUEprSW84X194TUpfNTRyekUzWWpBVVZGdGFqUmRxY29fWmptVTZrdjlib3lvaTBwamJycTlDYmpOaE9DU1JIT05ub0lPb0hUN0UxdV9r?oc=5",
+    "published": "2026-11-16T08:00:00+00:00",
     "flags": []
    }
   ],
@@ -22940,30 +23854,51 @@
     "title": "2026 Governor Election Results",
     "outlet": "AP News",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZWHJqVGFrR1hzNVFwNjI1VVNqbzhXaWE4SVI5VEFYTDlSWllnY19Ha3E2WEFkMXRqaXludDhvUXVQaTR2NC1WeWFWNWpZQ3cwcWc0RXNTM3QtOFFKTGRLaTBENUNMXzlfd1RFUg?oc=5",
-    "published": "2026-11-17T10:42:58+00:00",
+    "published": "2026-11-18T10:40:25+00:00",
     "flags": []
    },
    {
     "title": "Georgia Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR1ZHbTQwX0FGU1VyMXZlb0JqdV9HbDBobEtwLXZUN3VfbEFiTEd5MzJSUS11RTlGemstUzhTc3pCbXNpeTZTdUpWNURnZWlmT1FNVm9ZODkyRTVVcVZPS3p3Z3dvOTJqUXhtbkFFcVd6RVFSa09xT01DdVZjeHdnc2diVHA3dW9kTEIySTR3?oc=5",
-    "published": "2026-11-16T12:34:00+00:00",
+    "published": "2026-11-17T14:07:00+00:00",
     "flags": []
    }
   ],
-  "GOV-IA": [
+  "GOV-IA": [],
+  "GOV-KS": [
    {
-    "title": "2026 Iowa Midterm Election Results",
+    "title": "Kansas Governor Midterm Election 2026: Live Results",
+    "outlet": "NBC News",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoU0N5dFZuYlNOd3AxS3d0U0MxTVU3VkxGWWNaZEZDRDFoSGlBR1N6bHR0ZFpyRXF4RGZvNS05YkJlVmF2dFFSa1JHbjhzNml5SUZkUmttVlNwU3hCRGxxbFRxbVJGT2drLVNXbk90WlZlVmhHTVVsbUVzbw?oc=5",
+    "published": "2026-11-18T04:42:29+00:00",
+    "flags": []
+   },
+   {
+    "title": "Kansas Governor Election Live Results 2026",
     "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWekRBUExpay0xSTFGd1MzcU5kdTlyeFhQZFJFNmpialpkU1J1VDVNcHpjU2tvcURhSFZIUHJQSmVMRkdCVHIzWlNJQl9qVm5SYWVPQVBZQUZvTHRSby1PUjRHTkVUUmc?oc=5",
-    "published": "2026-11-17T03:43:32+00:00",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nWHBNNWZibldPNElQNFdGbHpZVmdlaFY0em9Va3BrSlZ6djdaV0ZYQWdXLVIyQm1rb2xpeVdueDdvRmRZdjc3SEJ4WFk0V1ZqWW1zUG12eEpoVmxnbXd1SlpITzBEMHVlZVNyTlE0ekYwVmRQS2c?oc=5",
+    "published": "2026-11-16T08:00:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "2026 Kansas Midterm Election Results",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXeGFlelVhS2FKNWFyU0U2RlY4WUtGaVdFWlB6MGRPQ1JCSk1oT2lPTHJXYXFRQ3d3cTR4akNQQ2lDc3BydUxMd2VpeWM1SVMwelhXNklRa3dSN1MzYmJNMlFsMkE0ZzA1U2c?oc=5",
+    "published": "2026-11-18T06:57:20+00:00",
     "flags": []
    }
   ],
-  "GOV-KS": [],
   "GOV-MI": [],
   "GOV-MN": [],
   "GOV-NE": [
+   {
+    "title": "Nebraska Governor Election Live Results 2026",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90d0UtcVQ3Nm9FTm5NZXZPNDRTLUdNSjZBQjJWSTVCOW9DWjRXanJkTHpxTHI1WE50bUloWV93M1pCRjdKWEVnc081M0RKMUZOQ3B6SDNQckR6SVkwNC1WTzhUR3R0a1k0UUFLT1YtT0luTHF5TlpxeA?oc=5",
+    "published": "2026-11-16T08:00:00+00:00",
+    "flags": []
+   },
    {
     "title": "Nebraska Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
@@ -22979,10 +23914,17 @@
   "GOV-OR": [],
   "GOV-TX": [
    {
-    "title": "The Criminal Justice Election Results You Might Have Missed",
-    "outlet": "The Marshall Project",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTZGYlFIckZ6Q1FFNkdXRk1UaWc4a254UjMzTnI3VzctVGN0dHZlcl9hWU1jc0VpZTVKUVJxUklaR3lvcW54bk95V1NjMWFMWmFLUzBSb3U2XzZDS2pJOXloWVl6clp2dHl6YXNiSGFWTW5KRjZ1V2RsMlhNU2RsZXI5LTlaWDVtcE9STXNB?oc=5",
-    "published": "2026-11-14T17:00:00+00:00",
+    "title": "Texas Governor Election Live Results 2026",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WbGdyZjVxQ2FzZWM1aVNqcnZfcmNxM2NBS2J2WWg1UHU0OWNEcVNUaVkyTF9EN1BSX2phcmwxNl9VVUJpTjUxdWEzNDJKWWxzSW5aNnFQVDZnVVpHVkppU0dUZ3NmNDNxMzdSZ3N4ckFGS1dL?oc=5",
+    "published": "2026-11-16T08:00:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Don’t blame the Texas blue wave on ex-Californians",
+    "outlet": "CalMatters",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SaHlPS2owRmgwY3NDOFBkcmpUZFJwSVU0a0dpZEMySk9xb1FOMTZsemZSeEpFdzVBUURUb0k0cjNSa1lsUzNIUDl3NUtLZk85dl9idGN2RkEwYm83Vy10UEU0NzZ3UXBSN0g4cnVB?oc=5",
+    "published": "2026-11-16T14:00:00+00:00",
     "flags": []
    }
   ],

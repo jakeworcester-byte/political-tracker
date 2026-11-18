@@ -303,7 +303,23 @@
  },
  "raw_poll_count": 8,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-18",
+   "race": "SEN-KS",
+   "races": [
+    "SEN-KS"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Kansas U.S. Senate Election 2026 Live Results: Adam Hamilton Wins",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VLXM4M0xvcmJZMFNweWd5SGQ5MGg5OE9hMFBqLTN0TE1GakUwSGhfZFhpYUVILXFrMGFHSVFVTVE5QkFxd3lMZWhqY05wT2xCazdrSnNIZFQyc21LOWdDV2g1SW5DS0tQUzJSWVEwOHlCRnBYUUtTQw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-KS",
  "history": [
   {
@@ -493,6 +509,11 @@
   },
   {
    "date": "2026-11-17",
+   "c": 0,
+   "p": -4.4
+  },
+  {
+   "date": "2026-11-18",
    "c": 0,
    "p": -4.4
   }
