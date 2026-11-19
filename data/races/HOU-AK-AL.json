@@ -92,7 +92,52 @@
  "poll": null,
  "raw_poll_count": 8,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-19",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "New York Times Politics",
+   "lean": "center-left",
+   "title": "Alaska Republican Narrowly Defeats Independent House Candidate",
+   "url": "https://www.nytimes.com/2026/11/18/us/politics/alaska-nick-begich-wins-house-race.html",
+   "summary": "Representative Nick Begich III overcame an independent challenger in a year in which Democrats made historic gains but third-party candidates had little success.",
+   "relevant": true
+  },
+  {
+   "date": "2026-11-19",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Republican Nick Begich wins re-election to Alaska’s U.S. House seat, a rare bright spot for the GOP",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjZJTkMzZTVMejZ5QXhmNVlWX3VXdy1XNEV3TTdLWjJKN2FXWWlqQktuRURyMDQ1V2prTHZBQm9YaVpRWnpPZzlkUjd3T0NsZkpvOVBjZF9ON3lrV1VPMVhMNWxqdGtPX1BTTlpYUXlfUE5kZ0FMUHk2NG5BYTZnRVJJTmVMMUNYeUU0WXRsT0VVaUtHcmY5d2o1eTFocVJuSnJLWnExUlU2Nk1QWTllMGxybURMblZnS2lGZ0ZLMThrZmlyb29r?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
+   "date": "2026-11-19",
+   "race": "HOU-AK-AL",
+   "races": [
+    "HOU-AK-AL"
+   ],
+   "type": "reporting",
+   "source": "Alaska Beacon",
+   "lean": "unrated",
+   "title": "Alaska re-elects Republican Nick Begich to US House, showing limits of ‘blue tsunami’",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcmFTOTlUUWNDdm1USW5JaVE0Yy1IcEtLM3RJc3RqbklndDhLZWpTS09UTkdrSFNkZlR2WmNoUTFGTlMtS0FXMHNsd193aGhkcUY3TVp1Tk9qaEhheS00SXNjZllUMDIzUmY4TFd0RWlDSlJRd3pIY0FZRmlLV3o0S1AwbjljQkhucTJCUEZmR0FmenFreEg2UTA0RE5IQ2Q0eURRYTRIazdKazlnR0VRc09Xc01OLUJzdHYw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-AK-AL",
  "history": [
   {
@@ -287,6 +332,11 @@
   },
   {
    "date": "2026-11-18",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-19",
    "c": 2,
    "p": null
   }

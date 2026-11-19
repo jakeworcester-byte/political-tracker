@@ -181,23 +181,7 @@
  },
  "raw_poll_count": 3,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-13",
-   "race": "HOU-OH-07",
-   "races": [
-    "HOU-OH-07"
-   ],
-   "type": "reporting",
-   "source": "Cleveland.com",
-   "lean": "unrated",
-   "title": "Newly elected Ohio congressman Brian Poindexter under DCCC investigation of sexual harassment",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZm9kLVlIWHBfZWJHM2NQWGNRNmV3bE52MWFNMGxyRmNrZHg2TE53TXNzcjJyNkYyNTBWaDZnNVdoRFlsZGhGa2hIOEdqZFNSNk1NMUtFN0JUZzZKeFdCbGVDMnFBOHlIMUVJRGVvY1dEanUxWEJUZjJGODQ2RnN0dzFvMzkzcHJ0TlFRLUthMUMyTGVZNm9mTHhrdy1DUWc5U180djRSU2E0VFpXTDJERHpjUWNtTDhva0t1WGgtVGxWQjg2V2dOOTh5c054cVpMSmRF?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-07",
  "history": [
   {
@@ -392,6 +376,11 @@
   },
   {
    "date": "2026-11-18",
+   "c": 0,
+   "p": -7.0
+  },
+  {
+   "date": "2026-11-19",
    "c": 0,
    "p": -7.0
   }

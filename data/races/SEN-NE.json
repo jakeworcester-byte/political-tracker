@@ -221,7 +221,23 @@
  },
  "raw_poll_count": 4,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-19",
+   "race": "SEN-NE",
+   "races": [
+    "SEN-NE"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Nebraska U.S. Senate Election 2026 Live Results: Pete Ricketts Wins",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uOEhyaXk0d1lSeHpKY0tVLTFuZllfbGhqQWphUk9CcE5QcmpEMlVNTjJoaVh0bE4weXlGN3Q3RnRMX1d2UTE1MncwWmJTTXg1RmUtSUpCMjhENEh5cE55TV9rN3NWZXJUWlNTU3QteXJ3TVJUZ2s1ZFJLbw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NE",
  "history": [
   {
@@ -416,6 +432,11 @@
   },
   {
    "date": "2026-11-18",
+   "c": 2,
+   "p": 2.3
+  },
+  {
+   "date": "2026-11-19",
    "c": 2,
    "p": 2.3
   }
