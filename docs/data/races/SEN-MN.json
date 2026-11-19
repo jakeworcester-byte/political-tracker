@@ -323,23 +323,7 @@
  },
  "raw_poll_count": 8,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-17",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "FOX 9 Minneapolis-St. Paul",
-   "lean": "unrated",
-   "title": "Recount begins for Minnesota Senate District 33, 3 other races still undecided - FOX 9 Minneapolis-St. Paul",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOUs2RGdTZFAtQTRTbjFKdmVrQ2lFOUhkcTFsMVpmS1NKb3YxaDFVR05uZ3V6QThKTGQ5Q2R3d0hYSHp2bmxaR0FZMXdhQllWVWF0Y0s3YzhHMDh4bXFjRFVKU3U2LTdjWU5jZHNGNTY5NFpSWk5RbG9lc3VueHhkMTU2YmRlWWZwUUNPSG96RWU5MjhqZUZ3eGlWR09SSlMy?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MN",
  "history": [
   {
@@ -534,6 +518,11 @@
   },
   {
    "date": "2026-11-18",
+   "c": -2,
+   "p": -2.7
+  },
+  {
+   "date": "2026-11-19",
    "c": -2,
    "p": -2.7
   }
