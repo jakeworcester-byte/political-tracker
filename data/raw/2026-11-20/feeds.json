@@ -1,0 +1,816 @@
+{
+ "fetched_at": "2026-11-20T11:07:52.453755+00:00",
+ "feeds": [
+  {
+   "id": "nyt_politics",
+   "name": "New York Times Politics",
+   "lean": "center-left",
+   "kind": "reporting",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+   "channel_title": "NYT > U.S. > Politics",
+   "items": [
+    {
+     "title": "Ron DeSantis Ponders a Presidential Run in a Post-Trump World",
+     "link": "https://www.nytimes.com/2026/11/20/us/politics/ron-desantis-florida-2028.html",
+     "published": "2026-11-20T10:03:57+00:00",
+     "summary": "In a wide-ranging interview, the governor of Florida talked about the potential timing of a presidential run. \u201cI haven\u2019t made any decisions,\u201d he said.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Justice Department Gives Up on Alaska Senate Lawsuit",
+     "link": "https://www.nytimes.com/2026/11/19/us/politics/justice-department-gives-up-on-alaska-senate-lawsuit.html",
+     "published": "2026-11-20T03:47:05+00:00",
+     "summary": "The Trump administration had sought to block certification of election results if Senator Dan Sullivan, a Republican, lost narrowly in his bid for re-election. Critics had called the suit meritless.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Top White House Cybersecurity Official Is Replaced",
+     "link": "https://www.nytimes.com/2026/11/19/us/politics/white-house-cyber-director-departs.html",
+     "published": "2026-11-20T03:31:41+00:00",
+     "summary": "The departure of Sean Cairncross comes after a series of technological outages affected U.S. companies and federal agencies in the past week.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Former Biden Chief, With Help From Alex Soros, Will Gather Aides of 2028 Hopefuls",
+     "link": "https://www.nytimes.com/2026/11/19/us/politics/alex-soros-jen-omalley-dillon-2028-democratic-presidential-race.html",
+     "published": "2026-11-20T00:16:06+00:00",
+     "summary": "Jen O\u2019Malley Dillon, who led the former president\u2019s last two White House bids, is inviting top Democratic operatives to a gathering funded in part by the megadonor Alex Soros.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Senate Republicans Block Bid to Rein in Trump on Iran War",
+     "link": "https://www.nytimes.com/2026/11/19/us/politics/senate-iran-war-powers-trump.html",
+     "published": "2026-11-19T20:19:12+00:00",
+     "summary": "In the first vote on the conflict since the midterm elections, most in the G.O.P. banded together against placing any limits on a conflict that voters repudiated at the polls.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "The Secret History of a 1972 Case on Press Freedom",
+     "link": "https://www.nytimes.com/2026/11/19/us/politics/the-docket-secret-history-press-freedom.html",
+     "published": "2026-11-19T17:10:03+00:00",
+     "summary": "An F.B.I. campaign against the Black Panthers and a justice\u2019s questionable failure to recuse himself dealt a blow to protections for confidential sources.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "At Summit With Xi and Putin, Trump Seeks to Project Power Abroad While Sharing It at Home",
+     "link": "https://www.nytimes.com/2026/11/19/us/politics/trump-summit-power.html",
+     "published": "2026-11-19T17:05:18+00:00",
+     "summary": "Weakened by the midterm elections, President Trump offered hugs, arm pats and smiles to autocrats from Russia and China in contrast to the threats he is making to ascendant Democrats in Washington.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Los Angeles Prosecutor to Oversee Inquiry Into Search of Trump\u2019s Mar-a-Lago Residence",
+     "link": "https://www.nytimes.com/2026/11/19/us/politics/trump-mar-a-lago-search-bill-essayli.html",
+     "published": "2026-11-19T15:49:36+00:00",
+     "summary": "The appointment of Bill Essayli to run a key aspect of the so-called grand conspiracy case was the latest shake-up in a central part of President Trump\u2019s retribution campaign.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Three MAGA Women Who Defined an Era in Congress Are Exiting",
+     "link": "https://www.nytimes.com/2026/11/19/us/politics/maga-women-congress-greene-boebert-mace.html",
+     "published": "2026-11-19T13:27:14+00:00",
+     "summary": "Representatives Marjorie Taylor Greene, Lauren Boebert and Nancy Mace embodied a combative, attention-seeking brand of politics that defined the Republican Congress.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "With Alaska\u2019s Senate Vote Counted, What Comes Next in the Last Frontier?",
+     "link": "https://www.nytimes.com/2026/11/18/us/politics/alaska-senate-count.html",
+     "published": "2026-11-19T02:58:29+00:00",
+     "summary": "The race is scheduled to be certified next week, but the Justice Department is investigating after Republicans lodged cheating allegations against the eventual winner, Mary Peltola.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Alaska Republican Narrowly Defeats Independent House Candidate",
+     "link": "https://www.nytimes.com/2026/11/18/us/politics/alaska-nick-begich-wins-house-race.html",
+     "published": "2026-11-19T03:14:28+00:00",
+     "summary": "Representative Nick Begich III overcame an independent challenger in a year in which Democrats made historic gains but third-party candidates had little success.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 20
+  },
+  {
+   "id": "wsj_politics",
+   "name": "Wall Street Journal Politics",
+   "lean": "center-right",
+   "kind": "reporting",
+   "url": "https://feeds.content.dowjones.io/public/rss/socialpoliticsfeed",
+   "channel_title": "WSJ.com: Politics",
+   "items": [
+    {
+     "title": "The Senate passed a bipartisan bill designed to speed up energy, mining and other infrastructure projects, overcoming concerns among many Democrats that it would weaken environmental protection laws",
+     "link": "https://www.wsj.com/politics/policy/senate-passes-measure-designed-to-speed-up-energy-projects-lower-consumer-costs-dcacc9c6?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-20T04:12:00+00:00",
+     "summary": "The bipartisan effort to streamline federal permitting split Democrats over environmental concerns.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "President Trump\u2019s picks for a swath of executive-branch posts have run into trouble in the GOP-run Senate",
+     "link": "https://www.wsj.com/politics/policy/trumps-picks-for-top-jobs-keep-running-into-trouble-in-senate-c555a68e?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-20T03:23:00+00:00",
+     "summary": "In the final days of their majority, some Republicans are breaking ranks and throwing up roadblocks to confirmations.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Senate Republicans are suspending their effort to pass $350 billion in additional military spending as momentum fades to pay for the Iran war",
+     "link": "https://www.wsj.com/politics/policy/pentagon-military-budget-reconciliation-d8b14835?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-19T22:06:00+00:00",
+     "summary": "The Pentagon wants the hefty spending package in addition to its $1.1 trillion base budget but hasn\u2019t been able to shore up support among lawmakers.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "On the heels of a historic trilateral summit, President Trump\u2019s international power and leverage might be contracting. Read more in today\u2019s WSJ Politics Newsletter:",
+     "link": "https://www.wsj.com/politics/trump-sees-new-world-order-but-strains-only-worsen-b4306673?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-19T11:57:00+00:00",
+     "summary": "Plus, the president\u2019s family is a target of pending congressional probes, and lawmakers grill administration officials over threats to the homeland.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Elon Musk said he felt \u201cpretty foolish\u201d about spending more than $400 million trying to help the GOP in the midterms, striking a much more moderate tone. Read more in today\u2019s WSJ Politics newsletter:",
+     "link": "https://www.wsj.com/politics/policy/elon-musk-feels-foolish-for-midterms-spending-says-im-not-maga-25838049?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-19T01:11:00+00:00",
+     "summary": "The Tesla and SpaceX CEO also struck a hopeful tone about Democratic Texas Gov.-elect Gina Hinojosa.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "A top House Democrat issued document-preservation notices to family members of President Trump and members of his administration, providing a road map of potential targets of investigations next year",
+     "link": "https://www.wsj.com/politics/policy/democrats-map-out-targets-for-trump-probes-9c99e1de?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-18T21:39:00+00:00",
+     "summary": "The incoming House Oversight Committee chairman is planning to seek information from members of the White House inner circle.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Homeland Security Secretary Markwayne Mullin has been talking a lot lately. And it isn\u2019t always going well. He\u2019s testifying on Capitol Hill on Wednesday. Read more in today\u2019s WSJ Politics newsletter:",
+     "link": "https://www.wsj.com/politics/policy/markwayne-mullin-is-in-hot-seat-after-string-of-glitches-and-a-football-game-cb0c5503?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-18T11:57:00+00:00",
+     "summary": "Plus, what\u2019s driving the Democrats\u2019 Senate leadership fight, and President Trump\u2019s pick to lead the Navy faces a choppy confirmation hearing.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "The Trump administration is pulling the nomination of Dr. Heidi Overton to lead the FDA amid signs she lacks the support to get confirmed by the Senate",
+     "link": "https://www.wsj.com/politics/policy/trumps-pick-to-lead-the-fda-is-in-jeopardy-f08a33bc?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-18T03:58:00+00:00",
+     "summary": "The administration is pulling Dr. Heidi Overton\u2019s nomination to lead the agency amid concerns from GOP lawmakers.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Democrat Mary Peltola unseated Republican Sen. Dan Sullivan of Alaska to become the first Alaska Native elected to the U.S. Senate, expanding the majority her party won in the midterm elections",
+     "link": "https://www.wsj.com/politics/elections/democrat-mary-peltola-unseats-alaska-gop-sen-dan-sullivan-b6e6256b?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-18T04:23:00+00:00",
+     "summary": "Peltola\u2019s victory will bring Democrats\u2019 Senate majority to 56 seats when they take control of Congress next year.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "A House hearing about worldwide threats turned into a broad discussion about a string of nationwide outages and disturbing intelligence about Iranian threats to the homeland",
+     "link": "https://www.wsj.com/politics/national-security/five-takeaways-from-house-hearing-on-threats-to-the-u-s-35a23029?mod=rss_socialpoliticsfeed",
+     "published": "2026-11-18T18:31:00+00:00",
+     "summary": "Trump administration officials answered questions from lawmakers about network outages and Iran at the hearing.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 21
+  },
+  {
+   "id": "npr_politics",
+   "name": "NPR Politics",
+   "lean": "center-left",
+   "kind": "reporting",
+   "url": "https://feeds.npr.org/1014/rss.xml",
+   "channel_title": "NPR Topics: Politics",
+   "items": [
+    {
+     "title": "Senate passes bipartisan energy bill amid environmental concerns",
+     "link": "https://www.npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill",
+     "published": "2026-11-20T11:00:28+00:00",
+     "summary": "As Americans struggle with rising energy costs and increased demand driven by AI, the Senate passed a bipartisan bill that will speed up the approval process for data centers and power plants.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "'Bigger than Barack Obama's election': Scholars reflect on Mississippi Senate race",
+     "link": "https://www.npr.org/2026/11/19/nx-s1-6047338/bigger-than-barack-obamas-election-scholars-reflect-on-mississippi-senate-race",
+     "published": "2026-11-19T17:03:11+00:00",
+     "summary": "Scott Colom is now this Southern state's first Black U.S. senator in nearly 150 years. Scholars and Mississippi natives Eddie Glaude and Kiese Laymon discuss the historic significance of his victory.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "The midterms were the largest win for either party in 50 years",
+     "link": "https://www.npr.org/2026/11/19/nx-s1-6045916/democrats-midterm-house-majority",
+     "published": "2026-11-19T15:55:05+00:00",
+     "summary": "Some 56% of people cast votes for Democrats in House races, compared to 42% who voted Republican. That 14-point spread is the widest win for either party in 50 years, since after Watergate.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
+     "link": "https://www.npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic",
+     "published": "2026-11-19T12:26:01+00:00",
+     "summary": "Despite growing concern over a possible AI bubble, Anthropic had a record-breaking initial public offering. And, Hakeem Jeffries could become the first Black Speaker of the House.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Incoming House majority leader Katherine Clark stresses Democratic unity",
+     "link": "https://www.npr.org/2026/11/19/nx-s1-6045750/katherine-clark-hakeem-jeffries-house-democrats",
+     "published": "2026-11-19T11:20:42+00:00",
+     "summary": "As Democrats prepare to take control of the House, incoming majority leader Katherine Clark discusses the party's ambitious agenda and divisions within its ranks.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Top House Democrat questions what Trump accomplished in Xi-Putin summit",
+     "link": "https://www.npr.org/2026/11/19/nx-s1-6046487/gregory-meeks-trump-xi-putin-summit",
+     "published": "2026-11-19T11:20:37+00:00",
+     "summary": "Rep. Gregory Meeks raises concerns about U.S. alliances after Trump's summit with Xi and Putin. He also discusses Chinese espionage amid the Nvidia scandal.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 10
+  },
+  {
+   "id": "national_review",
+   "name": "National Review",
+   "lean": "right",
+   "kind": "punditry",
+   "url": "https://www.nationalreview.com/feed/",
+   "channel_title": "National Review",
+   "items": [
+    {
+     "title": "The Plot to Overthrow the Electoral College Must Fail",
+     "link": "https://www.nationalreview.com/article/the-plot-to-overthrow-the-electoral-college-must-fail",
+     "published": "2026-11-19T11:00:00+00:00",
+     "summary": "We should keep the presidential election system we have had since George Washington.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "UBI Breeds Dependence and Restricts Opportunity",
+     "link": "https://www.nationalreview.com/article/ubi-breeds-dependence-and-restricts-opportunity",
+     "published": "2026-11-18T11:00:00+00:00",
+     "summary": "The new Democratic Congress should walk away from the destructive path of this policy.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 20
+  },
+  {
+   "id": "the_dispatch",
+   "name": "The Dispatch",
+   "lean": "center-right",
+   "kind": "punditry",
+   "url": "https://thedispatch.com/feed/",
+   "channel_title": "The Dispatch",
+   "items": [
+    {
+     "title": "Money Isn\u2019t Everything",
+     "link": "https://thedispatch.com/article/midterm-ad-spending-democrats-tariffs-abortion-trump-epstein/",
+     "published": "2026-11-20T06:01:00+00:00",
+     "summary": "And other lessons from the most expensive election ever.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 10
+  },
+  {
+   "id": "silver_bulletin",
+   "name": "Silver Bulletin",
+   "lean": "center",
+   "kind": "punditry",
+   "url": "https://www.natesilver.net/feed",
+   "channel_title": "Silver Bulletin",
+   "items": [
+    {
+     "title": "The White House needs a ground stop",
+     "link": "https://www.natesilver.net/p/the-white-house-needs-a-ground-stop",
+     "published": "2026-11-19T21:23:41+00:00",
+     "summary": "On Still Counting EP13, we discussed a chaotic Friday the 13th and a White House that hasn\u2019t learned anything from the midterms.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How popular is Donald Trump?",
+     "link": "https://www.natesilver.net/p/trump-approval-ratings-nate-silver-bulletin",
+     "published": "2026-11-19T15:05:00+00:00",
+     "summary": "Silver Bulletin approval ratings for President Trump \u2014 and all presidents since Truman.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How popular is the Iran War?",
+     "link": "https://www.natesilver.net/p/iran-war-polls-popularity-approval",
+     "published": "2026-11-19T15:04:00+00:00",
+     "summary": "Silver Bulletin approval ratings for the ongoing conflict.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 20
+  },
+  {
+   "id": "nevada_independent",
+   "name": "The Nevada Independent",
+   "lean": "center",
+   "kind": "reporting",
+   "url": "https://thenevadaindependent.com/feed",
+   "channel_title": "The Nevada Independent",
+   "items": [
+    {
+     "title": "Salty groundwater sits beneath Las Vegas. Could it quench Sin City's thirst?",
+     "link": "https://thenevadaindependent.com/article/salty-groundwater-sits-beneath-las-vegas-could-it-quench-sin-citys-thirst/",
+     "published": "2026-11-20T10:00:00+00:00",
+     "summary": "The Clark County Water Reclamation District and a group of researchers want to find out whether shallow groundwater could become a new source of water for a water-stressed city.",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Nevada senators split on sweeping energy legislation in first major action since midterm elections",
+     "link": "https://thenevadaindependent.com/article/nevada-senators-split-on-sweeping-energy-legislation-in-first-major-action-since-midterm-elections/",
+     "published": "2026-11-18T10:00:00+00:00",
+     "summary": "Sen. Catherine Cortez Masto is withholding support as she objects to a provision she feels harms Nevada tribes.",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 100
+  },
+  {
+   "id": "ralston_reports",
+   "name": "Ralston Reports (Jon Ralston)",
+   "lean": "center",
+   "kind": "punditry",
+   "url": "https://jonralston.substack.com/feed",
+   "channel_title": "Ralston Reports",
+   "items": [],
+   "total_items": 20
+  },
+  {
+   "id": "nc_politics_center",
+   "name": "Center for NC Politics (Michael Bitzer)",
+   "lean": "center",
+   "kind": "punditry",
+   "url": "https://ncpoliticscenter.substack.com/feed",
+   "channel_title": "Center for NC Politics",
+   "items": [],
+   "total_items": 20
+  },
+  {
+   "id": "split_ticket",
+   "name": "Split Ticket",
+   "lean": "center",
+   "kind": "punditry",
+   "url": "https://split-ticket.org/feed/",
+   "channel_title": "Split Ticket",
+   "items": [],
+   "total_items": 317
+  },
+  {
+   "id": "pod_save_america",
+   "name": "Pod Save America",
+   "lean": "left",
+   "kind": "podcast",
+   "url": "https://audioboom.com/channels/5166624.rss",
+   "channel_title": "Pod Save America",
+   "items": [
+    {
+     "title": "Elon Goes Woke",
+     "link": "https://audioboom.com/posts/8979294",
+     "published": "2026-11-20T10:55:00+00:00",
+     "summary": "Elon Musk tries to walk back his support of Republicans, saying that he\u2019s \u201cnot MAGA,\u201d that it was \u201cfoolish\u201d to spend so much money on GOP candidates, and that Gina Hinojosa actually seems like a pretty good governor. Jon and Tommy react to Elon and other tech tycoons embracing woke 3.0, Trump\u2019s chummy three-way meeting in China with Vladimir Putin and Xi Jinping, his commitment to protect America\u2019s \u201cgeniuses\u201d amid allegations that Nvidia\u2019s Jensen Huang had an affair with a Chinese spy, and his advice to Americans worried about major tech outages to \u201crelax.\u201d Then they discuss Hakeem Jeffries lo",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Making Liberalism Cool Again",
+     "link": "https://audioboom.com/posts/8978223",
+     "published": "2026-11-18T10:55:00+00:00",
+     "summary": "Liberalism was once seen as radical and inspiring. Today, it\u2019s associated with cringe politicians and incremental policies that may poll well but don\u2019t meet the scale of our challenges. Lovett sits down with More Perfect Union\u2019s Faiz Shakir, The Argument\u2019s Jerusalem Demsas, and The Atlantic\u2019s Derek Thompson, co-author of Abundance, to debate the Left\u2019s challenge to a withering establishment, whether liberalism can answer that challenge, and the ideological debates that will shape the future of Democratic politics. Plus, Iowa Senator-elect Josh Turek stops by to talk about what powered his vict",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Flying Blind",
+     "link": "https://audioboom.com/posts/8977802",
+     "published": "2026-11-17T10:55:00+00:00",
+     "summary": "As the administration struggles to explain what caused Friday\u2019s nationwide ground stop and what happened to all the money Congress appropriated for upgrades, Donald Trump says \u201cI don\u2019t take any responsibility\u201d and blames Joe Biden and Pete Buttigieg. Jon, Jon, and Tommy talk about the administration\u2019s incompetent and muddled response, the latest in the Nvidia scandal, and a presidential trip to China that\u2019s now being overshadowed by infighting in Trump\u2019s Cabinet. Then, Lovett sits down with MS NOW\u2019s Rachel Maddow to discuss her new book, \u201cDepartment of Fate,\u201d and Tommy talks with Senator Chris",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Pete Buttigieg on Where Democrats Go From Here",
+     "link": "https://audioboom.com/posts/8976977",
+     "published": "2026-11-15T10:55:00+00:00",
+     "summary": "Pete Buttigieg sits down with Dan to lay out his vision for Democratic leadership in the wake of last week\u2019s blue tsunami, from offering immediate relief on the cost-of-living crisis to tackling systemic problems like corporate money in politics and a broken Supreme Court. Then they discuss factionalism within the Democratic party, why Dems need to think bigger than just reversing the damage caused by Trump, whether Pete\u2019s planning to run for president in 2028, and his new book, \u201cNext,\u201d which comes out early next year. Hate listening to ads? Become a Friends of the Pod subscriber for ad-free e",
+     "source_title": "",
+     "relevant": false
+    }
+   ],
+   "total_items": 1200
+  },
+  {
+   "id": "ezra_klein",
+   "name": "The Ezra Klein Show",
+   "lean": "center-left",
+   "kind": "podcast",
+   "url": "https://feeds.simplecast.com/kEKXbjuJ",
+   "channel_title": "The Ezra Klein Show",
+   "items": [
+    {
+     "title": "The Democrats\u2019 Plan for Investigating Trump",
+     "link": "https://www.nytimes.com/2026/11/20/opinion/ezra-klein-podcast-robert-garcia.html",
+     "published": "2026-11-20T10:00:00+00:00",
+     "summary": "As the incoming chairman of the Oversight Committee, Representative Robert Garcia will be leading the investigations into the Trump administration\u2019s alleged corruption. One challenge Democrats like Garcia will face is that there simply is so much to investigate: shady crypto schemes, ballroom donations, lucrative business deals associated with Trump family members, whatever\u2019s been happening in Venezuela. Where do you begin? And how do you deal with an administration you know is going to fight you at every turn? So I wanted to have Garcia on the show to talk about what \u2014 and who \u2014 he wants his ",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "The Winning Democrat Who Wants to Break Up Political Parties",
+     "link": "https://www.nytimes.com/2026/11/17/opinion/ezra-klein-podcast-rob-sand.html",
+     "published": "2026-11-17T10:00:00+00:00",
+     "summary": "Rob Sand will soon be Iowa\u2019s first Democratic governor in more than 15 years. And he won the race in a walk \u2013 trouncing his opponent by 11 points, a 24-point swing from how Kamala Harris performed in the state in 2024. And he ran several points ahead of Iowa\u2019s Democratic senator-elect, Josh Turek. Sand achieved this political feat by running against the two-party system itself. He campaigned relentlessly on the idea that our electoral system is broken, that the two-party \u201cduopoly\u201d breeds corruption and has corroded our politics. So I wanted to have Sand on the show to dig deeper into his criti",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 6
+  },
+  {
+   "id": "the_daily",
+   "name": "The Daily (NYT)",
+   "lean": "center-left",
+   "kind": "podcast",
+   "url": "https://feeds.simplecast.com/Sl5CSM3S",
+   "channel_title": "The Daily",
+   "items": [
+    {
+     "title": "What Trump, Putin and Xi Left on the Table",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-20T10:45:00+00:00",
+     "summary": "On Thursday, the leaders of the United States, China and Russia met for a summit that produced no breakthroughs on war or nuclear arms and left the A.I. race largely unspoken. David Sanger, White House and national security correspondent for The New York Times, examines the competition over advanced computer chips that is at the heart of U.S.-China tensions, and what Washington\u2019s shifting restrictions could mean for China\u2019s ambitions and the balance of power over the next decade. Guest: David E. Sanger , the White House and national security correspondent for The New York Times. Background rea",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "\u2018Did A.I. Break the Internet?\u2019 and Other Things We\u2019ve Worried About This Week",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-19T10:47:59+00:00",
+     "summary": "In recent days, a series of technical outages have grounded planes, closed bank accounts, shut us out of our email and generally created a sense that the world is either falling apart or being hacked, or maybe both. The New York Times reporters Karoun Demirjian, Dustin Volz and Zolan Kanno-Youngs explain what\u2019s really going on and whether we can expect it to continue. Guest: Karoun Demirjian , a breaking news reporter for the The New York Times. Dustin Volz , a cybersecurity and intelligence reporter for The New York Times. Zolan Kanno-Youngs , a White House correspondent for The New York Time",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How Stable Is the A.I. Industry? We\u2019re About to Find Out.",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-18T10:49:08+00:00",
+     "summary": "Anthropic is a barometer of the economy at a volatile time. Its initial public offering will have widespread implications. As Anthropic prepares for what is expected to be a huge initial public offering this week, the company has been wooing investors with a simple message: Bet on us. But Jensen Huang\u2019s sudden resignation from Nvidia last week raised questions about the stability of the entire artificial intelligence industry. Erin Griffith, a tech reporter for The New York Times, explains why Anthropic\u2019s I.P.O. is a litmus test for the future of A.I. Guest: Erin Griffith , a technology report",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Democrats Promised Lower Prices. What Can They Actually Do?",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-17T10:53:28+00:00",
+     "summary": "The Democratic Party swept the midterm elections by making big promises to Americans about bringing down the high cost of living. But when they take control of Congress in January, they will face a president who can veto anything they put forward. The New York Times reporters Rebecca F. Elliot, Margot Sanger-Katz and Ben Casselman each discuss what, if anything, Democrats can really do to fix the key problems that propelled them into office. Guest: Rebecca F. Elliott , an energy reporter for The New York Times. Margot Sanger-Katz , a reporter on health care policy and government spending for T",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "The Ultraviolent, Wildly Successful, Uniquely American Phenomenon of Grand Theft Auto",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-15T11:00:00+00:00",
+     "summary": "Thursday, Nov. 19 will see the release of one of the biggest, most anticipated entertainment properties of the year: The video game Grand Theft Auto VI. The first Grand Theft Auto game was released in 1997, and immediately stoked controversy with its aggressively satirical portrait of amoral, criminal American culture. Over the past 30 years, the franchise has continued to keep a sharp satirical eye on American society, and its often unpleasant excesses. The sixth installment promises to touch on hot-button issues like the war on drugs, police violence, conspiracy theories and influencer cultu",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Olivia Wilde Hit Bottom. Here's How She Bounced Back.",
+     "link": "https://www.nytimes.com/the-daily",
+     "published": "2026-11-14T11:00:00+00:00",
+     "summary": "The actor-director learned a lot about shame, regret and failure \u2014 and then made a hit movie. Thoughts? Email us at theinterview@nytimes.com Watch our show on YouTube: youtube.com/@TheInterviewPodcast For transcripts and more, visit: nytimes.com/theinterview For more information on today\u2019s episode, visit nytimes.com/thedaily . Transcripts of each episode will be made available by the next workday. Subscribe today at nytimes.com/podcasts or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=",
+     "source_title": "",
+     "relevant": false
+    }
+   ],
+   "total_items": 71
+  },
+  {
+   "id": "npr_politics_podcast",
+   "name": "The NPR Politics Podcast",
+   "lean": "center-left",
+   "kind": "podcast",
+   "url": "https://feeds.npr.org/510310/podcast.xml",
+   "channel_title": "The NPR Politics Podcast",
+   "items": [
+    {
+     "title": "This relic of U.S. politics may be on its way out",
+     "link": "https://www.npr.org/2026/11/19/nx-s1-6047326/this-relic-of-u-s-politics-may-be-on-its-way-out",
+     "published": "2026-11-19T21:00:24+00:00",
+     "summary": "Electors from each state gather after a presidential election to decide which candidate gets state's electoral votes. This process, known as the Electoral College, is what elects presidents, and not whichever candidate gets the most votes across the country. But, a long-running effort to change that is gaining more momentum, and we explain how it could work on today's episode. This episode: White House correspondent Danielle Kurtzleben, and voting correspondents Ashley Lopez & Miles Parks. This podcast was produced and edited by Casey Morell and Bria Suggs. Our executive producer is Muthoni Mu",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Dems win another Senate seat",
+     "link": "https://www.npr.org/2026/11/18/nx-s1-6045676/dems-win-another-senate-seat",
+     "published": "2026-11-18T21:06:21+00:00",
+     "summary": "The Democratic majority in the upcoming Senate increased to 56 seats as Mary Peltola won Alaska's U.S. Senate election, beating incumbent Republican Dan Sullivan. We unpack the victory. Then, House Democrats nominated Rep. Hakeem Jeffries of New York to be their candidate for Speaker of the House, making it likely that when the 120th Congress takes office in January, he will be the first Black person to hold that office. And, we take questions from our listeners. This episode: White House correspondent Danielle Kurtzleben, congressional reporter Sam Gringlas, and senior political correspondent",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "How much can a Democratic Congress do on the economy?",
+     "link": "https://www.npr.org/2026/11/17/nx-s1-6043788/how-much-can-a-democratic-congress-do-on-the-economy",
+     "published": "2026-11-17T21:04:49+00:00",
+     "summary": "Democrats celebrated a big win in the midterms, taking control of both houses of Congress on messages largely centered around affordability. But, government will be divided & President Trump has signaled he's not too interested in helping Democrats get legislation passed when they take charge in January. We look at where the parties may find common ground, and where disagreement may still reign. This episode: White House correspondent Danielle Kurtzleben, congressional reporter Sam Gringlas, and chief economics correspondent Scott Horsley. This podcast was produced and edited by Casey Morell a",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Can Trump find his way out of Iran and Ukraine?",
+     "link": "https://www.npr.org/2026/11/16/nx-s1-6042396/can-trump-find-his-way-out-of-iran-and-ukraine",
+     "published": "2026-11-16T21:20:07+00:00",
+     "summary": "There are mere weeks left before a Democrat controlled Congress is sworn in. With the time he has left with a Republican majority, there\u2019s pressure on the president to accomplish as much as he can. Today on the show, we unpack the latest on Iran and Ukraine, and what Trump\u2019s path forward could look like. This episode: White House correspondent Danielle Kurtzleben, national security correspondent Greg Myre, and senior political correspondent Mara Liasson. This podcast was produced and edited and produced by Bria Suggs. Our executive producer is Muthoni Muturi. Support public media with NPR+ and",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Why a CEO's affair may have national security implications",
+     "link": "https://www.npr.org/2026/11/13/nx-s1-6040011/why-a-ceos-affair-may-have-national-security-implications",
+     "published": "2026-11-13T20:44:32+00:00",
+     "summary": "Jensen Huang, who co-founded tech company NVIDIA, was ousted from his job this week after he admitted to having an affair with a woman suspected of spying for China. Huang used his position to gain influence with the Trump administration, and Trump defended Huang when news of the affair broke. We look at what this scandal means for U.S. national security, and whether it will have any impact on a planned meeting between Trump and Chinese premier Xi Jinping next week. Then, we look at how and why the impeachment effort against Secretary of Defense Pete Hegseth failed. This episode: voting corres",
+     "source_title": "",
+     "relevant": false
+    }
+   ],
+   "total_items": 1750
+  },
+  {
+   "id": "gd_politics",
+   "name": "GD Politics (Galen Druke)",
+   "lean": "center",
+   "kind": "podcast",
+   "url": "https://api.substack.com/feed/podcast/1603893/s/200151.rss",
+   "channel_title": "GD POLITICS",
+   "items": [
+    {
+     "title": "How The Merely Rich Wield Power In The Age Of Billionaires",
+     "link": "https://www.gdpolitics.com/p/how-the-merely-rich-wield-power-in",
+     "published": "2026-11-19T18:23:06+00:00",
+     "summary": "This is a free preview of a paid episode. To hear more, visit www.gdpolitics.com The full episode is available to paid subscribers. Once you become a paid subscriber, you can connect your account to your preferred podcast player here . Anthropic\u2019s IPO on Thursday \u2014 the largest ever \u2014 put the paper wealth of the company\u2019s seven co-founders at about $20 billion apiece and minted thousands of new millionaires. It\u2019s the kind of eye-popping wealth creation that makes Silicon Valley the center of conversations about who gets rich in America and how much power comes with it. There\u2019s a growing sense, ",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Democrats Won Congress. What Will They Do With It?",
+     "link": "https://www.gdpolitics.com/p/democrats-won-congress-what-will",
+     "published": "2026-11-16T22:10:34+00:00",
+     "summary": "This is a free preview of a paid episode. To hear more, visit www.gdpolitics.com Big change is afoot in Washington. Democrats will start the new Congress with at least 55 Senate seats, likely 56 with Alaska still counting, and at least 256 House seats. That gives them control of the agenda: They can investigate the Trump administration, pass party-line bills through reconciliation, and force Republicans into tough votes. But Trump still has his veto, and most bills will still need some Republican votes to clear the Senate filibuster. On today\u2019s episode, Gabe Fleisher , author of Wake Up To Pol",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 174
+  },
+  {
+   "id": "hacks_on_tap",
+   "name": "Hacks on Tap",
+   "lean": "center",
+   "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/VMP7545057845",
+   "channel_title": "Hacks On Tap",
+   "items": [
+    {
+     "title": "Huff, Puff, Pass (with Addisu Demissie)",
+     "link": "",
+     "published": "2026-11-18T00:45:00+00:00",
+     "summary": "This week, Axe and Heilemann are joined by one of their favorite Hacks, the brilliant, endlessly insightful, and infuriatingly humble Addisu Demissie! The guys dive into the latest twists in the year's most beautiful spy scandal, the tech outages wreaking havoc, and whether Trump will cooperate with Democrats and sign their legislation into law or dig in his heels. They unpack the very public Democratic leadership fight and examine the historic Democratic flip in Mississippi, the culmination of decades of political organizing and efforts to reshape the state's electoral landscape. And so much ",
+     "source_title": "",
+     "relevant": false
+    }
+   ],
+   "total_items": 404
+  },
+  {
+   "id": "ruthless",
+   "name": "Ruthless",
+   "lean": "right",
+   "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/FOXM5875505224",
+   "channel_title": "Ruthless Podcast",
+   "items": [
+    {
+     "title": "DSA Wastes No Time Attacking Hakeem Jefferies",
+     "link": "",
+     "published": "2026-11-20T10:00:00+00:00",
+     "summary": "Fun Time Friday breaks down the growing Democratic civil war as the socialist left challenges Hakeem Jeffries and demands concessions despite his overwhelming majority. Plus, the fellas take on Amy McGrath\u2019s embarrassing flag mix-up, new revelations about Zohran Mamdani\u2019s decision to disband an NYPD unit, and the cultural phenomenon surrounding GTA 6. Then it\u2019s football talk as Kirk Cousins returns to Minnesota and the fellas debate the Vikings\u2019 Super Bowl chances. #RuthlessPodcast #FunTimeFriday #Politics #GTA6 0:00:00 Intro 0:03:03 Democrats Turn on Each Other After Historic Midterm Victory ",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "What\u2019s really behind the FAA Crash & other tech outages?",
+     "link": "",
+     "published": "2026-11-19T10:00:00+00:00",
+     "summary": "Ruthless investigates the wave of tech outages affecting major companies and government systems, separating cybersecurity concerns from doomsday conspiracies. Plus, Trump takes on the media, Chuck Schumer faces a leadership challenge, and Democrats grapple with new controversies and a potential primary fight against John Fetterman. King of the Hill returns with Bill Kristol facing Joe Walsh, and the fellas tackle a wild hippo attack and Ken Griffin\u2019s dinosaur collection. #RuthlessPodcast #Cybersecurity #Politics #Trump 0:00:00 Intro 0:03:46 Nationwide Tech Outages Spark Fears of Coordinated Cy",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Democrat Civil War Explodes: Schumer vs. Bernie",
+     "link": "",
+     "published": "2026-11-17T10:00:00+00:00",
+     "summary": "Ruthless breaks down the growing Democratic civil war, from Sarah Longwell\u2019s Never Trump transformation and Zohran Mamdani\u2019s overhaul of New York policing to Bernie Sanders backing Chris Van Hollen\u2019s challenge to Chuck Schumer. Plus, tensions erupt between Scott Bessent and Howard Lutnick over Nvidia and China ahead of Trump\u2019s historic meeting with Xi Jinping and Vladimir Putin. The fellas also tackle the lessons Republicans must learn from the midterms and celebrate a major SpaceX milestone. #RuthlessPodcast #Democrats #Trump #Politics 0:00:00 Intro 0:03:53 The Bulwark's Never Trump Conservat",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 766
+  },
+  {
+   "id": "the_remnant",
+   "name": "The Remnant (The Dispatch)",
+   "lean": "center-right",
+   "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/DISPME4897766830",
+   "channel_title": "The Remnant with Jonah Goldberg",
+   "items": [
+    {
+     "title": "The Israeli Election Explained | Interview: Dan Senor",
+     "link": "",
+     "published": "2026-11-18T08:00:00+00:00",
+     "summary": "For being a notoriously pro-Israel pundit, Jonah Goldberg has a love-hate relationship with Israeli politics. Today we\u2019re going to tell you why. Author Dan Senor joins The Remnant to talk about the Israeli election, Benjamin Netanyahu, Arab Israelis, Gadi Eisenkot, the contours of Israeli policy disagreement, ultra-Orthodox Israelis, Haredi for reform, American perceptions of Israel, a national unity government, America\u2019s foreign policy future, antisemitism on the left, genocide accusations, and the reach of Jew-hating influencers. Show Notes: \u2014Call Me Back podcast \u2014The Genius of Israel: The S",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Napoleon and His Marshals | Interview: Andrew Roberts",
+     "link": "",
+     "published": "2026-11-16T08:00:00+00:00",
+     "summary": "Jonah Goldberg\u2019s stomach is all aflutter as he\u2019s joined by one of his idols, the great historian Lord Andrew Roberts, to talk about Napoleon and his subordinates. Tune in to hear about Jacobins, mistresses, Jean-Baptiste Jules Bernadotte, leadership, the Enlightenment, competition, Napoleon\u2019s height, the Ridley Scott film, Waterloo, Romantic nationalism, the proto-Hitler thesis, great men, micromanagement, and the Napoleonic legacy. Show Notes: \u2014Andrew Roberts - Napoleon and His Marshals: Victory, Rivalry, Betrayal \u2014Napoleon III Remnant The Remnant is a production of \u2060The Dispatch\u2060, a digital ",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "The New Right\u2019s Thin Gruel | Ruminant",
+     "link": "",
+     "published": "2026-11-14T08:00:00+00:00",
+     "summary": "With those on the new right reluctant to say \u201cuncle\u201d after the Republicans\u2019 midterm beatdown, it\u2019s left to Jonah Goldberg to rub some salt in their wounds. Tune in as Jonah ruminates over Twitter fights, the SAVE Act, noncitizen voting, Oren Cass, Reaganites, postliberals, reification, liberalism, John Locke, Stephen Miller, Trump\u2019s off-ramps, Kevin Roberts, The Bulwark, replying to critics, Chris Rufo, regime change, and kids\u2019 education. Show Notes: \u2014Last week\u2019s Ruminant \u2014G-File on Oren Cass \u2014Friday\u2019s DisPod \u2014Oren Cass in NYT: \u201cRepublicans Have Two Paths Out of This. They\u2019d Better Choose Wise",
+     "source_title": "",
+     "relevant": true
+    }
+   ],
+   "total_items": 1199
+  },
+  {
+   "id": "megyn_kelly",
+   "name": "The Megyn Kelly Show",
+   "lean": "right",
+   "kind": "podcast",
+   "url": "https://feeds.simplecast.com/RV1USAfC",
+   "channel_title": "The Megyn Kelly Show",
+   "items": [
+    {
+     "title": "Trump's Summit with Xi and Putin, Inside Nvidia, Northwestern Students Stop Attack: AM Update 11/20",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-20T10:30:00+00:00",
+     "summary": "President Trump meets with Chinese President Xi Jinping and Russian President Vladimir Putin for a historic trilateral summit focused on nuclear weapons, global security, and international cooperation. Nvidia offers employees early pay raises and additional stock compensation as thousands push for Jensen Huang's reinstatement following his resignation. Three Northwestern University freshmen rescue a female classmate from a violent attack after a stranger reportedly follows students into a campus dormitory and attempts to strangle her. A millionaire entrepreneur funds indefinite protests agains",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "The Campaigns Against Russell Brand and JD Vance, with Bret Weinstein, Plus Alarming Jennifer Lawrence and Mariah Carey Looks, with Kirsten Fleming | Ep. 1445",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-19T20:08:38+00:00",
+     "summary": "Megyn Kelly is joined by Bret Weinstein, co-host of The DarkHorse Podcast, to discuss the UK government\u2019s shocking ongoing efforts to silence and censor Russell Brand, Google\u2019s pushback against the government\u2019s attempt to bully them, the broader implications for free speech and online censorship, why the campaign against Brand is much bigger than one person, the political battle over Vice President JD Vance spilling out into the public now, the competing factions within the Republican Party, how disagreements over the Iran War could shape the GOP\u2019s future, concerns about AI replacing human wor",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Mullin Clashes with Lawmakers, Peltola Flips Alaska, FDA Nominee Overton Pulled: AM Update 11/19",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-19T10:30:00+00:00",
+     "summary": "Top Trump administration officials rule out a coordinated cyberattack behind recent nationwide outages as Homeland Security Secretary Markwayne Mullin faces heated questioning over his government aircraft travel and immigration enforcement policies. House Democrats overwhelmingly nominate Hakeem Jeffries to become the next Speaker of the House despite opposition from progressive lawmakers demanding stronger policy commitments. Democrat Mary Peltola flips Alaska's Senate seat, expanding her party's majority to 56 seats as a federal grand jury investigates allegations of an effort to confuse Rep",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Russell Brand's Addiction, Leonardo DiCaprio's Sad Public Persona, and Greta Thunberg Breaks Character, with Dr. Drew | Ep. 1444",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-18T20:36:06+00:00",
+     "summary": "Megyn Kelly is joined by Dr. Drew Pinsky, host of \u201cAsk Dr. Drew,\" to discuss the UK system trying to punish Russell Brand for saying that he's innocent, how the former addict can defend himself over decades-old accusations, how others who are in recovery are worried over their actions now being scrutinized from long ago, how Greta Thunberg is now literally laughing at the climate activism that she once led when she was a child, how the myth of Greta Thunberg got people like Michael Knowles cancelled, Thunberg now getting real about wanting to overthrow capitalism and the fraud of climate activ",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Huang Floats Nvidia Comeback, Ilhan Omar Investigation Update, Surfer Murder Twist: AM Update 11/18",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-18T10:30:00+00:00",
+     "summary": "Former Nvidia CEO Jensen Huang expresses interest in returning to the company he co-founded as federal investigations expand, and Congress prepares to question him. A federal judge orders the release of previously sealed court records related to the criminal investigation involving Democrat Congresswoman Ilhan Omar. The girlfriend of murdered California surfing legend Kurt Van Dyke is arrested on suspicion of helping orchestrate his killing in Costa Rica. New research identifies biological differences in pancreatic cancer tumors that could help scientists develop more personalized treatments. ",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Alarming Outages and Technology Disruptions in America, Plus CNN\u2019s Ridiculous Reporting on Dirty Bomb Threats | Ep. 1443",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-17T20:43:28+00:00",
+     "summary": "Megyn Kelly discusses the alarming outages and technology disruptions happening across America, what may be behind the growing problems, why it is time to take a closer look at the potential causes, the role AI and hackers could be playing, the alarming wave of banking and airline outages and disruptions, whether the public is being told the full story, what these growing technological vulnerabilities could mean for everyday Americans, CNN's ridiculous reporting on dirty bomb threats, their lack of accountability, former Vice President Mike Pence's comments on why Republicans lost the midterms",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "Trump's Historic China Summit, Lindsay Clancy Retrial, Bomb Found at Ethanol Plant: AM Update 11/17",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-17T10:30:00+00:00",
+     "summary": "President Trump travels to Asia for a historic summit with Chinese President Xi Jinping and Russian President Vladimir Putin, where nuclear disarmament, international security, and trade are expected to dominate discussions. Lindsay Clancy faces a retrial in March after jurors deadlocked over her insanity defense in the deaths of her three children - co-host of The MK True Crime Show Dave Aronberg weighs in. Federal authorities investigate an alleged bomb discovered at a Peoria, Illinois ethanol plant after a sweeping evacuation and conflicting reports about whether a suspect is in custody. Ro",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "The Campaign Against Russell Brand is Gathering Steam, From New Netflix Hit Job, to Censorship Calls | Ep. 1442",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-16T20:02:10+00:00",
+     "summary": "Megyn Kelly discusses the breaking news that Russell Brand is being investigated by UK authorities over a message from Russell that his wife read, whether it broke prison rules to put out information and statements, the targeting of Brand by so many in the UK, the push to deplatform Brand going back years, the UK trying to eliminate him from the internet, the effort to cancel anyone who supports him at all like musician Ian McNabb, a new documentary showing why Brand is really being targeted, how all the allegations against him after he took on the global elite, the new Netflix \"documentary\" a",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "FAA Ground Stop Chaos, Van Hollen Challenges Schumer, SpaceX Makes History: AM Update 11/16",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-16T10:30:00+00:00",
+     "summary": "A nationwide FAA ground stop triggers thousands of flight cancellations, exposing vulnerabilities in the nation's aging air traffic control system and renewing calls for modernization. Democrat Senator Chris Van Hollen challenges Senator Chuck Schumer for Senate Majority Leader, arguing that Democrats need new leadership following their sweeping midterm victories. SpaceX makes history by successfully catching its Starship spacecraft returning from orbit for the first time, marking a major breakthrough in reusable rocket technology. All 191 people aboard a Mississippi River cruise ship survive ",
+     "source_title": "",
+     "relevant": true
+    },
+    {
+     "title": "A Second Look: Remembering the Best of Charlie Kirk",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-15T12:00:00+00:00",
+     "summary": "While terrible people like Jennifer Welch and Dave Chappelle are trashing Charlie Kirk's legacy this week, Megyn Kelly looks back at the special put together of Charlie's best appearances on The Megyn Kelly Show over the years. Follow The Megyn Kelly Show on all social platforms: YouTube: https://www.youtube.com/MegynKelly Twitter: http://Twitter.com/MegynKellyShow Instagram: http://Instagram.com/MegynKellyShow Facebook: http://Facebook.com/MegynKellyShow Find out more information at: https://www.devilmaycaremedia.com/megynkellyshow Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com",
+     "source_title": "",
+     "relevant": false
+    },
+    {
+     "title": "Meghan Markle's Brand in Free Fall, Amy Griffin's Reputation Rehab, and Selma Blair's Strange Apology, with Maureen Callahan | Ep. 1441",
+     "link": "https://www.siriusxm.com",
+     "published": "2026-11-13T20:11:21+00:00",
+     "summary": "Megyn Kelly is joined by Maureen Callahan, host of \"The Nerve,\" to discuss the latest spin on behalf of Meghan Markle from her personal outlet People magazine, new questions emerging about why she didn\u2019t speak out over the allegations against her dad for years, her absurd appearance on the red carpet amid all this drama, why Oprah Winfrey would be endorsing Meghan Markle\u2019s $250 \u201cbasket,\u201d major questions that are haunting Meghan\u2019s father and mother, actress Dakota Johnson's bizarre behavior, her pretending she hates being a celebrity despite her obviously staged photographs and non-stop intervi",
+     "source_title": "",
+     "relevant": false
+    }
+   ],
+   "total_items": 2043
+  },
+  {
+   "id": "honestly",
+   "name": "Honestly with Bari Weiss",
+   "lean": "center-right",
+   "kind": "podcast",
+   "url": "https://feeds.megaphone.fm/RSV2347142881",
+   "channel_title": "Honestly with Bari Weiss",
+   "items": [],
+   "total_items": 362
+  },
+  {
+   "id": "politics_war_room",
+   "name": "Politics War Room",
+   "lean": "left",
+   "kind": "podcast",
+   "url": "https://audioboom.com/channels/5033739.rss",
+   "channel_title": "Politics War Room with James Carville & Al Hunt",
+   "items": [
+    {
+     "title": "397: Like A Bad Spy Novel",
+     "link": "https://audioboom.com/posts/8978734",
+     "published": "2026-11-19T10:00:00+00:00",
+     "summary": "James and guest host Mark McKinnon cover managing the party\u2019s growing tent, explore the relationship between progressives and Black voters and the intricacies of Southern politics, share their thoughts on the potential 2028 field, and call for political reform to begin repairing our democracy post-Trump. Then, Al and James discuss the effect of Trump\u2019s leadership on his Party, how to win with healthcare reform, the difficulties of abolishing ICE, the future of the MAGA movement, strategies Democrats should pursue upon taking power, and the need to focus on practical solutions over radical prop",
+     "source_title": "",
+     "relevant": false
+    }
+   ],
+   "total_items": 398
+  }
+ ]
+}

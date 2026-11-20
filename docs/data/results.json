@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-19",
+ "run_date": "2026-11-20",
  "edition": "am",
- "generated_at": "2026-11-19T11:09:49.899257+00:00",
- "previous_snapshot": "2026-11-18-am",
+ "generated_at": "2026-11-20T11:10:14.152965+00:00",
+ "previous_snapshot": "2026-11-19-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -74,9 +74,7 @@
   },
   "majority": 51
  },
- "newly_called": [
-  "HOU-AK-AL"
- ],
+ "newly_called": [],
  "uncalled_competitive": [
   "HOU-MN-01",
   "HOU-NC-05"
@@ -98,6 +96,7 @@
   "HOU-OK-05",
   "HOU-FL-18",
   "HOU-FL-02",
+  "HOU-MD-01",
   "HOU-OK-01"
  ],
  "reported_called": [],
@@ -1056,6 +1055,11 @@
     "snapshot": "2026-11-19-am",
     "competitive_called": 101,
     "new": 1
+   },
+   {
+    "snapshot": "2026-11-20-am",
+    "competitive_called": 101,
+    "new": 0
    }
   ]
  },
@@ -9628,14 +9632,14 @@
      "name": "Andy Harris",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
-     "winner": true
+     "pct": 52.1,
+     "winner": false
     },
     {
      "name": "Dan Schwartz",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 47.7,
      "winner": false
     }
    ],
@@ -9645,19 +9649,26 @@
     "name": "Andy Harris",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
-    "winner": true
+    "pct": 52.1,
+    "winner": false
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Andy Harris",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 52.1,
+    "winner": false
+   },
+   "margin_pts": 4.4,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
-   "rated_safe_now_close": false,
+   "rated_safe_now_close": true,
    "upset_watch": false,
    "won_against_rating": false,
    "flip": false,
+   "flagged_since": "2026-11-20 am",
    "reported_call": null
   },
   "HOU-MD-02": {
@@ -9670,14 +9681,14 @@
      "name": "Johnny Olszewski",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
-     "winner": true
+     "pct": 65.0,
+     "winner": false
     },
     {
      "name": "Dave Wallace",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 34.8,
      "winner": false
     }
    ],
@@ -9687,12 +9698,18 @@
     "name": "Johnny Olszewski",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
-    "winner": true
+    "pct": 65.0,
+    "winner": false
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Johnny Olszewski",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 65.0,
+    "winner": false
+   },
+   "margin_pts": 30.2,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -9712,14 +9729,14 @@
      "name": "Sarah Elfreth",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
-     "winner": true
+     "pct": 67.7,
+     "winner": false
     },
     {
      "name": "Berney Flowers",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 32.0,
      "winner": false
     }
    ],
@@ -9729,12 +9746,18 @@
     "name": "Sarah Elfreth",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
-    "winner": true
+    "pct": 67.7,
+    "winner": false
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Sarah Elfreth",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 67.7,
+    "winner": false
+   },
+   "margin_pts": 35.7,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -9894,14 +9917,14 @@
      "name": "Kweisi Mfume",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
-     "winner": true
+     "pct": 85.1,
+     "winner": false
     },
     {
      "name": "Scott Collier",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 14.5,
      "winner": false
     }
    ],
@@ -9911,12 +9934,18 @@
     "name": "Kweisi Mfume",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
-    "winner": true
+    "pct": 85.1,
+    "winner": false
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Kweisi Mfume",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 85.1,
+    "winner": false
+   },
+   "margin_pts": 70.6,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -14731,7 +14760,7 @@
    "won_against_rating": false,
    "flip": false,
    "reported_call": null,
-   "headline_call_lead": true,
+   "headline_call_lead": false,
    "headline_uncertain": true
   },
   "HOU-NC-06": {
@@ -23742,46 +23771,41 @@
  "news": {
   "HOU-MN-01": [
    {
-    "title": "Minnesota 1st Congressional District 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYzZVYkVNVk1ScW9OS0l1Ti1XTk9OYjFvbTFoZmFOR2pRR1FZbWFyZnBzU2NOQjRrLTBqaUNlQ1VUMy00SmdGMjdiSzVWVjNLeHVSLTJ6ZU1jSUdQMTdDSDFmOHVCMlA2bTZtenUwYWcydWp1bFFaSnJvUy0tUERVdkFqZnc?oc=5",
-    "published": "2026-11-18T17:29:44+00:00",
-    "flags": []
-   },
-   {
-    "title": "State Canvassing Board to certify Minnesota election results Thursday",
-    "outlet": "KTTC | Rochester, MN",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb0xQalBiWnlxSlpXRE9JMVVxNWJ1SV9MMG8yWDhhTTExU3lkXzlLNDJOY0ZzTmptYkZGU0VHR0pSVnB0QV9Odk50RDVZQWNILURobGhuRExMdkctU21FMVdINzFfN0k0VmxpQi03V24tZjVvam5ZRVhpVWtTNDZvTjZWeVRWdDdZTlkyazFNQTVmS2NaX252bUkxMDh0TFhz0gG0AUFVX3lxTE1PNVp4WGFPRXMtNDhIcm9Td08zQ254ME52SThrNksyYXAzUXRQelZvNDF6dDFkM0JxVUxsYVRpS04yODY1eUlGNzg0cnBOanBmTTNNTE1CWXA5OTdYQmRPRkhDSnJ0YnJQTS02SXIzQWI3MktKV09GdDRaSG5XUEVMTGxPOEJlMWxQSlh6VXV2bDNnWUxIaks5Nk5pd0Y4cGlSSjQ5RXBhOE1WMEcyX1VLanJJcQ?oc=5",
-    "published": "2026-11-16T22:15:00+00:00",
+    "title": "Rep. Brad Finstad requests recount after loss to Jake Johnson in southern Minnesota",
+    "outlet": "MPR News",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVHJBLVFZZmlhSXdFNk9zYkdPVWJLSjBxelpXSm9ZcFpMNUVYVEhROVdjaUIxYWNRMzZYVGJpRXJKcXdFdGpabnFDa0s2MVpjZHFhN2xnbFh6T0hfcDAweWJnU1RZXzl6SDU1VUdCc1o2YXBUT21LQjE5cUZGQThXa21jakFHdXJydl9xY3ByMnduejlhS1BuaFVwYUlfb0c3TXhTZTdoalYyR2xsX1VwRUxFdnl3WmtiN2c5WGx3bFIxdkZ3TXc?oc=5",
+    "published": "2026-11-19T22:50:00+00:00",
     "flags": [
-     "legal"
+     "uncertain"
     ]
    },
    {
-    "title": "Jake Johnson in DC while possible recount with Brad Finstad awaits",
-    "outlet": "5 EYEWITNESS NEWS",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRXBIY3NTamI0RG1FNkxHbUIzWFZ0RkZGUG43X2YxT1M1YTNFYW8wUXJWT0g3YUtYazJ5UWd1cmRLRVdtbGpuU0tGcnVGd0VVZHNVSGFMQU5NNk54ZnE2Xy13cWtQcmd1bk5yNGN0NjlSMVFWelV6cFQwRXhpenBYOXhsdElyRXk5TUd6d1dyR1RtV1M3cFNSMVdCMWo2QWFzbDlMc19n?oc=5",
-    "published": "2026-11-16T23:07:47+00:00",
+    "title": "MN Sen. Karin Housley wins recount; three others pending",
+    "outlet": "Pioneer Press",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3pHZDZ5Z3R4al8yV1oxZ215ek5qUFhfOU1peXR1RnlaQVl1aUJnelVjN1RDUXFkbzB1RmpkZ3huMFRpc3hNZTZvVk55cEo0b3lVakdVLU9jNFRWcnhHalo0VGYwUUlyT2E3WFdrZExUSEN1N3dOMjlaZkZ4dEM3RkxrVGxVdw?oc=5",
+    "published": "2026-11-19T22:35:13+00:00",
     "flags": [
+     "call",
      "uncertain"
+    ]
+   },
+   {
+    "title": "Rep. Brad Finstad requests hand recount in Minnesota's 1st District after 324-vote margin certified",
+    "outlet": "CBS News",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTk1BRnMtbDJxR08yVnlRUmZiNmJRRXI2UVNSN2VHNkVnLWl6Y05JRHdyTzRjdkxsdW4yMFdaUTZUa200VDJZYzE0MWNVMk5BdGFDUjc4YWJ4QzJESlVTMS1IT01YQWZSRWdVZ01mYmZiTnZ2XzZSVE1PNDJ0ZEU1Y0I0RnJIQ0pxUDFJeFBwODBILTBnR3JyQXRFeWo3VnVKbVRFMHVSUDZVeG13cjJTa1JwUjdJOGVoR0pQM2R2WXN4cElVcG9YRnNLamIxQmNNZUhN?oc=5",
+    "published": "2026-11-19T21:16:00+00:00",
+    "flags": [
+     "uncertain",
+     "legal"
     ]
    }
   ],
   "HOU-NC-05": [
    {
-    "title": "Virginia Foxx files for candidacy in 2028 race for NC's 5th Congressional District amid recount request",
-    "outlet": "wfmynews2.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQRWg1NnFZaFBhdDRrcUJTSmxibFhON09kQ2lhRXRwRVd2WDVsYUMtMjROZ0dCR2ZZajJ0RXhyYzBHMVhVdFNQb19aaGtJdzBEakRUT0c3QkhwZVBjcjNzNjZINDJybHV1TUYtRVZ0RmVMZHNYRHZfM2FEN0xla3RSd3Y1UHVTNjZReVBvY2JRbTktdjY4NXNkUjBETnlIc1NGc0hWYnZROW1rZ3c4V21nZDZucnZVNHF3S1licjBMQWY5cldTd2VjaGZ2djFLdXNwbnR2WjVzUlBBOWl3bTJpMHNpTFZxZG1ZaGs0VHRtOTlGd3hpRlRzRmRvOENvZmNIYzg5emVwblpHejJwS1BmbEltRmo2WS01VzAwa2xQV1lqdC1JTHdLbE1HbzlOdDlwY0JSTS1heWx6UTA?oc=5",
-    "published": "2026-11-17T13:55:00+00:00",
-    "flags": [
-     "uncertain"
-    ]
-   },
-   {
-    "title": "With House Democratic majority still growing, recounts are starting in close NC races",
-    "outlet": "WRAL",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNTFWVXdCemZEN0Nha1JTX3ZkVkh6NTlTTDJQZnUzci1zR05ST1FFQ1gwS2prQlljU1pnRzNTdXl3Mk5nNG1vQlo2NmZhcGI1VVJCa2tSMWFjejFtYlZzSUhzV3hrbHFKZlpZdno2SHZyYzBSclhQQkkyQ1YyS3F2SURxU3pOQWdOUEhjUWttSDBxNU1DdUZnNXNqOHZkc2dubjhLREhJc1BFUQ?oc=5",
-    "published": "2026-11-18T00:09:31+00:00",
+    "title": "Recount underway in tight N.C. District 5 election race, officials await final vote totals",
+    "outlet": "WXLV",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZld0bXJ0TElxV1pRZFdteXJmZUZ3UWRyYktlc1Rrenl1ck50M1JqbGJ6U1ZZanl3ZC1DUDBrWi1SRHVnS20tMUJoUVkxOE1KVEFWRlhRbTktMUU5R3NKam1CRmtvRzFYaDdmOFV1LXRFMXR5YTZNWFRINnhMOEVVVkdXa0RENEstUG5BbWlvWEpoS3pvNWZvR0l2VUVyQTFSR0dwYjNsZTdocUpteDRUQnBQbzh5QW8?oc=5",
+    "published": "2026-11-20T01:57:12+00:00",
     "flags": [
      "uncertain"
     ]
@@ -23794,38 +23818,25 @@
     "flags": [
      "uncertain"
     ]
-   }
-  ],
-  "HOU-AK-AL": [
-   {
-    "title": "Mary Peltola ousts incumbent Republican Dan Sullivan in Alaska Senate race, giving Democrats 56 seats",
-    "outlet": "CNN",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmbS11SDdYWlZsSkp5dHNnU1JrbktwRVNLS2pma0p6aWtyWXRjNzJZZ2dnMUszeE12UnZqRzhWbFJJT0p0SWhYWUtNN0tneTRJdnRUa3gzVVBuWnpXWkFUczdPLUZxUlllZUZ6UGR6dmhzeHVqZU1QRUN6RQ?oc=5",
-    "published": "2026-11-18T03:14:00+00:00",
-    "flags": [
-     "call"
-    ]
    },
    {
-    "title": "Republican Nick Begich wins re-election to Alaska’s U.S. House seat, a rare bright spot for the GOP",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjZJTkMzZTVMejZ5QXhmNVlWX3VXdy1XNEV3TTdLWjJKN2FXWWlqQktuRURyMDQ1V2prTHZBQm9YaVpRWnpPZzlkUjd3T0NsZkpvOVBjZF9ON3lrV1VPMVhMNWxqdGtPX1BTTlpYUXlfUE5kZ0FMUHk2NG5BYTZnRVJJTmVMMUNYeUU0WXRsT0VVaUtHcmY5d2o1eTFocVJuSnJLWnExUlU2Nk1QWTllMGxybURMblZnS2lGZ0ZLMThrZmlyb29r?oc=5",
-    "published": "2026-11-19T04:21:00+00:00",
-    "flags": [
-     "call"
-    ]
-   },
-   {
-    "title": "Missed ranked choice tabulation? Rewatch the livestream.",
-    "outlet": "Alaska Public Media",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUV9MM2o4WHB4V1EtakZUZ1d3eFpDRHdVenpFX0RZTXJQeVhvMEJ4blpSZ25Na091a0FFZHg1RzNsOFEydVR4X2hoaks0ZHN4eV8wM0l2VVVyMUtWd010QWZCdEZiaDZPQUk1WWNjYldBVUVrM0RRd0VZQS1INjNMLVRIc2V3c1VRUXhmWGFRRkpuZ0hsWE5NMkZ5SFJROUFCbW9oWDhhVHUtRFNReXhsbmpyUGVXei03?oc=5",
-    "published": "2026-11-18T20:14:00+00:00",
+    "title": "Virginia Foxx files for candidacy in 2028 race for NC's 5th Congressional District amid recount request",
+    "outlet": "wfmynews2.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxQRWg1NnFZaFBhdDRrcUJTSmxibFhON09kQ2lhRXRwRVd2WDVsYUMtMjROZ0dCR2ZZajJ0RXhyYzBHMVhVdFNQb19aaGtJdzBEakRUT0c3QkhwZVBjcjNzNjZINDJybHV1TUYtRVZ0RmVMZHNYRHZfM2FEN0xla3RSd3Y1UHVTNjZReVBvY2JRbTktdjY4NXNkUjBETnlIc1NGc0hWYnZROW1rZ3c4V21nZDZucnZVNHF3S1licjBMQWY5cldTd2VjaGZ2djFLdXNwbnR2WjVzUlBBOWl3bTJpMHNpTFZxZG1ZaGs0VHRtOTlGd3hpRlRzRmRvOENvZmNIYzg5emVwblpHejJwS1BmbEltRmo2WS01VzAwa2xQV1lqdC1JTHdLbE1HbzlOdDlwY0JSTS1heWx6UTA?oc=5",
+    "published": "2026-11-17T13:55:00+00:00",
     "flags": [
      "uncertain"
     ]
    }
   ],
   "GOV-AK": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
+    "flags": []
+   },
    {
     "title": "Preliminary ranked choice voting results in Alaska’s 2026 elections",
     "outlet": "FairVote",
@@ -23836,92 +23847,177 @@
     ]
    },
    {
-    "title": "Alaska presumptive Gov.-elect Kreiss-Tomkins announces transition team leaders",
-    "outlet": "Alaska Beacon",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSk1MNmxrb0dMbjRzTUFtSG9uQUNWNExEbUxrcnlWZXJKamV4cHNVLVp5eXRMcXhMbmc3bDJkbG1hcVlFMC1vNWtwSzBIU2pmTkUwZ1lvX0R2S3g2T3VlTXk2MUZBeEl3ZHJySGluZVJydWlVNjRWem5iRE84TDNPbl84THFLYzVOYzVveVdsT0F0OFlNcl9zWDVZbXg0OGxVbTdNVHJUZVRXNWRjNjltbHc4WXA?oc=5",
-    "published": "2026-11-17T22:34:32+00:00",
+    "title": "How will remaining ballots affect Alaska’s statewide elections?",
+    "outlet": "FairVote",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTnlNZ0RBMzBhWVdjQjZxZnZyWVE4LU5wMWJNZXFfSkVLZ1FpMU5xcEtUZWpzZGJlZ2FSN2M0ZUliMEZDaVNtU29NQkpLR0JlQ0ZRTnJTU25IcTVrYVlLTGRxZWZUeUlSQV8zVU1xYktab3JSaEd5ZjVPQnVFb0l2QUhNOS1mTUE4X2tN?oc=5",
+    "published": "2026-11-18T14:59:30+00:00",
     "flags": []
    }
   ],
   "GOV-AZ": [
    {
-    "title": "How did polls perform in Arizona governor's race?",
-    "outlet": "The Arizona Republic",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTElQejNBZDc0VkNXakZ0VTFlc0RHSVBiTVR2ZjVGVzhhZ3VXZWdtTTllRERnWHdIZDRRQ3BaYTlkQlJDNmNfcFh5VFRSdldWRU1PZ18zMHFxVm5ucWRQRllIVkw5WG9MNzgyai1qcy15VkR5R1pobHI5d0U3Nm9yelE3cUlvQW02TEw5U2ZmSFFOYXk0c2hyeHo3TlBtQ3JlUkhvUndXQVRUR1VTcGRxTGloV0U5M1pXMGlfZzZULXYxQl9GYS1WajR5TVhXcHAtbGc?oc=5",
-    "published": "2026-11-16T12:02:00+00:00",
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
     "flags": []
    }
   ],
-  "GOV-FL": [],
+  "GOV-FL": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T08:18:00+00:00",
+    "flags": []
+   }
+  ],
   "GOV-GA": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T08:18:00+00:00",
+    "flags": []
+   },
    {
     "title": "Georgia Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR1ZHbTQwX0FGU1VyMXZlb0JqdV9HbDBobEtwLXZUN3VfbEFiTEd5MzJSUS11RTlGemstUzhTc3pCbXNpeTZTdUpWNURnZWlmT1FNVm9ZODkyRTVVcVZPS3p3Z3dvOTJqUXhtbkFFcVd6RVFSa09xT01DdVZjeHdnc2diVHA3dW9kTEIySTR3?oc=5",
-    "published": "2026-11-18T15:19:00+00:00",
+    "published": "2026-11-19T13:01:00+00:00",
     "flags": []
    }
   ],
-  "GOV-IA": [],
+  "GOV-IA": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
+    "flags": []
+   }
+  ],
   "GOV-KS": [
    {
-    "title": "Kansas Governor Midterm Election 2026: Live Results",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoU0N5dFZuYlNOd3AxS3d0U0MxTVU3VkxGWWNaZEZDRDFoSGlBR1N6bHR0ZFpyRXF4RGZvNS05YkJlVmF2dFFSa1JHbjhzNml5SUZkUmttVlNwU3hCRGxxbFRxbVJGT2drLVNXbk90WlZlVmhHTVVsbUVzbw?oc=5",
-    "published": "2026-11-19T02:31:07+00:00",
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
     "flags": []
    },
    {
-    "title": "Kansas Governor Election Live Results 2026",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nWHBNNWZibldPNElQNFdGbHpZVmdlaFY0em9Va3BrSlZ6djdaV0ZYQWdXLVIyQm1rb2xpeVdueDdvRmRZdjc3SEJ4WFk0V1ZqWW1zUG12eEpoVmxnbXd1SlpITzBEMHVlZVNyTlE0ekYwVmRQS2c?oc=5",
-    "published": "2026-11-17T08:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Kansas governor's race election results: Holscher declared winner, Masterson concedes race",
-    "outlet": "KMBC",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUDJhckJjYjNSSVdiRGxIcERNRThEU3JISmVTVGloaDNueWJxUWtIVHU5UkdCYU5HcWQ4ZTNlMVo4SHBOUnl2Vl9kUnExT01rVDFhTmVoTEZNQ1EtSHZFNFd0VENWY0d2TjZuTThIQzhHdDdQS0N1Rlo2azBPbWxSVGJfZkVUYmZnTFJ6RWFqQTJZQ1Z3NHRFSVRFa2FSdGw3?oc=5",
-    "published": "2026-11-16T22:08:00+00:00",
+    "title": "Kansas 2026 live midterm elections results: Democrat Cindy Holscher will win governor's race, AP projects - ABC News",
+    "outlet": "ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWloxSW5IWWdDZnpMZTRab1JMQW93ZTlaYXVWNjB4dDM0UHE0aTUxRE42UU9nTmJkN3RhWko4QllHY0pBc1NBaVNlakRSMXVwRzJVczVjQUJIRmVrSFZCbjVMXzJxR3dUS2xFblRZTlZDWDI2T2ZzTG1oTlVGMXpDU1pRX013YlVBbmZkYnFyS2RIR2_SAZgBQVVfeXFMTkpaaGVRVnU5V0VHS09OeGVlUnEyRFZhdkpnX2c1T1dYcDFJeE1aamxOU01tajJGS0ZLX3ZETjF6cUQyRmtBaENIUGlKRzM3S0ZUUVRPR1pTZFI0UjJ5N3RHZ0RXSHJsdU90RmlPdjYyOHJCRjZjT0JSSHNySzdNR19YOVNkOGxyTUJhT05DdUM0blpXejBrcmk?oc=5",
+    "published": "2026-11-17T23:35:00+00:00",
     "flags": [
      "call"
     ]
    }
   ],
-  "GOV-MI": [],
-  "GOV-MN": [],
+  "GOV-MI": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T08:18:00+00:00",
+    "flags": []
+   }
+  ],
+  "GOV-MN": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
+    "flags": []
+   }
+  ],
   "GOV-NE": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T08:18:00+00:00",
+    "flags": []
+   },
    {
     "title": "Nebraska Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzFKSVdHR0VwdEdXbjVyY05kU3Q3MWxzd3RLd2dJUDJJZm9SU3dYSDhYVDV5alhLX2YzTVNUUDFraWdUclpEbFZtczIxLVNUY1JVVVk0ZWRtR2NIN3pLUDNSb2xONkkwLWRVZWRwTF80NGdRSThXcTlSSC1wYTBCUU9EQmFQU0JhWjFOVVM2UQ?oc=5",
-    "published": "2026-11-16T12:34:00+00:00",
+    "published": "2026-11-19T13:01:00+00:00",
     "flags": []
    }
   ],
-  "GOV-NH": [],
-  "GOV-NV": [],
-  "GOV-OH": [],
+  "GOV-NH": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
+    "flags": []
+   }
+  ],
+  "GOV-NV": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T08:18:00+00:00",
+    "flags": []
+   }
+  ],
+  "GOV-OH": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
+    "flags": []
+   }
+  ],
   "GOV-OK": [],
-  "GOV-OR": [],
+  "GOV-OR": [
+   {
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
+    "flags": []
+   },
+   {
+    "title": "Oregon Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzFxUnZPZTVkeXZZZzh3dW0ybnNVQmZXWGNQV3pSem54bWo3TUNkZ0JIRWdDT3dXSkFsYUo5SC1YakVSSVlPMU5lZmJCQlEwOWVLeUFaQmt4alZwM1hCc2FiYnZzd1Zmajh6VmMzTUtQa0xZVUJvdzhYUzJwcUxraEs2ZEZDU2VRd09tTg?oc=5",
+    "published": "2026-11-19T13:01:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "2026 Oregon General Election results",
+    "outlet": "OregonLive.com",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZldfSjhmVl9sMDl2YjY1cVRlMVRHcEZVV3JFQWZScXZmUTRpQzM2MWFsbE93ZTRFeFk5MEdhSDJMb0NGcDA1MUlGQndGSy1kYWhreUFTMjZFY09BQzBXakF0d0MyTmRaSUphZ210VVoyMFFMM1RSS0tsVDVtZjZRNE42TEtLS2N4WmRjNXdB?oc=5",
+    "published": "2026-11-17T19:42:00+00:00",
+    "flags": []
+   }
+  ],
   "GOV-TX": [
    {
-    "title": "Don’t blame the Texas blue wave on ex-Californians",
-    "outlet": "CalMatters",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SaHlPS2owRmgwY3NDOFBkcmpUZFJwSVU0a0dpZEMySk9xb1FOMTZsemZSeEpFdzVBUURUb0k0cjNSa1lsUzNIUDl3NUtLZk85dl9idGN2RkEwYm83Vy10UEU0NzZ3UXBSN0g4cnVB?oc=5",
-    "published": "2026-11-16T14:00:00+00:00",
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T08:18:00+00:00",
     "flags": []
    }
   ],
-  "GOV-VT": [],
-  "GOV-WI": [
+  "GOV-VT": [
    {
-    "title": "Q&A: Wisconsin Governor-elect David Crowley on election results and priorities, including education, healthcare, marijuana, Act 10, prisoner commutations",
-    "outlet": "The Milwaukee Courier",
-    "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPekFMSU1rM09NYkFzdnFVSHYtaHZsem5NaEY2ZlQzY01iNm5RQlNpMjRWV3FIQ2U4YmYzS2dhNGRsb1llRW5CMTROdXUzZm8yZkRyZjhjaGFTOUN5MUU2bDVOMkpqT3BSNDFUVndENVpfLXFWTlBmUG8zYW12aGlmdVpKNzZjeWQtVlMySGY4UXgwczEtLVFxM2ktUnhSSDNYS2NHX1kzc04wYXo2dTFIalpPcHNUeXhQTmZlSE1LTWJLNEo4U3I5YlhnYldFd3Y0MmNvMFdORGp6bUdxblVtSVNtbGdVcUpxUXdzYVJaek15UFhJb3dhQlV5YjBTYTlJMXdVUUo5ekY3b1J2ay1fYWNQTm9HLXpHVWxF?oc=5",
-    "published": "2026-11-16T23:08:00+00:00",
+    "title": "Governors | 2026 State Election Results",
+    "outlet": "MultiState",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
+    "published": "2026-11-20T10:15:55+00:00",
     "flags": []
    }
-  ]
+  ],
+  "GOV-WI": []
  }
 }
