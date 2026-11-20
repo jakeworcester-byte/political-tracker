@@ -137,33 +137,14 @@
       "pct": 46.0
      }
     ]
-   },
-   {
-    "pollster": "co/efficient",
-    "end_date": "2026-07-22",
-    "margin": 5.0,
-    "n": 1292,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://coefficient.org/b96b92b3.pdf",
-    "answers": [
-     {
-      "choice": "Cait Conley",
-      "pct": 45.0
-     },
-     {
-      "choice": "Mike Lawler",
-      "pct": 50.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [
   {
-   "date": "2026-11-18",
+   "date": "2026-11-17",
    "race": "HOU-NY-17",
    "races": [
     "HOU-NY-17"
@@ -377,6 +358,11 @@
   },
   {
    "date": "2026-11-19",
+   "c": -2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-11-20",
    "c": -2,
    "p": -2.0
   }

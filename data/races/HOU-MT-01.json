@@ -209,22 +209,7 @@
  },
  "raw_poll_count": 4,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-18",
-   "race": "HOU-MT-01",
-   "races": [
-    "HOU-MT-01"
-   ],
-   "type": "reporting",
-   "source": "NPR Politics",
-   "lean": "center-left",
-   "title": "Democratic strategists think Montana House race could hold the secret to future wins",
-   "url": "https://www.npr.org/2026/11/18/nx-s1-6032798-e1/democratic-strategists-think-montana-house-race-could-hold-the-secret-to-future-wins",
-   "summary": "Montana is sending a Democrat to the U.S. House for the first time in three decades. Many in the party think Sam Forstag's campaign may be a playbook for how Democrats can win again in rural America.",
-   "relevant": true
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MT-01",
  "history": [
   {
@@ -424,6 +409,11 @@
   },
   {
    "date": "2026-11-19",
+   "c": 0,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-20",
    "c": 0,
    "p": -8.0
   }
