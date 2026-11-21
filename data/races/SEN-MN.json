@@ -323,23 +323,7 @@
  },
  "raw_poll_count": 8,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-19",
-   "race": "SEN-MN",
-   "races": [
-    "SEN-MN"
-   ],
-   "type": "reporting",
-   "source": "The Guardian",
-   "lean": "unrated",
-   "title": "Senator-elect Peggy Flanagan on her road to victory in Minnesota: ‘I have been underestimated my entire life’",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZWZhZnlVODl2NURia1o3Y1BaYkk4YkZMc1hlRGRSM3hzTEd3VERRRHoxQ2lzZ25nbDFiem9Fb0dVcXJCYWh6LXpSTWZ0YmtheTdmaDJtZFh2MEV4MThCRmtrYm9TaE52UXJLSDdwWklwUFhSNHVaMGhGSTZEaEUxSUVTdnQyOThjMThfZ3BvOVJTY05KcE9IRGVFSzQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-MN",
  "history": [
   {
@@ -544,6 +528,11 @@
   },
   {
    "date": "2026-11-20",
+   "c": -2,
+   "p": -2.7
+  },
+  {
+   "date": "2026-11-21",
    "c": -2,
    "p": -2.7
   }

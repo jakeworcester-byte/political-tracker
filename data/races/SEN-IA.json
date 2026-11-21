@@ -385,6 +385,21 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-19",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA"
+   ],
+   "type": "reporting",
+   "source": "NBC News",
+   "lean": "unrated",
+   "title": "Iowa U.S. Senate Election 2026 Live Results: Josh Turek Wins",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DSHJvaDVLOWdwb2NCd2QzQkpkRnZBeEptWjRONFMtcU4zWkhzZGowbG9RV2EyOVZ3TldHTWJnWkJsVGw4U0hDWS04ak1URDdkVUd2NFBuX2hOR0hlTWM0MUVTcGNqOTZiMDUzZERFdXpXX1dOTVE?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  },
+  {
    "date": "2026-11-18",
    "race": "SEN-IA",
    "races": [
@@ -411,21 +426,6 @@
    "url": "https://www.nytimes.com/2026/11/17/opinion/ezra-klein-podcast-rob-sand.html",
    "summary": "Rob Sand will soon be Iowa’s first Democratic governor in more than 15 years. And he won the race in a walk – trouncing his opponent by 11 points, a 24-point swing from how Kamala Harris performed in the state in 2024. And he ran several points ahead of Iowa’s Democratic senator-elect, Josh Turek. S",
    "relevant": true
-  },
-  {
-   "date": "2026-11-17",
-   "race": "SEN-IA",
-   "races": [
-    "SEN-IA"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "The Data Dive: Steve Kornacki on how Josh Turek flipped a Senate seat in Trump’s Iowa",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVHczdmY2S2lZOVZqSHpUWW1iX25aLVZsazc5OU96amhNRWlJOFhMaEFIdlFtUVhLdmRvQ1RibjFpWFJFeEF2UEpISl9RSkN3ci01RW8wZTQyRElhQ3d2eHpNNnJEOWF3R3Y5TENDcHZsMmlzSk1aSWFmTnltZ2wybXppZXpHX2hzS1ZxeFJLR1J0MHY2VmNKeDFuczZZVG9EbkM5aUFNV0RBcTdUMGx3aEEtNmtNQXkwdFRiUmZsdlIxSVE?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
   }
  ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-IA",
@@ -632,6 +632,11 @@
   },
   {
    "date": "2026-11-20",
+   "c": 0,
+   "p": 0.3
+  },
+  {
+   "date": "2026-11-21",
    "c": 0,
    "p": 0.3
   }
