@@ -142,7 +142,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-19",
+   "race": "HOU-WA-03",
+   "races": [
+    "HOU-WA-03"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Washington 3rd Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV1JHbUpna085SzJrZHNQdllVa2p0dkJ5N0tTcTVFZkViQnBKaW40eDF5UEJmMmppekQ2TnUwdnZYODY3blR4ODJueVVHUVhhaWZ0cEQtWXRrN3RSWUFEQTNJTXhVYzFONG1aRnI4cFlBazQ5WVhJU3lkb1NuZEs2RHczQmdXUQ?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-WA-03",
  "history": [
   {
@@ -352,6 +368,11 @@
   },
   {
    "date": "2026-11-21",
+   "c": -2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-11-22",
    "c": -2,
    "p": -1.0
   }

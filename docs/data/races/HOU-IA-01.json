@@ -88,7 +88,23 @@
  "poll": null,
  "raw_poll_count": 0,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-19",
+   "race": "HOU-IA-01",
+   "races": [
+    "HOU-IA-01"
+   ],
+   "type": "reporting",
+   "source": "The New York Times",
+   "lean": "unrated",
+   "title": "Iowa 1st Congressional District 2026: Latest Polls",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IdHJaOG16VlRVVTN3RnN0UkNiWExmcGM3MC1iSGc2NndLU0oxLW5tejNQQWp5NEhZYmdiWGZ4VEp2V2t3Qy14M0xQTWpQSDYwVWdoWWFTNnpwaWZZYXB4aFc4NU1oNU12T3YzTXZCa1lpWmRkODMtandtX0ZNdw?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-IA-01",
  "history": [
   {
@@ -298,6 +314,11 @@
   },
   {
    "date": "2026-11-21",
+   "c": -2,
+   "p": null
+  },
+  {
+   "date": "2026-11-22",
    "c": -2,
    "p": null
   }
