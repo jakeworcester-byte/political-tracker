@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-21",
+ "run_date": "2026-11-22",
  "edition": "am",
- "generated_at": "2026-11-21T11:10:18.424434+00:00",
- "previous_snapshot": "2026-11-20-am",
+ "generated_at": "2026-11-22T11:09:59.316181+00:00",
+ "previous_snapshot": "2026-11-21-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -12,14 +12,14 @@
  },
  "house": {
   "races": 435,
-  "called": 433,
+  "called": 434,
   "won": {
-   "D": 260,
+   "D": 261,
    "R": 173,
    "I": 0,
    "Other": 0
   },
-  "uncalled": 2,
+  "uncalled": 1,
   "reported": {
    "D": 0,
    "R": 0,
@@ -28,7 +28,7 @@
   },
   "reported_count": 0,
   "won_incl_reported": {
-   "D": 260,
+   "D": 261,
    "R": 173,
    "I": 0,
    "Other": 0
@@ -74,10 +74,11 @@
   },
   "majority": 51
  },
- "newly_called": [],
- "uncalled_competitive": [
-  "HOU-MN-01",
+ "newly_called": [
   "HOU-NC-05"
+ ],
+ "uncalled_competitive": [
+  "HOU-MN-01"
  ],
  "pending_safe": [],
  "reverted_to_uncalled": [],
@@ -1070,6 +1071,11 @@
    {
     "snapshot": "2026-11-21-am",
     "competitive_called": 101,
+    "new": 0
+   },
+   {
+    "snapshot": "2026-11-22-am",
+    "competitive_called": 102,
     "new": 0
    }
   ]
@@ -6409,7 +6415,7 @@
    "status_text": "Incumbent re-elected.",
    "candidates": [
     {
-     "name": "Carlos A. Giménez",
+     "name": "Carlos A. Gimenez",
      "party": "R",
      "party_label": "Republican",
      "pct": 52.9,
@@ -6433,14 +6439,14 @@
    "incumbent_party": "R",
    "called": true,
    "winner": {
-    "name": "Carlos A. Giménez",
+    "name": "Carlos A. Gimenez",
     "party": "R",
     "party_label": "Republican",
     "pct": 52.9,
     "winner": true
    },
    "leader": {
-    "name": "Carlos A. Giménez",
+    "name": "Carlos A. Gimenez",
     "party": "R",
     "party_label": "Republican",
     "pct": 52.9,
@@ -7141,28 +7147,28 @@
      "name": "Ed Case",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 71.8,
      "winner": true
     },
     {
      "name": "Adriel Lam",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 22.9,
      "winner": false
     },
     {
      "name": "Jordan Conley",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 4.0,
      "winner": false
     },
     {
      "name": "Nathan Berning",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 1.3,
      "winner": false
     }
    ],
@@ -7172,12 +7178,18 @@
     "name": "Ed Case",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 71.8,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Ed Case",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 71.8,
+    "winner": true
+   },
+   "margin_pts": 48.9,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -7197,14 +7209,14 @@
      "name": "Jill Tokuda",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 66.5,
      "winner": true
     },
     {
      "name": "Brenton Awa",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 33.5,
      "winner": false
     }
    ],
@@ -7214,12 +7226,18 @@
     "name": "Jill Tokuda",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 66.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jill Tokuda",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 66.5,
+    "winner": true
+   },
+   "margin_pts": 33.0,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -8686,21 +8704,21 @@
      "name": "Tracey Mann",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 59.2,
      "winner": true
     },
     {
      "name": "Lauren Reinhold",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 38.1,
      "winner": false
     },
     {
      "name": "Steven Jacob",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 2.7,
      "winner": false
     }
    ],
@@ -8710,12 +8728,18 @@
     "name": "Tracey Mann",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 59.2,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Tracey Mann",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 59.2,
+    "winner": true
+   },
+   "margin_pts": 21.1,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -8735,21 +8759,21 @@
      "name": "Derek Schmidt",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 51.0,
      "winner": true
     },
     {
      "name": "Don Coover",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 45.2,
      "winner": false
     },
     {
      "name": "John Hauer",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 3.8,
      "winner": false
     }
    ],
@@ -8759,12 +8783,18 @@
     "name": "Derek Schmidt",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 51.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Derek Schmidt",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 51.0,
+    "winner": true
+   },
+   "margin_pts": 5.8,
+   "has_results": true,
    "final_rating": "Likely R",
    "final_score": 3,
    "competitive": true,
@@ -8784,21 +8814,21 @@
      "name": "Sharice Davids",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 59.6,
      "winner": true
     },
     {
      "name": "Eric Jenkins",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 38.3,
      "winner": false
     },
     {
      "name": "Steven Hohe",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 2.1,
      "winner": false
     }
    ],
@@ -8808,12 +8838,18 @@
     "name": "Sharice Davids",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 59.6,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Sharice Davids",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 59.6,
+    "winner": true
+   },
+   "margin_pts": 21.3,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -8833,21 +8869,21 @@
      "name": "Ron Estes",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 53.3,
      "winner": true
     },
     {
      "name": "Katy Tyndell",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 44.3,
      "winner": false
     },
     {
      "name": "Drew Cranmer",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 2.4,
      "winner": false
     }
    ],
@@ -8857,12 +8893,18 @@
     "name": "Ron Estes",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 53.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Ron Estes",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 53.3,
+    "winner": true
+   },
+   "margin_pts": 9.0,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -9804,7 +9846,7 @@
      "party": "R",
      "party_label": "Republican",
      "pct": 52.1,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Dan Schwartz",
@@ -9821,14 +9863,14 @@
     "party": "R",
     "party_label": "Republican",
     "pct": 52.1,
-    "winner": false
+    "winner": true
    },
    "leader": {
     "name": "Andy Harris",
     "party": "R",
     "party_label": "Republican",
     "pct": 52.1,
-    "winner": false
+    "winner": true
    },
    "margin_pts": 4.4,
    "has_results": true,
@@ -9853,7 +9895,7 @@
      "party": "D",
      "party_label": "Democratic",
      "pct": 65.0,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Dave Wallace",
@@ -9870,14 +9912,14 @@
     "party": "D",
     "party_label": "Democratic",
     "pct": 65.0,
-    "winner": false
+    "winner": true
    },
    "leader": {
     "name": "Johnny Olszewski",
     "party": "D",
     "party_label": "Democratic",
     "pct": 65.0,
-    "winner": false
+    "winner": true
    },
    "margin_pts": 30.2,
    "has_results": true,
@@ -9901,7 +9943,7 @@
      "party": "D",
      "party_label": "Democratic",
      "pct": 67.7,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Berney Flowers",
@@ -9918,14 +9960,14 @@
     "party": "D",
     "party_label": "Democratic",
     "pct": 67.7,
-    "winner": false
+    "winner": true
    },
    "leader": {
     "name": "Sarah Elfreth",
     "party": "D",
     "party_label": "Democratic",
     "pct": 67.7,
-    "winner": false
+    "winner": true
    },
    "margin_pts": 35.7,
    "has_results": true,
@@ -10040,7 +10082,7 @@
      "party": "D",
      "party_label": "Democratic",
      "pct": 59.3,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Robin Ficker",
@@ -10064,14 +10106,14 @@
     "party": "D",
     "party_label": "Democratic",
     "pct": 59.3,
-    "winner": false
+    "winner": true
    },
    "leader": {
     "name": "April McClain Delaney",
     "party": "D",
     "party_label": "Democratic",
     "pct": 59.3,
-    "winner": false
+    "winner": true
    },
    "margin_pts": 21.7,
    "has_results": true,
@@ -10095,7 +10137,7 @@
      "party": "D",
      "party_label": "Democratic",
      "pct": 85.1,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Scott Collier",
@@ -10112,14 +10154,14 @@
     "party": "D",
     "party_label": "Democratic",
     "pct": 85.1,
-    "winner": false
+    "winner": true
    },
    "leader": {
     "name": "Kweisi Mfume",
     "party": "D",
     "party_label": "Democratic",
     "pct": 85.1,
-    "winner": false
+    "winner": true
    },
    "margin_pts": 70.6,
    "has_results": true,
@@ -11434,14 +11476,14 @@
      "name": "Matt Little",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 57.1,
      "winner": true
     },
     {
      "name": "Eric Pratt",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 42.8,
      "winner": false
     }
    ],
@@ -11451,12 +11493,18 @@
     "name": "Matt Little",
     "party": "D",
     "party_label": "DFL",
-    "pct": null,
+    "pct": 57.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Matt Little",
+    "party": "D",
+    "party_label": "DFL",
+    "pct": 57.1,
+    "winner": true
+   },
+   "margin_pts": 14.3,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -11476,14 +11524,14 @@
      "name": "Kelly Morrison",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 64.0,
      "winner": true
     },
     {
      "name": "Tyler Bass",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 35.8,
      "winner": false
     }
    ],
@@ -11493,12 +11541,18 @@
     "name": "Kelly Morrison",
     "party": "D",
     "party_label": "DFL",
-    "pct": null,
+    "pct": 64.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Kelly Morrison",
+    "party": "D",
+    "party_label": "DFL",
+    "pct": 64.0,
+    "winner": true
+   },
+   "margin_pts": 28.2,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11518,14 +11572,14 @@
      "name": "Betty McCollum",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 73.1,
      "winner": true
     },
     {
      "name": "Paul Wikstrom",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 26.8,
      "winner": false
     }
    ],
@@ -11535,12 +11589,18 @@
     "name": "Betty McCollum",
     "party": "D",
     "party_label": "DFL",
-    "pct": null,
+    "pct": 73.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Betty McCollum",
+    "party": "D",
+    "party_label": "DFL",
+    "pct": 73.1,
+    "winner": true
+   },
+   "margin_pts": 46.3,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11560,21 +11620,21 @@
      "name": "Ilhan Omar",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 76.5,
      "winner": true
     },
     {
      "name": "John Nagel",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 16.2,
      "winner": false
     },
     {
      "name": "DeVelle Jackson",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 7.0,
      "winner": false
     }
    ],
@@ -11584,12 +11644,18 @@
     "name": "Ilhan Omar",
     "party": "D",
     "party_label": "DFL",
-    "pct": null,
+    "pct": 76.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Ilhan Omar",
+    "party": "D",
+    "party_label": "DFL",
+    "pct": 76.5,
+    "winner": true
+   },
+   "margin_pts": 60.3,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11609,14 +11675,14 @@
      "name": "Tom Emmer",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 55.7,
      "winner": true
     },
     {
      "name": "Doug Chapin",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 44.2,
      "winner": false
     }
    ],
@@ -11626,12 +11692,18 @@
     "name": "Tom Emmer",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 55.7,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Tom Emmer",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 55.7,
+    "winner": true
+   },
+   "margin_pts": 11.5,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11651,14 +11723,14 @@
      "name": "Michelle Fischbach",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 64.9,
      "winner": true
     },
     {
      "name": "Erik Osberg",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 35.0,
      "winner": false
     }
    ],
@@ -11668,12 +11740,18 @@
     "name": "Michelle Fischbach",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 64.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 64.9,
+    "winner": true
+   },
+   "margin_pts": 29.9,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11693,14 +11771,14 @@
      "name": "Pete Stauber",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 53.0,
      "winner": true
     },
     {
      "name": "Trina Swanson",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 46.9,
      "winner": false
     }
    ],
@@ -11710,12 +11788,18 @@
     "name": "Pete Stauber",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 53.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Pete Stauber",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 53.0,
+    "winner": true
+   },
+   "margin_pts": 6.1,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -12806,14 +12890,14 @@
      "name": "Stefany Shaheen",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 56.9,
      "winner": true
     },
     {
      "name": "Anthony DiLorenzo",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 42.9,
      "winner": false
     }
    ],
@@ -12823,12 +12907,18 @@
     "name": "Stefany Shaheen",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 56.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Stefany Shaheen",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 56.9,
+    "winner": true
+   },
+   "margin_pts": 14.0,
+   "has_results": true,
    "final_rating": "Likely D",
    "final_score": -3,
    "competitive": true,
@@ -12848,21 +12938,21 @@
      "name": "Maggie Goodlander",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 58.8,
      "winner": true
     },
     {
      "name": "Lily Tang Williams",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 38.8,
      "winner": false
     },
     {
      "name": "Robbie Mahrou",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 2.4,
      "winner": false
     }
    ],
@@ -12872,12 +12962,18 @@
     "name": "Maggie Goodlander",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 58.8,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Maggie Goodlander",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 58.8,
+    "winner": true
+   },
+   "margin_pts": 20.0,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -14935,14 +15031,14 @@
    "key": "HOU-NC-05",
    "name": "NC-05",
    "chamber": "House",
-   "status_text": "Incumbent renominated.",
+   "status_text": "Incumbent lost re-election. Democratic gain.",
    "candidates": [
     {
      "name": "Chuck Hubbard",
      "party": "D",
      "party_label": "Democratic",
      "pct": null,
-     "winner": false
+     "winner": true
     },
     {
      "name": "Virginia Foxx",
@@ -14960,8 +15056,14 @@
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
+   "called": true,
+   "winner": {
+    "name": "Chuck Hubbard",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": null,
+    "winner": true
+   },
    "leader": null,
    "margin_pts": null,
    "has_results": false,
@@ -14970,11 +15072,9 @@
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "won_against_rating": false,
-   "flip": false,
-   "reported_call": null,
-   "headline_call_lead": false,
-   "headline_uncertain": true
+   "won_against_rating": true,
+   "flip": true,
+   "reported_call": null
   },
   "HOU-NC-06": {
    "key": "HOU-NC-06",
@@ -23999,16 +24099,6 @@
     ]
    },
    {
-    "title": "Rep. Brad Finstad requests hand recount in Minnesota's 1st District after 324-vote margin certified",
-    "outlet": "CBS News",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTk1BRnMtbDJxR08yVnlRUmZiNmJRRXI2UVNSN2VHNkVnLWl6Y05JRHdyTzRjdkxsdW4yMFdaUTZUa200VDJZYzE0MWNVMk5BdGFDUjc4YWJ4QzJESlVTMS1IT01YQWZSRWdVZ01mYmZiTnZ2XzZSVE1PNDJ0ZEU1Y0I0RnJIQ0pxUDFJeFBwODBILTBnR3JyQXRFeWo3VnVKbVRFMHVSUDZVeG13cjJTa1JwUjdJOGVoR0pQM2R2WXN4cElVcG9YRnNLamIxQmNNZUhN?oc=5",
-    "published": "2026-11-19T21:16:00+00:00",
-    "flags": [
-     "uncertain",
-     "legal"
-    ]
-   },
-   {
     "title": "MN Sen. Karin Housley wins recount; three others pending",
     "outlet": "Pioneer Press",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3pHZDZ5Z3R4al8yV1oxZ215ek5qUFhfOU1peXR1RnlaQVl1aUJnelVjN1RDUXFkbzB1RmpkZ3huMFRpc3hNZTZvVk55cEo0b3lVakdVLU9jNFRWcnhHalo0VGYwUUlyT2E3WFdrZExUSEN1N3dOMjlaZkZ4dEM3RkxrVGxVdw?oc=5",
@@ -24017,14 +24107,24 @@
      "call",
      "uncertain"
     ]
+   },
+   {
+    "title": "Rep. Brad Finstad requests hand recount in Minnesota's 1st District after 324-vote margin certified",
+    "outlet": "CBS News",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTk1BRnMtbDJxR08yVnlRUmZiNmJRRXI2UVNSN2VHNkVnLWl6Y05JRHdyTzRjdkxsdW4yMFdaUTZUa200VDJZYzE0MWNVMk5BdGFDUjc4YWJ4QzJESlVTMS1IT01YQWZSRWdVZ01mYmZiTnZ2XzZSVE1PNDJ0ZEU1Y0I0RnJIQ0pxUDFJeFBwODBILTBnR3JyQXRFeWo3VnVKbVRFMHVSUDZVeG13cjJTa1JwUjdJOGVoR0pQM2R2WXN4cElVcG9YRnNLamIxQmNNZUhN?oc=5",
+    "published": "2026-11-19T21:16:00+00:00",
+    "flags": [
+     "uncertain",
+     "legal"
+    ]
    }
   ],
   "HOU-NC-05": [
    {
-    "title": "Recount underway in tight N.C. District 5 election race, officials await final vote totals",
-    "outlet": "WXLV",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZld0bXJ0TElxV1pRZFdteXJmZUZ3UWRyYktlc1Rrenl1ck50M1JqbGJ6U1ZZanl3ZC1DUDBrWi1SRHVnS20tMUJoUVkxOE1KVEFWRlhRbTktMUU5R3NKam1CRmtvRzFYaDdmOFV1LXRFMXR5YTZNWFRINnhMOEVVVkdXa0RENEstUG5BbWlvWEpoS3pvNWZvR0l2VUVyQTFSR0dwYjNsZTdocUpteDRUQnBQbzh5QW8?oc=5",
-    "published": "2026-11-20T01:57:12+00:00",
+    "title": "Hubbard leads Foxx by 330 votes after recount",
+    "outlet": "The Hill",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQSkx2b3RuelJFeWNtM0R2d09wX0FBWFRlS0kwdFAwQVNVSU5MM3hZSXBISDlhMlJVRFkyc25oYVlFeGtwODdXWTdseTBzYUY1MmdTRFhmaEJSSzRIMWdWRWxjV3lSSjNtLXZUTU1LR0RCaGRfZFhocjJzRmpnd9IBgwFBVV95cUxQU3JpMzJoYWNIRDhxSTZnaGROdV91T3R3cDJkamJOM1FhME94Ty1yTW5tbnZfak8xczZrb3F0S0JJYUlIaHFtWVZnUDBqaTZ6R1VKRXBpVk5uem1kVFRXSmJlYW1DdjlMbU5vbzJHVGlvNmx0RzJiU2k1dUZnZmhEUmZ3SQ?oc=5",
+    "published": "2026-11-21T22:23:00+00:00",
     "flags": [
      "uncertain"
     ]
@@ -24033,16 +24133,16 @@
     "title": "Foxx vs. Hubbard recount nearly finalized for North Carolina's 5th Congressional District race",
     "outlet": "WXII",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdzQwbEZlNkdvQXp6NUpnVDdLMGdxVHB4VWEwckNDXzU3QUd5ZWx6YlN1VGlSXzZzUlpOM1BKWUQwcXN5ZG8xdlZZNWlmcVU2Q3NudlAyZWdYenhITl9fOC1vQVI2eENhVnc1eUhTazl0UU5GZ2ZmWDhjZzZUUFFkZkhXZ0wyb0pyanZXOHBR?oc=5",
-    "published": "2026-11-21T03:29:00+00:00",
+    "published": "2026-11-21T18:11:00+00:00",
     "flags": [
      "uncertain"
     ]
    },
    {
-    "title": "NC Republicans eye 2028 comeback as two US House races move to recount",
-    "outlet": "NC Newsline",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSElLbjR5c1NjdV81VExZWnJlcVZ0WGFUWmtkSXR3ZkUtMEVhNUZ1Tzd4eHVQZ1kyVTgwZEloQVhTTmxITTNoMkhZb1JpbzhYVmdSbFA1VHU1MHgyNUhhc3hLQmNtUFhMOGJ0YXVodUdtaGg2OWs5cWN4bVFhZ0YzY2N0eklfRnFrYU5ybzdNeWVxZV93MDZmb3ZDM1BJWTgtSnVucURhdmk?oc=5",
-    "published": "2026-11-18T19:35:34+00:00",
+    "title": "N.C. District-5 election protests unanimously approved to formal hearing, recounts pending",
+    "outlet": "WXLV",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRXBxcUNQNnUtZFRubHFFVm5pZHNoQXZENGMzZFhHdHZfeVVjTUZLaUxPM0hqb1FXempiQTJqMGhvbWxpMC1OSVgzc3JNU01Odmg4WkVsalhMM0V6REp4WTlSamlyUjF1NGlZYjU0SHdEanNCbnhnVURyejd6d1JIazhLUTR6ejNlYk9rR2xtNE50aG44NGtJc0c5Y1pnVXZ4NUlmWmVPTkFkUlJhcE0wWGVmMmtnRkE?oc=5",
+    "published": "2026-11-20T23:57:12+00:00",
     "flags": [
      "uncertain"
     ]
@@ -24050,20 +24150,11 @@
   ],
   "GOV-AK": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "Alaska Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWTZ6Q3BUbXVkYlI4MDN2al9nQXhIU0M3Z2pkTFdQakMzOHRqVWV1N3VRYnBfRXVNclNWOFFCZ2N5Q0RldXh5Mnc3eTJXR1BwYkZKeUxBUE4xUVliNF80bFFDT25rekZjTnlvTUg1T2tuTFp4X1k0c0RfUkh1akMtYUN4aU40TTczY1E?oc=5",
+    "published": "2026-11-19T20:31:55+00:00",
     "flags": []
-   },
-   {
-    "title": "Preliminary ranked choice voting results in Alaska’s 2026 elections",
-    "outlet": "FairVote",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4YzJ0Y1FGNFNKVERiQVViZnZOQTNfRUN5dURNOWVSd0t5clByOC04VzNwcVRpUUlOQi1NRmxyS3pzOG40N2pVYlF0c0JCSGhkODg4Tnd5UHVhd2RubkVJZm1DbFF4Z2E4QUpXRWFYenc1UGd6aWFFUHpR?oc=5",
-    "published": "2026-11-18T14:30:00+00:00",
-    "flags": [
-     "uncertain"
-    ]
    },
    {
     "title": "Alaska governor won’t give up on long-shot bid to subvert Democratic Senate win",
@@ -24077,13 +24168,6 @@
   ],
   "GOV-AZ": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
-    "flags": []
-   },
-   {
     "title": "Arizona Governor Election 2026: Latest Polls",
     "outlet": "The New York Times",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNndaVm5rbS1IWjJmQzNuakNydlVPVVQ1OHFaTHZHei1iU05xaGhYdjZsbFNlODludF9UUUw1Z0JVeUo1MUNEYVFRbC0tSUY3STNqSE00NlNrUUE5YVBiMzRfUHNEaTlZU08tWVliY3dyR1dmRWJ2dTlLeGJPX2RuQXJDV3g3ek9WMFkw?oc=5",
@@ -24091,21 +24175,13 @@
     "flags": []
    }
   ],
-  "GOV-FL": [
-   {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
-    "flags": []
-   }
-  ],
+  "GOV-FL": [],
   "GOV-GA": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "Georgia Governor Election Live Results 2026",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RN1R1RmdaOFF6WHd2cHJBbzhvdTJ2Z1VVOHJBd2hsSVRsTjJqQ04tajNnbDFycVNUSm9Tc2JkTDN6RS1yVGZMa0lkcWRBWlNOcV9yMnNJWXBURkdxRURzb2R5V0lWblpOZnJYVDhUUFNZS1lTOHpF?oc=5",
+    "published": "2026-11-20T08:00:00+00:00",
     "flags": []
    },
    {
@@ -24118,117 +24194,101 @@
   ],
   "GOV-IA": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "Iowa Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ29hNGVjNm81dFRuMEpfVEdqUzdvRVJqMzE1VlRSTFBBRW91cXNJR0k3S0RWYkp3OXV3VW9INFE4Z2N1Z1FWd1hsSW8ydW5GMFhhR1VLM2JRMVQydGl4UGRsdEJzaTdUZkdxXy11VVJEUW1xaTlIRzZxZmZLdlVWTkFHMWhfS1E?oc=5",
+    "published": "2026-11-19T20:35:18+00:00",
     "flags": []
    }
   ],
   "GOV-KS": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Kansas Governor Midterm Election 2026: Live Results",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBoU0N5dFZuYlNOd3AxS3d0U0MxTVU3VkxGWWNaZEZDRDFoSGlBR1N6bHR0ZFpyRXF4RGZvNS05YkJlVmF2dFFSa1JHbjhzNml5SUZkUmttVlNwU3hCRGxxbFRxbVJGT2drLVNXbk90WlZlVmhHTVVsbUVzbw?oc=5",
-    "published": "2026-11-19T19:15:57+00:00",
+    "title": "Kansas Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTUtheVdQUXVtbWRjc0lNM0VOSFdFUmhFWkRkNGpGM0JLMVBPYmJCV1c4M2ZNeG9pYk1VcGMzcTkxTS12dVdlYUJFbFJMVkh4RFMzcEdxTWg1Y2lCNUtnLUFVVmxoRS1PckVHdDU0bVhGQmNxLUpqS0tCZGN4N1FVcWNfVzE3dFo5QVE?oc=5",
+    "published": "2026-11-19T20:35:12+00:00",
     "flags": []
    }
   ],
   "GOV-MI": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "Michigan Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ0E2QlE3NEFmNmFFWmJkaEYwclhVUThLVExMbUoxRV8tTE5YQUZ5REZDNVZ2N3V3NU8ycldsTzZxbjA1R1BHRE5fSXdKTHdjd2VMc0VuT29NcGRGLXJUMHVCOWlTeHhiTkVYOTNZRWpsTTdCY0FaVWxiWHZ6b19TT2kzWHVwd0xuME1NXw?oc=5",
+    "published": "2026-11-19T20:32:19+00:00",
+    "flags": []
+   },
+   {
+    "title": "Michigan Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWkpKNlJldE9XdGpfd3hyLXZpQnIzVWo1R3IxVkJuZ3NTSU52MmF1UDgwQXRseHFIaVRyT1U1MlAwM3lVNktYTU9OUVF4ZHFiaUZNOV9adnRkUmVpNlVwd2NaSHJrUWZKcUFfdjdxS2YzYTd2X0IyTzlmd1VFUGNTbjJxNDRrc3NSQ2dtQ3FqTQ?oc=5",
+    "published": "2026-11-19T13:01:00+00:00",
     "flags": []
    }
   ],
   "GOV-MN": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "Who Is Ahead in the Minnesota Governor's Race? Latest 2026 Election Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMzFJTExUa2lBYTVMWFNGLVo0Q2pwTDZEb1BFamZocU56OGpodHpfQko0WGZ2RXN4SDZ6NHVOVzRIM2FIMVgzam9hSzJFcEtxMHJBU3N6dXBaZnA4WHZodGFaMEZFVTRvMWJMZEszQ0ZMeW5yY1FmTllxa0JaZzZpbWg3UlB5dVlrZHZJNEt3?oc=5",
+    "published": "2026-11-19T20:32:24+00:00",
     "flags": []
    }
   ],
   "GOV-NE": [
-   {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
-    "flags": []
-   },
    {
     "title": "Nebraska Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzFKSVdHR0VwdEdXbjVyY05kU3Q3MWxzd3RLd2dJUDJJZm9SU3dYSDhYVDV5alhLX2YzTVNUUDFraWdUclpEbFZtczIxLVNUY1JVVVk0ZWRtR2NIN3pLUDNSb2xONkkwLWRVZWRwTF80NGdRSThXcTlSSC1wYTBCUU9EQmFQU0JhWjFOVVM2UQ?oc=5",
     "published": "2026-11-19T13:01:00+00:00",
     "flags": []
+   },
+   {
+    "title": "Nebraska Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcWZIdExwTjJmNnhmdTRrcG1SRXBEMHNSSlJ3V1JoZ3h1RjJtSnpSSXdwalg2YUc1amlIbksyWG5GWTdiNlpWU1Z5SWhTMkR2bFNTS28yT3d5Z2lPenJVQmZMOHF3cFRrc2d1VXlsY3Z2VkdxNFdxcElBMW9XZ2gtU2o3ZjNhNXFpbzB1bA?oc=5",
+    "published": "2026-11-19T20:35:03+00:00",
+    "flags": []
    }
   ],
   "GOV-NH": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "New Hampshire Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRHI2Z1ExY2pVbER2VVVNOEtIS1FITW9rSDM2TENFRk15YzRGSDNQc2d6RndPMl9rQ3p2cFByV3V1a0xLV2hKWklYM2RkWWdnYy11bmZ5Vl81dTZva2tqN2JmdE1xV0ZCczJteXgtNGVrYWVJRmxPdzR3ZlByYUR4VmxFdEZJUDA1MlhWRlo5VGNPaVE?oc=5",
+    "published": "2026-11-19T20:32:28+00:00",
     "flags": []
    }
   ],
   "GOV-NV": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "Nevada Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSENfUURMZXZ3UXZST2FzTGI1QjRqWV9vZVFZemtMeWdlcUtQbEdZNTBucm15alczb0JSTk9zcGVjZ0FsRWVGNllYQVFvTXd2SkQ4bVFFMVhCSDR0UmpJMUtJRWV4TDctTE9LVGpkcExXX2JaU2NuX3BYc1p6MnRwMUJYSFFNWmxGWkE?oc=5",
+    "published": "2026-11-19T20:32:24+00:00",
     "flags": []
    }
   ],
-  "GOV-OH": [
+  "GOV-OH": [],
+  "GOV-OK": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "Who Is Ahead in the Oklahoma Governor's Race? Latest 2026 Election Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbHpxdjVnWVVVRzlNdzJhMlllOGFuRzdSVjN5NXFMZFhHS2JJVXlFTWFFdVlBZjlrZTB3cWo2c2RQcHVxeGVjS2UxZEQxUHVyY3ZqbXJtMkRKOWxrZVhaWjhpTFlCd2RlTFp4aV9VWjlEcU84SE80U3ZES2JXRWRwTXcxdkFNZUwzd2I5aQ?oc=5",
+    "published": "2026-11-20T03:40:16+00:00",
     "flags": []
    }
   ],
-  "GOV-OK": [],
   "GOV-OR": [
    {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
+    "title": "Oregon Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWNqMHZuUENvQnJXWjQxTVRBQ3hPaUxtbFlaR05GakZCVDMxTklfU0RqYnBKeG1tZWRvV21mTUFJT1k2TlZuYmpaOG5UUF8tVW9fOThVdEFfQmVDQzM2bUozRzVGaXhuWVFyLVhNQTZuNDVvMVg4Wno5bXdrSU54WV82Y1E2WWswNWc?oc=5",
+    "published": "2026-11-19T20:34:45+00:00",
     "flags": []
    }
   ],
   "GOV-TX": [
-   {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Texas Governor Election 2026 Live Results: Gina Hinojosa Wins",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQZXYyNUhlamVVZDZvbkRwdjB2NENEX2Y0Z1F4NzE0MXpTV2xxa0ZYWnYtRkhqaXZMMk9qUllzYTNuZGtCOVk3a0NJSmJHTkUwMGY5OUJkY051YVVpcFFEbzVCNll4NWpFMnNPbW5ISFpfOE9UQUhYbVFB?oc=5",
-    "published": "2026-11-19T19:15:57+00:00",
-    "flags": [
-     "call"
-    ]
-   },
    {
     "title": "Texas Governor Election 2026: Latest Polls",
     "outlet": "The New York Times",
@@ -24238,13 +24298,6 @@
    }
   ],
   "GOV-VT": [
-   {
-    "title": "Governors | 2026 State Election Results",
-    "outlet": "MultiState",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52SkJNb0xuRm9rZm5XTWE0ZUw1MC1RN3pHQ3lRdzNzZjlPYnJCdGtEblRBd09Ra2ozVTZwcjlYQWJjampqQ0lfaUVzWHdnWDBfSkVxWjFsbmFJa2FzQmhkUWZXTThYTmFic09qaExpTGx3dEpNTjluX3dsQVRqQQ?oc=5",
-    "published": "2026-11-19T08:00:00+00:00",
-    "flags": []
-   },
    {
     "title": "Vermont Governor Election 2026: Latest Polls",
     "outlet": "The New York Times",

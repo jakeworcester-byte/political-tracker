@@ -385,6 +385,22 @@
  "trend": "Stable",
  "signals": [
   {
+   "date": "2026-11-22",
+   "race": "SEN-IA",
+   "races": [
+    "SEN-IA",
+    "SEN-TX",
+    "HOU-IA-02"
+   ],
+   "type": "podcast",
+   "source": "Pod Save America",
+   "lean": "left",
+   "title": "Trump Voters Explain Why They Like Democrats Now",
+   "url": "https://audioboom.com/posts/8979746",
+   "summary": "What led Trump voters to finally flip to Democrats this year? To find out, we teamed up with Future Forward and Orchestra for a series of focus groups with two- and three-time Trump voters who voted for James Talarico and Gina Hinojosa in Texas, and Josh Turek and Rob Sand in Iowa. David Binder and ",
+   "relevant": true
+  },
+  {
    "date": "2026-11-19",
    "race": "SEN-IA",
    "races": [
@@ -637,6 +653,11 @@
   },
   {
    "date": "2026-11-21",
+   "c": 0,
+   "p": 0.3
+  },
+  {
+   "date": "2026-11-22",
    "c": 0,
    "p": 0.3
   }
