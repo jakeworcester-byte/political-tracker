@@ -1,0 +1,611 @@
+{
+ "date": "2026-11-23",
+ "since": "2026-11-20",
+ "token_env": "COURTLISTENER_TOKEN",
+ "requests": 4,
+ "status": "ok",
+ "errors": [],
+ "dockets": [
+  {
+   "query": "suitNature:\"Civil Rights: Voting\"",
+   "count": 21,
+   "page2": false,
+   "items": [
+    {
+     "case": "Mayes v. Landry",
+     "court": "District Court, W.D. Louisiana",
+     "docket_number": "5:26-cv-04902",
+     "date_filed": "2026-11-22",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75156831/mayes-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-22",
+       "entry_number": 1,
+       "description": "Exhibit La. R.S. 13:477",
+       "url": "https://www.courtlistener.com/docket/75156831/1/1/mayes-v-landry/"
+      },
+      {
+       "date": "2026-11-22",
+       "entry_number": 1,
+       "description": "Exhibit Attachment A Subdistricting Plan",
+       "url": "https://www.courtlistener.com/docket/75156831/1/4/mayes-v-landry/"
+      },
+      {
+       "date": "2026-11-22",
+       "entry_number": 1,
+       "description": "Exhibit Caddo Parish 2020 Consenus Population and Voting Age Report",
+       "url": "https://www.courtlistener.com/docket/75156831/1/6/mayes-v-landry/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. State of California",
+     "court": "District Court, C.D. California",
+     "docket_number": "2:26-cv-12025",
+     "date_filed": "2026-10-15",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74967108/united-states-v-state-of-california/",
+     "entries": [
+      {
+       "date": "2026-11-22",
+       "entry_number": null,
+       "description": "USCA Memorandum/Opinion/Order",
+       "url": ""
+      },
+      {
+       "date": "2026-11-22",
+       "entry_number": 183,
+       "description": "USCA Memorandum/Opinion/Order",
+       "url": "https://www.courtlistener.com/docket/74967108/183/united-states-v-state-of-california/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Stilley v. Shelly",
+     "court": "District Court, W.D. Arkansas",
+     "docket_number": "2:26-cv-02183",
+     "date_filed": "2026-11-19",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75146277/stilley-v-shelly/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 8,
+       "description": "Notice of Appearance",
+       "url": "https://www.courtlistener.com/docket/75146277/8/stilley-v-shelly/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 7,
+       "description": "Scheduling Order - Initial",
+       "url": "https://www.courtlistener.com/docket/75146277/7/stilley-v-shelly/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Haury v. Matthews",
+     "court": "District Court, C.D. Illinois",
+     "docket_number": "3:26-cv-03397",
+     "date_filed": "2026-11-17",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75131258/haury-v-matthews/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 7,
+       "description": "Extension of Time to File Response/Reply",
+       "url": "https://www.courtlistener.com/docket/75131258/7/haury-v-matthews/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 6,
+       "description": "Notice of Appearance of Attorney",
+       "url": "https://www.courtlistener.com/docket/75131258/6/haury-v-matthews/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": null,
+       "description": "Order on Motion for Extension of Time to File Response/Reply",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Chamber of Commerce of the United States of America v. Knudsen",
+     "court": "District Court, D. Montana",
+     "docket_number": "6:26-cv-00075",
+     "date_filed": "2026-11-12",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75112572/chamber-of-commerce-of-the-united-states-of-america-v-knudsen/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 28,
+       "description": "Leave to File Document",
+       "url": "https://www.courtlistener.com/docket/75112572/28/chamber-of-commerce-of-the-united-states-of-america-v-knudsen/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "HAGWOOD v. SOLARIS HEALTH HOLDINGS, LLC",
+     "court": "District Court, E.D. Pennsylvania",
+     "docket_number": "2:26-cv-08031",
+     "date_filed": "2026-10-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74990690/hagwood-v-solaris-health-holdings-llc/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 7,
+       "description": "Waiver of Service Executed",
+       "url": "https://www.courtlistener.com/docket/74990690/7/hagwood-v-solaris-health-holdings-llc/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "State of California v. United States Postal Service",
+     "court": "District Court, D. Massachusetts",
+     "docket_number": "1:26-cv-13917",
+     "date_filed": "2026-08-26",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74701505/state-of-california-v-united-states-postal-service/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 186,
+       "description": "Order",
+       "url": "https://www.courtlistener.com/docket/74701505/186/state-of-california-v-united-states-postal-service/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Coalition for Open Democracy v. NH Secretary of State",
+     "court": "District Court, D. New Hampshire",
+     "docket_number": "1:26-cv-00647",
+     "date_filed": "2026-08-11",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74220507/coalition-for-open-democracy-v-nh-secretary-of-state/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 80,
+       "description": "Order AND ~Util - Set Deadlines",
+       "url": "https://www.courtlistener.com/docket/74220507/80/coalition-for-open-democracy-v-nh-secretary-of-state/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": null,
+       "description": "Status Conference",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Carpenter v. Landry",
+     "court": "District Court, M.D. Louisiana",
+     "docket_number": "3:26-cv-00791",
+     "date_filed": "2026-07-21",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73647610/carpenter-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 28,
+       "description": "Leave to File Document",
+       "url": "https://www.courtlistener.com/docket/73647610/28/carpenter-v-landry/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Ayyadurai v. Galvin",
+     "court": "District Court, D. Massachusetts",
+     "docket_number": "1:26-cv-13329",
+     "date_filed": "2026-07-21",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73646333/ayyadurai-v-galvin/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": null,
+       "description": "Copy Mailed",
+       "url": ""
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 37,
+       "description": "Order Dismissing Case",
+       "url": "https://www.courtlistener.com/docket/73646333/37/ayyadurai-v-galvin/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": null,
+       "description": "Order",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. Secretary Commonwealth of Pennsylvania",
+     "court": "Court of Appeals for the Third Circuit",
+     "docket_number": "26-2684",
+     "date_filed": "2026-07-07",
+     "suit_nature": "1441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/73582123/united-states-v-secretary-commonwealth-of-pennsylvania/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 69,
+       "description": "Corporate Disclosure Statement",
+       "url": "https://www.courtlistener.com/docket/73582123/69/united-states-v-secretary-commonwealth-of-pennsylvania/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 68,
+       "description": "Amicus Brief on the Merits",
+       "url": "https://www.courtlistener.com/docket/73582123/68/united-states-v-secretary-commonwealth-of-pennsylvania/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 63,
+       "description": "ECF FILER: ELECTRONIC BRIEF on behalf of Appellees Mike Crossey and Pennsylvania Alliance for Retired Americans. Certificate of Service dated 11/20/2026 by ECF. [26-2684] (UNN) [Entered: 11/20/2026 0…",
+       "url": "https://www.courtlistener.com/docket/73582123/63/united-states-v-secretary-commonwealth-of-pennsylvania/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "NC State Conference of the NAACP v. Francis De Luca",
+     "court": "Court of Appeals for the Fourth Circuit",
+     "docket_number": "26-1541",
+     "date_filed": "2026-05-01",
+     "suit_nature": "3441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/73435851/nc-state-conference-of-the-naacp-v-francis-de-luca/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 40,
+       "description": "Intervenors-Appellees' Response Brief",
+       "url": "https://www.courtlistener.com/docket/73435851/40/nc-state-conference-of-the-naacp-v-francis-de-luca/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 41,
+       "description": "State Board Defendants Response Brief",
+       "url": "https://www.courtlistener.com/docket/73435851/41/nc-state-conference-of-the-naacp-v-francis-de-luca/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters of Colorado v. Griswold",
+     "court": "District Court, D. Colorado",
+     "docket_number": "1:26-cv-02103",
+     "date_filed": "2026-05-15",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73349548/league-of-women-voters-of-colorado-v-griswold/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 19,
+       "description": "Order of Recusal",
+       "url": "https://www.courtlistener.com/docket/73349548/19/league-of-women-voters-of-colorado-v-griswold/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Garcia v. Landry",
+     "court": "District Court, W.D. Louisiana",
+     "docket_number": "3:26-cv-01528",
+     "date_filed": "2026-05-11",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73325831/garcia-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 51,
+       "description": "Report and Recommendations",
+       "url": "https://www.courtlistener.com/docket/73325831/51/garcia-v-landry/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mississippi State Conference of the National Association for the Advancement of Colored People v. State Board of Election Commissioners",
+     "court": "District Court, S.D. Mississippi",
+     "docket_number": "3:22-cv-00734",
+     "date_filed": "2022-12-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/66672561/mississippi-state-conference-of-the-national-association-for-the/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 339,
+       "description": "Appear Pro Hac Vice",
+       "url": "https://www.courtlistener.com/docket/66672561/339/mississippi-state-conference-of-the-national-association-for-the/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 339,
+       "description": "Exhibit A - Certificate of Good Standing",
+       "url": "https://www.courtlistener.com/docket/66672561/339/1/mississippi-state-conference-of-the-national-association-for-the/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Linda Migliori v. Lehigh County Board of Elections",
+     "court": "Court of Appeals for the Third Circuit",
+     "docket_number": "22-1499",
+     "date_filed": "2022-03-18",
+     "suit_nature": "3441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/63344284/linda-migliori-v-lehigh-county-board-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 137,
+       "description": "Mandate Issued",
+       "url": "https://www.courtlistener.com/docket/63344284/137/linda-migliori-v-lehigh-county-board-of-elections/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Colorado Montana Wyoming State Area Conference of the NAACP v. United States Election Integrity Plan",
+     "court": "District Court, D. Colorado",
+     "docket_number": "1:22-cv-00581",
+     "date_filed": "2022-03-09",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63144697/colorado-montana-wyoming-state-area-conference-of-the-naacp-v-united/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 235,
+       "description": "Withdraw as Attorney",
+       "url": "https://www.courtlistener.com/docket/63144697/235/colorado-montana-wyoming-state-area-conference-of-the-naacp-v-united/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "MIGLIORI v. LEHIGH COUNTY BOARD OF ELECTIONS",
+     "court": "District Court, E.D. Pennsylvania",
+     "docket_number": "5:22-cv-00397",
+     "date_filed": "2022-01-31",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/62639631/migliori-v-lehigh-county-board-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 110,
+       "description": "USCA Mandate",
+       "url": "https://www.courtlistener.com/docket/62639631/110/migliori-v-lehigh-county-board-of-elections/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 110,
+       "description": "Third Circuit Opinion",
+       "url": "https://www.courtlistener.com/docket/62639631/110/1/migliori-v-lehigh-county-board-of-elections/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Soto Palmer v. Hobbs",
+     "court": "District Court, W.D. Washington",
+     "docket_number": "3:22-cv-05035",
+     "date_filed": "2022-01-19",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/62608268/soto-palmer-v-hobbs/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 322,
+       "description": "Order of USCA",
+       "url": "https://www.courtlistener.com/docket/62608268/322/soto-palmer-v-hobbs/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Alabama State Conference of the NAACP v. Allen",
+     "court": "District Court, N.D. Alabama",
+     "docket_number": "2:21-cv-01531",
+     "date_filed": "2021-11-16",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/61494209/alabama-state-conference-of-the-naacp-v-allen/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 359,
+       "description": "REPLY Brief filed by Plaintiffs Alabama State Conference of the NAACP, Greater Birmingham Ministries, Evan Milligan re: 357 Brief filed by Alabama State Conference of the NAACP, Greater Birmingham Mi…",
+       "url": "https://www.courtlistener.com/docket/61494209/359/alabama-state-conference-of-the-naacp-v-allen/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  },
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\" OR \"election commission\")",
+   "count": 9,
+   "page2": false,
+   "items": [
+    {
+     "case": "TRUE THE VOTE, INC. v. INTERNAL REVENUE SERVICE",
+     "court": "District Court, District of Columbia",
+     "docket_number": "1:13-cv-00734",
+     "date_filed": "2013-05-21",
+     "suit_nature": "440 Civil Rights: Other",
+     "url": "https://www.courtlistener.com/docket/4212012/true-the-vote-inc-v-internal-revenue-service/",
+     "entries": [
+      {
+       "date": "2026-11-22",
+       "entry_number": 292,
+       "description": "Miscellaneous Relief",
+       "url": "https://www.courtlistener.com/docket/4212012/292/true-the-vote-inc-v-internal-revenue-service/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "VanHuisen v. Federal Elections Commisson",
+     "court": "District Court, N.D. California",
+     "docket_number": "5:26-cv-11794",
+     "date_filed": "2026-10-13",
+     "suit_nature": "",
+     "url": "https://www.courtlistener.com/docket/74961613/vanhuisen-v-federal-elections-commisson/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 11,
+       "description": "Amend/Correct PSP",
+       "url": "https://www.courtlistener.com/docket/74961613/11/vanhuisen-v-federal-elections-commisson/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters of Colorado v. Griswold",
+     "court": "District Court, D. Colorado",
+     "docket_number": "1:26-cv-02103",
+     "date_filed": "2026-05-15",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73349548/league-of-women-voters-of-colorado-v-griswold/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 19,
+       "description": "Order of Recusal",
+       "url": "https://www.courtlistener.com/docket/73349548/19/league-of-women-voters-of-colorado-v-griswold/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mississippi State Conference of the National Association for the Advancement of Colored People v. State Board of Election Commissioners",
+     "court": "District Court, S.D. Mississippi",
+     "docket_number": "3:22-cv-00734",
+     "date_filed": "2022-12-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/66672561/mississippi-state-conference-of-the-national-association-for-the/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 339,
+       "description": "Appear Pro Hac Vice",
+       "url": "https://www.courtlistener.com/docket/66672561/339/mississippi-state-conference-of-the-national-association-for-the/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 339,
+       "description": "Exhibit A - Certificate of Good Standing",
+       "url": "https://www.courtlistener.com/docket/66672561/339/1/mississippi-state-conference-of-the-national-association-for-the/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Linda Migliori v. Lehigh County Board of Elections",
+     "court": "Court of Appeals for the Third Circuit",
+     "docket_number": "22-1499",
+     "date_filed": "2022-03-18",
+     "suit_nature": "3441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/63344284/linda-migliori-v-lehigh-county-board-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 137,
+       "description": "Mandate Issued",
+       "url": "https://www.courtlistener.com/docket/63344284/137/linda-migliori-v-lehigh-county-board-of-elections/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Colorado Montana Wyoming State Area Conference of the NAACP v. United States Election Integrity Plan",
+     "court": "District Court, D. Colorado",
+     "docket_number": "1:22-cv-00581",
+     "date_filed": "2022-03-09",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63144697/colorado-montana-wyoming-state-area-conference-of-the-naacp-v-united/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 235,
+       "description": "Withdraw as Attorney",
+       "url": "https://www.courtlistener.com/docket/63144697/235/colorado-montana-wyoming-state-area-conference-of-the-naacp-v-united/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "MIGLIORI v. LEHIGH COUNTY BOARD OF ELECTIONS",
+     "court": "District Court, E.D. Pennsylvania",
+     "docket_number": "5:22-cv-00397",
+     "date_filed": "2022-01-31",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/62639631/migliori-v-lehigh-county-board-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 110,
+       "description": "USCA Mandate",
+       "url": "https://www.courtlistener.com/docket/62639631/110/migliori-v-lehigh-county-board-of-elections/"
+      },
+      {
+       "date": "2026-11-20",
+       "entry_number": 110,
+       "description": "Third Circuit Opinion",
+       "url": "https://www.courtlistener.com/docket/62639631/110/1/migliori-v-lehigh-county-board-of-elections/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  },
+  {
+   "query": "suitNature:\"Civil Rights: Voting\"",
+   "count": 21,
+   "page2": true,
+   "items": [
+    {
+     "case": "League of United Latin American Citizens v. Abbott",
+     "court": "District Court, W.D. Texas",
+     "docket_number": "3:21-cv-00259",
+     "date_filed": "2021-10-18",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/60654982/league-of-united-latin-american-citizens-v-abbott/",
+     "entries": [
+      {
+       "date": "2026-11-20",
+       "entry_number": 1499,
+       "description": "Withdraw As Attorney",
+       "url": "https://www.courtlistener.com/docket/60654982/1499/league-of-united-latin-american-citizens-v-abbott/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  }
+ ],
+ "opinions": [
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\")",
+   "count": 0,
+   "page2": false,
+   "items": []
+  }
+ ]
+}

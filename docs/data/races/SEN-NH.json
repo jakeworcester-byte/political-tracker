@@ -319,38 +319,7 @@
  },
  "raw_poll_count": 11,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-22",
-   "race": "SEN-NH",
-   "races": [
-    "SEN-NH"
-   ],
-   "type": "reporting",
-   "source": "ABC7 Bay Area",
-   "lean": "unrated",
-   "title": "Pappas wins New Hampshire Senate seat, Sununu concedes",
-   "url": "https://news.google.com/rss/articles/CBMiuwdBVV95cUxNbGJkbk1rME1yMzdwWE5STW92UnJEQVNqdjlzZDkwZ2VONm0wcHJRYS1LRHJ4c0VDVmZkTnlrdkl1RHA0cDFTU21oSFp6YlRVVHRVV0pEMDhRNm4yRFF3TnF0bklESUg0ZFZ4ZGxTcF9VM1V0RWJVRGI4T1pxOWpHTVdwTTFkc1FrQTFQRWpnUkpaYnRtb1dDeEtWVnZEWk5Zc1h4QzQyNE5yRHgxeFYzaHBYS3ExU3QtVHNQZHY5VGw3Yml4OW4zbXNya1JHOEpFRENRVllzTk5EbFVkX1RaSTNSNlUtN0tYU0dYSnR1aVFZakFpWUFSclpKTTJSVHp3Qi1xcEpEVW1QYVdtQ0pjUTR4RXRuXzlPY0c3U3N4MHJ5QWFmUkpmLUtwSEY4VWZLR0ZXdWhHZU0ycl93RC1tb0Z2b2ZDdko5MV9mcW1TMlYwazF1R1hvRDd3ckF4NmNFTnNOM2dQTVVpWmNwM2RTUWFodzBNeEluOW5LVE1NNTdLWHlzWEJJcW5jVDZmY3FWX3psWHpNZnNUZlpGa0dmbFhmMjlvUTVYN0VjYjA0UWgyRDFUMWpLX1RhaXRoZ0ljeDliMjhsSkN6a0p5YVh3dXc5NlYzTC0zOGJwMDV2bXpULV9HR01Pc05zZi1DYUZEZVY2MmpOOElhckdDZ0k3cXlpbkRrN0w3bmp6SDZsT0NQeEhuZjNGbzEtTUJ6enFVbEJrOUxSek1wdFh2UXhPSGxYdmxkZjl6M2MtbXdxRFNXQnVkcHY3SlZ5eDJqWERPRmxOZ0xYdjJiTXpfVEx6UklYUkRQQk1XbjIxem5rMGJxM1hlQmg3YzM3VExuUGpZbEZISXN4Y3BmenpSYUpmNUkxYmpDQW9jeEw3eVRXeUlRNTFqSXA3NHdESEp0NTRNVmhtRi1kdXROb0s4MEVKZmNWa0s3OF9wd04taU14NVFBVXlnckNXVlVuOWlSVDVQcHNRNjRVc2c1U1BNQkxmN3NuN0xpLWVWUlZpZDlxOFEtdVRhQTREU2NzYTBvT2hHbEE1Wm5fc0o3WEhQNzE3bGNBd2MyandjQkE3WHNQOUdRNC11UDVrRGRseDdHbklZTzRYWmN3aUY0RThqMlo5akM1Smxrb0FiSWFqNnVyR2hHblF3MkZwdE5fNFFOS1c3cG5BU2taM05TQkZUUTRibVQxVUhpTU56TnhnMU9KUnVTeFI3alhQZlJ4all3bmlVbGtmMlJLVFhnS2RqdE9OMW1PaUttS0plcGpz?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-19",
-   "race": "SEN-NH",
-   "races": [
-    "SEN-NH"
-   ],
-   "type": "reporting",
-   "source": "NBC News",
-   "lean": "unrated",
-   "title": "New Hampshire U.S. Senate Election 2026 Live Results: Chris Pappas Wins",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVkctWmlGazBsOFBENnE2TDNqelhDVHgzQUxkcGE2bGVlckhPSVJqMU9fQVZQSTA4eURERzhGb1g3Zl9KOFJ0ci1CdE1YeElCeEJvRzQyY1VGR3dhVExSSmFpS0tORGR0ek1TUjIzdlFjcTR1U2R2RXpGbzVpSmRfb1hB?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-NH",
  "history": [
   {
@@ -565,6 +534,11 @@
   },
   {
    "date": "2026-11-22",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-23",
    "c": -2,
    "p": -8.0
   }
