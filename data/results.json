@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-22",
+ "run_date": "2026-11-23",
  "edition": "am",
- "generated_at": "2026-11-22T11:09:59.316181+00:00",
- "previous_snapshot": "2026-11-21-am",
+ "generated_at": "2026-11-23T11:10:15.184850+00:00",
+ "previous_snapshot": "2026-11-22-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -74,9 +74,7 @@
   },
   "majority": 51
  },
- "newly_called": [
-  "HOU-NC-05"
- ],
+ "newly_called": [],
  "uncalled_competitive": [
   "HOU-MN-01"
  ],
@@ -1075,6 +1073,11 @@
    },
    {
     "snapshot": "2026-11-22-am",
+    "competitive_called": 102,
+    "new": 0
+   },
+   {
+    "snapshot": "2026-11-23-am",
     "competitive_called": 102,
     "new": 0
    }
@@ -24090,72 +24093,24 @@
  "news": {
   "HOU-MN-01": [
    {
-    "title": "Rep. Brad Finstad requests recount after loss to Jake Johnson in southern Minnesota",
-    "outlet": "MPR News",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVHJBLVFZZmlhSXdFNk9zYkdPVWJLSjBxelpXSm9ZcFpMNUVYVEhROVdjaUIxYWNRMzZYVGJpRXJKcXdFdGpabnFDa0s2MVpjZHFhN2xnbFh6T0hfcDAweWJnU1RZXzl6SDU1VUdCc1o2YXBUT21LQjE5cUZGQThXa21jakFHdXJydl9xY3ByMnduejlhS1BuaFVwYUlfb0c3TXhTZTdoalYyR2xsX1VwRUxFdnl3WmtiN2c5WGx3bFIxdkZ3TXc?oc=5",
-    "published": "2026-11-19T22:50:00+00:00",
-    "flags": [
-     "uncertain"
-    ]
-   },
-   {
-    "title": "MN Sen. Karin Housley wins recount; three others pending",
-    "outlet": "Pioneer Press",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3pHZDZ5Z3R4al8yV1oxZ215ek5qUFhfOU1peXR1RnlaQVl1aUJnelVjN1RDUXFkbzB1RmpkZ3huMFRpc3hNZTZvVk55cEo0b3lVakdVLU9jNFRWcnhHalo0VGYwUUlyT2E3WFdrZExUSEN1N3dOMjlaZkZ4dEM3RkxrVGxVdw?oc=5",
-    "published": "2026-11-19T22:35:13+00:00",
-    "flags": [
-     "call",
-     "uncertain"
-    ]
-   },
-   {
-    "title": "Rep. Brad Finstad requests hand recount in Minnesota's 1st District after 324-vote margin certified",
-    "outlet": "CBS News",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTk1BRnMtbDJxR08yVnlRUmZiNmJRRXI2UVNSN2VHNkVnLWl6Y05JRHdyTzRjdkxsdW4yMFdaUTZUa200VDJZYzE0MWNVMk5BdGFDUjc4YWJ4QzJESlVTMS1IT01YQWZSRWdVZ01mYmZiTnZ2XzZSVE1PNDJ0ZEU1Y0I0RnJIQ0pxUDFJeFBwODBILTBnR3JyQXRFeWo3VnVKbVRFMHVSUDZVeG13cjJTa1JwUjdJOGVoR0pQM2R2WXN4cElVcG9YRnNLamIxQmNNZUhN?oc=5",
-    "published": "2026-11-19T21:16:00+00:00",
+    "title": "Finstad requests recount after state certifies Johnson as winner in 1st District",
+    "outlet": "Bring Me The News",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObDVRLWdqOGdCa2U1X1l1MEhaSDJvZEhmai1OMlI5bjN4OWlWbGhwOWYtaHVqazl3VVIwUGpqc0NDR0tyckJmM0ZjRUNseDc5dHhoWWQ5Y0gydHB5TVNLa3pxQlFmc0ctMXd0ek0zNU1yaVFlZmRNTDNibnBLcEprcUZjRGxfM3BoMFV4T2NxWnpTY0tRTThTSUc4SzMxTkNmX3pYWlYxOTRmVmpFak5QRmYwNzZISDRxZHRQc0pRVQ?oc=5",
+    "published": "2026-11-20T18:20:26+00:00",
     "flags": [
      "uncertain",
      "legal"
     ]
-   }
-  ],
-  "HOU-NC-05": [
-   {
-    "title": "Hubbard leads Foxx by 330 votes after recount",
-    "outlet": "The Hill",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQSkx2b3RuelJFeWNtM0R2d09wX0FBWFRlS0kwdFAwQVNVSU5MM3hZSXBISDlhMlJVRFkyc25oYVlFeGtwODdXWTdseTBzYUY1MmdTRFhmaEJSSzRIMWdWRWxjV3lSSjNtLXZUTU1LR0RCaGRfZFhocjJzRmpnd9IBgwFBVV95cUxQU3JpMzJoYWNIRDhxSTZnaGROdV91T3R3cDJkamJOM1FhME94Ty1yTW5tbnZfak8xczZrb3F0S0JJYUlIaHFtWVZnUDBqaTZ6R1VKRXBpVk5uem1kVFRXSmJlYW1DdjlMbU5vbzJHVGlvNmx0RzJiU2k1dUZnZmhEUmZ3SQ?oc=5",
-    "published": "2026-11-21T22:23:00+00:00",
-    "flags": [
-     "uncertain"
-    ]
    },
    {
-    "title": "Foxx vs. Hubbard recount nearly finalized for North Carolina's 5th Congressional District race",
-    "outlet": "WXII",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdzQwbEZlNkdvQXp6NUpnVDdLMGdxVHB4VWEwckNDXzU3QUd5ZWx6YlN1VGlSXzZzUlpOM1BKWUQwcXN5ZG8xdlZZNWlmcVU2Q3NudlAyZWdYenhITl9fOC1vQVI2eENhVnc1eUhTazl0UU5GZ2ZmWDhjZzZUUFFkZkhXZ0wyb0pyanZXOHBR?oc=5",
-    "published": "2026-11-21T18:11:00+00:00",
-    "flags": [
-     "uncertain"
-    ]
-   },
-   {
-    "title": "N.C. District-5 election protests unanimously approved to formal hearing, recounts pending",
-    "outlet": "WXLV",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRXBxcUNQNnUtZFRubHFFVm5pZHNoQXZENGMzZFhHdHZfeVVjTUZLaUxPM0hqb1FXempiQTJqMGhvbWxpMC1OSVgzc3JNU01Odmg4WkVsalhMM0V6REp4WTlSamlyUjF1NGlZYjU0SHdEanNCbnhnVURyejd6d1JIazhLUTR6ejNlYk9rR2xtNE50aG44NGtJc0c5Y1pnVXZ4NUlmWmVPTkFkUlJhcE0wWGVmMmtnRkE?oc=5",
-    "published": "2026-11-20T23:57:12+00:00",
-    "flags": [
-     "uncertain"
-    ]
+    "title": "Minnesota Elects First Female Governor, Democrats Take Legislature",
+    "outlet": "Wisevoter",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY2t0Q2ZrcHBuUnFwM2U5OHlJMkdwcTZSNFlVWlFrRUxZQkZ5X3JSQ0pMS09lSGRlbVhsaHR4ajZxZDB4VGNhX1BuRmVmS1FzMTJEZTVWWGVTd0c4ZHhld3UzUkdVYkoxbE1jTy15aUFxOGdOT0NVQkx0VVgyRXZCSGkwRVJnQTlRcUM2ZjVVaGVHaktGSjdpVFF2MDBDVVJKOEVDLWRBT1I?oc=5",
+    "published": "2026-11-21T03:33:12+00:00",
+    "flags": []
    }
   ],
   "GOV-AK": [
-   {
-    "title": "Alaska Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWTZ6Q3BUbXVkYlI4MDN2al9nQXhIU0M3Z2pkTFdQakMzOHRqVWV1N3VRYnBfRXVNclNWOFFCZ2N5Q0RldXh5Mnc3eTJXR1BwYkZKeUxBUE4xUVliNF80bFFDT25rekZjTnlvTUg1T2tuTFp4X1k0c0RfUkh1akMtYUN4aU40TTczY1E?oc=5",
-    "published": "2026-11-19T20:31:55+00:00",
-    "flags": []
-   },
    {
     "title": "Alaska governor won’t give up on long-shot bid to subvert Democratic Senate win",
     "outlet": "Democracy Docket",
@@ -24166,154 +24121,29 @@
     ]
    }
   ],
-  "GOV-AZ": [
-   {
-    "title": "Arizona Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNndaVm5rbS1IWjJmQzNuakNydlVPVVQ1OHFaTHZHei1iU05xaGhYdjZsbFNlODludF9UUUw1Z0JVeUo1MUNEYVFRbC0tSUY3STNqSE00NlNrUUE5YVBiMzRfUHNEaTlZU08tWVliY3dyR1dmRWJ2dTlLeGJPX2RuQXJDV3g3ek9WMFkw?oc=5",
-    "published": "2026-11-19T20:33:52+00:00",
-    "flags": []
-   }
-  ],
+  "GOV-AZ": [],
   "GOV-FL": [],
-  "GOV-GA": [
+  "GOV-GA": [],
+  "GOV-IA": [],
+  "GOV-KS": [],
+  "GOV-MI": [],
+  "GOV-MN": [],
+  "GOV-NE": [],
+  "GOV-NH": [],
+  "GOV-NV": [],
+  "GOV-OH": [
    {
-    "title": "Georgia Governor Election Live Results 2026",
-    "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RN1R1RmdaOFF6WHd2cHJBbzhvdTJ2Z1VVOHJBd2hsSVRsTjJqQ04tajNnbDFycVNUSm9Tc2JkTDN6RS1yVGZMa0lkcWRBWlNOcV9yMnNJWXBURkdxRURzb2R5V0lWblpOZnJYVDhUUFNZS1lTOHpF?oc=5",
-    "published": "2026-11-20T08:00:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Georgia Elections: Who Led In Prediction Markets",
-    "outlet": "Forbes",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR1ZHbTQwX0FGU1VyMXZlb0JqdV9HbDBobEtwLXZUN3VfbEFiTEd5MzJSUS11RTlGemstUzhTc3pCbXNpeTZTdUpWNURnZWlmT1FNVm9ZODkyRTVVcVZPS3p3Z3dvOTJqUXhtbkFFcVd6RVFSa09xT01DdVZjeHdnc2diVHA3dW9kTEIySTR3?oc=5",
-    "published": "2026-11-19T13:01:00+00:00",
+    "title": "Ohio Governor Election 2026: Latest Polls",
+    "outlet": "The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc1lPMVdmRHVWMHlVc2NUV1RzU1NFU3M4cVpLaEpLWTNXTExaYXlINFJSYmVJbGZFUWhTaHhTNC1LOEdWa1U3RVZ6UlkyVVlZcTFxN3dNbkpUX1g5VzJOY1JBcUZRSFhodnBYVHliZ0JWSmR0anozcG9rckJZUnpQN181Z2ozSDQ?oc=5",
+    "published": "2026-11-21T12:01:06+00:00",
     "flags": []
    }
   ],
-  "GOV-IA": [
-   {
-    "title": "Iowa Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ29hNGVjNm81dFRuMEpfVEdqUzdvRVJqMzE1VlRSTFBBRW91cXNJR0k3S0RWYkp3OXV3VW9INFE4Z2N1Z1FWd1hsSW8ydW5GMFhhR1VLM2JRMVQydGl4UGRsdEJzaTdUZkdxXy11VVJEUW1xaTlIRzZxZmZLdlVWTkFHMWhfS1E?oc=5",
-    "published": "2026-11-19T20:35:18+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-KS": [
-   {
-    "title": "Kansas Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTUtheVdQUXVtbWRjc0lNM0VOSFdFUmhFWkRkNGpGM0JLMVBPYmJCV1c4M2ZNeG9pYk1VcGMzcTkxTS12dVdlYUJFbFJMVkh4RFMzcEdxTWg1Y2lCNUtnLUFVVmxoRS1PckVHdDU0bVhGQmNxLUpqS0tCZGN4N1FVcWNfVzE3dFo5QVE?oc=5",
-    "published": "2026-11-19T20:35:12+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-MI": [
-   {
-    "title": "Michigan Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ0E2QlE3NEFmNmFFWmJkaEYwclhVUThLVExMbUoxRV8tTE5YQUZ5REZDNVZ2N3V3NU8ycldsTzZxbjA1R1BHRE5fSXdKTHdjd2VMc0VuT29NcGRGLXJUMHVCOWlTeHhiTkVYOTNZRWpsTTdCY0FaVWxiWHZ6b19TT2kzWHVwd0xuME1NXw?oc=5",
-    "published": "2026-11-19T20:32:19+00:00",
-    "flags": []
-   },
-   {
-    "title": "Michigan Elections: Who Led In Prediction Markets",
-    "outlet": "Forbes",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWkpKNlJldE9XdGpfd3hyLXZpQnIzVWo1R3IxVkJuZ3NTSU52MmF1UDgwQXRseHFIaVRyT1U1MlAwM3lVNktYTU9OUVF4ZHFiaUZNOV9adnRkUmVpNlVwd2NaSHJrUWZKcUFfdjdxS2YzYTd2X0IyTzlmd1VFUGNTbjJxNDRrc3NSQ2dtQ3FqTQ?oc=5",
-    "published": "2026-11-19T13:01:00+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-MN": [
-   {
-    "title": "Who Is Ahead in the Minnesota Governor's Race? Latest 2026 Election Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMzFJTExUa2lBYTVMWFNGLVo0Q2pwTDZEb1BFamZocU56OGpodHpfQko0WGZ2RXN4SDZ6NHVOVzRIM2FIMVgzam9hSzJFcEtxMHJBU3N6dXBaZnA4WHZodGFaMEZFVTRvMWJMZEszQ0ZMeW5yY1FmTllxa0JaZzZpbWg3UlB5dVlrZHZJNEt3?oc=5",
-    "published": "2026-11-19T20:32:24+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-NE": [
-   {
-    "title": "Nebraska Elections: Who Led In Prediction Markets",
-    "outlet": "Forbes",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzFKSVdHR0VwdEdXbjVyY05kU3Q3MWxzd3RLd2dJUDJJZm9SU3dYSDhYVDV5alhLX2YzTVNUUDFraWdUclpEbFZtczIxLVNUY1JVVVk0ZWRtR2NIN3pLUDNSb2xONkkwLWRVZWRwTF80NGdRSThXcTlSSC1wYTBCUU9EQmFQU0JhWjFOVVM2UQ?oc=5",
-    "published": "2026-11-19T13:01:00+00:00",
-    "flags": []
-   },
-   {
-    "title": "Nebraska Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcWZIdExwTjJmNnhmdTRrcG1SRXBEMHNSSlJ3V1JoZ3h1RjJtSnpSSXdwalg2YUc1amlIbksyWG5GWTdiNlpWU1Z5SWhTMkR2bFNTS28yT3d5Z2lPenJVQmZMOHF3cFRrc2d1VXlsY3Z2VkdxNFdxcElBMW9XZ2gtU2o3ZjNhNXFpbzB1bA?oc=5",
-    "published": "2026-11-19T20:35:03+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-NH": [
-   {
-    "title": "New Hampshire Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRHI2Z1ExY2pVbER2VVVNOEtIS1FITW9rSDM2TENFRk15YzRGSDNQc2d6RndPMl9rQ3p2cFByV3V1a0xLV2hKWklYM2RkWWdnYy11bmZ5Vl81dTZva2tqN2JmdE1xV0ZCczJteXgtNGVrYWVJRmxPdzR3ZlByYUR4VmxFdEZJUDA1MlhWRlo5VGNPaVE?oc=5",
-    "published": "2026-11-19T20:32:28+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-NV": [
-   {
-    "title": "Nevada Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSENfUURMZXZ3UXZST2FzTGI1QjRqWV9vZVFZemtMeWdlcUtQbEdZNTBucm15alczb0JSTk9zcGVjZ0FsRWVGNllYQVFvTXd2SkQ4bVFFMVhCSDR0UmpJMUtJRWV4TDctTE9LVGpkcExXX2JaU2NuX3BYc1p6MnRwMUJYSFFNWmxGWkE?oc=5",
-    "published": "2026-11-19T20:32:24+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-OH": [],
-  "GOV-OK": [
-   {
-    "title": "Who Is Ahead in the Oklahoma Governor's Race? Latest 2026 Election Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbHpxdjVnWVVVRzlNdzJhMlllOGFuRzdSVjN5NXFMZFhHS2JJVXlFTWFFdVlBZjlrZTB3cWo2c2RQcHVxeGVjS2UxZEQxUHVyY3ZqbXJtMkRKOWxrZVhaWjhpTFlCd2RlTFp4aV9VWjlEcU84SE80U3ZES2JXRWRwTXcxdkFNZUwzd2I5aQ?oc=5",
-    "published": "2026-11-20T03:40:16+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-OR": [
-   {
-    "title": "Oregon Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWNqMHZuUENvQnJXWjQxTVRBQ3hPaUxtbFlaR05GakZCVDMxTklfU0RqYnBKeG1tZWRvV21mTUFJT1k2TlZuYmpaOG5UUF8tVW9fOThVdEFfQmVDQzM2bUozRzVGaXhuWVFyLVhNQTZuNDVvMVg4Wno5bXdrSU54WV82Y1E2WWswNWc?oc=5",
-    "published": "2026-11-19T20:34:45+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-TX": [
-   {
-    "title": "Texas Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVVRSQVJ4aDZHaktLVThoTXRuTnBIZEZEeFR5c0NkZnNycjNHM2VBbUt4UHRfZW8xQ3pkVnVMTmI1LVB5c1U2X1NqdEE0dzVKT3l4Rk1Tbk1YZ0lfR1ZEaF9jbHlLZXJqNkhqbGd0X2Y5SXJHRHY4TnlmQUxLa0FaSWtjV1VoQmtr?oc=5",
-    "published": "2026-11-19T20:32:50+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-VT": [
-   {
-    "title": "Vermont Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX1NQZ3NhVHdJaE5GSjZ5YjRkMXZhMUs3OFByN0hzNFRZdGtWQm5FVC1fUWFtbTRiM3dMY3ZWTzZfQW9KQkRqOEdNc3JfVTFTZDQ1N3l2UENhaGdhbG1YQXdDeEdiaHdPNG9qNm82Z0dnUk15UVBYN0RfbHNYZkZHbTBFc1F6dllJYjhv?oc=5",
-    "published": "2026-11-19T20:38:38+00:00",
-    "flags": []
-   }
-  ],
-  "GOV-WI": [
-   {
-    "title": "Wisconsin Governor Election 2026: Latest Polls",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNFJMcWhkMnREMjZfaDRwc3NsZmZaUzlvUmdmZUNUVTRkaHhreEFVQ2lxRW9EeUhMU3h0LVhEel9DUlNwSHdQRm1TODkyX09yZUJnWEs3bXZfRm1yM1RxM2lyMnIxR184ZGdoQ21SLVA0VEI5RFVhUnN1TEMxNWJxSTM2MkRudkQ1TmZWMElR?oc=5",
-    "published": "2026-11-19T20:32:50+00:00",
-    "flags": []
-   }
-  ]
+  "GOV-OK": [],
+  "GOV-OR": [],
+  "GOV-TX": [],
+  "GOV-VT": [],
+  "GOV-WI": []
  }
 }
