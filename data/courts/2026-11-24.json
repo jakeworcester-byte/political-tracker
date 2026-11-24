@@ -1,0 +1,560 @@
+{
+ "date": "2026-11-24",
+ "since": "2026-11-21",
+ "token_env": "COURTLISTENER_TOKEN",
+ "requests": 3,
+ "status": "ok",
+ "errors": [],
+ "dockets": [
+  {
+   "query": "suitNature:\"Civil Rights: Voting\"",
+   "count": 18,
+   "page2": false,
+   "items": [
+    {
+     "case": "Ohio Democratic Party v. LaRose",
+     "court": "District Court, S.D. Ohio",
+     "docket_number": "2:26-cv-01707",
+     "date_filed": "2026-11-23",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75163266/ohio-democratic-party-v-larose/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 1,
+       "description": "Exhibit Ex. 4 Rich Affidavit",
+       "url": "https://www.courtlistener.com/docket/75163266/1/4/ohio-democratic-party-v-larose/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 1,
+       "description": "Exhibit Ex. 7 OHDCC Colombo Letter",
+       "url": "https://www.courtlistener.com/docket/75163266/1/7/ohio-democratic-party-v-larose/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 1,
+       "description": "Exhibit Ex. 5 Moore Affidavit",
+       "url": "https://www.courtlistener.com/docket/75163266/1/5/ohio-democratic-party-v-larose/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Stilley v. Shelly",
+     "court": "District Court, W.D. Arkansas",
+     "docket_number": "2:26-cv-02183",
+     "date_filed": "2026-11-19",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75146277/stilley-v-shelly/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 9,
+       "description": "Notice re Receipt of Documents",
+       "url": "https://www.courtlistener.com/docket/75146277/9/stilley-v-shelly/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 10,
+       "description": "Miscellaneous Relief",
+       "url": "https://www.courtlistener.com/docket/75146277/10/stilley-v-shelly/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "Order on Motion for Miscellaneous Relief",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Chamber of Commerce of the United States of America v. Knudsen",
+     "court": "District Court, D. Montana",
+     "docket_number": "6:26-cv-00075",
+     "date_filed": "2026-11-12",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75112572/chamber-of-commerce-of-the-united-states-of-america-v-knudsen/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 29,
+       "description": "Notice of Correction - MT",
+       "url": "https://www.courtlistener.com/docket/75112572/29/chamber-of-commerce-of-the-united-states-of-america-v-knudsen/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 35,
+       "description": "Notice of Acknowledgment of Pro Hac Vice Order - MT",
+       "url": "https://www.courtlistener.com/docket/75112572/35/chamber-of-commerce-of-the-united-states-of-america-v-knudsen/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 34,
+       "description": "Notice of Acknowledgment of Pro Hac Vice Order - MT",
+       "url": "https://www.courtlistener.com/docket/75112572/34/chamber-of-commerce-of-the-united-states-of-america-v-knudsen/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Potter County Republican Party v. Benge",
+     "court": "District Court, N.D. Texas",
+     "docket_number": "2:26-cv-00215",
+     "date_filed": "2026-10-27",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75028945/potter-county-republican-party-v-benge/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 85,
+       "description": "RESPONSE filed by Potter County Republican Party re: 81 Second MOTION to Dismiss for Lack of Subject-Matter Jurisdiction and for Failure to State a Claim (Woodfill, Jared) (Entered: 11/23/2026)",
+       "url": "https://www.courtlistener.com/docket/75028945/85/potter-county-republican-party-v-benge/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 86,
+       "description": "MOTION for Injunction filed by Potter County Republican Party with Brief/Memorandum in Support. (Attachments: # 1 Proposed Order) (Woodfill, Jared) (Entered: 11/23/2026)",
+       "url": "https://www.courtlistener.com/docket/75028945/86/potter-county-republican-party-v-benge/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 87,
+       "description": "Appendix in Support filed by Potter County Republican Party re 86 MOTION for Injunction (Woodfill, Jared) (Entered: 11/23/2026)",
+       "url": "https://www.courtlistener.com/docket/75028945/87/potter-county-republican-party-v-benge/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Red Wine & Blue v. Frank LaRose",
+     "court": "Court of Appeals for the Sixth Circuit",
+     "docket_number": "26-3813",
+     "date_filed": "2026-09-08",
+     "suit_nature": "2441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74762684/red-wine-blue-v-frank-larose/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 31,
+       "description": "motion to file amicus brief to file amicus brief",
+       "url": "https://www.courtlistener.com/docket/74762684/31/red-wine-blue-v-frank-larose/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 32,
+       "description": "amicus curiae brief",
+       "url": "https://www.courtlistener.com/docket/74762684/32/red-wine-blue-v-frank-larose/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "State of California v. United States Postal Service",
+     "court": "District Court, D. Massachusetts",
+     "docket_number": "1:26-cv-13917",
+     "date_filed": "2026-08-26",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74701505/state-of-california-v-united-states-postal-service/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "Order on Motion for Order",
+       "url": ""
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "Notice of Hearing",
+       "url": ""
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 187,
+       "description": "Judge Indira Talwani: ELECTRONIC ORDER: Electronic Order vacating Defendants’ deadline to answer the complaint. On or before January 19, 2027: Federal Defendants will produce an administrative record…",
+       "url": "https://www.courtlistener.com/docket/74701505/187/state-of-california-v-united-states-postal-service/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Turner v. State of Oregon",
+     "court": "District Court, D. Oregon",
+     "docket_number": "3:26-cv-01192",
+     "date_filed": "2026-06-12",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73480047/turner-v-state-of-oregon/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 13,
+       "description": "Order of Dismissal of Appeal by USCA",
+       "url": "https://www.courtlistener.com/docket/73480047/13/turner-v-state-of-oregon/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters of Colorado v. Griswold",
+     "court": "District Court, D. Colorado",
+     "docket_number": "1:26-cv-02103",
+     "date_filed": "2026-05-15",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73349548/league-of-women-voters-of-colorado-v-griswold/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "Minute Order",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "ROZIER v. HOUSTON COUNTY BOARD OF ELECTIONS",
+     "court": "District Court, M.D. Georgia",
+     "docket_number": "5:25-cv-00478",
+     "date_filed": "2025-10-30",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/71827524/rozier-v-houston-county-board-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 62,
+       "description": "Judgment",
+       "url": "https://www.courtlistener.com/docket/71827524/62/rozier-v-houston-county-board-of-elections/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 61,
+       "description": "Order on Motion to Dismiss",
+       "url": "https://www.courtlistener.com/docket/71827524/61/rozier-v-houston-county-board-of-elections/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Means v. DeSoto Parish",
+     "court": "District Court, W.D. Louisiana",
+     "docket_number": "5:23-cv-00669",
+     "date_filed": "2023-05-18",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/67406938/means-v-desoto-parish/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 162,
+       "description": "Response/Reply (NOT Motions)",
+       "url": "https://www.courtlistener.com/docket/67406938/162/means-v-desoto-parish/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mississippi State Conference of the National Association for the Advancement of Colored People v. State Board of Election Commissioners",
+     "court": "District Court, S.D. Mississippi",
+     "docket_number": "3:22-cv-00734",
+     "date_filed": "2022-12-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/66672561/mississippi-state-conference-of-the-national-association-for-the/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "Order on Motion to Appear Pro Hac Vice",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Missouri Protection and Advocacy Services v. Ashcroft Case Administratively Closed pending stay",
+     "court": "District Court, W.D. Missouri",
+     "docket_number": "2:22-cv-04097",
+     "date_filed": "2022-06-22",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63402721/missouri-protection-and-advocacy-services-v-ashcroft-font-colorred/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 102,
+       "description": "Extension of Time",
+       "url": "https://www.courtlistener.com/docket/63402721/102/missouri-protection-and-advocacy-services-v-ashcroft-font-colorred/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "Order on Motion for Extension of Time AND Order on Motion to Lift Stay",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mi Familia Vota v. Fontes",
+     "court": "District Court, D. Arizona",
+     "docket_number": "2:22-cv-00509",
+     "date_filed": "2022-03-31",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63203919/mi-familia-vota-v-fontes/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 800,
+       "description": "Notice of Attorney Substitution (Within Firm Only)",
+       "url": "https://www.courtlistener.com/docket/63203919/800/mi-familia-vota-v-fontes/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of United Latin American Citizens v. Abbott",
+     "court": "District Court, W.D. Texas",
+     "docket_number": "3:21-cv-00259",
+     "date_filed": "2021-10-18",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/60654982/league-of-united-latin-american-citizens-v-abbott/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 1500,
+       "description": "Order on Motion to Withdraw as Attorney",
+       "url": "https://www.courtlistener.com/docket/60654982/1500/league-of-united-latin-american-citizens-v-abbott/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "La Union Del Pueblo Entero v. Gregory W. Abbott",
+     "court": "District Court, W.D. Texas",
+     "docket_number": "5:21-cv-00844",
+     "date_filed": "2021-09-03",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/60362224/la-union-del-pueblo-entero-v-gregory-w-abbott/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 1253,
+       "description": "Withdraw As Attorney",
+       "url": "https://www.courtlistener.com/docket/60362224/1253/la-union-del-pueblo-entero-v-gregory-w-abbott/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 1252,
+       "description": "Withdraw As Attorney",
+       "url": "https://www.courtlistener.com/docket/60362224/1252/la-union-del-pueblo-entero-v-gregory-w-abbott/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 1251,
+       "description": "Withdraw As Attorney",
+       "url": "https://www.courtlistener.com/docket/60362224/1251/la-union-del-pueblo-entero-v-gregory-w-abbott/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mi Familia Vota v. Fontes",
+     "court": "District Court, D. Arizona",
+     "docket_number": "2:21-cv-01423",
+     "date_filed": "2021-08-17",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/60190581/mi-familia-vota-v-fontes/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 357,
+       "description": "Notice of Attorney Substitution (Within Firm Only)",
+       "url": "https://www.courtlistener.com/docket/60190581/357/mi-familia-vota-v-fontes/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mayes v. Landry",
+     "court": "District Court, W.D. Louisiana",
+     "docket_number": "5:26-cv-04902",
+     "date_filed": "2026-11-22",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75156831/mayes-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-22",
+       "entry_number": 1,
+       "description": "Exhibit Attachment A Subdistricting Plan",
+       "url": "https://www.courtlistener.com/docket/75156831/1/4/mayes-v-landry/"
+      },
+      {
+       "date": "2026-11-22",
+       "entry_number": 1,
+       "description": "Exhibit Consent Decree Clark v Roemer",
+       "url": "https://www.courtlistener.com/docket/75156831/1/5/mayes-v-landry/"
+      },
+      {
+       "date": "2026-11-22",
+       "entry_number": 1,
+       "description": "Exhibit Caddo Parish 2020 Consenus Population and Voting Age Report",
+       "url": "https://www.courtlistener.com/docket/75156831/1/6/mayes-v-landry/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. State of California",
+     "court": "District Court, C.D. California",
+     "docket_number": "2:26-cv-12025",
+     "date_filed": "2026-10-15",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74967108/united-states-v-state-of-california/",
+     "entries": [
+      {
+       "date": "2026-11-22",
+       "entry_number": 183,
+       "description": "USCA Memorandum/Opinion/Order",
+       "url": "https://www.courtlistener.com/docket/74967108/183/united-states-v-state-of-california/"
+      },
+      {
+       "date": "2026-11-22",
+       "entry_number": null,
+       "description": "USCA Memorandum/Opinion/Order",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  },
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\" OR \"election commission\")",
+   "count": 8,
+   "page2": false,
+   "items": [
+    {
+     "case": "League of Women Voters v. DHS",
+     "court": "Court of Appeals for the D.C. Circuit",
+     "docket_number": "26-5243",
+     "date_filed": "2026-06-29",
+     "suit_nature": "2890 Other Statutory Actions",
+     "url": "https://www.courtlistener.com/docket/73544809/league-of-women-voters-v-dhs/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 1208910717,
+       "description": "Notice of Extended Representation",
+       "url": "https://www.courtlistener.com/docket/73544809/1208910717/league-of-women-voters-v-dhs/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 1208910735,
+       "description": "Entry of Appearance Filed",
+       "url": "https://www.courtlistener.com/docket/73544809/1208910735/league-of-women-voters-v-dhs/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters of Colorado v. Griswold",
+     "court": "District Court, D. Colorado",
+     "docket_number": "1:26-cv-02103",
+     "date_filed": "2026-05-15",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73349548/league-of-women-voters-of-colorado-v-griswold/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "Minute Order",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "LLOP v. FEDERAL ELECTION COMMISSION",
+     "court": "District Court, District of Columbia",
+     "docket_number": "1:26-cv-00051",
+     "date_filed": "2026-01-07",
+     "suit_nature": "950 Constitutional - State Statute",
+     "url": "https://www.courtlistener.com/docket/72126396/llop-v-federal-election-commission/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "USCA Case Number",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "ROZIER v. HOUSTON COUNTY BOARD OF ELECTIONS",
+     "court": "District Court, M.D. Georgia",
+     "docket_number": "5:25-cv-00478",
+     "date_filed": "2025-10-30",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/71827524/rozier-v-houston-county-board-of-elections/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": 62,
+       "description": "Judgment",
+       "url": "https://www.courtlistener.com/docket/71827524/62/rozier-v-houston-county-board-of-elections/"
+      },
+      {
+       "date": "2026-11-23",
+       "entry_number": 61,
+       "description": "Order on Motion to Dismiss",
+       "url": "https://www.courtlistener.com/docket/71827524/61/rozier-v-houston-county-board-of-elections/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Mississippi State Conference of the National Association for the Advancement of Colored People v. State Board of Election Commissioners",
+     "court": "District Court, S.D. Mississippi",
+     "docket_number": "3:22-cv-00734",
+     "date_filed": "2022-12-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/66672561/mississippi-state-conference-of-the-national-association-for-the/",
+     "entries": [
+      {
+       "date": "2026-11-23",
+       "entry_number": null,
+       "description": "Order on Motion to Appear Pro Hac Vice",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "TRUE THE VOTE, INC. v. INTERNAL REVENUE SERVICE",
+     "court": "District Court, District of Columbia",
+     "docket_number": "1:13-cv-00734",
+     "date_filed": "2013-05-21",
+     "suit_nature": "440 Civil Rights: Other",
+     "url": "https://www.courtlistener.com/docket/4212012/true-the-vote-inc-v-internal-revenue-service/",
+     "entries": [
+      {
+       "date": "2026-11-22",
+       "entry_number": 292,
+       "description": "Miscellaneous Relief",
+       "url": "https://www.courtlistener.com/docket/4212012/292/true-the-vote-inc-v-internal-revenue-service/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  }
+ ],
+ "opinions": [
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\")",
+   "count": 0,
+   "page2": false,
+   "items": []
+  }
+ ]
+}

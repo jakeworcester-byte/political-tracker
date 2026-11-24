@@ -677,6 +677,18 @@ def main():
                     break
 
     races = {**house, **senate}
+    # Races the table marks won but AP has not called (config/postelection.json -> not_called_by_ap).
+    # Wikipedia editors sometimes mark a race after a concession or certification while AP still waits
+    # (for a recount, certification). The tracker's rule is AP's call, so these count as uncalled, and
+    # the table's winner is kept as context. Remove an entry once a news lead shows AP calling the race.
+    for k, note in (CFG.get("not_called_by_ap") or {}).items():
+        r = races.get(k)
+        if k.startswith("_") or not r:
+            continue
+        if r["called"] and r.get("winner"):
+            r["table_winner"] = r["winner"]
+            r["called"], r["winner"] = False, None
+        r["ap_pending"] = note
     for k, r in races.items():
         meta = ratings.get(k)
         r["final_rating"] = SCORE_LABEL.get(meta["score"]) if meta else None
@@ -717,13 +729,13 @@ def main():
             r["flagged_since"] = (prev_races.get(k) or {}).get("flagged_since") or f"{run_date} {edition}"
     rated_safe_close = sorted((k for k, r in races.items() if r["rated_safe_now_close"]),
                               key=lambda k: (races[k]["chamber"] != "Senate", races[k]["margin_pts"], k))
-    uncalled_after_call = sorted(k for k in prev_called if k in races and not races[k]["called"])  # table reverted
+    uncalled_after_call = sorted(k for k in prev_called if k in races and not races[k]["called"] and not races[k].get("ap_pending"))  # table reverted
 
     # 4. news
     lookback = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=CFG.get("news_lookback_days", 3))).isoformat()
-    uncalled_comp = sorted([k for k, r in races.items() if not r["called"] and (r["competitive"] or r["upset_watch"] or r.get("runoff"))],
+    uncalled_comp = sorted([k for k, r in races.items() if not r["called"] and (r["competitive"] or r["upset_watch"] or r.get("runoff") or r.get("ap_pending"))],
                            key=lambda k: (races[k]["chamber"] != "Senate", abs(races[k]["final_score"] or 0), k))
-    pending_safe = sorted(k for k, r in races.items() if not r["called"] and not r["competitive"] and not r["upset_watch"] and not r.get("runoff"))
+    pending_safe = sorted(k for k, r in races.items() if not r["called"] and not r["competitive"] and not r["upset_watch"] and not r.get("runoff") and not r.get("ap_pending"))
     news = {"races": {}, "national": {}, "errors": []}
     if not args.skip_news:
         targets = uncalled_comp + [k for k in newly_called if (races[k]["competitive"] or races[k]["rated_safe_now_close"])
@@ -863,6 +875,11 @@ def write_digest(run_date, edition, s, news):
     L.append(f"\n### Chamber status\n- House: {h['called']} of {h['races']} called: D {h['won']['D']}, R {h['won']['R']}"
              + (f", other {h['won']['I'] + h['won']['Other']}" if h['won']['I'] + h['won']['Other'] else "")
              + f"; {h['uncalled']} not marked called. Majority is 218.")
+    pend = [k for k in races if races[k].get("ap_pending") and races[k].get("table_winner")]
+    if pend:
+        L.append("- Counts follow AP's calls. Also marked won in the Wikipedia table but not yet called by AP (not counted above): "
+                 + "; ".join(f"{k} {races[k]['table_winner']['name']} ({races[k]['table_winner']['party']})" for k in sorted(pend))
+                 + ". Give the table's count as context in the Bottom line only if useful, labeled as such.")
     if h.get("reported_count"):
         r_, w_ = h["reported"], h["won_incl_reported"]
         L.append(f"- House, adding races reported called in news but not yet in the table ({h['reported_count']}: D {r_['D']}, R {r_['R']}"
@@ -987,6 +1004,11 @@ def write_digest(run_date, edition, s, news):
         tags = []
         if r.get("upset_watch"):
             tags.append("RATED SAFE BUT THE COUNT IS CLOSE")
+        if r.get("ap_pending"):
+            tw = r.get("table_winner") or {}
+            ap = r["ap_pending"]
+            tags.append(f"MARKED WON IN THE TABLE{' for ' + tw['name'] + ' (' + tw['party'] + ')' if tw else ''} BUT AP HAS NOT CALLED IT: {ap.get('note', '')} ({ap.get('source', '')}). "
+                        "Not counted as called. If a lead shows AP calling it, remove it from not_called_by_ap in config/postelection.json and rerun results.py")
         if r.get("runoff") and not r["runoff"].get("decided"):
             adv = r["runoff"].get("candidates") or []
             tags.append("RUNOFF PENDING: " + " vs ".join(f"{c['name']} ({c['party']}, {c['pct']}% in the first round)" if c.get("pct") is not None else f"{c['name']} ({c['party']})" for c in adv)

@@ -236,7 +236,7 @@
       <div class="card"><div class="cols">${tl.map(t => `<div class="col" title="${SNAP_LABEL(t.snapshot)}: ${t.new} newly called, ${t.competitive_called} total"><div class="col-n">${t.new}</div><div class="col-bar" style="height:${Math.max(2, 100 * t.new / tlMax)}%"></div><div class="col-lab">${SNAP_LABEL(t.snapshot)}</div></div>`).join("")}</div></div>` : ""}
 
       <h2>Still out</h2>
-      <div class="card"><ul class="list">${unc.map(r => `<li><div class="item-title">${esc(r.name)} ${r.final_rating ? pill(r.final_rating, "sm") : ""}</div><div class="item-meta">${esc(r.chamber)}${r.runoff && !r.runoff.decided ? ` · runoff pending: ${esc((r.runoff.names || []).join(" vs "))}` : ""}${r.margin_pts != null && r.leader ? ` · ${esc(r.leader.name)} (${esc(r.leader.party)}) leads by ${r.margin_pts} pts in the table` : ""}</div></li>`).join("")}${govUnc.map(v => `<li><div class="item-title">${esc(v.state)} governor ${v.final_rating ? pill(v.final_rating, "sm") : ""}</div><div class="item-meta">Governor${v.leader && v.margin_pts != null ? ` · ${esc(v.leader.name)} (${esc(v.leader.party)}) leads by ${v.margin_pts} pts in the table` : ""}</div></li>`).join("")}${unc.length || govUnc.length ? "" : '<li class="meta">Every competitive race has been called.</li>'}</ul>
+      <div class="card"><ul class="list">${unc.map(r => `<li><div class="item-title">${esc(r.name)} ${r.final_rating ? pill(r.final_rating, "sm") : ""}</div><div class="item-meta">${esc(r.chamber)}${r.runoff && !r.runoff.decided ? ` · runoff pending: ${esc((r.runoff.names || []).join(" vs "))}` : ""}${r.ap_pending && r.table_winner ? ` · marked won in the table for ${esc(r.table_winner.name)} (${esc(r.table_winner.party)}); AP has not called it` : ""}${r.margin_pts != null && r.leader ? ` · ${esc(r.leader.name)} (${esc(r.leader.party)}) leads by ${r.margin_pts} pts in the table` : ""}</div></li>`).join("")}${govUnc.map(v => `<li><div class="item-title">${esc(v.state)} governor ${v.final_rating ? pill(v.final_rating, "sm") : ""}</div><div class="item-meta">Governor${v.leader && v.margin_pts != null ? ` · ${esc(v.leader.name)} (${esc(v.leader.party)}) leads by ${v.margin_pts} pts in the table` : ""}</div></li>`).join("")}${unc.length || govUnc.length ? "" : '<li class="meta">Every competitive race has been called.</li>'}</ul>
       <p class="meta" style="margin:8px 0 0"><a href="#results">Latest reporting on each race →</a></p></div>
 
       ${b ? `<h2>Latest brief</h2><div class="brief">${md(b.markdown.split(/\n## /).slice(0, 2).join("\n## "))}<p><a class="btn" href="#brief">Read the full brief →</a></p></div>` : ""}
@@ -489,6 +489,11 @@
       return `<b>Runoff pending:</b> ${adv.map(x => `${esc(x.name)} ${partyPill(x.party)}${x.pct != null ? ` <span class="meta">${x.pct.toFixed(1)}% in the first round</span>` : ""}`).join(" vs ") || esc((r.runoff.names || []).join(" vs "))}`;
     }
     const c = [...(r.candidates || [])].filter(x => x.pct != null).sort((a, b) => b.pct - a.pct);
+    if (r.ap_pending) {
+      const tw = r.table_winner;
+      const shares = c.length >= 2 ? `<div class="meta">${esc(c[0].name)} ${c[0].pct.toFixed(1)}% · ${esc(c[1].name)} ${c[1].pct.toFixed(1)}%</div>` : "";
+      return `${tw ? `Marked won in the results table for ${esc(tw.name)} ${partyPill(tw.party)}; ` : ""}<b>AP has not called it.</b> <span class="meta">${esc(r.ap_pending.note || "")}${r.ap_pending.source ? ` (<a href="${esc(r.ap_pending.source)}" target="_blank" rel="noopener">source</a>)` : ""}</span>${shares}`;
+    }
     if (c.length >= 2) return `${esc(c[0].name)} ${partyPill(c[0].party)} ${c[0].pct.toFixed(1)}% · ${esc(c[1].name)} ${partyPill(c[1].party)} ${c[1].pct.toFixed(1)}%`;
     return `<span class="meta">No vote shares in the results table yet</span>`;
   }
@@ -509,9 +514,9 @@
       const it = (news[k] || [])[0]; return it ? `<a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.outlet || "latest")}</a>` : ""; };
     $app.innerHTML = `
       <h1>Election results</h1>
-      <p class="sub">Updated ${new Date(R.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}. A race counts as called when Wikipedia's results table marks it, following AP and network calls. Because the table lags, races that news outlets report as called (a projection cited, or two outlets agreeing) are shown separately as "reported." We never call races ourselves.</p>
+      <p class="sub">Updated ${new Date(R.generated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}. A race counts as called when Wikipedia's results table marks it, following AP and network calls; a race the table marks before AP calls it stays not called, and runoff qualifiers are not winners. Because the table lags, races that news outlets report as called (a projection cited, or two outlets agreeing) are shown separately as "reported." We never call races ourselves.</p>
       <div class="cards">
-        <div class="card"><div class="label">House (218 for majority)</div><div class="big">D ${h.won.D} · R ${h.won.R}</div><div class="note">${h.called} of ${h.races} marked called in the results table${h.reported_count ? `; with ${h.reported_count} more reported called in news: D ${h.won_incl_reported.D} · R ${h.won_incl_reported.R}` : ""}</div></div>
+        <div class="card"><div class="label">House (218 for majority)</div><div class="big">D ${h.won.D} · R ${h.won.R}</div><div class="note">${h.called} of ${h.races} called, following AP${(() => { const n = Object.values(races).filter(r => r.chamber === "House" && r.ap_pending && r.table_winner).length; return n ? `; ${n} more marked won in the results table but not yet called by AP` : ""; })()}${h.reported_count ? `; with ${h.reported_count} more reported called in news: D ${h.won_incl_reported.D} · R ${h.won_incl_reported.R}` : ""}</div></div>
         <div class="card"><div class="label">Senate (51 for majority)</div><div class="big">D ${ss.D} · R ${ss.R}</div><div class="note">${s.called} of ${s.races} races called; includes seats not up${s.reported_count && s.seats_secured_incl_reported ? `; with ${s.reported_count} reported in news: D ${s.seats_secured_incl_reported.D} · R ${s.seats_secured_incl_reported.R}` : ""}</div></div>
         <div class="card${flagged.length ? " flag-card" : ""}"><div class="label">Rated safe, now competitive</div><div class="big">${flagged.length}</div><div class="note">Seats rated Solid (or unrated) before the election with a count now within 5 points</div></div>
       </div>

@@ -1,7 +1,7 @@
 {
  "run_date": "2026-11-24",
  "edition": "am",
- "generated_at": "2026-11-24T10:06:33.891609+00:00",
+ "generated_at": "2026-11-24T11:00:34.073236+00:00",
  "previous_snapshot": "2026-11-23-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
@@ -12,14 +12,14 @@
  },
  "house": {
   "races": 435,
-  "called": 433,
+  "called": 431,
   "won": {
-   "D": 260,
+   "D": 258,
    "R": 173,
    "I": 0,
    "Other": 0
   },
-  "uncalled": 2,
+  "uncalled": 4,
   "reported": {
    "D": 0,
    "R": 0,
@@ -28,7 +28,7 @@
   },
   "reported_count": 0,
   "won_incl_reported": {
-   "D": 260,
+   "D": 258,
    "R": 173,
    "I": 0,
    "Other": 0
@@ -74,12 +74,12 @@
   },
   "majority": 51
  },
- "newly_called": [
-  "HOU-MN-01"
- ],
+ "newly_called": [],
  "uncalled_competitive": [
   "HOU-LA-05",
-  "HOU-LA-06"
+  "HOU-LA-06",
+  "HOU-TN-04",
+  "HOU-MN-01"
  ],
  "pending_safe": [],
  "reverted_to_uncalled": [
@@ -1086,7 +1086,7 @@
    },
    {
     "snapshot": "2026-11-24-am",
-    "competitive_called": 103,
+    "competitive_called": 102,
     "new": 0
    }
   ]
@@ -11492,14 +11492,8 @@
     }
    ],
    "incumbent_party": "R",
-   "called": true,
-   "winner": {
-    "name": "Jake Johnson",
-    "party": "D",
-    "party_label": "DFL",
-    "pct": 50.0,
-    "winner": true
-   },
+   "called": false,
+   "winner": null,
    "leader": {
     "name": "Jake Johnson",
     "party": "D",
@@ -11509,14 +11503,29 @@
    },
    "margin_pts": 0.1,
    "has_results": true,
+   "table_winner": {
+    "name": "Jake Johnson",
+    "party": "D",
+    "party_label": "DFL",
+    "pct": 50.0,
+    "winner": true
+   },
+   "ap_pending": {
+    "note": "the state certified Jake Johnson (D) ahead of Rep. Brad Finstad (R) by 324 votes on Nov. 19; Finstad requested a hand recount, and AP's Nov. 22 tally lists the Minnesota race as undecided",
+    "source": "https://www.mprnews.org/story/2026/11/19/brad-finstad-requests-recount-in-1st-congressional-district-after-loss-to-jake-johnson",
+    "ap_tally_source": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx",
+    "since": "2026-11-24"
+   },
    "final_rating": "Lean R",
    "final_score": 2,
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "won_against_rating": true,
-   "flip": true,
-   "reported_call": null
+   "won_against_rating": false,
+   "flip": false,
+   "reported_call": null,
+   "headline_call_lead": false,
+   "headline_uncertain": true
   },
   "HOU-MN-02": {
    "key": "HOU-MN-02",
@@ -18282,25 +18291,34 @@
     }
    ],
    "incumbent_party": "R",
-   "called": true,
-   "winner": {
+   "called": false,
+   "winner": null,
+   "leader": null,
+   "margin_pts": null,
+   "has_results": false,
+   "table_winner": {
     "name": "Victoria Broderick",
     "party": "D",
     "party_label": "Democratic",
     "pct": null,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "ap_pending": {
+    "note": "Rep. Scott DesJarlais (R) conceded to Victoria Broderick (D) on Nov. 16 after provisional ballots were counted (about 280 votes); AP's Nov. 22 tally still lists the Tennessee race as undecided",
+    "source": "https://tennesseelookout.com/2026/11/16/desjarlais-concedes-tennessee-4th-congressional-district-to-democrat-victoria-broderick/",
+    "ap_tally_source": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx",
+    "since": "2026-11-24"
+   },
    "final_rating": null,
    "final_score": null,
    "competitive": false,
    "rated_safe_now_close": false,
    "upset_watch": false,
    "won_against_rating": false,
-   "flip": true,
-   "reported_call": null
+   "flip": false,
+   "reported_call": null,
+   "headline_call_lead": false,
+   "headline_uncertain": false
   },
   "HOU-TN-05": {
    "key": "HOU-TN-05",
@@ -24150,6 +24168,15 @@
    }
   ],
   "HOU-LA-06": [],
+  "HOU-TN-04": [
+   {
+    "title": "Democrats Secure Largest House Majority of 21st Century",
+    "outlet": "Newsweek",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa2NUWm1GUlFENzd1d1k3clhXR2NhbVFCQlkxcGJoTzJ3RWJtTERoV0w4ei1ycWg5aWRNQ21GOG9fbURaY0x6cXY5Ny1JUUgyM2tfSFNJb09qMmVJc2tCV2Q5b1NkY3kzNUdsSURuOURaZzRNWjJVLTFoUVh4MUdpMW9vNjRXb2dBZ2hrVElUSEZnd0kwZDdCU0VzQVdoQQ?oc=5",
+    "published": "2026-11-22T23:54:00+00:00",
+    "flags": []
+   }
+  ],
   "HOU-MN-01": [
    {
     "title": "Minnesota election recounts begin Monday as 3 races stay too close to call - FOX 9 Minneapolis-St. Paul",
@@ -24171,22 +24198,36 @@
    }
   ],
   "GOV-AK": [],
-  "GOV-AZ": [],
-  "GOV-FL": [],
-  "GOV-GA": [],
-  "GOV-IA": [],
-  "GOV-KS": [
+  "GOV-AZ": [
    {
-    "title": "November 3, 2026 Election Results: Adam Hamilton defeats U.S. Sen. Roger Marshall",
-    "outlet": "KMBC",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU3VPVzZsd3dOU2FYZjZJeU9XMzZGNGdqTnhNYm45REEyWFdOVDRyUUFNWE0zX0lKazJNYnlsNUNpTTN2YmNIdDNSa3V2T2I0TU9ESGIyazQ1LU9xazdIX0VnTnRkRVdHb2lHelV5d1JETkxmckpidElXekJBa2NaS2pUdG5DQkwtYWdnanFXd1hlc3oxVzE4Ylpn?oc=5",
-    "published": "2026-11-23T23:01:00+00:00",
-    "flags": [
-     "call"
-    ]
+    "title": "Arizona Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQckRjb25RZDZQYmpyeHdKU3NtUmlZeDZUd3dyTEdTUG82ODJBWDhVOHd5aHhiTkZKSXdadWhMZWd1YlFvTkpGQnBZb2RueS1ZSnVjS1JBajliQldmTm5CNndxMy1lMHFWMFFWb3JudF9PdTFnclhycElmY0I3aUwwbVJzc0p5dTd4M0hGWVl3?oc=5",
+    "published": "2026-11-23T12:32:00+00:00",
+    "flags": []
    }
   ],
-  "GOV-MI": [],
+  "GOV-FL": [],
+  "GOV-GA": [
+   {
+    "title": "Georgia Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR1ZHbTQwX0FGU1VyMXZlb0JqdV9HbDBobEtwLXZUN3VfbEFiTEd5MzJSUS11RTlGemstUzhTc3pCbXNpeTZTdUpWNURnZWlmT1FNVm9ZODkyRTVVcVZPS3p3Z3dvOTJqUXhtbkFFcVd6RVFSa09xT01DdVZjeHdnc2diVHA3dW9kTEIySTR3?oc=5",
+    "published": "2026-11-23T12:32:00+00:00",
+    "flags": []
+   }
+  ],
+  "GOV-IA": [],
+  "GOV-KS": [],
+  "GOV-MI": [
+   {
+    "title": "Michigan Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWkpKNlJldE9XdGpfd3hyLXZpQnIzVWo1R3IxVkJuZ3NTSU52MmF1UDgwQXRseHFIaVRyT1U1MlAwM3lVNktYTU9OUVF4ZHFiaUZNOV9adnRkUmVpNlVwd2NaSHJrUWZKcUFfdjdxS2YzYTd2X0IyTzlmd1VFUGNTbjJxNDRrc3NSQ2dtQ3FqTQ?oc=5",
+    "published": "2026-11-23T12:32:00+00:00",
+    "flags": []
+   }
+  ],
   "GOV-MN": [],
   "GOV-NE": [],
   "GOV-NH": [],
@@ -24209,15 +24250,7 @@
    }
   ],
   "GOV-OK": [],
-  "GOV-OR": [
-   {
-    "title": "Oregon Elections: Who Led In Prediction Markets",
-    "outlet": "Forbes",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzFxUnZPZTVkeXZZZzh3dW0ybnNVQmZXWGNQV3pSem54bWo3TUNkZ0JIRWdDT3dXSkFsYUo5SC1YakVSSVlPMU5lZmJCQlEwOWVLeUFaQmt4alZwM1hCc2FiYnZzd1Zmajh6VmMzTUtQa0xZVUJvdzhYUzJwcUxraEs2ZEZDU2VRd09tTg?oc=5",
-    "published": "2026-11-23T12:32:00+00:00",
-    "flags": []
-   }
-  ],
+  "GOV-OR": [],
   "GOV-TX": [
    {
     "title": "Young voters made their mark in Texas midterm elections",
