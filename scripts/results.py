@@ -177,7 +177,35 @@ def infer_winner(status_text, cands, inc_party):
     return None
 
 
+def split_runoff(cands):
+    """Top-two and runoff rows (Louisiana's open primary, Georgia's runoffs) mark every candidate who
+    advanced, then list the runoff candidates again further along the row. Returns (first_round,
+    runoff_round): the runoff round starts at the first repeated name and is empty when none repeats."""
+    seen = set()
+    for i, c in enumerate(cands):
+        if c["name"] in seen:
+            return cands[:i], cands[i:]
+        seen.add(c["name"])
+    return cands, []
+
+
 def race_status(status_text, cands, inc_party=None):
+    first, second = split_runoff(cands)
+    advanced = list(dict.fromkeys(c["name"] for c in first if c["winner"]))
+    if second or len(advanced) >= 2:
+        decided = [c for c in second if c["winner"]]
+        if decided:  # the runoff itself is marked: its winner decides the race
+            pcts = sorted([c for c in second if c["pct"] is not None], key=lambda c: -c["pct"])
+            margin = round(pcts[0]["pct"] - pcts[1]["pct"], 1) if len(pcts) >= 2 else None
+            return {"called": True, "winner": decided[0], "leader": pcts[0] if pcts else decided[0],
+                    "margin_pts": margin, "has_results": bool(pcts), "runoff": {"names": advanced, "decided": True}}
+        if len(advanced) >= 2 or second:
+            # Runoff pending: first-round marks mean "advanced", not "won", and first-round shares
+            # across a crowded field are not a two-way margin.
+            names = advanced or list(dict.fromkeys(c["name"] for c in second))
+            return {"called": False, "winner": None, "leader": None, "margin_pts": None,
+                    "has_results": False, "runoff": {"names": names, "decided": False,
+                                                     "candidates": [c for c in first if c["name"] in names]}}
     called = any(c["winner"] for c in cands)
     outcome = bool(OUTCOME_RE.search(status_text or "")) and not re.search(r"to be elected", status_text or "", re.I)
     winner = next((c for c in cands if c["winner"]), None)
@@ -693,9 +721,9 @@ def main():
 
     # 4. news
     lookback = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=CFG.get("news_lookback_days", 3))).isoformat()
-    uncalled_comp = sorted([k for k, r in races.items() if not r["called"] and (r["competitive"] or r["upset_watch"])],
+    uncalled_comp = sorted([k for k, r in races.items() if not r["called"] and (r["competitive"] or r["upset_watch"] or r.get("runoff"))],
                            key=lambda k: (races[k]["chamber"] != "Senate", abs(races[k]["final_score"] or 0), k))
-    pending_safe = sorted(k for k, r in races.items() if not r["called"] and not r["competitive"] and not r["upset_watch"])
+    pending_safe = sorted(k for k, r in races.items() if not r["called"] and not r["competitive"] and not r["upset_watch"] and not r.get("runoff"))
     news = {"races": {}, "national": {}, "errors": []}
     if not args.skip_news:
         targets = uncalled_comp + [k for k in newly_called if (races[k]["competitive"] or races[k]["rated_safe_now_close"])
@@ -810,6 +838,8 @@ def wlabel(r):
 
 
 def lead_label(r):
+    if r.get("runoff") and not r["runoff"].get("decided"):
+        return "runoff pending; no runoff count yet (first-round shares are not a two-way margin)"
     cands = sorted([c for c in r["candidates"] if c["pct"] is not None], key=lambda c: -c["pct"])
     if len(cands) >= 2:
         return f"{cands[0]['name']} ({cands[0]['party']}) {cands[0]['pct']:.1f}% vs {cands[1]['name']} ({cands[1]['party']}) {cands[1]['pct']:.1f}%, margin {r['margin_pts']} pts (Wikipedia table; may be partial)"
@@ -957,6 +987,10 @@ def write_digest(run_date, edition, s, news):
         tags = []
         if r.get("upset_watch"):
             tags.append("RATED SAFE BUT THE COUNT IS CLOSE")
+        if r.get("runoff") and not r["runoff"].get("decided"):
+            adv = r["runoff"].get("candidates") or []
+            tags.append("RUNOFF PENDING: " + " vs ".join(f"{c['name']} ({c['party']}, {c['pct']}% in the first round)" if c.get("pct") is not None else f"{c['name']} ({c['party']})" for c in adv)
+                        + "; first-round marks mean 'advanced', not 'won'")
         if r.get("reported_call"):
             tags.append(f"REPORTED CALLED for {r['reported_call']['winner']['name']} ({r['reported_call']['winner']['party']}) per {r['reported_call']['sources'][0]['outlet']}")
         if r.get("headline_call_lead"):

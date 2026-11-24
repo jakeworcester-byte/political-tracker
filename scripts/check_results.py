@@ -151,8 +151,14 @@ def main():
         elif lost:
             print(f"  in recent snapshots but not parsed today: {len(lost)}, {by_state(lost)}")
             bad.append(f"2026 {which}: {len(lost)} races from recent snapshots missing today ({by_state(lost)[:120]})")
+        runoffs = sorted(k for k, r in races.items() if r.get("runoff") and not r["runoff"].get("decided"))
+        if runoffs:
+            print(f"  runoff pending (advancers marked, not counted as called): {', '.join(runoffs)}")
         for k, r in races.items():
-            if not r["called"] and any(c.get("winner") for c in r["candidates"]):
+            marked = {c["name"] for c in r["candidates"] if c.get("winner")}
+            if r["called"] and len(marked) > 1 and not (r.get("runoff") or {}).get("decided"):
+                bad.append(f"{k}: counted as called but {len(marked)} candidates carry a winner mark (runoff or top-two row?)")
+            if not r["called"] and marked and not r.get("runoff"):
                 bad.append(f"{k}: winner mark present but not counted as called")
             if r["called"] and not r.get("winner"):
                 bad.append(f"{k}: called but no winner identified (status: {r['status_text'][:80]})")

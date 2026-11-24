@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-23",
+ "run_date": "2026-11-24",
  "edition": "am",
- "generated_at": "2026-11-23T11:10:15.184850+00:00",
- "previous_snapshot": "2026-11-22-am",
+ "generated_at": "2026-11-24T10:06:33.891609+00:00",
+ "previous_snapshot": "2026-11-23-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -12,14 +12,14 @@
  },
  "house": {
   "races": 435,
-  "called": 434,
+  "called": 433,
   "won": {
-   "D": 261,
+   "D": 260,
    "R": 173,
    "I": 0,
    "Other": 0
   },
-  "uncalled": 1,
+  "uncalled": 2,
   "reported": {
    "D": 0,
    "R": 0,
@@ -28,7 +28,7 @@
   },
   "reported_count": 0,
   "won_incl_reported": {
-   "D": 261,
+   "D": 260,
    "R": 173,
    "I": 0,
    "Other": 0
@@ -74,26 +74,29 @@
   },
   "majority": 51
  },
- "newly_called": [],
- "uncalled_competitive": [
+ "newly_called": [
   "HOU-MN-01"
  ],
+ "uncalled_competitive": [
+  "HOU-LA-05",
+  "HOU-LA-06"
+ ],
  "pending_safe": [],
- "reverted_to_uncalled": [],
+ "reverted_to_uncalled": [
+  "HOU-LA-05",
+  "HOU-LA-06"
+ ],
  "close_margins": [
   "HOU-FL-07",
   "HOU-FL-09",
   "HOU-FL-13",
   "HOU-FL-26",
   "HOU-FL-27",
-  "HOU-LA-05",
-  "HOU-LA-06",
+  "HOU-MN-01",
   "HOU-SC-02",
   "SEN-MS"
  ],
  "rated_safe_now_close": [
-  "HOU-LA-06",
-  "HOU-LA-05",
   "HOU-FL-26",
   "HOU-SC-02",
   "HOU-OK-05",
@@ -1080,6 +1083,11 @@
     "snapshot": "2026-11-23-am",
     "competitive_called": 102,
     "new": 0
+   },
+   {
+    "snapshot": "2026-11-24-am",
+    "competitive_called": 103,
+    "new": 0
    }
   ]
  },
@@ -1434,7 +1442,7 @@
     "name": "Nick Begich III",
     "party": "R",
     "party_label": "Republican",
-    "pct": 47.5,
+    "pct": 51.4,
     "winner": true
    },
    "leader": {
@@ -1446,6 +1454,13 @@
    },
    "margin_pts": 2.8,
    "has_results": true,
+   "runoff": {
+    "names": [
+     "Nick Begich III",
+     "Bill Hill"
+    ],
+    "decided": true
+   },
    "final_rating": "Lean R",
    "final_score": 2,
    "competitive": true,
@@ -9608,32 +9623,44 @@
     }
    ],
    "incumbent_party": "R",
-   "called": true,
-   "winner": {
-    "name": "Patricia Moore",
-    "party": "D",
-    "party_label": "Democratic",
-    "pct": 17.9,
-    "winner": true
+   "called": false,
+   "winner": null,
+   "leader": null,
+   "margin_pts": null,
+   "has_results": false,
+   "runoff": {
+    "names": [
+     "Patricia Moore",
+     "Gabe Firment"
+    ],
+    "decided": false,
+    "candidates": [
+     {
+      "name": "Patricia Moore",
+      "party": "D",
+      "party_label": "Democratic",
+      "pct": 17.9,
+      "winner": true
+     },
+     {
+      "name": "Gabe Firment",
+      "party": "R",
+      "party_label": "Republican",
+      "pct": 17.2,
+      "winner": true
+     }
+    ]
    },
-   "leader": {
-    "name": "Patricia Moore",
-    "party": "D",
-    "party_label": "Democratic",
-    "pct": 17.9,
-    "winner": true
-   },
-   "margin_pts": 0.7,
-   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
-   "rated_safe_now_close": true,
+   "rated_safe_now_close": false,
    "upset_watch": false,
    "won_against_rating": false,
-   "flip": true,
-   "flagged_since": "2026-11-21 am",
-   "reported_call": null
+   "flip": false,
+   "reported_call": null,
+   "headline_call_lead": false,
+   "headline_uncertain": false
   },
   "HOU-LA-06": {
    "key": "HOU-LA-06",
@@ -9727,32 +9754,44 @@
     }
    ],
    "incumbent_party": "D",
-   "called": true,
-   "winner": {
-    "name": "Chauna Banks",
-    "party": "D",
-    "party_label": "Democratic",
-    "pct": 19.4,
-    "winner": true
+   "called": false,
+   "winner": null,
+   "leader": null,
+   "margin_pts": null,
+   "has_results": false,
+   "runoff": {
+    "names": [
+     "Chauna Banks",
+     "Blake Miguez"
+    ],
+    "decided": false,
+    "candidates": [
+     {
+      "name": "Chauna Banks",
+      "party": "D",
+      "party_label": "Democratic",
+      "pct": 19.4,
+      "winner": true
+     },
+     {
+      "name": "Blake Miguez",
+      "party": "R",
+      "party_label": "Republican",
+      "pct": 19.2,
+      "winner": true
+     }
+    ]
    },
-   "leader": {
-    "name": "Chauna Banks",
-    "party": "D",
-    "party_label": "Democratic",
-    "pct": 19.4,
-    "winner": true
-   },
-   "margin_pts": 0.2,
-   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
-   "rated_safe_now_close": true,
+   "rated_safe_now_close": false,
    "upset_watch": false,
    "won_against_rating": false,
    "flip": false,
-   "flagged_since": "2026-11-21 am",
-   "reported_call": null
+   "reported_call": null,
+   "headline_call_lead": false,
+   "headline_uncertain": false
   },
   "HOU-ME-01": {
    "key": "HOU-ME-01",
@@ -11435,39 +11474,49 @@
    "key": "HOU-MN-01",
    "name": "MN-01",
    "chamber": "House",
-   "status_text": "Incumbent renominated.",
+   "status_text": "Incumbent lost re-election. Democratic gain.",
    "candidates": [
-    {
-     "name": "Brad Finstad",
-     "party": "R",
-     "party_label": "Republican",
-     "pct": null,
-     "winner": false
-    },
     {
      "name": "Jake Johnson",
      "party": "D",
      "party_label": "DFL",
-     "pct": null,
+     "pct": 50.0,
+     "winner": true
+    },
+    {
+     "name": "Brad Finstad",
+     "party": "R",
+     "party_label": "Republican",
+     "pct": 49.9,
      "winner": false
     }
    ],
    "incumbent_party": "R",
-   "called": false,
-   "winner": null,
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "called": true,
+   "winner": {
+    "name": "Jake Johnson",
+    "party": "D",
+    "party_label": "DFL",
+    "pct": 50.0,
+    "winner": true
+   },
+   "leader": {
+    "name": "Jake Johnson",
+    "party": "D",
+    "party_label": "DFL",
+    "pct": 50.0,
+    "winner": true
+   },
+   "margin_pts": 0.1,
+   "has_results": true,
    "final_rating": "Lean R",
    "final_score": 2,
    "competitive": true,
    "rated_safe_now_close": false,
    "upset_watch": false,
-   "won_against_rating": false,
-   "flip": false,
-   "reported_call": null,
-   "headline_call_lead": false,
-   "headline_uncertain": true
+   "won_against_rating": true,
+   "flip": true,
+   "reported_call": null
   },
   "HOU-MN-02": {
    "key": "HOU-MN-02",
@@ -24091,46 +24140,65 @@
   }
  },
  "news": {
-  "HOU-MN-01": [
+  "HOU-LA-05": [
    {
-    "title": "Finstad requests recount after state certifies Johnson as winner in 1st District",
-    "outlet": "Bring Me The News",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObDVRLWdqOGdCa2U1X1l1MEhaSDJvZEhmai1OMlI5bjN4OWlWbGhwOWYtaHVqazl3VVIwUGpqc0NDR0tyckJmM0ZjRUNseDc5dHhoWWQ5Y0gydHB5TVNLa3pxQlFmc0ctMXd0ek0zNU1yaVFlZmRNTDNibnBLcEprcUZjRGxfM3BoMFV4T2NxWnpTY0tRTThTSUc4SzMxTkNmX3pYWlYxOTRmVmpFak5QRmYwNzZISDRxZHRQc0pRVQ?oc=5",
-    "published": "2026-11-20T18:20:26+00:00",
-    "flags": [
-     "uncertain",
-     "legal"
-    ]
-   },
-   {
-    "title": "Minnesota Elects First Female Governor, Democrats Take Legislature",
-    "outlet": "Wisevoter",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY2t0Q2ZrcHBuUnFwM2U5OHlJMkdwcTZSNFlVWlFrRUxZQkZ5X3JSQ0pMS09lSGRlbVhsaHR4ajZxZDB4VGNhX1BuRmVmS1FzMTJEZTVWWGVTd0c4ZHhld3UzUkdVYkoxbE1jTy15aUFxOGdOT0NVQkx0VVgyRXZCSGkwRVJnQTlRcUM2ZjVVaGVHaktGSjdpVFF2MDBDVVJKOEVDLWRBT1I?oc=5",
-    "published": "2026-11-21T03:33:12+00:00",
+    "title": "Early voting begins this week for Dec. 12 election",
+    "outlet": "KALB | News Channel 5",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ1BrQkROa3pKUy1ZMXJqLVpjNXhZNHRnMFVFXzFuSFVIVXY4ZHpjaUtkd1BXcTd4U1c2c1NxYlRlcUhNZFB2UTRQcUtqekkyT1d4cXdTRE44aFdnZWN5UUZQb21lanBzM09nV25TU3ZpZHpuQXp5VVBIc2Rub3hYUFZ3SlE?oc=5",
+    "published": "2026-11-23T19:44:00+00:00",
     "flags": []
    }
   ],
-  "GOV-AK": [
+  "HOU-LA-06": [],
+  "HOU-MN-01": [
    {
-    "title": "Alaska governor won’t give up on long-shot bid to subvert Democratic Senate win",
-    "outlet": "Democracy Docket",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeWNhUUVWTDFLdEY0NG9MVXQ2U2RhQW5iNWFMdXdtV2xIRk5WTmNVYXhUbWc0NnlkVkM5czA0bk84RVY3aTlSZU5JYWRBWHdKX0hISnM2X1lYRWFNd3d5TGF1WEtja1BDdGhVV3RoelBadXlmTWZGQndtOGRyeGN0S2tjM2pCOG1QaUZiUENBX3BoNXMwcVB6RHh1MmhhSlZDWERMd1Q3TkFBbkZ6bG1KRENaQVlobnJEQ2hSOHBPOF8?oc=5",
-    "published": "2026-11-20T17:37:52+00:00",
+    "title": "Minnesota election recounts begin Monday as 3 races stay too close to call - FOX 9 Minneapolis-St. Paul",
+    "outlet": "FOX 9 Minneapolis-St. Paul",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZWhIMUprR2I2S3FGd0trNERTcTRBTmVFR3RtcXprZ2xSR243MmJrcDFEdGQzY1RKYXMtRWxWZm1zaGhlQzNVTktIWEZaOXB5RjBWZWxjYUVRNnAwTE42WlRocGlhVThZTHcwWjg5R1hxNDBadzEtSTBTbDYtclpKR3JLUGF2TGhrWGFab1JPcm1Hd2s2?oc=5",
+    "published": "2026-11-23T13:05:28+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   },
+   {
+    "title": "Recount set for Minnesota’s 1st Congressional District",
+    "outlet": "WXOW",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcFRBczZ6REphel9fUVU4azdWTktHaTdXQW5XcXRrdjZlMnphNGk1UlhJYVdEUW1hUkYyV3lzclM4eDIxaG9sSzl0MUl0MWEyY0ZCUjRnRWJzamZjUks5OHBGR3BueUU1YWg1ckVOWWw5VFdoY1RiRUYydkR6Z1JLLTZfZGNzakk1YzFMeElyemNtUjFRblhhdHFOTTVjUXBlLWpnWEFRdkdfTU9mRmFFUzdFVFMwSXlOMDYwNDhROGJWcXRZazN6WFJpN3o5SWd4UW5mY1BzeHgxUQ?oc=5",
+    "published": "2026-11-23T13:38:00+00:00",
+    "flags": [
+     "uncertain"
+    ]
+   }
+  ],
+  "GOV-AK": [],
+  "GOV-AZ": [],
+  "GOV-FL": [],
+  "GOV-GA": [],
+  "GOV-IA": [],
+  "GOV-KS": [
+   {
+    "title": "November 3, 2026 Election Results: Adam Hamilton defeats U.S. Sen. Roger Marshall",
+    "outlet": "KMBC",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU3VPVzZsd3dOU2FYZjZJeU9XMzZGNGdqTnhNYm45REEyWFdOVDRyUUFNWE0zX0lKazJNYnlsNUNpTTN2YmNIdDNSa3V2T2I0TU9ESGIyazQ1LU9xazdIX0VnTnRkRVdHb2lHelV5d1JETkxmckpidElXekJBa2NaS2pUdG5DQkwtYWdnanFXd1hlc3oxVzE4Ylpn?oc=5",
+    "published": "2026-11-23T23:01:00+00:00",
     "flags": [
      "call"
     ]
    }
   ],
-  "GOV-AZ": [],
-  "GOV-FL": [],
-  "GOV-GA": [],
-  "GOV-IA": [],
-  "GOV-KS": [],
   "GOV-MI": [],
   "GOV-MN": [],
   "GOV-NE": [],
   "GOV-NH": [],
-  "GOV-NV": [],
+  "GOV-NV": [
+   {
+    "title": "Nevada Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVWZZZ1V1NzN1TkdpNGFkQlFSem9aOEd0RGZGSk9Xc0N1RjRGY1ZtVUdHMjhycVhUQi1BbDF4SGVnOEhMUWpGZkc2M1NLbUxLOGZwTW1XU1RKb0RCeXJkbTd4OXRCNWo3Z1lXT0lPcmc2NEw3WUp3TEJTcGNRYWFLWWU1VnF3c09Qa3hSdg?oc=5",
+    "published": "2026-11-23T12:32:00+00:00",
+    "flags": []
+   }
+  ],
   "GOV-OH": [
    {
     "title": "Ohio Governor Election 2026: Latest Polls",
@@ -24141,8 +24209,24 @@
    }
   ],
   "GOV-OK": [],
-  "GOV-OR": [],
-  "GOV-TX": [],
+  "GOV-OR": [
+   {
+    "title": "Oregon Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZzFxUnZPZTVkeXZZZzh3dW0ybnNVQmZXWGNQV3pSem54bWo3TUNkZ0JIRWdDT3dXSkFsYUo5SC1YakVSSVlPMU5lZmJCQlEwOWVLeUFaQmt4alZwM1hCc2FiYnZzd1Zmajh6VmMzTUtQa0xZVUJvdzhYUzJwcUxraEs2ZEZDU2VRd09tTg?oc=5",
+    "published": "2026-11-23T12:32:00+00:00",
+    "flags": []
+   }
+  ],
+  "GOV-TX": [
+   {
+    "title": "Young voters made their mark in Texas midterm elections",
+    "outlet": "Spectrum Noticias",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRUYzNUNLSmhJZzJHRDZEZ181ZG04QzgtR1l3SkVBbG8zNHRudDlGNXNYSVZ6dllOamZ5MGl2VGtiRmplNVdneFV3VnB4NWY0M1RRcWEybEsyYmNzTmdWNndSVFJiR29vRW9iQ1VEWlRmdFB0NHNGYUxpNnVzSkNfWkhjdHJrNnR3b1VvXzF1Q0JmWUUyaE03LUJ4eFI?oc=5",
+    "published": "2026-11-23T15:45:00+00:00",
+    "flags": []
+   }
+  ],
   "GOV-VT": [],
   "GOV-WI": []
  }
