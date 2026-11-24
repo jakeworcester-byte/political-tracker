@@ -1,16 +1,16 @@
 {
- "run_date": "2026-11-23",
- "results_snapshot": "2026-11-23-am.json",
+ "run_date": "2026-11-24",
+ "results_snapshot": "2026-11-24-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "ready",
- "competitive_called_pct": 98.4,
+ "competitive_called_pct": 100.0,
  "forecasters": [
   {
    "forecaster": "RealClearPolling",
    "code": "rcp",
    "right": 137,
    "wrong": 10,
-   "tossups": 32,
+   "tossups": 33,
    "accuracy_pct": 93.2,
    "misses": [
     "HOU-IN-05 (Lean R, D won)",
@@ -29,13 +29,14 @@
    "forecaster": "Split Ticket",
    "code": "st",
    "right": 147,
-   "wrong": 17,
+   "wrong": 18,
    "tossups": 15,
-   "accuracy_pct": 89.6,
+   "accuracy_pct": 89.1,
    "misses": [
     "HOU-CO-04 (Lean R, D won)",
     "HOU-CO-05 (Lean R, D won)",
     "HOU-IN-05 (Lean R, D won)",
+    "HOU-MN-01 (Lean R, D won)",
     "HOU-NV-02 (Lean R, D won)",
     "HOU-NJ-02 (Solid R, D won)",
     "HOU-NC-03 (Likely R, D won)",
@@ -57,7 +58,7 @@
    "code": "silver",
    "right": 153,
    "wrong": 19,
-   "tossups": 7,
+   "tossups": 8,
    "accuracy_pct": 89.0,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
@@ -85,15 +86,16 @@
    "forecaster": "FiftyPlusOne",
    "code": "fpo",
    "right": 148,
-   "wrong": 19,
+   "wrong": 20,
    "tossups": 12,
-   "accuracy_pct": 88.6,
+   "accuracy_pct": 88.1,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Likely R, D won)",
     "HOU-FL-09 (Likely R, D won)",
     "HOU-IN-05 (Likely R, D won)",
     "HOU-KY-06 (Lean R, D won)",
+    "HOU-MN-01 (Lean R, D won)",
     "HOU-NV-02 (Lean R, D won)",
     "HOU-NJ-02 (Likely R, D won)",
     "HOU-NC-03 (Likely R, D won)",
@@ -111,17 +113,32 @@
    ]
   },
   {
+   "forecaster": "NBC News",
+   "code": "nbc",
+   "right": 26,
+   "wrong": 4,
+   "tossups": 5,
+   "accuracy_pct": 86.7,
+   "misses": [
+    "SEN-IA (Lean R, D won)",
+    "SEN-KS (Lean R, D won)",
+    "SEN-MS (Likely R, D won)",
+    "SEN-SC (Lean R, D won)"
+   ]
+  },
+  {
    "forecaster": "Cook Political Report",
    "code": "cook",
    "right": 135,
-   "wrong": 20,
+   "wrong": 21,
    "tossups": 24,
-   "accuracy_pct": 87.1,
+   "accuracy_pct": 86.5,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Lean R, D won)",
     "HOU-FL-09 (Lean R, D won)",
     "HOU-IN-05 (Lean R, D won)",
+    "HOU-MN-01 (Lean R, D won)",
     "HOU-MO-02 (Likely R, D won)",
     "HOU-NV-02 (Lean R, D won)",
     "HOU-NJ-02 (Likely R, D won)",
@@ -144,15 +161,16 @@
    "forecaster": "Fox News",
    "code": "fox",
    "right": 135,
-   "wrong": 20,
+   "wrong": 21,
    "tossups": 24,
-   "accuracy_pct": 87.1,
+   "accuracy_pct": 86.5,
    "misses": [
     "HOU-AL-02 (Likely R, D won)",
     "HOU-CO-04 (Likely R, D won)",
     "HOU-CO-05 (Lean R, D won)",
     "HOU-FL-09 (Lean R, D won)",
     "HOU-IN-05 (Likely R, D won)",
+    "HOU-MN-01 (Lean R, D won)",
     "HOU-MO-02 (Lean R, D won)",
     "HOU-NV-02 (Likely R, D won)",
     "HOU-NJ-02 (Likely R, D won)",
@@ -174,14 +192,15 @@
    "forecaster": "Sabato's Crystal Ball",
    "code": "sabato",
    "right": 148,
-   "wrong": 22,
+   "wrong": 23,
    "tossups": 9,
-   "accuracy_pct": 87.1,
+   "accuracy_pct": 86.5,
    "misses": [
     "HOU-CO-04 (Lean R, D won)",
     "HOU-FL-09 (Lean R, D won)",
     "HOU-IN-05 (Likely R, D won)",
     "HOU-KY-06 (Lean R, D won)",
+    "HOU-MN-01 (Lean R, D won)",
     "HOU-MO-02 (Lean R, D won)",
     "HOU-NV-02 (Lean R, D won)",
     "HOU-NJ-02 (Lean R, D won)",
@@ -203,31 +222,18 @@
    ]
   },
   {
-   "forecaster": "NBC News",
-   "code": "nbc",
-   "right": 26,
-   "wrong": 4,
-   "tossups": 5,
-   "accuracy_pct": 86.7,
-   "misses": [
-    "SEN-IA (Lean R, D won)",
-    "SEN-KS (Lean R, D won)",
-    "SEN-MS (Likely R, D won)",
-    "SEN-SC (Lean R, D won)"
-   ]
-  },
-  {
    "forecaster": "Decision Desk HQ",
    "code": "ddhq",
    "right": 141,
-   "wrong": 22,
+   "wrong": 23,
    "tossups": 16,
-   "accuracy_pct": 86.5,
+   "accuracy_pct": 86.0,
    "misses": [
     "HOU-AL-02 (Lean R, D won)",
     "HOU-CO-04 (Likely R, D won)",
     "HOU-CO-05 (Likely R, D won)",
     "HOU-IN-05 (Likely R, D won)",
+    "HOU-MN-01 (Lean R, D won)",
     "HOU-MO-02 (Lean R, D won)",
     "HOU-NV-02 (Lean R, D won)",
     "HOU-NJ-02 (Lean R, D won)",
@@ -252,15 +258,16 @@
    "forecaster": "Inside Elections",
    "code": "ie",
    "right": 139,
-   "wrong": 23,
+   "wrong": 24,
    "tossups": 17,
-   "accuracy_pct": 85.8,
+   "accuracy_pct": 85.3,
    "misses": [
     "HOU-AL-02 (Tilt R, D won)",
     "HOU-CO-04 (Likely R, D won)",
     "HOU-FL-09 (Likely R, D won)",
     "HOU-IN-05 (Likely R, D won)",
     "HOU-MI-10 (Tilt R, D won)",
+    "HOU-MN-01 (Lean R, D won)",
     "HOU-MO-02 (Solid R, D won)",
     "HOU-NV-02 (Tilt R, D won)",
     "HOU-NJ-02 (Likely R, D won)",
@@ -285,14 +292,15 @@
    "forecaster": "The Economist",
    "code": "econ",
    "right": 136,
-   "wrong": 24,
+   "wrong": 25,
    "tossups": 19,
-   "accuracy_pct": 85.0,
+   "accuracy_pct": 84.5,
    "misses": [
     "HOU-AL-02 (Likely R, D won)",
     "HOU-CO-04 (Lean R, D won)",
     "HOU-CO-05 (Lean R, D won)",
     "HOU-IN-05 (Lean R, D won)",
+    "HOU-MN-01 (Lean R, D won)",
     "HOU-NV-02 (Lean R, D won)",
     "HOU-NJ-02 (Likely R, D won)",
     "HOU-NC-03 (Likely R, D won)",
@@ -318,13 +326,14 @@
  ],
  "consensus": {
   "right": 141,
-  "wrong": 21,
+  "wrong": 22,
   "tossup": 17,
   "misses": [
    "HOU-AL-02 (Lean R, D won)",
    "HOU-CO-04 (Lean R, D won)",
    "HOU-FL-09 (Lean R, D won)",
    "HOU-IN-05 (Likely R, D won)",
+   "HOU-MN-01 (Lean R, D won)",
    "HOU-MO-02 (Tilt R, D won)",
    "HOU-NV-02 (Lean R, D won)",
    "HOU-NJ-02 (Likely R, D won)",
@@ -387,10 +396,10 @@
   },
   {
    "rating": "Lean R",
-   "D": 9,
+   "D": 10,
    "R": 9,
    "Other": 0,
-   "uncalled": 1
+   "uncalled": 0
   },
   {
    "rating": "Likely R",
@@ -535,6 +544,15 @@
    "incumbent_party": "D"
   },
   {
+   "key": "HOU-MN-01",
+   "name": "MN-01",
+   "chamber": "House",
+   "final_rating": "Lean R",
+   "winner": "Jake Johnson",
+   "party": "D",
+   "incumbent_party": "R"
+  },
+  {
    "key": "HOU-NV-02",
    "name": "NV-02",
    "chamber": "House",
@@ -602,12 +620,12 @@
   "basis": "Seats each forecaster rated Tilt or stronger for a party, before Election Day. Senate counts include seats not up this year.",
   "house": {
    "actual": {
-    "D": 261,
+    "D": 260,
     "R": 173,
     "I": 0,
     "Other": 0
    },
-   "called": 434,
+   "called": 433,
    "races": 435,
    "majority": 218,
    "forecasters": [
@@ -808,9 +826,9 @@
   ]
  },
  "polls": {
-  "races": 15,
-  "mean_abs_error": 3.2,
-  "mean_signed_error": -3.0,
+  "races": 16,
+  "mean_abs_error": 3.1,
+  "mean_signed_error": -2.7,
   "biggest_misses": [
    {
     "key": "SEN-TX",

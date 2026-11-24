@@ -236,7 +236,7 @@
       <div class="card"><div class="cols">${tl.map(t => `<div class="col" title="${SNAP_LABEL(t.snapshot)}: ${t.new} newly called, ${t.competitive_called} total"><div class="col-n">${t.new}</div><div class="col-bar" style="height:${Math.max(2, 100 * t.new / tlMax)}%"></div><div class="col-lab">${SNAP_LABEL(t.snapshot)}</div></div>`).join("")}</div></div>` : ""}
 
       <h2>Still out</h2>
-      <div class="card"><ul class="list">${unc.map(r => `<li><div class="item-title">${esc(r.name)} ${r.final_rating ? pill(r.final_rating, "sm") : ""}</div><div class="item-meta">${esc(r.chamber)}${r.margin_pts != null && r.leader ? ` · ${esc(r.leader.name)} (${esc(r.leader.party)}) leads by ${r.margin_pts} pts in the table` : ""}</div></li>`).join("")}${govUnc.map(v => `<li><div class="item-title">${esc(v.state)} governor ${v.final_rating ? pill(v.final_rating, "sm") : ""}</div><div class="item-meta">Governor${v.leader && v.margin_pts != null ? ` · ${esc(v.leader.name)} (${esc(v.leader.party)}) leads by ${v.margin_pts} pts in the table` : ""}</div></li>`).join("") || '<li class="meta">Every competitive race has been called.</li>'}</ul>
+      <div class="card"><ul class="list">${unc.map(r => `<li><div class="item-title">${esc(r.name)} ${r.final_rating ? pill(r.final_rating, "sm") : ""}</div><div class="item-meta">${esc(r.chamber)}${r.runoff && !r.runoff.decided ? ` · runoff pending: ${esc((r.runoff.names || []).join(" vs "))}` : ""}${r.margin_pts != null && r.leader ? ` · ${esc(r.leader.name)} (${esc(r.leader.party)}) leads by ${r.margin_pts} pts in the table` : ""}</div></li>`).join("")}${govUnc.map(v => `<li><div class="item-title">${esc(v.state)} governor ${v.final_rating ? pill(v.final_rating, "sm") : ""}</div><div class="item-meta">Governor${v.leader && v.margin_pts != null ? ` · ${esc(v.leader.name)} (${esc(v.leader.party)}) leads by ${v.margin_pts} pts in the table` : ""}</div></li>`).join("")}${unc.length || govUnc.length ? "" : '<li class="meta">Every competitive race has been called.</li>'}</ul>
       <p class="meta" style="margin:8px 0 0"><a href="#results">Latest reporting on each race →</a></p></div>
 
       ${b ? `<h2>Latest brief</h2><div class="brief">${md(b.markdown.split(/\n## /).slice(0, 2).join("\n## "))}<p><a class="btn" href="#brief">Read the full brief →</a></p></div>` : ""}
@@ -484,6 +484,10 @@
   const partyPill = p => `<span class="pill ${p === "D" ? "D" : p === "R" ? "R" : "T"} sm">${esc(p)}</span>`;
   const flagBadge = r => r && r.rated_safe_now_close ? ` <span class="flag-badge" title="Rated ${esc(r.final_rating || "unrated (safe)")} before the election; the count is now within 5 points">Rated safe</span>` : "";
   function resultLine(r) {
+    if (r.runoff && !r.runoff.decided) {
+      const adv = r.runoff.candidates || [];
+      return `<b>Runoff pending:</b> ${adv.map(x => `${esc(x.name)} ${partyPill(x.party)}${x.pct != null ? ` <span class="meta">${x.pct.toFixed(1)}% in the first round</span>` : ""}`).join(" vs ") || esc((r.runoff.names || []).join(" vs "))}`;
+    }
     const c = [...(r.candidates || [])].filter(x => x.pct != null).sort((a, b) => b.pct - a.pct);
     if (c.length >= 2) return `${esc(c[0].name)} ${partyPill(c[0].party)} ${c[0].pct.toFixed(1)}% · ${esc(c[1].name)} ${partyPill(c[1].party)} ${c[1].pct.toFixed(1)}%`;
     return `<span class="meta">No vote shares in the results table yet</span>`;
