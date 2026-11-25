@@ -91,12 +91,6 @@
   },
   "not_called_by_ap": {
     "_comment": "Races the Wikipedia results table marks won but AP has not called. results.py counts them as uncalled and keeps the table's winner as context. Remove an entry once a news lead reports AP calling the race. Added 2026-11-24 from the AP tally (D 258, R 173, 4 undecided: Minnesota, Tennessee, two Louisiana runoffs) reported by Fox News and Anadolu.",
-    "HOU-TN-04": {
-      "note": "Rep. Scott DesJarlais (R) conceded to Victoria Broderick (D) on Nov. 16 after provisional ballots were counted (about 280 votes); AP's Nov. 22 tally still lists the Tennessee race as undecided",
-      "source": "https://tennesseelookout.com/2026/11/16/desjarlais-concedes-tennessee-4th-congressional-district-to-democrat-victoria-broderick/",
-      "ap_tally_source": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx",
-      "since": "2026-11-24"
-    },
     "HOU-MN-01": {
       "note": "the state certified Jake Johnson (D) ahead of Rep. Brad Finstad (R) by 324 votes on Nov. 19; Finstad requested a hand recount, and AP's Nov. 22 tally lists the Minnesota race as undecided",
       "source": "https://www.mprnews.org/story/2026/11/19/brad-finstad-requests-recount-in-1st-congressional-district-after-loss-to-jake-johnson",

@@ -161,23 +161,7 @@
  },
  "raw_poll_count": 2,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-19",
-   "race": "HOU-MI-07",
-   "races": [
-    "HOU-MI-07"
-   ],
-   "type": "reporting",
-   "source": "The New York Times",
-   "lean": "unrated",
-   "title": "Michigan 7th Congressional District 2026: Latest Polls",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcTBSWXNQRTFManJxeEE2czZuRGVQbGIzaWlhVVZ4SzRzS2Q4cVJwWklZeW4yUDliMHdYUGdSamRFbWZrRU5iMjJzM3BoVXlydkxjWmVPekU0YzlRZG9oYVFMUVhtZVlDTlRJZlNGVkw0OVNNY2d1M2xYTTFpdFdZYWFvOA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-MI-07",
  "history": [
   {
@@ -402,6 +386,11 @@
   },
   {
    "date": "2026-11-24",
+   "c": -2,
+   "p": -8.0
+  },
+  {
+   "date": "2026-11-25",
    "c": -2,
    "p": -8.0
   }
