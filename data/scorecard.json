@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-24",
- "results_snapshot": "2026-11-24-am.json",
+ "run_date": "2026-11-25",
+ "results_snapshot": "2026-11-25-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "ready",
  "competitive_called_pct": 98.4,
@@ -602,12 +602,12 @@
   "basis": "Seats each forecaster rated Tilt or stronger for a party, before Election Day. Senate counts include seats not up this year.",
   "house": {
    "actual": {
-    "D": 258,
+    "D": 259,
     "R": 173,
     "I": 0,
     "Other": 0
    },
-   "called": 431,
+   "called": 432,
    "races": 435,
    "majority": 218,
    "forecasters": [
@@ -808,10 +808,17 @@
   ]
  },
  "polls": {
-  "races": 15,
-  "mean_abs_error": 3.2,
-  "mean_signed_error": -3.0,
+  "races": 19,
+  "mean_abs_error": 3.8,
+  "mean_signed_error": -2.5,
   "biggest_misses": [
+   {
+    "key": "HOU-AL-02",
+    "race": "AL-02",
+    "poll_avg": 2.0,
+    "actual": -7.6,
+    "error": -9.6
+   },
    {
     "key": "SEN-TX",
     "race": "Texas Senate",
@@ -827,25 +834,18 @@
     "error": -7.4
    },
    {
+    "key": "HOU-NC-01",
+    "race": "NC-01",
+    "poll_avg": -10.0,
+    "actual": -3.4,
+    "error": 6.6
+   },
+   {
     "key": "SEN-NH",
     "race": "New Hampshire Senate",
     "poll_avg": -8.0,
     "actual": -13.7,
     "error": -5.7
-   },
-   {
-    "key": "SEN-SC",
-    "race": "South Carolina Senate",
-    "poll_avg": 1.1,
-    "actual": -4.5,
-    "error": -5.6
-   },
-   {
-    "key": "HOU-KY-06",
-    "race": "KY-06",
-    "poll_avg": -4.5,
-    "actual": -9.4,
-    "error": -4.9
    }
   ]
  },
