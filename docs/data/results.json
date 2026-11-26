@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-25",
+ "run_date": "2026-11-26",
  "edition": "am",
- "generated_at": "2026-11-25T11:12:26.973284+00:00",
- "previous_snapshot": "2026-11-24-am",
+ "generated_at": "2026-11-26T11:13:03.428921+00:00",
+ "previous_snapshot": "2026-11-25-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -74,9 +74,7 @@
   },
   "majority": 51
  },
- "newly_called": [
-  "HOU-TN-04"
- ],
+ "newly_called": [],
  "uncalled_competitive": [
   "HOU-LA-05",
   "HOU-LA-06",
@@ -1100,10 +1098,17 @@
     "snapshot": "2026-11-25-am",
     "competitive_called": 102,
     "new": 0
+   },
+   {
+    "snapshot": "2026-11-26-am",
+    "competitive_called": 102,
+    "new": 0
    }
   ]
  },
- "problems": [],
+ "problems": [
+  "1 Google News queries failed (first: GOV-GA: RuntimeError: HTTP 429)"
+ ],
  "races": {
   "HOU-AL-01": {
    "key": "HOU-AL-01",
@@ -4855,21 +4860,21 @@
      "name": "Luke Bronin",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 67.3,
      "winner": true
     },
     {
      "name": "Amy Chai",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 31.0,
      "winner": false
     },
     {
      "name": "Mary Sanders",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 1.8,
      "winner": false
     }
    ],
@@ -4879,12 +4884,18 @@
     "name": "Luke Bronin",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 67.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Luke Bronin",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 67.3,
+    "winner": true
+   },
+   "margin_pts": 36.3,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -4904,14 +4915,14 @@
      "name": "Joe Courtney",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 62.3,
      "winner": true
     },
     {
      "name": "George Austin",
      "party": "R",
      "party_label": "Republican/IPC",
-     "pct": null,
+     "pct": 37.6,
      "winner": false
     }
    ],
@@ -4921,12 +4932,18 @@
     "name": "Joe Courtney",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 62.3,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Joe Courtney",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 62.3,
+    "winner": true
+   },
+   "margin_pts": 24.7,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -4946,21 +4963,21 @@
      "name": "Rosa DeLauro",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 61.2,
      "winner": true
     },
     {
      "name": "Chris Lancia",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 35.6,
      "winner": false
     },
     {
      "name": "Thomas Egan",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 3.0,
      "winner": false
     }
    ],
@@ -4970,12 +4987,18 @@
     "name": "Rosa DeLauro",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 61.2,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Rosa DeLauro",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 61.2,
+    "winner": true
+   },
+   "margin_pts": 25.6,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -4995,21 +5018,21 @@
      "name": "Jim Himes",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 65.6,
      "winner": true
     },
     {
      "name": "Michael Goldstein",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 32.5,
      "winner": false
     },
     {
      "name": "Benjamin Wesley",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 2.0,
      "winner": false
     }
    ],
@@ -5019,12 +5042,18 @@
     "name": "Jim Himes",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 65.6,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jim Himes",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 65.6,
+    "winner": true
+   },
+   "margin_pts": 33.1,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -5044,14 +5073,14 @@
      "name": "Jahana Hayes",
      "party": "D",
      "party_label": "Democratic/WFP",
-     "pct": null,
+     "pct": 57.9,
      "winner": true
     },
     {
      "name": "Chris Shea",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 42.2,
      "winner": false
     }
    ],
@@ -5061,12 +5090,18 @@
     "name": "Jahana Hayes",
     "party": "D",
     "party_label": "Democratic/WFP",
-    "pct": null,
+    "pct": 57.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jahana Hayes",
+    "party": "D",
+    "party_label": "Democratic/WFP",
+    "pct": 57.9,
+    "winner": true
+   },
+   "margin_pts": 15.7,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -8643,21 +8678,21 @@
      "name": "Christina Bohannan",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 53.0,
      "winner": true
     },
     {
      "name": "Mariannette Miller-Meeks",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 43.4,
      "winner": false
     },
     {
      "name": "Michael Bridgford",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 3.6,
      "winner": false
     }
    ],
@@ -8667,12 +8702,18 @@
     "name": "Christina Bohannan",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 53.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Christina Bohannan",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 53.0,
+    "winner": true
+   },
+   "margin_pts": 9.6,
+   "has_results": true,
    "final_rating": "Lean D",
    "final_score": -2,
    "competitive": true,
@@ -8692,28 +8733,28 @@
      "name": "Lindsay James",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 49.5,
      "winner": true
     },
     {
      "name": "Joe Mitchell",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 45.5,
      "winner": false
     },
     {
      "name": "Rick Stewart",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 2.7,
      "winner": false
     },
     {
      "name": "Dave Bushaw",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 2.2,
      "winner": false
     }
    ],
@@ -8723,12 +8764,18 @@
     "name": "Lindsay James",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 49.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Lindsay James",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 49.5,
+    "winner": true
+   },
+   "margin_pts": 4.0,
+   "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
@@ -8748,14 +8795,14 @@
      "name": "Sarah Trone Garriott",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 53.5,
      "winner": true
     },
     {
      "name": "Zach Nunn",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 46.2,
      "winner": false
     }
    ],
@@ -8765,12 +8812,18 @@
     "name": "Sarah Trone Garriott",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 53.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Sarah Trone Garriott",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 53.5,
+    "winner": true
+   },
+   "margin_pts": 7.3,
+   "has_results": true,
    "final_rating": "Lean D",
    "final_score": -2,
    "competitive": true,
@@ -8790,14 +8843,14 @@
      "name": "Chris McGowan",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 59.0,
      "winner": true
     },
     {
      "name": "David Dawson",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 40.9,
      "winner": false
     }
    ],
@@ -8807,12 +8860,18 @@
     "name": "Chris McGowan",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 59.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Chris McGowan",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 59.0,
+    "winner": true
+   },
+   "margin_pts": 18.1,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -10185,7 +10244,7 @@
    "key": "HOU-MD-05",
    "name": "MD-05",
    "chamber": "House",
-   "status_text": "Incumbent retiring. Democratic hold.",
+   "status_text": "Incumbent retired. Democratic hold.",
    "candidates": [
     {
      "name": "Adrian Boafo",
@@ -10792,49 +10851,49 @@
      "name": "Jack Bergman",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 53.8,
      "winner": true
     },
     {
      "name": "Callie Barr",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 44.2,
      "winner": false
     },
     {
      "name": "Arnett Satterla",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 0.7,
      "winner": false
     },
     {
      "name": "Liz Hakola",
      "party": "Working Clas",
      "party_label": "Working Class",
-     "pct": null,
+     "pct": 0.6,
      "winner": false
     },
     {
      "name": "Doc Kovaly",
      "party": "U.S. Taxpaye",
      "party_label": "U.S. Taxpayers",
-     "pct": null,
+     "pct": 0.3,
      "winner": false
     },
     {
      "name": "Zebulon Featherly",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 0.2,
      "winner": false
     },
     {
      "name": "LaVeta Davenport",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.2,
      "winner": false
     }
    ],
@@ -10844,12 +10903,18 @@
     "name": "Jack Bergman",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 53.8,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jack Bergman",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 53.8,
+    "winner": true
+   },
+   "margin_pts": 9.6,
+   "has_results": true,
    "final_rating": "Solid R",
    "final_score": 4,
    "competitive": false,
@@ -10869,28 +10934,28 @@
      "name": "John Moolenaar",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 61.5,
      "winner": true
     },
     {
      "name": "Ben Ambrose",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 37.0,
      "winner": false
     },
     {
      "name": "Charlotte Magoon",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 1.1,
      "winner": false
     },
     {
      "name": "Richard Sills",
      "party": "Natural Law",
      "party_label": "Natural Law",
-     "pct": null,
+     "pct": 0.5,
      "winner": false
     }
    ],
@@ -10900,12 +10965,18 @@
     "name": "John Moolenaar",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 61.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "John Moolenaar",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 61.5,
+    "winner": true
+   },
+   "margin_pts": 24.5,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -10925,21 +10996,21 @@
      "name": "Hillary Scholten",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 57.2,
      "winner": true
     },
     {
      "name": "Terri DeBoer",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 41.4,
      "winner": false
     },
     {
      "name": "Joe Jock",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 1.4,
      "winner": false
     }
    ],
@@ -10949,12 +11020,18 @@
     "name": "Hillary Scholten",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 57.2,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Hillary Scholten",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 57.2,
+    "winner": true
+   },
+   "margin_pts": 15.8,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -10974,21 +11051,21 @@
      "name": "Sean McCann",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 50.1,
      "winner": true
     },
     {
      "name": "Bill Huizenga",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 48.3,
      "winner": false
     },
     {
      "name": "Shafina Che Barnett",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 1.5,
      "winner": false
     }
    ],
@@ -10998,12 +11075,18 @@
     "name": "Sean McCann",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 50.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Sean McCann",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 50.1,
+    "winner": true
+   },
+   "margin_pts": 1.8,
+   "has_results": true,
    "final_rating": "Tossup",
    "final_score": 0,
    "competitive": true,
@@ -11023,35 +11106,35 @@
      "name": "Tim Walberg",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 59.1,
      "winner": true
     },
     {
      "name": "Christian Vukasovich",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 38.6,
      "winner": false
     },
     {
-     "name": "Ronald A. Muszynski",
+     "name": "Ronald Muszynski",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 1.0,
      "winner": false
     },
     {
-     "name": "Sharon M. Renier",
+     "name": "Sharon Renier",
      "party": "U.S. Taxpaye",
      "party_label": "U.S. Taxpayers",
-     "pct": null,
+     "pct": 1.0,
      "winner": false
     },
     {
      "name": "Jim Bronke",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.4,
      "winner": false
     }
    ],
@@ -11061,12 +11144,18 @@
     "name": "Tim Walberg",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 59.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Tim Walberg",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 59.1,
+    "winner": true
+   },
+   "margin_pts": 20.5,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11086,42 +11175,42 @@
      "name": "Debbie Dingell",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 67.5,
      "winner": true
     },
     {
      "name": "Heather Smiley",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 30.3,
      "winner": false
     },
     {
      "name": "Linda Rayburn",
      "party": "Working Clas",
      "party_label": "Working Class",
-     "pct": null,
+     "pct": 0.7,
      "winner": false
     },
     {
-     "name": "Timothy A. Tegan",
+     "name": "Timothy Tegan",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 0.7,
      "winner": false
     },
     {
      "name": "Clyde Shabazz",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.5,
      "winner": false
     },
     {
      "name": "Michael Mickevicius",
      "party": "U.S. Taxpaye",
      "party_label": "U.S. Taxpayers",
-     "pct": null,
+     "pct": 0.3,
      "winner": false
     }
    ],
@@ -11131,12 +11220,18 @@
     "name": "Debbie Dingell",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 67.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Debbie Dingell",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 67.5,
+    "winner": true
+   },
+   "margin_pts": 37.2,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11156,21 +11251,21 @@
      "name": "William Lawrence",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 51.1,
      "winner": true
     },
     {
      "name": "Tom Barrett",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 47.7,
      "winner": false
     },
     {
      "name": "Shane Dedrick",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 1.3,
      "winner": false
     }
    ],
@@ -11180,12 +11275,18 @@
     "name": "William Lawrence",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 51.1,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "William Lawrence",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 51.1,
+    "winner": true
+   },
+   "margin_pts": 3.4,
+   "has_results": true,
    "final_rating": "Lean D",
    "final_score": -2,
    "competitive": true,
@@ -11205,35 +11306,35 @@
      "name": "Kristen McDonald Rivet",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 55.5,
      "winner": true
     },
     {
      "name": "Thomas Smith",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 41.9,
      "winner": false
     },
     {
      "name": "Kathy Goodwin",
      "party": "Working Clas",
      "party_label": "Working Class",
-     "pct": null,
+     "pct": 1.5,
      "winner": false
     },
     {
-     "name": "Mia C. Pettus",
+     "name": "Mia Pettus",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 0.8,
      "winner": false
     },
     {
      "name": "Jim Casha",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.3,
      "winner": false
     }
    ],
@@ -11243,12 +11344,18 @@
     "name": "Kristen McDonald Rivet",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 55.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Kristen McDonald Rivet",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 55.5,
+    "winner": true
+   },
+   "margin_pts": 13.6,
+   "has_results": true,
    "final_rating": "Solid D",
    "final_score": -4,
    "competitive": false,
@@ -11268,42 +11375,42 @@
      "name": "Lisa McClain",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 62.6,
      "winner": true
     },
     {
      "name": "Ray Pooley",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 34.7,
      "winner": false
     },
     {
      "name": "Jim Walkowicz",
      "party": "Working Clas",
      "party_label": "Working Class",
-     "pct": null,
+     "pct": 1.0,
      "winner": false
     },
     {
      "name": "Kevin Vayko",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 0.9,
      "winner": false
     },
     {
      "name": "John Vlahos",
      "party": "U.S. Taxpaye",
      "party_label": "U.S. Taxpayers",
-     "pct": null,
+     "pct": 0.4,
      "winner": false
     },
     {
      "name": "Destiny Clayton",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.4,
      "winner": false
     }
    ],
@@ -11313,12 +11420,18 @@
     "name": "Lisa McClain",
     "party": "R",
     "party_label": "Republican",
-    "pct": null,
+    "pct": 62.6,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Lisa McClain",
+    "party": "R",
+    "party_label": "Republican",
+    "pct": 62.6,
+    "winner": true
+   },
+   "margin_pts": 27.9,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11338,35 +11451,35 @@
      "name": "Christina Hines",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 52.5,
      "winner": true
     },
     {
      "name": "Mike Bouchard Jr.",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 45.3,
      "winner": false
     },
     {
-     "name": "Andrea L. Kirby",
+     "name": "Andrea Kirby",
      "party": "Working Clas",
      "party_label": "Working Class",
-     "pct": null,
-     "winner": false
-    },
-    {
-     "name": "Kwabena Nkromo",
-     "party": "Green",
-     "party_label": "Green",
-     "pct": null,
+     "pct": 1.1,
      "winner": false
     },
     {
      "name": "Mike Saliba",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 0.9,
+     "winner": false
+    },
+    {
+     "name": "Kwabena Nkromo",
+     "party": "Green",
+     "party_label": "Green",
+     "pct": 0.3,
      "winner": false
     }
    ],
@@ -11376,12 +11489,18 @@
     "name": "Christina Hines",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 52.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Christina Hines",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 52.5,
+    "winner": true
+   },
+   "margin_pts": 7.2,
+   "has_results": true,
    "final_rating": "Lean D",
    "final_score": -2,
    "competitive": true,
@@ -11401,35 +11520,35 @@
      "name": "Jeremy Moss",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 60.9,
      "winner": true
     },
     {
      "name": "Ethan Baker",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 36.8,
      "winner": false
     },
     {
      "name": "Anil Kumar",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 0.8,
      "winner": false
     },
     {
      "name": "Farid Ishac",
      "party": "Libertarian",
      "party_label": "Libertarian",
-     "pct": null,
+     "pct": 0.8,
      "winner": false
     },
     {
      "name": "Ryan Teasdale",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.7,
      "winner": false
     }
    ],
@@ -11439,12 +11558,18 @@
     "name": "Jeremy Moss",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 60.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Jeremy Moss",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 60.9,
+    "winner": true
+   },
+   "margin_pts": 24.1,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11464,35 +11589,35 @@
      "name": "Rashida Tlaib",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 76.0,
      "winner": true
     },
     {
      "name": "James Hooper",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 21.2,
      "winner": false
     },
     {
      "name": "Gary Walkowicz",
      "party": "Working Clas",
      "party_label": "Working Class",
-     "pct": null,
+     "pct": 1.2,
      "winner": false
     },
     {
-     "name": "Brenda K. Sanders",
+     "name": "Brenda Sanders",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 1.0,
      "winner": false
     },
     {
-     "name": "Marc J. Sosnowski",
+     "name": "Marc Sosnowski",
      "party": "U.S. Taxpaye",
      "party_label": "U.S. Taxpayers",
-     "pct": null,
+     "pct": 0.6,
      "winner": false
     }
    ],
@@ -11502,12 +11627,18 @@
     "name": "Rashida Tlaib",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 76.0,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Rashida Tlaib",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 76.0,
+    "winner": true
+   },
+   "margin_pts": 54.8,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11527,35 +11658,35 @@
      "name": "Donavan McKinney",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 76.5,
      "winner": true
     },
     {
      "name": "T. P. Nykoriak",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 19.8,
      "winner": false
     },
     {
-     "name": "Simone R. Coleman",
+     "name": "Simone Coleman",
      "party": "Working Clas",
      "party_label": "Working Class",
-     "pct": null,
+     "pct": 2.1,
      "winner": false
     },
     {
      "name": "Chris Dardzinski",
      "party": "U.S. Taxpaye",
      "party_label": "U.S. Taxpayers",
-     "pct": null,
+     "pct": 1.0,
      "winner": false
     },
     {
      "name": "Raelyn Light",
      "party": "Green",
      "party_label": "Green",
-     "pct": null,
+     "pct": 0.6,
      "winner": false
     }
    ],
@@ -11565,12 +11696,18 @@
     "name": "Donavan McKinney",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 76.5,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Donavan McKinney",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 76.5,
+    "winner": true
+   },
+   "margin_pts": 56.7,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -11628,7 +11765,7 @@
    "key": "HOU-MN-02",
    "name": "MN-02",
    "chamber": "House",
-   "status_text": "Incumbent retiring to run for U.S. Senate. DFL hold.",
+   "status_text": "Incumbent retired to run for U.S. Senate. DFL hold.",
    "candidates": [
     {
      "name": "Matt Little",
@@ -13732,14 +13869,14 @@
      "name": "Melanie Stansbury",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 63.6,
      "winner": true
     },
     {
      "name": "Didi Okpareke",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 36.4,
      "winner": false
     }
    ],
@@ -13749,12 +13886,18 @@
     "name": "Melanie Stansbury",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 63.6,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Melanie Stansbury",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 63.6,
+    "winner": true
+   },
+   "margin_pts": 27.2,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -13774,14 +13917,14 @@
      "name": "Gabe Vasquez",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 58.8,
      "winner": true
     },
     {
      "name": "Greg Cunningham",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 41.2,
      "winner": false
     }
    ],
@@ -13791,12 +13934,18 @@
     "name": "Gabe Vasquez",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 58.8,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Gabe Vasquez",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 58.8,
+    "winner": true
+   },
+   "margin_pts": 17.6,
+   "has_results": true,
    "final_rating": "Likely D",
    "final_score": -3,
    "competitive": true,
@@ -13816,14 +13965,14 @@
      "name": "Teresa Leger Fernández",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 61.7,
      "winner": true
     },
     {
      "name": "Martin Zamora",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 38.3,
      "winner": false
     }
    ],
@@ -13833,12 +13982,18 @@
     "name": "Teresa Leger Fernández",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 61.7,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Teresa Leger Fernández",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 61.7,
+    "winner": true
+   },
+   "margin_pts": 23.4,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -17735,21 +17890,21 @@
      "name": "Gabe Amo",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 68.6,
      "winner": true
     },
     {
      "name": "Kellie Keenan",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 27.5,
      "winner": false
     },
     {
      "name": "Pedro DeSouza",
      "party": "I",
      "party_label": "Independent",
-     "pct": null,
+     "pct": 3.8,
      "winner": false
     }
    ],
@@ -17759,12 +17914,18 @@
     "name": "Gabe Amo",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 68.6,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Gabe Amo",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 68.6,
+    "winner": true
+   },
+   "margin_pts": 41.1,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -17784,14 +17945,14 @@
      "name": "Seth Magaziner",
      "party": "D",
      "party_label": "Democratic",
-     "pct": null,
+     "pct": 61.9,
      "winner": true
     },
     {
      "name": "Vic Mellor",
      "party": "R",
      "party_label": "Republican",
-     "pct": null,
+     "pct": 37.8,
      "winner": false
     }
    ],
@@ -17801,12 +17962,18 @@
     "name": "Seth Magaziner",
     "party": "D",
     "party_label": "Democratic",
-    "pct": null,
+    "pct": 61.9,
     "winner": true
    },
-   "leader": null,
-   "margin_pts": null,
-   "has_results": false,
+   "leader": {
+    "name": "Seth Magaziner",
+    "party": "D",
+    "party_label": "Democratic",
+    "pct": 61.9,
+    "winner": true
+   },
+   "margin_pts": 24.1,
+   "has_results": true,
    "final_rating": null,
    "final_score": null,
    "competitive": false,
@@ -24385,6 +24552,15 @@
     "flags": [
      "uncertain"
     ]
+   },
+   {
+    "title": "Minnesota election recounts begin Monday as 3 races stay too close to call",
+    "outlet": "AOL.co.uk",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUnhwZWpBTGs3cURwdjdSV2VaTmFkeXdDNXdSZDhrWFBIUVJEUlRpTHlwMWROTTBDekNkWm8xbXB5YlFGOU5pUWVNT3hIS1J6R2h2RERBYWh4dXB5d1pvSzdrNGprWWJsbENScTB1cWZrVzFBLVMxY25fVkd1eFI2SFhSYXhFanN0RHQ1b2pPRQ?oc=5",
+    "published": "2026-11-23T13:18:54+00:00",
+    "flags": [
+     "uncertain"
+    ]
    }
   ],
   "GOV-AK": [
@@ -24405,24 +24581,48 @@
     "flags": [
      "legal"
     ]
-   },
+   }
+  ],
+  "GOV-AZ": [
    {
-    "title": "Alabama Governor Election Live Results 2026",
+    "title": "Arizona Governor Election Live Results 2026",
     "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1xQXJ5Y2tPaUd0UjFBeUVpNzFtaDAxemZKc1czUVFiUnVUVGFkUDZ1ak5lcVNObV92RGlEOUFqblhzNW0wS2F2Z2wzYkRRcHVSREhrc25jcm5VZ2IzSG5KN2dBLVluYkgxNXBsRXdDLXNGU3Y0QlNz?oc=5",
-    "published": "2026-11-25T03:00:52+00:00",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzTUxjT2dTNlpZQmNGNlpMX3Q0aVd0MEFCYk1lY1lxNjE3V1hPSUYxZkhWVVBRZ1JvOWJreHhuSFhNLXVFbUlhalVhWTZLVU5pMDRiNnNuTnhoSGhRMnpYR2syMlRiNEJtZVgwSC1vQUJxTDVGSGFJ?oc=5",
+    "published": "2026-11-24T08:00:00+00:00",
     "flags": []
    }
   ],
-  "GOV-AZ": [],
-  "GOV-FL": [],
-  "GOV-GA": [],
+  "GOV-FL": [
+   {
+    "title": "Florida Governor Election 2026 Live Results: Byron Donalds Wins",
+    "outlet": "NBC News",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90bnlUZjRLWVk0dTlrU1h0TW1yLXpDV0dJdmY1cEo4TE1uS2hoWmlNODQ2M2h2NzgtZmN3VVZUeS1vUEYya2pHbGhXTGZhRHd2RVBDam4yY0tobGE5NlgyMmRiWDF2dzBWMEJwSjMzRG94VjUzZmxqcWNMR1Q?oc=5",
+    "published": "2026-11-25T16:48:04+00:00",
+    "flags": [
+     "call"
+    ]
+   },
+   {
+    "title": "2026 Governor Election Results",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZWHJqVGFrR1hzNVFwNjI1VVNqbzhXaWE4SVI5VEFYTDlSWllnY19Ha3E2WEFkMXRqaXludDhvUXVQaTR2NC1WeWFWNWpZQ3cwcWc0RXNTM3QtOFFKTGRLaTBENUNMXzlfd1RFUg?oc=5",
+    "published": "2026-11-24T08:00:00+00:00",
+    "flags": []
+   }
+  ],
   "GOV-IA": [
    {
-    "title": "Iowa Governor Election Live Results 2026",
+    "title": "2026 Iowa Midterm Election Results",
     "outlet": "AP News",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hbi15bExZTHNkekUwbEFhc0JDRDFnWWt0LTVTM0ZqaFY0ZkVUVWJXNzhtbmQ4c3pyNGtxQkowZGJacTh4M2x5cWNKZENXcGNIWUxlV1lwVk5RNm9BeVJIcTZmaWNBRjZYYU52RGVrZnRkREE?oc=5",
-    "published": "2026-11-25T10:00:12+00:00",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWekRBUExpay0xSTFGd1MzcU5kdTlyeFhQZFJFNmpialpkU1J1VDVNcHpjU2tvcURhSFZIUHJQSmVMRkdCVHIzWlNJQl9qVm5SYWVPQVBZQUZvTHRSby1PUjRHTkVUUmc?oc=5",
+    "published": "2026-11-24T08:00:00+00:00",
+    "flags": []
+   },
+   {
+    "title": "Iowa Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYmFvdEpiREZwV0Qwb2p2TXBXSFVObGJKYlNVUFdHRFI4dk1GRWc1bktLRVdqTmtyb0VFd2NQbTR6SlBOQXVsdHNzMjNEOEFtc1FSNlRnVzVmdTJhY0E2VnJDNGZpc180aXJJeXpNVWJoWXR4UEU3cldDb1J5Zm00M2RxOXhoT1NSSUE?oc=5",
+    "published": "2026-11-25T15:53:00+00:00",
     "flags": []
    }
   ],
@@ -24432,34 +24632,35 @@
     "title": "Michigan Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWkpKNlJldE9XdGpfd3hyLXZpQnIzVWo1R3IxVkJuZ3NTSU52MmF1UDgwQXRseHFIaVRyT1U1MlAwM3lVNktYTU9OUVF4ZHFiaUZNOV9adnRkUmVpNlVwd2NaSHJrUWZKcUFfdjdxS2YzYTd2X0IyTzlmd1VFUGNTbjJxNDRrc3NSQ2dtQ3FqTQ?oc=5",
-    "published": "2026-11-23T12:32:00+00:00",
+    "published": "2026-11-25T15:53:00+00:00",
     "flags": []
    }
   ],
   "GOV-MN": [],
-  "GOV-NE": [],
-  "GOV-NH": [],
-  "GOV-NV": [],
-  "GOV-OH": [],
-  "GOV-OK": [],
-  "GOV-OR": [],
-  "GOV-TX": [],
-  "GOV-VT": [
+  "GOV-NE": [
    {
-    "title": "2024 Vermont Governor Election Results - The Florida Times-Union",
-    "outlet": "The Florida Times-Union",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNclVHaG16d0tBNUFSd2Z0YjhyQklTZW0yV1U5aXpVNE5FdVlyNXgxVjI4YWZnUzdla1RFWWdBcWl5U1dIV2N1SjU3U3EwalRCZ003QnJ4V1owQ1VQeFdCVU12YTZsakxOMmR3dUdiWVFJNjMzOVZlUk9FSFdOa2RFdEQtT2ZHN2dR?oc=5",
-    "published": "2026-11-24T03:52:13+00:00",
-    "flags": []
-   },
-   {
-    "title": "Vermont Elections: Who Led In Prediction Markets",
+    "title": "Nebraska Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYzBOa0dIMkF0NzNQbUhHM0NuMTFxLWdyNC1HdTVCZ3NNY21EbGVBRWNGSHpXMzZoX0Rrd3dZRVZKbC1scXhtWEFfUlB5ZTNETk9HbW9wVkVucFlTRklkTnEwMjJEaWRORldSUXhBdkZaMi0wWkNXVHYyLUFERGppZm05SWUtZ1Y5aGNVc0F3?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSzFKSVdHR0VwdEdXbjVyY05kU3Q3MWxzd3RLd2dJUDJJZm9SU3dYSDhYVDV5alhLX2YzTVNUUDFraWdUclpEbFZtczIxLVNUY1JVVVk0ZWRtR2NIN3pLUDNSb2xONkkwLWRVZWRwTF80NGdRSThXcTlSSC1wYTBCUU9EQmFQU0JhWjFOVVM2UQ?oc=5",
+    "published": "2026-11-25T15:53:00+00:00",
+    "flags": []
+   }
+  ],
+  "GOV-NH": [],
+  "GOV-NV": [
+   {
+    "title": "Nevada Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVWZZZ1V1NzN1TkdpNGFkQlFSem9aOEd0RGZGSk9Xc0N1RjRGY1ZtVUdHMjhycVhUQi1BbDF4SGVnOEhMUWpGZkc2M1NLbUxLOGZwTW1XU1RKb0RCeXJkbTd4OXRCNWo3Z1lXT0lPcmc2NEw3WUp3TEJTcGNRYWFLWWU1VnF3c09Qa3hSdg?oc=5",
     "published": "2026-11-23T12:32:00+00:00",
     "flags": []
    }
   ],
+  "GOV-OH": [],
+  "GOV-OK": [],
+  "GOV-OR": [],
+  "GOV-TX": [],
+  "GOV-VT": [],
   "GOV-WI": []
  }
 }
