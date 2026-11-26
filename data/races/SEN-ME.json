@@ -355,38 +355,7 @@
  },
  "raw_poll_count": 20,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-23",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "Bangor Daily News",
-   "lean": "unrated",
-   "title": "Opinion: Susan Collins’ campaign reminded us that Maine has not outgrown longtime prejudices",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYlNlU3NHRTZ5dTNRNVJlMU1IUDZWZVhMdXczT1BqandON1lUWW43N2dwNlRaa2ZnSnFMd090Y2owcGloRlZ6WTRQY2c2TXBfLUswLTlEZlBsTzh0R0VLU2NETUlFX3dZRGVZUE5UMGhrMnQzbkJoaV9taVBOSnBtVlA1cmRBQWhJckV3dmpLbllxRm5ScW5kZ2ZtOFRYVU1Kc1M4VHdNOV9IaXhiRlAwaHh1WVBGX3A0ZnVPOWNUYzB5cjY3LUIteQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  },
-  {
-   "date": "2026-11-23",
-   "race": "SEN-ME",
-   "races": [
-    "SEN-ME"
-   ],
-   "type": "reporting",
-   "source": "Townhall",
-   "lean": "unrated",
-   "title": "Buyers' Remorse: Here's Why Maine Voters Are Starting to Regret Ousting Susan Collins",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbmwzcEkxMUJCNWVRS0hBRjlvUU1qYzZXSmxiNm12UWZoX0V0QWxSWWRaMXl0NHlWeWJ4V1Q3Qnd2aUpFZVpFRXFMNUx5aWduY010YnhiWTdfemhvRnA3Mm01MVo0ekVNNWx0TGdPOHBreGphOXhnR3pvNF8wLXZ1NDJFczl0RzFjNm9Pd183c0l0cEtDR1hLMQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/SEN-ME",
  "history": [
   {
@@ -616,6 +585,11 @@
   },
   {
    "date": "2026-11-25",
+   "c": -2,
+   "p": -4.2
+  },
+  {
+   "date": "2026-11-26",
    "c": -2,
    "p": -4.2
   }

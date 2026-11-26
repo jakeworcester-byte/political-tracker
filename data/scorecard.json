@@ -1,6 +1,6 @@
 {
- "run_date": "2026-11-25",
- "results_snapshot": "2026-11-25-am.json",
+ "run_date": "2026-11-26",
+ "results_snapshot": "2026-11-26-am.json",
  "ratings_frozen_from": "2026-11-03",
  "status": "ready",
  "competitive_called_pct": 98.4,
@@ -808,9 +808,9 @@
   ]
  },
  "polls": {
-  "races": 19,
-  "mean_abs_error": 3.8,
-  "mean_signed_error": -2.5,
+  "races": 23,
+  "mean_abs_error": 3.9,
+  "mean_signed_error": -2.4,
   "biggest_misses": [
    {
     "key": "HOU-AL-02",
@@ -834,18 +834,18 @@
     "error": -7.4
    },
    {
+    "key": "HOU-MI-10",
+    "race": "MI-10",
+    "poll_avg": 0.0,
+    "actual": -7.2,
+    "error": -7.2
+   },
+   {
     "key": "HOU-NC-01",
     "race": "NC-01",
     "poll_avg": -10.0,
     "actual": -3.4,
     "error": 6.6
-   },
-   {
-    "key": "SEN-NH",
-    "race": "New Hampshire Senate",
-    "poll_avg": -8.0,
-    "actual": -13.7,
-    "error": -5.7
    }
   ]
  },
