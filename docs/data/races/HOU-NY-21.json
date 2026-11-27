@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 4,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-21",
-   "race": "HOU-NY-21",
-   "races": [
-    "HOU-NY-21"
-   ],
-   "type": "reporting",
-   "source": "New York Focus",
-   "lean": "unrated",
-   "title": "NY-21 US House Results 2026",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUm80TUVGY29HTmxHUUdsbUxKWE1VUTlpb0t2RDdzZXF1TUhIVGFndFdfZXVTeHRfcGc5LXh1MjRnVEZfdnNQQ3JLVUx4V2g0TE16Z1ZJTE82NDdsWEhuSXlmSjBOZDFkTGZFUnhPZlBGZ2llMHpaenFUcEJWZWdkMXdRUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-21",
  "history": [
   {
@@ -339,6 +323,11 @@
   },
   {
    "date": "2026-11-26",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-27",
    "c": 2,
    "p": null
   }

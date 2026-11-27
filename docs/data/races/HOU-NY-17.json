@@ -142,23 +142,7 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-21",
-   "race": "HOU-NY-17",
-   "races": [
-    "HOU-NY-17"
-   ],
-   "type": "reporting",
-   "source": "New York Focus",
-   "lean": "unrated",
-   "title": "NY-17 US House Results 2026",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONU1GM1A2U21KZDM4a0JOVkdXWUo0VDZFLU9XWVk5NVY2NW9SMUJTbEFrYTh0dXJCM0E1UWRaSC1vOS1iaWZvZVhsNjY0aVhwYTFKZG45N3RoZEZManhMSzI4eDRVZVlCZG5fcFRCQlNfdF9wWFJJbFBjLTQ1N3M0emRPOA?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-NY-17",
  "history": [
   {
@@ -393,6 +377,11 @@
   },
   {
    "date": "2026-11-26",
+   "c": -2,
+   "p": -2.0
+  },
+  {
+   "date": "2026-11-27",
    "c": -2,
    "p": -2.0
   }
