@@ -88,23 +88,7 @@
  "poll": null,
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [
-  {
-   "date": "2026-11-24",
-   "race": "HOU-SC-01",
-   "races": [
-    "HOU-SC-01"
-   ],
-   "type": "reporting",
-   "source": "WCIV",
-   "lean": "unrated",
-   "title": "Runoff contests set in South Carolina 1st Congressional District",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSlVtd1dNY3dCcEMtNDZFYlljNzhTQ0ZkcEllSlltczR2Z2ZYWUNobXc4b1c0c3ZQcjJkYnM0SEh3YndscTdLTnoxTF9XeWRMckhxZ2EtSVJ4eHp4dHNGMjczWllUUmthcGxLNUVjN3EyRWR6RTZHdTVTbHZwSGVwdDljWDdfdnEzSWlKMGYzUkpNNF9pMEZ2bkY5b3Y1OWpvQkMyaHNkV0wzUGtmRXBfLWxrZnlXUQ?oc=5",
-   "summary": "",
-   "relevant": true,
-   "via": "Google News"
-  }
- ],
+ "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-SC-01",
  "history": [
   {
@@ -344,6 +328,11 @@
   },
   {
    "date": "2026-11-27",
+   "c": 2,
+   "p": null
+  },
+  {
+   "date": "2026-11-28",
    "c": 2,
    "p": null
   }

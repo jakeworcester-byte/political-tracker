@@ -135,33 +135,10 @@
       "pct": 34.0
      }
     ]
-   },
-   {
-    "pollster": "Texas Southern University Barbara Jordan Public Policy Research and Survey Center",
-    "end_date": "2026-07-30",
-    "margin": -11.0,
-    "n": 600,
-    "population": "lv",
-    "partisan": null,
-    "url": "https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a8debe648e3721adb0534b6/1787685864204/SouthTexasCDs2026.pdf",
-    "answers": [
-     {
-      "choice": "Henry Cuellar",
-      "pct": 45.0
-     },
-     {
-      "choice": "Tano Tijerina",
-      "pct": 34.0
-     },
-     {
-      "choice": "Marlón Durán",
-      "pct": 6.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 2,
+ "raw_poll_count": 1,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-TX-28",
@@ -403,6 +380,11 @@
   },
   {
    "date": "2026-11-27",
+   "c": -3,
+   "p": -20.0
+  },
+  {
+   "date": "2026-11-28",
    "c": -3,
    "p": -20.0
   }
