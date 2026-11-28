@@ -140,7 +140,23 @@
  },
  "raw_poll_count": 1,
  "trend": "Stable",
- "signals": [],
+ "signals": [
+  {
+   "date": "2026-11-27",
+   "race": "HOU-CO-03",
+   "races": [
+    "HOU-CO-03"
+   ],
+   "type": "reporting",
+   "source": "Denver Gazette",
+   "lean": "unrated",
+   "title": "Jeff Hurd mulls road ahead as Colorado’s lone Republican in Congress",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDFKRkdqb0JoMDJVbUdZN0R2N25qVXFTd2hNX1AyMGxUSEpUMlFPNld6Yk9pd0NNTFZnTTVrQkRZeG9CTzVybThxZnNDMnZSZGVMZ2MyWEFxVnd1TzJ4ZVRseklBbGF5NWN5Vi00MTB4cFdOd1RtZ1I2OGdBaTEtWFBiZFpYZVNScTM3ZEczeHNNcm03QU5qdU90WWE2ZlIxV2VJNTJvZ0RqRjFQT1E?oc=5",
+   "summary": "",
+   "relevant": true,
+   "via": "Google News"
+  }
+ ],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-CO-03",
  "history": [
   {
@@ -380,6 +396,11 @@
   },
   {
    "date": "2026-11-27",
+   "c": 2,
+   "p": -1.0
+  },
+  {
+   "date": "2026-11-28",
    "c": 2,
    "p": -1.0
   }

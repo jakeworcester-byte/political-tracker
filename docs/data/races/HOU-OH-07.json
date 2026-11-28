@@ -90,9 +90,9 @@
   ]
  },
  "poll": {
-  "average_margin": -7.0,
-  "average_label": "D+7.0",
-  "n_polls": 3,
+  "average_margin": -8.0,
+  "average_label": "D+8.0",
+  "n_polls": 2,
   "window_days": 21,
   "latest": {
    "pollster": "Bedrock Polling",
@@ -157,29 +157,10 @@
       "pct": 54.0
      }
     ]
-   },
-   {
-    "pollster": "Unknown (Reported by NOTUS)",
-    "end_date": "2026-07-30",
-    "margin": -5.0,
-    "n": null,
-    "population": null,
-    "partisan": "REP",
-    "url": "https://x.com/IAPolls2022/status/2083970139574129144",
-    "answers": [
-     {
-      "choice": "Max Miller",
-      "pct": 39.0
-     },
-     {
-      "choice": "Brian Poindexter",
-      "pct": 44.0
-     }
-    ]
    }
   ]
  },
- "raw_poll_count": 3,
+ "raw_poll_count": 2,
  "trend": "Stable",
  "signals": [],
  "site_url": "https://jakeworcester-byte.github.io/political-tracker/#race/HOU-OH-07",
@@ -423,6 +404,11 @@
    "date": "2026-11-27",
    "c": 0,
    "p": -7.0
+  },
+  {
+   "date": "2026-11-28",
+   "c": 0,
+   "p": -8.0
   }
  ]
 }

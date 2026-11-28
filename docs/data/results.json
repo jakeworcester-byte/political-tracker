@@ -1,8 +1,8 @@
 {
- "run_date": "2026-11-27",
+ "run_date": "2026-11-28",
  "edition": "am",
- "generated_at": "2026-11-27T11:10:36.849128+00:00",
- "previous_snapshot": "2026-11-26-am",
+ "generated_at": "2026-11-28T11:10:47.692976+00:00",
+ "previous_snapshot": "2026-11-27-am",
  "ratings_frozen_from": "2026-11-03",
  "sources": {
   "house": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
@@ -1106,6 +1106,11 @@
    },
    {
     "snapshot": "2026-11-27-am",
+    "competitive_called": 102,
+    "new": 0
+   },
+   {
+    "snapshot": "2026-11-28-am",
     "competitive_called": 102,
     "new": 0
    }
@@ -22643,7 +22648,7 @@
    "key": "SEN-AK",
    "name": "Alaska Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost re-election. Democratic gain.",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Mary Peltola",
@@ -22705,7 +22710,7 @@
    "key": "SEN-AR",
    "name": "Arkansas Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Tom Cotton",
@@ -22760,7 +22765,7 @@
    "key": "SEN-CO",
    "name": "Colorado Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "John Hickenlooper",
@@ -22836,7 +22841,7 @@
    "key": "SEN-DE",
    "name": "Delaware Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Chris Coons",
@@ -22884,7 +22889,7 @@
    "key": "SEN-GA",
    "name": "Georgia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Jon Ossoff",
@@ -22932,7 +22937,7 @@
    "key": "SEN-ID",
    "name": "Idaho Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Jim Risch",
@@ -23104,7 +23109,7 @@
    "key": "SEN-KS",
    "name": "Kansas Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost re-election. Democratic gain.",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Adam Hamilton",
@@ -23262,7 +23267,7 @@
    "key": "SEN-ME",
    "name": "Maine Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost re-election. Democratic gain.",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Troy Jackson",
@@ -23310,7 +23315,7 @@
    "key": "SEN-MA",
    "name": "Massachusetts Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Ed Markey",
@@ -23510,7 +23515,7 @@
    "key": "SEN-MS",
    "name": "Mississippi Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent lost re-election. Democratic gain.",
+   "status_text": "Incumbent lost reelection. Democratic gain.",
    "candidates": [
     {
      "name": "Scott Colom",
@@ -23627,7 +23632,7 @@
    "key": "SEN-NE",
    "name": "Nebraska Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Pete Ricketts",
@@ -23751,7 +23756,7 @@
    "key": "SEN-NJ",
    "name": "New Jersey Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Cory Booker",
@@ -23813,7 +23818,7 @@
    "key": "SEN-NM",
    "name": "New Mexico Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Ben Ray Luján",
@@ -23992,7 +23997,7 @@
    "key": "SEN-OR",
    "name": "Oregon Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Jeff Merkley",
@@ -24054,7 +24059,7 @@
    "key": "SEN-RI",
    "name": "Rhode Island Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Jack Reed",
@@ -24171,7 +24176,7 @@
    "key": "SEN-SD",
    "name": "South Dakota Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Mike Rounds",
@@ -24219,7 +24224,7 @@
    "key": "SEN-TN",
    "name": "Tennessee Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Bill Hagerty",
@@ -24378,7 +24383,7 @@
    "key": "SEN-VA",
    "name": "Virginia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Mark Warner",
@@ -24426,7 +24431,7 @@
    "key": "SEN-WV",
    "name": "West Virginia Senate",
    "chamber": "Senate",
-   "status_text": "Incumbent re-elected.",
+   "status_text": "Incumbent reelected.",
    "candidates": [
     {
      "name": "Shelley Moore Capito",
@@ -24527,61 +24532,39 @@
   }
  },
  "news": {
-  "HOU-LA-05": [],
-  "HOU-LA-06": [],
-  "HOU-MN-01": [],
-  "GOV-AK": [
+  "HOU-LA-05": [
    {
-    "title": "What comes next in Alaska after state certified the Senate results",
-    "outlet": "Democracy Docket",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURSdmNzUk9mbTAtN3JESmtfSDcyS2NBZEtYYTlYcXpIWEpMcThfeGZTWTlFMGVCQTRpRzEtSVFEczFTeXJNOXppeU1xV3p6WW9oT0ZiemgxN3NmcWt6S0w4UURnUU9HMUYwUXlyR2JKRU9yd1NFQUI2QW9tcTNIRnBuR05LdEdoSUVsYW9QU3lrdmdUQnhkMmN6UXFDbThTZEl4d09SN1NiR0pEUFY2MA?oc=5",
-    "published": "2026-11-24T16:19:27+00:00",
-    "flags": [
-     "legal"
-    ]
-   },
-   {
-    "title": "Alaska Division of Elections certifies 2026 election results",
-    "outlet": "Alaska Beacon",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSnN0TTlydFh6SnUycU1OZTNsVElUdTlEcFBmZmJhOF9zNWI3bDhreldKa0I4NDlqRmRoQ1NubmdVcVl1UmVhRV9SNTk0YnVsbkQtaEpITDdnRVRiS3JTTGp4d192SFhCVWJDZVlPQ092UXJBRGhJVGI1WnFtWndjSDlIVG93QmdRS0c2dEtSdkk4U3NnQkNja1V3X085UQ?oc=5",
-    "published": "2026-11-25T02:08:14+00:00",
-    "flags": [
-     "legal"
-    ]
+    "title": "Two state representatives vie to replace Julia Letlow in Louisiana congressional seat",
+    "outlet": "NOLA.com",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdW5HNkdlSUlsTWhCSkhPRTFRRFl1OEcxTFlZS093S2RoQUpiZzZQOS15RDViUWVaR2FKMG9oVVFOQWJBNmZldWFMXzhNdF9idlRXT1BpRDRLY0psUm9NTUNzbDMzVE1Kd3V3ckxRRnZvbWg2eWc5U0hhM0FDRk11LUt2c21iVHJwT0JkVTljRjZGU3UxVS1fa0xlSjh4VkpCMjhidzdtY0dsWDZUNVFlQkRtdG1fQWIzZTVNcHFhNWxIdS16aHE0VFJrNldlZ1lWUVBBTi1aeXpHUdIB3wFBVV95cUxOdGc1QUJTVVNqcFQwb2pMTmxZMWJKbkxSSF82VHJ0ei1kQ2s5NjF3SVlOM3Z0WDlHTXVHOGgyYUI0TFV6VmNHQUR2UTNfbk82c0tQRlBpZEVBWlF3VUtJR1ltMGFwX1loSnFUdDJHNWgtOC1Tb1VqdGFmWEo2RGYwUTdsMHFKR05YVDVIVHBieHpYTTVlaElfX2NFdHhRcG1TZjJpdlpLbEs4YUNqNkpBTjAzVTA4RUw5amU1SWxranlBelBVVGstU2pzQUpDM3BlSnF1TVJPQVhScC1ibHVZ?oc=5",
+    "published": "2026-11-27T18:00:00+00:00",
+    "flags": []
    }
   ],
+  "HOU-LA-06": [],
+  "HOU-MN-01": [],
+  "GOV-AK": [],
   "GOV-AZ": [],
   "GOV-FL": [
    {
-    "title": "Florida Governor Election 2026 Live Results: Byron Donalds Wins",
-    "outlet": "NBC News",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90bnlUZjRLWVk0dTlrU1h0TW1yLXpDV0dJdmY1cEo4TE1uS2hoWmlNODQ2M2h2NzgtZmN3VVZUeS1vUEYya2pHbGhXTGZhRHd2RVBDam4yY0tobGE5NlgyMmRiWDF2dzBWMEJwSjMzRG94VjUzZmxqcWNMR1Q?oc=5",
-    "published": "2026-11-25T16:48:04+00:00",
-    "flags": [
-     "call"
-    ]
+    "title": "2026 Florida Midterm Election Results",
+    "outlet": "AP News",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VNEhSb2JEUkpoOFdOVlNlNEJhcE5wS2drSmZvYzhhMXBwSEFGWTN0bDF2d2NKLUhKUjA2OXJaN3NsNkJReTdaU2V6cVczeTVjSkg3cnAtNklka1A1X09oV2dwdFhjN1RoTWxZ?oc=5",
+    "published": "2026-11-28T03:46:07+00:00",
+    "flags": []
    }
   ],
   "GOV-GA": [],
-  "GOV-IA": [],
-  "GOV-KS": [
+  "GOV-IA": [
    {
-    "title": "Kansas Elections: Who Led In Prediction Markets",
+    "title": "Iowa Elections: Who Led In Prediction Markets",
     "outlet": "Forbes",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcnRfeTZzRlQtMWVlMWJwUWpIbnpWSEVnUDdUZkljMnZoR2hjWkNsd3E4Zmp0SFFRdl9WN1JBcW42TndhcmNyMlNoeTMtcmJLV2FTNDFqTUt3OS0xRURHVnRHdnVzeUJEcHlfcE9HeUpBcHBiQzBtNWo2SUxLMnhUcFlNaFY3aXlNSS1yQg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYmFvdEpiREZwV0Qwb2p2TXBXSFVObGJKYlNVUFdHRFI4dk1GRWc1bktLRVdqTmtyb0VFd2NQbTR6SlBOQXVsdHNzMjNEOEFtc1FSNlRnVzVmdTJhY0E2VnJDNGZpc180aXJJeXpNVWJoWXR4UEU3cldDb1J5Zm00M2RxOXhoT1NSSUE?oc=5",
     "published": "2026-11-25T15:53:00+00:00",
     "flags": []
-   },
-   {
-    "title": "November 3, 2026 Election Results: Adam Hamilton defeats U.S. Sen. Roger Marshall",
-    "outlet": "KMBC",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPU3VPVzZsd3dOU2FYZjZJeU9XMzZGNGdqTnhNYm45REEyWFdOVDRyUUFNWE0zX0lKazJNYnlsNUNpTTN2YmNIdDNSa3V2T2I0TU9ESGIyazQ1LU9xazdIX0VnTnRkRVdHb2lHelV5d1JETkxmckpidElXekJBa2NaS2pUdG5DQkwtYWdnanFXd1hlc3oxVzE4Ylpn?oc=5",
-    "published": "2026-11-25T19:42:00+00:00",
-    "flags": [
-     "call"
-    ]
    }
   ],
+  "GOV-KS": [],
   "GOV-MI": [
    {
     "title": "Michigan Elections: Who Led In Prediction Markets",
@@ -24601,7 +24584,15 @@
     "flags": []
    }
   ],
-  "GOV-NH": [],
+  "GOV-NH": [
+   {
+    "title": "New Hampshire Elections: Who Led In Prediction Markets",
+    "outlet": "Forbes",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc016QWttUDc1ZFRKN0d1VnJkWDJJTkF1bHZDb0kwV1czRWkxV1V5NU1kTmZmckZkeHVpSUMyZzA0VTUxeS1KV3NYZy1OdEQxb2J5SXQtd3hOSFVOMDJvZFBXelh0T2FLQ1c5MW8xNjhzX3NhUzgxVlhIRjhRYmEtYW1adnRWaVpUbnJ3azltdTkwUG01T1E?oc=5",
+    "published": "2026-11-25T15:53:00+00:00",
+    "flags": []
+   }
+  ],
   "GOV-NV": [
    {
     "title": "Nevada Elections: Who Led In Prediction Markets",
@@ -24630,15 +24621,7 @@
     "flags": []
    }
   ],
-  "GOV-TX": [
-   {
-    "title": "Texas Governor 2026: Live Election Results, Abbott vs. Hinojosa",
-    "outlet": "The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZGNrbUhJdTcxdF9WdkZBMTZtMmVFcUYwUF9uTk1qckw0d3hnaEdKdG91dm1YSXJGYUs4bC1kOXJUUG1JTG1XUFFuT1VPTUJwVnBMSmFKdnAyZGVmNUw3aWhSMGNVajdTbFpoM2RGMUFMcDRWWmVEYWJRM0pUbnZnYzFlWDNucW14Q1pySGF5aU0?oc=5",
-    "published": "2026-11-25T02:02:00+00:00",
-    "flags": []
-   }
-  ],
+  "GOV-TX": [],
   "GOV-VT": [],
   "GOV-WI": [
    {

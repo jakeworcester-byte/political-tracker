@@ -1,0 +1,464 @@
+{
+ "date": "2026-11-28",
+ "since": "2026-11-25",
+ "token_env": "COURTLISTENER_TOKEN",
+ "requests": 3,
+ "status": "ok",
+ "errors": [],
+ "dockets": [
+  {
+   "query": "suitNature:\"Civil Rights: Voting\"",
+   "count": 16,
+   "page2": false,
+   "items": [
+    {
+     "case": "STENSTROM v. SCHMIDT",
+     "court": "District Court, E.D. Pennsylvania",
+     "docket_number": "2:26-cv-08946",
+     "date_filed": "2026-11-23",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75167735/stenstrom-v-schmidt/",
+     "entries": [
+      {
+       "date": "2026-11-27",
+       "entry_number": 7,
+       "description": "Summons Returned Executed",
+       "url": "https://www.courtlistener.com/docket/75167735/7/stenstrom-v-schmidt/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 6,
+       "description": "Summons Issued",
+       "url": "https://www.courtlistener.com/docket/75167735/6/stenstrom-v-schmidt/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 5,
+       "description": "Filing Fee Received",
+       "url": "https://www.courtlistener.com/docket/75167735/5/stenstrom-v-schmidt/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Singleton v. Jefferson Parish Board of Election Supervisors",
+     "court": "District Court, E.D. Louisiana",
+     "docket_number": "2:26-cv-01168",
+     "date_filed": "2026-06-01",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73424411/singleton-v-jefferson-parish-board-of-election-supervisors/",
+     "entries": [
+      {
+       "date": "2026-11-27",
+       "entry_number": 35,
+       "description": "Amended Complaint",
+       "url": "https://www.courtlistener.com/docket/73424411/35/singleton-v-jefferson-parish-board-of-election-supervisors/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "LIU v. Secretary of the U.S. Department of Commerce",
+     "court": "District Court, S.D. New York",
+     "docket_number": "1:26-cv-02496",
+     "date_filed": "2026-03-26",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73055684/liu-v-secretary-of-the-us-department-of-commerce/",
+     "entries": [
+      {
+       "date": "2026-11-27",
+       "entry_number": 35,
+       "description": "Extension of Time",
+       "url": "https://www.courtlistener.com/docket/73055684/35/liu-v-secretary-of-the-us-department-of-commerce/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Stilley v. Shelly",
+     "court": "District Court, W.D. Arkansas",
+     "docket_number": "2:26-cv-02183",
+     "date_filed": "2026-11-19",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75146277/stilley-v-shelly/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 16,
+       "description": "Memorandum Brief in Support",
+       "url": "https://www.courtlistener.com/docket/75146277/16/stilley-v-shelly/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 15,
+       "description": "Exhibit B 2023 WL 6801049",
+       "url": "https://www.courtlistener.com/docket/75146277/15/2/stilley-v-shelly/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 15,
+       "description": "Exhibit A 2022 WL 1929112",
+       "url": "https://www.courtlistener.com/docket/75146277/15/1/stilley-v-shelly/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Haury v. Matthews",
+     "court": "District Court, C.D. Illinois",
+     "docket_number": "3:26-cv-03397",
+     "date_filed": "2026-11-17",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75131258/haury-v-matthews/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 13,
+       "description": "Miscellaneous Relief",
+       "url": "https://www.courtlistener.com/docket/75131258/13/haury-v-matthews/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 18,
+       "description": "Certificate of Service",
+       "url": "https://www.courtlistener.com/docket/75131258/18/haury-v-matthews/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 17,
+       "description": "Notice (Other)",
+       "url": "https://www.courtlistener.com/docket/75131258/17/haury-v-matthews/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Chamber of Commerce of the United States of America v. Knudsen",
+     "court": "District Court, D. Montana",
+     "docket_number": "6:26-cv-00075",
+     "date_filed": "2026-11-12",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/75112572/chamber-of-commerce-of-the-united-states-of-america-v-knudsen/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 42,
+       "description": "Notice of Acknowledgment of Pro Hac Vice Order - MT",
+       "url": "https://www.courtlistener.com/docket/75112572/42/chamber-of-commerce-of-the-united-states-of-america-v-knudsen/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "NORTH CAROLINA ALLIANCE FOR RETIRED AMERICANS v. NORTH CAROLINA STATE BOARD OF ELECTIONS",
+     "court": "District Court, M.D. North Carolina",
+     "docket_number": "1:26-cv-00965",
+     "date_filed": "2026-09-22",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74832111/north-carolina-alliance-for-retired-americans-v-north-carolina-state-board/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": null,
+       "description": "Motions Referred",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Red Wine & Blue v. Frank LaRose",
+     "court": "Court of Appeals for the Sixth Circuit",
+     "docket_number": "26-3813",
+     "date_filed": "2026-09-08",
+     "suit_nature": "2441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74762684/red-wine-blue-v-frank-larose/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 37,
+       "description": "court order filed",
+       "url": "https://www.courtlistener.com/docket/74762684/37/red-wine-blue-v-frank-larose/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "United States v. Secretary Commonwealth of Pennsylvania",
+     "court": "Court of Appeals for the Third Circuit",
+     "docket_number": "26-2684",
+     "date_filed": "2026-07-07",
+     "suit_nature": "1441 Civil Rights Voting",
+     "url": "https://www.courtlistener.com/docket/73582123/united-states-v-secretary-commonwealth-of-pennsylvania/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 78,
+       "description": "Amicus Brief on the Merits",
+       "url": "https://www.courtlistener.com/docket/73582123/78/united-states-v-secretary-commonwealth-of-pennsylvania/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 77,
+       "description": "Appearance Form",
+       "url": "https://www.courtlistener.com/docket/73582123/77/united-states-v-secretary-commonwealth-of-pennsylvania/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Don Wagner v. Shirley N. Weber",
+     "court": "District Court, C.D. California",
+     "docket_number": "8:26-cv-01263",
+     "date_filed": "2026-05-20",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73369639/don-wagner-v-shirley-n-weber/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 49,
+       "description": "Reply (Motion related)",
+       "url": "https://www.courtlistener.com/docket/73369639/49/don-wagner-v-shirley-n-weber/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 48,
+       "description": "Deficiency in Filed Documents (G-112A) - optional html form",
+       "url": "https://www.courtlistener.com/docket/73369639/48/don-wagner-v-shirley-n-weber/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Lawler v. City of Wasilla",
+     "court": "District Court, D. Alaska",
+     "docket_number": "3:25-cv-00360",
+     "date_filed": "2025-12-18",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/72063718/lawler-v-city-of-wasilla/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 46,
+       "description": "Reply to Response to Motion",
+       "url": "https://www.courtlistener.com/docket/72063718/46/lawler-v-city-of-wasilla/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Calhoon v. Type of Business Entity is Unknown",
+     "court": "District Court, S.D. California",
+     "docket_number": "3:25-cv-03660",
+     "date_filed": "2025-12-18",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/72057190/calhoon-v-type-of-business-entity-is-unknown/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 26,
+       "description": "USCA Time Schedule Order",
+       "url": "https://www.courtlistener.com/docket/72057190/26/calhoon-v-type-of-business-entity-is-unknown/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 25,
+       "description": "USCA Case Number",
+       "url": "https://www.courtlistener.com/docket/72057190/25/calhoon-v-type-of-business-entity-is-unknown/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters of Louisiana v. Landry",
+     "court": "District Court, M.D. Louisiana",
+     "docket_number": "3:25-cv-00413",
+     "date_filed": "2025-05-14",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/70261779/league-of-women-voters-of-louisiana-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 130,
+       "description": "Stay Discovery",
+       "url": "https://www.courtlistener.com/docket/70261779/130/league-of-women-voters-of-louisiana-v-landry/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Lopez v. County of Stanislaus",
+     "court": "District Court, E.D. California",
+     "docket_number": "2:25-cv-01175",
+     "date_filed": "2025-04-22",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/69930273/lopez-v-county-of-stanislaus/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": null,
+       "description": "Minute Order AND ~Util - 1 Set/Reset Deadlines and Hearings",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "State of Washington v. Trump",
+     "court": "District Court, W.D. Washington",
+     "docket_number": "2:25-cv-00602",
+     "date_filed": "2025-04-04",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/69845185/state-of-washington-v-trump/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 147,
+       "description": "Brief",
+       "url": "https://www.courtlistener.com/docket/69845185/147/state-of-washington-v-trump/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Nairne v. Ardoin",
+     "court": "District Court, M.D. Louisiana",
+     "docket_number": "3:22-cv-00178",
+     "date_filed": "2022-03-14",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/63158322/nairne-v-ardoin/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 385,
+       "description": "Stay",
+       "url": "https://www.courtlistener.com/docket/63158322/385/nairne-v-ardoin/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 387,
+       "description": "Proposed Scheduling Order",
+       "url": "https://www.courtlistener.com/docket/63158322/387/nairne-v-ardoin/"
+      },
+      {
+       "date": "2026-11-25",
+       "entry_number": 385,
+       "description": "Proposed Order",
+       "url": "https://www.courtlistener.com/docket/63158322/385/2/nairne-v-ardoin/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  },
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\" OR \"election commission\")",
+   "count": 6,
+   "page2": false,
+   "items": [
+    {
+     "case": "Singleton v. Jefferson Parish Board of Election Supervisors",
+     "court": "District Court, E.D. Louisiana",
+     "docket_number": "2:26-cv-01168",
+     "date_filed": "2026-06-01",
+     "suit_nature": "Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/73424411/singleton-v-jefferson-parish-board-of-election-supervisors/",
+     "entries": [
+      {
+       "date": "2026-11-27",
+       "entry_number": 35,
+       "description": "Amended Complaint",
+       "url": "https://www.courtlistener.com/docket/73424411/35/singleton-v-jefferson-parish-board-of-election-supervisors/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "NORTH CAROLINA ALLIANCE FOR RETIRED AMERICANS v. NORTH CAROLINA STATE BOARD OF ELECTIONS",
+     "court": "District Court, M.D. North Carolina",
+     "docket_number": "1:26-cv-00965",
+     "date_filed": "2026-09-22",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/74832111/north-carolina-alliance-for-retired-americans-v-north-carolina-state-board/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": null,
+       "description": "Motions Referred",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "Dominion Voting Systems Corporation v. My Pillow, Inc.",
+     "court": "Court of Appeals for the D.C. Circuit",
+     "docket_number": "26-7168",
+     "date_filed": "2026-08-25",
+     "suit_nature": "3320 Assault, Libel, and Slander",
+     "url": "https://www.courtlistener.com/docket/74696601/dominion-voting-systems-corporation-v-my-pillow-inc/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 1208912228,
+       "description": "Order Filed (CLERK)",
+       "url": "https://www.courtlistener.com/docket/74696601/01208912228/dominion-voting-systems-corporation-v-my-pillow-inc/"
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "BERNEGGER v. FEDERAL ELECTION COMMISSION",
+     "court": "District Court, District of Columbia",
+     "docket_number": "1:25-cv-04563",
+     "date_filed": "2025-12-31",
+     "suit_nature": "440 Civil Rights: Other",
+     "url": "https://www.courtlistener.com/docket/72099893/bernegger-v-federal-election-commission/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": null,
+       "description": ".Order",
+       "url": ""
+      }
+     ],
+     "more_docs": false
+    },
+    {
+     "case": "League of Women Voters of Louisiana v. Landry",
+     "court": "District Court, M.D. Louisiana",
+     "docket_number": "3:25-cv-00413",
+     "date_filed": "2025-05-14",
+     "suit_nature": "441 Civil Rights: Voting",
+     "url": "https://www.courtlistener.com/docket/70261779/league-of-women-voters-of-louisiana-v-landry/",
+     "entries": [
+      {
+       "date": "2026-11-25",
+       "entry_number": 130,
+       "description": "Stay Discovery",
+       "url": "https://www.courtlistener.com/docket/70261779/130/league-of-women-voters-of-louisiana-v-landry/"
+      }
+     ],
+     "more_docs": false
+    }
+   ]
+  }
+ ],
+ "opinions": [
+  {
+   "query": "caseName:(election OR elections OR ballot OR ballots OR voter OR voters OR voting OR canvass OR canvassers OR \"board of elections\")",
+   "count": 1,
+   "page2": false,
+   "items": [
+    {
+     "case": "Alabama State Conference of the NAACP, League of Women Voters of Alabama, League of Women Voters of Alabama Education Fund, Greater Birming…",
+     "court": "Supreme Court of Alabama",
+     "docket_number": "SC-2025-1006",
+     "date_filed": "2026-11-25",
+     "url": "https://www.courtlistener.com/opinion/11072065/alabama-state-conference-of-the-naacp-league-of-women-voters-of-alabama/",
+     "snippet": "Rel: November 25, 2026 Notice: This opinion is subject to formal revision before publication in the advance sheets of Southern Reporter. Readers are requested to notify the Reporter of Decisions, Alabama Appellate Court…"
+    }
+   ]
+  }
+ ]
+}
